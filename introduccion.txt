@@ -1,0 +1,5 @@
+This code allow create semantic indexes to the Internet of Things. It´s designed to indexing the sensors of any repository (IoT servers) , and then expose the functionality through a web services with a set of methods well defined to support the semantic Web of Things applications.
+
+The context of the semantic index is selected with domain ontologies. The solution use the ontology (provided by the user) to create the semantic index, so if the ontology is in the context of ambiental pollution, then the created index allow searching of sensors in the context of ambiental pollution and so on, therefore is posible to create a several sematic indexes in differents contexts, in most of cases, the same resource sensor can be used for different application goals.
+
+The services exposed by the semantic index it´s grouped in four categories: 
