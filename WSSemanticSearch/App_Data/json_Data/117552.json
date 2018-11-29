@@ -1,0 +1,1743 @@
+{
+  "Conceptos": [
+    "wind"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "117552",
+    "title": "Bryden Weather Station (BWS01)",
+    "Private": false,
+    "tags": [
+      "Ambient Noise",
+      "Australia",
+      "Barometric Pressure",
+      "Battery Voltage",
+      "Bryden",
+      "Crossdale",
+      "Dundas",
+      "Humidity",
+      "Illuminance",
+      "Lightning",
+      "Mount Byron",
+      "Queensland",
+      "Rainfall",
+      "Somerset Dam",
+      "Temperature",
+      "Ultraviolet Radiation",
+      "Weather",
+      "Wind Direction",
+      "Wind Gust",
+      "Wivenhoe Dam"
+    ],
+    "description": "Weather data for cows",
+    "feed": "https://api.xively.com/v2/feeds/117552.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:07:07",
+    "created": "03/06/2013 05:06:57",
+    "creator": "https://xively.com/users/webdude",
+    "version": null,
+    "website": "http://www.thewebdudes.com/BWS01",
+    "datastreams": [
+      {
+        "id": "1",
+        "current_value": "19.5",
+        "at": "03/21/2014 14:06:45",
+        "max_value": "3278.3",
+        "min_value": "0.0",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "99",
+        "at": "03/21/2014 14:06:45",
+        "max_value": "255.0",
+        "min_value": "0.0",
+        "tags": [
+          "Humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "0.2",
+        "at": "03/21/2014 14:06:45",
+        "max_value": "15.8",
+        "min_value": "0.0",
+        "tags": [
+          "Wind Average Speed Vector Averaging"
+        ],
+        "unit": {
+          "symbol": "km/h",
+          "label": "km/h",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "180",
+        "at": "03/21/2014 14:06:45",
+        "max_value": "360.0",
+        "min_value": "0.0",
+        "tags": [
+          "Wind Average Direction Vector Averaging"
+        ],
+        "unit": {
+          "symbol": "°",
+          "label": "degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "0.0",
+        "at": "03/21/2014 14:06:45",
+        "max_value": "156.5",
+        "min_value": "0.0",
+        "tags": [
+          "Gust Wind Speed - WH3081"
+        ],
+        "unit": {
+          "symbol": "km/h",
+          "label": "km/h",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "0.0",
+        "at": "03/21/2014 14:06:45",
+        "max_value": "92.8",
+        "min_value": "0.0",
+        "tags": [
+          "Average Wind Speed - WH3081"
+        ],
+        "unit": {
+          "symbol": "km/h",
+          "label": "km/h",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "7",
+        "current_value": "376.8",
+        "at": "03/21/2014 14:06:45",
+        "max_value": "19635.9",
+        "min_value": "0.0",
+        "tags": [
+          "Rainfall"
+        ],
+        "unit": {
+          "symbol": "mm",
+          "label": "millimeters",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "8",
+        "current_value": "0",
+        "at": "03/21/2014 14:06:45",
+        "max_value": "224.0",
+        "min_value": "0.0",
+        "tags": [
+          "Ultraviolet Radiation"
+        ],
+        "unit": {
+          "symbol": "UVs",
+          "label": "UV Index",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "9",
+        "current_value": "0",
+        "at": "03/21/2014 14:06:45",
+        "max_value": "315.2081",
+        "min_value": "-267.5097",
+        "tags": [
+          "Lux"
+        ],
+        "unit": {
+          "symbol": "kLux",
+          "label": "kLux",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "10",
+        "current_value": "11.7",
+        "at": "03/21/2014 14:06:45",
+        "max_value": "14.9",
+        "min_value": "-13.7",
+        "tags": [
+          "Battery Voltage (Minimum)"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": "volts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "11",
+        "current_value": "1018.02",
+        "at": "03/21/2014 14:06:03",
+        "max_value": "10265.6",
+        "min_value": "640.2",
+        "tags": [
+          "Barometric Pressure"
+        ],
+        "unit": {
+          "symbol": "hPa",
+          "label": "hectopascals",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "12",
+        "current_value": "30.1",
+        "at": "03/21/2014 14:06:45",
+        "max_value": "3316.8",
+        "min_value": "0.5",
+        "tags": [
+          "Case Temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "13",
+        "current_value": "0.0",
+        "at": "03/21/2014 14:06:45",
+        "max_value": "90.0",
+        "min_value": "0.0",
+        "tags": [
+          "Daily Rainfall (Since Midnight)"
+        ],
+        "unit": {
+          "symbol": "mm",
+          "label": "millimeters",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "14",
+        "current_value": "0.0",
+        "at": "03/21/2014 14:06:45",
+        "max_value": "90.0",
+        "min_value": "0.0",
+        "tags": [
+          "Hourly Rainfall"
+        ],
+        "unit": {
+          "symbol": "mm",
+          "label": "millimeters",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "15",
+        "current_value": "39",
+        "at": "03/21/2014 14:06:45",
+        "max_value": "33171.0",
+        "min_value": "0.0",
+        "tags": [
+          "Ambient Noise Peak"
+        ],
+        "unit": {
+          "symbol": "noise",
+          "label": "noise",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "16",
+        "current_value": "4999",
+        "at": "03/21/2014 14:06:45",
+        "max_value": "4999.0",
+        "min_value": "20.0",
+        "tags": [
+          "Lightning Distance (Minimum)"
+        ],
+        "unit": {
+          "symbol": "m",
+          "label": "meters",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "17",
+        "current_value": "0",
+        "at": "03/21/2014 14:06:45",
+        "max_value": "99.0",
+        "min_value": "0.0",
+        "tags": [
+          "Lightning Strikes"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "number",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "18",
+        "current_value": "180",
+        "at": "03/21/2014 14:02:07",
+        "max_value": "337.0",
+        "min_value": "0.0",
+        "tags": [
+          "Average Wind Direction - WH3081"
+        ],
+        "unit": {
+          "symbol": "°",
+          "label": "degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "19",
+        "current_value": "19.3",
+        "at": "03/21/2014 14:06:45",
+        "max_value": "3309.3",
+        "min_value": "-20.0",
+        "tags": [
+          "Dew Point"
+        ],
+        "unit": {
+          "symbol": "°",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "20",
+        "current_value": "8.10",
+        "at": "03/21/2014 14:06:45",
+        "max_value": "226.9",
+        "min_value": "0.0",
+        "tags": [
+          "Hours Running"
+        ],
+        "unit": {
+          "symbol": "hr",
+          "label": "Hours",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "21",
+        "current_value": "21",
+        "at": "03/21/2014 14:06:45",
+        "max_value": "99.0",
+        "min_value": "0.0",
+        "tags": [
+          "Lightning Count fail attempts"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "number",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "22",
+        "current_value": "0",
+        "at": "03/21/2014 14:06:45",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "Lightning sensor state"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "23",
+        "current_value": "0",
+        "at": "03/21/2014 14:06:45",
+        "max_value": "2490.14",
+        "min_value": "-2113.33",
+        "tags": [
+          "Watts per Meter"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "24",
+        "current_value": "0.2",
+        "at": "03/21/2014 14:06:45",
+        "max_value": "18.3",
+        "min_value": "0.0",
+        "tags": [
+          "Average Wind (of the averages) last 15 minutes"
+        ],
+        "unit": {
+          "symbol": "km/h",
+          "label": "km/h",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "25",
+        "current_value": "75",
+        "at": "03/21/2014 14:06:45",
+        "max_value": "1351.0",
+        "min_value": "0.0",
+        "tags": [
+          "Datapoints per Hour"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "number/hr",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "26",
+        "current_value": "30",
+        "at": "03/21/2014 14:06:45",
+        "max_value": "880.0",
+        "min_value": "0.0",
+        "tags": [
+          "Ambient Noise Average"
+        ],
+        "unit": {
+          "symbol": "noise",
+          "label": "noise",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "27",
+        "current_value": "0",
+        "at": "03/21/2014 14:06:45",
+        "max_value": "255.0",
+        "min_value": "0.0",
+        "tags": [
+          "Reception Error Flag"
+        ],
+        "unit": {
+          "symbol": "flag",
+          "label": "flag",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "28",
+        "current_value": "38",
+        "at": "03/21/2014 14:06:45",
+        "max_value": "91.0",
+        "min_value": "0.0",
+        "tags": [
+          "BoAM Internal Humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "29",
+        "current_value": "5.17",
+        "at": "03/21/2014 14:06:45",
+        "max_value": "14230.0",
+        "min_value": "0.0",
+        "tags": [
+          "Arduino Running Time"
+        ],
+        "unit": {
+          "symbol": "Hr",
+          "label": "Hours",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "30",
+        "current_value": "4.82",
+        "at": "03/21/2014 14:06:45",
+        "max_value": "126.5",
+        "min_value": "0.0",
+        "tags": [
+          "RG11 Rainfall"
+        ],
+        "unit": {
+          "symbol": "mm",
+          "label": "mm",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "31",
+        "current_value": "0.00",
+        "at": "03/21/2014 14:06:45",
+        "max_value": "170.28",
+        "min_value": "0.0",
+        "tags": [
+          "RG11 Rainfall Hourly"
+        ],
+        "unit": {
+          "symbol": "mm",
+          "label": "mm",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "32",
+        "current_value": "0.00",
+        "at": "03/21/2014 14:06:45",
+        "max_value": "256.95",
+        "min_value": "0.0",
+        "tags": [
+          "RG11 Rainfall Daily (since Midnight)"
+        ],
+        "unit": {
+          "symbol": "mm",
+          "label": "mm",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "33",
+        "current_value": "22.9",
+        "at": "03/21/2014 14:06:45",
+        "max_value": "50579698.9",
+        "min_value": "-4.0",
+        "tags": [
+          "Apparent Temperature"
+        ],
+        "unit": {
+          "symbol": "°",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "34",
+        "current_value": "0.8",
+        "at": "03/21/2014 14:06:45",
+        "max_value": "27.0",
+        "min_value": "0.0",
+        "tags": [
+          "Average Wind (of the gusts) last 15 minutes"
+        ],
+        "unit": {
+          "symbol": "km/h",
+          "label": "km/h",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "35",
+        "current_value": "0.81",
+        "at": "03/21/2014 14:06:45",
+        "max_value": "93.0",
+        "min_value": "-1.1",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "36",
+        "current_value": "0",
+        "at": "03/21/2014 14:06:45",
+        "max_value": "48.0",
+        "min_value": "0.0",
+        "tags": [
+          "Lightning Strikes per Hour"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "number",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "37",
+        "current_value": "0.053",
+        "at": "03/21/2014 14:06:45",
+        "max_value": "220.678",
+        "min_value": "0.025",
+        "tags": [
+          "php MYSQL Insert Time"
+        ],
+        "unit": {
+          "symbol": "s",
+          "label": "Seconds",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "38",
+        "current_value": "0.011",
+        "at": "03/21/2014 14:06:45",
+        "max_value": "39.709",
+        "min_value": "0.004",
+        "tags": [
+          "php MYSQL Query Time"
+        ],
+        "unit": {
+          "symbol": "s",
+          "label": "Seconds",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "39",
+        "current_value": "2.1",
+        "at": "03/21/2014 14:06:45",
+        "max_value": "30.0",
+        "min_value": "0.1",
+        "tags": [
+          "php Total  Run Time"
+        ],
+        "unit": {
+          "symbol": "s",
+          "label": "Seconds",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "40",
+        "current_value": "0",
+        "at": "03/21/2014 14:06:45",
+        "max_value": "3509.094",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "Whr/m2",
+          "label": "daily watt hours per m^2",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "41",
+        "current_value": "0.013",
+        "at": "03/21/2014 14:06:45",
+        "max_value": "111.325",
+        "min_value": "0.0",
+        "tags": [
+          "daily wind run"
+        ],
+        "unit": {
+          "symbol": "km",
+          "label": "kilometers",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "42",
+        "current_value": "13",
+        "at": "03/21/2014 14:06:45",
+        "max_value": "46.0",
+        "min_value": "0.0",
+        "tags": [
+          "Geiger Counter (Counts per minute)"
+        ],
+        "unit": {
+          "symbol": "cpm",
+          "label": "number",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "43",
+        "current_value": "17",
+        "at": "03/21/2014 14:06:45",
+        "max_value": "17200.0",
+        "min_value": "0.0",
+        "tags": [
+          "Geiger Counter (30 minute average)"
+        ],
+        "unit": {
+          "symbol": "cpm",
+          "label": "number",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "44",
+        "current_value": "19.9",
+        "at": "03/21/2014 14:06:45",
+        "max_value": "415.0",
+        "min_value": "0.0",
+        "tags": [
+          "AUX Case Temp"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "45",
+        "current_value": "20.8",
+        "at": "03/21/2014 14:06:45",
+        "max_value": "246.0",
+        "min_value": "0.0",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "46",
+        "current_value": "22.9",
+        "at": "03/21/2014 14:06:45",
+        "max_value": "347.0",
+        "min_value": "0.0",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "47",
+        "current_value": "22",
+        "at": "03/21/2014 14:06:45",
+        "max_value": "906.0",
+        "min_value": "0.0",
+        "tags": [
+          "Rain 3"
+        ],
+        "unit": {
+          "symbol": "mm",
+          "label": "mm",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "48",
+        "current_value": "0",
+        "at": "03/21/2014 14:06:45",
+        "max_value": "25.0",
+        "min_value": "0.0",
+        "tags": [
+          "Lightning Count"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "number",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "49",
+        "current_value": "88",
+        "at": "03/21/2014 14:06:45",
+        "max_value": "1023.0",
+        "min_value": "0.0",
+        "tags": [
+          "Static Level"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "50",
+        "current_value": "18",
+        "at": "03/21/2014 14:06:45",
+        "max_value": "68969.0",
+        "min_value": "-174.0",
+        "tags": [
+          "Sensor Read to Post Delay"
+        ],
+        "unit": {
+          "symbol": "s",
+          "label": "Seconds",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "51",
+        "current_value": "5",
+        "at": "03/21/2014 14:06:45",
+        "max_value": "102.0",
+        "min_value": "0.0",
+        "tags": [
+          "Air Particle Count"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "count",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "52",
+        "current_value": "1138",
+        "at": "03/21/2014 14:06:45",
+        "max_value": "26082.0",
+        "min_value": "0.0",
+        "tags": [
+          "Amount of Particulates  in the Air"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "53",
+        "current_value": "0.000",
+        "at": "03/21/2014 14:06:45",
+        "max_value": "179.0",
+        "min_value": "0.0",
+        "tags": [
+          "Hourly Rainfall"
+        ],
+        "unit": {
+          "symbol": "mm",
+          "label": "mm",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "54",
+        "current_value": "0.000",
+        "at": "03/21/2014 14:06:45",
+        "max_value": "787.1",
+        "min_value": "0.0",
+        "tags": [
+          "Daily Rainfall"
+        ],
+        "unit": {
+          "symbol": "mm",
+          "label": "mm",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "55",
+        "current_value": "0",
+        "at": "03/21/2014 14:06:45",
+        "max_value": "340.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "RPM",
+          "label": "RPM",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "56",
+        "current_value": "1585",
+        "at": "03/21/2014 14:06:45",
+        "max_value": "15155.0",
+        "min_value": "0.0",
+        "tags": [
+          "Average Amount of Particulates in the Air"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "57",
+        "current_value": "89",
+        "at": "03/21/2014 14:06:45",
+        "max_value": "1023.0",
+        "min_value": "0.0",
+        "tags": [
+          "Average Static Level"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "58",
+        "current_value": "201.00",
+        "at": "03/21/2014 14:06:45",
+        "max_value": "1571.15",
+        "min_value": "0.0",
+        "tags": [
+          "AUX2 Running Time"
+        ],
+        "unit": {
+          "symbol": "Hours",
+          "label": "Hours",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "59",
+        "current_value": "0.58",
+        "at": "03/21/2014 14:06:03",
+        "max_value": "71.36",
+        "min_value": "0.0",
+        "tags": [
+          "XBEE Running Time"
+        ],
+        "unit": {
+          "symbol": "Hours",
+          "label": "Hours",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "60",
+        "current_value": "23.5",
+        "at": "03/21/2014 14:06:03",
+        "max_value": "57.2",
+        "min_value": "7.9",
+        "tags": [
+          "XBEE Temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "61",
+        "current_value": "1014.5",
+        "at": "03/21/2014 14:06:03",
+        "max_value": "10262.0",
+        "min_value": "636.6",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "62",
+        "current_value": "46.5",
+        "at": "03/21/2014 14:06:03",
+        "max_value": "673.5",
+        "min_value": "0.0",
+        "tags": [
+          "XBEE Interval Timing"
+        ],
+        "unit": {
+          "symbol": "S",
+          "label": "Seconds",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "63",
+        "current_value": "67",
+        "at": "03/21/2014 14:06:03",
+        "max_value": "1022.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "64",
+        "current_value": "0",
+        "at": "03/21/2014 14:06:03",
+        "max_value": "326.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "65",
+        "current_value": "18.9",
+        "at": "03/21/2014 14:06:03",
+        "max_value": "85.0",
+        "min_value": "0.0",
+        "tags": [
+          "Soils Temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "66",
+        "current_value": "18.9",
+        "at": "03/21/2014 14:06:03",
+        "max_value": "1767.0",
+        "min_value": "0.0",
+        "tags": [
+          "AUX2 Temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "67",
+        "current_value": "87",
+        "at": "03/21/2014 14:06:03",
+        "max_value": "884.09",
+        "min_value": "0.0",
+        "tags": [
+          "AUX2 LiPo Baterry SOC"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "68",
+        "current_value": "86",
+        "at": "03/21/2014 14:06:45",
+        "max_value": "473.0",
+        "min_value": "0.0",
+        "tags": [
+          "Seismic Battery SOC"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "69",
+        "current_value": "0",
+        "at": "03/21/2014 14:06:45",
+        "max_value": "172.0",
+        "min_value": "0.0",
+        "tags": [
+          "Franklin Lightning Count"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "70",
+        "current_value": "49",
+        "at": "03/21/2014 14:06:45",
+        "max_value": "490.1",
+        "min_value": "0.0",
+        "tags": [
+          "Franklin Lightning Distance"
+        ],
+        "unit": {
+          "symbol": "km",
+          "label": "km",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "71",
+        "current_value": "0.1",
+        "at": "03/21/2014 14:06:45",
+        "max_value": "255.0",
+        "min_value": "0.0",
+        "tags": [
+          "Franklin Lightning Noise Count"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "72",
+        "current_value": "0.1",
+        "at": "03/21/2014 14:06:45",
+        "max_value": "90.0",
+        "min_value": "0.0",
+        "tags": [
+          "Franklin Lightning Disturber Count"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "73",
+        "current_value": "49",
+        "at": "03/21/2014 14:06:03",
+        "max_value": "99.0",
+        "min_value": "0.0",
+        "tags": [
+          "AUX2 Case Humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "74",
+        "current_value": "7",
+        "at": "03/21/2014 14:06:03",
+        "max_value": "16014.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "75",
+        "current_value": "7",
+        "at": "03/21/2014 14:06:03",
+        "max_value": "978.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "76",
+        "current_value": "15",
+        "at": "03/21/2014 14:06:03",
+        "max_value": "896.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "77",
+        "current_value": "13.539",
+        "at": "03/21/2014 14:06:03",
+        "max_value": "1637.0",
+        "min_value": "-1836.461",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "78",
+        "current_value": "153.847",
+        "at": "03/21/2014 14:06:03",
+        "max_value": "7279.0",
+        "min_value": "-2112.31",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "79",
+        "current_value": "85.559",
+        "at": "03/21/2014 14:06:03",
+        "max_value": "8184.0",
+        "min_value": "-1945.263",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "80",
+        "current_value": "64",
+        "at": "03/21/2014 14:06:45",
+        "max_value": "7168.0",
+        "min_value": "-15.8",
+        "tags": [
+          "Ambient Sound Level Peak"
+        ],
+        "unit": {
+          "symbol": "db",
+          "label": "db",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "81",
+        "current_value": "89.700",
+        "at": "03/21/2014 14:06:45",
+        "max_value": "209.7",
+        "min_value": "0.0",
+        "tags": [
+          "Yearly Rainfall TB"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "82",
+        "current_value": "87.120",
+        "at": "03/21/2014 14:06:45",
+        "max_value": "155.28",
+        "min_value": "0.0",
+        "tags": [
+          "Yearly Rainfall RG11"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "83",
+        "current_value": "102.362",
+        "at": "03/21/2014 14:06:45",
+        "max_value": "235.068",
+        "min_value": "0.0",
+        "tags": [
+          "Yearly Rainfall Rainwise"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "84",
+        "current_value": "18",
+        "at": "03/21/2014 14:06:03",
+        "max_value": "119.0",
+        "min_value": "-35.0",
+        "tags": [
+          "Magnetometer Die Temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "85",
+        "current_value": "150.8",
+        "at": "03/21/2014 14:06:45",
+        "max_value": "1624.6",
+        "min_value": "-1613.8",
+        "tags": [
+          "Mag X Offset RAW"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "86",
+        "current_value": "671.2",
+        "at": "03/21/2014 14:06:45",
+        "max_value": "1295.05",
+        "min_value": "-1613.3",
+        "tags": [
+          "Mag Y Offset RAW"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "87",
+        "current_value": "702.3",
+        "at": "03/21/2014 14:06:45",
+        "max_value": "5384.0",
+        "min_value": "-1385.7",
+        "tags": [
+          "Mag Z Offset RAW"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "88",
+        "current_value": "0.078",
+        "at": "03/21/2014 14:06:45",
+        "max_value": "39939.805",
+        "min_value": "0.0",
+        "tags": [
+          "Smoke Accumulation Daily"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "89",
+        "current_value": "0.169",
+        "at": "03/21/2014 14:06:45",
+        "max_value": "30.474",
+        "min_value": "0.0",
+        "tags": [
+          "Radiation Daily"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Counts Per Day",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "90",
+        "current_value": "0",
+        "at": "03/21/2014 14:06:45",
+        "max_value": "62043.0",
+        "min_value": "-23119.0",
+        "tags": [
+          "Lightning Energy Relative"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "91",
+        "current_value": "12.53",
+        "at": "03/21/2014 14:06:45",
+        "max_value": "1235.0",
+        "min_value": "0.0",
+        "tags": [
+          "Battery Volts"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": "Volts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "92",
+        "current_value": "-0.097",
+        "at": "03/21/2014 14:06:45",
+        "max_value": "100.517",
+        "min_value": "-20.814",
+        "tags": [
+          "Battery Charge Daily"
+        ],
+        "unit": {
+          "symbol": "Ahr",
+          "label": "Amp Hours",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "93",
+        "current_value": "12.52",
+        "at": "03/21/2014 14:06:45",
+        "max_value": "14.69",
+        "min_value": "-12.32",
+        "tags": [
+          "Average Battery Volts"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": "Volts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "94",
+        "current_value": "-0.81",
+        "at": "03/21/2014 14:06:45",
+        "max_value": "95.0",
+        "min_value": "-13.51",
+        "tags": [
+          "Average Current"
+        ],
+        "unit": {
+          "symbol": "A",
+          "label": "Amps",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "95",
+        "current_value": "0.00",
+        "at": "03/21/2014 14:06:45",
+        "max_value": "1596.0",
+        "min_value": "0.0",
+        "tags": [
+          "Panel Volts"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": "Volts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "96",
+        "current_value": "0.00",
+        "at": "03/21/2014 14:06:45",
+        "max_value": "12.93",
+        "min_value": "-0.98",
+        "tags": [
+          "Panel Current"
+        ],
+        "unit": {
+          "symbol": "A",
+          "label": "Amps",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "97",
+        "current_value": "16.691",
+        "at": "03/21/2014 14:06:45",
+        "max_value": "1640.508",
+        "min_value": "0.0",
+        "tags": [
+          "Absolute Humidity"
+        ],
+        "unit": {
+          "symbol": "g/m^3",
+          "label": "g/m^3",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "98",
+        "current_value": "45",
+        "at": "03/21/2014 14:06:45",
+        "max_value": "1022.0",
+        "min_value": "15.0",
+        "tags": [
+          "Lightning Maximum Nosie"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "99",
+        "current_value": "4999",
+        "at": "03/21/2014 14:06:45",
+        "max_value": "4999.0",
+        "min_value": "20.0",
+        "tags": [
+          "Lightning Distance 30 minute minimum"
+        ],
+        "unit": {
+          "symbol": "m",
+          "label": "m",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "100",
+        "current_value": "0",
+        "at": "03/21/2014 14:06:45",
+        "max_value": "798.0",
+        "min_value": "0.0",
+        "tags": [
+          "MPPT PWM %"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "101",
+        "current_value": "3",
+        "at": "03/21/2014 14:06:45",
+        "max_value": "1023.0",
+        "min_value": "2.0",
+        "tags": [
+          "Seismic Activity"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "102",
+        "current_value": "754.15",
+        "at": "03/21/2014 14:06:45",
+        "max_value": "754.15",
+        "min_value": "0.01",
+        "tags": [
+          "Run Time Seismic"
+        ],
+        "unit": {
+          "symbol": "Hr",
+          "label": "Hours",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "103",
+        "current_value": "28.2",
+        "at": "03/21/2014 14:06:45",
+        "max_value": "368.0",
+        "min_value": "0.0",
+        "tags": [
+          "Seismometer Temp"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "104",
+        "current_value": "0",
+        "at": "03/21/2014 14:06:45",
+        "max_value": "409.4",
+        "min_value": "0.0",
+        "tags": [
+          "Solar Panel Watts"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "105",
+        "current_value": "0",
+        "at": "03/21/2014 14:06:45",
+        "max_value": "117.0",
+        "min_value": "0.0",
+        "tags": [
+          "Seismic Peak Count"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "106",
+        "current_value": "0",
+        "at": "03/21/2014 14:06:45",
+        "max_value": "3994.0",
+        "min_value": "0.0",
+        "tags": [
+          "Seismic Peak period"
+        ],
+        "unit": {
+          "symbol": "ms",
+          "label": "MilliSeconds",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "107",
+        "current_value": "500.0",
+        "at": "03/21/2014 14:06:45",
+        "max_value": "521.5",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Bryden, QLD Australia",
+      "domain": 0,
+      "lat": "-27.208066",
+      "lon": "152.591203",
+      "ele": "300",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/117552\" >Bryden Weather Station (BWS01)</a>",
+    "URLMostrar": "https://xively.com/feeds/117552"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\117552.json",
+  "DocumentJSON": null
+}

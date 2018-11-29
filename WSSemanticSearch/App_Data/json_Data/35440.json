@@ -1,0 +1,54 @@
+{
+  "Conceptos": [
+    "sensing"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "35440",
+    "title": "Sensing the output voltage to detect light",
+    "Private": false,
+    "tags": [
+      "ARCH1391"
+    ],
+    "description": "The aim of modul 1 is using LED as both light emmiter and light sensor.  When LED as a sensor, the voltage of the LED will be change while it receiving the reflected light. The feed shows the output data from the my arduino digitalport that is actually the voltage of the Led,  we can detect if there is light reflect back to LED by sensing the output voltage.\r\n\r\n",
+    "feed": "https://api.xively.com/v2/feeds/35440.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "10/13/2011 11:36:19",
+    "created": "09/10/2011 08:15:03",
+    "creator": "https://xively.com/users/guo",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "0.0",
+        "at": "10/13/2011 11:36:19",
+        "max_value": "1023.0",
+        "min_value": "0.0",
+        "tags": [
+          "LED sensor"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "UNSW, Sydney, NSW,Australia",
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/35440\" >Sensing the output voltage to detect light</a>",
+    "URLMostrar": "https://xively.com/feeds/35440"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\35440.json",
+  "DocumentJSON": null
+}

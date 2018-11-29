@@ -1,0 +1,88 @@
+{
+  "Conceptos": [
+    "ozone"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "23733",
+    "title": "Air Quality Index: Springfield, Missouri",
+    "Private": false,
+    "tags": [
+      "airnow:cityid=106",
+      "webscrape"
+    ],
+    "description": "Air Quality Index and pollutant data for Springfield, Missouri webscraped from http://www.airnow.gov/. AIRNow observational data are not fully verified or validated; these data are subject to change and should be considered preliminary. If observational data are used for analyses, displayed on web pages, or used for other programs or products, the analysis results, displays, or products must indicate that these data are preliminary.",
+    "feed": "https://api.xively.com/v2/feeds/23733.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/21/2014 13:39:05",
+    "created": "04/19/2011 10:35:14",
+    "creator": "https://xively.com/users/air_now",
+    "version": null,
+    "website": "http://www.airnow.gov/",
+    "datastreams": [
+      {
+        "id": "aqi",
+        "current_value": "72",
+        "at": "03/21/2014 13:39:05",
+        "max_value": "130.0",
+        "min_value": "0.0",
+        "tags": [
+          "air quality index",
+          "pollution"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "ozone",
+        "current_value": "31",
+        "at": "03/21/2014 13:39:05",
+        "max_value": "116.0",
+        "min_value": "0.0",
+        "tags": [
+          "ozone"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "pm2.5",
+        "current_value": "72",
+        "at": "03/21/2014 13:39:05",
+        "max_value": "152.0",
+        "min_value": "0.0",
+        "tags": [
+          "PM2.5"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Springfield, Missouri",
+      "domain": 0,
+      "lat": "37.215326",
+      "lon": "-93.2982436",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/23733\" >Air Quality Index: Springfield, Missouri</a>",
+    "URLMostrar": "https://xively.com/feeds/23733"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\23733.json",
+  "DocumentJSON": null
+}

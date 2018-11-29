@@ -1,0 +1,74 @@
+{
+  "Conceptos": [
+    "pst"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "28855",
+    "title": "My Geiger Bot Feed",
+    "Private": false,
+    "tags": [
+      "Geiger Counter",
+      "japan",
+      "nagaoka",
+      "niigata",
+      "radiation"
+    ],
+    "description": "■Feed from a hand-made Geiger counter (Soviet-Russian GM tube SBM-20)\r\n■Placed indoor,at north window-side,upstairs. Center of the Nagaoka city.\r\n■193.63Km from Fukushima 1 Nuclear Power Plant.\r\n\r\n■自作ガイガーカウンターによる放射線計測（ロシア製ＧＭ管　SBM-20使用）\r\n■ほぼ長岡の中心地、木造室内北向き2階の窓際にて計測。\r\n■計測場所は、福島第一原子力発電所より直線で約193.63キロメートル。\r\n\r\n",
+    "feed": "https://api.xively.com/v2/feeds/28855.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "11/06/2011 02:06:48",
+    "created": "06/26/2011 23:42:49",
+    "creator": "https://xively.com/users/acky",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "34",
+        "current_value": "0.15",
+        "at": "11/06/2011 02:06:48",
+        "max_value": "2.52",
+        "min_value": "0.0",
+        "tags": [
+          "test"
+        ],
+        "unit": {
+          "symbol": "µSv/h",
+          "label": "microsieverts per hour",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "35",
+        "current_value": "20",
+        "at": "11/06/2011 02:06:48",
+        "max_value": "741.0",
+        "min_value": "0.0",
+        "tags": [
+          "test"
+        ],
+        "unit": {
+          "symbol": "CPM",
+          "label": "counts per minute",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "37.45055931",
+      "lon": "138.85074222",
+      "ele": "-36.9",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/28855\" >My Geiger Bot Feed</a>",
+    "URLMostrar": "https://xively.com/feeds/28855"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\28855.json",
+  "DocumentJSON": null
+}

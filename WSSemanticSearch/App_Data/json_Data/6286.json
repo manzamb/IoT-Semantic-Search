@@ -1,0 +1,244 @@
+{
+  "Conceptos": [
+    "frequency"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "6286",
+    "title": "ISDAS revised",
+    "Private": false,
+    "tags": null,
+    "description": "Data acquisition for The Island School",
+    "feed": "https://api.xively.com/v2/feeds/6286.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "07/07/2011 18:45:58",
+    "created": "03/15/2010 03:35:00",
+    "creator": "https://xively.com/users/islandschool",
+    "version": null,
+    "website": "http://islandschool.org",
+    "datastreams": [
+      {
+        "id": "temperature",
+        "current_value": "73.6",
+        "at": "12/20/2010 15:31:34",
+        "max_value": "96.1",
+        "min_value": "-6.5",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "windspeed",
+        "current_value": "15.86",
+        "at": "12/20/2010 15:31:34",
+        "max_value": "36.2",
+        "min_value": "0.0",
+        "tags": [
+          "speed",
+          "wind"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "mph",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "irradiance",
+        "current_value": "596.0",
+        "at": "12/20/2010 15:31:34",
+        "max_value": "1542.0",
+        "min_value": "-172.0",
+        "tags": [
+          "irradiance"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "W/m^2",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "consumption",
+        "current_value": "13.7031235694885",
+        "at": "07/07/2011 18:45:58",
+        "max_value": "36.8744983673096",
+        "min_value": "0.0",
+        "tags": [
+          "campus",
+          "IS",
+          "power"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "kW",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "production",
+        "current_value": "10.6224002838135",
+        "at": "07/07/2011 18:45:58",
+        "max_value": "25.1520023345947",
+        "min_value": "0.0",
+        "tags": [
+          "campus",
+          "IS",
+          "power"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "kW",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "frequency",
+        "current_value": "60.0",
+        "at": "07/07/2011 18:45:58",
+        "max_value": "77.0",
+        "min_value": "0.0",
+        "tags": [
+          "frequency"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Hz",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "voltage",
+        "current_value": "116.700004577637",
+        "at": "07/07/2011 18:45:58",
+        "max_value": "127.099998474121",
+        "min_value": "0.0",
+        "tags": [
+          "campus",
+          "voltage"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "V",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "energy",
+        "current_value": "181812.304382324",
+        "at": "07/07/2011 18:45:58",
+        "max_value": "181812.304382324",
+        "min_value": "94721.1327819824",
+        "tags": [
+          "campus",
+          "cumulative",
+          "energy"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "kWh",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "is-wind",
+        "current_value": "1.31069684028625",
+        "at": "07/07/2011 18:45:58",
+        "max_value": "12.4575247764587",
+        "min_value": "0.0",
+        "tags": [
+          "power",
+          "wind"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "kW",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "is-bec",
+        "current_value": "3.08072328567505",
+        "at": "07/07/2011 18:45:58",
+        "max_value": "35.7651234865189",
+        "min_value": "-21.5937483310699",
+        "tags": [
+          "power",
+          "utility"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "kW",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "cei-production",
+        "current_value": "8.7",
+        "at": "02/24/2011 03:31:22",
+        "max_value": "30.6",
+        "min_value": "0.0",
+        "tags": [
+          "campus",
+          "CEI",
+          "power"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "kW",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "is-generator",
+        "current_value": "0.0",
+        "at": "07/07/2011 18:45:58",
+        "max_value": "16.9982490539551",
+        "min_value": "0.0",
+        "tags": [
+          "biodiesel",
+          "campus",
+          "generator",
+          "IS",
+          "power"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "kW",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Cape Eleuthera, The Bahamas",
+      "domain": 0,
+      "lat": "24.8318440412415",
+      "lon": "-76.3292741775513",
+      "ele": "0",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/6286\" >ISDAS revised</a>",
+    "URLMostrar": "https://xively.com/feeds/6286"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\6286.json",
+  "DocumentJSON": null
+}

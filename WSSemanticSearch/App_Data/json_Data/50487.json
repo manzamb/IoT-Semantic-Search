@@ -1,0 +1,73 @@
+{
+  "Conceptos": [
+    "contract"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "50487",
+    "title": "netduino temperature and humidity monitor",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "c#",
+      "gsiot",
+      "humidity",
+      "netduino",
+      "netduino plus",
+      "SHT21",
+      "temperature"
+    ],
+    "description": "sends the temperature and humidity from a netduino plus attached to an SHT21 temperature and humidity sensor, sends updates to Cosm every 30 seconds",
+    "feed": "https://api.xively.com/v2/feeds/50487.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:13:01",
+    "created": "03/05/2012 04:01:09",
+    "creator": "https://xively.com/users/contractorwolf",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "humidity",
+        "current_value": "35.50",
+        "at": "03/21/2014 14:13:00",
+        "max_value": "118.51",
+        "min_value": "19.39",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temperature",
+        "current_value": "73.69",
+        "at": "03/21/2014 14:13:00",
+        "max_value": "262.73046875",
+        "min_value": "56.39675",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "indian land, sc",
+      "domain": 0,
+      "lat": "35.1354504063345",
+      "lon": "-80.993237217962",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/50487\" >netduino temperature and humidity monitor</a>",
+    "URLMostrar": "https://xively.com/feeds/50487"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\50487.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,108 @@
+{
+  "Conceptos": [
+    "co2"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "1784532193",
+    "title": "SolderCore with AirSensor CO2 Shield",
+    "Private": false,
+    "tags": [
+      "Air Pressure",
+      "AirSensor",
+      "CO2 Shield",
+      "Dew Point",
+      "RH",
+      "SolderCore",
+      "Temperature"
+    ],
+    "description": "SolderCore is an Arduino Shield compatible web connected MCU powered by onboard CoreBasic.",
+    "feed": "https://api.xively.com/v2/feeds/1784532193.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:15:00",
+    "created": "05/15/2013 18:39:26",
+    "creator": "https://xively.com/users/archimetrics",
+    "version": null,
+    "website": "http://www.airsensor.co.uk",
+    "datastreams": [
+      {
+        "id": "1",
+        "current_value": "538",
+        "at": "03/21/2014 14:15:00",
+        "max_value": "57285.0",
+        "min_value": "0.0",
+        "tags": [
+          "CO2"
+        ],
+        "unit": {
+          "symbol": "ppm",
+          "label": "ppm",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "29.42",
+        "at": "03/21/2014 14:15:00",
+        "max_value": "35.65",
+        "min_value": "0.0",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "31.45",
+        "at": "03/21/2014 14:15:00",
+        "max_value": "75.2",
+        "min_value": "0.0",
+        "tags": [
+          "RH"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "10.77",
+        "at": "03/21/2014 14:15:00",
+        "max_value": "19.68",
+        "min_value": "0.0",
+        "tags": [
+          "Dew Point"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "50.6230605383615",
+      "lon": "-3.58170775696635",
+      "ele": "70",
+      "exposure": 1,
+      "disposition": 1
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/1784532193\" >SolderCore with AirSensor CO2 Shield</a>",
+    "URLMostrar": "https://xively.com/feeds/1784532193"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\1784532193.json",
+  "DocumentJSON": null
+}

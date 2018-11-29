@@ -1,0 +1,89 @@
+{
+  "Conceptos": [
+    "sensor output"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "6113",
+    "title": "GSRinput",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/6113.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "06/08/2010 14:21:18",
+    "created": "03/06/2010 02:11:19",
+    "creator": "https://xively.com/users/daniyyel",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "0.0",
+        "at": "03/16/2010 21:26:31",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "analogRead0",
+          "GSR",
+          "GSRoutput",
+          "lightSensor"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "0.0",
+        "at": "03/16/2010 21:26:31",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "button",
+          "digitalRead2"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "0.0",
+        "at": "03/16/2010 21:26:31",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "button2",
+          "digitalRead5"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "34.4329652268984",
+      "lon": "-119.8388671875",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/6113\" >GSRinput</a>",
+    "URLMostrar": "https://xively.com/feeds/6113"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\6113.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,296 @@
+{
+  "Conceptos": [
+    "collection"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "98993",
+    "title": "kitchenpi@G7RUH",
+    "Private": false,
+    "tags": [
+      "boiler use",
+      "energy",
+      "gas",
+      "model A",
+      "Raspberry Pi",
+      "temp"
+    ],
+    "description": "Boiler gas usage. Using Raspberry Pi for data collection and upload to COSM\r\nGas meter use to be added\r\nRaspberry Pi Model A installed 201302071430",
+    "feed": "https://api.xively.com/v2/feeds/98993.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:10:18",
+    "created": "01/20/2013 12:27:29",
+    "creator": "https://xively.com/users/g7ruh",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "kpi_boiler_flow",
+        "current_value": "23.8125",
+        "at": "03/21/2014 14:10:09",
+        "max_value": "63.1875",
+        "min_value": "12.3125",
+        "tags": [
+          "DS18B20",
+          "energy",
+          "gas",
+          "raspberry pi",
+          "temp"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Deg C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "kpi_boiler_return",
+        "current_value": "23.3125",
+        "at": "03/21/2014 14:10:08",
+        "max_value": "53.0",
+        "min_value": "12.125",
+        "tags": [
+          "DS18B20",
+          "energy",
+          "gas",
+          "raspberry pi",
+          "temp"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Deg C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "kpi_CPU_load",
+        "current_value": "0.13",
+        "at": "03/21/2014 14:10:06",
+        "max_value": "9.79",
+        "min_value": "0.01",
+        "tags": [
+          "",
+          "boiler output",
+          "energy",
+          "gas",
+          "raspberry pi",
+          "temp"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "kpi_CPU_temp",
+        "current_value": "33.628",
+        "at": "03/21/2014 14:10:06",
+        "max_value": "85.0",
+        "min_value": "-1045430.0",
+        "tags": [
+          "",
+          "boiler output",
+          "energy",
+          "gas",
+          "raspberry pi",
+          "temp"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Deg C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "kpi_gasusea_monthly",
+        "current_value": "12943",
+        "at": "03/21/2014 14:10:18",
+        "max_value": "22802.0",
+        "min_value": "0.0",
+        "tags": [
+          "energy use",
+          "gas meter",
+          "pi",
+          "raspberry"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "x",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "kpi_gasuseb_hourly",
+        "current_value": "0",
+        "at": "03/21/2014 14:10:18",
+        "max_value": "161.0",
+        "min_value": "0.0",
+        "tags": [
+          "energy use",
+          "gas meter",
+          "pi",
+          "raspberry"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "x",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "kpi_gasusec_daily",
+        "current_value": "213",
+        "at": "03/21/2014 14:10:18",
+        "max_value": "1025.0",
+        "min_value": "0.0",
+        "tags": [
+          "energy use",
+          "gas meter",
+          "pi",
+          "raspberry"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "x",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "kpi_gasused_weekly",
+        "current_value": "2969",
+        "at": "03/21/2014 14:10:18",
+        "max_value": "5629.0",
+        "min_value": "0.0",
+        "tags": [
+          "energy use",
+          "gas meter",
+          "pi",
+          "raspberry"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "x",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "kpi_kitchen_ambient",
+        "current_value": "21.625",
+        "at": "03/21/2014 14:10:07",
+        "max_value": "33.4375",
+        "min_value": "12.0",
+        "tags": [
+          "DS18B20",
+          "energy",
+          "raspberry pi",
+          "temp"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Deg C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "kpi_light_level",
+        "current_value": "636",
+        "at": "03/21/2014 14:10:02",
+        "max_value": "2047.0",
+        "min_value": "0.0",
+        "tags": [
+          "10 bit",
+          "ADC 3002",
+          "LDR"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "x",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "kpi_mainwater_temp",
+        "current_value": "11.8125",
+        "at": "03/21/2014 14:10:04",
+        "max_value": "40.3125",
+        "min_value": "7.9375",
+        "tags": [
+          "DS18B20",
+          "energy",
+          "Model A",
+          "Raspbery Pi",
+          "temp"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Deg C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "kpi_meterbox_temp",
+        "current_value": "14.6875",
+        "at": "03/21/2014 14:10:05",
+        "max_value": "34.375",
+        "min_value": "-0.375",
+        "tags": [
+          "DS18B20",
+          "energy",
+          "raspberry pi",
+          "temp"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Deg C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "kpi_outside_temp",
+        "current_value": "11.625",
+        "at": "03/21/2014 14:10:03",
+        "max_value": "77.9375",
+        "min_value": "-1.375",
+        "tags": [
+          "DS18B20",
+          "energy",
+          "raspberry pi",
+          "temp"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Deg C",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Bracknell",
+      "domain": 0,
+      "lat": "51.4060594049927",
+      "lon": "-0.76904296875",
+      "ele": "85",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/98993\" >kitchenpi@G7RUH</a>",
+    "URLMostrar": "https://xively.com/feeds/98993"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\98993.json",
+  "DocumentJSON": null
+}

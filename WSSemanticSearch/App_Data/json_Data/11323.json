@@ -1,0 +1,169 @@
+{
+  "Conceptos": [
+    "project"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "11323",
+    "title": "Home Heating - Project Criccnet",
+    "Private": false,
+    "tags": [
+      "celsius",
+      "degrees",
+      "humidity",
+      "temperature"
+    ],
+    "description": "Data from Carrier Infinity\r\n- Bolton, Ontario\r\n- End the Monopoly!",
+    "feed": "https://api.xively.com/v2/feeds/11323.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "01/03/2014 01:15:08",
+    "created": "10/24/2010 16:50:50",
+    "creator": "https://xively.com/users/sydc",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "18",
+        "at": "01/03/2014 01:15:08",
+        "max_value": "38.0",
+        "min_value": "-22.0",
+        "tags": [
+          "Outside Temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "23",
+        "at": "01/03/2014 01:15:08",
+        "max_value": "40.0",
+        "min_value": "20.0",
+        "tags": [
+          "Indoor Temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "48",
+        "at": "01/03/2014 01:15:08",
+        "max_value": "72.0",
+        "min_value": "22.0",
+        "tags": [
+          "Indoor Humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "Relative",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "21",
+        "at": "01/03/2014 01:15:08",
+        "max_value": "197.0",
+        "min_value": "0.0",
+        "tags": [
+          "Heat Setting"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "1",
+        "at": "01/03/2014 01:15:08",
+        "max_value": "3.0",
+        "min_value": "0.0",
+        "tags": [
+          "Fan Speed - H/M/L/off"
+        ],
+        "unit": {
+          "symbol": "On",
+          "label": "H/M/L/Off",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "0",
+        "at": "01/03/2014 01:15:08",
+        "max_value": "16.0",
+        "min_value": "0.0",
+        "tags": [
+          "Furnace Toggle"
+        ],
+        "unit": {
+          "symbol": "Units",
+          "label": "Binary",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "21",
+        "at": "01/03/2014 01:15:08",
+        "max_value": "90.0",
+        "min_value": "0.0",
+        "tags": [
+          "Humidifier Pad used life"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "Percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "7",
+        "current_value": "57",
+        "at": "01/03/2014 01:15:08",
+        "max_value": "100.0",
+        "min_value": "0.0",
+        "tags": [
+          "Routine Maintenance used life"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "Percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "BabyT2",
+      "domain": 0,
+      "lat": "43.8724676071671",
+      "lon": "-79.7216463088989",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/11323\" >Home Heating - Project Criccnet</a>",
+    "URLMostrar": "https://xively.com/feeds/11323"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\11323.json",
+  "DocumentJSON": null
+}

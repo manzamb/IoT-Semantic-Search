@@ -1,0 +1,100 @@
+{
+  "Conceptos": [
+    "carbon monoxide"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "1787078041",
+    "title": "Air Quality Monitor",
+    "Private": false,
+    "tags": [
+      "arduino"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/1787078041.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "05/19/2013 07:45:18",
+    "created": "05/13/2013 18:21:34",
+    "creator": "https://xively.com/users/teejay",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "GasSensor1",
+        "current_value": "30.16",
+        "at": "05/19/2013 07:45:18",
+        "max_value": "51.15",
+        "min_value": "0.71",
+        "tags": [
+          "N02 (NITROGEN DIOXIDE)"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "ppb",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "GasSensor2",
+        "current_value": "7018.66",
+        "at": "05/19/2013 07:45:18",
+        "max_value": "9276.12",
+        "min_value": "4802.24",
+        "tags": [
+          "CO (CARBON MONOXIDE)"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "ppb",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Humidity",
+        "current_value": "36.90",
+        "at": "05/19/2013 07:45:18",
+        "max_value": "44.0",
+        "min_value": "28.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperature",
+        "current_value": "28.10",
+        "at": "05/19/2013 07:45:18",
+        "max_value": "28.8",
+        "min_value": "24.5",
+        "tags": [
+          "Temperature Liverpool"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "c",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Liverpool",
+      "domain": 0,
+      "lat": "53.3646767092455",
+      "lon": "-2.92407989501953",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/1787078041\" >Air Quality Monitor</a>",
+    "URLMostrar": "https://xively.com/feeds/1787078041"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\1787078041.json",
+  "DocumentJSON": null
+}

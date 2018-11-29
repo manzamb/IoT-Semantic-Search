@@ -1,0 +1,70 @@
+{
+  "Conceptos": [
+    "condition"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "104026",
+    "title": "Reinventorium Conditions",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "dht22",
+      "humidity",
+      "office",
+      "temperature"
+    ],
+    "description": "The indoor conditions in the Reinventorium (inside The Guild at the corner of Queen and Richmond Streets in downtown Charlottetown, Prince Edward Island, the offices of Reinvented Inc.)",
+    "feed": "https://api.xively.com/v2/feeds/104026.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/01/2013 20:12:55",
+    "created": "02/11/2013 21:55:48",
+    "creator": "https://xively.com/users/ruk",
+    "version": null,
+    "website": "http://ruk.ca/content/hows-weather-there-using-dht22-and-arduino-find-out",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "22.6",
+        "at": "03/01/2013 20:12:55",
+        "max_value": "27.1",
+        "min_value": "21.3",
+        "tags": null,
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "34.6",
+        "at": "03/01/2013 20:12:55",
+        "max_value": "42.1",
+        "min_value": "18.7",
+        "tags": null,
+        "unit": {
+          "symbol": "%RH",
+          "label": "Relative Humidity",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Reinventorium",
+      "domain": 0,
+      "lat": "46.2336689193866",
+      "lon": "-63.1273019313812",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/104026\" >Reinventorium Conditions</a>",
+    "URLMostrar": "https://xively.com/feeds/104026"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\104026.json",
+  "DocumentJSON": null
+}

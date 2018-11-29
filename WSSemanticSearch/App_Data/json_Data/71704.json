@@ -1,0 +1,70 @@
+{
+  "Conceptos": [
+    "sensor output"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "71704",
+    "title": "Light Level and Temperature in My House",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "home",
+      "light",
+      "sensors",
+      "temperature"
+    ],
+    "description": "This feed shows the temperature and light in my house as recorded by an Arduino Microcontroller. The Arduino is connected to my router through ethernet and powered by a 5v USB adapter making it completely autonomous. The light value is calculated through a formula that converts the output voltage from a Light Dependant Resistor into Lux, the SI unit for light intensity.",
+    "feed": "https://api.xively.com/v2/feeds/71704.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "01/30/2014 07:22:02",
+    "created": "08/20/2012 09:32:00",
+    "creator": "https://xively.com/users/varunm",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Light",
+        "current_value": "13",
+        "at": "01/30/2014 07:22:02",
+        "max_value": "347.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "Lx",
+          "label": "Lux",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperature",
+        "current_value": "21",
+        "at": "01/30/2014 07:22:02",
+        "max_value": "449.0",
+        "min_value": "-50.0",
+        "tags": null,
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/71704\" >Light Level and Temperature in My House</a>",
+    "URLMostrar": "https://xively.com/feeds/71704"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\71704.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,86 @@
+{
+  "Conceptos": [
+    "temperatura"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "119171",
+    "title": "L'Ametlla del Vallés - Exterior",
+    "Private": false,
+    "tags": [
+      "Clima"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/119171.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:04:42",
+    "created": "03/15/2013 04:41:40",
+    "creator": "https://xively.com/users/alessandrogalletto",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "humitat",
+        "current_value": "74",
+        "at": "03/21/2014 13:28:39",
+        "max_value": "90.0",
+        "min_value": "20.0",
+        "tags": [
+          "humitat"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "lluminositat",
+        "current_value": "1000",
+        "at": "03/21/2014 13:53:40",
+        "max_value": "1000.0",
+        "min_value": "0.0",
+        "tags": [
+          "lluminositat"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temp",
+        "current_value": "10",
+        "at": "03/21/2014 14:04:42",
+        "max_value": "33.0",
+        "min_value": "2.0",
+        "tags": [
+          "temperatura"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "ºC",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "L'Ametlla del Vallés",
+      "domain": 0,
+      "lat": "41.6487051950877",
+      "lon": "2.26541519165039",
+      "ele": "320",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/119171\" >L'Ametlla del Vallés - Exterior</a>",
+    "URLMostrar": "https://xively.com/feeds/119171"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\119171.json",
+  "DocumentJSON": null
+}

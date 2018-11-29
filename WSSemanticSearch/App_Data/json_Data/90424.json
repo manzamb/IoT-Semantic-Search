@@ -1,0 +1,71 @@
+{
+  "Conceptos": [
+    "surface"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "90424",
+    "title": "Pool Temperature",
+    "Private": false,
+    "tags": [
+      "Pool",
+      "temperature"
+    ],
+    "description": "Pool Temerature",
+    "feed": "https://api.xively.com/v2/feeds/90424.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:05:30",
+    "created": "12/06/2012 19:01:26",
+    "creator": "https://xively.com/users/koaiwi",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "1",
+        "current_value": "11.88",
+        "at": "03/21/2014 14:05:14",
+        "max_value": "45.81",
+        "min_value": "0.0",
+        "tags": [
+          "Surface"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Deg C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "11.25",
+        "at": "03/21/2014 14:05:30",
+        "max_value": "43.0",
+        "min_value": "0.0",
+        "tags": [
+          "Bottom"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Deg C",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/90424\" >Pool Temperature</a>",
+    "URLMostrar": "https://xively.com/feeds/90424"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\90424.json",
+  "DocumentJSON": null
+}

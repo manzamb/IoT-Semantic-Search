@@ -1,0 +1,299 @@
+{
+  "Conceptos": [
+    "humidity"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "122292",
+    "title": "Air Quality Egg - North Holmwood",
+    "Private": false,
+    "tags": [
+      "device:type=Air Quality Egg",
+      "device:type=airqualityegg"
+    ],
+    "description": "In a garden in a Surrey Village",
+    "feed": "https://api.xively.com/v2/feeds/122292.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:07:04",
+    "created": "04/02/2013 18:26:56",
+    "creator": "https://xively.com/users/airqualityegg",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "CO_00-04-a3-37-df-14_1",
+        "current_value": "14037",
+        "at": "03/21/2014 14:05:09",
+        "max_value": "41167.0",
+        "min_value": "4063.0",
+        "tags": [
+          "aqe:data_origin=computed",
+          "aqe:firmware_version=16",
+          "aqe:sensor_address=00:04:a3:37:df:14",
+          "aqe:sensor_index=1",
+          "aqe:sensor_type=CO"
+        ],
+        "unit": {
+          "symbol": "ppb",
+          "label": "ppb",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "CO_raw_00-04-a3-37-df-14_1",
+        "current_value": "95999",
+        "at": "03/21/2014 14:07:04",
+        "max_value": "525000.0",
+        "min_value": "30299.0",
+        "tags": [
+          "aqe:data_origin=raw",
+          "aqe:firmware_version=16",
+          "aqe:sensor_address=00:04:a3:37:df:14",
+          "aqe:sensor_index=1",
+          "aqe:sensor_type=CO"
+        ],
+        "unit": {
+          "symbol": "ohms",
+          "label": "ohms",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Dust_00-04-a3-37-d6-0e_0",
+        "current_value": "3390",
+        "at": "03/21/2014 14:05:40",
+        "max_value": "30707.0",
+        "min_value": "0.0",
+        "tags": [
+          "aqe:data_origin=computed",
+          "aqe:firmware_version=16",
+          "aqe:sensor_address=00:04:a3:37:d6:0e",
+          "aqe:sensor_index=0",
+          "aqe:sensor_type=Dust"
+        ],
+        "unit": {
+          "symbol": "pcs/283ml",
+          "label": "pcs/283ml",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Dust_ra7_00-04-a3-37-d6-0e_0",
+        "current_value": "320",
+        "at": "06/06/2013 14:57:40",
+        "max_value": "320.0",
+        "min_value": "320.0",
+        "tags": [
+          "aqe:data_origin=computed",
+          "aqe:firmware_version=80",
+          "aqe:sensor_address=00:04:a3:37:d6:0e",
+          "aqe:sensor_index=0",
+          "aqe:sensor_type=Dust_ra7"
+        ],
+        "unit": {
+          "symbol": "o(ms",
+          "label": "o(ms",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Dust_raw_00-04-a3-37-d6-0e_0",
+        "current_value": "6279",
+        "at": "03/21/2014 14:05:35",
+        "max_value": "31199.0",
+        "min_value": "0.0",
+        "tags": [
+          "aqe:data_origin=raw",
+          "aqe:firmware_version=16",
+          "aqe:sensor_address=00:04:a3:37:d6:0e",
+          "aqe:sensor_index=0",
+          "aqe:sensor_type=Dust"
+        ],
+        "unit": {
+          "symbol": "ohms",
+          "label": "ohms",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Humidity_00-04-a3-37-cc-5b_1",
+        "current_value": "99",
+        "at": "03/21/2014 14:06:49",
+        "max_value": "99.0",
+        "min_value": "1.0",
+        "tags": [
+          "aqe:data_origin=computed",
+          "aqe:firmware_version=4",
+          "aqe:sensor_address=00:04:a3:37:cc:5b",
+          "aqe:sensor_index=1",
+          "aqe:sensor_type=Humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "NO2_00-04-a3-37-df-14_0",
+        "current_value": "988928",
+        "at": "03/21/2014 14:06:59",
+        "max_value": "988928.0",
+        "min_value": "5.0",
+        "tags": [
+          "aqe:data_origin=computed",
+          "aqe:firmware_version=16",
+          "aqe:sensor_address=00:04:a3:37:df:14",
+          "aqe:sensor_index=0",
+          "aqe:sensor_type=NO2"
+        ],
+        "unit": {
+          "symbol": "ppb",
+          "label": "ppb",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "NO2_raw_00-04-a3-37-df-14_0",
+        "current_value": "-1",
+        "at": "03/21/2014 14:06:54",
+        "max_value": "428382.0",
+        "min_value": "-1.0",
+        "tags": [
+          "aqe:data_origin=raw",
+          "aqe:firmware_version=16",
+          "aqe:sensor_address=00:04:a3:37:df:14",
+          "aqe:sensor_index=0",
+          "aqe:sensor_type=NO2"
+        ],
+        "unit": {
+          "symbol": "ohms",
+          "label": "ohms",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "O3_00-04-a3-8c-39-c6_0",
+        "current_value": "611",
+        "at": "03/21/2014 14:05:19",
+        "max_value": "53882276.0",
+        "min_value": "2.0",
+        "tags": [
+          "aqe:data_origin=computed",
+          "aqe:firmware_version=16",
+          "aqe:sensor_address=00:04:a3:8c:39:c6",
+          "aqe:sensor_index=0",
+          "aqe:sensor_type=O3"
+        ],
+        "unit": {
+          "symbol": "ppb",
+          "label": "ppb",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "O3_raw_00-04-a3-8c-39-c6_0",
+        "current_value": "57549",
+        "at": "03/21/2014 14:05:14",
+        "max_value": "427749.0",
+        "min_value": "-1.0",
+        "tags": [
+          "aqe:data_origin=raw",
+          "aqe:firmware_version=16",
+          "aqe:sensor_address=00:04:a3:8c:39:c6",
+          "aqe:sensor_index=0",
+          "aqe:sensor_type=O3"
+        ],
+        "unit": {
+          "symbol": "ohms",
+          "label": "ohms",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperature_00-04-a3-37-cc-5b_0",
+        "current_value": "14",
+        "at": "03/21/2014 14:06:44",
+        "max_value": "33.0",
+        "min_value": "-1.0",
+        "tags": [
+          "aqe:data_origin=computed",
+          "aqe:firmware_version=4",
+          "aqe:sensor_address=00:04:a3:37:cc:5b",
+          "aqe:sensor_index=0",
+          "aqe:sensor_type=Temperature"
+        ],
+        "unit": {
+          "symbol": "deg C",
+          "label": "deg C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "VOC_00-04-a3-8c-27-86_0",
+        "current_value": "-8682",
+        "at": "03/21/2014 14:05:30",
+        "max_value": "30.0",
+        "min_value": "-16304.0",
+        "tags": [
+          "aqe:data_origin=computed",
+          "aqe:firmware_version=16",
+          "aqe:sensor_address=00:04:a3:8c:27:86",
+          "aqe:sensor_index=0",
+          "aqe:sensor_type=VOC"
+        ],
+        "unit": {
+          "symbol": "ppm",
+          "label": "ppm",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "VOC_raw_00-04-a3-8c-27-86_0",
+        "current_value": "222050",
+        "at": "03/21/2014 14:05:25",
+        "max_value": "429400.0",
+        "min_value": "4100.0",
+        "tags": [
+          "aqe:data_origin=raw",
+          "aqe:firmware_version=16",
+          "aqe:sensor_address=00:04:a3:8c:27:86",
+          "aqe:sensor_index=0",
+          "aqe:sensor_type=VOC"
+        ],
+        "unit": {
+          "symbol": "ohms",
+          "label": "ohms",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "51.2109969068486",
+      "lon": "-0.329868793487549",
+      "ele": "70m",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/122292\" >Air Quality Egg - North Holmwood</a>",
+    "URLMostrar": "https://xively.com/feeds/122292"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\122292.json",
+  "DocumentJSON": null
+}

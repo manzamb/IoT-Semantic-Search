@@ -1,0 +1,82 @@
+{
+  "Conceptos": [
+    "description"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "44394",
+    "title": "Stromverbrauch",
+    "Private": false,
+    "tags": [
+      "Comma-separated descriptive keywords for this Feed"
+    ],
+    "description": "Enter a description of the Feed",
+    "feed": "https://api.xively.com/v2/feeds/44394.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:06:53",
+    "created": "01/16/2012 16:13:43",
+    "creator": "https://xively.com/users/holgerc",
+    "version": null,
+    "website": "http://www.test.de/test.htm",
+    "datastreams": [
+      {
+        "id": "1",
+        "current_value": "59.0",
+        "at": "03/21/2014 14:06:52",
+        "max_value": "12345.0",
+        "min_value": "2.0",
+        "tags": [
+          "Verbrauch"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watt",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "59",
+        "at": "03/21/2014 14:06:52",
+        "max_value": "6708.0",
+        "min_value": "2.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "2158",
+        "at": "03/21/2014 14:06:52",
+        "max_value": "29690.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Name of location",
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": "Metres",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/44394\" >Stromverbrauch</a>",
+    "URLMostrar": "https://xively.com/feeds/44394"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\44394.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,97 @@
+{
+  "Conceptos": [
+    "system"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "25135",
+    "title": "Multi-Sensor PCB (R11) - Solar Charged Battery",
+    "Private": false,
+    "tags": [
+      "solar powered",
+      "xbee"
+    ],
+    "description": "XBee hooked up to a solar powered system...  temporary tests...",
+    "feed": "https://api.xively.com/v2/feeds/25135.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:00:22",
+    "created": "05/13/2011 17:11:50",
+    "creator": "https://xively.com/users/chrisjx",
+    "version": null,
+    "website": "http://tinajalabs.com",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "566.0",
+        "at": "03/21/2014 14:00:19",
+        "max_value": "64000.0",
+        "min_value": "0.0",
+        "tags": [
+          "Hall effect"
+        ],
+        "unit": {
+          "symbol": "mV",
+          "label": "mV",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "200.8",
+        "at": "03/21/2014 14:00:20",
+        "max_value": "36918.0",
+        "min_value": "-29.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "370.0",
+        "at": "03/21/2014 14:00:21",
+        "max_value": "32641.5",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "329.6",
+        "at": "03/21/2014 14:00:22",
+        "max_value": "65280.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Kensington, CA",
+      "domain": 0,
+      "lat": "37.9058767076527",
+      "lon": "-122.270793914795",
+      "ele": "200",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/25135\" >Multi-Sensor PCB (R11) - Solar Charged Battery</a>",
+    "URLMostrar": "https://xively.com/feeds/25135"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\25135.json",
+  "DocumentJSON": null
+}

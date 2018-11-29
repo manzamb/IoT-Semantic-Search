@@ -1,0 +1,54 @@
+{
+  "Conceptos": [
+    "process"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "99913",
+    "title": "Water_feed",
+    "Private": false,
+    "tags": [
+      "We are using 88MC200 processor for processing the water sensor data and are sending it to this service!"
+    ],
+    "description": "The feed will provide the the change in water level of the tank.",
+    "feed": "https://api.xively.com/v2/feeds/99913.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "01/23/2013 10:56:15",
+    "created": "01/23/2013 10:44:18",
+    "creator": "https://xively.com/users/marvell_iot",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "99913",
+        "current_value": null,
+        "at": null,
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "water level."
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "litre",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Pune",
+      "domain": 0,
+      "lat": "17.9787330955562",
+      "lon": "76.640625",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/99913\" >Water_feed</a>",
+    "URLMostrar": "https://xively.com/feeds/99913"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\99913.json",
+  "DocumentJSON": null
+}

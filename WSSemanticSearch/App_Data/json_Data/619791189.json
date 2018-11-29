@@ -1,0 +1,118 @@
+{
+  "Conceptos": [
+    "design"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "619791189",
+    "title": "\u0010DogOneDesigns Arduino",
+    "Private": false,
+    "tags": [
+      "Arduino"
+    ],
+    "description": "Arduino with RNXV WiFly Module and various Sensors",
+    "feed": "https://api.xively.com/v2/feeds/619791189.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "07/10/2013 07:11:44",
+    "created": "05/18/2013 00:28:41",
+    "creator": "https://xively.com/users/blaze8860",
+    "version": null,
+    "website": "http://www.dogonedesigns.com",
+    "datastreams": [
+      {
+        "id": "Alert1",
+        "current_value": "SAFE",
+        "at": "07/10/2013 07:11:44",
+        "max_value": "99.0",
+        "min_value": "0.0",
+        "tags": [
+          "Alert"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "O/1",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Door1",
+        "current_value": "CLOSED",
+        "at": "07/10/2013 07:11:41",
+        "max_value": "99.0",
+        "min_value": "0.0",
+        "tags": [
+          "Door1"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "0/1",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Light",
+        "current_value": "1023.00",
+        "at": "07/10/2013 07:11:39",
+        "max_value": "1023.0",
+        "min_value": "0.0",
+        "tags": [
+          "Light"
+        ],
+        "unit": {
+          "symbol": "mv",
+          "label": "mv",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temp1",
+        "current_value": " 67.88",
+        "at": "07/10/2013 07:11:36",
+        "max_value": "79.48",
+        "min_value": "-55.1",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "Deg. F",
+          "label": "Degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temp2",
+        "current_value": " 70.59",
+        "at": "07/10/2013 07:11:38",
+        "max_value": "185.0",
+        "min_value": "-196.6",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "Deg. F",
+          "label": "Degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Tobaccoville",
+      "domain": 0,
+      "lat": "36.2805102532559",
+      "lon": "-80.4164725542068",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/619791189\" >\u0010DogOneDesigns Arduino</a>",
+    "URLMostrar": "https://xively.com/feeds/619791189"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\619791189.json",
+  "DocumentJSON": null
+}

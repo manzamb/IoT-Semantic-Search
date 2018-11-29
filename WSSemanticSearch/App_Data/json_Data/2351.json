@@ -1,0 +1,70 @@
+{
+  "Conceptos": [
+    "resolution"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "2351",
+    "title": "Air quality control - Aversa",
+    "Private": false,
+    "tags": null,
+    "description": "*Pachube Station Aversa*\r\n----\r\n\r\nFeed0: Carbon monoxide PPM on Via Ovidio. Simple low resolution sensor.\r\n\r\nFeed1: Town gas. The average percentage of tolerance, of town gas, propane, butane, etc.\r\n\r\n\r\n----\r\n\r\nBuilt on Arduino and a Mini-itx server and Pachube for retrieve feed.\r\n\r\n____\r\n*Coming soon on www.viaovidio.it*\r\n\r\n",
+    "feed": "https://api.xively.com/v2/feeds/2351.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "06/08/2010 14:19:29",
+    "created": "07/25/2009 09:24:41",
+    "creator": "https://xively.com/users/willylord",
+    "version": null,
+    "website": "http://www.viaovidio.it",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "0.0",
+        "at": "05/19/2010 21:45:38",
+        "max_value": "0.3374578",
+        "min_value": "0.0",
+        "tags": [
+          "Carbon monoxide",
+          "CO"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "ppm",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "0.0",
+        "at": "05/19/2010 21:45:38",
+        "max_value": "18.09524",
+        "min_value": "-1.0",
+        "tags": [
+          "GPL",
+          "Town gas"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Aversa",
+      "domain": 0,
+      "lat": "40.9713584878978",
+      "lon": "14.2007973790169",
+      "ele": "39",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/2351\" >Air quality control - Aversa</a>",
+    "URLMostrar": "https://xively.com/feeds/2351"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\2351.json",
+  "DocumentJSON": null
+}

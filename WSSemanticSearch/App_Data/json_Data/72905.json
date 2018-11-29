@@ -1,0 +1,70 @@
+{
+  "Conceptos": [
+    "description"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "72905",
+    "title": "Radiation Levels in Chadds Ford PA",
+    "Private": false,
+    "tags": [
+      "radiation"
+    ],
+    "description": "Radiation Levels in Chadds Ford PA, USA\r\nData is from an Aware Electronics Corp. RM-60 expressed in microR/hr. standardized to Cesium 137. Aware's Windows program Aw-Radw auto pushes the data to cosm, once per ten minutes.\r\n\r\nFeed 2 is from Aware Electronics RM-80 with Aware's Fan-Filter add-on which samples radioactive isotopes in the basement air, due to Radon decay products.  See Aware's website http://www.aw-el.com/\r\n\r\n(Note: Zero readings are inserted by cosm anytime one is editing the description, tags, etc.)",
+    "feed": "https://api.xively.com/v2/feeds/72905.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 13:57:09",
+    "created": "08/28/2012 21:01:36",
+    "creator": "https://xively.com/users/bryanboardman",
+    "version": null,
+    "website": "http://www.aw-el.com/",
+    "datastreams": [
+      {
+        "id": "1",
+        "current_value": "13.90",
+        "at": "03/21/2014 13:56:52",
+        "max_value": "22.38",
+        "min_value": "0.0",
+        "tags": [
+          "radiation"
+        ],
+        "unit": {
+          "symbol": "µR/hr",
+          "label": "microR/hr",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "368.30",
+        "at": "03/21/2014 13:57:09",
+        "max_value": "1821.1",
+        "min_value": "129.5",
+        "tags": [
+          "radiation"
+        ],
+        "unit": {
+          "symbol": "CPM",
+          "label": "CPM",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Chadds Ford PA",
+      "domain": 0,
+      "lat": "39.8667771",
+      "lon": "-75.6163195",
+      "ele": "94",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/72905\" >Radiation Levels in Chadds Ford PA</a>",
+    "URLMostrar": "https://xively.com/feeds/72905"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\72905.json",
+  "DocumentJSON": null
+}

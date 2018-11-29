@@ -1,0 +1,167 @@
+{
+  "Conceptos": [
+    "environment"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "98040",
+    "title": "Glanworth Weather",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "environment",
+      "ireland",
+      "weather"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/98040.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/20/2014 15:09:33",
+    "created": "01/15/2013 21:50:40",
+    "creator": "https://xively.com/users/les",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "InTemp",
+        "current_value": "21.72",
+        "at": "03/20/2014 15:09:33",
+        "max_value": "40.66",
+        "min_value": "15.74",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Deg C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "OfficeHeat",
+        "current_value": "0",
+        "at": "08/15/2013 13:30:49",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "OutHum",
+        "current_value": "49.00",
+        "at": "03/20/2014 15:09:33",
+        "max_value": "208.0",
+        "min_value": "30.0",
+        "tags": [
+          "humidity"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "RelHum",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "OutTemp",
+        "current_value": "10.00",
+        "at": "03/20/2014 15:09:33",
+        "max_value": "37.0",
+        "min_value": "1.0",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Deg C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Pressure",
+        "current_value": "98986.00",
+        "at": "03/20/2014 15:09:33",
+        "max_value": "103412.0",
+        "min_value": "94934.0",
+        "tags": [
+          "Barometric Pressure"
+        ],
+        "unit": {
+          "symbol": "Pa",
+          "label": "Pa",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Rainfall",
+        "current_value": "0.00",
+        "at": "03/20/2014 15:09:33",
+        "max_value": "13256.0",
+        "min_value": "0.0",
+        "tags": [
+          "Rainfall"
+        ],
+        "unit": {
+          "symbol": "mm",
+          "label": "mm",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "WindAverage",
+        "current_value": "0.00",
+        "at": "03/20/2014 15:09:33",
+        "max_value": "3892.44",
+        "min_value": "0.0",
+        "tags": [
+          "Windspeed 5 minute average"
+        ],
+        "unit": {
+          "symbol": "m/s",
+          "label": "m/s",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "WindGust",
+        "current_value": "0.00",
+        "at": "03/20/2014 15:09:33",
+        "max_value": "7305.63",
+        "min_value": "0.0",
+        "tags": [
+          "Windspeed Highest 5 minute gust"
+        ],
+        "unit": {
+          "symbol": "m/s",
+          "label": "m/s",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Ballynaraha",
+      "domain": 0,
+      "lat": "52.1818002408193",
+      "lon": "-8.38291168212891",
+      "ele": "65",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/98040\" >Glanworth Weather</a>",
+    "URLMostrar": "https://xively.com/feeds/98040"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\98040.json",
+  "DocumentJSON": null
+}

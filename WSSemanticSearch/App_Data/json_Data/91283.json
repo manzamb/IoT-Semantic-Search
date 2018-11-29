@@ -1,0 +1,153 @@
+{
+  "Conceptos": [
+    "project"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "91283",
+    "title": "EGG_11",
+    "Private": false,
+    "tags": [
+      "device:type=Air Quality Egg",
+      "device:type=airqualityegg"
+    ],
+    "description": "montenegro ozon project",
+    "feed": "https://api.xively.com/v2/feeds/91283.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "12/23/2013 21:55:38",
+    "created": "12/10/2012 14:33:32",
+    "creator": "https://xively.com/users/airqualityegg",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "CO_00-04-a3-27-c1-c6_1",
+        "current_value": "332364",
+        "at": "02/24/2013 10:07:56",
+        "max_value": "336715.0",
+        "min_value": "331417.0",
+        "tags": [
+          "aqe:data_origin=computed",
+          "aqe:sensor_address=00:04:a3:27:c1:c6",
+          "aqe:sensor_index=1",
+          "aqe:sensor_type=CO"
+        ],
+        "unit": {
+          "symbol": "ppb",
+          "label": "ppb",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "CO_raw_00-04-a3-27-c1-c6_1",
+        "current_value": "115260",
+        "at": "02/24/2013 10:07:51",
+        "max_value": "124754.0",
+        "min_value": "74740.0",
+        "tags": [
+          "aqe:data_origin=raw",
+          "aqe:sensor_address=00:04:a3:27:c1:c6",
+          "aqe:sensor_index=1",
+          "aqe:sensor_type=CO"
+        ],
+        "unit": {
+          "symbol": "ohms",
+          "label": "ohms",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Humidity_00-04-a3-27-c3-ec_1",
+        "current_value": "70",
+        "at": "02/24/2013 10:07:35",
+        "max_value": "77.0",
+        "min_value": "27.0",
+        "tags": [
+          "aqe:data_origin=computed",
+          "aqe:sensor_address=00:04:a3:27:c3:ec",
+          "aqe:sensor_index=1",
+          "aqe:sensor_type=Humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "NO2_00-04-a3-27-c1-c6_0",
+        "current_value": "133",
+        "at": "02/24/2013 10:07:46",
+        "max_value": "160.0",
+        "min_value": "133.0",
+        "tags": [
+          "aqe:data_origin=computed",
+          "aqe:sensor_address=00:04:a3:27:c1:c6",
+          "aqe:sensor_index=0",
+          "aqe:sensor_type=NO2"
+        ],
+        "unit": {
+          "symbol": "ppb",
+          "label": "ppb",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "NO2_raw_00-04-a3-27-c1-c6_0",
+        "current_value": "6571",
+        "at": "02/24/2013 10:07:40",
+        "max_value": "31143.0",
+        "min_value": "6571.0",
+        "tags": [
+          "aqe:data_origin=raw",
+          "aqe:sensor_address=00:04:a3:27:c1:c6",
+          "aqe:sensor_index=0",
+          "aqe:sensor_type=NO2"
+        ],
+        "unit": {
+          "symbol": "ohms",
+          "label": "ohms",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperature_00-04-a3-27-c3-ec_0",
+        "current_value": "17",
+        "at": "02/24/2013 10:07:30",
+        "max_value": "31.0",
+        "min_value": "17.0",
+        "tags": [
+          "aqe:data_origin=computed",
+          "aqe:sensor_address=00:04:a3:27:c3:ec",
+          "aqe:sensor_index=0",
+          "aqe:sensor_type=Temperature"
+        ],
+        "unit": {
+          "symbol": "deg C",
+          "label": "deg C",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "42.4412625",
+      "lon": "19.2368667000001",
+      "ele": "2 meters",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/91283\" >EGG_11</a>",
+    "URLMostrar": "https://xively.com/feeds/91283"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\91283.json",
+  "DocumentJSON": null
+}

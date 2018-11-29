@@ -1,0 +1,138 @@
+{
+  "Conceptos": [
+    "pst"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "66675",
+    "title": "Jūrasdzeņu meteo",
+    "Private": false,
+    "tags": [
+      "camping",
+      "humidity",
+      "jurasdzeni",
+      "Laika apstākļi",
+      "laiks",
+      "Latvia",
+      "mitrums",
+      "nokrišņi",
+      "temperanture",
+      "temperatura",
+      "Tuja",
+      "UV",
+      "vējš",
+      "weather",
+      "wind"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/66675.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "07/26/2012 22:22:24",
+    "created": "07/08/2012 16:35:06",
+    "creator": "https://xively.com/users/jūrasdzeņi_lv",
+    "version": null,
+    "website": "http://www.jurasdzeni.lv",
+    "datastreams": [
+      {
+        "id": "001",
+        "current_value": "14.8",
+        "at": "07/26/2012 22:22:24",
+        "max_value": "21.9",
+        "min_value": "13.7",
+        "tags": [
+          "air",
+          "Latvija",
+          "outdoor",
+          "temperatura",
+          "temperature",
+          "thermometer",
+          "Tuja"
+        ],
+        "unit": {
+          "symbol": "C°",
+          "label": "Degrees celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "002",
+        "current_value": "86.6",
+        "at": "07/26/2012 22:22:24",
+        "max_value": "98.1",
+        "min_value": "46.4",
+        "tags": [
+          "humidity",
+          "Latvija",
+          "mitrums",
+          "outdoor",
+          "Tuja"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "003",
+        "current_value": "0.5",
+        "at": "07/26/2012 22:22:24",
+        "max_value": "6.1",
+        "min_value": "0.0",
+        "tags": [
+          "Latvija",
+          "outdoor",
+          "speed",
+          "Tuja",
+          "vēja",
+          "wind",
+          "ātrums"
+        ],
+        "unit": {
+          "symbol": "M/s",
+          "label": "M/s",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "004",
+        "current_value": "110",
+        "at": "07/26/2012 22:22:24",
+        "max_value": "360.0",
+        "min_value": "5.0",
+        "tags": [
+          "direction",
+          "Latvija",
+          "outdoor",
+          "Tuja",
+          "virziens",
+          "vēja",
+          "Wind"
+        ],
+        "unit": {
+          "symbol": "°",
+          "label": "Degrees from North",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Tuja, Camping Jurasdzeni",
+      "domain": 0,
+      "lat": "57.4909682263891",
+      "lon": "24.3812175723572",
+      "ele": "5",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/66675\" >Jūrasdzeņu meteo</a>",
+    "URLMostrar": "https://xively.com/feeds/66675"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\66675.json",
+  "DocumentJSON": null
+}

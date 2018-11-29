@@ -1,0 +1,199 @@
+{
+  "Conceptos": [
+    "air quality"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "98493",
+    "title": "Long Hill Eggin'",
+    "Private": false,
+    "tags": [
+      "device:type=Air Quality Egg",
+      "device:type=airqualityegg"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/98493.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "01/29/2014 08:04:13",
+    "created": "01/17/2013 20:37:21",
+    "creator": "https://xively.com/users/airqualityegg",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "CO_00-04-a3-37-bd-bb_1",
+        "current_value": "122536",
+        "at": "01/29/2014 08:03:18",
+        "max_value": "122536.0",
+        "min_value": "20786.0",
+        "tags": [
+          "aqe:data_origin=computed",
+          "aqe:firmware_version=16",
+          "aqe:sensor_address=00:04:a3:37:bd:bb",
+          "aqe:sensor_index=1",
+          "aqe:sensor_type=CO"
+        ],
+        "unit": {
+          "symbol": "ppb",
+          "label": "ppb",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "CO_raw_00-04-a3-37-bd-bb_1",
+        "current_value": "0",
+        "at": "01/29/2014 08:04:13",
+        "max_value": "316200.0",
+        "min_value": "0.0",
+        "tags": [
+          "aqe:data_origin=raw",
+          "aqe:firmware_version=16",
+          "aqe:sensor_address=00:04:a3:37:bd:bb",
+          "aqe:sensor_index=1",
+          "aqe:sensor_type=CO"
+        ],
+        "unit": {
+          "symbol": "ohms",
+          "label": "ohms",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Humidity_00-04-a3-37-ca-ae_1",
+        "current_value": "1",
+        "at": "01/29/2014 08:03:58",
+        "max_value": "99.0",
+        "min_value": "1.0",
+        "tags": [
+          "aqe:data_origin=computed",
+          "aqe:firmware_version=1",
+          "aqe:sensor_address=00:04:a3:37:ca:ae",
+          "aqe:sensor_index=1",
+          "aqe:sensor_type=Humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "NO2_00-04-a3-37-bd-bb_0",
+        "current_value": "85",
+        "at": "01/29/2014 08:04:08",
+        "max_value": "417.0",
+        "min_value": "-2147483648.0",
+        "tags": [
+          "aqe:data_origin=computed",
+          "aqe:firmware_version=16",
+          "aqe:sensor_address=00:04:a3:37:bd:bb",
+          "aqe:sensor_index=0",
+          "aqe:sensor_type=NO2"
+        ],
+        "unit": {
+          "symbol": "ppb",
+          "label": "ppb",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "NO2_00-44-a3-37-bd-bb_0",
+        "current_value": "-2143289258",
+        "at": "08/29/2013 14:09:40",
+        "max_value": "-2143289258.0",
+        "min_value": "-2143289258.0",
+        "tags": [
+          "aqe:data_origin=computed",
+          "aqe:firmware_version=16",
+          "aqe:sensor_address=00:44:a3:37:bd:bb",
+          "aqe:sensor_index=0",
+          "aqe:sensor_type=NO2"
+        ],
+        "unit": {
+          "symbol": "ppb",
+          "label": "ppb",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "NO2_ra7_00-04-a3-37-bd-bb_0",
+        "current_value": "64",
+        "at": "10/23/2013 15:35:20",
+        "max_value": "64.0",
+        "min_value": "64.0",
+        "tags": [
+          "aqe:data_origin=computed",
+          "aqe:firmware_version=16",
+          "aqe:sensor_address=00:04:a3:37:bd:bb",
+          "aqe:sensor_index=0",
+          "aqe:sensor_type=NO2_ra7"
+        ],
+        "unit": {
+          "symbol": "ohms",
+          "label": "ohms",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "NO2_raw_00-04-a3-37-bd-bb_0",
+        "current_value": "0",
+        "at": "01/29/2014 08:04:03",
+        "max_value": "427999.0",
+        "min_value": "0.0",
+        "tags": [
+          "aqe:data_origin=raw",
+          "aqe:firmware_version=16",
+          "aqe:sensor_address=00:04:a3:37:bd:bb",
+          "aqe:sensor_index=0",
+          "aqe:sensor_type=NO2"
+        ],
+        "unit": {
+          "symbol": "ohms",
+          "label": "ohms",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperature_00-04-a3-37-ca-ae_0",
+        "current_value": "-9",
+        "at": "01/29/2014 08:03:53",
+        "max_value": "45.0",
+        "min_value": "-16.0",
+        "tags": [
+          "aqe:data_origin=computed",
+          "aqe:firmware_version=1",
+          "aqe:sensor_address=00:04:a3:37:ca:ae",
+          "aqe:sensor_index=0",
+          "aqe:sensor_type=Temperature"
+        ],
+        "unit": {
+          "symbol": "deg C",
+          "label": "deg C",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "40.6713311",
+      "lon": "-74.4945385",
+      "ele": "308",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/98493\" >Long Hill Eggin'</a>",
+    "URLMostrar": "https://xively.com/feeds/98493"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\98493.json",
+  "DocumentJSON": null
+}

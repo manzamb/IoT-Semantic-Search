@@ -1,0 +1,77 @@
+{
+  "Conceptos": [
+    "physical object"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "49939",
+    "title": "Mejiro OpenGeiger station",
+    "Private": false,
+    "tags": [
+      "sensor:calibrated=true",
+      "sensor:covered=true",
+      "sensor:detectable=beta_gamma",
+      "sensor:model=sbm-20",
+      "sensor:object=air",
+      "sensor:orientation=face_down",
+      "sensor:type=radiation",
+      "source:type=citizen"
+    ],
+    "description": "Updated every minutes. The sensor is a SBM-20 (OpenGeiger GM-01A). The conversion coefficient from cpm to µSv/h is 1/150.\r\n\r\nOpenGeiger project page: http://opengeiger.com/\r\npyopengeiger project page: https://github.com/bidouilles/pyopengeiger",
+    "feed": "https://api.xively.com/v2/feeds/49939.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/08/2014 03:21:35",
+    "created": "02/28/2012 03:40:33",
+    "creator": "https://xively.com/users/lbergeret",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "20",
+        "at": "03/08/2014 03:21:34",
+        "max_value": "255.0",
+        "min_value": "0.0",
+        "tags": [
+          "radiation sensor"
+        ],
+        "unit": {
+          "symbol": "cpm",
+          "label": "counts/minute",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "0.133",
+        "at": "03/08/2014 03:21:35",
+        "max_value": "1.7",
+        "min_value": "0.0",
+        "tags": [
+          "radiation sensor"
+        ],
+        "unit": {
+          "symbol": "µSv/h",
+          "label": "microsieverts/hour",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Mejiro, Tokyo",
+      "domain": 0,
+      "lat": "35.7201760447121",
+      "lon": "139.700006670288",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/49939\" >Mejiro OpenGeiger station</a>",
+    "URLMostrar": "https://xively.com/feeds/49939"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\49939.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,81 @@
+{
+  "Conceptos": [
+    "drift"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "68864",
+    "title": "Nano CT",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "radiation temperature drift"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/68864.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "09/16/2013 16:23:06",
+    "created": "07/24/2012 18:46:45",
+    "creator": "https://xively.com/users/ejacob",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "sensor1",
+        "current_value": "471",
+        "at": "09/16/2013 16:23:06",
+        "max_value": "522.0",
+        "min_value": "114.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temp1",
+        "current_value": "0.000",
+        "at": "09/16/2013 16:23:06",
+        "max_value": "32.5",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temp2",
+        "current_value": "0.000",
+        "at": "09/16/2013 16:23:06",
+        "max_value": "32.5",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "109 Zina Pitcher Place Ann Arbor, MI 48109",
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/68864\" >Nano CT</a>",
+    "URLMostrar": "https://xively.com/feeds/68864"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\68864.json",
+  "DocumentJSON": null
+}

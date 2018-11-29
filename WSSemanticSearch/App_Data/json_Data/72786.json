@@ -1,0 +1,102 @@
+{
+  "Conceptos": [
+    "moisture"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "72786",
+    "title": "A720_6749_Vegetables-II",
+    "Private": false,
+    "tags": [
+      "weather"
+    ],
+    "description": "addIT 720, monitoring soil moisture (Decagon), outdoor temperature and relative humidity",
+    "feed": "https://api.xively.com/v2/feeds/72786.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/17/2014 22:07:03",
+    "created": "08/27/2012 15:03:52",
+    "creator": "https://xively.com/users/oe1gca1",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "6.484",
+        "at": "03/17/2014 22:07:03",
+        "max_value": "8.281",
+        "min_value": "0.0",
+        "tags": [
+          "Battery"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": "Volts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "12.344",
+        "at": "03/17/2014 22:07:03",
+        "max_value": "42.031",
+        "min_value": "-40.0",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "51.172",
+        "at": "03/17/2014 22:07:03",
+        "max_value": "99.609",
+        "min_value": "0.0",
+        "tags": [
+          "rel. Humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "rH",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "1.047",
+        "at": "03/17/2014 22:07:03",
+        "max_value": "1.852",
+        "min_value": "0.0",
+        "tags": [
+          "Decagon Output"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": "Volt",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Vienna",
+      "domain": 0,
+      "lat": "48.1992349115312",
+      "lon": "16.4128929376602",
+      "ele": "200",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/72786\" >A720_6749_Vegetables-II</a>",
+    "URLMostrar": "https://xively.com/feeds/72786"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\72786.json",
+  "DocumentJSON": null
+}

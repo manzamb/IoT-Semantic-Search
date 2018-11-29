@@ -1,0 +1,67 @@
+{
+  "Conceptos": [
+    "person"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "1197856649",
+    "title": "Sensor de voltaje - Netduino",
+    "Private": false,
+    "tags": [
+      "energy",
+      "votage"
+    ],
+    "description": "Es un dispositivo netduino el cual se conecta directamente a ala red a través del pc.",
+    "feed": "https://api.xively.com/v2/feeds/1197856649.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "05/21/2013 17:49:40",
+    "created": "05/18/2013 22:07:38",
+    "creator": "https://xively.com/users/manzamb",
+    "version": null,
+    "website": "https://sites.google.com/site/websemanticaiot/",
+    "datastreams": [
+      {
+        "id": "number",
+        "current_value": "48",
+        "at": "05/20/2013 16:20:19",
+        "max_value": "48.0",
+        "min_value": "42.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "voltage",
+        "current_value": "3.29",
+        "at": "05/21/2013 17:49:40",
+        "max_value": "3.29",
+        "min_value": "0.62",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Habitaci��n Personal Legan��s",
+      "domain": 0,
+      "lat": "40.3350869868382",
+      "lon": "-3.77173199140168",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/1197856649\" >Sensor de voltaje - Netduino</a>",
+    "URLMostrar": "https://xively.com/feeds/1197856649"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\1197856649.json",
+  "DocumentJSON": null
+}

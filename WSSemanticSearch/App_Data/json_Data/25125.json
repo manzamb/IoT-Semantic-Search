@@ -1,0 +1,135 @@
+{
+  "Conceptos": [
+    "platform"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "25125",
+    "title": "AS_WSN",
+    "Private": false,
+    "tags": [
+      "wireless sensors network",
+      "WSN"
+    ],
+    "description": "AS_WSN: solution for the monitoring of a wireless sensors network.\r\nAS_WSN acquires the sensors connected to WSN nodes, stores the data in local, sends data on Pachub, and / or uploads them via FTP on a remote server.\r\n\r\nAS_WSN is available both for Windows OS platform and passive ethernet WSN gateway, model NI 9791, both for real-time platforms with onboard WSN gateway, model NI 9792.",
+    "feed": "https://api.xively.com/v2/feeds/25125.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:00:40",
+    "created": "05/13/2011 14:32:29",
+    "creator": "https://xively.com/users/asper",
+    "version": null,
+    "website": "http://www.asper-fi.it",
+    "datastreams": [
+      {
+        "id": "01_Connected",
+        "current_value": "1",
+        "at": "03/21/2014 14:00:40",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "Connection Status"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "02_Connected",
+        "current_value": "1",
+        "at": "03/21/2014 14:00:40",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "Connection Status"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "03_Connected",
+        "current_value": "0",
+        "at": "12/27/2013 09:28:26",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "Connection Status"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "01_Link_Quality",
+        "current_value": "73",
+        "at": "03/21/2014 14:00:40",
+        "max_value": "99.0",
+        "min_value": "0.0",
+        "tags": [
+          "Link Quality"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "02_Link_Quality",
+        "current_value": "99",
+        "at": "03/21/2014 14:00:40",
+        "max_value": "99.0",
+        "min_value": "0.0",
+        "tags": [
+          "Link Quality"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "03_Link_Quality",
+        "current_value": "NaN",
+        "at": "12/27/2013 09:28:26",
+        "max_value": "100.0",
+        "min_value": "0.0",
+        "tags": [
+          "Link Quality"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Firenze, Italia",
+      "domain": 0,
+      "lat": "43.7834955908463",
+      "lon": "11.2790966033936",
+      "ele": "50 m",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/25125\" >AS_WSN</a>",
+    "URLMostrar": "https://xively.com/feeds/25125"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\25125.json",
+  "DocumentJSON": null
+}

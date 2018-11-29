@@ -1,0 +1,116 @@
+{
+  "Conceptos": [
+    "condition"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "29123",
+    "title": "rodomo",
+    "Private": false,
+    "tags": null,
+    "description": "domo",
+    "feed": "https://api.xively.com/v2/feeds/29123.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:15:21",
+    "created": "07/01/2011 11:31:30",
+    "creator": "https://xively.com/users/rodomo",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "0",
+        "at": "06/08/2013 17:40:53",
+        "max_value": "35.0",
+        "min_value": "-5.0",
+        "tags": [
+          "temp indoor"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "25.15",
+        "at": "03/21/2014 14:15:20",
+        "max_value": "132.5",
+        "min_value": "-2460.1",
+        "tags": [
+          "temp  outdoor"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "47.95",
+        "at": "03/21/2014 14:15:20",
+        "max_value": "208.25",
+        "min_value": "-1020.45",
+        "tags": [
+          "temp water"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "24.55",
+        "at": "03/21/2014 14:15:20",
+        "max_value": "1540.4",
+        "min_value": "-2033.75",
+        "tags": [
+          "temp indoor"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "10",
+        "current_value": "0",
+        "at": "06/08/2013 17:40:53",
+        "max_value": "30.0",
+        "min_value": "0.0",
+        "tags": [
+          "conditioning"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "home",
+      "domain": 1,
+      "lat": "45.07",
+      "lon": "7.58000000000004",
+      "ele": "293",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/29123\" >rodomo</a>",
+    "URLMostrar": "https://xively.com/feeds/29123"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\29123.json",
+  "DocumentJSON": null
+}

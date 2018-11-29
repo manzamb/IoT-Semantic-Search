@@ -1,0 +1,227 @@
+{
+  "Conceptos": [
+    "temperature"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "83514",
+    "title": "DHT22 - DHT11 - BMP085",
+    "Private": false,
+    "tags": [
+      "Arduino",
+      "DHT11",
+      "DS18S20",
+      "Humidity",
+      "Italy",
+      "Temperature"
+    ],
+    "description": "Sensor DHT22 used to check Temperature and Humidity. Add. Dew Point.\n\n18/02/2013 -> Add a DHT22 sensor.\n02/01/2014 -> Sorry >BMP085 is dead :(\nIf want the used code. Can find here:\nwww.pleasearduino.com",
+    "feed": "https://api.xively.com/v2/feeds/83514.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "02/09/2014 20:45:03",
+    "created": "11/01/2012 22:41:04",
+    "creator": "https://xively.com/users/pleasearduino",
+    "version": null,
+    "website": "http://www.pleasearduino.com",
+    "datastreams": [
+      {
+        "id": "Altid",
+        "current_value": "189.94",
+        "at": "01/24/2014 05:35:27",
+        "max_value": "1966.64",
+        "min_value": "-7922.1",
+        "tags": [
+          "Altitudine"
+        ],
+        "unit": {
+          "symbol": "M",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Athmo",
+        "current_value": "0.98",
+        "at": "01/24/2014 05:35:27",
+        "max_value": "2.37",
+        "min_value": "0.79",
+        "tags": [
+          "Standard Atmosphere"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "DewPt",
+        "current_value": "18.80",
+        "at": "02/09/2014 20:45:03",
+        "max_value": "27.4",
+        "min_value": "-439.52",
+        "tags": [
+          "Punto di Rugiada"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Humid",
+        "current_value": "39.00",
+        "at": "02/04/2014 21:56:39",
+        "max_value": "175.0",
+        "min_value": "0.0",
+        "tags": [
+          "Umidità DHT11"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Press",
+        "current_value": "99064.00",
+        "at": "01/24/2014 05:35:27",
+        "max_value": "240443.0",
+        "min_value": "79825.0",
+        "tags": [
+          "Pressione Atmosferica"
+        ],
+        "unit": {
+          "symbol": "Pa",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "TempB",
+        "current_value": "12.50",
+        "at": "01/24/2014 05:35:27",
+        "max_value": "109.4",
+        "min_value": "8.6",
+        "tags": [
+          "Temp. BMP085"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "TempC",
+        "current_value": "18.40",
+        "at": "02/04/2014 21:56:39",
+        "max_value": "38.6",
+        "min_value": "0.0",
+        "tags": [
+          "Temp. Celsius DHT22"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temp_Esterna",
+        "current_value": "18.80",
+        "at": "02/09/2014 20:45:03",
+        "max_value": "3251.3",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "TempF",
+        "current_value": "65.12",
+        "at": "02/04/2014 21:56:39",
+        "max_value": "101.48",
+        "min_value": "32.0",
+        "tags": [
+          "Temp. Fahrenheit DHT22"
+        ],
+        "unit": {
+          "symbol": "°F",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temp_Interna",
+        "current_value": "17.00",
+        "at": "02/09/2014 20:45:03",
+        "max_value": "255.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Umid_Estrena",
+        "current_value": "99.90",
+        "at": "02/09/2014 20:45:03",
+        "max_value": "6553.5",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Umid_Interna",
+        "current_value": "37.00",
+        "at": "02/09/2014 20:45:03",
+        "max_value": "255.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Grottaglie",
+      "domain": 0,
+      "lat": "40.5486183512592",
+      "lon": "17.4351096153259",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/83514\" >DHT22 - DHT11 - BMP085</a>",
+    "URLMostrar": "https://xively.com/feeds/83514"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\83514.json",
+  "DocumentJSON": null
+}

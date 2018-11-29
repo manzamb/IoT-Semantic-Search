@@ -1,0 +1,70 @@
+{
+  "Conceptos": [
+    "device"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "128431",
+    "title": "Current Cost Bridge",
+    "Private": false,
+    "tags": [
+      "device:type=Current Cost Bridge 20003"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/128431.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:12:01",
+    "created": "04/30/2013 12:58:12",
+    "creator": "https://xively.com/users/broker2",
+    "version": null,
+    "website": "http://www.currentcost.com",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "20.80",
+        "at": "03/21/2014 14:12:00",
+        "max_value": "39.4",
+        "min_value": "2.0",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "265",
+        "at": "03/21/2014 14:12:00",
+        "max_value": "11578.0",
+        "min_value": "0.0",
+        "tags": [
+          "watts"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/128431\" >Current Cost Bridge</a>",
+    "URLMostrar": "https://xively.com/feeds/128431"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\128431.json",
+  "DocumentJSON": null
+}

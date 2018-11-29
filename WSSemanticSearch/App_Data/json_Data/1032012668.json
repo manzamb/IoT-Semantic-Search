@@ -1,0 +1,86 @@
+{
+  "Conceptos": [
+    "humidity"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "1032012668",
+    "title": "HomePi",
+    "Private": false,
+    "tags": [
+      "temperature humidity raspberry pi"
+    ],
+    "description": "Sensirion SHT-71 temp & humid sensor",
+    "feed": "https://api.xively.com/v2/feeds/1032012668.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:06:16",
+    "created": "12/01/2013 05:51:16",
+    "creator": "https://xively.com/users/tasasaki",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "dewpoint01",
+        "current_value": "6.40",
+        "at": "03/21/2014 14:06:16",
+        "max_value": "14.34",
+        "min_value": "0.0",
+        "tags": [
+          "dewpoint"
+        ],
+        "unit": {
+          "symbol": "℃",
+          "label": "degrees C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "humidity01",
+        "current_value": "80.58",
+        "at": "03/21/2014 14:06:15",
+        "max_value": "95.32",
+        "min_value": "24.11",
+        "tags": [
+          "humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temperature01",
+        "current_value": "9.58",
+        "at": "03/21/2014 14:06:12",
+        "max_value": "31.22",
+        "min_value": "1.79",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "℃",
+          "label": "degrees C",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/1032012668\" >HomePi</a>",
+    "URLMostrar": "https://xively.com/feeds/1032012668"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\1032012668.json",
+  "DocumentJSON": null
+}

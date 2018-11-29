@@ -1,0 +1,89 @@
+{
+  "Conceptos": [
+    "sensing"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "1526802309",
+    "title": "Simple Home WSN",
+    "Private": false,
+    "tags": [
+      "AAST",
+      "arduino",
+      "Cairo",
+      "Egypt",
+      "home",
+      "light",
+      "python",
+      "sensor",
+      "temperature",
+      "xbee"
+    ],
+    "description": "A simple home wireless sensor network sensing the room temperature and if the room's light is on or not, and uploading this live data to an online feed so the house can be monitored remotely even from mobile phones.\n\nThis project is presented for the Wireless Sensor Networks course at AAST.\n\nIts goal is to show an example of simple implementations of WSN using Arduino, Xbee and Online Data feeds.",
+    "feed": "https://api.xively.com/v2/feeds/1526802309.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "06/01/2013 17:21:31",
+    "created": "05/31/2013 12:48:57",
+    "creator": "https://xively.com/users/thenightphoenix",
+    "version": null,
+    "website": "https://github.com/TheNightPhoenix/SimpleHomeWSN",
+    "datastreams": [
+      {
+        "id": "room1_light",
+        "current_value": "255",
+        "at": "06/08/2013 12:04:30",
+        "max_value": "255.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "room1_temperature",
+        "current_value": "25",
+        "at": "06/08/2013 12:04:09",
+        "max_value": "30.0",
+        "min_value": "24.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "room2_light",
+        "current_value": "255",
+        "at": "06/08/2013 12:04:29",
+        "max_value": "255.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "30.1132705357528",
+      "lon": "31.3516692601319",
+      "ele": "20 meters",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/1526802309\" >Simple Home WSN</a>",
+    "URLMostrar": "https://xively.com/feeds/1526802309"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\1526802309.json",
+  "DocumentJSON": null
+}

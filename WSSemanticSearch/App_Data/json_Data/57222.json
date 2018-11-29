@@ -1,0 +1,82 @@
+{
+  "Conceptos": [
+    "description"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "57222",
+    "title": "fprueba",
+    "Private": false,
+    "tags": null,
+    "description": "description fprueba",
+    "feed": "https://api.xively.com/v2/feeds/57222.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "05/14/2013 14:47:48",
+    "created": "04/26/2012 17:11:54",
+    "creator": "https://xively.com/users/javip",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "sensor1",
+        "current_value": "7",
+        "at": "05/14/2013 14:47:48",
+        "max_value": "7.0",
+        "min_value": "7.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "nudos",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "tem",
+        "current_value": "27",
+        "at": "05/14/2013 14:47:05",
+        "max_value": "300.0",
+        "min_value": "0.0",
+        "tags": [
+          "tem"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "ºC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "wind",
+        "current_value": "23",
+        "at": "05/14/2013 14:49:05",
+        "max_value": "23.0",
+        "min_value": "23.0",
+        "tags": [
+          "wind"
+        ],
+        "unit": {
+          "symbol": "km/h",
+          "label": "km/h",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "madrid, spain",
+      "domain": 0,
+      "lat": "40.4176783358555",
+      "lon": "-3.614501953125",
+      "ele": "15",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/57222\" >fprueba</a>",
+    "URLMostrar": "https://xively.com/feeds/57222"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\57222.json",
+  "DocumentJSON": null
+}

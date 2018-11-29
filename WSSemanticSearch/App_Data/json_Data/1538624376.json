@@ -1,0 +1,86 @@
+{
+  "Conceptos": [
+    "humedad"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "1538624376",
+    "title": "Raspberry Pi",
+    "Private": false,
+    "tags": [
+      "Ecuador",
+      "Humedad",
+      "Loja",
+      "Pi",
+      "Raspberry",
+      "Raspberry Pi",
+      "Temperatura"
+    ],
+    "description": "Sistema con fines de investigación. Disculpa si el sistema esta caído, Recuerda que estamos en pruebas. ",
+    "feed": "https://api.xively.com/v2/feeds/1538624376.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/19/2014 15:11:54",
+    "created": "10/30/2013 17:21:41",
+    "creator": "https://xively.com/users/edison_fabricio",
+    "version": null,
+    "website": "http://raspberryloja.github.io/serverweb/",
+    "datastreams": [
+      {
+        "id": "CPU",
+        "current_value": "53.0",
+        "at": "03/19/2014 15:11:53",
+        "max_value": "56.0",
+        "min_value": "36.0",
+        "tags": null,
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "HUMEDAD",
+        "current_value": "55.0",
+        "at": "03/19/2014 15:11:53",
+        "max_value": "223.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "%RH",
+          "label": "Relative Humidity",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "TEMPERATURA",
+        "current_value": "23.0",
+        "at": "03/19/2014 15:11:53",
+        "max_value": "457.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "-3.98793333333333",
+      "lon": "-79.1982833333333",
+      "ele": "2121",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/1538624376\" >Raspberry Pi</a>",
+    "URLMostrar": "https://xively.com/feeds/1538624376"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\1538624376.json",
+  "DocumentJSON": null
+}

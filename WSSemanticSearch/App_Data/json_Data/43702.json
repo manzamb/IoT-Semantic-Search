@@ -1,0 +1,80 @@
+{
+  "Conceptos": [
+    "person"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "43702",
+    "title": "Personal Radiation Monitoring Post 43702 (Sapporo)",
+    "Private": false,
+    "tags": [
+      "cpm",
+      "Geiger",
+      "Mark2",
+      "nSv/h",
+      "radiation",
+      "uSv/h",
+      "Yokohama",
+      "γ線",
+      "ガイガーカウンター",
+      "モニタリングポスト",
+      "札幌"
+    ],
+    "description": "Monitoring post by Mark2 Geiger Counter\r\nSBM-20 Geiger Mueller Tube\r\n\r\n2012-01-08より試験運用中 \r\n2012/１/8-12:20〜15:20までラジウムボールを近づけて実験 しました。\r\n\r\n2012/6/1～　札幌市内にて運用開始\r\n\r\n補足情報などは以下のページに載せていますので参照ください。\r\nhttp://home.f07.itscom.net/ttha/monitoring/monitoringData5post.htm",
+    "feed": "https://api.xively.com/v2/feeds/43702.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "11/17/2013 04:30:50",
+    "created": "01/07/2012 00:23:51",
+    "creator": "https://xively.com/users/geigermonjp",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "5",
+        "current_value": "0.103121",
+        "at": "11/17/2013 04:30:50",
+        "max_value": "0.1267",
+        "min_value": "0.071348",
+        "tags": [
+          "１時間移動平均値"
+        ],
+        "unit": {
+          "symbol": "μSv/h",
+          "label": "uSv/h",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "0.097425",
+        "at": "11/17/2013 04:30:48",
+        "max_value": "0.179575",
+        "min_value": "0.043175",
+        "tags": [
+          "10分間移動平均値"
+        ],
+        "unit": {
+          "symbol": "μSv/h",
+          "label": "uSv/h",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Sapporo",
+      "domain": 0,
+      "lat": "43.0683273709902",
+      "lon": "141.350730657577",
+      "ele": "32m",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/43702\" >Personal Radiation Monitoring Post 43702 (Sapporo)</a>",
+    "URLMostrar": "https://xively.com/feeds/43702"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\43702.json",
+  "DocumentJSON": null
+}

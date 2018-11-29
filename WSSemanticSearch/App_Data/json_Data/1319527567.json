@@ -1,0 +1,442 @@
+{
+  "Conceptos": [
+    "process"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "1319527567",
+    "title": "indy",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/1319527567.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:10:02",
+    "created": "08/01/2013 20:19:48",
+    "creator": "https://xively.com/users/eituhahn",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "clock_offset",
+        "current_value": "-0.02",
+        "at": "03/21/2014 14:10:00",
+        "max_value": "5.97",
+        "min_value": "-1.23",
+        "tags": null,
+        "unit": {
+          "symbol": "ms",
+          "label": "milliseconds",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "cpu_idle",
+        "current_value": "78",
+        "at": "03/21/2014 14:10:00",
+        "max_value": "100.0",
+        "min_value": "33.0",
+        "tags": null,
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "cpu_system",
+        "current_value": "4",
+        "at": "03/21/2014 14:10:00",
+        "max_value": "20.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "CPU_temp_max",
+        "current_value": "48.0",
+        "at": "03/21/2014 14:10:00",
+        "max_value": "75.0",
+        "min_value": "27.0",
+        "tags": null,
+        "unit": {
+          "symbol": "C",
+          "label": "degree",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "cpu_user",
+        "current_value": "18",
+        "at": "03/21/2014 14:10:00",
+        "max_value": "66.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "ctx_switches",
+        "current_value": "23123",
+        "at": "03/21/2014 14:10:00",
+        "max_value": "1325665.0",
+        "min_value": "1354.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "interrupts",
+        "current_value": "620",
+        "at": "03/21/2014 14:10:00",
+        "max_value": "29720.0",
+        "min_value": "38.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "load_avg_01_min",
+        "current_value": "1.03",
+        "at": "03/21/2014 14:10:00",
+        "max_value": "10.36",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "load_avg_05_mins",
+        "current_value": "1.07",
+        "at": "03/21/2014 14:10:00",
+        "max_value": "9.76",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "load_avg_15_mins",
+        "current_value": "1.0",
+        "at": "03/21/2014 14:10:00",
+        "max_value": "8.23",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "marinda_conns_ark",
+        "current_value": "82",
+        "at": "03/21/2014 14:10:00",
+        "max_value": "84.0",
+        "min_value": "29.0",
+        "tags": null,
+        "unit": {
+          "symbol": "monitors",
+          "label": "connection",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "marinda_conns_dmz",
+        "current_value": "2",
+        "at": "03/21/2014 14:10:00",
+        "max_value": "2.0",
+        "min_value": "1.0",
+        "tags": null,
+        "unit": {
+          "symbol": "monitors",
+          "label": "connection",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "marinda_conns_midar",
+        "current_value": "81",
+        "at": "03/21/2014 14:10:00",
+        "max_value": "113.0",
+        "min_value": "29.0",
+        "tags": null,
+        "unit": {
+          "symbol": "monitors",
+          "label": "connection",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "marinda_gs_dmz_vsize",
+        "current_value": "60.48",
+        "at": "03/21/2014 14:10:00",
+        "max_value": "69.48",
+        "min_value": "58.48",
+        "tags": null,
+        "unit": {
+          "symbol": "MB",
+          "label": "megabytes",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "marinda_gs_midar_vsize",
+        "current_value": "67.48",
+        "at": "03/21/2014 14:10:00",
+        "max_value": "69.48",
+        "min_value": "62.48",
+        "tags": null,
+        "unit": {
+          "symbol": "MB",
+          "label": "megabytes",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "marinda_gs_vsize",
+        "current_value": "71.48",
+        "at": "03/21/2014 14:10:00",
+        "max_value": "74.48",
+        "min_value": "60.48",
+        "tags": null,
+        "unit": {
+          "symbol": "MB",
+          "label": "megabytes",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "marinda_ls_dmz_vsize",
+        "current_value": "46.37",
+        "at": "03/21/2014 14:10:00",
+        "max_value": "46.37",
+        "min_value": "44.37",
+        "tags": null,
+        "unit": {
+          "symbol": "MB",
+          "label": "megabytes",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "marinda_ls_midar_vsize",
+        "current_value": "86.37",
+        "at": "03/21/2014 14:10:00",
+        "max_value": "798.37",
+        "min_value": "41.37",
+        "tags": null,
+        "unit": {
+          "symbol": "MB",
+          "label": "megabytes",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "marinda_ls_vsize",
+        "current_value": "59.37",
+        "at": "03/21/2014 14:10:00",
+        "max_value": "59.37",
+        "min_value": "48.37",
+        "tags": null,
+        "unit": {
+          "symbol": "MB",
+          "label": "megabytes",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "mem_active",
+        "current_value": "13312.0",
+        "at": "03/21/2014 14:10:00",
+        "max_value": "21504.0",
+        "min_value": "413.0",
+        "tags": null,
+        "unit": {
+          "symbol": "MB",
+          "label": "megabytes",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "mem_buf",
+        "current_value": "3284.0",
+        "at": "03/21/2014 14:10:00",
+        "max_value": "3284.0",
+        "min_value": "3053.0",
+        "tags": null,
+        "unit": {
+          "symbol": "MB",
+          "label": "megabytes",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "mem_cache",
+        "current_value": "1212.0",
+        "at": "03/21/2014 14:10:00",
+        "max_value": "1684.0",
+        "min_value": "0.02",
+        "tags": null,
+        "unit": {
+          "symbol": "MB",
+          "label": "megabytes",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "mem_free",
+        "current_value": "833.0",
+        "at": "03/21/2014 14:10:00",
+        "max_value": "21504.0",
+        "min_value": "0.82",
+        "tags": null,
+        "unit": {
+          "symbol": "MB",
+          "label": "megabytes",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "mem_inact",
+        "current_value": "12288.0",
+        "at": "03/21/2014 14:10:00",
+        "max_value": "27648.0",
+        "min_value": "4737.0",
+        "tags": null,
+        "unit": {
+          "symbol": "MB",
+          "label": "megabytes",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "mem_wired",
+        "current_value": "4039.0",
+        "at": "03/21/2014 14:10:00",
+        "max_value": "4125.0",
+        "min_value": "1621.0",
+        "tags": null,
+        "unit": {
+          "symbol": "MB",
+          "label": "megabytes",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "processes_all",
+        "current_value": "221",
+        "at": "03/21/2014 14:10:00",
+        "max_value": "1291.0",
+        "min_value": "188.0",
+        "tags": null,
+        "unit": {
+          "symbol": "processes",
+          "label": "process",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "processes_max_size",
+        "current_value": "11213.0",
+        "at": "03/21/2014 14:10:00",
+        "max_value": "18252.0",
+        "min_value": "63.66",
+        "tags": null,
+        "unit": {
+          "symbol": "MB",
+          "label": "bytes",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "processes_running",
+        "current_value": "6",
+        "at": "03/21/2014 14:10:00",
+        "max_value": "18.0",
+        "min_value": "1.0",
+        "tags": null,
+        "unit": {
+          "symbol": "processes",
+          "label": "process",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "uptime",
+        "current_value": "663.19",
+        "at": "03/21/2014 14:10:00",
+        "max_value": "663.19",
+        "min_value": "432.35",
+        "tags": null,
+        "unit": {
+          "symbol": "days",
+          "label": "day",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "32.7153292",
+      "lon": "-117.1572551",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/1319527567\" >indy</a>",
+    "URLMostrar": "https://xively.com/feeds/1319527567"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\1319527567.json",
+  "DocumentJSON": null
+}

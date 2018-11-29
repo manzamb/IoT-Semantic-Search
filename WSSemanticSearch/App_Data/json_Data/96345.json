@@ -1,0 +1,109 @@
+{
+  "Conceptos": [
+    "process"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "96345",
+    "title": "raspberrypi",
+    "Private": false,
+    "tags": [
+      "pi",
+      "raspberry"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/96345.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "08/28/2013 16:50:02",
+    "created": "01/06/2013 19:42:41",
+    "creator": "https://xively.com/users/steveminnikin",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "cpu",
+        "current_value": "7",
+        "at": "08/28/2013 16:50:02",
+        "max_value": "53.0",
+        "min_value": "6.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "No of processes",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "cpu_temp",
+        "current_value": "48.2\n",
+        "at": "08/28/2013 16:50:02",
+        "max_value": "57.3",
+        "min_value": "22.9",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "free_mem",
+        "current_value": "15",
+        "at": "08/28/2013 16:50:02",
+        "max_value": "84.0",
+        "min_value": "8.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "KB",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "hdd",
+        "current_value": "4579",
+        "at": "08/28/2013 16:50:02",
+        "max_value": "4874.0",
+        "min_value": "2942.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "KB",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "used_mem",
+        "current_value": "201",
+        "at": "08/28/2013 16:50:02",
+        "max_value": "208.0",
+        "min_value": "132.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "KB",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/96345\" >raspberrypi</a>",
+    "URLMostrar": "https://xively.com/feeds/96345"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\96345.json",
+  "DocumentJSON": null
+}

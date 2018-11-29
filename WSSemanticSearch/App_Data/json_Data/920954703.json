@@ -1,0 +1,70 @@
+{
+  "Conceptos": [
+    "humedad"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "920954703",
+    "title": "Gelotemp",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/920954703.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "09/07/2013 11:31:53",
+    "created": "06/22/2013 12:31:18",
+    "creator": "https://xively.com/users/gelocatil",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Humedad",
+        "current_value": "48.90",
+        "at": "09/07/2013 11:31:52",
+        "max_value": "99.9",
+        "min_value": "0.0",
+        "tags": [
+          "humedad"
+        ],
+        "unit": {
+          "symbol": "%HR",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperatura",
+        "current_value": "25.60",
+        "at": "09/07/2013 11:31:52",
+        "max_value": "44.6",
+        "min_value": "0.0",
+        "tags": [
+          "calor",
+          "frio",
+          "temp"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "Grados",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "40.5633673",
+      "lon": "-3.6128291",
+      "ele": "20",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/920954703\" >Gelotemp</a>",
+    "URLMostrar": "https://xively.com/feeds/920954703"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\920954703.json",
+  "DocumentJSON": null
+}

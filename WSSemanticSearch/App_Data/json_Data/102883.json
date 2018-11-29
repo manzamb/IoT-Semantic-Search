@@ -1,0 +1,97 @@
+{
+  "Conceptos": [
+    "moisture"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "102883",
+    "title": "Sensor Data",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "garden",
+      "moisture",
+      "temperature"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/102883.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "05/21/2013 19:01:45",
+    "created": "02/06/2013 06:30:46",
+    "creator": "https://xively.com/users/relaxify",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "36.9",
+        "at": "05/21/2013 19:01:45",
+        "max_value": "60.1",
+        "min_value": "12.3",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "14.5",
+        "at": "05/21/2013 19:01:45",
+        "max_value": "26.3",
+        "min_value": "10.5",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "moisture",
+        "current_value": "33.3",
+        "at": "04/15/2013 00:56:12",
+        "max_value": "53.9",
+        "min_value": "14.5",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temperature",
+        "current_value": "15.0",
+        "at": "04/15/2013 00:56:12",
+        "max_value": "30.8",
+        "min_value": "-29.0",
+        "tags": null,
+        "unit": {
+          "symbol": "C",
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/102883\" >Sensor Data</a>",
+    "URLMostrar": "https://xively.com/feeds/102883"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\102883.json",
+  "DocumentJSON": null
+}

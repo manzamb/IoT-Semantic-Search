@@ -1,0 +1,134 @@
+{
+  "Conceptos": [
+    "wind"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "40053",
+    "title": "Avans Breda Weather Station",
+    "Private": false,
+    "tags": [
+      "Avans Technische Informatica Weather Davis Vantage Breda Hogeschool"
+    ],
+    "description": "Davis Vantage Pro 2 weather station located at the roof of Avans Hogeschool Breda, the Netherlands.",
+    "feed": "https://api.xively.com/v2/feeds/40053.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:06:35",
+    "created": "11/20/2011 16:48:19",
+    "creator": "https://xively.com/users/dkroeske",
+    "version": null,
+    "website": "http://www.ti-breda.nl",
+    "datastreams": [
+      {
+        "id": "airpressure",
+        "current_value": "1032.336",
+        "at": "03/21/2014 14:06:35",
+        "max_value": "1042.148",
+        "min_value": "0.0",
+        "tags": [
+          "airpressure"
+        ],
+        "unit": {
+          "symbol": "hPa",
+          "label": "hectopascal",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "hum",
+        "current_value": "60",
+        "at": "03/21/2014 14:06:35",
+        "max_value": "29679.0",
+        "min_value": "27.0",
+        "tags": [
+          "humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "Percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "rainrate",
+        "current_value": "0",
+        "at": "03/21/2014 14:06:35",
+        "max_value": "6553.4",
+        "min_value": "0.0",
+        "tags": [
+          "Amount of rain"
+        ],
+        "unit": {
+          "symbol": "mm",
+          "label": "mm",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temp",
+        "current_value": "14.5",
+        "at": "03/21/2014 14:06:35",
+        "max_value": "1802.6",
+        "min_value": "-13.0",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Degree Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "winddir",
+        "current_value": "93",
+        "at": "03/21/2014 14:06:35",
+        "max_value": "32767.0",
+        "min_value": "5.0",
+        "tags": [
+          "wind direction"
+        ],
+        "unit": {
+          "symbol": "Degrees",
+          "label": "Degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "windspeed",
+        "current_value": "0",
+        "at": "03/21/2014 14:06:35",
+        "max_value": "158.4",
+        "min_value": "0.0",
+        "tags": [
+          "windspeed"
+        ],
+        "unit": {
+          "symbol": "m/s",
+          "label": "m/s",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Breda, The netherlands",
+      "domain": 0,
+      "lat": "51.5857632002043",
+      "lon": "4.79224920272827",
+      "ele": "21",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/40053\" >Avans Breda Weather Station</a>",
+    "URLMostrar": "https://xively.com/feeds/40053"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\40053.json",
+  "DocumentJSON": null
+}

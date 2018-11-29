@@ -1,0 +1,55 @@
+{
+  "Conceptos": [
+    "temperature"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "98328",
+    "title": "Apartment Temperature",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "temperature"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/98328.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:09:38",
+    "created": "01/17/2013 07:29:19",
+    "creator": "https://xively.com/users/las3rjock",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "temperature",
+        "current_value": "19.56",
+        "at": "03/21/2014 14:09:38",
+        "max_value": "28.56",
+        "min_value": "13.5",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Apartment",
+      "domain": 0,
+      "lat": "42.3009",
+      "lon": "-83.7234",
+      "ele": "256",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/98328\" >Apartment Temperature</a>",
+    "URLMostrar": "https://xively.com/feeds/98328"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\98328.json",
+  "DocumentJSON": null
+}

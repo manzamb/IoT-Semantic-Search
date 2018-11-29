@@ -1,0 +1,86 @@
+{
+  "Conceptos": [
+    "co2"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "2119634215",
+    "title": "Cranston, RI - Jones Family",
+    "Private": false,
+    "tags": [
+      "Brianna's House"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/2119634215.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "08/25/2013 00:38:08",
+    "created": "05/25/2013 11:45:29",
+    "creator": "https://xively.com/users/narragansett",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "CO2",
+        "current_value": "363",
+        "at": "08/25/2013 00:38:08",
+        "max_value": "1617.0",
+        "min_value": "1.0",
+        "tags": [
+          "CO2"
+        ],
+        "unit": {
+          "symbol": "ppmCO2",
+          "label": "ppm",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Humidity",
+        "current_value": "48",
+        "at": "08/25/2013 00:38:08",
+        "max_value": "76.0",
+        "min_value": "40.0",
+        "tags": [
+          "%RelH"
+        ],
+        "unit": {
+          "symbol": "%RelH",
+          "label": "%RelH",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperature",
+        "current_value": "76",
+        "at": "08/25/2013 00:38:08",
+        "max_value": "83.0",
+        "min_value": "68.0",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "degF",
+          "label": "degF",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Brianna's Home",
+      "domain": 0,
+      "lat": "41.75",
+      "lon": "-71.48",
+      "ele": "25",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/2119634215\" >Cranston, RI - Jones Family</a>",
+    "URLMostrar": "https://xively.com/feeds/2119634215"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\2119634215.json",
+  "DocumentJSON": null
+}

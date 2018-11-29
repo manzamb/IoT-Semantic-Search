@@ -1,0 +1,95 @@
+{
+  "Conceptos": [
+    "temperature"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "101318",
+    "title": "CTA_LAB",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "Humidity and temperature"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/101318.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "01/26/2014 09:21:49",
+    "created": "01/30/2013 10:50:21",
+    "creator": "https://xively.com/users/drbokko",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "DS18B20-t0",
+        "current_value": "20.94",
+        "at": "01/26/2014 09:21:49",
+        "max_value": "85.0",
+        "min_value": "9.81",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "DS18B20-t1",
+        "current_value": "21.44",
+        "at": "01/26/2014 09:21:49",
+        "max_value": "85.0",
+        "min_value": "18.81",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "SH15humidity",
+        "current_value": "38.25",
+        "at": "01/26/2014 09:21:49",
+        "max_value": "83.08",
+        "min_value": "31.43",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "SH15temperature",
+        "current_value": "21.56",
+        "at": "01/26/2014 09:21:49",
+        "max_value": "82.87",
+        "min_value": "-203.85",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/101318\" >CTA_LAB</a>",
+    "URLMostrar": "https://xively.com/feeds/101318"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\101318.json",
+  "DocumentJSON": null
+}

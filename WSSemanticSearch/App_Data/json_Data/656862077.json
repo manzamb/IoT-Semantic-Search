@@ -1,0 +1,199 @@
+{
+  "Conceptos": [
+    "sensing"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "656862077",
+    "title": "RadMon to Xively",
+    "Private": false,
+    "tags": [
+      "Geiger Counter",
+      "Remote Sensing"
+    ],
+    "description": "This is the output from a DIY Geiger Kit - solar powered running in my back yard. Using an RF22 transceiver it transmits to a base station that writes an SD card and also sends the output here via WiFi. \n\nThe GM tube is a MKD VA-Z-115.1 (227 CPM = 1 SuV)\n\nVerify barometer readings with . . .\nhttp://www.crh.noaa.gov/bou/include/webpres.php?product=webpres.txt\n",
+    "feed": "https://api.xively.com/v2/feeds/656862077.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:05:37",
+    "created": "08/18/2013 23:35:22",
+    "creator": "https://xively.com/users/brohogan",
+    "version": null,
+    "website": "https://sites.google.com/site/diygeigercounter/wireless-monitoring",
+    "datastreams": [
+      {
+        "id": "Barometer",
+        "current_value": "30.06",
+        "at": "03/21/2014 14:05:37",
+        "max_value": "303.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "inHg @SL",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Charge",
+        "current_value": "0",
+        "at": "03/21/2014 14:05:37",
+        "max_value": "16.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "CPM",
+        "current_value": "30",
+        "at": "03/21/2014 14:05:37",
+        "max_value": "328.0",
+        "min_value": "0.0",
+        "tags": [
+          "CPM"
+        ],
+        "unit": {
+          "symbol": "CPM",
+          "label": "CPM",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Dose",
+        "current_value": "0.17",
+        "at": "03/21/2014 14:05:37",
+        "max_value": "1.63",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "uSv",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Humidity",
+        "current_value": "64",
+        "at": "03/21/2014 14:05:37",
+        "max_value": "378.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "%RH",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "MaxCPM",
+        "current_value": "31",
+        "at": "03/21/2014 14:05:37",
+        "max_value": "286.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "Max CPM",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "RSSI",
+        "current_value": "126",
+        "at": "03/21/2014 14:05:37",
+        "max_value": "135.0",
+        "min_value": "73.0",
+        "tags": [
+          "RSSI"
+        ],
+        "unit": {
+          "symbol": "RSSI",
+          "label": "RSSI",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "RSSI2",
+        "current_value": "0",
+        "at": "03/21/2014 14:05:37",
+        "max_value": "1.0",
+        "min_value": "-55.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temp",
+        "current_value": "27",
+        "at": "03/21/2014 14:05:37",
+        "max_value": "11827.0",
+        "min_value": "-9.0",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "°F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Vcc",
+        "current_value": "3303",
+        "at": "03/21/2014 14:05:37",
+        "max_value": "3598.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "mV",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Xposts",
+        "current_value": "33",
+        "at": "03/21/2014 14:05:37",
+        "max_value": "1534.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/656862077\" >RadMon to Xively</a>",
+    "URLMostrar": "https://xively.com/feeds/656862077"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\656862077.json",
+  "DocumentJSON": null
+}

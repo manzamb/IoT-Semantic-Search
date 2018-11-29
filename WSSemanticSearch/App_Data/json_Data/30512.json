@@ -1,0 +1,347 @@
+{
+  "Conceptos": [
+    "air quality"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "30512",
+    "title": "Nuremberg - Logima Office - Radiation and Temperature",
+    "Private": false,
+    "tags": [
+      "Radiation",
+      "Temperature"
+    ],
+    "description": "We are using the X5Cplus device (indoor) from Graetz http://www.graetz.com/dl_ger.htm#X5Cplus and wrote a .Net program that uploads the values to cosm (pachube). \r\n\r\nAdditional we have some Arexx temperature logger (and the BS 1000) and send its data also to cosm.\r\n\r\nOur Air-Quality egg can be found here: https://cosm.com/feeds/122319",
+    "feed": "https://api.xively.com/v2/feeds/30512.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:09:08",
+    "created": "07/27/2011 08:31:58",
+    "creator": "https://xively.com/users/darkwolf",
+    "version": null,
+    "website": "http://logima.de",
+    "datastreams": [
+      {
+        "id": "108253480",
+        "current_value": "11740",
+        "at": "03/19/2014 09:36:19",
+        "max_value": "204910.0",
+        "min_value": "0.0",
+        "tags": [
+          "DeviceId:",
+          "DeviceName:",
+          "DeviceType:X5Cplus",
+          "Software:Logima.BuildingBlocks.Pachube",
+          "UniqueId:108253480",
+          "Vendor:Logima",
+          "Version:0.0.1.27011"
+        ],
+        "unit": {
+          "symbol": "nSv",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "137942970",
+        "current_value": null,
+        "at": "12/30/2013 18:23:38",
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "DeviceId:17300",
+          "DeviceName:Arexx Sensor 17300",
+          "DeviceType:Arexx BS1000",
+          "Software:Logima.BuildingBlocks.Pachube",
+          "UniqueId:ArexxSensor17300_137942970",
+          "Vendor:Logima",
+          "Version:0.0.1.27011"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "208927455",
+        "current_value": "25.66",
+        "at": "03/21/2014 14:09:08",
+        "max_value": "36.85",
+        "min_value": "-39.38",
+        "tags": [
+          "DeviceId:18582",
+          "DeviceName:Arexx Sensor 18582",
+          "DeviceType:Arexx BS1000",
+          "Software:Logima.BuildingBlocks.Pachube",
+          "UniqueId:ArexxSensor18582_208927455",
+          "Vendor:Logima",
+          "Version:0.0.1.27011"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "219718085",
+        "current_value": "-38.9",
+        "at": "12/30/2013 16:48:20",
+        "max_value": "-38.9",
+        "min_value": "-38.9",
+        "tags": [
+          "DeviceId:18070",
+          "DeviceName:Arexx Sensor 18070",
+          "DeviceType:Arexx BS1000",
+          "Software:Logima.BuildingBlocks.Pachube",
+          "UniqueId:ArexxSensor18070_219718085",
+          "Vendor:Logima",
+          "Version:0.0.1.27011"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "252981239",
+        "current_value": null,
+        "at": "12/30/2013 19:40:04",
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "DeviceId:4226",
+          "DeviceName:Arexx Sensor 4226",
+          "DeviceType:Arexx BS1000",
+          "Software:Logima.BuildingBlocks.Pachube",
+          "UniqueId:ArexxSensor4226_252981239",
+          "Vendor:Logima",
+          "Version:0.0.1.27011"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "283296091",
+        "current_value": "21.742",
+        "at": "12/18/2013 14:25:53",
+        "max_value": "45.18",
+        "min_value": "19.492",
+        "tags": [
+          "DeviceId:10768",
+          "DeviceName:Arexx Sensor 10768",
+          "DeviceType:Arexx BS1000",
+          "Software:Logima.BuildingBlocks.Pachube",
+          "UniqueId:ArexxSensor10768_283296091",
+          "Vendor:Logima",
+          "Version:0.0.1.27011"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "304573501",
+        "current_value": null,
+        "at": "12/30/2013 19:16:17",
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "DeviceId:16528",
+          "DeviceName:Arexx Sensor 16528",
+          "DeviceType:Arexx BS1000",
+          "Software:Logima.BuildingBlocks.Pachube",
+          "UniqueId:ArexxSensor16528_304573501",
+          "Vendor:Logima",
+          "Version:0.0.1.27011"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "362798650",
+        "current_value": "26.93",
+        "at": "09/02/2013 09:15:13",
+        "max_value": "40.367",
+        "min_value": "3.68",
+        "tags": [
+          "DeviceId:9578",
+          "DeviceName:Arexx Sensor 9578",
+          "DeviceType:Arexx BS1000",
+          "Software:Logima.BuildingBlocks.Pachube",
+          "UniqueId:ArexxSensor9578_362798650",
+          "Vendor:Logima",
+          "Version:0.0.1.27011"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "366709258",
+        "current_value": "20",
+        "at": "03/19/2014 09:36:21",
+        "max_value": "29.0",
+        "min_value": "14.0",
+        "tags": [
+          "DeviceId:",
+          "DeviceName:",
+          "DeviceType:X5Cplus",
+          "Software:Logima.BuildingBlocks.Pachube",
+          "UniqueId:366709258",
+          "Vendor:Logima",
+          "Version:0.0.1.27011"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1084438310",
+        "current_value": null,
+        "at": "12/30/2013 18:57:09",
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "DeviceId:5776",
+          "DeviceName:Arexx Sensor 5776",
+          "DeviceType:Arexx BS1000",
+          "Software:Logima.BuildingBlocks.Pachube",
+          "UniqueId:ArexxSensor5776_1084438310",
+          "Vendor:Logima",
+          "Version:0.0.1.27011"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1312391118",
+        "current_value": "22.319",
+        "at": "03/21/2014 14:08:45",
+        "max_value": "56.386",
+        "min_value": "15.776",
+        "tags": [
+          "DeviceId:18582RH",
+          "DeviceName:Arexx Sensor 18582RH",
+          "DeviceType:Arexx BS1000",
+          "Software:Logima.BuildingBlocks.Pachube",
+          "UniqueId:ArexxSensor18582RH_1312391118",
+          "Vendor:Logima",
+          "Version:0.0.1.27011"
+        ],
+        "unit": {
+          "symbol": "RH%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1536179884",
+        "current_value": "5.531",
+        "at": "10/21/2012 03:25:46",
+        "max_value": "5.531",
+        "min_value": "5.531",
+        "tags": [
+          "DeviceId:10772",
+          "DeviceName:Arexx Sensor 10772",
+          "DeviceType:Arexx BS1000",
+          "Software:Logima.BuildingBlocks.Pachube",
+          "UniqueId:ArexxSensor10772_1536179884",
+          "Vendor:Logima",
+          "Version:0.0.1.27011"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1588060404",
+        "current_value": null,
+        "at": "12/30/2013 19:29:15",
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "DeviceId:27552",
+          "DeviceName:Arexx Sensor 27552",
+          "DeviceType:Arexx BS1000",
+          "Software:Logima.BuildingBlocks.Pachube",
+          "UniqueId:ArexxSensor27552_1588060404",
+          "Vendor:Logima",
+          "Version:0.0.1.27011"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1624741942",
+        "current_value": "48",
+        "at": "03/19/2014 09:36:20",
+        "max_value": "1684.0",
+        "min_value": "30.0",
+        "tags": [
+          "DeviceId:",
+          "DeviceName:",
+          "DeviceType:X5Cplus",
+          "Software:Logima.BuildingBlocks.Pachube",
+          "UniqueId:1624741942",
+          "Vendor:Logima",
+          "Version:0.0.1.27011"
+        ],
+        "unit": {
+          "symbol": "nSv/h",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Nuremberg",
+      "domain": 0,
+      "lat": "49.4318474043153",
+      "lon": "11.129869222641",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/30512\" >Nuremberg - Logima Office - Radiation and Temperature</a>",
+    "URLMostrar": "https://xively.com/feeds/30512"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\30512.json",
+  "DocumentJSON": null
+}

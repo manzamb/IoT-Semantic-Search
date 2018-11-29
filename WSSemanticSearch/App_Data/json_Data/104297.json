@@ -1,0 +1,56 @@
+{
+  "Conceptos": [
+    "frequency"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "104297",
+    "title": "frequency",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "electricity",
+      "energy"
+    ],
+    "description": "Measures the 5 sec average frequency of the Finnish electricity grid",
+    "feed": "https://api.xively.com/v2/feeds/104297.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "04/18/2013 13:49:45",
+    "created": "02/13/2013 10:38:53",
+    "creator": "https://xively.com/users/santerioksanen",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "freq",
+        "current_value": "49.996",
+        "at": "04/18/2013 13:49:45",
+        "max_value": "51.043",
+        "min_value": "30.892",
+        "tags": [
+          "power grid"
+        ],
+        "unit": {
+          "symbol": "Hz",
+          "label": "Hz",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "60.174306261926",
+      "lon": "24.949951171875",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/104297\" >frequency</a>",
+    "URLMostrar": "https://xively.com/feeds/104297"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\104297.json",
+  "DocumentJSON": null
+}

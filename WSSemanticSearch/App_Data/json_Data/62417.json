@@ -1,0 +1,474 @@
+{
+  "Conceptos": [
+    "o3"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "62417",
+    "title": "APD-03",
+    "Private": false,
+    "tags": [
+      "apduinos",
+      "aquaponics",
+      "arduino",
+      "automation",
+      "embedded",
+      "gardening",
+      "greenhouse",
+      "mega 2560",
+      "microcontroller",
+      "monitoring",
+      "surveillance"
+    ],
+    "description": "Aquaponics Greenhouse Monitoring with an Arduino Mega 2560 + W5100 EtherShield based hardware assembly running APDuinOS Headless (now available for download at http://apduino.org/projects/apduinos-headless/files ).",
+    "feed": "https://api.xively.com/v2/feeds/62417.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:11:43",
+    "created": "06/05/2012 10:39:01",
+    "creator": "https://xively.com/users/apduino",
+    "version": null,
+    "website": "http://apduino.org",
+    "datastreams": [
+      {
+        "id": "11A0_Hum",
+        "current_value": "34.0",
+        "at": "03/21/2014 14:11:42",
+        "max_value": "255.0",
+        "min_value": "0.0",
+        "tags": [
+          "DHT-11",
+          "relative humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "01A1_Temp",
+        "current_value": "19.9",
+        "at": "03/21/2014 14:11:42",
+        "max_value": "224.0",
+        "min_value": "-14.6",
+        "tags": [
+          "DS18B20",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "01A2_Temp",
+        "current_value": "23.9",
+        "at": "03/21/2014 14:11:42",
+        "max_value": "224.0",
+        "min_value": "-0.1",
+        "tags": [
+          "DS18B20",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "11A0_Temp",
+        "current_value": "28.0",
+        "at": "03/21/2014 14:11:42",
+        "max_value": "63.0",
+        "min_value": "0.0",
+        "tags": [
+          "DHT-11",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "11A1_Temp",
+        "current_value": "27.2",
+        "at": "03/21/2014 14:11:42",
+        "max_value": "85.0",
+        "min_value": "-0.1",
+        "tags": [
+          "DS18B20",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "11B2_Temp",
+        "current_value": "32.0",
+        "at": "03/21/2014 14:11:42",
+        "max_value": "680.0",
+        "min_value": "-0.1",
+        "tags": [
+          "DS18B20",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "12B2_Temp",
+        "current_value": "34.8",
+        "at": "03/21/2014 14:11:42",
+        "max_value": "320.0",
+        "min_value": "-0.1",
+        "tags": [
+          "DS18B20",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "13B2_Temp",
+        "current_value": "34.9",
+        "at": "03/21/2014 14:11:42",
+        "max_value": "246.5",
+        "min_value": "-0.1",
+        "tags": [
+          "DS18B20",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "01A1X_Temp",
+        "current_value": "23.5",
+        "at": "03/21/2014 14:11:42",
+        "max_value": "2047.9",
+        "min_value": "-1024.1",
+        "tags": [
+          "DS18B20",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "01A2_Light",
+        "current_value": "878",
+        "at": "03/21/2014 14:11:42",
+        "max_value": "1006.0",
+        "min_value": "0.0",
+        "tags": [
+          "light",
+          "photoresistor"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "01D1X_Temp",
+        "current_value": "26.6",
+        "at": "03/21/2014 14:11:42",
+        "max_value": "40.9",
+        "min_value": "-9.0",
+        "tags": [
+          "DS18B20",
+          "outdoors",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "01D2_Light",
+        "current_value": "975",
+        "at": "03/21/2014 14:11:42",
+        "max_value": "1012.0",
+        "min_value": "0.0",
+        "tags": [
+          "light",
+          "photoresistor"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "11A0_Light",
+        "current_value": "941",
+        "at": "03/21/2014 14:11:42",
+        "max_value": "1023.0",
+        "min_value": "0.0",
+        "tags": [
+          "light",
+          "photoresistor"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Alkalinity",
+        "current_value": "100",
+        "at": "07/25/2012 19:58:40",
+        "max_value": "120.0",
+        "min_value": "80.0",
+        "tags": [
+          "manual test",
+          "total alkalinity"
+        ],
+        "unit": {
+          "symbol": "ppm",
+          "label": "ppm",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Ammonia",
+        "current_value": "0",
+        "at": "08/04/2012 09:47:23",
+        "max_value": "2.6",
+        "min_value": "0.0",
+        "tags": [
+          "ammonia",
+          "manual testing",
+          "NH3",
+          "NH4+"
+        ],
+        "unit": {
+          "symbol": "mg/L",
+          "label": "mg/L",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "BoxTemp",
+        "current_value": "nan",
+        "at": "03/21/2014 14:11:42",
+        "max_value": "43.9",
+        "min_value": "0.0",
+        "tags": [
+          "DS18B20",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Nitrate",
+        "current_value": "60",
+        "at": "08/04/2012 09:47:40",
+        "max_value": "320.0",
+        "min_value": "0.5",
+        "tags": [
+          "manual test",
+          "nitrate",
+          "NO3"
+        ],
+        "unit": {
+          "symbol": "mg/L",
+          "label": "mg/L",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Nitrite",
+        "current_value": "0.1",
+        "at": "08/04/2012 09:47:56",
+        "max_value": "16.0",
+        "min_value": "0.0",
+        "tags": [
+          "manual test",
+          "nitrite",
+          "NO2"
+        ],
+        "unit": {
+          "symbol": "mg/L",
+          "label": "mg/L",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "pH",
+        "current_value": "7.0",
+        "at": "07/25/2012 19:58:58",
+        "max_value": "7.0",
+        "min_value": "6.8",
+        "tags": [
+          "manual test"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "RC-HeatOut",
+        "current_value": "0",
+        "at": "03/21/2014 14:11:42",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "RC-MixFan",
+        "current_value": "0",
+        "at": "03/21/2014 14:11:42",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "RC-Pump",
+        "current_value": "1",
+        "at": "03/21/2014 14:11:42",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "ST_Level",
+        "current_value": "300.0",
+        "at": "03/21/2014 14:11:42",
+        "max_value": "1144.0",
+        "min_value": "0.0",
+        "tags": [
+          "HY-SRF05",
+          "sonar sensor",
+          "sump tank",
+          "water level"
+        ],
+        "unit": {
+          "symbol": "mm",
+          "label": "mm",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "TankTemp_01A",
+        "current_value": "17.3",
+        "at": "03/21/2014 14:11:42",
+        "max_value": "85.0",
+        "min_value": "-0.1",
+        "tags": [
+          "DS18B20",
+          "fish tank",
+          "temperature",
+          "water"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "TankTemp_01D",
+        "current_value": "17.1",
+        "at": "03/21/2014 14:11:42",
+        "max_value": "85.0",
+        "min_value": "-0.1",
+        "tags": [
+          "DS18B20",
+          "fish tank",
+          "temperature",
+          "water"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "47.4971582724817",
+      "lon": "19.044",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/62417\" >APD-03</a>",
+    "URLMostrar": "https://xively.com/feeds/62417"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\62417.json",
+  "DocumentJSON": null
+}

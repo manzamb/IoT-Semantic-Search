@@ -1,0 +1,388 @@
+{
+  "Conceptos": [
+    "plan"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "2653",
+    "title": "Natural Fuse: Network status",
+    "Private": false,
+    "tags": null,
+    "description": "\"Natural Fuse\" harnesses the carbon-sinking capabilities of plants to create a city-wide network of devices that act both as electricity outlets and as a shared resource that offsets CO2 generated in the production of that electricity.\r\n\r\nNatural Fuses allow only a limited amount of energy to be expended; that amount is limited by the amount of CO2 that can be absorbed by the plants that are growing in the system - natural \"circuit breakers\". By networking them together, the plants are able to share their capacity and take advantage of carbon-sinking-surplus in the system since not all Natural Fuses will be in use at any one time.\r\n\r\nIf people cooperate on energy expenditure then the plants thrive (and everyone may use more energy); but if they don't then the network starts to kill plants, thus diminishing the network's electricity capacity.",
+    "feed": "https://api.xively.com/v2/feeds/2653.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "01/22/2014 07:00:18",
+    "created": "09/16/2009 21:05:47",
+    "creator": "https://xively.com/users/naturalfuse",
+    "version": null,
+    "website": "http://www.naturalfuse.org/",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "0",
+        "at": "01/22/2014 07:00:18",
+        "max_value": "979376958.2",
+        "min_value": "0.0",
+        "tags": [
+          "nf:co2 sequestered"
+        ],
+        "unit": {
+          "symbol": "mg  ",
+          "label": "milligrams    ",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "0",
+        "at": "01/22/2014 07:00:18",
+        "max_value": "5977379951.5",
+        "min_value": "-680.5",
+        "tags": [
+          "nf:co2 emitted"
+        ],
+        "unit": {
+          "symbol": "mg ",
+          "label": "milligrams       ",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "0",
+        "at": "01/22/2014 07:00:18",
+        "max_value": "5619259299.9",
+        "min_value": "-47296536.1",
+        "tags": [
+          "nf:co2 footprint"
+        ],
+        "unit": {
+          "symbol": "mg  ",
+          "label": "milligrams       ",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "0",
+        "at": "01/22/2014 07:00:18",
+        "max_value": "60.9",
+        "min_value": "0.0",
+        "tags": [
+          "nf:last sequester rate"
+        ],
+        "unit": {
+          "symbol": "mg/min",
+          "label": "milligrams per minute",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "0",
+        "at": "01/22/2014 07:00:18",
+        "max_value": "284.292",
+        "min_value": "-274.032",
+        "tags": [
+          "nf:last emission rate"
+        ],
+        "unit": {
+          "symbol": "mg/min",
+          "label": "milligrams per minute",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "0",
+        "at": "01/22/2014 07:00:18",
+        "max_value": "979376707.7",
+        "min_value": "-0.2",
+        "tags": [
+          "nf:sequestered last interval"
+        ],
+        "unit": {
+          "symbol": "mg",
+          "label": "milligrams",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "0",
+        "at": "01/22/2014 07:00:18",
+        "max_value": "5977323237.6",
+        "min_value": "-303.6",
+        "tags": [
+          "nf:emitted last interval"
+        ],
+        "unit": {
+          "symbol": "mg",
+          "label": "milligrams",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "7",
+        "current_value": "0",
+        "at": "01/22/2014 07:00:18",
+        "max_value": "15.0",
+        "min_value": "0.0",
+        "tags": [
+          "nf:online units"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "units",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "8",
+        "current_value": "0",
+        "at": "01/22/2014 07:00:18",
+        "max_value": "15.0",
+        "min_value": "0.0",
+        "tags": [
+          "nf:off units"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "units",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "9",
+        "current_value": "0",
+        "at": "01/22/2014 07:00:18",
+        "max_value": "5.0",
+        "min_value": "0.0",
+        "tags": [
+          "nf:selfless units"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "units",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "10",
+        "current_value": "0",
+        "at": "01/22/2014 07:00:18",
+        "max_value": "3.0",
+        "min_value": "0.0",
+        "tags": [
+          "nf:selfish units"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "units",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "11",
+        "current_value": "0",
+        "at": "01/22/2014 07:00:18",
+        "max_value": "199.17",
+        "min_value": "-262.197",
+        "tags": [
+          "nf:co2 emission rate for off"
+        ],
+        "unit": {
+          "symbol": "mg/min",
+          "label": "milligrams per minute",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "12",
+        "current_value": "0",
+        "at": "01/22/2014 07:00:18",
+        "max_value": "243.504",
+        "min_value": "-265.869",
+        "tags": [
+          "nf:co2 emission rate for selfless"
+        ],
+        "unit": {
+          "symbol": "mg/min",
+          "label": "milligrams per minute",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "13",
+        "current_value": "0",
+        "at": "01/22/2014 07:00:18",
+        "max_value": "239.256",
+        "min_value": "-281.124",
+        "tags": [
+          "nf:co2 emission rate for selfish"
+        ],
+        "unit": {
+          "symbol": "mg/min",
+          "label": "milligrams per minute",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "14",
+        "current_value": "na",
+        "at": "01/22/2014 07:00:18",
+        "max_value": "2651.0",
+        "min_value": "0.0",
+        "tags": [
+          "nf:last killer"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "15",
+        "current_value": "na",
+        "at": "01/22/2014 07:00:18",
+        "max_value": "2651.0",
+        "min_value": "0.0",
+        "tags": [
+          "nf:last killed"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "16",
+        "current_value": "1.05",
+        "at": "01/22/2014 07:00:18",
+        "max_value": "22908313.23",
+        "min_value": "-0.17",
+        "tags": [
+          "nf:last interval"
+        ],
+        "unit": {
+          "symbol": "mins",
+          "label": "minutes",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "17",
+        "current_value": "0",
+        "at": "01/22/2014 07:00:18",
+        "max_value": "121710226.0",
+        "min_value": "-3843951032.6",
+        "tags": [
+          "nf:surplus last interval"
+        ],
+        "unit": {
+          "symbol": "mg",
+          "label": "milligrams",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "18",
+        "current_value": "0",
+        "at": "01/22/2014 07:00:18",
+        "max_value": "9459307.22",
+        "min_value": "-1123847276.0",
+        "tags": [
+          "nf:emission rate limit for selfless"
+        ],
+        "unit": {
+          "symbol": "mg/min",
+          "label": "milligrams per minute",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "19",
+        "current_value": "0",
+        "at": "01/22/2014 07:00:18",
+        "max_value": "1051034135.0",
+        "min_value": "0.0",
+        "tags": [
+          "nf:milliwatts rate limit for selfless"
+        ],
+        "unit": {
+          "symbol": "mW",
+          "label": "milliwatts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "20",
+        "current_value": "0",
+        "at": "01/22/2014 07:00:18",
+        "max_value": "5.0",
+        "min_value": "0.0",
+        "tags": [
+          "nf:kill countdown"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "21",
+        "current_value": null,
+        "at": "10/15/2012 13:10:12",
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "nf:kill time"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 1,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/2653\" >Natural Fuse: Network status</a>",
+    "URLMostrar": "https://xively.com/feeds/2653"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\2653.json",
+  "DocumentJSON": null
+}

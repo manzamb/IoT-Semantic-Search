@@ -1,0 +1,72 @@
+{
+  "Conceptos": [
+    "carbon monoxide"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "75856",
+    "title": "Test Muenster Feed",
+    "Private": false,
+    "tags": [
+      "air quality",
+      "carbon monoxide"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/75856.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "09/15/2012 13:18:55",
+    "created": "09/15/2012 13:10:00",
+    "creator": "https://xively.com/users/jmsaavedra",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "CO",
+        "current_value": null,
+        "at": "09/15/2012 13:18:55",
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "carbon monoxide"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "ppm",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "NO2",
+        "current_value": null,
+        "at": "09/15/2012 13:18:55",
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "nitrogen dioxide",
+          "no2"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "ppb",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 1,
+      "lat": "51.9425717777475",
+      "lon": "7.6190185546875",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/75856\" >Test Muenster Feed</a>",
+    "URLMostrar": "https://xively.com/feeds/75856"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\75856.json",
+  "DocumentJSON": null
+}

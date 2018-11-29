@@ -1,0 +1,73 @@
+{
+  "Conceptos": [
+    "mp10"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "123369",
+    "title": "SolidFire Productivity",
+    "Private": false,
+    "tags": [
+      "Electric Imp",
+      "SolidFire",
+      "Temperature",
+      "TMP102"
+    ],
+    "description": "SolidFire development is practically on fire!",
+    "feed": "https://api.xively.com/v2/feeds/123369.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "08/30/2013 18:43:25",
+    "created": "04/08/2013 09:49:46",
+    "creator": "https://xively.com/users/mattiasf",
+    "version": null,
+    "website": "http://techgurka.blogspot.com/2013/04/quick-temperature-graph-using-electric.html",
+    "datastreams": [
+      {
+        "id": "sfdev1",
+        "current_value": "77.3",
+        "at": "08/30/2013 18:43:25",
+        "max_value": "89.4",
+        "min_value": "66.2",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "Fahrenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "sfdev2",
+        "current_value": "118",
+        "at": "08/30/2013 18:43:25",
+        "max_value": "128.0",
+        "min_value": "72.0",
+        "tags": [
+          "Intelligence"
+        ],
+        "unit": {
+          "symbol": "IQ",
+          "label": "IQ",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "SolidFire Development",
+      "domain": 0,
+      "lat": "40.0187863755168",
+      "lon": "-105.273903608322",
+      "ele": "1655",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/123369\" >SolidFire Productivity</a>",
+    "URLMostrar": "https://xively.com/feeds/123369"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\123369.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,56 @@
+{
+  "Conceptos": [
+    "physical object"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "12340",
+    "title": "Light Levels",
+    "Private": false,
+    "tags": [
+      "test"
+    ],
+    "description": "Sensor displays how light or dark",
+    "feed": "https://api.xively.com/v2/feeds/12340.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "09/24/2011 17:59:06",
+    "created": "11/05/2010 03:23:03",
+    "creator": "https://xively.com/users/object",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "100",
+        "at": "09/24/2011 17:59:06",
+        "max_value": "115.0",
+        "min_value": "0.0",
+        "tags": [
+          "LDR",
+          "light level",
+          "light sensor"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Brooklyn",
+      "domain": 0,
+      "lat": "40.6668125390219",
+      "lon": "-73.9865255355835",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/12340\" >Light Levels</a>",
+    "URLMostrar": "https://xively.com/feeds/12340"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\12340.json",
+  "DocumentJSON": null
+}

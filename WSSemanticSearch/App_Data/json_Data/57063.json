@@ -1,0 +1,57 @@
+{
+  "Conceptos": [
+    "progetto"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "57063",
+    "title": "Sensori",
+    "Private": false,
+    "tags": [
+      "attuatori",
+      "comandi a distanza",
+      "sensori",
+      "temperatura"
+    ],
+    "description": "Progetto per la lettura a distanza di alcuni parametri e il comando di attuatori per modificare posizione, accendere ventilatori ecc.",
+    "feed": "https://api.xively.com/v2/feeds/57063.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:08:44",
+    "created": "04/25/2012 14:05:38",
+    "creator": "https://xively.com/users/xarrigo",
+    "version": null,
+    "website": "http://fotoarrigo.com",
+    "datastreams": [
+      {
+        "id": "01",
+        "current_value": "19",
+        "at": "03/21/2014 14:08:44",
+        "max_value": "91.0",
+        "min_value": "-2.0",
+        "tags": [
+          "Temperatura esterna"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Trento",
+      "domain": 0,
+      "lat": "46.0459229280888",
+      "lon": "11.1522173881531",
+      "ele": "550",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/57063\" >Sensori</a>",
+    "URLMostrar": "https://xively.com/feeds/57063"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\57063.json",
+  "DocumentJSON": null
+}

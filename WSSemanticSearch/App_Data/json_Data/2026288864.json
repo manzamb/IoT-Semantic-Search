@@ -1,0 +1,210 @@
+{
+  "Conceptos": [
+    "humidity"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "2026288864",
+    "title": "AirPi_MWG_1",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/2026288864.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "01/03/2014 18:29:07",
+    "created": "12/17/2013 13:25:14",
+    "creator": "https://xively.com/users/mikegoodwin",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "25.0",
+        "at": "01/03/2014 18:29:07",
+        "max_value": "28.9",
+        "min_value": "19.7",
+        "tags": [
+          "Temp-DHT (C)"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "24.9",
+        "at": "01/03/2014 18:29:07",
+        "max_value": "51.1",
+        "min_value": "7.0",
+        "tags": [
+          "Humidity (%)"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "0.00",
+        "at": "01/03/2014 18:29:07",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "Air Quality: Unused"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "29.76",
+        "at": "01/03/2014 18:29:07",
+        "max_value": "51.69",
+        "min_value": "0.03",
+        "tags": [
+          "Light Level (Lux)"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "101372.9",
+        "at": "01/03/2014 18:29:07",
+        "max_value": "103258.7",
+        "min_value": "99458.0",
+        "tags": [
+          "Pressure (Pa = .01 mb)"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "0.000",
+        "at": "01/03/2014 18:29:07",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "CO (ppm)"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "0.414",
+        "at": "01/03/2014 18:29:07",
+        "max_value": "0.75",
+        "min_value": "0.158",
+        "tags": [
+          "NO2 (ppm)"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "7",
+        "current_value": "424160.5",
+        "at": "01/03/2014 18:29:07",
+        "max_value": "518133.5",
+        "min_value": "333384.1",
+        "tags": [
+          "CO (Ohms)"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "8",
+        "current_value": "137763.3",
+        "at": "01/03/2014 18:29:07",
+        "max_value": "240244.4",
+        "min_value": "56875.7",
+        "tags": [
+          "NO2 (Ohms)"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Ohms",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "9",
+        "current_value": "0.05",
+        "at": "01/03/2014 18:29:07",
+        "max_value": "1.65",
+        "min_value": "0.01",
+        "tags": [
+          "UV Level (UVI)"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "AirPi_MWG_1",
+        "current_value": null,
+        "at": "12/17/2013 14:23:45",
+        "max_value": null,
+        "min_value": null,
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "AirPi Location",
+      "domain": 0,
+      "lat": "42.7070354",
+      "lon": "-71.1631137",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/2026288864\" >AirPi_MWG_1</a>",
+    "URLMostrar": "https://xively.com/feeds/2026288864"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\2026288864.json",
+  "DocumentJSON": null
+}

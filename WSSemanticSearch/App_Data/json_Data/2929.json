@@ -1,0 +1,272 @@
+{
+  "Conceptos": [
+    "thermistor"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "2929",
+    "title": "ACTIVE BUILDING (SP19 & SP22 - temp)",
+    "Private": false,
+    "tags": [
+      "~"
+    ],
+    "description": "ACTIVE BUILDING Sensor Module",
+    "feed": "https://api.xively.com/v2/feeds/2929.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "01/10/2014 06:21:48",
+    "created": "10/15/2009 06:45:20",
+    "creator": "https://xively.com/users/yasu",
+    "version": null,
+    "website": "http://www.coadapting.com/coadapt/",
+    "datastreams": [
+      {
+        "id": "Light-Pref_005",
+        "current_value": "256",
+        "at": "01/10/2014 06:21:48",
+        "max_value": "511.0",
+        "min_value": "0.0",
+        "tags": [
+          "Light",
+          "Preference",
+          "User"
+        ],
+        "unit": {
+          "symbol": "9bits",
+          "label": "ADC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Light-Sensor_004",
+        "current_value": "22",
+        "at": "11/21/2013 15:33:34",
+        "max_value": "1023.0",
+        "min_value": "0.0",
+        "tags": [
+          "Analog",
+          "LDR",
+          "~"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Light-Sensor_005",
+        "current_value": "708",
+        "at": "01/10/2014 06:21:48",
+        "max_value": "1023.0",
+        "min_value": "0.0",
+        "tags": [
+          "Analog",
+          "LDR",
+          "~"
+        ],
+        "unit": {
+          "symbol": "10bits",
+          "label": "ADC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Relative-Humidity_004",
+        "current_value": "55.8",
+        "at": "11/21/2013 15:33:34",
+        "max_value": "100.0",
+        "min_value": "0.0",
+        "tags": [
+          "Capacitive",
+          "RHT03",
+          "SEN-10167"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Relative-Humidity_005",
+        "current_value": "49.2",
+        "at": "01/06/2014 04:09:42",
+        "max_value": "100.0",
+        "min_value": "0.0",
+        "tags": [
+          "Capacitive",
+          "RHT03",
+          "SEN-10167"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "RH",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Rel-Humidity_005",
+        "current_value": "59.6",
+        "at": "01/10/2014 06:21:48",
+        "max_value": "100.0",
+        "min_value": "0.0",
+        "tags": [
+          "Capacitive",
+          "RHT03",
+          "SEN-10167"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Social-Pref_005",
+        "current_value": "256",
+        "at": "01/10/2014 06:21:48",
+        "max_value": "511.0",
+        "min_value": "0.0",
+        "tags": [
+          "Preference",
+          "Social",
+          "User"
+        ],
+        "unit": {
+          "symbol": "9bits",
+          "label": "ADC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Sound-Pref_005",
+        "current_value": "256",
+        "at": "01/10/2014 06:21:48",
+        "max_value": "511.0",
+        "min_value": "0.0",
+        "tags": [
+          "Preference",
+          "Sound",
+          "User"
+        ],
+        "unit": {
+          "symbol": "9bits",
+          "label": "ADC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Sound-Sensor_004",
+        "current_value": "172",
+        "at": "11/21/2013 15:33:34",
+        "max_value": "1023.0",
+        "min_value": "0.0",
+        "tags": [
+          "Analog",
+          "BOB-09964",
+          "Microphone"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Sound-Sensor_005",
+        "current_value": "115",
+        "at": "01/10/2014 06:21:48",
+        "max_value": "1023.0",
+        "min_value": "0.0",
+        "tags": [
+          "Analog",
+          "BOB-09964",
+          "Microphone"
+        ],
+        "unit": {
+          "symbol": "10bits",
+          "label": "ADC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperature_004",
+        "current_value": "25.6",
+        "at": "11/21/2013 15:33:34",
+        "max_value": "40.0",
+        "min_value": "0.0",
+        "tags": [
+          "RHT03",
+          "SEN-10167",
+          "Thermistor"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperature_005",
+        "current_value": "25.3",
+        "at": "01/10/2014 06:21:48",
+        "max_value": "40.0",
+        "min_value": "0.0",
+        "tags": [
+          "RHT03",
+          "SEN-10167",
+          "Thermistor"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temp-Pref_005",
+        "current_value": "256",
+        "at": "01/10/2014 06:21:48",
+        "max_value": "511.0",
+        "min_value": "0.0",
+        "tags": [
+          "Preference",
+          "Temperature",
+          "User"
+        ],
+        "unit": {
+          "symbol": "9bits",
+          "label": "ADC",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "D506 - QUT",
+      "domain": 0,
+      "lat": "-27.4759445884229",
+      "lon": "153.027645718284",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 1
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/2929\" >ACTIVE BUILDING (SP19 & SP22 - temp)</a>",
+    "URLMostrar": "https://xively.com/feeds/2929"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\2929.json",
+  "DocumentJSON": null
+}

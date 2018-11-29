@@ -1,0 +1,70 @@
+{
+  "Conceptos": [
+    "color"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "234",
+    "title": "Colorado River flow",
+    "Private": false,
+    "tags": null,
+    "description": "Flow rate of the Colorado River, scraped from the Lower Colorado River Authority website.",
+    "feed": "https://api.xively.com/v2/feeds/234.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "06/08/2010 14:18:50",
+    "created": "06/17/2008 21:18:13",
+    "creator": "https://xively.com/users/bilmor",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "144.0",
+        "at": null,
+        "max_value": "3923.0",
+        "min_value": "0.0",
+        "tags": [
+          "river flow"
+        ],
+        "unit": {
+          "symbol": "cfs",
+          "label": "cubic feet per second",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "1.89",
+        "at": null,
+        "max_value": "2614.0",
+        "min_value": "0.0",
+        "tags": [
+          "Austin",
+          "Bastrop",
+          "river flow"
+        ],
+        "unit": {
+          "symbol": "ft",
+          "label": "feet",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "30.2476494797609",
+      "lon": "-97.6988410949707",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/234\" >Colorado River flow</a>",
+    "URLMostrar": "https://xively.com/feeds/234"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\234.json",
+  "DocumentJSON": null
+}

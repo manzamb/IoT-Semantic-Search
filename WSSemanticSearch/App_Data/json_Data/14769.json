@@ -1,0 +1,91 @@
+{
+  "Conceptos": [
+    "platform"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "14769",
+    "title": "Rifugio Pontese CSP weather station",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "humidity",
+      "pressure",
+      "sensors",
+      "temperature",
+      "weather station"
+    ],
+    "description": "Information from CSP weather station (WS) located at Pontese refuge, Gran Paradiso National park. Data come from a Davis station and are forwarded by an ad-hoc and modular serializer based on Arduino platform. Modularity allows you to connect other type of WS only changing the input driver. ",
+    "feed": "https://api.xively.com/v2/feeds/14769.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "11/30/2012 13:30:55",
+    "created": "01/11/2011 15:23:36",
+    "creator": "https://xively.com/users/emsyslab",
+    "version": null,
+    "website": "http://www.csp.it",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "-4",
+        "at": "11/30/2012 13:30:55",
+        "max_value": "1802.0",
+        "min_value": "-12.0",
+        "tags": [
+          "TEMP"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "92",
+        "at": "11/30/2012 13:30:55",
+        "max_value": "255.0",
+        "min_value": "8.0",
+        "tags": [
+          "HUM"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "Percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "1003",
+        "at": "11/30/2012 13:30:55",
+        "max_value": "1041.0",
+        "min_value": "0.0",
+        "tags": [
+          "PRESS"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "hPa",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Pontese refuge - Gran Paradiso - Turin",
+      "domain": 0,
+      "lat": "45.4945068444568",
+      "lon": "7.3678994178772",
+      "ele": "2217",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/14769\" >Rifugio Pontese CSP weather station</a>",
+    "URLMostrar": "https://xively.com/feeds/14769"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\14769.json",
+  "DocumentJSON": null
+}

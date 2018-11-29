@@ -1,0 +1,292 @@
+{
+  "Conceptos": [
+    "moisture"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "43243",
+    "title": "Alligator River  ESP Array - Point Peter Rd Site",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/43243.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:06:25",
+    "created": "01/03/2012 03:07:52",
+    "creator": "https://xively.com/users/ralphwella",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "batv",
+        "current_value": "10.0",
+        "at": "03/21/2014 14:06:25",
+        "max_value": "12.9",
+        "min_value": "-99.0",
+        "tags": [
+          "battey voltage"
+        ],
+        "unit": {
+          "symbol": "volts",
+          "label": "volts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "counter3",
+        "current_value": "-66",
+        "at": "03/21/2014 14:06:25",
+        "max_value": "15.78",
+        "min_value": "-153.0",
+        "tags": [
+          "Evapotranspiration"
+        ],
+        "unit": {
+          "symbol": "inches",
+          "label": "count",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "counter4",
+        "current_value": "-66",
+        "at": "03/21/2014 14:06:25",
+        "max_value": "1.0",
+        "min_value": "-153.0",
+        "tags": [
+          "counter"
+        ],
+        "unit": {
+          "symbol": "c4",
+          "label": "count",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "fmoist",
+        "current_value": "26.60",
+        "at": "03/21/2014 14:06:25",
+        "max_value": "59.84",
+        "min_value": "-99.0",
+        "tags": [
+          "fuel moisture"
+        ],
+        "unit": {
+          "symbol": "% fuel moisture %",
+          "label": "% moisture",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "ftemp",
+        "current_value": "9.62",
+        "at": "03/21/2014 14:06:25",
+        "max_value": "37.81",
+        "min_value": "-99.0",
+        "tags": [
+          "fuel temperature"
+        ],
+        "unit": {
+          "symbol": "fuel temp",
+          "label": "celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "id",
+        "current_value": "43",
+        "at": "03/21/2014 14:06:25",
+        "max_value": "43.0",
+        "min_value": "-77.0",
+        "tags": [
+          "logger id"
+        ],
+        "unit": {
+          "symbol": "ID",
+          "label": "    logger id",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "inttemp",
+        "current_value": "13",
+        "at": "03/21/2014 14:06:25",
+        "max_value": "37.0",
+        "min_value": "2.0",
+        "tags": [
+          "internal temp"
+        ],
+        "unit": {
+          "symbol": "internal temp -c",
+          "label": "celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "light1",
+        "current_value": "-89",
+        "at": "03/21/2014 14:06:25",
+        "max_value": "90220577.0",
+        "min_value": "-153.0",
+        "tags": [
+          "lightning"
+        ],
+        "unit": {
+          "symbol": "count",
+          "label": "count",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "mcsq",
+        "current_value": "11",
+        "at": "03/21/2014 14:06:25",
+        "max_value": "16.0",
+        "min_value": "2.0",
+        "tags": [
+          "signal strength"
+        ],
+        "unit": {
+          "symbol": "csq",
+          "label": "bars",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "mdmv",
+        "current_value": "375",
+        "at": "03/21/2014 14:06:25",
+        "max_value": "376.0",
+        "min_value": "37.0",
+        "tags": [
+          "modem voltage"
+        ],
+        "unit": {
+          "symbol": "millivolts",
+          "label": "millivolts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "precip1",
+        "current_value": "-66",
+        "at": "03/21/2014 14:06:25",
+        "max_value": "165.708",
+        "min_value": "-153.0",
+        "tags": [
+          "rainfall"
+        ],
+        "unit": {
+          "symbol": "inches",
+          "label": "mm",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "precip2",
+        "current_value": "-66",
+        "at": "03/21/2014 14:06:25",
+        "max_value": "992.005",
+        "min_value": "-153.0",
+        "tags": [
+          "rainfall"
+        ],
+        "unit": {
+          "symbol": "inches",
+          "label": "inches",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "shumid",
+        "current_value": "0.7673",
+        "at": "03/21/2014 14:06:25",
+        "max_value": "2.2233",
+        "min_value": "-99.0",
+        "tags": [
+          "soil humidity"
+        ],
+        "unit": {
+          "symbol": "sh",
+          "label": "period/ms",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "smoist",
+        "current_value": "430.20",
+        "at": "03/21/2014 14:06:25",
+        "max_value": "430.74",
+        "min_value": "-99.0",
+        "tags": [
+          "soil moisture"
+        ],
+        "unit": {
+          "symbol": "soil moisture",
+          "label": "% moisture",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "stemp",
+        "current_value": "-88",
+        "at": "03/21/2014 14:06:25",
+        "max_value": "28.56",
+        "min_value": "-99.0",
+        "tags": [
+          "soil temperature"
+        ],
+        "unit": {
+          "symbol": "soil temp -c",
+          "label": "celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "welld",
+        "current_value": "-007.6",
+        "at": "03/21/2014 14:06:25",
+        "max_value": "0.9",
+        "min_value": "-99.0",
+        "tags": [
+          "water table depth"
+        ],
+        "unit": {
+          "symbol": "inches",
+          "label": "inches",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Alligator River NWR, Point Peter Rd site",
+      "domain": 0,
+      "lat": "35.7651443977095",
+      "lon": "-75.7677268981934",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/43243\" >Alligator River  ESP Array - Point Peter Rd Site</a>",
+    "URLMostrar": "https://xively.com/feeds/43243"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\43243.json",
+  "DocumentJSON": null
+}

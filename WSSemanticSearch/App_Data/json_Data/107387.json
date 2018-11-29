@@ -1,0 +1,98 @@
+{
+  "Conceptos": [
+    "humedad"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "107387",
+    "title": "prueba arduino",
+    "Private": false,
+    "tags": [
+      "arduino"
+    ],
+    "description": "prueba",
+    "feed": "https://api.xively.com/v2/feeds/107387.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/02/2013 00:13:48",
+    "created": "02/28/2013 11:16:04",
+    "creator": "https://xively.com/users/frenadol500",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "info_message",
+        "current_value": "mi mensaje",
+        "at": "02/28/2013 22:29:04",
+        "max_value": null,
+        "min_value": null,
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "random_string",
+        "current_value": "87 is a random number",
+        "at": "02/28/2013 22:29:04",
+        "max_value": null,
+        "min_value": null,
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "sensor_humedad",
+        "current_value": "45.00",
+        "at": "02/28/2013 22:29:04",
+        "max_value": "45.0",
+        "min_value": "45.0",
+        "tags": [
+          "humedad"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "sensor_reading",
+        "current_value": "19.00",
+        "at": "02/28/2013 22:29:04",
+        "max_value": "19.0",
+        "min_value": "19.0",
+        "tags": [
+          "temperatura"
+        ],
+        "unit": {
+          "symbol": "c",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "40.688448379858",
+      "lon": "-4.02966499328613",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/107387\" >prueba arduino</a>",
+    "URLMostrar": "https://xively.com/feeds/107387"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\107387.json",
+  "DocumentJSON": null
+}

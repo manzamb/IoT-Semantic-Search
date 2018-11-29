@@ -1,0 +1,104 @@
+{
+  "Conceptos": [
+    "amount"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "23672",
+    "title": "Sensors",
+    "Private": false,
+    "tags": [
+      "Arduino",
+      "Light",
+      "Temperature"
+    ],
+    "description": "House Sensors\r\nCurrently running 4 XBee's  3 are End devices (1x Garage Door Status (Open/Close) , 2x motion Sensors),. 1 Xbee Coordinator (Base unit) Connected to a Arduino Uno With Ethernet Shield. Temperature is a Analog TMP36 And 1 CdS photoresistor  For ambient Light Detection. Freememory is the amount of free memory left in Bytes on my Arduino. Soon Adding Water Detection. Arduino Updates Twitter and Pachube.com on its own! No PC needed.",
+    "feed": "https://api.xively.com/v2/feeds/23672.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:13:40",
+    "created": "04/19/2011 04:55:57",
+    "creator": "https://xively.com/users/prowler",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "19.29",
+        "at": "03/21/2014 14:13:40",
+        "max_value": "522.0",
+        "min_value": "-50.0",
+        "tags": [
+          "Temp"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "4",
+        "at": "03/21/2014 14:13:40",
+        "max_value": "635.0",
+        "min_value": "0.0",
+        "tags": [
+          "Light"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "6285",
+        "at": "03/21/2014 14:13:40",
+        "max_value": "6525.0",
+        "min_value": "6.0",
+        "tags": [
+          "FreeMemory"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Bytes",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "0",
+        "at": "03/21/2014 14:13:40",
+        "max_value": "8730.0",
+        "min_value": "0.0",
+        "tags": [
+          "Twitter Fails"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Calgary",
+      "domain": 0,
+      "lat": "50.918835469817",
+      "lon": "-114.018516540527",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/23672\" >Sensors</a>",
+    "URLMostrar": "https://xively.com/feeds/23672"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\23672.json",
+  "DocumentJSON": null
+}

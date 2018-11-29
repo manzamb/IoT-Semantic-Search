@@ -1,0 +1,68 @@
+{
+  "Conceptos": [
+    "processo"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "35196",
+    "title": "My First Feed",
+    "Private": false,
+    "tags": [
+      "Gisot embedded microcontroller educational"
+    ],
+    "description": "Educational feed to understand embedded microprocessors.  Based on \"Getting Started with the Internet of Things\".  Copyright 2011 Cuno Pfister,  O'Reilly Media, Inc.  \r\nMay 20111: First Edition ISBN: 978-1-4493-9357-1",
+    "feed": "https://api.xively.com/v2/feeds/35196.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "09/05/2011 19:06:41",
+    "created": "09/05/2011 16:48:25",
+    "creator": "https://xively.com/users/af6bi",
+    "version": null,
+    "website": "http://www.pachube.com",
+    "datastreams": [
+      {
+        "id": "number",
+        "current_value": null,
+        "at": "09/05/2011 16:48:25",
+        "max_value": null,
+        "min_value": null,
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "voltage",
+        "current_value": "2.46",
+        "at": "09/05/2011 19:06:41",
+        "max_value": "2.46",
+        "min_value": "0.33",
+        "tags": [
+          "derived SI"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": "Volt",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "The Golden State",
+      "domain": 0,
+      "lat": "37.8154120153636",
+      "lon": "-122.477989196777",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/35196\" >My First Feed</a>",
+    "URLMostrar": "https://xively.com/feeds/35196"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\35196.json",
+  "DocumentJSON": null
+}

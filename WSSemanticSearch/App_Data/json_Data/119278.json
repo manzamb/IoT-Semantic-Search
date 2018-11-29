@@ -1,0 +1,57 @@
+{
+  "Conceptos": [
+    "observation value"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "119278",
+    "title": "SoilMoisture",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "moisture",
+      "soil",
+      "test"
+    ],
+    "description": "Testing a soil moisture sensor made from 2 zinc coated screws. A higher value means ???  I'm trying to determine this by observation.  Sensor is measuring the resistance of the soil",
+    "feed": "https://api.xively.com/v2/feeds/119278.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "04/30/2013 22:15:17",
+    "created": "03/16/2013 00:06:53",
+    "creator": "https://xively.com/users/webcompanion",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "sensor_reading",
+        "current_value": "842.00",
+        "at": "04/30/2013 22:15:17",
+        "max_value": "885.0",
+        "min_value": "463.0",
+        "tags": [
+          "Soil Moisture"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Detroit",
+      "domain": 0,
+      "lat": "42.36260292172",
+      "lon": "-83.0841064453125",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/119278\" >SoilMoisture</a>",
+    "URLMostrar": "https://xively.com/feeds/119278"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\119278.json",
+  "DocumentJSON": null
+}

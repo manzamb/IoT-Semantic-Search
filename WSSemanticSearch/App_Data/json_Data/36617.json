@@ -1,0 +1,110 @@
+{
+  "Conceptos": [
+    "medio ambiente"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "36617",
+    "title": "WATCHING ec",
+    "Private": false,
+    "tags": [
+      "Telemedicion"
+    ],
+    "description": "Ditec-Net, Oficina Principal\r\n\r\nSe instalo un DITEC (Dispositivo de Telemetria y Control) con un sensor de puerta magnético conectado en la entrada del Departamento de Desarrollo de WATCHING.\r\nEstos dispositivos son manufacturados 100% en Ecuador. \r\nDisponen de 4 señales digitales de entrada , 2 señales analogicas, 1 entrada 1 wire y 1 entrada serial.\r\nPueden utilizar como medio de comunicación una red LAN (DITECnet) con un módulo WEB embedido como es el caso de esta aplicación o pueden utilizar la red GPRS utilizando un modem GPRS.\r\n\r\nCuando se cierra la puerta se envia Señal PTA  = 0 y cuando la puerta se abre se transmite Señal PTA = 1.\r\n\r\nAdicionalmente el DITEC transmite datos cada 10 minutos automáticamente.\r\n\r\n24.Oct.2011\r\nSe conecta un DITEC GPRS con un sensor de temperatura (DS18B20) para medir la temperatura ambiente. Los datos se envían automáticamente cada 10 minutos.\r\n\r\nSaludos desde la mitad del mundo!\r\n\r\n",
+    "feed": "https://api.xively.com/v2/feeds/36617.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:05:02",
+    "created": "09/28/2011 21:30:04",
+    "creator": "https://xively.com/users/watchingec",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "AC",
+        "current_value": "0",
+        "at": "03/21/2014 14:05:02",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "PT1",
+        "current_value": "1",
+        "at": "03/21/2014 14:05:02",
+        "max_value": "3203221.0",
+        "min_value": "0.0",
+        "tags": [
+          "Puerta Entrada"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "ABIERTA=0/CERRADA=1",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "PWR",
+        "current_value": "6.383622167",
+        "at": "03/21/2014 14:05:02",
+        "max_value": "179.381835937",
+        "min_value": "5.99221134",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "T1",
+        "current_value": "21.9375",
+        "at": "03/21/2014 14:05:02",
+        "max_value": "37.375",
+        "min_value": "-99.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "TVS",
+        "current_value": "0",
+        "at": "03/21/2014 14:05:02",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Quito",
+      "domain": 0,
+      "lat": "-0.202302512391564",
+      "lon": "-78.4923148155212",
+      "ele": "2800",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/36617\" >WATCHING ec</a>",
+    "URLMostrar": "https://xively.com/feeds/36617"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\36617.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,54 @@
+{
+  "Conceptos": [
+    "sensor output"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "2728",
+    "title": "Range Finder",
+    "Private": false,
+    "tags": null,
+    "description": "simple range finder sensor monitoring road traffic\r\n\r\n(output in cm)",
+    "feed": "https://api.xively.com/v2/feeds/2728.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "06/08/2010 14:19:40",
+    "created": "09/24/2009 05:03:23",
+    "creator": "https://xively.com/users/blakel",
+    "version": null,
+    "website": "http://urbansensing.ning.com",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "254.0",
+        "at": null,
+        "max_value": "335.0",
+        "min_value": "254.0",
+        "tags": [
+          "range finder",
+          "traffic",
+          "urban sensing"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "cm",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Bridge over City Road, Newtown",
+      "domain": 0,
+      "lat": "-33.8887643761758",
+      "lon": "151.192173957825",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/2728\" >Range Finder</a>",
+    "URLMostrar": "https://xively.com/feeds/2728"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\2728.json",
+  "DocumentJSON": null
+}

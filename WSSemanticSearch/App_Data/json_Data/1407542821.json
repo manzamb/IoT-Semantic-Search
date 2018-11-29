@@ -1,0 +1,72 @@
+{
+  "Conceptos": [
+    "medio ambiente"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "1407542821",
+    "title": "Netduino Medioambiental",
+    "Private": false,
+    "tags": [
+      "contaminación",
+      "medio ambiente",
+      "netduino"
+    ],
+    "description": "Este dispositivo corresponde a un proyecto que se esta desarrollando para crear un buscador semántico en la IoT",
+    "feed": "https://api.xively.com/v2/feeds/1407542821.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "10/01/2013 08:03:24",
+    "created": "09/30/2013 11:04:12",
+    "creator": "https://xively.com/users/manzamb",
+    "version": null,
+    "website": "https://sites.google.com/site/websemanticaiot/",
+    "datastreams": [
+      {
+        "id": "Humedad",
+        "current_value": "40",
+        "at": "09/30/2013 12:08:04",
+        "max_value": "40.0",
+        "min_value": "40.0",
+        "tags": [
+          "Humidity"
+        ],
+        "unit": {
+          "symbol": "mb",
+          "label": "milibares",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperatura",
+        "current_value": "15",
+        "at": "09/30/2013 12:06:42",
+        "max_value": "15.0",
+        "min_value": "15.0",
+        "tags": [
+          "tenperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "grados",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Laboratorio de GRADIENT",
+      "domain": 0,
+      "lat": "40.331645",
+      "lon": "-3.76408219999996",
+      "ele": "15",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/1407542821\" >Netduino Medioambiental</a>",
+    "URLMostrar": "https://xively.com/feeds/1407542821"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\1407542821.json",
+  "DocumentJSON": null
+}

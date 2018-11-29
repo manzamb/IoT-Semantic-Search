@@ -1,0 +1,228 @@
+{
+  "Conceptos": [
+    "system"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "1946910479",
+    "title": "Energy-Meter",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/1946910479.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:11:17",
+    "created": "09/11/2013 10:28:29",
+    "creator": "https://xively.com/users/esquid_demo",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "0",
+        "at": "03/21/2014 14:11:17",
+        "max_value": "236.0",
+        "min_value": "0.0",
+        "tags": [
+          "Oven"
+        ],
+        "unit": {
+          "symbol": "wh",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "1",
+        "at": "03/21/2014 14:11:17",
+        "max_value": "17212.0",
+        "min_value": "0.0",
+        "tags": [
+          "Solar Q-Cell"
+        ],
+        "unit": {
+          "symbol": "wh",
+          "label": "watt hour",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "13",
+        "at": "03/21/2014 14:11:17",
+        "max_value": "1195.0",
+        "min_value": "0.0",
+        "tags": [
+          "Power - Bedrooms"
+        ],
+        "unit": {
+          "symbol": "wh",
+          "label": "watt hour",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "0",
+        "at": "03/21/2014 14:11:17",
+        "max_value": "368.0",
+        "min_value": "0.0",
+        "tags": [
+          "Power2"
+        ],
+        "unit": {
+          "symbol": "wh",
+          "label": "watt hour",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "1",
+        "at": "03/21/2014 14:11:17",
+        "max_value": "1228.0",
+        "min_value": "0.0",
+        "tags": [
+          "Lights"
+        ],
+        "unit": {
+          "symbol": "wh",
+          "label": "watt hour",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "0",
+        "at": "03/21/2014 14:11:17",
+        "max_value": "101.0",
+        "min_value": "0.0",
+        "tags": [
+          "Power plus AC"
+        ],
+        "unit": {
+          "symbol": "wh",
+          "label": "watt hour",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "0",
+        "at": "03/21/2014 14:11:17",
+        "max_value": "436.0",
+        "min_value": "0.0",
+        "tags": [
+          "AC Lounge"
+        ],
+        "unit": {
+          "symbol": "wh",
+          "label": "watt hour",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "7",
+        "current_value": "0",
+        "at": "03/21/2014 14:11:17",
+        "max_value": "7913.0",
+        "min_value": "0.0",
+        "tags": [
+          "Solar System 1"
+        ],
+        "unit": {
+          "symbol": "wh",
+          "label": "watt hour",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "8",
+        "current_value": "0",
+        "at": "03/21/2014 14:11:17",
+        "max_value": "5.0",
+        "min_value": "0.0",
+        "tags": [
+          "Empty"
+        ],
+        "unit": {
+          "symbol": "wh",
+          "label": "watt hour",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "E",
+        "current_value": "0",
+        "at": "03/21/2014 14:11:17",
+        "max_value": "259.0",
+        "min_value": "0.0",
+        "tags": [
+          "Error count"
+        ],
+        "unit": {
+          "symbol": "E",
+          "label": "N",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "N",
+        "current_value": "40",
+        "at": "03/21/2014 14:11:17",
+        "max_value": "936.0",
+        "min_value": "0.0",
+        "tags": [
+          "Upload Count"
+        ],
+        "unit": {
+          "symbol": "N",
+          "label": "N",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "T",
+        "current_value": "17",
+        "at": "03/21/2014 14:11:17",
+        "max_value": "27153.0",
+        "min_value": "0.0",
+        "tags": [
+          "Total Units"
+        ],
+        "unit": {
+          "symbol": "wh",
+          "label": "watt hour",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/1946910479\" >Energy-Meter</a>",
+    "URLMostrar": "https://xively.com/feeds/1946910479"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\1946910479.json",
+  "DocumentJSON": null
+}

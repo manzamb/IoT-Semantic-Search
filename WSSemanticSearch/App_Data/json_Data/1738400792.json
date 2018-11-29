@@ -1,0 +1,84 @@
+{
+  "Conceptos": [
+    "moisture"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "1738400792",
+    "title": "ArduinoAltran2ndFloor",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/1738400792.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "11/19/2013 14:42:13",
+    "created": "10/07/2013 11:11:23",
+    "creator": "https://xively.com/users/azpicueta",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Humidity2FS",
+        "current_value": "33.00",
+        "at": "11/19/2013 14:42:13",
+        "max_value": "91.0",
+        "min_value": "0.0",
+        "tags": [
+          "HUMIDITY"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "SoilMoisture2FS",
+        "current_value": "42.29",
+        "at": "11/19/2013 14:42:13",
+        "max_value": "99.9",
+        "min_value": "0.0",
+        "tags": [
+          "SoilMoisture"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperature2FS",
+        "current_value": "25.00",
+        "at": "11/19/2013 14:42:13",
+        "max_value": "36.0",
+        "min_value": "0.0",
+        "tags": [
+          "TEMPERATURE"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "ºC",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Altran Technologies",
+      "domain": 0,
+      "lat": "40.4486282",
+      "lon": "-3.58211559999995",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/1738400792\" >ArduinoAltran2ndFloor</a>",
+    "URLMostrar": "https://xively.com/feeds/1738400792"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\1738400792.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,84 @@
+{
+  "Conceptos": [
+    "humidity"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "1846",
+    "title": "Cardiff Weather",
+    "Private": false,
+    "tags": null,
+    "description": "Weather observations in Cardiff from an Oregon Scientific WMR100 wireless weather station via xPL.",
+    "feed": "https://api.xively.com/v2/feeds/1846.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:07:03",
+    "created": "04/26/2009 12:42:25",
+    "creator": "https://xively.com/users/slateblue",
+    "version": null,
+    "website": "http://www.slateblue.org/",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "12.3",
+        "at": "03/21/2014 14:07:03",
+        "max_value": "106.8",
+        "min_value": "-148.1",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "43",
+        "at": "03/21/2014 14:07:03",
+        "max_value": "158.0",
+        "min_value": "13.0",
+        "tags": [
+          "humidity"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "999",
+        "at": "03/21/2014 14:07:03",
+        "max_value": "1050.0",
+        "min_value": "856.0",
+        "tags": [
+          "barometric pressure"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "51.49134906195",
+      "lon": "-3.24091047048569",
+      "ele": "15m",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/1846\" >Cardiff Weather</a>",
+    "URLMostrar": "https://xively.com/feeds/1846"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\1846.json",
+  "DocumentJSON": null
+}

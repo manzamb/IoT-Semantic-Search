@@ -1,0 +1,54 @@
+{
+  "Conceptos": [
+    "radioactivity"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "584615957",
+    "title": "NevezLab Device 1, radioactivity in Bordeaux, France",
+    "Private": false,
+    "tags": [
+      "Radioactivity"
+    ],
+    "description": "SparkFun Geiger counter with mbed Cortex M3 to send datastream",
+    "feed": "https://api.xively.com/v2/feeds/584615957.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/02/2014 21:38:05",
+    "created": "11/18/2013 13:45:49",
+    "creator": "https://xively.com/users/kerpower",
+    "version": null,
+    "website": "http://www.nevezlab.com",
+    "datastreams": [
+      {
+        "id": "Radioactivité",
+        "current_value": "98.617966",
+        "at": "03/02/2014 21:38:05",
+        "max_value": "265.035797",
+        "min_value": "12.327246",
+        "tags": [
+          "radioactivity"
+        ],
+        "unit": {
+          "symbol": "nSv/h",
+          "label": "nSv/h",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Demo Center, Bordeaux, France",
+      "domain": 0,
+      "lat": "44.7976692528922",
+      "lon": "-0.626566534362837",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/584615957\" >NevezLab Device 1, radioactivity in Bordeaux, France</a>",
+    "URLMostrar": "https://xively.com/feeds/584615957"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\584615957.json",
+  "DocumentJSON": null
+}

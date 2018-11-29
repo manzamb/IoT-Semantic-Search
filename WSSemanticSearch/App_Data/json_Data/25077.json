@@ -1,0 +1,56 @@
+{
+  "Conceptos": [
+    "physical object"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "25077",
+    "title": "Radiation dose at Uenohara, Omaezaki",
+    "Private": false,
+    "tags": [
+      "device:type=virtual",
+      "sensor:object=air",
+      "sensor:type=radiation"
+    ],
+    "description": "Feed the data retrieved from http://www.hoshasen.pref.shizuoka.jp/. This feed is unofficial and may be stopped by any reason at any time. Use it at your own risk. No guarantee of validity.",
+    "feed": "https://api.xively.com/v2/feeds/25077.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "07/14/2011 13:36:52",
+    "created": "05/12/2011 08:18:10",
+    "creator": "https://xively.com/users/kaku60",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "radiation",
+        "current_value": "0.045",
+        "at": "07/14/2011 13:36:52",
+        "max_value": "0.069",
+        "min_value": "0.038",
+        "tags": [
+          "radiation sensor"
+        ],
+        "unit": {
+          "symbol": "µGy/h",
+          "label": "microgray per hour",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Omaezaki, Shizuoka, Japan",
+      "domain": 0,
+      "lat": "34.6269978628906",
+      "lon": "138.149577230215",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/25077\" >Radiation dose at Uenohara, Omaezaki</a>",
+    "URLMostrar": "https://xively.com/feeds/25077"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\25077.json",
+  "DocumentJSON": null
+}

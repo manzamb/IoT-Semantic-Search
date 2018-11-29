@@ -1,0 +1,76 @@
+{
+  "Conceptos": [
+    "thermistor"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "121340",
+    "title": "TempLog",
+    "Private": false,
+    "tags": [
+      "503 thermistor",
+      "analog",
+      "digital",
+      "raspberry pi",
+      "RC circuit",
+      "temperature",
+      "tmp36"
+    ],
+    "description": "Using a wifi enabled raspberry pi, a 503 50K analog thermistor, and a TMP36 digital thermistor to record ambient temperatures around the house.",
+    "feed": "https://api.xively.com/v2/feeds/121340.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "05/18/2013 02:21:15",
+    "created": "03/28/2013 00:39:47",
+    "creator": "https://xively.com/users/wckddev",
+    "version": null,
+    "website": "http://wckd-dev.net",
+    "datastreams": [
+      {
+        "id": "Ana503",
+        "current_value": "74.2",
+        "at": "05/18/2013 02:21:15",
+        "max_value": "96.2",
+        "min_value": "62.0",
+        "tags": [
+          "Inside - Analog 503"
+        ],
+        "unit": {
+          "symbol": "°",
+          "label": "F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "DigTMP36",
+        "current_value": "71.9",
+        "at": "05/18/2013 02:21:15",
+        "max_value": "330.1",
+        "min_value": "-56.8",
+        "tags": [
+          "Outside - Digital TMP36"
+        ],
+        "unit": {
+          "symbol": "°",
+          "label": "F",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Berwyn, PA, USA",
+      "domain": 0,
+      "lat": "40.0217647930656",
+      "lon": "-75.4528999328613",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 1
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/121340\" >TempLog</a>",
+    "URLMostrar": "https://xively.com/feeds/121340"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\121340.json",
+  "DocumentJSON": null
+}

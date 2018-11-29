@@ -1,0 +1,75 @@
+{
+  "Conceptos": [
+    "temperatura"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "740479696",
+    "title": "Alós",
+    "Private": false,
+    "tags": [
+      "Alós",
+      "bonabé",
+      "pirineu",
+      "temperatura",
+      "Vall",
+      "Àneu"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/740479696.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:14:19",
+    "created": "05/28/2013 10:19:27",
+    "creator": "https://xively.com/users/alós",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Humitat",
+        "current_value": "30.10",
+        "at": "03/21/2014 14:14:18",
+        "max_value": "99.9",
+        "min_value": "0.0",
+        "tags": [
+          "Humitat a Alós (Alt Àneu / Catalunya)"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "Humitat Relativa",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperatura",
+        "current_value": "17.30",
+        "at": "03/21/2014 14:14:18",
+        "max_value": "41.7",
+        "min_value": "-7.7",
+        "tags": [
+          "Temperatura a Alós (Alt Àneu / Catalunya)"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "Graus Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "42.7005314745495",
+      "lon": "1.09889030456543",
+      "ele": "15",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/740479696\" >Alós</a>",
+    "URLMostrar": "https://xively.com/feeds/740479696"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\740479696.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,146 @@
+{
+  "Conceptos": [
+    "humedad"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "40651",
+    "title": "TELE LECTURA 2",
+    "Private": false,
+    "tags": null,
+    "description": "DITECnet para pruebas de transmision de datos de monitoreo de transformadores",
+    "feed": "https://api.xively.com/v2/feeds/40651.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/03/2014 08:40:04",
+    "created": "11/28/2011 19:55:18",
+    "creator": "https://xively.com/users/watchingec",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "A",
+        "current_value": "0.5",
+        "at": "03/03/2014 08:40:04",
+        "max_value": "123466.8",
+        "min_value": "-0.5",
+        "tags": [
+          "Altura del tanque"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "C1",
+        "current_value": "275.3",
+        "at": "03/03/2014 08:40:04",
+        "max_value": "275.3",
+        "min_value": "4.0",
+        "tags": [
+          "WOLTMAN"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "HR",
+        "current_value": "45.6",
+        "at": "03/03/2014 08:40:04",
+        "max_value": "631103.5",
+        "min_value": "0.0",
+        "tags": [
+          "Humedad Relativa Ambiente"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "PWR",
+        "current_value": "12.520866391",
+        "at": "03/03/2014 08:40:04",
+        "max_value": "26843715841.0192",
+        "min_value": "0.0",
+        "tags": [
+          "Alimentación Tarjeta"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": "Voltios",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "T1",
+        "current_value": "14.875",
+        "at": "03/03/2014 08:40:04",
+        "max_value": "42.75",
+        "min_value": "12.1875",
+        "tags": [
+          "Temperatura del Agua"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "° Centrigrados",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "TA",
+        "current_value": "21.6",
+        "at": "02/05/2014 19:06:05",
+        "max_value": "4957.023925781",
+        "min_value": "0.0",
+        "tags": [
+          "Temperatura Ambiente"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "° Centigrados",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "TR",
+        "current_value": "21.1",
+        "at": "03/03/2014 08:40:04",
+        "max_value": "26.6",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "LABORATORIO TRADE VANNUCCI",
+      "domain": 0,
+      "lat": "-0.10660879901343",
+      "lon": "-78.5041916373599",
+      "ele": "2800",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/40651\" >TELE LECTURA 2</a>",
+    "URLMostrar": "https://xively.com/feeds/40651"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\40651.json",
+  "DocumentJSON": null
+}

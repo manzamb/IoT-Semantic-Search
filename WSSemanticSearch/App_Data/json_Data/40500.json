@@ -1,0 +1,268 @@
+{
+  "Conceptos": [
+    "temperature"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "40500",
+    "title": "RaspberryPI",
+    "Private": false,
+    "tags": [
+      "External Environment"
+    ],
+    "description": "My Raspberry PI connected with variety wireless sensors JeeNode's (temperature, humidity, light)",
+    "feed": "https://api.xively.com/v2/feeds/40500.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/20/2014 11:27:14",
+    "created": "11/26/2011 17:10:23",
+    "creator": "https://xively.com/users/steiner",
+    "version": null,
+    "website": "http://www.inea.si/en/",
+    "datastreams": [
+      {
+        "id": "Epower",
+        "current_value": "155",
+        "at": "03/20/2014 11:27:14",
+        "max_value": "10292.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "W",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Gas",
+        "current_value": "13577.6",
+        "at": "03/20/2014 11:26:20",
+        "max_value": "15290.2",
+        "min_value": "13486.4",
+        "tags": null,
+        "unit": {
+          "symbol": "m3",
+          "label": "m3",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "GasDay",
+        "current_value": "5.1",
+        "at": "03/20/2014 11:26:20",
+        "max_value": "30.2",
+        "min_value": "-1803.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "m3/day",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "GasHour",
+        "current_value": "0.0",
+        "at": "03/20/2014 11:26:20",
+        "max_value": "3.7",
+        "min_value": "-1803.8",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "m3/h",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "GasMonth",
+        "current_value": "0",
+        "at": "03/20/2014 11:26:20",
+        "max_value": "240.4",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "m3/month",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Lin5",
+        "current_value": "228",
+        "at": "03/20/2014 11:16:19",
+        "max_value": "237.0",
+        "min_value": "1.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Lin9",
+        "current_value": "65",
+        "at": "03/20/2014 11:26:18",
+        "max_value": "204.0",
+        "min_value": "1.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Lout",
+        "current_value": "232",
+        "at": "03/20/2014 11:26:21",
+        "max_value": "242.0",
+        "min_value": "1.0",
+        "tags": [
+          "Light"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "P5",
+        "current_value": "988.7",
+        "at": "03/20/2014 11:16:19",
+        "max_value": "1000.5",
+        "min_value": "954.3",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "hPa",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "T22",
+        "current_value": "61.5",
+        "at": "03/20/2014 11:26:20",
+        "max_value": "100.2",
+        "min_value": "13.8",
+        "tags": null,
+        "unit": {
+          "symbol": "C",
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Tin5",
+        "current_value": "22.7",
+        "at": "03/20/2014 11:16:19",
+        "max_value": "31.2",
+        "min_value": "18.4",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Tin9",
+        "current_value": "18.9",
+        "at": "03/20/2014 11:26:18",
+        "max_value": "27.7",
+        "min_value": "17.7",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Tout",
+        "current_value": "20.1",
+        "at": "03/20/2014 11:26:21",
+        "max_value": "39.5",
+        "min_value": "-7.2",
+        "tags": [
+          "Temp"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Xin5",
+        "current_value": "30",
+        "at": "03/20/2014 11:16:19",
+        "max_value": "70.0",
+        "min_value": "17.0",
+        "tags": null,
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Xin9",
+        "current_value": "45",
+        "at": "03/20/2014 11:26:18",
+        "max_value": "74.0",
+        "min_value": "30.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Xout",
+        "current_value": "34",
+        "at": "03/20/2014 11:26:21",
+        "max_value": "99.0",
+        "min_value": "18.0",
+        "tags": [
+          "Humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/40500\" >RaspberryPI</a>",
+    "URLMostrar": "https://xively.com/feeds/40500"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\40500.json",
+  "DocumentJSON": null
+}

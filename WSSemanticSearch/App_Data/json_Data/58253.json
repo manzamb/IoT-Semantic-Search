@@ -1,0 +1,84 @@
+{
+  "Conceptos": [
+    "concept"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "58253",
+    "title": "Test Example",
+    "Private": false,
+    "tags": null,
+    "description": "Basic test example for concept proving\r\n\r\nusing command line CuRL for now",
+    "feed": "https://api.xively.com/v2/feeds/58253.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "05/13/2012 18:51:24",
+    "created": "05/05/2012 00:30:24",
+    "creator": "https://xively.com/users/psytribalogical",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "LightLv",
+        "current_value": "16",
+        "at": "05/13/2012 18:51:24",
+        "max_value": "277.0",
+        "min_value": "0.0",
+        "tags": [
+          "LightLevel"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "??",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "SwPos",
+        "current_value": "1-0-1-0-1-0-1-0-1-0-1-0-1-0-1-0",
+        "at": "05/13/2012 16:46:02",
+        "max_value": "1010101010101100.0",
+        "min_value": "0.0",
+        "tags": [
+          "PowerSwitches"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "String",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "VTemp",
+        "current_value": "27.1",
+        "at": "05/13/2012 18:51:24",
+        "max_value": "99.0",
+        "min_value": "0.0",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Centigrade",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Home",
+      "domain": 1,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/58253\" >Test Example</a>",
+    "URLMostrar": "https://xively.com/feeds/58253"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\58253.json",
+  "DocumentJSON": null
+}

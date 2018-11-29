@@ -1,0 +1,84 @@
+{
+  "Conceptos": [
+    "temperatura"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "968812550",
+    "title": "Temperatura in vlaga v skladiscu",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/968812550.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:15:01",
+    "created": "08/02/2013 11:58:30",
+    "creator": "https://xively.com/users/sparonar",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Hum",
+        "current_value": "27.00",
+        "at": "03/21/2014 14:15:01",
+        "max_value": "255.0",
+        "min_value": "0.0",
+        "tags": [
+          "Humidity (skladisce vrecke)"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temp",
+        "current_value": "23.00",
+        "at": "03/21/2014 14:15:01",
+        "max_value": "255.0",
+        "min_value": "0.0",
+        "tags": [
+          "Temperature (skladisce vrecke)"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "TempDS",
+        "current_value": "23.50",
+        "at": "03/21/2014 14:15:01",
+        "max_value": "85.0",
+        "min_value": "-0.06",
+        "tags": [
+          "Temperature (skladisce vrecke -DS 1820))"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/968812550\" >Temperatura in vlaga v skladiscu</a>",
+    "URLMostrar": "https://xively.com/feeds/968812550"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\968812550.json",
+  "DocumentJSON": null
+}

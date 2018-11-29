@@ -1,0 +1,89 @@
+{
+  "Conceptos": [
+    "frequency"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "54144",
+    "title": "EspyMe",
+    "Private": false,
+    "tags": [
+      "Activity Frequency Data Movements"
+    ],
+    "description": "Collect data about the frequency of your movements.\r\nwww.EspyMe.co.uk",
+    "feed": "https://api.xively.com/v2/feeds/54144.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "05/13/2012 23:11:40",
+    "created": "04/01/2012 15:56:31",
+    "creator": "https://xively.com/users/tasha19903",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "13601.0",
+        "at": "05/13/2012 23:11:40",
+        "max_value": "14190.0",
+        "min_value": "0.0",
+        "tags": [
+          "analogRead3",
+          "x axis"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "14186.0",
+        "at": "05/13/2012 23:11:40",
+        "max_value": "14190.0",
+        "min_value": "0.0",
+        "tags": [
+          "analogRead4",
+          "y axis"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "4256.0",
+        "at": "05/13/2012 23:11:40",
+        "max_value": "14274.0",
+        "min_value": "0.0",
+        "tags": [
+          "analogRead5",
+          "z axis"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "London",
+      "domain": 0,
+      "lat": "51.4950647301437",
+      "lon": "-0.1318359375",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 1
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/54144\" >EspyMe</a>",
+    "URLMostrar": "https://xively.com/feeds/54144"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\54144.json",
+  "DocumentJSON": null
+}

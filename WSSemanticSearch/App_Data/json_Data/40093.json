@@ -1,0 +1,226 @@
+{
+  "Conceptos": [
+    "plan"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "40093",
+    "title": "Arduino Weather Station",
+    "Private": false,
+    "tags": [
+      "Brightness",
+      "C",
+      "Celsius",
+      "Dew Point",
+      "F",
+      "Farenheit",
+      "Humidity",
+      "Inside",
+      "Light",
+      "Outside",
+      "Pressure",
+      "Temp",
+      "Temperature"
+    ],
+    "description": "NOTE: Weather station will be down for a few weeks while I move. I'll try to have it back up and running as soon as possible!\r\n\r\nHere's my preliminary Arduino weather station. While waiting for an Ethernet shield to arrive, I've put together a Python script which reads data from the Arduino serial output, parses the string, and pushes the data out to Pachube. While this method requires another computer to run 24/7, it's not too much of a concern as I run a web server anyway. When the Ethernet shield arrives, I'm going to attempt to push the data to Pachube with the Arduino using PUT statements to (eventually) move away from a design that requires a full-featured computer running.\r\n\r\nDuring this preliminary testing phase, both sensors (DHT22) are located inside, so a large difference between the Inside/Outside readings will not be seen.The plan is to wire the outside sensors to the Arduino (located inside) using some scrap Cat4 cable. I would like to incorporate a light sensor in the near future and a barometric pressure sensor later down the road.\r\n\r\nUPDATE: I wired the outside sensor to along cable and ran it out my front porch door a few weeks ago. Until this weekend (12/18/11), the sketch had been running with one sensor inside and one sensor outside for about three weeks. The fluctuation in the inside temperature/humidity is due to the sensor's location which is near a heating vent. When the heat comes on for a short time, the temperature goes up and the humidity goes down. I may move the sensor to a location away from the vent, but this actually has a benefit. By observing the temperature changes, I can determine how often the heat comes on and by how much  the room is fluctuating during this time. During periods of time when the temperature slowly decreases represents cooking/baking i the kitchen. The thermostat is located next to the kitchen, and this sensor is located on the other end of the house. When the kitchen is warm, the thermostat doesn't make the heat come on. Hence, the temperature drops steadily around the sensor.\r\n\r\nUPDATE: The Ethernet shield arrived a while ago. This project is now pushing data to Pachube.com using the Ethernet shield. Since Arduino v1.0 was released, I have not had the time to implement DNS into the project. It looks like the Pachube library I'm using has the IP address hard coded into it. I may try to implement DNS into the library myself.\r\n\r\nToday (12/18/11), I added an uptime datastream to this feed as well to track when the Arduino is reset (or resets itself). The sketch is also using an 8-second watchdog. To calculate the uptime, I simply calculate the hours with millis()/3600000.0 and push the value to Pachube.",
+    "feed": "https://api.xively.com/v2/feeds/40093.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:07:27",
+    "created": "11/21/2011 03:15:24",
+    "creator": "https://xively.com/users/casestudies",
+    "version": null,
+    "website": "http://physics.homelinux.com",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "18.100000",
+        "at": "03/21/2014 14:07:27",
+        "max_value": "28.700001",
+        "min_value": "7.0",
+        "tags": [
+          "Inside Temp"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "64.580002",
+        "at": "03/21/2014 14:07:27",
+        "max_value": "83.660004",
+        "min_value": "44.599998",
+        "tags": [
+          "Inside Temp"
+        ],
+        "unit": {
+          "symbol": "°F",
+          "label": "Farenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "46.099998",
+        "at": "03/21/2014 14:07:27",
+        "max_value": "90.5",
+        "min_value": "29.1",
+        "tags": [
+          "Inside Humidity"
+        ],
+        "unit": {
+          "symbol": "%RH",
+          "label": "Percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "6.347224",
+        "at": "03/21/2014 14:07:27",
+        "max_value": "22.297943",
+        "min_value": "-1.696638",
+        "tags": [
+          "Inside DewPoint"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "43.425003",
+        "at": "03/21/2014 14:07:27",
+        "max_value": "72.136299",
+        "min_value": "28.946053",
+        "tags": [
+          "Inside DewPoint"
+        ],
+        "unit": {
+          "symbol": "°F",
+          "label": "Celius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "3.400000",
+        "at": "03/21/2014 14:07:27",
+        "max_value": "32.599998",
+        "min_value": "-21.700001",
+        "tags": [
+          "Outside Temp"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "38.119999",
+        "at": "03/21/2014 14:07:27",
+        "max_value": "90.68",
+        "min_value": "-7.060001",
+        "tags": [
+          "Outside Temp"
+        ],
+        "unit": {
+          "symbol": "°F",
+          "label": "Farenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "7",
+        "current_value": "64.400002",
+        "at": "03/21/2014 14:07:27",
+        "max_value": "93.300003",
+        "min_value": "38.900002",
+        "tags": [
+          "Outside Humidity"
+        ],
+        "unit": {
+          "symbol": "%RH",
+          "label": "Percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "8",
+        "current_value": "-2.678469",
+        "at": "03/21/2014 14:07:27",
+        "max_value": "26.449102",
+        "min_value": "-24.965731",
+        "tags": [
+          "Outside DewPoint"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "9",
+        "current_value": "27.178755",
+        "at": "03/21/2014 14:07:27",
+        "max_value": "79.608383",
+        "min_value": "-12.938316",
+        "tags": [
+          "Outside DewPoint"
+        ],
+        "unit": {
+          "symbol": "°F",
+          "label": "Farenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "10",
+        "current_value": "5.925016",
+        "at": "03/21/2014 14:07:27",
+        "max_value": "729.06366",
+        "min_value": "0.000716",
+        "tags": [
+          "Uptime"
+        ],
+        "unit": {
+          "symbol": "hr",
+          "label": "hours",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Ithaca, NY",
+      "domain": 0,
+      "lat": "42.4453509512452",
+      "lon": "-76.4969229698181",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/40093\" >Arduino Weather Station</a>",
+    "URLMostrar": "https://xively.com/feeds/40093"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\40093.json",
+  "DocumentJSON": null
+}

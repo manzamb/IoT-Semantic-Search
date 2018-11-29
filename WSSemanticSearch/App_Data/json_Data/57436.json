@@ -1,0 +1,73 @@
+{
+  "Conceptos": [
+    "thermistor"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "57436",
+    "title": "DE_RE_Temperature_Lux",
+    "Private": false,
+    "tags": [
+      "Arduino",
+      "Lux",
+      "Steinhart",
+      "Temperature"
+    ],
+    "description": "Arduino Mega with Ethernet Shield.\r\nUsing Thermistor and Steinhart-Hart calculations,\r\nusing fotoresistor and HomeLab calculations, which might not be accurate.\r\nI'm playing with these, so expect spikes.",
+    "feed": "https://api.xively.com/v2/feeds/57436.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "05/14/2012 09:26:06",
+    "created": "04/28/2012 14:26:09",
+    "creator": "https://xively.com/users/schroederx",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "17.47",
+        "at": "05/14/2012 09:26:06",
+        "max_value": "180.14",
+        "min_value": "-71.93306",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "41.94",
+        "at": "05/14/2012 09:26:06",
+        "max_value": "1022.34",
+        "min_value": "0.0",
+        "tags": [
+          "Lux"
+        ],
+        "unit": {
+          "symbol": "lx",
+          "label": "lx",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Germany, NRW",
+      "domain": 0,
+      "lat": "51.57",
+      "lon": "7.21000000000004",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/57436\" >DE_RE_Temperature_Lux</a>",
+    "URLMostrar": "https://xively.com/feeds/57436"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\57436.json",
+  "DocumentJSON": null
+}

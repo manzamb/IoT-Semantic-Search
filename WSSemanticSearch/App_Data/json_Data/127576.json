@@ -1,0 +1,115 @@
+{
+  "Conceptos": [
+    "moisture"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "127576",
+    "title": "数据采集",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "humidity",
+      "moisture",
+      "temperature"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/127576.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "06/04/2013 05:06:54",
+    "created": "04/25/2013 08:19:35",
+    "creator": "https://xively.com/users/lionheart829",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "humidity",
+        "current_value": "36.0",
+        "at": "06/04/2013 04:57:42",
+        "max_value": "89.0",
+        "min_value": "36.0",
+        "tags": [
+          "aaa"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "CC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "light",
+        "current_value": "234",
+        "at": "06/04/2013 05:06:54",
+        "max_value": "393.0",
+        "min_value": "105.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "moisture",
+        "current_value": "537",
+        "at": "06/04/2013 05:06:54",
+        "max_value": "1807.0",
+        "min_value": "506.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "smoke",
+        "current_value": "161",
+        "at": "06/04/2013 04:57:42",
+        "max_value": "515.0",
+        "min_value": "92.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temperature",
+        "current_value": "25.0",
+        "at": "06/04/2013 04:57:42",
+        "max_value": "28.0",
+        "min_value": "23.0",
+        "tags": [
+          "温度"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "China.ChongQing",
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/127576\" >数据采集</a>",
+    "URLMostrar": "https://xively.com/feeds/127576"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\127576.json",
+  "DocumentJSON": null
+}

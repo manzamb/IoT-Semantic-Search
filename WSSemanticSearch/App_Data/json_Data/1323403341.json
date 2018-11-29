@@ -1,0 +1,220 @@
+{
+  "Conceptos": [
+    "thermistor"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "1323403341",
+    "title": "Water flow/quality monitor",
+    "Private": false,
+    "tags": null,
+    "description": "Water flow & Quality",
+    "feed": "https://api.xively.com/v2/feeds/1323403341.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:10:30",
+    "created": "09/27/2013 06:44:23",
+    "creator": "https://xively.com/users/commodious",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "days_since_reboot",
+        "current_value": "44",
+        "at": "03/21/2014 14:10:05",
+        "max_value": "66.0",
+        "min_value": "0.0",
+        "tags": [
+          "System Info"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Filter_Flow",
+        "current_value": "0",
+        "at": "03/21/2014 14:03:00",
+        "max_value": "3000.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "lpm",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Filter_Run_Hours",
+        "current_value": "-2443.58",
+        "at": "03/21/2014 14:10:29",
+        "max_value": "1988.24",
+        "min_value": "-2443.58",
+        "tags": null,
+        "unit": {
+          "symbol": "hrs",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Filter_Run_State",
+        "current_value": "0",
+        "at": "03/21/2014 14:10:29",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "1=running",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Filter_Total_Volume",
+        "current_value": "0.0",
+        "at": "10/02/2013 16:03:56",
+        "max_value": "5200.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "l",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Machine_Hist_Hours",
+        "current_value": "4474.25",
+        "at": "03/21/2014 14:10:27",
+        "max_value": "4474.25",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "hrs",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Machine_Run_Hours",
+        "current_value": "4431.91",
+        "at": "03/21/2014 14:10:27",
+        "max_value": "4431.91",
+        "min_value": "-62.89",
+        "tags": null,
+        "unit": {
+          "symbol": "hrs",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Machine_Running",
+        "current_value": "1",
+        "at": "03/21/2014 14:10:27",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "1=running",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "PH",
+        "current_value": "0.0",
+        "at": "03/21/2014 14:08:00",
+        "max_value": "10.8",
+        "min_value": "-3.9",
+        "tags": [
+          "4-20ma Analog Sensor",
+          "PH",
+          "Signal_ID-52",
+          "Signal_type-adc"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "server_load",
+        "current_value": "0.31",
+        "at": "03/21/2014 14:10:05",
+        "max_value": "6.48",
+        "min_value": "0.01",
+        "tags": [
+          "System Info"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "system_disk_use",
+        "current_value": "27",
+        "at": "03/21/2014 14:10:05",
+        "max_value": "27.0",
+        "min_value": "26.0",
+        "tags": [
+          "System Info"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Tank_Temp",
+        "current_value": "39.8",
+        "at": "03/21/2014 14:08:00",
+        "max_value": "86.8",
+        "min_value": "-273.0",
+        "tags": [
+          "Signal_ID-53",
+          "Signal_type-adc",
+          "Tank Temp",
+          "Thermistor"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/1323403341\" >Water flow/quality monitor</a>",
+    "URLMostrar": "https://xively.com/feeds/1323403341"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\1323403341.json",
+  "DocumentJSON": null
+}

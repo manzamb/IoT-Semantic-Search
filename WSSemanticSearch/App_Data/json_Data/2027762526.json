@@ -1,0 +1,84 @@
+{
+  "Conceptos": [
+    "group"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "2027762526",
+    "title": "arduino",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/2027762526.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "05/20/2013 08:26:15",
+    "created": "05/20/2013 07:40:49",
+    "creator": "https://xively.com/users/analistgroup",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Humidity",
+        "current_value": "27.12",
+        "at": "05/20/2013 08:26:15",
+        "max_value": "27.37",
+        "min_value": "27.12",
+        "tags": [
+          "humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "RH",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Pressure",
+        "current_value": "97.68",
+        "at": "05/20/2013 08:26:15",
+        "max_value": "97.69",
+        "min_value": "97.64",
+        "tags": [
+          "pressure"
+        ],
+        "unit": {
+          "symbol": "kPa",
+          "label": "Pascal",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperature",
+        "current_value": "31.84",
+        "at": "05/20/2013 08:26:15",
+        "max_value": "31.84",
+        "min_value": "31.49",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "àC",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/2027762526\" >arduino</a>",
+    "URLMostrar": "https://xively.com/feeds/2027762526"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\2027762526.json",
+  "DocumentJSON": null
+}

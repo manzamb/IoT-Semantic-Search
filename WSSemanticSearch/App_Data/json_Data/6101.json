@@ -1,0 +1,618 @@
+{
+  "Conceptos": [
+    "wind"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "6101",
+    "title": "House, Weather, Energy, Chicken Coop monitoring",
+    "Private": false,
+    "tags": [
+      "Arduino",
+      "CC128",
+      "chicken coop",
+      "Current Cost",
+      "door",
+      "energy",
+      "heater",
+      "Homeeasy",
+      "humidity",
+      "light",
+      "power",
+      "pressure",
+      "Raspberry pi",
+      "server",
+      "sleep",
+      "temperature",
+      "weather",
+      "WS1080"
+    ],
+    "description": "A Raspberry Pi connected to several Arduinos, a WS1080 weather station and a Current Cost CC128. \r\n\r\nOne arduino reads the bedroom temperature, light and the status of various Homeeasy switches in my home.\r\nThe Computer is my main desktop and is either on or off.\r\nComputer2 is my mobile when wifi is enabled and a webserver is running.\r\nRubbish is the number of bags of rubbish collected with my litter-picker since 21st September 2006, when I started taking a photo of each bag and auto-numbering them as I put them on my computer. I pick up rubbish as I cycle or walk around Cambridge. Note: I now take photos with the mobile, so need to update this with a mobile app to count each photo.\r\nUptime is in hours since last reboot of the Arduino.\r\nThe LDR reading is from a 10-bit ADC, so 1023 is dark, and 100 or less is bright light.\r\nThe status of the heaters, fan and lights is determined by listening to the Homeeasy signals on 433.92Mhz.\r\nSince the Homeeasy HE300 unit can control up to 17 devices, I use 3 switches to send commands to the VLC player on my computer via EventGhost - allowing me to remotely control my DVDs or music.\r\nWhen I go to bed, I press a button on the Homeeasy HE300 unit to indicate \"gone to bed\" = 2. If I wake up in the middle of the night, another button puts this back to 1. When Pachube reads the value, I set it back to 2. When I get up, another button sets the value back to 0. I intend improving this system by adding a vibration sensor under my pillow. \r\n\r\nThe chicken coop arduino (a Mega 256) controls a stepper motor to open and close the coop door. It reads the sunrise/sunset times from a website. I intend replacing the arduino with a raspberry pi to allow ease of upgrading, lower power consumption and additional functionality.\r\n\r\nA WS1080 weather station sends wireless signals to a base station connected by USB to the Raspberry Pi. The data is uploaded to various weather sites as well as here. \r\n\r\nThe Current Cost CC128 gives a rough indication of household power. However, it does not know if this is power consumed or power produced (by the solar panels). I hope to replace it with a system measuring actual power consumption/solar production from the meter flashes.",
+    "feed": "https://api.xively.com/v2/feeds/6101.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:05:12",
+    "created": "03/05/2010 11:38:28",
+    "creator": "https://xively.com/users/reggie",
+    "version": null,
+    "website": "http://www.reggie.net/",
+    "datastreams": [
+      {
+        "id": "computer1",
+        "current_value": "0",
+        "at": "03/21/2014 14:05:05",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "bedroom 1",
+          "computer",
+          "Dell T7400",
+          "desktop"
+        ],
+        "unit": {
+          "symbol": "on/off",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "fan1",
+        "current_value": "0",
+        "at": "03/21/2014 14:05:01",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "bedroom 1",
+          "fan",
+          "HE302"
+        ],
+        "unit": {
+          "symbol": "on/off",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "heater1",
+        "current_value": "0",
+        "at": "03/21/2014 14:05:01",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "bedroom 1",
+          "HE302",
+          "heater"
+        ],
+        "unit": {
+          "symbol": "on/off",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "ldr1",
+        "current_value": "173",
+        "at": "03/21/2014 14:05:01",
+        "max_value": "1023.0",
+        "min_value": "28.0",
+        "tags": [
+          "bedroom 1",
+          "indoors",
+          "LDR",
+          "light sensor"
+        ],
+        "unit": {
+          "symbol": "dark(1023)/light",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "light1",
+        "current_value": "0",
+        "at": "03/21/2014 14:05:01",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "bedroom 1",
+          "desk lamp",
+          "HE302",
+          "light"
+        ],
+        "unit": {
+          "symbol": "on/off",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "light2",
+        "current_value": "0",
+        "at": "03/21/2014 14:05:01",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "HE302",
+          "kitchen",
+          "light"
+        ],
+        "unit": {
+          "symbol": "on/off",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "player",
+        "current_value": "0",
+        "at": "03/21/2014 14:05:01",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "bedroom 1",
+          "dvd",
+          "music"
+        ],
+        "unit": {
+          "symbol": "on/off",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "sleep1",
+        "current_value": "0",
+        "at": "03/21/2014 14:05:01",
+        "max_value": "2.0",
+        "min_value": "0.0",
+        "tags": [
+          "sleep"
+        ],
+        "unit": {
+          "symbol": "asleep(2)/awake(1)/up(0)",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temp1",
+        "current_value": "19.1",
+        "at": "03/21/2014 13:58:10",
+        "max_value": "28.0",
+        "min_value": "12.2",
+        "tags": [
+          "bedroom 1",
+          "indoors",
+          "temperature",
+          "weather station",
+          "WS1080"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Centigrade",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "uptime1",
+        "current_value": "773",
+        "at": "03/21/2014 14:05:01",
+        "max_value": "507012.0",
+        "min_value": "0.0",
+        "tags": [
+          "arduino",
+          "bedroom 1",
+          "uptime"
+        ],
+        "unit": {
+          "symbol": "h",
+          "label": "Hours",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "version",
+        "current_value": "1.55",
+        "at": "05/07/2013 06:18:31",
+        "max_value": "1.55",
+        "min_value": "1.55",
+        "tags": [
+          "software version"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "chicken_door",
+        "current_value": "2",
+        "at": "03/21/2014 14:05:01",
+        "max_value": "2.0",
+        "min_value": "0.0",
+        "tags": [
+          "chicken coop",
+          "door"
+        ],
+        "unit": {
+          "symbol": "open(2)/closed(0)",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "chicken_ldr",
+        "current_value": "1023",
+        "at": "03/21/2014 14:05:01",
+        "max_value": "1023.0",
+        "min_value": "39.0",
+        "tags": [
+          "chicken coop",
+          "LDR",
+          "light sensor"
+        ],
+        "unit": {
+          "symbol": "dark(1023)/light",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "chicken_temp",
+        "current_value": "11",
+        "at": "03/21/2014 14:05:01",
+        "max_value": "40.0",
+        "min_value": "-4.0",
+        "tags": [
+          "chicken coop",
+          "outdoors",
+          "TC74",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Centigrade",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "chicken_uptime",
+        "current_value": "757",
+        "at": "03/21/2014 14:05:01",
+        "max_value": "1961.0",
+        "min_value": "0.0",
+        "tags": [
+          "arduino",
+          "chicken coop",
+          "uptime"
+        ],
+        "unit": {
+          "symbol": "h",
+          "label": "Hours",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "computer2",
+        "current_value": "0",
+        "at": "03/21/2014 14:05:08",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "computer",
+          "HTC Desire HD",
+          "mobile"
+        ],
+        "unit": {
+          "symbol": "on/off",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "computer3",
+        "current_value": "1",
+        "at": "03/21/2014 14:05:08",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "computer",
+          "server"
+        ],
+        "unit": {
+          "symbol": "on/off",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "computer4",
+        "current_value": "0",
+        "at": "03/21/2014 14:05:11",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "bedroom 2",
+          "computer",
+          "Dell"
+        ],
+        "unit": {
+          "symbol": "on/off",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "heater3",
+        "current_value": "0",
+        "at": "03/21/2014 14:05:01",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "bedroom 2",
+          "HE302",
+          "heater"
+        ],
+        "unit": {
+          "symbol": "on/off",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "humidity1",
+        "current_value": "44",
+        "at": "03/21/2014 13:58:10",
+        "max_value": "99.0",
+        "min_value": "22.0",
+        "tags": [
+          "humidity",
+          "outdoors",
+          "weather station",
+          "WS1080"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "Percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "humidity2",
+        "current_value": "54",
+        "at": "03/21/2014 13:58:10",
+        "max_value": "77.0",
+        "min_value": "42.0",
+        "tags": [
+          "bedroom 1",
+          "humidity",
+          "indoors",
+          "weather station",
+          "WS1080"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "Percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "light3",
+        "current_value": "0",
+        "at": "03/21/2014 14:05:01",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "bedroom 2",
+          "HE302",
+          "light"
+        ],
+        "unit": {
+          "symbol": "on/off",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "pressure1",
+        "current_value": "1001.6",
+        "at": "03/21/2014 13:58:10",
+        "max_value": "1034.2",
+        "min_value": "967.1",
+        "tags": [
+          "atmospheric pressure",
+          "WS1080"
+        ],
+        "unit": {
+          "symbol": "mbar",
+          "label": "Millibar",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "rain",
+        "current_value": "0",
+        "at": "03/21/2014 13:58:10",
+        "max_value": "24.3",
+        "min_value": "0.0",
+        "tags": [
+          "rainfall",
+          "weather station",
+          "WS1080"
+        ],
+        "unit": {
+          "symbol": "mm",
+          "label": "millimetre",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "rubbish",
+        "current_value": "4061",
+        "at": "03/21/2014 14:05:01",
+        "max_value": "4061.0",
+        "min_value": "404.0",
+        "tags": [
+          "litter",
+          "rubbish"
+        ],
+        "unit": {
+          "symbol": "bags",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temp2",
+        "current_value": "14.3",
+        "at": "03/21/2014 13:58:10",
+        "max_value": "59.7",
+        "min_value": "-2.6",
+        "tags": [
+          "outdoors",
+          "outside temperature",
+          "temperature",
+          "weather station",
+          "WS1080"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Centigrade",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "total_energy",
+        "current_value": "46449.03",
+        "at": "03/21/2014 14:04:59",
+        "max_value": "46449.03",
+        "min_value": "0.0",
+        "tags": [
+          "CC128",
+          "Current Cost",
+          "energy"
+        ],
+        "unit": {
+          "symbol": "kWh",
+          "label": "kilowatt hours",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "watts1",
+        "current_value": "484",
+        "at": "03/21/2014 14:04:59",
+        "max_value": "7967.0",
+        "min_value": "0.0",
+        "tags": [
+          "CC128",
+          "Current Cost",
+          "power"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "watts2",
+        "current_value": "0",
+        "at": "03/21/2014 14:04:59",
+        "max_value": "144.0",
+        "min_value": "0.0",
+        "tags": [
+          "CC128",
+          "Current Cost",
+          "power"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "watts3",
+        "current_value": "0",
+        "at": "03/21/2014 14:04:59",
+        "max_value": "32261.0",
+        "min_value": "0.0",
+        "tags": [
+          "CC128",
+          "Current Cost",
+          "OptiSmart",
+          "power",
+          "solar"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "wind_speed",
+        "current_value": "1.9",
+        "at": "03/21/2014 13:58:10",
+        "max_value": "48.3",
+        "min_value": "0.0",
+        "tags": [
+          "weather station",
+          "wind speed",
+          "WS1080"
+        ],
+        "unit": {
+          "symbol": "m/s",
+          "label": "m/s",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Craister Court",
+      "domain": 0,
+      "lat": "52.230979169567",
+      "lon": "0.126851052045822",
+      "ele": "12.0",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/6101\" >House, Weather, Energy, Chicken Coop monitoring</a>",
+    "URLMostrar": "https://xively.com/feeds/6101"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\6101.json",
+  "DocumentJSON": null
+}

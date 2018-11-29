@@ -1,0 +1,66 @@
+{
+  "Conceptos": [
+    "temperature"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "1594847218",
+    "title": "Motsik's Lab",
+    "Private": false,
+    "tags": [
+      "Arduino",
+      "DS18B20",
+      "Greece",
+      "Motsik",
+      "Outdoor",
+      "Sensor",
+      "Temperature",
+      "Trikala",
+      "Waterproof",
+      "Weather",
+      "Θερμοκρασία",
+      "Καιρός",
+      "Τρίκαλα"
+    ],
+    "description": "Temperature measurements from trikala, Greece from Motsik Lab By Dimitris Moutsikas aKa Motsik",
+    "feed": "https://api.xively.com/v2/feeds/1594847218.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:09:40",
+    "created": "12/09/2013 09:02:20",
+    "creator": "https://xively.com/users/motsik",
+    "version": null,
+    "website": "http://www.motsik.tk",
+    "datastreams": [
+      {
+        "id": "Temperature",
+        "current_value": "20.00",
+        "at": "03/21/2014 14:09:40",
+        "max_value": "62.0",
+        "min_value": "0.0",
+        "tags": [
+          "DS18B20 #1"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Warehouse",
+      "domain": 0,
+      "lat": "39.5555282801659",
+      "lon": "21.7531657218933",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/1594847218\" >Motsik's Lab</a>",
+    "URLMostrar": "https://xively.com/feeds/1594847218"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\1594847218.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,107 @@
+{
+  "Conceptos": [
+    "atmospheric pressure"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "94938",
+    "title": "Arduino",
+    "Private": false,
+    "tags": [
+      "Arduino",
+      "atmospheric",
+      "barometric",
+      "pressure",
+      "temperature"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/94938.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "11/05/2013 20:31:36",
+    "created": "12/27/2012 17:18:59",
+    "creator": "https://xively.com/users/ghubsch",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Humidity",
+        "current_value": "36.0",
+        "at": "11/05/2013 20:31:35",
+        "max_value": "530.5",
+        "min_value": "1.0",
+        "tags": [
+          "humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Pressure",
+        "current_value": "1020.3",
+        "at": "11/05/2013 20:31:35",
+        "max_value": "1033.5",
+        "min_value": "982.2",
+        "tags": [
+          "barometric",
+          "pressure"
+        ],
+        "unit": {
+          "symbol": "hPa",
+          "label": "hPa",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "TempIn",
+        "current_value": "22.00",
+        "at": "11/05/2013 20:31:35",
+        "max_value": "31.6",
+        "min_value": "8.92",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "TempOut",
+        "current_value": "17.98",
+        "at": "11/05/2013 20:31:35",
+        "max_value": "51.94",
+        "min_value": "0.44",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Moita, Portugal",
+      "domain": 0,
+      "lat": "38.6572392071718",
+      "lon": "-8.99170875549316",
+      "ele": "32",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/94938\" >Arduino</a>",
+    "URLMostrar": "https://xively.com/feeds/94938"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\94938.json",
+  "DocumentJSON": null
+}

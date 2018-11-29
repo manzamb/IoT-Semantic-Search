@@ -1,0 +1,80 @@
+{
+  "Conceptos": [
+    "person"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "43705",
+    "title": "Personal Radiation Monitoring Post 43705 (Zushi Kanagawa)",
+    "Private": false,
+    "tags": [
+      "cpm",
+      "Geiger",
+      "Mark2",
+      "nSv/h",
+      "radiation",
+      "uSv/h",
+      "Yokohama",
+      "γ線",
+      "ガイガーカウンター",
+      "モニタリングポスト",
+      "逗子"
+    ],
+    "description": "Monitoring post by Mark2 Geiger Counter\nSBM-20 Geiger Mueller Tube\n\n2012-01-08より試験運用中 \n2013-10-18より神奈川県逗子市にて運用中",
+    "feed": "https://api.xively.com/v2/feeds/43705.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:07:47",
+    "created": "01/07/2012 00:29:39",
+    "creator": "https://xively.com/users/geigermonjp",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "5",
+        "current_value": "0.085471",
+        "at": "03/21/2014 14:07:47",
+        "max_value": "0.098941",
+        "min_value": "0.050013",
+        "tags": [
+          "１時間以降平均値"
+        ],
+        "unit": {
+          "symbol": "μSv/h",
+          "label": "uSv/h",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "0.077275",
+        "at": "03/21/2014 14:07:45",
+        "max_value": "0.123",
+        "min_value": "0.040075",
+        "tags": [
+          "10分間移動平均値"
+        ],
+        "unit": {
+          "symbol": "μSv/h",
+          "label": "uSv/h",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Yugawara",
+      "domain": 0,
+      "lat": "35.297522",
+      "lon": "139.579545",
+      "ele": "5m",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/43705\" >Personal Radiation Monitoring Post 43705 (Zushi Kanagawa)</a>",
+    "URLMostrar": "https://xively.com/feeds/43705"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\43705.json",
+  "DocumentJSON": null
+}

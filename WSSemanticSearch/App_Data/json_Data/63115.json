@@ -1,0 +1,120 @@
+{
+  "Conceptos": [
+    "physical"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "63115",
+    "title": "CurrentCost 128 via Arduino",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "Power",
+      "Temperature"
+    ],
+    "description": "Current Cost 128 connected to Cosm via home grown Arduino program.\r\nAnother midnight hack.\r\nDrop a note here if you want the code.",
+    "feed": "https://api.xively.com/v2/feeds/63115.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:15:51",
+    "created": "06/10/2012 14:24:03",
+    "creator": "https://xively.com/users/beep",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "24.3",
+        "at": "03/21/2014 14:15:50",
+        "max_value": "39.4",
+        "min_value": "11.3",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "485",
+        "at": "03/21/2014 14:15:50",
+        "max_value": "32766.0",
+        "min_value": "0.0",
+        "tags": [
+          "Power-0"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "41",
+        "at": "03/21/2014 14:15:50",
+        "max_value": "16817.0",
+        "min_value": "0.0",
+        "tags": [
+          "Power-1-ste"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "165",
+        "at": "03/21/2014 14:15:50",
+        "max_value": "24625.0",
+        "min_value": "0.0",
+        "tags": [
+          "Power-2-rm"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "138",
+        "at": "03/21/2014 14:15:50",
+        "max_value": "32767.0",
+        "min_value": "0.0",
+        "tags": [
+          "Power-3-svr"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Sydney",
+      "domain": 0,
+      "lat": "-33.78",
+      "lon": "151.23",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/63115\" >CurrentCost 128 via Arduino</a>",
+    "URLMostrar": "https://xively.com/feeds/63115"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\63115.json",
+  "DocumentJSON": null
+}

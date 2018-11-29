@@ -1,0 +1,151 @@
+{
+  "Conceptos": [
+    "humedad"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "41581",
+    "title": "Meteo",
+    "Private": false,
+    "tags": [
+      "humedad",
+      "temperatura"
+    ],
+    "description": "Datos meteorológicos y de temperatura y humedad en casa",
+    "feed": "https://api.xively.com/v2/feeds/41581.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:06:41",
+    "created": "12/09/2011 18:43:01",
+    "creator": "https://xively.com/users/acobo",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "HAdrian",
+        "current_value": "0.0",
+        "at": "03/21/2014 14:06:41",
+        "max_value": "100.0",
+        "min_value": "0.0",
+        "tags": [
+          "Humedad habitación Adrián"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "HExt",
+        "current_value": "0.0",
+        "at": "03/21/2014 14:06:41",
+        "max_value": "100.9",
+        "min_value": "0.0",
+        "tags": [
+          "Humedad exterior"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "HSalon",
+        "current_value": "0.0",
+        "at": "03/21/2014 14:06:41",
+        "max_value": "100.9",
+        "min_value": "0.0",
+        "tags": [
+          "Humedad salón"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "TAdrian",
+        "current_value": "0.0",
+        "at": "03/21/2014 14:06:41",
+        "max_value": "79.1",
+        "min_value": "-7.7",
+        "tags": [
+          "Temperatura habitación Adrián"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "ºC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "TExt",
+        "current_value": "0.0",
+        "at": "03/21/2014 14:06:41",
+        "max_value": "64.9",
+        "min_value": "-5.6",
+        "tags": [
+          "Temperatura exterior"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "ºC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "TGaraje",
+        "current_value": "17.0",
+        "at": "03/21/2014 14:06:41",
+        "max_value": "61.7",
+        "min_value": "-9.6",
+        "tags": [
+          "Temperatura garaje"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "ºC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "TSalon",
+        "current_value": "0.0",
+        "at": "03/21/2014 14:06:41",
+        "max_value": "73.1",
+        "min_value": "-9.3",
+        "tags": [
+          "Temperatura salón"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "ºC",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Soto de la Marina, Cantabria (SPAIN)",
+      "domain": 0,
+      "lat": "43.4648341072237",
+      "lon": "-3.89441728591919",
+      "ele": "0",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/41581\" >Meteo</a>",
+    "URLMostrar": "https://xively.com/feeds/41581"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\41581.json",
+  "DocumentJSON": null
+}

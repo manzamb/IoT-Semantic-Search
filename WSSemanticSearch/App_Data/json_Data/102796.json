@@ -1,0 +1,68 @@
+{
+  "Conceptos": [
+    "moisture"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "102796",
+    "title": "Soil Moisture",
+    "Private": false,
+    "tags": [
+      "arduino"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/102796.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "05/20/2013 14:11:46",
+    "created": "02/05/2013 19:25:48",
+    "creator": "https://xively.com/users/eliasedo",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "102796",
+        "current_value": "20",
+        "at": "02/05/2013 19:41:56",
+        "max_value": "24.0",
+        "min_value": "13.0",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "sensor_reading",
+        "current_value": "210.00",
+        "at": "02/05/2013 20:37:03",
+        "max_value": "217.0",
+        "min_value": "206.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "8.05922962720019",
+      "lon": "38.9794921875",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/102796\" >Soil Moisture</a>",
+    "URLMostrar": "https://xively.com/feeds/102796"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\102796.json",
+  "DocumentJSON": null
+}

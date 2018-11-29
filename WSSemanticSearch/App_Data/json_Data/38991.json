@@ -1,0 +1,107 @@
+{
+  "Conceptos": [
+    "event"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "38991",
+    "title": "Apalachin House",
+    "Private": false,
+    "tags": [
+      "ATmega644P",
+      "ATtiny84",
+      "AVR",
+      "LM75B",
+      "WIZnet",
+      "XBee"
+    ],
+    "description": "This is work in progress.\r\n\r\nThe outdoor sensor and the sensor in the living room uses an Atmel ATtiny84 micro-controller and an LM75B temperature sensor.  The sensor data is transmitted to the sensor base via a Digi XBee wireless RF module.  The sensor unit is powered by a 3V lithium battery.\r\n\r\nThe sensor base in the basement uses an Atmel ATmega644P micro-controller.  The base unit communicates with cosm.com via a WIZnet WIZ811MJ Ethernet module.\r\n\r\nThe living room temperature fluctuation during the winter is due to the pellet stove.  It's thermostatically controlled via an Atmel ATmega88.  The microcontroller introduces a large hysteresis to prevent burnout of the pellet stove ignitor.\r\n\r\nPhoto link: http://www.flickr.com/photos/drblake/sets/72157630128170560/",
+    "feed": "https://api.xively.com/v2/feeds/38991.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:11:48",
+    "created": "11/08/2011 14:02:15",
+    "creator": "https://xively.com/users/donblake",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "61.3",
+        "at": "03/21/2014 14:11:45",
+        "max_value": "96.4",
+        "min_value": "50.2",
+        "tags": [
+          "Sensor Base PCB Temperature"
+        ],
+        "unit": {
+          "symbol": "°F",
+          "label": "°F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "60.8",
+        "at": "03/21/2014 14:11:48",
+        "max_value": "87.8",
+        "min_value": "56.3",
+        "tags": [
+          "Living Room Temperature"
+        ],
+        "unit": {
+          "symbol": "°F",
+          "label": "°F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "33.4",
+        "at": "03/21/2014 14:10:41",
+        "max_value": "96.8",
+        "min_value": "-8.0",
+        "tags": [
+          "Outside Temperature"
+        ],
+        "unit": {
+          "symbol": "°F",
+          "label": "°F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "99",
+        "current_value": "0x080000",
+        "at": "02/11/2014 22:43:05",
+        "max_value": "524288.0",
+        "min_value": "0.0",
+        "tags": [
+          "Debug Information"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "42.0655527777778",
+      "lon": "-76.1905083333334",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/38991\" >Apalachin House</a>",
+    "URLMostrar": "https://xively.com/feeds/38991"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\38991.json",
+  "DocumentJSON": null
+}

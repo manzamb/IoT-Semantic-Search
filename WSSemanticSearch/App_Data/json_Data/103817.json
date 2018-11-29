@@ -1,0 +1,309 @@
+{
+  "Conceptos": [
+    "process"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "103817",
+    "title": "CasaLew",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "electricity",
+      "gas",
+      "house monitoring",
+      "power",
+      "weather"
+    ],
+    "description": "An Arduino monitors electric, gas, and temperature. Electric consumption is monitored by an infrared reciever module transitor. Gas is monitored with a simple optocoupled circuit on the gas valve. Indoor temp is monitored with an LM35 temperature sensor. \r\n\r\nOff-site, an Ubuntu server pulls, processes, and pushes weather data, and some other measures using Python (feedburner, requests) and crontab.",
+    "feed": "https://api.xively.com/v2/feeds/103817.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "10/05/2013 21:51:18",
+    "created": "02/10/2013 17:53:00",
+    "creator": "https://xively.com/users/roger_lew",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "auto_corrola_odometer",
+        "current_value": "11524",
+        "at": "04/07/2013 00:05:09",
+        "max_value": "11524.0",
+        "min_value": "11524.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "miles",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "bearnote",
+        "current_value": "1",
+        "at": "04/14/2013 00:02:10",
+        "max_value": "1.0",
+        "min_value": "1.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "None",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "electric_cumulative",
+        "current_value": "8114278.50",
+        "at": "10/05/2013 21:51:18",
+        "max_value": "8114278.5",
+        "min_value": "859256.81",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "Wh",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "electric_daily",
+        "current_value": "5343561.50",
+        "at": "10/05/2013 21:51:18",
+        "max_value": "5343561.5",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "Wh",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "electric_instantaneous",
+        "current_value": "116129.03",
+        "at": "10/05/2013 21:51:18",
+        "max_value": "116129.03",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "Wh",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "gas_BTU_per_HDD_per_SQFT",
+        "current_value": "0.0000",
+        "at": "08/02/2013 23:30:04",
+        "max_value": "4.6552",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "BTU/HDD/FT^2",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "gas_cumulative",
+        "current_value": "15324.26",
+        "at": "10/05/2013 21:51:18",
+        "max_value": "15324.26",
+        "min_value": "9280.5",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "cf",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "gas_daily",
+        "current_value": "1229.72",
+        "at": "10/05/2013 21:51:18",
+        "max_value": "1229.72",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "cf",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "gas_daily_HDD_norm",
+        "current_value": "0.00",
+        "at": "07/24/2013 12:41:39",
+        "max_value": "19.91",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "cf / HDD",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "gas_instantaneous",
+        "current_value": "0.00",
+        "at": "10/05/2013 21:51:18",
+        "max_value": "149.68",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "cfh",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "indoor_temp",
+        "current_value": "67.76",
+        "at": "10/05/2013 21:51:18",
+        "max_value": "84.42",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "water_meter",
+        "current_value": "66807",
+        "at": "04/07/2013 00:05:32",
+        "max_value": "66807.0",
+        "min_value": "66807.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "cf",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "weather_barometric_pressure",
+        "current_value": "30.00",
+        "at": "08/01/2013 05:57:17",
+        "max_value": "30.6",
+        "min_value": "29.61",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "weather_daily_CDD",
+        "current_value": "0.00",
+        "at": "08/02/2013 23:30:04",
+        "max_value": "14.92847115",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "F (70 base)",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "weather_daily_HDD",
+        "current_value": "0.00",
+        "at": "08/02/2013 23:30:04",
+        "max_value": "33.51735945",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "F (70 base)",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "weather_humidity",
+        "current_value": "35.00",
+        "at": "08/01/2013 05:57:17",
+        "max_value": "100.0",
+        "min_value": "12.0",
+        "tags": null,
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "weather_temperature",
+        "current_value": "71.00",
+        "at": "08/01/2013 05:57:17",
+        "max_value": "96.0",
+        "min_value": "21.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "weather_wind_direction",
+        "current_value": "340.00",
+        "at": "08/01/2013 05:57:17",
+        "max_value": "360.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "deg",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "weather_wind_speed",
+        "current_value": "5.00",
+        "at": "08/01/2013 05:57:17",
+        "max_value": "33.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "mph",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Moscow, Idaho",
+      "domain": 0,
+      "lat": "46.7345664686879",
+      "lon": "-116.999287605286",
+      "ele": "2579 feet",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/103817\" >CasaLew</a>",
+    "URLMostrar": "https://xively.com/feeds/103817"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\103817.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,852 @@
+{
+  "Conceptos": [
+    "platform"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "49439",
+    "title": "European Electricity Grid - Vertical Load",
+    "Private": false,
+    "tags": [
+      "electricity",
+      "europe",
+      "grid load"
+    ],
+    "description": "A data feed for aggregate vertical load of the European national electricity grids.\r\n\r\nData, when available, is present on an hourly basis. The datastreams get updated once daily. Unfortunately, the data is only available with one day delay.\r\n\r\nThe data starts with 01.01.2011 and is updated, as available, daily.\r\n\r\nCountry ID according to ISO, trailing 0 denotes forecast, trailing 1 denotes actual reported load. All Times in CE(S)T.\r\n\r\nIf you know of better (preferrable real-time) data sources, please get in touch.\r\n\r\nData pulled from “entsoe.net – the transparency platform of ENTSO-E.”",
+    "feed": "https://api.xively.com/v2/feeds/49439.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "02/27/2012 16:15:18",
+    "created": "02/23/2012 13:33:30",
+    "creator": "https://xively.com/users/mjays",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "AT0",
+        "current_value": "0",
+        "at": "02/23/2012 23:00:00",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "MW",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "AT1",
+        "current_value": "2168",
+        "at": "03/24/2012 23:00:00",
+        "max_value": "4706.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "MW",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "BA0",
+        "current_value": "1225",
+        "at": "03/23/2012 23:00:00",
+        "max_value": "2037.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "MW",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "BA1",
+        "current_value": "1434",
+        "at": "03/17/2012 23:00:00",
+        "max_value": "2139.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "MW",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "BE0",
+        "current_value": "10101",
+        "at": "03/22/2012 23:00:00",
+        "max_value": "13527.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "MW",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "BE1",
+        "current_value": "8529",
+        "at": "03/24/2012 23:00:00",
+        "max_value": "13295.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "MW",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "CH0",
+        "current_value": "0",
+        "at": "02/23/2012 23:00:00",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "MW",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "CH1",
+        "current_value": "5292",
+        "at": "03/18/2012 00:00:00",
+        "max_value": "8981.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "MW",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "CY0",
+        "current_value": "395",
+        "at": "03/23/2012 23:00:00",
+        "max_value": "901.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "MW",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "CY1",
+        "current_value": "436",
+        "at": "03/23/2012 22:00:00",
+        "max_value": "919.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "MW",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "DE0",
+        "current_value": "33271",
+        "at": "03/24/2012 23:00:00",
+        "max_value": "59262.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "MW",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "DE1",
+        "current_value": "31548",
+        "at": "03/24/2012 23:00:00",
+        "max_value": "57767.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "MW",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "DK10",
+        "current_value": "1835",
+        "at": "03/23/2012 23:00:00",
+        "max_value": "3635.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "MW",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "DK11",
+        "current_value": "1737",
+        "at": "03/24/2012 23:00:00",
+        "max_value": "3697.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "MW",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "DK20",
+        "current_value": "1253",
+        "at": "03/25/2012 23:00:00",
+        "max_value": "2588.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "MW",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "DK21",
+        "current_value": "1339",
+        "at": "03/21/2012 23:00:00",
+        "max_value": "2591.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "MW",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "EE0",
+        "current_value": "822",
+        "at": "03/25/2012 23:00:00",
+        "max_value": "1559.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "MW",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "EE1",
+        "current_value": "799",
+        "at": "03/23/2012 23:00:00",
+        "max_value": "1564.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "MW",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "ES0",
+        "current_value": "30016",
+        "at": "03/23/2012 23:00:00",
+        "max_value": "43551.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "MW",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "ES1",
+        "current_value": "27318",
+        "at": "03/24/2012 23:00:00",
+        "max_value": "43588.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "MW",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "FI0",
+        "current_value": "9477",
+        "at": "03/23/2012 23:00:00",
+        "max_value": "14469.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "MW",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "FI1",
+        "current_value": "9311",
+        "at": "03/24/2012 23:00:00",
+        "max_value": "14803.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "MW",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "FR0",
+        "current_value": "58450",
+        "at": "03/23/2012 23:00:00",
+        "max_value": "99950.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "MW",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "FR1",
+        "current_value": "54871",
+        "at": "03/23/2012 23:00:00",
+        "max_value": "100000.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "MW",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "GB0",
+        "current_value": "32988",
+        "at": "03/25/2012 23:00:00",
+        "max_value": "56270.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "MW",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "GB1",
+        "current_value": "31947",
+        "at": "03/24/2012 23:00:00",
+        "max_value": "55195.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "MW",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "GR0",
+        "current_value": "4580",
+        "at": "03/24/2012 23:00:00",
+        "max_value": "10000.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "MW",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "GR1",
+        "current_value": "5120",
+        "at": "03/24/2012 22:00:00",
+        "max_value": "9979.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "MW",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "HR0",
+        "current_value": "1617",
+        "at": "03/24/2012 23:00:00",
+        "max_value": "3208.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "MW",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "HR1",
+        "current_value": "1634",
+        "at": "03/24/2012 23:00:00",
+        "max_value": "3194.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "MW",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "HU0",
+        "current_value": "4698",
+        "at": "03/20/2012 23:00:00",
+        "max_value": "6399.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "MW",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "HU1",
+        "current_value": "4360",
+        "at": "03/24/2012 23:00:00",
+        "max_value": "6410.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "MW",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "IE0",
+        "current_value": "3732",
+        "at": "03/24/2012 00:00:00",
+        "max_value": "6373.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "MW",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "IE1",
+        "current_value": "3786",
+        "at": "03/24/2012 23:00:00",
+        "max_value": "6991.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "MW",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "IT0",
+        "current_value": "31021",
+        "at": "03/24/2012 23:00:00",
+        "max_value": "51600.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "MW",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "IT1",
+        "current_value": "35635",
+        "at": "03/19/2012 23:00:00",
+        "max_value": "51872.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "MW",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "LT0",
+        "current_value": "1052",
+        "at": "03/25/2012 23:00:00",
+        "max_value": "1704.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "MW",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "LT1",
+        "current_value": "951",
+        "at": "03/23/2012 23:00:00",
+        "max_value": "1741.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "MW",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "LV0",
+        "current_value": "580",
+        "at": "03/25/2012 23:00:00",
+        "max_value": "1300.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "MW",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "LV1",
+        "current_value": "0",
+        "at": "03/24/2012 23:00:00",
+        "max_value": "1341.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "MW",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "MK0",
+        "current_value": "1139",
+        "at": "03/19/2012 23:00:00",
+        "max_value": "1634.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "MW",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "MK1",
+        "current_value": "1033",
+        "at": "03/19/2012 23:00:00",
+        "max_value": "40601.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "MW",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "NL0",
+        "current_value": "0",
+        "at": "02/23/2012 23:00:00",
+        "max_value": "13655.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "MW",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "NL1",
+        "current_value": "0",
+        "at": "02/23/2012 23:00:00",
+        "max_value": "15082.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "MW",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "NO0",
+        "current_value": "14267",
+        "at": "03/25/2012 23:00:00",
+        "max_value": "22983.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "MW",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "NO1",
+        "current_value": "13962",
+        "at": "03/23/2012 23:00:00",
+        "max_value": "22785.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "MW",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "PL0",
+        "current_value": "15700",
+        "at": "03/24/2012 23:00:00",
+        "max_value": "25500.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "MW",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "PL1",
+        "current_value": "16779",
+        "at": "03/23/2012 23:00:00",
+        "max_value": "25578.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "MW",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "PT0",
+        "current_value": "5812",
+        "at": "03/25/2012 23:00:00",
+        "max_value": "8732.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "MW",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "PT1",
+        "current_value": "3210",
+        "at": "03/24/2012 23:00:00",
+        "max_value": "7058.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "MW",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "RO0",
+        "current_value": "5300",
+        "at": "03/24/2012 23:00:00",
+        "max_value": "9470.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "MW",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "RO1",
+        "current_value": "6178",
+        "at": "03/17/2012 21:00:00",
+        "max_value": "9456.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "MW",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "RS0",
+        "current_value": "4340",
+        "at": "03/22/2012 23:00:00",
+        "max_value": "7676.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "MW",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "RS1",
+        "current_value": "4561",
+        "at": "03/21/2012 23:00:00",
+        "max_value": "7565.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "MW",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "SI0",
+        "current_value": "1036",
+        "at": "03/25/2012 23:00:00",
+        "max_value": "2002.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "MW",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "SI1",
+        "current_value": "1287",
+        "at": "03/23/2012 23:00:00",
+        "max_value": "2057.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "MW",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "SK0",
+        "current_value": "2850",
+        "at": "03/25/2012 22:00:00",
+        "max_value": "4350.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "MW",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "SK1",
+        "current_value": "3008",
+        "at": "03/23/2012 22:00:00",
+        "max_value": "4396.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "MW",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/49439\" >European Electricity Grid - Vertical Load</a>",
+    "URLMostrar": "https://xively.com/feeds/49439"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\49439.json",
+  "DocumentJSON": null
+}

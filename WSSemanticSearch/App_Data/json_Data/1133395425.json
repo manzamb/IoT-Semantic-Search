@@ -1,0 +1,68 @@
+{
+  "Conceptos": [
+    "co2"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "1133395425",
+    "title": "Raspberry_Pi",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/1133395425.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "01/27/2014 12:28:10",
+    "created": "10/31/2013 12:36:46",
+    "creator": "https://xively.com/users/andrei_lescu",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "load_avg",
+        "current_value": "600",
+        "at": "12/19/2013 09:45:59",
+        "max_value": "1331.0",
+        "min_value": "0.0",
+        "tags": [
+          "CO2"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "VOC_sensor",
+        "current_value": "116709",
+        "at": "12/19/2013 09:45:59",
+        "max_value": "133499.0",
+        "min_value": "116709.0",
+        "tags": [
+          "VOC_sensor"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/1133395425\" >Raspberry_Pi</a>",
+    "URLMostrar": "https://xively.com/feeds/1133395425"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\1133395425.json",
+  "DocumentJSON": null
+}

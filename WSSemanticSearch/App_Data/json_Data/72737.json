@@ -1,0 +1,285 @@
+{
+  "Conceptos": [
+    "sensor output"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "72737",
+    "title": "Pearl Street. Fort Myers Beach, FL.",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "BMP085",
+      "Cat",
+      "DHT",
+      "FL.",
+      "Florida",
+      "Obamma",
+      "Pearl Street. Fort Myers Beach",
+      "Solar",
+      "Temperature and humidity on Fort Myers Beach"
+    ],
+    "description": "Arduino weather station.\r\nArduino UNO R3\r\n04/23/2013\r\n Replaced Faulty BMP085, and TSL light sensor in April of 2013...Added 6 volt 2.5 watt solar panel, 5.0 Volt Up converter and a 4 volt 2.0ah AGM mini battery\r\nAdd a Reset line from D7 to the reset pin on the UNO and set the millis function to reset the UNO. This resets the timer and all min max readings\r\n\r\nvoid setup() \r\n{ \r\n   digitalWrite(7, HIGH); //We need to set it HIGHimmediately on boot\r\n  pinMode(7,OUTPUT);     //We can declare it an output ONLY AFTER it's HIGH\r\n  void loop() {\r\nfloat Time =         millis() / 60000; \r\n//other code goes here\r\n  if(Time > 720.0){// Reset every 12 hours\r\n    digitalWrite(7, LOW); //Pulling the RESET pin LOW triggers the reset.\r\n   }  \r\n }",
+    "feed": "https://api.xively.com/v2/feeds/72737.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "07/03/2013 12:06:56",
+    "created": "08/27/2012 03:47:48",
+    "creator": "https://xively.com/users/fmbfla",
+    "version": null,
+    "website": "https://github.com/fmbfla",
+    "datastreams": [
+      {
+        "id": "Alt",
+        "current_value": "5.71 Ft",
+        "at": "07/03/2013 12:06:55",
+        "max_value": "2791.35",
+        "min_value": "-754.5",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Baro",
+        "current_value": "30.05 inHg",
+        "at": "07/03/2013 12:06:55",
+        "max_value": "73.97",
+        "min_value": "0.07",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "DewPoint",
+        "current_value": "76.52 °F",
+        "at": "07/03/2013 12:06:55",
+        "max_value": "362.16",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Full",
+        "current_value": "0",
+        "at": "07/02/2013 12:35:49",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "HeatIndex",
+        "current_value": "75.93 °F",
+        "at": "07/03/2013 12:06:55",
+        "max_value": "7212.08",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Humidity",
+        "current_value": "99.90 %",
+        "at": "07/03/2013 12:06:55",
+        "max_value": "99.9",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "InfraRed",
+        "current_value": "0.00",
+        "at": "07/02/2013 15:27:47",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Lux1",
+        "current_value": "0.00",
+        "at": "07/02/2013 15:27:47",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "TempAVG",
+        "current_value": "49.00",
+        "at": "07/01/2013 02:43:14",
+        "max_value": "79.0",
+        "min_value": "1.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "TempIn",
+        "current_value": "82.22 F",
+        "at": "07/03/2013 12:06:55",
+        "max_value": "84.56",
+        "min_value": "74.3",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "TempOut",
+        "current_value": "76.82 °F",
+        "at": "07/03/2013 12:06:55",
+        "max_value": "90.5",
+        "min_value": "-267.16",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Time",
+        "current_value": "75",
+        "at": "07/03/2013 11:23:15",
+        "max_value": "2227.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Visible",
+        "current_value": "0.00",
+        "at": "07/02/2013 15:27:47",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Wind",
+        "current_value": "1.59 MPH",
+        "at": "07/26/2013 00:00:00",
+        "max_value": "205.58",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "WindAVG",
+        "current_value": "1.03 MPH",
+        "at": "07/03/2013 12:06:55",
+        "max_value": "197.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "WindChill",
+        "current_value": "76.82 °F",
+        "at": "07/03/2013 12:06:55",
+        "max_value": "408.56",
+        "min_value": "-267.16",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "WindGust",
+        "current_value": "11.0",
+        "at": "07/01/2013 00:57:36",
+        "max_value": "12.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Pearl Street. Fort Myers Beach, FL.",
+      "domain": 0,
+      "lat": "26.4523622722139",
+      "lon": "-81.945948600769",
+      "ele": "2.5 +/- 1 meter",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/72737\" >Pearl Street. Fort Myers Beach, FL.</a>",
+    "URLMostrar": "https://xively.com/feeds/72737"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\72737.json",
+  "DocumentJSON": null
+}

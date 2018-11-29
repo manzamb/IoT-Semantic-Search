@@ -1,0 +1,167 @@
+{
+  "Conceptos": [
+    "humidity"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "117015",
+    "title": "CE2",
+    "Private": false,
+    "tags": [
+      "ping",
+      "rtt"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/117015.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:06:17",
+    "created": "03/04/2013 13:34:52",
+    "creator": "https://xively.com/users/9dof",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "extStore",
+        "current_value": "107520",
+        "at": "03/21/2014 14:06:02",
+        "max_value": "473088.0",
+        "min_value": "107520.0",
+        "tags": [
+          "external storage"
+        ],
+        "unit": {
+          "symbol": "MB",
+          "label": "MB",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "pktloss",
+        "current_value": "0",
+        "at": "03/21/2014 14:05:11",
+        "max_value": "100.0",
+        "min_value": "0.0",
+        "tags": [
+          "packet loss"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "rh",
+        "current_value": "62.10",
+        "at": "03/21/2014 14:06:09",
+        "max_value": "94.5",
+        "min_value": "0.0",
+        "tags": [
+          "camera humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "rtt",
+        "current_value": "858.713",
+        "at": "03/21/2014 14:05:11",
+        "max_value": "14013.295",
+        "min_value": "52.162",
+        "tags": [
+          "rtt"
+        ],
+        "unit": {
+          "symbol": "ms",
+          "label": "ms",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "sysStore",
+        "current_value": "4812.8",
+        "at": "03/21/2014 14:06:02",
+        "max_value": "5632.0",
+        "min_value": "4710.4",
+        "tags": [
+          "system storage"
+        ],
+        "unit": {
+          "symbol": "MB",
+          "label": "MB",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "t0",
+        "current_value": "30.50",
+        "at": "03/21/2014 14:06:15",
+        "max_value": "44.3",
+        "min_value": "0.0",
+        "tags": [
+          "camera temp"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "t1",
+        "current_value": "34.69",
+        "at": "03/21/2014 14:06:16",
+        "max_value": "50.75",
+        "min_value": "25.94",
+        "tags": [
+          "system temp"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "t2",
+        "current_value": "32.50",
+        "at": "03/21/2014 14:06:17",
+        "max_value": "50.25",
+        "min_value": "24.81",
+        "tags": [
+          "ambient temp"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/117015\" >CE2</a>",
+    "URLMostrar": "https://xively.com/feeds/117015"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\117015.json",
+  "DocumentJSON": null
+}

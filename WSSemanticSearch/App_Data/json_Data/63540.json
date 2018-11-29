@@ -1,0 +1,217 @@
+{
+  "Conceptos": [
+    "humedad"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "63540",
+    "title": "Luminaria ",
+    "Private": false,
+    "tags": [
+      "corriente",
+      "radiacionsolar",
+      "temperatura",
+      "voltaje"
+    ],
+    "description": "PREUBA",
+    "feed": "https://api.xively.com/v2/feeds/63540.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/18/2013 05:23:34",
+    "created": "06/13/2012 17:28:26",
+    "creator": "https://xively.com/users/electromag",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "1",
+        "current_value": "13",
+        "at": "03/18/2013 05:23:34",
+        "max_value": "19.71",
+        "min_value": "0.0",
+        "tags": [
+          "Voltaje Bateria"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "V",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "1.70",
+        "at": "01/12/2013 02:52:56",
+        "max_value": "12.88",
+        "min_value": "0.0",
+        "tags": [
+          "Corriente Bateria"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "A",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "1.38",
+        "at": "01/12/2013 02:52:56",
+        "max_value": "22.1",
+        "min_value": "0.0",
+        "tags": [
+          "Voltaje Celda Solar"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "V",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "0.00",
+        "at": "01/12/2013 02:52:56",
+        "max_value": "7.95",
+        "min_value": "0.0",
+        "tags": [
+          "Corriente Celda Solar"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "A",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "12.91",
+        "at": "01/12/2013 02:52:56",
+        "max_value": "20.68",
+        "min_value": "0.0",
+        "tags": [
+          "Voltaje Luminaria"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "V",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "1.71",
+        "at": "01/12/2013 02:52:56",
+        "max_value": "14.87",
+        "min_value": "0.0",
+        "tags": [
+          "Corriente Luminaria"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "A",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "7",
+        "current_value": "24.74",
+        "at": "01/12/2013 02:52:56",
+        "max_value": "86.43",
+        "min_value": "0.0",
+        "tags": [
+          "Humeda Interna"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "%RH",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "8",
+        "current_value": "17.94",
+        "at": "01/12/2013 02:52:56",
+        "max_value": "68.7",
+        "min_value": "-273.15",
+        "tags": [
+          "Temperatura Interna"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "ºC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "9",
+        "current_value": "40.69",
+        "at": "01/12/2013 02:52:56",
+        "max_value": "95.54",
+        "min_value": "0.0",
+        "tags": [
+          "Humedad Externa"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "%RH",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "10",
+        "current_value": "17.20",
+        "at": "01/12/2013 02:52:56",
+        "max_value": "68.07",
+        "min_value": "-273.15",
+        "tags": [
+          "Temperatura Externa"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "11",
+        "current_value": "0.00",
+        "at": "01/12/2013 02:52:56",
+        "max_value": "1238.13",
+        "min_value": "0.0",
+        "tags": [
+          "Radiacion Solar"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "W/m2",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "19.4715285369008",
+      "lon": "-99.2402744293213",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/63540\" >Luminaria </a>",
+    "URLMostrar": "https://xively.com/feeds/63540"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\63540.json",
+  "DocumentJSON": null
+}

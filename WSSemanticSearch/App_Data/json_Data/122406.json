@@ -1,0 +1,120 @@
+{
+  "Conceptos": [
+    "temperature"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "122406",
+    "title": "Temperature Maison",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/122406.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:09:35",
+    "created": "04/03/2013 08:52:52",
+    "creator": "https://xively.com/users/djelau",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Niveau_cuve",
+        "current_value": "80",
+        "at": "03/21/2014 14:09:35",
+        "max_value": "2222.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "cm",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "T_ChAdrien",
+        "current_value": "16.9",
+        "at": "03/21/2014 12:47:21",
+        "max_value": "30.0",
+        "min_value": "10.9",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "T_ChParents",
+        "current_value": "18.2",
+        "at": "03/21/2014 13:32:55",
+        "max_value": "30.7",
+        "min_value": "11.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "T_Salon",
+        "current_value": "18.1",
+        "at": "03/21/2014 14:05:21",
+        "max_value": "27.6",
+        "min_value": "-159.5",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "T_SdB",
+        "current_value": "17.4",
+        "at": "03/21/2014 12:39:35",
+        "max_value": "27.5",
+        "min_value": "-159.5",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "T_Sonde",
+        "current_value": "14.3",
+        "at": "03/21/2014 14:09:29",
+        "max_value": "186.8",
+        "min_value": "-465.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/122406\" >Temperature Maison</a>",
+    "URLMostrar": "https://xively.com/feeds/122406"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\122406.json",
+  "DocumentJSON": null
+}

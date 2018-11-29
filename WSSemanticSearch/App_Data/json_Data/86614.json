@@ -1,0 +1,136 @@
+{
+  "Conceptos": [
+    "project"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "86614",
+    "title": "Smart Home",
+    "Private": false,
+    "tags": [
+      "energy",
+      "project:name=trackingnewtech",
+      "smarthome"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/86614.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/19/2014 08:11:25",
+    "created": "11/16/2012 20:19:37",
+    "creator": "https://xively.com/users/trackingnewtech",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "ElectricityCost",
+        "current_value": "15.425888800001",
+        "at": "03/19/2014 08:11:25",
+        "max_value": "95.0718832",
+        "min_value": "0.0081199999999926",
+        "tags": [
+          "euro"
+        ],
+        "unit": {
+          "symbol": "Euro (from the 1st of this month)",
+          "label": "€",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "ElectricityMeter",
+        "current_value": "7532.314",
+        "at": "03/19/2014 08:11:23",
+        "max_value": "7532.314",
+        "min_value": "1089.09",
+        "tags": [
+          "energy"
+        ],
+        "unit": {
+          "symbol": "kWh",
+          "label": "kW",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "LightInside",
+        "current_value": "51",
+        "at": "04/04/2013 08:51:41",
+        "max_value": "60.0",
+        "min_value": "0.0",
+        "tags": [
+          "light"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "LivingRoom",
+        "current_value": "43",
+        "at": "04/04/2013 09:34:49",
+        "max_value": "217.0",
+        "min_value": "0.0",
+        "tags": [
+          "energy"
+        ],
+        "unit": {
+          "symbol": "Watts",
+          "label": "W",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "PowerMeter",
+        "current_value": "315.9999999998",
+        "at": "03/19/2014 08:11:22",
+        "max_value": "262986.0",
+        "min_value": "2.2737367544323e-10",
+        "tags": [
+          "energy"
+        ],
+        "unit": {
+          "symbol": "Watts",
+          "label": "W",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "TemperatureInside",
+        "current_value": "22",
+        "at": "04/04/2013 08:51:40",
+        "max_value": "24.0",
+        "min_value": "21.0",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "degree",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "48.8876881969409",
+      "lon": "2.31252443637254",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/86614\" >Smart Home</a>",
+    "URLMostrar": "https://xively.com/feeds/86614"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\86614.json",
+  "DocumentJSON": null
+}

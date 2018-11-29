@@ -1,0 +1,196 @@
+{
+  "Conceptos": [
+    "azione"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "110979443",
+    "title": "Impianto FV Palena 979,02 kWp",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/110979443.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "01/23/2014 15:35:34",
+    "created": "11/20/2013 09:05:46",
+    "creator": "https://xively.com/users/impiantifv",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "DeltaEgiorno",
+        "current_value": "119.67000000512235",
+        "at": "01/23/2014 15:35:33",
+        "max_value": "1857.65164063012",
+        "min_value": "-1630.33",
+        "tags": [
+          "Differenza Energia Giorno"
+        ],
+        "unit": {
+          "symbol": "kWh",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "DeltaEmese",
+        "current_value": "-1680.0125781250026",
+        "at": "01/23/2014 15:35:32",
+        "max_value": "23274.122578125",
+        "min_value": "-50205.1590625",
+        "tags": [
+          "Differenza Energia Mese"
+        ],
+        "unit": {
+          "symbol": "kWh",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Emese",
+        "current_value": "48860.107421875",
+        "at": "01/23/2014 15:22:14",
+        "max_value": "68139.892578125",
+        "min_value": "245.1171875",
+        "tags": [
+          "Energia Prodotta Mese"
+        ],
+        "unit": {
+          "symbol": "kWh",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Eoggi",
+        "current_value": "1750.0000000051223",
+        "at": "01/23/2014 15:22:14",
+        "max_value": "3304.93164063012",
+        "min_value": "0.0",
+        "tags": [
+          "Energia Prodotta Oggi"
+        ],
+        "unit": {
+          "symbol": "kWh",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "FaultInv1",
+        "current_value": "0.0",
+        "at": "01/23/2014 15:35:34",
+        "max_value": "452.0",
+        "min_value": "0.0",
+        "tags": [
+          "Codice Errore Inverter 1"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "FaultInv2",
+        "current_value": "0.0",
+        "at": "01/23/2014 15:35:14",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "Codice Errore Inverter 2"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Irr",
+        "current_value": "28.0",
+        "at": "01/23/2014 15:35:19",
+        "max_value": "637.0",
+        "min_value": "0.0",
+        "tags": [
+          "Irraggiamento"
+        ],
+        "unit": {
+          "symbol": "W/m²",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Pac",
+        "current_value": "17.6",
+        "at": "01/23/2014 15:35:33",
+        "max_value": "679.3",
+        "min_value": "0.0",
+        "tags": [
+          "Potenza Istantanea Immessa in Rete"
+        ],
+        "unit": {
+          "symbol": "kW",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "PRoggi",
+        "current_value": "81.70067283992107",
+        "at": "01/23/2014 15:35:19",
+        "max_value": "69177362.4692879",
+        "min_value": "0.0",
+        "tags": [
+          "Prestazione Oggi"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "RadOggi",
+        "current_value": "2.187866666666667",
+        "at": "01/23/2014 15:35:18",
+        "max_value": "2.69703333333333",
+        "min_value": "0.0",
+        "tags": [
+          "Radiazione Oggi"
+        ],
+        "unit": {
+          "symbol": "kWh/m²",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Loc. Quadrelli - Palena (CH)",
+      "domain": 0,
+      "lat": "41.976389",
+      "lon": "14.142778",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/110979443\" >Impianto FV Palena 979,02 kWp</a>",
+    "URLMostrar": "https://xively.com/feeds/110979443"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\110979443.json",
+  "DocumentJSON": null
+}

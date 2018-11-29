@@ -1,0 +1,68 @@
+{
+  "Conceptos": [
+    "project"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "103188",
+    "title": "TV",
+    "Private": false,
+    "tags": [
+      "energy",
+      "power",
+      "project:name=me3gas"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/103188.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "12/28/2013 10:36:26",
+    "created": "02/07/2013 17:22:04",
+    "creator": "https://xively.com/users/efrecon",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "energy",
+        "current_value": "0.292436",
+        "at": "12/28/2013 10:36:26",
+        "max_value": "63.959053",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "Wh",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "power",
+        "current_value": "0.0",
+        "at": "12/28/2013 10:36:26",
+        "max_value": "77.55",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "W",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/103188\" >TV</a>",
+    "URLMostrar": "https://xively.com/feeds/103188"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\103188.json",
+  "DocumentJSON": null
+}

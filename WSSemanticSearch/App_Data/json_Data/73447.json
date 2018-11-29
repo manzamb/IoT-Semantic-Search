@@ -1,0 +1,52 @@
+{
+  "Conceptos": [
+    "area"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "73447",
+    "title": "My Temps",
+    "Private": false,
+    "tags": null,
+    "description": "5th floor, highly exposed balcony, Toulouse, Marengo area, France | TCW121B | SNMP polled industrial sensor box",
+    "feed": "https://api.xively.com/v2/feeds/73447.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "09/02/2012 09:48:08",
+    "created": "09/02/2012 09:43:40",
+    "creator": "https://xively.com/users/jaxx",
+    "version": null,
+    "website": "http://bb.things.im",
+    "datastreams": [
+      {
+        "id": "00_balcony",
+        "current_value": null,
+        "at": null,
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "temp"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Toulouse, Balcony",
+      "domain": 0,
+      "lat": "43.6112302312717",
+      "lon": "1.45732998847961",
+      "ele": "110m",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/73447\" >My Temps</a>",
+    "URLMostrar": "https://xively.com/feeds/73447"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\73447.json",
+  "DocumentJSON": null
+}

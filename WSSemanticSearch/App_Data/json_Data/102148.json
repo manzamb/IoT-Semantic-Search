@@ -1,0 +1,160 @@
+{
+  "Conceptos": [
+    "medium"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "102148",
+    "title": "QNAP TS-110 NAS",
+    "Private": false,
+    "tags": [
+      "nas",
+      "qnap",
+      "ts-110"
+    ],
+    "description": "Stats from a QNAP TS-110 NAS. A cron job on the NAS runs a script every five minutes that sends stats to Cosm. The script:\r\n\r\ncurl --request PUT --header \"X-ApiKey: XXX\" --data \"$(df -k | grep /dev/sda3 | awk '{print $4/$2*100}')\" http://api.cosm.com/v2/feeds/YYY/datastreams/free.csv\r\ncurl --request PUT --header \"X-ApiKey: XXX\" --data \"$(cat /proc/loadavg | awk '{print $1}')\" http://api.cosm.com/v2/feeds/YYY/datastreams/load_short.csv\r\ncurl --request PUT --header \"X-ApiKey: XXX\" --data \"$(get_hd_temp 1)\" http://api.cosm.com/v2/feeds/YYY/datastreams/temp_hd.csv\r\ncurl --request PUT --header \"X-ApiKey: XXX\" --data \"$(getsysinfo systmp | awk '{print $1}')\" http://api.cosm.com/v2/feeds/YYY/datastreams/temp_system.csv\r\ncurl --request PUT --header \"X-ApiKey: XXX\" --data \"$(cat /proc/loadavg | awk '{print $2}')\" http://api.cosm.com/v2/feeds/YYY/datastreams/load_medium.csv\r\ncurl --request PUT --header \"X-ApiKey: XXX\" --data \"$(cat /proc/loadavg | awk '{print $3}')\" http://api.cosm.com/v2/feeds/YYY/datastreams/load_long.csv\r\ncurl --request PUT --header \"X-ApiKey: XXX\" --data \"$(df -k | grep /dev/sda3 | awk '{print $4/1024/1024}')\" http://api.cosm.com/v2/feeds/YYY/datastreams/free_gb.csv\r\n\r\nInstructions for configuring a cron job on a QNAP NAS: http://wiki.qnap.com/wiki/Add_items_to_crontab#Method_1:_.2Fetc.2Fconfig.2Fcrontab",
+    "feed": "https://api.xively.com/v2/feeds/102148.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "12/04/2013 20:25:08",
+    "created": "02/02/2013 18:44:10",
+    "creator": "https://xively.com/users/claes",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "free",
+        "current_value": "41.5992",
+        "at": "12/04/2013 20:25:02",
+        "max_value": "59.73",
+        "min_value": "41.5992",
+        "tags": [
+          "free space",
+          "harddrive"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "free_gb",
+        "current_value": "762.202",
+        "at": "12/04/2013 20:25:08",
+        "max_value": "1094.44",
+        "min_value": "762.202",
+        "tags": [
+          "free space",
+          "harddrive"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "GB",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "load_long",
+        "current_value": "0.37",
+        "at": "12/04/2013 20:25:07",
+        "max_value": "3.95",
+        "min_value": "0.0",
+        "tags": [
+          "load",
+          "loadaverage",
+          "long"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "load average",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "load_medium",
+        "current_value": "0.52",
+        "at": "12/04/2013 20:25:06",
+        "max_value": "5.3",
+        "min_value": "0.0",
+        "tags": [
+          "load",
+          "loadaverage",
+          "medium"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "load average",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "load_short",
+        "current_value": "0.83",
+        "at": "12/04/2013 20:25:03",
+        "max_value": "9.77",
+        "min_value": "0.0",
+        "tags": [
+          "load",
+          "loadaverage",
+          "short"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "load average",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temp_hd",
+        "current_value": "32",
+        "at": "12/04/2013 20:25:04",
+        "max_value": "42.0",
+        "min_value": "20.0",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "℃",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temp_system",
+        "current_value": "38",
+        "at": "12/04/2013 20:25:05",
+        "max_value": "47.0",
+        "min_value": "28.0",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "℃",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Antwerp, Belgium",
+      "domain": 0,
+      "lat": "51.2071724281336",
+      "lon": "4.43015098571777",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/102148\" >QNAP TS-110 NAS</a>",
+    "URLMostrar": "https://xively.com/feeds/102148"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\102148.json",
+  "DocumentJSON": null
+}

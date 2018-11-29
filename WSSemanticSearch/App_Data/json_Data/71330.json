@@ -1,0 +1,326 @@
+{
+  "Conceptos": [
+    "parameter"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "71330",
+    "title": "Solar Logging",
+    "Private": false,
+    "tags": [
+      "solar parameters"
+    ],
+    "description": "Testing Solar Charger",
+    "feed": "https://api.xively.com/v2/feeds/71330.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "07/17/2013 23:00:47",
+    "created": "08/17/2012 05:49:01",
+    "creator": "https://xively.com/users/marcobrianza",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "12.74",
+        "at": "07/17/2013 23:00:47",
+        "max_value": "655.35",
+        "min_value": "12.63",
+        "tags": [
+          "Battery Voltage"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "0.2",
+        "at": "07/17/2013 23:00:47",
+        "max_value": "655.35",
+        "min_value": "0.1",
+        "tags": [
+          "Panel Voltage"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "0.0",
+        "at": "07/17/2013 23:00:47",
+        "max_value": "655.35",
+        "min_value": "0.0",
+        "tags": [
+          "Charging Current"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "0.03",
+        "at": "07/17/2013 23:00:47",
+        "max_value": "655.35",
+        "min_value": "0.0",
+        "tags": [
+          "Load Current"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "29.0",
+        "at": "07/17/2013 23:00:47",
+        "max_value": "39.0",
+        "min_value": "-62.0",
+        "tags": [
+          "Battery Temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "11.14",
+        "at": "07/17/2013 23:00:47",
+        "max_value": "655.35",
+        "min_value": "11.14",
+        "tags": [
+          "Over Discharge Voltage"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "14.31",
+        "at": "07/17/2013 23:00:47",
+        "max_value": "655.35",
+        "min_value": "0.0",
+        "tags": [
+          "Battery Full Voltage"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "7",
+        "current_value": "1.0",
+        "at": "07/17/2013 23:00:47",
+        "max_value": "1.0",
+        "min_value": "-32.0",
+        "tags": [
+          "Load_ON_OFF"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "8",
+        "current_value": "0.0",
+        "at": "07/17/2013 23:00:47",
+        "max_value": "0.0",
+        "min_value": "-112.0",
+        "tags": [
+          "Over_Load"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "9",
+        "current_value": "0.0",
+        "at": "07/17/2013 23:00:47",
+        "max_value": "0.0",
+        "min_value": "-32.0",
+        "tags": [
+          "Load Short Circuit"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "10",
+        "current_value": "0.0",
+        "at": "07/17/2013 23:00:47",
+        "max_value": "24.0",
+        "min_value": "-32.0",
+        "tags": [
+          "Battery OverLoad"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "11",
+        "current_value": "0.0",
+        "at": "07/17/2013 23:00:47",
+        "max_value": "91.0",
+        "min_value": "-32.0",
+        "tags": [
+          "Over Discharge"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "12",
+        "current_value": "0.0",
+        "at": "07/17/2013 23:00:47",
+        "max_value": "5.0",
+        "min_value": "-32.0",
+        "tags": [
+          "Full Indicator"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "13",
+        "current_value": "0.0",
+        "at": "07/17/2013 23:00:47",
+        "max_value": "25.0",
+        "min_value": "-32.0",
+        "tags": [
+          "Charging Indicator"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "14",
+        "current_value": "0.0",
+        "at": "07/17/2013 23:00:47",
+        "max_value": "429483.6",
+        "min_value": "0.0",
+        "tags": [
+          "W Produced"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "15",
+        "current_value": "0.38219997",
+        "at": "07/17/2013 23:00:47",
+        "max_value": "429483.6",
+        "min_value": "0.0",
+        "tags": [
+          "W Consumed"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "16",
+        "current_value": "0.0",
+        "at": "07/17/2013 23:00:47",
+        "max_value": "996.02264",
+        "min_value": "0.0",
+        "tags": [
+          "Wh Produced"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "17",
+        "current_value": "0.061436668",
+        "at": "07/17/2013 23:00:47",
+        "max_value": "794.92883",
+        "min_value": "0.0",
+        "tags": [
+          "Wh Consumed"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Sesto san giovanni",
+      "domain": 0,
+      "lat": "45.5338675694745",
+      "lon": "9.24053728580475",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/71330\" >Solar Logging</a>",
+    "URLMostrar": "https://xively.com/feeds/71330"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\71330.json",
+  "DocumentJSON": null
+}

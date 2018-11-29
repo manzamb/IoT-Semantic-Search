@@ -1,0 +1,452 @@
+{
+  "Conceptos": [
+    "humedad"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "97233",
+    "title": "prueba Arduino",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "luz",
+      "temperatura humedad"
+    ],
+    "description": "pruebas termostato caldera",
+    "feed": "https://api.xively.com/v2/feeds/97233.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "02/14/2014 18:24:00",
+    "created": "01/11/2013 21:52:31",
+    "creator": "https://xively.com/users/jejo",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Hum",
+        "current_value": "36",
+        "at": "02/14/2014 18:23:25",
+        "max_value": "51.6",
+        "min_value": "7.0",
+        "tags": [
+          "Humedad relativa"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Luz",
+        "current_value": "4",
+        "at": "02/14/2014 18:23:25",
+        "max_value": "166.0",
+        "min_value": "0.0",
+        "tags": [
+          "Luz ambiente"
+        ],
+        "unit": {
+          "symbol": "Lux",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temp",
+        "current_value": "20.7",
+        "at": "02/14/2014 18:23:25",
+        "max_value": "33.6",
+        "min_value": "4.2",
+        "tags": [
+          "Temperatura DHT11"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "ºC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Text",
+        "current_value": "14",
+        "at": "02/14/2014 18:17:29",
+        "max_value": "38.0",
+        "min_value": "0.0",
+        "tags": [
+          "Temperatura exterior INM"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "ºC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Tint",
+        "current_value": "21.1",
+        "at": "02/14/2014 18:23:25",
+        "max_value": "35.0",
+        "min_value": "0.0",
+        "tags": [
+          "Temperatura Interna chip"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "ºC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Tobj",
+        "current_value": "22",
+        "at": "01/14/2013 15:09:42",
+        "max_value": "22.0",
+        "min_value": "22.0",
+        "tags": [
+          "Temperatura objetivo"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Tres",
+        "current_value": "19.6",
+        "at": "02/14/2014 18:23:25",
+        "max_value": "33.0",
+        "min_value": "0.0",
+        "tags": [
+          "Temperatura termistor"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "ºC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "ts",
+        "current_value": "22.3",
+        "at": "12/15/2013 21:54:11",
+        "max_value": "497.0",
+        "min_value": "0.0",
+        "tags": [
+          "Temperatura sensor externo"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Vbat",
+        "current_value": "2.9",
+        "at": "12/15/2013 21:54:11",
+        "max_value": "429.0",
+        "min_value": "2.8",
+        "tags": [
+          "V bateriasensor Externo"
+        ],
+        "unit": {
+          "symbol": "/100v",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Ver",
+        "current_value": "0",
+        "at": "02/14/2014 18:23:25",
+        "max_value": "67.0",
+        "min_value": "0.0",
+        "tags": [
+          "V Error Alimentacion"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Vin",
+        "current_value": "4.73",
+        "at": "02/14/2014 18:23:25",
+        "max_value": "69.3",
+        "min_value": "0.0",
+        "tags": [
+          "Voltaje Arduino"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": "V",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "wL",
+        "current_value": "0",
+        "at": "01/28/2014 18:41:24",
+        "max_value": "1000.0",
+        "min_value": "-20482.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "wt",
+        "current_value": "23",
+        "at": "01/28/2014 18:41:24",
+        "max_value": "36.0",
+        "min_value": "14.0",
+        "tags": [
+          "Temperatura interna Sensor W"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "wT",
+        "current_value": "21.7",
+        "at": "01/28/2014 18:41:24",
+        "max_value": "85.0",
+        "min_value": "0.0",
+        "tags": [
+          "Temperatura Sensor W"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "wV",
+        "current_value": "3.3",
+        "at": "01/28/2014 18:41:24",
+        "max_value": "3.6",
+        "min_value": "2.9",
+        "tags": [
+          "V Bat Sensor W"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "xL",
+        "current_value": "0",
+        "at": "02/14/2014 18:21:55",
+        "max_value": "6553.0",
+        "min_value": "0.0",
+        "tags": [
+          "Luz Sensor X"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "xP",
+        "current_value": "947.4",
+        "at": "02/14/2014 18:21:55",
+        "max_value": "978.0",
+        "min_value": "932.0",
+        "tags": [
+          "Presión atmosférica SensorX"
+        ],
+        "unit": {
+          "symbol": "hpa",
+          "label": "Hpa",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "xt",
+        "current_value": "15",
+        "at": "02/14/2014 18:24:00",
+        "max_value": "23.0",
+        "min_value": "12.0",
+        "tags": [
+          "Temperatura Interna Sensor X"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "xT",
+        "current_value": "19.6",
+        "at": "02/14/2014 18:21:55",
+        "max_value": "232.0",
+        "min_value": "14.3",
+        "tags": [
+          "Temperatura  Sensor X"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "xV",
+        "current_value": "33",
+        "at": "02/14/2014 18:24:00",
+        "max_value": "41.0",
+        "min_value": "27.0",
+        "tags": [
+          "V bateria Sensor X"
+        ],
+        "unit": {
+          "symbol": "/10v",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "yL",
+        "current_value": "-1",
+        "at": "12/24/2013 13:29:44",
+        "max_value": "1559.0",
+        "min_value": "-2.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "yMov",
+        "current_value": "2",
+        "at": "02/14/2014 18:23:25",
+        "max_value": "13.0",
+        "min_value": "0.0",
+        "tags": [
+          "Movimiento"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "yT",
+        "current_value": "17.1",
+        "at": "12/24/2013 13:29:44",
+        "max_value": "45.3",
+        "min_value": "0.0",
+        "tags": [
+          "Temperatura Sensor Y"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "yV",
+        "current_value": "3.4",
+        "at": "12/24/2013 13:29:44",
+        "max_value": "3.6",
+        "min_value": "2.8",
+        "tags": [
+          "Vbat Sensor Y"
+        ],
+        "unit": {
+          "symbol": "v",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "zCal",
+        "current_value": "0",
+        "at": "01/14/2013 15:12:23",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "Ciclos trabajo caldera"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "zRele",
+        "current_value": "1",
+        "at": "09/13/2013 08:17:25",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "Rele"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Miranda de Ebro",
+      "domain": 0,
+      "lat": "42.6855270287249",
+      "lon": "-2.93124675750732",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/97233\" >prueba Arduino</a>",
+    "URLMostrar": "https://xively.com/feeds/97233"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\97233.json",
+  "DocumentJSON": null
+}

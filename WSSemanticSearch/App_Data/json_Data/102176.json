@@ -1,0 +1,98 @@
+{
+  "Conceptos": [
+    "humedad"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "102176",
+    "title": "sensor S01",
+    "Private": false,
+    "tags": [
+      "values"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/102176.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "09/24/2013 13:40:55",
+    "created": "02/02/2013 22:24:32",
+    "creator": "https://xively.com/users/femuruy",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Humedad",
+        "current_value": "-13.84",
+        "at": "09/24/2013 13:40:55",
+        "max_value": "85.35",
+        "min_value": "-13.84",
+        "tags": [
+          "Humedad Relativa"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "ITH",
+        "current_value": "19.636925",
+        "at": "09/24/2013 13:40:55",
+        "max_value": "95.24241",
+        "min_value": "19.636925",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "TempExt",
+        "current_value": "-42.56",
+        "at": "09/24/2013 13:40:54",
+        "max_value": "46.78",
+        "min_value": "-42.56",
+        "tags": [
+          "Temperatura Externa"
+        ],
+        "unit": {
+          "symbol": "oC",
+          "label": "Grados",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "TempInt",
+        "current_value": "15.25",
+        "at": "09/24/2013 13:40:54",
+        "max_value": "56.25",
+        "min_value": "15.25",
+        "tags": null,
+        "unit": {
+          "symbol": "oC",
+          "label": "Grados",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 1,
+      "lat": "-32.7318408968657",
+      "lon": "-56.337890625",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 1
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/102176\" >sensor S01</a>",
+    "URLMostrar": "https://xively.com/feeds/102176"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\102176.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,68 @@
+{
+  "Conceptos": [
+    "sensing"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "13957",
+    "title": "HomeSensing",
+    "Private": false,
+    "tags": null,
+    "description": "@Angie's Lair",
+    "feed": "https://api.xively.com/v2/feeds/13957.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "12/26/2010 20:23:02",
+    "created": "12/18/2010 01:02:16",
+    "creator": "https://xively.com/users/soundsk",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "15.14",
+        "at": "12/26/2010 20:23:02",
+        "max_value": "21.78",
+        "min_value": "14.17",
+        "tags": [
+          "Temperatura"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Graus Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "42.62",
+        "at": "12/26/2010 20:23:02",
+        "max_value": "76.36",
+        "min_value": "28.14",
+        "tags": [
+          "Humidade Relativa"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "%RH",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Angie's Lair",
+      "domain": 0,
+      "lat": "41.7115348568187",
+      "lon": "-8.80642175674438",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/13957\" >HomeSensing</a>",
+    "URLMostrar": "https://xively.com/feeds/13957"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\13957.json",
+  "DocumentJSON": null
+}

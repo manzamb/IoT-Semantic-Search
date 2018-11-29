@@ -1,0 +1,119 @@
+{
+  "Conceptos": [
+    "man"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "41524",
+    "title": "Tuuma's IOT",
+    "Private": false,
+    "tags": [
+      "rintamamiestalo",
+      "tuuma"
+    ],
+    "description": "Here will be some interesting and less interesting feeds from old house of ours...\r\n\r\nThese power feeds comes from Modbus RTU Energy Meter and is read by mangoSCADA software which is able to read Modbus from both serial and TCP connections. Mango then directly feeds values to Pachube with it's built-in HTTP Publisher.",
+    "feed": "https://api.xively.com/v2/feeds/41524.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:13:25",
+    "created": "12/08/2011 22:58:58",
+    "creator": "https://xively.com/users/tuuma",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "1",
+        "current_value": "0.19",
+        "at": "03/21/2014 14:13:24",
+        "max_value": "5.66",
+        "min_value": "0.01",
+        "tags": [
+          "L1"
+        ],
+        "unit": {
+          "symbol": "kW",
+          "label": "kW",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "0.42",
+        "at": "03/21/2014 14:13:25",
+        "max_value": "5.96",
+        "min_value": "-0.01",
+        "tags": [
+          "L2"
+        ],
+        "unit": {
+          "symbol": "kW",
+          "label": "kW",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "0.0",
+        "at": "03/21/2014 14:13:16",
+        "max_value": "3.44",
+        "min_value": "-0.01",
+        "tags": [
+          "L3"
+        ],
+        "unit": {
+          "symbol": "kW",
+          "label": "kW",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "0.62",
+        "at": "03/21/2014 14:13:15",
+        "max_value": "8.78",
+        "min_value": "0.02",
+        "tags": [
+          "L1+L2+L3 AVG"
+        ],
+        "unit": {
+          "symbol": "kW",
+          "label": "kW",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "14.0",
+        "at": "03/20/2014 22:09:07",
+        "max_value": "48.0",
+        "min_value": "8.0",
+        "tags": [
+          "kWh/day"
+        ],
+        "unit": {
+          "symbol": "kWh",
+          "label": "kWh",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Tuusula, Finland",
+      "domain": 0,
+      "lat": "60.4413859525992",
+      "lon": "25.0538063049316",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/41524\" >Tuuma's IOT</a>",
+    "URLMostrar": "https://xively.com/feeds/41524"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\41524.json",
+  "DocumentJSON": null
+}

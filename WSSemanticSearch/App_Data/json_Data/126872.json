@@ -1,0 +1,135 @@
+{
+  "Conceptos": [
+    "thermistor"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "126872",
+    "title": "Raspberry Pi ",
+    "Private": false,
+    "tags": [
+      "project:name = Rpi Testing Testing 1 2",
+      "Thermistor Temperature Comparisons"
+    ],
+    "description": "Comparing temperature readings of two thermistors - a Hacktronics Thermistor and a 503 Thermistor from the Arduino Startup Kit",
+    "feed": "https://api.xively.com/v2/feeds/126872.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "05/04/2013 02:00:29",
+    "created": "04/22/2013 01:31:53",
+    "creator": "https://xively.com/users/mmm111",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "506",
+        "at": "05/04/2013 02:00:29",
+        "max_value": "572.0",
+        "min_value": "402.0",
+        "tags": [
+          "RawADC 1 - Hacktronics Thermistor"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "rawADC value",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "179",
+        "at": "05/04/2013 02:00:29",
+        "max_value": "612.0",
+        "min_value": "122.0",
+        "tags": [
+          "RawADC 2 - 503 Thermistor"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "rawADC value",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "80.4",
+        "at": "05/04/2013 02:00:29",
+        "max_value": "106.0",
+        "min_value": "56.8",
+        "tags": [
+          "Temp 1 - Hacktronics Thermistor"
+        ],
+        "unit": {
+          "symbol": "°F",
+          "label": "Fahrenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "77.8",
+        "at": "05/04/2013 02:00:29",
+        "max_value": "223.0",
+        "min_value": "58.7",
+        "tags": [
+          "Temp 2 - 503 Thermistor"
+        ],
+        "unit": {
+          "symbol": "°F",
+          "label": "Fahrenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "18.703",
+        "at": "05/04/2013 02:00:29",
+        "max_value": "60.0",
+        "min_value": "0.0",
+        "tags": [
+          "Elapsed Time in Hours"
+        ],
+        "unit": {
+          "symbol": "Hours",
+          "label": "Time",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "4",
+        "at": "05/04/2013 02:00:29",
+        "max_value": "311.0",
+        "min_value": "0.0",
+        "tags": [
+          "Rpi Total Code Exceptions"
+        ],
+        "unit": {
+          "symbol": "Exceptions",
+          "label": "Exceptions",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Pasco WA",
+      "domain": 0,
+      "lat": "46.260391",
+      "lon": "-119.175218",
+      "ele": "118",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/126872\" >Raspberry Pi </a>",
+    "URLMostrar": "https://xively.com/feeds/126872"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\126872.json",
+  "DocumentJSON": null
+}

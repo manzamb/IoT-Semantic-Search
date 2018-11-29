@@ -1,0 +1,637 @@
+{
+  "Conceptos": [
+    "wind"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "1498",
+    "title": "Sensor Network",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/1498.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/19/2014 14:22:38",
+    "created": "03/02/2009 20:52:28",
+    "creator": "https://xively.com/users/scaredycat",
+    "version": null,
+    "website": "http://blog.automated.it",
+    "datastreams": [
+      {
+        "id": "1",
+        "current_value": "15.0625",
+        "at": "03/19/2014 14:22:37",
+        "max_value": "34.9375",
+        "min_value": "0.4375",
+        "tags": [
+          "1 Wire",
+          "Arduino",
+          "Loft",
+          "Temperature",
+          "Xbee",
+          "ZigBee"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "19.0625",
+        "at": "03/19/2014 14:22:37",
+        "max_value": "49.0",
+        "min_value": "5.4375",
+        "tags": [
+          "1 Wire",
+          "Airing Cupboard",
+          "Arduino",
+          "Temperature",
+          "Xbee",
+          "ZigBee"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "16.625",
+        "at": "03/19/2014 14:22:37",
+        "max_value": "30.375",
+        "min_value": "4.0",
+        "tags": [
+          "1 Wire",
+          "Arduino",
+          "Bathroom",
+          "Temperature",
+          "Xbee",
+          "ZigBee"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "553",
+        "at": "03/19/2014 14:22:37",
+        "max_value": "8340.0",
+        "min_value": "0.0",
+        "tags": [
+          "CC128",
+          "Electricity Usage",
+          "Power",
+          "Watt",
+          "Watts"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watt",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "0",
+        "current_value": "18.5",
+        "at": "03/19/2014 14:22:37",
+        "max_value": "30.0625",
+        "min_value": "11.3125",
+        "tags": [
+          "1 Wire",
+          "Arduino",
+          "Office",
+          "Temperature",
+          "Xbee",
+          "ZigBee"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "10",
+        "at": "03/19/2014 14:22:37",
+        "max_value": "32464.0",
+        "min_value": "0.0",
+        "tags": [
+          "CC128",
+          "Coffee Machine",
+          "Power",
+          "Watt",
+          "Watts"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watt",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "4",
+        "at": "03/19/2014 14:22:37",
+        "max_value": "32464.0",
+        "min_value": "0.0",
+        "tags": [
+          "CC128",
+          "Laptop",
+          "Power",
+          "Watt",
+          "Watts"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watt",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "7",
+        "current_value": "131",
+        "at": "03/19/2014 14:22:37",
+        "max_value": "16389.0",
+        "min_value": "0.0",
+        "tags": [
+          "CC128",
+          "Fridge",
+          "Power",
+          "Watt",
+          "Watts"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watt",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "8",
+        "current_value": "125",
+        "at": "03/19/2014 14:22:37",
+        "max_value": "32464.0",
+        "min_value": "0.0",
+        "tags": [
+          "AV Kit",
+          "CC128",
+          "Power",
+          "Watt",
+          "Watts"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watt",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "9",
+        "current_value": "15",
+        "at": "03/19/2014 14:22:37",
+        "max_value": "32464.0",
+        "min_value": "0.0",
+        "tags": [
+          "CC128",
+          "Power",
+          "Washing Machine",
+          "Watt",
+          "Watts"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watt",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "10",
+        "current_value": "71",
+        "at": "03/19/2014 14:22:37",
+        "max_value": "32464.0",
+        "min_value": "0.15",
+        "tags": [
+          "CC128",
+          "Jennie Workroom",
+          "Power",
+          "Watt",
+          "Watts"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watt",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "11",
+        "current_value": "271",
+        "at": "03/19/2014 14:22:37",
+        "max_value": "32464.0",
+        "min_value": "0.15",
+        "tags": [
+          "CC128",
+          "Computers",
+          "Power",
+          "Watt",
+          "Watts"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watt",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "12",
+        "current_value": "20.1",
+        "at": "03/19/2014 14:22:37",
+        "max_value": "32464.0",
+        "min_value": "0.13",
+        "tags": [
+          "1 Wire",
+          "Arduino",
+          "CC128",
+          "Computer Room",
+          "Temperature",
+          "Xbee",
+          "ZigBee"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "13",
+        "current_value": "52",
+        "at": "03/19/2014 14:22:37",
+        "max_value": "32464.0",
+        "min_value": "0.05",
+        "tags": [
+          "1 Wire",
+          "Analog Dev Board 1",
+          "Arduino",
+          "Temperature",
+          "Xbee",
+          "ZigBee"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "14",
+        "current_value": "100",
+        "at": "03/19/2014 14:22:37",
+        "max_value": "32464.0",
+        "min_value": "0.02",
+        "tags": [
+          "1 Wire",
+          "Arduino",
+          "Charge",
+          "UPS",
+          "UPS Battery",
+          "Xbee",
+          "ZigBee"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "15",
+        "current_value": "32464",
+        "at": "03/19/2014 14:22:37",
+        "max_value": "32464.0",
+        "min_value": "0.03",
+        "tags": [
+          "1 Wire",
+          "Arduino",
+          "Runtime",
+          "UPS",
+          "UPS Battery Runtime",
+          "Xbee",
+          "ZigBee"
+        ],
+        "unit": {
+          "symbol": "s",
+          "label": "seconds",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "16",
+        "current_value": "16.0",
+        "at": "03/19/2014 14:22:37",
+        "max_value": "32464.0",
+        "min_value": "0.15",
+        "tags": [
+          "1 Wire",
+          "Arduino",
+          "Load",
+          "UPS",
+          "UPS Load",
+          "Xbee",
+          "ZigBee"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "17",
+        "current_value": "320",
+        "at": "03/19/2014 14:22:37",
+        "max_value": "563.0",
+        "min_value": "0.05",
+        "tags": [
+          "1 Wire",
+          "Arduino",
+          "Power",
+          "UPS",
+          "UPS Power",
+          "Xbee",
+          "ZigBee"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watt",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "18",
+        "current_value": "16.87",
+        "at": "03/19/2014 14:22:37",
+        "max_value": "547.0",
+        "min_value": "0.0",
+        "tags": [
+          "1 Wire",
+          "Arduino",
+          "Living room",
+          "Temperature",
+          "Xbee",
+          "ZigBee"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "19",
+        "current_value": "16.37",
+        "at": "03/19/2014 14:22:37",
+        "max_value": "584.0",
+        "min_value": "0.0",
+        "tags": [
+          "1 Wire",
+          "Arduino",
+          "Master LR",
+          "Temperature",
+          "Xbee",
+          "ZigBee"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "20",
+        "current_value": "397",
+        "at": "03/19/2014 14:22:37",
+        "max_value": "673.0",
+        "min_value": "-8.0",
+        "tags": [
+          "1 Wire",
+          "Arduino",
+          "Light",
+          "Light Sensor",
+          "Master Zone 1 Light",
+          "Xbee",
+          "ZigBee"
+        ],
+        "unit": {
+          "symbol": "L",
+          "label": "int",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "21",
+        "current_value": "17.4375",
+        "at": "03/19/2014 14:22:37",
+        "max_value": "443.0",
+        "min_value": "-2.6",
+        "tags": [
+          "1 Wire",
+          "Arduino",
+          "Temperature",
+          "Workroom",
+          "Xbee",
+          "ZigBee"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "22",
+        "current_value": "6.20",
+        "at": "03/19/2014 14:22:37",
+        "max_value": "315.0",
+        "min_value": "0.0",
+        "tags": [
+          "CC128",
+          "Power",
+          "Units so far this month",
+          "Watt",
+          "Watts"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watt",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "23",
+        "current_value": "3.82",
+        "at": "03/19/2014 14:22:37",
+        "max_value": "337.5",
+        "min_value": "-1.6",
+        "tags": [
+          "CC128",
+          "Power",
+          "Under usage from previous month",
+          "Watt",
+          "Watts"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watt",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "24",
+        "current_value": "5.00",
+        "at": "03/19/2014 14:22:37",
+        "max_value": "337.5",
+        "min_value": "-1.9",
+        "tags": [
+          "CC128",
+          "Power",
+          "Total allowance in this month",
+          "Watt",
+          "Watts"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watt",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "25",
+        "current_value": "1.20",
+        "at": "03/19/2014 14:22:37",
+        "max_value": "270.0",
+        "min_value": "-4.7",
+        "tags": [
+          "CC128",
+          "Power",
+          "Under usage to carry forward, so far",
+          "Watt",
+          "Watts"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watt",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "26",
+        "current_value": "15.1",
+        "at": "03/19/2014 14:22:37",
+        "max_value": "315.0",
+        "min_value": "-1.1",
+        "tags": [
+          "1 Wire",
+          "Arduino",
+          "Outside weather temp",
+          "Temperature",
+          "Xbee",
+          "ZigBee"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "27",
+        "current_value": "135.00",
+        "at": "03/19/2014 14:22:37",
+        "max_value": "337.5",
+        "min_value": "0.0",
+        "tags": [
+          "CC128",
+          "Power",
+          "Watt",
+          "Watts",
+          "Wind Direction"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watt",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "28",
+        "current_value": "1.60",
+        "at": "03/19/2014 14:22:37",
+        "max_value": "6.9",
+        "min_value": "0.0",
+        "tags": [
+          "CC128",
+          "Power",
+          "Watt",
+          "Watts",
+          "Wind Speed"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watt",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Eye",
+      "domain": 0,
+      "lat": "52.3210452575725",
+      "lon": "1.14970207214355",
+      "ele": "80m",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/1498\" >Sensor Network</a>",
+    "URLMostrar": "https://xively.com/feeds/1498"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\1498.json",
+  "DocumentJSON": null
+}

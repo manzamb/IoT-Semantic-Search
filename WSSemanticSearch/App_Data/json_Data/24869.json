@@ -1,0 +1,102 @@
+{
+  "Conceptos": [
+    "co2"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "24869",
+    "title": "Multilogger sensors",
+    "Private": false,
+    "tags": [
+      "Temperature Humidity CO2"
+    ],
+    "description": "Upload by Arexx BS1000 log89\r\n12481 and 124085 Indoors\r\n164041 and 164043 Oudoors",
+    "feed": "https://api.xively.com/v2/feeds/24869.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:14:53",
+    "created": "05/06/2011 20:54:28",
+    "creator": "https://xively.com/users/jaap",
+    "version": null,
+    "website": "http://www.arexx.com",
+    "datastreams": [
+      {
+        "id": "124081",
+        "current_value": "19.242",
+        "at": "03/21/2014 14:14:27",
+        "max_value": "24.68",
+        "min_value": "15.117",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "124085",
+        "current_value": "617.000",
+        "at": "03/21/2014 14:13:43",
+        "max_value": "2537.0",
+        "min_value": "345.0",
+        "tags": [
+          "CO2"
+        ],
+        "unit": {
+          "symbol": "ppm",
+          "label": "ppm",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "164041",
+        "current_value": "7.660",
+        "at": "03/21/2014 14:14:08",
+        "max_value": "33.66",
+        "min_value": "-22.88",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "164043",
+        "current_value": "86.476",
+        "at": "03/21/2014 14:14:52",
+        "max_value": "98.628",
+        "min_value": "34.536",
+        "tags": [
+          "Relative Humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Nijmegen",
+      "domain": 0,
+      "lat": "51.8251955375786",
+      "lon": "5.86777210235596",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/24869\" >Multilogger sensors</a>",
+    "URLMostrar": "https://xively.com/feeds/24869"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\24869.json",
+  "DocumentJSON": null
+}

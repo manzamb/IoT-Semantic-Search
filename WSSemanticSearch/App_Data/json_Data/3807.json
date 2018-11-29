@@ -1,0 +1,204 @@
+{
+  "Conceptos": [
+    "man"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "3807",
+    "title": "Palm Beach Resort - Koh Mak island, Thailand",
+    "Private": false,
+    "tags": [
+      "thailand koh mak chang"
+    ],
+    "description": "This data is from Koh Mak island - Thailand. \r\nSeveral sensors are captured by busware.de devices.\r\n\r\nLive Cam: http://cam.palm-beach-resort.com/",
+    "feed": "https://api.xively.com/v2/feeds/3807.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:13:23",
+    "created": "12/08/2009 15:49:36",
+    "creator": "https://xively.com/users/tostmann",
+    "version": null,
+    "website": "http://palm-beach-resort.com/",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "26.4",
+        "at": "03/21/2014 14:04:38",
+        "max_value": "44.6",
+        "min_value": "19.5",
+        "tags": [
+          "air temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "83",
+        "at": "03/21/2014 14:04:39",
+        "max_value": "96.0",
+        "min_value": "29.3",
+        "tags": [
+          "air humidity"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "%rel",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "grid_frequency",
+        "current_value": "50.7",
+        "at": "03/21/2014 14:13:23",
+        "max_value": "51.4",
+        "min_value": "45.1",
+        "tags": [
+          "grid frequency"
+        ],
+        "unit": {
+          "symbol": "Hz",
+          "label": "Herz",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "grid_power",
+        "current_value": "7060.0",
+        "at": "03/21/2014 14:12:58",
+        "max_value": "18710.0",
+        "min_value": "0.0",
+        "tags": [
+          "grid sourced power"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "grid_voltage",
+        "current_value": "187.8",
+        "at": "03/21/2014 14:13:23",
+        "max_value": "238.3",
+        "min_value": "0.0",
+        "tags": [
+          "voltage grid"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": "Volts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "lighting_battery",
+        "current_value": "48.3",
+        "at": "03/21/2014 14:13:06",
+        "max_value": "57.5",
+        "min_value": "0.0",
+        "tags": [
+          "48V",
+          "battery",
+          "lighting",
+          "Solar"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": "Volts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "lighting_charge",
+        "current_value": "0",
+        "at": "03/21/2014 14:13:00",
+        "max_value": "412.0",
+        "min_value": "0.0",
+        "tags": [
+          "400Wp",
+          "charger",
+          "lighting",
+          "Solar"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "rain",
+        "current_value": "0.0",
+        "at": "03/21/2014 13:49:26",
+        "max_value": "80.6",
+        "min_value": "0.0",
+        "tags": [
+          "rain"
+        ],
+        "unit": {
+          "symbol": "l/qm per 1/2hour",
+          "label": "l/qm per 30mins",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "solar_power",
+        "current_value": "0.0",
+        "at": "03/21/2014 14:12:58",
+        "max_value": "7330.0",
+        "min_value": "0.0",
+        "tags": [
+          "photo voltaik solar power 5kWp"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "wind",
+        "current_value": "0.0",
+        "at": "03/21/2014 14:04:40",
+        "max_value": "16.9",
+        "min_value": "0.0",
+        "tags": [
+          "wind"
+        ],
+        "unit": {
+          "symbol": "ms",
+          "label": "meter/sec",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Palm Beach Resort",
+      "domain": 0,
+      "lat": "11.8082112044051",
+      "lon": "102.473430633545",
+      "ele": "5",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/3807\" >Palm Beach Resort - Koh Mak island, Thailand</a>",
+    "URLMostrar": "https://xively.com/feeds/3807"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\3807.json",
+  "DocumentJSON": null
+}

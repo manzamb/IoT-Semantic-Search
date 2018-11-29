@@ -1,0 +1,262 @@
+{
+  "Conceptos": [
+    "wind"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "2047541477",
+    "title": "Intel Weather Station",
+    "Private": false,
+    "tags": [
+      "L1V3",
+      "Weather"
+    ],
+    "description": "Intel Weather Station, powered by Intel Galileo",
+    "feed": "https://api.xively.com/v2/feeds/2047541477.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/19/2014 12:10:39",
+    "created": "12/17/2013 11:29:19",
+    "creator": "https://xively.com/users/iostp",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Atmospheric_pressure",
+        "current_value": "1000.34",
+        "at": "02/19/2014 16:17:07",
+        "max_value": "1027.09",
+        "min_value": "0.0",
+        "tags": [
+          "Air Pressure"
+        ],
+        "unit": {
+          "symbol": "mBarr",
+          "label": "milli bar",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Battery_voltage_flag",
+        "current_value": "0",
+        "at": "02/19/2014 16:17:10",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "Bool",
+          "label": "Flag",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Inside_air_temperature",
+        "current_value": "21.89",
+        "at": "02/19/2014 16:17:06",
+        "max_value": "1784.59",
+        "min_value": "15.01",
+        "tags": [
+          "Air Temperature"
+        ],
+        "unit": {
+          "symbol": "Cel",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Inside_dew_point",
+        "current_value": "10.09",
+        "at": "02/19/2014 16:15:43",
+        "max_value": "1764.59",
+        "min_value": "2.82",
+        "tags": [
+          "Dew Point"
+        ],
+        "unit": {
+          "symbol": "Cel",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Inside_humidity",
+        "current_value": "41.0",
+        "at": "02/19/2014 16:17:08",
+        "max_value": "67.0",
+        "min_value": "-1.0",
+        "tags": [
+          "Relative Humidity In"
+        ],
+        "unit": {
+          "symbol": "%RH",
+          "label": "Humidity",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Outside_air_temperature",
+        "current_value": "8.41",
+        "at": "02/19/2014 16:15:32",
+        "max_value": "1784.59",
+        "min_value": "0.44",
+        "tags": [
+          "Air Temperature"
+        ],
+        "unit": {
+          "symbol": "Cel",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Outside_dew_point",
+        "current_value": "6.01",
+        "at": "02/19/2014 16:15:44",
+        "max_value": "1764.59",
+        "min_value": "-14.22",
+        "tags": [
+          "Dew Point"
+        ],
+        "unit": {
+          "symbol": "Cel",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Outside_humidity",
+        "current_value": "88.0",
+        "at": "02/19/2014 16:17:09",
+        "max_value": "99.0",
+        "min_value": "-1.0",
+        "tags": [
+          "Relative Humidity"
+        ],
+        "unit": {
+          "symbol": "%RH",
+          "label": "Humidity",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Rainfall",
+        "current_value": "1.0",
+        "at": "02/19/2014 16:15:29",
+        "max_value": "28.0",
+        "min_value": "0.0",
+        "tags": [
+          "Rainfall"
+        ],
+        "unit": {
+          "symbol": "mm",
+          "label": "millimetres_rain",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Rain_rate",
+        "current_value": "0.0",
+        "at": "02/19/2014 16:15:30",
+        "max_value": "13107.0",
+        "min_value": "0.0",
+        "tags": [
+          "Rain Rate"
+        ],
+        "unit": {
+          "symbol": "mm/hr",
+          "label": "millimeters_perhr_rain",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Wind_chill",
+        "current_value": "8.41",
+        "at": "02/19/2014 16:15:40",
+        "max_value": "1122.24",
+        "min_value": "0.44",
+        "tags": [
+          "Wind Speed"
+        ],
+        "unit": {
+          "symbol": "Cel",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Wind_Direction",
+        "current_value": "14",
+        "at": "02/19/2014 16:15:35",
+        "max_value": "32767.0",
+        "min_value": "0.0",
+        "tags": [
+          "Wind Direction"
+        ],
+        "unit": {
+          "symbol": "deg",
+          "label": "azimuth degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Wind_Speed",
+        "current_value": "0.0",
+        "at": "02/19/2014 16:15:37",
+        "max_value": "10.28",
+        "min_value": "0.0",
+        "tags": [
+          "Wind Speed"
+        ],
+        "unit": {
+          "symbol": "m/s",
+          "label": "meters per second",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Wind_speed_10min_avg",
+        "current_value": "0",
+        "at": "02/19/2014 16:15:36",
+        "max_value": "8.0",
+        "min_value": "0.0",
+        "tags": [
+          "Average",
+          "Wind Speed"
+        ],
+        "unit": {
+          "symbol": "m/s",
+          "label": "meters per second",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Friern Barnet",
+      "domain": 0,
+      "lat": "51.616068",
+      "lon": "-0.140316999999982",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/2047541477\" >Intel Weather Station</a>",
+    "URLMostrar": "https://xively.com/feeds/2047541477"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\2047541477.json",
+  "DocumentJSON": null
+}

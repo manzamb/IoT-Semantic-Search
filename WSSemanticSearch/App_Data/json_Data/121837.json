@@ -1,0 +1,180 @@
+{
+  "Conceptos": [
+    "collection"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "121837",
+    "title": "OttDuino",
+    "Private": false,
+    "tags": [
+      "arduino"
+    ],
+    "description": "Arduino based home automation and data collection.",
+    "feed": "https://api.xively.com/v2/feeds/121837.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "05/28/2013 07:57:08",
+    "created": "03/31/2013 00:33:43",
+    "creator": "https://xively.com/users/thott",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "basement_water",
+        "current_value": "0.00",
+        "at": "05/28/2013 07:57:07",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "basement water alert"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "high/low",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "out_humidity",
+        "current_value": "62.10",
+        "at": "05/28/2013 07:57:07",
+        "max_value": "99.9",
+        "min_value": "0.0",
+        "tags": [
+          "outside humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "percentage",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "out_light",
+        "current_value": "970.00",
+        "at": "05/28/2013 07:57:07",
+        "max_value": "1016.0",
+        "min_value": "0.0",
+        "tags": [
+          "outside light level"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "out_pressure",
+        "current_value": "235.00",
+        "at": "05/28/2013 07:57:07",
+        "max_value": "261991.0",
+        "min_value": "0.0",
+        "tags": [
+          "outside"
+        ],
+        "unit": {
+          "symbol": "Pa",
+          "label": "Pa",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "out_temp1",
+        "current_value": "-13421773.00",
+        "at": "05/28/2013 07:57:07",
+        "max_value": "101000.0",
+        "min_value": "-13421773.0",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "out_temp2",
+        "current_value": "17.60",
+        "at": "05/28/2013 07:57:07",
+        "max_value": "3276.7",
+        "min_value": "0.0",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "out_voltage",
+        "current_value": "4523.00",
+        "at": "05/28/2013 07:57:07",
+        "max_value": "5073.0",
+        "min_value": "0.0",
+        "tags": [
+          "voltage"
+        ],
+        "unit": {
+          "symbol": "mV",
+          "label": "mV",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "washing",
+        "current_value": "0.00",
+        "at": "05/28/2013 07:57:07",
+        "max_value": "100.0",
+        "min_value": "0.0",
+        "tags": [
+          "washing machine state"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "active/inactive",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "washing_state",
+        "current_value": "Washing done",
+        "at": "05/28/2013 07:57:07",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Elsdorf, Germany",
+      "domain": 0,
+      "lat": "50.9537513568349",
+      "lon": "6.50367021560669",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/121837\" >OttDuino</a>",
+    "URLMostrar": "https://xively.com/feeds/121837"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\121837.json",
+  "DocumentJSON": null
+}

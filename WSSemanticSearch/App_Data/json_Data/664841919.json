@@ -1,0 +1,216 @@
+{
+  "Conceptos": [
+    "temperatura"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "664841919",
+    "title": "Beehive Monitoring",
+    "Private": false,
+    "tags": [
+      "Arduino",
+      "Beehive monitoring",
+      "GSM"
+    ],
+    "description": "Arduino UNO, GSM Shield collecting data from beehives.",
+    "feed": "https://api.xively.com/v2/feeds/664841919.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:14:47",
+    "created": "11/26/2013 10:31:21",
+    "creator": "https://xively.com/users/amarofarinha",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "C0",
+        "current_value": "246321872",
+        "at": "03/21/2014 14:10:41",
+        "max_value": "562763574.0",
+        "min_value": "22071.0",
+        "tags": [
+          "Uptime"
+        ],
+        "unit": {
+          "symbol": "ms",
+          "label": "milisegundos",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "C1",
+        "current_value": "14.6",
+        "at": "03/21/2014 14:10:41",
+        "max_value": "17.9",
+        "min_value": "4.67",
+        "tags": [
+          "Bateria"
+        ],
+        "unit": {
+          "symbol": "v",
+          "label": "Volts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "C10",
+        "current_value": "26.55",
+        "at": "03/21/2014 14:10:45",
+        "max_value": "85.83",
+        "min_value": "-0.2",
+        "tags": [
+          "Peso (colmeia1)"
+        ],
+        "unit": {
+          "symbol": "Kg",
+          "label": "Kg",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "C11",
+        "current_value": "51.15",
+        "at": "03/21/2014 14:10:45",
+        "max_value": "72.84",
+        "min_value": "-1.63",
+        "tags": [
+          "Peso (colmeia2)"
+        ],
+        "unit": {
+          "symbol": "Kg",
+          "label": "Kg",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "C2",
+        "current_value": "20.68",
+        "at": "03/21/2014 14:10:41",
+        "max_value": "28.6",
+        "min_value": "5.81",
+        "tags": [
+          "Temperatura Arduino"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "ºC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "C4",
+        "current_value": "17.68",
+        "at": "03/21/2014 14:10:42",
+        "max_value": "29.93",
+        "min_value": "-0.6",
+        "tags": [
+          "Temperatura Exterior"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "ºC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "C5",
+        "current_value": "72.83",
+        "at": "03/21/2014 14:10:43",
+        "max_value": "113.37",
+        "min_value": "-12.9",
+        "tags": [
+          "Humidade Exterior"
+        ],
+        "unit": {
+          "symbol": "HR",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "C6",
+        "current_value": "19.0",
+        "at": "03/21/2014 14:10:43",
+        "max_value": "30.6",
+        "min_value": "-0.6",
+        "tags": [
+          "Temperatura (colmeia1)"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "ºC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "C7",
+        "current_value": "56.81",
+        "at": "03/21/2014 14:10:44",
+        "max_value": "92.54",
+        "min_value": "-1.39",
+        "tags": [
+          "Humidade (colmeia1)"
+        ],
+        "unit": {
+          "symbol": "HR",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "C8",
+        "current_value": "21.25",
+        "at": "03/21/2014 14:10:44",
+        "max_value": "39.6",
+        "min_value": "-0.6",
+        "tags": [
+          "Temperatura (colmeia2)"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "ºC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "C9",
+        "current_value": "60.68",
+        "at": "03/21/2014 14:10:45",
+        "max_value": "80.9",
+        "min_value": "-5.18",
+        "tags": [
+          "Humidade (colmeia2)"
+        ],
+        "unit": {
+          "symbol": "HR",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/664841919\" >Beehive Monitoring</a>",
+    "URLMostrar": "https://xively.com/feeds/664841919"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\664841919.json",
+  "DocumentJSON": null
+}

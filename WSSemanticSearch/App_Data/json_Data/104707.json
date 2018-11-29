@@ -1,0 +1,135 @@
+{
+  "Conceptos": [
+    "condition"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "104707",
+    "title": "HomePower",
+    "Private": false,
+    "tags": [
+      "arduino"
+    ],
+    "description": "Switchboard energy feed obtained with a current clamp/shunt termination, then AC-DC prec rectifier-Picaxe 08M. Current only, no voltage feed/power factor correction at this stage.\r\nSimple packet protocol based hybrid of \"SNAP\" and Parallax methods, 432MHz tx of averaged current readings at 2 sec intervals to an Arduino base unit, and Picaxe/microchip portable hand held display.\r\nArduino base unit also uses an 08M2 picaxe as receive modem and packet stripper/error notifier to take load off Etherten, as RX noise from UHF module under no-rx conditions keeps software serial very busy otherwise.\r\nTX Battery Voltage\r\nInternal humidity and temp with Freetronics DHT sensor\r\nPacket info - data uploaded to cosm approx every minute, 999 msgs is the max that can be squeezed on to LCD display so reset at 999. Checksum errot count reset every 999 msgs at which point approx 26,900 RF packets have been received.\r\nFuture sensors - would be nice to have ext temp/ humidity, light level, possibly some door and motion sensors, and some twitter triggers.",
+    "feed": "https://api.xively.com/v2/feeds/104707.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:14:56",
+    "created": "02/15/2013 09:22:27",
+    "creator": "https://xively.com/users/azeo",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Battery",
+        "current_value": "13.90",
+        "at": "03/21/2014 14:14:56",
+        "max_value": "15.4",
+        "min_value": "5.1",
+        "tags": [
+          "Picaxe Wireless TX Batt."
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": "Volts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Humidity",
+        "current_value": "51.50",
+        "at": "03/21/2014 14:14:56",
+        "max_value": "77.5",
+        "min_value": "31.6",
+        "tags": [
+          "DHT - Freetronics"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Power2",
+        "current_value": "0.09",
+        "at": "03/21/2014 14:14:56",
+        "max_value": "27.13",
+        "min_value": "0.01",
+        "tags": [
+          "Switchboard"
+        ],
+        "unit": {
+          "symbol": "kW",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temp",
+        "current_value": "18.70",
+        "at": "03/21/2014 14:14:56",
+        "max_value": "30.2",
+        "min_value": "7.2",
+        "tags": [
+          "DHT - Freetronics"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "ZconnectCount",
+        "current_value": "814",
+        "at": "03/21/2014 14:14:56",
+        "max_value": "999.0",
+        "min_value": "1.0",
+        "tags": [
+          "Web Data Sent"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Msgs",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "ZRxPacketErrors",
+        "current_value": "17",
+        "at": "03/21/2014 14:14:56",
+        "max_value": "998.0",
+        "min_value": "0.0",
+        "tags": [
+          "26973 valid packets per 999 msgs",
+          "Wireless Errs"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Errors",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Wainuiomata, Wellington, NZ",
+      "domain": 0,
+      "lat": "-41.246030784748",
+      "lon": "174.948134422302",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/104707\" >HomePower</a>",
+    "URLMostrar": "https://xively.com/feeds/104707"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\104707.json",
+  "DocumentJSON": null
+}

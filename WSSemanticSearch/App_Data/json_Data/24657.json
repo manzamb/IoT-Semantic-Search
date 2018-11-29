@@ -1,0 +1,137 @@
+{
+  "Conceptos": [
+    "ozono"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "24657",
+    "title": "Weather Station GVA",
+    "Private": false,
+    "tags": [
+      "humidity",
+      "pressure",
+      "temperature",
+      "wind"
+    ],
+    "description": "Test weather station",
+    "feed": "https://api.xively.com/v2/feeds/24657.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "05/23/2011 19:46:36",
+    "created": "05/04/2011 19:58:07",
+    "creator": "https://xively.com/users/ssozonoff",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "25.008154",
+        "at": "05/23/2011 19:46:36",
+        "max_value": "33.985062",
+        "min_value": "20.042435",
+        "tags": [
+          "Temp"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "965.219971",
+        "at": "05/23/2011 19:46:36",
+        "max_value": "970.309998",
+        "min_value": "958.330017",
+        "tags": [
+          "Pressure"
+        ],
+        "unit": {
+          "symbol": "hPa",
+          "label": "Hectopascal",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "38.754028",
+        "at": "05/23/2011 19:46:36",
+        "max_value": "55.485291",
+        "min_value": "22.343201",
+        "tags": [
+          "Humidity"
+        ],
+        "unit": {
+          "symbol": "%RH",
+          "label": "Relative Humidity",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "10.002842",
+        "at": "05/23/2011 19:46:36",
+        "max_value": "14.406004",
+        "min_value": "1.22546",
+        "tags": [
+          "Dew point"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "2.020243",
+        "at": "05/23/2011 19:46:36",
+        "max_value": "10.633629",
+        "min_value": "0.0",
+        "tags": [
+          "Windspeed"
+        ],
+        "unit": {
+          "symbol": "N",
+          "label": "Knots",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "319.949860",
+        "at": "05/23/2011 19:46:36",
+        "max_value": "440.068054",
+        "min_value": "0.0",
+        "tags": [
+          "Wind dirction"
+        ],
+        "unit": {
+          "symbol": "°",
+          "label": "Degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "46.2149565348241",
+      "lon": "6.17500305175781",
+      "ele": "372",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/24657\" >Weather Station GVA</a>",
+    "URLMostrar": "https://xively.com/feeds/24657"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\24657.json",
+  "DocumentJSON": null
+}

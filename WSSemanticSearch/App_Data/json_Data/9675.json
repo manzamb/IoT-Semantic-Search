@@ -1,0 +1,162 @@
+{
+  "Conceptos": [
+    "parameter"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "9675",
+    "title": "Nanode Micro Command",
+    "Private": false,
+    "tags": null,
+    "description": "This feed is used for sending commands and data to any Nanode or ethernet enabled Arduino which chooses to access it.\r\n\r\nRather than send data relating to physical parameters, the fields contain direct numeric commands.\r\n\r\nCommands start with a letter, followed by 5, 16-bit unsigned integer arguments separated by commas. At the end of a command is an auto incrementing number, which can be checked periodically to see if a command has changed.\r\n\r\neg b,1,2,3,4,65535,21\r\n\r\nWhere 21 is the autoincremented term\r\n\r\nArduino compatible hardware using the ENC28J60 ethernet controller (eg NuElectronics ethernet shield) can access this feed using GET. The command is decoded in firmware to control some action on the subscribing Arduino, or a network of slaves connected to the subscriber's serial bus.\r\n\r\nA recent example controls a RGB LED lamp in an ambient orb application\r\n\r\nR,128 for example would set Red LED to approximately half brightness.  There is up to about 10 seconds latency in the network. ",
+    "feed": "https://api.xively.com/v2/feeds/9675.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "05/17/2011 14:48:30",
+    "created": "08/26/2010 10:32:48",
+    "creator": "https://xively.com/users/2020vision",
+    "version": null,
+    "website": "http://sustburbia.blogspot.com",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "0",
+        "at": "05/17/2011 14:48:30",
+        "max_value": "65278.0",
+        "min_value": "0.0",
+        "tags": [
+          "Arg0"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "0",
+        "at": "05/17/2011 14:48:30",
+        "max_value": "65278.0",
+        "min_value": "0.0",
+        "tags": [
+          "Arg1"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "0",
+        "at": "05/17/2011 14:48:30",
+        "max_value": "65278.0",
+        "min_value": "0.0",
+        "tags": [
+          "Arg2"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "0",
+        "at": "05/17/2011 14:48:30",
+        "max_value": "65278.0",
+        "min_value": "0.0",
+        "tags": [
+          "Arg3"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "0",
+        "at": "05/17/2011 14:48:30",
+        "max_value": "65278.0",
+        "min_value": "0.0",
+        "tags": [
+          "Arg4"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "0",
+        "at": "05/17/2011 14:48:30",
+        "max_value": "65278.0",
+        "min_value": "0.0",
+        "tags": [
+          "Arg5"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "0",
+        "at": "05/17/2011 14:48:30",
+        "max_value": "65535.0",
+        "min_value": "0.0",
+        "tags": [
+          "Incrementer"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "7",
+        "current_value": "1",
+        "at": "04/09/2011 10:43:34",
+        "max_value": "1.0",
+        "min_value": "1.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Redhill",
+      "domain": 0,
+      "lat": "51.251405048261",
+      "lon": "-0.168134272098541",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/9675\" >Nanode Micro Command</a>",
+    "URLMostrar": "https://xively.com/feeds/9675"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\9675.json",
+  "DocumentJSON": null
+}

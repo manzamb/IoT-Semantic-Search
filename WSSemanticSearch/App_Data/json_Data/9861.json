@@ -1,0 +1,132 @@
+{
+  "Conceptos": [
+    "amount"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "9861",
+    "title": "Temperatures Plus",
+    "Private": false,
+    "tags": null,
+    "description": "Temperatures inside(0) and outside(1) of garden shed.\r\nAmbient light inside shed (2).\r\nInside Humidity - DHT22 (3).\r\nTemperature - DHT22 (4).\r\nRain gauge - total rain amount during last hour (5) - experimental.",
+    "feed": "https://api.xively.com/v2/feeds/9861.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:13:36",
+    "created": "09/03/2010 23:16:52",
+    "creator": "https://xively.com/users/eagle_temp",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "3.69",
+        "at": "03/21/2014 14:13:36",
+        "max_value": "85.0",
+        "min_value": "-20.56",
+        "tags": [
+          "0"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "4.75",
+        "at": "03/21/2014 14:13:36",
+        "max_value": "3030.12",
+        "min_value": "-19.12",
+        "tags": [
+          "1"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "196",
+        "at": "03/21/2014 14:13:36",
+        "max_value": "55933.38",
+        "min_value": "-17.62",
+        "tags": [
+          "2"
+        ],
+        "unit": {
+          "symbol": "a.u.",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "46.30",
+        "at": "03/21/2014 14:13:36",
+        "max_value": "56857.1",
+        "min_value": "-12.63",
+        "tags": [
+          "3"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "6.70",
+        "at": "03/21/2014 14:13:36",
+        "max_value": "562.0",
+        "min_value": "-18.3",
+        "tags": [
+          "4"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "0.0",
+        "at": "03/21/2014 14:13:36",
+        "max_value": "559.36096",
+        "min_value": "0.0",
+        "tags": [
+          "5"
+        ],
+        "unit": {
+          "symbol": "mm",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Danvers, MA",
+      "domain": 0,
+      "lat": "42.5877265895922",
+      "lon": "-70.944128036499",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 1
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/9861\" >Temperatures Plus</a>",
+    "URLMostrar": "https://xively.com/feeds/9861"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\9861.json",
+  "DocumentJSON": null
+}

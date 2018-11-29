@@ -1,0 +1,90 @@
+{
+  "Conceptos": [
+    "amount"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "11195",
+    "title": "Indoor VOC, O2, CO2 - Study",
+    "Private": false,
+    "tags": [
+      "FigaroKE25",
+      "Indoor Air Quality",
+      "Moss",
+      "MQ811",
+      "TGS822"
+    ],
+    "description": "Sensor Testing for Moss Aeration. This is the study.\r\n\r\nUsing the Figaro sensor TGS822, Figaro KE25 and TGS822 I am collecting indoor air quality data by collecting the amount of VOC, O2 and CO2 respectively. \r\n\r\n\r\nThis is a test for a larger project that I am doing comparing the indoor air quality with and without a moss air filter.\r\n",
+    "feed": "https://api.xively.com/v2/feeds/11195.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "12/17/2010 21:49:45",
+    "created": "10/21/2010 05:20:58",
+    "creator": "https://xively.com/users/hanachan",
+    "version": null,
+    "website": "http://itp.nyu.edu/~hn271/wordpress/",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "974",
+        "at": "12/17/2010 21:49:45",
+        "max_value": "1023.0",
+        "min_value": "0.0",
+        "tags": [
+          "Oxygen"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "563",
+        "at": "12/17/2010 21:49:45",
+        "max_value": "1023.0",
+        "min_value": "0.0",
+        "tags": [
+          "VOC"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "0",
+        "at": "12/17/2010 21:49:45",
+        "max_value": "1023.0",
+        "min_value": "0.0",
+        "tags": [
+          "CO2"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "ITP",
+      "domain": 0,
+      "lat": "40.7292751181466",
+      "lon": "-73.9936923980713",
+      "ele": "40",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/11195\" >Indoor VOC, O2, CO2 - Study</a>",
+    "URLMostrar": "https://xively.com/feeds/11195"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\11195.json",
+  "DocumentJSON": null
+}

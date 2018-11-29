@@ -1,0 +1,69 @@
+{
+  "Conceptos": [
+    "sensitivity"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "77648",
+    "title": "iRad Alpha Feed",
+    "Private": false,
+    "tags": [
+      "FL USA",
+      "GeigerBot data stream from Melbourne"
+    ],
+    "description": "Radiation in CPM, updated every minute.  \r\n+ Gamma sensitivity Co60 (cps/mR/h): 22\r\n+ Working range (mR/h): 0.014 - 100\r\n+ EGM Tube gas filling: NeBr2Ar",
+    "feed": "https://api.xively.com/v2/feeds/77648.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "08/15/2013 22:49:36",
+    "created": "09/27/2012 12:30:57",
+    "creator": "https://xively.com/users/wirelessdj",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "1",
+        "current_value": "0",
+        "at": "08/15/2013 22:49:36",
+        "max_value": "1166.0",
+        "min_value": "0.0",
+        "tags": [
+          "CPM Radiation Geiger"
+        ],
+        "unit": {
+          "symbol": "CPM",
+          "label": "counts per minute",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "0.00",
+        "at": "08/15/2013 22:49:36",
+        "max_value": "8.83",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "µSv/h",
+          "label": "microsieverts per hour",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Melbourne, FL",
+      "domain": 0,
+      "lat": "28.07813358",
+      "lon": "-80.60916917",
+      "ele": "8.4",
+      "exposure": 0,
+      "disposition": 1
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/77648\" >iRad Alpha Feed</a>",
+    "URLMostrar": "https://xively.com/feeds/77648"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\77648.json",
+  "DocumentJSON": null
+}

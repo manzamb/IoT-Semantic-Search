@@ -1,0 +1,105 @@
+{
+  "Conceptos": [
+    "viento"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "50031",
+    "title": "AICM",
+    "Private": false,
+    "tags": [
+      "Humedad",
+      "Presión",
+      "Temperatura",
+      "Viento"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/50031.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "02/29/2012 04:13:01",
+    "created": "02/29/2012 01:49:47",
+    "creator": "https://xively.com/users/apaezmx",
+    "version": null,
+    "website": "http://espanol.wunderground.com/global/stations/76679.html",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "19",
+        "at": "02/29/2012 04:13:01",
+        "max_value": "20.0",
+        "min_value": "0.0",
+        "tags": [
+          "Temperatura"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "1027.0",
+        "at": "02/29/2012 04:13:01",
+        "max_value": "1027.0",
+        "min_value": "0.0",
+        "tags": [
+          "Presión"
+        ],
+        "unit": {
+          "symbol": "hPa",
+          "label": "hPa",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "15",
+        "at": "02/29/2012 04:13:01",
+        "max_value": "18.0",
+        "min_value": "0.0",
+        "tags": [
+          "Viento"
+        ],
+        "unit": {
+          "symbol": "km/h",
+          "label": "km/h",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "28",
+        "at": "02/29/2012 04:13:01",
+        "max_value": "28.0",
+        "min_value": "0.0",
+        "tags": [
+          "Humedad"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "%HR",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "AICM, Ciudad de México",
+      "domain": 1,
+      "lat": "19.436081",
+      "lon": "-99.072132",
+      "ele": "2420",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/50031\" >AICM</a>",
+    "URLMostrar": "https://xively.com/feeds/50031"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\50031.json",
+  "DocumentJSON": null
+}

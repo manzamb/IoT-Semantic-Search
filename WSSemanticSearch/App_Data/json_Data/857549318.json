@@ -1,0 +1,155 @@
+{
+  "Conceptos": [
+    "humidity"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "857549318",
+    "title": "Raspberry Pi",
+    "Private": false,
+    "tags": [
+      "Celcuis",
+      "homeview",
+      "Humidity",
+      "Light",
+      "Lux",
+      "Temperature"
+    ],
+    "description": "Monitoring of multiple sensors",
+    "feed": "https://api.xively.com/v2/feeds/857549318.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/20/2014 03:45:09",
+    "created": "12/09/2013 00:12:58",
+    "creator": "https://xively.com/users/wgeorge76",
+    "version": null,
+    "website": "http://kiwirpi.zapto.org",
+    "datastreams": [
+      {
+        "id": "DHT_Humidity",
+        "current_value": "53.9",
+        "at": "03/20/2014 03:45:08",
+        "max_value": "72.9",
+        "min_value": "25.3",
+        "tags": null,
+        "unit": {
+          "symbol": "%RH",
+          "label": "Relative Humidity",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "DHT_Out_Humidity",
+        "current_value": "45.4",
+        "at": "03/20/2014 03:45:08",
+        "max_value": "3309.2",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "%RH",
+          "label": "Relative Humidity",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "DHT_Out_Temp",
+        "current_value": "21.6",
+        "at": "03/20/2014 03:45:08",
+        "max_value": "37.1",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "DHT_Temp",
+        "current_value": "22.8",
+        "at": "03/20/2014 03:45:08",
+        "max_value": "44.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Light_Level",
+        "current_value": "0.0",
+        "at": "03/20/2014 03:45:08",
+        "max_value": "5757.667",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "Lx",
+          "label": "lux",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Outside_Lux",
+        "current_value": "0.0",
+        "at": "03/20/2014 03:45:08",
+        "max_value": "54655.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "Lx",
+          "label": "lux",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "SolarV",
+        "current_value": "0",
+        "at": "03/20/2014 03:45:08",
+        "max_value": "20.6",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "V",
+          "label": "voltage",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Vin",
+        "current_value": "0",
+        "at": "03/20/2014 03:45:08",
+        "max_value": "29.1",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "V",
+          "label": "voltage",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Home",
+      "domain": 0,
+      "lat": "-45.8155073786619",
+      "lon": "170.620851516724",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/857549318\" >Raspberry Pi</a>",
+    "URLMostrar": "https://xively.com/feeds/857549318"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\857549318.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,94 @@
+{
+  "Conceptos": [
+    "nature"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "38750",
+    "title": "lite & easy",
+    "Private": false,
+    "tags": [
+      "gsiot"
+    ],
+    "description": "Various sensors components for experimental purposes: light, temperature, and humidity",
+    "feed": "https://api.xively.com/v2/feeds/38750.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/29/2012 07:27:51",
+    "created": "11/04/2011 20:54:58",
+    "creator": "https://xively.com/users/drecuk",
+    "version": null,
+    "website": "http://opennature.org",
+    "datastreams": [
+      {
+        "id": "light",
+        "current_value": "238",
+        "at": "03/29/2012 07:27:49",
+        "max_value": "1023.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "v",
+          "label": "VOLT",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "sound",
+        "current_value": "139.866669",
+        "at": "03/29/2012 07:27:51",
+        "max_value": "953.766663",
+        "min_value": "72.6999969",
+        "tags": null,
+        "unit": {
+          "symbol": "D",
+          "label": "Decibles",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temperature",
+        "current_value": "22.1875019",
+        "at": "03/29/2012 07:27:50",
+        "max_value": "238.75",
+        "min_value": "-50.0",
+        "tags": null,
+        "unit": {
+          "symbol": "C",
+          "label": "celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "voltage",
+        "current_value": "SecretLabs.NETMF.Hardware.AnalogInput",
+        "at": "11/05/2011 13:00:08",
+        "max_value": "176.0",
+        "min_value": "154.0",
+        "tags": null,
+        "unit": {
+          "symbol": "V",
+          "label": "VOLT",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Name of location",
+      "domain": 0,
+      "lat": "52.404932",
+      "lon": "-1.92878700000006",
+      "ele": "136.081m",
+      "exposure": 0,
+      "disposition": 1
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/38750\" >lite & easy</a>",
+    "URLMostrar": "https://xively.com/feeds/38750"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\38750.json",
+  "DocumentJSON": null
+}

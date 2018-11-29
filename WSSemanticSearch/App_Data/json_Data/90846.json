@@ -1,0 +1,100 @@
+{
+  "Conceptos": [
+    "moisture"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "90846",
+    "title": "Plant Monitor",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "humidity",
+      "light",
+      "plant",
+      "plant monitor",
+      "soil moisture",
+      "temperature"
+    ],
+    "description": "System for monitoring a money tree plant.\r\nHumidity and temperature are measured using a DHT22 sensor.\r\nLight is measured using a photoresistor. When there is more light, the resistance goes down (the lower the number, the lighter it is.)\r\nSoil moisture is the resistance between two galvanized nails that are placed some distance away in soil. When the soil is wetter, there is less resistance.",
+    "feed": "https://api.xively.com/v2/feeds/90846.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "10/14/2013 22:42:51",
+    "created": "12/07/2012 19:01:21",
+    "creator": "https://xively.com/users/sarah",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Humidity",
+        "current_value": "65.2",
+        "at": "10/14/2013 22:42:50",
+        "max_value": "2521.5",
+        "min_value": "18.8",
+        "tags": null,
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Light",
+        "current_value": "450",
+        "at": "10/14/2013 22:42:50",
+        "max_value": "1023.0",
+        "min_value": "6.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "SoilMoisture",
+        "current_value": "130",
+        "at": "10/14/2013 22:42:50",
+        "max_value": "923.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperature",
+        "current_value": "17.5",
+        "at": "10/14/2013 22:42:50",
+        "max_value": "33.9",
+        "min_value": "-99.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "ºC",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/90846\" >Plant Monitor</a>",
+    "URLMostrar": "https://xively.com/feeds/90846"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\90846.json",
+  "DocumentJSON": null
+}

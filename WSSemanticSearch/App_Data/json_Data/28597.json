@@ -1,0 +1,135 @@
+{
+  "Conceptos": [
+    "environment"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "28597",
+    "title": "LeoTel Office Environment",
+    "Private": false,
+    "tags": [
+      "leotel",
+      "office"
+    ],
+    "description": "Various sensors within the LeoTel Software Systems' Stevenage office space.",
+    "feed": "https://api.xively.com/v2/feeds/28597.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:09:27",
+    "created": "06/21/2011 16:01:03",
+    "creator": "https://xively.com/users/jbridson",
+    "version": null,
+    "website": "http://www.leotel-software.co.uk/",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "242",
+        "at": "03/21/2014 14:09:26",
+        "max_value": "248.0",
+        "min_value": "0.0",
+        "tags": [
+          "light"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "0-255",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "0",
+        "at": "03/21/2014 14:09:26",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "pir"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Binary",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "33",
+        "at": "03/21/2014 14:09:26",
+        "max_value": "71.0",
+        "min_value": "24.0",
+        "tags": [
+          "humidity"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "%RH",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "23.9",
+        "at": "03/21/2014 14:09:26",
+        "max_value": "33.5",
+        "min_value": "15.9",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "0",
+        "at": "03/21/2014 14:09:26",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "battery"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Binary",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "3936",
+        "at": "03/21/2014 14:09:27",
+        "max_value": "14237.0",
+        "min_value": "1352.0",
+        "tags": [
+          "power"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Stevenage, UK",
+      "domain": 0,
+      "lat": "51.9108291863885",
+      "lon": "-0.208093822002411",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/28597\" >LeoTel Office Environment</a>",
+    "URLMostrar": "https://xively.com/feeds/28597"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\28597.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,260 @@
+{
+  "Conceptos": [
+    "atmospheric pressure"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "123164",
+    "title": "rpi1",
+    "Private": false,
+    "tags": [
+      "network",
+      "performance",
+      "pressure",
+      "raspberry pi",
+      "temperature"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/123164.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:06:01",
+    "created": "04/07/2013 17:07:02",
+    "creator": "https://xively.com/users/dpc",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0_ambient_temp_C",
+        "current_value": "21.4",
+        "at": "03/21/2014 14:06:01",
+        "max_value": "32.8",
+        "min_value": "13.4",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1_ambient_temp_F",
+        "current_value": "70.52",
+        "at": "03/21/2014 14:06:01",
+        "max_value": "91.04",
+        "min_value": "56.12",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "°F",
+          "label": "Fahrenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2_ambient_pressure",
+        "current_value": "847.44",
+        "at": "03/21/2014 14:06:01",
+        "max_value": "866.04",
+        "min_value": "825.58",
+        "tags": [
+          "atmospheric_pressure"
+        ],
+        "unit": {
+          "symbol": "hPa",
+          "label": "hPa",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3_computed_altitude",
+        "current_value": "1482.25017208",
+        "at": "03/21/2014 14:06:01",
+        "max_value": "1695.30876422",
+        "min_value": "1305.04060356",
+        "tags": [
+          "altitude"
+        ],
+        "unit": {
+          "symbol": "m",
+          "label": "meter",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "connections",
+        "current_value": "0",
+        "at": "02/21/2014 16:25:02",
+        "max_value": "8.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "eth0_down",
+        "current_value": "0.36",
+        "at": "02/21/2014 16:25:02",
+        "max_value": "1829.76",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "eth0_up",
+        "current_value": "0.00",
+        "at": "02/21/2014 16:25:02",
+        "max_value": "2086.98",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "load_avg",
+        "current_value": "0.04",
+        "at": "02/21/2014 16:25:02",
+        "max_value": "2.24",
+        "min_value": "0.01",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "mem_cached",
+        "current_value": "217.67",
+        "at": "02/21/2014 16:25:02",
+        "max_value": "361.41",
+        "min_value": "25.52",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "mem_free",
+        "current_value": "110.69",
+        "at": "02/21/2014 16:25:02",
+        "max_value": "384.88",
+        "min_value": "10.09",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "mem_used",
+        "current_value": "327",
+        "at": "02/21/2014 16:25:02",
+        "max_value": "428.0",
+        "min_value": "54.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "processes",
+        "current_value": "72",
+        "at": "02/21/2014 16:25:02",
+        "max_value": "89.0",
+        "min_value": "64.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temp",
+        "current_value": "115.70",
+        "at": "02/21/2014 16:25:02",
+        "max_value": "139.1",
+        "min_value": "32.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "uptime",
+        "current_value": "46.83",
+        "at": "02/21/2014 16:25:02",
+        "max_value": "147.72",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "users",
+        "current_value": "0",
+        "at": "02/21/2014 16:25:02",
+        "max_value": "5.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Home",
+      "domain": 0,
+      "lat": "40.4654854016835",
+      "lon": "-105.020514984131",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/123164\" >rpi1</a>",
+    "URLMostrar": "https://xively.com/feeds/123164"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\123164.json",
+  "DocumentJSON": null
+}

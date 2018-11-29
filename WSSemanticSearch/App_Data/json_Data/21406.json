@@ -1,0 +1,73 @@
+{
+  "Conceptos": [
+    "unit of measure"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "21406",
+    "title": "Geiger Counter Feeds from Asao Kawasaki",
+    "Private": false,
+    "tags": [
+      "sensor:model=lnd-712",
+      "sensor:type=radiation"
+    ],
+    "description": "Update every 1min, provided by Tetsuya Ryuchi.\r\nThe conversion coefficient from CPM to uSv/h is 0.00833.\r\n\r\nGeiger Counter: Strawberry-linux geiger counter kit.\r\n\r\nSensor model: LND-712 (LND, Inc.)\r\n\r\n--------------------------------------------------------------------------------------------\r\n\r\nAs the measurement unit is converted from CPM (Count per Minute) to\r\nuSv/h,  I initially used 0.00233 as the conversion coefficient (up to\r\nJune 9, 2011).\r\n\r\nHowever, once I have received an advise that  0.00833 is more adequate\r\nconversion coefficient for GM Tube LND-712, I have changed the\r\nconversion coefficient to 0.00833 (after June 9, 2011). The new\r\nconversion coefficient is calculated from the data that LND has been\r\npublished. Since I do not have any resource to conduct an empirical\r\ntest for the validity of this conversion coefficient and/or the\r\noriginal data, this conversion coefficient is only reasonable\r\n(scientifically unproven).\r\n\r\nOverall, since there have been no spikes and/or significant changes in\r\nCPM that GM Tube measures, I believe that there have not much change\r\nin the level of radiation in the natural environment.\r\n\r\n ",
+    "feed": "https://api.xively.com/v2/feeds/21406.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "08/31/2012 17:45:00",
+    "created": "03/24/2011 07:20:51",
+    "creator": "https://xively.com/users/ryuchi",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "19.00",
+        "at": "08/31/2012 17:45:00",
+        "max_value": "200.0",
+        "min_value": "0.0",
+        "tags": [
+          "sensor:model=lnd-712",
+          "sensor:type=radiation"
+        ],
+        "unit": {
+          "symbol": "cpm",
+          "label": "counts/minute",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "0.158",
+        "at": "08/31/2012 17:45:00",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "sensor:model=lnd-712",
+          "sensor:type=radiation"
+        ],
+        "unit": {
+          "symbol": "µSv/h",
+          "label": "microsieverts per hour",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Asao Kawasaki, JAPAN",
+      "domain": 0,
+      "lat": "35.6131741517781",
+      "lon": "139.510488510132",
+      "ele": "90",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/21406\" >Geiger Counter Feeds from Asao Kawasaki</a>",
+    "URLMostrar": "https://xively.com/feeds/21406"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\21406.json",
+  "DocumentJSON": null
+}

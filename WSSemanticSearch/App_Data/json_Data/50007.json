@@ -1,0 +1,167 @@
+{
+  "Conceptos": [
+    "humidity"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "50007",
+    "title": "Sommarro",
+    "Private": false,
+    "tags": [
+      "Humidity",
+      "Temperature"
+    ],
+    "description": "Temperature and humidity feeds\r\n1000 kWh\r\n91821 temperature out\r\n104831 temperature sl\r\n112581 temperature tvr\r\n172521 temperature lr\r\n172523 humidity lr\r\n200961 temperature gh\r\n200963 humidity gh\r\n",
+    "feed": "https://api.xively.com/v2/feeds/50007.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:07:05",
+    "created": "02/28/2012 19:13:31",
+    "creator": "https://xively.com/users/juha",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "1000",
+        "current_value": "0.1592",
+        "at": "04/22/2012 13:00:00",
+        "max_value": "10.0",
+        "min_value": "0.0",
+        "tags": [
+          "Energy"
+        ],
+        "unit": {
+          "symbol": "kWh",
+          "label": "Watt",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "91821",
+        "current_value": "6.117",
+        "at": "03/21/2014 14:06:45",
+        "max_value": "32.992",
+        "min_value": "-57.328",
+        "tags": [
+          "Temperature out"
+        ],
+        "unit": {
+          "symbol": "T",
+          "label": "Temperature",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "104831",
+        "current_value": "7.680",
+        "at": "11/28/2012 13:21:24",
+        "max_value": "82.031",
+        "min_value": "3.8",
+        "tags": [
+          "Temperature sr"
+        ],
+        "unit": {
+          "symbol": "T",
+          "label": "Temperature",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "112581",
+        "current_value": "8.180",
+        "at": "03/21/2014 14:06:48",
+        "max_value": "64.438",
+        "min_value": "1.617",
+        "tags": [
+          "Temperature TVr"
+        ],
+        "unit": {
+          "symbol": "T",
+          "label": "Temperature",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "172521",
+        "current_value": "8.720",
+        "at": "03/21/2014 14:07:05",
+        "max_value": "89.16",
+        "min_value": "-28.74",
+        "tags": [
+          "Temperature lr"
+        ],
+        "unit": {
+          "symbol": "T",
+          "label": "Temperature",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "172523",
+        "current_value": "62.513",
+        "at": "03/21/2014 14:06:46",
+        "max_value": "79.644",
+        "min_value": "43.852",
+        "tags": [
+          "Humidity lr"
+        ],
+        "unit": {
+          "symbol": "RH",
+          "label": "Humidity",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "200961",
+        "current_value": "7.650",
+        "at": "03/21/2014 14:06:12",
+        "max_value": "90.4",
+        "min_value": "-27.56",
+        "tags": [
+          "Temperature br"
+        ],
+        "unit": {
+          "symbol": "T",
+          "label": "Temperature",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "200963",
+        "current_value": "63.021",
+        "at": "03/21/2014 14:06:41",
+        "max_value": "98.117",
+        "min_value": "16.002",
+        "tags": [
+          "Humidity br"
+        ],
+        "unit": {
+          "symbol": "RH",
+          "label": "Humidity",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Sommarro",
+      "domain": 0,
+      "lat": "60.2423673015682",
+      "lon": "25.2366256713867",
+      "ele": "5",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/50007\" >Sommarro</a>",
+    "URLMostrar": "https://xively.com/feeds/50007"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\50007.json",
+  "DocumentJSON": null
+}

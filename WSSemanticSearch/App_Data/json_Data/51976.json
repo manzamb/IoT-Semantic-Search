@@ -1,0 +1,78 @@
+{
+  "Conceptos": [
+    "event"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "51976",
+    "title": "My First Test Feed",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/51976.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/24/2012 10:59:29",
+    "created": "03/14/2012 22:01:58",
+    "creator": "https://xively.com/users/poerepoere",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Battery",
+        "current_value": "1250",
+        "at": "03/24/2012 10:59:29",
+        "max_value": "1385.0",
+        "min_value": "857.0",
+        "tags": null,
+        "unit": {
+          "symbol": "v",
+          "label": "mV",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "setValue",
+        "current_value": "12.00",
+        "at": "03/22/2012 20:47:20",
+        "max_value": "25.0",
+        "min_value": "12.0",
+        "tags": null,
+        "unit": {
+          "symbol": "sv",
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperature",
+        "current_value": "18.25",
+        "at": "03/24/2012 10:59:29",
+        "max_value": "20.75",
+        "min_value": "15.25",
+        "tags": null,
+        "unit": {
+          "symbol": "T",
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Deventer",
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 1
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/51976\" >My First Test Feed</a>",
+    "URLMostrar": "https://xively.com/feeds/51976"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\51976.json",
+  "DocumentJSON": null
+}

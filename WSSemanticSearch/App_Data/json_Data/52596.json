@@ -1,0 +1,56 @@
+{
+  "Conceptos": [
+    "area"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "52596",
+    "title": "Outside temperature",
+    "Private": false,
+    "tags": [
+      "6LoWPAN",
+      "Contiki",
+      "temperature"
+    ],
+    "description": "As part of my graduation assignment I created a temperature sensor. The sensor is based on AVR Raven hardware and running the Contiki operating system. The sensor is battery powered and wirelessly connected to the Internet using 6LoWPAN. 6LoWPAN is an acronym for: IPv6 over Low-Power Wireless Personal Area Networks. This means that the sensor has it ‘s own IPv6 address.",
+    "feed": "https://api.xively.com/v2/feeds/52596.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/19/2012 14:39:02",
+    "created": "03/19/2012 13:40:51",
+    "creator": "https://xively.com/users/rzuidinga",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": null,
+        "at": null,
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Eindhoven, The Netherlands",
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/52596\" >Outside temperature</a>",
+    "URLMostrar": "https://xively.com/feeds/52596"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\52596.json",
+  "DocumentJSON": null
+}

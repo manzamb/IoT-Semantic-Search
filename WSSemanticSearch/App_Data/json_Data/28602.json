@@ -1,0 +1,84 @@
+{
+  "Conceptos": [
+    "collection"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "28602",
+    "title": "MyCloudSensor",
+    "Private": false,
+    "tags": null,
+    "description": "My Cloud-based collection of sensor data and management of:\r\n\r\nIndoor temperature\r\nIndoor Humidity\r\nIndoor light\r\n\r\nInformation retrieved from DHT22 temperature and humidity sensor and a custom photoresistor and sent throught a BlackWidow (WiFi enabled arduino)",
+    "feed": "https://api.xively.com/v2/feeds/28602.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "12/12/2011 19:44:25",
+    "created": "06/21/2011 19:29:05",
+    "creator": "https://xively.com/users/harisdmac",
+    "version": null,
+    "website": "https://sites.google.com/site/mycloudsensor/",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "0.0",
+        "at": "12/12/2011 19:44:25",
+        "max_value": "32.9",
+        "min_value": "0.0",
+        "tags": [
+          "Temp"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "0.0",
+        "at": "12/12/2011 19:44:25",
+        "max_value": "72.9",
+        "min_value": "0.0",
+        "tags": [
+          "Humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "250",
+        "at": "12/12/2011 19:44:25",
+        "max_value": "1023.0",
+        "min_value": "0.0",
+        "tags": [
+          "Light"
+        ],
+        "unit": {
+          "symbol": "U",
+          "label": "0-1024",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "38.0014721525229",
+      "lon": "23.8211059570312",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/28602\" >MyCloudSensor</a>",
+    "URLMostrar": "https://xively.com/feeds/28602"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\28602.json",
+  "DocumentJSON": null
+}

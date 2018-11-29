@@ -1,0 +1,326 @@
+{
+  "Conceptos": [
+    "concept"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "58885",
+    "title": "Avans Brakel Proof of Concept",
+    "Private": false,
+    "tags": [
+      "Arduino",
+      "arduino",
+      "Avans Hogeschool Breda",
+      "Brakel Atmos",
+      "klimaatbeheersing",
+      "Proof of Concept",
+      "Technische Informatica",
+      "XBee",
+      "ZigBee"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/58885.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "06/06/2012 11:37:31",
+    "created": "05/10/2012 13:51:12",
+    "creator": "https://xively.com/users/elroy910",
+    "version": null,
+    "website": "http://brakel.rickdoorakkers.nl",
+    "datastreams": [
+      {
+        "id": "_AIR",
+        "current_value": "0",
+        "at": "05/30/2012 12:09:34",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "_CO2",
+        "current_value": "9",
+        "at": "05/30/2012 12:09:34",
+        "max_value": "9.0",
+        "min_value": "9.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "END_DEVICE_3_AIR",
+        "current_value": "170",
+        "at": "06/06/2012 11:37:29",
+        "max_value": "55304.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "END_DEVICE_3_CO2",
+        "current_value": "0",
+        "at": "06/06/2012 11:37:29",
+        "max_value": "2048.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "END_DEVICE_3_HUM",
+        "current_value": "85",
+        "at": "06/06/2012 11:37:29",
+        "max_value": "255.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "END_DEVICE_3_TEMP",
+        "current_value": "170",
+        "at": "06/06/2012 11:37:29",
+        "max_value": "255.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "END_DEVICE_3_UNK",
+        "current_value": "1185",
+        "at": "05/30/2012 12:09:06",
+        "max_value": "1185.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "END_DEVICE_4_HUM",
+        "current_value": "151",
+        "at": "06/06/2012 08:46:31",
+        "max_value": "255.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "END_DEVICE_4_TEMP",
+        "current_value": "104",
+        "at": "06/06/2012 08:46:31",
+        "max_value": "255.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "END_DEVICE_4_UNK",
+        "current_value": "7",
+        "at": "06/03/2012 11:15:11",
+        "max_value": "43390.0",
+        "min_value": "7.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "_HUM",
+        "current_value": "1",
+        "at": "05/30/2012 12:09:34",
+        "max_value": "1.0",
+        "min_value": "1.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "SCHAKELKAST_AIR",
+        "current_value": "0",
+        "at": "06/06/2012 11:37:31",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "SCHAKELKAST_CO2",
+        "current_value": "30",
+        "at": "06/06/2012 11:37:31",
+        "max_value": "253.0",
+        "min_value": "2.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "SCHAKELKAST_HUM",
+        "current_value": "1",
+        "at": "06/06/2012 11:37:31",
+        "max_value": "32256.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "SCHAKELKAST_TEMP",
+        "current_value": "2",
+        "at": "06/06/2012 11:37:31",
+        "max_value": "253.0",
+        "min_value": "2.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "SENSOREN_AIR",
+        "current_value": "55",
+        "at": "06/05/2012 07:41:15",
+        "max_value": "55.0",
+        "min_value": "55.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "SENSOREN_CO2",
+        "current_value": "1",
+        "at": "06/05/2012 07:41:15",
+        "max_value": "65535.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "SENSOREN_HUM",
+        "current_value": "65533",
+        "at": "06/05/2012 07:41:15",
+        "max_value": "65535.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "SENSOREN_TEMP",
+        "current_value": "65497",
+        "at": "06/05/2012 07:41:15",
+        "max_value": "65499.0",
+        "min_value": "2434.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "_TEMP",
+        "current_value": "2",
+        "at": "05/30/2012 12:09:34",
+        "max_value": "2.0",
+        "min_value": "2.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "51.5859231906841",
+      "lon": "4.79435205459595",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/58885\" >Avans Brakel Proof of Concept</a>",
+    "URLMostrar": "https://xively.com/feeds/58885"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\58885.json",
+  "DocumentJSON": null
+}

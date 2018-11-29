@@ -1,0 +1,205 @@
+{
+  "Conceptos": [
+    "sensor output"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "63035",
+    "title": "CurrentCost Energy Data",
+    "Private": false,
+    "tags": null,
+    "description": "CurrentCost CC128 Energy data\r\n\r\nID format is [Sxx] where [S] is sensor number.\r\n\r\nCC=499 is temperature sensor.",
+    "feed": "https://api.xively.com/v2/feeds/63035.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:13:08",
+    "created": "06/09/2012 22:59:09",
+    "creator": "https://xively.com/users/barnish",
+    "version": null,
+    "website": "http://pvoutput.org",
+    "datastreams": [
+      {
+        "id": "100",
+        "current_value": "285",
+        "at": "03/21/2014 14:13:08",
+        "max_value": "19607.0",
+        "min_value": "0.0",
+        "tags": [
+          "consumption",
+          "electricity",
+          "power",
+          "watts"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watt",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "200",
+        "current_value": "481",
+        "at": "03/21/2014 14:13:08",
+        "max_value": "19119.0",
+        "min_value": "0.0",
+        "tags": [
+          "electricity",
+          "generation",
+          "power",
+          "watts"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watt",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "300",
+        "current_value": "0",
+        "at": "11/27/2012 10:48:25",
+        "max_value": "32767.0",
+        "min_value": "0.0",
+        "tags": [
+          "electricity",
+          "import",
+          "power",
+          "watts"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watt",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "400",
+        "current_value": "649",
+        "at": "03/21/2014 14:13:08",
+        "max_value": "7688.0",
+        "min_value": "0.0",
+        "tags": [
+          "electricity",
+          "import+export",
+          "power",
+          "watts"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watt",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "499",
+        "current_value": "19",
+        "at": "03/21/2014 14:13:08",
+        "max_value": "31.0",
+        "min_value": "0.0",
+        "tags": [
+          "temperature",
+          "thermometer"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Degrees Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "800",
+        "current_value": "29",
+        "at": "11/30/2012 20:58:06",
+        "max_value": "29.0",
+        "min_value": "29.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "810",
+        "current_value": "7757.728",
+        "at": "03/21/2014 14:12:46",
+        "max_value": "18108.0",
+        "min_value": "-863.194",
+        "tags": [
+          "electricity",
+          "generation meter"
+        ],
+        "unit": {
+          "symbol": "kWh",
+          "label": "kWh",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "900",
+        "current_value": "212",
+        "at": "03/18/2014 03:03:20",
+        "max_value": "2406.0",
+        "min_value": "75.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "910",
+        "current_value": "20105.11125",
+        "at": "11/27/2012 10:48:03",
+        "max_value": "2704424.995",
+        "min_value": "876.0",
+        "tags": [
+          "electricity",
+          "import meter"
+        ],
+        "unit": {
+          "symbol": "kWh",
+          "label": "kWh",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1000",
+        "current_value": "393",
+        "at": "11/26/2012 00:47:27",
+        "max_value": "398.0",
+        "min_value": "239.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Great Cambourne, UK",
+      "domain": 0,
+      "lat": "52.2116",
+      "lon": "-0.0712",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/63035\" >CurrentCost Energy Data</a>",
+    "URLMostrar": "https://xively.com/feeds/63035"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\63035.json",
+  "DocumentJSON": null
+}

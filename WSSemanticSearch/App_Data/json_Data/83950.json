@@ -1,0 +1,244 @@
+{
+  "Conceptos": [
+    "process"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "83950",
+    "title": "Laboratorij CONOT INEA",
+    "Private": false,
+    "tags": [
+      "FUEL CELL",
+      "GREEN ENERGY",
+      "HYDROGEN",
+      "INEA",
+      "LABORATORY",
+      "RENEWABLE SOURCES",
+      "SMART GRID",
+      "SOLAR PANEL",
+      "WIND TURBINE"
+    ],
+    "description": "TESTLAB - Mobile test laboratory for H2 technologies\r\n\r\nMobile test laboratory for testing and demonstration of hydrogen technologies containing integrated subassemblies: fuel cell power system, methanol fuel processor, electrolyzer, hydrogen storage equipment, electric and thermal storages, electronic module for control and distribution of electrical energy. \r\n\r\nDATA ACQUISITION:\r\nData is acquired by Programmable logic controller (PLC) and sent to Remote Terminal Unit (RTU) via Modbus/TCP. RTU uses GPRS network to send data to Cosm.",
+    "feed": "https://api.xively.com/v2/feeds/83950.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "01/02/2013 13:49:39",
+    "created": "11/05/2012 10:21:43",
+    "creator": "https://xively.com/users/inea_rtu",
+    "version": null,
+    "website": "http://www.inea.si/en/services/energy-management-and-ecology/hydrogen-technologies/",
+    "datastreams": [
+      {
+        "id": "j_ss",
+        "current_value": "10.9375",
+        "at": "01/02/2013 13:49:34",
+        "max_value": "315.0",
+        "min_value": "0.0",
+        "tags": [
+          "Gostota sončnega sevanja",
+          "Power density of solar radiation"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "W/m2",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "p_H2jek",
+        "current_value": "85.125",
+        "at": "01/02/2013 13:49:34",
+        "max_value": "87.0",
+        "min_value": "0.0",
+        "tags": [
+          "Hydrogen tank pressure",
+          "Tlak vodika v jeklenki"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "bar",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "q_H2gc",
+        "current_value": "0",
+        "at": "01/02/2013 13:49:34",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "Fuel cell hydrogen flow",
+          "Pretok vodika v gorivno celico"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "l/min",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "RESET",
+        "current_value": "0",
+        "at": "01/02/2013 10:23:57",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "RESET_COUNT",
+        "current_value": "4",
+        "at": "01/02/2013 10:13:11",
+        "max_value": "246.0",
+        "min_value": "1.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "T_hlad",
+        "current_value": "19.525",
+        "at": "01/02/2013 13:49:34",
+        "max_value": "27.35",
+        "min_value": "0.0",
+        "tags": [
+          "Coolant storage temperature",
+          "Temperature tekočine v hranilniku hladu - zgoraj"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "T_lab",
+        "current_value": "19.8625",
+        "at": "01/02/2013 13:49:34",
+        "max_value": "28.8875",
+        "min_value": "0.0",
+        "tags": [
+          "Laboratory temperature",
+          "Temperatura v laboratoriju"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "T_skl",
+        "current_value": "11.14",
+        "at": "01/02/2013 13:49:34",
+        "max_value": "20.7",
+        "min_value": "-0.9399986",
+        "tags": [
+          "Hydrogen storage place temperature",
+          "Temperatura v skladišču vodika"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "T_toplota",
+        "current_value": "19.05",
+        "at": "01/02/2013 13:49:34",
+        "max_value": "26.125",
+        "min_value": "0.0",
+        "tags": [
+          "Heat storage temperature",
+          "Temperatura tekočine v hranilniku toplote - zgoraj"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "U_gc",
+        "current_value": "54.975",
+        "at": "01/02/2013 13:49:34",
+        "max_value": "57.175",
+        "min_value": "0.0",
+        "tags": [
+          "Fuel cell voltage",
+          "Napetost gorivne celice"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "V",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "U_sc",
+        "current_value": "100",
+        "at": "01/02/2013 13:49:34",
+        "max_value": "100.0",
+        "min_value": "0.0",
+        "tags": [
+          "Napetost sončnih celic",
+          "Solar panel voltage"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "V",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "v_veter",
+        "current_value": "0",
+        "at": "01/02/2013 13:49:34",
+        "max_value": "5.7",
+        "min_value": "0.0",
+        "tags": [
+          "Hitrost vetra",
+          "Wind speed"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "m/s",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "46.0843567970336",
+      "lon": "14.4856104254723",
+      "ele": "1",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/83950\" >Laboratorij CONOT INEA</a>",
+    "URLMostrar": "https://xively.com/feeds/83950"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\83950.json",
+  "DocumentJSON": null
+}

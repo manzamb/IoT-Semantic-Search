@@ -1,0 +1,89 @@
+{
+  "Conceptos": [
+    "plan"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "101294",
+    "title": "Cyborg Plant",
+    "Private": false,
+    "tags": [
+      "ambient light",
+      "arduino",
+      "plant",
+      "soil humidity"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/101294.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "07/23/2013 02:33:08",
+    "created": "01/30/2013 04:55:49",
+    "creator": "https://xively.com/users/marthaproject",
+    "version": null,
+    "website": "http://cyborgplant.markinouye.com",
+    "datastreams": [
+      {
+        "id": "Humidity",
+        "current_value": "0",
+        "at": "07/23/2013 02:33:08",
+        "max_value": "79.0",
+        "min_value": "0.0",
+        "tags": [
+          "soil humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Lux",
+        "current_value": "205",
+        "at": "07/23/2013 02:33:08",
+        "max_value": "247.0",
+        "min_value": "36.0",
+        "tags": [
+          "ambient light"
+        ],
+        "unit": {
+          "symbol": "Lux",
+          "label": "Lux",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperature",
+        "current_value": "76",
+        "at": "07/23/2013 02:33:08",
+        "max_value": "81.0",
+        "min_value": "25.0",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "°F",
+          "label": "Degrees (F)",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "47.9752141234162",
+      "lon": "-122.063598632812",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/101294\" >Cyborg Plant</a>",
+    "URLMostrar": "https://xively.com/feeds/101294"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\101294.json",
+  "DocumentJSON": null
+}

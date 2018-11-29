@@ -1,0 +1,84 @@
+{
+  "Conceptos": [
+    "atmospheric pressure"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "2879",
+    "title": "Room Weather Data",
+    "Private": false,
+    "tags": null,
+    "description": "Room temperature, relative humidity and atmospheric pressure measured by sensors connected to Arduino. Currently temp, R.H. and pressure has a data resolution of 14, 12 and 10 bit respectively.",
+    "feed": "https://api.xively.com/v2/feeds/2879.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "04/01/2011 03:00:52",
+    "created": "10/09/2009 19:32:05",
+    "creator": "https://xively.com/users/mkishere",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "23.91",
+        "at": "04/01/2011 03:00:52",
+        "max_value": "31.21",
+        "min_value": "-40.0",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "℃",
+          "label": "Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "52.3",
+        "at": "04/01/2011 03:00:52",
+        "max_value": "90.9",
+        "min_value": "25.6",
+        "tags": [
+          "humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "Percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "990.2",
+        "at": "04/01/2011 03:00:52",
+        "max_value": "1031.1",
+        "min_value": "888.7",
+        "tags": [
+          "Pressure"
+        ],
+        "unit": {
+          "symbol": "hPa",
+          "label": "Hectopascals",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Fo Tan, Hong Kong",
+      "domain": 0,
+      "lat": "22.3942731553315",
+      "lon": "114.204573155148",
+      "ele": "64",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/2879\" >Room Weather Data</a>",
+    "URLMostrar": "https://xively.com/feeds/2879"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\2879.json",
+  "DocumentJSON": null
+}

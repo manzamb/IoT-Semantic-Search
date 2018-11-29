@@ -1,0 +1,105 @@
+{
+  "Conceptos": [
+    "carbon monoxide"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "43102",
+    "title": "Weather Station",
+    "Private": false,
+    "tags": [
+      "Alcohol",
+      "CO",
+      "Humidity",
+      "Temerature"
+    ],
+    "description": "Weather Station",
+    "feed": "https://api.xively.com/v2/feeds/43102.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/24/2013 09:02:01",
+    "created": "01/01/2012 17:41:34",
+    "creator": "https://xively.com/users/dpm_ec",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "23.25",
+        "at": "03/24/2013 09:02:01",
+        "max_value": "382.0",
+        "min_value": "-26.038338",
+        "tags": [
+          "Humidity"
+        ],
+        "unit": {
+          "symbol": "%RH",
+          "label": "Relative Humidity",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "34.01",
+        "at": "03/24/2013 09:02:01",
+        "max_value": "70716.27",
+        "min_value": "0.0",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "293",
+        "at": "03/24/2013 09:02:01",
+        "max_value": "453.0",
+        "min_value": "0.0",
+        "tags": [
+          "Carbon Monoxide"
+        ],
+        "unit": {
+          "symbol": "ppm",
+          "label": "Parts per million",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "0.00",
+        "at": "03/24/2013 09:02:01",
+        "max_value": "9.0",
+        "min_value": "0.0",
+        "tags": [
+          "Alcohol"
+        ],
+        "unit": {
+          "symbol": "mg/l",
+          "label": "milligram per litre",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Ahmedabad",
+      "domain": 0,
+      "lat": "22.9900219164092",
+      "lon": "72.62540244104",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/43102\" >Weather Station</a>",
+    "URLMostrar": "https://xively.com/feeds/43102"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\43102.json",
+  "DocumentJSON": null
+}

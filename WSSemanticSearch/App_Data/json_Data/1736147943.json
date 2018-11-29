@@ -1,0 +1,84 @@
+{
+  "Conceptos": [
+    "co2"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "1736147943",
+    "title": "CO2 Ufficio",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/1736147943.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "01/15/2014 12:19:42",
+    "created": "06/14/2013 15:34:48",
+    "creator": "https://xively.com/users/davidegironi",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "3",
+        "current_value": "395",
+        "at": "01/15/2014 12:19:42",
+        "max_value": "2830.0",
+        "min_value": "43.0",
+        "tags": [
+          "co2 (mh-z14)"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "co2 ppm",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "91",
+        "current_value": "24",
+        "at": "01/15/2014 12:19:42",
+        "max_value": "29.0",
+        "min_value": "11.0",
+        "tags": [
+          "sensor temperature (dht11)"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "92",
+        "current_value": "33",
+        "at": "01/15/2014 12:19:42",
+        "max_value": "85.0",
+        "min_value": "26.0",
+        "tags": [
+          "sensor humidity (dht11)"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "%RH",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/1736147943\" >CO2 Ufficio</a>",
+    "URLMostrar": "https://xively.com/feeds/1736147943"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\1736147943.json",
+  "DocumentJSON": null
+}

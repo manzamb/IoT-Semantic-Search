@@ -1,0 +1,82 @@
+{
+  "Conceptos": [
+    "environment"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "29186",
+    "title": "Radiation in Fuchu, Tokyo, JPN",
+    "Private": false,
+    "tags": [
+      "Geiger Counter",
+      "Japan",
+      "Radiation",
+      "Tokyo",
+      "γ線",
+      "ガイガーカウンター",
+      "モニタリングポスト",
+      "放射線計測",
+      "東京"
+    ],
+    "description": "東京都府中市で私的に運用中のUSB線量計初号機（ストロベリーリナックス製ガイガーミュラー管式線量計）です。計測環境はマンション屋内、フィルターを取り付けγ線のみ計測中です。\r\n\r\nIt is USB dosimeter first title machine (made of strawberry Linux Geiger-Müller counter tube type dosimeter) while privately operating it with the Tokyo Fuchu city. Only the installation γ line is measuring the apartment house room and the filter to the measurement environment. \r\n\r\n※ご注意\r\n・機器は公的機関による校正を実施していません。\r\n・本データの測定結果は一切保証いたしません。\r\n・測定結果による、いかなる損失、損害の求償の責は負いかねます。\r\n・予告無く運用を停止する場合があります。\r\n\r\n- Attention\r\n･The equipment doesn't execute the calibration by the statutory board. \r\n･The result of a measurement of this data is not guaranteed at all. \r\n• Measured by results, for any loss, damage can not assume responsibility for reimbursement.\r\n･There is no previous notice and operation might be stopped. ",
+    "feed": "https://api.xively.com/v2/feeds/29186.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:10:21",
+    "created": "07/02/2011 13:12:04",
+    "creator": "https://xively.com/users/sf324929",
+    "version": null,
+    "website": "http://on.fb.me/qlYOWz",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "13.00",
+        "at": "03/21/2014 14:10:20",
+        "max_value": "100.0",
+        "min_value": "0.0",
+        "tags": [
+          "Japan",
+          "Radiation",
+          "Tokyo"
+        ],
+        "unit": {
+          "symbol": "CPM",
+          "label": "counts per minute",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "0.030",
+        "at": "03/21/2014 14:10:20",
+        "max_value": "0.1",
+        "min_value": "0.0",
+        "tags": [
+          "Japan",
+          "Radiation",
+          "Tokyo"
+        ],
+        "unit": {
+          "symbol": "µSv/h",
+          "label": "microsieverts/hour",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "35.6701206559316",
+      "lon": "139.482303857803",
+      "ele": "60",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/29186\" >Radiation in Fuchu, Tokyo, JPN</a>",
+    "URLMostrar": "https://xively.com/feeds/29186"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\29186.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,169 @@
+{
+  "Conceptos": [
+    "sensor output"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "38879",
+    "title": "612 Tennie",
+    "Private": false,
+    "tags": null,
+    "description": "Environmental data around my house",
+    "feed": "https://api.xively.com/v2/feeds/38879.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "02/24/2012 02:41:44",
+    "created": "11/07/2011 00:28:09",
+    "creator": "https://xively.com/users/cullennewsom",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "21.0",
+        "at": "02/24/2012 02:41:44",
+        "max_value": "31.0",
+        "min_value": "-2.0",
+        "tags": [
+          "Outdoor Temperature",
+          "Texas",
+          "Wharton",
+          "Yahoo! Weather"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "24.14",
+        "at": "02/24/2012 02:41:44",
+        "max_value": "61.15",
+        "min_value": "0.0",
+        "tags": [
+          "Outdoor Windspeed",
+          "Texas",
+          "Wharton",
+          "Yahoo! Weather"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "km/h",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "94.0",
+        "at": "02/24/2012 02:41:44",
+        "max_value": "1015.92",
+        "min_value": "15.0",
+        "tags": [
+          "Outdoor Humidity",
+          "Texas",
+          "Wharton",
+          "Yahoo! Weather"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "21.972656",
+        "at": "02/24/2012 02:41:44",
+        "max_value": "22.460938",
+        "min_value": "0.0",
+        "tags": [
+          "Indoor",
+          "Living Room",
+          "sensor:model=LM35",
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "29.785156",
+        "at": "02/24/2012 02:41:44",
+        "max_value": "43.945312",
+        "min_value": "0.0",
+        "tags": [
+          "Attic",
+          "Indoor",
+          "sensor:model=LM35",
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "22.949219",
+        "at": "02/24/2012 02:41:44",
+        "max_value": "54.19922",
+        "min_value": "4.8828125",
+        "tags": [
+          "HVAC Output",
+          "Indoor",
+          "sensor:model=LM35",
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "152.0",
+        "at": "02/24/2012 02:41:44",
+        "max_value": "1021.0",
+        "min_value": "0.0",
+        "tags": [
+          "Indoor",
+          "Light",
+          "Living Room",
+          "sensor:model=unknown"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Wharton, Texas",
+      "domain": 0,
+      "lat": "29.3263337175542",
+      "lon": "-96.0881692171097",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/38879\" >612 Tennie</a>",
+    "URLMostrar": "https://xively.com/feeds/38879"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\38879.json",
+  "DocumentJSON": null
+}

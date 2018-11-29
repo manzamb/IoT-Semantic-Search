@@ -1,0 +1,55 @@
+{
+  "Conceptos": [
+    "collection"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "30498",
+    "title": "Mobile Geiger Counter",
+    "Private": false,
+    "tags": [
+      "geiger",
+      "radiation"
+    ],
+    "description": "Small project testing a mobile  geiger counter and data collection via pachube.",
+    "feed": "https://api.xively.com/v2/feeds/30498.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "12/05/2011 11:18:51",
+    "created": "07/26/2011 19:35:20",
+    "creator": "https://xively.com/users/michaeldeeb",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "0.000000",
+        "at": "12/05/2011 11:18:51",
+        "max_value": "5.0",
+        "min_value": "0.0",
+        "tags": [
+          "Milliroentgen"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "mR/hr",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Altoona, WI",
+      "domain": 0,
+      "lat": "44.804048",
+      "lon": "-91.42492",
+      "ele": "892",
+      "exposure": 0,
+      "disposition": 1
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/30498\" >Mobile Geiger Counter</a>",
+    "URLMostrar": "https://xively.com/feeds/30498"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\30498.json",
+  "DocumentJSON": null
+}

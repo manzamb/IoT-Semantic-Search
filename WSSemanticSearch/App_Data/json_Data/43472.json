@@ -1,0 +1,235 @@
+{
+  "Conceptos": [
+    "humidity"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "43472",
+    "title": "Weather",
+    "Private": false,
+    "tags": [
+      "Humidity",
+      "Rain",
+      "Sunshine",
+      "Temperature",
+      "Wind direction",
+      "Wind speed"
+    ],
+    "description": "Data from a HomeMatic Kombi Sensor HM-WDS-OC3",
+    "feed": "https://api.xively.com/v2/feeds/43472.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:06:10",
+    "created": "01/04/2012 10:43:37",
+    "creator": "https://xively.com/users/bid",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "80.0",
+        "at": "03/21/2014 14:06:10",
+        "max_value": "89.0",
+        "min_value": "-14.5",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "99",
+        "at": "03/21/2014 14:06:10",
+        "max_value": "99.0",
+        "min_value": "27.0",
+        "tags": [
+          "AirHumidity"
+        ],
+        "unit": {
+          "symbol": "%RH",
+          "label": "Relative Humidity",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "436.01",
+        "at": "03/21/2014 14:06:10",
+        "max_value": "825.705",
+        "min_value": "0.0",
+        "tags": [
+          "RainTotal"
+        ],
+        "unit": {
+          "symbol": "mm",
+          "label": "Millimeter",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "1",
+        "at": "03/21/2014 14:06:10",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "Rain"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Boolean",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "0.0",
+        "at": "03/21/2014 14:06:10",
+        "max_value": "34.0",
+        "min_value": "0.0",
+        "tags": [
+          "WindSpeed"
+        ],
+        "unit": {
+          "symbol": "km/h",
+          "label": "km/h",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "0",
+        "at": "03/21/2014 14:06:10",
+        "max_value": "355.0",
+        "min_value": "0.0",
+        "tags": [
+          "WindDirection"
+        ],
+        "unit": {
+          "symbol": "°",
+          "label": "Degree",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "0",
+        "at": "03/21/2014 14:06:10",
+        "max_value": "67.0",
+        "min_value": "0.0",
+        "tags": [
+          "WindDirectionRange"
+        ],
+        "unit": {
+          "symbol": "°",
+          "label": "Degree",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "7",
+        "current_value": "255",
+        "at": "03/21/2014 14:06:10",
+        "max_value": "255.0",
+        "min_value": "4.0",
+        "tags": [
+          "Brightness"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Integer",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "8",
+        "current_value": "161",
+        "at": "03/21/2014 14:06:10",
+        "max_value": "255.0",
+        "min_value": "0.0",
+        "tags": [
+          "Sunshine"
+        ],
+        "unit": {
+          "symbol": "min",
+          "label": "Minutes",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "9",
+        "current_value": "79.8",
+        "at": "03/21/2014 14:06:10",
+        "max_value": "79.8",
+        "min_value": "-18.0",
+        "tags": [
+          "DewPoint"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "10",
+        "current_value": "288.6",
+        "at": "03/21/2014 14:06:10",
+        "max_value": "288.6",
+        "min_value": "1.2",
+        "tags": [
+          "AbsoluteHumidity"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "g/m3",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "11",
+        "current_value": "0.0",
+        "at": "03/21/2014 14:06:10",
+        "max_value": "769.7",
+        "min_value": "-825.7",
+        "tags": [
+          "RainDaily"
+        ],
+        "unit": {
+          "symbol": "mm",
+          "label": "Millimeter",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Witten",
+      "domain": 0,
+      "lat": "51.4350903913557",
+      "lon": "7.36276432800287",
+      "ele": "140",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/43472\" >Weather</a>",
+    "URLMostrar": "https://xively.com/feeds/43472"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\43472.json",
+  "DocumentJSON": null
+}

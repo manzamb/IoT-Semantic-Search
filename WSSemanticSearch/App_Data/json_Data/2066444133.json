@@ -1,0 +1,57 @@
+{
+  "Conceptos": [
+    "theory"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "2066444133",
+    "title": "Temperature Logger",
+    "Private": false,
+    "tags": [
+      "Imp-001",
+      "TMP36"
+    ],
+    "description": "Simple temperature logger using TMP36 sensos from Adafruit. Located indoors in one room of multi-room apartment to track ambient room temperature (testing theory that thermostat on wall is FoS.)",
+    "feed": "https://api.xively.com/v2/feeds/2066444133.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "01/04/2014 02:54:43",
+    "created": "12/26/2013 05:42:06",
+    "creator": "https://xively.com/users/jps3",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "tempSensor01_F",
+        "current_value": "65.49",
+        "at": "01/02/2014 00:35:06",
+        "max_value": "70.0",
+        "min_value": "65.49",
+        "tags": [
+          "Fahrenheit",
+          "Temperature",
+          "TMP36"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "40.6185207",
+      "lon": "-75.379262",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/2066444133\" >Temperature Logger</a>",
+    "URLMostrar": "https://xively.com/feeds/2066444133"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\2066444133.json",
+  "DocumentJSON": null
+}

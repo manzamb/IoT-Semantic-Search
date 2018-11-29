@@ -1,0 +1,81 @@
+{
+  "Conceptos": [
+    "physical"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "72647",
+    "title": "test",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "test"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/72647.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:15:47",
+    "created": "08/26/2012 05:30:47",
+    "creator": "https://xively.com/users/k_kouno",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "sensor1",
+        "current_value": "560",
+        "at": "03/21/2014 14:15:47",
+        "max_value": "765.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "sensor2",
+        "current_value": "17",
+        "at": "03/21/2014 14:15:47",
+        "max_value": "18052.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "sensor3",
+        "current_value": "1006",
+        "at": "03/21/2014 14:15:47",
+        "max_value": "2620.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "test",
+      "domain": 0,
+      "lat": "35.7158272059945",
+      "lon": "139.927486181259",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/72647\" >test</a>",
+    "URLMostrar": "https://xively.com/feeds/72647"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\72647.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,417 @@
+{
+  "Conceptos": [
+    "wind"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "662883929",
+    "title": "MeteoQueixans",
+    "Private": false,
+    "tags": [
+      "camaras",
+      "catalunya",
+      "cerdanya",
+      "Estacion",
+      "meteo",
+      "meteorologica",
+      "Queixans",
+      "spain",
+      "Station",
+      "tiempo",
+      "Weather",
+      "webcam"
+    ],
+    "description": "Queixans Weather Station, at Fontanals de Cerdanya (Girona, Catalunya, Spain).\n3 real-time webcams in high-res",
+    "feed": "https://api.xively.com/v2/feeds/662883929.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:06:23",
+    "created": "05/15/2013 10:31:14",
+    "creator": "https://xively.com/users/gpuig",
+    "version": null,
+    "website": "http://www.meteoqueixans.com",
+    "datastreams": [
+      {
+        "id": "Baro",
+        "current_value": "1013.6",
+        "at": "03/21/2014 14:06:05",
+        "max_value": "1033.1",
+        "min_value": "985.6",
+        "tags": [
+          "Barometer"
+        ],
+        "unit": {
+          "symbol": "hPa",
+          "label": "hPa",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "DewPoint",
+        "current_value": "3.7",
+        "at": "03/21/2014 14:06:17",
+        "max_value": "17.7",
+        "min_value": "-17.3",
+        "tags": [
+          "Dew Point"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Hum",
+        "current_value": "53",
+        "at": "03/21/2014 14:06:04",
+        "max_value": "98.0",
+        "min_value": "9.0",
+        "tags": [
+          "Humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Rain_Month",
+        "current_value": "10.2",
+        "at": "03/21/2014 14:06:19",
+        "max_value": "128.0",
+        "min_value": "0.0",
+        "tags": [
+          "Rain this month"
+        ],
+        "unit": {
+          "symbol": "mm/month",
+          "label": "mm",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Rain_MonthRainDays",
+        "current_value": "4.0",
+        "at": "03/21/2014 14:06:19",
+        "max_value": "19.0",
+        "min_value": "0.0",
+        "tags": [
+          "Days of rain this month"
+        ],
+        "unit": {
+          "symbol": "days",
+          "label": "days",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Rain_RainingNow",
+        "current_value": "0",
+        "at": "03/21/2014 14:06:21",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "Raining now?"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "0/1",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Rain_Rate",
+        "current_value": "0.0",
+        "at": "03/21/2014 14:06:11",
+        "max_value": "106.0",
+        "min_value": "0.0",
+        "tags": [
+          "Rain Rate"
+        ],
+        "unit": {
+          "symbol": "mm/h",
+          "label": "mm per hour",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Rain_Today",
+        "current_value": "0.0",
+        "at": "03/21/2014 14:06:10",
+        "max_value": "44.8",
+        "min_value": "0.0",
+        "tags": [
+          "Rain today"
+        ],
+        "unit": {
+          "symbol": "mm",
+          "label": "mm",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Rain_Year",
+        "current_value": "54.6",
+        "at": "03/21/2014 14:06:20",
+        "max_value": "687.8",
+        "min_value": "0.0",
+        "tags": [
+          "Total rain this year"
+        ],
+        "unit": {
+          "symbol": "mm/year",
+          "label": "mm",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Storms",
+        "current_value": "0",
+        "at": "03/21/2014 14:06:23",
+        "max_value": "19.0",
+        "min_value": "0.0",
+        "tags": [
+          "Storms detected by radar"
+        ],
+        "unit": {
+          "symbol": "storms",
+          "label": "Storms",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temp",
+        "current_value": "13.1",
+        "at": "03/21/2014 14:06:03",
+        "max_value": "30.8",
+        "min_value": "-10.2",
+        "tags": [
+          "Temp"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temp_MonthMax",
+        "current_value": "23.2",
+        "at": "03/21/2014 14:06:15",
+        "max_value": "30.9",
+        "min_value": "-2.5",
+        "tags": [
+          "Temp max this month"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temp_MonthMin",
+        "current_value": "-5.3",
+        "at": "03/21/2014 14:06:14",
+        "max_value": "17.4",
+        "min_value": "-10.3",
+        "tags": [
+          "Temp min this month"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temp_TodayMax",
+        "current_value": "16.5",
+        "at": "03/21/2014 14:06:13",
+        "max_value": "30.9",
+        "min_value": "-6.6",
+        "tags": [
+          "Temp max today"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temp_TodayMin",
+        "current_value": "2.0",
+        "at": "03/21/2014 14:06:12",
+        "max_value": "20.8",
+        "min_value": "-10.3",
+        "tags": [
+          "Temp min today"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temp_Trend",
+        "current_value": "-1",
+        "at": "03/21/2014 14:06:22",
+        "max_value": "1.0",
+        "min_value": "-1.0",
+        "tags": [
+          "Temp trend (up/equal/down)"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "1/0/-1",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temp_YearMax",
+        "current_value": "23.2",
+        "at": "03/21/2014 14:06:16",
+        "max_value": "30.9",
+        "min_value": "-2.2",
+        "tags": [
+          "Temp max this year"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temp_YearMin",
+        "current_value": "-9.1",
+        "at": "03/21/2014 14:06:15",
+        "max_value": "-2.7",
+        "min_value": "-11.4",
+        "tags": [
+          "Temp min this year"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Wind_Chill",
+        "current_value": "12.8",
+        "at": "03/21/2014 14:06:06",
+        "max_value": "30.9",
+        "min_value": "-10.8",
+        "tags": [
+          "Wind Chill"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Wind_Dir",
+        "current_value": "3.0",
+        "at": "03/21/2014 14:06:09",
+        "max_value": "15.0",
+        "min_value": "0.0",
+        "tags": [
+          "Wind Direction"
+        ],
+        "unit": {
+          "symbol": "º",
+          "label": "degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Wind_GustMonthMax",
+        "current_value": "67.7",
+        "at": "03/21/2014 14:06:18",
+        "max_value": "70.9",
+        "min_value": "0.0",
+        "tags": [
+          "Wind max gust this month"
+        ],
+        "unit": {
+          "symbol": "Km/h",
+          "label": "Km/h",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Wind_GustTodayMax",
+        "current_value": "27.4",
+        "at": "03/21/2014 14:06:08",
+        "max_value": "69.1",
+        "min_value": "0.0",
+        "tags": [
+          "Wind max gust today"
+        ],
+        "unit": {
+          "symbol": "Km/h",
+          "label": "Km/h",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Wind_Speed",
+        "current_value": "6.5",
+        "at": "03/21/2014 14:06:07",
+        "max_value": "45.0",
+        "min_value": "0.0",
+        "tags": [
+          "Wind Speed (now)"
+        ],
+        "unit": {
+          "symbol": "Km/h",
+          "label": "Km/h",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Queixans, Fontanals de Cerdanya (Girona, Catalunya, Spain)",
+      "domain": 0,
+      "lat": "42.3985497293766",
+      "lon": "1.92104905843735",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/662883929\" >MeteoQueixans</a>",
+    "URLMostrar": "https://xively.com/feeds/662883929"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\662883929.json",
+  "DocumentJSON": null
+}

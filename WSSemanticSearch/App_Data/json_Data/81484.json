@@ -1,0 +1,162 @@
+{
+  "Conceptos": [
+    "process"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "81484",
+    "title": "Computer Stats(Linux OS)",
+    "Private": false,
+    "tags": [
+      "antonio",
+      "browser",
+      "computer",
+      "cosm",
+      "electronics",
+      "loadavg",
+      "memory",
+      "processes",
+      "room206",
+      "tabs",
+      "wcjc"
+    ],
+    "description": "Displays the computers open browser tabs, os processes, os memory, cpu loadavg, ",
+    "feed": "https://api.xively.com/v2/feeds/81484.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "11/05/2012 14:47:17",
+    "created": "10/22/2012 13:18:47",
+    "creator": "https://xively.com/users/carmona_mendez",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "browser.tabs",
+        "current_value": "2",
+        "at": "11/05/2012 14:47:17",
+        "max_value": "52.0",
+        "min_value": "1.0",
+        "tags": [
+          "",
+          "browser",
+          "tabs"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "cpu.loadavg",
+        "current_value": "0.47",
+        "at": "11/05/2012 14:47:17",
+        "max_value": "2.15",
+        "min_value": "0.07",
+        "tags": [
+          "cpu",
+          "loadavg"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "cpu.temperature",
+        "current_value": "PREREQ=\"\"",
+        "at": "10/22/2012 16:40:51",
+        "max_value": null,
+        "min_value": null,
+        "tags": null,
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "cpu.uptime",
+        "current_value": "265195.03",
+        "at": "11/05/2012 14:47:17",
+        "max_value": "265195.03",
+        "min_value": "71911.04",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "os.memory",
+        "current_value": "1810",
+        "at": "11/05/2012 14:47:17",
+        "max_value": "2703.0",
+        "min_value": "1368.0",
+        "tags": [
+          "memory",
+          "os"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "os.processes",
+        "current_value": "148",
+        "at": "11/05/2012 14:47:17",
+        "max_value": "170.0",
+        "min_value": "142.0",
+        "tags": [
+          "os",
+          "processes"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "os.swap",
+        "current_value": "0",
+        "at": "11/05/2012 14:47:17",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "os",
+          "swap"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 1,
+      "lat": "29.3258894075681",
+      "lon": "-96.0856184363365",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/81484\" >Computer Stats(Linux OS)</a>",
+    "URLMostrar": "https://xively.com/feeds/81484"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\81484.json",
+  "DocumentJSON": null
+}

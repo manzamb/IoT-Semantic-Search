@@ -1,0 +1,272 @@
+{
+  "Conceptos": [
+    "pattern"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "127941",
+    "title": "Raspberry Pi SD endurance test",
+    "Private": false,
+    "tags": null,
+    "description": "Trying to reach the write cycles of an old SD card (256 MB)\nAs long as ver = 1 the md5sum of te sd card matches the BIN pattern (11, 00, 10, 01) of the \"image\" files.",
+    "feed": "https://api.xively.com/v2/feeds/127941.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:10:02",
+    "created": "04/27/2013 14:49:49",
+    "creator": "https://xively.com/users/honda4life1",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "bw",
+        "current_value": "5668995072000",
+        "at": "03/21/2014 14:10:02",
+        "max_value": "27582819286016.0",
+        "min_value": "32768000.0",
+        "tags": [
+          "Bytes written"
+        ],
+        "unit": {
+          "symbol": "B",
+          "label": "Byte",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "cpu_mhz",
+        "current_value": "900.000",
+        "at": "03/21/2014 14:10:02",
+        "max_value": "900.0",
+        "min_value": "700.0",
+        "tags": null,
+        "unit": {
+          "symbol": "MHz",
+          "label": "Megahertz",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "cpu_temp",
+        "current_value": "44.39",
+        "at": "03/21/2014 14:10:02",
+        "max_value": "85.0",
+        "min_value": "40.08",
+        "tags": null,
+        "unit": {
+          "symbol": "°C",
+          "label": "Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "cycles",
+        "current_value": "173004.00",
+        "at": "03/21/2014 14:10:02",
+        "max_value": "173004.0",
+        "min_value": "1.0",
+        "tags": [
+          "Write cycles"
+        ],
+        "unit": {
+          "symbol": "#",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "ext4_free",
+        "current_value": "9.231",
+        "at": "03/21/2014 14:10:02",
+        "max_value": "9.261",
+        "min_value": "7.562",
+        "tags": null,
+        "unit": {
+          "symbol": "GB",
+          "label": "Gigabyte",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "ext4_write",
+        "current_value": "43.808",
+        "at": "03/21/2014 14:10:02",
+        "max_value": "45.682",
+        "min_value": "20.566",
+        "tags": null,
+        "unit": {
+          "symbol": "GB",
+          "label": "Gigabyte",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "gbw",
+        "current_value": "5279.663",
+        "at": "03/21/2014 14:10:02",
+        "max_value": "25688.502",
+        "min_value": "0.031",
+        "tags": [
+          "Gigabytes written"
+        ],
+        "unit": {
+          "symbol": "GB",
+          "label": "Gigabyte",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "load1",
+        "current_value": "2.93",
+        "at": "03/21/2014 14:10:02",
+        "max_value": "21.93",
+        "min_value": "1.13",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "load15",
+        "current_value": "2.95",
+        "at": "03/21/2014 14:10:02",
+        "max_value": "13.17",
+        "min_value": "0.26",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "load5",
+        "current_value": "2.93",
+        "at": "03/21/2014 14:10:02",
+        "max_value": "16.58",
+        "min_value": "0.53",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "ram_free",
+        "current_value": "446848",
+        "at": "03/21/2014 14:10:02",
+        "max_value": "473084.0",
+        "min_value": "369044.0",
+        "tags": null,
+        "unit": {
+          "symbol": "KB",
+          "label": "Megabyte",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "rs",
+        "current_value": "5145",
+        "at": "03/21/2014 14:10:02",
+        "max_value": "3297239.0",
+        "min_value": "493.0",
+        "tags": [
+          "Read speed"
+        ],
+        "unit": {
+          "symbol": "KB/s",
+          "label": "Kilobyte/second",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "tbw",
+        "current_value": "5.156",
+        "at": "03/21/2014 14:10:02",
+        "max_value": "25.086",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "TB",
+          "label": "Terabyte",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "uptime",
+        "current_value": "68.903",
+        "at": "03/21/2014 14:10:02",
+        "max_value": "80.673",
+        "min_value": "0.001",
+        "tags": null,
+        "unit": {
+          "symbol": "D",
+          "label": "Days",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "ver",
+        "current_value": "1",
+        "at": "03/21/2014 14:10:02",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "Verification (1=OK ; 0 = Broken)"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "ws",
+        "current_value": "849",
+        "at": "03/21/2014 14:10:02",
+        "max_value": "2662.0",
+        "min_value": "555.0",
+        "tags": [
+          "Write speed"
+        ],
+        "unit": {
+          "symbol": "KB/s",
+          "label": "Kilobyte/second",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 1,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/127941\" >Raspberry Pi SD endurance test</a>",
+    "URLMostrar": "https://xively.com/feeds/127941"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\127941.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,101 @@
+{
+  "Conceptos": [
+    "humidity"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "105803",
+    "title": "first_trial",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "temperature"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/105803.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "01/27/2014 10:40:58",
+    "created": "02/20/2013 13:15:16",
+    "creator": "https://xively.com/users/vhaupt",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "home_1",
+        "current_value": "20",
+        "at": "01/27/2014 10:40:53",
+        "max_value": "96.0",
+        "min_value": "4.0",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "Grad",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "home_2",
+        "current_value": "22",
+        "at": "01/27/2014 10:40:53",
+        "max_value": "31360.0",
+        "min_value": "-32.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "rH",
+        "current_value": "0",
+        "at": "07/19/2013 12:20:31",
+        "max_value": "41.0",
+        "min_value": "0.0",
+        "tags": [
+          "Humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "Prozent",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temp",
+        "current_value": "24.00",
+        "at": "05/24/2013 20:12:50",
+        "max_value": "25.0",
+        "min_value": "12.0",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "Grad",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/105803\" >first_trial</a>",
+    "URLMostrar": "https://xively.com/feeds/105803"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\105803.json",
+  "DocumentJSON": null
+}

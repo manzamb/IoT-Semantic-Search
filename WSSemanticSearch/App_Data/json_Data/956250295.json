@@ -1,0 +1,70 @@
+{
+  "Conceptos": [
+    "physical"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "956250295",
+    "title": "Turtle Pond Temps",
+    "Private": false,
+    "tags": [
+      "DS18B20",
+      "Raspberry Pi",
+      "RaspberryPi",
+      "temperature",
+      "turtle"
+    ],
+    "description": "Monitoring an Outdoor Turtle Pond using Raspberry Pi Model B + 2x DS18B20 Temperature Sensors + 1x 4.7k Resistor + 10m Cat5  Cable.\n\nUpdating Feed +- 20 seconds.",
+    "feed": "https://api.xively.com/v2/feeds/956250295.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:15:04",
+    "created": "06/19/2013 08:21:00",
+    "creator": "https://xively.com/users/turtletemps",
+    "version": null,
+    "website": "https://twitter.com/TurtleTemps",
+    "datastreams": [
+      {
+        "id": "Air_Temperature",
+        "current_value": "22.5",
+        "at": "03/21/2014 14:15:04",
+        "max_value": "85.0",
+        "min_value": "-2.437",
+        "tags": null,
+        "unit": {
+          "symbol": "°C",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Water_Temperature",
+        "current_value": "13.562",
+        "at": "03/21/2014 14:15:04",
+        "max_value": "85.0",
+        "min_value": "-1.875",
+        "tags": null,
+        "unit": {
+          "symbol": "°C",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "The Pond Location Almost",
+      "domain": 0,
+      "lat": "51.5545993178904",
+      "lon": "0.175867080688477",
+      "ele": "2,13.946",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/956250295\" >Turtle Pond Temps</a>",
+    "URLMostrar": "https://xively.com/feeds/956250295"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\956250295.json",
+  "DocumentJSON": null
+}

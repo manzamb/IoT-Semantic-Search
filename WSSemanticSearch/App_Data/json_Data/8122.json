@@ -1,0 +1,53 @@
+{
+  "Conceptos": [
+    "thermistor"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "8122",
+    "title": "Pleasant Temperatures",
+    "Private": false,
+    "tags": null,
+    "description": "Indoor temperature on Pleasant Avenue, Erksineville NSW, Australia.\r\n\r\nMeasured by thermistor sensor on PoE Arduino. Entirely inaccurate.",
+    "feed": "https://api.xively.com/v2/feeds/8122.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "07/01/2011 02:20:14",
+    "created": "06/12/2010 07:28:52",
+    "creator": "https://xively.com/users/kodamapixel",
+    "version": null,
+    "website": "http://kodama.angrypixel.org",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "19.787140",
+        "at": "07/01/2011 02:20:14",
+        "max_value": "22.421722",
+        "min_value": "8.704346",
+        "tags": [
+          "analogRead0",
+          "thermistor"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "degrees celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Pleasant Avenue",
+      "domain": 0,
+      "lat": "-33.9032268820016",
+      "lon": "151.183075904846",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/8122\" >Pleasant Temperatures</a>",
+    "URLMostrar": "https://xively.com/feeds/8122"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\8122.json",
+  "DocumentJSON": null
+}

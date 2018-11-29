@@ -1,0 +1,100 @@
+{
+  "Conceptos": [
+    "parameter"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "49941",
+    "title": "Weather inside my apartment",
+    "Private": false,
+    "tags": null,
+    "description": "This feed monitors environmental parameters inside my apartment.   \r\n\r\nHardware used:\r\nArduino Uno\r\nBMP085 Pressure & Temperature Sensor\r\nDHT22 Humidity & Temperature Sensor\r\n",
+    "feed": "https://api.xively.com/v2/feeds/49941.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/13/2012 15:27:23",
+    "created": "02/28/2012 04:26:23",
+    "creator": "https://xively.com/users/erikthompson",
+    "version": null,
+    "website": "http://www.erikthompson.com/weather/",
+    "datastreams": [
+      {
+        "id": "humidity",
+        "current_value": "54.1",
+        "at": "03/13/2012 15:27:23",
+        "max_value": "66.9",
+        "min_value": "25.5",
+        "tags": [
+          "Rel. Humidity"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "pressure",
+        "current_value": "29.99",
+        "at": "03/13/2012 15:27:23",
+        "max_value": "30.22",
+        "min_value": "29.71",
+        "tags": [
+          "Pressure"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "inHg",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temperature1",
+        "current_value": "69.62",
+        "at": "03/13/2012 15:27:23",
+        "max_value": "81.86",
+        "min_value": "59.72",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "°F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temperature2",
+        "current_value": "69.98",
+        "at": "03/13/2012 15:27:23",
+        "max_value": "82.22",
+        "min_value": "60.98",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "°F",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Torrance, California",
+      "domain": 0,
+      "lat": "33.81619",
+      "lon": "-118.319434",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/49941\" >Weather inside my apartment</a>",
+    "URLMostrar": "https://xively.com/feeds/49941"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\49941.json",
+  "DocumentJSON": null
+}

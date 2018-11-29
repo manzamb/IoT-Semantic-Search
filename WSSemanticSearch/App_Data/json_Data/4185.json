@@ -1,0 +1,58 @@
+{
+  "Conceptos": [
+    "right"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "4185",
+    "title": "Suntec Temp",
+    "Private": false,
+    "tags": [
+      "api",
+      "weather",
+      "weather underground",
+      "wunderground",
+      "xml2csv"
+    ],
+    "description": "Outdoor temp at Suntec weather station\r\n\r\nMy Davis VantagePro2 weather station is connected to a  Hautespot IP (http://www.ambientweather.com/haipandwiwes.html) to send weather data to Weather Underground.   Weather Underground makes the data (XML) available with an API (http://www.wunderground.com/weather/api).  Then use the website http://xml2csv.appspot.com/ to convert the XML to CSV.  I only want one value: temp_f.  I put wunderground XML URL in the URL field in xml2csv, then click browse button, then click temp_f link.  Then right-click permalink (no header) and copy URL.  Then paste this URL to  pachube - \"pull data for you\" field.  Then add datastream 0.",
+    "feed": "https://api.xively.com/v2/feeds/4185.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "02/23/2014 08:46:10",
+    "created": "01/10/2010 01:29:33",
+    "creator": "https://xively.com/users/scott216",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "36.3",
+        "at": "02/23/2014 08:46:10",
+        "max_value": "92.6",
+        "min_value": "-999.0",
+        "tags": [
+          "outdoor temp"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "fahrenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "West Dover, VT",
+      "domain": 0,
+      "lat": "42.9483185723185",
+      "lon": "-72.8880214691162",
+      "ele": "1932",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/4185\" >Suntec Temp</a>",
+    "URLMostrar": "https://xively.com/feeds/4185"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\4185.json",
+  "DocumentJSON": null
+}

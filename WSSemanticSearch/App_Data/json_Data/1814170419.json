@@ -1,0 +1,402 @@
+{
+  "Conceptos": [
+    "turbidity"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "1814170419",
+    "title": "protopk2",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/1814170419.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:14:40",
+    "created": "06/22/2013 15:27:09",
+    "creator": "https://xively.com/users/peterkov",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "ASTATUS",
+        "current_value": "online",
+        "at": "10/28/2013 02:09:50",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "status"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "BDOSE",
+        "current_value": "0.0",
+        "at": "03/21/2014 14:14:40",
+        "max_value": "11.0",
+        "min_value": "0.0",
+        "tags": [
+          "bdose"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "BYPS",
+        "current_value": "1.0",
+        "at": "03/21/2014 14:14:40",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "Bypass Valve"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "CDOSE",
+        "current_value": "0.0",
+        "at": "03/21/2014 14:14:40",
+        "max_value": "11.0",
+        "min_value": "0.0",
+        "tags": [
+          "cdose"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "FLOW",
+        "current_value": "0.0",
+        "at": "03/21/2014 14:14:40",
+        "max_value": "41800.2",
+        "min_value": "0.0",
+        "tags": [
+          "Flow rate"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "L/min",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "LEVEL",
+        "current_value": "0.0",
+        "at": "03/21/2014 14:14:40",
+        "max_value": "150.0",
+        "min_value": "0.0",
+        "tags": [
+          "level"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "ORP",
+        "current_value": "820.0",
+        "at": "03/21/2014 14:14:40",
+        "max_value": "3498.0",
+        "min_value": "-1278.0",
+        "tags": [
+          "Oxidation Reduction Potential"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "mV",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "PH",
+        "current_value": "16.5",
+        "at": "03/21/2014 14:14:40",
+        "max_value": "816.0",
+        "min_value": "-4.5",
+        "tags": [
+          "pH"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "POWER",
+        "current_value": null,
+        "at": "07/27/2013 11:28:40",
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "power consumption"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "W",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "PRES",
+        "current_value": "0.1",
+        "at": "03/21/2014 14:14:40",
+        "max_value": "121.0",
+        "min_value": "0.0",
+        "tags": [
+          "Filter Inlet Pressure"
+        ],
+        "unit": {
+          "symbol": "Pa",
+          "label": "Pa",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "PUMP",
+        "current_value": "1.0",
+        "at": "03/21/2014 14:14:40",
+        "max_value": "11.0",
+        "min_value": "0.0",
+        "tags": [
+          "pump"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "SALT",
+        "current_value": "1057.8",
+        "at": "03/21/2014 14:14:40",
+        "max_value": "12941.9",
+        "min_value": "-666.67",
+        "tags": [
+          "TDS"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "ppm",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "SIG",
+        "current_value": "18.0",
+        "at": "03/21/2014 14:14:40",
+        "max_value": "31.0",
+        "min_value": "-6.67",
+        "tags": [
+          "signal strength"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "/31",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "TEMP",
+        "current_value": "23.2",
+        "at": "03/21/2014 14:14:40",
+        "max_value": "139.0",
+        "min_value": "-1000.0",
+        "tags": [
+          "temp"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "TURB",
+        "current_value": "4.0",
+        "at": "03/21/2014 14:14:40",
+        "max_value": "44.0",
+        "min_value": "-20.0",
+        "tags": [
+          "Turbidity"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "TURBIDITY",
+        "current_value": "0",
+        "at": "03/08/2014 06:16:26",
+        "max_value": "897.0",
+        "min_value": "0.0",
+        "tags": [
+          "turbidity"
+        ],
+        "unit": {
+          "symbol": "P",
+          "label": "ppm",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "WASH",
+        "current_value": "1.0",
+        "at": "03/21/2014 14:14:40",
+        "max_value": "11.0",
+        "min_value": "0.0",
+        "tags": [
+          "wash"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Z1",
+        "current_value": "500042",
+        "at": "03/21/2014 12:43:34",
+        "max_value": "500060.0",
+        "min_value": "0.0",
+        "tags": [
+          "Next Rain"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "mins",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Z2",
+        "current_value": "400001",
+        "at": "03/21/2014 12:43:35",
+        "max_value": "400059.0",
+        "min_value": "0.0",
+        "tags": [
+          "Next Rain Duration"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "mins",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Z3",
+        "current_value": "300000",
+        "at": "03/21/2014 12:43:35",
+        "max_value": "300163.0",
+        "min_value": "129.0",
+        "tags": [
+          "Nearest Rain"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "km",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Z4",
+        "current_value": "200000",
+        "at": "03/21/2014 12:43:36",
+        "max_value": "652180.0",
+        "min_value": "0.0",
+        "tags": [
+          "Rain Travel Direction"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "from dir/speed",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Z5",
+        "current_value": "683384",
+        "at": "03/21/2014 12:43:36",
+        "max_value": "699283.0",
+        "min_value": "0.0",
+        "tags": [
+          "Alerts"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Z6",
+        "current_value": "1111116111",
+        "at": "03/21/2014 12:43:37",
+        "max_value": "6666455211.0",
+        "min_value": "1111111111.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Workshop",
+      "domain": 0,
+      "lat": "-33.8099194590526",
+      "lon": "151.033794879913",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/1814170419\" >protopk2</a>",
+    "URLMostrar": "https://xively.com/feeds/1814170419"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\1814170419.json",
+  "DocumentJSON": null
+}

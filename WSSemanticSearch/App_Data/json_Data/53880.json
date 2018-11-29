@@ -1,0 +1,182 @@
+{
+  "Conceptos": [
+    "time interval"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "53880",
+    "title": "IVT Greenline HT+",
+    "Private": false,
+    "tags": [
+      "55851044-b290-56a5-3c88-d64ffbfa75e9",
+      "heat-pump",
+      "IVT",
+      "me3gas",
+      "real-time"
+    ],
+    "description": "This is real-time data from my private heat pump, updated at 2mins intervals. Reporting uses a combination from hardware and software from husdata.se and software originating from the me3gas project.",
+    "feed": "https://api.xively.com/v2/feeds/53880.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:14:12",
+    "created": "03/29/2012 22:14:03",
+    "creator": "https://xively.com/users/efrecon",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "coldFluidIn",
+        "current_value": "1.6",
+        "at": "03/21/2014 14:14:12",
+        "max_value": "25.5",
+        "min_value": "-3.9",
+        "tags": null,
+        "unit": {
+          "symbol": "°C",
+          "label": "celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "coldFluidOut",
+        "current_value": "-1.0",
+        "at": "03/21/2014 14:14:12",
+        "max_value": "26.5",
+        "min_value": "-4.2",
+        "tags": null,
+        "unit": {
+          "symbol": "°C",
+          "label": "celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "compressing",
+        "current_value": "1",
+        "at": "03/21/2014 14:14:12",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "boolean",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "compressor",
+        "current_value": "77.2",
+        "at": "03/21/2014 14:14:12",
+        "max_value": "103.8",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "°C",
+          "label": "celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "heatFluidIn",
+        "current_value": "54.6",
+        "at": "03/21/2014 14:14:12",
+        "max_value": "60.4",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "°C",
+          "label": "celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "heatFluidOut",
+        "current_value": "49.6",
+        "at": "03/21/2014 14:14:12",
+        "max_value": "62.4",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "°C",
+          "label": "celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "hotWater",
+        "current_value": "52.6",
+        "at": "03/21/2014 14:14:12",
+        "max_value": "60.2",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "°C",
+          "label": "celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "outside",
+        "current_value": "11.8",
+        "at": "03/21/2014 14:14:12",
+        "max_value": "44.3",
+        "min_value": "-13.6",
+        "tags": null,
+        "unit": {
+          "symbol": "°C",
+          "label": "celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "radiatorIn",
+        "current_value": "23.8",
+        "at": "03/21/2014 14:14:12",
+        "max_value": "40.7",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "°C",
+          "label": "celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "resistance",
+        "current_value": "0",
+        "at": "03/21/2014 14:14:12",
+        "max_value": "132000.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "W",
+          "label": "watt",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Hägersten, Stockholm, Sweden",
+      "domain": 0,
+      "lat": "59.299428",
+      "lon": "17.9702090000001",
+      "ele": "14",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/53880\" >IVT Greenline HT+</a>",
+    "URLMostrar": "https://xively.com/feeds/53880"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\53880.json",
+  "DocumentJSON": null
+}

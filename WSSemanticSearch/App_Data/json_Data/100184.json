@@ -1,0 +1,94 @@
+{
+  "Conceptos": [
+    "presión atmosférica"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "100184",
+    "title": "Prueba Estación Meteorológica Oviedo",
+    "Private": false,
+    "tags": [
+      "arduino"
+    ],
+    "description": "Comprobando estabilidad del firmware y lecturas de presión atmosférica.",
+    "feed": "https://api.xively.com/v2/feeds/100184.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/14/2013 09:14:32",
+    "created": "01/24/2013 22:26:56",
+    "creator": "https://xively.com/users/nutaaq",
+    "version": null,
+    "website": "http://open-net-meteo.blogspot.com",
+    "datastreams": [
+      {
+        "id": "Estado",
+        "current_value": "Pruebas",
+        "at": "02/27/2013 09:04:40",
+        "max_value": null,
+        "min_value": null,
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Humedad-Relativa",
+        "current_value": "39.40",
+        "at": "03/14/2013 09:14:32",
+        "max_value": "57.3",
+        "min_value": "37.7",
+        "tags": null,
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Presion-Atmosferica",
+        "current_value": "981.44",
+        "at": "03/14/2013 09:14:32",
+        "max_value": "981.57",
+        "min_value": "979.76",
+        "tags": null,
+        "unit": {
+          "symbol": "hPa",
+          "label": "Hectopascales",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperatura",
+        "current_value": "20.80",
+        "at": "03/14/2013 09:14:32",
+        "max_value": "23.8",
+        "min_value": "17.8",
+        "tags": null,
+        "unit": {
+          "symbol": "ºC",
+          "label": "Grados Centigrados",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Oviedo",
+      "domain": 0,
+      "lat": "43.3561397098407",
+      "lon": "-5.8751106262207",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 1
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/100184\" >Prueba Estación Meteorológica Oviedo</a>",
+    "URLMostrar": "https://xively.com/feeds/100184"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\100184.json",
+  "DocumentJSON": null
+}

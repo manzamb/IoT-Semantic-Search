@@ -1,0 +1,90 @@
+{
+  "Conceptos": [
+    "atmospheric pressure"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "70392",
+    "title": "Temp Oficina",
+    "Private": false,
+    "tags": [
+      "Arduino",
+      "Humidity",
+      "Pressure",
+      "Temperature",
+      "Xbee"
+    ],
+    "description": "Protótipo inicial de sensor de Temperatura, Umidade e Pressão com Arduino e Xbee transmitindo para Arduino central ligado a Internet\r\n\r\nFirst prototype. Arduino+Xbee with sensors of temperature, humidity and pressure sending data to Central Arduino connected with Internet.",
+    "feed": "https://api.xively.com/v2/feeds/70392.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:09:54",
+    "created": "08/08/2012 00:58:10",
+    "creator": "https://xively.com/users/bcampos",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "sensor1",
+        "current_value": "25.0",
+        "at": "03/21/2014 14:09:54",
+        "max_value": "30.0",
+        "min_value": "10.0",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "ºC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "sensor2",
+        "current_value": "36.0",
+        "at": "03/21/2014 14:09:54",
+        "max_value": "770.0",
+        "min_value": "26.0",
+        "tags": [
+          "Humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "sensor3",
+        "current_value": "910",
+        "at": "02/22/2013 03:11:39",
+        "max_value": "91010.0",
+        "min_value": "3.4",
+        "tags": [
+          "Atmospheric Pressure"
+        ],
+        "unit": {
+          "symbol": "mBar",
+          "label": "mBar",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Teresópolis",
+      "domain": 0,
+      "lat": "-22.45",
+      "lon": "-42.97",
+      "ele": "900m",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/70392\" >Temp Oficina</a>",
+    "URLMostrar": "https://xively.com/feeds/70392"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\70392.json",
+  "DocumentJSON": null
+}

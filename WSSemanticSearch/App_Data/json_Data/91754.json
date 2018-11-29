@@ -1,0 +1,73 @@
+{
+  "Conceptos": [
+    "co2"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "91754",
+    "title": "Rodric@Home",
+    "Private": false,
+    "tags": [
+      "light"
+    ],
+    "description": "Arduino connected to Photodiode, and Raspberry Pi connected to Voltcraft CO-20",
+    "feed": "https://api.xively.com/v2/feeds/91754.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "01/02/2014 16:38:59",
+    "created": "12/13/2012 15:56:49",
+    "creator": "https://xively.com/users/rodricyates",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "AirPollution",
+        "current_value": "535",
+        "at": "10/12/2013 07:27:08",
+        "max_value": "4883.0",
+        "min_value": "1.0",
+        "tags": [
+          "air pollution",
+          "co20",
+          "raspberry pi",
+          "voltcraft"
+        ],
+        "unit": {
+          "symbol": "p",
+          "label": "pong",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "LightSensor",
+        "current_value": "335.00",
+        "at": "01/02/2014 16:38:58",
+        "max_value": "471.0",
+        "min_value": "0.0",
+        "tags": [
+          "light sensor loft"
+        ],
+        "unit": {
+          "symbol": "ö",
+          "label": "onions",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "51.4898276380573",
+      "lon": "-2.60414600372314",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/91754\" >Rodric@Home</a>",
+    "URLMostrar": "https://xively.com/feeds/91754"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\91754.json",
+  "DocumentJSON": null
+}

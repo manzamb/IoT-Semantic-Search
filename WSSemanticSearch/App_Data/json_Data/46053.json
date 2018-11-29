@@ -1,0 +1,78 @@
+{
+  "Conceptos": [
+    "role"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "46053",
+    "title": "Temperatura i vlaga Slavekove radne sobe",
+    "Private": false,
+    "tags": [
+      "humidity",
+      "Netduino Plus",
+      "SHT15",
+      "Slaven Brumec",
+      "temperatura",
+      "temperature",
+      "vlaga"
+    ],
+    "description": "Kanal za prikaz prikaz temperature i vlage u mojoj radnoj sobi - ili gdje god se senzor trenutno nalazi. Temperatura i vlaga očitavaju se pomoću SHT15 senzora priključenog na Netduino Plus kontroler.\r\nGlavna namjena ovog kanala je isprobavanje Netduino Plus mikrokontrolera.",
+    "feed": "https://api.xively.com/v2/feeds/46053.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "07/22/2012 09:37:48",
+    "created": "01/27/2012 20:32:07",
+    "creator": "https://xively.com/users/slavek",
+    "version": null,
+    "website": "http://brumec.com.hr",
+    "datastreams": [
+      {
+        "id": "Temperatura",
+        "current_value": "23.98",
+        "at": "07/22/2012 09:37:48",
+        "max_value": "615.65",
+        "min_value": "-39.7000007629395",
+        "tags": [
+          "temperatura",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "˙C",
+          "label": "degree Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Vlaznost",
+        "current_value": "54.96",
+        "at": "07/22/2012 09:37:48",
+        "max_value": "99.64",
+        "min_value": "-4789.18",
+        "tags": [
+          "humidity",
+          "vlažnost"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "percentage",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Beletinec, Croatia",
+      "domain": 0,
+      "lat": "46.2157434592983",
+      "lon": "16.3049340248108",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/46053\" >Temperatura i vlaga Slavekove radne sobe</a>",
+    "URLMostrar": "https://xively.com/feeds/46053"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\46053.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,148 @@
+{
+  "Conceptos": [
+    "humedad"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "48102",
+    "title": "Twitter",
+    "Private": false,
+    "tags": null,
+    "description": "En este feed, son presentadas las mediciones en tiempo real de las variables:\r\nTemperatura (ºC)\r\nHumedad(%)\r\nLuminosidad(%)\r\nPunto de Rocío(ºC)\r\n\r\nLugar de medición: Montilla, (Córdoba) España\r\n\r\n",
+    "feed": "https://api.xively.com/v2/feeds/48102.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "01/23/2014 15:41:52",
+    "created": "02/13/2012 20:01:24",
+    "creator": "https://xively.com/users/manugj91",
+    "version": null,
+    "website": "http://meteomontilla.net63.net/",
+    "datastreams": [
+      {
+        "id": "1",
+        "current_value": "+12.5",
+        "at": "01/23/2014 15:41:52",
+        "max_value": "85.0",
+        "min_value": "-256.7",
+        "tags": [
+          "Temperatura seca"
+        ],
+        "unit": {
+          "symbol": "Tª",
+          "label": "ºC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "65",
+        "at": "01/23/2014 15:41:52",
+        "max_value": "122.0",
+        "min_value": "0.0",
+        "tags": [
+          "Humedad relativa"
+        ],
+        "unit": {
+          "symbol": "H",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "80761",
+        "at": "01/23/2014 15:41:52",
+        "max_value": "312423.0",
+        "min_value": "-35.0",
+        "tags": [
+          "Luminosidad"
+        ],
+        "unit": {
+          "symbol": "LUM",
+          "label": "lux",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "+6.3",
+        "at": "01/23/2014 15:41:52",
+        "max_value": "85.0",
+        "min_value": "-16.3",
+        "tags": [
+          "Temperatura de rocío"
+        ],
+        "unit": {
+          "symbol": "T rocio",
+          "label": "ºC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "28.1",
+        "at": "01/23/2014 15:41:52",
+        "max_value": "2479.3",
+        "min_value": "2.7",
+        "tags": [
+          "Entalpía"
+        ],
+        "unit": {
+          "symbol": "H",
+          "label": "KJ/KG",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "+9.2",
+        "at": "01/23/2014 15:41:52",
+        "max_value": "85.0",
+        "min_value": "-253.8",
+        "tags": [
+          "Temperatura de bulbo húmedo"
+        ],
+        "unit": {
+          "symbol": "TH",
+          "label": "ºC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "7",
+        "current_value": "0",
+        "at": "01/23/2014 15:41:52",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "Nivel agua"
+        ],
+        "unit": {
+          "symbol": "N",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "37.5903971879045",
+      "lon": "-4.64159488677979",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/48102\" >Twitter</a>",
+    "URLMostrar": "https://xively.com/feeds/48102"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\48102.json",
+  "DocumentJSON": null
+}

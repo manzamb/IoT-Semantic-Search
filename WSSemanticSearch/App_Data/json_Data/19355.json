@@ -1,0 +1,57 @@
+{
+  "Conceptos": [
+    "thermocouple"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "19355",
+    "title": "Incubator Temperature",
+    "Private": false,
+    "tags": [
+      "incubator",
+      "nanolab",
+      "temperature",
+      "UCSB"
+    ],
+    "description": "Temperature inside incubation chamber to compare to the temperature controller thermocouple. The temperature should be held at 33C +/- 2C.",
+    "feed": "https://api.xively.com/v2/feeds/19355.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "01/23/2012 06:52:26",
+    "created": "02/19/2011 18:13:36",
+    "creator": "https://xively.com/users/negativeninth",
+    "version": null,
+    "website": "http://www.negativeninthstudio.com/nanolab",
+    "datastreams": [
+      {
+        "id": "1",
+        "current_value": "0.00",
+        "at": "01/23/2012 06:45:14",
+        "max_value": "35.5",
+        "min_value": "0.0",
+        "tags": [
+          "Temp"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Santa Barbara, CA",
+      "domain": 0,
+      "lat": "34.4069096565206",
+      "lon": "-119.726257324219",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/19355\" >Incubator Temperature</a>",
+    "URLMostrar": "https://xively.com/feeds/19355"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\19355.json",
+  "DocumentJSON": null
+}

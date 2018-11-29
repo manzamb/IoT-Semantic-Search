@@ -1,0 +1,93 @@
+{
+  "Conceptos": [
+    "latency"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "66896",
+    "title": "Nanode_Temperature",
+    "Private": false,
+    "tags": [
+      "Arduino",
+      "EtherCard",
+      "Nanode",
+      "Temperature",
+      "TMP421"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/66896.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "07/09/2012 20:27:44",
+    "created": "07/09/2012 20:23:57",
+    "creator": "https://xively.com/users/ka1kjz",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "1",
+        "current_value": null,
+        "at": null,
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "Celsius",
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "degC",
+          "label": "degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": null,
+        "at": null,
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "Farenheit",
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "degF",
+          "label": "degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": null,
+        "at": null,
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "latency",
+          "network"
+        ],
+        "unit": {
+          "symbol": "ms",
+          "label": "milliseconds",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/66896\" >Nanode_Temperature</a>",
+    "URLMostrar": "https://xively.com/feeds/66896"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\66896.json",
+  "DocumentJSON": null
+}

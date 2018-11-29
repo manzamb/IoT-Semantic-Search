@@ -1,0 +1,96 @@
+{
+  "Conceptos": [
+    "right"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "1198463773",
+    "title": "Arduino",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/1198463773.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "01/27/2014 02:18:27",
+    "created": "09/16/2013 01:30:51",
+    "creator": "https://xively.com/users/chipmc",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Knock",
+        "current_value": "0.00",
+        "at": "01/27/2014 02:18:27",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "light_reading",
+        "current_value": "149.00",
+        "at": "01/27/2014 02:18:27",
+        "max_value": "2255.0",
+        "min_value": "0.0",
+        "tags": [
+          "Brightness"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Occupancy",
+        "current_value": "0.00",
+        "at": "01/27/2014 02:18:27",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temp_reading",
+        "current_value": "72.00",
+        "at": "01/27/2014 02:18:27",
+        "max_value": "740.0",
+        "min_value": "-58.0",
+        "tags": [
+          "Temprature"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "Degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/1198463773\" >Arduino</a>",
+    "URLMostrar": "https://xively.com/feeds/1198463773"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\1198463773.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,57 @@
+{
+  "Conceptos": [
+    "pst"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "70586",
+    "title": "ondaboat",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "heave",
+      "pitch",
+      "roll"
+    ],
+    "description": "trying to get the roll of the boat to trend on the net",
+    "feed": "https://api.xively.com/v2/feeds/70586.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "08/16/2012 09:16:02",
+    "created": "08/09/2012 08:41:24",
+    "creator": "https://xively.com/users/hotswapster",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "xRate",
+        "current_value": "0",
+        "at": "08/16/2012 09:16:02",
+        "max_value": "918.0",
+        "min_value": "-818.0",
+        "tags": [
+          "boat roll"
+        ],
+        "unit": {
+          "symbol": "roll",
+          "label": "degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/70586\" >ondaboat</a>",
+    "URLMostrar": "https://xively.com/feeds/70586"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\70586.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,56 @@
+{
+  "Conceptos": [
+    "physical object"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "25085",
+    "title": "Radiation dose at Hamaokakita primary school, Omaezaki",
+    "Private": false,
+    "tags": [
+      "device:type=virtual",
+      "sensor:object=air",
+      "sensor:type=radiation"
+    ],
+    "description": "Feed the data retrieved from http://www.hoshasen.pref.shizuoka.jp/. This feed is unofficial and may be stopped by any reason at any time. Use it at your own risk. No guarantee of validity.",
+    "feed": "https://api.xively.com/v2/feeds/25085.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "07/14/2011 13:36:55",
+    "created": "05/12/2011 08:19:49",
+    "creator": "https://xively.com/users/kaku60",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "radiation",
+        "current_value": "0.042",
+        "at": "07/14/2011 13:36:55",
+        "max_value": "0.064",
+        "min_value": "0.038",
+        "tags": [
+          "radiation sensor"
+        ],
+        "unit": {
+          "symbol": "µGy/h",
+          "label": "microgray per hour",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Omaezaki, Shizuoka, Japan",
+      "domain": 0,
+      "lat": "34.6696453219456",
+      "lon": "138.134397268295",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/25085\" >Radiation dose at Hamaokakita primary school, Omaezaki</a>",
+    "URLMostrar": "https://xively.com/feeds/25085"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\25085.json",
+  "DocumentJSON": null
+}

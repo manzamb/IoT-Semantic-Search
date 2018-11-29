@@ -1,0 +1,102 @@
+{
+  "Conceptos": [
+    "task"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "79522",
+    "title": "# Tasks Completed",
+    "Private": false,
+    "tags": null,
+    "description": "Measures # tasks completed in one day. Resets to 0 overnight.\n\nThis feed was created using Data Logger for iPhone.",
+    "feed": "https://api.xively.com/v2/feeds/79522.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "11/05/2012 12:02:00",
+    "created": "10/09/2012 23:50:25",
+    "creator": "https://xively.com/users/barbell",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "0",
+        "at": "11/05/2012 12:02:00",
+        "max_value": "10.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "tasks",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "28.4331",
+        "at": "11/05/2012 12:02:00",
+        "max_value": "42.3544",
+        "min_value": "28.4331",
+        "tags": [
+          "lat",
+          "latitude"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "-81.3155",
+        "at": "11/05/2012 12:02:00",
+        "max_value": "-71.2096",
+        "min_value": "-81.3155",
+        "tags": [
+          "lon",
+          "longitude"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "29.0434",
+        "at": "11/05/2012 12:02:00",
+        "max_value": "63.0798",
+        "min_value": "22.3946",
+        "tags": [
+          "alt",
+          "altitude",
+          "elevation"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 1,
+      "lat": "28.4331",
+      "lon": "-81.3155",
+      "ele": "29.0434",
+      "exposure": 0,
+      "disposition": 1
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/79522\" ># Tasks Completed</a>",
+    "URLMostrar": "https://xively.com/feeds/79522"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\79522.json",
+  "DocumentJSON": null
+}

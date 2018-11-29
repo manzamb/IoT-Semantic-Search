@@ -1,0 +1,88 @@
+{
+  "Conceptos": [
+    "parameter"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "71306",
+    "title": "Fermentor",
+    "Private": false,
+    "tags": [
+      "Arduino",
+      "Beer",
+      "RF"
+    ],
+    "description": "Some parameters of a fermenting beer in a fridge is published to Cosm using arduinos, RF links, and a special C# application running on a pc laptop.\n\nFermenting beer: Kölsch\nSet temp: 18.3C\n\nYeast: WLP029",
+    "feed": "https://api.xively.com/v2/feeds/71306.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:11:21",
+    "created": "08/16/2012 21:18:41",
+    "creator": "https://xively.com/users/antbe",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "BeerTemp",
+        "current_value": "18.31",
+        "at": "03/21/2014 14:11:21",
+        "max_value": "85.0",
+        "min_value": "14.5",
+        "tags": [
+          "DS18B20"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Degrees Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "BubbleCount",
+        "current_value": "5",
+        "at": "03/21/2014 14:11:21",
+        "max_value": "115.0",
+        "min_value": "0.0",
+        "tags": [
+          "Opto Interrupter"
+        ],
+        "unit": {
+          "symbol": "#",
+          "label": "Count",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "FridgeOnOff",
+        "current_value": "0",
+        "at": "03/21/2014 14:11:21",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "SSR"
+        ],
+        "unit": {
+          "symbol": "On/Off",
+          "label": "Boolean",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Oslo",
+      "domain": 0,
+      "lat": "59.9211006441588",
+      "lon": "10.7222163677216",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/71306\" >Fermentor</a>",
+    "URLMostrar": "https://xively.com/feeds/71306"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\71306.json",
+  "DocumentJSON": null
+}

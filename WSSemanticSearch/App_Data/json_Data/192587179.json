@@ -1,0 +1,114 @@
+{
+  "Conceptos": [
+    "atmospheric pressure"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "192587179",
+    "title": "Raspberry ",
+    "Private": false,
+    "tags": [
+      "Atmospheric pressure",
+      "BMP085",
+      "DHT22",
+      "Humidity",
+      "indoor",
+      "Raspberry Pi",
+      "Temperature"
+    ],
+    "description": "Temperature_1  and atmospheric pressure using BMP085. Temperature_2, Humidity using DHT-22.",
+    "feed": "https://api.xively.com/v2/feeds/192587179.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:00:04",
+    "created": "08/15/2013 20:34:17",
+    "creator": "https://xively.com/users/raspberrywebiopi",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "CPU_Temperature",
+        "current_value": "45.5",
+        "at": "03/21/2014 14:00:04",
+        "max_value": "51.4",
+        "min_value": "32.0",
+        "tags": null,
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Humidity",
+        "current_value": "31.2",
+        "at": "03/21/2014 13:48:02",
+        "max_value": "58.2",
+        "min_value": "3.0",
+        "tags": null,
+        "unit": {
+          "symbol": "%RH",
+          "label": "Relative Humidity",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Pressure",
+        "current_value": "99.67",
+        "at": "03/21/2014 14:00:04",
+        "max_value": "54555.56",
+        "min_value": "96.7",
+        "tags": null,
+        "unit": {
+          "symbol": "kPa",
+          "label": "Kilopascals",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperature_1",
+        "current_value": "23.1",
+        "at": "03/21/2014 14:00:04",
+        "max_value": "27.7",
+        "min_value": "12.8",
+        "tags": null,
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperature_2",
+        "current_value": "23.0",
+        "at": "03/21/2014 13:48:02",
+        "max_value": "46.4",
+        "min_value": "-3276.7",
+        "tags": null,
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "43.653226",
+      "lon": "-79.3831843",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 1
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/192587179\" >Raspberry </a>",
+    "URLMostrar": "https://xively.com/feeds/192587179"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\192587179.json",
+  "DocumentJSON": null
+}

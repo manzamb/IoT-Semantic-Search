@@ -1,0 +1,96 @@
+{
+  "Conceptos": [
+    "plan"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "63626",
+    "title": "Plant Sensor",
+    "Private": false,
+    "tags": [
+      "Humidity",
+      "Plant",
+      "Temperature"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/63626.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "08/16/2013 19:41:13",
+    "created": "06/14/2012 14:36:23",
+    "creator": "https://xively.com/users/c0cc0m",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Humidity",
+        "current_value": "not",
+        "at": "08/16/2013 19:41:13",
+        "max_value": "67.03",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Humidity_Osaka",
+        "current_value": "41",
+        "at": "08/27/2012 03:30:11",
+        "max_value": "100.0",
+        "min_value": "20.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperature",
+        "current_value": "USBRH",
+        "at": "08/16/2013 19:41:13",
+        "max_value": "37.05",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "ºC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperature_Osaka",
+        "current_value": "33",
+        "at": "08/27/2012 03:30:11",
+        "max_value": "37.0",
+        "min_value": "17.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "ºC",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Osaka",
+      "domain": 0,
+      "lat": "34.7018594644628",
+      "lon": "135.493783950806",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/63626\" >Plant Sensor</a>",
+    "URLMostrar": "https://xively.com/feeds/63626"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\63626.json",
+  "DocumentJSON": null
+}

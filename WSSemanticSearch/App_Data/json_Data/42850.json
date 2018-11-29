@@ -1,0 +1,125 @@
+{
+  "Conceptos": [
+    "pattern"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "42850",
+    "title": "Electric Water Heater compared to Heat Pump Water Heater",
+    "Private": false,
+    "tags": [
+      "air temperature",
+      "aquasense",
+      "electric water heater",
+      "energy efficiency",
+      "heat pump water heater",
+      "hot water",
+      "solar water heater",
+      "water heating"
+    ],
+    "description": "Compare the energy efficiency between two residential water heaters operating under identical conditions (intake water temperature, hot water demand/load and ambient temperature). Both heaters have the same volume and are rated at 240 volts 60 hertz. Thermostats are set to 123°F (3°F loss in distribution, 120°F at point of delivery).  Feed #0 is the ambient air temperature in Celsius (note the modest fluctuations when the heat pump water heater activates). Feed #2 is the baseline standard electric resistance water heater (found in most North American homes) using between 1,650 to 4,462 watts depending which (top/bottom/both) elements are energized. Feed #3 is the AquaSense: a high performance heat pump water heater requiring only 734 to 884 watts to do the same job. Energy consumption is for one adult. Multiply the number of people in a household to get an estimate of savings. The AquaSense energy usage is around .75 Kw daily while an electric resistance water heater requires 4 to 5 Kw. Heating pattern differs between the two appliances whereas AquaSense runs longer but less frequently (easy on peaks, a benefit for power utilities). Gas, instant tankless and even high-end solar systems with a solar fraction of 75% are no match for AquaSense. There are additional benefits with AquaSense: side ports (tie-in to solar captors/hydronics), air circulation ~ dehumidification, 3 timers (to run off-peak rates), sanitizing heat mode (165°F) and free distilled water (atmospheric from condensate line). AquaSense HPWH is affordable and has a quick payback time. \r\nInteractive charts can be seen at: http://empowermfg.com/aquasense_data.htm \r\nEnjoy!",
+    "feed": "https://api.xively.com/v2/feeds/42850.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:06:00",
+    "created": "12/28/2011 16:34:20",
+    "creator": "https://xively.com/users/empower",
+    "version": null,
+    "website": "http://www.empowermfg.com",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "23.33",
+        "at": "03/21/2014 14:06:00",
+        "max_value": "36.38",
+        "min_value": "-36.37",
+        "tags": [
+          "air temp indoor"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "1760",
+        "at": "03/21/2014 14:06:00",
+        "max_value": "4263.0",
+        "min_value": "0.0",
+        "tags": [
+          "no feed"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "0",
+        "at": "03/21/2014 14:06:00",
+        "max_value": "4298.0",
+        "min_value": "0.0",
+        "tags": [
+          "watts"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "0",
+        "at": "03/21/2014 14:06:00",
+        "max_value": "4214.0",
+        "min_value": "0.0",
+        "tags": [
+          "watts"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "0",
+        "at": "03/21/2014 14:06:00",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "no feed"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Lake City, Florida, United States",
+      "domain": 0,
+      "lat": "29.9120909187815",
+      "lon": "-82.5567626953125",
+      "ele": "25",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/42850\" >Electric Water Heater compared to Heat Pump Water Heater</a>",
+    "URLMostrar": "https://xively.com/feeds/42850"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\42850.json",
+  "DocumentJSON": null
+}

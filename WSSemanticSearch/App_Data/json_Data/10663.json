@@ -1,0 +1,106 @@
+{
+  "Conceptos": [
+    "sensing"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "10663",
+    "title": "S3",
+    "Private": false,
+    "tags": [
+      "depth",
+      "temperature",
+      "water"
+    ],
+    "description": "S3 is a remote-sensing temperature and distance measurement station.  If you point it at water, it will measure the water temperature and depth.  if you point it at snow, it will measure snow temperature and depth.  This one is sitting on a floating dock, so the depth better be pretty constant.",
+    "feed": "https://api.xively.com/v2/feeds/10663.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "10/07/2010 17:46:59",
+    "created": "10/07/2010 17:46:59",
+    "creator": "https://xively.com/users/russnelson",
+    "version": null,
+    "website": "http://www.bire.org",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": null,
+        "at": null,
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "temperature",
+          "water"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Degrees C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": null,
+        "at": null,
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "air",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Degrees C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": null,
+        "at": null,
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "depth"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Centimeters",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": null,
+        "at": null,
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "voltage"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": "Volts",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Jim's dock",
+      "domain": 0,
+      "lat": "44.5896796989429",
+      "lon": "-74.9718618392944",
+      "ele": "110",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/10663\" >S3</a>",
+    "URLMostrar": "https://xively.com/feeds/10663"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\10663.json",
+  "DocumentJSON": null
+}

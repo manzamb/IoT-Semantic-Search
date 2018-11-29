@@ -1,0 +1,55 @@
+{
+  "Conceptos": [
+    "plan"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "9140",
+    "title": "momoillevel",
+    "Private": false,
+    "tags": [
+      "coconut oil",
+      "tanklevel"
+    ],
+    "description": "Coconut Oil level is displayed as Weight, data in inches is converted to weight. One inch is 75Kgs. Since the transducer used can measure only up to one inch, the weight will be in multiples of 75.\r\nI'm planning to have a feed indicating voltage levels and power failures for 3 KSEB Power lines at chenoli road, Perambra",
+    "feed": "https://api.xively.com/v2/feeds/9140.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "10/02/2013 14:20:02",
+    "created": "07/30/2010 13:40:30",
+    "creator": "https://xively.com/users/sunish",
+    "version": null,
+    "website": "http://www.sunish.net",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "194.88",
+        "at": "10/02/2013 14:20:02",
+        "max_value": "3450.0",
+        "min_value": "75.0",
+        "tags": [
+          "Qty"
+        ],
+        "unit": {
+          "symbol": "Kg",
+          "label": "Kg",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Perambra,Kozhikode,India",
+      "domain": 0,
+      "lat": "11.5571980844258",
+      "lon": "75.7588648796082",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/9140\" >momoillevel</a>",
+    "URLMostrar": "https://xively.com/feeds/9140"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\9140.json",
+  "DocumentJSON": null
+}

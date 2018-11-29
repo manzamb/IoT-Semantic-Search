@@ -1,0 +1,88 @@
+{
+  "Conceptos": [
+    "atmospheric pressure"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "75682",
+    "title": "Nora-1-Office",
+    "Private": false,
+    "tags": [
+      "barometric pressure",
+      "humidity",
+      "temperature"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/75682.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "10/01/2012 23:40:24",
+    "created": "09/13/2012 23:07:34",
+    "creator": "https://xively.com/users/tombrew",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Nora-Barom",
+        "current_value": "101.283",
+        "at": "05/06/2013 21:50:18",
+        "max_value": "103.204",
+        "min_value": "0.0",
+        "tags": [
+          "Atmospheric Pressure"
+        ],
+        "unit": {
+          "symbol": "kPa",
+          "label": "kPa",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Nora-Humid",
+        "current_value": "43.527",
+        "at": "05/06/2013 21:50:18",
+        "max_value": "102.411331176758",
+        "min_value": "0.0",
+        "tags": [
+          "Relative Humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Nora-Temp",
+        "current_value": "23.732",
+        "at": "05/06/2013 21:50:18",
+        "max_value": "50.3692855834961",
+        "min_value": "-1.40633773803711",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "The Imp",
+      "domain": 0,
+      "lat": "37.3984599462046",
+      "lon": "-122.107629776001",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/75682\" >Nora-1-Office</a>",
+    "URLMostrar": "https://xively.com/feeds/75682"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\75682.json",
+  "DocumentJSON": null
+}

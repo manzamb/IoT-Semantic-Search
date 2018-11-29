@@ -1,0 +1,280 @@
+{
+  "Conceptos": [
+    "event"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "28814",
+    "title": "Weather Station",
+    "Private": false,
+    "tags": null,
+    "description": "TechnoLine WS-2350 via RF and Arduino using Practical Arduino's Weather Station Receiver code:\r\nhttp://www.practicalarduino.com/projects/weather-station-receiver. ",
+    "feed": "https://api.xively.com/v2/feeds/28814.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "12/28/2012 14:42:45",
+    "created": "06/26/2011 07:13:12",
+    "creator": "https://xively.com/users/marsflyer",
+    "version": null,
+    "website": "http://wattdata.blogspot.com",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "11.5",
+        "at": "12/28/2012 14:42:24",
+        "max_value": "75.1",
+        "min_value": "-8.9",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "91",
+        "at": "12/28/2012 14:42:24",
+        "max_value": "98.0",
+        "min_value": "0.0",
+        "tags": [
+          "Humidty"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "Humidity",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "690.4",
+        "at": "12/28/2012 14:42:24",
+        "max_value": "694.1",
+        "min_value": "0.0",
+        "tags": [
+          "Rain (Total)"
+        ],
+        "unit": {
+          "symbol": "mm",
+          "label": "mm",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "6.5",
+        "at": "12/28/2012 14:42:24",
+        "max_value": "30.8",
+        "min_value": "0.0",
+        "tags": [
+          "Wind Speed"
+        ],
+        "unit": {
+          "symbol": "m/s",
+          "label": "Metres/Second",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "315.0",
+        "at": "12/28/2012 14:42:24",
+        "max_value": "360.0",
+        "min_value": "0.0",
+        "tags": [
+          "Wind Direction"
+        ],
+        "unit": {
+          "symbol": "Deg",
+          "label": "Compass",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "8",
+        "at": "12/28/2012 14:42:24",
+        "max_value": "18155.0",
+        "min_value": "1.0",
+        "tags": [
+          "Packets"
+        ],
+        "unit": {
+          "symbol": "Count",
+          "label": "Count",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "25.6",
+        "at": "12/28/2012 14:42:45",
+        "max_value": "33.8",
+        "min_value": "15.0",
+        "tags": [
+          "Temperature Indoor"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "7",
+        "current_value": "1",
+        "at": "12/28/2012 14:42:45",
+        "max_value": "19322.0",
+        "min_value": "1.0",
+        "tags": [
+          "Posts"
+        ],
+        "unit": {
+          "symbol": "Count",
+          "label": "Count",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "8",
+        "current_value": "78",
+        "at": "12/28/2012 14:42:24",
+        "max_value": "362.0",
+        "min_value": "50.0",
+        "tags": [
+          "Cycles (Min for good packet))"
+        ],
+        "unit": {
+          "symbol": "Cycles",
+          "label": "Cycles",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "9",
+        "current_value": "Test",
+        "at": "04/21/2012 09:01:48",
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "Events"
+        ],
+        "unit": {
+          "symbol": "Text",
+          "label": "Text",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "COUNT",
+        "current_value": null,
+        "at": "09/14/2011 00:03:18",
+        "max_value": null,
+        "min_value": null,
+        "tags": null,
+        "unit": {
+          "symbol": "Units",
+          "label": "Count",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "DIR",
+        "current_value": "292.5",
+        "at": "09/14/2011 00:03:18",
+        "max_value": "360.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "Deg",
+          "label": "Compass",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "HUM",
+        "current_value": "79",
+        "at": "09/14/2011 00:03:18",
+        "max_value": "100.0",
+        "min_value": "30.0",
+        "tags": null,
+        "unit": {
+          "symbol": "%",
+          "label": "Humidity",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "RAIN",
+        "current_value": "185.8",
+        "at": "09/12/2011 21:38:27",
+        "max_value": "185.8",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "mm",
+          "label": "mm last hour",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "TEMP",
+        "current_value": "11.1",
+        "at": "09/14/2011 00:03:18",
+        "max_value": "35.0",
+        "min_value": "10.0",
+        "tags": null,
+        "unit": {
+          "symbol": "C",
+          "label": "Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "WIND",
+        "current_value": "2.7",
+        "at": "09/14/2011 00:03:18",
+        "max_value": "10.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "m/s",
+          "label": "Metres/second",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Chalk Farm",
+      "domain": 0,
+      "lat": "51.5454009492352",
+      "lon": "-0.155997276306152",
+      "ele": "10",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/28814\" >Weather Station</a>",
+    "URLMostrar": "https://xively.com/feeds/28814"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\28814.json",
+  "DocumentJSON": null
+}

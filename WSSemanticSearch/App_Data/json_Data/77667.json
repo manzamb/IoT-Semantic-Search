@@ -1,0 +1,73 @@
+{
+  "Conceptos": [
+    "condition"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "77667",
+    "title": "Environment Conditions",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "humidy",
+      "other sensors",
+      "Temperature"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/77667.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "10/26/2012 02:31:41",
+    "created": "09/27/2012 15:23:58",
+    "creator": "https://xively.com/users/johnkochjr",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Humidity",
+        "current_value": "47",
+        "at": "10/26/2012 02:31:41",
+        "max_value": "70.0",
+        "min_value": "37.0",
+        "tags": [
+          "Humidity sensor"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperature",
+        "current_value": "73",
+        "at": "10/26/2012 02:31:41",
+        "max_value": "89.0",
+        "min_value": "62.0",
+        "tags": [
+          "Temperature Senson"
+        ],
+        "unit": {
+          "symbol": "o",
+          "label": "deg",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/77667\" >Environment Conditions</a>",
+    "URLMostrar": "https://xively.com/feeds/77667"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\77667.json",
+  "DocumentJSON": null
+}

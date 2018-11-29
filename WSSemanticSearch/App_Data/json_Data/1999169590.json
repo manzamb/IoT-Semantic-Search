@@ -1,0 +1,84 @@
+{
+  "Conceptos": [
+    "co2"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "1999169590",
+    "title": "Cadiz, KY - Lake House Indoor",
+    "Private": false,
+    "tags": null,
+    "description": "2703167020@txt.att.net;dwood@hollison.com",
+    "feed": "https://api.xively.com/v2/feeds/1999169590.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "06/14/2013 21:08:59",
+    "created": "05/31/2013 14:41:28",
+    "creator": "https://xively.com/users/dw42211",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "CO2",
+        "current_value": "415",
+        "at": "06/14/2013 21:08:59",
+        "max_value": "1917.0",
+        "min_value": "402.0",
+        "tags": [
+          "CO2"
+        ],
+        "unit": {
+          "symbol": "ppm",
+          "label": "ppm",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Humidity",
+        "current_value": "55",
+        "at": "06/14/2013 21:08:59",
+        "max_value": "69.0",
+        "min_value": "48.0",
+        "tags": [
+          "%RH"
+        ],
+        "unit": {
+          "symbol": "%RH",
+          "label": "%RH",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperature",
+        "current_value": "73",
+        "at": "06/14/2013 21:08:59",
+        "max_value": "90.0",
+        "min_value": "69.0",
+        "tags": [
+          "Temp."
+        ],
+        "unit": {
+          "symbol": "degF",
+          "label": "degF",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Lake House",
+      "domain": 0,
+      "lat": "36.8217561831993",
+      "lon": "-87.9669713973999",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/1999169590\" >Cadiz, KY - Lake House Indoor</a>",
+    "URLMostrar": "https://xively.com/feeds/1999169590"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\1999169590.json",
+  "DocumentJSON": null
+}

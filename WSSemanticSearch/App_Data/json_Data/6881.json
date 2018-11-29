@@ -1,0 +1,89 @@
+{
+  "Conceptos": [
+    "right"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "6881",
+    "title": "埼玉 越谷 環境データ（2Fテレビ横）",
+    "Private": false,
+    "tags": [
+      "Archiduino",
+      "Architecture",
+      "Arduino",
+      "Monitoring"
+    ],
+    "description": "埼玉 越谷 環境データ（2Fテレビ横）",
+    "feed": "https://api.xively.com/v2/feeds/6881.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/19/2014 05:46:08",
+    "created": "04/20/2010 16:29:38",
+    "creator": "https://xively.com/users/entasan",
+    "version": null,
+    "website": "http://entasan.dyndns.org/",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "4.00",
+        "at": "03/19/2014 14:45:45",
+        "max_value": "933.0",
+        "min_value": "0.0",
+        "tags": [
+          "Brightness"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "[lx]",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "24.06",
+        "at": "03/19/2014 14:45:45",
+        "max_value": "38.23",
+        "min_value": "12.32",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "['C]",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "48.20",
+        "at": "03/19/2014 14:45:45",
+        "max_value": "87.77",
+        "min_value": "14.04",
+        "tags": [
+          "Humidity"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "[%RH]",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Japan Saitama Koshigaya",
+      "domain": 0,
+      "lat": "35.896688",
+      "lon": "139.787791",
+      "ele": "3",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/6881\" >埼玉 越谷 環境データ（2Fテレビ横）</a>",
+    "URLMostrar": "https://xively.com/feeds/6881"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\6881.json",
+  "DocumentJSON": null
+}

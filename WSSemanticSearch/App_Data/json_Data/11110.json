@@ -1,0 +1,100 @@
+{
+  "Conceptos": [
+    "precipitation"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "11110",
+    "title": "Figures of Jan",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/11110.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "12/05/2010 20:05:57",
+    "created": "10/19/2010 20:44:47",
+    "creator": "https://xively.com/users/fregment",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "30.0",
+        "at": "11/17/2010 22:54:51",
+        "max_value": "30.0",
+        "min_value": "16.0",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "1",
+        "at": "10/22/2010 11:59:32",
+        "max_value": "1.0",
+        "min_value": "1.0",
+        "tags": [
+          "wind speed"
+        ],
+        "unit": {
+          "symbol": "Bft",
+          "label": "Beaufort",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "2.3",
+        "at": "10/22/2010 11:59:32",
+        "max_value": "5.0",
+        "min_value": "2.3",
+        "tags": [
+          "precipitation"
+        ],
+        "unit": {
+          "symbol": "mm",
+          "label": "Millimetre",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "92",
+        "at": "10/22/2010 11:59:32",
+        "max_value": "94.0",
+        "min_value": "92.0",
+        "tags": [
+          "cloudiness"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "Percentage",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 1,
+      "disposition": 1
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/11110\" >Figures of Jan</a>",
+    "URLMostrar": "https://xively.com/feeds/11110"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\11110.json",
+  "DocumentJSON": null
+}

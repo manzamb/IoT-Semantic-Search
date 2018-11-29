@@ -1,0 +1,93 @@
+{
+  "Conceptos": [
+    "atmospheric pressure"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "66331",
+    "title": "Office Indoor Weather Station",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "humidity",
+      "indoor",
+      "pressure",
+      "temperature"
+    ],
+    "description": "Office indoor weather.",
+    "feed": "https://api.xively.com/v2/feeds/66331.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "10/17/2013 13:52:36",
+    "created": "07/06/2012 06:52:52",
+    "creator": "https://xively.com/users/daijo",
+    "version": null,
+    "website": "http://www.danielhjort.net",
+    "datastreams": [
+      {
+        "id": "01",
+        "current_value": "23.2",
+        "at": "10/17/2013 13:52:34",
+        "max_value": "35.2",
+        "min_value": "15.1",
+        "tags": [
+          "temp",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "02",
+        "current_value": "36.2",
+        "at": "10/17/2013 13:52:36",
+        "max_value": "50.7",
+        "min_value": "15.6",
+        "tags": [
+          "humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "03",
+        "current_value": "1022",
+        "at": "10/17/2013 13:50:23",
+        "max_value": "1028.0",
+        "min_value": "971.0",
+        "tags": [
+          "atmospheric",
+          "pressure",
+          "qfe"
+        ],
+        "unit": {
+          "symbol": "hPa",
+          "label": "hPa",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Yokohama, Kanagawa, Japan",
+      "domain": 0,
+      "lat": "35.4450058992132",
+      "lon": "139.645714759827",
+      "ele": "36m",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/66331\" >Office Indoor Weather Station</a>",
+    "URLMostrar": "https://xively.com/feeds/66331"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\66331.json",
+  "DocumentJSON": null
+}

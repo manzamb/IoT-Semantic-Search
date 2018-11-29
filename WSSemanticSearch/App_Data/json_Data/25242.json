@@ -1,0 +1,258 @@
+{
+  "Conceptos": [
+    "sensor output"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "25242",
+    "title": "Air to water Heat Pump System",
+    "Private": false,
+    "tags": null,
+    "description": "T61 - Outside air temperature, °C, Sensor type: DS18B20\r\nT62 - Heating water temperature, °C, Sensor type: DS18B20\r\nT63 - Return Heating water temperature, °C, Sensor type: DS18B20\r\nT64 - Refrigerant Gas temperature, °C, Sensor type: DS18B20\r\nT65 - Refrigerant Liquide temperature, °C, Sensor type: DS18B20\r\nT66 - Room temperature, °C, Sensor type: DS18B20\r\nF - Heating water flow, l/h\r\nPin - Input electrical power, kW\r\nPout - Output heat power, kW\r\nFan - External evaporator fan\r\n4-way valve - Valve for refrigerant way selection; 1=Heating; 0=Cooling/Defrosting\r\nQ61 - Electrical energy input, kWh\r\nQ62 - Heat energy output, kWh\r\n",
+    "feed": "https://api.xively.com/v2/feeds/25242.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:13:04",
+    "created": "05/16/2011 16:44:05",
+    "creator": "https://xively.com/users/2v6",
+    "version": null,
+    "website": "http://2v6.hobby-site.com/tp/tp03.html",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "16.562500",
+        "at": "03/21/2014 14:13:04",
+        "max_value": "33.5",
+        "min_value": "-8.5625",
+        "tags": [
+          "T61 - Outside air temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "19.375000",
+        "at": "03/21/2014 14:13:04",
+        "max_value": "47.375",
+        "min_value": "14.1875",
+        "tags": [
+          "T62 - Heating water temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "19.687500",
+        "at": "03/21/2014 14:13:04",
+        "max_value": "38.25",
+        "min_value": "12.0",
+        "tags": [
+          "T63 - Return Heating water temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "18.687500",
+        "at": "03/21/2014 14:13:04",
+        "max_value": "64.0",
+        "min_value": "10.75",
+        "tags": [
+          "T64 - Refrigerant Gas temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "0.000000",
+        "at": "03/21/2014 14:13:04",
+        "max_value": "1930.2949",
+        "min_value": "0.0",
+        "tags": [
+          "F"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "l/h",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "-0.000000",
+        "at": "03/21/2014 14:13:04",
+        "max_value": "22.716423",
+        "min_value": "-11.423078",
+        "tags": [
+          "Pout"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "kW",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "0",
+        "at": "03/21/2014 14:13:04",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "Fan"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "7",
+        "current_value": "0.000000",
+        "at": "03/21/2014 14:13:04",
+        "max_value": "5.115",
+        "min_value": "0.0",
+        "tags": [
+          "Pin"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "kW",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "8",
+        "current_value": "0",
+        "at": "03/21/2014 14:13:04",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "4-way valve"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "9",
+        "current_value": "7619.396000",
+        "at": "03/21/2014 14:13:04",
+        "max_value": "7619.396",
+        "min_value": "3994.3662",
+        "tags": [
+          "Q61 - Electrical energy input"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "kWh",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "10",
+        "current_value": "18.437500",
+        "at": "03/21/2014 14:13:04",
+        "max_value": "45.6875",
+        "min_value": "-32.5625",
+        "tags": [
+          "T65 - Refrigerant Liquide temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "11",
+        "current_value": "17725.100000",
+        "at": "03/21/2014 14:13:04",
+        "max_value": "17725.1",
+        "min_value": "9014.5674",
+        "tags": [
+          "Q62 - Heat energy output"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "kWh",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "12",
+        "current_value": "21.750000",
+        "at": "03/21/2014 14:13:04",
+        "max_value": "28.0",
+        "min_value": "19.4375",
+        "tags": [
+          "T66"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "13",
+        "current_value": "0",
+        "at": "03/21/2014 14:13:04",
+        "max_value": "9.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Sofia, Bulgaria; София, България ",
+      "domain": 0,
+      "lat": "42.6451659997261",
+      "lon": "23.2926893234253",
+      "ele": "690",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/25242\" >Air to water Heat Pump System</a>",
+    "URLMostrar": "https://xively.com/feeds/25242"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\25242.json",
+  "DocumentJSON": null
+}

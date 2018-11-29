@@ -1,0 +1,245 @@
+{
+  "Conceptos": [
+    "process"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "96533",
+    "title": "Raspberry Pi",
+    "Private": false,
+    "tags": [
+      "Pi",
+      "Raspberry",
+      "Raspberry Pi"
+    ],
+    "description": "First Raspberry Pi at home",
+    "feed": "https://api.xively.com/v2/feeds/96533.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "02/26/2014 17:25:03",
+    "created": "01/07/2013 21:12:13",
+    "creator": "https://xively.com/users/dereddy",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "cpu",
+        "current_value": "36",
+        "at": "02/26/2014 17:25:02",
+        "max_value": "99.0",
+        "min_value": "1.0",
+        "tags": [
+          "ARM",
+          "CPU",
+          "FPU",
+          "GPU"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "cpu_frequency",
+        "current_value": "700",
+        "at": "02/26/2014 17:25:02",
+        "max_value": "1000.0",
+        "min_value": "700.0",
+        "tags": [
+          "700 MHz",
+          "overclocking"
+        ],
+        "unit": {
+          "symbol": "MHz",
+          "label": "MHz",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "cpu_temp",
+        "current_value": "45.5\n",
+        "at": "02/26/2014 17:25:02",
+        "max_value": "61.6",
+        "min_value": "24.5",
+        "tags": [
+          "heat",
+          "no-heatsink"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "degree Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "free_mem",
+        "current_value": "21",
+        "at": "02/26/2014 17:25:02",
+        "max_value": "385.0",
+        "min_value": "9.0",
+        "tags": [
+          "512MB",
+          "RAM"
+        ],
+        "unit": {
+          "symbol": "MB",
+          "label": "MB",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "hdd",
+        "current_value": "4223",
+        "at": "02/26/2014 17:25:02",
+        "max_value": "5158.0",
+        "min_value": "1904.0",
+        "tags": [
+          "8GB",
+          "Class 10",
+          "SDHC"
+        ],
+        "unit": {
+          "symbol": "MB",
+          "label": "MB",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "network_receive",
+        "current_value": "61.78",
+        "at": "02/26/2014 17:25:02",
+        "max_value": "598.26",
+        "min_value": "0.0",
+        "tags": [
+          "eth0",
+          "input"
+        ],
+        "unit": {
+          "symbol": "MB",
+          "label": "MB",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "network_send",
+        "current_value": "2.62",
+        "at": "02/26/2014 17:25:02",
+        "max_value": "2690.88",
+        "min_value": "0.0",
+        "tags": [
+          "eth0",
+          "output"
+        ],
+        "unit": {
+          "symbol": "MB",
+          "label": "MB",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "network_total",
+        "current_value": "64.4",
+        "at": "02/26/2014 17:25:02",
+        "max_value": "2749.96",
+        "min_value": "0.0",
+        "tags": [
+          "eth0"
+        ],
+        "unit": {
+          "symbol": "MB",
+          "label": "MB",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "processes",
+        "current_value": "319",
+        "at": "02/26/2014 17:25:02",
+        "max_value": "496.0",
+        "min_value": "219.0",
+        "tags": [
+          "running"
+        ],
+        "unit": {
+          "symbol": "amount",
+          "label": "processes",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "uptime",
+        "current_value": "0.194",
+        "at": "02/26/2014 17:25:02",
+        "max_value": "553.92",
+        "min_value": "0.008",
+        "tags": [
+          "hours",
+          "time"
+        ],
+        "unit": {
+          "symbol": "hours",
+          "label": "hours",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "used_mem",
+        "current_value": "353",
+        "at": "02/26/2014 17:25:02",
+        "max_value": "429.0",
+        "min_value": "53.0",
+        "tags": [
+          "512MB",
+          "RAM"
+        ],
+        "unit": {
+          "symbol": "MB",
+          "label": "MB",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "volts_core",
+        "current_value": "1.20\n",
+        "at": "02/26/2014 17:25:02",
+        "max_value": "1.35",
+        "min_value": "1.2",
+        "tags": [
+          "core",
+          "voltmeter"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": "Volts",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Bavaria, Germany",
+      "domain": 0,
+      "lat": "49.0513842967744",
+      "lon": "11.7806696891785",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/96533\" >Raspberry Pi</a>",
+    "URLMostrar": "https://xively.com/feeds/96533"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\96533.json",
+  "DocumentJSON": null
+}

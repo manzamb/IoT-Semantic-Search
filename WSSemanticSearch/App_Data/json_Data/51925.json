@@ -1,0 +1,70 @@
+{
+  "Conceptos": [
+    "area"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "51925",
+    "title": "Toride_city_Omoa",
+    "Private": false,
+    "tags": [
+      "Toride_City_Area"
+    ],
+    "description": "「ガイガーfukushima」社製のiphone用のGM管によるセンサーにて測定中です。\r\nMSW－SMT311R\r\n\r\nX軸（横軸）は、時間ですが時間（世界標準時UTC)のようなので、9時間を足すと日本時間になるようです。",
+    "feed": "https://api.xively.com/v2/feeds/51925.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "04/12/2012 16:05:06",
+    "created": "03/14/2012 14:39:05",
+    "creator": "https://xively.com/users/torukitaoka",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "77",
+        "current_value": "0.00",
+        "at": "04/12/2012 16:05:06",
+        "max_value": "0.22",
+        "min_value": "0.0",
+        "tags": [
+          "test"
+        ],
+        "unit": {
+          "symbol": "µSv/h",
+          "label": "microsieverts per hour",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "78",
+        "current_value": "0",
+        "at": "04/12/2012 16:05:06",
+        "max_value": "35.0",
+        "min_value": "0.0",
+        "tags": [
+          "test"
+        ],
+        "unit": {
+          "symbol": "CPM",
+          "label": "counts per minute",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Toride_City_Area",
+      "domain": 0,
+      "lat": "35.8840403347898",
+      "lon": "140.114869096166",
+      "ele": "7.8",
+      "exposure": 0,
+      "disposition": 1
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/51925\" >Toride_city_Omoa</a>",
+    "URLMostrar": "https://xively.com/feeds/51925"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\51925.json",
+  "DocumentJSON": null
+}

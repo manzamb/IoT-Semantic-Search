@@ -1,0 +1,228 @@
+{
+  "Conceptos": [
+    "longitud"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "106837",
+    "title": "OBD GPS",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/106837.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/21/2013 16:07:25",
+    "created": "02/25/2013 13:41:17",
+    "creator": "https://xively.com/users/sosovirus",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "1",
+        "current_value": "3004.2111",
+        "at": "03/21/2013 16:07:25",
+        "max_value": "8960.0",
+        "min_value": "10.0",
+        "tags": [
+          "Car Latitude"
+        ],
+        "unit": {
+          "symbol": "o",
+          "label": "Degree",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "03101.1883",
+        "at": "03/21/2013 16:07:25",
+        "max_value": "3120.8763",
+        "min_value": "0.0",
+        "tags": [
+          "Car Longitude"
+        ],
+        "unit": {
+          "symbol": "o",
+          "label": "Degree",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "67.7",
+        "at": "03/21/2013 16:07:25",
+        "max_value": "215.2",
+        "min_value": "-369.2",
+        "tags": [
+          "Car Altitude"
+        ],
+        "unit": {
+          "symbol": "M",
+          "label": "Meters",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "0",
+        "at": "03/21/2013 16:07:25",
+        "max_value": "40.0",
+        "min_value": "0.0",
+        "tags": [
+          "Car Speed"
+        ],
+        "unit": {
+          "symbol": "M/s",
+          "label": "Meter/Sec",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "0",
+        "at": "03/21/2013 16:07:25",
+        "max_value": "70.0",
+        "min_value": "0.0",
+        "tags": [
+          "Battery Remaining Life"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "-40",
+        "at": "03/21/2013 16:07:25",
+        "max_value": "65496.0",
+        "min_value": "-40.0",
+        "tags": [
+          "Engine Coolant Temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "7",
+        "current_value": "0.00",
+        "at": "03/21/2013 16:07:25",
+        "max_value": "70.0",
+        "min_value": "0.0",
+        "tags": [
+          "Engine RPM"
+        ],
+        "unit": {
+          "symbol": "rpm",
+          "label": "rpm",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "8",
+        "current_value": "0",
+        "at": "03/21/2013 16:07:25",
+        "max_value": "80.0",
+        "min_value": "0.0",
+        "tags": [
+          "Vehicle Speed"
+        ],
+        "unit": {
+          "symbol": "Km/h",
+          "label": "Km/h",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "9",
+        "current_value": "-100.00",
+        "at": "03/21/2013 16:07:25",
+        "max_value": "90.0",
+        "min_value": "-100.0",
+        "tags": [
+          "Fuel Level Input"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "10",
+        "current_value": "0.00",
+        "at": "03/21/2013 16:07:25",
+        "max_value": "100.0",
+        "min_value": "0.0",
+        "tags": [
+          "Engine Fuel Rate"
+        ],
+        "unit": {
+          "symbol": "L/h",
+          "label": "L/h",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "11",
+        "current_value": "110",
+        "at": "02/25/2013 15:59:47",
+        "max_value": "110.0",
+        "min_value": "110.0",
+        "tags": [
+          "Trouble Codes"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "12",
+        "current_value": "120",
+        "at": "02/25/2013 15:59:47",
+        "max_value": "120.0",
+        "min_value": "120.0",
+        "tags": [
+          "VIN"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/106837\" >OBD GPS</a>",
+    "URLMostrar": "https://xively.com/feeds/106837"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\106837.json",
+  "DocumentJSON": null
+}

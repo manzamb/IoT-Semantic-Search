@@ -1,0 +1,517 @@
+{
+  "Conceptos": [
+    "man"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "93774",
+    "title": "centralina regolazione climatica",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "home heating regulation"
+    ],
+    "description": "arduino,home heating regulation",
+    "feed": "https://api.xively.com/v2/feeds/93774.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:12:49",
+    "created": "12/20/2012 10:55:38",
+    "creator": "https://xively.com/users/ilconteste",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "antigrip",
+        "current_value": "26",
+        "at": "03/21/2014 14:12:47",
+        "max_value": "49710.0",
+        "min_value": "-15847.0",
+        "tags": [
+          "giorni rimanenti antigrippagio"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "day",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "imp_valvola_pint",
+        "current_value": "0.00",
+        "at": "03/21/2014 14:12:47",
+        "max_value": "2000.0",
+        "min_value": "-10700.0",
+        "tags": [
+          "durata impulso valvola pint"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "mS",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "imp_valvola_pt",
+        "current_value": "0.00",
+        "at": "03/21/2014 14:12:47",
+        "max_value": "2000.0",
+        "min_value": "-29900.0",
+        "tags": [
+          "durata impulso valvola pt"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "mS",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "inverno_pint",
+        "current_value": "1",
+        "at": "03/21/2014 14:12:47",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "riscaldamento acceso pint"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "inverno_pt",
+        "current_value": "1",
+        "at": "03/21/2014 14:12:47",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "riscaldamento acceso pt"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "n_mov_valvola_pint",
+        "current_value": "0.00",
+        "at": "03/21/2014 14:12:47",
+        "max_value": "14146.0",
+        "min_value": "0.0",
+        "tags": [
+          "totale movimenti valvola pint"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "reg",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "n_mov_valvola_pt",
+        "current_value": "661.00",
+        "at": "03/21/2014 14:12:47",
+        "max_value": "23190.0",
+        "min_value": "0.0",
+        "tags": [
+          "totale movimenti valvola pt"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "reg",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "pompa_pint_ON",
+        "current_value": "0",
+        "at": "03/21/2014 14:12:47",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "pompa pint accesa"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "pompa_pt_ON",
+        "current_value": "1",
+        "at": "03/21/2014 14:12:47",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "pompa pt accesa"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "posizione_valvola_pint",
+        "current_value": "0.00",
+        "at": "03/21/2014 14:12:47",
+        "max_value": "71100.0",
+        "min_value": "0.0",
+        "tags": [
+          "valvola pint"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "mS",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "posizione_valvola_pt",
+        "current_value": "0.00",
+        "at": "03/21/2014 14:12:47",
+        "max_value": "70100.0",
+        "min_value": "0.0",
+        "tags": [
+          "valvola pt"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "mS",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "stufa_ON",
+        "current_value": "1",
+        "at": "03/21/2014 14:12:47",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "stufa accesa"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "T_board",
+        "current_value": "32.90",
+        "at": "03/21/2014 14:12:47",
+        "max_value": "38.2",
+        "min_value": "-127.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "T_ext",
+        "current_value": "17.10",
+        "at": "03/21/2014 14:12:47",
+        "max_value": "35.8",
+        "min_value": "-2.4",
+        "tags": [
+          "T esterna"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "C°",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "T_fumi_stufa",
+        "current_value": "30.50",
+        "at": "03/21/2014 14:12:47",
+        "max_value": "140.0",
+        "min_value": "0.0",
+        "tags": [
+          "T fumi stufa"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "C°",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "T_mand_calc_pint",
+        "current_value": "0.00",
+        "at": "03/21/2014 14:12:47",
+        "max_value": "69.3",
+        "min_value": "0.0",
+        "tags": [
+          "T mandata calcolata pint"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "C°",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "T_mand_calc_pt",
+        "current_value": "19.50",
+        "at": "03/21/2014 14:12:47",
+        "max_value": "28.6",
+        "min_value": "-6.7",
+        "tags": [
+          "T mandata calcolata pt"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "C°",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "T_mand_cald_pt",
+        "current_value": "39.50",
+        "at": "03/21/2014 14:12:47",
+        "max_value": "59.3",
+        "min_value": "19.5",
+        "tags": [
+          "T mandata caldaia"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "C°",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "T_mand_pint",
+        "current_value": "21.60",
+        "at": "03/21/2014 14:12:47",
+        "max_value": "42.0",
+        "min_value": "16.1",
+        "tags": [
+          "T mandata pint"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "C°",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "T_mand_pt",
+        "current_value": "21.20",
+        "at": "03/21/2014 14:12:47",
+        "max_value": "33.5",
+        "min_value": "18.7",
+        "tags": [
+          "T mandata pt"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "C°",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Tm_stufa",
+        "current_value": "40.50",
+        "at": "03/21/2014 14:12:47",
+        "max_value": "73.4",
+        "min_value": "-127.0",
+        "tags": [
+          "T mandata stufa"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "C°",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "T_pint",
+        "current_value": "19.70",
+        "at": "03/21/2014 14:12:47",
+        "max_value": "21.3",
+        "min_value": "-128.0",
+        "tags": [
+          "T ambiente pint"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "C°",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "T_pt",
+        "current_value": "21.20",
+        "at": "03/21/2014 14:12:47",
+        "max_value": "21.9",
+        "min_value": "-127.4",
+        "tags": [
+          "T ambiente pt"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "C°",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "T_rit_cald_pt",
+        "current_value": "46.10",
+        "at": "03/21/2014 14:12:47",
+        "max_value": "57.1",
+        "min_value": "19.8",
+        "tags": [
+          "T ritorno caldaia"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "C°",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "T_rit_pint",
+        "current_value": "21.00",
+        "at": "03/21/2014 14:12:47",
+        "max_value": "44.9",
+        "min_value": "-127.0",
+        "tags": [
+          "T ritorno pint"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "C°",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "T_rit_pt",
+        "current_value": "21.20",
+        "at": "03/21/2014 14:12:47",
+        "max_value": "33.0",
+        "min_value": "18.8",
+        "tags": [
+          "T ritorno pt"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "C°",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Tr_stufa",
+        "current_value": "0.00",
+        "at": "03/21/2014 14:12:47",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "T ritorno stufa"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "C°",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "T_set_pint",
+        "current_value": "16.00",
+        "at": "03/21/2014 14:12:47",
+        "max_value": "201.3",
+        "min_value": "14.0",
+        "tags": [
+          "T set amb pint"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "C°",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "T_set_pt",
+        "current_value": "20.50",
+        "at": "03/21/2014 14:12:47",
+        "max_value": "22.0",
+        "min_value": "16.5",
+        "tags": [
+          "T set amb pt"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "C°",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "valvola_CT_ON",
+        "current_value": "0",
+        "at": "03/21/2014 14:12:47",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "valvola CT aperta"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "45.6130768021611",
+      "lon": "9.0087890625",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/93774\" >centralina regolazione climatica</a>",
+    "URLMostrar": "https://xively.com/feeds/93774"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\93774.json",
+  "DocumentJSON": null
+}

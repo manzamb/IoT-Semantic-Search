@@ -1,0 +1,97 @@
+{
+  "Conceptos": [
+    "air quality"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "102108",
+    "title": "Air Quality Skopje - Station 1 - Bul. Ilinden",
+    "Private": false,
+    "tags": [
+      "air quality",
+      "arduino",
+      "hackerspace",
+      "hacklab kika"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/102108.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:09:06",
+    "created": "02/02/2013 14:11:54",
+    "creator": "https://xively.com/users/aleksmk",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "CO",
+        "current_value": "5",
+        "at": "03/21/2014 14:09:06",
+        "max_value": "100.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "humidity",
+        "current_value": "17",
+        "at": "03/21/2014 14:09:06",
+        "max_value": "75.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "NO2",
+        "current_value": "0",
+        "at": "03/21/2014 14:09:06",
+        "max_value": "63.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temperature",
+        "current_value": "32",
+        "at": "03/21/2014 14:09:06",
+        "max_value": "65535.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/102108\" >Air Quality Skopje - Station 1 - Bul. Ilinden</a>",
+    "URLMostrar": "https://xively.com/feeds/102108"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\102108.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,120 @@
+{
+  "Conceptos": [
+    "environment"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "90060",
+    "title": "ENV1",
+    "Private": false,
+    "tags": [
+      "environment",
+      "temperature",
+      "wind"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/90060.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/20/2014 22:08:13",
+    "created": "12/05/2012 13:50:46",
+    "creator": "https://xively.com/users/saldanhaenvironment",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "11",
+        "current_value": "111.00",
+        "at": "03/20/2014 22:08:09",
+        "max_value": "357.0",
+        "min_value": "3.0",
+        "tags": [
+          "Wind Direction"
+        ],
+        "unit": {
+          "symbol": "°",
+          "label": "Degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "12",
+        "current_value": "8.35",
+        "at": "03/20/2014 22:08:09",
+        "max_value": "42.01",
+        "min_value": "0.0",
+        "tags": [
+          "Hourly Average Wind Speed"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "km/h",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "13",
+        "current_value": "15.70",
+        "at": "03/20/2014 22:08:10",
+        "max_value": "37.4",
+        "min_value": "5.6",
+        "tags": [
+          "Ambient Temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "14",
+        "current_value": "82.20",
+        "at": "03/20/2014 22:08:10",
+        "max_value": "97.3",
+        "min_value": "0.2",
+        "tags": [
+          "Relative Humidity"
+        ],
+        "unit": {
+          "symbol": "U",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "20",
+        "current_value": "3.00",
+        "at": "03/20/2014 22:08:12",
+        "max_value": "1176.66",
+        "min_value": "2.07",
+        "tags": [
+          "Solar Radiation"
+        ],
+        "unit": {
+          "symbol": "H",
+          "label": "W/m²",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Environmental Station 1",
+      "domain": 0,
+      "lat": "-32.9663130972409",
+      "lon": "18.0258822441101",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/90060\" >ENV1</a>",
+    "URLMostrar": "https://xively.com/feeds/90060"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\90060.json",
+  "DocumentJSON": null
+}

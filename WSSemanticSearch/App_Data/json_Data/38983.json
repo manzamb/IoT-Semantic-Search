@@ -1,0 +1,68 @@
+{
+  "Conceptos": [
+    "amount"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "38983",
+    "title": "amount of radiation",
+    "Private": false,
+    "tags": null,
+    "description": "Measurement Results of radiation levels in Kawasaki City.",
+    "feed": "https://api.xively.com/v2/feeds/38983.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "01/26/2012 02:21:02",
+    "created": "11/08/2011 12:05:13",
+    "creator": "https://xively.com/users/senionetworks",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "0.143035",
+        "at": "01/26/2012 02:21:02",
+        "max_value": "0.224805",
+        "min_value": "0.0",
+        "tags": [
+          "1 hour average"
+        ],
+        "unit": {
+          "symbol": "uSv/h",
+          "label": "uSv/h",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "18.451612",
+        "at": "01/26/2012 02:21:02",
+        "max_value": "29.0",
+        "min_value": "0.0",
+        "tags": [
+          "1 hour average"
+        ],
+        "unit": {
+          "symbol": "cpm",
+          "label": "cpm",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Kawasaki City, Kanagawa Japan",
+      "domain": 0,
+      "lat": "35.5947856654872",
+      "lon": "139.620544910431",
+      "ele": "15 metres",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/38983\" >amount of radiation</a>",
+    "URLMostrar": "https://xively.com/feeds/38983"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\38983.json",
+  "DocumentJSON": null
+}

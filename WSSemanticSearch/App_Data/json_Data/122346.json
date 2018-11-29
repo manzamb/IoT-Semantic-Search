@@ -1,0 +1,120 @@
+{
+  "Conceptos": [
+    "sensor output"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "122346",
+    "title": "Alpha output",
+    "Private": false,
+    "tags": [
+      "arduino"
+    ],
+    "description": "Alpha trial at home measurements",
+    "feed": "https://api.xively.com/v2/feeds/122346.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "08/13/2013 13:28:16",
+    "created": "04/02/2013 21:10:48",
+    "creator": "https://xively.com/users/eirich",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Temp1",
+        "current_value": "20.12",
+        "at": "08/13/2013 13:28:15",
+        "max_value": "85.0",
+        "min_value": "-127.0",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temp2",
+        "current_value": "22.69",
+        "at": "08/13/2013 13:28:15",
+        "max_value": "85.0",
+        "min_value": "-127.0",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temp3",
+        "current_value": "21.25",
+        "at": "08/13/2013 13:28:15",
+        "max_value": "85.0",
+        "min_value": "-127.0",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temp4",
+        "current_value": "21.56",
+        "at": "08/13/2013 13:28:15",
+        "max_value": "85.0",
+        "min_value": "-127.0",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Well1",
+        "current_value": "43.2",
+        "at": "08/13/2013 13:28:15",
+        "max_value": "48.5",
+        "min_value": "25.5",
+        "tags": [
+          "hight",
+          "IR sensor",
+          "Water"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "cm",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Granbacka",
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/122346\" >Alpha output</a>",
+    "URLMostrar": "https://xively.com/feeds/122346"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\122346.json",
+  "DocumentJSON": null
+}

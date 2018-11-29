@@ -1,0 +1,236 @@
+{
+  "Conceptos": [
+    "process"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "42961",
+    "title": "Antigelo Caldaia Misure",
+    "Private": false,
+    "tags": [
+      "antigelo",
+      "arduino",
+      "automation",
+      "caldaia",
+      "domotica",
+      "integrated",
+      "process"
+    ],
+    "description": "Gestione antigelo caldaia",
+    "feed": "https://api.xively.com/v2/feeds/42961.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:09:54",
+    "created": "12/29/2011 20:17:04",
+    "creator": "https://xively.com/users/kattivik76",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "23.12",
+        "at": "03/21/2014 14:09:53",
+        "max_value": "99.0",
+        "min_value": "-127.0",
+        "tags": [
+          "Temp_In_H2O"
+        ],
+        "unit": {
+          "symbol": "TT-T01",
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "25.44",
+        "at": "03/21/2014 14:09:53",
+        "max_value": "103.87",
+        "min_value": "-127.0",
+        "tags": [
+          "Temp_Out_H2O"
+        ],
+        "unit": {
+          "symbol": "TT-T02",
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "24.31",
+        "at": "03/21/2014 14:09:53",
+        "max_value": "65.0",
+        "min_value": "-127.0",
+        "tags": [
+          "Temp_External"
+        ],
+        "unit": {
+          "symbol": "TT-T03",
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "25.81",
+        "at": "03/21/2014 14:09:53",
+        "max_value": "46.0",
+        "min_value": "-127.0",
+        "tags": [
+          "Temp_Ambient"
+        ],
+        "unit": {
+          "symbol": "TT-T04",
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "5",
+        "at": "10/27/2012 20:54:04",
+        "max_value": "111010.0",
+        "min_value": "-2.0",
+        "tags": [
+          "SP_Start_CS_In"
+        ],
+        "unit": {
+          "symbol": "SP-START-01",
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "10",
+        "at": "12/08/2012 09:46:50",
+        "max_value": "45.0",
+        "min_value": "0.0",
+        "tags": [
+          "SP_Stop_CS_In"
+        ],
+        "unit": {
+          "symbol": "SP-STOP-01",
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "5",
+        "at": "10/27/2012 20:54:21",
+        "max_value": "30.0",
+        "min_value": "0.0",
+        "tags": [
+          "SP_Start_CS_Out"
+        ],
+        "unit": {
+          "symbol": "SP-START-02",
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "7",
+        "current_value": "10",
+        "at": "12/08/2012 09:46:56",
+        "max_value": "50.0",
+        "min_value": "0.0",
+        "tags": [
+          "SP_Stop_CS_Out"
+        ],
+        "unit": {
+          "symbol": "SP-STOP-02",
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "8",
+        "current_value": "1",
+        "at": "09/30/2012 23:54:31",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "ENABLE_LOGIC"
+        ],
+        "unit": {
+          "symbol": "ENABLE",
+          "label": "BOOL",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "9",
+        "current_value": "0",
+        "at": "03/21/2014 14:09:54",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "ST_CS_IN_H2O"
+        ],
+        "unit": {
+          "symbol": "OUT-1",
+          "label": "BOOL",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "10",
+        "current_value": "0",
+        "at": "03/21/2014 14:09:54",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "ST_CS_OUT_H2O"
+        ],
+        "unit": {
+          "symbol": "OUT-2",
+          "label": "BOOL",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "11",
+        "current_value": "0",
+        "at": "03/21/2014 14:09:54",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "ST_CS_GAS"
+        ],
+        "unit": {
+          "symbol": "OUT-3",
+          "label": "BOOL",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Galliate",
+      "domain": 0,
+      "lat": "45.4793844990854",
+      "lon": "8.69959473609924",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/42961\" >Antigelo Caldaia Misure</a>",
+    "URLMostrar": "https://xively.com/feeds/42961"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\42961.json",
+  "DocumentJSON": null
+}

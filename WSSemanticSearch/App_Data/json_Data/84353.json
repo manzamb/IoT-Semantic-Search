@@ -1,0 +1,98 @@
+{
+  "Conceptos": [
+    "pst"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "84353",
+    "title": "Home Energy Usage (Raspberry Pi)",
+    "Private": false,
+    "tags": [
+      "currentcost",
+      "energy",
+      "raspberry",
+      "raspberrypi",
+      "temperature"
+    ],
+    "description": "This feed contains data pulled from an old CurrentCost CC128 energy monitor, and pushed to Cosm using a Raspberry Pi.\r\n\r\nThe code to actually push the updates to Cosm is given in the public website url. I don't really know python so it's probably horrible code, but it seems to work\r\n\r\nThe script should work just being run manually, but I added a little upstart config to run it as a system service so it will automatically start when the Raspberry Pi is booted.",
+    "feed": "https://api.xively.com/v2/feeds/84353.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "04/08/2013 10:51:06",
+    "created": "11/07/2012 16:11:48",
+    "creator": "https://xively.com/users/sam",
+    "version": null,
+    "website": "https://gist.github.com/4044595",
+    "datastreams": [
+      {
+        "id": "kwh",
+        "current_value": "0.000873",
+        "at": "04/08/2013 10:51:06",
+        "max_value": "0.008222",
+        "min_value": "0.000338",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "kWh",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "system_temp",
+        "current_value": "43.312",
+        "at": "04/08/2013 10:51:06",
+        "max_value": "44.388",
+        "min_value": "-921329.784",
+        "tags": null,
+        "unit": {
+          "symbol": "C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temperature",
+        "current_value": "20.8",
+        "at": "04/08/2013 10:51:06",
+        "max_value": "21.4",
+        "min_value": "18.1",
+        "tags": null,
+        "unit": {
+          "symbol": "C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "watts",
+        "current_value": "524",
+        "at": "04/08/2013 10:51:06",
+        "max_value": "4933.0",
+        "min_value": "203.0",
+        "tags": null,
+        "unit": {
+          "symbol": "W",
+          "label": "Watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "55.8271954052941",
+      "lon": "-3.22120428085327",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/84353\" >Home Energy Usage (Raspberry Pi)</a>",
+    "URLMostrar": "https://xively.com/feeds/84353"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\84353.json",
+  "DocumentJSON": null
+}

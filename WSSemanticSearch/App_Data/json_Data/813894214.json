@@ -1,0 +1,212 @@
+{
+  "Conceptos": [
+    "azione"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "813894214",
+    "title": "Impianto FV Rosello 992,64 kWp",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/813894214.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "01/22/2014 06:52:00",
+    "created": "12/02/2013 15:29:09",
+    "creator": "https://xively.com/users/impiantifv",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "DeltaEgiorno",
+        "current_value": null,
+        "at": "12/02/2013 15:47:10",
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "Differenza Energia Giorno"
+        ],
+        "unit": {
+          "symbol": "kWh",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "DeltaEmese",
+        "current_value": "-4180.134648437503",
+        "at": "01/12/2014 06:23:11",
+        "max_value": "17754.2251171875",
+        "min_value": "-34220.75046875",
+        "tags": [
+          "Differenza Energia Mese"
+        ],
+        "unit": {
+          "symbol": "kWh",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Emese",
+        "current_value": "46359.9853515625",
+        "at": "01/12/2014 06:23:49",
+        "max_value": "62619.9951171875",
+        "min_value": "10645.01953125",
+        "tags": [
+          "Energia Prodotta Mese"
+        ],
+        "unit": {
+          "symbol": "kWh",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Eoggi",
+        "current_value": "0.0",
+        "at": "01/12/2014 06:23:49",
+        "max_value": "3834.96093749255",
+        "min_value": "0.0",
+        "tags": [
+          "Energia Prodotta Oggi"
+        ],
+        "unit": {
+          "symbol": "kWh",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "FaultInv1",
+        "current_value": "0.0",
+        "at": "01/12/2014 06:23:12",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "Codice Errore Inverter 1"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "FaultInv2",
+        "current_value": "0.0",
+        "at": "01/22/2014 06:52:00",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "Codice Errore Inverter 2"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Irr",
+        "current_value": "1.0",
+        "at": "01/12/2014 06:23:49",
+        "max_value": "845.0",
+        "min_value": "0.0",
+        "tags": [
+          "Irraggiamento"
+        ],
+        "unit": {
+          "symbol": "W/m²",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Pac",
+        "current_value": "0.0",
+        "at": "01/12/2014 06:23:10",
+        "max_value": "753.2",
+        "min_value": "0.0",
+        "tags": [
+          "Potenza Istantanea Immessa in Rete"
+        ],
+        "unit": {
+          "symbol": "kW",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "PRoggi",
+        "current_value": "0.0",
+        "at": "01/12/2014 06:23:10",
+        "max_value": "95.1452028218275",
+        "min_value": "0.0",
+        "tags": [
+          "Prestazione Oggi"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "RadMese",
+        "current_value": "47.6356",
+        "at": "01/22/2014 06:52:00",
+        "max_value": "105.165483333333",
+        "min_value": "0.377833333333333",
+        "tags": [
+          "Radiazione Mese"
+        ],
+        "unit": {
+          "symbol": "kWh/m²",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "RadOggi",
+        "current_value": "8.333333333333334E-4",
+        "at": "01/12/2014 06:23:11",
+        "max_value": "4.9405",
+        "min_value": "0.0",
+        "tags": [
+          "Radiazione Oggi"
+        ],
+        "unit": {
+          "symbol": "kWh/m²",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/813894214\" >Impianto FV Rosello 992,64 kWp</a>",
+    "URLMostrar": "https://xively.com/feeds/813894214"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\813894214.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,68 @@
+{
+  "Conceptos": [
+    "mp10"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "34733",
+    "title": "ASM Conditions",
+    "Private": false,
+    "tags": null,
+    "description": "Temperature and ambient light data via Netduino Plus using SparkFun TMP102 and TEMT6000 sensors. Sensors not calibrated very well and data is output using integer values.",
+    "feed": "https://api.xively.com/v2/feeds/34733.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "08/27/2011 11:35:23",
+    "created": "08/25/2011 11:51:07",
+    "creator": "https://xively.com/users/elwood",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "AmbientLight",
+        "current_value": "19",
+        "at": "08/27/2011 11:35:23",
+        "max_value": "22.0",
+        "min_value": "0.0",
+        "tags": [
+          "light"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperature",
+        "current_value": "82",
+        "at": "08/27/2011 11:35:23",
+        "max_value": "348.0",
+        "min_value": "32.0",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "°F",
+          "label": "°F",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Salt Lake City, UT",
+      "domain": 0,
+      "lat": "40.758183",
+      "lon": "-111.824340898148",
+      "ele": "1370",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/34733\" >ASM Conditions</a>",
+    "URLMostrar": "https://xively.com/feeds/34733"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\34733.json",
+  "DocumentJSON": null
+}

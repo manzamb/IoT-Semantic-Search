@@ -1,0 +1,120 @@
+{
+  "Conceptos": [
+    "humedad"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "103089",
+    "title": "ALBI ARDUINO",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "humedad",
+      "temperaura"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/103089.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "09/24/2013 19:18:07",
+    "created": "02/07/2013 01:24:15",
+    "creator": "https://xively.com/users/kilowattio",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "HUMEDAD_EXTERIOR",
+        "current_value": "18.00",
+        "at": "09/24/2013 19:18:07",
+        "max_value": "91.0",
+        "min_value": "0.0",
+        "tags": [
+          "CALLE"
+        ],
+        "unit": {
+          "symbol": "HUMEDAD (%)",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "HUMEDAD_INTERIOR",
+        "current_value": "44.00",
+        "at": "09/24/2013 19:18:07",
+        "max_value": "61.0",
+        "min_value": "-99.0",
+        "tags": [
+          "SALON"
+        ],
+        "unit": {
+          "symbol": "HUMEDAD (%)",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "ILUMINACION",
+        "current_value": "164.00",
+        "at": "09/24/2013 19:18:07",
+        "max_value": "32532.0",
+        "min_value": "-31421.0",
+        "tags": [
+          "SALON"
+        ],
+        "unit": {
+          "symbol": "ILUMINACION (LUX)",
+          "label": "LUX",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "TEMPERATURA_EXTERIOR",
+        "current_value": "23.00",
+        "at": "09/24/2013 19:18:07",
+        "max_value": "128.0",
+        "min_value": "0.0",
+        "tags": [
+          "CALLE"
+        ],
+        "unit": {
+          "symbol": "TEMPERATURA (C)",
+          "label": "GRADOS CENTIGRADOS",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "TEMPERATURA_INTERIOR",
+        "current_value": "25.00",
+        "at": "09/24/2013 19:18:07",
+        "max_value": "26.0",
+        "min_value": "-99.0",
+        "tags": [
+          "SALON"
+        ],
+        "unit": {
+          "symbol": "TEMPERATURA (C)",
+          "label": "GRADOS CENTIGRADOS",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/103089\" >ALBI ARDUINO</a>",
+    "URLMostrar": "https://xively.com/feeds/103089"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\103089.json",
+  "DocumentJSON": null
+}

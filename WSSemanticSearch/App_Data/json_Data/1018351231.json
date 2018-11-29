@@ -1,0 +1,52 @@
+{
+  "Conceptos": [
+    "temperatura"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "1018351231",
+    "title": "Test",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/1018351231.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "02/05/2014 11:15:37",
+    "created": "06/06/2013 07:39:48",
+    "creator": "https://xively.com/users/hydromates",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "sensor1",
+        "current_value": "0.00",
+        "at": "02/05/2014 11:15:37",
+        "max_value": "32.63",
+        "min_value": "0.0",
+        "tags": [
+          "Temperatura"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Gradi",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/1018351231\" >Test</a>",
+    "URLMostrar": "https://xively.com/feeds/1018351231"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\1018351231.json",
+  "DocumentJSON": null
+}

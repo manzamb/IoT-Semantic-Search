@@ -1,0 +1,74 @@
+{
+  "Conceptos": [
+    "accuracy"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "99836",
+    "title": "SukkoBrew 5 (IPA) Fermentation Temperature",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "dht11",
+      "humidity",
+      "sensor",
+      "temperature"
+    ],
+    "description": "Note that the sensor used (DHT11) has 5% accuracy for humidity readings and ±2°C accuracy for temperature readings.\r\n\r\nThe sensor itself rests is fixed to the side of the carboy with a piece of tape.",
+    "feed": "https://api.xively.com/v2/feeds/99836.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/03/2013 16:09:27",
+    "created": "01/22/2013 20:36:54",
+    "creator": "https://xively.com/users/sukkopera",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "humidity",
+        "current_value": "33.00",
+        "at": "03/03/2013 16:09:27",
+        "max_value": "33.0",
+        "min_value": "32.0",
+        "tags": [
+          "humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temperature",
+        "current_value": "20.00",
+        "at": "03/03/2013 16:09:27",
+        "max_value": "23.0",
+        "min_value": "19.0",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Giardinetto",
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/99836\" >SukkoBrew 5 (IPA) Fermentation Temperature</a>",
+    "URLMostrar": "https://xively.com/feeds/99836"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\99836.json",
+  "DocumentJSON": null
+}

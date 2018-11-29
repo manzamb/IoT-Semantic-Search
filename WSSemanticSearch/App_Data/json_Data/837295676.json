@@ -1,0 +1,221 @@
+{
+  "Conceptos": [
+    "pst"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "837295676",
+    "title": "Raspberry Pi: caipirinha",
+    "Private": false,
+    "tags": [
+      "monitoring",
+      "raspberrypi"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/837295676.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/17/2014 16:04:07",
+    "created": "06/03/2013 23:57:43",
+    "creator": "https://xively.com/users/martinclaro",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "cpu_load_01",
+        "current_value": "0.89",
+        "at": "03/17/2014 16:04:07",
+        "max_value": "3.35",
+        "min_value": "0.0",
+        "tags": [
+          "cpu",
+          "load"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "CPU Load 1m",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "cpu_load_05",
+        "current_value": "0.40",
+        "at": "03/17/2014 16:04:07",
+        "max_value": "1.84",
+        "min_value": "0.01",
+        "tags": [
+          "cpu",
+          "load"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "CPU Load 5m",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "cpu_load_15",
+        "current_value": "0.19",
+        "at": "03/17/2014 16:04:07",
+        "max_value": "1.1",
+        "min_value": "0.05",
+        "tags": [
+          "cpu",
+          "load"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "CPU Load 15m",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "cpu_temp",
+        "current_value": "49.77",
+        "at": "03/17/2014 16:04:07",
+        "max_value": "85.0",
+        "min_value": "31.48",
+        "tags": [
+          "cpu",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "CPU Temp",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "cpu_usage",
+        "current_value": "100.00",
+        "at": "03/17/2014 16:04:07",
+        "max_value": "100.0",
+        "min_value": "0.0",
+        "tags": [
+          "cpu",
+          "load"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "CPU Usage",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "gpu_temp",
+        "current_value": "49.80",
+        "at": "03/17/2014 16:04:07",
+        "max_value": "57.3",
+        "min_value": "32.6",
+        "tags": [
+          "gpu",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "GPU Temp",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "mem_cached",
+        "current_value": "309.59",
+        "at": "03/17/2014 16:04:07",
+        "max_value": "375.65",
+        "min_value": "24.66",
+        "tags": [
+          "memory"
+        ],
+        "unit": {
+          "symbol": "MB",
+          "label": "Memory Cached",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "mem_free",
+        "current_value": "375.02",
+        "at": "03/17/2014 16:04:07",
+        "max_value": "421.07",
+        "min_value": "303.76",
+        "tags": [
+          "memory"
+        ],
+        "unit": {
+          "symbol": "MB",
+          "label": "Memory Free",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "mem_used",
+        "current_value": "62.66",
+        "at": "03/17/2014 16:04:07",
+        "max_value": "134.46",
+        "min_value": "17.15",
+        "tags": [
+          "memory"
+        ],
+        "unit": {
+          "symbol": "MB",
+          "label": "Memory Used",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "net_downstream",
+        "current_value": "77.17",
+        "at": "03/17/2014 16:04:07",
+        "max_value": "8959.77",
+        "min_value": "0.0",
+        "tags": [
+          "network"
+        ],
+        "unit": {
+          "symbol": "Kbps",
+          "label": "Dowstream Speed",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "net_upstream",
+        "current_value": "3.27",
+        "at": "03/17/2014 16:04:07",
+        "max_value": "137.37",
+        "min_value": "0.0",
+        "tags": [
+          "network"
+        ],
+        "unit": {
+          "symbol": "Kbps",
+          "label": "Upstream Speed",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "caipirinha",
+      "domain": 0,
+      "lat": "-34.5659",
+      "lon": "-58.493939",
+      "ele": "0",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/837295676\" >Raspberry Pi: caipirinha</a>",
+    "URLMostrar": "https://xively.com/feeds/837295676"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\837295676.json",
+  "DocumentJSON": null
+}

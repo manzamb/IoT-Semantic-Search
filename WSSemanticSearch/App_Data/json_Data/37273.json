@@ -1,0 +1,123 @@
+{
+  "Conceptos": [
+    "unit of measure"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "37273",
+    "title": "HackerSpace Brussels temperature monitor and Light",
+    "Private": false,
+    "tags": [
+      "hackers",
+      "temperature"
+    ],
+    "description": "Monitoring club's temperature.\r\n100+- sq meters, no heating (yet) two skylights.\r\n\r\nThe how-to and the code is available at: http://blog.rafaeltorrales.info/2011/10/14/nanode-and-pachube-for-the-rest-of-us/\r\n\r\n\r\n\r\nBefore you ask, here is where I found my units:\r\nhttp://www.neatorama.com/2009/01/30/fun-and-unusual-units-of-measurements/",
+    "feed": "https://api.xively.com/v2/feeds/37273.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "08/13/2012 12:21:56",
+    "created": "10/12/2011 10:14:02",
+    "creator": "https://xively.com/users/netrunner",
+    "version": null,
+    "website": "https://hackerspace.be",
+    "datastreams": [
+      {
+        "id": "Humidity",
+        "current_value": "51.20",
+        "at": "08/04/2012 21:24:57",
+        "max_value": "68.2",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Humidity2",
+        "current_value": "50.50",
+        "at": "08/04/2012 21:25:03",
+        "max_value": "59.7",
+        "min_value": "43.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "TempDHT",
+        "current_value": "24.20",
+        "at": "08/04/2012 21:24:57",
+        "max_value": "28.6",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "°C",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "TempDHT2",
+        "current_value": "24.40",
+        "at": "08/04/2012 21:25:03",
+        "max_value": "28.8",
+        "min_value": "20.8",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperature",
+        "current_value": "4.43",
+        "at": "08/04/2012 21:24:57",
+        "max_value": "328.64",
+        "min_value": "-17.84",
+        "tags": null,
+        "unit": {
+          "symbol": "°C",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperature2",
+        "current_value": "-63.68",
+        "at": "08/04/2012 21:25:03",
+        "max_value": "8.9",
+        "min_value": "-273.15",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "HSBXL, Brussels, Belgium",
+      "domain": 0,
+      "lat": "50.87306",
+      "lon": "4.37685999999997",
+      "ele": "0",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/37273\" >HackerSpace Brussels temperature monitor and Light</a>",
+    "URLMostrar": "https://xively.com/feeds/37273"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\37273.json",
+  "DocumentJSON": null
+}

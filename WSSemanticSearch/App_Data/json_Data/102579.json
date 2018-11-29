@@ -1,0 +1,186 @@
+{
+  "Conceptos": [
+    "dew cell"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "102579",
+    "title": "Weather Station (Barcelona)",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "barcelona",
+      "BMP085",
+      "dew point",
+      "DHT22",
+      "fio",
+      "humidity",
+      "LiPo cell",
+      "pressure",
+      "solar panel",
+      "temperatura",
+      "weather",
+      "xbee"
+    ],
+    "description": "Outdoor weather station with an Arduino Fio, Xbee radio, DHT22 and BMP085 sensors. Powered by a 850mAh LiPo battery and a 6V 2W solar panel (soon).",
+    "feed": "https://api.xively.com/v2/feeds/102579.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:06:40",
+    "created": "02/04/2013 22:42:44",
+    "creator": "https://xively.com/users/xose",
+    "version": null,
+    "website": "http://tinkerman.eldiariblau.net/weather-station/",
+    "datastreams": [
+      {
+        "id": "battery",
+        "current_value": "4240",
+        "at": "03/21/2014 14:06:40",
+        "max_value": "422300.0",
+        "min_value": "0.0",
+        "tags": [
+          "battery",
+          "LiPo 3.7V 850mA"
+        ],
+        "unit": {
+          "symbol": "mV",
+          "label": "mV",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "dewpoint",
+        "current_value": "10.82",
+        "at": "03/21/2014 14:06:36",
+        "max_value": "40.44",
+        "min_value": "-47.28",
+        "tags": [
+          "dew point",
+          "dht22"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "ºC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "humidity",
+        "current_value": "56.13",
+        "at": "03/21/2014 14:06:34",
+        "max_value": "14063.0",
+        "min_value": "0.0",
+        "tags": [
+          "dht22",
+          "humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "internal",
+        "current_value": "3303",
+        "at": "03/21/2014 14:06:39",
+        "max_value": "331200.0",
+        "min_value": "0.0",
+        "tags": [
+          "atmega328",
+          "battery"
+        ],
+        "unit": {
+          "symbol": "mV",
+          "label": "mV",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "pressure",
+        "current_value": "1011.05",
+        "at": "03/21/2014 14:06:38",
+        "max_value": "1025663.0",
+        "min_value": "0.0",
+        "tags": [
+          "bmp085",
+          "pressure"
+        ],
+        "unit": {
+          "symbol": "hPa",
+          "label": "hPa",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "solarpanel",
+        "current_value": "6742",
+        "at": "03/21/2014 14:06:32",
+        "max_value": "1314223.0",
+        "min_value": "0.0",
+        "tags": [
+          "battery",
+          "solar panel 6V 2W"
+        ],
+        "unit": {
+          "symbol": "mV",
+          "label": "mV",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temperature1",
+        "current_value": "19.80",
+        "at": "03/21/2014 14:06:33",
+        "max_value": "15060.0",
+        "min_value": "0.0",
+        "tags": [
+          "dht22",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "ºC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temperature2",
+        "current_value": "19.34",
+        "at": "03/21/2014 14:06:37",
+        "max_value": "1967.0",
+        "min_value": "-42.41",
+        "tags": [
+          "bmp085",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "ºC",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Barcelona",
+      "domain": 0,
+      "lat": "41.3777987930218",
+      "lon": "2.12548971176147",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/102579\" >Weather Station (Barcelona)</a>",
+    "URLMostrar": "https://xively.com/feeds/102579"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\102579.json",
+  "DocumentJSON": null
+}

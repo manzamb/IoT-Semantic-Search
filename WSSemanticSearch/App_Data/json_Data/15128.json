@@ -1,0 +1,98 @@
+{
+  "Conceptos": [
+    "thermistor"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "15128",
+    "title": "Room Temperature",
+    "Private": false,
+    "tags": null,
+    "description": "Room Temperature using 20k Thermistor circuit into xbee ai.",
+    "feed": "https://api.xively.com/v2/feeds/15128.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "04/19/2011 03:27:51",
+    "created": "01/18/2011 16:35:29",
+    "creator": "https://xively.com/users/snafu79213",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "0",
+        "at": "04/19/2011 03:27:51",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "NaN1",
+        "at": "04/19/2011 03:27:51",
+        "max_value": "191.0",
+        "min_value": "19.111",
+        "tags": [
+          "Room Temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "deg C.",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "02",
+        "at": "04/19/2011 03:27:51",
+        "max_value": "2.72",
+        "min_value": "1.94531252",
+        "tags": [
+          "Battery Voltage"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "V",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "616.4063",
+        "at": "04/19/2011 03:27:51",
+        "max_value": "1198.828",
+        "min_value": "220.3125",
+        "tags": [
+          "Water"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "mV",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Basement Room",
+      "domain": 0,
+      "lat": "52.1472366847567",
+      "lon": "-106.642527580261",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/15128\" >Room Temperature</a>",
+    "URLMostrar": "https://xively.com/feeds/15128"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\15128.json",
+  "DocumentJSON": null
+}

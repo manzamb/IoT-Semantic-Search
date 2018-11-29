@@ -1,0 +1,68 @@
+{
+  "Conceptos": [
+    "process"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "1980694387",
+    "title": "Refrigerator",
+    "Private": false,
+    "tags": null,
+    "description": "A feed showing sensor data from two temperature probes in my refrigerator.  10K RTD --> Arduino Fio --> XBee --> Mac Mini --> Processing --> Xively.",
+    "feed": "https://api.xively.com/v2/feeds/1980694387.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:09:39",
+    "created": "09/03/2013 04:50:01",
+    "creator": "https://xively.com/users/midcoastmac",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "-36.00",
+        "at": "03/21/2014 14:09:39",
+        "max_value": "841.12109375",
+        "min_value": "-8000000.0",
+        "tags": [
+          "Freezer"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "Fahrenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "29.00",
+        "at": "03/21/2014 14:09:39",
+        "max_value": "793.66015625",
+        "min_value": "-58.0",
+        "tags": [
+          "Refrigerator_Temperature"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "Fahrenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Home",
+      "domain": 0,
+      "lat": "44.1196924438545",
+      "lon": "-69.2336485290527",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/1980694387\" >Refrigerator</a>",
+    "URLMostrar": "https://xively.com/feeds/1980694387"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\1980694387.json",
+  "DocumentJSON": null
+}

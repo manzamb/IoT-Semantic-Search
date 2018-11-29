@@ -1,0 +1,72 @@
+{
+  "Conceptos": [
+    "response time"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "52634",
+    "title": "Swarthmore ITS Test Times",
+    "Private": false,
+    "tags": null,
+    "description": "The time it takes to run monitoring tests",
+    "feed": "https://api.xively.com/v2/feeds/52634.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "11/18/2013 15:45:27",
+    "created": "03/19/2012 18:06:14",
+    "creator": "https://xively.com/users/aruethe2",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "kaltura_response_time",
+        "current_value": "25.3",
+        "at": "11/18/2013 15:45:27",
+        "max_value": "379322.4",
+        "min_value": "0.0",
+        "tags": [
+          "kaltura",
+          "response",
+          "time"
+        ],
+        "unit": {
+          "symbol": "Seconds",
+          "label": "Seconds",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "moodle_response_time",
+        "current_value": "233.1",
+        "at": "11/06/2013 16:58:55",
+        "max_value": "136133.9",
+        "min_value": "0.0",
+        "tags": [
+          "moodle",
+          "response",
+          "time"
+        ],
+        "unit": {
+          "symbol": "Seconds",
+          "label": "Seconds",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Swarthmore, PA",
+      "domain": 1,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/52634\" >Swarthmore ITS Test Times</a>",
+    "URLMostrar": "https://xively.com/feeds/52634"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\52634.json",
+  "DocumentJSON": null
+}

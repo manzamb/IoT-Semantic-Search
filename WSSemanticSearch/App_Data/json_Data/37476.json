@@ -1,0 +1,53 @@
+{
+  "Conceptos": [
+    "description"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "37476",
+    "title": "test",
+    "Private": false,
+    "tags": [
+      "celcius",
+      "temperature"
+    ],
+    "description": "this is a description",
+    "feed": "https://api.xively.com/v2/feeds/37476.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "10/16/2011 10:07:19",
+    "created": "10/16/2011 10:05:04",
+    "creator": "https://xively.com/users/denizuygur",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "temperature",
+        "current_value": "20",
+        "at": "10/16/2011 10:07:19",
+        "max_value": "20.0",
+        "min_value": "20.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "pakhuis",
+      "domain": 0,
+      "lat": "52.37138092532",
+      "lon": "4.96315956115723",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/37476\" >test</a>",
+    "URLMostrar": "https://xively.com/feeds/37476"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\37476.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,86 @@
+{
+  "Conceptos": [
+    "longitud"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "1996452682",
+    "title": "Zipcar",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/1996452682.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "05/31/2013 05:05:14",
+    "created": "05/31/2013 03:01:35",
+    "creator": "https://xively.com/users/anandoka",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Address",
+        "current_value": "13352 Bel Red Rd, Bellevue, US 98005",
+        "at": "06/27/2013 18:25:34",
+        "max_value": "21583.0",
+        "min_value": "0.0",
+        "tags": [
+          "address"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "LocationLat",
+        "current_value": "47.6646391114",
+        "at": "06/27/2013 18:25:34",
+        "max_value": "47.7172524",
+        "min_value": "12.3",
+        "tags": [
+          "latitude",
+          "location"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "LocationLon",
+        "current_value": "-122.2130815",
+        "at": "06/27/2013 18:25:34",
+        "max_value": "-122.0630815",
+        "min_value": "-122.2130815",
+        "tags": [
+          "location",
+          "longitude"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "mobile location of nearest zipcar",
+      "domain": 0,
+      "lat": "47.6172524",
+      "lon": "-122.1630815",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/1996452682\" >Zipcar</a>",
+    "URLMostrar": "https://xively.com/feeds/1996452682"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\1996452682.json",
+  "DocumentJSON": null
+}

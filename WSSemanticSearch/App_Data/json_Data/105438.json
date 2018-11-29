@@ -1,0 +1,101 @@
+{
+  "Conceptos": [
+    "longitud"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "105438",
+    "title": "TEST#1",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "Test COSM"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/105438.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "07/04/2013 14:25:54",
+    "created": "02/18/2013 19:10:41",
+    "creator": "https://xively.com/users/juancho",
+    "version": null,
+    "website": "http://testpat",
+    "datastreams": [
+      {
+        "id": "llegadas",
+        "current_value": "0001402539",
+        "at": "05/23/2013 20:56:38",
+        "max_value": "12341200001234100000000000.0",
+        "min_value": "0.0",
+        "tags": [
+          "Horarios PAT"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "sensor1",
+        "current_value": "1000.000000:1000.000000",
+        "at": "06/12/2013 19:16:31",
+        "max_value": "9999.614257",
+        "min_value": "-7616.0",
+        "tags": [
+          "GPS"
+        ],
+        "unit": {
+          "symbol": "Latitud-Longitud",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "sensor2",
+        "current_value": "42",
+        "at": "07/04/2013 14:25:54",
+        "max_value": "32640.0",
+        "min_value": "-32201.0",
+        "tags": [
+          "SPEED"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Km/h",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "sensor3",
+        "current_value": "222",
+        "at": "05/18/2013 02:14:20",
+        "max_value": "573.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "-33.4532140106256",
+      "lon": "-70.6503295898438",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/105438\" >TEST#1</a>",
+    "URLMostrar": "https://xively.com/feeds/105438"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\105438.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,84 @@
+{
+  "Conceptos": [
+    "region"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "2228",
+    "title": "BioRegional electricity carbon footprint",
+    "Private": false,
+    "tags": null,
+    "description": "Data from a CurrentCost 128 unit run through AMEE.",
+    "feed": "https://api.xively.com/v2/feeds/2228.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "01/10/2012 11:55:18",
+    "created": "07/06/2009 19:47:04",
+    "creator": "https://xively.com/users/bioregional",
+    "version": null,
+    "website": "http://www.bioregional.com",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "0.153",
+        "at": "01/10/2012 11:55:18",
+        "max_value": "0.591",
+        "min_value": "0.0",
+        "tags": [
+          "CO2_last_15_mins"
+        ],
+        "unit": {
+          "symbol": "kg",
+          "label": "kilograms",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "0.614",
+        "at": "01/10/2012 11:55:18",
+        "max_value": "2.151",
+        "min_value": "0.0",
+        "tags": [
+          "CO2_last_60_mins"
+        ],
+        "unit": {
+          "symbol": "kg",
+          "label": "kilograms",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "14.726",
+        "at": "01/10/2012 11:55:18",
+        "max_value": "21.406",
+        "min_value": "0.0",
+        "tags": [
+          "CO2_last_24_hrs"
+        ],
+        "unit": {
+          "symbol": "kg",
+          "label": "kilograms",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "London",
+      "domain": 0,
+      "lat": "51.382062763414",
+      "lon": "-0.156338453816716",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/2228\" >BioRegional electricity carbon footprint</a>",
+    "URLMostrar": "https://xively.com/feeds/2228"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\2228.json",
+  "DocumentJSON": null
+}

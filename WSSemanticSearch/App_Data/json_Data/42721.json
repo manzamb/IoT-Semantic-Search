@@ -1,0 +1,71 @@
+{
+  "Conceptos": [
+    "description"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "42721",
+    "title": "datashare_01",
+    "Private": false,
+    "tags": [
+      "Arduino",
+      "DS18S20",
+      "Düsseldorf",
+      "ethernet-Shield",
+      "Manfred Schmidt",
+      "Uno"
+    ],
+    "description": "Enter a description of the Feed",
+    "feed": "https://api.xively.com/v2/feeds/42721.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "01/06/2012 20:46:44",
+    "created": "12/26/2011 15:40:40",
+    "creator": "https://xively.com/users/picturebank",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "2",
+        "current_value": "20.0",
+        "at": "01/06/2012 20:41:36",
+        "max_value": "1023.0",
+        "min_value": "-0.5",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "-0.50",
+        "at": "01/06/2012 20:41:36",
+        "max_value": "0.5",
+        "min_value": "-0.5",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Arduino_Ethernet_Dallas_DS18S20",
+      "domain": 0,
+      "lat": "51.1762708060139",
+      "lon": "6.81182640793043",
+      "ele": "Metres",
+      "exposure": 0,
+      "disposition": 1
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/42721\" >datashare_01</a>",
+    "URLMostrar": "https://xively.com/feeds/42721"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\42721.json",
+  "DocumentJSON": null
+}

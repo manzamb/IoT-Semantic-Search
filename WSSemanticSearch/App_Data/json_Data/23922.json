@@ -1,0 +1,100 @@
+{
+  "Conceptos": [
+    "radiactividad"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "23922",
+    "title": "Pontevedra - Daily average air gamma radiation μSv/h",
+    "Private": false,
+    "tags": [
+      "radiacion_CSN",
+      "radiacion_espana",
+      "radiactividad.org",
+      "sensor:calibrated=true",
+      "sensor:country=spain",
+      "sensor:object=air",
+      "sensor:type=gamma",
+      "sensor:type=radiation",
+      "source:type=government"
+    ],
+    "description": "Official readings from REA (Red de Estaciones Automáticas) of CSN (Consejo de Seguridad Nuclear) in Spain.\r\nThis is a live streaming but readings are updated everyday at morning (around 9:00AM CET) day after. So values are delayed 24 hours.\r\n\r\nData scrapped and opened by Alberto Naranjo. Please follow me on twitter: @albertonaranjo\r\n\t",
+    "feed": "https://api.xively.com/v2/feeds/23922.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/18/2014 11:20:33",
+    "created": "04/19/2011 14:39:25",
+    "creator": "https://xively.com/users/albertonaranjo",
+    "version": null,
+    "website": "http://www.twitter.com/albertonaranjo",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "0.17",
+        "at": "09/17/2013 23:42:04",
+        "max_value": "0.21",
+        "min_value": "0.12",
+        "tags": [
+          "Air daily average gamma radiation",
+          "Radiación gamma diaria media en el aire",
+          "radiation sensor"
+        ],
+        "unit": {
+          "symbol": "µSv/h",
+          "label": "microsieverts/hour",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "CSN-Pontevedra",
+        "current_value": "0.17",
+        "at": "09/17/2013 23:42:04",
+        "max_value": "0.2",
+        "min_value": "0.15",
+        "tags": [
+          "Air daily average gamma radiation",
+          "Radiación gamma diaria media en el aire",
+          "radiation sensor"
+        ],
+        "unit": {
+          "symbol": "µSv/h",
+          "label": "microsieverts/hour",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Pontevedra",
+        "current_value": "0.17",
+        "at": "09/17/2013 23:42:04",
+        "max_value": "0.2",
+        "min_value": "0.15",
+        "tags": [
+          "Air daily average gamma radiation",
+          "Radiación gamma diaria media en el aire",
+          "radiation sensor"
+        ],
+        "unit": {
+          "symbol": "µSv/h",
+          "label": "microsieverts/hour",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Pontevedra",
+      "domain": 0,
+      "lat": "42.4366",
+      "lon": "-8.6483",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/23922\" >Pontevedra - Daily average air gamma radiation μSv/h</a>",
+    "URLMostrar": "https://xively.com/feeds/23922"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\23922.json",
+  "DocumentJSON": null
+}

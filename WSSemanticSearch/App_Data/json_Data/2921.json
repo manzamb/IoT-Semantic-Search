@@ -1,0 +1,262 @@
+{
+  "Conceptos": [
+    "thermistor"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "2921",
+    "title": "ACTIVE BUILDING (R01: 403151C0)",
+    "Private": false,
+    "tags": [
+      "Arduino",
+      "Humidity",
+      "Light",
+      "Potentiometer",
+      "RFID",
+      "Sound",
+      "Temperature",
+      "Voltage",
+      "XBee"
+    ],
+    "description": "ACTIVE BUILDING Sensor Module\r\nwith RFID reader",
+    "feed": "https://api.xively.com/v2/feeds/2921.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "02/10/2014 00:15:51",
+    "created": "10/14/2009 04:35:40",
+    "creator": "https://xively.com/users/yasu",
+    "version": null,
+    "website": "http://www.coadapting.com/coadapt/",
+    "datastreams": [
+      {
+        "id": "Joystick-Byte_001",
+        "current_value": "0",
+        "at": "12/30/2013 05:25:22",
+        "max_value": "31.0",
+        "min_value": "0.0",
+        "tags": [
+          "5-Way",
+          "COM-10063",
+          "Joystick"
+        ],
+        "unit": {
+          "symbol": "0~31",
+          "label": "5bits",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Light-Sensor_001",
+        "current_value": "695.0",
+        "at": "02/10/2014 00:15:51",
+        "max_value": "1023.0",
+        "min_value": "0.0",
+        "tags": [
+          "Analog",
+          "LDR",
+          "~"
+        ],
+        "unit": {
+          "symbol": "10bits",
+          "label": "ADC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Pot-Setting_001",
+        "current_value": "1023",
+        "at": "12/30/2013 05:25:22",
+        "max_value": "1023.0",
+        "min_value": "0.0",
+        "tags": [
+          "Potentiometer",
+          "Rotary",
+          "~"
+        ],
+        "unit": {
+          "symbol": "ADC",
+          "label": "10bits",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "_Pref-Light_001",
+        "current_value": "254.0",
+        "at": "01/24/2014 20:09:23",
+        "max_value": "511.0",
+        "min_value": "0.0",
+        "tags": [
+          "Light",
+          "Preference",
+          "User"
+        ],
+        "unit": {
+          "symbol": "9bits",
+          "label": "ADC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "_Pref-Social_001",
+        "current_value": "443.0",
+        "at": "01/24/2014 20:09:23",
+        "max_value": "511.0",
+        "min_value": "0.0",
+        "tags": [
+          "Preference",
+          "Social",
+          "User"
+        ],
+        "unit": {
+          "symbol": "9bits",
+          "label": "ADC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "_Pref-Sound_001",
+        "current_value": "309.0",
+        "at": "01/24/2014 20:09:23",
+        "max_value": "511.0",
+        "min_value": "0.0",
+        "tags": [
+          "Preference",
+          "Sound",
+          "User"
+        ],
+        "unit": {
+          "symbol": "9bits",
+          "label": "ADC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "_Pref-Temp_001",
+        "current_value": "380.0",
+        "at": "01/24/2014 20:09:23",
+        "max_value": "511.0",
+        "min_value": "0.0",
+        "tags": [
+          "Preference",
+          "Temperature",
+          "User"
+        ],
+        "unit": {
+          "symbol": "9bits",
+          "label": "ADC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Rel-Humidity_001",
+        "current_value": "47.2",
+        "at": "02/10/2014 00:15:51",
+        "max_value": "100.0",
+        "min_value": "0.0",
+        "tags": [
+          "Capacitive",
+          "RHT03",
+          "SEN-10167"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "RH",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Signal-Strength_001",
+        "current_value": "0",
+        "at": "12/30/2013 05:25:22",
+        "max_value": "1023.0",
+        "min_value": "0.0",
+        "tags": [
+          "RSSI",
+          "XBee",
+          "~"
+        ],
+        "unit": {
+          "symbol": "RSSI",
+          "label": "8bits",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Sound-Sensor_001",
+        "current_value": "59.0",
+        "at": "02/10/2014 00:15:51",
+        "max_value": "511.0",
+        "min_value": "0.0",
+        "tags": [
+          "Analog",
+          "BOB-09964",
+          "Microphone"
+        ],
+        "unit": {
+          "symbol": "10bits",
+          "label": "ADC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperature_001",
+        "current_value": "26.8",
+        "at": "02/10/2014 00:15:51",
+        "max_value": "40.0",
+        "min_value": "10.0",
+        "tags": [
+          "RHT03",
+          "SEN-10167",
+          "Thermistor"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Voltage_001",
+        "current_value": "6.59",
+        "at": "12/30/2013 05:25:22",
+        "max_value": "6.6",
+        "min_value": "0.0",
+        "tags": [
+          "~",
+          "~",
+          "~"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": "Volt",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Brisbane",
+      "domain": 0,
+      "lat": "-27.476",
+      "lon": "153.0276",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 1
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/2921\" >ACTIVE BUILDING (R01: 403151C0)</a>",
+    "URLMostrar": "https://xively.com/feeds/2921"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\2921.json",
+  "DocumentJSON": null
+}

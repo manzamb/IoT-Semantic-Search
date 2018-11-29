@@ -1,0 +1,102 @@
+{
+  "Conceptos": [
+    "humedad"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "53944",
+    "title": "Arduino A0",
+    "Private": false,
+    "tags": [
+      "Arduino A0"
+    ],
+    "description": "Monitorizacion de la entrada A0 de arduino",
+    "feed": "https://api.xively.com/v2/feeds/53944.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "01/02/2014 09:53:06",
+    "created": "03/30/2012 15:15:55",
+    "creator": "https://xively.com/users/gonalo",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "NAN",
+        "at": "01/02/2014 09:53:06",
+        "max_value": "27.6",
+        "min_value": "0.0",
+        "tags": [
+          "Temperatura Atico"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "ºC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "0.000000",
+        "at": "01/02/2014 09:53:06",
+        "max_value": "24.3125",
+        "min_value": "0.0",
+        "tags": [
+          "Temperatura 2ª"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "ºC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "0.000000",
+        "at": "01/02/2014 09:53:06",
+        "max_value": "70.300003",
+        "min_value": "0.0",
+        "tags": [
+          "Humedad"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "Porcentaje",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "99",
+        "at": "01/02/2014 09:53:06",
+        "max_value": "99.0",
+        "min_value": "3.0",
+        "tags": [
+          "Luminosidad"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "Porcentaje",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Burgos",
+      "domain": 0,
+      "lat": "42.4144629356774",
+      "lon": "-3.68954211473465",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/53944\" >Arduino A0</a>",
+    "URLMostrar": "https://xively.com/feeds/53944"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\53944.json",
+  "DocumentJSON": null
+}

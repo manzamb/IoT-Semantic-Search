@@ -1,0 +1,92 @@
+{
+  "Conceptos": [
+    "environment"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "74840",
+    "title": "WA Environment monitor",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/74840.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "01/08/2014 08:53:19",
+    "created": "09/10/2012 13:07:33",
+    "creator": "https://xively.com/users/redlegoman",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "EMD1_humidity",
+        "current_value": "31.2",
+        "at": "01/08/2014 08:53:19",
+        "max_value": "45.8",
+        "min_value": "27.2",
+        "tags": null,
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "EMD1_temp",
+        "current_value": "22.6",
+        "at": "01/08/2014 08:53:19",
+        "max_value": "25.9",
+        "min_value": "17.7",
+        "tags": null,
+        "unit": {
+          "symbol": "°C",
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "EMD2_humidity",
+        "current_value": "34.1",
+        "at": "01/08/2014 08:53:19",
+        "max_value": "100.0",
+        "min_value": "25.4",
+        "tags": null,
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "EMD2_temp",
+        "current_value": "20.9",
+        "at": "01/08/2014 08:53:19",
+        "max_value": "27.4",
+        "min_value": "16.2",
+        "tags": null,
+        "unit": {
+          "symbol": "°C",
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Western Approach",
+      "domain": 0,
+      "lat": "51.5470876623785",
+      "lon": "-2.64727592468262",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/74840\" >WA Environment monitor</a>",
+    "URLMostrar": "https://xively.com/feeds/74840"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\74840.json",
+  "DocumentJSON": null
+}

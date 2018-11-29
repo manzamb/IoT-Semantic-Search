@@ -1,0 +1,289 @@
+{
+  "Conceptos": [
+    "humidity"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "324",
+    "title": "Building13",
+    "Private": false,
+    "tags": [
+      "Energy",
+      "Gas",
+      "Power",
+      "Temperature",
+      "Water"
+    ],
+    "description": "A six storey building in Fitzrovia, London",
+    "feed": "https://api.xively.com/v2/feeds/324.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/21/2014 10:01:22",
+    "created": "06/22/2008 13:58:22",
+    "creator": "https://xively.com/users/djdunc",
+    "version": null,
+    "website": "http://www.driversofchange.com/emtech/",
+    "datastreams": [
+      {
+        "id": "1",
+        "current_value": "708628.50",
+        "at": "03/21/2014 10:01:22",
+        "max_value": "2147604.5",
+        "min_value": "-2147282.0",
+        "tags": [
+          "pbd:floor=all",
+          "pbd:zone=all",
+          "pdb:id=Active energy",
+          "pdb:label=ActiveEnergy"
+        ],
+        "unit": {
+          "symbol": "kWh",
+          "label": "kWh",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "297.36",
+        "at": "03/21/2014 10:01:22",
+        "max_value": "570.07",
+        "min_value": "0.0",
+        "tags": [
+          "pbd:floor=all",
+          "pbd:zone=all",
+          "pdb:id=Active power",
+          "pdb:label=ActivePower"
+        ],
+        "unit": {
+          "symbol": "kW",
+          "label": "kW",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "0.00",
+        "at": "03/21/2014 10:01:22",
+        "max_value": "9998.0",
+        "min_value": "0.0",
+        "tags": [
+          "pbd:floor=all",
+          "pbd:zone=all",
+          "pdb:id=Gas Meter",
+          "pdb:label=GasMeter"
+        ],
+        "unit": {
+          "symbol": "m3",
+          "label": "m3",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "0",
+        "at": "03/21/2014 10:01:22",
+        "max_value": "999.2",
+        "min_value": "0.0",
+        "tags": [
+          "pbd:floor=all",
+          "pbd:zone=all",
+          "pdb:id=Water",
+          "pdb:label=Water"
+        ],
+        "unit": {
+          "symbol": "m3",
+          "label": "m3",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "53.04",
+        "at": "03/21/2014 10:01:22",
+        "max_value": "76.85",
+        "min_value": "0.4",
+        "tags": [
+          "pbd:floor=all",
+          "pbd:zone=all",
+          "pdb:id=Outside Air Temperature",
+          "pdb:label=OutsideAirTemperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "58.14",
+        "at": "03/21/2014 10:01:22",
+        "max_value": "94.89",
+        "min_value": "-0.3",
+        "tags": [
+          "pbd:floor=all",
+          "pbd:zone=all",
+          "pdb:id=Outside Humidity",
+          "pdb:label=OutsideHumidity"
+        ],
+        "unit": {
+          "symbol": "%RH",
+          "label": "%RH",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "7",
+        "current_value": "24.03",
+        "at": "03/21/2014 10:01:22",
+        "max_value": "26.56",
+        "min_value": "0.0",
+        "tags": [
+          "pbd:floor=G",
+          "pbd:zone=all",
+          "pdb:id=EntryFII(temp)",
+          "pdb:label=EntryFII(temp)"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "8",
+        "current_value": "24.43",
+        "at": "03/21/2014 10:01:22",
+        "max_value": "27.35",
+        "min_value": "0.4",
+        "tags": [
+          "pbd:floor=G",
+          "pbd:zone=all",
+          "pdb:id=Reception(temp)",
+          "pdb:label=Reception(temp)"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "9",
+        "current_value": "53.09",
+        "at": "03/21/2014 10:01:22",
+        "max_value": "76.6",
+        "min_value": "0.0",
+        "tags": [
+          "pbd:floor=G",
+          "pbd:zone=all",
+          "pdb:id=OfficeFIIMiddleAtrium(temp)",
+          "pdb:label=OfficeFIIMiddleAtrium(temp)"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "10",
+        "current_value": "53.86",
+        "at": "03/21/2014 10:01:22",
+        "max_value": "75.84",
+        "min_value": "0.3",
+        "tags": [
+          "pbd:floor=G",
+          "pbd:zone=all",
+          "pdb:id=AtriumSouth(temp)",
+          "pdb:label=AtriumSouth(temp)"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "11",
+        "current_value": "54.10",
+        "at": "03/21/2014 10:01:22",
+        "max_value": "75.54",
+        "min_value": "0.0",
+        "tags": [
+          "pbd:floor=G",
+          "pbd:zone=all",
+          "pdb:id=MeetingRoomZunz(temp)",
+          "pdb:label=MeetingRoomZunz(temp)"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "12",
+        "current_value": "22.95",
+        "at": "11/11/2011 15:32:17",
+        "max_value": "26.02",
+        "min_value": "21.11",
+        "tags": [
+          "pbd:floor=G",
+          "pbd:zone=all",
+          "pdb:id=OfficeKITGMiddleSouth(temp)",
+          "pdb:label=OfficeKITGMiddleSouth(temp)"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "13",
+        "current_value": "23.63",
+        "at": "11/11/2011 15:32:17",
+        "max_value": "26.78",
+        "min_value": "20.75",
+        "tags": [
+          "pbd:floor=G",
+          "pbd:zone=all",
+          "pdb:id=OfficeODTWindow(temp)",
+          "pdb:label=OfficeODTWindow(temp)"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "13 Fitzroy Street",
+      "domain": 0,
+      "lat": "51.5214347628783",
+      "lon": "-0.138283967971802",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/324\" >Building13</a>",
+    "URLMostrar": "https://xively.com/feeds/324"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\324.json",
+  "DocumentJSON": null
+}

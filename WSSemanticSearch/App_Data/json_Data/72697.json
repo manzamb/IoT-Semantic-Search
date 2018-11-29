@@ -1,0 +1,90 @@
+{
+  "Conceptos": [
+    "atmospheric pressure"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "72697",
+    "title": "My Bedroom",
+    "Private": false,
+    "tags": [
+      "atmospheric pressure",
+      "flexibity",
+      "humidity",
+      "temperature",
+      "thap"
+    ],
+    "description": "Flexibity THAP sensor in my bedroom",
+    "feed": "https://api.xively.com/v2/feeds/72697.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "11/25/2012 20:09:47",
+    "created": "08/26/2012 20:14:08",
+    "creator": "https://xively.com/users/flexibity",
+    "version": null,
+    "website": "http://www.flexibity.com",
+    "datastreams": [
+      {
+        "id": "humidity",
+        "current_value": "56.45",
+        "at": "11/25/2012 20:09:47",
+        "max_value": "74.48",
+        "min_value": "44.65",
+        "tags": [
+          "humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "pressure",
+        "current_value": "1196.29",
+        "at": "11/25/2012 20:09:47",
+        "max_value": "10216.23",
+        "min_value": "1182.31",
+        "tags": [
+          "atmospheric pressure"
+        ],
+        "unit": {
+          "symbol": "mbar",
+          "label": "millibar",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temperature",
+        "current_value": "23.7",
+        "at": "11/25/2012 20:09:47",
+        "max_value": "27.26",
+        "min_value": "16.29",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "degree",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "51.7469283986406",
+      "lon": "-1.2359619140625",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/72697\" >My Bedroom</a>",
+    "URLMostrar": "https://xively.com/feeds/72697"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\72697.json",
+  "DocumentJSON": null
+}

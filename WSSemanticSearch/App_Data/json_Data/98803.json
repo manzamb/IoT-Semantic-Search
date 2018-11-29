@@ -1,0 +1,59 @@
+{
+  "Conceptos": [
+    "color"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "98803",
+    "title": "Testing XBee -> Cosm gateway",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "beaglebone",
+      "test",
+      "xbee"
+    ],
+    "description": "Based on custom RGB Led Strip driver changing color based on temperature, the driver sends the temperature via XBee to a BeagleBone receiving the XBee packets and relaying data to Cosm via WebSockets in order to update this feed.",
+    "feed": "https://api.xively.com/v2/feeds/98803.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "01/21/2013 22:30:20",
+    "created": "01/19/2013 10:38:48",
+    "creator": "https://xively.com/users/jeje",
+    "version": null,
+    "website": "http://jerome-bernard.com",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "20.50",
+        "at": "01/24/2013 05:35:59",
+        "max_value": "297.0",
+        "min_value": "19.37",
+        "tags": [
+          "temperature",
+          "test",
+          "xbee"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/98803\" >Testing XBee -> Cosm gateway</a>",
+    "URLMostrar": "https://xively.com/feeds/98803"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\98803.json",
+  "DocumentJSON": null
+}

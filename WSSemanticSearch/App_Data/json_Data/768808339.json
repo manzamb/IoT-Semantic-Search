@@ -1,0 +1,68 @@
+{
+  "Conceptos": [
+    "humedad"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "768808339",
+    "title": "Tem-Hum",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/768808339.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "12/30/2013 13:20:22",
+    "created": "12/26/2013 19:30:47",
+    "creator": "https://xively.com/users/ardutec",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Pressure",
+        "current_value": "102",
+        "at": "12/30/2013 13:20:22",
+        "max_value": "104.0",
+        "min_value": "100.0",
+        "tags": [
+          "Humedad"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "Porcentaje",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperature",
+        "current_value": "20",
+        "at": "12/30/2013 13:20:22",
+        "max_value": "29.0",
+        "min_value": "20.0",
+        "tags": [
+          "temp"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/768808339\" >Tem-Hum</a>",
+    "URLMostrar": "https://xively.com/feeds/768808339"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\768808339.json",
+  "DocumentJSON": null
+}

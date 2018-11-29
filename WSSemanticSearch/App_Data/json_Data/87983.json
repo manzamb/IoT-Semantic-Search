@@ -1,0 +1,118 @@
+{
+  "Conceptos": [
+    "process"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "87983",
+    "title": "solar data demo",
+    "Private": false,
+    "tags": [
+      "arduino"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/87983.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "01/18/2013 20:47:47",
+    "created": "11/24/2012 16:10:25",
+    "creator": "https://xively.com/users/scottrandall",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "72.84",
+        "at": "01/18/2013 18:00:39",
+        "max_value": "158.0",
+        "min_value": "-196.6",
+        "tags": [
+          "Collector Temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "73.40",
+        "at": "01/18/2013 18:00:39",
+        "max_value": "168.8",
+        "min_value": "-196.6",
+        "tags": [
+          "Storage Tank Temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "50",
+        "at": "01/18/2013 20:47:46",
+        "max_value": "150.0",
+        "min_value": "32.0",
+        "tags": [
+          "Setpoint"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "8",
+        "at": "01/18/2013 20:47:47",
+        "max_value": "25.0",
+        "min_value": "5.0",
+        "tags": [
+          "Temperature Differential"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "led",
+        "current_value": "Red",
+        "at": "01/18/2013 18:00:39",
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "Process Status"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/87983\" >solar data demo</a>",
+    "URLMostrar": "https://xively.com/feeds/87983"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\87983.json",
+  "DocumentJSON": null
+}

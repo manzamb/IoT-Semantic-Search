@@ -1,0 +1,90 @@
+{
+  "Conceptos": [
+    "moisture"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "33692",
+    "title": "Greenhouse in Rannaküla",
+    "Private": false,
+    "tags": [
+      "greenhouse",
+      "humidity",
+      "moisture",
+      "soil",
+      "temperature"
+    ],
+    "description": "Greenhouse in Muhu, Rannaküla that has wireless temperature and humidity logging.\r\nIt is meant for monitoring environmental conditions of tomatoes.",
+    "feed": "https://api.xively.com/v2/feeds/33692.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:03:28",
+    "created": "08/02/2011 13:34:06",
+    "creator": "https://xively.com/users/andres",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "22.2",
+        "at": "03/21/2014 14:03:27",
+        "max_value": "3276.7",
+        "min_value": "-15.9",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "37.4",
+        "at": "03/21/2014 14:03:27",
+        "max_value": "92.7",
+        "min_value": "-0.1",
+        "tags": [
+          "Humidity"
+        ],
+        "unit": {
+          "symbol": "%RH",
+          "label": "Relative Humidity",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "0",
+        "at": "03/21/2014 14:03:27",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "Watering valve"
+        ],
+        "unit": {
+          "symbol": "1=ON/0=OFF",
+          "label": "On/Off",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "West",
+      "domain": 0,
+      "lat": "58.6455778903173",
+      "lon": "23.1508004665375",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/33692\" >Greenhouse in Rannaküla</a>",
+    "URLMostrar": "https://xively.com/feeds/33692"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\33692.json",
+  "DocumentJSON": null
+}

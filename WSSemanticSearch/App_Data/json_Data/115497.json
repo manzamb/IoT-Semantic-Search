@@ -1,0 +1,159 @@
+{
+  "Conceptos": [
+    "quality"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "115497",
+    "title": "ZS1JEN Air Quality Monitor",
+    "Private": false,
+    "tags": [
+      "device:type=Air Quality Egg",
+      "device:type=airqualityegg"
+    ],
+    "description": "This air quality monitor is situated at the ZS1JEN station, located in the Southern suburbs of Cape Town, South Africa. Grid: JF95fx\r\n\r\nData collected from this device (temperature and humidity) may be compared with data from my weather station at http://aprs.fi/weather/a/ZS1JEN-1",
+    "feed": "https://api.xively.com/v2/feeds/115497.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:10:26",
+    "created": "02/28/2013 15:42:50",
+    "creator": "https://xively.com/users/airqualityegg",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "CO_00-04-a3-37-be-a8_1",
+        "current_value": "105794",
+        "at": "03/21/2014 14:10:26",
+        "max_value": "115500.0",
+        "min_value": "-48649.0",
+        "tags": [
+          "aqe:data_origin=computed",
+          "aqe:firmware_version=16",
+          "aqe:sensor_address=00:04:a3:37:be:a8",
+          "aqe:sensor_index=1",
+          "aqe:sensor_type=CO"
+        ],
+        "unit": {
+          "symbol": "ppb",
+          "label": "ppb",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "CO_raw_00-04-a3-37-be-a8_1",
+        "current_value": "62100",
+        "at": "03/21/2014 14:10:21",
+        "max_value": "1522199.0",
+        "min_value": "24900.0",
+        "tags": [
+          "aqe:data_origin=raw",
+          "aqe:firmware_version=16",
+          "aqe:sensor_address=00:04:a3:37:be:a8",
+          "aqe:sensor_index=1",
+          "aqe:sensor_type=CO"
+        ],
+        "unit": {
+          "symbol": "ohms",
+          "label": "ohms",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Humidity_00-04-a3-37-cd-60_1",
+        "current_value": "1",
+        "at": "03/21/2014 14:10:06",
+        "max_value": "99.0",
+        "min_value": "1.0",
+        "tags": [
+          "aqe:data_origin=computed",
+          "aqe:firmware_version=3",
+          "aqe:sensor_address=00:04:a3:37:cd:60",
+          "aqe:sensor_index=1",
+          "aqe:sensor_type=Humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "NO2_00-04-a3-37-be-a8_0",
+        "current_value": "512",
+        "at": "03/21/2014 14:10:16",
+        "max_value": "988928.0",
+        "min_value": "87.0",
+        "tags": [
+          "aqe:data_origin=computed",
+          "aqe:firmware_version=16",
+          "aqe:sensor_address=00:04:a3:37:be:a8",
+          "aqe:sensor_index=0",
+          "aqe:sensor_type=NO2"
+        ],
+        "unit": {
+          "symbol": "ppb",
+          "label": "ppb",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "NO2_raw_00-04-a3-37-be-a8_0",
+        "current_value": "108626",
+        "at": "03/21/2014 14:10:11",
+        "max_value": "427999.0",
+        "min_value": "-1.0",
+        "tags": [
+          "aqe:data_origin=raw",
+          "aqe:firmware_version=16",
+          "aqe:sensor_address=00:04:a3:37:be:a8",
+          "aqe:sensor_index=0",
+          "aqe:sensor_type=NO2"
+        ],
+        "unit": {
+          "symbol": "ohms",
+          "label": "ohms",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperature_00-04-a3-37-cd-60_0",
+        "current_value": "33",
+        "at": "03/21/2014 14:10:01",
+        "max_value": "54.0",
+        "min_value": "8.0",
+        "tags": [
+          "aqe:data_origin=computed",
+          "aqe:firmware_version=3",
+          "aqe:sensor_address=00:04:a3:37:cd:60",
+          "aqe:sensor_index=0",
+          "aqe:sensor_type=Temperature"
+        ],
+        "unit": {
+          "symbol": "deg C",
+          "label": "deg C",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "-34.0245897",
+      "lon": "18.4813838",
+      "ele": "1m",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/115497\" >ZS1JEN Air Quality Monitor</a>",
+    "URLMostrar": "https://xively.com/feeds/115497"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\115497.json",
+  "DocumentJSON": null
+}

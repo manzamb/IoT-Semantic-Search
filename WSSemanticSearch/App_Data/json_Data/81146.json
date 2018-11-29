@@ -1,0 +1,55 @@
+{
+  "Conceptos": [
+    "mp10"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "81146",
+    "title": "My Raspberry Pi",
+    "Private": false,
+    "tags": [
+      "teplota"
+    ],
+    "description": "TMP102",
+    "feed": "https://api.xively.com/v2/feeds/81146.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "11/07/2012 06:05:50",
+    "created": "10/19/2012 21:16:18",
+    "creator": "https://xively.com/users/kenik",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Temperature",
+        "current_value": "44.00",
+        "at": "11/07/2012 06:05:50",
+        "max_value": "44.0",
+        "min_value": "22.25",
+        "tags": [
+          "kenik",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Olešná",
+      "domain": 0,
+      "lat": "49.7761095833893",
+      "lon": "13.8085269927979",
+      "ele": "500",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/81146\" >My Raspberry Pi</a>",
+    "URLMostrar": "https://xively.com/feeds/81146"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\81146.json",
+  "DocumentJSON": null
+}

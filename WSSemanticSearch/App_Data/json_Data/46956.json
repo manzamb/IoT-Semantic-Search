@@ -1,0 +1,90 @@
+{
+  "Conceptos": [
+    "wind"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "46956",
+    "title": "Current Cost",
+    "Private": false,
+    "tags": null,
+    "description": "House Power Monitoring",
+    "feed": "https://api.xively.com/v2/feeds/46956.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:07:02",
+    "created": "02/04/2012 14:51:12",
+    "creator": "https://xively.com/users/paulmans01",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "kwh",
+        "current_value": "12.931",
+        "at": "03/21/2014 00:00:07",
+        "max_value": "42.194",
+        "min_value": "7.548",
+        "tags": [
+          "electricity",
+          "kwh",
+          "power"
+        ],
+        "unit": {
+          "symbol": "KWh",
+          "label": "KW/h",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "power",
+        "current_value": "476.40",
+        "at": "03/21/2014 14:07:01",
+        "max_value": "10789.0",
+        "min_value": "182.3",
+        "tags": [
+          "electricity",
+          "power",
+          "watts"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temp",
+        "current_value": "21.78",
+        "at": "03/21/2014 14:07:01",
+        "max_value": "231.04",
+        "min_value": "14.0",
+        "tags": [
+          "celsius",
+          "degrees",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Swindon, UK",
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/46956\" >Current Cost</a>",
+    "URLMostrar": "https://xively.com/feeds/46956"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\46956.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,99 @@
+{
+  "Conceptos": [
+    "temperatura"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "52775",
+    "title": "TELEMEDICION EPMAPS-Q",
+    "Private": false,
+    "tags": [
+      "AC",
+      "Puerta",
+      "Temperatura",
+      "Voltaje Baterías"
+    ],
+    "description": "Equipo de Monitoreo de Casetas y/o Nodos de Telecomunicaciones",
+    "feed": "https://api.xively.com/v2/feeds/52775.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:12:06",
+    "created": "03/20/2012 16:10:50",
+    "creator": "https://xively.com/users/watchingec",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "ERR",
+        "current_value": "6846",
+        "at": "03/21/2014 14:12:06",
+        "max_value": "56151.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "PLV",
+        "current_value": "1327",
+        "at": "03/21/2014 14:12:06",
+        "max_value": "25974.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "PTG",
+        "current_value": "0",
+        "at": "03/21/2014 14:12:06",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "PWR",
+        "current_value": "12.546005247",
+        "at": "03/21/2014 14:12:06",
+        "max_value": "15.150918959",
+        "min_value": "11.439598082",
+        "tags": [
+          "Alimentación DITECnet"
+        ],
+        "unit": {
+          "symbol": "VDC",
+          "label": "Voltios",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Quito",
+      "domain": 0,
+      "lat": "14.0506596340839",
+      "lon": "-87.2007360654297",
+      "ele": "3100",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/52775\" >TELEMEDICION EPMAPS-Q</a>",
+    "URLMostrar": "https://xively.com/feeds/52775"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\52775.json",
+  "DocumentJSON": null
+}

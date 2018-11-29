@@ -1,0 +1,104 @@
+{
+  "Conceptos": [
+    "carbon monoxide"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "41544",
+    "title": "Air Quality",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/41544.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "12/09/2011 05:44:00",
+    "created": "12/09/2011 04:03:41",
+    "creator": "https://xively.com/users/waqs",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "13.0",
+        "at": "12/09/2011 05:44:00",
+        "max_value": "13056.0",
+        "min_value": "0.0",
+        "tags": [
+          "analogRead0",
+          "humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "ppm",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "80.0",
+        "at": "12/09/2011 05:44:00",
+        "max_value": "119.0",
+        "min_value": "0.0",
+        "tags": [
+          "analogRead1",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "86.0",
+        "at": "12/09/2011 05:44:00",
+        "max_value": "125.0",
+        "min_value": "0.0",
+        "tags": [
+          "alcohol",
+          "analogRead2"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "91.0",
+        "at": "12/09/2011 05:44:00",
+        "max_value": "130.0",
+        "min_value": "0.0",
+        "tags": [
+          "analogRead3",
+          "carbon monoxide"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/41544\" >Air Quality</a>",
+    "URLMostrar": "https://xively.com/feeds/41544"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\41544.json",
+  "DocumentJSON": null
+}

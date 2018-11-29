@@ -1,0 +1,181 @@
+{
+  "Conceptos": [
+    "surface"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "80563",
+    "title": "001006",
+    "Private": false,
+    "tags": [
+      "depth",
+      "humidity",
+      "level",
+      "ski",
+      "SmartyPlanet",
+      "SmartySnow",
+      "snow",
+      "temperature"
+    ],
+    "description": "This is a prototipe remote sensors station with snow depht, snow surface temperature, humidity and air temperature. It logs the data every 15' and sends every hour through GPRS.",
+    "feed": "https://api.xively.com/v2/feeds/80563.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "01/27/2014 11:35:59",
+    "created": "10/16/2012 11:53:16",
+    "creator": "https://xively.com/users/arantec",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "A00",
+        "current_value": "609.0",
+        "at": "01/27/2014 11:30:00",
+        "max_value": "9996.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "A01",
+        "current_value": "36.32",
+        "at": "01/27/2014 11:30:00",
+        "max_value": "79.64",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "A02",
+        "current_value": "95.64",
+        "at": "01/27/2014 11:30:00",
+        "max_value": "127.1",
+        "min_value": "31.92",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "A03",
+        "current_value": "3.375",
+        "at": "01/27/2014 11:30:00",
+        "max_value": "22.5",
+        "min_value": "-1.31",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "battery",
+        "current_value": "7.26",
+        "at": "01/27/2014 11:30:00",
+        "max_value": "7.64",
+        "min_value": "5.55",
+        "tags": [
+          "battery"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": "V",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "humidity",
+        "current_value": "40.89",
+        "at": "10/31/2013 12:00:00",
+        "max_value": "127.3",
+        "min_value": "0.097",
+        "tags": [
+          "humidity"
+        ],
+        "unit": {
+          "symbol": "%HR",
+          "label": "%HR",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "IRtemperature",
+        "current_value": "75.03",
+        "at": "10/31/2013 12:00:00",
+        "max_value": "99999.0",
+        "min_value": "-35.0",
+        "tags": [
+          "Infrared surface temperature"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "ºC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "snowdist",
+        "current_value": "63.41",
+        "at": "10/15/2013 21:30:00",
+        "max_value": "699.7",
+        "min_value": "0.0",
+        "tags": [
+          "snow distance"
+        ],
+        "unit": {
+          "symbol": "cm",
+          "label": "cm",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temperature",
+        "current_value": "20.81",
+        "at": "10/31/2013 12:00:00",
+        "max_value": "50.0",
+        "min_value": "-50.0",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "ºC",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Vielha",
+      "domain": 0,
+      "lat": "42.7203879135262",
+      "lon": "0.843938291072845",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/80563\" >001006</a>",
+    "URLMostrar": "https://xively.com/feeds/80563"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\80563.json",
+  "DocumentJSON": null
+}

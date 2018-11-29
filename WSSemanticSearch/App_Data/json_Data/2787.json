@@ -1,0 +1,130 @@
+{
+  "Conceptos": [
+    "area"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "2787",
+    "title": "The Paulis sensor",
+    "Private": false,
+    "tags": null,
+    "description": "Is Paulis busy in a conference?\r\n\r\nHow loud are the undergrads right now?\r\n",
+    "feed": "https://api.xively.com/v2/feeds/2787.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/26/2012 23:36:06",
+    "created": "10/01/2009 15:28:24",
+    "creator": "https://xively.com/users/kebyrne",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "1.0",
+        "at": null,
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "is paulis at his desk"
+        ],
+        "unit": {
+          "symbol": "1 = yes",
+          "label": "Yes/No",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "0.0",
+        "at": null,
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "is he in a conference"
+        ],
+        "unit": {
+          "symbol": "1 = yes",
+          "label": "Yes/No",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "9.0",
+        "at": null,
+        "max_value": "557.0",
+        "min_value": "0.0",
+        "tags": [
+          "area light"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "22.0",
+        "at": null,
+        "max_value": "1023.0",
+        "min_value": "21.0",
+        "tags": [
+          "ambient light"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "120.0",
+        "at": null,
+        "max_value": "1023.0",
+        "min_value": "48.0",
+        "tags": [
+          "noise level"
+        ],
+        "unit": {
+          "symbol": "dcb",
+          "label": "UG3s",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "sensor1",
+        "current_value": "0",
+        "at": "03/26/2012 23:36:06",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "TCAUP",
+      "domain": 0,
+      "lat": "42.288634037276",
+      "lon": "-83.7164311436936",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/2787\" >The Paulis sensor</a>",
+    "URLMostrar": "https://xively.com/feeds/2787"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\2787.json",
+  "DocumentJSON": null
+}

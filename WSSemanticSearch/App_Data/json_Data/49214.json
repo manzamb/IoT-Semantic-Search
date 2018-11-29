@@ -1,0 +1,785 @@
+{
+  "Conceptos": [
+    "physical body"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "49214",
+    "title": "Temperature, humidity, & luminosity in the CREATE-NET's office",
+    "Private": false,
+    "tags": [
+      "create-net",
+      "humidity",
+      "iCore",
+      "luminosity",
+      "temperature",
+      "trento"
+    ],
+    "description": "test, update each 60 s",
+    "feed": "https://api.xively.com/v2/feeds/49214.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "09/27/2013 09:06:27",
+    "created": "02/21/2012 15:02:25",
+    "creator": "https://xively.com/users/andrey",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "25",
+        "at": "09/19/2013 11:39:40",
+        "max_value": "43.0",
+        "min_value": "0.0",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "12.6635780334",
+        "at": "09/19/2013 11:39:40",
+        "max_value": "73.8372268676",
+        "min_value": "-25.8064517974",
+        "tags": [
+          "humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "Percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "4.677419185",
+        "at": "09/19/2013 11:39:40",
+        "max_value": "6.870966911",
+        "min_value": "0.0",
+        "tags": [
+          "luminosity"
+        ],
+        "unit": {
+          "symbol": "none",
+          "label": "unknown",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "63",
+        "at": "09/02/2013 14:39:42",
+        "max_value": "65.0",
+        "min_value": "59.0",
+        "tags": [
+          "heart-rate"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "times per minute ",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "40",
+        "at": "09/02/2013 14:51:14",
+        "max_value": "40.0",
+        "min_value": "36.6",
+        "tags": [
+          "body temp"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "degrees Celc",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": null,
+        "at": "09/23/2013 09:28:53",
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "Test1"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "100",
+        "at": "09/23/2013 09:29:20",
+        "max_value": "100.0",
+        "min_value": "100.0",
+        "tags": [
+          "Test2"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "7",
+        "current_value": "3",
+        "at": "09/23/2013 09:29:44",
+        "max_value": "3.0",
+        "min_value": "3.0",
+        "tags": [
+          "Test3"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": "volt",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "8",
+        "current_value": "5",
+        "at": "09/23/2013 09:30:09",
+        "max_value": "5.0",
+        "min_value": "5.0",
+        "tags": [
+          "Test4"
+        ],
+        "unit": {
+          "symbol": "A",
+          "label": "ampere",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "9",
+        "current_value": null,
+        "at": "09/23/2013 10:11:31",
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "Test5"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "10",
+        "current_value": null,
+        "at": "09/23/2013 10:12:17",
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "Test6"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "11",
+        "current_value": null,
+        "at": "09/23/2013 10:12:31",
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "Test7"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "12",
+        "current_value": null,
+        "at": "09/23/2013 10:12:46",
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "Test6"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "13",
+        "current_value": null,
+        "at": "09/23/2013 10:13:18",
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "Test7"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "14",
+        "current_value": null,
+        "at": "09/27/2013 07:52:51",
+        "max_value": null,
+        "min_value": null,
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "15",
+        "current_value": null,
+        "at": "09/27/2013 07:53:46",
+        "max_value": null,
+        "min_value": null,
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "16",
+        "current_value": null,
+        "at": "09/27/2013 07:53:52",
+        "max_value": null,
+        "min_value": null,
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "17",
+        "current_value": null,
+        "at": "09/27/2013 07:54:02",
+        "max_value": null,
+        "min_value": null,
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "18",
+        "current_value": null,
+        "at": "09/27/2013 07:54:23",
+        "max_value": null,
+        "min_value": null,
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "19",
+        "current_value": null,
+        "at": "09/27/2013 07:54:30",
+        "max_value": null,
+        "min_value": null,
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "20",
+        "current_value": null,
+        "at": "09/27/2013 07:54:37",
+        "max_value": null,
+        "min_value": null,
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "21",
+        "current_value": null,
+        "at": "09/27/2013 07:54:46",
+        "max_value": null,
+        "min_value": null,
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "22",
+        "current_value": null,
+        "at": "09/27/2013 07:54:52",
+        "max_value": null,
+        "min_value": null,
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "23",
+        "current_value": null,
+        "at": "09/27/2013 07:54:58",
+        "max_value": null,
+        "min_value": null,
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "24",
+        "current_value": null,
+        "at": "09/27/2013 07:55:04",
+        "max_value": null,
+        "min_value": null,
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "25",
+        "current_value": null,
+        "at": "09/27/2013 07:55:10",
+        "max_value": null,
+        "min_value": null,
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "26",
+        "current_value": null,
+        "at": "09/27/2013 07:55:21",
+        "max_value": null,
+        "min_value": null,
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "27",
+        "current_value": null,
+        "at": "09/27/2013 08:34:03",
+        "max_value": null,
+        "min_value": null,
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "28",
+        "current_value": null,
+        "at": "09/27/2013 08:34:11",
+        "max_value": null,
+        "min_value": null,
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "29",
+        "current_value": null,
+        "at": "09/27/2013 08:34:17",
+        "max_value": null,
+        "min_value": null,
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "30",
+        "current_value": null,
+        "at": "09/27/2013 08:34:23",
+        "max_value": null,
+        "min_value": null,
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "31",
+        "current_value": null,
+        "at": "09/27/2013 08:34:29",
+        "max_value": null,
+        "min_value": null,
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "32",
+        "current_value": null,
+        "at": "09/27/2013 08:34:33",
+        "max_value": null,
+        "min_value": null,
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "33",
+        "current_value": null,
+        "at": "09/27/2013 08:34:41",
+        "max_value": null,
+        "min_value": null,
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "34",
+        "current_value": null,
+        "at": "09/27/2013 08:34:46",
+        "max_value": null,
+        "min_value": null,
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "35",
+        "current_value": null,
+        "at": "09/27/2013 08:35:11",
+        "max_value": null,
+        "min_value": null,
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "36",
+        "current_value": null,
+        "at": "09/27/2013 08:55:36",
+        "max_value": null,
+        "min_value": null,
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "37",
+        "current_value": null,
+        "at": "09/27/2013 08:55:43",
+        "max_value": null,
+        "min_value": null,
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "38",
+        "current_value": null,
+        "at": "09/27/2013 08:55:51",
+        "max_value": null,
+        "min_value": null,
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "39",
+        "current_value": null,
+        "at": "09/27/2013 08:55:59",
+        "max_value": null,
+        "min_value": null,
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "40",
+        "current_value": null,
+        "at": "09/27/2013 08:56:07",
+        "max_value": null,
+        "min_value": null,
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "41",
+        "current_value": null,
+        "at": "09/27/2013 08:56:13",
+        "max_value": null,
+        "min_value": null,
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "42",
+        "current_value": null,
+        "at": "09/27/2013 09:05:27",
+        "max_value": null,
+        "min_value": null,
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "43",
+        "current_value": null,
+        "at": "09/27/2013 09:05:34",
+        "max_value": null,
+        "min_value": null,
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "44",
+        "current_value": null,
+        "at": "09/27/2013 09:05:39",
+        "max_value": null,
+        "min_value": null,
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "45",
+        "current_value": null,
+        "at": "09/27/2013 09:05:50",
+        "max_value": null,
+        "min_value": null,
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "46",
+        "current_value": null,
+        "at": "09/27/2013 09:05:57",
+        "max_value": null,
+        "min_value": null,
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "47",
+        "current_value": null,
+        "at": "09/27/2013 09:06:04",
+        "max_value": null,
+        "min_value": null,
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "48",
+        "current_value": null,
+        "at": "09/27/2013 09:06:14",
+        "max_value": null,
+        "min_value": null,
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "49",
+        "current_value": null,
+        "at": "09/27/2013 09:06:21",
+        "max_value": null,
+        "min_value": null,
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "50",
+        "current_value": null,
+        "at": "09/27/2013 09:06:27",
+        "max_value": null,
+        "min_value": null,
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Trento, ITALY",
+      "domain": 0,
+      "lat": "46.057985244793",
+      "lon": "11.09619140625",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/49214\" >Temperature, humidity, & luminosity in the CREATE-NET's office</a>",
+    "URLMostrar": "https://xively.com/feeds/49214"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\49214.json",
+  "DocumentJSON": null
+}

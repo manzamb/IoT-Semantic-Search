@@ -1,0 +1,71 @@
+{
+  "Conceptos": [
+    "man"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "1662247413",
+    "title": "Mansell Home",
+    "Private": false,
+    "tags": [
+      "Energy",
+      "Hot Water",
+      "Temperature"
+    ],
+    "description": "Home Energy Management System",
+    "feed": "https://api.xively.com/v2/feeds/1662247413.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:12:49",
+    "created": "10/01/2013 04:32:05",
+    "creator": "https://xively.com/users/chrisrusty",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "HW-Cylinder",
+        "current_value": "OFF",
+        "at": "03/21/2014 14:12:49",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "HW-Temperature",
+        "current_value": "53.3",
+        "at": "03/21/2014 14:12:49",
+        "max_value": "79.3",
+        "min_value": "0.0",
+        "tags": [
+          "Energy",
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Mansell House",
+      "domain": 0,
+      "lat": "-36.9166750201689",
+      "lon": "174.646098911762",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/1662247413\" >Mansell Home</a>",
+    "URLMostrar": "https://xively.com/feeds/1662247413"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\1662247413.json",
+  "DocumentJSON": null
+}

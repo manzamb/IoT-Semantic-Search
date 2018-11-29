@@ -1,0 +1,52 @@
+{
+  "Conceptos": [
+    "thermistor"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "9316",
+    "title": "Home Temperature",
+    "Private": false,
+    "tags": null,
+    "description": "Indoor temperature of my house using a small bead-type 10kohm NTC thermistor.  As you can see, it is pretty sensitive to temperature changes.",
+    "feed": "https://api.xively.com/v2/feeds/9316.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "09/11/2010 01:21:42",
+    "created": "08/07/2010 22:49:34",
+    "creator": "https://xively.com/users/flyboy",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "-459.66998",
+        "at": "09/11/2010 01:21:42",
+        "max_value": "77.3202",
+        "min_value": "-459.66998",
+        "tags": [
+          "thermistor"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Home",
+      "domain": 0,
+      "lat": "39.7607501785713",
+      "lon": "-86.4407730102539",
+      "ele": "200",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/9316\" >Home Temperature</a>",
+    "URLMostrar": "https://xively.com/feeds/9316"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\9316.json",
+  "DocumentJSON": null
+}

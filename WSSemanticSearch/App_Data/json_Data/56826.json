@@ -1,0 +1,116 @@
+{
+  "Conceptos": [
+    "type collection"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "56826",
+    "title": "Solar Hot Water System temperature monitoring",
+    "Private": false,
+    "tags": null,
+    "description": "Flat panel rooftop solar hot water system (thermosyphon type) with electric booster operating at night. \r\n\r\nData collection: \r\nNetduino Plus with directly connected DS18S20 One-wire sensors \r\nSensors inserted under insulation on outside of HWS tank\r\n\r\nAim: Better understanding of daily cycles, and decision support for durning electric booster on and off (currently mostly done on a seasonal basis - off during summer, on during winter)\r\n\r\nProgress to date:\r\nMultiple DS18S20 one-wire sensors being read by Netduino plus and pushed to to COSM\r\n\r\nCurrent status: Sensors installed in HWS. 13-Oct-2012.  Also added roof space and indoor sensors.\r\n \r\nTodo:\r\nDo something with data - e.g trigger alert of some sort when temp too low late in the day.\r\n",
+    "feed": "https://api.xively.com/v2/feeds/56826.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:13:09",
+    "created": "04/23/2012 11:44:32",
+    "creator": "https://xively.com/users/david_g",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "50911",
+        "current_value": "41.625",
+        "at": "03/21/2014 14:13:09",
+        "max_value": "83.5625",
+        "min_value": "0.0",
+        "tags": [
+          "HW Tank Bottom"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "51168",
+        "current_value": "22.875",
+        "at": "03/21/2014 14:13:09",
+        "max_value": "53.15625",
+        "min_value": "14.8125",
+        "tags": [
+          "Indoor"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "52757",
+        "current_value": "60.125",
+        "at": "03/21/2014 14:13:09",
+        "max_value": "101.65625",
+        "min_value": "0.0",
+        "tags": [
+          "HW Tank Mid"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "54666",
+        "current_value": "13.375",
+        "at": "03/21/2014 14:13:09",
+        "max_value": "95.46875",
+        "min_value": "0.0",
+        "tags": [
+          "Roof space"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "55183",
+        "current_value": "62.4375",
+        "at": "03/21/2014 14:13:09",
+        "max_value": "124.96875",
+        "min_value": "0.0",
+        "tags": [
+          "HW Tank Top"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Clarence Gardens, South Australia",
+      "domain": 0,
+      "lat": "-34.973624",
+      "lon": "138.577829",
+      "ele": "31",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/56826\" >Solar Hot Water System temperature monitoring</a>",
+    "URLMostrar": "https://xively.com/feeds/56826"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\56826.json",
+  "DocumentJSON": null
+}

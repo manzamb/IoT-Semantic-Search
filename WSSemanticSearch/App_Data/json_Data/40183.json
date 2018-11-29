@@ -1,0 +1,66 @@
+{
+  "Conceptos": [
+    "description"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "40183",
+    "title": "DataOne",
+    "Private": false,
+    "tags": [
+      "home work"
+    ],
+    "description": "Description",
+    "feed": "https://api.xively.com/v2/feeds/40183.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "11/22/2011 09:19:07",
+    "created": "11/22/2011 09:19:07",
+    "creator": "https://xively.com/users/riccardo",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "pressure",
+        "current_value": null,
+        "at": "11/22/2011 09:19:07",
+        "max_value": null,
+        "min_value": null,
+        "tags": null,
+        "unit": {
+          "symbol": "p",
+          "label": "bars",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "volume",
+        "current_value": null,
+        "at": "11/22/2011 09:19:07",
+        "max_value": null,
+        "min_value": null,
+        "tags": null,
+        "unit": {
+          "symbol": "v",
+          "label": "liters",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "trieste",
+      "domain": 0,
+      "lat": "45.6570078294842",
+      "lon": "13.7747955322266",
+      "ele": "10",
+      "exposure": 1,
+      "disposition": 1
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/40183\" >DataOne</a>",
+    "URLMostrar": "https://xively.com/feeds/40183"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\40183.json",
+  "DocumentJSON": null
+}

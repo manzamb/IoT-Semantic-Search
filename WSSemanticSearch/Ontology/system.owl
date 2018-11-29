@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:acorn-system="http://lab.environment.data.gov.au/def/acorn/system/"
+         xmlns:acorn-site="http://lab.environment.data.gov.au/def/acorn/site/"
+         xmlns:ssn="http://purl.oclc.org/NET/ssnx/ssn#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:dct="http://purl.org/dc/terms/"
+         xmlns:cc="http://creativecommons.org/ns#"
+         xmlns:time="http://www.w3.org/2006/time#"
+         xmlns:interval="http://reference.data.gov.uk/def/intervals/"
+         xmlns:wgs84_pos="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:gn="http://www.geonames.org/ontology#"
+         xmlns:qb="http://purl.org/linked-data/cube#"
+         xmlns:void="http://rdfs.org/ns/void#"
+         xmlns:acorn-sat="http://lab.environment.data.gov.au/def/acorn/sat/"
+         xmlns:acorn-series="http://lab.environment.data.gov.au/def/acorn/time-series/"
+         xmlns:bom-station="http://lab.environment.data.gov.au/def/stations/station/"
+         xmlns:raindist="http://lab.environment.data.gov.au/def/stations/raindist/"
+         xmlns:rainstate="http://lab.environment.data.gov.au/def/stations/rainstate/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+   <owl:Ontology rdf:about="http://lab.environment.data.gov.au/def/acorn/system">
+      <dc:title>ACORN Systems</dc:title>
+      <dc:description>ACORN Systems: sum of all the weather observation stations contributing to an ACORN-SAT time series</dc:description>
+      <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Laurent Lefort, CSIRO</dc:creator>
+      <dc:date>2012-07-05</dc:date>
+      <dc:identifier>http://lab.environment.data.gov.au/def/acorn/system</dc:identifier>
+      <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">This ontology defines the base defs for the Australian meteorological weather stations linked data set defined in ftp://ftp.bom.gov.au/anon2/home/ncc/metadata/sitelists/stations.zip</rdfs:comment>
+      <dc:rights>Copyright 2012 CSIRO.</dc:rights>
+      <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/au/"/>
+      <owl:imports rdf:resource="http://purl.oclc.org/NET/ssnx/ssn"/>
+      <owl:imports rdf:resource="http://lab.environment.data.gov.au/def/acorn/site"/>
+   </owl:Ontology>
+   <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+   <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
+   <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+   <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/date"/>
+   <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/modified"/>
+   <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/source"/>
+   <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/identifier"/>
+   <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/rights"/>
+   <owl:AnnotationProperty rdf:about="http://creativecommons.org/ns#license"/>
+   <owl:Class rdf:about="http://lab.environment.data.gov.au/def/acorn/system/System">
+      <rdfs:comment xml:lang="en">A system grouping all the weather observation stations contributing to an ACORN-SAT time series</rdfs:comment>
+      <rdfs:isDefinedBy rdf:resource="http://lab.environment.data.gov.au/def/acorn/system"/>
+      <rdfs:label xml:lang="en">System</rdfs:label>
+      <rdfs:subClassOf rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#System"/>
+   </owl:Class>
+   <rdf:Property rdf:about="http://lab.environment.data.gov.au/def/acorn/system/systemNotation">
+      <rdfs:comment xml:lang="en">A skos:notation sub property for typed notations on systems</rdfs:comment>
+      <rdfs:domain rdf:resource="http://lab.environment.data.gov.au/def/acorn/system/System"/>
+      <rdfs:isDefinedBy rdf:resource="http://lab.environment.data.gov.au/def/acorn/system"/>
+      <rdfs:label xml:lang="en">systemNotation</rdfs:label>
+      <rdfs:range rdf:resource="http://lab.environment.data.gov.au/def/acorn/system/systemid"/>
+      <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#notation"/>
+   </rdf:Property>
+   <rdfs:Datatype rdf:about="http://lab.environment.data.gov.au/def/acorn/system/systemid">
+      <rdfs:isDefinedBy rdf:resource="http://lab.environment.data.gov.au/def/acorn/system"/>
+      <rdfs:label xml:lang="en">systemid</rdfs:label>
+      <rdfs:comment xml:lang="en">Datatype for use in typed skos:notations</rdfs:comment>
+   </rdfs:Datatype>
+   <owl:ObjectProperty rdf:about="http://lab.environment.data.gov.au/def/acorn/system/currentSite">
+      <rdfs:comment xml:lang="en">The site which is the more recently used one for the time series</rdfs:comment>
+      <rdfs:domain rdf:resource="http://lab.environment.data.gov.au/def/acorn/system/System"/>
+      <rdfs:isDefinedBy rdf:resource="http://lab.environment.data.gov.au/def/acorn/system"/>
+      <rdfs:label xml:lang="en">currentSite</rdfs:label>
+      <rdfs:range rdf:resource="http://lab.environment.data.gov.au/def/acorn/site/Site"/>
+      <rdfs:subPropertyOf rdf:resource="http://purl.oclc.org/NET/ssnx/ssn#hasSubSystem"/>
+   </owl:ObjectProperty>
+</rdf:RDF>

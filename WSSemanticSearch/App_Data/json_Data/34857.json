@@ -1,0 +1,54 @@
+{
+  "Conceptos": [
+    "system"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "34857",
+    "title": "Newquay UK Radiation",
+    "Private": false,
+    "tags": [
+      "sensor:type=radiation sensor:model=GM-10 location:country=UK µR/h Geiger Counter Europe Cornwall UK"
+    ],
+    "description": "Using a Blackcat systems GM-10 geiger counter, opperational since May 2011.\r\nWebsite : www.newquayweather.com",
+    "feed": "https://api.xively.com/v2/feeds/34857.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:10:01",
+    "created": "08/28/2011 07:51:20",
+    "creator": "https://xively.com/users/newquayweather",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "19",
+        "at": "03/21/2014 14:10:01",
+        "max_value": "3860.0",
+        "min_value": "0.0",
+        "tags": [
+          "sensor:type=radiation sensor:model=GM-10 location:country=UK"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "µR/h",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Newquay",
+      "domain": 1,
+      "lat": "50.422",
+      "lon": "-5.053",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/34857\" >Newquay UK Radiation</a>",
+    "URLMostrar": "https://xively.com/feeds/34857"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\34857.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,90 @@
+{
+  "Conceptos": [
+    "atmospheric pressure"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "82664",
+    "title": "Take Away Set",
+    "Private": false,
+    "tags": [
+      "atmospheric pressure",
+      "flexibity",
+      "humidity",
+      "temperature",
+      "thap"
+    ],
+    "description": "A sensor for demonstrations",
+    "feed": "https://api.xively.com/v2/feeds/82664.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "10/26/2012 21:03:29",
+    "created": "10/26/2012 19:31:02",
+    "creator": "https://xively.com/users/flexibity",
+    "version": null,
+    "website": "http://www.flexibity.com",
+    "datastreams": [
+      {
+        "id": "humidity",
+        "current_value": "64.14",
+        "at": "10/26/2012 21:03:29",
+        "max_value": "73.78",
+        "min_value": "63.62",
+        "tags": [
+          "humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "pressure",
+        "current_value": "1102.89",
+        "at": "10/26/2012 21:03:29",
+        "max_value": "1102.89",
+        "min_value": "1099.71",
+        "tags": [
+          "atmospheric pressure"
+        ],
+        "unit": {
+          "symbol": "mbar",
+          "label": "millibar",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temperature",
+        "current_value": "19.72",
+        "at": "10/26/2012 21:03:29",
+        "max_value": "19.74",
+        "min_value": "17.46",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "degree",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 1
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/82664\" >Take Away Set</a>",
+    "URLMostrar": "https://xively.com/feeds/82664"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\82664.json",
+  "DocumentJSON": null
+}

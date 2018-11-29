@@ -1,0 +1,68 @@
+{
+  "Conceptos": [
+    "chemical"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "4418",
+    "title": "My Internet Usage",
+    "Private": false,
+    "tags": null,
+    "description": "Live feed of my internet speed usage ",
+    "feed": "https://api.xively.com/v2/feeds/4418.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "07/04/2010 11:26:40",
+    "created": "01/13/2010 14:01:08",
+    "creator": "https://xively.com/users/chemicaloliver",
+    "version": null,
+    "website": "http://www.chemicaloliver.net",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "0074",
+        "at": "07/04/2010 11:26:40",
+        "max_value": "4888.0",
+        "min_value": "0.0",
+        "tags": [
+          "download speed"
+        ],
+        "unit": {
+          "symbol": "kbps",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "0021",
+        "at": "07/04/2010 11:26:40",
+        "max_value": "618.0",
+        "min_value": "0.0",
+        "tags": [
+          "upload speed"
+        ],
+        "unit": {
+          "symbol": "kbps",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Home",
+      "domain": 0,
+      "lat": "53.6160337308043",
+      "lon": "-1.29037857055664",
+      "ele": "50",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/4418\" >My Internet Usage</a>",
+    "URLMostrar": "https://xively.com/feeds/4418"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\4418.json",
+  "DocumentJSON": null
+}

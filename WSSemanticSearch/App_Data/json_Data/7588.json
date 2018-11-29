@@ -1,0 +1,80 @@
+{
+  "Conceptos": [
+    "sensor input"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "7588",
+    "title": "PRI_input",
+    "Private": false,
+    "tags": null,
+    "description": "This is the High or Low status of the PIR motion sensor",
+    "feed": "https://api.xively.com/v2/feeds/7588.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "06/15/2010 13:40:24",
+    "created": "05/26/2010 11:46:24",
+    "creator": "https://xively.com/users/gecf343b1",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "1",
+        "current_value": "527",
+        "at": "06/15/2010 13:40:24",
+        "max_value": "558.0",
+        "min_value": "503.0",
+        "tags": [
+          "pir1"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": null,
+        "at": "06/15/2010 13:40:24",
+        "max_value": null,
+        "min_value": null,
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": null,
+        "at": "06/15/2010 13:40:24",
+        "max_value": null,
+        "min_value": null,
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Louisville, KY",
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/7588\" >PRI_input</a>",
+    "URLMostrar": "https://xively.com/feeds/7588"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\7588.json",
+  "DocumentJSON": null
+}

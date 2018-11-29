@@ -1,0 +1,131 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WSWordNet", "WSWordNet\WSWordNet.csproj", "{036082D9-DF1B-4894-9CA7-97CD422F782F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppSemanticIndex", "AppSemanticIndex\AppSemanticIndex.csproj", "{14706F02-40F4-40DD-A6CC-5573ACEAE9B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WSSemanticSearch", "WSSemanticSearch\WSSemanticSearch.csproj", "{3581D6E0-0FE9-4EBC-912A-E29FDA02CC20}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B032257F-529F-4ECD-B131-96158CDA8A14} = {B032257F-529F-4ECD-B131-96158CDA8A14}
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "AppWeb", "AppWeb\", "{94F85C9F-F9BF-4E9E-A5F1-6D286ADA82C3}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		ProjectReferences = "{036082D9-DF1B-4894-9CA7-97CD422F782F}|WSWordNet.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/AppWeb"
+		Debug.AspNetCompiler.PhysicalPath = "AppWeb\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\AppWeb\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/AppWeb"
+		Release.AspNetCompiler.PhysicalPath = "AppWeb\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\AppWeb\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "3610"
+		SlnRelativePath = "AppWeb\"
+	EndProjectSection
+	ProjectSection(ProjectDependencies) = postProject
+		{3581D6E0-0FE9-4EBC-912A-E29FDA02CC20} = {3581D6E0-0FE9-4EBC-912A-E29FDA02CC20}
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WebServiceExpansionConsulta", "WebServiceExpansionConsulta\", "{B032257F-529F-4ECD-B131-96158CDA8A14}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		Debug.AspNetCompiler.VirtualPath = "/WebServiceExpansionConsulta"
+		Debug.AspNetCompiler.PhysicalPath = "WebServiceExpansionConsulta\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\WebServiceExpansionConsulta\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/WebServiceExpansionConsulta"
+		Release.AspNetCompiler.PhysicalPath = "WebServiceExpansionConsulta\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\WebServiceExpansionConsulta\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "18290"
+		SlnRelativePath = "WebServiceExpansionConsulta\"
+	EndProjectSection
+	ProjectSection(ProjectDependencies) = postProject
+		{036082D9-DF1B-4894-9CA7-97CD422F782F} = {036082D9-DF1B-4894-9CA7-97CD422F782F}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Release|.NET = Release|.NET
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{036082D9-DF1B-4894-9CA7-97CD422F782F}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{036082D9-DF1B-4894-9CA7-97CD422F782F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{036082D9-DF1B-4894-9CA7-97CD422F782F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{036082D9-DF1B-4894-9CA7-97CD422F782F}.Debug|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{036082D9-DF1B-4894-9CA7-97CD422F782F}.Debug|Mixed Platforms.Build.0 = Release|Any CPU
+		{036082D9-DF1B-4894-9CA7-97CD422F782F}.Release|.NET.ActiveCfg = Release|Any CPU
+		{036082D9-DF1B-4894-9CA7-97CD422F782F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{036082D9-DF1B-4894-9CA7-97CD422F782F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{036082D9-DF1B-4894-9CA7-97CD422F782F}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{036082D9-DF1B-4894-9CA7-97CD422F782F}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{14706F02-40F4-40DD-A6CC-5573ACEAE9B9}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{14706F02-40F4-40DD-A6CC-5573ACEAE9B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14706F02-40F4-40DD-A6CC-5573ACEAE9B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14706F02-40F4-40DD-A6CC-5573ACEAE9B9}.Debug|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{14706F02-40F4-40DD-A6CC-5573ACEAE9B9}.Debug|Mixed Platforms.Build.0 = Release|Any CPU
+		{14706F02-40F4-40DD-A6CC-5573ACEAE9B9}.Release|.NET.ActiveCfg = Release|Any CPU
+		{14706F02-40F4-40DD-A6CC-5573ACEAE9B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14706F02-40F4-40DD-A6CC-5573ACEAE9B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14706F02-40F4-40DD-A6CC-5573ACEAE9B9}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{14706F02-40F4-40DD-A6CC-5573ACEAE9B9}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{3581D6E0-0FE9-4EBC-912A-E29FDA02CC20}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{3581D6E0-0FE9-4EBC-912A-E29FDA02CC20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3581D6E0-0FE9-4EBC-912A-E29FDA02CC20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3581D6E0-0FE9-4EBC-912A-E29FDA02CC20}.Debug|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{3581D6E0-0FE9-4EBC-912A-E29FDA02CC20}.Debug|Mixed Platforms.Build.0 = Release|Any CPU
+		{3581D6E0-0FE9-4EBC-912A-E29FDA02CC20}.Release|.NET.ActiveCfg = Release|Any CPU
+		{3581D6E0-0FE9-4EBC-912A-E29FDA02CC20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3581D6E0-0FE9-4EBC-912A-E29FDA02CC20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3581D6E0-0FE9-4EBC-912A-E29FDA02CC20}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{3581D6E0-0FE9-4EBC-912A-E29FDA02CC20}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{94F85C9F-F9BF-4E9E-A5F1-6D286ADA82C3}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{94F85C9F-F9BF-4E9E-A5F1-6D286ADA82C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94F85C9F-F9BF-4E9E-A5F1-6D286ADA82C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94F85C9F-F9BF-4E9E-A5F1-6D286ADA82C3}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{94F85C9F-F9BF-4E9E-A5F1-6D286ADA82C3}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{94F85C9F-F9BF-4E9E-A5F1-6D286ADA82C3}.Release|.NET.ActiveCfg = Debug|Any CPU
+		{94F85C9F-F9BF-4E9E-A5F1-6D286ADA82C3}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{94F85C9F-F9BF-4E9E-A5F1-6D286ADA82C3}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{94F85C9F-F9BF-4E9E-A5F1-6D286ADA82C3}.Release|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{94F85C9F-F9BF-4E9E-A5F1-6D286ADA82C3}.Release|Mixed Platforms.Build.0 = Debug|Any CPU
+		{B032257F-529F-4ECD-B131-96158CDA8A14}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{B032257F-529F-4ECD-B131-96158CDA8A14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B032257F-529F-4ECD-B131-96158CDA8A14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B032257F-529F-4ECD-B131-96158CDA8A14}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{B032257F-529F-4ECD-B131-96158CDA8A14}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{B032257F-529F-4ECD-B131-96158CDA8A14}.Release|.NET.ActiveCfg = Debug|Any CPU
+		{B032257F-529F-4ECD-B131-96158CDA8A14}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{B032257F-529F-4ECD-B131-96158CDA8A14}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{B032257F-529F-4ECD-B131-96158CDA8A14}.Release|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{B032257F-529F-4ECD-B131-96158CDA8A14}.Release|Mixed Platforms.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(PowerDesigner) = preSolution
+		HasSWS = 1
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,102 @@
+{
+  "Conceptos": [
+    "event type"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "124626",
+    "title": "CosmX System Info (“apple”的“MacBook Air”)",
+    "Private": false,
+    "tags": [
+      "app:author=lebreeze",
+      "app:name=CosmX",
+      "app:version=0.8",
+      "os:type=osx",
+      "os:version=10.8.3"
+    ],
+    "description": "Intel(R) Core(TM)2 Duo CPU     L9400  @ 1.86GHz\r\n\r\nhttps://github.com/levent/CosmX",
+    "feed": "https://api.xively.com/v2/feeds/124626.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "04/18/2013 09:42:30",
+    "created": "04/12/2013 04:28:51",
+    "creator": "https://xively.com/users/vlan4096",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "cpu_0",
+        "current_value": "80.22",
+        "at": "04/18/2013 09:42:30",
+        "max_value": "92.8",
+        "min_value": "0.1",
+        "tags": [
+          "cpu"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "Percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "cpu_1",
+        "current_value": "55.20",
+        "at": "04/18/2013 09:42:30",
+        "max_value": "77.2",
+        "min_value": "0.8",
+        "tags": [
+          "cpu"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "Percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "cpu_count",
+        "current_value": "2",
+        "at": "04/18/2013 09:42:30",
+        "max_value": "2.0",
+        "min_value": "2.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "total_memory",
+        "current_value": "2048",
+        "at": "04/18/2013 09:42:30",
+        "max_value": "2048.0",
+        "min_value": "2048.0",
+        "tags": null,
+        "unit": {
+          "symbol": "(MB)",
+          "label": "Megabytes",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/124626\" >CosmX System Info (“apple”的“MacBook Air”)</a>",
+    "URLMostrar": "https://xively.com/feeds/124626"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\124626.json",
+  "DocumentJSON": null
+}

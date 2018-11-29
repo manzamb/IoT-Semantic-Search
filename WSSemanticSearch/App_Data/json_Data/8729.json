@@ -1,0 +1,148 @@
+{
+  "Conceptos": [
+    "thermistor"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "8729",
+    "title": "Low Cost Nanode Board - Web Enabled Sensors",
+    "Private": false,
+    "tags": null,
+    "description": "Currently located at the London Hackspace in Cremer Street, Shoreditch.\r\n\r\nThermistor temperature sensors using using Nanode board - low cost web connectivity node pcb.\r\n\r\nOnly sensor 4 is connected to anything sensible.  \r\n\r\n1. Loosely based on Arduino and NuElectronics Ethernet Shield. \r\n2. Uses Andrew Lindsay's improved ENC28J60 code.\r\n3. Made for about £18 from easy to build pcb.\r\n\r\nThermistors monitor office temperature, lounge temperature and outside temperature.\r\n\r\nPipe clip thermistors measure temperature at inlet and outlet of hot water tank.",
+    "feed": "https://api.xively.com/v2/feeds/8729.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "05/17/2011 20:05:24",
+    "created": "07/10/2010 22:59:41",
+    "creator": "https://xively.com/users/2020vision",
+    "version": null,
+    "website": "http://sustburbia.blogspot.com/2010/08/arduino-compatible-web-server.html",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "0.0",
+        "at": "05/17/2011 20:05:24",
+        "max_value": "23.22",
+        "min_value": "0.0",
+        "tags": [
+          "Sensor 0 - Office Temp"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "centigrade",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "-25.-74",
+        "at": "05/17/2011 20:05:24",
+        "max_value": "29.89",
+        "min_value": "-26.0",
+        "tags": [
+          "Sensor 1 -  HW Tank Outlet"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "centigrade",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "24.99",
+        "at": "05/17/2011 20:05:24",
+        "max_value": "26.88",
+        "min_value": "0.52",
+        "tags": [
+          "Sensor 2 - HW Tank Inlet"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "centigrade",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "13.29",
+        "at": "05/17/2011 20:05:24",
+        "max_value": "41.6",
+        "min_value": "2.78",
+        "tags": [
+          "Sensor 3 - Lounge Temp"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "centigrade",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "24.91",
+        "at": "05/17/2011 20:05:24",
+        "max_value": "29.52",
+        "min_value": "0.0",
+        "tags": [
+          "Sensor 4 - Hackspace Temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "centigrade",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "9.31",
+        "at": "05/17/2011 20:05:24",
+        "max_value": "25.35",
+        "min_value": "0.0",
+        "tags": [
+          "Sensor 5  - Outside Temp"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "centigrade",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "1018",
+        "at": "05/17/2011 20:05:24",
+        "max_value": "1080.0",
+        "min_value": "0.0",
+        "tags": [
+          "Message Counter"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "London Hackspace - Lab 24",
+      "domain": 0,
+      "lat": "51.5287173864635",
+      "lon": "-0.0822687149047852",
+      "ele": "85m",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/8729\" >Low Cost Nanode Board - Web Enabled Sensors</a>",
+    "URLMostrar": "https://xively.com/feeds/8729"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\8729.json",
+  "DocumentJSON": null
+}

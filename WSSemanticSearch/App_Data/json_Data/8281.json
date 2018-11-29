@@ -1,0 +1,84 @@
+{
+  "Conceptos": [
+    "thermistor"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "8281",
+    "title": "Arduino Pachube_Client Test",
+    "Private": false,
+    "tags": null,
+    "description": "a=analogRead(0);\r\nresistance=(float)(1023-a)*10000/a; temperature=1/(log(resistance/10000)/B+1/298.15)-273.15;\r\n",
+    "feed": "https://api.xively.com/v2/feeds/8281.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "07/07/2011 04:47:57",
+    "created": "06/19/2010 04:45:55",
+    "creator": "https://xively.com/users/sirleech",
+    "version": null,
+    "website": "https://github.com/sirleech/pachube_client",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "100",
+        "at": "07/07/2011 04:47:57",
+        "max_value": "616.0",
+        "min_value": "100.0",
+        "tags": [
+          "a0 thermistor"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "500",
+        "at": "07/07/2011 04:47:57",
+        "max_value": "1003.0",
+        "min_value": "234.0",
+        "tags": [
+          "a2"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "300",
+        "at": "07/07/2011 04:47:57",
+        "max_value": "999.0",
+        "min_value": "0.0",
+        "tags": [
+          "successes"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Ainslie, Canberra, ACT Australia",
+      "domain": 0,
+      "lat": "-35.2727419765926",
+      "lon": "149.147429466248",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/8281\" >Arduino Pachube_Client Test</a>",
+    "URLMostrar": "https://xively.com/feeds/8281"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\8281.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,80 @@
+{
+  "Conceptos": [
+    "pst"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "50205",
+    "title": "Testopstelling ZZM",
+    "Private": false,
+    "tags": [
+      "Denekamp",
+      "instraling",
+      "monitoring",
+      "Overijssel",
+      "PV",
+      "pv-panelen",
+      "solar",
+      "Zelziuz",
+      "zonne-energie",
+      "zonnepanelen",
+      "zonnestroom"
+    ],
+    "description": "Zonnestroom opwekking via Current Cost met OptiSmart en NetSmart",
+    "feed": "https://api.xively.com/v2/feeds/50205.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "01/21/2013 07:37:43",
+    "created": "03/01/2012 14:04:31",
+    "creator": "https://xively.com/users/zzm",
+    "version": null,
+    "website": "http://www.zelziuz.nl",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "21.80",
+        "at": "01/21/2013 07:37:43",
+        "max_value": "30.8",
+        "min_value": "0.0",
+        "tags": [
+          "Binnentemperatuur"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "0",
+        "at": "01/21/2013 07:37:43",
+        "max_value": "21110.0",
+        "min_value": "0.0",
+        "tags": [
+          "Opwekking PV"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Schulte Denekamp",
+      "domain": 0,
+      "lat": "52.3816834909627",
+      "lon": "7.02221900224686",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/50205\" >Testopstelling ZZM</a>",
+    "URLMostrar": "https://xively.com/feeds/50205"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\50205.json",
+  "DocumentJSON": null
+}

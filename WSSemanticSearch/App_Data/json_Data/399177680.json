@@ -1,0 +1,68 @@
+{
+  "Conceptos": [
+    "calidad del aire"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "399177680",
+    "title": "Estación de Calidad del Aire en Popayán",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/399177680.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "11/05/2013 21:21:10",
+    "created": "11/05/2013 20:55:47",
+    "creator": "https://xively.com/users/manzamb",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Sensor_MQ-7",
+        "current_value": null,
+        "at": "11/05/2013 21:02:16",
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "monóxido de carbono"
+        ],
+        "unit": {
+          "symbol": "ug",
+          "label": "ParticulasPorMillon",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Sesnsor_NT-NO2",
+        "current_value": "50",
+        "at": "11/05/2013 21:06:55",
+        "max_value": "50.0",
+        "min_value": "50.0",
+        "tags": [
+          "dioxido de nitrogeno"
+        ],
+        "unit": {
+          "symbol": "ug",
+          "label": "ParticulasPorMillon",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Popayán",
+      "domain": 0,
+      "lat": "2.2033",
+      "lon": "-76.2944",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/399177680\" >Estación de Calidad del Aire en Popayán</a>",
+    "URLMostrar": "https://xively.com/feeds/399177680"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\399177680.json",
+  "DocumentJSON": null
+}

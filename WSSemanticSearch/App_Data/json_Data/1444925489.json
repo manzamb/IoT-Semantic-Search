@@ -1,0 +1,84 @@
+{
+  "Conceptos": [
+    "moisture"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "1444925489",
+    "title": "Electric Imp Moist Sensor",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/1444925489.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "09/07/2013 05:30:09",
+    "created": "05/24/2013 20:21:22",
+    "creator": "https://xively.com/users/elaiel",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Batteriespannung",
+        "current_value": "3.275",
+        "at": "09/07/2013 05:30:09",
+        "max_value": "3.28",
+        "min_value": "0.0",
+        "tags": [
+          "Batteriespannung"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": "Volt",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Lightsensor",
+        "current_value": "655.35",
+        "at": "09/07/2013 05:30:09",
+        "max_value": "65535.0",
+        "min_value": "0.0",
+        "tags": [
+          "Light emmitance as resistance"
+        ],
+        "unit": {
+          "symbol": "Ω",
+          "label": "Ohm",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Moistsensor",
+        "current_value": "58",
+        "at": "09/07/2013 05:30:09",
+        "max_value": "41690.0",
+        "min_value": "-37.593",
+        "tags": [
+          "Moisture as resistance"
+        ],
+        "unit": {
+          "symbol": "Ω",
+          "label": "Ohm",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Sankt Gallen Plant",
+      "domain": 0,
+      "lat": "47.4166667",
+      "lon": "9.3666667",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/1444925489\" >Electric Imp Moist Sensor</a>",
+    "URLMostrar": "https://xively.com/feeds/1444925489"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\1444925489.json",
+  "DocumentJSON": null
+}

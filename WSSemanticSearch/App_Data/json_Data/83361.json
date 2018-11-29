@@ -1,0 +1,55 @@
+{
+  "Conceptos": [
+    "sensor input"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "83361",
+    "title": "sensors",
+    "Private": false,
+    "tags": [
+      "input from different sensors connected to arduino",
+      "raspberry pi boards etc."
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/83361.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "12/13/2012 10:50:17",
+    "created": "10/31/2012 21:44:25",
+    "creator": "https://xively.com/users/tc5660",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "temp",
+        "current_value": "24.44",
+        "at": "12/13/2012 10:50:17",
+        "max_value": "31.25",
+        "min_value": "15.69",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "51.8238958244022",
+      "lon": "19.412841796875",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/83361\" >sensors</a>",
+    "URLMostrar": "https://xively.com/feeds/83361"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\83361.json",
+  "DocumentJSON": null
+}

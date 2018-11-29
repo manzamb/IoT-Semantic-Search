@@ -1,0 +1,58 @@
+{
+  "Conceptos": [
+    "processo"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "36512",
+    "title": "Pandaboard temperature",
+    "Private": false,
+    "tags": [
+      "cpu",
+      "Pandaboard",
+      "server",
+      "temp",
+      "temperature"
+    ],
+    "description": "Pandaboard temperature measured from the processor core. Pandaboard is contained in a wooden (birch and pine) box and is running a headless Ubuntu Server 10.04.",
+    "feed": "https://api.xively.com/v2/feeds/36512.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "12/14/2011 05:27:04",
+    "created": "09/27/2011 08:12:08",
+    "creator": "https://xively.com/users/maatale",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "temp",
+        "current_value": "70",
+        "at": "12/14/2011 05:27:04",
+        "max_value": "77.0",
+        "min_value": "15.0",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Oulu",
+      "domain": 0,
+      "lat": "65.0141860925674",
+      "lon": "25.4704284667969",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/36512\" >Pandaboard temperature</a>",
+    "URLMostrar": "https://xively.com/feeds/36512"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\36512.json",
+  "DocumentJSON": null
+}

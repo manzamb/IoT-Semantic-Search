@@ -1,0 +1,80 @@
+{
+  "Conceptos": [
+    "co2"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "967589744",
+    "title": "Device1",
+    "Private": false,
+    "tags": [
+      "Air Quality"
+    ],
+    "description": "Home Air Quality",
+    "feed": "https://api.xively.com/v2/feeds/967589744.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "08/12/2013 08:24:38",
+    "created": "08/09/2013 10:39:33",
+    "creator": "https://xively.com/users/jrtest1",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "CO2",
+        "current_value": "565",
+        "at": "08/11/2013 20:16:43",
+        "max_value": "982.0",
+        "min_value": "498.0",
+        "tags": null,
+        "unit": {
+          "symbol": "ppmCO2",
+          "label": "ppm",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Humidity",
+        "current_value": "31",
+        "at": "08/11/2013 20:16:43",
+        "max_value": "58.0",
+        "min_value": "31.0",
+        "tags": null,
+        "unit": {
+          "symbol": "%RelH",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperature",
+        "current_value": "18",
+        "at": "08/11/2013 20:16:43",
+        "max_value": "33.0",
+        "min_value": "18.0",
+        "tags": null,
+        "unit": {
+          "symbol": "degC",
+          "label": "degC",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Jerry's House",
+      "domain": 0,
+      "lat": "41.75",
+      "lon": "-71.45",
+      "ele": "25",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/967589744\" >Device1</a>",
+    "URLMostrar": "https://xively.com/feeds/967589744"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\967589744.json",
+  "DocumentJSON": null
+}

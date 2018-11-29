@@ -1,0 +1,146 @@
+{
+  "Conceptos": [
+    "process"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "118224",
+    "title": "Raspberry Pi",
+    "Private": false,
+    "tags": [
+      "dorset",
+      "performance",
+      "pi",
+      "Poole",
+      "raspberry"
+    ],
+    "description": "Basic stats from my Raspberry Pi",
+    "feed": "https://api.xively.com/v2/feeds/118224.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:10:03",
+    "created": "03/08/2013 16:45:48",
+    "creator": "https://xively.com/users/vorlonken",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "load_avg",
+        "current_value": "0.10",
+        "at": "03/21/2014 14:10:02",
+        "max_value": "5.77",
+        "min_value": "0.01",
+        "tags": [
+          "average",
+          "load"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "mem_cached",
+        "current_value": "50.19",
+        "at": "03/21/2014 14:10:02",
+        "max_value": "121.22",
+        "min_value": "3.39",
+        "tags": [
+          "cached",
+          "cached memory",
+          "memory"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "mem_free",
+        "current_value": "21.53",
+        "at": "03/21/2014 14:10:02",
+        "max_value": "117.49",
+        "min_value": "7.99",
+        "tags": [
+          "free",
+          "free memory",
+          "memory"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "mem_used",
+        "current_value": "162",
+        "at": "03/21/2014 14:10:02",
+        "max_value": "177.0",
+        "min_value": "66.0",
+        "tags": [
+          "memory",
+          "used",
+          "used memory"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "processes",
+        "current_value": "104",
+        "at": "03/21/2014 14:10:02",
+        "max_value": "134.0",
+        "min_value": "71.0",
+        "tags": [
+          "processes"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temp",
+        "current_value": "46.0",
+        "at": "03/21/2014 14:10:02",
+        "max_value": "56.2",
+        "min_value": "0.0",
+        "tags": [
+          "core",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Poole, Dorset",
+      "domain": 0,
+      "lat": "50.7364822976254",
+      "lon": "-1.96608066558838",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/118224\" >Raspberry Pi</a>",
+    "URLMostrar": "https://xively.com/feeds/118224"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\118224.json",
+  "DocumentJSON": null
+}

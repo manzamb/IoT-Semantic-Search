@@ -1,0 +1,125 @@
+{
+  "Conceptos": [
+    "atmospheric pressure"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "122176",
+    "title": "SismoRadon station Ponte nelle Alpi -Belluno - Italy",
+    "Private": false,
+    "tags": [
+      "belluno",
+      "ponte nelle alpi",
+      "Radon",
+      "terremoto"
+    ],
+    "description": "study of radon as a precursor of earthquakes ",
+    "feed": "https://api.xively.com/v2/feeds/122176.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/21/2014 13:36:27",
+    "created": "04/02/2013 10:01:32",
+    "creator": "https://xively.com/users/rcloud_u6",
+    "version": null,
+    "website": "http://www.pontenellealpi.info",
+    "datastreams": [
+      {
+        "id": "RS001000081_Average",
+        "current_value": "174.00",
+        "at": "03/21/2014 13:36:27",
+        "max_value": "176.0",
+        "min_value": "23.0",
+        "tags": null,
+        "unit": {
+          "symbol": "Radon average value Bq/m3",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "RS001000081_Concentration",
+        "current_value": "37.00",
+        "at": "03/21/2014 13:36:27",
+        "max_value": "1290.0",
+        "min_value": "3.0",
+        "tags": null,
+        "unit": {
+          "symbol": "Radon instant. value Bq/m3",
+          "label": "Bq/m3",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "RS001000081_Pressure",
+        "current_value": "970",
+        "at": "03/21/2014 13:36:27",
+        "max_value": "989.0",
+        "min_value": "945.0",
+        "tags": null,
+        "unit": {
+          "symbol": "Atmospheric Pressure mBar",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "RS001000081_RH",
+        "current_value": "31",
+        "at": "03/21/2014 13:36:27",
+        "max_value": "56.0",
+        "min_value": "22.0",
+        "tags": null,
+        "unit": {
+          "symbol": "Humidity UR %",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "RS001000081_Temperature",
+        "current_value": "24",
+        "at": "03/21/2014 13:36:27",
+        "max_value": "32.0",
+        "min_value": "18.0",
+        "tags": null,
+        "unit": {
+          "symbol": "Temperature C°",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Test_connection",
+        "current_value": "CONN. OK",
+        "at": "05/04/2013 10:34:11",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "Status Connection",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Sismoradon",
+      "domain": 0,
+      "lat": "46.1781983158608",
+      "lon": "12.2795346016937",
+      "ele": "398",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/122176\" >SismoRadon station Ponte nelle Alpi -Belluno - Italy</a>",
+    "URLMostrar": "https://xively.com/feeds/122176"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\122176.json",
+  "DocumentJSON": null
+}

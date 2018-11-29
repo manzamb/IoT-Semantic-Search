@@ -1,0 +1,216 @@
+{
+  "Conceptos": [
+    "turbidity"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "4993",
+    "title": "OneTree Island SensorNet",
+    "Private": false,
+    "tags": null,
+    "description": "Readings from the GBROOS Sensor Network at One Tree Island. Data from IMOS Australia.",
+    "feed": "https://api.xively.com/v2/feeds/4993.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "06/27/2010 22:00:14",
+    "created": "01/21/2010 05:25:03",
+    "creator": "https://xively.com/users/gbroos",
+    "version": null,
+    "website": "http://data.aims.gov.au/gbroos",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "0.0",
+        "at": "06/27/2010 22:00:10",
+        "max_value": "2.0",
+        "min_value": "-2.0",
+        "tags": [
+          "Air Temp (Deg. C.)",
+          "Air Temp (Deg.C.)",
+          "Inlet Water Temp (Deg.C.)"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Deg. C.",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "0.0",
+        "at": "06/27/2010 22:00:11",
+        "max_value": "2.0",
+        "min_value": "-2.0",
+        "tags": [
+          "Baro. Pressure (hPa)",
+          "Mariculture Water Temp (Deg.C.)",
+          "Water Temp (Deg.C.)"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "0.0",
+        "at": "06/27/2010 22:00:11",
+        "max_value": "5.0",
+        "min_value": "-5.0",
+        "tags": [
+          "Barometric Press. (hPa)",
+          "Barometric Pressure (hPa)",
+          "Inlet Salinity (PSU)",
+          "Max. Wind Speed (kph)"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "0.0",
+        "at": "06/27/2010 22:00:12",
+        "max_value": "10.0",
+        "min_value": "-10.0",
+        "tags": [
+          "Mariculture Salinity (PSU)",
+          "Rainfall to 9am (mm)",
+          "Relative Humidity (%)",
+          "Relitive Humidity (%)"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "0.0",
+        "at": "06/27/2010 22:00:13",
+        "max_value": "50.0",
+        "min_value": "0.0",
+        "tags": [
+          "Inlet Turbidity (NTU)",
+          "Max Wind Speed (kph)",
+          "Max Wind Speed. (kph)",
+          "Water temp (Deg. C.)"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "0.0",
+        "at": "06/27/2010 22:00:14",
+        "max_value": "50.0",
+        "min_value": "0.0",
+        "tags": [
+          "Mariculture Turbidity (NTU)",
+          "Rainfall to 9am (mm)",
+          "Water Depth (mBar)"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "0.14",
+        "at": "06/18/2010 02:01:25",
+        "max_value": "2.0",
+        "min_value": "-2.0",
+        "tags": [
+          "Inlet Chlorophyll",
+          "Salinity (PSU)",
+          "SF1 Salinity (PSU)"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "7",
+        "current_value": "4.17",
+        "at": "06/19/2010 05:40:39",
+        "max_value": "18.0",
+        "min_value": "0.0",
+        "tags": [
+          "Dissolved O2",
+          "Est. Tide Height (m)",
+          "Mariculture Chlorophyll"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "8",
+        "current_value": "0.56",
+        "at": "06/19/2010 05:40:47",
+        "max_value": "2.0",
+        "min_value": "0.0",
+        "tags": [
+          "Chlorophyll",
+          "SF1 Water Depth (m)"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "9",
+        "current_value": "4.15",
+        "at": "06/19/2010 05:40:48",
+        "max_value": "20.0",
+        "min_value": "0.0",
+        "tags": [
+          "Turbidity (NTU)"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "One Tree Island",
+      "domain": 0,
+      "lat": "-23.508038278248",
+      "lon": "152.091464996338",
+      "ele": "6m",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/4993\" >OneTree Island SensorNet</a>",
+    "URLMostrar": "https://xively.com/feeds/4993"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\4993.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,91 @@
+{
+  "Conceptos": [
+    "plan"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "127424",
+    "title": "001020",
+    "Private": false,
+    "tags": [
+      "Arantec",
+      "Smartyplanet"
+    ],
+    "description": "This is a remote sensors station  with river level. It logs the data every 60' and sends every 6 hours through GPRS.",
+    "feed": "https://api.xively.com/v2/feeds/127424.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "01/26/2014 23:06:11",
+    "created": "04/24/2013 14:05:06",
+    "creator": "https://xively.com/users/arantec",
+    "version": null,
+    "website": "http://www.smartyplanet.com",
+    "datastreams": [
+      {
+        "id": "A04",
+        "current_value": "-0.06",
+        "at": "01/26/2014 23:00:00",
+        "max_value": "26.12",
+        "min_value": "-62.8",
+        "tags": [
+          "water temperature river"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "ºC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "battery",
+        "current_value": "6.54",
+        "at": "01/26/2014 23:00:00",
+        "max_value": "7.5",
+        "min_value": "6.24",
+        "tags": [
+          "bateria"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": "V",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "riverlevel",
+        "current_value": "509.8",
+        "at": "11/24/2013 03:00:00",
+        "max_value": "509.8",
+        "min_value": "30.16",
+        "tags": [
+          "",
+          "aforo",
+          "caudal",
+          "level",
+          "river"
+        ],
+        "unit": {
+          "symbol": "cm",
+          "label": "cm",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "42.6541343132459",
+      "lon": "0.999428629875183",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/127424\" >001020</a>",
+    "URLMostrar": "https://xively.com/feeds/127424"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\127424.json",
+  "DocumentJSON": null
+}

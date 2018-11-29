@@ -1,0 +1,78 @@
+{
+  "Conceptos": [
+    "wind"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "40092",
+    "title": "Tokyo-Bay Monitoring Post @ Funabashi4",
+    "Private": false,
+    "tags": [
+      "cpm",
+      "Geiger",
+      "LND-712",
+      "Mark2",
+      "radiation",
+      "uSv/h",
+      "μSv/h",
+      "ガイガー",
+      "環境放射線計測"
+    ],
+    "description": "This monitors primarily indoor air radioactivity (gamma only) of the bay area by Strawbery Linux's GM counter which uses LND-712 mica window tube covered by alminum filter.\r\n\r\nAlso watch BlackCat's website below, which uses mica tubes and monitors worldwide for Cs137 / Co60 in uR/hr.\r\n\r\nSRS-2400\\C\\StrawberryGeiger\\gm.pl \r\n",
+    "feed": "https://api.xively.com/v2/feeds/40092.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:06:59",
+    "created": "11/21/2011 02:44:54",
+    "creator": "https://xively.com/users/dochayashi",
+    "version": null,
+    "website": "http://www.blackcatsystems.com/RadMap/map.html",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "11.00",
+        "at": "03/21/2014 14:06:58",
+        "max_value": "100.0",
+        "min_value": "0.0",
+        "tags": [
+          "radiation"
+        ],
+        "unit": {
+          "symbol": "cpm",
+          "label": "cpm",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "0.026",
+        "at": "03/21/2014 14:06:58",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "radiation"
+        ],
+        "unit": {
+          "symbol": "μSv/h",
+          "label": "uSv/h",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "JPN, bay area (Funabashi)",
+      "domain": 1,
+      "lat": "35.7289557508086",
+      "lon": "140.028476715088",
+      "ele": "10m",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/40092\" >Tokyo-Bay Monitoring Post @ Funabashi4</a>",
+    "URLMostrar": "https://xively.com/feeds/40092"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\40092.json",
+  "DocumentJSON": null
+}

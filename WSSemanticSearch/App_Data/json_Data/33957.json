@@ -1,0 +1,82 @@
+{
+  "Conceptos": [
+    "sensor input"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "33957",
+    "title": "CG Temperature Sensor Test",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/33957.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "09/17/2011 00:53:36",
+    "created": "08/07/2011 22:45:27",
+    "creator": "https://xively.com/users/guzzydev",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "52",
+        "at": "08/27/2011 00:29:33",
+        "max_value": "81.0",
+        "min_value": "40.0",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "Farenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "-292",
+        "at": "08/27/2011 00:29:33",
+        "max_value": "1.0",
+        "min_value": "-292.0",
+        "tags": [
+          "Input Voltage"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": "Volt",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temperature",
+        "current_value": "87.16",
+        "at": "09/17/2011 00:53:36",
+        "max_value": "101.68",
+        "min_value": "65.68",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Nevada",
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/33957\" >CG Temperature Sensor Test</a>",
+    "URLMostrar": "https://xively.com/feeds/33957"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\33957.json",
+  "DocumentJSON": null
+}

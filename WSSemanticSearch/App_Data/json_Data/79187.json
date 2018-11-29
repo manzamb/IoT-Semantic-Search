@@ -1,0 +1,154 @@
+{
+  "Conceptos": [
+    "air pollutants"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "79187",
+    "title": "SecundaWeather",
+    "Private": false,
+    "tags": [
+      "Air Quality",
+      "arduino",
+      "Dust",
+      "Humidity",
+      "Temperature"
+    ],
+    "description": "SecundaWeather data feed",
+    "feed": "https://api.xively.com/v2/feeds/79187.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:07:43",
+    "created": "10/07/2012 16:41:54",
+    "creator": "https://xively.com/users/secwx",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "CH01_AirQ",
+        "current_value": "130.0000",
+        "at": "03/21/2014 14:07:42",
+        "max_value": "927.0",
+        "min_value": "0.0",
+        "tags": [
+          "Air Pollutants"
+        ],
+        "unit": {
+          "symbol": "cts",
+          "label": "counts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "CH02_Temp1",
+        "current_value": "2.2000",
+        "at": "03/21/2014 14:07:42",
+        "max_value": "3.0",
+        "min_value": "0.0022",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "deg C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "CH03_Hum",
+        "current_value": "3.3000",
+        "at": "03/21/2014 14:07:42",
+        "max_value": "4.0",
+        "min_value": "3.0",
+        "tags": [
+          "Humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "%RH",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "CH04_Temp2",
+        "current_value": "18.8250",
+        "at": "03/21/2014 14:07:42",
+        "max_value": "265.6481",
+        "min_value": "-50.0",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "deg C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "CH05_DustDig",
+        "current_value": "0.0022",
+        "at": "03/21/2014 14:07:42",
+        "max_value": "2776.1174",
+        "min_value": "0.0022",
+        "tags": [
+          "Dust"
+        ],
+        "unit": {
+          "symbol": "p/ml",
+          "label": "parts/ml",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "CH06_DustAna",
+        "current_value": "0.0000",
+        "at": "03/21/2014 14:07:42",
+        "max_value": "510.0",
+        "min_value": "0.0",
+        "tags": [
+          "Dust"
+        ],
+        "unit": {
+          "symbol": "mg/m3",
+          "label": "mg/m3",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "CH07_P5V",
+        "current_value": "4.7703",
+        "at": "03/21/2014 14:07:42",
+        "max_value": "510.0",
+        "min_value": "0.0",
+        "tags": [
+          "SupplyVoltage"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": "Volt",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Secunda",
+      "domain": 0,
+      "lat": "-26.5037598702109",
+      "lon": "29.2098999023438",
+      "ele": "1630",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/79187\" >SecundaWeather</a>",
+    "URLMostrar": "https://xively.com/feeds/79187"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\79187.json",
+  "DocumentJSON": null
+}

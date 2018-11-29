@@ -1,0 +1,86 @@
+{
+  "Conceptos": [
+    "humedad"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "120865",
+    "title": "Taller",
+    "Private": false,
+    "tags": [
+      "Taller"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/120865.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:05:44",
+    "created": "03/25/2013 07:44:53",
+    "creator": "https://xively.com/users/icmab",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "79581",
+        "current_value": "24",
+        "at": "03/21/2014 14:05:42",
+        "max_value": "31.0",
+        "min_value": "0.0",
+        "tags": [
+          "Temperatura Ambiente"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "ºC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "79582",
+        "current_value": "32",
+        "at": "03/21/2014 14:05:43",
+        "max_value": "71.0",
+        "min_value": "0.0",
+        "tags": [
+          "Humedad"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "79583",
+        "current_value": "368",
+        "at": "03/21/2014 14:05:44",
+        "max_value": "999.0",
+        "min_value": "0.0",
+        "tags": [
+          "Temperatura Contacto"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "ºC",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/120865\" >Taller</a>",
+    "URLMostrar": "https://xively.com/feeds/120865"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\120865.json",
+  "DocumentJSON": null
+}

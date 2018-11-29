@@ -1,0 +1,106 @@
+{
+  "Conceptos": [
+    "co2"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "75496",
+    "title": "My Office",
+    "Private": false,
+    "tags": [
+      "Co2",
+      "Humidity",
+      "Light",
+      "Plant",
+      "Temp"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/75496.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "06/23/2013 12:25:33",
+    "created": "09/12/2012 13:10:08",
+    "creator": "https://xively.com/users/miktr112",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Co2_1",
+        "current_value": "856.00",
+        "at": "02/07/2013 10:47:14",
+        "max_value": "2000.0",
+        "min_value": "523.0",
+        "tags": [
+          "Co2"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "ppm",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Co2_2",
+        "current_value": "881.00",
+        "at": "02/07/2013 10:47:14",
+        "max_value": "2000.0",
+        "min_value": "442.0",
+        "tags": [
+          "Co2"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "ppm",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Light",
+        "current_value": "176",
+        "at": "02/07/2013 10:47:14",
+        "max_value": "500.0",
+        "min_value": "0.0",
+        "tags": [
+          "light"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temp",
+        "current_value": "23.7",
+        "at": "06/23/2013 12:25:33",
+        "max_value": "28.125",
+        "min_value": "19.6",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Trieb Consulting Office",
+      "domain": 0,
+      "lat": "58.5358",
+      "lon": "15.04029",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/75496\" >My Office</a>",
+    "URLMostrar": "https://xively.com/feeds/75496"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\75496.json",
+  "DocumentJSON": null
+}

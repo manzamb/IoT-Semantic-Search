@@ -1,0 +1,199 @@
+{
+  "Conceptos": [
+    "observation"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "59710",
+    "title": "Weather for Parafield,South Australia",
+    "Private": false,
+    "tags": [
+      "Australia",
+      "Weather"
+    ],
+    "description": "Weather data from the Bureau of Meteorology station at Parafield,South Australia",
+    "feed": "https://api.xively.com/v2/feeds/59710.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/21/2014 13:32:23",
+    "created": "05/15/2012 06:15:08",
+    "creator": "https://xively.com/users/rw950431",
+    "version": null,
+    "website": "http://www.bom.gov.au/products/IDS60901/IDS60901.95677.shtml",
+    "datastreams": [
+      {
+        "id": "aifstime_utc",
+        "current_value": "1395406800",
+        "at": "03/21/2014 13:32:23",
+        "max_value": "1395406800.0",
+        "min_value": "0.0",
+        "tags": [
+          "Observation time UTC"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "seconds since epoch",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "air_temp",
+        "current_value": "13.0",
+        "at": "03/21/2014 13:32:23",
+        "max_value": "50.0",
+        "min_value": "-10.0",
+        "tags": [
+          "Air Temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "apparent_t",
+        "current_value": "9.4",
+        "at": "03/21/2014 13:32:23",
+        "max_value": "50.0",
+        "min_value": "-10.0",
+        "tags": [
+          "Apparent Temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "ingest_delay",
+        "current_value": "32.4",
+        "at": "03/21/2014 13:32:23",
+        "max_value": "126.2",
+        "min_value": "0.0",
+        "tags": [
+          "Ingestion delay"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "minutes",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "press",
+        "current_value": "1024.4",
+        "at": "03/21/2014 13:32:23",
+        "max_value": "1100.0",
+        "min_value": "900.0",
+        "tags": [
+          "Barometric Pressure"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Hpa",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "production_delay",
+        "current_value": "26.2",
+        "at": "03/21/2014 13:32:23",
+        "max_value": "116.9",
+        "min_value": "0.0",
+        "tags": [
+          "Production delay"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "minutes",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "rain_trace",
+        "current_value": "0.0",
+        "at": "03/21/2014 13:32:23",
+        "max_value": "500.0",
+        "min_value": "0.0",
+        "tags": [
+          "Rain since 9AM"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "mm",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "rel_hum",
+        "current_value": "58",
+        "at": "03/21/2014 13:32:23",
+        "max_value": "100.0",
+        "min_value": "0.0",
+        "tags": [
+          "Relative Humidity"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "wind_dir",
+        "current_value": "135",
+        "at": "03/21/2014 13:32:23",
+        "max_value": "360.0",
+        "min_value": "0.0",
+        "tags": [
+          "Wind Direction"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "wind_spd_kmh",
+        "current_value": "13",
+        "at": "03/21/2014 13:32:23",
+        "max_value": "200.0",
+        "min_value": "0.0",
+        "tags": [
+          "Wind Speed"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Km/h",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Parafield,South Australia",
+      "domain": 0,
+      "lat": "-34.8",
+      "lon": "138.6",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/59710\" >Weather for Parafield,South Australia</a>",
+    "URLMostrar": "https://xively.com/feeds/59710"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\59710.json",
+  "DocumentJSON": null
+}

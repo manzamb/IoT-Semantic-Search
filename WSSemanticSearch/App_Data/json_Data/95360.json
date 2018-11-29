@@ -1,0 +1,54 @@
+{
+  "Conceptos": [
+    "humedad"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "95360",
+    "title": "Remota Queso",
+    "Private": false,
+    "tags": [
+      "temperatura"
+    ],
+    "description": "Medida Temperatura Humedad",
+    "feed": "https://api.xively.com/v2/feeds/95360.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "01/01/2013 12:05:32",
+    "created": "12/30/2012 21:39:13",
+    "creator": "https://xively.com/users/tuerca6000",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "sensor1",
+        "current_value": "457",
+        "at": "01/01/2013 12:05:32",
+        "max_value": "458.0",
+        "min_value": "10.0",
+        "tags": [
+          "temperatura"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "grados C",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Zaragoza",
+      "domain": 0,
+      "lat": "41.6425113062437",
+      "lon": "-0.878804535605013",
+      "ele": "200",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/95360\" >Remota Queso</a>",
+    "URLMostrar": "https://xively.com/feeds/95360"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\95360.json",
+  "DocumentJSON": null
+}

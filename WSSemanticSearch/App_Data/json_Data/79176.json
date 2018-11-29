@@ -1,0 +1,88 @@
+{
+  "Conceptos": [
+    "atmospheric pressure"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "79176",
+    "title": "Sensor Two",
+    "Private": false,
+    "tags": [
+      "atmospheric pressure",
+      "humidity",
+      "temperature"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/79176.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "10/05/2013 16:49:57",
+    "created": "10/07/2012 13:32:15",
+    "creator": "https://xively.com/users/wolfram",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "humidity",
+        "current_value": "56.76",
+        "at": "10/05/2013 16:49:56",
+        "max_value": "57.4",
+        "min_value": "16.75",
+        "tags": [
+          "humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "pressure",
+        "current_value": "1232.51",
+        "at": "10/05/2013 16:49:56",
+        "max_value": "1238.23",
+        "min_value": "1150.54",
+        "tags": [
+          "atmospheric pressure"
+        ],
+        "unit": {
+          "symbol": "mbar",
+          "label": "millibar",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temperature",
+        "current_value": "22.87",
+        "at": "10/05/2013 16:49:56",
+        "max_value": "25.9",
+        "min_value": "18.99",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "degree",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 1
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/79176\" >Sensor Two</a>",
+    "URLMostrar": "https://xively.com/feeds/79176"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\79176.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,102 @@
+{
+  "Conceptos": [
+    "humidity"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "63080",
+    "title": "A720_7633_Solar_radiation",
+    "Private": false,
+    "tags": [
+      "weather"
+    ],
+    "description": "Data from a A720 telemetry device, located in my garden.\r\nUpdate rate: 900s\r\n",
+    "feed": "https://api.xively.com/v2/feeds/63080.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "01/01/2020 00:00:00",
+    "created": "06/10/2012 10:17:11",
+    "creator": "https://xively.com/users/oe1gca1",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "6.875",
+        "at": "03/17/2014 22:03:39",
+        "max_value": "7.109",
+        "min_value": "0.0",
+        "tags": [
+          "Battery"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": "V",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "0.000",
+        "at": "03/17/2014 22:03:39",
+        "max_value": "1750.0",
+        "min_value": "0.0",
+        "tags": [
+          "Solar Radiation"
+        ],
+        "unit": {
+          "symbol": "W/m²",
+          "label": "W/m²",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "12.734",
+        "at": "03/17/2014 22:03:39",
+        "max_value": "56.875",
+        "min_value": "-40.0",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "50.391",
+        "at": "03/17/2014 22:03:39",
+        "max_value": "99.609",
+        "min_value": "0.0",
+        "tags": [
+          "Humidity"
+        ],
+        "unit": {
+          "symbol": "%rH",
+          "label": "%rH",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Vienna, Wasserwiese",
+      "domain": 0,
+      "lat": "48.1989965538563",
+      "lon": "16.4130458235741",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/63080\" >A720_7633_Solar_radiation</a>",
+    "URLMostrar": "https://xively.com/feeds/63080"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\63080.json",
+  "DocumentJSON": null
+}

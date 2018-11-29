@@ -1,0 +1,88 @@
+{
+  "Conceptos": [
+    "right"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "78681",
+    "title": "fuhsing-home-bedroom-thl",
+    "Private": false,
+    "tags": [
+      "brightness",
+      "humidity",
+      "temperature"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/78681.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "01/14/2014 12:21:23",
+    "created": "10/04/2012 04:24:43",
+    "creator": "https://xively.com/users/maxh1981",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "humi",
+        "current_value": "65.49",
+        "at": "01/14/2014 12:21:23",
+        "max_value": "166.5",
+        "min_value": "0.0",
+        "tags": [
+          "humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "lumi",
+        "current_value": "0",
+        "at": "01/14/2014 12:21:23",
+        "max_value": "941.0",
+        "min_value": "0.0",
+        "tags": [
+          "brightness"
+        ],
+        "unit": {
+          "symbol": "lx",
+          "label": "lux",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temp",
+        "current_value": "19.71",
+        "at": "01/14/2014 12:21:23",
+        "max_value": "615.74",
+        "min_value": "0.0",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "degrees Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "25.0568190851894",
+      "lon": "121.545594334602",
+      "ele": "14",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/78681\" >fuhsing-home-bedroom-thl</a>",
+    "URLMostrar": "https://xively.com/feeds/78681"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\78681.json",
+  "DocumentJSON": null
+}

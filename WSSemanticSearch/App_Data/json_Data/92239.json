@@ -1,0 +1,50 @@
+{
+  "Conceptos": [
+    "latency"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "92239",
+    "title": "SpaNet Latency",
+    "Private": false,
+    "tags": null,
+    "description": "Shows latency from Spanet to Google Public DNS(8.8.8.8)",
+    "feed": "https://api.xively.com/v2/feeds/92239.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "05/28/2013 09:46:55",
+    "created": "12/16/2012 23:40:43",
+    "creator": "https://xively.com/users/virrej",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "latency",
+        "current_value": "30.6",
+        "at": "05/28/2013 09:46:55",
+        "max_value": "99.9",
+        "min_value": "23.6",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "ms",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Bromsten",
+      "domain": 1,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/92239\" >SpaNet Latency</a>",
+    "URLMostrar": "https://xively.com/feeds/92239"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\92239.json",
+  "DocumentJSON": null
+}

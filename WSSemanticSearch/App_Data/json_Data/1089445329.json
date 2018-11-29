@@ -1,0 +1,230 @@
+{
+  "Conceptos": [
+    "system"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "1089445329",
+    "title": "Oscar Lake Solar Data",
+    "Private": false,
+    "tags": [
+      "energy",
+      "project=Oscar Lake Solar",
+      "solar"
+    ],
+    "description": "Solar charging system at an off grid cabin",
+    "feed": "https://api.xively.com/v2/feeds/1089445329.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:13:47",
+    "created": "06/11/2013 11:41:48",
+    "creator": "https://xively.com/users/aplusautodoor",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "AmpHours",
+        "current_value": "-42.64",
+        "at": "03/21/2014 14:13:47",
+        "max_value": "73.64",
+        "min_value": "-696.91",
+        "tags": [
+          "Battery 1 Amp Hours"
+        ],
+        "unit": {
+          "symbol": "AH",
+          "label": "AmpHours",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "B1",
+        "current_value": "12.3",
+        "at": "03/21/2014 14:13:47",
+        "max_value": "25.6",
+        "min_value": "11.5",
+        "tags": [
+          "Battery 1 Voltage"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": "Volts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Bamps",
+        "current_value": "-3.6",
+        "at": "03/21/2014 14:13:47",
+        "max_value": "133.5",
+        "min_value": "-172.2",
+        "tags": [
+          "Battery Amps"
+        ],
+        "unit": {
+          "symbol": "A",
+          "label": "Amps",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "BattTemp",
+        "current_value": "0",
+        "at": "03/21/2014 14:13:47",
+        "max_value": "6553.5",
+        "min_value": "-8.4",
+        "tags": [
+          "Battery Temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "DSC",
+        "current_value": "0.54",
+        "at": "03/21/2014 14:13:47",
+        "max_value": "655.35",
+        "min_value": "0.0",
+        "tags": [
+          "Days Since Charged"
+        ],
+        "unit": {
+          "symbol": "DSC",
+          "label": "Days Since Charged",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "FETTemp",
+        "current_value": "0",
+        "at": "03/21/2014 14:13:47",
+        "max_value": "6553.5",
+        "min_value": "-4.5",
+        "tags": [
+          "FET Temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "KWH",
+        "current_value": "0.0",
+        "at": "03/21/2014 14:13:47",
+        "max_value": "3.9",
+        "min_value": "-1.0",
+        "tags": [
+          "Daily Solar Production"
+        ],
+        "unit": {
+          "symbol": "KW/h",
+          "label": "KW/H",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Load",
+        "current_value": "3.56",
+        "at": "03/21/2014 14:13:47",
+        "max_value": "172.23",
+        "min_value": "-102.1",
+        "tags": [
+          "Actual Load Used"
+        ],
+        "unit": {
+          "symbol": "A",
+          "label": "Amps",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "PCBTemp",
+        "current_value": "0",
+        "at": "03/21/2014 14:13:47",
+        "max_value": "61.4",
+        "min_value": "0.0",
+        "tags": [
+          "Printed Circuit Board Temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "S2amps",
+        "current_value": "-0.5",
+        "at": "03/21/2014 14:13:47",
+        "max_value": "69.3",
+        "min_value": "-6.9",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Samps",
+        "current_value": "-0.69",
+        "at": "03/21/2014 14:13:47",
+        "max_value": "69.38",
+        "min_value": "-6.31",
+        "tags": [
+          "Solar Amps"
+        ],
+        "unit": {
+          "symbol": "A",
+          "label": "Amps",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "SOC",
+        "current_value": "96",
+        "at": "03/21/2014 14:13:47",
+        "max_value": "107.0",
+        "min_value": "36.0",
+        "tags": [
+          "State of Charge"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Oscar Lake",
+      "domain": 0,
+      "lat": "53.515127896702",
+      "lon": "-122.58828163147",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/1089445329\" >Oscar Lake Solar Data</a>",
+    "URLMostrar": "https://xively.com/feeds/1089445329"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\1089445329.json",
+  "DocumentJSON": null
+}

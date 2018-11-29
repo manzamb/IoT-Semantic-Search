@@ -1,0 +1,123 @@
+{
+  "Conceptos": [
+    "process"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "68441",
+    "title": "Marcelo Lebre's Macbook",
+    "Private": false,
+    "tags": [
+      "battery",
+      "disk",
+      "memory",
+      "network",
+      "processor",
+      "temperature"
+    ],
+    "description": "null",
+    "feed": "https://api.xively.com/v2/feeds/68441.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "08/21/2012 10:16:08",
+    "created": "07/20/2012 21:56:34",
+    "creator": "https://xively.com/users/marcelolebre",
+    "version": null,
+    "website": "http://null",
+    "datastreams": [
+      {
+        "id": "1",
+        "current_value": "7.0",
+        "at": "08/21/2012 10:16:04",
+        "max_value": "100.0",
+        "min_value": "-2.64",
+        "tags": [
+          "Processor Usage"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "1.73",
+        "at": "08/21/2012 10:16:05",
+        "max_value": "1633869824.0",
+        "min_value": "0.0",
+        "tags": [
+          "Memory Usage"
+        ],
+        "unit": {
+          "symbol": "GB",
+          "label": "Megabytes",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "50.0",
+        "at": "08/21/2012 10:16:06",
+        "max_value": "100.0",
+        "min_value": "0.0",
+        "tags": [
+          "Battery Status"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "Percentage",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "7.2",
+        "at": "08/21/2012 10:16:08",
+        "max_value": "68323303424.0",
+        "min_value": "0.0",
+        "tags": [
+          "Disk (Free)"
+        ],
+        "unit": {
+          "symbol": "GB",
+          "label": "Gigabytes",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "56.0",
+        "at": "08/21/2012 10:16:07",
+        "max_value": "84.0",
+        "min_value": "0.0",
+        "tags": [
+          "CPU Temperature"
+        ],
+        "unit": {
+          "symbol": "º",
+          "label": "Degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "null",
+      "domain": 0,
+      "lat": "38.756599",
+      "lon": "-9.2545",
+      "ele": "0.0",
+      "exposure": 0,
+      "disposition": 1
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/68441\" >Marcelo Lebre's Macbook</a>",
+    "URLMostrar": "https://xively.com/feeds/68441"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\68441.json",
+  "DocumentJSON": null
+}

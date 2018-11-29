@@ -1,0 +1,92 @@
+{
+  "Conceptos": [
+    "plan"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "2092230271",
+    "title": "Spatiphillum plant talking via GSM",
+    "Private": false,
+    "tags": null,
+    "description": "A Spatiphillum plant is monitored for ambient light and approximate volumetric water content of the potting soil. Data is updated via GSM every 5 minutes.",
+    "feed": "https://api.xively.com/v2/feeds/2092230271.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "01/19/2014 18:25:40",
+    "created": "07/03/2013 15:46:31",
+    "creator": "https://xively.com/users/fablabtorino",
+    "version": null,
+    "website": "http://fablabtorino.org",
+    "datastreams": [
+      {
+        "id": "Counter",
+        "current_value": "64",
+        "at": "01/19/2014 18:25:40",
+        "max_value": "99.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "mele",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "LightLog",
+        "current_value": "1980",
+        "at": "01/19/2014 18:25:40",
+        "max_value": "4151.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "Lux",
+          "label": "S.I.",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "SoilHumidity",
+        "current_value": "0",
+        "at": "01/19/2014 18:25:40",
+        "max_value": "129.0",
+        "min_value": "-1.0",
+        "tags": null,
+        "unit": {
+          "symbol": "VWC",
+          "label": "Volum. Water content",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "VoltaggioBatteria",
+        "current_value": "6593",
+        "at": "01/19/2014 18:25:40",
+        "max_value": "6593.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Fablab Torino",
+      "domain": 0,
+      "lat": "45.0499603615147",
+      "lon": "7.66844297434386",
+      "ele": "0 meters",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/2092230271\" >Spatiphillum plant talking via GSM</a>",
+    "URLMostrar": "https://xively.com/feeds/2092230271"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\2092230271.json",
+  "DocumentJSON": null
+}

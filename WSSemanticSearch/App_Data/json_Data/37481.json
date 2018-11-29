@@ -1,0 +1,182 @@
+{
+  "Conceptos": [
+    "quality"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "37481",
+    "title": "室内環境　スカイ・エス・エイッチ",
+    "Private": false,
+    "tags": [
+      "air quality",
+      "Carbon Dioxide",
+      "carbon monoxide",
+      "CO",
+      "CO2",
+      "fushimi",
+      "humidity",
+      "kyoto",
+      "light",
+      "Temperature",
+      "一酸化炭素",
+      "二酸化炭素",
+      "京都",
+      "伏見",
+      "温度",
+      "湿度",
+      "照度"
+    ],
+    "description": "京都市伏見区\r\nmbed　ユニバーサル基板\r\n温度、湿度　SHT15\r\n照度　BH1751FVI　（ローム）\r\n二酸化炭素　CDM4161　（フィガロ技研）\r\n一酸化炭素　COM5042　（フィガロ技研）\r\nほこり　GP2Y1010AU0F　（シャープ）\r\n硫黄化合物　TGS2450　（フィガロ技研）\r\n騒音　AR814 １分間の最大値",
+    "feed": "https://api.xively.com/v2/feeds/37481.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:09:26",
+    "created": "10/16/2011 12:26:54",
+    "creator": "https://xively.com/users/skysh",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "16.57",
+        "at": "03/21/2014 14:09:25",
+        "max_value": "70.3",
+        "min_value": "0.0",
+        "tags": [
+          "温度"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "40.1",
+        "at": "03/21/2014 14:09:25",
+        "max_value": "62.5",
+        "min_value": "0.0",
+        "tags": [
+          "湿度"
+        ],
+        "unit": {
+          "symbol": "%RH",
+          "label": "%RH",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "2",
+        "at": "03/21/2014 14:09:25",
+        "max_value": "80794.92",
+        "min_value": "0.0",
+        "tags": [
+          "照度"
+        ],
+        "unit": {
+          "symbol": "Lux",
+          "label": "Lux",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "476",
+        "at": "03/21/2014 14:09:25",
+        "max_value": "9695.0",
+        "min_value": "0.0",
+        "tags": [
+          "二酸化炭素"
+        ],
+        "unit": {
+          "symbol": "ppm",
+          "label": "ppm",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "0.0",
+        "at": "03/21/2014 14:09:25",
+        "max_value": "876.8",
+        "min_value": "0.0",
+        "tags": [
+          "一酸化炭素"
+        ],
+        "unit": {
+          "symbol": "ppm",
+          "label": "ppm",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "0.0",
+        "at": "03/21/2014 14:09:25",
+        "max_value": "1.7",
+        "min_value": "0.0",
+        "tags": [
+          "ほこり"
+        ],
+        "unit": {
+          "symbol": "mg/m3",
+          "label": "mg/m3",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "0.00",
+        "at": "03/21/2014 14:09:25",
+        "max_value": "3.06",
+        "min_value": "0.0",
+        "tags": [
+          "硫黄化合物"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "7",
+        "current_value": "50.5",
+        "at": "03/21/2014 14:09:25",
+        "max_value": "329.9",
+        "min_value": "0.0",
+        "tags": [
+          "騒音"
+        ],
+        "unit": {
+          "symbol": "dB",
+          "label": "dB",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Japan",
+      "domain": 1,
+      "lat": "34.9332479132669",
+      "lon": "135.763388872147",
+      "ele": "23m",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/37481\" >室内環境　スカイ・エス・エイッチ</a>",
+    "URLMostrar": "https://xively.com/feeds/37481"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\37481.json",
+  "DocumentJSON": null
+}

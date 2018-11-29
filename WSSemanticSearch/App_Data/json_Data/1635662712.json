@@ -1,0 +1,92 @@
+{
+  "Conceptos": [
+    "moisture"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "1635662712",
+    "title": "Arduino Temp Sensor",
+    "Private": false,
+    "tags": null,
+    "description": "This is a temp and moisture sensor on a basil plant. ",
+    "feed": "https://api.xively.com/v2/feeds/1635662712.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "11/26/2013 04:33:21",
+    "created": "09/24/2013 19:08:07",
+    "creator": "https://xively.com/users/skeyelab",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Fan",
+        "current_value": "0",
+        "at": "11/05/2013 15:04:34",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Lights",
+        "current_value": "1",
+        "at": "11/05/2013 15:03:48",
+        "max_value": "1.0",
+        "min_value": "1.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "moist_reading",
+        "current_value": "1.59",
+        "at": "11/26/2013 04:33:19",
+        "max_value": "1020.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "sensor_reading",
+        "current_value": "70.08",
+        "at": "11/26/2013 04:33:19",
+        "max_value": "86.05",
+        "min_value": "-45.06",
+        "tags": null,
+        "unit": {
+          "symbol": "F",
+          "label": "Degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Skeyelab",
+      "domain": 0,
+      "lat": "41.9500024815157",
+      "lon": "-87.6506734312329",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/1635662712\" >Arduino Temp Sensor</a>",
+    "URLMostrar": "https://xively.com/feeds/1635662712"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\1635662712.json",
+  "DocumentJSON": null
+}

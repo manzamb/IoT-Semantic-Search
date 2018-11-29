@@ -1,0 +1,148 @@
+{
+  "Conceptos": [
+    "temperature"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "124408",
+    "title": "Salledebain",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/124408.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:08:29",
+    "created": "04/10/2013 18:23:43",
+    "creator": "https://xively.com/users/brassardv",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Dimmer",
+        "current_value": "0",
+        "at": "03/21/2014 14:06:26",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "Dimmer"
+        ],
+        "unit": {
+          "symbol": "Status",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "FAN",
+        "current_value": "0",
+        "at": "03/21/2014 14:06:25",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "FAN"
+        ],
+        "unit": {
+          "symbol": "Status",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Humidity",
+        "current_value": "65",
+        "at": "03/21/2014 14:08:29",
+        "max_value": "170.0",
+        "min_value": "-77.0",
+        "tags": [
+          "Humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Humidity_Externe",
+        "current_value": "74",
+        "at": "03/21/2014 14:06:27",
+        "max_value": "100.0",
+        "min_value": "13.0",
+        "tags": [
+          "Humidity_Externe"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Lumiere",
+        "current_value": "5",
+        "at": "03/21/2014 14:06:25",
+        "max_value": "1121.0",
+        "min_value": "0.0",
+        "tags": [
+          "Lumiere"
+        ],
+        "unit": {
+          "symbol": "/1000",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Mouvement",
+        "current_value": "0",
+        "at": "03/21/2014 14:06:24",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "Mouvement"
+        ],
+        "unit": {
+          "symbol": "Tripped",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperature",
+        "current_value": "18",
+        "at": "03/21/2014 14:06:24",
+        "max_value": "9716.0",
+        "min_value": "15.0",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "48.50423",
+      "lon": "-72.21986",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/124408\" >Salledebain</a>",
+    "URLMostrar": "https://xively.com/feeds/124408"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\124408.json",
+  "DocumentJSON": null
+}

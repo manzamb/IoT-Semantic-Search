@@ -1,0 +1,85 @@
+{
+  "Conceptos": [
+    "amount"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "29653",
+    "title": "Customer feed",
+    "Private": false,
+    "tags": [
+      "SWIFT",
+      "VRM"
+    ],
+    "description": "VRM Customer Feed.",
+    "feed": "https://api.xively.com/v2/feeds/29653.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "10/12/2011 19:07:40",
+    "created": "07/11/2011 07:07:43",
+    "creator": "https://xively.com/users/craigburton",
+    "version": null,
+    "website": "http://www.craigburton.com",
+    "datastreams": [
+      {
+        "id": "Contribution",
+        "current_value": "33",
+        "at": "10/12/2011 19:07:40",
+        "max_value": "33.0",
+        "min_value": "33.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Number",
+        "current_value": "27",
+        "at": "10/12/2011 18:25:44",
+        "max_value": "5000.0",
+        "min_value": "0.0",
+        "tags": [
+          "Amount"
+        ],
+        "unit": {
+          "symbol": "N",
+          "label": "Number",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Station",
+        "current_value": "KSL",
+        "at": "10/12/2011 18:25:44",
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "PRX"
+        ],
+        "unit": {
+          "symbol": "S",
+          "label": "Text",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Salt Lake City",
+      "domain": 0,
+      "lat": "40.7608333",
+      "lon": "-111.8902778",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/29653\" >Customer feed</a>",
+    "URLMostrar": "https://xively.com/feeds/29653"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\29653.json",
+  "DocumentJSON": null
+}

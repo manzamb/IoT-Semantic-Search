@@ -1,0 +1,57 @@
+{
+  "Conceptos": [
+    "group"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "35211",
+    "title": "beer at chaihuo",
+    "Private": false,
+    "tags": [
+      "Beer fermentation",
+      "DS18B20",
+      "Nanode",
+      "Temperature"
+    ],
+    "description": "A feed to log temperatures of the insulated brewing box at http://chaihuo.org/ where we're currently brewing beer.\r\n\r\nShenzhen's ambient temperature is around 30°C. That's too hot for beer. We have an insulated box containing bottles of frozen ice. We replace the bottles daily. A commercial PID controller (ALTEC AL808) regulates the temperature of the brewing to 20°C.\r\n\r\nSince September 19 2011, we start to use TEC to control the temperature, this feed now indicates the beer side temperature.\r\n\r\nSZDIY Lab 在柴火创客空间(chaihuo.org)自酿啤酒，这个 feed 用来监测并记录啤酒发酵箱内的温度。\r\n\r\n在之前的酿造中我们用建筑用保温泡沫自制了恒温发酵箱，内容安装半导体致冷装置进行致冷，使用了一个商业 PID 控制器 (ALTEC AL808) 来控制温度。这次没有进行温度控制，因为此时深圳的气温正好适合啤酒发酵。",
+    "feed": "https://api.xively.com/v2/feeds/35211.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/31/2012 12:22:09",
+    "created": "09/06/2011 06:04:40",
+    "creator": "https://xively.com/users/atommann",
+    "version": null,
+    "website": "http://www.szdiy.org",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "25",
+        "at": "03/31/2012 12:22:09",
+        "max_value": "85.0",
+        "min_value": "-127.0",
+        "tags": [
+          "Beer Side Temp."
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Shenzhen, China",
+      "domain": 0,
+      "lat": "22.5250693432913",
+      "lon": "113.922933340073",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/35211\" >beer at chaihuo</a>",
+    "URLMostrar": "https://xively.com/feeds/35211"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\35211.json",
+  "DocumentJSON": null
+}

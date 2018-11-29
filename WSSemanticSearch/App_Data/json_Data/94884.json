@@ -1,0 +1,239 @@
+{
+  "Conceptos": [
+    "pyranometer"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "94884",
+    "title": "HVAC",
+    "Private": false,
+    "tags": [
+      "Adafruit",
+      "C",
+      "curl",
+      "DHT22",
+      "DS18B20",
+      "energy monitor",
+      "HVAC",
+      "Internet-connected",
+      "Internet-enabled",
+      "IR transistor",
+      "raspberry pi",
+      "Thermostat",
+      "weather",
+      "Wunderground"
+    ],
+    "description": "Internet-enabled HVAC Thermostat",
+    "feed": "https://api.xively.com/v2/feeds/94884.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "06/11/2013 18:53:10",
+    "created": "12/27/2012 07:24:35",
+    "creator": "https://xively.com/users/jeffglancy",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Attic_Temp",
+        "current_value": "137.1",
+        "at": "06/11/2013 18:53:10",
+        "max_value": "137.1",
+        "min_value": "26.9",
+        "tags": [
+          "Attic Temperature",
+          "DS18B20"
+        ],
+        "unit": {
+          "symbol": "°F",
+          "label": "Fahrenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Crawl_Temp",
+        "current_value": "70.2",
+        "at": "06/11/2013 18:53:10",
+        "max_value": "72.3",
+        "min_value": "56.5",
+        "tags": [
+          "Crawl Space Temperature",
+          "DS18B20"
+        ],
+        "unit": {
+          "symbol": "°F",
+          "label": "Fahrenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Energy",
+        "current_value": "522",
+        "at": "06/11/2013 18:53:10",
+        "max_value": "119657.0",
+        "min_value": "-34.0",
+        "tags": [
+          "IR Transistor",
+          "Total Energy used"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watt",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "House_RH",
+        "current_value": "65.1",
+        "at": "06/11/2013 18:53:10",
+        "max_value": "99.9",
+        "min_value": "40.0",
+        "tags": [
+          "DHT22",
+          "House Relative Humidity"
+        ],
+        "unit": {
+          "symbol": "%RH",
+          "label": "Relative Humidity",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "House_Temp",
+        "current_value": "72.2",
+        "at": "06/11/2013 18:53:10",
+        "max_value": "75.6",
+        "min_value": "64.6",
+        "tags": [
+          "DS18B20",
+          "House temperature at Thermostat"
+        ],
+        "unit": {
+          "symbol": "°F",
+          "label": "Fahrenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "HVAC_Mode",
+        "current_value": "1",
+        "at": "06/11/2013 18:53:10",
+        "max_value": "4.0",
+        "min_value": "-5.0",
+        "tags": [
+          "A/C (1) Heat (2) Fan (4) Auto (+) Forced (-)"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "HVAC_On",
+        "current_value": "0",
+        "at": "06/11/2013 18:53:10",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "Heat or A/C or Fan is on (1) or off (0)"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "HVAC_Return_Temp",
+        "current_value": "69.3",
+        "at": "06/11/2013 18:53:10",
+        "max_value": "77.3",
+        "min_value": "-1412.8",
+        "tags": [
+          "DHT22",
+          "HVAC return air duct"
+        ],
+        "unit": {
+          "symbol": "°F",
+          "label": "Fahrenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "HVAC_Supply_Temp",
+        "current_value": "62.7",
+        "at": "06/11/2013 18:53:10",
+        "max_value": "102.0",
+        "min_value": "43.4",
+        "tags": [
+          "DS18B20",
+          "HVAC supply air duct"
+        ],
+        "unit": {
+          "symbol": "°F",
+          "label": "Fahrenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Light",
+        "current_value": "304",
+        "at": "06/11/2013 18:53:10",
+        "max_value": "409.0",
+        "min_value": "-3.0",
+        "tags": [
+          "ADS1115",
+          "PDB-C139",
+          "Photodiode",
+          "pyranometer",
+          "Solar Rad"
+        ],
+        "unit": {
+          "symbol": "mV",
+          "label": "milliVolt",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Outside_Temp",
+        "current_value": "84.3",
+        "at": "06/11/2013 18:53:10",
+        "max_value": "91.6",
+        "min_value": "0.0",
+        "tags": [
+          "Outside Temp",
+          "Wunderground API"
+        ],
+        "unit": {
+          "symbol": "°F",
+          "label": "Fahrenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Home",
+      "domain": 0,
+      "lat": "36.1794957757759",
+      "lon": "-85.5107302856445",
+      "ele": "350",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/94884\" >HVAC</a>",
+    "URLMostrar": "https://xively.com/feeds/94884"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\94884.json",
+  "DocumentJSON": null
+}

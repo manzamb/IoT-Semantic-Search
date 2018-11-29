@@ -1,0 +1,248 @@
+{
+  "Conceptos": [
+    "wind"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "69590",
+    "title": "weather",
+    "Private": false,
+    "tags": [
+      "eindhoven",
+      "humidity",
+      "openwrt",
+      "temperature",
+      "weather"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/69590.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/21/2014 13:40:06",
+    "created": "07/30/2012 21:14:56",
+    "creator": "https://xively.com/users/mw",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "10.1",
+        "at": "03/03/2014 13:40:06",
+        "max_value": "10.1",
+        "min_value": "10.1",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "7.3",
+        "at": "03/21/2014 13:40:06",
+        "max_value": "46.4",
+        "min_value": "-52.11",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "75",
+        "at": "03/21/2014 13:40:06",
+        "max_value": "97.0",
+        "min_value": "0.0",
+        "tags": [
+          "Humidity"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "3.1",
+        "at": "03/21/2014 13:40:06",
+        "max_value": "23.1",
+        "min_value": "-61.8",
+        "tags": [
+          "dew point"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "11.9",
+        "at": "03/21/2014 13:40:06",
+        "max_value": "28.5",
+        "min_value": "1.5",
+        "tags": [
+          "Temperature 2"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "74",
+        "at": "03/21/2014 13:40:06",
+        "max_value": "98.0",
+        "min_value": "50.0",
+        "tags": [
+          "Humidity 2"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "7.4",
+        "at": "03/21/2014 13:40:06",
+        "max_value": "25.0",
+        "min_value": "-0.7",
+        "tags": [
+          "Dew Point 2"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "7",
+        "current_value": "8",
+        "at": "03/21/2014 13:40:06",
+        "max_value": "71.14",
+        "min_value": "-119.4",
+        "tags": [
+          "Temperature wind sensor"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "8",
+        "current_value": "7.4",
+        "at": "03/21/2014 13:40:06",
+        "max_value": "27.1",
+        "min_value": "-120.0",
+        "tags": [
+          "Wind chill"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "9",
+        "current_value": "5.3",
+        "at": "03/21/2014 13:40:06",
+        "max_value": "250.3",
+        "min_value": "0.0",
+        "tags": [
+          "Wind speed (average)"
+        ],
+        "unit": {
+          "symbol": "km/h",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "10",
+        "current_value": "8.3",
+        "at": "03/21/2014 13:40:06",
+        "max_value": "266.6",
+        "min_value": "0.0",
+        "tags": [
+          "Wind gust speed"
+        ],
+        "unit": {
+          "symbol": "km/h",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "11",
+        "current_value": "112.5",
+        "at": "03/21/2014 13:40:06",
+        "max_value": "337.5",
+        "min_value": "0.0",
+        "tags": [
+          "Wind direction"
+        ],
+        "unit": {
+          "symbol": "°",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "12",
+        "current_value": "100.1",
+        "at": "03/21/2014 13:40:06",
+        "max_value": "2608.6",
+        "min_value": "0.0",
+        "tags": [
+          "rain"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "mm",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Eindhoven, the Netherlands",
+      "domain": 0,
+      "lat": "51.4781756223412",
+      "lon": "5.4353141784668",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/69590\" >weather</a>",
+    "URLMostrar": "https://xively.com/feeds/69590"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\69590.json",
+  "DocumentJSON": null
+}

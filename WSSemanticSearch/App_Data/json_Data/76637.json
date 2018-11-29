@@ -1,0 +1,104 @@
+{
+  "Conceptos": [
+    "region"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "76637",
+    "title": "Android Desire HD",
+    "Private": false,
+    "tags": [
+      "battery",
+      "test"
+    ],
+    "description": "Paul's IOT  Feed",
+    "feed": "https://api.xively.com/v2/feeds/76637.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "01/08/2014 08:43:25",
+    "created": "09/20/2012 14:26:27",
+    "creator": "https://xively.com/users/weeksp",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "BatteryChargeStatus",
+        "current_value": "33",
+        "at": "10/06/2013 18:15:25",
+        "max_value": "100.0",
+        "min_value": "4.0",
+        "tags": [
+          "battery"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Microphone",
+        "current_value": "32.80",
+        "at": "08/12/2013 19:16:20",
+        "max_value": "90.69",
+        "min_value": "31.44",
+        "tags": [
+          "microphone"
+        ],
+        "unit": {
+          "symbol": "dB",
+          "label": "dB",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "on_x_temperature",
+        "current_value": "23",
+        "at": "07/05/2013 15:00:21",
+        "max_value": "23.0",
+        "min_value": "-5.0",
+        "tags": [
+          "on_x",
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Region",
+        "current_value": "-1",
+        "at": "01/08/2014 08:43:25",
+        "max_value": "7.0",
+        "min_value": "-7.0",
+        "tags": [
+          "region"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/76637\" >Android Desire HD</a>",
+    "URLMostrar": "https://xively.com/feeds/76637"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\76637.json",
+  "DocumentJSON": null
+}

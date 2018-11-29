@@ -1,0 +1,107 @@
+{
+  "Conceptos": [
+    "moisture"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "322285154",
+    "title": "Ferdinand",
+    "Private": false,
+    "tags": [
+      "flux",
+      "light",
+      "moisture",
+      "plant monitor",
+      "soil",
+      "temperature"
+    ],
+    "description": "Ferdinand the fern plant health monitor",
+    "feed": "https://api.xively.com/v2/feeds/322285154.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:05:13",
+    "created": "05/16/2013 04:36:13",
+    "creator": "https://xively.com/users/cliquot22",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "LightValue",
+        "current_value": "18.144",
+        "at": "03/21/2014 14:05:12",
+        "max_value": "1063.399",
+        "min_value": "0.0",
+        "tags": [
+          "Light flux"
+        ],
+        "unit": {
+          "symbol": "flux",
+          "label": "lux",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "SoilMoisture1",
+        "current_value": "1.763",
+        "at": "03/21/2014 14:05:12",
+        "max_value": "8.212",
+        "min_value": "0.0",
+        "tags": [
+          "Soil moisture"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "SoilMoisture2",
+        "current_value": "0.581",
+        "at": "03/21/2014 14:05:12",
+        "max_value": "8.2",
+        "min_value": "0.0",
+        "tags": [
+          "Soil moisture"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperature",
+        "current_value": "68.924",
+        "at": "03/21/2014 14:05:12",
+        "max_value": "148.894",
+        "min_value": "56.498",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "deg",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Olympia",
+      "domain": 0,
+      "lat": "47.0364994525763",
+      "lon": "-122.901767983606",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/322285154\" >Ferdinand</a>",
+    "URLMostrar": "https://xively.com/feeds/322285154"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\322285154.json",
+  "DocumentJSON": null
+}

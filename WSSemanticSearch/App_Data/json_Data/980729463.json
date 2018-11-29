@@ -1,0 +1,113 @@
+{
+  "Conceptos": [
+    "co2"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "980729463",
+    "title": "Electric Imp",
+    "Private": false,
+    "tags": [
+      "Altitude",
+      "Barometric pressure",
+      "CO2",
+      "Electric Imp",
+      "Light Sensor",
+      "Temperature"
+    ],
+    "description": "Barometric Pressure mit the BMP085 (Bosch Sensortec)\nTemperature\nLight sensor\nCO2 \n",
+    "feed": "https://api.xively.com/v2/feeds/980729463.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/14/2014 04:21:21",
+    "created": "11/18/2013 13:30:36",
+    "creator": "https://xively.com/users/pedrothomas",
+    "version": null,
+    "website": "http://datalogger.gmxhome.de",
+    "datastreams": [
+      {
+        "id": "Altitude",
+        "current_value": "355.10",
+        "at": "03/14/2014 04:21:21",
+        "max_value": "30355.89",
+        "min_value": "-7655.8",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "m",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "CO2",
+        "current_value": "408",
+        "at": "03/14/2014 04:21:21",
+        "max_value": "3751.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "ppm",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Licht",
+        "current_value": "39.18",
+        "at": "03/14/2014 04:21:21",
+        "max_value": "3720.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Pressure",
+        "current_value": "97126",
+        "at": "03/14/2014 04:21:21",
+        "max_value": "234037.0",
+        "min_value": "200.0",
+        "tags": null,
+        "unit": {
+          "symbol": "Pa",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperature",
+        "current_value": "23.54",
+        "at": "03/14/2014 04:21:21",
+        "max_value": "199.98",
+        "min_value": "16.24",
+        "tags": null,
+        "unit": {
+          "symbol": "°C    ",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Office",
+      "domain": 0,
+      "lat": "48.7278929228755",
+      "lon": "9.13246437301632",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/980729463\" >Electric Imp</a>",
+    "URLMostrar": "https://xively.com/feeds/980729463"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\980729463.json",
+  "DocumentJSON": null
+}

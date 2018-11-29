@@ -1,0 +1,84 @@
+{
+  "Conceptos": [
+    "co2"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "569780861",
+    "title": "3G-data2",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/569780861.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "01/17/2014 05:03:46",
+    "created": "11/26/2013 05:08:59",
+    "creator": "https://xively.com/users/davidlikai",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "CO2",
+        "current_value": "436",
+        "at": "01/17/2014 05:03:46",
+        "max_value": "1223.0",
+        "min_value": "222.0",
+        "tags": [
+          "co2"
+        ],
+        "unit": {
+          "symbol": "ppm",
+          "label": "ppm",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "humi",
+        "current_value": "26.8",
+        "at": "01/17/2014 05:03:45",
+        "max_value": "42.4",
+        "min_value": "21.8",
+        "tags": [
+          "humidy"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temp",
+        "current_value": "26.1",
+        "at": "01/17/2014 05:03:43",
+        "max_value": "26.8",
+        "min_value": "13.2",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "℃",
+          "label": "℃",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "TUT",
+      "domain": 0,
+      "lat": "34.7021147281945",
+      "lon": "137.407621836446",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/569780861\" >3G-data2</a>",
+    "URLMostrar": "https://xively.com/feeds/569780861"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\569780861.json",
+  "DocumentJSON": null
+}

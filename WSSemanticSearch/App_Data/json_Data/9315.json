@@ -1,0 +1,54 @@
+{
+  "Conceptos": [
+    "plan"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "9315",
+    "title": "ComEd Electricity Pricing",
+    "Private": false,
+    "tags": null,
+    "description": "ComEd is an electric utility company serving northern Illinois. They offer an hourly pricing plan known as the Residential Real-Time Pricing (RRTP) program that began in 2007. They also provide electricity to businesses under a BES-H rate.\r\n\r\nThis feed follows the real-time electricity price level. Datastream 0 is is either 1.0 if rates are high or 0.0 if rates are normal. High is defined as being greater than the standard fixed-rate electricity pricing program.",
+    "feed": "https://api.xively.com/v2/feeds/9315.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/21/2014 11:05:55",
+    "created": "08/07/2010 20:44:29",
+    "creator": "https://xively.com/users/frugalnerd",
+    "version": null,
+    "website": "http://www.frugalnerd.com/blog/2010/02/comed-rrtp-intro/",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "0.0",
+        "at": "03/21/2014 11:05:55",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "ComEd",
+          "electricity",
+          "level"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "boolean",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Chicago, IL",
+      "domain": 0,
+      "lat": "41.848081707292",
+      "lon": "-87.659912109375",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/9315\" >ComEd Electricity Pricing</a>",
+    "URLMostrar": "https://xively.com/feeds/9315"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\9315.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,88 @@
+{
+  "Conceptos": [
+    "process"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "45035",
+    "title": "EandBs",
+    "Private": false,
+    "tags": [
+      "Arduino",
+      "DS18S20",
+      "Processing"
+    ],
+    "description": "Fermentation chamber monitor",
+    "feed": "https://api.xively.com/v2/feeds/45035.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "02/17/2014 03:01:34",
+    "created": "01/21/2012 20:10:05",
+    "creator": "https://xively.com/users/stroff1",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "1",
+        "current_value": "78.57",
+        "at": "02/17/2014 03:01:34",
+        "max_value": "92.86",
+        "min_value": "59.11",
+        "tags": [
+          "Ambient House Temp"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "58.32",
+        "at": "02/17/2014 03:01:34",
+        "max_value": "86.22",
+        "min_value": "41.0",
+        "tags": [
+          "Ambient Fermenter Temp"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "63.72",
+        "at": "02/17/2014 03:01:34",
+        "max_value": "89.26",
+        "min_value": "-196.6",
+        "tags": [
+          "Beer Temp... Probe Taped to Side of Carboy"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "OV",
+      "domain": 0,
+      "lat": "38.6783656937884",
+      "lon": "-121.207469701767",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/45035\" >EandBs</a>",
+    "URLMostrar": "https://xively.com/feeds/45035"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\45035.json",
+  "DocumentJSON": null
+}

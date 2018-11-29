@@ -1,0 +1,84 @@
+{
+  "Conceptos": [
+    "temperatura"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "7375",
+    "title": "Sensor-E - Valinhos",
+    "Private": false,
+    "tags": null,
+    "description": "Placa de monitoração de temperatura e umidade do Ar. Sensor de temperatura TMP275 e de umidade HIH-4000.\r\n",
+    "feed": "https://api.xively.com/v2/feeds/7375.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/08/2014 04:43:16",
+    "created": "05/15/2010 02:27:35",
+    "creator": "https://xively.com/users/marcelus",
+    "version": null,
+    "website": "http://www.priamos.com.br",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "22",
+        "at": "03/08/2014 04:43:16",
+        "max_value": "44.0",
+        "min_value": "7.0",
+        "tags": [
+          "Temperatura Outdoor"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Celsius (ºC)",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "72",
+        "at": "03/08/2014 04:43:16",
+        "max_value": "100.0",
+        "min_value": "0.0",
+        "tags": [
+          "Umidade do Ar"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "NC",
+        "at": "03/08/2014 04:43:16",
+        "max_value": "42.0",
+        "min_value": "0.0",
+        "tags": [
+          "Temperatura indoor"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Celsius (ºC)",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Valinhos",
+      "domain": 0,
+      "lat": "-22.9583597292843",
+      "lon": "-46.9965569983469",
+      "ele": "717",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/7375\" >Sensor-E - Valinhos</a>",
+    "URLMostrar": "https://xively.com/feeds/7375"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\7375.json",
+  "DocumentJSON": null
+}

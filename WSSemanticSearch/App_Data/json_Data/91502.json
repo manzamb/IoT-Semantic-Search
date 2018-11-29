@@ -1,0 +1,100 @@
+{
+  "Conceptos": [
+    "temperatura"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "91502",
+    "title": "Radijatorius",
+    "Private": false,
+    "tags": [
+      "DS18B20/Arduino/Ethernet/Internet"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/91502.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:15:01",
+    "created": "12/11/2012 19:14:07",
+    "creator": "https://xively.com/users/keshak",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Gyvatukas",
+        "current_value": "43.81",
+        "at": "03/21/2014 14:15:01",
+        "max_value": "85.0",
+        "min_value": "-127.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Kambarys",
+        "current_value": "21.81",
+        "at": "03/21/2014 14:15:01",
+        "max_value": "85.0",
+        "min_value": "-127.0",
+        "tags": [
+          "Temperatura kambaryje"
+        ],
+        "unit": {
+          "symbol": "C°",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Laukas",
+        "current_value": "17.44",
+        "at": "03/21/2014 14:15:01",
+        "max_value": "85.0",
+        "min_value": "-127.0",
+        "tags": [
+          "Temperatura uz lango"
+        ],
+        "unit": {
+          "symbol": "C°",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Radijatorius",
+        "current_value": "20.87",
+        "at": "03/21/2014 14:15:01",
+        "max_value": "85.0",
+        "min_value": "-127.0",
+        "tags": [
+          "Temperatura ant radijatoriaus"
+        ],
+        "unit": {
+          "symbol": "C°",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 1,
+      "lat": "54.9159940396473",
+      "lon": "23.9207124710083",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/91502\" >Radijatorius</a>",
+    "URLMostrar": "https://xively.com/feeds/91502"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\91502.json",
+  "DocumentJSON": null
+}

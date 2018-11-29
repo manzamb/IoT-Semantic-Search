@@ -1,0 +1,183 @@
+{
+  "Conceptos": [
+    "thermistor"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "959063184",
+    "title": "uC DataSystems Signal Monitor",
+    "Private": false,
+    "tags": null,
+    "description": "620 Spyglass Ln, 50263",
+    "feed": "https://api.xively.com/v2/feeds/959063184.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "08/19/2013 16:02:27",
+    "created": "08/16/2013 20:34:00",
+    "creator": "https://xively.com/users/gocosm",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "24VsenseRackA",
+        "current_value": "8.38",
+        "at": "08/19/2013 16:02:00",
+        "max_value": "8.41",
+        "min_value": "8.36",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Current_Main",
+        "current_value": "25.5",
+        "at": "08/19/2013 15:59:00",
+        "max_value": "28.0",
+        "min_value": "0.0",
+        "tags": [
+          "Analog 0-5V",
+          "Main Current Sense",
+          "Signal_ID-21",
+          "Signal_type-adc"
+        ],
+        "unit": {
+          "symbol": "A",
+          "label": "A",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "MainCurrentSense",
+        "current_value": "25.8",
+        "at": "08/19/2013 16:02:00",
+        "max_value": "25.8",
+        "min_value": "25.6",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Rack_A_24V",
+        "current_value": "8.40",
+        "at": "08/19/2013 15:46:00",
+        "max_value": "8.43",
+        "min_value": "1.64",
+        "tags": [
+          "24V sense Rack A",
+          "Isolated Voltage Sense",
+          "Signal_ID-18",
+          "Signal_type-adc"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": "V",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "server_load",
+        "current_value": "3.07",
+        "at": "08/19/2013 15:44:08",
+        "max_value": "6.31",
+        "min_value": "0.19",
+        "tags": [
+          "System Info"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "system_disk_use",
+        "current_value": "23",
+        "at": "08/19/2013 15:44:07",
+        "max_value": "90.0",
+        "min_value": "23.0",
+        "tags": [
+          "System Info"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Thermistor_Main_Room",
+        "current_value": "22.9",
+        "at": "08/19/2013 16:02:00",
+        "max_value": "22.9",
+        "min_value": "22.6",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Therm_Main_Room",
+        "current_value": "22.6",
+        "at": "08/19/2013 15:57:40",
+        "max_value": "26.4",
+        "min_value": "21.4",
+        "tags": [
+          "Signal_ID-17",
+          "Signal_type-adc",
+          "Thermistor",
+          "Thermistor Main Room"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "VoltSense1",
+        "current_value": "24",
+        "at": "08/18/2013 17:10:46",
+        "max_value": "101.0",
+        "min_value": "24.0",
+        "tags": [
+          "Voltage Sensor"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": "V",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/959063184\" >uC DataSystems Signal Monitor</a>",
+    "URLMostrar": "https://xively.com/feeds/959063184"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\959063184.json",
+  "DocumentJSON": null
+}

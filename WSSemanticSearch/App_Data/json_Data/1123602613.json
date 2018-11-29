@@ -1,0 +1,100 @@
+{
+  "Conceptos": [
+    "co2"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "1123602613",
+    "title": "Yun2_bedroom",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/1123602613.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "10/21/2013 19:27:27",
+    "created": "10/07/2013 18:20:20",
+    "creator": "https://xively.com/users/miktr112",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Co2",
+        "current_value": "0.00",
+        "at": "10/21/2013 19:27:26",
+        "max_value": "11966.0",
+        "min_value": "0.0",
+        "tags": [
+          "Co2"
+        ],
+        "unit": {
+          "symbol": "ppm",
+          "label": "ppm",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Humidity",
+        "current_value": "57.30",
+        "at": "10/21/2013 19:27:25",
+        "max_value": "66.0",
+        "min_value": "46.6",
+        "tags": [
+          "humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Light",
+        "current_value": "14",
+        "at": "10/21/2013 19:27:27",
+        "max_value": "202.0",
+        "min_value": "0.0",
+        "tags": [
+          "light"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperature",
+        "current_value": "18.40",
+        "at": "10/21/2013 19:27:24",
+        "max_value": "22.9",
+        "min_value": "17.5",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/1123602613\" >Yun2_bedroom</a>",
+    "URLMostrar": "https://xively.com/feeds/1123602613"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\1123602613.json",
+  "DocumentJSON": null
+}

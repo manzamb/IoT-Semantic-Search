@@ -1,0 +1,100 @@
+{
+  "Conceptos": [
+    "platform"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "3333",
+    "title": "Current Cost Data YoggeR",
+    "Private": false,
+    "tags": null,
+    "description": "Server Power and Load Realtime Data. \r\nJava application multiplatform that monitors the power consumption of electricity in relation to the server  activity.\r\n",
+    "feed": "https://api.xively.com/v2/feeds/3333.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "12/10/2011 00:05:37",
+    "created": "11/30/2009 14:13:45",
+    "creator": "https://xively.com/users/yoda",
+    "version": null,
+    "website": "http://yodadev.altervista.org/blog/",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "21.9",
+        "at": "12/10/2011 00:05:37",
+        "max_value": "30.0",
+        "min_value": "0.0",
+        "tags": [
+          "celsius"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "503.0",
+        "at": "12/10/2011 00:01:36",
+        "max_value": "3955.0",
+        "min_value": "0.0",
+        "tags": [
+          "electricity"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "7.4",
+        "at": "12/10/2011 00:00:23",
+        "max_value": "100.0",
+        "min_value": "0.0",
+        "tags": [
+          "cpu"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "Percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "62.7",
+        "at": "12/09/2011 18:30:21",
+        "max_value": "100.0",
+        "min_value": "0.0",
+        "tags": [
+          "mem"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "Percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Rome",
+      "domain": 0,
+      "lat": "41.7742242212971",
+      "lon": "12.3557782173157",
+      "ele": "0.0",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/3333\" >Current Cost Data YoggeR</a>",
+    "URLMostrar": "https://xively.com/feeds/3333"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\3333.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,64 @@
+{
+  "Conceptos": [
+    "person"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "54266",
+    "title": "Office",
+    "Private": false,
+    "tags": null,
+    "description": "Monitoring the light and temperature in my office using an Arduino and Ethernet shield",
+    "feed": "https://api.xively.com/v2/feeds/54266.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "11/25/2012 01:30:53",
+    "created": "04/02/2012 22:29:38",
+    "creator": "https://xively.com/users/matgyver",
+    "version": null,
+    "website": "http://www.rfgeeks.com/projects/personal-projects/pachube",
+    "datastreams": [
+      {
+        "id": "Light",
+        "current_value": "0",
+        "at": "11/24/2012 19:42:18",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temp",
+        "current_value": "NAN",
+        "at": "11/24/2012 19:42:18",
+        "max_value": null,
+        "min_value": null,
+        "tags": null,
+        "unit": {
+          "symbol": "F",
+          "label": "Farenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Ames, IA",
+      "domain": 0,
+      "lat": "42.0324643178452",
+      "lon": "-93.6162185668945",
+      "ele": "300",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/54266\" >Office</a>",
+    "URLMostrar": "https://xively.com/feeds/54266"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\54266.json",
+  "DocumentJSON": null
+}

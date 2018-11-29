@@ -1,0 +1,56 @@
+{
+  "Conceptos": [
+    "mp10"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "51152",
+    "title": "Solspot HQ Temperature",
+    "Private": false,
+    "tags": [
+      "Bash",
+      "BeagleBone",
+      "celsius",
+      "temperature",
+      "tmp102"
+    ],
+    "description": "Piping I2C temperature reading from the tmp102 to the BeagleBone, into Bash and finally to Pachube.",
+    "feed": "https://api.xively.com/v2/feeds/51152.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "06/21/2012 03:14:34",
+    "created": "03/08/2012 10:01:33",
+    "creator": "https://xively.com/users/solspotsystems",
+    "version": null,
+    "website": "http://SolspotSystems.com",
+    "datastreams": [
+      {
+        "id": "temp",
+        "current_value": "28",
+        "at": "06/21/2012 03:14:34",
+        "max_value": "95.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Austin, Texas",
+      "domain": 0,
+      "lat": "30.2881",
+      "lon": "-97.7353",
+      "ele": "150 meters",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/51152\" >Solspot HQ Temperature</a>",
+    "URLMostrar": "https://xively.com/feeds/51152"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\51152.json",
+  "DocumentJSON": null
+}

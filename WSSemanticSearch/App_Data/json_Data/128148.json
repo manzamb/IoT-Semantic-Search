@@ -1,0 +1,102 @@
+{
+  "Conceptos": [
+    "biome"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "128148",
+    "title": "Pulse ox",
+    "Private": false,
+    "tags": [
+      "Biomedical Engineering",
+      "BME",
+      "pulse oximetry",
+      "telehealth",
+      "University of Wisconsin",
+      "UW BME",
+      "UW Health",
+      "UW Madison",
+      "UW Madison BME"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/128148.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "05/03/2013 19:45:39",
+    "created": "04/29/2013 03:41:15",
+    "creator": "https://xively.com/users/bjonen",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "AvgMode",
+        "current_value": "8",
+        "at": "05/03/2013 19:45:39",
+        "max_value": "16.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "BeatsPerAvg",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "LiveSpO2",
+        "current_value": "127",
+        "at": "05/03/2013 19:45:39",
+        "max_value": "127.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "SimulatedPulse",
+        "current_value": "61",
+        "at": "05/03/2013 19:45:39",
+        "max_value": "64.0",
+        "min_value": "50.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "bpm",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "SimulatedSpO2",
+        "current_value": "99",
+        "at": "05/03/2013 19:45:39",
+        "max_value": "99.0",
+        "min_value": "94.0",
+        "tags": null,
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Madison, WI",
+      "domain": 0,
+      "lat": "43.0705180088313",
+      "lon": "-89.414119720459",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 1
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/128148\" >Pulse ox</a>",
+    "URLMostrar": "https://xively.com/feeds/128148"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\128148.json",
+  "DocumentJSON": null
+}

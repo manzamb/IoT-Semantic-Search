@@ -1,0 +1,152 @@
+{
+  "Conceptos": [
+    "precipitación"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "83670",
+    "title": "Estación Meteorológica -Juan Flores (John Electric)",
+    "Private": false,
+    "tags": [
+      "Centro de Computo IE"
+    ],
+    "description": "Presión: Pascales (Atm)\nRadiación: W/m^2\nPrecipitación: milímetros (mm)\n",
+    "feed": "https://api.xively.com/v2/feeds/83670.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "12/17/2013 01:51:12",
+    "created": "11/03/2012 05:31:04",
+    "creator": "https://xively.com/users/johnelectric",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Altitud",
+        "current_value": "959.04",
+        "at": "12/17/2013 01:51:12",
+        "max_value": "1091.55",
+        "min_value": "948.9",
+        "tags": [
+          "Metros sobre el nivel del mar"
+        ],
+        "unit": {
+          "symbol": "m",
+          "label": "metros",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Humedad_Relativa",
+        "current_value": "70.10",
+        "at": "12/17/2013 01:51:12",
+        "max_value": "78.3",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Intensidad_Luminosa",
+        "current_value": "2.00",
+        "at": "12/17/2013 01:51:12",
+        "max_value": "3394.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "Lux",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Precipitación",
+        "current_value": "4.00",
+        "at": "12/17/2013 01:51:12",
+        "max_value": "5.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Presión_Atmosferica",
+        "current_value": "90322.00",
+        "at": "12/17/2013 01:51:12",
+        "max_value": "90433.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Radiación_Solar",
+        "current_value": "0.00",
+        "at": "12/17/2013 01:51:12",
+        "max_value": "89917.35",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperatura",
+        "current_value": "24.00",
+        "at": "12/17/2013 01:51:12",
+        "max_value": "34.1",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "C",
+          "label": "Grados",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Velocidad_del_Viento",
+        "current_value": "0.00",
+        "at": "12/17/2013 01:51:12",
+        "max_value": "8.27",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "m/s",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "14.0850246",
+      "lon": "-87.1659731",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/83670\" >Estación Meteorológica -Juan Flores (John Electric)</a>",
+    "URLMostrar": "https://xively.com/feeds/83670"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\83670.json",
+  "DocumentJSON": null
+}

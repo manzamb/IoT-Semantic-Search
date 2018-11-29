@@ -1,0 +1,136 @@
+{
+  "Conceptos": [
+    "description"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "46381",
+    "title": "Maison",
+    "Private": false,
+    "tags": [
+      "Temperature"
+    ],
+    "description": "Enter a description of the Feed",
+    "feed": "https://api.xively.com/v2/feeds/46381.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:08:43",
+    "created": "01/30/2012 18:32:36",
+    "creator": "https://xively.com/users/juill",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Humidite-Chambre",
+        "current_value": "63",
+        "at": "03/21/2014 14:08:41",
+        "max_value": "90.0",
+        "min_value": "25.0",
+        "tags": null,
+        "unit": {
+          "symbol": "Pc",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Humidite-Salle_de_bains",
+        "current_value": "88",
+        "at": "03/21/2014 14:08:43",
+        "max_value": "90.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "Pc",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Humidite-Salon",
+        "current_value": "56",
+        "at": "03/21/2014 14:08:40",
+        "max_value": "90.0",
+        "min_value": "21.0",
+        "tags": null,
+        "unit": {
+          "symbol": "Pc",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Inter-chauffage-salon",
+        "current_value": "0",
+        "at": "04/02/2012 19:46:42",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "ON/OFF",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperature-Chambre",
+        "current_value": "19",
+        "at": "03/21/2014 14:08:41",
+        "max_value": "24.0",
+        "min_value": "10.0",
+        "tags": null,
+        "unit": {
+          "symbol": "°C",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperature-Salle_de_bains",
+        "current_value": "10",
+        "at": "03/21/2014 14:08:42",
+        "max_value": "27.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "°C",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperature-Salon",
+        "current_value": "18",
+        "at": "03/21/2014 14:08:40",
+        "max_value": "24.0",
+        "min_value": "13.0",
+        "tags": null,
+        "unit": {
+          "symbol": "°C",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Bordeaux",
+      "domain": 0,
+      "lat": "44.7691618526244",
+      "lon": "-0.57403564453125",
+      "ele": "Metres",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/46381\" >Maison</a>",
+    "URLMostrar": "https://xively.com/feeds/46381"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\46381.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,84 @@
+{
+  "Conceptos": [
+    "pst"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "86953",
+    "title": "Temperature Tracking",
+    "Private": false,
+    "tags": [
+      "indoor",
+      "outdoor",
+      "upstairs"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/86953.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "11/16/2013 23:02:01",
+    "created": "11/19/2012 01:41:38",
+    "creator": "https://xively.com/users/wmcorbin",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Local_InDoor_Temp",
+        "current_value": "79",
+        "at": "05/23/2013 16:32:03",
+        "max_value": "83.0",
+        "min_value": "58.0",
+        "tags": null,
+        "unit": {
+          "symbol": "º",
+          "label": "degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Local_OutDoor_Temp",
+        "current_value": "55",
+        "at": "11/16/2013 23:02:01",
+        "max_value": "97.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "º",
+          "label": "degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Local_PetRoom_Temp",
+        "current_value": "64",
+        "at": "11/11/2013 06:34:01",
+        "max_value": "82.0",
+        "min_value": "0.0",
+        "tags": [
+          "Temp"
+        ],
+        "unit": {
+          "symbol": "º",
+          "label": "degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "StarFleet",
+      "domain": 1,
+      "lat": "40.4909466073106",
+      "lon": "-78.0127465724945",
+      "ele": "680",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/86953\" >Temperature Tracking</a>",
+    "URLMostrar": "https://xively.com/feeds/86953"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\86953.json",
+  "DocumentJSON": null
+}

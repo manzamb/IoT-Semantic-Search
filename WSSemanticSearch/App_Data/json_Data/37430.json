@@ -1,0 +1,121 @@
+{
+  "Conceptos": [
+    "person"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "37430",
+    "title": "Activity in LyngbyRoklub",
+    "Private": false,
+    "tags": [
+      "kilometers",
+      "km",
+      "rowers",
+      "rowing"
+    ],
+    "description": "An indication of activity in Lyngby rowing club",
+    "feed": "https://api.xively.com/v2/feeds/37430.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "01/06/2012 14:42:23",
+    "created": "10/15/2011 18:43:59",
+    "creator": "https://xively.com/users/lyngbyroklub",
+    "version": null,
+    "website": "http://www.lyngbyroklub.dk",
+    "datastreams": [
+      {
+        "id": "rowers",
+        "current_value": "0",
+        "at": "10/17/2011 20:45:15",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "rowers"
+        ],
+        "unit": {
+          "symbol": "count",
+          "label": "persons",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "sun",
+        "current_value": "0",
+        "at": "01/06/2012 14:42:23",
+        "max_value": "40.0",
+        "min_value": "0.0",
+        "tags": [
+          "sun"
+        ],
+        "unit": {
+          "symbol": "sun",
+          "label": "volt",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temperature",
+        "current_value": null,
+        "at": "10/17/2011 20:45:15",
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "c",
+          "label": "celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "winddirection",
+        "current_value": null,
+        "at": "10/17/2011 20:45:15",
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "winddirection"
+        ],
+        "unit": {
+          "symbol": "d",
+          "label": "Degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "windspeed",
+        "current_value": null,
+        "at": "10/17/2011 20:45:15",
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "windspeed"
+        ],
+        "unit": {
+          "symbol": "m/s",
+          "label": "m/s",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Kongens Lyngby ",
+      "domain": 0,
+      "lat": "55.7736765295348",
+      "lon": "12.4930000305176",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/37430\" >Activity in LyngbyRoklub</a>",
+    "URLMostrar": "https://xively.com/feeds/37430"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\37430.json",
+  "DocumentJSON": null
+}

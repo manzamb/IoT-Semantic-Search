@@ -1,0 +1,212 @@
+{
+  "Conceptos": [
+    "sensor output"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "24369",
+    "title": "Solar system",
+    "Private": false,
+    "tags": [
+      "Solar water heating; Ambient air temperature"
+    ],
+    "description": "T31 - flat panel temperature, °C. Sensor type: DS18B20;\n\nT04 - Ambient air temperature, °C. Sensor type: DS18B20;\n\nI03pv - Photovoltaic solar panel current, A. Sensor type: ACS712ELC-05B;\n\nT03 - DWH tank temperature, °C. Sensor type: DS18B20;\n\nUpv11 - 5Wp pv panel voltage with constant load 60.5 Om. Arduino analog input;\n\nPpv11 - 5Wp pv panel power with constant load 60.5 Om. 60.5xUpv11xUpv11;\n\nUpv12 - 5Wp pv panel voltage with MPPT load. Arduino analog input;\n\nIpv12 - 5Wp pv panel current with MPPT load. Sensor type DS2438;\n\nPpv12 - 5Wp pv panel power with MPPT load. Upv12xIpv12;\n\nPWM - Control output Pulse-width Modulation (0..255/0..100%). Arduino digital output;\n\n",
+    "feed": "https://api.xively.com/v2/feeds/24369.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:12:18",
+    "created": "04/28/2011 17:58:31",
+    "creator": "https://xively.com/users/2v6",
+    "version": null,
+    "website": "http://sunenergy.dnsalias.net",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "55.63",
+        "at": "03/21/2014 14:12:18",
+        "max_value": "127.94",
+        "min_value": "-127.0",
+        "tags": [
+          "T31"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "18.44",
+        "at": "03/21/2014 14:12:18",
+        "max_value": "127.94",
+        "min_value": "-127.0",
+        "tags": [
+          "T04"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "-0.03",
+        "at": "03/21/2014 14:12:18",
+        "max_value": "6.65",
+        "min_value": "-9.575",
+        "tags": [
+          "I03pv"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "A",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "47.88",
+        "at": "03/21/2014 14:12:18",
+        "max_value": "140.75",
+        "min_value": "-2026.63",
+        "tags": [
+          "T03"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "13.17",
+        "at": "03/21/2014 14:12:18",
+        "max_value": "24.5",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "1.82",
+        "at": "03/21/2014 14:12:18",
+        "max_value": "6.85",
+        "min_value": "0.0",
+        "tags": [
+          "Ppv11"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "W",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "10.50",
+        "at": "03/21/2014 14:12:18",
+        "max_value": "20.46",
+        "min_value": "0.0",
+        "tags": [
+          "Upv11"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "V",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "7",
+        "current_value": "177.64",
+        "at": "03/21/2014 14:12:18",
+        "max_value": "2259.0",
+        "min_value": "-784.31",
+        "tags": [
+          "Ipv12"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "mA",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "8",
+        "current_value": "15.44",
+        "at": "03/21/2014 14:12:18",
+        "max_value": "21.44",
+        "min_value": "0.0",
+        "tags": [
+          "Upv12"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "V",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "9",
+        "current_value": "2.74",
+        "at": "03/21/2014 14:12:18",
+        "max_value": "7.29",
+        "min_value": "0.0",
+        "tags": [
+          "Ppv12"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "W",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "10",
+        "current_value": "74.00",
+        "at": "03/21/2014 14:12:18",
+        "max_value": "255.0",
+        "min_value": "0.0",
+        "tags": [
+          "PWM"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Sofia, Bulgaria; София, България",
+      "domain": 0,
+      "lat": "42.6451659997261",
+      "lon": "23.2926893234253",
+      "ele": "700",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/24369\" >Solar system</a>",
+    "URLMostrar": "https://xively.com/feeds/24369"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\24369.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,86 @@
+{
+  "Conceptos": [
+    "description"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "39349",
+    "title": "Moja dioda LED RGB",
+    "Private": false,
+    "tags": [
+      "dashboard"
+    ],
+    "description": "Enter a description of the Feed",
+    "feed": "https://api.xively.com/v2/feeds/39349.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/04/2013 21:26:02",
+    "created": "11/12/2011 10:34:48",
+    "creator": "https://xively.com/users/kuba_feed",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "38",
+        "at": "06/17/2012 04:25:14",
+        "max_value": "38.0",
+        "min_value": "38.0",
+        "tags": [
+          "R - Czerwony"
+        ],
+        "unit": {
+          "symbol": "R - Czerwony",
+          "label": "mV",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "28",
+        "at": "06/07/2012 09:37:16",
+        "max_value": "28.0",
+        "min_value": "28.0",
+        "tags": [
+          "G - Zielony"
+        ],
+        "unit": {
+          "symbol": "G - Zielony",
+          "label": "mV",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "0",
+        "at": "06/18/2013 20:51:31",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "B - Niebieski"
+        ],
+        "unit": {
+          "symbol": "B - Niebieski",
+          "label": "mV",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Name of location",
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": "Metres",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/39349\" >Moja dioda LED RGB</a>",
+    "URLMostrar": "https://xively.com/feeds/39349"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\39349.json",
+  "DocumentJSON": null
+}

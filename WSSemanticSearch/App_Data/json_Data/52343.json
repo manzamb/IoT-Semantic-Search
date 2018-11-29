@@ -1,0 +1,93 @@
+{
+  "Conceptos": [
+    "concept"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "52343",
+    "title": "Murat Ilgar's swimming pool - proof of concept",
+    "Private": false,
+    "tags": [
+      "chemical",
+      "control",
+      "feed",
+      "monitor",
+      "ORP",
+      "pH",
+      "pool",
+      "swimming"
+    ],
+    "description": "WiFi prototype, feeding real time pH and ORP values from my in ground swimming pool.\r\nGainSpan module is integrated and system is live since 04/04/2012, 19:00 EDT.\r\nGood sanitation levels are maintained and chemical costs* are kept at a minimum when;\r\npH is set at 7.40 and the ORP level is kept slightly above 780mV.\r\n\r\n*(around $0.60 a day, $220 a year)",
+    "feed": "https://api.xively.com/v2/feeds/52343.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "08/19/2012 15:28:54",
+    "created": "03/18/2012 06:43:36",
+    "creator": "https://xively.com/users/mkosun",
+    "version": null,
+    "website": "http://www.poolbutlerswimsafe.com",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "000740",
+        "at": "08/19/2012 15:28:54",
+        "max_value": "761.0",
+        "min_value": "408.0",
+        "tags": [
+          "pH"
+        ],
+        "unit": {
+          "symbol": "pH",
+          "label": "pH",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "000744",
+        "at": "08/19/2012 15:28:54",
+        "max_value": "1022.0",
+        "min_value": "0.0",
+        "tags": [
+          "ORP"
+        ],
+        "unit": {
+          "symbol": "mV",
+          "label": "mV",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "000084",
+        "at": "08/19/2012 15:28:54",
+        "max_value": "97.0",
+        "min_value": "52.0",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "°F",
+          "label": "°F",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Boca Raton, FL",
+      "domain": 0,
+      "lat": "26.3414990378866",
+      "lon": "-80.1335906982422",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/52343\" >Murat Ilgar's swimming pool - proof of concept</a>",
+    "URLMostrar": "https://xively.com/feeds/52343"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\52343.json",
+  "DocumentJSON": null
+}

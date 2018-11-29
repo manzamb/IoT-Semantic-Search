@@ -1,0 +1,173 @@
+{
+  "Conceptos": [
+    "system"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "76004",
+    "title": "SolarNanode Immersion Controller",
+    "Private": false,
+    "tags": [
+      "Arduino",
+      "energy",
+      "immersion",
+      "Nanode",
+      "OEM",
+      "PV",
+      "solar",
+      "water"
+    ],
+    "description": "3.92kWp PV Solar system with monitored house consumption and hot water immersion heater controller. Tries to maintain -30W export to grid by diverting excess solar power to the water immersion heater with a PID controlled PAC.",
+    "feed": "https://api.xively.com/v2/feeds/76004.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/21/2014 09:42:04",
+    "created": "09/16/2012 21:56:22",
+    "creator": "https://xively.com/users/solarmike",
+    "version": null,
+    "website": "http://openenergymonitor.org/emon/node/1081",
+    "datastreams": [
+      {
+        "id": "e6",
+        "current_value": "-1745",
+        "at": "03/21/2014 09:42:04",
+        "max_value": "22783.0",
+        "min_value": "-26369.0",
+        "tags": [
+          "Export Daily Total"
+        ],
+        "unit": {
+          "symbol": "Wh",
+          "label": "Wh",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "h2",
+        "current_value": "-2413",
+        "at": "03/21/2014 09:42:04",
+        "max_value": "30720.0",
+        "min_value": "-3676.0",
+        "tags": [
+          "House Power"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "W",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "i3",
+        "current_value": "0",
+        "at": "03/21/2014 09:42:04",
+        "max_value": "25268.0",
+        "min_value": "-30793.0",
+        "tags": [
+          "Immersion Power"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "W",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "i7",
+        "current_value": "349",
+        "at": "03/21/2014 09:42:04",
+        "max_value": "31764.0",
+        "min_value": "-29181.0",
+        "tags": [
+          "Immersion Daily Total"
+        ],
+        "unit": {
+          "symbol": "Wh",
+          "label": "Wh",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "immT8",
+        "current_value": "58",
+        "at": "03/21/2014 09:42:04",
+        "max_value": "85.0",
+        "min_value": "-127.0",
+        "tags": [
+          "Cyl top 300mm"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "imp5",
+        "current_value": "4038",
+        "at": "03/21/2014 09:42:04",
+        "max_value": "32767.0",
+        "min_value": "-32765.0",
+        "tags": [
+          "Import Daily Total"
+        ],
+        "unit": {
+          "symbol": "Wh",
+          "label": "Wh",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "s1",
+        "current_value": "2672",
+        "at": "03/21/2014 09:42:04",
+        "max_value": "3870.0",
+        "min_value": "-159.0",
+        "tags": [
+          "Solar PV Power"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "W",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "s4",
+        "current_value": "2830",
+        "at": "03/21/2014 09:42:04",
+        "max_value": "30602.0",
+        "min_value": "-29123.0",
+        "tags": [
+          "Solar Daily Total"
+        ],
+        "unit": {
+          "symbol": "Wh",
+          "label": "Wh",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Wickham Bishops",
+      "domain": 0,
+      "lat": "51.7737672790254",
+      "lon": "0.666046142578125",
+      "ele": "50",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/76004\" >SolarNanode Immersion Controller</a>",
+    "URLMostrar": "https://xively.com/feeds/76004"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\76004.json",
+  "DocumentJSON": null
+}

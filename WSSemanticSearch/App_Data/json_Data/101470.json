@@ -1,0 +1,94 @@
+{
+  "Conceptos": [
+    "group"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "101470",
+    "title": "UQ iLab Experiments Performance Data",
+    "Private": false,
+    "tags": [
+      "control engineering",
+      "iLabs",
+      "machines laboratory",
+      "MIT ISA",
+      "MQTT",
+      "power engineering",
+      "publish-subscribe",
+      "radiation",
+      "remote laboratory"
+    ],
+    "description": "This records the data for three experiment groups running under the MIT iLabs Remote Laboratory Architecture. The graphs show the experiment identifier (Corresponding to the current experiment number) over time. The data is scrapped from various places (usually email messages from the Service Broker) and distributed over a publish-subscribe protocol (MQTT).",
+    "feed": "https://api.xively.com/v2/feeds/101470.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/18/2014 03:54:15",
+    "created": "01/31/2013 01:00:30",
+    "creator": "https://xively.com/users/ceitmark",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "NWU",
+        "current_value": "12853",
+        "at": "03/03/2014 09:56:37",
+        "max_value": "12853.0",
+        "min_value": "9210.0",
+        "tags": [
+          "NorthWesternU_Expt_ID"
+        ],
+        "unit": {
+          "symbol": "N",
+          "label": "dimensionless",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "UQ",
+        "current_value": "548",
+        "at": "03/18/2014 03:54:15",
+        "max_value": "548.0",
+        "min_value": "0.0",
+        "tags": [
+          "UQueensland_Expt_ID"
+        ],
+        "unit": {
+          "symbol": "Q",
+          "label": "dimensionless",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "UQmachinesLab",
+        "current_value": "4737",
+        "at": "03/11/2014 13:18:38",
+        "max_value": "4737.0",
+        "min_value": "2903.0",
+        "tags": [
+          "UQ_ITEE_Machines_Lab"
+        ],
+        "unit": {
+          "symbol": "M",
+          "label": "dimensionless",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Centre for Educational Innovation & Technology, The University of Queensland",
+      "domain": 0,
+      "lat": "-27.4982864253258",
+      "lon": "153.014099299908",
+      "ele": "10",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/101470\" >UQ iLab Experiments Performance Data</a>",
+    "URLMostrar": "https://xively.com/feeds/101470"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\101470.json",
+  "DocumentJSON": null
+}

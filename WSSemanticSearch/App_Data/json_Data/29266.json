@@ -1,0 +1,118 @@
+{
+  "Conceptos": [
+    "description"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "29266",
+    "title": "自宅の植物周辺の環境データ",
+    "Private": false,
+    "tags": [
+      "Comma-separated descriptive keywords for this Feed"
+    ],
+    "description": "Enter a description of the Feed",
+    "feed": "https://api.xively.com/v2/feeds/29266.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "07/04/2011 06:57:41",
+    "created": "07/04/2011 06:57:41",
+    "creator": "https://xively.com/users/route666",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": null,
+        "at": "07/04/2011 06:57:41",
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "LM61温度センサ"
+        ],
+        "unit": {
+          "symbol": "℃",
+          "label": "摂氏",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": null,
+        "at": "07/04/2011 06:57:41",
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "DHT22温度センサ"
+        ],
+        "unit": {
+          "symbol": "℃",
+          "label": "摂氏",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": null,
+        "at": "07/04/2011 06:57:41",
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "DHT２２湿度センサ"
+        ],
+        "unit": {
+          "symbol": "％",
+          "label": "DH",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": null,
+        "at": "07/04/2011 06:57:41",
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "HJL7205L照度センサ"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": null,
+        "at": "07/04/2011 06:57:41",
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "水分センサ"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "神奈川県茅ヶ崎市",
+      "domain": 0,
+      "lat": "35.3229689043432",
+      "lon": "139.408264160156",
+      "ele": "Metres",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/29266\" >自宅の植物周辺の環境データ</a>",
+    "URLMostrar": "https://xively.com/feeds/29266"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\29266.json",
+  "DocumentJSON": null
+}

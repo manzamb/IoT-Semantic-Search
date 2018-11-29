@@ -1,0 +1,82 @@
+{
+  "Conceptos": [
+    "humedad"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "119298",
+    "title": "quantumcafe monitor",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "humedad",
+      "temperatura"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/119298.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/23/2013 05:52:22",
+    "created": "03/16/2013 05:58:27",
+    "creator": "https://xively.com/users/quantumcafe",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Humidity",
+        "current_value": "75",
+        "at": "06/20/2013 06:23:03",
+        "max_value": "80.0",
+        "min_value": "60.0",
+        "tags": null,
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Light",
+        "current_value": "655",
+        "at": "03/22/2013 20:58:25",
+        "max_value": "655.0",
+        "min_value": "655.0",
+        "tags": null,
+        "unit": {
+          "symbol": "Lm",
+          "label": "L",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperature",
+        "current_value": "29.5",
+        "at": "03/22/2013 20:58:25",
+        "max_value": "29.5",
+        "min_value": "29.5",
+        "tags": null,
+        "unit": {
+          "symbol": "ºC",
+          "label": "ºC",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "3.39416175273036",
+      "lon": "-76.5238952636719",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/119298\" >quantumcafe monitor</a>",
+    "URLMostrar": "https://xively.com/feeds/119298"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\119298.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,70 @@
+{
+  "Conceptos": [
+    "man"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "112349",
+    "title": "Current Cost energie",
+    "Private": false,
+    "tags": [
+      "device:type=Current Cost Bridge 20003"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/112349.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/19/2014 19:50:58",
+    "created": "02/28/2013 14:59:59",
+    "creator": "https://xively.com/users/joskoopmans",
+    "version": null,
+    "website": "http://www.currentcost.com",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "0.00",
+        "at": "03/19/2014 19:50:58",
+        "max_value": "30.2",
+        "min_value": "0.0",
+        "tags": [
+          "Temperatuur"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "0",
+        "at": "03/19/2014 19:50:58",
+        "max_value": "1099.0",
+        "min_value": "0.0",
+        "tags": [
+          "Electrisch"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Helden",
+      "domain": 0,
+      "lat": "51.3244974999671",
+      "lon": "6.00404977798462",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 1
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/112349\" >Current Cost energie</a>",
+    "URLMostrar": "https://xively.com/feeds/112349"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\112349.json",
+  "DocumentJSON": null
+}

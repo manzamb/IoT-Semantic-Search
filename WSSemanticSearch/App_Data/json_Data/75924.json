@@ -1,0 +1,87 @@
+{
+  "Conceptos": [
+    "thermistor"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "75924",
+    "title": "temperatura",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "Medicion temperatura"
+    ],
+    "description": "TEMPERATURA AUTOMATIZACiON",
+    "feed": "https://api.xively.com/v2/feeds/75924.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "01/11/2014 03:11:33",
+    "created": "09/16/2012 00:49:18",
+    "creator": "https://xively.com/users/juancorso",
+    "version": null,
+    "website": "http://www.umng.edu.co",
+    "datastreams": [
+      {
+        "id": "sensor_reading",
+        "current_value": "20.47",
+        "at": "01/11/2014 03:11:32",
+        "max_value": "221.63",
+        "min_value": "18.9",
+        "tags": [
+          "Thermocouple (Type K)"
+        ],
+        "unit": {
+          "symbol": "       °C",
+          "label": "       T",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "sensor_reading2",
+        "current_value": "18.67",
+        "at": "01/11/2014 03:11:32",
+        "max_value": "63.76",
+        "min_value": "13.92",
+        "tags": [
+          "Thermistor (NTC)"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "T2",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "sensor_reading3",
+        "current_value": "18.55",
+        "at": "01/11/2014 03:11:32",
+        "max_value": "37.6",
+        "min_value": "8.3",
+        "tags": [
+          "LM35"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "T",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "CHICO",
+      "domain": 0,
+      "lat": "4.68307180327772",
+      "lon": "-74.0421304106712",
+      "ele": "METROS",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/75924\" >temperatura</a>",
+    "URLMostrar": "https://xively.com/feeds/75924"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\75924.json",
+  "DocumentJSON": null
+}

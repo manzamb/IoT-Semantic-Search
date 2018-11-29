@@ -1,0 +1,174 @@
+{
+  "Conceptos": [
+    "chemical"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "57363",
+    "title": "Air Quality Monitor",
+    "Private": false,
+    "tags": [
+      "air quality",
+      "AQI",
+      "barometric pressure",
+      "CO2",
+      "humidity",
+      "O3",
+      "PM25",
+      "SO2",
+      "temperature"
+    ],
+    "description": "New York State Department of Environmental Conservation Bureau of Air Quality Surveillance\r\nLoudonville, NY (Air Monitoring Location 0101-33). Particle data from Albany County Headquarters.\r\n\r\nThe information is web scraped from the first available data from their air quality monitoring network.\r\nThe values have not been verified for accuracy or been through the appropriate quality assurance and control validation procedures.\r\n\r\nhttp://www.dec.ny.gov/chemical/24726.html",
+    "feed": "https://api.xively.com/v2/feeds/57363.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "12/18/2013 18:14:44",
+    "created": "04/27/2012 17:39:39",
+    "creator": "https://xively.com/users/nafis",
+    "version": null,
+    "website": "http://www.dec.ny.gov/airmon/stationStatus.php?stationNo=5",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "5",
+        "at": "12/18/2013 18:14:39",
+        "max_value": "99.0",
+        "min_value": "1.0",
+        "tags": [
+          "Air Quality Index"
+        ],
+        "unit": {
+          "symbol": "AQI",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "0.01",
+        "at": "12/18/2013 18:14:39",
+        "max_value": "0.095",
+        "min_value": "0.0",
+        "tags": [
+          "O3"
+        ],
+        "unit": {
+          "symbol": "O3",
+          "label": "ppm",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "0",
+        "at": "09/06/2013 17:04:16",
+        "max_value": "29.81",
+        "min_value": "0.0",
+        "tags": [
+          "Barometric Pressure"
+        ],
+        "unit": {
+          "symbol": "BP",
+          "label": "in HG",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "1.5",
+        "at": "12/18/2013 18:14:39",
+        "max_value": "8.8",
+        "min_value": "-84.3",
+        "tags": [
+          "SO2"
+        ],
+        "unit": {
+          "symbol": "SO2",
+          "label": "ppb",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "0.4",
+        "at": "12/18/2013 18:14:39",
+        "max_value": "1.4",
+        "min_value": "-5.6",
+        "tags": [
+          "CO"
+        ],
+        "unit": {
+          "symbol": "CO",
+          "label": "ppm",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "65.1",
+        "at": "09/06/2013 17:04:16",
+        "max_value": "98.2",
+        "min_value": "-3.5",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "degrees F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "29.59",
+        "at": "09/06/2013 17:04:16",
+        "max_value": "88.0",
+        "min_value": "1.0",
+        "tags": [
+          "Relative Humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "7",
+        "current_value": "15.5",
+        "at": "12/18/2013 18:14:44",
+        "max_value": "99.1",
+        "min_value": "0.0",
+        "tags": [
+          "PM25C"
+        ],
+        "unit": {
+          "symbol": "PM25C",
+          "label": "ug/m3LC",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Loudonville, NY",
+      "domain": 0,
+      "lat": "42.681389",
+      "lon": "-73.758056",
+      "ele": "101",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/57363\" >Air Quality Monitor</a>",
+    "URLMostrar": "https://xively.com/feeds/57363"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\57363.json",
+  "DocumentJSON": null
+}

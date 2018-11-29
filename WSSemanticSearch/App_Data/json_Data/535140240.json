@@ -1,0 +1,68 @@
+{
+  "Conceptos": [
+    "classification"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "535140240",
+    "title": "Transport Prossess",
+    "Private": false,
+    "tags": [
+      "classification",
+      "speed",
+      "Transport"
+    ],
+    "description": "Prossess device captures the classification and speed of the moving car. Classification of a car refers to the type of car it is. E.g. A sedan would have a classification between 41-70. A lorry would have a classification between 71-above. The speed of the moving car is also captured. A developer/institution can then connect to the data source via an API and then carry out secondary calculations on the information",
+    "feed": "https://api.xively.com/v2/feeds/535140240.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "07/29/2013 17:57:46",
+    "created": "07/29/2013 17:57:46",
+    "creator": "https://xively.com/users/spacely",
+    "version": null,
+    "website": "http://www.prossess.com",
+    "datastreams": [
+      {
+        "id": "Classification",
+        "current_value": null,
+        "at": "07/29/2013 17:57:46",
+        "max_value": null,
+        "min_value": null,
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Speed",
+        "current_value": null,
+        "at": "07/29/2013 17:57:46",
+        "max_value": null,
+        "min_value": null,
+        "tags": null,
+        "unit": {
+          "symbol": "KPH",
+          "label": "Km/h",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/535140240\" >Transport Prossess</a>",
+    "URLMostrar": "https://xively.com/feeds/535140240"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\535140240.json",
+  "DocumentJSON": null
+}

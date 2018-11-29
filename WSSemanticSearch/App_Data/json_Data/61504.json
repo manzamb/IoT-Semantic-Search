@@ -1,0 +1,72 @@
+{
+  "Conceptos": [
+    "humedad"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "61504",
+    "title": "Temperatura y Humedad relativa Indutesa",
+    "Private": false,
+    "tags": [
+      "humedad",
+      "temperatura"
+    ],
+    "description": "Temperatura y humedad relativa registradas con el medidor de temperatura Indutesa v0.1",
+    "feed": "https://api.xively.com/v2/feeds/61504.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "10/11/2013 20:44:54",
+    "created": "05/29/2012 21:10:11",
+    "creator": "https://xively.com/users/alejomongua",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Humedad",
+        "current_value": "59.1",
+        "at": "10/11/2013 20:44:54",
+        "max_value": "89.1",
+        "min_value": "0.0",
+        "tags": [
+          "humedad",
+          "Humedad relativa"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "Porcentaje",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperatura",
+        "current_value": "20.1",
+        "at": "10/11/2013 20:44:53",
+        "max_value": "31.7",
+        "min_value": "0.0",
+        "tags": [
+          "Temperatura"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Grados Centigrados",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Cota, Cundinamarca",
+      "domain": 0,
+      "lat": "4.73558591104291",
+      "lon": "-74.1455376148224",
+      "ele": "2600",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/61504\" >Temperatura y Humedad relativa Indutesa</a>",
+    "URLMostrar": "https://xively.com/feeds/61504"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\61504.json",
+  "DocumentJSON": null
+}

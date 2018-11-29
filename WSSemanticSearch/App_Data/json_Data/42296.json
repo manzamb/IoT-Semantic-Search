@@ -1,0 +1,170 @@
+{
+  "Conceptos": [
+    "parameter"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "42296",
+    "title": "Home Environment",
+    "Private": false,
+    "tags": [
+      "Humidity",
+      "Light",
+      "Lightning Strikes",
+      "Pressure",
+      "Temperature"
+    ],
+    "description": "This feed monitors environmental parameters at my home.  Sensors for temperature, pressure and humidity are located outside.  I have an indoor temperature sensor on the Arduino board as well as a cDs Photocell to measure the light value in my shop.\r\n\r\nRecently added items include a Garage Door sensor / counter utilizing a reed switch and magnet.  Also added a lightning detector counter based off a design by Charles Wenzel (http://www.techlib.com/electronics/lightning.html)\r\n\r\nHardware used:\r\n\r\nArduino Uno\r\nArduino Ethernet Shield\r\nLM34DZ Temperature Sensor\r\nMPX4115 Pressure Sensor\r\nCHS-SS Humidity Sensor\r\nReed Switch / Magnet\r\nLightning Detector Circuit\r\n",
+    "feed": "https://api.xively.com/v2/feeds/42296.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:06:31",
+    "created": "12/19/2011 21:27:49",
+    "creator": "https://xively.com/users/herrprofessor",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "58.70",
+        "at": "03/21/2014 14:06:30",
+        "max_value": "109.52",
+        "min_value": "30.62",
+        "tags": [
+          "Outdoor Temperature"
+        ],
+        "unit": {
+          "symbol": "°F",
+          "label": "Deg. F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "983.37",
+        "at": "03/21/2014 14:06:30",
+        "max_value": "1060.41",
+        "min_value": "921.52",
+        "tags": [
+          "Pressure-mb"
+        ],
+        "unit": {
+          "symbol": "mb",
+          "label": "mb",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "29.04",
+        "at": "03/21/2014 14:06:30",
+        "max_value": "31.31",
+        "min_value": "27.21",
+        "tags": [
+          "Pressure-inhg"
+        ],
+        "unit": {
+          "symbol": "inHg",
+          "label": "inHg",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "40.20",
+        "at": "03/21/2014 14:06:30",
+        "max_value": "105.27",
+        "min_value": "5.26",
+        "tags": [
+          "Humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "65.59",
+        "at": "03/21/2014 14:06:30",
+        "max_value": "101.77",
+        "min_value": "43.2",
+        "tags": [
+          "Shop Temperature"
+        ],
+        "unit": {
+          "symbol": "°F",
+          "label": "Deg. F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "4.85",
+        "at": "03/21/2014 14:06:30",
+        "max_value": "4.89",
+        "min_value": "1.53",
+        "tags": [
+          "Shop Light"
+        ],
+        "unit": {
+          "symbol": "VDC",
+          "label": "Volts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "6",
+        "at": "03/21/2014 14:06:30",
+        "max_value": "42.0",
+        "min_value": "0.0",
+        "tags": [
+          "Garage Door Daily Usage Counter"
+        ],
+        "unit": {
+          "symbol": "Cycles",
+          "label": "Cycles",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "7",
+        "current_value": "0",
+        "at": "03/21/2014 14:06:30",
+        "max_value": "26.0",
+        "min_value": "0.0",
+        "tags": [
+          "Lightning Strikes"
+        ],
+        "unit": {
+          "symbol": "Strikes",
+          "label": "Strikes",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Germantown, TN",
+      "domain": 0,
+      "lat": "35.09607",
+      "lon": "-89.80645",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/42296\" >Home Environment</a>",
+    "URLMostrar": "https://xively.com/feeds/42296"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\42296.json",
+  "DocumentJSON": null
+}

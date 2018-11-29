@@ -1,0 +1,105 @@
+{
+  "Conceptos": [
+    "carbon monoxide"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "86131",
+    "title": "AirQualityEgg",
+    "Private": false,
+    "tags": [
+      "air quality",
+      "arduino"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/86131.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "11/13/2012 22:22:22",
+    "created": "11/13/2012 21:33:20",
+    "creator": "https://xively.com/users/axisdesign",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "CO",
+        "current_value": null,
+        "at": null,
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "carbon monoxide"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "ppb",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Humidity",
+        "current_value": null,
+        "at": null,
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "NO2",
+        "current_value": null,
+        "at": null,
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "air quality",
+          "nitrous oxide"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "ppb",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperature",
+        "current_value": null,
+        "at": null,
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "celsius",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Wolverhampton",
+      "domain": 0,
+      "lat": "52.5746807976656",
+      "lon": "-2.1368408203125",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/86131\" >AirQualityEgg</a>",
+    "URLMostrar": "https://xively.com/feeds/86131"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\86131.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,71 @@
+{
+  "Conceptos": [
+    "radioactivity"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "21447",
+    "title": "Radioactivity of water [Tochigi]",
+    "Private": false,
+    "tags": [
+      "sensor:env=water",
+      "sensor:type=radiation"
+    ],
+    "description": "Radioactivity in water via  http://atmc.jp/water/",
+    "feed": "https://api.xively.com/v2/feeds/21447.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "01/21/2013 01:34:58",
+    "created": "03/25/2011 14:40:15",
+    "creator": "https://xively.com/users/kaoru622",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "0",
+        "at": "11/10/2012 01:37:37",
+        "max_value": "110.0",
+        "min_value": "0.0",
+        "tags": [
+          "Iodine 131"
+        ],
+        "unit": {
+          "symbol": "Bq/kg",
+          "label": "Unit of each plot radioactivity",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "0",
+        "at": "11/10/2012 01:37:37",
+        "max_value": "9.3",
+        "min_value": "0.0",
+        "tags": [
+          "Cesium 137"
+        ],
+        "unit": {
+          "symbol": "Bq/kg",
+          "label": "Unit of each plot radioactivity",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Utsunomiya,Tochigi,JAPAN",
+      "domain": 0,
+      "lat": "36.5549818176478",
+      "lon": "139.882864952087",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/21447\" >Radioactivity of water [Tochigi]</a>",
+    "URLMostrar": "https://xively.com/feeds/21447"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\21447.json",
+  "DocumentJSON": null
+}

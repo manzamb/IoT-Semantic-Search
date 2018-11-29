@@ -1,0 +1,393 @@
+{
+  "Conceptos": [
+    "precipitation"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "1199",
+    "title": "Sun Spot One",
+    "Private": false,
+    "tags": null,
+    "description": "A collaborative project between the\r\nSan Luis Valley Developers Group\r\nand the Governor's Energy Office.",
+    "feed": "https://api.xively.com/v2/feeds/1199.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/17/2011 07:36:11",
+    "created": "11/14/2008 19:03:02",
+    "creator": "https://xively.com/users/dhunter",
+    "version": null,
+    "website": "http://www.nrel.gov/midc/ss1/",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "-6999.00",
+        "at": "11/09/2010 17:00:09",
+        "max_value": "1456.62",
+        "min_value": "-99999.0",
+        "tags": [
+          "GH",
+          "Global Horizontal"
+        ],
+        "unit": {
+          "symbol": "W/m2",
+          "label": "W/m2",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "-6999.00",
+        "at": "11/09/2010 17:00:09",
+        "max_value": "1083.28",
+        "min_value": "-99999.0",
+        "tags": [
+          "Direct Normal",
+          "DN"
+        ],
+        "unit": {
+          "symbol": "W/m2",
+          "label": "W/m2",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "-6999.00",
+        "at": "11/09/2010 17:00:09",
+        "max_value": "730.65",
+        "min_value": "-99999.0",
+        "tags": [
+          "DH",
+          "Diffuse Horizontal"
+        ],
+        "unit": {
+          "symbol": "W/m2",
+          "label": "W/m2",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "-6999.00",
+        "at": "11/09/2010 17:00:09",
+        "max_value": "1431.07",
+        "min_value": "-99999.0",
+        "tags": [
+          "GH",
+          "Global (uncorrected)"
+        ],
+        "unit": {
+          "symbol": "W/m2",
+          "label": "W/m2",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "-6999.00",
+        "at": "11/09/2010 17:00:09",
+        "max_value": "1070.66",
+        "min_value": "-99999.0",
+        "tags": [
+          "Direct (uncorrected)",
+          "DN"
+        ],
+        "unit": {
+          "symbol": "W/m2",
+          "label": "W/m2",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "-6999.00",
+        "at": "11/09/2010 17:00:09",
+        "max_value": "705.98",
+        "min_value": "-99999.0",
+        "tags": [
+          "DH",
+          "Diffuse (uncorrected)"
+        ],
+        "unit": {
+          "symbol": "W/m2",
+          "label": "W/m2",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "-6999.00",
+        "at": "11/09/2010 17:00:09",
+        "max_value": "1040.0",
+        "min_value": "-6999.0",
+        "tags": [
+          "BIRD",
+          "Direct (Bird estimated)"
+        ],
+        "unit": {
+          "symbol": "W/m2",
+          "label": "W/m2",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "7",
+        "current_value": "-6999.00",
+        "at": "11/09/2010 17:00:09",
+        "max_value": "31.18",
+        "min_value": "-6999.0",
+        "tags": [
+          "Air Temperature",
+          "TRH"
+        ],
+        "unit": {
+          "symbol": "oC",
+          "label": "oC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "8",
+        "current_value": "-6999.00",
+        "at": "11/09/2010 17:00:09",
+        "max_value": "97.5",
+        "min_value": "-6999.0",
+        "tags": [
+          "Relative Humidity",
+          "TRH"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "9",
+        "current_value": "-6999.00",
+        "at": "11/09/2010 17:00:09",
+        "max_value": "21.06",
+        "min_value": "-6999.0",
+        "tags": [
+          "Wind Speed",
+          "WS"
+        ],
+        "unit": {
+          "symbol": "m/s",
+          "label": "m/s",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "10",
+        "current_value": "-6999.00",
+        "at": "11/09/2010 17:00:09",
+        "max_value": "25.85",
+        "min_value": "-6999.0",
+        "tags": [
+          "Pk Wind Speed",
+          "WS"
+        ],
+        "unit": {
+          "symbol": "m/s",
+          "label": "m/s",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "11",
+        "current_value": "-6999.00",
+        "at": "11/09/2010 17:00:09",
+        "max_value": "360.0",
+        "min_value": "-6999.0",
+        "tags": [
+          "Wind Direction",
+          "WS"
+        ],
+        "unit": {
+          "symbol": "o from N",
+          "label": "o from N",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "12",
+        "current_value": "-6999.00",
+        "at": "11/09/2010 17:00:09",
+        "max_value": "783.9",
+        "min_value": "-6999.0",
+        "tags": [
+          "PRESS",
+          "Station Pressure"
+        ],
+        "unit": {
+          "symbol": "mBar",
+          "label": "mBar",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "13",
+        "current_value": "-6999.00",
+        "at": "11/09/2010 17:00:09",
+        "max_value": "0.25",
+        "min_value": "-6999.0",
+        "tags": [
+          "Precipitation",
+          "RAIN"
+        ],
+        "unit": {
+          "symbol": "mm",
+          "label": "mm",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "14",
+        "current_value": "-6999.00",
+        "at": "11/09/2010 17:00:09",
+        "max_value": "14.48",
+        "min_value": "-6999.0",
+        "tags": [
+          "Precipitation (Accumulated)",
+          "RAIN"
+        ],
+        "unit": {
+          "symbol": "mm",
+          "label": "mm",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "15",
+        "current_value": "-6999.00",
+        "at": "11/09/2010 17:00:09",
+        "max_value": "158.87",
+        "min_value": "-6999.0",
+        "tags": [
+          "ZEN",
+          "Zenith Angle"
+        ],
+        "unit": {
+          "symbol": "o",
+          "label": "o",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "16",
+        "current_value": "-6999.00",
+        "at": "11/09/2010 17:00:09",
+        "max_value": "359.79",
+        "min_value": "-6999.0",
+        "tags": [
+          "Azimuth Angle",
+          "AZM"
+        ],
+        "unit": {
+          "symbol": "o",
+          "label": "o",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "17",
+        "current_value": "-6999.00",
+        "at": "11/09/2010 17:00:09",
+        "max_value": "37.92",
+        "min_value": "-6999.0",
+        "tags": [
+          "Airmass",
+          "AMASS"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "18",
+        "current_value": "-6999.00",
+        "at": "11/09/2010 17:00:09",
+        "max_value": "29.05",
+        "min_value": "-6999.0",
+        "tags": [
+          "Airmass (press corrected)",
+          "AMASS"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "19",
+        "current_value": "-6999.00",
+        "at": "11/09/2010 17:00:09",
+        "max_value": "35.63",
+        "min_value": "-6999.0",
+        "tags": [
+          "CR800 Temp",
+          "CRTEMP"
+        ],
+        "unit": {
+          "symbol": "oC",
+          "label": "oC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "20",
+        "current_value": "-6999.00",
+        "at": "11/09/2010 17:00:09",
+        "max_value": "14.71",
+        "min_value": "-6999.0",
+        "tags": [
+          "BATT",
+          "RSR Battery"
+        ],
+        "unit": {
+          "symbol": "VDC",
+          "label": "VDC",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Governor's Energy Office",
+      "domain": 0,
+      "lat": "37.7299956775506",
+      "lon": "-105.856018066406",
+      "ele": "2335",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/1199\" >Sun Spot One</a>",
+    "URLMostrar": "https://xively.com/feeds/1199"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\1199.json",
+  "DocumentJSON": null
+}

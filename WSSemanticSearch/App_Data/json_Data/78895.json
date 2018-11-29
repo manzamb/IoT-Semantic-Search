@@ -1,0 +1,114 @@
+{
+  "Conceptos": [
+    "sensor output"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "78895",
+    "title": "Computer Temps",
+    "Private": false,
+    "tags": [
+      "HDD Temp Linux commandline bash cron"
+    ],
+    "description": "Ubuntu Linux temperature output from the two commands:\n$ hddtemp -uF -n /dev/sda1\n$ sensors -A -f\n\nSCRIPT:\n#!/bin/bash\n#Setup the vars\nhard=$(hddtemp -uF -n /dev/sda1 | sed 's/^/HDD,/')\ntemps=$(sensors -A -f)\n#break out all of the sensor data on the 'temps' var\nonetemp=$(echo $temps | awk '{ print $15}' | sed -e 's/+//' | sed '$s/..$//' | sed 's/^/temp1,/')\ntwotemp=$(echo $temps | awk '{ print $17}' | sed -e 's/+//' | sed '$s/..$//' | sed 's/^/temp2,/')\nthreetemp=$(echo $temps | awk '{ print $19}' | sed -e 's/+//' | sed '$s/..$//' | sed 's/^/temp3,/')\nfourtemp=$(echo $temps | awk '{ print $21}' | sed -e 's/+//' | sed '$s/..$//' | sed 's/^/temp4,/')\n#put all the vars into one block of data\nbuildfeed=\"$hard\\n$onetemp\\n$twotemp\\n$threetemp\\n$fourtemp\"\n#I couldn't send \"buildfeed\" via curl, I kept getting the \"CSV Parser Error: CSV is invalid. Incorrect number of fields\" error. Setup the data block with 'printf' and pass it through curl, then it works fine.\nfeed=$(printf $buildfeed)\n#Send your \"feed\" data block out using curl.\ncurl --request PUT --data-binary \"${feed}\" --header \"X-ApiKey: YOURAPIKEY\" --verbose https://api.xively.com/v2/feeds/YOURFEEDID.csv\n\n\nruns via cron (as root) every ten minutes:\n*/10 * * * * /home/temps.sh",
+    "feed": "https://api.xively.com/v2/feeds/78895.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:12:57",
+    "created": "10/04/2012 18:59:57",
+    "creator": "https://xively.com/users/danielpobrien",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "HDD",
+        "current_value": "98",
+        "at": "03/21/2014 14:12:57",
+        "max_value": "105.0",
+        "min_value": "71.0",
+        "tags": [
+          "Temp"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "°F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temp1",
+        "current_value": "113.0",
+        "at": "03/21/2014 14:12:57",
+        "max_value": "143.6",
+        "min_value": "82.4",
+        "tags": [
+          "Temp"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "°F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temp2",
+        "current_value": "71.6",
+        "at": "03/21/2014 14:12:57",
+        "max_value": "78.8",
+        "min_value": "60.8",
+        "tags": [
+          "Temp"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "°F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temp3",
+        "current_value": "82.4",
+        "at": "03/21/2014 14:12:57",
+        "max_value": "91.4",
+        "min_value": "71.6",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "°F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temp4",
+        "current_value": "32.0",
+        "at": "03/21/2014 14:12:57",
+        "max_value": "32.0",
+        "min_value": "32.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "°F",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Linux Box",
+      "domain": 0,
+      "lat": "38.1979096",
+      "lon": "-77.5877652",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/78895\" >Computer Temps</a>",
+    "URLMostrar": "https://xively.com/feeds/78895"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\78895.json",
+  "DocumentJSON": null
+}

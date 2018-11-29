@@ -1,0 +1,429 @@
+{
+  "Conceptos": [
+    "solar radiation"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "21840",
+    "title": "GAP Weather Station",
+    "Private": false,
+    "tags": [
+      "aws",
+      "belfast",
+      "climate",
+      "gap qub",
+      "northern ireland",
+      "qub",
+      "queens university",
+      "weather"
+    ],
+    "description": "GAP QUB Automatic Weather Station (AWS)\r\n\r\nThe GAP Weather Station was installed on the Geography Building in December 2009.  The station, a Davis Vantage Pro, is automatic and transmits measurements wirelessly to an internet connected computer. \r\n\r\nData is streamed live to the School Weather Station site and is archived for future analysis and download.  The station logs barometric pressure, temperature, rainfall, wind speed/direction, humidity, solar radiation and calculates other  weather variables. \r\n\r\nA secondary weathercam feed is available at:\r\n\r\nhttp://www.qub.ac.uk/schools/gap/Research/GAPWeatherStation/GAPWeatherCam/\r\n ",
+    "feed": "https://api.xively.com/v2/feeds/21840.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "10/17/2011 10:51:48",
+    "created": "04/01/2011 15:26:39",
+    "creator": "https://xively.com/users/qubgap",
+    "version": null,
+    "website": "http://www.qub.ac.uk/schools/gap/AboutUs/GAPWeatherStation/",
+    "datastreams": [
+      {
+        "id": "1",
+        "current_value": "5.7",
+        "at": "10/17/2011 10:51:47",
+        "max_value": "22.0",
+        "min_value": "0.0",
+        "tags": [
+          "Average Windspeed"
+        ],
+        "unit": {
+          "symbol": "kts",
+          "label": "Knots",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "6.1",
+        "at": "10/17/2011 10:51:47",
+        "max_value": "34.0",
+        "min_value": "0.0",
+        "tags": [
+          "Gust"
+        ],
+        "unit": {
+          "symbol": "Deg",
+          "label": "Degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "181",
+        "at": "10/17/2011 10:51:47",
+        "max_value": "360.0",
+        "min_value": "0.0",
+        "tags": [
+          "Wind direction"
+        ],
+        "unit": {
+          "symbol": "Deg",
+          "label": "Degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "9.7",
+        "at": "10/17/2011 10:51:47",
+        "max_value": "25.2",
+        "min_value": "4.2",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "95",
+        "at": "10/17/2011 10:51:47",
+        "max_value": "98.0",
+        "min_value": "30.0",
+        "tags": [
+          "Relative Humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "Percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "1001.2",
+        "at": "10/17/2011 10:51:47",
+        "max_value": "1036.9",
+        "min_value": "980.6",
+        "tags": [
+          "Barometer"
+        ],
+        "unit": {
+          "symbol": "hpa",
+          "label": "Hectopascal",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "7",
+        "current_value": "8.8",
+        "at": "10/17/2011 10:51:47",
+        "max_value": "19.0",
+        "min_value": "0.0",
+        "tags": [
+          "Daily Rainfall"
+        ],
+        "unit": {
+          "symbol": "mm",
+          "label": "Millimetres",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "8",
+        "current_value": "109.6",
+        "at": "10/17/2011 10:51:47",
+        "max_value": "109.6",
+        "min_value": "0.0",
+        "tags": [
+          "Monthly Rainfall"
+        ],
+        "unit": {
+          "symbol": "mm",
+          "label": "Millimetres",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "9",
+        "current_value": "579.4",
+        "at": "10/17/2011 10:51:47",
+        "max_value": "579.4",
+        "min_value": "180.2",
+        "tags": [
+          "Yearly  Rainfall"
+        ],
+        "unit": {
+          "symbol": "mm",
+          "label": "Millimetres",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "10",
+        "current_value": "0.119",
+        "at": "10/17/2011 10:51:47",
+        "max_value": "277.432",
+        "min_value": "0.0",
+        "tags": [
+          "Rain Rate"
+        ],
+        "unit": {
+          "symbol": "mm/min",
+          "label": "mm/min",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "11",
+        "current_value": "0.580",
+        "at": "10/17/2011 10:51:47",
+        "max_value": "2.938",
+        "min_value": "0.0",
+        "tags": [
+          "Max Rain Rate for Day"
+        ],
+        "unit": {
+          "symbol": "mmm/min",
+          "label": "mm/min",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "12",
+        "current_value": "24.5",
+        "at": "10/17/2011 10:51:47",
+        "max_value": "40.9",
+        "min_value": "10.3",
+        "tags": [
+          "Indoor Temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "13",
+        "current_value": "35",
+        "at": "10/17/2011 10:51:47",
+        "max_value": "66.0",
+        "min_value": "13.0",
+        "tags": [
+          "Indoor Humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "Percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "19",
+        "current_value": "0.0",
+        "at": "10/17/2011 10:51:47",
+        "max_value": "19.0",
+        "min_value": "0.0",
+        "tags": [
+          "Yesterdays Rainfall"
+        ],
+        "unit": {
+          "symbol": "mm",
+          "label": "Millimetres",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "44",
+        "current_value": "8.2",
+        "at": "10/17/2011 10:51:47",
+        "max_value": "25.2",
+        "min_value": "2.1",
+        "tags": [
+          "Windchill"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "45",
+        "current_value": "10.5",
+        "at": "10/17/2011 10:51:47",
+        "max_value": "28.1",
+        "min_value": "2.7",
+        "tags": [
+          "Humidex"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "46",
+        "current_value": "14.2",
+        "at": "10/17/2011 10:51:47",
+        "max_value": "25.3",
+        "min_value": "6.5",
+        "tags": [
+          "Maximum Daily Temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "47",
+        "current_value": "0.0",
+        "at": "10/17/2011 10:51:47",
+        "max_value": "17.3",
+        "min_value": "0.0",
+        "tags": [
+          "Minimum  Daily Temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "50",
+        "current_value": "-2.8",
+        "at": "10/17/2011 10:51:47",
+        "max_value": "10.4",
+        "min_value": "-10.7",
+        "tags": [
+          "Pressure Trend Hour"
+        ],
+        "unit": {
+          "symbol": "hpa/hr",
+          "label": "Hectopascal",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "79",
+        "current_value": "0.0",
+        "at": "10/17/2011 10:51:47",
+        "max_value": "7.9",
+        "min_value": "0.0",
+        "tags": [
+          "UV Radiation"
+        ],
+        "unit": {
+          "symbol": "Index",
+          "label": "Intensity",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "87",
+        "current_value": "3",
+        "at": "10/17/2011 10:51:47",
+        "max_value": "20.0",
+        "min_value": "0.0",
+        "tags": [
+          "Maximum Gust for Day"
+        ],
+        "unit": {
+          "symbol": "kph",
+          "label": "Knots",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "88",
+        "current_value": "4",
+        "at": "10/17/2011 10:51:47",
+        "max_value": "22.0",
+        "min_value": "0.0",
+        "tags": [
+          "Dew Point"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "117",
+        "current_value": "196",
+        "at": "10/17/2011 10:51:47",
+        "max_value": "360.0",
+        "min_value": "0.0",
+        "tags": [
+          "Average Wind Direction"
+        ],
+        "unit": {
+          "symbol": "Deg",
+          "label": "Degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "127",
+        "current_value": "23.0",
+        "at": "10/17/2011 10:51:47",
+        "max_value": "1141.0",
+        "min_value": "0.0",
+        "tags": [
+          "Solar Radiation"
+        ],
+        "unit": {
+          "symbol": "W/m2",
+          "label": "Watts/Metres Squared",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "GAP QUB",
+      "domain": 0,
+      "lat": "54.5852896456848",
+      "lon": "-5.93927778303623",
+      "ele": "30.78",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/21840\" >GAP Weather Station</a>",
+    "URLMostrar": "https://xively.com/feeds/21840"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\21840.json",
+  "DocumentJSON": null
+}

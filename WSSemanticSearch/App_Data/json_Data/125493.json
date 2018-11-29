@@ -1,0 +1,152 @@
+{
+  "Conceptos": [
+    "environment"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "125493",
+    "title": "Manchester Simulated Environmental Sensor 5",
+    "Private": false,
+    "tags": [
+      "air quality",
+      "manchester",
+      "temperature"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/125493.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/19/2014 18:35:58",
+    "created": "04/15/2013 13:07:34",
+    "creator": "https://xively.com/users/mwinsper",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "-3",
+        "at": "03/19/2014 18:35:58",
+        "max_value": "30.0",
+        "min_value": "-5.0",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "74",
+        "at": "03/19/2014 18:35:58",
+        "max_value": "100.0",
+        "min_value": "0.0",
+        "tags": [
+          "Humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "109",
+        "at": "03/19/2014 18:35:58",
+        "max_value": "120.0",
+        "min_value": "50.0",
+        "tags": [
+          "Noise"
+        ],
+        "unit": {
+          "symbol": "dB",
+          "label": "Decibels",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "0.492",
+        "at": "03/19/2014 18:35:58",
+        "max_value": "8.0",
+        "min_value": "0.0",
+        "tags": [
+          "Carbon Monoxide"
+        ],
+        "unit": {
+          "symbol": "PPM",
+          "label": "PPM",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "419.038",
+        "at": "03/19/2014 18:35:58",
+        "max_value": "600.0",
+        "min_value": "250.0",
+        "tags": [
+          "Carbon Dioxide"
+        ],
+        "unit": {
+          "symbol": "PPM",
+          "label": "PPM",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "0.193",
+        "at": "03/19/2014 18:35:58",
+        "max_value": "0.35",
+        "min_value": "0.05",
+        "tags": [
+          "Ozone"
+        ],
+        "unit": {
+          "symbol": "PPM",
+          "label": "PPM",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "0.48",
+        "at": "03/19/2014 18:35:58",
+        "max_value": "0.5",
+        "min_value": "0.15",
+        "tags": [
+          "Nitrogen Dioxide"
+        ],
+        "unit": {
+          "symbol": "PPM",
+          "label": "PPM",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "53.47617",
+      "lon": "-2.22752100000002",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/125493\" >Manchester Simulated Environmental Sensor 5</a>",
+    "URLMostrar": "https://xively.com/feeds/125493"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\125493.json",
+  "DocumentJSON": null
+}

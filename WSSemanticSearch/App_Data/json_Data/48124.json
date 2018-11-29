@@ -1,0 +1,108 @@
+{
+  "Conceptos": [
+    "region"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "48124",
+    "title": "Electricity spot price (latest traded, 1h delay, per region)",
+    "Private": false,
+    "tags": [
+      "electricity"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/48124.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/05/2012 06:20:14",
+    "created": "02/14/2012 05:51:07",
+    "creator": "https://xively.com/users/hsenot",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "NSW1",
+        "current_value": "26.37",
+        "at": "03/05/2012 06:20:14",
+        "max_value": "52.60489",
+        "min_value": "9.57749",
+        "tags": null,
+        "unit": {
+          "symbol": "AUD",
+          "label": "AustralianDollar",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "QLD1",
+        "current_value": "18.69231",
+        "at": "03/05/2012 06:20:14",
+        "max_value": "169.23815",
+        "min_value": "-460.59409",
+        "tags": null,
+        "unit": {
+          "symbol": "AUD",
+          "label": "AustralianDollar",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "SA1",
+        "current_value": "28.43151",
+        "at": "03/05/2012 06:20:14",
+        "max_value": "55.94374",
+        "min_value": "6.88452",
+        "tags": null,
+        "unit": {
+          "symbol": "AUD",
+          "label": "AustralianDollar",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "TAS1",
+        "current_value": "26.03",
+        "at": "03/05/2012 06:20:14",
+        "max_value": "99.34",
+        "min_value": "16.12",
+        "tags": null,
+        "unit": {
+          "symbol": "AUD",
+          "label": "AustralianDollar",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "VIC1",
+        "current_value": "25.4939",
+        "at": "03/05/2012 06:20:14",
+        "max_value": "53.63146",
+        "min_value": "8.66826",
+        "tags": null,
+        "unit": {
+          "symbol": "AUD",
+          "label": "AustralianDollar",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Australia",
+      "domain": 1,
+      "lat": "-25.4829511753553",
+      "lon": "134.296875",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/48124\" >Electricity spot price (latest traded, 1h delay, per region)</a>",
+    "URLMostrar": "https://xively.com/feeds/48124"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\48124.json",
+  "DocumentJSON": null
+}

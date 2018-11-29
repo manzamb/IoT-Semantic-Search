@@ -1,0 +1,198 @@
+{
+  "Conceptos": [
+    "moisture"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "15749",
+    "title": "My Weather",
+    "Private": false,
+    "tags": [
+      "environment"
+    ],
+    "description": "Weather data from Vienna, my radio shack and from my weekend cottage (Wiener Prater).\r\n\r\nSinus: test signal (created with LabVIEW 6.1) | Outdoor temp: Dallas DS1620 | Barometric pressure: Freescale MPX4100A | Room temp 1 & Room rH: Vaisala HUMITTER | Room temp 2: NTC 10k | Room temp 3: KTY10-6 | Outdoor Temperature: KTY-16\r\n\r\nRoom temp 3 is fed via arduino + ethernet shield and an UMTS router.\r\n",
+    "feed": "https://api.xively.com/v2/feeds/15749.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:06:23",
+    "created": "01/28/2011 12:54:06",
+    "creator": "https://xively.com/users/oe1gca",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "0.751280",
+        "at": "03/21/2014 14:06:22",
+        "max_value": "1.0",
+        "min_value": "-0.999997",
+        "tags": [
+          "Sinus"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": "V",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "27.17",
+        "at": "03/21/2014 14:02:17",
+        "max_value": "113.87",
+        "min_value": "-273.15",
+        "tags": [
+          "Room temp 2"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "23.00",
+        "at": "03/21/2014 14:04:12",
+        "max_value": "43.0",
+        "min_value": "-11.5",
+        "tags": [
+          "Outdoor temp"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "997.0",
+        "at": "03/21/2014 14:04:13",
+        "max_value": "1041.5",
+        "min_value": "948.5",
+        "tags": [
+          "Barometer"
+        ],
+        "unit": {
+          "symbol": "hPa",
+          "label": "hPa",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "25.55",
+        "at": "03/21/2014 14:02:18",
+        "max_value": "4719.56",
+        "min_value": "-40.0",
+        "tags": [
+          "Room temp 1"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "26.46",
+        "at": "03/21/2014 14:02:19",
+        "max_value": "5343.68",
+        "min_value": "0.0",
+        "tags": [
+          "Room rH"
+        ],
+        "unit": {
+          "symbol": "%rH",
+          "label": "%rH",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "7",
+        "current_value": "10.0",
+        "at": "03/17/2014 22:31:47",
+        "max_value": "36.2",
+        "min_value": "3.3",
+        "tags": [
+          "Room temp 3"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "8",
+        "current_value": "5.0",
+        "at": "03/21/2014 14:06:01",
+        "max_value": "35490.0",
+        "min_value": "0.0",
+        "tags": [
+          "geiger counter"
+        ],
+        "unit": {
+          "symbol": "none",
+          "label": "none",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "9",
+        "current_value": null,
+        "at": null,
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "soil moisture"
+        ],
+        "unit": {
+          "symbol": "sm",
+          "label": "sm",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "11",
+        "current_value": "16.74",
+        "at": "03/17/2014 22:30:08",
+        "max_value": "24.49",
+        "min_value": "14.07",
+        "tags": [
+          "Room Temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Vienna, Austria",
+      "domain": 0,
+      "lat": "48.1691194099195",
+      "lon": "16.376838684082",
+      "ele": "251",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/15749\" >My Weather</a>",
+    "URLMostrar": "https://xively.com/feeds/15749"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\15749.json",
+  "DocumentJSON": null
+}

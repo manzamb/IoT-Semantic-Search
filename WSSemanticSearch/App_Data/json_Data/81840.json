@@ -1,0 +1,121 @@
+{
+  "Conceptos": [
+    "observation"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "81840",
+    "title": "LSZL - Locarno, Switzerland",
+    "Private": false,
+    "tags": [
+      "LSZL",
+      "METAR",
+      "Switzerland",
+      "weather report"
+    ],
+    "description": "LSZL - Locarno, Switzerland\n\n\nThis feed is unofficial and may be stopped by any reason at any time. Use it at your own risk. No guarantee of validity.\n\nData retrieved from http://weather.noaa.gov/pub/data/observations/metar/decoded/\n\nOfficial data are published by Meteo Suisse on the following link http://www.meteosuisse.admin.ch/web/de/services/aviatik/metar_taf_schweiz.html\n",
+    "feed": "https://api.xively.com/v2/feeds/81840.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/21/2014 13:50:00",
+    "created": "10/23/2012 13:09:33",
+    "creator": "https://xively.com/users/jpmieville",
+    "version": null,
+    "website": "http://www.example.com/",
+    "datastreams": [
+      {
+        "id": "humidity",
+        "current_value": "51",
+        "at": "03/21/2014 13:50:00",
+        "max_value": "100.0",
+        "min_value": "8.0",
+        "tags": [
+          "humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "Relative Humidity",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "pressure",
+        "current_value": "1016.9",
+        "at": "03/21/2014 13:50:00",
+        "max_value": "1037.9",
+        "min_value": "988.1",
+        "tags": [
+          "pressure"
+        ],
+        "unit": {
+          "symbol": "hPa",
+          "label": "Pascal",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temp",
+        "current_value": "16",
+        "at": "03/21/2014 13:50:00",
+        "max_value": "32.0",
+        "min_value": "-7.0",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "windDirection",
+        "current_value": "240",
+        "at": "03/21/2014 13:50:00",
+        "max_value": "360.0",
+        "min_value": "0.0",
+        "tags": [
+          "Wind direction"
+        ],
+        "unit": {
+          "symbol": "degree",
+          "label": "angle",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "windSpeed",
+        "current_value": "3.1",
+        "at": "03/21/2014 13:50:00",
+        "max_value": "9.4",
+        "min_value": "0.0",
+        "tags": [
+          "Wind speed"
+        ],
+        "unit": {
+          "symbol": "m/s",
+          "label": "metre per second",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "LSZL",
+      "domain": 0,
+      "lat": "46.160833",
+      "lon": "8.87861099999998",
+      "ele": "198",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/81840\" >LSZL - Locarno, Switzerland</a>",
+    "URLMostrar": "https://xively.com/feeds/81840"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\81840.json",
+  "DocumentJSON": null
+}

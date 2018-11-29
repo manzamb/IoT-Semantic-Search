@@ -1,0 +1,196 @@
+{
+  "Conceptos": [
+    "temperatura"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "1565700735",
+    "title": "Daljinsko (GSM) ogrevanje - vikend",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/1565700735.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:15:06",
+    "created": "07/30/2013 07:46:02",
+    "creator": "https://xively.com/users/ikutest",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "IZKLOPLJENO",
+        "at": "03/21/2014 14:15:06",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "Rezim delovanja"
+        ],
+        "unit": {
+          "symbol": "OGREVANJE",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "8.4",
+        "at": "03/21/2014 14:15:06",
+        "max_value": "23.6",
+        "min_value": "-86.4",
+        "tags": [
+          "Temperatura prostora"
+        ],
+        "unit": {
+          "symbol": "T1 (st. C)",
+          "label": "degrees Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "7.5",
+        "at": "03/21/2014 14:15:06",
+        "max_value": "66.1",
+        "min_value": "-13.2",
+        "tags": [
+          "Temperatura zunanja"
+        ],
+        "unit": {
+          "symbol": "T2 (st. C)",
+          "label": "degrees Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "Ni v funkciji",
+        "at": "03/21/2014 14:15:06",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "Funkcija termostata"
+        ],
+        "unit": {
+          "symbol": "TERMOSTAT",
+          "label": "degrees Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "0",
+        "at": "03/21/2014 14:15:06",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "Elektricna energija"
+        ],
+        "unit": {
+          "symbol": "Elektrika (0=OFF, 1=ON)",
+          "label": "degrees Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "24.46",
+        "at": "03/21/2014 14:15:06",
+        "max_value": "24.53",
+        "min_value": "22.75",
+        "tags": [
+          "Napetost baterije"
+        ],
+        "unit": {
+          "symbol": "Ubat [V]",
+          "label": "degrees Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "1",
+        "at": "03/21/2014 14:15:06",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "Zgodovina Rezim delovanja"
+        ],
+        "unit": {
+          "symbol": "Zg. rezima - R4 (0=vkl., 1=izklop)",
+          "label": "degrees Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "7",
+        "current_value": "1",
+        "at": "03/21/2014 14:15:06",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "Zgodovina funkcije termostata (R1)"
+        ],
+        "unit": {
+          "symbol": "Zg. termostata - R1 (0=v funkciji, 1=izven)",
+          "label": "degrees Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "8",
+        "current_value": "77.67",
+        "at": "03/21/2014 14:15:06",
+        "max_value": "77.67",
+        "min_value": "0.01",
+        "tags": [
+          "GPRS poraba podatkov [MB]"
+        ],
+        "unit": {
+          "symbol": "GPRS poraba [MB]",
+          "label": "degrees Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "9",
+        "current_value": "0",
+        "at": "03/21/2014 14:15:06",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "Rezerva"
+        ],
+        "unit": {
+          "symbol": "Rezerva",
+          "label": "degrees Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/1565700735\" >Daljinsko (GSM) ogrevanje - vikend</a>",
+    "URLMostrar": "https://xively.com/feeds/1565700735"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\1565700735.json",
+  "DocumentJSON": null
+}

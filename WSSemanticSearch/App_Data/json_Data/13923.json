@@ -1,0 +1,60 @@
+{
+  "Conceptos": [
+    "community"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "13923",
+    "title": "City Hall Colors",
+    "Private": false,
+    "tags": [
+      "grievances",
+      "praises",
+      "questions",
+      "sensor"
+    ],
+    "description": "LED color range depending on grievances, praises, and questions from the community. ",
+    "feed": "https://api.xively.com/v2/feeds/13923.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "12/17/2010 01:14:11",
+    "created": "12/16/2010 23:47:29",
+    "creator": "https://xively.com/users/the_nghbrhd",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "390.0",
+        "at": "12/17/2010 01:14:11",
+        "max_value": "15360.0",
+        "min_value": "0.0",
+        "tags": [
+          "analogRead0",
+          "grievances",
+          "praises",
+          "questions"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Chicago, Il",
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 1,
+      "disposition": 1
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/13923\" >City Hall Colors</a>",
+    "URLMostrar": "https://xively.com/feeds/13923"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\13923.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,137 @@
+{
+  "Conceptos": [
+    "process"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "62442",
+    "title": "Scottsboro Landfill Gas Module",
+    "Private": false,
+    "tags": [
+      "Arduino",
+      "Humidity",
+      "Pressure",
+      "Temperature"
+    ],
+    "description": "Conditions of gas processing module for City of Scottsboro Solid Waste Dept. Gas is processed and used as fuel for a generator which feeds power onto the main grid.",
+    "feed": "https://api.xively.com/v2/feeds/62442.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "08/23/2012 21:06:25",
+    "created": "06/05/2012 14:16:35",
+    "creator": "https://xively.com/users/eps500",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "humidity1",
+        "current_value": "32",
+        "at": "08/23/2012 21:06:24",
+        "max_value": "55.0",
+        "min_value": "-24.0",
+        "tags": [
+          "Humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "percentage",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "humidity2",
+        "current_value": "34",
+        "at": "08/23/2012 21:06:24",
+        "max_value": "57.0",
+        "min_value": "-22.0",
+        "tags": [
+          "Humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "percentage",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "pressure1",
+        "current_value": "0",
+        "at": "08/23/2012 21:06:24",
+        "max_value": "0.0",
+        "min_value": "-46.0",
+        "tags": [
+          "Pressure"
+        ],
+        "unit": {
+          "symbol": "in. H2O",
+          "label": "in. H2O",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "pressure2",
+        "current_value": "0",
+        "at": "08/23/2012 21:06:24",
+        "max_value": "0.0",
+        "min_value": "-46.0",
+        "tags": [
+          "Pressure"
+        ],
+        "unit": {
+          "symbol": "in. H2O",
+          "label": "in. H2O",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temp1",
+        "current_value": "76",
+        "at": "08/23/2012 21:06:24",
+        "max_value": "158.0",
+        "min_value": "-58.0",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "farenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temp2",
+        "current_value": "77",
+        "at": "08/23/2012 21:06:24",
+        "max_value": "159.0",
+        "min_value": "-58.0",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "farenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "City of Scottsboro Solid Waste Dept.",
+      "domain": 0,
+      "lat": "34.6722",
+      "lon": "-86.0342",
+      "ele": "210",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/62442\" >Scottsboro Landfill Gas Module</a>",
+    "URLMostrar": "https://xively.com/feeds/62442"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\62442.json",
+  "DocumentJSON": null
+}

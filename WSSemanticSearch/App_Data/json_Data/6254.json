@@ -1,0 +1,103 @@
+{
+  "Conceptos": [
+    "unit of measure"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "6254",
+    "title": "Digital Garden",
+    "Private": false,
+    "tags": null,
+    "description": "This is a test for the Digital Garden.\r\n\r\nLDR is measured in decimal units.  A value of 0 is pitch black no lights.  A value of 500 equals a 60W lamp and around 700 for overhead florescent lights. ",
+    "feed": "https://api.xively.com/v2/feeds/6254.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "11/08/2010 19:21:24",
+    "created": "03/12/2010 18:24:09",
+    "creator": "https://xively.com/users/skoobytime",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "166.0",
+        "at": "11/08/2010 19:21:24",
+        "max_value": "2022.0",
+        "min_value": "0.0",
+        "tags": [
+          "analogRead0",
+          "Light Sensor"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "165.0",
+        "at": "11/08/2010 19:21:24",
+        "max_value": "1014.0",
+        "min_value": "0.0",
+        "tags": [
+          "analogRead1",
+          "Moisture Sensor"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "1.0",
+        "at": "09/07/2010 21:54:37",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "Temp Sensor"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "0.0",
+        "at": "09/07/2010 21:54:37",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "button2",
+          "digitalRead5"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Georgia Tech",
+      "domain": 0,
+      "lat": "33.7760207401353",
+      "lon": "-84.3962910189293",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/6254\" >Digital Garden</a>",
+    "URLMostrar": "https://xively.com/feeds/6254"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\6254.json",
+  "DocumentJSON": null
+}

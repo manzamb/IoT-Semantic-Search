@@ -1,0 +1,214 @@
+{
+  "Conceptos": [
+    "frequency"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "45705",
+    "title": "Steve's Solar PV",
+    "Private": false,
+    "tags": [
+      "solar pv"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/45705.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "05/10/2012 06:13:52",
+    "created": "01/25/2012 05:18:54",
+    "creator": "https://xively.com/users/ubersteve",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "error",
+        "current_value": "0",
+        "at": "05/10/2012 06:13:51",
+        "max_value": "1087899757.0",
+        "min_value": "0.0",
+        "tags": [
+          "Error code"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Error Code",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "etotal",
+        "current_value": "4561.2",
+        "at": "05/10/2012 06:13:51",
+        "max_value": "4561.2",
+        "min_value": "3968.9",
+        "tags": [
+          "Total energy (kWh)"
+        ],
+        "unit": {
+          "symbol": "kWh",
+          "label": "kWh",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "fac",
+        "current_value": "50.05",
+        "at": "05/10/2012 06:13:51",
+        "max_value": "50.52",
+        "min_value": "0.0",
+        "tags": [
+          "Grid frequency (Hz)"
+        ],
+        "unit": {
+          "symbol": "Fac",
+          "label": "Hz",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "htotal",
+        "current_value": "9470",
+        "at": "05/10/2012 06:13:51",
+        "max_value": "9470.0",
+        "min_value": "8285.0",
+        "tags": [
+          "Total operation hours (Hr)"
+        ],
+        "unit": {
+          "symbol": "Hours",
+          "label": "Hours",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "iac",
+        "current_value": "0.7",
+        "at": "05/10/2012 06:13:51",
+        "max_value": "7.6",
+        "min_value": "0.0",
+        "tags": [
+          "Current to grid (A)"
+        ],
+        "unit": {
+          "symbol": "Iac",
+          "label": "Amps",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "mode",
+        "current_value": "1",
+        "at": "05/10/2012 06:13:51",
+        "max_value": "3.0",
+        "min_value": "0.0",
+        "tags": [
+          "Operation mode"
+        ],
+        "unit": {
+          "symbol": "Mode",
+          "label": "Operating Mode",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "pac",
+        "current_value": "166",
+        "at": "05/10/2012 06:13:51",
+        "max_value": "1834.0",
+        "min_value": "0.0",
+        "tags": [
+          "Power to grid (W)"
+        ],
+        "unit": {
+          "symbol": "Pac",
+          "label": "Watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temp",
+        "current_value": "36.0",
+        "at": "05/10/2012 06:13:51",
+        "max_value": "49.9",
+        "min_value": "0.0",
+        "tags": [
+          "Inverter internal temperature (deg C)"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "vac",
+        "current_value": "240.2",
+        "at": "05/10/2012 06:13:51",
+        "max_value": "251.9",
+        "min_value": "228.5",
+        "tags": [
+          "Grid voltage (V)"
+        ],
+        "unit": {
+          "symbol": "Vac",
+          "label": "Volts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "vpv",
+        "current_value": "280.3",
+        "at": "05/10/2012 06:13:51",
+        "max_value": "340.7",
+        "min_value": "59.6",
+        "tags": [
+          "PV Voltage (V)"
+        ],
+        "unit": {
+          "symbol": "Vpv",
+          "label": "Volts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "zac",
+        "current_value": "0",
+        "at": "05/10/2012 06:13:51",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "Grid impedance (mOhm)"
+        ],
+        "unit": {
+          "symbol": "Zac",
+          "label": "Impedence",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Boronia Heights, QLD, Australia",
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/45705\" >Steve's Solar PV</a>",
+    "URLMostrar": "https://xively.com/feeds/45705"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\45705.json",
+  "DocumentJSON": null
+}

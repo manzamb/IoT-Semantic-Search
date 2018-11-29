@@ -1,0 +1,82 @@
+{
+  "Conceptos": [
+    "person"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "21199",
+    "title": "The Toilet Paper Network",
+    "Private": false,
+    "tags": null,
+    "description": "Ttwo houses tell a story of sustainability through co-operation, via a connected network. An energy monitor is placed in each house and is connected to a roll of toilet paper in the other house. Energy consumption values are directly tied in to the amount of toilet paper that the opposite house gets to use. High consumption means no toilet paper, but the person experiencing the lack of toilet paper gets to do the same back to the other house.",
+    "feed": "https://api.xively.com/v2/feeds/21199.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "04/02/2011 18:02:50",
+    "created": "03/21/2011 17:23:54",
+    "creator": "https://xively.com/users/tushara",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "50",
+        "at": "04/02/2011 18:02:50",
+        "max_value": "246.0",
+        "min_value": "0.0",
+        "tags": [
+          "Energy Consumed feed A"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "91",
+        "at": "04/02/2011 18:02:50",
+        "max_value": "1023.0",
+        "min_value": "0.0",
+        "tags": [
+          "Energy Consumed feed B"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "0",
+        "at": "04/01/2011 23:34:01",
+        "max_value": "98.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Ryerson University",
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/21199\" >The Toilet Paper Network</a>",
+    "URLMostrar": "https://xively.com/feeds/21199"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\21199.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,110 @@
+{
+  "Conceptos": [
+    "precipitación"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "59101",
+    "title": "Estación Meteorológica Argiometeo",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "lampa",
+      "meteo",
+      "santiago",
+      "tiempo",
+      "weather"
+    ],
+    "description": "Mi estación meteorológica",
+    "feed": "https://api.xively.com/v2/feeds/59101.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "10/29/2012 12:58:17",
+    "created": "05/11/2012 21:45:45",
+    "creator": "https://xively.com/users/gmorchio",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Humedad",
+        "current_value": null,
+        "at": null,
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "humedad",
+          "humidity"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Precipitaciones",
+        "current_value": null,
+        "at": null,
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "precipitaciones",
+          "rainfall"
+        ],
+        "unit": {
+          "symbol": "mm",
+          "label": "mm",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Presión",
+        "current_value": null,
+        "at": null,
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "pressure"
+        ],
+        "unit": {
+          "symbol": "mbar",
+          "label": "mbar",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperatura",
+        "current_value": null,
+        "at": null,
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "temperatura",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "grados",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "-33.2742446685936",
+      "lon": "-70.8887672424316",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/59101\" >Estación Meteorológica Argiometeo</a>",
+    "URLMostrar": "https://xively.com/feeds/59101"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\59101.json",
+  "DocumentJSON": null
+}

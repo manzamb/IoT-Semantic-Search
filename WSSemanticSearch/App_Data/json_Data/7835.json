@@ -1,0 +1,104 @@
+{
+  "Conceptos": [
+    "region"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "7835",
+    "title": "Region5 CP P/S",
+    "Private": false,
+    "tags": null,
+    "description": "This feed was created using Data Logger for iPhone.",
+    "feed": "https://api.xively.com/v2/feeds/7835.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "06/11/2010 06:28:12",
+    "created": "06/08/2010 09:32:29",
+    "creator": "https://xively.com/users/480123",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "-1.95",
+        "at": "06/11/2010 06:28:12",
+        "max_value": "0.0",
+        "min_value": "-4.0",
+        "tags": [
+          "voltage"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": "Volts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "13.6137",
+        "at": "06/11/2010 06:28:12",
+        "max_value": "13.7603",
+        "min_value": "13.5898",
+        "tags": [
+          "lat",
+          "latitude"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "99.7386",
+        "at": "06/11/2010 06:28:12",
+        "max_value": "100.427",
+        "min_value": "99.6774",
+        "tags": [
+          "lon",
+          "longitude"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "0",
+        "at": "06/11/2010 06:28:12",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "alt",
+          "altitude",
+          "elevation"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "13.6137",
+      "lon": "99.7386",
+      "ele": "0",
+      "exposure": 1,
+      "disposition": 1
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/7835\" >Region5 CP P/S</a>",
+    "URLMostrar": "https://xively.com/feeds/7835"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\7835.json",
+  "DocumentJSON": null
+}

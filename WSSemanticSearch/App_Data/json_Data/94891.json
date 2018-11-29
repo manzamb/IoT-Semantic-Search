@@ -1,0 +1,87 @@
+{
+  "Conceptos": [
+    "environment"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "94891",
+    "title": "Power",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "Power meter"
+    ],
+    "description": "Power Consumtion of the whole house",
+    "feed": "https://api.xively.com/v2/feeds/94891.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:10:02",
+    "created": "12/27/2012 08:08:34",
+    "creator": "https://xively.com/users/nebucaz",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "outtmp",
+        "current_value": "14.1",
+        "at": "03/21/2014 14:10:01",
+        "max_value": "1664.4",
+        "min_value": "-999.0",
+        "tags": [
+          "Environment Temperature"
+        ],
+        "unit": {
+          "symbol": "°",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "peak1",
+        "current_value": "2595",
+        "at": "03/21/2014 14:10:01",
+        "max_value": "90000020.2",
+        "min_value": "-1.0",
+        "tags": [
+          "peak power"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "sensor1",
+        "current_value": "1577",
+        "at": "03/21/2014 14:10:01",
+        "max_value": "13186.0",
+        "min_value": "0.0",
+        "tags": [
+          "average power"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "46.9390116150604",
+      "lon": "7.4322509765625",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/94891\" >Power</a>",
+    "URLMostrar": "https://xively.com/feeds/94891"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\94891.json",
+  "DocumentJSON": null
+}

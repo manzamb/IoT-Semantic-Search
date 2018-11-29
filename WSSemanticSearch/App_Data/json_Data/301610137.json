@@ -1,0 +1,86 @@
+{
+  "Conceptos": [
+    "temperature"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "301610137",
+    "title": "Temperature device",
+    "Private": false,
+    "tags": [
+      "Server room temperature monitor"
+    ],
+    "description": "Server room temperature monitor.\nUsed ArduinoUno, Ethernet shield and DS18B20.",
+    "feed": "https://api.xively.com/v2/feeds/301610137.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:09:41",
+    "created": "09/16/2013 10:21:58",
+    "creator": "https://xively.com/users/stoyanb",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "RackTemp",
+        "current_value": "22.94",
+        "at": "03/21/2014 14:09:41",
+        "max_value": "85.0",
+        "min_value": "-127.0",
+        "tags": [
+          "Server room temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "RoomTemp",
+        "current_value": "18.56",
+        "at": "03/21/2014 14:09:41",
+        "max_value": "85.0",
+        "min_value": "-127.0",
+        "tags": [
+          "Server Rack temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "TempTrigger",
+        "current_value": "18.56",
+        "at": "03/21/2014 14:09:41",
+        "max_value": "22.44",
+        "min_value": "0.0",
+        "tags": [
+          "Trigger to send e-mail"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Server room",
+      "domain": 0,
+      "lat": "43.57259",
+      "lon": "27.8272606",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/301610137\" >Temperature device</a>",
+    "URLMostrar": "https://xively.com/feeds/301610137"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\301610137.json",
+  "DocumentJSON": null
+}

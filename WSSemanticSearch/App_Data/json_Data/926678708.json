@@ -1,0 +1,104 @@
+{
+  "Conceptos": [
+    "moisture"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "926678708",
+    "title": "Urban Gardening Toolkit",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/926678708.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "06/06/2013 21:04:22",
+    "created": "05/25/2013 20:24:51",
+    "creator": "https://xively.com/users/strobsn",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Humidity_DHT11",
+        "current_value": "64.00",
+        "at": "06/06/2013 21:04:21",
+        "max_value": "65.0",
+        "min_value": "0.0",
+        "tags": [
+          "Humidity",
+          "Urban Gardening"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "Humidity",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "MoistureSensor01",
+        "current_value": "634.00",
+        "at": "06/06/2013 21:04:21",
+        "max_value": "1023.0",
+        "min_value": "0.0",
+        "tags": [
+          "Moisture",
+          "Urban Gardening"
+        ],
+        "unit": {
+          "symbol": "M",
+          "label": "Moisture",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "MoistureSensor02",
+        "current_value": "470.00",
+        "at": "06/06/2013 21:04:21",
+        "max_value": "657.0",
+        "min_value": "0.0",
+        "tags": [
+          "Moisture",
+          "Urban Gardening"
+        ],
+        "unit": {
+          "symbol": "M",
+          "label": "Moisture",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperature_DHT11",
+        "current_value": "25.00",
+        "at": "06/06/2013 21:04:21",
+        "max_value": "25.0",
+        "min_value": "21.0",
+        "tags": [
+          "Temperature",
+          "Urban Gardening"
+        ],
+        "unit": {
+          "symbol": "��",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/926678708\" >Urban Gardening Toolkit</a>",
+    "URLMostrar": "https://xively.com/feeds/926678708"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\926678708.json",
+  "DocumentJSON": null
+}

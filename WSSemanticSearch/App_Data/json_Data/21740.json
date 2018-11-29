@@ -1,0 +1,107 @@
+{
+  "Conceptos": [
+    "community"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "21740",
+    "title": "ASK Feed",
+    "Private": false,
+    "tags": [
+      "co2",
+      "light",
+      "movement",
+      "smart geometry",
+      "temperature",
+      "urban"
+    ],
+    "description": "Live input from the Ambient Sensor Kit.",
+    "feed": "https://api.xively.com/v2/feeds/21740.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "04/01/2011 20:34:01",
+    "created": "03/31/2011 09:11:05",
+    "creator": "https://xively.com/users/urbanfeedssg11",
+    "version": null,
+    "website": "http://smartgeometry.org/index.php?option=com_community&view=groups&task=viewgroup&groupid=6&Itemid=0",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "23.6",
+        "at": "04/01/2011 20:34:01",
+        "max_value": "30.8",
+        "min_value": "21.4",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "Cº",
+          "label": "Cº",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "4",
+        "at": "04/01/2011 20:34:01",
+        "max_value": "86.0",
+        "min_value": "3.0",
+        "tags": [
+          "Light"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "159",
+        "at": "04/01/2011 20:34:01",
+        "max_value": "267.0",
+        "min_value": "0.0",
+        "tags": [
+          "Movement"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "247",
+        "at": "04/01/2011 20:34:01",
+        "max_value": "311.0",
+        "min_value": "0.0",
+        "tags": [
+          "CO2"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "ppm",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "55.6819304946955",
+      "lon": "12.6048910617828",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 1
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/21740\" >ASK Feed</a>",
+    "URLMostrar": "https://xively.com/feeds/21740"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\21740.json",
+  "DocumentJSON": null
+}

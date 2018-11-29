@@ -1,0 +1,274 @@
+{
+  "Conceptos": [
+    "time interval"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "52002",
+    "title": "HeatPump",
+    "Private": false,
+    "tags": [
+      "heat pump",
+      "real-time"
+    ],
+    "description": "Real-time data from my private heat pump, updated at 2mins intervals.",
+    "feed": "https://api.xively.com/v2/feeds/52002.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "11/15/2013 05:27:08",
+    "created": "03/15/2012 10:04:54",
+    "creator": "https://xively.com/users/efrecon",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "1",
+        "current_value": "32.80",
+        "at": "11/15/2013 05:27:00",
+        "max_value": "41.0",
+        "min_value": "2.0",
+        "tags": [
+          "GT1",
+          "Radiator Return"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "degree Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "03.90",
+        "at": "11/15/2013 05:27:01",
+        "max_value": "44.3",
+        "min_value": "-14.4",
+        "tags": [
+          "GT2",
+          "Outdoor"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "degree Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "51.70",
+        "at": "11/15/2013 05:27:01",
+        "max_value": "60.2",
+        "min_value": "5.0",
+        "tags": [
+          "GT3",
+          "Hot Water"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "degree Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "-48.30",
+        "at": "11/15/2013 05:27:02",
+        "max_value": "0.0",
+        "min_value": "-48.3",
+        "tags": [
+          "Forward",
+          "GT4"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "degree Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "-48.30",
+        "at": "11/15/2013 05:27:03",
+        "max_value": "0.0",
+        "min_value": "-48.3",
+        "tags": [
+          "GT5",
+          "Room"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "degree Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "84.70",
+        "at": "11/15/2013 05:27:03",
+        "max_value": "103.8",
+        "min_value": "2.0",
+        "tags": [
+          "Compressor",
+          "GT6"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "degree Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "7",
+        "current_value": "53.40",
+        "at": "11/15/2013 05:27:04",
+        "max_value": "62.4",
+        "min_value": "2.0",
+        "tags": [
+          "GT8",
+          "Heat fluid out"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "degree Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "8",
+        "current_value": "48.40",
+        "at": "11/15/2013 05:27:04",
+        "max_value": "57.2",
+        "min_value": "2.0",
+        "tags": [
+          "GT9",
+          "Heat fluid in"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "degree Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "9",
+        "current_value": "00.90",
+        "at": "11/15/2013 05:27:05",
+        "max_value": "25.5",
+        "min_value": "-4.5",
+        "tags": [
+          "Cold fluid in",
+          "GT10"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "degree Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "10",
+        "current_value": "-02.30",
+        "at": "11/15/2013 05:27:05",
+        "max_value": "26.5",
+        "min_value": "-4.2",
+        "tags": [
+          "Cold fluid out",
+          "GT11"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "degree Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "13",
+        "current_value": "1",
+        "at": "11/15/2013 05:27:06",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "Compressor"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Boolean",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "14",
+        "current_value": "0",
+        "at": "11/15/2013 05:27:07",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "Additional heat 3kW"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Boolean",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "15",
+        "current_value": "0",
+        "at": "11/15/2013 05:27:07",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "Additional heat 6kW"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Boolean",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "18",
+        "current_value": "1",
+        "at": "11/15/2013 05:27:08",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "Tree-way valve",
+          "VXV1"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Boolean",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "August Södermansv. 10",
+      "domain": 0,
+      "lat": "59.299428",
+      "lon": "17.9702090000001",
+      "ele": "14",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/52002\" >HeatPump</a>",
+    "URLMostrar": "https://xively.com/feeds/52002"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\52002.json",
+  "DocumentJSON": null
+}

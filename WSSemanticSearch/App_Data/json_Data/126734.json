@@ -1,0 +1,105 @@
+{
+  "Conceptos": [
+    "humedad"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "126734",
+    "title": "Estación meteorológica",
+    "Private": false,
+    "tags": [
+      "humedad",
+      "luz",
+      "presión",
+      "temperatura"
+    ],
+    "description": "Medición de luz, humedad, temperatura y presión atmosférica.",
+    "feed": "https://api.xively.com/v2/feeds/126734.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "05/22/2013 17:34:55",
+    "created": "04/21/2013 08:19:03",
+    "creator": "https://xively.com/users/gcenjor",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Humedad",
+        "current_value": "40.3",
+        "at": "05/22/2013 17:34:50",
+        "max_value": "43.4",
+        "min_value": "22.8",
+        "tags": [
+          "Humedad"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "Porcentaje",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Luz",
+        "current_value": "517",
+        "at": "05/22/2013 17:34:54",
+        "max_value": "867.0",
+        "min_value": "0.0",
+        "tags": [
+          "Luz"
+        ],
+        "unit": {
+          "symbol": "lux",
+          "label": "Lux",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Presión",
+        "current_value": "945.90",
+        "at": "05/22/2013 17:34:53",
+        "max_value": "948.6",
+        "min_value": "945.7",
+        "tags": [
+          "Presión"
+        ],
+        "unit": {
+          "symbol": "mb",
+          "label": "Milibares",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperatura",
+        "current_value": "21.6",
+        "at": "05/22/2013 17:34:52",
+        "max_value": "947.4",
+        "min_value": "19.8",
+        "tags": [
+          "Temperatura"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "Grados",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Torrejón de Ardoz",
+      "domain": 0,
+      "lat": "40.458507307739",
+      "lon": "-3.44850540161133",
+      "ele": "600",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/126734\" >Estación meteorológica</a>",
+    "URLMostrar": "https://xively.com/feeds/126734"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\126734.json",
+  "DocumentJSON": null
+}

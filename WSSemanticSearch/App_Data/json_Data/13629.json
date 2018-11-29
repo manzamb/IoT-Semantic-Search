@@ -1,0 +1,234 @@
+{
+  "Conceptos": [
+    "wind"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "13629",
+    "title": "Homeseer Data",
+    "Private": false,
+    "tags": [
+      "Currentcost",
+      "home",
+      "Homeseer",
+      "power",
+      "temperature"
+    ],
+    "description": "This is temperature/electricity data from my homeseer computer",
+    "feed": "https://api.xively.com/v2/feeds/13629.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:07:28",
+    "created": "12/09/2010 15:22:40",
+    "creator": "https://xively.com/users/snedecor",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "0.796",
+        "at": "03/21/2014 14:07:28",
+        "max_value": "7.704",
+        "min_value": "0.158",
+        "tags": [
+          "Total Power"
+        ],
+        "unit": {
+          "symbol": "kW",
+          "label": "kW",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "62.6",
+        "at": "03/21/2014 14:07:28",
+        "max_value": "113.5",
+        "min_value": "0.0",
+        "tags": [
+          "Patio Temp"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "93",
+        "at": "03/21/2014 14:07:28",
+        "max_value": "98.0",
+        "min_value": "0.0",
+        "tags": [
+          "Patio Humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "30.03",
+        "at": "03/21/2014 14:07:28",
+        "max_value": "31.01",
+        "min_value": "0.0",
+        "tags": [
+          "Patio Barometer"
+        ],
+        "unit": {
+          "symbol": "inHg",
+          "label": "in Hg",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "62.6",
+        "at": "03/21/2014 14:07:28",
+        "max_value": "127.5",
+        "min_value": "0.0",
+        "tags": [
+          "Attic Temp"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "0.9",
+        "at": "03/21/2014 14:07:28",
+        "max_value": "185.0",
+        "min_value": "0.0",
+        "tags": [
+          "Wind Speed"
+        ],
+        "unit": {
+          "symbol": "mph",
+          "label": "mph",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "73.4",
+        "at": "03/21/2014 14:07:28",
+        "max_value": "95.0",
+        "min_value": "0.0",
+        "tags": [
+          "Master BR Temp"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "7",
+        "current_value": "0",
+        "at": "03/21/2014 14:07:28",
+        "max_value": "185.0",
+        "min_value": "0.0",
+        "tags": [
+          "Computer Rm Temp"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "8",
+        "current_value": "-5.1",
+        "at": "03/21/2014 14:07:28",
+        "max_value": "48.4",
+        "min_value": "-20.0",
+        "tags": [
+          "Freezer Temp"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "9",
+        "current_value": "79.5",
+        "at": "03/21/2014 14:07:28",
+        "max_value": "94.5",
+        "min_value": "0.0",
+        "tags": [
+          "Master Bath Temp"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "10",
+        "current_value": "73.8",
+        "at": "03/21/2014 14:07:28",
+        "max_value": "92.5",
+        "min_value": "0.0",
+        "tags": [
+          "Bath Temperature"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "11",
+        "current_value": "42.8",
+        "at": "03/21/2014 14:07:28",
+        "max_value": "158.0",
+        "min_value": "10.4",
+        "tags": [
+          "Refrigerator Temp"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "F",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Home",
+      "domain": 0,
+      "lat": "29.159524436975",
+      "lon": "-95.4414510726929",
+      "ele": "10",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/13629\" >Homeseer Data</a>",
+    "URLMostrar": "https://xively.com/feeds/13629"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\13629.json",
+  "DocumentJSON": null
+}

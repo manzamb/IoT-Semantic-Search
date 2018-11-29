@@ -1,0 +1,79 @@
+{
+  "Conceptos": [
+    "surface"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "50144",
+    "title": "NYU_Wipes",
+    "Private": false,
+    "tags": [
+      "air quaility",
+      "arduino",
+      "black carbon",
+      "xclinic:project=nyu_wipes"
+    ],
+    "description": "Assessing Black Carbon/Particulate accumulation sampled from 20cm wipes on Horizontal surfaces in and around The NYU Barney Building. (for for The Qualities of Air Project",
+    "feed": "https://api.xively.com/v2/feeds/50144.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "02/29/2012 22:04:45",
+    "created": "02/29/2012 21:53:07",
+    "creator": "https://xively.com/users/crysmoore",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Browness",
+        "current_value": "135813",
+        "at": "02/29/2012 22:03:31",
+        "max_value": "135813.0",
+        "min_value": "135813.0",
+        "tags": [
+          "Dust",
+          "Human Evaluated",
+          "Particulate",
+          "Pollution"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Grayness",
+        "current_value": "20",
+        "at": "02/29/2012 22:04:45",
+        "max_value": "20.0",
+        "min_value": "10.0",
+        "tags": [
+          "Black Carbon",
+          "Human Evaluated",
+          "Particulate",
+          "Pollution"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "34 Stuyvesant Street, New York 10003",
+      "domain": 0,
+      "lat": "40.7292425968457",
+      "lon": "-73.9915466308594",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 1
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/50144\" >NYU_Wipes</a>",
+    "URLMostrar": "https://xively.com/feeds/50144"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\50144.json",
+  "DocumentJSON": null
+}

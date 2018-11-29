@@ -1,0 +1,86 @@
+{
+  "Conceptos": [
+    "area"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "211109309",
+    "title": "Arduino Duemilanova @ Build Brighton (Brighton's Hackerspace)",
+    "Private": false,
+    "tags": [
+      "Arduino",
+      "buildbrighton",
+      "DHT22",
+      "environment",
+      "hackspace",
+      "internet of things",
+      "RHT03"
+    ],
+    "description": "Has an ATmega 328 chip and compatible Ethernet shield. It's measuring Temperature & Humidity using a  DHT22 (RHT03) Sensor within the main area of Brighton hack-space. ",
+    "feed": "https://api.xively.com/v2/feeds/211109309.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:03:51",
+    "created": "07/28/2013 14:12:24",
+    "creator": "https://xively.com/users/buildbrighton",
+    "version": null,
+    "website": "http://www.buildbrighton.com",
+    "datastreams": [
+      {
+        "id": "Dew_Point_Temperature",
+        "current_value": "7.31",
+        "at": "03/21/2014 14:03:51",
+        "max_value": "13.21",
+        "min_value": "2.27",
+        "tags": null,
+        "unit": {
+          "symbol": "C",
+          "label": "Degree",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Humidity",
+        "current_value": "45.20",
+        "at": "03/21/2014 14:03:51",
+        "max_value": "89.1",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "%",
+          "label": "RH",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperature",
+        "current_value": "19.50",
+        "at": "03/21/2014 14:03:51",
+        "max_value": "500.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "°C",
+          "label": "celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "50.838593",
+      "lon": "-0.126299",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/211109309\" >Arduino Duemilanova @ Build Brighton (Brighton's Hackerspace)</a>",
+    "URLMostrar": "https://xively.com/feeds/211109309"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\211109309.json",
+  "DocumentJSON": null
+}

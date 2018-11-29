@@ -1,0 +1,100 @@
+{
+  "Conceptos": [
+    "man"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "3044",
+    "title": "FHEM-Weather: Munich, Germany",
+    "Private": false,
+    "tags": null,
+    "description": "Weather data from southern Munich\r\n\r\nSensor is a ELV KS300 wireless weather station. Data is received using a FHZ1300PC USB transceiver connected to a Buffalo Linkstation V2 running Debian Lenny and the FHEM software package.\r\n",
+    "feed": "https://api.xively.com/v2/feeds/3044.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/21/2014 13:29:09",
+    "created": "10/29/2009 09:35:12",
+    "creator": "https://xively.com/users/stefanw",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "20.8",
+        "at": "03/21/2014 13:29:08",
+        "max_value": "35.8",
+        "min_value": "-16.6",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "19",
+        "at": "03/21/2014 13:29:08",
+        "max_value": "94.0",
+        "min_value": "11.0",
+        "tags": [
+          "Humidity"
+        ],
+        "unit": {
+          "symbol": "rel%",
+          "label": "Humidity",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "0.0",
+        "at": "03/21/2014 13:29:08",
+        "max_value": "36.9",
+        "min_value": "0.0",
+        "tags": [
+          "Wind"
+        ],
+        "unit": {
+          "symbol": "m/s",
+          "label": "Wind",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "869.0",
+        "at": "03/21/2014 13:29:08",
+        "max_value": "1044.2",
+        "min_value": "0.0",
+        "tags": [
+          "Rain"
+        ],
+        "unit": {
+          "symbol": "l/m2",
+          "label": "Rain",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Munich",
+      "domain": 0,
+      "lat": "48.098428079852",
+      "lon": "11.5399081696523",
+      "ele": "700",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/3044\" >FHEM-Weather: Munich, Germany</a>",
+    "URLMostrar": "https://xively.com/feeds/3044"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\3044.json",
+  "DocumentJSON": null
+}

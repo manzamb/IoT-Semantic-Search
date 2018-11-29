@@ -1,0 +1,68 @@
+{
+  "Conceptos": [
+    "process"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "80290",
+    "title": "Arduino Sensor IADT",
+    "Private": false,
+    "tags": [
+      "processing test"
+    ],
+    "description": "this is a test feed for data from processing to Arduino.\r\nThe sensor updates every 5 seconds.",
+    "feed": "https://api.xively.com/v2/feeds/80290.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "12/11/2012 14:45:32",
+    "created": "10/14/2012 11:23:36",
+    "creator": "https://xively.com/users/freshfruit",
+    "version": null,
+    "website": "http://www.iadt.ie",
+    "datastreams": [
+      {
+        "id": "LDR",
+        "current_value": "102.0",
+        "at": "12/11/2012 14:45:31",
+        "max_value": "1000.0",
+        "min_value": "0.0",
+        "tags": [
+          "light"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "TEMP",
+        "current_value": "23.313786",
+        "at": "12/11/2012 14:45:32",
+        "max_value": "50.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "IADT",
+      "domain": 0,
+      "lat": "53.2803250051866",
+      "lon": "-6.15293383598328",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/80290\" >Arduino Sensor IADT</a>",
+    "URLMostrar": "https://xively.com/feeds/80290"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\80290.json",
+  "DocumentJSON": null
+}

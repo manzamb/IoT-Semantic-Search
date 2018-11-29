@@ -1,0 +1,148 @@
+{
+  "Conceptos": [
+    "so2"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "1185818117",
+    "title": "GPRS Logbook",
+    "Private": false,
+    "tags": [
+      "Data logger",
+      "GPRS",
+      "L1V3",
+      "Sciencescope"
+    ],
+    "description": "Air Quality Monitor measuring Carbon Monoxide, Nitric Oxide, Nitrogen Dioxide, Sulphur Dioxide and Volatile Organic Compound levels",
+    "feed": "https://api.xively.com/v2/feeds/1185818117.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "01/14/2014 16:09:33",
+    "created": "10/16/2013 13:37:50",
+    "creator": "https://xively.com/users/iostp",
+    "version": null,
+    "website": "http://sciencescope.co.uk/",
+    "datastreams": [
+      {
+        "id": "9999",
+        "current_value": "16",
+        "at": "01/13/2014 12:44:49",
+        "max_value": "19.0",
+        "min_value": "5.0",
+        "tags": [
+          "lbv 1.0.2",
+          "skv 1.0.0"
+        ],
+        "unit": {
+          "symbol": "g",
+          "label": "Signal Strength",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "032734",
+        "current_value": "-0.00",
+        "at": "01/13/2014 12:44:49",
+        "max_value": "0.0",
+        "min_value": "-0.01",
+        "tags": [
+          "Average",
+          "NO Concentration",
+          "Pollution"
+        ],
+        "unit": {
+          "symbol": "ppm (NO)",
+          "label": "NO Concentration, Pollution",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "132732",
+        "current_value": "-0.1",
+        "at": "01/13/2014 12:44:49",
+        "max_value": "0.3",
+        "min_value": "-0.1",
+        "tags": [
+          "Average",
+          "CO Concentration",
+          "Pollution"
+        ],
+        "unit": {
+          "symbol": "ppm (CO)",
+          "label": "CO Concentration, Pollution",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "232738",
+        "current_value": "0.09",
+        "at": "01/13/2014 12:44:49",
+        "max_value": "0.16",
+        "min_value": "0.0",
+        "tags": [
+          "Average",
+          "NO2 Concentration",
+          "Pollution"
+        ],
+        "unit": {
+          "symbol": "ppm (NO2)",
+          "label": "NO2 Concentration, Pollution",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "332739",
+        "current_value": "-0.00",
+        "at": "01/13/2014 12:44:49",
+        "max_value": "0.02",
+        "min_value": "-0.01",
+        "tags": [
+          "Average",
+          "Pollution",
+          "SO2 Concentration"
+        ],
+        "unit": {
+          "symbol": "ppm (SO2)",
+          "label": "SO2 Concentration, Pollution",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "432735",
+        "current_value": "0.16",
+        "at": "01/13/2014 12:44:49",
+        "max_value": "0.22",
+        "min_value": "0.0",
+        "tags": [
+          "Average",
+          "Pollution",
+          "VOC Concentration"
+        ],
+        "unit": {
+          "symbol": "ppm (VOC)",
+          "label": "VOC Concentration, Pollution",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "North Liverpool Academy S/N1014 Air Quality box",
+      "domain": 0,
+      "lat": "53.4240795",
+      "lon": "-2.96873049999999",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/1185818117\" >GPRS Logbook</a>",
+    "URLMostrar": "https://xively.com/feeds/1185818117"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\1185818117.json",
+  "DocumentJSON": null
+}

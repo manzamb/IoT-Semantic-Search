@@ -1,0 +1,52 @@
+{
+  "Conceptos": [
+    "temperature"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "4103",
+    "title": "Temperature_livingroom",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/4103.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:09:32",
+    "created": "01/04/2010 20:44:21",
+    "creator": "https://xively.com/users/torarne",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "0.0",
+        "at": "03/21/2014 14:09:32",
+        "max_value": "741138.6",
+        "min_value": "0.0",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Godalming, UK",
+      "domain": 0,
+      "lat": "51.1827864314463",
+      "lon": "-0.617294311523438",
+      "ele": "100",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/4103\" >Temperature_livingroom</a>",
+    "URLMostrar": "https://xively.com/feeds/4103"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\4103.json",
+  "DocumentJSON": null
+}

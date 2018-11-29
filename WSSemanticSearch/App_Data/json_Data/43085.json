@@ -1,0 +1,80 @@
+{
+  "Conceptos": [
+    "person"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "43085",
+    "title": "Personal Radiation Monitoring Post  ( Yokohama )",
+    "Private": false,
+    "tags": [
+      "cpm",
+      "Geiger",
+      "Mark2",
+      "nSv/h",
+      "radiation",
+      "uSv/h",
+      "Yokohama",
+      "γ線",
+      "ガイガーカウンター",
+      "モニタリングポスト",
+      "横浜"
+    ],
+    "description": "Monitoring post by Mark2 Geiger Counter\nSBM-20 Geiger Mueller Tube\n\n2012-01-02より試験運用中\nしばらく故障で運用中止していた\n2013-10-17再び試験運用開始",
+    "feed": "https://api.xively.com/v2/feeds/43085.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "10/17/2013 14:11:59",
+    "created": "01/01/2012 06:27:17",
+    "creator": "https://xively.com/users/tthath",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "5",
+        "current_value": "-0.016817",
+        "at": "10/17/2013 14:11:59",
+        "max_value": "73.400214",
+        "min_value": "-12.219304",
+        "tags": [
+          "1時間平均"
+        ],
+        "unit": {
+          "symbol": "uSv/h",
+          "label": "uSv/h",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "0.000000",
+        "at": "10/17/2013 14:11:58",
+        "max_value": "73.050037",
+        "min_value": "0.0",
+        "tags": [
+          "10分間平均"
+        ],
+        "unit": {
+          "symbol": "uSv/h",
+          "label": "uSv/h",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Japan",
+      "domain": 0,
+      "lat": "35.502002524872",
+      "lon": "139.573391675949",
+      "ele": "35m",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/43085\" >Personal Radiation Monitoring Post  ( Yokohama )</a>",
+    "URLMostrar": "https://xively.com/feeds/43085"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\43085.json",
+  "DocumentJSON": null
+}

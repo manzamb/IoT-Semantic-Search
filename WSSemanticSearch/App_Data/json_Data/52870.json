@@ -1,0 +1,76 @@
+{
+  "Conceptos": [
+    "lead"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "52870",
+    "title": "Flow Box",
+    "Private": false,
+    "tags": [
+      "Arduino",
+      "CASE",
+      "RPI",
+      "SG2012",
+      "troy"
+    ],
+    "description": "Smart Geometries 2012 Troy RPI\r\nForm Follows Flow Cluster\r\nLead by CASE and ADAMUS LAB\r\n\r\nThis feed will store accumulated accelerometer data over specified intervals",
+    "feed": "https://api.xively.com/v2/feeds/52870.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/21/2012 17:57:44",
+    "created": "03/21/2012 16:56:27",
+    "creator": "https://xively.com/users/winten",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "284.0",
+        "at": "03/21/2012 17:57:44",
+        "max_value": "999.0",
+        "min_value": "10.0",
+        "tags": [
+          "my tag 0",
+          "tag2",
+          "tag3"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2012",
+        "current_value": "4444",
+        "at": "03/21/2012 17:17:21",
+        "max_value": "4444.0",
+        "min_value": "2.0",
+        "tags": [
+          "data test 1"
+        ],
+        "unit": {
+          "symbol": "x",
+          "label": "m/s^2",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Troy, Newyork",
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/52870\" >Flow Box</a>",
+    "URLMostrar": "https://xively.com/feeds/52870"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\52870.json",
+  "DocumentJSON": null
+}

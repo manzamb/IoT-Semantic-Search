@@ -1,0 +1,55 @@
+{
+  "Conceptos": [
+    "description"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "52126",
+    "title": "Test feed",
+    "Private": false,
+    "tags": [
+      "metatag",
+      "test"
+    ],
+    "description": "description of test feed",
+    "feed": "https://api.xively.com/v2/feeds/52126.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/16/2012 11:08:52",
+    "created": "03/16/2012 11:00:07",
+    "creator": "https://xively.com/users/rupertb",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Test_ID",
+        "current_value": "24",
+        "at": "03/16/2012 11:03:22",
+        "max_value": "30.0",
+        "min_value": "24.0",
+        "tags": [
+          "Test_Tag"
+        ],
+        "unit": {
+          "symbol": "c",
+          "label": "celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "london",
+      "domain": 0,
+      "lat": "51.5318143179016",
+      "lon": "-0.098876953125",
+      "ele": "3",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/52126\" >Test feed</a>",
+    "URLMostrar": "https://xively.com/feeds/52126"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\52126.json",
+  "DocumentJSON": null
+}

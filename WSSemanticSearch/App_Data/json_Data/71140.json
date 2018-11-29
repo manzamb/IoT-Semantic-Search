@@ -1,0 +1,59 @@
+{
+  "Conceptos": [
+    "moisture"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "71140",
+    "title": "Project Flower @ ПАКПАК",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "flower",
+      "moisture sensor",
+      "monitoring",
+      "plant",
+      "контроль влажности"
+    ],
+    "description": "Контролируем влажность почвы в цветочном горшке с помощью Arduino.\r\n\r\n100% - очень влажная почтва\r\n0% - сухая почва\r\n\r\nПодробнее на сайте.",
+    "feed": "https://api.xively.com/v2/feeds/71140.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "07/10/2013 12:39:12",
+    "created": "08/15/2012 12:13:28",
+    "creator": "https://xively.com/users/mr_kubikus",
+    "version": null,
+    "website": "http://pacpac.ru/forum/viewtopic.php?f=23&t=145",
+    "datastreams": [
+      {
+        "id": "M01",
+        "current_value": "16.00",
+        "at": "07/10/2013 12:39:10",
+        "max_value": "200.0",
+        "min_value": "-200.0",
+        "tags": [
+          "Влажность почвы"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "PACPAC.RU",
+      "domain": 0,
+      "lat": "55.7768686898257",
+      "lon": "37.6963877677917",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/71140\" >Project Flower @ ПАКПАК</a>",
+    "URLMostrar": "https://xively.com/feeds/71140"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\71140.json",
+  "DocumentJSON": null
+}

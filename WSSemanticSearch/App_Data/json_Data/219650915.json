@@ -1,0 +1,90 @@
+{
+  "Conceptos": [
+    "right"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "219650915",
+    "title": "RPi-HOME",
+    "Private": false,
+    "tags": [
+      "brightness",
+      "Home",
+      "humidity",
+      "monitor",
+      "temperature"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/219650915.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:00:03",
+    "created": "12/16/2013 08:20:24",
+    "creator": "https://xively.com/users/jaeyeolhwang",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "21.71",
+        "at": "03/21/2014 14:00:02",
+        "max_value": "31.22",
+        "min_value": "-40.0",
+        "tags": [
+          "Livingroom (temperature)"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "41.2",
+        "at": "03/21/2014 14:00:02",
+        "max_value": "68.8",
+        "min_value": "0.0",
+        "tags": [
+          "Livingroom (humidity)"
+        ],
+        "unit": {
+          "symbol": "%RH",
+          "label": "Relative Humidity",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "0.28",
+        "at": "03/21/2014 14:00:02",
+        "max_value": "2.44",
+        "min_value": "0.0",
+        "tags": [
+          "Livingroom (brightness from LDR)"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "milli Volts",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/219650915\" >RPi-HOME</a>",
+    "URLMostrar": "https://xively.com/feeds/219650915"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\219650915.json",
+  "DocumentJSON": null
+}

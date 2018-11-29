@@ -1,0 +1,104 @@
+{
+  "Conceptos": [
+    "longitud"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "49443",
+    "title": "Temperature",
+    "Private": false,
+    "tags": null,
+    "description": "This feed was created using Data Logger for iPhone.",
+    "feed": "https://api.xively.com/v2/feeds/49443.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "08/25/2013 04:59:24",
+    "created": "02/23/2012 14:42:40",
+    "creator": "https://xively.com/users/eternity",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "29.119995",
+        "at": "08/25/2013 04:59:24",
+        "max_value": "100.0",
+        "min_value": "-42.150002",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": null,
+        "at": "02/23/2012 14:55:20",
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "lat",
+          "latitude"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": null,
+        "at": "02/23/2012 14:55:20",
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "lon",
+          "longitude"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": null,
+        "at": "02/23/2012 14:55:20",
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "alt",
+          "altitude",
+          "elevation"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 1,
+      "disposition": 1
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/49443\" >Temperature</a>",
+    "URLMostrar": "https://xively.com/feeds/49443"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\49443.json",
+  "DocumentJSON": null
+}

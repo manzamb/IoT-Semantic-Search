@@ -1,0 +1,103 @@
+{
+  "Conceptos": [
+    "co2"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "50573",
+    "title": "Smart Building CSI Piemonte",
+    "Private": false,
+    "tags": [
+      "csi piemonte",
+      "smart building"
+    ],
+    "description": "quarto sensore di test",
+    "feed": "https://api.xively.com/v2/feeds/50573.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "06/13/2013 00:23:04",
+    "created": "03/05/2012 17:27:52",
+    "creator": "https://xively.com/users/sala_ambiente",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "rs485_4_C",
+        "current_value": "87",
+        "at": "06/13/2013 00:23:04",
+        "max_value": "923.0",
+        "min_value": "0.0",
+        "tags": [
+          "Anidride carbonica"
+        ],
+        "unit": {
+          "symbol": "ppm",
+          "label": "CO2",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "rs485_4_L",
+        "current_value": "0",
+        "at": "06/13/2013 00:23:04",
+        "max_value": "13071.0",
+        "min_value": "0.0",
+        "tags": [
+          "Luminosità ambientale"
+        ],
+        "unit": {
+          "symbol": "Lm",
+          "label": "Lumen",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "rs485_4_T",
+        "current_value": "24.0",
+        "at": "06/13/2013 00:23:04",
+        "max_value": "6240.0",
+        "min_value": "10.0",
+        "tags": [
+          "Temperatura"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "rs485_4_U",
+        "current_value": "27.0",
+        "at": "06/13/2013 00:23:04",
+        "max_value": "134.0",
+        "min_value": "9.0",
+        "tags": [
+          "Umidità relativa"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "Relative Umidity",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Turin",
+      "domain": 0,
+      "lat": "45.0359430227481",
+      "lon": "7.61713027954102",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/50573\" >Smart Building CSI Piemonte</a>",
+    "URLMostrar": "https://xively.com/feeds/50573"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\50573.json",
+  "DocumentJSON": null
+}

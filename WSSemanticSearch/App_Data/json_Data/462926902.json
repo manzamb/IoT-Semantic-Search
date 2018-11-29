@@ -1,0 +1,117 @@
+{
+  "Conceptos": [
+    "humidity"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "462926902",
+    "title": "Wine Cellar Monitor",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/462926902.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:06:44",
+    "created": "12/16/2013 08:44:24",
+    "creator": "https://xively.com/users/shaunh",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Ambient_Temperature",
+        "current_value": "23.59",
+        "at": "03/21/2014 14:06:43",
+        "max_value": "29.39",
+        "min_value": "20.83",
+        "tags": [
+          "Cellar",
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Door_Open_Time",
+        "current_value": "0",
+        "at": "03/21/2014 14:06:44",
+        "max_value": "4572.0",
+        "min_value": "0.0",
+        "tags": [
+          "Cellar",
+          "Time"
+        ],
+        "unit": {
+          "symbol": "M",
+          "label": "Minutes",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Door_State",
+        "current_value": "0",
+        "at": "03/21/2014 14:06:44",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Humidity",
+        "current_value": "64.32",
+        "at": "03/21/2014 14:06:43",
+        "max_value": "88.64",
+        "min_value": "52.5",
+        "tags": [
+          "Cellar",
+          "Humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "Percentage",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Light_Level",
+        "current_value": "93.33",
+        "at": "03/21/2014 14:06:44",
+        "max_value": "98.09",
+        "min_value": "0.0",
+        "tags": [
+          "Cellar"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "Percentage",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "-29.7972222",
+      "lon": "30.7944444",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/462926902\" >Wine Cellar Monitor</a>",
+    "URLMostrar": "https://xively.com/feeds/462926902"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\462926902.json",
+  "DocumentJSON": null
+}

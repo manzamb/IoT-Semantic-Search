@@ -1,0 +1,97 @@
+{
+  "Conceptos": [
+    "wind"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "39407",
+    "title": "GFT Feedlot.",
+    "Private": false,
+    "tags": [
+      "gsiot",
+      "netduino",
+      "pressure",
+      "temperature"
+    ],
+    "description": "Test feed from NetduinoPlus. \r\nInterval is set to 15 seconds.\r\nData is read from BMP035 on break-out board from Sparkfun.\r\nEnvironment: just outside my window.",
+    "feed": "https://api.xively.com/v2/feeds/39407.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/11/2014 03:40:50",
+    "created": "11/13/2011 03:28:44",
+    "creator": "https://xively.com/users/vtschu",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "inches",
+        "current_value": "28.84",
+        "at": "03/11/2014 03:40:50",
+        "max_value": "37.99",
+        "min_value": "-7.54",
+        "tags": null,
+        "unit": {
+          "symbol": "In",
+          "label": "Inches ",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "pascal",
+        "current_value": "97674",
+        "at": "03/11/2014 03:40:50",
+        "max_value": "128665.0",
+        "min_value": "-25541.0",
+        "tags": null,
+        "unit": {
+          "symbol": "Pa",
+          "label": "Pascals",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "tempC",
+        "current_value": "1.10",
+        "at": "03/11/2014 03:40:50",
+        "max_value": "101.9",
+        "min_value": "-88.7",
+        "tags": null,
+        "unit": {
+          "symbol": "C",
+          "label": "Deg. Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "tempF",
+        "current_value": "33.98",
+        "at": "03/11/2014 03:40:50",
+        "max_value": "215.42",
+        "min_value": "-127.66",
+        "tags": null,
+        "unit": {
+          "symbol": "F",
+          "label": "Deg. Fahren",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Essex, VT, USA",
+      "domain": 0,
+      "lat": "44.5063000997406",
+      "lon": "-73.0728149414062",
+      "ele": "533 feet",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/39407\" >GFT Feedlot.</a>",
+    "URLMostrar": "https://xively.com/feeds/39407"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\39407.json",
+  "DocumentJSON": null
+}

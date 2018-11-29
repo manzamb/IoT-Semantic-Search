@@ -1,0 +1,110 @@
+{
+  "Conceptos": [
+    "parameter"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "127103",
+    "title": "Vaga 1 - Kosnica",
+    "Private": false,
+    "tags": [
+      "beehive weight",
+      "bezicno mjerenje tezine kosnice",
+      "digital SMS scale",
+      "pcela",
+      "pcelarska vaga",
+      "pcelarstvo",
+      "sms",
+      "vaga",
+      "wireless scale"
+    ],
+    "description": "Bezicno mjerenje parametara kosnice pcelarskom vagom. Graficki prikaz podataka iz SMS poruke. (Wireless system for beehive parameters measurement with SMS notification)",
+    "feed": "https://api.xively.com/v2/feeds/127103.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "05/02/2013 19:05:26",
+    "created": "04/23/2013 06:20:29",
+    "creator": "https://xively.com/users/domis_technologies",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Napon",
+        "current_value": "12.3",
+        "at": "05/02/2013 19:05:43",
+        "max_value": "12.3",
+        "min_value": "12.3",
+        "tags": [
+          "Vaga1"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "V",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Prosjecna_tezina",
+        "current_value": "34.2",
+        "at": "05/02/2013 19:06:23",
+        "max_value": "34.2",
+        "min_value": "34.2",
+        "tags": [
+          "Vaga1"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "kg",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperatura",
+        "current_value": "22.6",
+        "at": "05/02/2013 19:05:52",
+        "max_value": "22.6",
+        "min_value": "22.6",
+        "tags": [
+          "Vaga1"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Tezina",
+        "current_value": "34.6",
+        "at": "05/02/2013 19:06:00",
+        "max_value": "34.6",
+        "min_value": "34.6",
+        "tags": [
+          "Vaga1"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "kg",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Ivanic Grad",
+      "domain": 0,
+      "lat": "45.7048606153097",
+      "lon": "16.3941335678101",
+      "ele": "100",
+      "exposure": 1,
+      "disposition": 1
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/127103\" >Vaga 1 - Kosnica</a>",
+    "URLMostrar": "https://xively.com/feeds/127103"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\127103.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,173 @@
+{
+  "Conceptos": [
+    "moisture"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "96395",
+    "title": "Joe's Weather Station",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "ethernet shield",
+      "humidity",
+      "temperature",
+      "weather station"
+    ],
+    "description": "Wireless plant monitoring and weather station in West Michigan, USA.\r\n\r\nBase station is an Arduino Mega with Ethernet shield. Remote station is an Arduino, and the wireless link is a cheap 433MHz RF transmitter/receiver pair. \r\n\r\nSensors are DS18B20 (digital one-wire) for soil and air temperature, BH1750 (I2C) for light intensity, BMP085 (I2C) for barometric pressure, HIH-4030 (analog) for humidity, and resistive gypsum sensors for soil moisture.\r\n\r\nSoil sensors are currently monitoring a potted plant (because it's winter).",
+    "feed": "https://api.xively.com/v2/feeds/96395.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "11/12/2013 18:42:20",
+    "created": "01/07/2013 00:54:12",
+    "creator": "https://xively.com/users/joedg",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Air_Temperature",
+        "current_value": "71.80",
+        "at": "11/10/2013 05:12:58",
+        "max_value": "383.67",
+        "min_value": "-18.42",
+        "tags": [
+          "Air Temperature",
+          "Digital",
+          "DS18B20",
+          "One Wire",
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "Degrees Farenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Barometric_Pressure",
+        "current_value": "99148.47",
+        "at": "11/10/2013 10:34:10",
+        "max_value": "101870.77",
+        "min_value": "97580.55",
+        "tags": [
+          "Barometric Pressure",
+          "BMP085",
+          "Digital I2C",
+          "Pa",
+          "Pressure"
+        ],
+        "unit": {
+          "symbol": "Pa",
+          "label": "Pascals",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "CPU_Temp",
+        "current_value": null,
+        "at": null,
+        "max_value": null,
+        "min_value": null,
+        "tags": null,
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Light_Level",
+        "current_value": "1.15",
+        "at": "11/10/2013 13:11:35",
+        "max_value": "62306.42",
+        "min_value": "0.0",
+        "tags": [
+          "BH1750",
+          "Digital I2C",
+          "Light Intensity",
+          "Lux"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Lux",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Relative_Humidity",
+        "current_value": "79.09",
+        "at": "11/10/2013 13:27:00",
+        "max_value": "100.0",
+        "min_value": "0.52",
+        "tags": [
+          "Analog",
+          "HIH-4030",
+          "Humidity"
+        ],
+        "unit": {
+          "symbol": "% RH",
+          "label": "% Relative Humidity",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Remote_Station_Battery_V",
+        "current_value": "3.11",
+        "at": "03/26/2013 07:00:25",
+        "max_value": "3.11",
+        "min_value": "3.11",
+        "tags": [
+          "Battery voltage"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": "Volts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "zzzz_Error_Code",
+        "current_value": "2.00",
+        "at": "11/12/2013 18:42:20",
+        "max_value": "13.0",
+        "min_value": "1.0",
+        "tags": [
+          "10=INVALID_PACKET_SIZE",
+          "11=INVALID_CHECKSUM",
+          "2=RF_MESSAGE_NOT_RECEIVED",
+          "3=INVALID_DATA_PACKET",
+          "5=OUT_OF_RANGE_TEMPERATURE",
+          "6=OUT_OF_RANGE_HUMIDITY",
+          "7=OUT_OF_RANGE_LIGHT_LEVEL_1",
+          "8=OUT_OF_RANGE_LIGHT_LEVEL_2",
+          "9=COSM_PUT_ERROR"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "42.7716143992586",
+      "lon": "-85.880126953125",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/96395\" >Joe's Weather Station</a>",
+    "URLMostrar": "https://xively.com/feeds/96395"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\96395.json",
+  "DocumentJSON": null
+}

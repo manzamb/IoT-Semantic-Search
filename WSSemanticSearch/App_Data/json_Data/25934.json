@@ -1,0 +1,63 @@
+{
+  "Conceptos": [
+    "physical body"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "25934",
+    "title": "When My Head is On My Pillow...",
+    "Private": false,
+    "tags": [
+      "body",
+      "force",
+      "lilypad",
+      "pillow",
+      "pressure",
+      "rest",
+      "sleep",
+      "wearable",
+      "xbee"
+    ],
+    "description": "A pressure sensor on my pillow to broadcast when I am resting.  The pressure sensor is connected to a Lilypad Arduino and Lilypad Xbee, which wirelessly transmits the sensor data to my computer.\r\n\r\n",
+    "feed": "https://api.xively.com/v2/feeds/25934.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "06/04/2011 04:42:08",
+    "created": "05/30/2011 05:18:59",
+    "creator": "https://xively.com/users/luxxnatura",
+    "version": null,
+    "website": "http://luxxnatura.wordpress.com/",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "0.0",
+        "at": "06/04/2011 04:42:08",
+        "max_value": "292.0",
+        "min_value": "0.0",
+        "tags": [
+          "analogRead0",
+          "When my head is on my pillow"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Toronto, Canada",
+      "domain": 0,
+      "lat": "43.6440258476995",
+      "lon": "-79.38720703125",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/25934\" >When My Head is On My Pillow...</a>",
+    "URLMostrar": "https://xively.com/feeds/25934"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\25934.json",
+  "DocumentJSON": null
+}

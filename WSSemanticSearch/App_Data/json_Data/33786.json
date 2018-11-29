@@ -1,0 +1,114 @@
+{
+  "Conceptos": [
+    "event"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "33786",
+    "title": " S e n s o r s ",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/33786.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "07/31/2013 19:50:25",
+    "created": "08/03/2011 20:46:28",
+    "creator": "https://xively.com/users/milfab2011",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "80.0",
+        "at": "07/31/2013 19:50:25",
+        "max_value": "185.0",
+        "min_value": "-99.0",
+        "tags": [
+          "NOAA_KMLT"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "°",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "62.1",
+        "at": "07/31/2013 19:50:25",
+        "max_value": "134.1",
+        "min_value": "0.0",
+        "tags": [
+          "BoilerEVENT"
+        ],
+        "unit": {
+          "symbol": "ON_OFF",
+          "label": "B",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "161",
+        "at": "07/31/2013 19:50:25",
+        "max_value": "1023.0",
+        "min_value": "0.0",
+        "tags": [
+          "Temp"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "°",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "32.0",
+        "at": "07/31/2013 19:50:25",
+        "max_value": "625.0",
+        "min_value": "-196.6",
+        "tags": [
+          "Temp"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "°",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "32.0",
+        "at": "07/31/2013 19:50:25",
+        "max_value": "615.0",
+        "min_value": "-196.6",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Shop",
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/33786\" > S e n s o r s </a>",
+    "URLMostrar": "https://xively.com/feeds/33786"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\33786.json",
+  "DocumentJSON": null
+}

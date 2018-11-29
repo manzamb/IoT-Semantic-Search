@@ -1,0 +1,92 @@
+{
+  "Conceptos": [
+    "physical"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "1427715312",
+    "title": "PowerMeter",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/1427715312.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:15:50",
+    "created": "12/01/2013 19:09:26",
+    "creator": "https://xively.com/users/aconrad",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Power_Sensor0",
+        "current_value": "00672",
+        "at": "03/21/2014 14:15:47",
+        "max_value": "9903.0",
+        "min_value": "104.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Power_Sensor1",
+        "current_value": "00000",
+        "at": "03/21/2014 14:15:49",
+        "max_value": "1287.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Power_Sensor2",
+        "current_value": "00036",
+        "at": "03/21/2014 14:15:48",
+        "max_value": "155.0",
+        "min_value": "19.0",
+        "tags": null,
+        "unit": {
+          "symbol": "W",
+          "label": "Watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Power_Sensor3",
+        "current_value": "00112",
+        "at": "03/21/2014 14:15:50",
+        "max_value": "173.0",
+        "min_value": "100.0",
+        "tags": null,
+        "unit": {
+          "symbol": "W",
+          "label": "Watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Aigrefeuille, France",
+      "domain": 0,
+      "lat": "43.568125",
+      "lon": "1.58883500000002",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/1427715312\" >PowerMeter</a>",
+    "URLMostrar": "https://xively.com/feeds/1427715312"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\1427715312.json",
+  "DocumentJSON": null
+}

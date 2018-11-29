@@ -1,0 +1,100 @@
+{
+  "Conceptos": [
+    "process"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "5166",
+    "title": "Basement Monitor",
+    "Private": false,
+    "tags": null,
+    "description": "This system alerts me to problems in my basement.  Specifically it monitors the sump pump level, availability of sump pump AC power, basement temperature, and basement humidity.  Pachube triggers are used to trigger a php file that sends text messages to all of my family's cell phones and email accounts.  The hardware is based an Arduino microprocessor module.\r\n350mm level is top of drain tiles in sump crock.  Approximately 450mm is basement floor.\r\n",
+    "feed": "https://api.xively.com/v2/feeds/5166.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "01/10/2014 15:34:10",
+    "created": "01/25/2010 01:41:40",
+    "creator": "https://xively.com/users/mschreuder",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "4",
+        "at": "01/10/2014 15:34:10",
+        "max_value": "432.0",
+        "min_value": "-26.0",
+        "tags": [
+          "Sump Level"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "mm",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "68",
+        "at": "01/10/2014 15:34:10",
+        "max_value": "80.0",
+        "min_value": "0.0",
+        "tags": [
+          "Basement Temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "deg F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "36",
+        "at": "01/10/2014 15:34:10",
+        "max_value": "68.0",
+        "min_value": "0.0",
+        "tags": [
+          "Basement Humidity"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "1",
+        "at": "01/10/2014 15:34:10",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "Sump Pump AC Power"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "On/Off",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Genoa, Ohio",
+      "domain": 0,
+      "lat": "41.5175430209589",
+      "lon": "-83.372368812561",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/5166\" >Basement Monitor</a>",
+    "URLMostrar": "https://xively.com/feeds/5166"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\5166.json",
+  "DocumentJSON": null
+}

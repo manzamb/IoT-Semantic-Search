@@ -1,0 +1,126 @@
+{
+  "Conceptos": [
+    "wind"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "42753",
+    "title": "A WebControl weather station in Crailsheim, Germany",
+    "Private": false,
+    "tags": [
+      "Baden-Württemberg",
+      "Crailsheim",
+      "Deutschland",
+      "Germany",
+      "weather",
+      "weather station",
+      "WebControl",
+      "Wetter",
+      "Wetterstation"
+    ],
+    "description": "Eine Wetterstation im baden-württembergischen Crailsheim.",
+    "feed": "https://api.xively.com/v2/feeds/42753.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:00:10",
+    "created": "12/27/2011 09:31:00",
+    "creator": "https://xively.com/users/thumschi",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "19.3",
+        "at": "03/21/2014 14:00:10",
+        "max_value": "80.0",
+        "min_value": "-30.0",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "40",
+        "at": "03/21/2014 14:00:10",
+        "max_value": "100.0",
+        "min_value": "0.0",
+        "tags": [
+          "Humidity"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "% rel F.",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "1012",
+        "at": "03/21/2014 14:00:10",
+        "max_value": "1200.0",
+        "min_value": "48.0",
+        "tags": [
+          "Airpressure"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "hPa NN",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "20",
+        "at": "03/21/2014 14:00:10",
+        "max_value": "300.0",
+        "min_value": "0.0",
+        "tags": [
+          "Windspeed"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "km/h",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "0.0",
+        "at": "03/21/2014 14:00:10",
+        "max_value": "1498.3",
+        "min_value": "0.0",
+        "tags": [
+          "Rainfall"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "mm",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Crailsheim",
+      "domain": 0,
+      "lat": "49.129435",
+      "lon": "10.076613",
+      "ele": "406",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/42753\" >A WebControl weather station in Crailsheim, Germany</a>",
+    "URLMostrar": "https://xively.com/feeds/42753"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\42753.json",
+  "DocumentJSON": null
+}

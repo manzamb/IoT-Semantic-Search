@@ -1,0 +1,66 @@
+{
+  "Conceptos": [
+    "condition"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "54858",
+    "title": "Office ",
+    "Private": false,
+    "tags": [
+      "temperature"
+    ],
+    "description": "Ambient conditions in my office",
+    "feed": "https://api.xively.com/v2/feeds/54858.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "06/03/2013 19:14:56",
+    "created": "04/05/2012 19:30:09",
+    "creator": "https://xively.com/users/tigoe",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Humidity",
+        "current_value": "22.68",
+        "at": "06/03/2013 19:14:56",
+        "max_value": "56.05",
+        "min_value": "15.53",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperature",
+        "current_value": "85.74",
+        "at": "06/03/2013 19:14:56",
+        "max_value": "89.16",
+        "min_value": "25.2",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "ITP",
+      "domain": 0,
+      "lat": "40.7296755353607",
+      "lon": "-73.9935716986656",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/54858\" >Office </a>",
+    "URLMostrar": "https://xively.com/feeds/54858"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\54858.json",
+  "DocumentJSON": null
+}

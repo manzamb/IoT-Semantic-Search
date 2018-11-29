@@ -1,0 +1,116 @@
+{
+  "Conceptos": [
+    "plan"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "1085097946",
+    "title": "AirPi GER Cuxhaven",
+    "Private": false,
+    "tags": [
+      "AirPi Projekt",
+      "Beleuchtungsstärke",
+      "Cuxhaven",
+      "Luftdruck",
+      "Luftfeuchtigkeit",
+      "Temperatur",
+      "Wetterdaten"
+    ],
+    "description": "AirPi Projekt Cuxhaven\nAirPi sammelt und veröffentlicht Wetterdaten.",
+    "feed": "https://api.xively.com/v2/feeds/1085097946.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "01/31/2014 11:31:06",
+    "created": "07/23/2013 14:53:19",
+    "creator": "https://xively.com/users/planit4u",
+    "version": null,
+    "website": "http://www.planit4u.de",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "1.8",
+        "at": "01/31/2014 11:31:05",
+        "max_value": "44.2",
+        "min_value": "-96.1",
+        "tags": [
+          "Temperatur",
+          "temperature",
+          "Température"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "28.6",
+        "at": "01/31/2014 11:31:05",
+        "max_value": "137.4",
+        "min_value": "0.2",
+        "tags": [
+          "humidity",
+          "Humidité",
+          "Luftfeuchtigkeit"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "26.58",
+        "at": "01/31/2014 11:31:05",
+        "max_value": "5723.2",
+        "min_value": "0.0",
+        "tags": [
+          "Beleuchtungsstärke",
+          "intensité lumineuse",
+          "lightlevel"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Lux",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "100681.4",
+        "at": "01/31/2014 11:31:05",
+        "max_value": "103304.9",
+        "min_value": "-23990.7",
+        "tags": [
+          "airpressure",
+          "Luftdruck",
+          "pression"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Pa",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Cuxhaven",
+      "domain": 0,
+      "lat": "53.8684209533865",
+      "lon": "8.69803905487061",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/1085097946\" >AirPi GER Cuxhaven</a>",
+    "URLMostrar": "https://xively.com/feeds/1085097946"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\1085097946.json",
+  "DocumentJSON": null
+}

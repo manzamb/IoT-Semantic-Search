@@ -1,0 +1,174 @@
+{
+  "Conceptos": [
+    "project"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "52008",
+    "title": "arduino (nanodeRF) sensor station",
+    "Private": true,
+    "tags": [
+      "arduino",
+      "bmp085",
+      "dht22",
+      "ds18b20",
+      "IoT",
+      "nanodeRF",
+      "rfm12b",
+      "sensor",
+      "weather"
+    ],
+    "description": "A weather station project with wireless connectivity to remote sensors.\r\nUsing a nanodeRF (arduino clone with ethernet) as central collector for remote sensors.\r\nWireless comms are made using the rfm12b radio transceiver. Remote sensors are simple atmega328 based, with temperature (DS18B20) and humidity (DHT22) sensors powered with two AA batteries. This was the cheapest approach I could find when considering remote data aquisition.\r\nIt seems to work great!",
+    "feed": "https://api.xively.com/v2/feeds/52008.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:14:49",
+    "created": "03/15/2012 11:57:10",
+    "creator": "https://xively.com/users/saturno",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "11_bat",
+        "current_value": "2.92",
+        "at": "03/21/2014 14:14:27",
+        "max_value": "3.24",
+        "min_value": "2.84",
+        "tags": [
+          "11_bat"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": "Volts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "12_bat",
+        "current_value": "2.87",
+        "at": "03/21/2014 14:14:49",
+        "max_value": "5.96",
+        "min_value": "2.81",
+        "tags": [
+          "12_bat"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": "Volts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "12_dew",
+        "current_value": "14.49",
+        "at": "03/21/2014 14:14:49",
+        "max_value": "23.09",
+        "min_value": "-3.8",
+        "tags": [
+          "12_dew"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "Centigrades",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "12_hum",
+        "current_value": "99.90",
+        "at": "03/21/2014 14:14:49",
+        "max_value": "99.9",
+        "min_value": "19.79",
+        "tags": [
+          "12_hum"
+        ],
+        "unit": {
+          "symbol": "R/H",
+          "label": "Relative Hummidity",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "11_temp",
+        "current_value": "14.37",
+        "at": "03/21/2014 14:14:27",
+        "max_value": "38.75",
+        "min_value": "4.31",
+        "tags": [
+          "11_temp"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "Centigrades",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "12_temp",
+        "current_value": "14.50",
+        "at": "03/21/2014 14:14:49",
+        "max_value": "38.4",
+        "min_value": "4.6",
+        "tags": [
+          "12_temp"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "Centigrades",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "20_temp",
+        "current_value": "20.62",
+        "at": "03/21/2014 14:14:27",
+        "max_value": "31.18",
+        "min_value": "17.81",
+        "tags": [
+          "20_temp"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "Centigrades",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "30_Press",
+        "current_value": "1004.97",
+        "at": "03/21/2014 14:14:49",
+        "max_value": "1020.41",
+        "min_value": "973.23",
+        "tags": [
+          "30_press"
+        ],
+        "unit": {
+          "symbol": "hPa",
+          "label": "Hecto Pascal",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Braga, Portugal",
+      "domain": 0,
+      "lat": "41.559262278684",
+      "lon": "-8.43535423278809",
+      "ele": "112 m",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/52008\" >arduino (nanodeRF) sensor station</a>",
+    "URLMostrar": "https://xively.com/feeds/52008"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\52008.json",
+  "DocumentJSON": null
+}

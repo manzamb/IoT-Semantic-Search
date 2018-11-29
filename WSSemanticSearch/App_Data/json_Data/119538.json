@@ -1,0 +1,223 @@
+{
+  "Conceptos": [
+    "co2"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "119538",
+    "title": "GardenMonitor",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "CO2",
+      "color sensor",
+      "Garden",
+      "humidity",
+      "Hydroponics",
+      "light",
+      "lux",
+      "raspberry pi",
+      "soil measurement",
+      "temperature",
+      "vegetable"
+    ],
+    "description": "The data displayed is real-time data from my mini vegetable garden. I used an Arduino, various sensors and a Raspberry Pi. By using this, I hope to improve the garden quality and also hope to help others in the future to find an ideal point to grow various vegetables. ",
+    "feed": "https://api.xively.com/v2/feeds/119538.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "10/05/2013 20:00:02",
+    "created": "03/17/2013 21:09:55",
+    "creator": "https://xively.com/users/willyp",
+    "version": null,
+    "website": "http://eeoblog.blogspot.nl/",
+    "datastreams": [
+      {
+        "id": "Barometer",
+        "current_value": "1020.7",
+        "at": "10/05/2013 20:00:01",
+        "max_value": "1604.2",
+        "min_value": "991.9",
+        "tags": [
+          "Barometer"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "hPa",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "BatteryVoltage",
+        "current_value": "5.17",
+        "at": "10/05/2013 20:00:01",
+        "max_value": "5.23",
+        "min_value": "1.61",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "CalibratedLuxSensor",
+        "current_value": "2",
+        "at": "10/05/2013 20:00:01",
+        "max_value": "49685.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Humidity",
+        "current_value": "53.9",
+        "at": "10/05/2013 20:00:01",
+        "max_value": "99.9",
+        "min_value": "21.3",
+        "tags": [
+          "Humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "LDRtoADC_10bit",
+        "current_value": "0",
+        "at": "10/05/2013 20:00:01",
+        "max_value": "1017.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "SoilMoistureRaw1",
+        "current_value": "0",
+        "at": "10/05/2013 20:00:01",
+        "max_value": "15169.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "SoilTemperature",
+        "current_value": "25.08",
+        "at": "10/05/2013 20:00:01",
+        "max_value": "2165.0",
+        "min_value": "10.12",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "solarCurrent",
+        "current_value": "0.14",
+        "at": "10/05/2013 20:00:01",
+        "max_value": "3.69",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "solarPower",
+        "current_value": "0.00",
+        "at": "10/05/2013 20:00:01",
+        "max_value": "269.69",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "solarPowerSum",
+        "current_value": "0.00",
+        "at": "10/05/2013 20:00:01",
+        "max_value": "1048.23",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "solarVoltage",
+        "current_value": "0.00",
+        "at": "10/05/2013 20:00:01",
+        "max_value": "86.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperature",
+        "current_value": "24.6",
+        "at": "10/05/2013 20:00:01",
+        "max_value": "39.3",
+        "min_value": "15.3",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Netherlands / Nederland / Holland",
+      "domain": 0,
+      "lat": "52.3420516363878",
+      "lon": "4.888916015625",
+      "ele": "-20",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/119538\" >GardenMonitor</a>",
+    "URLMostrar": "https://xively.com/feeds/119538"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\119538.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,454 @@
+{
+  "Conceptos": [
+    "wind"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "51765",
+    "title": "Home conditions",
+    "Private": false,
+    "tags": [
+      "power temperature"
+    ],
+    "description": "Power and temperature readings at 77",
+    "feed": "https://api.xively.com/v2/feeds/51765.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:07:29",
+    "created": "03/13/2012 01:04:48",
+    "creator": "https://xively.com/users/roxymoron",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "0.33",
+        "at": "03/21/2014 14:06:41",
+        "max_value": "11.48",
+        "min_value": "-4.96",
+        "tags": [
+          "kW"
+        ],
+        "unit": {
+          "symbol": "kW",
+          "label": "kW",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "0.47",
+        "at": "03/21/2014 14:06:41",
+        "max_value": "11.54",
+        "min_value": "0.14",
+        "tags": [
+          "kVA"
+        ],
+        "unit": {
+          "symbol": "kVA",
+          "label": "kVA",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "241.9",
+        "at": "03/21/2014 14:06:41",
+        "max_value": "252.4",
+        "min_value": "225.8",
+        "tags": [
+          "Voltage"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": "Volts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "1.9",
+        "at": "03/21/2014 14:06:41",
+        "max_value": "50.9",
+        "min_value": "0.6",
+        "tags": [
+          "Current"
+        ],
+        "unit": {
+          "symbol": "A",
+          "label": "Amps",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "71.4",
+        "at": "03/21/2014 14:06:41",
+        "max_value": "99.7",
+        "min_value": "-99.6",
+        "tags": [
+          "PowerFactor"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "PF",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "33.7",
+        "at": "03/21/2014 14:06:41",
+        "max_value": "88.2",
+        "min_value": "7.0",
+        "tags": [
+          "T-HWPanel-In"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "22.4",
+        "at": "03/21/2014 14:06:41",
+        "max_value": "100.2",
+        "min_value": "2.7",
+        "tags": [
+          "T-HWPanel-Out"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "7",
+        "current_value": "51.1",
+        "at": "03/21/2014 14:06:41",
+        "max_value": "76.8",
+        "min_value": "19.6",
+        "tags": [
+          "T-HWTank-Out"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "8",
+        "current_value": "22.1",
+        "at": "03/21/2014 14:06:41",
+        "max_value": "49.5",
+        "min_value": "7.8",
+        "tags": [
+          "T-A/C-In-FamRm"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "9",
+        "current_value": "21.9",
+        "at": "03/21/2014 14:06:41",
+        "max_value": "52.3",
+        "min_value": "7.8",
+        "tags": [
+          "T-A/C-In-Bedrm"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "10",
+        "current_value": "21.9",
+        "at": "03/21/2014 14:06:41",
+        "max_value": "49.1",
+        "min_value": "6.3",
+        "tags": [
+          "T-A/C-Out"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "11",
+        "current_value": "22.8",
+        "at": "03/21/2014 14:06:41",
+        "max_value": "36.2",
+        "min_value": "12.2",
+        "tags": [
+          "T-FamilyRoom"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "12",
+        "current_value": "24.6",
+        "at": "03/21/2014 14:06:41",
+        "max_value": "39.3",
+        "min_value": "14.0",
+        "tags": [
+          "T-Study"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "13",
+        "current_value": "27.6",
+        "at": "03/21/2014 14:06:41",
+        "max_value": "36.3",
+        "min_value": "13.2",
+        "tags": [
+          "T-EqpmtCabinet"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "14",
+        "current_value": "23.0",
+        "at": "03/21/2014 14:06:41",
+        "max_value": "42.3",
+        "min_value": "6.9",
+        "tags": [
+          "T-FrontPorch"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "15",
+        "current_value": "20.9",
+        "at": "03/21/2014 14:06:41",
+        "max_value": "43.9",
+        "min_value": "5.4",
+        "tags": [
+          "T-BackPatio"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "16",
+        "current_value": "21.4",
+        "at": "03/21/2014 14:06:41",
+        "max_value": "52.1",
+        "min_value": "5.0",
+        "tags": [
+          "T-Roofspace"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "17",
+        "current_value": "21.0",
+        "at": "03/21/2014 14:07:29",
+        "max_value": "46.1",
+        "min_value": "-134.9",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "18",
+        "current_value": "73",
+        "at": "03/21/2014 14:07:29",
+        "max_value": "99.0",
+        "min_value": "11.0",
+        "tags": [
+          "Relative Humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "Percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "19",
+        "current_value": "6.0",
+        "at": "03/21/2014 14:07:29",
+        "max_value": "22.1",
+        "min_value": "0.0",
+        "tags": [
+          "Wind Strength Average"
+        ],
+        "unit": {
+          "symbol": "Knots",
+          "label": "Knots",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "20",
+        "current_value": "12.1",
+        "at": "03/21/2014 14:07:29",
+        "max_value": "33.5",
+        "min_value": "0.0",
+        "tags": [
+          "Wind Gust"
+        ],
+        "unit": {
+          "symbol": "Knots",
+          "label": "Knots",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "21",
+        "current_value": "315",
+        "at": "03/21/2014 14:07:29",
+        "max_value": "338.0",
+        "min_value": "0.0",
+        "tags": [
+          "Wind Direction"
+        ],
+        "unit": {
+          "symbol": "°",
+          "label": "Degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "22",
+        "current_value": "85",
+        "at": "03/21/2014 14:07:29",
+        "max_value": "255.0",
+        "min_value": "0.0",
+        "tags": [
+          "Rain Counter"
+        ],
+        "unit": {
+          "symbol": "mm*0.3",
+          "label": ").3mm ",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "23",
+        "current_value": "924.3",
+        "at": "03/02/2014 01:55:05",
+        "max_value": "1998.2",
+        "min_value": "0.0",
+        "tags": [
+          "Solar Radiation"
+        ],
+        "unit": {
+          "symbol": "W/m2",
+          "label": "Watts per sq. m",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "24",
+        "current_value": "0",
+        "at": "03/02/2014 01:55:05",
+        "max_value": "15.0",
+        "min_value": "0.0",
+        "tags": [
+          "UV Index"
+        ],
+        "unit": {
+          "symbol": "UV Index",
+          "label": "25mW/m2",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "25",
+        "current_value": "0",
+        "at": "03/21/2014 14:05:01",
+        "max_value": "500010144.0",
+        "min_value": "0.0",
+        "tags": [
+          "PV Output"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "77",
+      "domain": 0,
+      "lat": "-31.953282",
+      "lon": "116.042044",
+      "ele": "150",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/51765\" >Home conditions</a>",
+    "URLMostrar": "https://xively.com/feeds/51765"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\51765.json",
+  "DocumentJSON": null
+}

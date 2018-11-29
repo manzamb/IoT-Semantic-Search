@@ -1,0 +1,118 @@
+{
+  "Conceptos": [
+    "temperature"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "64777",
+    "title": "HeatPumpSensors",
+    "Private": false,
+    "tags": [
+      "temperature"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/64777.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 15:09:08",
+    "created": "06/25/2012 11:21:35",
+    "creator": "https://xively.com/users/peterros",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "2001",
+        "current_value": "19.80",
+        "at": "03/21/2014 14:09:23",
+        "max_value": "25.6",
+        "min_value": "0.0",
+        "tags": [
+          "indoor temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2002",
+        "current_value": "09.80",
+        "at": "03/21/2014 14:01:01",
+        "max_value": "29.2",
+        "min_value": "-18.4",
+        "tags": [
+          "outdoor temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2003",
+        "current_value": "56.10",
+        "at": "03/21/2014 13:51:07",
+        "max_value": "62.2",
+        "min_value": "0.0",
+        "tags": [
+          "tap water temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2004",
+        "current_value": "60.20",
+        "at": "03/21/2014 14:07:13",
+        "max_value": "71.1",
+        "min_value": "0.0",
+        "tags": [
+          "hot water 1"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2005",
+        "current_value": "59.30",
+        "at": "03/21/2014 13:50:11",
+        "max_value": "70.8",
+        "min_value": "0.0",
+        "tags": [
+          "hot water 2"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/64777\" >HeatPumpSensors</a>",
+    "URLMostrar": "https://xively.com/feeds/64777"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\64777.json",
+  "DocumentJSON": null
+}

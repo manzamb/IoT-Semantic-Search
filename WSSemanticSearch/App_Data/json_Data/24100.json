@@ -1,0 +1,73 @@
+{
+  "Conceptos": [
+    "unit of measure"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "24100",
+    "title": "Radiation in Goes, Netherlands, µR/h",
+    "Private": false,
+    "tags": [
+      "Geiger Counter",
+      "sensor:type=radiation"
+    ],
+    "description": "Privately measured indoor radiation in Goes, Zeeland, NL\r\n(The usual disclaimers apply, this is not official data.)\r\n\r\nSensor: FH40T (FHZ76V tube, measuring β and γ) + PIC16F628A microcontroller powered pulse-counter / RS232 computer interface.\r\nUnit conversion: 10µR/h equals 0.1µSv/h (or 100nSv/h)\r\n\r\n2011/05/08: Added a 2nd datastream, a second geiger counter setup at a different place in my home, to have some sort of second opinion/validation.\r\nThe 2nd geiger counter uses a spare FHZ76V tube in a home-brewn geiger-counter circuit with a PIC16F628A based pulse-counter / RS232 computer interface.",
+    "feed": "https://api.xively.com/v2/feeds/24100.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "01/15/2014 19:00:24",
+    "created": "04/21/2011 18:21:56",
+    "creator": "https://xively.com/users/radgoes",
+    "version": null,
+    "website": "http://radgoes.blogspot.com/",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "10.000",
+        "at": "01/15/2014 19:00:23",
+        "max_value": "305223.0",
+        "min_value": "1.0",
+        "tags": [
+          "Geiger Counter",
+          "sensor:type=radiation"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "µR/h",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "10.000",
+        "at": "06/06/2011 07:32:19",
+        "max_value": "4337.0",
+        "min_value": "1.0",
+        "tags": [
+          "Geiger Counter",
+          "sensor:type=radiation"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "µR/h",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "RadGoes",
+      "domain": 0,
+      "lat": "51.4858727004583",
+      "lon": "3.89448165893555",
+      "ele": "8",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/24100\" >Radiation in Goes, Netherlands, µR/h</a>",
+    "URLMostrar": "https://xively.com/feeds/24100"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\24100.json",
+  "DocumentJSON": null
+}

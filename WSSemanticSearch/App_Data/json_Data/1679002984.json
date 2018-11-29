@@ -1,0 +1,114 @@
+{
+  "Conceptos": [
+    "man"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "1679002984",
+    "title": "GC-10(SBM-20) Radiation@Izumo,Shimane,Japan",
+    "Private": false,
+    "tags": [
+      "GC-10",
+      "RaspbberyPI",
+      "SBM-20"
+    ],
+    "description": "ガイガーカウンターキットGC-10(SBM-20)のモニタリングポスト\n島根県出雲市、出雲空港付近\n木造1F設置\n\n３軸コンパスHMC5883L",
+    "feed": "https://api.xively.com/v2/feeds/1679002984.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:13:08",
+    "created": "07/26/2013 05:37:03",
+    "creator": "https://xively.com/users/izumogeiger",
+    "version": null,
+    "website": "http://izumogeiger.blogspot.jp/",
+    "datastreams": [
+      {
+        "id": "cpm",
+        "current_value": "26.77",
+        "at": "03/21/2014 14:13:07",
+        "max_value": "276.52",
+        "min_value": "6.08",
+        "tags": [
+          "GC10",
+          "Radiation",
+          "SBM-20"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "cpm",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "HMC5883L_X",
+        "current_value": "278.6",
+        "at": "02/22/2014 11:55:22",
+        "max_value": "1098.4",
+        "min_value": "-938.7",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "HMC5883L_Y",
+        "current_value": "1367.1",
+        "at": "02/22/2014 11:55:22",
+        "max_value": "1992.7",
+        "min_value": "1140.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "HMC5883L_Z",
+        "current_value": "-543.7",
+        "at": "02/22/2014 11:55:22",
+        "max_value": "110.4",
+        "min_value": "-1159.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "raspberrypi_temp",
+        "current_value": "43.3",
+        "at": "03/21/2014 14:13:07",
+        "max_value": "60.0",
+        "min_value": "27.7",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "'C",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "izumo",
+      "domain": 0,
+      "lat": "35.4151035625718",
+      "lon": "132.862997431308",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/1679002984\" >GC-10(SBM-20) Radiation@Izumo,Shimane,Japan</a>",
+    "URLMostrar": "https://xively.com/feeds/1679002984"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\1679002984.json",
+  "DocumentJSON": null
+}

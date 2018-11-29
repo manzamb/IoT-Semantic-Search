@@ -1,0 +1,95 @@
+{
+  "Conceptos": [
+    "color"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "86432",
+    "title": "Color",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "color_in"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/86432.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "05/23/2013 18:35:03",
+    "created": "11/15/2012 21:02:00",
+    "creator": "https://xively.com/users/k3larra",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "color_from_arduino",
+        "current_value": "34",
+        "at": "01/15/2013 13:35:50",
+        "max_value": "2323232.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "color_to_arduino",
+        "current_value": "383838",
+        "at": "12/28/2012 00:46:06",
+        "max_value": "383838.0",
+        "min_value": "383838.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "command_from_arduino",
+        "current_value": "fadeGreen",
+        "at": "12/28/2012 07:31:06",
+        "max_value": "38.0",
+        "min_value": "38.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "command_to_arduino",
+        "current_value": "epileptic3",
+        "at": "05/23/2013 18:35:03",
+        "max_value": "34.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/86432\" >Color</a>",
+    "URLMostrar": "https://xively.com/feeds/86432"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\86432.json",
+  "DocumentJSON": null
+}

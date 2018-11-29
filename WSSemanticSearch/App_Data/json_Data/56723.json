@@ -1,0 +1,214 @@
+{
+  "Conceptos": [
+    "wind"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "56723",
+    "title": "静岡市安東の気象データ",
+    "Private": false,
+    "tags": [
+      "mbed weather platform BMP085 SHT15 S9648-100 G5842"
+    ],
+    "description": "mbed Weather Platformの気象データ",
+    "feed": "https://api.xively.com/v2/feeds/56723.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:07:30",
+    "created": "04/22/2012 11:21:28",
+    "creator": "https://xively.com/users/pinorabi",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "1006.3",
+        "at": "03/21/2014 14:07:29",
+        "max_value": "1030.6",
+        "min_value": "967.1",
+        "tags": [
+          "気圧 BMP085"
+        ],
+        "unit": {
+          "symbol": "hPa",
+          "label": "hPa",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "5.0",
+        "at": "03/21/2014 14:07:29",
+        "max_value": "615.35",
+        "min_value": "-40.0",
+        "tags": [
+          "気温 SHT15"
+        ],
+        "unit": {
+          "symbol": "deg",
+          "label": "degree",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "58.3",
+        "at": "03/21/2014 14:07:29",
+        "max_value": "100.0",
+        "min_value": "0.0",
+        "tags": [
+          "湿度 SHT15"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "0.0",
+        "at": "03/21/2014 14:07:29",
+        "max_value": "987.2",
+        "min_value": "0.0",
+        "tags": [
+          "風速 WeatherMeters"
+        ],
+        "unit": {
+          "symbol": "wind",
+          "label": "m/s",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "45.0",
+        "at": "03/21/2014 14:07:29",
+        "max_value": "337.5",
+        "min_value": "0.0",
+        "tags": [
+          "風向 WeatherMeters"
+        ],
+        "unit": {
+          "symbol": "vane",
+          "label": "degree",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "0.0",
+        "at": "03/21/2014 14:07:29",
+        "max_value": "979.9",
+        "min_value": "0.0",
+        "tags": [
+          "雨量 WeatherMeters"
+        ],
+        "unit": {
+          "symbol": "rain",
+          "label": "mm/hr",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "0.0",
+        "at": "03/21/2014 14:07:29",
+        "max_value": "987.18",
+        "min_value": "0.0",
+        "tags": [
+          "照度 S9648-100"
+        ],
+        "unit": {
+          "symbol": "lx",
+          "label": "lux",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "7",
+        "current_value": "0.3",
+        "at": "03/21/2014 14:07:29",
+        "max_value": "79.39",
+        "min_value": "0.0",
+        "tags": [
+          "紫外線 G5842"
+        ],
+        "unit": {
+          "symbol": "uv",
+          "label": "mW/cm2",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "8",
+        "current_value": "0.0",
+        "at": "03/21/2014 14:07:29",
+        "max_value": "692060160.0",
+        "min_value": "0.0",
+        "tags": [
+          "照度2 NJL7502L"
+        ],
+        "unit": {
+          "symbol": "lx",
+          "label": "lux",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "9",
+        "current_value": "19.2",
+        "at": "03/21/2014 14:07:29",
+        "max_value": "49.9",
+        "min_value": "0.0",
+        "tags": [
+          "室温 DHT11"
+        ],
+        "unit": {
+          "symbol": "deg",
+          "label": "degree",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "10",
+        "current_value": "51.2",
+        "at": "03/21/2014 14:07:29",
+        "max_value": "86.3",
+        "min_value": "0.0",
+        "tags": [
+          "湿度(室内) DHT11"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Shizuoka-city, Shizuoka-pref, JAPAN",
+      "domain": 0,
+      "lat": "34.9904110965138",
+      "lon": "138.38237285614",
+      "ele": "18m",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/56723\" >静岡市安東の気象データ</a>",
+    "URLMostrar": "https://xively.com/feeds/56723"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\56723.json",
+  "DocumentJSON": null
+}

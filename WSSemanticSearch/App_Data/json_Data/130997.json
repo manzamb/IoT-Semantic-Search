@@ -1,0 +1,228 @@
+{
+  "Conceptos": [
+    "physical object"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "130997",
+    "title": "SystemMonitor Testfeld",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/130997.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:10:59",
+    "created": "05/09/2013 14:27:48",
+    "creator": "https://xively.com/users/swarcomizar",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "DATALOADER",
+        "current_value": "11796",
+        "at": "05/13/2013 14:32:30",
+        "max_value": "11796.0",
+        "min_value": "0.0",
+        "tags": [
+          "_Proc"
+        ],
+        "unit": {
+          "symbol": "PID",
+          "label": "PID",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "DATALOADER_SERVICE",
+        "current_value": "2560",
+        "at": "03/21/2014 14:10:16",
+        "max_value": "11796.0",
+        "min_value": "0.0",
+        "tags": [
+          "_Proc"
+        ],
+        "unit": {
+          "symbol": "PID",
+          "label": "PID",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "DBENGINE",
+        "current_value": "1812",
+        "at": "03/21/2014 14:10:40",
+        "max_value": "2048.0",
+        "min_value": "-1.0",
+        "tags": [
+          "_DB_Value"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "objects",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "FTP_ASSESSMENT",
+        "current_value": "-1",
+        "at": "11/11/2013 09:54:49",
+        "max_value": "-1.0",
+        "min_value": "-1.0",
+        "tags": [
+          "_Url"
+        ],
+        "unit": {
+          "symbol": "ms",
+          "label": "milliseconds",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "PERF_CPU",
+        "current_value": "26",
+        "at": "03/21/2014 14:10:59",
+        "max_value": "100.0",
+        "min_value": "-1.0",
+        "tags": [
+          "_Perf"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "percentage",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "PERF_FREEVOL_C",
+        "current_value": "30",
+        "at": "03/21/2014 14:10:13",
+        "max_value": "64.0",
+        "min_value": "-1.0",
+        "tags": [
+          "_Perf"
+        ],
+        "unit": {
+          "symbol": "GB",
+          "label": "GBytes",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "PROC_FCDGATEWAY",
+        "current_value": "1644",
+        "at": "03/21/2014 14:10:26",
+        "max_value": "5092.0",
+        "min_value": "1644.0",
+        "tags": [
+          "_Proc"
+        ],
+        "unit": {
+          "symbol": "PID",
+          "label": "PID",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "PUBLICATION_SERVICE",
+        "current_value": "8024",
+        "at": "03/21/2014 14:10:13",
+        "max_value": "11796.0",
+        "min_value": "0.0",
+        "tags": [
+          "_Proc"
+        ],
+        "unit": {
+          "symbol": "PID",
+          "label": "PID",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "URL_BMTSERVER",
+        "current_value": "104",
+        "at": "06/21/2013 14:36:33",
+        "max_value": "22138.0",
+        "min_value": "0.0",
+        "tags": [
+          "_Url"
+        ],
+        "unit": {
+          "symbol": "ms",
+          "label": "milliseconds",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "URL_BMTSERVER_IVS",
+        "current_value": "0",
+        "at": "03/21/2014 14:10:33",
+        "max_value": "77455.0",
+        "min_value": "-119325.0",
+        "tags": [
+          "_Url"
+        ],
+        "unit": {
+          "symbol": "ms",
+          "label": "milliseconds",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "URL_BMTSERVER_TEC",
+        "current_value": "16",
+        "at": "03/21/2014 14:10:43",
+        "max_value": "77845.0",
+        "min_value": "-1.0",
+        "tags": [
+          "_Url"
+        ],
+        "unit": {
+          "symbol": "ms",
+          "label": "milliseconds",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "WS_MogGateway",
+        "current_value": "6",
+        "at": "06/21/2013 14:36:33",
+        "max_value": "1542.0",
+        "min_value": "3.0",
+        "tags": [
+          "_WebService"
+        ],
+        "unit": {
+          "symbol": "ms",
+          "label": "milliseconds",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Testfeld Telematik",
+      "domain": 0,
+      "lat": "48.1514128767703",
+      "lon": "16.4252471923828",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/130997\" >SystemMonitor Testfeld</a>",
+    "URLMostrar": "https://xively.com/feeds/130997"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\130997.json",
+  "DocumentJSON": null
+}

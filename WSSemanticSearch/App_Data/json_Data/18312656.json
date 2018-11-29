@@ -1,0 +1,50 @@
+{
+  "Conceptos": [
+    "amount"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "18312656",
+    "title": "Water Alert",
+    "Private": false,
+    "tags": null,
+    "description": "This sensor works by having a series of exposed traces connected to ground and interlaced between the grounded traces are the sens traces. The sensor traces have a weak pull-up resistor of 1 MO. The resistor will pull the sensor trace value high until a drop of water shorts the sensor trace to the grounded trace. believe it or not this circuit will work with the digital I/O pins of your Arduino or you can use it with the analog pins to detect the amount of water induced contact between the grounded and sensor traces.\n\nRainfall detecting, Liquid leakage, Tank overflow detector\n \n",
+    "feed": "https://api.xively.com/v2/feeds/18312656.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "11/18/2013 13:27:41",
+    "created": "07/03/2013 12:55:56",
+    "creator": "https://xively.com/users/pedrothomas",
+    "version": null,
+    "website": "http://datalogger.gmxhome.de",
+    "datastreams": [
+      {
+        "id": "Sensor4",
+        "current_value": "149.00",
+        "at": "11/18/2013 13:27:41",
+        "max_value": "10100.0",
+        "min_value": "100.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Stuttgart",
+      "domain": 0,
+      "lat": "48.7279",
+      "lon": "9.13239999999996",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/18312656\" >Water Alert</a>",
+    "URLMostrar": "https://xively.com/feeds/18312656"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\18312656.json",
+  "DocumentJSON": null
+}

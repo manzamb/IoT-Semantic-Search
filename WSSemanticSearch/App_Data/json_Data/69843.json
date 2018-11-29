@@ -1,0 +1,71 @@
+{
+  "Conceptos": [
+    "humidity"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "69843",
+    "title": "UAB \"BIS\" Server room",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "BIS Humidity Temperature Arduino"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/69843.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:07:00",
+    "created": "08/02/2012 14:39:28",
+    "creator": "https://xively.com/users/bis",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "HUM",
+        "current_value": "14",
+        "at": "03/21/2014 14:06:59",
+        "max_value": "73.0",
+        "min_value": "0.0",
+        "tags": [
+          "Humidity"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "TEMP",
+        "current_value": "+20",
+        "at": "03/21/2014 14:06:59",
+        "max_value": "30.0",
+        "min_value": "0.0",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "55.591248411119",
+      "lon": "26.4514303207397",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/69843\" >UAB \"BIS\" Server room</a>",
+    "URLMostrar": "https://xively.com/feeds/69843"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\69843.json",
+  "DocumentJSON": null
+}

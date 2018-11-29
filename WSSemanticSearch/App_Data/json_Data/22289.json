@@ -1,0 +1,90 @@
+{
+  "Conceptos": [
+    "physical body"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "22289",
+    "title": "Hyperbody Science Centre",
+    "Private": false,
+    "tags": [
+      "CO2",
+      "Luminosity",
+      "Science Centre",
+      "Temperature",
+      "TU Delft"
+    ],
+    "description": "Data from Hyperbody space @ Science Centre TU Delft",
+    "feed": "https://api.xively.com/v2/feeds/22289.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "09/23/2011 06:53:28",
+    "created": "04/07/2011 17:39:05",
+    "creator": "https://xively.com/users/sabrinarv",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "743.0",
+        "at": "09/23/2011 06:53:27",
+        "max_value": "807.0",
+        "min_value": "0.0",
+        "tags": [
+          "Luminisoty"
+        ],
+        "unit": {
+          "symbol": "lux",
+          "label": "Luminosity",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "22.0",
+        "at": "09/23/2011 06:53:27",
+        "max_value": "571.0",
+        "min_value": "0.0",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "614.0",
+        "at": "09/23/2011 06:53:27",
+        "max_value": "618.0",
+        "min_value": "0.0",
+        "tags": [
+          "CO2"
+        ],
+        "unit": {
+          "symbol": "CO2",
+          "label": "Relative",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Science Centre TU Delft",
+      "domain": 0,
+      "lat": "52.0074326756603",
+      "lon": "4.36968326568626",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/22289\" >Hyperbody Science Centre</a>",
+    "URLMostrar": "https://xively.com/feeds/22289"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\22289.json",
+  "DocumentJSON": null
+}

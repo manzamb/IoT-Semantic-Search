@@ -1,0 +1,117 @@
+{
+  "Conceptos": [
+    "co2"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "128095",
+    "title": "Datalogger",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "Datalogger"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/128095.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "06/19/2013 10:22:42",
+    "created": "04/28/2013 17:51:27",
+    "creator": "https://xively.com/users/abortica",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Co2",
+        "current_value": "575",
+        "at": "06/19/2013 10:22:42",
+        "max_value": "1016.0",
+        "min_value": "-32452.0",
+        "tags": [
+          "co2"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "PPM",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Humidity",
+        "current_value": "37",
+        "at": "06/19/2013 10:22:42",
+        "max_value": "77.0",
+        "min_value": "0.0",
+        "tags": [
+          "Hum"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Light",
+        "current_value": "922",
+        "at": "06/19/2013 10:22:42",
+        "max_value": "985.0",
+        "min_value": "1.0",
+        "tags": [
+          "light"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "level",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "sensor1",
+        "current_value": "970",
+        "at": "05/15/2013 00:43:42",
+        "max_value": "993.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperature",
+        "current_value": "78",
+        "at": "06/19/2013 10:22:42",
+        "max_value": "86.0",
+        "min_value": "0.0",
+        "tags": [
+          "Temp"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/128095\" >Datalogger</a>",
+    "URLMostrar": "https://xively.com/feeds/128095"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\128095.json",
+  "DocumentJSON": null
+}

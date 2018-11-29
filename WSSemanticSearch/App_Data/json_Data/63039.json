@@ -1,0 +1,72 @@
+{
+  "Conceptos": [
+    "event"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "63039",
+    "title": "Entry Gate",
+    "Private": false,
+    "tags": [
+      "Battery Voltage",
+      "Light Level",
+      "Status"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/63039.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "06/10/2012 05:15:44",
+    "created": "06/10/2012 00:01:48",
+    "creator": "https://xively.com/users/dougc",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0001",
+        "current_value": "12.8",
+        "at": "06/10/2012 05:08:43",
+        "max_value": "12.8",
+        "min_value": "12.8",
+        "tags": [
+          "Battery Voltage"
+        ],
+        "unit": {
+          "symbol": "V+",
+          "label": "VDC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "0002",
+        "current_value": "1",
+        "at": "06/10/2012 05:15:44",
+        "max_value": "1.0",
+        "min_value": "1.0",
+        "tags": [
+          "Open Events"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/63039\" >Entry Gate</a>",
+    "URLMostrar": "https://xively.com/feeds/63039"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\63039.json",
+  "DocumentJSON": null
+}

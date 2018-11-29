@@ -1,0 +1,140 @@
+{
+  "Conceptos": [
+    "temperature"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "50470",
+    "title": "HomeAutomation network status",
+    "Private": false,
+    "tags": [
+      "CoreCard",
+      "Energy",
+      "HomeAutomation",
+      "node.js",
+      "Temperature",
+      "Water"
+    ],
+    "description": "There are three CoreCard controllers in the network right now. Data collected by Atom1.5 from HomeAutomation network. There is node.js daemon reading Atom LastValues storage and posting changes to Cosm.\r\n\r\nWater usage is counted from two wire Cyble sensor (one tick per liter)\r\n\r\nMore information about HomeAutomation project can be found here: http://projekt.auml.se/",
+    "feed": "https://api.xively.com/v2/feeds/50470.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "01/05/2014 16:03:48",
+    "created": "03/04/2012 22:05:47",
+    "creator": "https://xively.com/users/cougar",
+    "version": null,
+    "website": "http://projekt.auml.se/",
+    "datastreams": [
+      {
+        "id": "power",
+        "current_value": "236",
+        "at": "01/05/2014 16:03:48",
+        "max_value": "65532.0",
+        "min_value": "216.0",
+        "tags": [
+          "electricity",
+          "power"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "watt",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temp-bedroom",
+        "current_value": "27.75",
+        "at": "11/26/2013 22:44:26",
+        "max_value": "38.875",
+        "min_value": "25.5625",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "⁰C",
+          "label": "degree",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temp-boilerhouse",
+        "current_value": "12.5625",
+        "at": "11/26/2013 21:49:37",
+        "max_value": "23.0",
+        "min_value": "10.375",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "⁰C",
+          "label": "degree",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temp-garage",
+        "current_value": "10.6875",
+        "at": "01/05/2014 16:03:48",
+        "max_value": "26.375",
+        "min_value": "6.0625",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "⁰C",
+          "label": "degree",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temp-outside",
+        "current_value": "0.4375",
+        "at": "11/26/2013 21:49:37",
+        "max_value": "384.75",
+        "min_value": "-383.984375",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "⁰C",
+          "label": "degree",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "water",
+        "current_value": "440293",
+        "at": "11/26/2013 21:09:40",
+        "max_value": "4278303485.0",
+        "min_value": "0.0",
+        "tags": [
+          "water"
+        ],
+        "unit": {
+          "symbol": "L",
+          "label": "Liter",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Tallinn",
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/50470\" >HomeAutomation network status</a>",
+    "URLMostrar": "https://xively.com/feeds/50470"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\50470.json",
+  "DocumentJSON": null
+}

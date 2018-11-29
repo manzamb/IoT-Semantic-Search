@@ -1,0 +1,84 @@
+{
+  "Conceptos": [
+    "right"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "99105",
+    "title": "testfeed",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/99105.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "10/02/2013 07:27:53",
+    "created": "01/21/2013 01:31:34",
+    "creator": "https://xively.com/users/doilab",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "0",
+        "at": "08/28/2013 06:25:35",
+        "max_value": "195.1",
+        "min_value": "0.0",
+        "tags": [
+          "count"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "30.7",
+        "at": "10/02/2013 07:27:53",
+        "max_value": "123.0",
+        "min_value": "0.0",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "10",
+        "at": "03/08/2013 14:48:00",
+        "max_value": "66.0",
+        "min_value": "1.0",
+        "tags": [
+          "brightness"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/99105\" >testfeed</a>",
+    "URLMostrar": "https://xively.com/feeds/99105"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\99105.json",
+  "DocumentJSON": null
+}

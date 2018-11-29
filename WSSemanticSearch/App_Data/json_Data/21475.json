@@ -1,0 +1,55 @@
+{
+  "Conceptos": [
+    "radioactivity"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "21475",
+    "title": "Radioactivity density of waste water",
+    "Private": false,
+    "tags": [
+      "device:type=virtual",
+      "sensor:type=radiation"
+    ],
+    "description": "Feed the data retrieved from http://www.houshasen-pref-ibaraki.jp/. Updated every 1 hour. This feed is UNOFFICIAL and may be stopped by any reason at any time. Use it at your own risk. No guarantee of validity.",
+    "feed": "https://api.xively.com/v2/feeds/21475.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/26/2011 00:30:41",
+    "created": "03/26/2011 00:30:41",
+    "creator": "https://xively.com/users/kaku60",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": null,
+        "at": null,
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "sensor:env=wastewater"
+        ],
+        "unit": {
+          "symbol": "mBq/cm3",
+          "label": "millibequerels per cubic centimeter",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "JAEA Oarai, Tokai, Ibaraki, Japan",
+      "domain": 0,
+      "lat": "36.2929216384378",
+      "lon": "140.55685043335",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/21475\" >Radioactivity density of waste water</a>",
+    "URLMostrar": "https://xively.com/feeds/21475"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\21475.json",
+  "DocumentJSON": null
+}

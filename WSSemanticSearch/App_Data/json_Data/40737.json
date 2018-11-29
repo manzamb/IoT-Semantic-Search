@@ -1,0 +1,118 @@
+{
+  "Conceptos": [
+    "longitud"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "40737",
+    "title": "Temperature",
+    "Private": false,
+    "tags": null,
+    "description": "This feed was created using Data Logger for iPhone.",
+    "feed": "https://api.xively.com/v2/feeds/40737.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "07/06/2013 14:09:10",
+    "created": "11/29/2011 20:50:09",
+    "creator": "https://xively.com/users/nrsf",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "20.50",
+        "at": "11/29/2011 20:51:21",
+        "max_value": "100.0",
+        "min_value": "0.0",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "-25.4041",
+        "at": "11/29/2011 20:51:21",
+        "max_value": "-25.4041",
+        "min_value": "-25.4043",
+        "tags": [
+          "lat",
+          "latitude"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "-49.3143",
+        "at": "11/29/2011 20:51:21",
+        "max_value": "-49.3143",
+        "min_value": "-49.3146",
+        "tags": [
+          "lon",
+          "longitude"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "935.869",
+        "at": "11/29/2011 20:51:21",
+        "max_value": "942.962",
+        "min_value": "935.869",
+        "tags": [
+          "alt",
+          "altitude",
+          "elevation"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temp",
+        "current_value": null,
+        "at": "07/06/2013 14:09:09",
+        "max_value": null,
+        "min_value": null,
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "-25.4041",
+      "lon": "-49.3143",
+      "ele": "935.869",
+      "exposure": 1,
+      "disposition": 1
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/40737\" >Temperature</a>",
+    "URLMostrar": "https://xively.com/feeds/40737"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\40737.json",
+  "DocumentJSON": null
+}

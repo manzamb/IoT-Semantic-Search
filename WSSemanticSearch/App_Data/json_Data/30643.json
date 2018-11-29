@@ -1,0 +1,111 @@
+{
+  "Conceptos": [
+    "color"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "30643",
+    "title": "Longmont J305ß Radiation Monitor",
+    "Private": false,
+    "tags": [
+      "Boulder",
+      "Colorado",
+      "geiger",
+      "geiger counter",
+      "Longmont",
+      "microsieverts",
+      "radiation",
+      "sensor:model=J305GAMMA",
+      "sensor:type=radiation",
+      "USA"
+    ],
+    "description": "Indoor radiation monitor setup in NE Longmont, Colorado, USA.  See website for more details.",
+    "feed": "https://api.xively.com/v2/feeds/30643.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/19/2014 01:51:46",
+    "created": "07/29/2011 20:29:03",
+    "creator": "https://xively.com/users/nv0n",
+    "version": null,
+    "website": "http://radmon.stan4d.net",
+    "datastreams": [
+      {
+        "id": "CPM",
+        "current_value": "42",
+        "at": "03/12/2014 04:26:38",
+        "max_value": "30108.0",
+        "min_value": "0.0",
+        "tags": [
+          "counts per minute"
+        ],
+        "unit": {
+          "symbol": "CPM",
+          "label": "CPM",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "USV",
+        "current_value": "0.3410",
+        "at": "03/12/2014 04:26:38",
+        "max_value": "66.0",
+        "min_value": "0.0",
+        "tags": [
+          "microsieverts"
+        ],
+        "unit": {
+          "symbol": "µSv/h",
+          "label": "microsieverts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "USVAVG",
+        "current_value": "0.3259",
+        "at": "03/12/2014 04:26:38",
+        "max_value": "800.0",
+        "min_value": "0.0",
+        "tags": [
+          "microsieverts"
+        ],
+        "unit": {
+          "symbol": "µSv/h",
+          "label": "microsieverts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "X",
+        "current_value": "1",
+        "at": "03/12/2014 04:26:38",
+        "max_value": "14377.0",
+        "min_value": "0.0",
+        "tags": [
+          "times over normal"
+        ],
+        "unit": {
+          "symbol": "X",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Longmont",
+      "domain": 0,
+      "lat": "40.1943806352599",
+      "lon": "-105.067153573036",
+      "ele": "1529",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/30643\" >Longmont J305ß Radiation Monitor</a>",
+    "URLMostrar": "https://xively.com/feeds/30643"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\30643.json",
+  "DocumentJSON": null
+}

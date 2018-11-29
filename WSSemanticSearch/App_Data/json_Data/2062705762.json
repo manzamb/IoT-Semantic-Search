@@ -1,0 +1,118 @@
+{
+  "Conceptos": [
+    "moisture"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "2062705762",
+    "title": "Greenhouse Controller",
+    "Private": false,
+    "tags": [
+      "Greenhouse environment monitoring and control"
+    ],
+    "description": "An intelligent, Arduino based environment monitoring and control system to enhance plant germination, growth and propagation.",
+    "feed": "https://api.xively.com/v2/feeds/2062705762.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "08/10/2013 13:11:17",
+    "created": "08/10/2013 12:15:02",
+    "creator": "https://xively.com/users/smartgreenhouse",
+    "version": null,
+    "website": "http://smartgreenhouse.org",
+    "datastreams": [
+      {
+        "id": "Humidity",
+        "current_value": "55.80",
+        "at": "08/10/2013 13:11:17",
+        "max_value": "55.8",
+        "min_value": "54.8",
+        "tags": [
+          "Air humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "InternalTemp",
+        "current_value": "21.30",
+        "at": "08/10/2013 13:11:17",
+        "max_value": "21.3",
+        "min_value": "21.2",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "DegC",
+          "label": "Degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Irrigation_Pump_A",
+        "current_value": "397.00",
+        "at": "08/10/2013 13:11:17",
+        "max_value": "908.0",
+        "min_value": "52.0",
+        "tags": [
+          "Pump status"
+        ],
+        "unit": {
+          "symbol": "LPD",
+          "label": "Liters/day",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Light-1",
+        "current_value": "68.00",
+        "at": "08/10/2013 13:11:17",
+        "max_value": "68.0",
+        "min_value": "67.0",
+        "tags": [
+          "Interior light"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "SSM-A",
+        "current_value": "26.00",
+        "at": "08/10/2013 13:11:17",
+        "max_value": "33.0",
+        "min_value": "24.0",
+        "tags": [
+          "Soil moisture interior"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/2062705762\" >Greenhouse Controller</a>",
+    "URLMostrar": "https://xively.com/feeds/2062705762"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\2062705762.json",
+  "DocumentJSON": null
+}

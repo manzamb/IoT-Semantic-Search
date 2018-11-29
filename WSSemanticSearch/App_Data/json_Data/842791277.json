@@ -1,0 +1,118 @@
+{
+  "Conceptos": [
+    "moisture"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "842791277",
+    "title": "Soil IQ",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/842791277.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "08/10/2013 04:54:18",
+    "created": "06/03/2013 23:04:15",
+    "creator": "https://xively.com/users/jaramburu",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "humidity",
+        "current_value": "99.90",
+        "at": "08/10/2013 04:54:18",
+        "max_value": "99.9",
+        "min_value": "29.5",
+        "tags": [
+          "growerbot",
+          "humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "kW",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "light",
+        "current_value": "0",
+        "at": "08/10/2013 04:54:18",
+        "max_value": "4391.0",
+        "min_value": "0.0",
+        "tags": [
+          "growerbot",
+          "light"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "lux",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "moisture",
+        "current_value": "0",
+        "at": "08/10/2013 04:54:18",
+        "max_value": "991.0",
+        "min_value": "0.0",
+        "tags": [
+          "growerbot",
+          "moisture"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "pH",
+        "current_value": "6.5",
+        "at": "08/08/2013 17:40:30",
+        "max_value": "6.5",
+        "min_value": "6.5",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temperature",
+        "current_value": "24.00",
+        "at": "08/10/2013 04:54:17",
+        "max_value": "34.6",
+        "min_value": "20.5",
+        "tags": [
+          "growerbot",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "��",
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Jason's House",
+      "domain": 0,
+      "lat": "37.781812792",
+      "lon": "-122.406221728667",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/842791277\" >Soil IQ</a>",
+    "URLMostrar": "https://xively.com/feeds/842791277"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\842791277.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,168 @@
+{
+  "Conceptos": [
+    "solar radiation"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "2136851658",
+    "title": "Weather station",
+    "Private": false,
+    "tags": [
+      "warsaw",
+      "weather",
+      "weather station"
+    ],
+    "description": "Weather station located at the Department of Physics of the Warsaw Univeristy of Technology",
+    "feed": "https://api.xively.com/v2/feeds/2136851658.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "08/15/2013 07:45:57",
+    "created": "08/10/2013 08:44:44",
+    "creator": "https://xively.com/users/intruz",
+    "version": null,
+    "website": "http://www.if.pw.edu.pl/~meteo/",
+    "datastreams": [
+      {
+        "id": "Atmospheric_Pressure",
+        "current_value": "1009.7",
+        "at": "08/15/2013 09:40:00",
+        "max_value": "1009.7",
+        "min_value": "1002.0",
+        "tags": [
+          "pressure"
+        ],
+        "unit": {
+          "symbol": "hPa",
+          "label": "hectopascal",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Humidity",
+        "current_value": "67",
+        "at": "08/15/2013 09:40:00",
+        "max_value": "85.0",
+        "min_value": "67.0",
+        "tags": [
+          "humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Rain",
+        "current_value": "0.0",
+        "at": "08/15/2013 09:40:00",
+        "max_value": "0.6",
+        "min_value": "0.0",
+        "tags": [
+          "rain"
+        ],
+        "unit": {
+          "symbol": "l/m²",
+          "label": "litres per square metre per hour",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Solar_Radiation",
+        "current_value": "565",
+        "at": "08/15/2013 09:40:00",
+        "max_value": "565.0",
+        "min_value": "0.0",
+        "tags": [
+          "solar radiation"
+        ],
+        "unit": {
+          "symbol": "W/m²",
+          "label": "watts per square meter",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperature",
+        "current_value": "18.1",
+        "at": "08/15/2013 09:40:00",
+        "max_value": "18.5",
+        "min_value": "17.4",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "degrees Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "UV_Index",
+        "current_value": "2.2",
+        "at": "08/15/2013 09:40:00",
+        "max_value": "2.2",
+        "min_value": "0.0",
+        "tags": [
+          "uv index"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Wind_Chill",
+        "current_value": "18.1",
+        "at": "08/15/2013 09:40:00",
+        "max_value": "18.5",
+        "min_value": "17.4",
+        "tags": [
+          "wind chill"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "degrees Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Wind_Speed",
+        "current_value": "1.8",
+        "at": "08/15/2013 09:40:00",
+        "max_value": "1.8",
+        "min_value": "0.0",
+        "tags": [
+          "wind speed"
+        ],
+        "unit": {
+          "symbol": "m/s",
+          "label": "metre per second",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Department of Physics of the Warsaw University of Technology",
+      "domain": 0,
+      "lat": "52.221611",
+      "lon": "21.00725",
+      "ele": "135",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/2136851658\" >Weather station</a>",
+    "URLMostrar": "https://xively.com/feeds/2136851658"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\2136851658.json",
+  "DocumentJSON": null
+}

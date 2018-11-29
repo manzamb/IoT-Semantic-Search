@@ -1,0 +1,132 @@
+{
+  "Conceptos": [
+    "humidity"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "1235695116",
+    "title": "Unauthorized",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/1235695116.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "02/17/2014 09:45:45",
+    "created": "08/27/2013 11:49:50",
+    "creator": "https://xively.com/users/joepvanwyk",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "battery",
+        "current_value": "5.00",
+        "at": "02/17/2014 09:45:44",
+        "max_value": "12.7",
+        "min_value": "0.0",
+        "tags": [
+          "battery voltage"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": "volts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "direction",
+        "current_value": "218.00",
+        "at": "02/17/2014 09:45:44",
+        "max_value": "818.0",
+        "min_value": "0.0",
+        "tags": [
+          "direction"
+        ],
+        "unit": {
+          "symbol": "°",
+          "label": "0-360",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "humidity",
+        "current_value": "30.00",
+        "at": "02/17/2014 09:45:44",
+        "max_value": "524.0",
+        "min_value": "0.0",
+        "tags": [
+          "humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "percentage",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "light",
+        "current_value": "117.31",
+        "at": "02/17/2014 09:45:44",
+        "max_value": "818.0",
+        "min_value": "0.0",
+        "tags": [
+          "light level"
+        ],
+        "unit": {
+          "symbol": "lux",
+          "label": "lumen",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "pressure",
+        "current_value": "1008.83",
+        "at": "02/17/2014 09:45:44",
+        "max_value": "689713.0",
+        "min_value": "0.0",
+        "tags": [
+          "pressure"
+        ],
+        "unit": {
+          "symbol": "mB",
+          "label": "pascals",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temperature",
+        "current_value": "33.00",
+        "at": "02/17/2014 09:45:44",
+        "max_value": "562.0",
+        "min_value": "0.0",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Weather Station",
+      "domain": 0,
+      "lat": "-33.83377",
+      "lon": "18.65453",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/1235695116\" >Unauthorized</a>",
+    "URLMostrar": "https://xively.com/feeds/1235695116"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\1235695116.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,159 @@
+{
+  "Conceptos": [
+    "deployment"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "81917",
+    "title": "Air Quality Egg",
+    "Private": false,
+    "tags": [
+      "device:type=Air Quality Egg",
+      "device:type=airqualityegg"
+    ],
+    "description": "trial deployment",
+    "feed": "https://api.xively.com/v2/feeds/81917.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:08:35",
+    "created": "10/23/2012 23:23:52",
+    "creator": "https://xively.com/users/airqualityegg",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "CO_00-04-a3-27-b2-3a_1",
+        "current_value": "122536.77343750",
+        "at": "03/21/2014 14:08:35",
+        "max_value": "122536.7734375",
+        "min_value": "0.0",
+        "tags": [
+          "aqe:data_origin=computed",
+          "aqe:firmware_version=16",
+          "aqe:sensor_address=00:04:a3:27:b2:3a",
+          "aqe:sensor_index=1",
+          "aqe:sensor_type=CO"
+        ],
+        "unit": {
+          "symbol": "ppb",
+          "label": "ppb",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "CO_raw_00-04-a3-27-b2-3a_1",
+        "current_value": "0.00000000",
+        "at": "03/21/2014 14:08:30",
+        "max_value": "83700.0",
+        "min_value": "0.0",
+        "tags": [
+          "aqe:data_origin=raw",
+          "aqe:firmware_version=16",
+          "aqe:sensor_address=00:04:a3:27:b2:3a",
+          "aqe:sensor_index=1",
+          "aqe:sensor_type=CO"
+        ],
+        "unit": {
+          "symbol": "ohms",
+          "label": "ohms",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Humidity_00-04-a3-27-c2-e6_0",
+        "current_value": "24.50000000",
+        "at": "03/21/2014 14:08:15",
+        "max_value": "92.5",
+        "min_value": "10.60000038",
+        "tags": [
+          "aqe:data_origin=computed",
+          "aqe:firmware_version=27",
+          "aqe:sensor_address=00:04:a3:27:c2:e6",
+          "aqe:sensor_index=0",
+          "aqe:sensor_type=Humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "NO2_00-04-a3-27-b2-3a_0",
+        "current_value": "440.40176391",
+        "at": "03/21/2014 14:08:25",
+        "max_value": "988928.4375",
+        "min_value": "88.72060394",
+        "tags": [
+          "aqe:data_origin=computed",
+          "aqe:firmware_version=16",
+          "aqe:sensor_address=00:04:a3:27:b2:3a",
+          "aqe:sensor_index=0",
+          "aqe:sensor_type=NO2"
+        ],
+        "unit": {
+          "symbol": "ppb",
+          "label": "ppb",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "NO2_raw_00-04-a3-27-b2-3a_0",
+        "current_value": "238577.00000000",
+        "at": "03/21/2014 14:08:20",
+        "max_value": "427999.0",
+        "min_value": "0.0",
+        "tags": [
+          "aqe:data_origin=raw",
+          "aqe:firmware_version=16",
+          "aqe:sensor_address=00:04:a3:27:b2:3a",
+          "aqe:sensor_index=0",
+          "aqe:sensor_type=NO2"
+        ],
+        "unit": {
+          "symbol": "ohms",
+          "label": "ohms",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperature_00-04-a3-27-c2-e6_1",
+        "current_value": "27.89999961",
+        "at": "03/21/2014 14:08:11",
+        "max_value": "42.5",
+        "min_value": "6.0999999",
+        "tags": [
+          "aqe:data_origin=computed",
+          "aqe:firmware_version=27",
+          "aqe:sensor_address=00:04:a3:27:c2:e6",
+          "aqe:sensor_index=1",
+          "aqe:sensor_type=Temperature"
+        ],
+        "unit": {
+          "symbol": "deg C",
+          "label": "deg C",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "45.5337068901238",
+      "lon": "-122.692994476318",
+      "ele": "6",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/81917\" >Air Quality Egg</a>",
+    "URLMostrar": "https://xively.com/feeds/81917"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\81917.json",
+  "DocumentJSON": null
+}

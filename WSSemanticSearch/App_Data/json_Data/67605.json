@@ -1,0 +1,59 @@
+{
+  "Conceptos": [
+    "project"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "67605",
+    "title": "Project#1-Temp",
+    "Private": false,
+    "tags": [
+      "arduino"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/67605.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:00:50",
+    "created": "07/13/2012 14:10:04",
+    "creator": "https://xively.com/users/scottreed",
+    "version": null,
+    "website": "http://cosm.scottreed.id.au",
+    "datastreams": [
+      {
+        "id": "OutdoorTemp1",
+        "current_value": "22.5",
+        "at": "03/21/2014 14:00:50",
+        "max_value": "45.5",
+        "min_value": "0.0",
+        "tags": [
+          "arduino",
+          "ds18b20",
+          "logger",
+          "outdoor",
+          "perth",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Marmion",
+      "domain": 0,
+      "lat": "-31.8416180443614",
+      "lon": "115.754699707031",
+      "ele": "38",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/67605\" >Project#1-Temp</a>",
+    "URLMostrar": "https://xively.com/feeds/67605"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\67605.json",
+  "DocumentJSON": null
+}

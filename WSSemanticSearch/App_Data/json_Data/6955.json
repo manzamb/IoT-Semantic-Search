@@ -1,0 +1,233 @@
+{
+  "Conceptos": [
+    "plan"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "6955",
+    "title": "PV, kW and House control system",
+    "Private": false,
+    "tags": [
+      "Energy management",
+      "House Automation",
+      "kW",
+      "PV"
+    ],
+    "description": "PV, power & heating control system, controls excess power from PV array. Directs to immersion heater controller associated with HW tank (variable power from 300 - 2000w) whenHW reaches 60C, switches to identical immersion heater controller in 'thermal store' - water heated to 90C (over time) to provide evening store The Ardunino Mega also remotely controls heating system and provides efficient control of thermal store when wood burning stove alight (There is also a 'electrical' over-ride on thermal store to prevent boiling in case Ardunino locks up!). \r\nMost data streams are self-explanatory, 'Boiler inhibit' directs heating/HW demand (when required) to Thermal store (as opposed to firing Gas boiler) when store is above 70C. Store temp(1) is top sensor  Store temp (4) bottom sensor within Thermal store. \r\n*All temp sensors use LM35DZ. \r\n*Current measurement via Hall effect CT probe and precision rectifier. \r\n*Voltage measurement via transformer/rectifier.\r\n\r\nC Baker  Code version: Mega_House_3_2_surplus Aug 2012\r\n\r\n   \r\n",
+    "feed": "https://api.xively.com/v2/feeds/6955.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "08/26/2013 14:22:06",
+    "created": "04/25/2010 15:46:49",
+    "creator": "https://xively.com/users/bakerc01",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "29",
+        "at": "08/26/2013 14:22:06",
+        "max_value": "26214.0",
+        "min_value": "-26214.0",
+        "tags": [
+          "Outside Temp"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "21",
+        "at": "08/26/2013 14:22:06",
+        "max_value": "16736.0",
+        "min_value": "-16564.0",
+        "tags": [
+          "Inside Temp"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "1170",
+        "at": "08/26/2013 14:22:06",
+        "max_value": "14418.0",
+        "min_value": "-47.400002",
+        "tags": [
+          "Power House"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "280",
+        "at": "08/26/2013 14:22:06",
+        "max_value": "28240.0",
+        "min_value": "-813.39996",
+        "tags": [
+          "Power PV"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "-890",
+        "at": "08/26/2013 14:22:06",
+        "max_value": "10590.0",
+        "min_value": "-9817.0",
+        "tags": [
+          "Power Diff"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "0",
+        "at": "08/26/2013 14:22:06",
+        "max_value": "2804.7056",
+        "min_value": "-32768.0",
+        "tags": [
+          "Immersion Heater"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "0",
+        "at": "08/26/2013 14:22:06",
+        "max_value": "2000.0",
+        "min_value": "-11520.0",
+        "tags": [
+          "Boiler Inhibit"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "on/off",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "7",
+        "current_value": "29",
+        "at": "08/26/2013 14:22:06",
+        "max_value": "591.0",
+        "min_value": "0.0",
+        "tags": [
+          "Boiler temp"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "8",
+        "current_value": "28",
+        "at": "08/26/2013 14:22:06",
+        "max_value": "484.0",
+        "min_value": "0.0",
+        "tags": [
+          "Store Temp (1)"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "9",
+        "current_value": "26",
+        "at": "08/26/2013 14:22:06",
+        "max_value": "99.610512",
+        "min_value": "0.0",
+        "tags": [
+          "Store Temp (4)"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "10",
+        "current_value": "23",
+        "at": "08/26/2013 14:22:06",
+        "max_value": "102.3",
+        "min_value": "0.0",
+        "tags": [
+          "Stove Temp"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "11",
+        "current_value": "54",
+        "at": "08/26/2013 14:22:06",
+        "max_value": "96.0",
+        "min_value": "0.0",
+        "tags": [
+          "Hot Water Temp"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "51.1242127578269",
+      "lon": "-1.93359375",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/6955\" >PV, kW and House control system</a>",
+    "URLMostrar": "https://xively.com/feeds/6955"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\6955.json",
+  "DocumentJSON": null
+}

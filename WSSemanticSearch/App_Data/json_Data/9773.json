@@ -1,0 +1,80 @@
+{
+  "Conceptos": [
+    "description"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "9773",
+    "title": "Test1",
+    "Private": false,
+    "tags": null,
+    "description": "Test1 Description",
+    "feed": "https://api.xively.com/v2/feeds/9773.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "05/01/2012 15:53:47",
+    "created": "08/31/2010 13:50:44",
+    "creator": "https://xively.com/users/markus74",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "1",
+        "current_value": "107",
+        "at": "05/01/2012 15:53:37",
+        "max_value": "107.0",
+        "min_value": "100.0",
+        "tags": [
+          "PV"
+        ],
+        "unit": {
+          "symbol": "Kwh",
+          "label": "1",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "0",
+        "current_value": "509",
+        "at": "05/01/2012 15:53:35",
+        "max_value": "509.0",
+        "min_value": "500.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "Fehler 2015",
+        "at": "05/01/2012 15:53:47",
+        "max_value": null,
+        "min_value": null,
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/9773\" >Test1</a>",
+    "URLMostrar": "https://xively.com/feeds/9773"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\9773.json",
+  "DocumentJSON": null
+}

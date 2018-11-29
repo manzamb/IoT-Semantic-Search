@@ -1,0 +1,150 @@
+{
+  "Conceptos": [
+    "carbon monoxide"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "122342",
+    "title": "Workshop",
+    "Private": false,
+    "tags": [
+      "inside raspi raspberry pi airpi"
+    ],
+    "description": "This feed is the outdoor development feed and is prone to being up or down on a whim. The AirQual, NO2 and CO feeds have not yet been calibrated - so the data should be taken relatively. (The AirQual maxes out!)\nThe BMP085 temperature sensor is above the RaspberryPi and is 'warmer' due to the heat from the board. The 'Workshop' temperature is a one wire temp sensor and the one to look at!.",
+    "feed": "https://api.xively.com/v2/feeds/122342.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:00:06",
+    "created": "04/02/2013 20:28:57",
+    "creator": "https://xively.com/users/stephen337",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "AirQual",
+        "current_value": "688",
+        "at": "03/21/2014 14:00:06",
+        "max_value": "1023.0",
+        "min_value": "0.0",
+        "tags": [
+          "AGS 2600 Air Quality"
+        ],
+        "unit": {
+          "symbol": "NA",
+          "label": "None",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "CO",
+        "current_value": "500",
+        "at": "03/21/2014 14:00:06",
+        "max_value": "875.0",
+        "min_value": "0.0",
+        "tags": [
+          "Carbon Monoxide Sensor"
+        ],
+        "unit": {
+          "symbol": "NA",
+          "label": "NA",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "LDR",
+        "current_value": "552",
+        "at": "03/21/2014 14:00:06",
+        "max_value": "1023.0",
+        "min_value": "0.0",
+        "tags": [
+          "Light Sensor"
+        ],
+        "unit": {
+          "symbol": "NA",
+          "label": "None",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "NO",
+        "current_value": "285",
+        "at": "03/21/2014 14:00:06",
+        "max_value": "837.0",
+        "min_value": "0.0",
+        "tags": [
+          "Nitrogen Dioxide"
+        ],
+        "unit": {
+          "symbol": "NA",
+          "label": "NA",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Pressure",
+        "current_value": "1006.4",
+        "at": "03/21/2014 14:00:04",
+        "max_value": "1040.3",
+        "min_value": "974.3",
+        "tags": [
+          "Air Pressure BMP085"
+        ],
+        "unit": {
+          "symbol": "hpa",
+          "label": "hpa",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperature",
+        "current_value": "16.5",
+        "at": "03/21/2014 14:00:04",
+        "max_value": "43.3",
+        "min_value": "1.1",
+        "tags": [
+          "BMP085 Temperature sensor"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Workshop",
+        "current_value": "14.75",
+        "at": "03/21/2014 14:00:03",
+        "max_value": "85.0",
+        "min_value": "1.81",
+        "tags": [
+          "Dallas 1-wire temperature probe"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/122342\" >Workshop</a>",
+    "URLMostrar": "https://xively.com/feeds/122342"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\122342.json",
+  "DocumentJSON": null
+}

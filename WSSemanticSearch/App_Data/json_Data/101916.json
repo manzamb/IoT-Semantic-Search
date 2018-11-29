@@ -1,0 +1,420 @@
+{
+  "Conceptos": [
+    "physical object"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "101916",
+    "title": "SystemMonitor SAE Forlì",
+    "Private": false,
+    "tags": null,
+    "description": "Frolì AVM",
+    "feed": "https://api.xively.com/v2/feeds/101916.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:11:01",
+    "created": "02/01/2013 15:19:52",
+    "creator": "https://xively.com/users/swarcomizar",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "DBENGINE",
+        "current_value": "1987",
+        "at": "03/21/2014 14:10:52",
+        "max_value": "1988.0",
+        "min_value": "-1.0",
+        "tags": [
+          "_DB_Value"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "objects",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "FEP_ConnectedVehicles",
+        "current_value": "207",
+        "at": "03/21/2014 14:10:58",
+        "max_value": "253.0",
+        "min_value": "-1.0",
+        "tags": [
+          "_DB_Value"
+        ],
+        "unit": {
+          "symbol": "veh",
+          "label": "vehicles",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "FLASH_MonitoredPassagesLastHour",
+        "current_value": "7435",
+        "at": "03/21/2014 14:10:32",
+        "max_value": "9490.0",
+        "min_value": "-1.0",
+        "tags": [
+          "_DB_Value"
+        ],
+        "unit": {
+          "symbol": "pass",
+          "label": "passages",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "FN_ConnectedVehicles",
+        "current_value": "180",
+        "at": "03/21/2014 14:10:44",
+        "max_value": "364.0",
+        "min_value": "-1.0",
+        "tags": [
+          "_DB_Value"
+        ],
+        "unit": {
+          "symbol": "veh",
+          "label": "vehicles",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "FN_MonitoredPassagesLastHour",
+        "current_value": "6498",
+        "at": "03/21/2014 14:10:55",
+        "max_value": "8274.0",
+        "min_value": "-1.0",
+        "tags": [
+          "_DB_Value"
+        ],
+        "unit": {
+          "symbol": "pass",
+          "label": "passages",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "FN_RunsNext24Hours",
+        "current_value": "882",
+        "at": "03/21/2014 14:10:37",
+        "max_value": "4772.0",
+        "min_value": "-1.0",
+        "tags": [
+          "_DB_Value"
+        ],
+        "unit": {
+          "symbol": "runs",
+          "label": "runs",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "FN_VehiclesWithRun",
+        "current_value": "123",
+        "at": "03/21/2014 14:10:35",
+        "max_value": "209.0",
+        "min_value": "-1.0",
+        "tags": [
+          "_DB_Value"
+        ],
+        "unit": {
+          "symbol": "veh",
+          "label": "vehicles",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "GPRS_TRAFFIC",
+        "current_value": "1212",
+        "at": "02/02/2013 22:38:45",
+        "max_value": "1212.0",
+        "min_value": "1212.0",
+        "tags": [
+          "_DB_Value"
+        ],
+        "unit": {
+          "symbol": "KB",
+          "label": "KByte",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "IT_ForecastsNextHour",
+        "current_value": "0",
+        "at": "03/21/2014 14:10:43",
+        "max_value": "4759.0",
+        "min_value": "-1.0",
+        "tags": [
+          "_DB_Value"
+        ],
+        "unit": {
+          "symbol": "pass",
+          "label": "passages",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "IU_ForecastsNextHour",
+        "current_value": "2251",
+        "at": "03/21/2014 14:10:13",
+        "max_value": "4729.0",
+        "min_value": "-1.0",
+        "tags": [
+          "_DB_Value"
+        ],
+        "unit": {
+          "symbol": "pass",
+          "label": "passages",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "IU_PassagesNextHour",
+        "current_value": "4061",
+        "at": "03/21/2014 14:10:04",
+        "max_value": "9808.0",
+        "min_value": "-1.0",
+        "tags": [
+          "_DB_Value"
+        ],
+        "unit": {
+          "symbol": "pass",
+          "label": "passages",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "PERF_CPUFLASHDB",
+        "current_value": "49",
+        "at": "03/21/2014 14:10:58",
+        "max_value": "100.0",
+        "min_value": "-1.0",
+        "tags": [
+          "_Perf"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "percentage",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "PERF_CPUFLASHENGINE",
+        "current_value": "21",
+        "at": "03/21/2014 14:11:01",
+        "max_value": "100.0",
+        "min_value": "-1.0",
+        "tags": [
+          "_Perf"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "percentage",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "PROC_BRIDGEPALINE",
+        "current_value": "6412",
+        "at": "03/21/2014 14:10:22",
+        "max_value": "9975816.0",
+        "min_value": "-1.0",
+        "tags": [
+          "_Proc"
+        ],
+        "unit": {
+          "symbol": "PID",
+          "label": "PID",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "PROC_FRONTTCP",
+        "current_value": "444872",
+        "at": "03/21/2014 14:10:22",
+        "max_value": "10033576.0",
+        "min_value": "-1.0",
+        "tags": [
+          "_Proc"
+        ],
+        "unit": {
+          "symbol": "PID",
+          "label": "PID",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "PROC_SYSTEMMANAGER",
+        "current_value": "4156",
+        "at": "03/21/2014 14:10:37",
+        "max_value": "7936.0",
+        "min_value": "-1.0",
+        "tags": [
+          "_Proc"
+        ],
+        "unit": {
+          "symbol": "PID",
+          "label": "PID",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "PROC_WDFLASHDB",
+        "current_value": "5828",
+        "at": "03/21/2014 14:10:22",
+        "max_value": "9976120.0",
+        "min_value": "-1.0",
+        "tags": [
+          "_Proc"
+        ],
+        "unit": {
+          "symbol": "PID",
+          "label": "PID",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "PROC_WDFLASHENGINE",
+        "current_value": "7044",
+        "at": "03/21/2014 14:10:37",
+        "max_value": "8044.0",
+        "min_value": "-1.0",
+        "tags": [
+          "_Proc"
+        ],
+        "unit": {
+          "symbol": "PID",
+          "label": "PID",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "URL_DownloadDir",
+        "current_value": "0",
+        "at": "03/21/2014 14:10:09",
+        "max_value": "56291.0",
+        "min_value": "-1.0",
+        "tags": [
+          "_Url"
+        ],
+        "unit": {
+          "symbol": "ms",
+          "label": "milliseconds",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "URL_Flashnet",
+        "current_value": "0",
+        "at": "03/21/2014 14:10:34",
+        "max_value": "59574.0",
+        "min_value": "-1.0",
+        "tags": [
+          "_Url"
+        ],
+        "unit": {
+          "symbol": "ms",
+          "label": "milliseconds",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "URL_MpkMapsTile",
+        "current_value": "0",
+        "at": "03/21/2014 14:10:07",
+        "max_value": "59244.0",
+        "min_value": "-1.0",
+        "tags": [
+          "_Url"
+        ],
+        "unit": {
+          "symbol": "ms",
+          "label": "milliseconds",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "WS_FrService",
+        "current_value": "32",
+        "at": "03/21/2014 14:10:09",
+        "max_value": "55316.0",
+        "min_value": "-1.0",
+        "tags": [
+          "_WebService"
+        ],
+        "unit": {
+          "symbol": "ms",
+          "label": "milliseconds",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "WS_MogGateway",
+        "current_value": "16",
+        "at": "03/21/2014 14:10:20",
+        "max_value": "58753.0",
+        "min_value": "-1.0",
+        "tags": [
+          "_WebService"
+        ],
+        "unit": {
+          "symbol": "ms",
+          "label": "milliseconds",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "WS_MPK",
+        "current_value": "-1",
+        "at": "03/21/2014 14:10:20",
+        "max_value": "59991.0",
+        "min_value": "-1.0",
+        "tags": [
+          "_WebService"
+        ],
+        "unit": {
+          "symbol": "ms",
+          "label": "milliseconds",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Forlì",
+      "domain": 0,
+      "lat": "44.2289645489711",
+      "lon": "12.0525169372559",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/101916\" >SystemMonitor SAE Forlì</a>",
+    "URLMostrar": "https://xively.com/feeds/101916"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\101916.json",
+  "DocumentJSON": null
+}

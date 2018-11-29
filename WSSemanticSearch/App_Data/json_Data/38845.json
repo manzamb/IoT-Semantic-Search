@@ -1,0 +1,71 @@
+{
+  "Conceptos": [
+    "condition"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "38845",
+    "title": "Mathieu-Gérard - Outside Conditions",
+    "Private": false,
+    "tags": [
+      "temperature",
+      "vera"
+    ],
+    "description": "From wunderground.com (APRSWXNET)",
+    "feed": "https://api.xively.com/v2/feeds/38845.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "11/01/2012 08:45:07",
+    "created": "11/06/2011 16:27:08",
+    "creator": "https://xively.com/users/christophemathieu",
+    "version": null,
+    "website": "http://www.mathieu-gerard.be",
+    "datastreams": [
+      {
+        "id": "1",
+        "current_value": "6.1",
+        "at": "11/01/2012 08:45:06",
+        "max_value": "32.8",
+        "min_value": "-16.7",
+        "tags": [
+          "OutsideActualTemp"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "98",
+        "at": "11/01/2012 08:45:07",
+        "max_value": "100.0",
+        "min_value": "0.0",
+        "tags": [
+          "OutsideHumidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "49.8748773848984",
+      "lon": "5.55004566907883",
+      "ele": "450",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/38845\" >Mathieu-Gérard - Outside Conditions</a>",
+    "URLMostrar": "https://xively.com/feeds/38845"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\38845.json",
+  "DocumentJSON": null
+}

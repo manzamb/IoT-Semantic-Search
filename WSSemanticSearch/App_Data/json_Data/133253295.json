@@ -1,0 +1,136 @@
+{
+  "Conceptos": [
+    "system"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "133253295",
+    "title": "berry-stats",
+    "Private": false,
+    "tags": [
+      "raspberry",
+      "telemetry"
+    ],
+    "description": "My Raspberry pi system state (temp, load, etc)",
+    "feed": "https://api.xively.com/v2/feeds/133253295.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:10:04",
+    "created": "05/14/2013 17:47:19",
+    "creator": "https://xively.com/users/positron",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "CPUTemp",
+        "current_value": "47.08",
+        "at": "03/21/2014 14:10:02",
+        "max_value": "50.84",
+        "min_value": "34.7",
+        "tags": [
+          "cpu",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Humidity",
+        "current_value": "32.00",
+        "at": "03/21/2014 14:10:02",
+        "max_value": "38.0",
+        "min_value": "0.0",
+        "tags": [
+          "humidity",
+          "indoor"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Light",
+        "current_value": "0",
+        "at": "03/21/2014 14:10:02",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "SysLoad",
+        "current_value": "4.00",
+        "at": "03/21/2014 14:10:02",
+        "max_value": "281.0",
+        "min_value": "0.01",
+        "tags": [
+          "linux load"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "SysUptime",
+        "current_value": "0.853729",
+        "at": "03/21/2014 14:10:02",
+        "max_value": "22.906317",
+        "min_value": "0.000718",
+        "tags": [
+          "uptime"
+        ],
+        "unit": {
+          "symbol": "d",
+          "label": "Days",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temp",
+        "current_value": "28.00",
+        "at": "03/21/2014 14:10:02",
+        "max_value": "31.0",
+        "min_value": "0.0",
+        "tags": [
+          "Indoor",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Home",
+      "domain": 0,
+      "lat": "54.8830013884607",
+      "lon": "83.0854235673828",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/133253295\" >berry-stats</a>",
+    "URLMostrar": "https://xively.com/feeds/133253295"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\133253295.json",
+  "DocumentJSON": null
+}

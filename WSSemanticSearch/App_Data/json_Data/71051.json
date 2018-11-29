@@ -1,0 +1,166 @@
+{
+  "Conceptos": [
+    "atmospheric pressure"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "71051",
+    "title": "My Office",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "CPM Radiation",
+      "pressure",
+      "sparkfun",
+      "temperature"
+    ],
+    "description": "Temperature, Humidity, Atmospheric Pressure, and Ionizing radiation using Arduino and a few odds and ends from Sparkfun",
+    "feed": "https://api.xively.com/v2/feeds/71051.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "05/22/2013 12:28:06",
+    "created": "08/14/2012 10:14:50",
+    "creator": "https://xively.com/users/mwilkes",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "dewpoint",
+        "current_value": "9.4",
+        "at": "05/22/2013 12:28:10",
+        "max_value": "20.8",
+        "min_value": "0.3",
+        "tags": null,
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "humidity",
+        "current_value": "52.6",
+        "at": "05/22/2013 12:28:10",
+        "max_value": "74.2",
+        "min_value": "31.3",
+        "tags": [
+          "SHT15 Sensor"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "pressure",
+        "current_value": "1017.72",
+        "at": "05/22/2013 12:28:10",
+        "max_value": "1205.38",
+        "min_value": "622.51",
+        "tags": [
+          "BMP085 Sensor"
+        ],
+        "unit": {
+          "symbol": "hPa",
+          "label": "hPa",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "radiation",
+        "current_value": "0",
+        "at": "05/22/2013 12:28:10",
+        "max_value": "1077.0",
+        "min_value": "0.0",
+        "tags": [
+          "LM712 Sensor - Mulitiply by 0.01 for uSv/Hr"
+        ],
+        "unit": {
+          "symbol": "CPM",
+          "label": "CPM",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "radiation_alert",
+        "current_value": "0",
+        "at": "05/22/2013 12:28:10",
+        "max_value": "768.0",
+        "min_value": "0.0",
+        "tags": [
+          "LM712 Sensor"
+        ],
+        "unit": {
+          "symbol": "CPM",
+          "label": "CPM",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "radiation_raw",
+        "current_value": "0",
+        "at": "05/22/2013 12:28:10",
+        "max_value": "768.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temperature",
+        "current_value": "19.2",
+        "at": "05/22/2013 12:28:10",
+        "max_value": "92.7",
+        "min_value": "12.3",
+        "tags": [
+          "BMP085 Sensor"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temperature_2",
+        "current_value": "19.3",
+        "at": "05/22/2013 12:28:10",
+        "max_value": "26.5",
+        "min_value": "12.2",
+        "tags": [
+          "SHT15 Sensor"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Home",
+      "domain": 0,
+      "lat": "53.0196871450123",
+      "lon": "-6.13382577896118",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/71051\" >My Office</a>",
+    "URLMostrar": "https://xively.com/feeds/71051"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\71051.json",
+  "DocumentJSON": null
+}

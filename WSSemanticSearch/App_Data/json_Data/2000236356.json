@@ -1,0 +1,68 @@
+{
+  "Conceptos": [
+    "environment"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "2000236356",
+    "title": "Arduino flame ",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/2000236356.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "12/30/2013 20:25:58",
+    "created": "12/28/2013 12:52:36",
+    "creator": "https://xively.com/users/ard10n",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "IRflame",
+        "current_value": "377.00",
+        "at": "12/30/2013 20:25:57",
+        "max_value": "1021.0",
+        "min_value": "0.0",
+        "tags": [
+          "Ir flame sensor"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "LDR",
+        "current_value": "187.00",
+        "at": "12/30/2013 20:25:57",
+        "max_value": "790.0",
+        "min_value": "0.0",
+        "tags": [
+          "Environmental light"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Au",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "52.3491244874451",
+      "lon": "4.77885272322931",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/2000236356\" >Arduino flame </a>",
+    "URLMostrar": "https://xively.com/feeds/2000236356"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\2000236356.json",
+  "DocumentJSON": null
+}

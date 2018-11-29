@@ -1,0 +1,56 @@
+{
+  "Conceptos": [
+    "accuracy"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "56567",
+    "title": "Reading from Geiger1060044 (Testing)",
+    "Private": false,
+    "tags": [
+      "sensor:model=lnd-712",
+      "sensor:type=radiation"
+    ],
+    "description": "Reading from LND712 Geiger tube in µSv/h\r\n\r\nNon Calibrated. Accuracy not guaranteed.",
+    "feed": "https://api.xively.com/v2/feeds/56567.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "04/25/2012 12:38:48",
+    "created": "04/20/2012 13:43:23",
+    "creator": "https://xively.com/users/iyerx",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "1",
+        "current_value": "0.00-538",
+        "at": "04/25/2012 12:38:48",
+        "max_value": "48.967",
+        "min_value": "0.0",
+        "tags": [
+          "sensor:model=lnd-712",
+          "sensor:type=radiation"
+        ],
+        "unit": {
+          "symbol": "µSv/h",
+          "label": "microsievert/hour",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Minato-ku, Tokyo, Japan",
+      "domain": 0,
+      "lat": "35.6565",
+      "lon": "139.74512",
+      "ele": "25",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/56567\" >Reading from Geiger1060044 (Testing)</a>",
+    "URLMostrar": "https://xively.com/feeds/56567"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\56567.json",
+  "DocumentJSON": null
+}

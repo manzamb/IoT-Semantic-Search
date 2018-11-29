@@ -1,0 +1,68 @@
+{
+  "Conceptos": [
+    "o3"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "102496",
+    "title": "Arduino Rainwater Tank level 2m³",
+    "Private": false,
+    "tags": [
+      "arduino"
+    ],
+    "description": "This is a level measurement used to measure my rainwater tank the program is written for arduino and is developed by Joeri Gantois, Wim de Bonte and Erik de Cock. It works with a DFRobot URM V3.2 Ultrasonic Sensor .It sends a ultrasonic signal to the water and count the time between sending and receiving the signal. The lower the water the longer it takes to receive the sended signal. I downloaded the code (sketch) from http://www.jo3ri.be/arduino. Joeri helped me to finetune the arduino program so I can use it for my level measurement. I use the water to flush my toilets and for cleaning purposes. I use appox. 44m³ Rainwater a year. I want to use the program also to stop an (hydrofoor) pump if the level is too low. A valve should be activated so the toilets will be flushed with drinking water. The stopping of the pump en opening en closing of the valve has still to be programmed.",
+    "feed": "https://api.xively.com/v2/feeds/102496.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:12:14",
+    "created": "02/04/2013 15:54:10",
+    "creator": "https://xively.com/users/smitex2",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Container1",
+        "current_value": "93",
+        "at": "03/21/2014 14:12:14",
+        "max_value": "100.0",
+        "min_value": "0.0",
+        "tags": [
+          "Rainwatertank Level"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Container2",
+        "current_value": "100",
+        "at": "03/21/2014 09:06:00",
+        "max_value": "100.0",
+        "min_value": "100.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "53.3341533362037",
+      "lon": "6.91864013671875",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/102496\" >Arduino Rainwater Tank level 2m³</a>",
+    "URLMostrar": "https://xively.com/feeds/102496"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\102496.json",
+  "DocumentJSON": null
+}

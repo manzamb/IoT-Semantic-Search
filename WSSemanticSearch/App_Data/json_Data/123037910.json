@@ -1,0 +1,116 @@
+{
+  "Conceptos": [
+    "physical"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "123037910",
+    "title": "Home Automation",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/123037910.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/13/2014 12:50:22",
+    "created": "07/10/2013 19:54:19",
+    "creator": "https://xively.com/users/leightonolds",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "20.80",
+        "at": "03/13/2014 12:50:20",
+        "max_value": "100.0",
+        "min_value": "-20.0",
+        "tags": [
+          "Hub_Temp"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "12.10",
+        "at": "03/13/2014 12:50:20",
+        "max_value": "100.0",
+        "min_value": "-20.0",
+        "tags": [
+          "Outside_Temp"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "12.80",
+        "at": "03/13/2014 12:50:20",
+        "max_value": "100.0",
+        "min_value": "-20.0",
+        "tags": [
+          "Inside_Temp"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "140.00",
+        "at": "03/13/2014 12:50:20",
+        "max_value": "8000.0",
+        "min_value": "0.0",
+        "tags": [
+          "Power_Usage"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "W",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "0.00",
+        "at": "03/13/2014 12:50:20",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "Hub_Fan"
+        ],
+        "unit": {
+          "symbol": "On/Off",
+          "label": "On/Off",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Newport",
+      "domain": 0,
+      "lat": "51.584151",
+      "lon": "-2.99766399999999",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/123037910\" >Home Automation</a>",
+    "URLMostrar": "https://xively.com/feeds/123037910"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\123037910.json",
+  "DocumentJSON": null
+}

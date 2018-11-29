@@ -1,0 +1,184 @@
+{
+  "Conceptos": [
+    "system"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "1868216585",
+    "title": "RPiAlive",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/1868216585.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:10:09",
+    "created": "11/18/2013 21:37:41",
+    "creator": "https://xively.com/users/jburdy",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "LoadAvg05min",
+        "current_value": "0.04",
+        "at": "03/21/2014 14:10:02",
+        "max_value": "0.36",
+        "min_value": "0.01",
+        "tags": [
+          "average system load"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "LA 5 min",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "LoadAvg15min",
+        "current_value": "0.05",
+        "at": "03/21/2014 14:10:03",
+        "max_value": "0.22",
+        "min_value": "0.03",
+        "tags": [
+          "average system load"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "LA 15min",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "MemActive",
+        "current_value": "33.08984375",
+        "at": "03/21/2014 14:10:04",
+        "max_value": "38.3671875",
+        "min_value": "10.3203125",
+        "tags": null,
+        "unit": {
+          "symbol": "MB",
+          "label": "Megabyte",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "spaceAvailableRoot",
+        "current_value": "920864",
+        "at": "03/21/2014 14:10:07",
+        "max_value": "923744.0",
+        "min_value": "876372.0",
+        "tags": [
+          "/dev/root"
+        ],
+        "unit": {
+          "symbol": "kB",
+          "label": "Kilobyte",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "spaceUsedPercent",
+        "current_value": "42",
+        "at": "03/21/2014 14:10:08",
+        "max_value": "45.0",
+        "min_value": "42.0",
+        "tags": [
+          "/dev/root/"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "tempCPU",
+        "current_value": "33.628",
+        "at": "03/21/2014 14:10:05",
+        "max_value": "44.388",
+        "min_value": "25.558",
+        "tags": null,
+        "unit": {
+          "symbol": "°C",
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "tempGPU",
+        "current_value": "34.2",
+        "at": "03/21/2014 14:10:05",
+        "max_value": "44.4",
+        "min_value": "25.0",
+        "tags": null,
+        "unit": {
+          "symbol": "°C",
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "WifiLevel",
+        "current_value": "62",
+        "at": "03/21/2014 14:10:08",
+        "max_value": "72.0",
+        "min_value": "-83.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "WifiLink",
+        "current_value": "96",
+        "at": "03/21/2014 14:10:08",
+        "max_value": "100.0",
+        "min_value": "27.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "WifiNoise",
+        "current_value": "0",
+        "at": "03/21/2014 14:10:09",
+        "max_value": "0.0",
+        "min_value": "-25.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/1868216585\" >RPiAlive</a>",
+    "URLMostrar": "https://xively.com/feeds/1868216585"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\1868216585.json",
+  "DocumentJSON": null
+}

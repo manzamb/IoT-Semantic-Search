@@ -1,0 +1,186 @@
+{
+  "Conceptos": [
+    "horn"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "50331",
+    "title": "Kildals Fjernvarme",
+    "Private": false,
+    "tags": [
+      "1-wire",
+      "arduino",
+      "kamstrup",
+      "linksys wrt54gl",
+      "multical 601"
+    ],
+    "description": "Linksys WRT54GL with a built in Arduino.\r\nArduino communicates using optical IR with a Kamstrup Multical 601 energy meter.\r\nIt also monitors local room temperature using a 1-wire sensor.\r\nA bash script on the WRT54GL (OpenWRT) then uploads the data to pachube every 5 minutes.",
+    "feed": "https://api.xively.com/v2/feeds/50331.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "09/05/2013 19:47:09",
+    "created": "03/03/2012 00:29:04",
+    "creator": "https://xively.com/users/nkildal",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "29233.00",
+        "at": "09/05/2013 19:47:09",
+        "max_value": "29233.0",
+        "min_value": "5.0",
+        "tags": [
+          "Energy total"
+        ],
+        "unit": {
+          "symbol": "kWh",
+          "label": "kWh",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "1.20",
+        "at": "09/05/2013 19:47:09",
+        "max_value": "60.52",
+        "min_value": "0.1",
+        "tags": [
+          "Energy actual"
+        ],
+        "unit": {
+          "symbol": "kWh",
+          "label": "kW",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "53.14",
+        "at": "09/05/2013 19:47:09",
+        "max_value": "83.96",
+        "min_value": "19.93",
+        "tags": [
+          "Temp In"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Temp In",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "34.12",
+        "at": "09/05/2013 19:47:09",
+        "max_value": "67.93",
+        "min_value": "12.42",
+        "tags": [
+          "Temp Out"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "19.02",
+        "at": "09/05/2013 19:47:09",
+        "max_value": "79.0",
+        "min_value": "0.28",
+        "tags": [
+          "Temp Diff"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "57.00",
+        "at": "09/05/2013 19:47:09",
+        "max_value": "763.0",
+        "min_value": "0.41",
+        "tags": [
+          "Flow"
+        ],
+        "unit": {
+          "symbol": "ltr/h",
+          "label": "ltr/h",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "1327.15",
+        "at": "09/05/2013 19:47:09",
+        "max_value": "1327.15",
+        "min_value": "0.41",
+        "tags": [
+          "Volumen In"
+        ],
+        "unit": {
+          "symbol": "m3",
+          "label": "m3",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "7",
+        "current_value": "1322.23",
+        "at": "09/05/2013 19:47:09",
+        "max_value": "1322.23",
+        "min_value": "0.43",
+        "tags": [
+          "Volumen Out"
+        ],
+        "unit": {
+          "symbol": "m3",
+          "label": "m3",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "8",
+        "current_value": "29.75",
+        "at": "09/05/2013 19:47:09",
+        "max_value": "35.12",
+        "min_value": "15.62",
+        "tags": [
+          "Indoor"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Hørning, Århus, Denmark",
+      "domain": 0,
+      "lat": "56.0844891262612",
+      "lon": "10.0304746627808",
+      "ele": "0",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/50331\" >Kildals Fjernvarme</a>",
+    "URLMostrar": "https://xively.com/feeds/50331"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\50331.json",
+  "DocumentJSON": null
+}

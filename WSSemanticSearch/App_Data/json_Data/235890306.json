@@ -1,0 +1,68 @@
+{
+  "Conceptos": [
+    "moisture"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "235890306",
+    "title": "Garduino",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/235890306.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "05/18/2013 14:17:15",
+    "created": "05/18/2013 11:59:31",
+    "creator": "https://xively.com/users/greenspand",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "GarduRead",
+        "current_value": "1023.00",
+        "at": "05/18/2013 14:17:15",
+        "max_value": "1023.0",
+        "min_value": "0.0",
+        "tags": [
+          "moisture"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "GarduTrigger",
+        "current_value": null,
+        "at": "05/18/2013 13:33:29",
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "triggers pump event"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/235890306\" >Garduino</a>",
+    "URLMostrar": "https://xively.com/feeds/235890306"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\235890306.json",
+  "DocumentJSON": null
+}

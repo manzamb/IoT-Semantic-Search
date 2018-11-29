@@ -1,0 +1,136 @@
+{
+  "Conceptos": [
+    "precipitation"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "536",
+    "title": "Braggs of Surbiton (Weather Underground)",
+    "Private": false,
+    "tags": null,
+    "description": "A weather station in Surbiton",
+    "feed": "https://api.xively.com/v2/feeds/536.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "04/14/2013 16:31:50",
+    "created": "09/07/2008 17:30:49",
+    "creator": "https://xively.com/users/booyaa",
+    "version": null,
+    "website": "http://booyaa.org/projects/pachube/",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "11.4",
+        "at": "04/14/2013 16:31:50",
+        "max_value": "31.9",
+        "min_value": "-7.9",
+        "tags": [
+          "celsius",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "83",
+        "at": "04/14/2013 16:31:50",
+        "max_value": "99.0",
+        "min_value": "13.0",
+        "tags": [
+          "humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "percentage",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "186",
+        "at": "04/14/2013 16:31:50",
+        "max_value": "360.0",
+        "min_value": "0.0",
+        "tags": [
+          "degree",
+          "direction",
+          "wind"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "degree",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "6.0",
+        "at": "04/14/2013 16:31:50",
+        "max_value": "18.0",
+        "min_value": "0.0",
+        "tags": [
+          "speed",
+          "wind"
+        ],
+        "unit": {
+          "symbol": "mph",
+          "label": "miles per hour",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "1010.0",
+        "at": "04/14/2013 16:31:50",
+        "max_value": "1036.8",
+        "min_value": "0.0",
+        "tags": [
+          "pressure"
+        ],
+        "unit": {
+          "symbol": "mb",
+          "label": "barometric pressure",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "0.0",
+        "at": "04/14/2013 16:31:50",
+        "max_value": "2.6",
+        "min_value": "0.0",
+        "tags": [
+          "precipitation"
+        ],
+        "unit": {
+          "symbol": "mm",
+          "label": "millimetre",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Braggs of Surbiton (Weather Underground)",
+      "domain": 0,
+      "lat": "51.39",
+      "lon": "-0.283",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/536\" >Braggs of Surbiton (Weather Underground)</a>",
+    "URLMostrar": "https://xively.com/feeds/536"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\536.json",
+  "DocumentJSON": null
+}

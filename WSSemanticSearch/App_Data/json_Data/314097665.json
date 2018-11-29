@@ -1,0 +1,188 @@
+{
+  "Conceptos": [
+    "humidity"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "314097665",
+    "title": "Arduino",
+    "Private": false,
+    "tags": [
+      "co",
+      "humidity",
+      "light",
+      "no2",
+      "particulate matter",
+      "temperature",
+      "voc"
+    ],
+    "description": "Arduino with various sensors hooked up to a Raspberry Pi.",
+    "feed": "https://api.xively.com/v2/feeds/314097665.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "02/05/2014 14:03:18",
+    "created": "05/22/2013 06:16:16",
+    "creator": "https://xively.com/users/kelvinn",
+    "version": null,
+    "website": "http://www.kelvinism.com",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "229.797",
+        "at": "02/05/2014 14:03:16",
+        "max_value": "50547.79",
+        "min_value": "37.24",
+        "tags": [
+          "> 1 micron"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "particles per 0.01 cubic feet air",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "0.442",
+        "at": "02/05/2014 14:03:11",
+        "max_value": "31.927",
+        "min_value": "0.07",
+        "tags": [
+          "ratio"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "34.0",
+        "at": "02/05/2014 14:02:20",
+        "max_value": "123.0",
+        "min_value": "13.0",
+        "tags": [
+          "relative humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "26.0",
+        "at": "02/05/2014 14:03:12",
+        "max_value": "30.0",
+        "min_value": "15.0",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "358.762",
+        "at": "02/05/2014 14:03:15",
+        "max_value": "37636.28",
+        "min_value": "2.887",
+        "tags": [
+          "light"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "144.833",
+        "at": "02/05/2014 14:03:17",
+        "max_value": "287805.33",
+        "min_value": "78.167",
+        "tags": [
+          "air quality"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "2227",
+        "at": "02/05/2014 14:03:10",
+        "max_value": "3536.0",
+        "min_value": "821.0",
+        "tags": [
+          "vpd"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Pa",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "7",
+        "current_value": "8.553",
+        "at": "02/05/2014 14:03:18",
+        "max_value": "19.45",
+        "min_value": "1.172",
+        "tags": [
+          "no2"
+        ],
+        "unit": {
+          "symbol": "ri",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "8",
+        "current_value": "188.5",
+        "at": "02/05/2014 14:03:14",
+        "max_value": "610.833",
+        "min_value": "42.0",
+        "tags": [
+          "co"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "-33.8234435",
+      "lon": "151.1935829",
+      "ele": "30",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/314097665\" >Arduino</a>",
+    "URLMostrar": "https://xively.com/feeds/314097665"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\314097665.json",
+  "DocumentJSON": null
+}

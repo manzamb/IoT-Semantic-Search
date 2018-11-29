@@ -1,0 +1,180 @@
+{
+  "Conceptos": [
+    "community"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "6260",
+    "title": "MacBook Temperature Sensors",
+    "Private": false,
+    "tags": null,
+    "description": "My first data!\r\nStreaming my MacBook Temperature sensors data. Data are retrieved by Hardware Monitor using these notes http://www.bresink.com/osx/216202/Docs-de/commandline.html and a simple bash script to feed pachube adapted from http://community.pachube.com/api\r\n\r\nHave fun!",
+    "feed": "https://api.xively.com/v2/feeds/6260.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "04/06/2012 20:00:59",
+    "created": "03/13/2010 14:50:58",
+    "creator": "https://xively.com/users/kidpixo",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "66",
+        "at": "04/06/2012 20:00:59",
+        "max_value": "86.0",
+        "min_value": "-1.52588e-05",
+        "tags": [
+          "CPU Core 1"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Centigrade",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "61",
+        "at": "04/06/2012 20:00:59",
+        "max_value": "84.0",
+        "min_value": "-1.52588e-05",
+        "tags": [
+          "CPU Core 2"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Centigrade",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "63",
+        "at": "04/06/2012 20:00:59",
+        "max_value": "90.0",
+        "min_value": "35.0",
+        "tags": [
+          "SMC CPU A DIODE"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Centigrade",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "29",
+        "at": "04/06/2012 20:00:59",
+        "max_value": "38.0",
+        "min_value": "21.0",
+        "tags": [
+          "SMC ENCLOSURE BOTTOMSIDE"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Centigrade",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "57",
+        "at": "04/06/2012 20:00:59",
+        "max_value": "76.0",
+        "min_value": "30.0",
+        "tags": [
+          "SMC MAIN HEAT SINK 1"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Centigrade",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "56",
+        "at": "04/06/2012 20:00:59",
+        "max_value": "75.0",
+        "min_value": "28.0",
+        "tags": [
+          "SMC MAIN HEAT SINK 2"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Centigrade",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "51",
+        "at": "04/06/2012 20:00:59",
+        "max_value": "56.0",
+        "min_value": "29.0",
+        "tags": [
+          "SMC MEMORY BANK A POS 1"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Centigrade",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "7",
+        "current_value": "55",
+        "at": "04/06/2012 20:00:59",
+        "max_value": "64.0",
+        "min_value": "27.0",
+        "tags": [
+          "SMC NORTHBRIDGE POS 1"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Centigrade",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "8",
+        "current_value": "55",
+        "at": "04/06/2012 20:00:59",
+        "max_value": "66.0",
+        "min_value": "26.0",
+        "tags": [
+          "SMC NORTHBRIDGE POS 2"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Centigrade",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Home",
+      "domain": 0,
+      "lat": "52.4692399821548",
+      "lon": "13.4321165084839",
+      "ele": "3",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/6260\" >MacBook Temperature Sensors</a>",
+    "URLMostrar": "https://xively.com/feeds/6260"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\6260.json",
+  "DocumentJSON": null
+}

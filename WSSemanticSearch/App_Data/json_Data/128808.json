@@ -1,0 +1,58 @@
+{
+  "Conceptos": [
+    "thermocouple"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "128808",
+    "title": "Labview Temp Feed - NI 9211 and J Type",
+    "Private": false,
+    "tags": [
+      "Feed",
+      "J Type",
+      "Labview",
+      "NI9211",
+      "Temp"
+    ],
+    "description": "Standalone Labview Application streaming Temperature Data from a USB NI-9211",
+    "feed": "https://api.xively.com/v2/feeds/128808.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "08/21/2013 15:16:19",
+    "created": "05/02/2013 08:38:18",
+    "creator": "https://xively.com/users/nickholland",
+    "version": null,
+    "website": "http://www.itwswitches.co.uk",
+    "datastreams": [
+      {
+        "id": "Temp",
+        "current_value": "24.50",
+        "at": "08/21/2013 15:16:19",
+        "max_value": "492.96",
+        "min_value": "16.74",
+        "tags": [
+          "J Type Thermocouple"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "degrees C",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "ITW Switches",
+      "domain": 0,
+      "lat": "50.8302146525127",
+      "lon": "-1.06520175933838",
+      "ele": "1",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/128808\" >Labview Temp Feed - NI 9211 and J Type</a>",
+    "URLMostrar": "https://xively.com/feeds/128808"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\128808.json",
+  "DocumentJSON": null
+}

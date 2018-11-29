@@ -1,0 +1,107 @@
+{
+  "Conceptos": [
+    "carbon monoxide"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "9233",
+    "title": "FACT Air Quality Monitor",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/9233.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/30/2011 10:45:54",
+    "created": "08/04/2010 23:14:25",
+    "creator": "https://xively.com/users/amcewen",
+    "version": null,
+    "website": "http://www.mcqn.com/weblog/environmental_monitoring_roof_fact",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "88",
+        "at": "03/30/2011 10:45:54",
+        "max_value": "234.0",
+        "min_value": "42.0",
+        "tags": [
+          "air",
+          "air quality",
+          "gas"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "63",
+        "at": "03/30/2011 10:45:54",
+        "max_value": "170.0",
+        "min_value": "27.0",
+        "tags": [
+          "gas",
+          "LPG"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "107",
+        "at": "03/30/2011 10:45:54",
+        "max_value": "961.0",
+        "min_value": "36.0",
+        "tags": [
+          "carbon monoxide",
+          "CO",
+          "gas"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "825",
+        "at": "03/30/2011 10:45:54",
+        "max_value": "1023.0",
+        "min_value": "21.0",
+        "tags": [
+          "gas",
+          "O3",
+          "ozone"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Liverpool",
+      "domain": 0,
+      "lat": "53.4026559",
+      "lon": "-2.9783678",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/9233\" >FACT Air Quality Monitor</a>",
+    "URLMostrar": "https://xively.com/feeds/9233"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\9233.json",
+  "DocumentJSON": null
+}

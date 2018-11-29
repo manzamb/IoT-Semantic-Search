@@ -1,0 +1,114 @@
+{
+  "Conceptos": [
+    "descrizione"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "22023",
+    "title": "Test",
+    "Private": false,
+    "tags": null,
+    "description": "descrizione",
+    "feed": "https://api.xively.com/v2/feeds/22023.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "04/07/2011 17:30:44",
+    "created": "04/05/2011 14:07:40",
+    "creator": "https://xively.com/users/metertest3",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "3",
+        "at": "04/07/2011 17:30:44",
+        "max_value": "22.99",
+        "min_value": "1.0",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "1031",
+        "at": "04/05/2011 15:29:53",
+        "max_value": "1031.0",
+        "min_value": "1001.0",
+        "tags": [
+          "Consumption 1"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "0.4",
+        "at": "04/05/2011 15:29:53",
+        "max_value": "0.4",
+        "min_value": "0.2",
+        "tags": [
+          "Consumption 2"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "0.35",
+        "at": "04/05/2011 15:29:53",
+        "max_value": "0.35",
+        "min_value": "0.3",
+        "tags": [
+          "Consumption 3"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": null,
+        "at": null,
+        "max_value": null,
+        "min_value": null,
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "roma",
+      "domain": 0,
+      "lat": "43.8940751131322",
+      "lon": "11.0741972923279",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/22023\" >Test</a>",
+    "URLMostrar": "https://xively.com/feeds/22023"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\22023.json",
+  "DocumentJSON": null
+}

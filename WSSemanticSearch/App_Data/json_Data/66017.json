@@ -1,0 +1,103 @@
+{
+  "Conceptos": [
+    "wind"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "66017",
+    "title": "Office ",
+    "Private": false,
+    "tags": [
+      "office",
+      "temperature"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/66017.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:07:22",
+    "created": "07/04/2012 00:44:10",
+    "creator": "https://xively.com/users/windley",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "AvgTemperature",
+        "current_value": "69",
+        "at": "03/21/2014 14:07:21",
+        "max_value": "80.5",
+        "min_value": "0.0",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "MaxTargetTemp",
+        "current_value": "80",
+        "at": "03/21/2014 14:07:21",
+        "max_value": "82.0",
+        "min_value": "0.0",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "MinTargetTemp",
+        "current_value": "62",
+        "at": "03/21/2014 14:07:22",
+        "max_value": "78.0",
+        "min_value": "0.0",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperature",
+        "current_value": "69",
+        "at": "03/21/2014 14:07:21",
+        "max_value": "80.5",
+        "min_value": "-1.0",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "F",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Kynetx Office",
+      "domain": 0,
+      "lat": "40.4300929663737",
+      "lon": "-111.899313926697",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/66017\" >Office </a>",
+    "URLMostrar": "https://xively.com/feeds/66017"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\66017.json",
+  "DocumentJSON": null
+}

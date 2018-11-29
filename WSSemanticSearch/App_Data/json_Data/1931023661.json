@@ -1,0 +1,562 @@
+{
+  "Conceptos": [
+    "temperature"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "1931023661",
+    "title": "PAC",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/1931023661.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:09:49",
+    "created": "11/01/2013 21:17:14",
+    "creator": "https://xively.com/users/mhy239",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "13V3V_ECS",
+        "current_value": "0.00",
+        "at": "03/21/2014 14:03:40",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "Etat V3V dérivation vers charge ECS"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "14V3V_Byp",
+        "current_value": "0.00",
+        "at": "03/21/2014 14:03:41",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "Etat V3V bypass serpentin ROTEX"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "23NbH_PAC",
+        "current_value": "7788.00",
+        "at": "03/21/2014 14:03:50",
+        "max_value": "7788.0",
+        "min_value": "0.0",
+        "tags": [
+          "Nombre d'heures de fonctionnement du compresseur"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "24NbH_App",
+        "current_value": "2240.00",
+        "at": "03/21/2014 14:03:53",
+        "max_value": "2240.0",
+        "min_value": "0.0",
+        "tags": [
+          "Nombre d'heures de marche appoint electrique"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "25NbH_Byp",
+        "current_value": "74.00",
+        "at": "03/21/2014 14:03:54",
+        "max_value": "74.0",
+        "min_value": "0.0",
+        "tags": [
+          "Nombre d'heure de fonctionnement en bypass serpentin ROTEX"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "26NbH_ECS",
+        "current_value": "439.00",
+        "at": "03/21/2014 14:03:56",
+        "max_value": "439.0",
+        "min_value": "0.0",
+        "tags": [
+          "Nombre d'heure de production d'ECS"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "02Temp_Ext",
+        "current_value": "11.13",
+        "at": "03/21/2014 14:06:53",
+        "max_value": "19.25",
+        "min_value": "-2.88",
+        "tags": [
+          "Température extérieure"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "30IndexHC",
+        "current_value": "15062.40",
+        "at": "03/21/2014 14:02:57",
+        "max_value": "15062.4",
+        "min_value": "0.0",
+        "tags": [
+          "Index consommation d'energie en Heure creuse"
+        ],
+        "unit": {
+          "symbol": "kWh",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "31IndexHP",
+        "current_value": "10808.88",
+        "at": "03/21/2014 14:02:58",
+        "max_value": "10808.88",
+        "min_value": "0.0",
+        "tags": [
+          "Index consommation d'energie en Heure pleine"
+        ],
+        "unit": {
+          "symbol": "kWh",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "03Temp_Int",
+        "current_value": "21.00",
+        "at": "03/21/2014 14:03:20",
+        "max_value": "23.5",
+        "min_value": "-0.37",
+        "tags": [
+          "Température intérieurs"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "12Pompe_PC",
+        "current_value": "0.00",
+        "at": "03/21/2014 14:03:38",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "Etat fonctionnement Pompe circulateur chauffage PAC"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "17Stat_BSK",
+        "current_value": "1.00",
+        "at": "03/21/2014 14:03:47",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "Etat contact blocage production d'energie"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "18Stat_Con",
+        "current_value": "0.00",
+        "at": "03/21/2014 14:09:28",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "Etat contact mode confort"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "27NbXX_PAC",
+        "current_value": "406.00",
+        "at": "03/21/2014 14:03:57",
+        "max_value": "406.0",
+        "min_value": "0.0",
+        "tags": [
+          "Nombre de dizaine de mise en marche du compresseur PAC"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "28NbXX_App",
+        "current_value": "168.00",
+        "at": "03/21/2014 14:03:59",
+        "max_value": "168.0",
+        "min_value": "0.0",
+        "tags": [
+          "Nombre de dizaine de mise en marche Appoint électrique"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "29NbXX_ECS",
+        "current_value": "4.00",
+        "at": "03/21/2014 14:04:01",
+        "max_value": "4.0",
+        "min_value": "0.0",
+        "tags": [
+          "Nombre de dizaine de mise en marche de production ECS"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "04T_Dep_PAC",
+        "current_value": "30.62",
+        "at": "03/21/2014 14:09:47",
+        "max_value": "46.0",
+        "min_value": "0.0",
+        "tags": [
+          "Température départ chauffage PAC"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "05T_Ret_PAC",
+        "current_value": "32.25",
+        "at": "03/21/2014 14:09:48",
+        "max_value": "48.13",
+        "min_value": "0.0",
+        "tags": [
+          "Température retour chauffage PAC"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "00Status_RDO",
+        "current_value": "ON Le 21/3 15:10",
+        "at": "03/21/2014 14:09:29",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "Validité des données selon tempo \"Last updated\""
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "20Stat_PAC1",
+        "current_value": "17.00",
+        "at": "03/21/2014 14:03:49",
+        "max_value": "40.0",
+        "min_value": "0.0",
+        "tags": [
+          "Status Etat Fonctionnement PAC"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "21Puissance",
+        "current_value": "0.00",
+        "at": "03/21/2014 14:02:54",
+        "max_value": "4550.0",
+        "min_value": "0.0",
+        "tags": [
+          "Puissance en cours d'utilisation"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "VA",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "22Intensite",
+        "current_value": "0.00",
+        "at": "03/21/2014 14:02:53",
+        "max_value": "18.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "19PeriodeEDF",
+        "current_value": "1.00",
+        "at": "03/21/2014 14:09:06",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "1 = Heure pleine / 0 = Heure creuse"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "01T_Stock_ECS",
+        "current_value": "76.00",
+        "at": "03/21/2014 14:09:17",
+        "max_value": "77.33",
+        "min_value": "0.0",
+        "tags": [
+          "Température stockage ECS dans cuve ROTEX"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "15Appoint_Elec",
+        "current_value": "0.00",
+        "at": "03/21/2014 14:03:43",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "Etat fonctionnement Appoint electrique"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "08Temp_Vers_Geo",
+        "current_value": "12.50",
+        "at": "03/21/2014 14:03:32",
+        "max_value": "14.63",
+        "min_value": "0.0",
+        "tags": [
+          "Température Vers capteur géothermique"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "11Pompe_Capteur",
+        "current_value": "0.00",
+        "at": "03/21/2014 14:03:36",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "Etat fonctionnement Pompe circulation capteur sol"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "09Temp_Venant_Geo",
+        "current_value": "14.63",
+        "at": "03/21/2014 14:08:34",
+        "max_value": "16.25",
+        "min_value": "0.0",
+        "tags": [
+          "Température Venant capteur géothermique"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "10Compresseur_PAC",
+        "current_value": "0.00",
+        "at": "03/21/2014 14:03:35",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "Etat fonctionnement compresseur de PAC"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "16Relais_ECS_Elec",
+        "current_value": "0.00",
+        "at": "03/21/2014 14:03:44",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "Etat Relais Production ECS electrique"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "06T_Out_Serp_Chauf",
+        "current_value": "52.50",
+        "at": "03/21/2014 14:09:20",
+        "max_value": "327.63",
+        "min_value": "0.0",
+        "tags": [
+          "Température sortie chauffage serpentin ROTEX"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "07T_Inl_Serp_Chauf",
+        "current_value": "46.75",
+        "at": "03/21/2014 14:09:23",
+        "max_value": "327.38",
+        "min_value": "0.0",
+        "tags": [
+          "Température entrée chauffage serpentin ROTEX"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Sonde_Depart_PAC",
+        "current_value": "31.62",
+        "at": "03/21/2014 14:09:40",
+        "max_value": "85.0",
+        "min_value": "-125.0",
+        "tags": [
+          "Température départ PAC après melangeur"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/1931023661\" >PAC</a>",
+    "URLMostrar": "https://xively.com/feeds/1931023661"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\1931023661.json",
+  "DocumentJSON": null
+}

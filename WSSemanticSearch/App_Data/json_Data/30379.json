@@ -1,0 +1,57 @@
+{
+  "Conceptos": [
+    "thermistor"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "30379",
+    "title": "inside temperature",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "ethernet",
+      "temp",
+      "Thermistor"
+    ],
+    "description": "Inside house temperature",
+    "feed": "https://api.xively.com/v2/feeds/30379.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "10/20/2011 22:48:09",
+    "created": "07/23/2011 19:12:16",
+    "creator": "https://xively.com/users/silasc",
+    "version": null,
+    "website": "http://saleradio.com:9999/index.htm",
+    "datastreams": [
+      {
+        "id": "inside",
+        "current_value": "71",
+        "at": "10/20/2011 22:48:09",
+        "max_value": "94.0",
+        "min_value": "47.0",
+        "tags": [
+          "F"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "F",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "h1",
+      "domain": 0,
+      "lat": "40.4887374210228",
+      "lon": "-112.318725585938",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/30379\" >inside temperature</a>",
+    "URLMostrar": "https://xively.com/feeds/30379"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\30379.json",
+  "DocumentJSON": null
+}

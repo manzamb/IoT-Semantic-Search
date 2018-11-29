@@ -1,0 +1,100 @@
+{
+  "Conceptos": [
+    "radiactividad"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "23942",
+    "title": "Navalmoral de la Mata - Daily average air gamma radiation μSv/h",
+    "Private": false,
+    "tags": [
+      "radiacion_CSN",
+      "radiacion_espana",
+      "radiactividad.org",
+      "sensor:calibrated=true",
+      "sensor:country=spain",
+      "sensor:object=air",
+      "sensor:type=gamma",
+      "sensor:type=radiation",
+      "source:type=government"
+    ],
+    "description": "Official readings from REA (Red de Estaciones Automáticas) of CSN (Consejo de Seguridad Nuclear) in Spain.\r\nThis is a live streaming but readings are updated everyday at morning (around 9:00AM CET) day after. So values are delayed 24 hours.\r\n\r\nData scrapped and opened by Alberto Naranjo. Please follow me on twitter: @albertonaranjo\r\n\t",
+    "feed": "https://api.xively.com/v2/feeds/23942.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/13/2014 12:13:03",
+    "created": "04/19/2011 14:51:40",
+    "creator": "https://xively.com/users/albertonaranjo",
+    "version": null,
+    "website": "http://www.twitter.com/albertonaranjo",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "0.12",
+        "at": "09/10/2013 23:52:08",
+        "max_value": "0.21",
+        "min_value": "0.11",
+        "tags": [
+          "Air daily average gamma radiation",
+          "Radiación gamma diaria media en el aire",
+          "radiation sensor"
+        ],
+        "unit": {
+          "symbol": "µSv/h",
+          "label": "microsieverts/hour",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "CSN-Navalmoral-de-la-Mata",
+        "current_value": "0.12",
+        "at": "09/10/2013 23:52:08",
+        "max_value": "0.21",
+        "min_value": "0.11",
+        "tags": [
+          "Air daily average gamma radiation",
+          "Radiación gamma diaria media en el aire",
+          "radiation sensor"
+        ],
+        "unit": {
+          "symbol": "µSv/h",
+          "label": "microsieverts/hour",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Navalmoral-de-la-Mata",
+        "current_value": "0.12",
+        "at": "09/10/2013 23:52:08",
+        "max_value": "0.21",
+        "min_value": "0.11",
+        "tags": [
+          "Air daily average gamma radiation",
+          "Radiación gamma diaria media en el aire",
+          "radiation sensor"
+        ],
+        "unit": {
+          "symbol": "µSv/h",
+          "label": "microsieverts/hour",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Navalmoral de la Mata",
+      "domain": 0,
+      "lat": "39.946",
+      "lon": "-5.554",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/23942\" >Navalmoral de la Mata - Daily average air gamma radiation μSv/h</a>",
+    "URLMostrar": "https://xively.com/feeds/23942"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\23942.json",
+  "DocumentJSON": null
+}

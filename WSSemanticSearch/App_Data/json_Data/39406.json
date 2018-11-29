@@ -1,0 +1,106 @@
+{
+  "Conceptos": [
+    "sensor output"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "39406",
+    "title": "Temp, Humidity and Power Consumption Test Feed",
+    "Private": false,
+    "tags": null,
+    "description": "Feed from a DS18b20 temp sensor, DHT11 humidity and temp sensor and calculated power consumption from an EDMI Mk7a pulse output",
+    "feed": "https://api.xively.com/v2/feeds/39406.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "11/19/2011 02:21:35",
+    "created": "11/13/2011 02:41:55",
+    "creator": "https://xively.com/users/anulaheights",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "1",
+        "current_value": "30.50",
+        "at": "11/19/2011 02:21:35",
+        "max_value": "31.62",
+        "min_value": "25.87",
+        "tags": null,
+        "unit": {
+          "symbol": "º C",
+          "label": "Degrees C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "64.00",
+        "at": "11/19/2011 02:21:35",
+        "max_value": "69.0",
+        "min_value": "48.0",
+        "tags": null,
+        "unit": {
+          "symbol": "%",
+          "label": "Relative Humidity",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "29.00",
+        "at": "11/19/2011 02:21:35",
+        "max_value": "30.0",
+        "min_value": "25.0",
+        "tags": null,
+        "unit": {
+          "symbol": "º C",
+          "label": "Degrees C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "0",
+        "at": "11/19/2011 02:21:35",
+        "max_value": "32142.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "W",
+          "label": "Watts (Power)",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": null,
+        "at": "11/15/2011 16:44:54",
+        "max_value": null,
+        "min_value": null,
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Anula",
+      "domain": 0,
+      "lat": "-12.3908924414214",
+      "lon": "130.891714096069",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/39406\" >Temp, Humidity and Power Consumption Test Feed</a>",
+    "URLMostrar": "https://xively.com/feeds/39406"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\39406.json",
+  "DocumentJSON": null
+}

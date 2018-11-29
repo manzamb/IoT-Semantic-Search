@@ -1,0 +1,82 @@
+{
+  "Conceptos": [
+    "physical"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "72951",
+    "title": "Fortum pris",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/72951.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "01/14/2014 22:00:00",
+    "created": "08/29/2012 09:42:50",
+    "creator": "https://xively.com/users/fortum",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "co2",
+        "current_value": "25.871",
+        "at": "12/12/2013 15:00:00",
+        "max_value": "495.029",
+        "min_value": "-80.167",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "norradjurgardsstaden",
+        "current_value": "1.246",
+        "at": "01/14/2014 22:00:00",
+        "max_value": "2.703",
+        "min_value": "0.62445",
+        "tags": [
+          "pris"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "teodoliten",
+        "current_value": "0.285",
+        "at": "01/14/2014 22:00:00",
+        "max_value": "0.924",
+        "min_value": "0.01",
+        "tags": [
+          "pris"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/72951\" >Fortum pris</a>",
+    "URLMostrar": "https://xively.com/feeds/72951"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\72951.json",
+  "DocumentJSON": null
+}

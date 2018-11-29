@@ -1,0 +1,123 @@
+{
+  "Conceptos": [
+    "carbon monoxide"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "84633",
+    "title": "Air Quality Egg Shield",
+    "Private": false,
+    "tags": [
+      "air quality",
+      "arduino",
+      "device:type=airqualityegg",
+      "device:type=airqualityeggshield",
+      "humidity",
+      "temperature"
+    ],
+    "description": "This feed contains data read from an Air Quality Egg shield attached to a Nanode, and pushing data to Cosm every 20 seconds.\r\n\r\nThe code to do this is a very basic combination of the EggBus sample (available from WickedDevice's Air Quality Egg page), and the Cosm (Pachube) example bundled with the EtherCard library.\r\n\r\nFeed currently offline to test operation of real AQESensorBase code.",
+    "feed": "https://api.xively.com/v2/feeds/84633.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "01/17/2013 22:42:28",
+    "created": "11/09/2012 12:53:23",
+    "creator": "https://xively.com/users/sam",
+    "version": null,
+    "website": "https://github.com/smulube/aqe-shield",
+    "datastreams": [
+      {
+        "id": "CO",
+        "current_value": "122536.7734",
+        "at": "01/17/2013 22:42:27",
+        "max_value": "122536.7734",
+        "min_value": "0.0089",
+        "tags": [
+          "air quality",
+          "carbon monoxide"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "ppb",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "freeCount",
+        "current_value": "55",
+        "at": "01/17/2013 22:42:27",
+        "max_value": "55.0",
+        "min_value": "55.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Humidity",
+        "current_value": "35.20",
+        "at": "01/17/2013 22:42:27",
+        "max_value": "47.1",
+        "min_value": "34.9",
+        "tags": [
+          "humidity"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "NO2",
+        "current_value": "85.3923",
+        "at": "01/17/2013 22:42:27",
+        "max_value": "85.3923",
+        "min_value": "0.2089",
+        "tags": [
+          "air quality",
+          "nitrogen dioxide"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "ppb",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperature",
+        "current_value": "28.00",
+        "at": "01/17/2013 22:42:27",
+        "max_value": "28.0",
+        "min_value": "25.1",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Penicuik",
+      "domain": 0,
+      "lat": "55.8271375537702",
+      "lon": "-3.22113990783691",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/84633\" >Air Quality Egg Shield</a>",
+    "URLMostrar": "https://xively.com/feeds/84633"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\84633.json",
+  "DocumentJSON": null
+}

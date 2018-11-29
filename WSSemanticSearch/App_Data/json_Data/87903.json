@@ -1,0 +1,118 @@
+{
+  "Conceptos": [
+    "moisture"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "87903",
+    "title": "Garden Sensors",
+    "Private": false,
+    "tags": [
+      "Drip irrigation system monitoring and control"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/87903.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "12/17/2013 05:35:54",
+    "created": "11/24/2012 05:00:31",
+    "creator": "https://xively.com/users/murkh",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "1",
+        "at": "12/17/2013 05:35:54",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "Solenoid Valve"
+        ],
+        "unit": {
+          "symbol": "Status",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "50",
+        "at": "12/17/2013 03:26:21",
+        "max_value": "478473479478474000000000000.0",
+        "min_value": "-6.15",
+        "tags": [
+          "Soil Moisture Level"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "19.50",
+        "at": "11/10/2013 06:21:46",
+        "max_value": "36.0",
+        "min_value": "0.0",
+        "tags": [
+          "Sensor Temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "c",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "3",
+        "at": "11/10/2013 06:21:48",
+        "max_value": "3.0",
+        "min_value": "0.0",
+        "tags": [
+          "Sensor Battery Status"
+        ],
+        "unit": {
+          "symbol": "Status",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "20",
+        "at": "12/16/2013 23:24:00",
+        "max_value": "32.08",
+        "min_value": "-40.01",
+        "tags": [
+          "Soil Temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "c",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Backyard",
+      "domain": 0,
+      "lat": "-33.7019712150176",
+      "lon": "150.909061431885",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/87903\" >Garden Sensors</a>",
+    "URLMostrar": "https://xively.com/feeds/87903"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\87903.json",
+  "DocumentJSON": null
+}

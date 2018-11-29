@@ -1,0 +1,227 @@
+{
+  "Conceptos": [
+    "environment"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "79135",
+    "title": "Stoaks.Net Weather Station",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "Arduino",
+      "Colorado",
+      "environment",
+      "Golden",
+      "Humidity",
+      "Sparkfun",
+      "Stoaks",
+      "Stoaks.net",
+      "Temperature",
+      "Weather Station",
+      "Wind Speed"
+    ],
+    "description": "Roof mounted weather station, Based on the design from SparkFun.com.",
+    "feed": "https://api.xively.com/v2/feeds/79135.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:10:22",
+    "created": "10/07/2012 03:40:22",
+    "creator": "https://xively.com/users/jstoaks2112",
+    "version": null,
+    "website": "http://www.stoaks.net",
+    "datastreams": [
+      {
+        "id": "Bmp",
+        "current_value": "30.027",
+        "at": "03/21/2014 14:10:21",
+        "max_value": "62.938",
+        "min_value": "0.0",
+        "tags": [
+          "Barometric Pressure"
+        ],
+        "unit": {
+          "symbol": "'",
+          "label": "in",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Dew",
+        "current_value": "23.1",
+        "at": "03/21/2014 14:10:21",
+        "max_value": "2223.0",
+        "min_value": "0.0",
+        "tags": [
+          "Dew Point"
+        ],
+        "unit": {
+          "symbol": "*",
+          "label": "Farenheight",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Htmidity",
+        "current_value": "45",
+        "at": "02/20/2014 08:21:27",
+        "max_value": "45.0",
+        "min_value": "45.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "HumiditV",
+        "current_value": "57",
+        "at": "03/13/2014 06:39:51",
+        "max_value": "57.0",
+        "min_value": "57.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Humidity",
+        "current_value": "81",
+        "at": "03/21/2014 14:10:21",
+        "max_value": "99.0",
+        "min_value": "0.0",
+        "tags": [
+          "Outside Humidity"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Rh",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Kwh",
+        "current_value": "31.48",
+        "at": "03/21/2014 14:10:21",
+        "max_value": "677.6",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "p",
+        "current_value": "29.894",
+        "at": "03/15/2014 13:21:45",
+        "max_value": "29.894",
+        "min_value": "29.894",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Rain",
+        "current_value": "0.23",
+        "at": "03/21/2014 14:10:21",
+        "max_value": "14.7",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "\"",
+          "label": "In",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Te3p",
+        "current_value": "043.2",
+        "at": "12/12/2013 23:27:44",
+        "max_value": "43.2",
+        "min_value": "43.2",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temp",
+        "current_value": "027.7",
+        "at": "03/21/2014 14:10:21",
+        "max_value": "329.0",
+        "min_value": "1.7",
+        "tags": [
+          "outside air Temperature"
+        ],
+        "unit": {
+          "symbol": "*",
+          "label": "Farenheight",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "tHumidity",
+        "current_value": "57",
+        "at": "12/13/2013 07:14:35",
+        "max_value": "57.0",
+        "min_value": "57.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Wind",
+        "current_value": "01.4",
+        "at": "03/21/2014 14:10:21",
+        "max_value": "61.4",
+        "min_value": "0.0",
+        "tags": [
+          "Wind Speed"
+        ],
+        "unit": {
+          "symbol": "MPH",
+          "label": "MPH",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Stoaks.Net Weather Station",
+      "domain": 0,
+      "lat": "39.7349801981767",
+      "lon": "-105.184090521667",
+      "ele": "1783",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/79135\" >Stoaks.Net Weather Station</a>",
+    "URLMostrar": "https://xively.com/feeds/79135"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\79135.json",
+  "DocumentJSON": null
+}

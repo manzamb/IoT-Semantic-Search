@@ -1,0 +1,414 @@
+{
+  "Conceptos": [
+    "frequency"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "1765889680",
+    "title": "sma-spot_honda4life",
+    "Private": false,
+    "tags": null,
+    "description": "Status of the device and grid relay:\n35: Fault\n51: Closed\n295: MPP\n302: No derating\n303: Off\n307: OK\n308: On\n311: Open\n336: Contact manufacturer\n337: Contact electrically qualified person\n338: Invalid\n381: Stop\n443: Constant voltage\n455: Warning\n557: Temperature derating\n884: Not active\n887: None\n1129: Yes\n1130: No",
+    "feed": "https://api.xively.com/v2/feeds/1765889680.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:05:28",
+    "created": "06/16/2013 06:48:50",
+    "creator": "https://xively.com/users/honda4life1",
+    "version": null,
+    "website": "http://code.google.com/p/sma-spot/",
+    "datastreams": [
+      {
+        "id": "BtSignal",
+        "current_value": "61.96",
+        "at": "03/21/2014 14:05:27",
+        "max_value": "81.57",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "%",
+          "label": "Bluetooth signal strength",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Eff",
+        "current_value": "99.67",
+        "at": "03/21/2014 14:05:27",
+        "max_value": "12037365.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "%",
+          "label": "Efficiency",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "EToday",
+        "current_value": "8.816",
+        "at": "03/21/2014 14:05:27",
+        "max_value": "34.633",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "kWh",
+          "label": "Energy Today",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "ETotal",
+        "current_value": "12838.065",
+        "at": "03/21/2014 14:05:27",
+        "max_value": "12838.065",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "kWh",
+          "label": "Energy Total",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "FeedInTM",
+        "current_value": "10239",
+        "at": "03/21/2014 14:05:27",
+        "max_value": "10239.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "h",
+          "label": "hours",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Freq",
+        "current_value": "49.98",
+        "at": "03/21/2014 14:05:27",
+        "max_value": "50.1",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "Hz",
+          "label": "Frequency",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Iac1",
+        "current_value": "8.839",
+        "at": "03/21/2014 14:05:27",
+        "max_value": "22.834",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "A",
+          "label": "Amp AC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Iac2",
+        "current_value": "0.000",
+        "at": "03/21/2014 14:05:27",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "A",
+          "label": "Amp AC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Iac3",
+        "current_value": "0.000",
+        "at": "03/21/2014 14:05:27",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "A",
+          "label": "Amp AC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Idc1",
+        "current_value": "3.215",
+        "at": "03/21/2014 14:05:27",
+        "max_value": "8.973",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "A",
+          "label": "Amp DC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Idc2",
+        "current_value": "3.046",
+        "at": "03/21/2014 14:05:27",
+        "max_value": "8.856",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "A",
+          "label": "Amp DC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "InverterTemperature",
+        "current_value": "57.47",
+        "at": "03/21/2014 14:05:27",
+        "max_value": "67.26",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "OperationTM",
+        "current_value": "10478",
+        "at": "03/21/2014 14:05:27",
+        "max_value": "10478.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "h",
+          "label": "hours",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Pac1",
+        "current_value": "2110",
+        "at": "03/21/2014 14:05:27",
+        "max_value": "2046352.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "W",
+          "label": "Power AC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Pac2",
+        "current_value": "0",
+        "at": "03/21/2014 14:05:27",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "W",
+          "label": "Power AC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Pac3",
+        "current_value": "0",
+        "at": "03/21/2014 14:05:27",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "W",
+          "label": "Power AC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "PacTot",
+        "current_value": "2110",
+        "at": "03/21/2014 14:05:27",
+        "max_value": "2046352.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "W",
+          "label": "Power AC Total",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Pdc1",
+        "current_value": "1089",
+        "at": "03/21/2014 14:05:27",
+        "max_value": "2963.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "W",
+          "label": "Power DC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Pdc2",
+        "current_value": "1028",
+        "at": "03/21/2014 14:05:27",
+        "max_value": "213888.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "W",
+          "label": "Power DC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "PdcTot",
+        "current_value": "2117",
+        "at": "03/21/2014 14:05:27",
+        "max_value": "213912.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "W",
+          "label": "Power DC Total",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "StatusDevice",
+        "current_value": "307",
+        "at": "03/21/2014 14:05:27",
+        "max_value": "307.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "Device status",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "StatusRelay",
+        "current_value": "51",
+        "at": "03/21/2014 14:05:27",
+        "max_value": "16777213.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "Grid relay status",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Uac1",
+        "current_value": "238.79",
+        "at": "03/21/2014 14:05:27",
+        "max_value": "251.36",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "V",
+          "label": "Volt AC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Uac2",
+        "current_value": "0.00",
+        "at": "03/21/2014 14:05:27",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "V",
+          "label": "Volt AC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Uac3",
+        "current_value": "0.00",
+        "at": "03/21/2014 14:05:27",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "V",
+          "label": "Volt AC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Udc1",
+        "current_value": "338.85",
+        "at": "03/21/2014 14:05:27",
+        "max_value": "433.26",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "V",
+          "label": "Volt DC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Udc2",
+        "current_value": "337.85",
+        "at": "03/21/2014 14:05:27",
+        "max_value": "431.37",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "V",
+          "label": "Volt DC",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/1765889680\" >sma-spot_honda4life</a>",
+    "URLMostrar": "https://xively.com/feeds/1765889680"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\1765889680.json",
+  "DocumentJSON": null
+}

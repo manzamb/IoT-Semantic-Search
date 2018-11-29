@@ -1,0 +1,164 @@
+{
+  "Conceptos": [
+    "humedad"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "2117688778",
+    "title": "Ambiente Interior/Exterior",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/2117688778.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:06:13",
+    "created": "07/06/2013 17:30:44",
+    "creator": "https://xively.com/users/gcenjor",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "H_Aux",
+        "current_value": "45.20",
+        "at": "03/21/2014 14:06:07",
+        "max_value": "66.7",
+        "min_value": "3.3",
+        "tags": [
+          "Humedad"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "porcentaje",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "H_Exterior",
+        "current_value": "39.90",
+        "at": "03/21/2014 14:06:13",
+        "max_value": "99.9",
+        "min_value": "2.2",
+        "tags": [
+          "Humedad"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "porcentaje",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "H_Interior",
+        "current_value": "40.60",
+        "at": "03/21/2014 14:05:25",
+        "max_value": "79.9",
+        "min_value": "3.2",
+        "tags": [
+          "Humedad"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "porcentaje",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Luz",
+        "current_value": "554",
+        "at": "03/21/2014 14:05:28",
+        "max_value": "1024.0",
+        "min_value": "0.0",
+        "tags": [
+          "Luz"
+        ],
+        "unit": {
+          "symbol": "lux",
+          "label": "lumens",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Presion",
+        "current_value": "946.88",
+        "at": "03/21/2014 14:05:28",
+        "max_value": "962.73",
+        "min_value": "922.54",
+        "tags": [
+          "Presion"
+        ],
+        "unit": {
+          "symbol": "mb",
+          "label": "milibares",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "T_Aux",
+        "current_value": "20.30",
+        "at": "03/21/2014 14:06:07",
+        "max_value": "30.4",
+        "min_value": "15.7",
+        "tags": [
+          "Temperatura"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "grados",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "T_Exterior",
+        "current_value": "20.80",
+        "at": "03/21/2014 14:06:13",
+        "max_value": "43.8",
+        "min_value": "-1.7",
+        "tags": [
+          "Temperatura"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "grados",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "T_Interior",
+        "current_value": "20.80",
+        "at": "03/21/2014 14:05:25",
+        "max_value": "30.9",
+        "min_value": "16.6",
+        "tags": [
+          "Temperatura"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "grados",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/2117688778\" >Ambiente Interior/Exterior</a>",
+    "URLMostrar": "https://xively.com/feeds/2117688778"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\2117688778.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,57 @@
+{
+  "Conceptos": [
+    "presión atmosférica"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "55882",
+    "title": "VEGAMET",
+    "Private": false,
+    "tags": [
+      "humedad",
+      "presion atmosferica",
+      "temperatura",
+      "viento"
+    ],
+    "description": "Meteorologia aficionada chile\r\n\r\nCreador: Carlos Vega \r\n\r\nwww.vegamet.cl\r\nvortexchile.byethost5.com",
+    "feed": "https://api.xively.com/v2/feeds/55882.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "04/16/2012 22:24:51",
+    "created": "04/16/2012 21:29:25",
+    "creator": "https://xively.com/users/vortencio",
+    "version": null,
+    "website": "http://www.vortexchile.byethost5.com",
+    "datastreams": [
+      {
+        "id": "humedad",
+        "current_value": "50",
+        "at": "04/16/2012 21:37:18",
+        "max_value": "50.0",
+        "min_value": "50.0",
+        "tags": [
+          "hum"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "Hum",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "CHILE",
+      "domain": 0,
+      "lat": "-33.4788069229576",
+      "lon": "-70.5666795372963",
+      "ele": "620mt",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/55882\" >VEGAMET</a>",
+    "URLMostrar": "https://xively.com/feeds/55882"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\55882.json",
+  "DocumentJSON": null
+}

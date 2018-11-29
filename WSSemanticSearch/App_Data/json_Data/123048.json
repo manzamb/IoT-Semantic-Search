@@ -1,0 +1,98 @@
+{
+  "Conceptos": [
+    "longitud"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "123048",
+    "title": "loggr",
+    "Private": false,
+    "tags": [
+      "arduino"
+    ],
+    "description": "track geolocation + sensor data of arduino",
+    "feed": "https://api.xively.com/v2/feeds/123048.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/20/2014 20:13:05",
+    "created": "04/06/2013 19:41:35",
+    "creator": "https://xively.com/users/wardd",
+    "version": null,
+    "website": "http://liquid-media.com",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "9",
+        "at": "03/20/2014 20:13:05",
+        "max_value": "10.0",
+        "min_value": "9.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "energy",
+        "current_value": "19",
+        "at": "03/20/2014 20:13:04",
+        "max_value": "19.0",
+        "min_value": "19.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "latitude",
+        "current_value": "51.04295",
+        "at": "04/25/2013 10:10:30",
+        "max_value": "51.04302",
+        "min_value": "51.0327",
+        "tags": [
+          "latitude"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "longitude",
+        "current_value": "3.73857",
+        "at": "04/25/2013 10:10:31",
+        "max_value": "3.74439",
+        "min_value": "3.73849",
+        "tags": [
+          "longitude"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "50.9879427109391",
+      "lon": "3.7353515625",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 1
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/123048\" >loggr</a>",
+    "URLMostrar": "https://xively.com/feeds/123048"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\123048.json",
+  "DocumentJSON": null
+}

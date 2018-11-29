@@ -1,0 +1,118 @@
+{
+  "Conceptos": [
+    "system"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "76882",
+    "title": "home.Pi",
+    "Private": false,
+    "tags": [
+      "temperature"
+    ],
+    "description": "Temperature data from my solar thermal system and hot water tank",
+    "feed": "https://api.xively.com/v2/feeds/76882.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:13:13",
+    "created": "09/22/2012 08:12:09",
+    "creator": "https://xively.com/users/grhall",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "solar.In",
+        "current_value": "42.56",
+        "at": "03/21/2014 14:13:13",
+        "max_value": "75.31",
+        "min_value": "16.31",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "°c",
+          "label": "c",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "solar.Out",
+        "current_value": "36.19",
+        "at": "03/21/2014 14:13:13",
+        "max_value": "66.75",
+        "min_value": "11.81",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "°c",
+          "label": "c",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "tank.Bot",
+        "current_value": "39.25",
+        "at": "03/21/2014 14:13:13",
+        "max_value": "76.75",
+        "min_value": "6.94",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "°c",
+          "label": "c",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "tank.Mid",
+        "current_value": "39.38",
+        "at": "03/21/2014 14:13:13",
+        "max_value": "76.94",
+        "min_value": "8.31",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "°c",
+          "label": "c",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "utility.Temp",
+        "current_value": "19.19",
+        "at": "03/21/2014 14:13:13",
+        "max_value": "85.0",
+        "min_value": "14.94",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "°c",
+          "label": "c",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "51.7647543908647",
+      "lon": "-0.334557294845581",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/76882\" >home.Pi</a>",
+    "URLMostrar": "https://xively.com/feeds/76882"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\76882.json",
+  "DocumentJSON": null
+}

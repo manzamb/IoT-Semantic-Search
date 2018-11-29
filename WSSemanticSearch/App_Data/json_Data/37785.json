@@ -1,0 +1,420 @@
+{
+  "Conceptos": [
+    "wind"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "37785",
+    "title": "Carambola based weather station",
+    "Private": false,
+    "tags": [
+      "Comma-separated descriptive keywords for this Feed"
+    ],
+    "description": "TFA dostmann Nexus wireless weather station live stream",
+    "feed": "https://api.xively.com/v2/feeds/37785.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:07:03",
+    "created": "10/20/2011 15:27:26",
+    "creator": "https://xively.com/users/sauliusl",
+    "version": null,
+    "website": "http://www.8devices.com",
+    "datastreams": [
+      {
+        "id": "electricity",
+        "current_value": null,
+        "at": "12/22/2013 10:54:40",
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "Power"
+        ],
+        "unit": {
+          "symbol": "A",
+          "label": "Amps",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "FC",
+        "current_value": "4",
+        "at": "03/21/2014 14:07:02",
+        "max_value": "6.0",
+        "min_value": "2.0",
+        "tags": [
+          "Station forecast"
+        ],
+        "unit": {
+          "symbol": "Forecast",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "H0",
+        "current_value": "46",
+        "at": "03/21/2014 14:07:02",
+        "max_value": "84.0",
+        "min_value": "0.0",
+        "tags": [
+          "Humidity indoor"
+        ],
+        "unit": {
+          "symbol": "Humidity",
+          "label": "RH",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "H1",
+        "current_value": "51",
+        "at": "03/21/2014 14:07:02",
+        "max_value": "79.0",
+        "min_value": "18.0",
+        "tags": [
+          "Humidity remote 1"
+        ],
+        "unit": {
+          "symbol": "Humidity",
+          "label": "RH",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "H2",
+        "current_value": null,
+        "at": "10/20/2011 15:27:26",
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "Humidity remote 2"
+        ],
+        "unit": {
+          "symbol": "Humidity",
+          "label": "RH",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "H3",
+        "current_value": null,
+        "at": "10/20/2011 15:27:26",
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "Humidity remote 3"
+        ],
+        "unit": {
+          "symbol": "Humidity",
+          "label": "RH",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "H4",
+        "current_value": null,
+        "at": "10/20/2011 15:27:26",
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "Humidity remote 4"
+        ],
+        "unit": {
+          "symbol": "Humidity",
+          "label": "RH",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "H5",
+        "current_value": null,
+        "at": "10/20/2011 15:27:26",
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "Humidity remote 5"
+        ],
+        "unit": {
+          "symbol": "Humidity",
+          "label": "RH",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "PRES",
+        "current_value": "981.0",
+        "at": "03/21/2014 14:07:02",
+        "max_value": "1021.0",
+        "min_value": "949.5",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "PRESS",
+        "current_value": null,
+        "at": "10/20/2011 15:27:26",
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "Air pressure"
+        ],
+        "unit": {
+          "symbol": "Pressure",
+          "label": "mBar",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "RC",
+        "current_value": "0.0",
+        "at": "03/21/2014 14:07:02",
+        "max_value": "116.2",
+        "min_value": "0.0",
+        "tags": [
+          "Rain counter"
+        ],
+        "unit": {
+          "symbol": "Rain",
+          "label": "mm",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "STORM",
+        "current_value": "0",
+        "at": "03/21/2014 14:07:02",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "Storm warning"
+        ],
+        "unit": {
+          "symbol": "Storm",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "T0",
+        "current_value": "21.90",
+        "at": "03/21/2014 14:07:02",
+        "max_value": "58.75",
+        "min_value": "17.8",
+        "tags": [
+          "Temperature indoor"
+        ],
+        "unit": {
+          "symbol": "Temperature",
+          "label": "*C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "T1",
+        "current_value": "22.20",
+        "at": "03/21/2014 14:07:02",
+        "max_value": "30.6",
+        "min_value": "16.4",
+        "tags": [
+          "Temperature remote 1"
+        ],
+        "unit": {
+          "symbol": "Temperature",
+          "label": "*C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "T2",
+        "current_value": null,
+        "at": "10/20/2011 15:27:26",
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "Temperature remote 2"
+        ],
+        "unit": {
+          "symbol": "Temperature",
+          "label": "*C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "T3",
+        "current_value": null,
+        "at": "10/20/2011 15:27:26",
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "Temperature remote 3"
+        ],
+        "unit": {
+          "symbol": "Temperature",
+          "label": "*C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "T4",
+        "current_value": null,
+        "at": "10/20/2011 15:27:26",
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "Temperature remote 4"
+        ],
+        "unit": {
+          "symbol": "Temperature",
+          "label": "*C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "T5",
+        "current_value": null,
+        "at": "10/20/2011 15:27:26",
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "Temperature remote 5"
+        ],
+        "unit": {
+          "symbol": "Temperature",
+          "label": "*C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "TC",
+        "current_value": "15.8",
+        "at": "03/21/2014 14:07:02",
+        "max_value": "30.5",
+        "min_value": "-27.0",
+        "tags": [
+          "Windchill temperature"
+        ],
+        "unit": {
+          "symbol": "Temperature",
+          "label": "*C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "UV",
+        "current_value": null,
+        "at": "10/20/2011 15:27:26",
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "UV index"
+        ],
+        "unit": {
+          "symbol": "UV index",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "WC",
+        "current_value": null,
+        "at": "10/20/2011 15:27:26",
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "Windchill temperature"
+        ],
+        "unit": {
+          "symbol": "Temperature",
+          "label": "*C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "WD",
+        "current_value": "202.5",
+        "at": "03/21/2014 14:07:02",
+        "max_value": "337.5",
+        "min_value": "0.0",
+        "tags": [
+          "Wind direction"
+        ],
+        "unit": {
+          "symbol": "Wind direction",
+          "label": "deg",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "WG",
+        "current_value": "0.0",
+        "at": "03/21/2014 14:07:02",
+        "max_value": "1.5",
+        "min_value": "0.0",
+        "tags": [
+          "Wind gust speed"
+        ],
+        "unit": {
+          "symbol": "Wind Gust Speed",
+          "label": "m/s",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "WS",
+        "current_value": "0.0",
+        "at": "03/21/2014 14:07:02",
+        "max_value": "0.3",
+        "min_value": "0.0",
+        "tags": [
+          "Wind speed"
+        ],
+        "unit": {
+          "symbol": "Wind Speed",
+          "label": "m/s",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Name of location",
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": "Metres",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/37785\" >Carambola based weather station</a>",
+    "URLMostrar": "https://xively.com/feeds/37785"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\37785.json",
+  "DocumentJSON": null
+}

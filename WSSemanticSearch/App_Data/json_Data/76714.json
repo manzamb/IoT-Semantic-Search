@@ -1,0 +1,168 @@
+{
+  "Conceptos": [
+    "condition"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "76714",
+    "title": "Bedroom Condition",
+    "Private": false,
+    "tags": [
+      "Arduino",
+      "Cosm",
+      "DHT11",
+      "DHT22",
+      "Ethernet"
+    ],
+    "description": "The temperature information in my bedroom.\r\n",
+    "feed": "https://api.xively.com/v2/feeds/76714.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "12/19/2012 10:08:04",
+    "created": "09/20/2012 23:29:16",
+    "creator": "https://xively.com/users/ronghai",
+    "version": null,
+    "website": "http://www.ronghai.me",
+    "datastreams": [
+      {
+        "id": "Celsius",
+        "current_value": "15.000",
+        "at": "12/19/2012 10:08:04",
+        "max_value": "30.0",
+        "min_value": "8.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Dewpoint",
+        "current_value": "2.844",
+        "at": "12/19/2012 10:08:04",
+        "max_value": "19.951",
+        "min_value": "-3.814",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "DHT22Celsius",
+        "current_value": "16.700",
+        "at": "12/19/2012 10:08:04",
+        "max_value": "28.9",
+        "min_value": "8.6",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "DHT22Dewpoint",
+        "current_value": "6.424",
+        "at": "12/19/2012 10:08:04",
+        "max_value": "22.324",
+        "min_value": "-6.541",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "DHT22Fahrenheit",
+        "current_value": "62.060",
+        "at": "12/19/2012 10:08:04",
+        "max_value": "84.02",
+        "min_value": "47.48",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "°F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "DHT22Humidity",
+        "current_value": "50.700",
+        "at": "12/19/2012 10:08:04",
+        "max_value": "90.4",
+        "min_value": "24.3",
+        "tags": null,
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Fahrenheit",
+        "current_value": "59.000",
+        "at": "12/19/2012 10:08:04",
+        "max_value": "86.0",
+        "min_value": "46.4",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "°F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Humidity",
+        "current_value": "44.000",
+        "at": "12/19/2012 10:08:04",
+        "max_value": "84.0",
+        "min_value": "32.0",
+        "tags": null,
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "RANDOM",
+        "current_value": "218",
+        "at": "12/19/2012 10:08:04",
+        "max_value": "998.0",
+        "min_value": "100.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "3140",
+      "domain": 0,
+      "lat": "40.7680292070287",
+      "lon": "-73.8312149047852",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 1
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/76714\" >Bedroom Condition</a>",
+    "URLMostrar": "https://xively.com/feeds/76714"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\76714.json",
+  "DocumentJSON": null
+}

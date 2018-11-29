@@ -1,0 +1,156 @@
+{
+  "Conceptos": [
+    "system"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "50142",
+    "title": "temeratures",
+    "Private": false,
+    "tags": [
+      "AussenTemp",
+      "Momo",
+      "SolarMitte",
+      "SolarOben",
+      "SpeicherMitte",
+      "SpeicherOben",
+      "Vorlauf"
+    ],
+    "description": "Temperatures outside and heating system",
+    "feed": "https://api.xively.com/v2/feeds/50142.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:13:03",
+    "created": "02/29/2012 21:42:31",
+    "creator": "https://xively.com/users/joergpube",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "AussenTemp",
+        "current_value": "19.59",
+        "at": "03/21/2014 14:13:02",
+        "max_value": "55.24",
+        "min_value": "-81.75",
+        "tags": [
+          "AussenTemp"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Momo",
+        "current_value": "13.00",
+        "at": "03/21/2014 14:13:02",
+        "max_value": "82.0",
+        "min_value": "-82.0",
+        "tags": [
+          "Momo"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "SolarMitte",
+        "current_value": "46.75",
+        "at": "03/21/2014 14:13:02",
+        "max_value": "59.0",
+        "min_value": "-82.0",
+        "tags": [
+          "SolarMitte"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "SolarOben",
+        "current_value": "56.50",
+        "at": "03/21/2014 14:13:02",
+        "max_value": "70.25",
+        "min_value": "-82.0",
+        "tags": [
+          "SolarOben"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "SpeicherMitte",
+        "current_value": "17.50",
+        "at": "03/21/2014 14:13:02",
+        "max_value": "65.25",
+        "min_value": "-81.75",
+        "tags": [
+          "SpeicherMitte"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "SpeicherOben",
+        "current_value": "20.00",
+        "at": "03/21/2014 14:13:02",
+        "max_value": "71.25",
+        "min_value": "-81.75",
+        "tags": [
+          "SpeicherOben"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Vorlauf",
+        "current_value": "15.75",
+        "at": "03/21/2014 14:13:02",
+        "max_value": "61.25",
+        "min_value": "-82.0",
+        "tags": [
+          "Vorlauf"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Home",
+      "domain": 0,
+      "lat": "48.9257420185846",
+      "lon": "9.18474197387695",
+      "ele": "270",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/50142\" >temeratures</a>",
+    "URLMostrar": "https://xively.com/feeds/50142"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\50142.json",
+  "DocumentJSON": null
+}

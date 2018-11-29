@@ -1,0 +1,84 @@
+{
+  "Conceptos": [
+    "humidity"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "130913",
+    "title": "Wine Environment",
+    "Private": false,
+    "tags": [
+      "arduino"
+    ],
+    "description": "temperature",
+    "feed": "https://api.xively.com/v2/feeds/130913.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:07:06",
+    "created": "05/09/2013 02:24:49",
+    "creator": "https://xively.com/users/rabarar",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "humidity",
+        "current_value": "51.30",
+        "at": "03/21/2014 14:07:06",
+        "max_value": "70.7",
+        "min_value": "33.2",
+        "tags": [
+          "#humidity"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "RH",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "resistive",
+        "current_value": "374.00",
+        "at": "03/21/2014 14:07:06",
+        "max_value": "566.0",
+        "min_value": "328.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temperature",
+        "current_value": "56.84",
+        "at": "03/21/2014 14:07:06",
+        "max_value": "79.52",
+        "min_value": "52.7",
+        "tags": [
+          "#temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "39.2556514210359",
+      "lon": "-76.8136596679688",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/130913\" >Wine Environment</a>",
+    "URLMostrar": "https://xively.com/feeds/130913"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\130913.json",
+  "DocumentJSON": null
+}

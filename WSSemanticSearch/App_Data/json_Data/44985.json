@@ -1,0 +1,73 @@
+{
+  "Conceptos": [
+    "thermistor"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "44985",
+    "title": "Basement Temperature",
+    "Private": false,
+    "tags": [
+      "Arduino",
+      "DS18B20",
+      "Temperature",
+      "Thermistor"
+    ],
+    "description": "Arduino UNO with Ethernet Shield R3\r\n\r\n10K NTC Thermistor on A0\r\nDallas DS18B20 1-wire temp sensor on D2 \r\n\r\nERxPachube library:\r\ncode.google.com/p/pachubelibrary/\r\n\r\nThermistor code from:\r\nhttp://arduino.cc/playground/ComponentLib/Thermistor2",
+    "feed": "https://api.xively.com/v2/feeds/44985.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/01/2012 12:57:12",
+    "created": "01/21/2012 04:31:48",
+    "creator": "https://xively.com/users/jasonm",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "60.819996",
+        "at": "03/01/2012 12:57:12",
+        "max_value": "76.978958",
+        "min_value": "55.867249",
+        "tags": [
+          "Thermistor"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "Fahrenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "59.449997",
+        "at": "03/01/2012 12:57:12",
+        "max_value": "75.762497",
+        "min_value": "54.837502",
+        "tags": [
+          "DS18B20"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "Fahrenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "New Fairfield, CT",
+      "domain": 0,
+      "lat": "41.45813",
+      "lon": "-73.47537",
+      "ele": "196.796",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/44985\" >Basement Temperature</a>",
+    "URLMostrar": "https://xively.com/feeds/44985"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\44985.json",
+  "DocumentJSON": null
+}

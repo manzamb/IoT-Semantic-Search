@@ -1,0 +1,123 @@
+{
+  "Conceptos": [
+    "wind"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "974153165",
+    "title": "Arduino Temperature Sensor",
+    "Private": false,
+    "tags": [
+      "Arduino",
+      "Capenhurst",
+      "Chester",
+      "England",
+      "temperature",
+      "weather",
+      "weather data"
+    ],
+    "description": "This device is an Arduino Uno R3 with an Ethernet Shield, it currently sits on my bookcase and takes the temperature from inside and outside using the TMP36 analog sensor and Adafruit MPL115A2 digital sensor for inside temperature and pressure.",
+    "feed": "https://api.xively.com/v2/feeds/974153165.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:07:18",
+    "created": "11/12/2013 11:17:43",
+    "creator": "https://xively.com/users/ellcom",
+    "version": null,
+    "website": "http://ellcom.net",
+    "datastreams": [
+      {
+        "id": "indoor",
+        "current_value": "19.50",
+        "at": "03/21/2014 14:07:18",
+        "max_value": "26.09",
+        "min_value": "14.16",
+        "tags": [
+          "arduino",
+          "chester",
+          "desk",
+          "england",
+          "tmp36"
+        ],
+        "unit": {
+          "symbol": "℃",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "indoorDigital",
+        "current_value": "15.84",
+        "at": "03/21/2014 14:07:18",
+        "max_value": "22.76",
+        "min_value": "10.42",
+        "tags": [
+          "Celsius",
+          "digital",
+          "indoor",
+          "mpl115a2",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "℃",
+          "label": "Celsius ",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "outdoor",
+        "current_value": "12.14",
+        "at": "03/21/2014 14:07:18",
+        "max_value": "264.53",
+        "min_value": "-0.95",
+        "tags": [
+          "chester",
+          "england",
+          "outdoor",
+          "temperature",
+          "tmp36",
+          "window ledge"
+        ],
+        "unit": {
+          "symbol": "℃",
+          "label": "Celsius ",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "pressure",
+        "current_value": "99.93",
+        "at": "03/21/2014 14:07:18",
+        "max_value": "103.49",
+        "min_value": "95.76",
+        "tags": [
+          "adafruit",
+          "mpl115a2",
+          "pressure"
+        ],
+        "unit": {
+          "symbol": "kPa",
+          "label": "kPa",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Capenhurst",
+      "domain": 0,
+      "lat": "53.258853",
+      "lon": "-2.95059900000001",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/974153165\" >Arduino Temperature Sensor</a>",
+    "URLMostrar": "https://xively.com/feeds/974153165"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\974153165.json",
+  "DocumentJSON": null
+}

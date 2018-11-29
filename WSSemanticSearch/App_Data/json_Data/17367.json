@@ -1,0 +1,322 @@
+{
+  "Conceptos": [
+    "pattern"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "17367",
+    "title": "gx2's Home Energy Server",
+    "Private": false,
+    "tags": null,
+    "description": "Moixa Office",
+    "feed": "https://api.xively.com/v2/feeds/17367.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "02/10/2011 13:47:14",
+    "created": "02/03/2011 14:25:30",
+    "creator": "https://xively.com/users/moixa",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "thermostat_control_pattern",
+        "current_value": "0",
+        "at": "02/04/2011 17:05:45",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "ped:thermostat_boost_pattern"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "savings_live",
+        "current_value": "0",
+        "at": "02/10/2011 13:47:14",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "ped:flow_type=actual_savings",
+          "ped:power_type=dc"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "thermostat_boost_status",
+        "current_value": "0",
+        "at": "02/04/2011 17:05:45",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "ped:device",
+          "ped:switch_type:binary"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "whole_house_usage_live",
+        "current_value": "0",
+        "at": "02/10/2011 13:47:14",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "ped:flow_type=usage",
+          "ped:power_type=all"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "thermostat_conversion_factor",
+        "current_value": "0",
+        "at": "02/10/2011 13:47:14",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "ped:temp_conversion_factor"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "dc_generated_live",
+        "current_value": "0",
+        "at": "02/10/2011 13:47:14",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "ped:flow_type=generation",
+          "ped:power_type=dc"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "ac_usage_total",
+        "current_value": "0",
+        "at": "02/10/2011 13:47:14",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "ped:flow_type=usage",
+          "ped:power_type=ac"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "ac_usage_live",
+        "current_value": "0",
+        "at": "02/10/2011 13:47:14",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "ped:flow_type=usage",
+          "ped:power_type=ac"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "property_temperature",
+        "current_value": "0",
+        "at": "02/10/2011 13:47:14",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "centigrade",
+          "ped:global_temp",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "dc_generated_total",
+        "current_value": "0",
+        "at": "02/10/2011 13:47:14",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "ped:flow_type=generation",
+          "ped:power_type=dc"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "dc_usage_live",
+        "current_value": "0",
+        "at": "02/10/2011 13:47:14",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "ped:flow_type=usage",
+          "ped:power_type=dc"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "batteryPower",
+        "current_value": "0",
+        "at": "02/04/2011 17:05:45",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "potential_savings_live",
+        "current_value": "0",
+        "at": "02/10/2011 13:47:14",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "ped:flow_type=potential_savings",
+          "ped:power_type=ac"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "savings_total",
+        "current_value": "0",
+        "at": "02/04/2011 17:05:45",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "ped:flow_type=actual_savings",
+          "ped:power_type=dc"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "dc_usage_total",
+        "current_value": "0",
+        "at": "02/10/2011 13:47:14",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "ped:flow_type=usage",
+          "ped:power_type=dc"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "potential_savings_total",
+        "current_value": "0",
+        "at": "02/10/2011 13:47:14",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "ped:flow_type=potential_savings",
+          "ped:power_type=ac"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "thermostat_temperature",
+        "current_value": "0",
+        "at": "02/10/2011 13:47:14",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "centigrade",
+          "ped:thermostat_temp",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "office",
+      "domain": 0,
+      "lat": "51.541877",
+      "lon": "-0.153955",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/17367\" >gx2's Home Energy Server</a>",
+    "URLMostrar": "https://xively.com/feeds/17367"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\17367.json",
+  "DocumentJSON": null
+}

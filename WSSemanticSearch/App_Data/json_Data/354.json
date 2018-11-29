@@ -1,0 +1,70 @@
+{
+  "Conceptos": [
+    "color"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "354",
+    "title": "Colorado River at Bastrop",
+    "Private": false,
+    "tags": null,
+    "description": "River flow and level from Lower Colorado River Authority data.",
+    "feed": "https://api.xively.com/v2/feeds/354.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "06/08/2010 14:18:51",
+    "created": "06/27/2008 01:58:49",
+    "creator": "https://xively.com/users/bilmor",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "335.0",
+        "at": null,
+        "max_value": "2578.0",
+        "min_value": "334.0",
+        "tags": [
+          "Bastrop",
+          "river flow"
+        ],
+        "unit": {
+          "symbol": "cfs",
+          "label": "cubic feet per second",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "2.48",
+        "at": null,
+        "max_value": "4.99",
+        "min_value": "2.48",
+        "tags": [
+          "Bastrop",
+          "river level"
+        ],
+        "unit": {
+          "symbol": "ft",
+          "label": "feet",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "30.1011776130361",
+      "lon": "-97.3175811767578",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/354\" >Colorado River at Bastrop</a>",
+    "URLMostrar": "https://xively.com/feeds/354"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\354.json",
+  "DocumentJSON": null
+}

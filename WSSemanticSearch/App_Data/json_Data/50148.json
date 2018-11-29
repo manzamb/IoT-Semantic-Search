@@ -1,0 +1,79 @@
+{
+  "Conceptos": [
+    "surface"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "50148",
+    "title": "NYU_wipes",
+    "Private": false,
+    "tags": [
+      "air quality",
+      "black carbon",
+      "particulates",
+      "xclinic:project=NYU_wipes"
+    ],
+    "description": "Assessing black carbon - sample wipes on horizontal surfaces near where we live and work to assess cumulation as a way to understand air quality",
+    "feed": "https://api.xively.com/v2/feeds/50148.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "02/29/2012 22:02:08",
+    "created": "02/29/2012 22:00:12",
+    "creator": "https://xively.com/users/kennwatt",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "brownness",
+        "current_value": null,
+        "at": null,
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "dust",
+          "human-evaluated",
+          "particulate",
+          "pollution"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "grayness",
+        "current_value": null,
+        "at": "02/29/2012 22:00:12",
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "black carbon",
+          "human-evaluated",
+          "particulate",
+          "pollution"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Barney Building and environments, 34 Stuyvesant St, 10003",
+      "domain": 0,
+      "lat": "40.6806380252146",
+      "lon": "-74.014892578125",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/50148\" >NYU_wipes</a>",
+    "URLMostrar": "https://xively.com/feeds/50148"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\50148.json",
+  "DocumentJSON": null
+}

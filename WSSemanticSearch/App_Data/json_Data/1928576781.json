@@ -1,0 +1,203 @@
+{
+  "Conceptos": [
+    "system"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "1928576781",
+    "title": "Solar Water - Kingspan Thermomax HP300 30Tubes 180Litres via Raspberry Pi",
+    "Private": false,
+    "tags": [
+      "Dublin",
+      "Evacuated Tubes",
+      "Kingspan",
+      "Raspberry Pi",
+      "Solar",
+      "Temperature"
+    ],
+    "description": "Kingspan Thermomax HP300 System with 30 Evacuated Solar Tubes mounted on my South Facing house roof, and connected to a 180L Buffer Tank. Kingspan rebadge a Steca TR0603mc Solar Controller. I took the RS232 system output into an RS232 / USB adapter connected to a Raspberry Pi",
+    "feed": "https://api.xively.com/v2/feeds/1928576781.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:13:13",
+    "created": "06/02/2013 22:04:06",
+    "creator": "https://xively.com/users/championc",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "1",
+        "current_value": "51",
+        "at": "03/21/2014 14:13:12",
+        "max_value": "17000510129377.0",
+        "min_value": "0.0",
+        "tags": [
+          "1 - Buffer Top"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "50",
+        "at": "03/21/2014 14:13:12",
+        "max_value": "619870005106627.0",
+        "min_value": "0.0",
+        "tags": [
+          "2 - Buffer Middle"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "29",
+        "at": "03/21/2014 14:13:12",
+        "max_value": "11271670005101900.0",
+        "min_value": "0.0",
+        "tags": [
+          "3 - Buffer Bottom"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "34",
+        "at": "03/21/2014 14:13:12",
+        "max_value": "327672014.0",
+        "min_value": "0.0",
+        "tags": [
+          "4 - Roof Tubes"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "0",
+        "at": "03/21/2014 14:13:12",
+        "max_value": "7700051010.0",
+        "min_value": "0.0",
+        "tags": [
+          "5 - System Running"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "0 - Off / 1 - On",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "0",
+        "at": "03/21/2014 14:13:12",
+        "max_value": "59327672.0",
+        "min_value": "0.0",
+        "tags": [
+          "6 - Top Loading"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "0 - Off / 1 - On",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "7",
+        "current_value": "22",
+        "at": "03/21/2014 14:13:12",
+        "max_value": "31603276014.0",
+        "min_value": "0.0",
+        "tags": [
+          "7 - Landing Temp"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "8",
+        "current_value": "17",
+        "at": "03/21/2014 14:13:12",
+        "max_value": "6.0e+203",
+        "min_value": "0.0",
+        "tags": [
+          "8 - Living Room Temp"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "41",
+        "current_value": "0",
+        "at": "03/21/2014 14:13:12",
+        "max_value": "8700051018276.0",
+        "min_value": "-10.0",
+        "tags": [
+          "41 - Current Output"
+        ],
+        "unit": {
+          "symbol": "kW",
+          "label": "Kilowatts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "42",
+        "current_value": "1855",
+        "at": "03/21/2014 14:13:12",
+        "max_value": "919700051016.0",
+        "min_value": "0.0",
+        "tags": [
+          "42 - Cumulative Output"
+        ],
+        "unit": {
+          "symbol": "kwH",
+          "label": "Kilowatt Hours",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "53.2785999970805",
+      "lon": "-6.25552023754881",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/1928576781\" >Solar Water - Kingspan Thermomax HP300 30Tubes 180Litres via Raspberry Pi</a>",
+    "URLMostrar": "https://xively.com/feeds/1928576781"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\1928576781.json",
+  "DocumentJSON": null
+}

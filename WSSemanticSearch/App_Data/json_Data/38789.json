@@ -1,0 +1,68 @@
+{
+  "Conceptos": [
+    "resolution"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "38789",
+    "title": "home metering",
+    "Private": false,
+    "tags": null,
+    "description": "IP SMART BOARD www.mikrovlny.cz\r\n1. senzor = temp1 (heat exchanger temp)\r\n2. senzor = temp2 (water tank temp) Used ds18s20, thus lower resolution then 18b20",
+    "feed": "https://api.xively.com/v2/feeds/38789.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:10:02",
+    "created": "11/05/2011 10:12:48",
+    "creator": "https://xively.com/users/emul",
+    "version": null,
+    "website": "http://www.emul.sk",
+    "datastreams": [
+      {
+        "id": "temp1",
+        "current_value": "26.1",
+        "at": "03/21/2014 14:10:02",
+        "max_value": "77.2",
+        "min_value": "0.0",
+        "tags": [
+          "heat exchanger temp"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temp2",
+        "current_value": "30.4",
+        "at": "03/21/2014 14:10:02",
+        "max_value": "56.8",
+        "min_value": "0.0",
+        "tags": [
+          "water tank temp"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "48.4448885540777",
+      "lon": "17.677903175354",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/38789\" >home metering</a>",
+    "URLMostrar": "https://xively.com/feeds/38789"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\38789.json",
+  "DocumentJSON": null
+}

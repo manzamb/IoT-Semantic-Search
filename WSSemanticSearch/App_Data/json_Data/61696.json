@@ -1,0 +1,56 @@
+{
+  "Conceptos": [
+    "response time"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "61696",
+    "title": "PVOutput Response Rate",
+    "Private": false,
+    "tags": [
+      "mqtt",
+      "performance",
+      "server"
+    ],
+    "description": "Update Response time in seconds.\r\nThis is using MQTT to update the feed.\r\nConnection is directly to Cosm broker not forwarded from my broker.",
+    "feed": "https://api.xively.com/v2/feeds/61696.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "01/18/2014 06:31:17",
+    "created": "05/31/2012 03:18:25",
+    "creator": "https://xively.com/users/rollos",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "response",
+        "current_value": "3.113",
+        "at": "01/18/2014 06:31:17",
+        "max_value": "93.141",
+        "min_value": "0.508",
+        "tags": [
+          "performance"
+        ],
+        "unit": {
+          "symbol": "s",
+          "label": "seconds",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Sydney",
+      "domain": 0,
+      "lat": "-34.052659421376",
+      "lon": "151.171875",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/61696\" >PVOutput Response Rate</a>",
+    "URLMostrar": "https://xively.com/feeds/61696"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\61696.json",
+  "DocumentJSON": null
+}

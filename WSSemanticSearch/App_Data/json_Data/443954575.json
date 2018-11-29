@@ -1,0 +1,80 @@
+{
+  "Conceptos": [
+    "moisture"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "443954575",
+    "title": "Golf Course Project",
+    "Private": false,
+    "tags": [
+      "Golf Course Project"
+    ],
+    "description": "Measurement of Moisture data around the course",
+    "feed": "https://api.xively.com/v2/feeds/443954575.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "09/20/2013 12:39:32",
+    "created": "07/22/2013 20:15:38",
+    "creator": "https://xively.com/users/asivaku",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "sensor1",
+        "current_value": "0",
+        "at": "09/20/2013 12:39:32",
+        "max_value": "31209.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "%",
+          "label": "percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "sensor2",
+        "current_value": "0",
+        "at": "09/20/2013 12:39:00",
+        "max_value": "1017.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "%",
+          "label": "percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "sensor3",
+        "current_value": "0",
+        "at": "09/20/2013 12:39:13",
+        "max_value": "99.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "%",
+          "label": "percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Location",
+      "domain": 0,
+      "lat": "33.4214256",
+      "lon": "-111.9198171",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/443954575\" >Golf Course Project</a>",
+    "URLMostrar": "https://xively.com/feeds/443954575"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\443954575.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,72 @@
+{
+  "Conceptos": [
+    "physical"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "89543",
+    "title": "CurrentCostPI",
+    "Private": false,
+    "tags": [
+      "energy monitor",
+      "Home",
+      "Raspberry Pi"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/89543.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "01/06/2014 19:58:39",
+    "created": "12/02/2012 16:35:06",
+    "creator": "https://xively.com/users/chrisghz",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "13.1",
+        "at": "01/06/2014 19:58:39",
+        "max_value": "36.2",
+        "min_value": "10.4",
+        "tags": [
+          "Living Room Temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "1173",
+        "at": "01/06/2014 19:58:39",
+        "max_value": "9868.0",
+        "min_value": "179.0",
+        "tags": [
+          "Total house energy"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "W",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Birmingham, UK",
+      "domain": 0,
+      "lat": "52.482639090648",
+      "lon": "-1.91713571548462",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/89543\" >CurrentCostPI</a>",
+    "URLMostrar": "https://xively.com/feeds/89543"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\89543.json",
+  "DocumentJSON": null
+}

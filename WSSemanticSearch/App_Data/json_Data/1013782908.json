@@ -1,0 +1,272 @@
+{
+  "Conceptos": [
+    "device"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "1013782908",
+    "title": "T-Measurement",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/1013782908.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:12:45",
+    "created": "07/25/2013 09:20:20",
+    "creator": "https://xively.com/users/vhaupt",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "AA",
+        "current_value": "22.6",
+        "at": "01/10/2014 07:18:37",
+        "max_value": "24.3",
+        "min_value": "19.4",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "AB",
+        "current_value": "23.6",
+        "at": "01/21/2014 10:14:26",
+        "max_value": "29.3",
+        "min_value": "-0.8",
+        "tags": [
+          "Temperatur Sensor_2"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "AC",
+        "current_value": "22.9",
+        "at": "02/05/2014 05:06:28",
+        "max_value": "25.8",
+        "min_value": "0.0",
+        "tags": [
+          "Temperatur Sensor_1"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "AD",
+        "current_value": "23.3",
+        "at": "03/21/2014 14:01:22",
+        "max_value": "25.0",
+        "min_value": "2.8",
+        "tags": [
+          "Temperatur WZB"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "AE",
+        "current_value": "19.8",
+        "at": "03/21/2014 14:12:08",
+        "max_value": "26.9",
+        "min_value": "0.5",
+        "tags": [
+          "2xAA Device"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "AG",
+        "current_value": "18.1",
+        "at": "03/21/2014 14:04:48",
+        "max_value": "30.5",
+        "min_value": "10.3",
+        "tags": [
+          "small battery dev"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "AH",
+        "current_value": "96.0",
+        "at": "03/21/2014 14:10:55",
+        "max_value": "309.7",
+        "min_value": "94.0",
+        "tags": [
+          "Luftdruck"
+        ],
+        "unit": {
+          "symbol": "kPa",
+          "label": "kPa",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "AI",
+        "current_value": "13.4",
+        "at": "03/21/2014 14:10:57",
+        "max_value": "30.4",
+        "min_value": "-73.1",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "AY",
+        "current_value": "23.6",
+        "at": "12/13/2013 10:22:40",
+        "max_value": "23.6",
+        "min_value": "23.6",
+        "tags": [
+          "Dallas pull-dev"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "AZ",
+        "current_value": "22.2",
+        "at": "01/10/2014 09:16:57",
+        "max_value": "23.4",
+        "min_value": "15.8",
+        "tags": [
+          "9V mobile device"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "BB",
+        "current_value": "2.9",
+        "at": "03/21/2014 13:51:08",
+        "max_value": "3.1",
+        "min_value": "2.4",
+        "tags": [
+          "Batterie"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": "U",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "H_Elektronik",
+        "current_value": "26.0",
+        "at": "03/21/2014 14:12:45",
+        "max_value": "65.3",
+        "min_value": "0.0",
+        "tags": [
+          "Rel. Luftfeuchte Elektronikfertigung"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "RH",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "T_Elektronik",
+        "current_value": "24.3",
+        "at": "03/21/2014 14:12:45",
+        "max_value": "28.7",
+        "min_value": "0.0",
+        "tags": [
+          "Temperatur Elektronikfertigung"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "T_Fertigung",
+        "current_value": "25.7",
+        "at": "03/21/2014 14:10:10",
+        "max_value": "29.8",
+        "min_value": "16.8",
+        "tags": [
+          "Temperatur DF-Fertigung"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "T_Labor",
+        "current_value": "26.6",
+        "at": "03/21/2014 14:10:11",
+        "max_value": "29.4",
+        "min_value": "0.0",
+        "tags": [
+          "Temp.Labor"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/1013782908\" >T-Measurement</a>",
+    "URLMostrar": "https://xively.com/feeds/1013782908"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\1013782908.json",
+  "DocumentJSON": null
+}

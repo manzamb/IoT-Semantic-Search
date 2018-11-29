@@ -1,0 +1,75 @@
+{
+  "Conceptos": [
+    "platform"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "22950",
+    "title": "Indoor particle sensor",
+    "Private": false,
+    "tags": [
+      "air quality",
+      "arduino",
+      "DHT11",
+      "Dylos DC1100",
+      "pm10",
+      "pm2.5"
+    ],
+    "description": "Feed from my Dylos DC1100 Pro, converted into approximate particle concentration (i.e. WHO standard microgram/m3) by applying correction factor.\r\n\r\nThe WHO recommended limits are:\r\n\r\nPM2.5\r\n\r\n- Short term (24 hour avg) = 25 ug/m3\r\n- Long term (annual avg) = 10 ug/m3\r\n\r\nPM10\r\n\r\n- Short term (24 hour avg) = 50ug/m3\r\n- Long term (annual avg) = 20 ug/m3\r\n\r\nCorrection factor is from \"Air Quality Sensor Network for Philadelphia\" by Arling, O'connor and Mercieca, Drexel University.\r\n\r\nHumidity data is obtained from DHT11 sensor.  Data manipulation is performed on the Arduino platform, and uploaded directly to Pachube.com via a Wiznet chipset based ethernet shield.",
+    "feed": "https://api.xively.com/v2/feeds/22950.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/26/2012 10:17:48",
+    "created": "04/15/2011 04:25:59",
+    "creator": "https://xively.com/users/abluesheep",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "8",
+        "at": "03/26/2012 10:14:50",
+        "max_value": "277.0",
+        "min_value": "0.0",
+        "tags": [
+          "PM2.5"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "ug/m3",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "48",
+        "at": "03/26/2012 10:17:48",
+        "max_value": "14397.0",
+        "min_value": "0.0",
+        "tags": [
+          "PM10"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "ug/m3",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "The Peak, Hong Kong",
+      "domain": 0,
+      "lat": "22.2707497532568",
+      "lon": "114.149751663208",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/22950\" >Indoor particle sensor</a>",
+    "URLMostrar": "https://xively.com/feeds/22950"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\22950.json",
+  "DocumentJSON": null
+}

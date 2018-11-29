@@ -1,0 +1,54 @@
+{
+  "Conceptos": [
+    "process"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "13949",
+    "title": "Number of pictures in output queue",
+    "Private": false,
+    "tags": [
+      "camera",
+      "doggie",
+      "dumpcam"
+    ],
+    "description": "I have a camera that FTP's changed pictures of front lawn to an input queue.  A Perl process tries to dedupe the input queue pictures and then dumps them to a output queue. This displays the number of pictures in that queue.  I have to manually check these pictures for dog activity, and then I put the pictures in the camera folder.",
+    "feed": "https://api.xively.com/v2/feeds/13949.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/08/2014 08:12:30",
+    "created": "12/17/2010 19:05:43",
+    "creator": "https://xively.com/users/dminear",
+    "version": null,
+    "website": "http://www.scrappintwins.com/dumpcam",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "14436",
+        "at": "03/08/2014 08:12:30",
+        "max_value": "66842.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "number",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "westminster, CA",
+      "domain": 0,
+      "lat": "33.7558155360003",
+      "lon": "-118.035478591919",
+      "ele": "10",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/13949\" >Number of pictures in output queue</a>",
+    "URLMostrar": "https://xively.com/feeds/13949"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\13949.json",
+  "DocumentJSON": null
+}

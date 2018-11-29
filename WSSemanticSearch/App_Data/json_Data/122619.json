@@ -1,0 +1,70 @@
+{
+  "Conceptos": [
+    "project"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "122619",
+    "title": "Petr's fridge",
+    "Private": false,
+    "tags": [
+      "project:name=petr_homeauto_fridge"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/122619.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:13:35",
+    "created": "04/04/2013 13:52:51",
+    "creator": "https://xively.com/users/petr",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "freezer_temp",
+        "current_value": "-19.88",
+        "at": "03/21/2014 14:13:35",
+        "max_value": "50.63",
+        "min_value": "-28.34",
+        "tags": [
+          "Freezer temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "fridge_temp",
+        "current_value": "6.8",
+        "at": "03/21/2014 14:13:35",
+        "max_value": "52.59",
+        "min_value": "0.08",
+        "tags": [
+          "Fridge temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "41.4704086238176",
+      "lon": "2.27346986532211",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/122619\" >Petr's fridge</a>",
+    "URLMostrar": "https://xively.com/feeds/122619"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\122619.json",
+  "DocumentJSON": null
+}

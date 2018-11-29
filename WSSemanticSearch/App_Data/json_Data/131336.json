@@ -1,0 +1,190 @@
+{
+  "Conceptos": [
+    "thermocouple"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "131336",
+    "title": "What's going on in the fridge?",
+    "Private": false,
+    "tags": [
+      "fridge monitoring USB Yoctopuce sensors"
+    ],
+    "description": "Fridge temperature and consumption monitoring using a Yocto-ThermoCouple, a Yocto-Watt and a YoctoHub-Ethernet (beta version) from Yoctopuce",
+    "feed": "https://api.xively.com/v2/feeds/131336.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "05/28/2013 05:18:28",
+    "created": "05/11/2013 06:18:07",
+    "creator": "https://xively.com/users/martinm",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Freezer_Temp",
+        "current_value": "23.0",
+        "at": "05/28/2013 05:18:28",
+        "max_value": "25.0",
+        "min_value": "-54.5",
+        "tags": [
+          "Freezer temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Deg",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Refrigerator_Temp",
+        "current_value": "22.4",
+        "at": "05/28/2013 05:18:28",
+        "max_value": "24.3",
+        "min_value": "-21.0",
+        "tags": [
+          "Refrigerator temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Deg",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "THRMCPL1-06DA8.temperature1",
+        "current_value": "6.7",
+        "at": "05/15/2013 19:01:05",
+        "max_value": "6.7",
+        "min_value": "6.7",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "THRMCPL1-06DA8.temperature2",
+        "current_value": "-27.2",
+        "at": "05/15/2013 19:01:05",
+        "max_value": "-27.2",
+        "min_value": "-27.2",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "timestamp",
+        "current_value": "1077391",
+        "at": "05/28/2013 05:18:28",
+        "max_value": "1077391.0",
+        "min_value": "3.0",
+        "tags": [
+          "Yocto-thermocouple upTime"
+        ],
+        "unit": {
+          "symbol": "s",
+          "label": "sec",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "YWATTMK1-07507.current1",
+        "current_value": "0",
+        "at": "05/28/2013 05:16:25",
+        "max_value": "30.0",
+        "min_value": "-30.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "YWATTMK1-07507.current2",
+        "current_value": "0",
+        "at": "05/28/2013 05:16:25",
+        "max_value": "52100.0",
+        "min_value": "0.0",
+        "tags": [
+          "AC cuurent"
+        ],
+        "unit": {
+          "symbol": "mA",
+          "label": "mA",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "YWATTMK1-07507.power",
+        "current_value": "0",
+        "at": "05/28/2013 05:16:25",
+        "max_value": "1472.0",
+        "min_value": "0.0",
+        "tags": [
+          "Fridge consumption"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "YWATTMK1-07507.voltage1",
+        "current_value": "0",
+        "at": "05/28/2013 05:16:25",
+        "max_value": "0.5",
+        "min_value": "-0.8",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "YWATTMK1-07507.voltage2",
+        "current_value": "232",
+        "at": "05/28/2013 05:16:25",
+        "max_value": "250.0",
+        "min_value": "0.0",
+        "tags": [
+          "AC voltage"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": "Volts",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Eloise City",
+      "domain": 0,
+      "lat": "46.0767872753166",
+      "lon": "5.8516788482666",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/131336\" >What's going on in the fridge?</a>",
+    "URLMostrar": "https://xively.com/feeds/131336"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\131336.json",
+  "DocumentJSON": null
+}

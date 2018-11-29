@@ -1,0 +1,75 @@
+{
+  "Conceptos": [
+    "description"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "102668",
+    "title": "Temperatures",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "ds18b20",
+      "temperature",
+      "testing"
+    ],
+    "description": "Temperature measurements, indoors and outdoors. Mesured using an arduino and a few DS18B20s. A detailed description can be found at http://sickel.net/blogg/?p=1425",
+    "feed": "https://api.xively.com/v2/feeds/102668.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/19/2014 00:22:01",
+    "created": "02/05/2013 09:43:56",
+    "creator": "https://xively.com/users/morten",
+    "version": null,
+    "website": "http://sickel.net/blogg/?p=1425",
+    "datastreams": [
+      {
+        "id": "Inne",
+        "current_value": "21.81",
+        "at": "03/19/2014 00:22:00",
+        "max_value": "2013.0",
+        "min_value": "-127.0",
+        "tags": [
+          "kontoret",
+          "temperatur"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "deg C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Ute",
+        "current_value": "2.06",
+        "at": "03/19/2014 00:22:00",
+        "max_value": "30.0",
+        "min_value": "-127.0",
+        "tags": [
+          "sørveggen",
+          "temperatur"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "deg C",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Drøbak",
+      "domain": 0,
+      "lat": "59.6677405816496",
+      "lon": "10.6292724609375",
+      "ele": "45",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/102668\" >Temperatures</a>",
+    "URLMostrar": "https://xively.com/feeds/102668"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\102668.json",
+  "DocumentJSON": null
+}

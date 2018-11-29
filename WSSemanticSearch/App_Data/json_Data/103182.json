@@ -1,0 +1,71 @@
+{
+  "Conceptos": [
+    "temperature"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "103182",
+    "title": "Work Temperature",
+    "Private": false,
+    "tags": [
+      "air",
+      "vent"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/103182.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:09:47",
+    "created": "02/07/2013 16:52:46",
+    "creator": "https://xively.com/users/bradfordanderson",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "air",
+        "current_value": "72.21",
+        "at": "03/21/2014 14:09:47",
+        "max_value": "91.93",
+        "min_value": "0.0",
+        "tags": [
+          "Air Temp"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "vent",
+        "current_value": "76.54",
+        "at": "03/21/2014 14:09:47",
+        "max_value": "139.26",
+        "min_value": "0.0",
+        "tags": [
+          "Vent Temp"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/103182\" >Work Temperature</a>",
+    "URLMostrar": "https://xively.com/feeds/103182"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\103182.json",
+  "DocumentJSON": null
+}

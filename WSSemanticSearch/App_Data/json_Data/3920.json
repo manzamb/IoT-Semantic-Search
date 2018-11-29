@@ -1,0 +1,68 @@
+{
+  "Conceptos": [
+    "amount"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "3920",
+    "title": "Arduinoponics sensors",
+    "Private": false,
+    "tags": null,
+    "description": "This is a collection of sensors (currently light and temperature) attached to my Arduinoponics (http://github.com/nemik/arduinoponics) setup in my home. It just measures the amount of light the plants are getting in the hydroponic system as well as the temperature in celsius near the plants.",
+    "feed": "https://api.xively.com/v2/feeds/3920.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "09/28/2010 18:24:48",
+    "created": "12/11/2009 19:18:21",
+    "creator": "https://xively.com/users/nemik",
+    "version": null,
+    "website": "http://blog.nemik.net/",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": null,
+        "at": "09/28/2010 18:24:48",
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "light_value"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": null,
+        "at": "09/28/2010 18:24:48",
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "temperature_value"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "nemik home",
+      "domain": 0,
+      "lat": "41.9801661154606",
+      "lon": "-87.840371131897",
+      "ele": "0",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/3920\" >Arduinoponics sensors</a>",
+    "URLMostrar": "https://xively.com/feeds/3920"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\3920.json",
+  "DocumentJSON": null
+}

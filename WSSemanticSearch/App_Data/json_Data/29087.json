@@ -1,0 +1,54 @@
+{
+  "Conceptos": [
+    "response time"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "29087",
+    "title": "NTP Query Time",
+    "Private": false,
+    "tags": [
+      "NTP Query Time"
+    ],
+    "description": "Time (in mSec) required to receive an NTP response.  Updated every 3 minutes.",
+    "feed": "https://api.xively.com/v2/feeds/29087.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "07/25/2011 20:34:19",
+    "created": "06/30/2011 23:19:54",
+    "creator": "https://xively.com/users/pwsensors",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "0",
+        "at": "07/25/2011 20:34:19",
+        "max_value": "442.0",
+        "min_value": "0.0",
+        "tags": [
+          "NTP"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "mSec",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "42.5789506867203",
+      "lon": "-88.4204256534576",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/29087\" >NTP Query Time</a>",
+    "URLMostrar": "https://xively.com/feeds/29087"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\29087.json",
+  "DocumentJSON": null
+}

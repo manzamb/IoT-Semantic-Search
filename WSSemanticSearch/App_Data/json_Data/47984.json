@@ -1,0 +1,122 @@
+{
+  "Conceptos": [
+    "temperature"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "47984",
+    "title": "Garn Wood Boiler Temperature Sensors",
+    "Private": false,
+    "tags": [
+      "Arduino",
+      "Boiler",
+      "Garn",
+      "Hydronic Storage",
+      "Wood"
+    ],
+    "description": "This Temperature feed is from a GARN outdoor wood boiler. The feed is generated with an Arduino Uno w/ an Arduino Ethernet Shield. The temp sensors are DS18B20, and are placed on the Storage Tank, House Supply Line, House Return Line, and Boiler room in the remote building. \r\n\r\n02/14/12 Status: Currently, 4 Sensors are up and feeding: House Supply, Garn Tank, Garn Boiler Room, House Return. The 5th plot is the Temperature Drop across the Heat Exchanger from Supply to Return on the Boiler Side.",
+    "feed": "https://api.xively.com/v2/feeds/47984.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:09:18",
+    "created": "02/12/2012 15:53:18",
+    "creator": "https://xively.com/users/deerhntr",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "a_House_Supply",
+        "current_value": "127.40",
+        "at": "03/21/2014 14:09:18",
+        "max_value": "209.08",
+        "min_value": "-196.6",
+        "tags": [
+          "Temp"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "Degree(F)",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "b_Garn_Tank_Top",
+        "current_value": "162.95",
+        "at": "03/21/2014 14:09:18",
+        "max_value": "211.21",
+        "min_value": "-196.6",
+        "tags": [
+          "Temp"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "Degree(F)",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "c_Garn_Room",
+        "current_value": "71.94",
+        "at": "03/21/2014 14:09:18",
+        "max_value": "185.0",
+        "min_value": "-196.6",
+        "tags": [
+          "Temp"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "Degree(F)",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "d_House_Return",
+        "current_value": "122.45",
+        "at": "03/21/2014 14:09:18",
+        "max_value": "205.81",
+        "min_value": "54.72",
+        "tags": [
+          "Temp"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "Degree(F)",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "e_Supply_Return_Drop",
+        "current_value": "4.95",
+        "at": "03/21/2014 14:09:18",
+        "max_value": "109.35",
+        "min_value": "-0.34",
+        "tags": [
+          "Temp"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "Degree(F)",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "New Smithville, PA",
+      "domain": 0,
+      "lat": "40.5798350013438",
+      "lon": "-75.728588104248",
+      "ele": "750 Feet",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/47984\" >Garn Wood Boiler Temperature Sensors</a>",
+    "URLMostrar": "https://xively.com/feeds/47984"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\47984.json",
+  "DocumentJSON": null
+}

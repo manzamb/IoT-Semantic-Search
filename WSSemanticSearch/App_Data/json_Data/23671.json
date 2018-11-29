@@ -1,0 +1,54 @@
+{
+  "Conceptos": [
+    "carbon monoxide"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "23671",
+    "title": "Air Quality Data",
+    "Private": false,
+    "tags": [
+      "Air Quality"
+    ],
+    "description": "Testing a Figaro air quality sensor (carbon monoxide and hydrogen) in my neighborhood.  Please note that this is raw data from a sensor - it has not been calibrated to represent specific ppms and/or index.  ",
+    "feed": "https://api.xively.com/v2/feeds/23671.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "04/20/2011 05:04:27",
+    "created": "04/19/2011 04:42:43",
+    "creator": "https://xively.com/users/shahi271",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "1",
+        "current_value": "440.0",
+        "at": "04/20/2011 05:04:27",
+        "max_value": "545.0",
+        "min_value": "5.0",
+        "tags": [
+          "Air Quality"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "West New York, NJ",
+      "domain": 0,
+      "lat": "40.7877552020365",
+      "lon": "-74.0142059326172",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/23671\" >Air Quality Data</a>",
+    "URLMostrar": "https://xively.com/feeds/23671"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\23671.json",
+  "DocumentJSON": null
+}

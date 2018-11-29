@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AreaImpacto">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>App_Code\Objetos Negocio\AreaImpacto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Unit">
+    <Position X="12.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAAAAAABAAAAAAAAAAACAA=</HashCode>
+      <FileName>App_Code\Objetos Negocio\Unit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Periodo">
+    <Position X="12.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAgAAAAAA=</HashCode>
+      <FileName>App_Code\Objetos Negocio\Periodo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Variable">
+    <Position X="4.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAgAAAAAAAABAAAAAAIQBAAAAAAAAAAAEA=</HashCode>
+      <FileName>App_Code\Objetos Negocio\Variable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Edafotopo">
+    <Position X="0.5" Y="3.25" Width="1.5" />
+    <AssociationLine Name="Variables" Type="Variable" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="1.906" Y="4.353" />
+        <Point X="1.906" Y="4.438" />
+        <Point X="2.062" Y="4.438" />
+        <Point X="2.062" Y="4.562" />
+        <Point X="2.425" Y="4.562" Type="JumpStart" />
+        <Point X="2.592" Y="4.562" Type="JumpEnd" />
+        <Point X="2.962" Y="4.562" Type="JumpStart" />
+        <Point X="3.129" Y="4.562" Type="JumpEnd" />
+        <Point X="4.5" Y="4.562" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>App_Code\Objetos Negocio\Edafotopo.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Variables" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Hidrotopo">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>App_Code\Objetos Negocio\Hidrotopo.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Variables" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Climatopo">
+    <Position X="0.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>App_Code\Objetos Negocio\Climatopo.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Variables" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Biotipo">
+    <Position X="4.75" Y="0.5" Width="1.75" />
+    <AssociationLine Name="AreaImpacto" Type="AreaImpacto" FixedFromPoint="true">
+      <Path>
+        <Point X="4.75" Y="1.062" />
+        <Point X="2" Y="1.062" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="Edafotopo" Type="Edafotopo" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="4.75" Y="1.375" />
+        <Point X="2.25" Y="1.375" />
+        <Point X="2.25" Y="2.69" />
+        <Point X="1.312" Y="2.69" />
+        <Point X="1.312" Y="3.25" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="Hidrotopo" Type="Hidrotopo" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="4.75" Y="1.687" />
+        <Point X="2.508" Y="1.687" />
+        <Point X="2.508" Y="4.938" />
+        <Point X="2" Y="4.938" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="Climatopo" Type="Climatopo" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="4.75" Y="2.062" />
+        <Point X="3.046" Y="2.062" />
+        <Point X="3.046" Y="5.995" />
+        <Point X="2" Y="5.995" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="ContaminacionSuelo" Type="ContaminacionSuelo" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="6.5" Y="1.312" />
+        <Point X="8.508" Y="1.312" />
+        <Point X="8.508" Y="2.606" />
+        <Point X="10.25" Y="2.606" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="ContaminacionAgua" Type="ContaminacionAgua" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="6.5" Y="1.75" />
+        <Point X="8.171" Y="1.75" />
+        <Point X="8.171" Y="3.844" />
+        <Point X="9.792" Y="3.844" Type="JumpStart" />
+        <Point X="9.958" Y="3.844" Type="JumpEnd" />
+        <Point X="10.25" Y="3.844" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="ContaminacionSonora" Type="ContaminacionSonora" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="6.5" Y="2" />
+        <Point X="7.821" Y="2" />
+        <Point X="7.821" Y="5.44" />
+        <Point X="10.25" Y="5.44" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="ContaminacionTermica" Type="ContaminacionTermica" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="6.5" Y="2.188" />
+        <Point X="7.346" Y="2.188" />
+        <Point X="7.346" Y="6.69" />
+        <Point X="10.25" Y="6.69" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="ContaminacionVisual" Type="ContaminacionVisual" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="6.5" Y="2.375" />
+        <Point X="7.346" Y="2.375" />
+        <Point X="7.346" Y="7.802" />
+        <Point X="10.25" Y="7.802" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>IiIAEAAAAAAAAAAAAEAAAACQAIAEgAAAAAAgAACQAAA=</HashCode>
+      <FileName>App_Code\Objetos Negocio\Biotipo.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="AreaImpacto" />
+      <Property Name="Edafotopo" />
+      <Property Name="Hidrotopo" />
+      <Property Name="Climatopo" />
+      <Property Name="contaminacionAire" />
+      <Property Name="ContaminacionSuelo" />
+      <Property Name="ContaminacionAgua" />
+      <Property Name="ContaminacionSonora" />
+      <Property Name="ContaminacionTermica" />
+      <Property Name="ContaminacionVisual" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ContaminacionAire">
+    <Position X="10.25" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>App_Code\ContaminacionAire.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ContaminacionSuelo">
+    <Position X="10.25" Y="2.25" Width="2" />
+    <AssociationLine Name="Variables" Type="Variable" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="10.25" Y="3.024" />
+        <Point X="9.875" Y="3.024" />
+        <Point X="9.875" Y="4.562" />
+        <Point X="7.904" Y="4.562" Type="JumpStart" />
+        <Point X="7.738" Y="4.562" Type="JumpEnd" />
+        <Point X="7.429" Y="4.562" Type="JumpStart" />
+        <Point X="7.262" Y="4.562" Type="JumpEnd" />
+        <Point X="6" Y="4.562" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>App_Code\ContaminacionSuelo.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Variables" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="ContaminacionAgua">
+    <Position X="10.25" Y="3.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>App_Code\ContaminacionAgua.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Variables" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="ContaminacionSonora">
+    <Position X="10.25" Y="4.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>App_Code\ContaminacionSonora.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Variables" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="ContaminacionTermica">
+    <Position X="10.25" Y="6" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>App_Code\ContaminacionTermica.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Variables" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="ContaminacionVisual">
+    <Position X="10.25" Y="7.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>App_Code\ContaminacionVisual.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Variables" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

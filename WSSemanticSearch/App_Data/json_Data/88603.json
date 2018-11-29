@@ -1,0 +1,75 @@
+{
+  "Conceptos": [
+    "environment"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "88603",
+    "title": "Oxford: Bulstake Stream at New Botley",
+    "Private": false,
+    "tags": [
+      "flooding",
+      "water"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/88603.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:10:05",
+    "created": "11/26/2012 21:34:12",
+    "creator": "https://xively.com/users/crouchingbadger",
+    "version": null,
+    "website": "http://www.environment-agency.gov.uk/homeandleisure/floods/riverlevels/136495.aspx?stationId=7075",
+    "datastreams": [
+      {
+        "id": "FloodRisk",
+        "current_value": "1.9",
+        "at": "11/26/2012 21:38:29",
+        "max_value": "1.9",
+        "min_value": "1.9",
+        "tags": [
+          "flood",
+          "level",
+          "water"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "m",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Level",
+        "current_value": "1.23",
+        "at": "03/21/2014 14:10:05",
+        "max_value": "3.02",
+        "min_value": "0.8",
+        "tags": [
+          "flood",
+          "level",
+          "water"
+        ],
+        "unit": {
+          "symbol": "m",
+          "label": "Metre",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Oxford: Bulstake Stream at New Botley",
+      "domain": 0,
+      "lat": "51.7521625492412",
+      "lon": "-1.28145217895508",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/88603\" >Oxford: Bulstake Stream at New Botley</a>",
+    "URLMostrar": "https://xively.com/feeds/88603"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\88603.json",
+  "DocumentJSON": null
+}

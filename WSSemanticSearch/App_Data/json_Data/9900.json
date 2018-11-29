@@ -1,0 +1,70 @@
+{
+  "Conceptos": [
+    "processo"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "9900",
+    "title": "Processor Temperature Laptop",
+    "Private": false,
+    "tags": [
+      "cpu temperature"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/9900.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "01/05/2012 22:22:19",
+    "created": "09/06/2010 19:19:20",
+    "creator": "https://xively.com/users/proteus",
+    "version": null,
+    "website": "http://www.hackeneering.com",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "59",
+        "at": "01/05/2012 22:22:19",
+        "max_value": "67.0",
+        "min_value": "22.0",
+        "tags": [
+          "temperature core0"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "59",
+        "at": "01/05/2012 22:22:19",
+        "max_value": "67.0",
+        "min_value": "22.0",
+        "tags": [
+          "temperature core1"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "São Paulo",
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 1
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/9900\" >Processor Temperature Laptop</a>",
+    "URLMostrar": "https://xively.com/feeds/9900"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\9900.json",
+  "DocumentJSON": null
+}

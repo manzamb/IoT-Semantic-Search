@@ -1,0 +1,123 @@
+{
+  "Conceptos": [
+    "turbidity"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "62914",
+    "title": "WaterAlert",
+    "Private": false,
+    "tags": [
+      "water quality monitoring"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/62914.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "08/10/2013 00:22:10",
+    "created": "06/08/2012 21:32:07",
+    "creator": "https://xively.com/users/faniseng",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "7.9",
+        "at": "08/10/2013 00:21:55",
+        "max_value": "269.5",
+        "min_value": "0.0",
+        "tags": [
+          "TU",
+          "Turbidity Sensor"
+        ],
+        "unit": {
+          "symbol": "NTU",
+          "label": "NTU",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "407.0",
+        "at": "08/10/2013 00:21:58",
+        "max_value": "744.0",
+        "min_value": "407.0",
+        "tags": [
+          "ORP",
+          "Redox Sensor"
+        ],
+        "unit": {
+          "symbol": "mV",
+          "label": "mV",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "8.0",
+        "at": "08/10/2013 00:22:01",
+        "max_value": "11.2",
+        "min_value": "7.0",
+        "tags": [
+          "pH",
+          "pH Sensor"
+        ],
+        "unit": {
+          "symbol": "pH",
+          "label": "lux",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "1095.0",
+        "at": "08/10/2013 00:22:04",
+        "max_value": "1337.0",
+        "min_value": "769.2",
+        "tags": [
+          "EC",
+          "Electrical Conductivity Sensor"
+        ],
+        "unit": {
+          "symbol": "μS/cm",
+          "label": "μS/cm",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "29.6",
+        "at": "08/10/2013 00:22:10",
+        "max_value": "354.5",
+        "min_value": "0.0",
+        "tags": [
+          "RTD Sensor",
+          "Temp"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "KIOS Research Center, University of Cyprus ",
+      "domain": 0,
+      "lat": "35.1489157033012",
+      "lon": "33.3865070343018",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/62914\" >WaterAlert</a>",
+    "URLMostrar": "https://xively.com/feeds/62914"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\62914.json",
+  "DocumentJSON": null
+}

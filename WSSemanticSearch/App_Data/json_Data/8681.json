@@ -1,0 +1,100 @@
+{
+  "Conceptos": [
+    "solar radiation"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "8681",
+    "title": "Bromsash Weather",
+    "Private": false,
+    "tags": null,
+    "description": "This uses a feed from the Meteoplug Server which in turn is getting it's feed from the Meteohub client at the data sources. The sources are a Davis Vantage Pro+ and the total energy being consumed is measured by the Current Cost CC128",
+    "feed": "https://api.xively.com/v2/feeds/8681.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/20/2014 15:27:47",
+    "created": "07/07/2010 22:31:04",
+    "creator": "https://xively.com/users/gibsonmb",
+    "version": null,
+    "website": "http://www.bromsash.com",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "10.2",
+        "at": "03/20/2014 15:27:47",
+        "max_value": "30.3",
+        "min_value": "-43.2",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "86",
+        "at": "03/20/2014 15:27:47",
+        "max_value": "100.0",
+        "min_value": "22.0",
+        "tags": [
+          "Relative Humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "RH",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "92.5",
+        "at": "03/20/2014 15:27:47",
+        "max_value": "1259.0",
+        "min_value": "0.0",
+        "tags": [
+          "Solar Radiation"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "WM2",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "1288.5",
+        "at": "03/20/2014 15:27:47",
+        "max_value": "11324.1",
+        "min_value": "178.0",
+        "tags": [
+          "Power being used"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Bromsash",
+      "domain": 0,
+      "lat": "51.9105876111866",
+      "lon": "-2.51004874706268",
+      "ele": "118M",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/8681\" >Bromsash Weather</a>",
+    "URLMostrar": "https://xively.com/feeds/8681"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\8681.json",
+  "DocumentJSON": null
+}

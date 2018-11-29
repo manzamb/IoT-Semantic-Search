@@ -1,0 +1,124 @@
+{
+  "Conceptos": [
+    "man"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "98921",
+    "title": "C/ Maestro Lecuona - Granada - Spain",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "BMP085",
+      "DHT22"
+    ],
+    "description": "Sensor DHT 22 en el interior de la vivienda. Actualiza datos cada 10 sg.\r\n09/02/13 Se incluye sensor BMP085 y voltaje de alimentación del arduino.\r\n18/02/13 Desconexión de los sensores por mantenimiento\r\n07/04/13 Mantenimiento. Cambio sensores",
+    "feed": "https://api.xively.com/v2/feeds/98921.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:13:24",
+    "created": "01/19/2013 22:26:07",
+    "creator": "https://xively.com/users/gguzman",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Humedad",
+        "current_value": "35.90",
+        "at": "03/21/2014 14:13:23",
+        "max_value": "63.6",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Presion",
+        "current_value": "940.",
+        "at": "03/21/2014 14:13:23",
+        "max_value": "2412.0",
+        "min_value": "2.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "hPa",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Punto_de_Rocio",
+        "current_value": "10.97",
+        "at": "03/21/2014 14:13:23",
+        "max_value": "18.92",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "ºC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperatura",
+        "current_value": "27.40",
+        "at": "03/21/2014 14:13:23",
+        "max_value": "36.3",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "ºC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperatura_BMP",
+        "current_value": "26.23",
+        "at": "03/21/2014 14:13:23",
+        "max_value": "205.83",
+        "min_value": "-13421773.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "ºC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Voltaje",
+        "current_value": "7.17",
+        "at": "03/21/2014 14:13:23",
+        "max_value": "7.5",
+        "min_value": "6.7",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "Volt",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Granada",
+      "domain": 0,
+      "lat": "37.166788869096",
+      "lon": "-3.60189020633698",
+      "ele": "738",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/98921\" >C/ Maestro Lecuona - Granada - Spain</a>",
+    "URLMostrar": "https://xively.com/feeds/98921"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\98921.json",
+  "DocumentJSON": null
+}

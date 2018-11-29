@@ -1,0 +1,228 @@
+{
+  "Conceptos": [
+    "pst"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "2136995850",
+    "title": "raven",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/2136995850.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "02/21/2014 06:03:03",
+    "created": "11/11/2013 06:04:21",
+    "creator": "https://xively.com/users/proffer",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "1007",
+        "at": "02/21/2014 06:03:03",
+        "max_value": "18143.0",
+        "min_value": "409.0",
+        "tags": [
+          "Instantaneous Demand"
+        ],
+        "unit": {
+          "symbol": "Watts",
+          "label": "Watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "16737.412",
+        "at": "02/21/2014 06:03:03",
+        "max_value": "16737.412",
+        "min_value": "0.001",
+        "tags": [
+          "Summation Delivered"
+        ],
+        "unit": {
+          "symbol": "kWh",
+          "label": "kWh",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "None",
+        "at": "02/21/2014 06:03:03",
+        "max_value": "438752.95",
+        "min_value": "0.0",
+        "tags": [
+          "Downstairs Temp"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "degrees F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "100",
+        "at": "02/21/2014 06:03:03",
+        "max_value": "100.0",
+        "min_value": "-100.0",
+        "tags": [
+          "Signal Strength (0-100)"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "59",
+        "at": "02/21/2014 06:03:03",
+        "max_value": "102.0",
+        "min_value": "0.0",
+        "tags": [
+          "AirTemp"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "deg. F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "65",
+        "at": "02/21/2014 06:03:03",
+        "max_value": "68.0",
+        "min_value": "0.0",
+        "tags": [
+          "PoolTemp"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "deg F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "52",
+        "at": "02/21/2014 06:03:03",
+        "max_value": "108.0",
+        "min_value": "0.0",
+        "tags": [
+          "SolarTemp"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "deg F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "7",
+        "current_value": "0",
+        "at": "02/21/2014 06:03:03",
+        "max_value": "2.0",
+        "min_value": "0.0",
+        "tags": [
+          "SolarOn"
+        ],
+        "unit": {
+          "symbol": "0/1/2",
+          "label": "0-1-2",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "8",
+        "current_value": "77",
+        "at": "02/21/2014 06:03:03",
+        "max_value": "99.0",
+        "min_value": "0.0",
+        "tags": [
+          "SpaTemp"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "deg F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "9",
+        "current_value": "0",
+        "at": "02/21/2014 06:03:03",
+        "max_value": "3.0",
+        "min_value": "-1.0",
+        "tags": [
+          "tmode"
+        ],
+        "unit": {
+          "symbol": "off/heat/cool/auto",
+          "label": "0/1/2/3",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "10",
+        "current_value": "0",
+        "at": "02/21/2014 06:03:03",
+        "max_value": "1.0",
+        "min_value": "-1.0",
+        "tags": [
+          "tstate"
+        ],
+        "unit": {
+          "symbol": "off/heat/cool",
+          "label": "0/1/2",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "11",
+        "current_value": "73.5",
+        "at": "02/21/2014 06:03:03",
+        "max_value": "78.5",
+        "min_value": "-1.0",
+        "tags": [
+          "upstairs temp"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "deg F",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/2136995850\" >raven</a>",
+    "URLMostrar": "https://xively.com/feeds/2136995850"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\2136995850.json",
+  "DocumentJSON": null
+}

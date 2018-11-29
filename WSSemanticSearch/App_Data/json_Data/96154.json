@@ -1,0 +1,74 @@
+{
+  "Conceptos": [
+    "humedad"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "96154",
+    "title": "Temperatura",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "ethernet shield",
+      "humedad",
+      "sht15",
+      "temperatura"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/96154.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/18/2013 11:43:21",
+    "created": "01/05/2013 05:18:51",
+    "creator": "https://xively.com/users/vtpablo",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Humedad",
+        "current_value": "47",
+        "at": "03/18/2013 11:43:21",
+        "max_value": "72.0",
+        "min_value": "-4.0",
+        "tags": [
+          "Humedad"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperatura",
+        "current_value": "24.77",
+        "at": "03/18/2013 11:43:21",
+        "max_value": "35.78",
+        "min_value": "-40.0",
+        "tags": [
+          "Temperatura"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "FIC UAT (Agronomia)",
+      "domain": 0,
+      "lat": "23.7152914122533",
+      "lon": "-99.152684211731",
+      "ele": "318",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/96154\" >Temperatura</a>",
+    "URLMostrar": "https://xively.com/feeds/96154"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\96154.json",
+  "DocumentJSON": null
+}

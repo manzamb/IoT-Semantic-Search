@@ -1,0 +1,80 @@
+{
+  "Conceptos": [
+    "scopo"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "118346",
+    "title": "weather station test",
+    "Private": false,
+    "tags": [
+      "arduino"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/118346.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/14/2013 01:17:58",
+    "created": "03/09/2013 17:21:43",
+    "creator": "https://xively.com/users/boscopos",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "info_message",
+        "current_value": "a message to upload",
+        "at": "03/14/2013 01:17:58",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "random_string",
+        "current_value": "72 is a random number",
+        "at": "03/14/2013 01:17:58",
+        "max_value": "73.0",
+        "min_value": "30.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "sensor_reading",
+        "current_value": "367.00",
+        "at": "03/14/2013 01:17:58",
+        "max_value": "551.0",
+        "min_value": "362.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/118346\" >weather station test</a>",
+    "URLMostrar": "https://xively.com/feeds/118346"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\118346.json",
+  "DocumentJSON": null
+}

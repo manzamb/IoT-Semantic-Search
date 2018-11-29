@@ -1,0 +1,166 @@
+{
+  "Conceptos": [
+    "atmospheric pressure"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "76141",
+    "title": "Temp sensor by RPi",
+    "Private": false,
+    "tags": [
+      "temperature monitor"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/76141.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/08/2014 20:06:17",
+    "created": "09/17/2012 19:47:03",
+    "creator": "https://xively.com/users/fascineroso",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "AtmPressure",
+        "current_value": "1007.0",
+        "at": "03/08/2014 20:06:17",
+        "max_value": "1039.5",
+        "min_value": "949.7",
+        "tags": [
+          "atmospheric pressure"
+        ],
+        "unit": {
+          "symbol": "mb",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "DewPointHouse",
+        "current_value": "10.01",
+        "at": "03/08/2014 20:06:17",
+        "max_value": "105.4",
+        "min_value": "5.28",
+        "tags": [
+          "dew point House"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "DewPointOutdoor",
+        "current_value": ".86",
+        "at": "01/14/2014 06:05:12",
+        "max_value": "44.15",
+        "min_value": "0.0",
+        "tags": [
+          "dew point Outdoor"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "HumHouse",
+        "current_value": "49.8",
+        "at": "03/08/2014 20:06:17",
+        "max_value": "490.6",
+        "min_value": "30.5",
+        "tags": [
+          "humidity House"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "OutdoorHum",
+        "current_value": "30.6",
+        "at": "03/08/2014 20:06:17",
+        "max_value": "530.1",
+        "min_value": "6.6",
+        "tags": [
+          "humidity outdoor Limerick"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "OutdoorTemp",
+        "current_value": "20.2",
+        "at": "03/08/2014 20:06:17",
+        "max_value": "47.4",
+        "min_value": "-652.5",
+        "tags": [
+          "temperature outdoor Limerick"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "TemperaturePi",
+        "current_value": "20.906",
+        "at": "03/08/2014 20:06:17",
+        "max_value": "126.593",
+        "min_value": "-203.146",
+        "tags": [
+          "temperature House"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "TempPi",
+        "current_value": "40.1",
+        "at": "03/08/2014 20:06:17",
+        "max_value": "56.1",
+        "min_value": "-68195.0",
+        "tags": [
+          "temperature Pi"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "53.1204052831066",
+      "lon": "-7.734375",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/76141\" >Temp sensor by RPi</a>",
+    "URLMostrar": "https://xively.com/feeds/76141"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\76141.json",
+  "DocumentJSON": null
+}

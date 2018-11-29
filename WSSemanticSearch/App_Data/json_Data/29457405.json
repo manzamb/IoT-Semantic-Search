@@ -1,0 +1,98 @@
+{
+  "Conceptos": [
+    "platform"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "29457405",
+    "title": "Environment Monitor",
+    "Private": false,
+    "tags": [
+      "Arduino",
+      "Environment Sensor",
+      "Giger",
+      "Light",
+      "Temp"
+    ],
+    "description": "Based on the Arduino platform, this sensor will eventually monitor many different aspects of its local environment.",
+    "feed": "https://api.xively.com/v2/feeds/29457405.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/21/2014 08:44:48",
+    "created": "11/23/2013 20:11:56",
+    "creator": "https://xively.com/users/adenis",
+    "version": null,
+    "website": "http://alaindenis.com/robotics/project-arduino-environment-sensor/",
+    "datastreams": [
+      {
+        "id": "ambientlight",
+        "current_value": "4",
+        "at": "03/21/2014 08:44:47",
+        "max_value": "1007.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "(0-1000)",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "giger",
+        "current_value": "0",
+        "at": "11/23/2013 20:23:15",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "Counts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "GPUtemperature",
+        "current_value": "24",
+        "at": "03/21/2014 08:44:47",
+        "max_value": "26.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temperature",
+        "current_value": "17",
+        "at": "03/21/2014 08:44:47",
+        "max_value": "28.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "Deg C",
+          "label": "Degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Port Moody, BC, Canada",
+      "domain": 0,
+      "lat": "49.2806843895426",
+      "lon": "-122.840709686279",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/29457405\" >Environment Monitor</a>",
+    "URLMostrar": "https://xively.com/feeds/29457405"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\29457405.json",
+  "DocumentJSON": null
+}

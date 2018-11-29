@@ -1,0 +1,72 @@
+{
+  "Conceptos": [
+    "action"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "105423",
+    "title": "BreakChecker",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "interaction design",
+      "studies"
+    ],
+    "description": "Data from arduino, checking if someone is sitting on a chair.",
+    "feed": "https://api.xively.com/v2/feeds/105423.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/26/2013 13:47:39",
+    "created": "02/18/2013 18:15:11",
+    "creator": "https://xively.com/users/bjelmov",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "SeatMessages",
+        "current_value": "3.00",
+        "at": "03/26/2013 13:47:38",
+        "max_value": "5.0",
+        "min_value": "0.0",
+        "tags": [
+          "Seated"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Pt",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "seatTime",
+        "current_value": "1.00",
+        "at": "03/06/2013 11:36:12",
+        "max_value": "2.0",
+        "min_value": "0.0",
+        "tags": [
+          "time seated"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Pt",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "55.6152981907706",
+      "lon": "12.9861831665039",
+      "ele": "3",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/105423\" >BreakChecker</a>",
+    "URLMostrar": "https://xively.com/feeds/105423"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\105423.json",
+  "DocumentJSON": null
+}

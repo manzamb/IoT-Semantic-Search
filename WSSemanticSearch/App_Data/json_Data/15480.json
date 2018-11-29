@@ -1,0 +1,400 @@
+{
+  "Conceptos": [
+    "pattern"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "15480",
+    "title": "My House",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/15480.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "01/24/2011 14:40:38",
+    "created": "01/24/2011 14:30:42",
+    "creator": "https://xively.com/users/moixatestuserone",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "ac_usage_total",
+        "current_value": "0",
+        "at": "01/24/2011 14:40:38",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "ped:flow_type=usage",
+          "ped:power_type=ac"
+        ],
+        "unit": {
+          "symbol": "kWh",
+          "label": "Kilowatt Hours",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "ac_usage_live",
+        "current_value": "0",
+        "at": "01/24/2011 14:40:38",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "ped:flow_type=usage",
+          "ped:power_type=ac"
+        ],
+        "unit": {
+          "symbol": "kW",
+          "label": "Kilowatts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "dc_usage_total",
+        "current_value": "0",
+        "at": "01/24/2011 14:40:38",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "ped:flow_type=usage",
+          "ped:power_type=dc"
+        ],
+        "unit": {
+          "symbol": "kWh",
+          "label": "Kilowatt Hours",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "dc_usage_live",
+        "current_value": "0",
+        "at": "01/24/2011 14:40:38",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "ped:flow_type=usage",
+          "ped:power_type=dc"
+        ],
+        "unit": {
+          "symbol": "kW",
+          "label": "Kilowatts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "dc_generated_total",
+        "current_value": "0",
+        "at": "01/24/2011 14:40:38",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "ped:flow_type=usage",
+          "ped:power_type=dc"
+        ],
+        "unit": {
+          "symbol": "kWh",
+          "label": "Kilowatt Hours",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "dc_generated_live",
+        "current_value": "0",
+        "at": "01/24/2011 14:40:38",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "ped:flow_type=usage",
+          "ped:power_type=dc"
+        ],
+        "unit": {
+          "symbol": "kW",
+          "label": "Kilowatts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "whole_house_usage_live",
+        "current_value": "0",
+        "at": "01/24/2011 14:40:38",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "ped:flow_type=usage",
+          "ped:power_type=all"
+        ],
+        "unit": {
+          "symbol": "kW",
+          "label": "Kilowatts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "potential_savings_live",
+        "current_value": "0",
+        "at": "01/24/2011 14:40:38",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "ped:flow_type=potentialsavings",
+          "ped:power_type=ac"
+        ],
+        "unit": {
+          "symbol": "kW",
+          "label": "Kilowatts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "potential_savings_total",
+        "current_value": "0",
+        "at": "01/24/2011 14:40:38",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "ped:flow_type=potentialsavings",
+          "ped:power_type=ac"
+        ],
+        "unit": {
+          "symbol": "kWh",
+          "label": "Kilowatt Hours",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "savings_live",
+        "current_value": "0",
+        "at": "01/24/2011 14:40:38",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "ped:flow_type=actualsavings",
+          "ped:power_type=ac"
+        ],
+        "unit": {
+          "symbol": "kW",
+          "label": "Kilowatts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "savings_total",
+        "current_value": "0",
+        "at": "01/24/2011 14:40:38",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "ped:flow_type=actualsavings",
+          "ped:power_type=ac"
+        ],
+        "unit": {
+          "symbol": "kWh",
+          "label": "Kilowatt Hours",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "property_temperature",
+        "current_value": "0",
+        "at": "01/24/2011 14:40:38",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "Centigrade",
+          "ped:globalTemp",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "˚C",
+          "label": "Centigrade",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "thermostat_temperature",
+        "current_value": "0",
+        "at": "01/24/2011 14:40:38",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "Centigrade",
+          "ped:thermostatTemp",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "˚C",
+          "label": "Centigrade",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "thermostat_conversion_factor",
+        "current_value": "0",
+        "at": "01/24/2011 14:40:38",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "ped:tempConversionFactor"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "thermostat_boost_status",
+        "current_value": "0",
+        "at": "01/24/2011 14:40:38",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "ped:deviceSwitchType:binary"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "thermostat_control_pattern",
+        "current_value": "000000000000000000000000000000000000000000000000",
+        "at": "01/24/2011 14:40:38",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "ped:thermostatboostpattern"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "whole_house_switch_state",
+        "current_value": "0",
+        "at": "01/24/2011 14:40:38",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "ped:deviceSwitchType:binary",
+          "ped:WholeHouseSwitch"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "device_one_switch_state",
+        "current_value": "0",
+        "at": "01/24/2011 14:40:38",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "ped:device",
+          "ped:deviceName:Laptop",
+          "ped:switchType:binary"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "device_one_usage_live",
+        "current_value": "0",
+        "at": "01/24/2011 14:40:38",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "electricity",
+          "ped:deviceName:Laptop",
+          "ped:deviceUsage",
+          "ped:flow_type=usage",
+          "ped:power_type=dc"
+        ],
+        "unit": {
+          "symbol": "kW",
+          "label": "Kilowatts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "device_two_dimmer_state",
+        "current_value": "0",
+        "at": "01/24/2011 14:40:38",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "ped:device",
+          "ped:deviceName:Laptop",
+          "ped:switchType:binary"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "device_two_usage_live",
+        "current_value": "0",
+        "at": "01/24/2011 14:40:38",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "electricity",
+          "ped:deviceName:Laptop",
+          "ped:devicewUsage",
+          "ped:flow_type=usage",
+          "ped:power_type=dc"
+        ],
+        "unit": {
+          "symbol": "kW",
+          "label": "Kilowatts",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/15480\" >My House</a>",
+    "URLMostrar": "https://xively.com/feeds/15480"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\15480.json",
+  "DocumentJSON": null
+}

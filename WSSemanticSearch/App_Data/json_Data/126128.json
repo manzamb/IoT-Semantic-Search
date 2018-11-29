@@ -1,0 +1,83 @@
+{
+  "Conceptos": [
+    "humidity"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "126128",
+    "title": "Guitar Environment",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "humidity",
+      "project:name=Guitar Environment",
+      "temp"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/126128.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:07:06",
+    "created": "04/17/2013 23:52:54",
+    "creator": "https://xively.com/users/rabarar",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "humidity",
+        "current_value": "35.20",
+        "at": "03/21/2014 14:07:05",
+        "max_value": "68.1",
+        "min_value": "19.2",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "RH",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "resistive",
+        "current_value": "776.00",
+        "at": "03/21/2014 14:07:05",
+        "max_value": "928.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temperature",
+        "current_value": "66.74",
+        "at": "03/21/2014 14:07:05",
+        "max_value": "81.14",
+        "min_value": "58.28",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "39.263885063845",
+      "lon": "-76.7885733023286",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/126128\" >Guitar Environment</a>",
+    "URLMostrar": "https://xively.com/feeds/126128"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\126128.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,200 @@
+{
+  "Conceptos": [
+    "atmospheric pressure"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "81345",
+    "title": "ALL",
+    "Private": false,
+    "tags": [
+      "arduino"
+    ],
+    "description": "ARDUINO UNO Rev3. = $9.41 /\nEthernet Shield W5100 = $10.28 /\nDS18B20 6x = 6x$1 = $ 6 /\nBMP085  1x  = $7.98 /\nDHT 22  1x = $5.27 /\nI2C Level Conversion Module 5-3v = $ 3.47 //\nALL= $ 42.4",
+    "feed": "https://api.xively.com/v2/feeds/81345.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "02/08/2014 17:29:05",
+    "created": "10/21/2012 11:39:06",
+    "creator": "https://xively.com/users/jannovv",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "BMP085P",
+        "current_value": "991.34",
+        "at": "02/08/2014 17:29:05",
+        "max_value": "1019.07",
+        "min_value": "53.36",
+        "tags": [
+          "Atmospheric pressure"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "hPa",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "BMP085T",
+        "current_value": "21.90",
+        "at": "02/08/2014 17:29:05",
+        "max_value": "25.0",
+        "min_value": "-69.5",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "DewPoint",
+        "current_value": "6.01",
+        "at": "02/08/2014 17:29:05",
+        "max_value": "12.71",
+        "min_value": "-2.11",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "DHT22H",
+        "current_value": "35.60",
+        "at": "02/08/2014 17:29:05",
+        "max_value": "55.2",
+        "min_value": "0.0",
+        "tags": [
+          "Humidity"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "DHT22T",
+        "current_value": "21.90",
+        "at": "02/08/2014 17:29:05",
+        "max_value": "25.2",
+        "min_value": "0.0",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "DS1",
+        "current_value": "22.00",
+        "at": "02/08/2014 17:29:05",
+        "max_value": "25.25",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "DS2",
+        "current_value": "4.75",
+        "at": "02/08/2014 17:29:05",
+        "max_value": "12.5",
+        "min_value": "-127.0",
+        "tags": [
+          "Temperature OUT"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "DS3",
+        "current_value": "22.00",
+        "at": "02/08/2014 17:29:05",
+        "max_value": "25.25",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "DS4",
+        "current_value": "22.50",
+        "at": "02/08/2014 17:29:05",
+        "max_value": "25.75",
+        "min_value": "-127.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "DS5",
+        "current_value": "22.50",
+        "at": "02/08/2014 17:29:05",
+        "max_value": "25.75",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "DS6",
+        "current_value": "-127.00",
+        "at": "02/08/2014 17:29:05",
+        "max_value": "25.5",
+        "min_value": "-127.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/81345\" >ALL</a>",
+    "URLMostrar": "https://xively.com/feeds/81345"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\81345.json",
+  "DocumentJSON": null
+}

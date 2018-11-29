@@ -1,0 +1,66 @@
+{
+  "Conceptos": [
+    "region"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "527220834",
+    "title": "My-Arduino",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/527220834.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "01/31/2014 13:38:14",
+    "created": "09/02/2013 17:33:40",
+    "creator": "https://xively.com/users/mckann",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Pressure",
+        "current_value": "3.21",
+        "at": "01/31/2014 13:38:14",
+        "max_value": "999025.0",
+        "min_value": "3.14",
+        "tags": [
+          "Давление"
+        ],
+        "unit": {
+          "symbol": "hpa",
+          "label": "Paskal",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temp",
+        "current_value": "27",
+        "at": "09/03/2013 14:23:36",
+        "max_value": "27.0",
+        "min_value": "27.0",
+        "tags": null,
+        "unit": {
+          "symbol": "C",
+          "label": "Cel",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Syzran, Samara region",
+      "domain": 0,
+      "lat": "53.1772496228585",
+      "lon": "48.478696346283",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/527220834\" >My-Arduino</a>",
+    "URLMostrar": "https://xively.com/feeds/527220834"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\527220834.json",
+  "DocumentJSON": null
+}

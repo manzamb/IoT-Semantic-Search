@@ -1,0 +1,132 @@
+{
+  "Conceptos": [
+    "man"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "182891852",
+    "title": "EMU2",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/182891852.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:13:19",
+    "created": "07/20/2013 20:04:02",
+    "creator": "https://xively.com/users/soccerjack99",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "1783",
+        "at": "03/21/2014 14:13:19",
+        "max_value": "17633.937",
+        "min_value": "-6522.0",
+        "tags": [
+          "Instant Demand"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "22837.032",
+        "at": "03/21/2014 14:13:19",
+        "max_value": "22837.032",
+        "min_value": "1392.0",
+        "tags": [
+          "Energy Consumption"
+        ],
+        "unit": {
+          "symbol": "kW/h",
+          "label": "Kilowatts/h",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "5248.265",
+        "at": "03/21/2014 14:13:19",
+        "max_value": "5248.265",
+        "min_value": "823.184",
+        "tags": [
+          "Energy Generation"
+        ],
+        "unit": {
+          "symbol": "kW/h",
+          "label": "kilowatts/h",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "765.767",
+        "at": "03/21/2014 14:13:19",
+        "max_value": "895.209",
+        "min_value": "-270.806",
+        "tags": [
+          "Energy Difference"
+        ],
+        "unit": {
+          "symbol": "kW",
+          "label": "Kilowatts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "0",
+        "at": "03/21/2014 14:13:19",
+        "max_value": "7106.0",
+        "min_value": "0.0",
+        "tags": [
+          "Solar Power"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "1783.0",
+        "at": "03/21/2014 14:13:19",
+        "max_value": "12873.0",
+        "min_value": "-4473.0",
+        "tags": [
+          "Actual Usage (Demand + Solar)"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Panels",
+      "domain": 0,
+      "lat": "33.8742816023707",
+      "lon": "-117.808456420898",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/182891852\" >EMU2</a>",
+    "URLMostrar": "https://xively.com/feeds/182891852"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\182891852.json",
+  "DocumentJSON": null
+}

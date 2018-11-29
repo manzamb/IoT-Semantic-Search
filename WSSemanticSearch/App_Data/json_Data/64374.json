@@ -1,0 +1,156 @@
+{
+  "Conceptos": [
+    "wind"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "64374",
+    "title": "Prince Edward Island Electricity Load and Generation",
+    "Private": false,
+    "tags": [
+      "energy",
+      "generation",
+      "load",
+      "pei"
+    ],
+    "description": "Data from the Government of Prince Edward Island concerning electricity generation and load.",
+    "feed": "https://api.xively.com/v2/feeds/64374.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/20/2014 09:47:28",
+    "created": "06/21/2012 00:28:08",
+    "creator": "https://xively.com/users/ruk",
+    "version": null,
+    "website": "http://www.gov.pe.ca/energy/js/chart.php",
+    "datastreams": [
+      {
+        "id": "on-island-fossil",
+        "current_value": "0",
+        "at": "03/20/2014 06:44:01",
+        "max_value": "95.84",
+        "min_value": "0.0",
+        "tags": [
+          "electricty",
+          "export",
+          "fossil",
+          "PrinceEdwardIsland"
+        ],
+        "unit": {
+          "symbol": "MW",
+          "label": "Megawatts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "on-island-load",
+        "current_value": "158.94",
+        "at": "03/20/2014 06:44:01",
+        "max_value": "252.7",
+        "min_value": "75.13",
+        "tags": [
+          "electricty",
+          "load",
+          "PrinceEdwardIsland"
+        ],
+        "unit": {
+          "symbol": "MW",
+          "label": "Megawatts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "on-island-wind",
+        "current_value": "43.95",
+        "at": "03/20/2014 06:44:01",
+        "max_value": "167.8",
+        "min_value": "0.0",
+        "tags": [
+          "electricty",
+          "generation",
+          "PrinceEdwardIsland",
+          "wind"
+        ],
+        "unit": {
+          "symbol": "MW",
+          "label": "Megawatts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "percentage-wind",
+        "current_value": "27.65",
+        "at": "03/20/2014 06:44:01",
+        "max_value": "152.11",
+        "min_value": "0.0",
+        "tags": [
+          "electricty",
+          "load",
+          "percentage",
+          "PrinceEdwardIsland",
+          "renewable",
+          "wind"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "percentage",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "wind-export",
+        "current_value": "20.01",
+        "at": "03/20/2014 06:44:01",
+        "max_value": "95.38",
+        "min_value": "0.0",
+        "tags": [
+          "electricty",
+          "export",
+          "PrinceEdwardIsland",
+          "wind"
+        ],
+        "unit": {
+          "symbol": "MW",
+          "label": "Megawatts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "wind-local",
+        "current_value": "23.94",
+        "at": "03/20/2014 06:44:01",
+        "max_value": "91.52",
+        "min_value": "-10.0",
+        "tags": [
+          "electricty",
+          "local",
+          "PrinceEdwardIsland",
+          "wind"
+        ],
+        "unit": {
+          "symbol": "MW",
+          "label": "Megawatts",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Prince Edward Island",
+      "domain": 0,
+      "lat": "46.2336",
+      "lon": "-63.1283",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/64374\" >Prince Edward Island Electricity Load and Generation</a>",
+    "URLMostrar": "https://xively.com/feeds/64374"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\64374.json",
+  "DocumentJSON": null
+}

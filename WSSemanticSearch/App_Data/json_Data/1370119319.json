@@ -1,0 +1,87 @@
+{
+  "Conceptos": [
+    "humedad"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "1370119319",
+    "title": "WebMOS",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/1370119319.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "09/22/2013 18:03:02",
+    "created": "09/22/2013 17:45:40",
+    "creator": "https://xively.com/users/webmos",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "HumDHT11",
+        "current_value": "0",
+        "at": "09/22/2013 18:03:02",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "dht11",
+          "humedad"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "Percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "TempDHT11",
+        "current_value": "0",
+        "at": "09/22/2013 18:02:26",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "dht11",
+          "temp"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "XBeeTemp",
+        "current_value": "0",
+        "at": "09/22/2013 18:01:46",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "temp",
+          "xbee"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/1370119319\" >WebMOS</a>",
+    "URLMostrar": "https://xively.com/feeds/1370119319"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\1370119319.json",
+  "DocumentJSON": null
+}

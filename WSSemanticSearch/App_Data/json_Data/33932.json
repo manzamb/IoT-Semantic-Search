@@ -1,0 +1,80 @@
+{
+  "Conceptos": [
+    "person"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "33932",
+    "title": " 横浜市保土ヶ谷区私設放射線モニタリングポスト　(β運用中)",
+    "Private": false,
+    "tags": [
+      "cpm",
+      "Geiger",
+      "Mark2",
+      "nSv/h",
+      "yokogeiger",
+      "γ線",
+      "ガイガーカウンタ",
+      "モニタリングポスト",
+      "放射能計測",
+      "横浜",
+      "環境放射線計測"
+    ],
+    "description": "Measured by the Personal monitoring post \"Mark2\" .\r\n\r\n横浜市保土ヶ谷区の某マンションに設置した自作の放射線モニタリングポストです。 \r\n建物の中(3F)でγ線の放射線レベルを測定した結果をUploadしています。 \r\n公的な検定等受けていませんので測定データの正確性は保証できません。 \r\n本情報に基づき発生した、いかなる損失、損害の求償の責は負いかねます。 \r\n\r\n単位はnSv/h(ナノシーベルト毎時)です。1000nSv/h=1μSv/h(マイクロシーベルト毎時)になります。 \r\n例. 100nSv/h → 0.10μSv/h \r\n",
+    "feed": "https://api.xively.com/v2/feeds/33932.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "11/03/2011 08:47:51",
+    "created": "08/06/2011 23:03:25",
+    "creator": "https://xively.com/users/yokogeiger",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "-32.000002",
+        "at": "11/03/2011 08:47:50",
+        "max_value": "141.999975",
+        "min_value": "-32.000002",
+        "tags": [
+          "radiation"
+        ],
+        "unit": {
+          "symbol": "nSv/h",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "0.000000",
+        "at": "11/03/2011 08:47:51",
+        "max_value": "21.299997",
+        "min_value": "0.0",
+        "tags": [
+          "cpm"
+        ],
+        "unit": {
+          "symbol": "cpm",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "yokohama",
+      "domain": 0,
+      "lat": "35.4478054292233",
+      "lon": "139.568252563477",
+      "ele": "10m",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/33932\" > 横浜市保土ヶ谷区私設放射線モニタリングポスト　(β運用中)</a>",
+    "URLMostrar": "https://xively.com/feeds/33932"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\33932.json",
+  "DocumentJSON": null
+}

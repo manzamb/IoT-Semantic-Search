@@ -1,0 +1,84 @@
+{
+  "Conceptos": [
+    "frequency"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "38810",
+    "title": "Moisture Sensor Test",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/38810.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "11/15/2011 15:39:35",
+    "created": "11/05/2011 18:48:14",
+    "creator": "https://xively.com/users/ioan",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "sensor1",
+        "current_value": "1028",
+        "at": "11/15/2011 15:39:35",
+        "max_value": "7434.0",
+        "min_value": "-30184.0",
+        "tags": [
+          "Frequency"
+        ],
+        "unit": {
+          "symbol": "kHz",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "sensor2",
+        "current_value": "25",
+        "at": "11/15/2011 15:39:35",
+        "max_value": "364.0",
+        "min_value": "0.0",
+        "tags": [
+          "Temp1"
+        ],
+        "unit": {
+          "symbol": "deg. C",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "sensor3",
+        "current_value": "25",
+        "at": "11/15/2011 15:39:35",
+        "max_value": "3842.0",
+        "min_value": "0.0",
+        "tags": [
+          "Temp2"
+        ],
+        "unit": {
+          "symbol": "deg. C",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Constanta, Romania",
+      "domain": 0,
+      "lat": "44.2144481284072",
+      "lon": "28.6276245117188",
+      "ele": "11",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/38810\" >Moisture Sensor Test</a>",
+    "URLMostrar": "https://xively.com/feeds/38810"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\38810.json",
+  "DocumentJSON": null
+}

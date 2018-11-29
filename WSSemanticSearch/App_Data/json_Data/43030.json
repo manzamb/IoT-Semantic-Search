@@ -1,0 +1,87 @@
+{
+  "Conceptos": [
+    "pyranometer"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "43030",
+    "title": "日射計テスト　京都伏見　スカイ・エス・エイッチ",
+    "Private": false,
+    "tags": [
+      "pyranometer",
+      "Solar radiation"
+    ],
+    "description": "日射計テスト中\r\nフォトダイオード　S2506-02 X 3個\r\nRs=330Ω　逆電圧=3.3V\r\n2012年1月9日まで　単位 mV\r\n以降　単位　W/m2\r\n1mV = 0.50475W/m2 と仮定した。\r\n2012年2月5日より 1mV = 0.60604W/m2\r\n2013年1月28日より 1mV = 0.84231W/m2",
+    "feed": "https://api.xively.com/v2/feeds/43030.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:08:17",
+    "created": "12/31/2011 03:05:45",
+    "creator": "https://xively.com/users/skysh",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "0.0",
+        "at": "03/21/2014 14:08:16",
+        "max_value": "704.6",
+        "min_value": "0.0",
+        "tags": [
+          "E"
+        ],
+        "unit": {
+          "symbol": "W/m2",
+          "label": "W/m2",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "0.0",
+        "at": "03/21/2014 14:08:16",
+        "max_value": "858.0",
+        "min_value": "0.0",
+        "tags": [
+          "S"
+        ],
+        "unit": {
+          "symbol": "W/m2",
+          "label": "W/m2",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "0.0",
+        "at": "03/21/2014 14:08:16",
+        "max_value": "713.2",
+        "min_value": "0.0",
+        "tags": [
+          "W"
+        ],
+        "unit": {
+          "symbol": "W/m2",
+          "label": "W/m2",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Japan",
+      "domain": 0,
+      "lat": "34.9332600073696",
+      "lon": "135.763344615698",
+      "ele": "23m",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/43030\" >日射計テスト　京都伏見　スカイ・エス・エイッチ</a>",
+    "URLMostrar": "https://xively.com/feeds/43030"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\43030.json",
+  "DocumentJSON": null
+}

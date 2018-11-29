@@ -1,0 +1,94 @@
+{
+  "Conceptos": [
+    "thermistor"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "435928112",
+    "title": "Samovar ",
+    "Private": false,
+    "tags": [
+      "Coffee",
+      "Dundee",
+      "Electric Imp",
+      "Heat",
+      "Iotea",
+      "Kettle",
+      "Persian",
+      "Russian",
+      "Samovar",
+      "Scotland",
+      "Tea",
+      "Temperature",
+      "Water"
+    ],
+    "description": "An internet connected samovar built using Electric Imp, Solid State Relay and Thermistor.",
+    "feed": "https://api.xively.com/v2/feeds/435928112.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "12/23/2013 15:58:44",
+    "created": "12/12/2013 02:21:37",
+    "creator": "https://xively.com/users/navidgornall",
+    "version": null,
+    "website": "http://navidgornall.com",
+    "datastreams": [
+      {
+        "id": "Battery",
+        "current_value": "3.278",
+        "at": "12/23/2013 15:58:43",
+        "max_value": "3.302",
+        "min_value": "3.244",
+        "tags": [
+          "Voltage"
+        ],
+        "unit": {
+          "symbol": "v",
+          "label": "Volts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "RSSI",
+        "current_value": "-51",
+        "at": "12/23/2013 15:58:44",
+        "max_value": "-47.0",
+        "min_value": "-88.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "WaterTemperature",
+        "current_value": "56.9238",
+        "at": "12/23/2013 15:58:44",
+        "max_value": "99.707",
+        "min_value": "52.03937",
+        "tags": null,
+        "unit": {
+          "symbol": "C",
+          "label": "Degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "56.4725256",
+      "lon": "-3.0068235",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/435928112\" >Samovar </a>",
+    "URLMostrar": "https://xively.com/feeds/435928112"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\435928112.json",
+  "DocumentJSON": null
+}

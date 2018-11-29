@@ -1,0 +1,742 @@
+{
+  "Conceptos": [
+    "person"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "90133",
+    "title": "ZENA Feeds",
+    "Private": false,
+    "tags": [
+      "nanode",
+      "XBee",
+      "ZENA",
+      "ZigBee"
+    ],
+    "description": "ZENA v3.3.4 Project - Custom Nanode (network enabled Arduino clone) based controller handling a ZigBee network of up to 32 XBee modules (currently handling 13 modules). ZENA current compiled size is 30,698 KB ... only  22 bytes short of the max of 30,720KB. See website for more details.",
+    "feed": "https://api.xively.com/v2/feeds/90133.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:09:31",
+    "created": "12/05/2012 23:43:00",
+    "creator": "https://xively.com/users/softsmyth",
+    "version": null,
+    "website": "https://www.facebook.com/geekgineering",
+    "datastreams": [
+      {
+        "id": "COMP_RM_AIRA1",
+        "current_value": "69.1",
+        "at": "03/21/2014 14:08:11",
+        "max_value": "91.9",
+        "min_value": "52.5",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "Computer Room TEMP F",
+          "label": "F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "COMP_RM_AIRD4",
+        "current_value": "0",
+        "at": "03/21/2014 14:08:11",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "AC Unit"
+        ],
+        "unit": {
+          "symbol": "AC UNIT ON/OFF",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "DRIVEWAY_GATEA1",
+        "current_value": "58.5",
+        "at": "03/21/2014 14:06:31",
+        "max_value": "105.5",
+        "min_value": "20.9",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "Driveway TEMP F",
+          "label": "F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "DRIVEWAY_GATED3",
+        "current_value": "0",
+        "at": "03/21/2014 14:06:31",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "Access",
+          "Gate"
+        ],
+        "unit": {
+          "symbol": "GATE Open/Closed",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "GARAGEA0",
+        "current_value": "8.4",
+        "at": "03/21/2014 14:05:51",
+        "max_value": "25.5",
+        "min_value": "2.4",
+        "tags": [
+          "Freezer",
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "Freezer TEMP F",
+          "label": "F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "GARAGED1",
+        "current_value": "0",
+        "at": "03/21/2014 14:05:51",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "Access",
+          "Door"
+        ],
+        "unit": {
+          "symbol": "Person Door",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "GARAGED2",
+        "current_value": "0",
+        "at": "03/21/2014 14:05:51",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "Access",
+          "Car",
+          "Door"
+        ],
+        "unit": {
+          "symbol": "1 CAR Door",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "GARAGED3",
+        "current_value": "0",
+        "at": "03/21/2014 14:05:51",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "Access",
+          "Car",
+          "Door"
+        ],
+        "unit": {
+          "symbol": "2 CAR Door",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "GARAGED4",
+        "current_value": "0",
+        "at": "03/21/2014 14:05:51",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "LED"
+        ],
+        "unit": {
+          "symbol": "LED",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "MOTOR_BOOSTA0",
+        "current_value": "57.2",
+        "at": "03/21/2014 14:07:31",
+        "max_value": "97.8",
+        "min_value": "22.9",
+        "tags": [
+          "Boost",
+          "Motor",
+          "Pool",
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "Pool Equip Temp F",
+          "label": "F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "MOTOR_BOOSTD3",
+        "current_value": "1",
+        "at": "03/21/2014 14:07:31",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "Boost",
+          "Motor",
+          "Pool"
+        ],
+        "unit": {
+          "symbol": "WATER",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "MOTOR_BOOSTD4",
+        "current_value": "0",
+        "at": "03/21/2014 14:07:31",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "Boost",
+          "Motor",
+          "Pool"
+        ],
+        "unit": {
+          "symbol": "MOTOR",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "MOTOR_BOOST:mCal",
+        "current_value": "635",
+        "at": "03/19/2014 19:31:26",
+        "max_value": "646.0",
+        "min_value": "10.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "MOTOR_BOOST:mRave",
+        "current_value": "1965",
+        "at": "03/20/2014 19:30:08",
+        "max_value": "3852.0",
+        "min_value": "26.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "MOTOR_BOOST:v3.5.20",
+        "current_value": "1",
+        "at": "02/16/2014 18:12:43",
+        "max_value": "1.0",
+        "min_value": "1.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "MOTOR_BOOST:wCal",
+        "current_value": "1780",
+        "at": "03/19/2014 19:31:24",
+        "max_value": "1828.0",
+        "min_value": "1742.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "MOTOR_CLEANERD3",
+        "current_value": "1",
+        "at": "03/21/2014 14:07:51",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "Cleaner",
+          "Motor",
+          "Pool"
+        ],
+        "unit": {
+          "symbol": "WATER",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "MOTOR_CLEANERD4",
+        "current_value": "0",
+        "at": "03/21/2014 14:07:51",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "Cleaner",
+          "Motor",
+          "Pool"
+        ],
+        "unit": {
+          "symbol": "MOTOR",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "MOTOR_CLEANER:mCal",
+        "current_value": "4011",
+        "at": "03/20/2014 20:01:30",
+        "max_value": "4633.0",
+        "min_value": "18.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "MOTOR_CLEANER:mRave",
+        "current_value": "8609",
+        "at": "03/20/2014 20:00:43",
+        "max_value": "10230.0",
+        "min_value": "14.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "MOTOR_CLEANER:v3.5.20",
+        "current_value": "1",
+        "at": "02/15/2014 23:13:40",
+        "max_value": "1.0",
+        "min_value": "1.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "MOTOR_CLEANER:wCal",
+        "current_value": "1801",
+        "at": "03/20/2014 20:01:26",
+        "max_value": "1816.0",
+        "min_value": "1758.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "MOTOR_FILTERD3",
+        "current_value": "1",
+        "at": "03/21/2014 14:09:31",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "Filter",
+          "Motor",
+          "Pool"
+        ],
+        "unit": {
+          "symbol": "WATER",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "MOTOR_FILTERD4",
+        "current_value": "0",
+        "at": "03/21/2014 14:09:31",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "Filter",
+          "Motor",
+          "Pool"
+        ],
+        "unit": {
+          "symbol": "MOTOR",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "MOTOR_FILTER:mCal",
+        "current_value": "292",
+        "at": "03/19/2014 23:01:27",
+        "max_value": "551.0",
+        "min_value": "178.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "MOTOR_FILTER:mRave",
+        "current_value": "604",
+        "at": "03/20/2014 22:57:48",
+        "max_value": "2203.0",
+        "min_value": "78.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "MOTOR_FILTER:v3.5.20",
+        "current_value": "1",
+        "at": "02/16/2014 17:53:24",
+        "max_value": "1.0",
+        "min_value": "1.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "MOTOR_FILTER:wCal",
+        "current_value": "1893",
+        "at": "03/20/2014 23:01:29",
+        "max_value": "1914.0",
+        "min_value": "1824.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "PLANT_OUTSIDEA0",
+        "current_value": "61.9",
+        "at": "03/21/2014 14:05:31",
+        "max_value": "111.4",
+        "min_value": "28.1",
+        "tags": [
+          "Plant",
+          "Temp"
+        ],
+        "unit": {
+          "symbol": "TEMP F",
+          "label": "F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "PLANT_OUTSIDEA2",
+        "current_value": "306.2",
+        "at": "03/21/2014 14:05:31",
+        "max_value": "997.1",
+        "min_value": "302.6",
+        "tags": [
+          "Plant",
+          "water"
+        ],
+        "unit": {
+          "symbol": "Moisture Content",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "PLANT_OUTSIDE-BAT",
+        "current_value": "2773.0",
+        "at": "03/21/2014 14:05:31",
+        "max_value": "3153.1",
+        "min_value": "2134.9",
+        "tags": [
+          "BAT",
+          "Plant"
+        ],
+        "unit": {
+          "symbol": "BAT mv",
+          "label": "mv",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "PLANTS_BACKA0",
+        "current_value": "58.9",
+        "at": "03/21/2014 14:07:11",
+        "max_value": "100.4",
+        "min_value": "22.0",
+        "tags": [
+          "Plant",
+          "temp"
+        ],
+        "unit": {
+          "symbol": "TEMP F",
+          "label": "F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "PLANTS_BACKA2",
+        "current_value": "130.2",
+        "at": "03/21/2014 14:07:11",
+        "max_value": "1200.0",
+        "min_value": "0.0",
+        "tags": [
+          "Plant",
+          "water"
+        ],
+        "unit": {
+          "symbol": "Moisture Content",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "PLANTS_BACK-BAT",
+        "current_value": "2688.6",
+        "at": "03/21/2014 14:07:11",
+        "max_value": "3101.5",
+        "min_value": "2214.7",
+        "tags": [
+          "BAT"
+        ],
+        "unit": {
+          "symbol": "BAT mv",
+          "label": "mv",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "PLANTS_ROOTINGA0",
+        "current_value": "63.7",
+        "at": "03/21/2014 14:08:51",
+        "max_value": "106.8",
+        "min_value": "22.2",
+        "tags": [
+          "Plant",
+          "Temp"
+        ],
+        "unit": {
+          "symbol": "TEMP F",
+          "label": "F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "PLANTS_ROOTINGA2",
+        "current_value": "177.1",
+        "at": "03/21/2014 14:08:51",
+        "max_value": "590.0",
+        "min_value": "70.4",
+        "tags": [
+          "Plant",
+          "water"
+        ],
+        "unit": {
+          "symbol": "Moisture Content",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "PLANTS_ROOTING-BAT",
+        "current_value": "2651.0",
+        "at": "03/21/2014 14:08:51",
+        "max_value": "3115.5",
+        "min_value": "2632.3",
+        "tags": [
+          "Battery"
+        ],
+        "unit": {
+          "symbol": "BAT mv",
+          "label": "mv",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "ROUTER_MSTR_SUITEA1",
+        "current_value": "68.9",
+        "at": "03/21/2014 14:06:51",
+        "max_value": "87.0",
+        "min_value": "57.0",
+        "tags": [
+          "Router",
+          "Suite",
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "Suite TEMP F",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "ROUTER_UTIL_ROOMA1",
+        "current_value": "66.9",
+        "at": "03/21/2014 14:09:11",
+        "max_value": "95.2",
+        "min_value": "50.9",
+        "tags": [
+          "Router",
+          "Temperature",
+          "Utility Room"
+        ],
+        "unit": {
+          "symbol": "Utility Room TEMP F",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "WATER_HTR_MAINA1",
+        "current_value": "59.4",
+        "at": "03/21/2014 14:08:31",
+        "max_value": "133.0",
+        "min_value": "30.0",
+        "tags": [
+          "Main",
+          "Water Heater"
+        ],
+        "unit": {
+          "symbol": "Attic TEMP F",
+          "label": "F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "WATER_HTR_MAINA2",
+        "current_value": "0.0",
+        "at": "03/21/2014 14:08:31",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "Main",
+          "Water Heater"
+        ],
+        "unit": {
+          "symbol": "TRAY WATER",
+          "label": "mv",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "WATER_HTR_SUITEA1",
+        "current_value": "60.2",
+        "at": "03/21/2014 14:06:11",
+        "max_value": "125.8",
+        "min_value": "35.6",
+        "tags": [
+          "Suite",
+          "Water Heater"
+        ],
+        "unit": {
+          "symbol": "Attic TEMP F",
+          "label": "F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "WATER_HTR_SUITEA2",
+        "current_value": "0.0",
+        "at": "03/21/2014 14:06:11",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "Suite",
+          "Water Heater"
+        ],
+        "unit": {
+          "symbol": "TRAY WATER",
+          "label": "mv",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "San Antonio",
+      "domain": 0,
+      "lat": "29.424122",
+      "lon": "-98.493628",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/90133\" >ZENA Feeds</a>",
+    "URLMostrar": "https://xively.com/feeds/90133"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\90133.json",
+  "DocumentJSON": null
+}

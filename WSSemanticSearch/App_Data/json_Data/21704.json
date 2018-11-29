@@ -1,0 +1,151 @@
+{
+  "Conceptos": [
+    "wind"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "21704",
+    "title": "Charlottesville Weather",
+    "Private": false,
+    "tags": [
+      "NWS",
+      "Weather"
+    ],
+    "description": "Current weather conditions at the Charlottesville, VA airport, from the NWS",
+    "feed": "https://api.xively.com/v2/feeds/21704.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/17/2014 09:23:27",
+    "created": "03/30/2011 18:28:35",
+    "creator": "https://xively.com/users/chickabaumbaum",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "26.0",
+        "at": "03/17/2014 09:23:27",
+        "max_value": "105.0",
+        "min_value": "13.0",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "92",
+        "at": "03/17/2014 09:23:27",
+        "max_value": "100.0",
+        "min_value": "9.0",
+        "tags": [
+          "Relative Humidity"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "20",
+        "at": "03/17/2014 09:23:27",
+        "max_value": "999.0",
+        "min_value": "0.0",
+        "tags": [
+          "Wind Direction"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "8.1",
+        "at": "03/17/2014 09:23:27",
+        "max_value": "27.6",
+        "min_value": "0.0",
+        "tags": [
+          "Wind Speed"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "mph",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "29.97",
+        "at": "03/17/2014 09:23:27",
+        "max_value": "30.7",
+        "min_value": "0.0",
+        "tags": [
+          "Pressure"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "in",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "24.1",
+        "at": "03/17/2014 09:23:27",
+        "max_value": "78.1",
+        "min_value": "-9.9",
+        "tags": [
+          "Dewpoint"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "0.75",
+        "at": "03/17/2014 09:23:27",
+        "max_value": "40.0",
+        "min_value": "0.13",
+        "tags": [
+          "Visibility"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "mi",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Charlottesville, VA",
+      "domain": 0,
+      "lat": "38.1395139826977",
+      "lon": "-78.4494531154633",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/21704\" >Charlottesville Weather</a>",
+    "URLMostrar": "https://xively.com/feeds/21704"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\21704.json",
+  "DocumentJSON": null
+}

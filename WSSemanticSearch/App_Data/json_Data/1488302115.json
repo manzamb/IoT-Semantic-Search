@@ -1,0 +1,124 @@
+{
+  "Conceptos": [
+    "frequency"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "1488302115",
+    "title": "H4H powerMon",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/1488302115.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "08/06/2013 18:30:53",
+    "created": "07/09/2013 18:14:03",
+    "creator": "https://xively.com/users/danieldk",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Freq",
+        "current_value": "0.00",
+        "at": "08/06/2013 18:30:53",
+        "max_value": "50.25",
+        "min_value": "0.0",
+        "tags": [
+          "AC",
+          "frequency",
+          "line frequency"
+        ],
+        "unit": {
+          "symbol": "Hz",
+          "label": "Hz",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "IRMS",
+        "current_value": "0.00",
+        "at": "08/06/2013 18:30:53",
+        "max_value": "99.0",
+        "min_value": "0.0",
+        "tags": [
+          "Current"
+        ],
+        "unit": {
+          "symbol": "Arms",
+          "label": "Ampere",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "pf",
+        "current_value": "0.000",
+        "at": "08/06/2013 18:30:53",
+        "max_value": "0.91",
+        "min_value": "0.0",
+        "tags": [
+          "AC",
+          "ESKOM",
+          "power factor"
+        ],
+        "unit": {
+          "symbol": "u",
+          "label": "u",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "power",
+        "current_value": "0.000",
+        "at": "08/06/2013 18:30:53",
+        "max_value": "56.235",
+        "min_value": "0.0",
+        "tags": [
+          "AC",
+          "power",
+          "Real power"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watt",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "VRMS",
+        "current_value": "0.0000",
+        "at": "08/06/2013 18:30:53",
+        "max_value": "238.25",
+        "min_value": "-29.157",
+        "tags": [
+          "ESKOM",
+          "line voltage",
+          "voltage"
+        ],
+        "unit": {
+          "symbol": "Vrms",
+          "label": "Volt",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "House4Hack",
+      "domain": 0,
+      "lat": "-25.8398819969048",
+      "lon": "28.209822177887",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/1488302115\" >H4H powerMon</a>",
+    "URLMostrar": "https://xively.com/feeds/1488302115"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\1488302115.json",
+  "DocumentJSON": null
+}

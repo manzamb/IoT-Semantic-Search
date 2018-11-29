@@ -1,0 +1,96 @@
+{
+  "Conceptos": [
+    "o3"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "98883",
+    "title": "Casa Fabrizio",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "Netduino",
+      "temp resistor"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/98883.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:11:45",
+    "created": "01/19/2013 18:47:36",
+    "creator": "https://xively.com/users/brizio31",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "luce_casa",
+        "current_value": "43",
+        "at": "03/21/2014 14:11:02",
+        "max_value": "100.0",
+        "min_value": "1.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "Luce",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "relh_casa",
+        "current_value": "36",
+        "at": "03/21/2014 14:11:44",
+        "max_value": "150.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "Umidità",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temp2_casa",
+        "current_value": "20",
+        "at": "03/21/2014 14:11:03",
+        "max_value": "32.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temp_casa",
+        "current_value": "18.8371544",
+        "at": "03/21/2014 14:11:44",
+        "max_value": "172.983826",
+        "min_value": "-90.304306",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Casa",
+      "domain": 0,
+      "lat": "45.6710440904633",
+      "lon": "9.04629707336426",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/98883\" >Casa Fabrizio</a>",
+    "URLMostrar": "https://xively.com/feeds/98883"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\98883.json",
+  "DocumentJSON": null
+}

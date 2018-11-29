@@ -1,0 +1,73 @@
+{
+  "Conceptos": [
+    "tensiometer"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "61370",
+    "title": "test_jarkom",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "ldr",
+      "led",
+      "lm35"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/61370.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "05/29/2012 03:26:37",
+    "created": "05/29/2012 03:21:20",
+    "creator": "https://xively.com/users/test_jarkom",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "01",
+        "current_value": null,
+        "at": null,
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "02",
+        "current_value": null,
+        "at": null,
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "potensiometer"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": "volt",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 1
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/61370\" >test_jarkom</a>",
+    "URLMostrar": "https://xively.com/feeds/61370"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\61370.json",
+  "DocumentJSON": null
+}

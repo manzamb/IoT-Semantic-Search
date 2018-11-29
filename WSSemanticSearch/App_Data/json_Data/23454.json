@@ -1,0 +1,118 @@
+{
+  "Conceptos": [
+    "person"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "23454",
+    "title": "OEM",
+    "Private": false,
+    "tags": [
+      "oem"
+    ],
+    "description": "Total electric energy consumption - single family detached house - ca. 450 m3 - 5 person (2 adults) household.\r\n\r\nBuild with an Arduino, Ethernet shield and the open energy monitor non-invasive 3.0 (see http://goo.gl/EyJ38)\r\n\r\n(Currently offline)",
+    "feed": "https://api.xively.com/v2/feeds/23454.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "07/13/2011 14:37:25",
+    "created": "04/18/2011 08:13:23",
+    "creator": "https://xively.com/users/dovadi",
+    "version": null,
+    "website": "http://dovadi.com",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "0",
+        "at": "07/13/2011 14:37:25",
+        "max_value": "6558.0",
+        "min_value": "-3681.0",
+        "tags": [
+          "realPower"
+        ],
+        "unit": {
+          "symbol": "Watt",
+          "label": "1",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "0",
+        "at": "07/13/2011 14:37:25",
+        "max_value": "6576.0",
+        "min_value": "0.0",
+        "tags": [
+          "apparentPower"
+        ],
+        "unit": {
+          "symbol": "VA",
+          "label": "1",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "0",
+        "at": "07/13/2011 14:37:25",
+        "max_value": "101.0",
+        "min_value": "-101.0",
+        "tags": [
+          "powerFactor (x 100)"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "0",
+        "at": "07/13/2011 14:37:25",
+        "max_value": "280.0",
+        "min_value": "0.0",
+        "tags": [
+          "Vrms"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": "1",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "30",
+        "at": "07/13/2011 14:37:25",
+        "max_value": "2754.0",
+        "min_value": "1.0",
+        "tags": [
+          "Irms (x 100)"
+        ],
+        "unit": {
+          "symbol": "A",
+          "label": "1",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Texel",
+      "domain": 0,
+      "lat": "53.0544992489895",
+      "lon": "4.80081081390381",
+      "ele": "0",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/23454\" >OEM</a>",
+    "URLMostrar": "https://xively.com/feeds/23454"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\23454.json",
+  "DocumentJSON": null
+}

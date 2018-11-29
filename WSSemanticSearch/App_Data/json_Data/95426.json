@@ -1,0 +1,124 @@
+{
+  "Conceptos": [
+    "project"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "95426",
+    "title": "RPi monitor",
+    "Private": false,
+    "tags": [
+      "cpu",
+      "memory",
+      "project=monitor RPi"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/95426.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:10:05",
+    "created": "12/31/2012 13:57:36",
+    "creator": "https://xively.com/users/altura",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "cpu",
+        "current_value": "21",
+        "at": "03/21/2014 14:10:04",
+        "max_value": "76.0",
+        "min_value": "1.0",
+        "tags": null,
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "free_mem",
+        "current_value": "22",
+        "at": "03/21/2014 14:10:04",
+        "max_value": "336.0",
+        "min_value": "10.0",
+        "tags": null,
+        "unit": {
+          "symbol": "Mb",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "hdd_data",
+        "current_value": "877",
+        "at": "03/21/2014 14:10:04",
+        "max_value": "893.0",
+        "min_value": "877.0",
+        "tags": null,
+        "unit": {
+          "symbol": "Mb",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "hdd_root",
+        "current_value": "331",
+        "at": "03/21/2014 14:10:04",
+        "max_value": "1000.0",
+        "min_value": "331.0",
+        "tags": null,
+        "unit": {
+          "symbol": "Mb",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "hdd_sda1",
+        "current_value": "3784",
+        "at": "03/21/2014 14:10:04",
+        "max_value": "3822.0",
+        "min_value": "3784.0",
+        "tags": null,
+        "unit": {
+          "symbol": "Mb",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "used_mem",
+        "current_value": "416",
+        "at": "03/21/2014 14:10:04",
+        "max_value": "428.0",
+        "min_value": "102.0",
+        "tags": null,
+        "unit": {
+          "symbol": "Mb",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/95426\" >RPi monitor</a>",
+    "URLMostrar": "https://xively.com/feeds/95426"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\95426.json",
+  "DocumentJSON": null
+}

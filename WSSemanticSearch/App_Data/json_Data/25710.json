@@ -1,0 +1,57 @@
+{
+  "Conceptos": [
+    "process"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "25710",
+    "title": "Temperatura GLM",
+    "Private": false,
+    "tags": [
+      "Arduino",
+      "Bogotá",
+      "GLM",
+      "Temperatura"
+    ],
+    "description": "Temperatura tomada desde el laboratorio de física del Gimnasio La Montaña con un sensor LM35 y Arduino mediante una interfaz construida en Processing.\r\nTrabajo realizado por el grupo de física del Gimnasio La Montaña GF-GLM.",
+    "feed": "https://api.xively.com/v2/feeds/25710.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "12/16/2013 15:37:43",
+    "created": "05/24/2011 13:53:52",
+    "creator": "https://xively.com/users/fabianmartinez",
+    "version": null,
+    "website": "http://www.glm.edu.co",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "20.0",
+        "at": "12/16/2013 15:37:43",
+        "max_value": "232.0",
+        "min_value": "0.0",
+        "tags": [
+          "Temperatura"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "grados Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Bogotá, CO",
+      "domain": 0,
+      "lat": "4.79252760067415",
+      "lon": "-74.047679901123",
+      "ele": "2640",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/25710\" >Temperatura GLM</a>",
+    "URLMostrar": "https://xively.com/feeds/25710"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\25710.json",
+  "DocumentJSON": null
+}

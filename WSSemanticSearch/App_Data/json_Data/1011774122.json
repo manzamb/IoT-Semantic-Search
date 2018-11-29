@@ -1,0 +1,71 @@
+{
+  "Conceptos": [
+    "parameter"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "1011774122",
+    "title": "Växjö Aurora Monitor",
+    "Private": false,
+    "tags": [
+      "aurora",
+      "norrsken",
+      "Sweden",
+      "Växjö"
+    ],
+    "description": "The sky intensity at 557 nm is monitored during the night. \"Greenness\" is its ratio to the broadband spectrum. A visible aurora should result in high values of this parameter.",
+    "feed": "https://api.xively.com/v2/feeds/1011774122.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "10/13/2013 16:33:49",
+    "created": "05/24/2013 22:11:20",
+    "creator": "https://xively.com/users/pieterkuiper",
+    "version": null,
+    "website": "http://homepage.lnu.se/staff/pkumsi/",
+    "datastreams": [
+      {
+        "id": "greenness",
+        "current_value": "6.58",
+        "at": "10/13/2013 16:33:49",
+        "max_value": "1000.0",
+        "min_value": "0.0",
+        "tags": [
+          "ratio"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "sensor_557nm",
+        "current_value": "-15.14",
+        "at": "10/13/2013 16:33:49",
+        "max_value": "-13.14",
+        "min_value": "-17.85",
+        "tags": null,
+        "unit": {
+          "symbol": "m",
+          "label": "Magnitude",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "56.8398558352599",
+      "lon": "14.7980690002441",
+      "ele": "160",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/1011774122\" >Växjö Aurora Monitor</a>",
+    "URLMostrar": "https://xively.com/feeds/1011774122"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\1011774122.json",
+  "DocumentJSON": null
+}

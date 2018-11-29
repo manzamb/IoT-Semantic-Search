@@ -1,0 +1,56 @@
+{
+  "Conceptos": [
+    "sensor output"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "76993",
+    "title": "Motor1",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "Output",
+      "switch"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/76993.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "09/28/2012 07:58:07",
+    "created": "09/23/2012 04:18:15",
+    "creator": "https://xively.com/users/spsensordata",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "S1",
+        "current_value": "10",
+        "at": "09/28/2012 07:58:07",
+        "max_value": "10.0",
+        "min_value": "10.0",
+        "tags": [
+          "switch"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "switch",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "1.33197229441356",
+      "lon": "103.812561035156",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/76993\" >Motor1</a>",
+    "URLMostrar": "https://xively.com/feeds/76993"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\76993.json",
+  "DocumentJSON": null
+}

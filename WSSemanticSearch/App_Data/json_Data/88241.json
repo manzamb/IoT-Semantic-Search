@@ -1,0 +1,151 @@
+{
+  "Conceptos": [
+    "thermistor"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "88241",
+    "title": "CUSD sensor module 03",
+    "Private": false,
+    "tags": [
+      "Humidity",
+      "Light",
+      "Sound",
+      "Temperature",
+      "Voltage",
+      "XBee"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/88241.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "04/05/2013 02:37:34",
+    "created": "11/26/2012 02:04:29",
+    "creator": "https://xively.com/users/cusd",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Battery",
+        "current_value": "4.58",
+        "at": "04/05/2013 02:37:34",
+        "max_value": "5.0",
+        "min_value": "0.0",
+        "tags": [
+          "1000mAh",
+          "LiPo",
+          "SparkFun"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Dial",
+        "current_value": "509",
+        "at": "04/05/2013 02:37:34",
+        "max_value": "1023.0",
+        "min_value": "0.0",
+        "tags": [
+          "Potentiometer",
+          "Rotary",
+          "~"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Light-Sensor",
+        "current_value": "697",
+        "at": "04/05/2013 02:37:34",
+        "max_value": "1023.0",
+        "min_value": "0.0",
+        "tags": [
+          "Analog",
+          "LDR",
+          "~"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Relative-Humidity",
+        "current_value": "46.4",
+        "at": "04/05/2013 02:37:34",
+        "max_value": "100.0",
+        "min_value": "0.0",
+        "tags": [
+          "Capacitive",
+          "RHT03",
+          "SparkFun"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Sound-Sensor",
+        "current_value": "64",
+        "at": "04/05/2013 02:37:34",
+        "max_value": "1023.0",
+        "min_value": "0.0",
+        "tags": [
+          "Analog",
+          "Microphone",
+          "SparkFun"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperature",
+        "current_value": "27.9",
+        "at": "04/05/2013 02:37:34",
+        "max_value": "40.0",
+        "min_value": "0.0",
+        "tags": [
+          "RHT03",
+          "SparkFun",
+          "Thermistor"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "-27.4784",
+      "lon": "153.0294",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/88241\" >CUSD sensor module 03</a>",
+    "URLMostrar": "https://xively.com/feeds/88241"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\88241.json",
+  "DocumentJSON": null
+}

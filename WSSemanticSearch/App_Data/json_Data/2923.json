@@ -1,0 +1,208 @@
+{
+  "Conceptos": [
+    "thermistor"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "2923",
+    "title": "ACTIVE BUILDING (R02: 407C43A5)",
+    "Private": false,
+    "tags": [
+      "Arduino",
+      "Humidity",
+      "Light",
+      "Potentiometer",
+      "RFID",
+      "Sound",
+      "Temperature",
+      "Voltage",
+      "XBee"
+    ],
+    "description": "ACTIVE BUILDING Sensor Module\r\nwith RFID reader",
+    "feed": "https://api.xively.com/v2/feeds/2923.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "02/10/2014 00:15:42",
+    "created": "10/14/2009 08:53:28",
+    "creator": "https://xively.com/users/yasu",
+    "version": null,
+    "website": "http://www.cogenerativexperiences.com/",
+    "datastreams": [
+      {
+        "id": "Joystick-Byte_002",
+        "current_value": "0",
+        "at": "10/24/2013 03:35:43",
+        "max_value": "31.0",
+        "min_value": "0.0",
+        "tags": [
+          "5-Way",
+          "COM-10063",
+          "Joystick"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Light-Sensor_002",
+        "current_value": "799.0",
+        "at": "02/10/2014 00:15:41",
+        "max_value": "1023.0",
+        "min_value": "0.0",
+        "tags": [
+          "Analog",
+          "LDR",
+          "~"
+        ],
+        "unit": {
+          "symbol": "10bits",
+          "label": "ADC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Pot-Setting_002",
+        "current_value": "448",
+        "at": "10/24/2013 03:35:43",
+        "max_value": "1023.0",
+        "min_value": "0.0",
+        "tags": [
+          "Potentiometer",
+          "Rotary",
+          "~"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Relative-Humidity_002",
+        "current_value": "105.3",
+        "at": "10/24/2013 03:35:43",
+        "max_value": "105.3",
+        "min_value": "0.0",
+        "tags": [
+          "Capacitive",
+          "RHT03",
+          "SEN-10167"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Rel-Humidity_002",
+        "current_value": "57.7",
+        "at": "02/10/2014 00:15:41",
+        "max_value": "100.0",
+        "min_value": "0.0",
+        "tags": [
+          "Capacitive",
+          "RHT03",
+          "SEN-10167"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "RH",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Signal-Strength_002",
+        "current_value": "0",
+        "at": "10/24/2013 03:35:43",
+        "max_value": "1023.0",
+        "min_value": "0.0",
+        "tags": [
+          "RSSI",
+          "XBee",
+          "~"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Sound-Sensor_002",
+        "current_value": "104.0",
+        "at": "02/10/2014 00:15:41",
+        "max_value": "511.0",
+        "min_value": "0.0",
+        "tags": [
+          "Analog",
+          "BOB-09964",
+          "Microphone"
+        ],
+        "unit": {
+          "symbol": "10bits",
+          "label": "ADC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperature_002",
+        "current_value": "23.5",
+        "at": "02/10/2014 00:15:41",
+        "max_value": "40.0",
+        "min_value": "10.0",
+        "tags": [
+          "RHT03",
+          "SEN-10167",
+          "Thermistor"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Voltage_002",
+        "current_value": "3.09",
+        "at": "10/24/2013 03:35:43",
+        "max_value": "6.6",
+        "min_value": "0.0",
+        "tags": [
+          "~",
+          "~",
+          "~"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "D506 - QUT",
+      "domain": 0,
+      "lat": "-27.4759503293688",
+      "lon": "153.0276362523",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 1
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/2923\" >ACTIVE BUILDING (R02: 407C43A5)</a>",
+    "URLMostrar": "https://xively.com/feeds/2923"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\2923.json",
+  "DocumentJSON": null
+}

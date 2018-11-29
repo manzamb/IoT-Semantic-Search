@@ -1,0 +1,68 @@
+{
+  "Conceptos": [
+    "person"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "249",
+    "title": "ID-Studiolab Portal",
+    "Private": false,
+    "tags": null,
+    "description": "ID-Studiolab portal installation watches the main entrance door of the ID Studiolab.",
+    "feed": "https://api.xively.com/v2/feeds/249.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "08/20/2011 21:55:04",
+    "created": "06/19/2008 15:11:38",
+    "creator": "https://xively.com/users/aadjan",
+    "version": null,
+    "website": "http://studiolab.io.tudelft.nl/vanderhelm/portal",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "0.620523820874",
+        "at": "08/20/2011 21:55:04",
+        "max_value": "999.0",
+        "min_value": "0.0",
+        "tags": [
+          "range sensor"
+        ],
+        "unit": {
+          "symbol": "m",
+          "label": "meter",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "0.0265456906666",
+        "at": "08/20/2011 21:55:04",
+        "max_value": "496653.0",
+        "min_value": "0.0",
+        "tags": [
+          "number of persons"
+        ],
+        "unit": {
+          "symbol": "N",
+          "label": "numberOfPersons",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "52.001812119418",
+      "lon": "4.36914682388306",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/249\" >ID-Studiolab Portal</a>",
+    "URLMostrar": "https://xively.com/feeds/249"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\249.json",
+  "DocumentJSON": null
+}

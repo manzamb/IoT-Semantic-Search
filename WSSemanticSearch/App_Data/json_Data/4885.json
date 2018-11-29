@@ -1,0 +1,68 @@
+{
+  "Conceptos": [
+    "concept"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "4885",
+    "title": "Concept Reply Sensor Data",
+    "Private": false,
+    "tags": null,
+    "description": "ZigBee WSN.",
+    "feed": "https://api.xively.com/v2/feeds/4885.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "02/14/2012 14:56:57",
+    "created": "01/18/2010 13:14:11",
+    "creator": "https://xively.com/users/adamax",
+    "version": null,
+    "website": "http://www.reply.eu",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "52.0",
+        "at": "07/23/2010 07:08:51",
+        "max_value": "70.0",
+        "min_value": "-20.0",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "350.0",
+        "at": "07/23/2010 07:08:51",
+        "max_value": "4015.0",
+        "min_value": "0.0",
+        "tags": [
+          "Brightness"
+        ],
+        "unit": {
+          "symbol": "lx",
+          "label": "Lux",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Reply",
+      "domain": 0,
+      "lat": "45.1013500879542",
+      "lon": "7.6696522225393",
+      "ele": "300",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/4885\" >Concept Reply Sensor Data</a>",
+    "URLMostrar": "https://xively.com/feeds/4885"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\4885.json",
+  "DocumentJSON": null
+}

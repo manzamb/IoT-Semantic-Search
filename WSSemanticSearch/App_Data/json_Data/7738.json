@@ -1,0 +1,130 @@
+{
+  "Conceptos": [
+    "wind"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "7738",
+    "title": "Rohr Temperature",
+    "Private": false,
+    "tags": [
+      "Arduino ethernet shield",
+      "Arduino Pachube",
+      "Arduino Pachube temperature",
+      "Cosm Arduino",
+      "Cosm Deutschland",
+      "Cosm Germany",
+      "Cosm Sensor Reading",
+      "Cosm Stuttgart",
+      "Cosm Temperatur",
+      "Cosm Temperature",
+      "LM35 CZ",
+      "Stuttgart temperature",
+      "Tuhtan Cosm"
+    ],
+    "description": "Testing of multiple LM35 CZ analog temperature sensors. Sensors are fixed indoors near a window, so short-term fluctuations should be observable. Programmed to read out instantaneous temperature in Celsius at 1 degree intervals. Connection to Xively via the Arduino Ethernet shield. Power supply using a 5V wall wart connected to USB. Since 13.02.2012 temp. reading from Stuttgart-Rohr.",
+    "feed": "https://api.xively.com/v2/feeds/7738.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:07:34",
+    "created": "06/03/2010 18:45:29",
+    "creator": "https://xively.com/users/jtuhtan",
+    "version": null,
+    "website": "http://www.sjeweb.de/",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "26",
+        "at": "03/21/2014 14:07:34",
+        "max_value": "46.0",
+        "min_value": "-31.0",
+        "tags": [
+          "Temp LM35 CZ 01 - Indoor"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "28",
+        "at": "03/21/2014 14:07:34",
+        "max_value": "31.0",
+        "min_value": "-31.0",
+        "tags": [
+          "Temp LM35 CZ 02 - Indoor"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "30",
+        "at": "03/21/2014 14:07:34",
+        "max_value": "31.0",
+        "min_value": "-31.0",
+        "tags": [
+          "Temp LM35 CZ 03 - Indoor"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "29",
+        "at": "03/21/2014 14:07:34",
+        "max_value": "31.0",
+        "min_value": "-31.0",
+        "tags": [
+          "Temp LM35 CZ 04 - Indoor"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "28",
+        "at": "03/21/2014 14:07:34",
+        "max_value": "31.0",
+        "min_value": "-31.0",
+        "tags": [
+          "Average Temp"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Stuttgart",
+      "domain": 0,
+      "lat": "48.7311345187473",
+      "lon": "9.1095894276441",
+      "ele": "430",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/7738\" >Rohr Temperature</a>",
+    "URLMostrar": "https://xively.com/feeds/7738"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\7738.json",
+  "DocumentJSON": null
+}

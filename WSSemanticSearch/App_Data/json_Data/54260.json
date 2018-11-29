@@ -1,0 +1,188 @@
+{
+  "Conceptos": [
+    "right"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "54260",
+    "title": "Hackerspace-FFM Activity Monitor",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "brightness",
+      "hackerspace",
+      "hackerspace-ffm",
+      "humidity",
+      "sound level",
+      "temperature"
+    ],
+    "description": "See what's going on in our hackerspace. Actual sensors: DHT11 for temperature + humidity, LED for brightness, microphone module for sound level, PIR sensor for movement detection and a push button.",
+    "feed": "https://api.xively.com/v2/feeds/54260.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:10:58",
+    "created": "04/02/2012 22:05:05",
+    "creator": "https://xively.com/users/hackerspace_ffm1",
+    "version": null,
+    "website": "http://hackerspace-ffm.de/wiki/index.php?title=HackffmActivitySensors",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "18.000000",
+        "at": "03/21/2014 14:10:58",
+        "max_value": "37.0",
+        "min_value": "10.0",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "32.000000",
+        "at": "03/21/2014 14:10:58",
+        "max_value": "56.0",
+        "min_value": "15.0",
+        "tags": [
+          "Humidity"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "% ",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "0.001128",
+        "at": "03/21/2014 14:10:58",
+        "max_value": "2.429348",
+        "min_value": "-4.0",
+        "tags": [
+          "Sound level"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "-0.012294",
+        "at": "03/21/2014 14:10:58",
+        "max_value": "3.920819",
+        "min_value": "-1.830966",
+        "tags": [
+          "Light level"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "0.000000",
+        "at": "03/21/2014 14:10:58",
+        "max_value": "19.0",
+        "min_value": "0.0",
+        "tags": [
+          "PIR detections"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "0.000000",
+        "at": "03/21/2014 14:10:58",
+        "max_value": "151.0",
+        "min_value": "0.0",
+        "tags": [
+          "IPM"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "0.000000",
+        "at": "03/21/2014 14:10:58",
+        "max_value": "41640.004",
+        "min_value": "0.0",
+        "tags": [
+          "Licht"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "7",
+        "current_value": "0.000000",
+        "at": "03/21/2014 14:10:58",
+        "max_value": "6570.0005",
+        "min_value": "0.0",
+        "tags": [
+          "Schalt"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watt",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "8",
+        "current_value": "0.000000",
+        "at": "03/21/2014 14:10:58",
+        "max_value": "47310.004",
+        "min_value": "0.0",
+        "tags": [
+          "Dauer"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watt",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Hackerspace in Frankfurt am Main, Germany",
+      "domain": 0,
+      "lat": "50.1215187989908",
+      "lon": "8.60052198171616",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/54260\" >Hackerspace-FFM Activity Monitor</a>",
+    "URLMostrar": "https://xively.com/feeds/54260"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\54260.json",
+  "DocumentJSON": null
+}

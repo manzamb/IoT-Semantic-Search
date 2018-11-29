@@ -1,0 +1,73 @@
+{
+  "Conceptos": [
+    "plan"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "1615081045",
+    "title": "Arduino hydroponics",
+    "Private": false,
+    "tags": [
+      "DHT22",
+      "humidity",
+      "hydroponics",
+      "temperature"
+    ],
+    "description": "Used to monitor my backyard's temperature and humidty, where my hydroponic plants live. The data is useful to control when and how much to water the plants, using the automatic water pump system.",
+    "feed": "https://api.xively.com/v2/feeds/1615081045.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:06:01",
+    "created": "05/24/2013 01:53:08",
+    "creator": "https://xively.com/users/mxjmpbean",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "dht_h",
+        "current_value": "71.00",
+        "at": "03/21/2014 14:06:01",
+        "max_value": "100.0",
+        "min_value": "-2147483648.0",
+        "tags": [
+          "humidity"
+        ],
+        "unit": {
+          "symbol": "%RH",
+          "label": "% relative humidity",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "dht_t",
+        "current_value": "17.00",
+        "at": "03/21/2014 14:06:01",
+        "max_value": "37.0",
+        "min_value": "-2147483648.0",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "Degrees Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Mexico city",
+      "domain": 0,
+      "lat": "19.3730835",
+      "lon": "-99.1585672",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/1615081045\" >Arduino hydroponics</a>",
+    "URLMostrar": "https://xively.com/feeds/1615081045"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\1615081045.json",
+  "DocumentJSON": null
+}

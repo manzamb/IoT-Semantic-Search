@@ -1,0 +1,119 @@
+{
+  "Conceptos": [
+    "concept"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "6156",
+    "title": "Concept Reply - Stazione Meteo",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/6156.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "06/08/2010 14:21:19",
+    "created": "03/08/2010 09:54:44",
+    "creator": "https://xively.com/users/adamax",
+    "version": null,
+    "website": "http://www.reply.eu",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "913.0",
+        "at": "04/20/2010 09:35:55",
+        "max_value": "925.0",
+        "min_value": "5.0",
+        "tags": [
+          "pressione"
+        ],
+        "unit": {
+          "symbol": "b",
+          "label": "bar",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "561.0",
+        "at": "04/20/2010 09:35:55",
+        "max_value": "943.0",
+        "min_value": "0.0",
+        "tags": [
+          "luminosit",
+          "luminosità"
+        ],
+        "unit": {
+          "symbol": "lx",
+          "label": "Lux",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "3",
+        "at": "04/20/2010 09:35:55",
+        "max_value": "3.0",
+        "min_value": "2.0",
+        "tags": [
+          "dir vento",
+          "dirvento"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "0.0",
+        "at": "04/20/2010 09:35:55",
+        "max_value": "35.0",
+        "min_value": "0.0",
+        "tags": [
+          "int vento",
+          "intvento"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "28.0",
+        "at": "04/20/2010 09:35:56",
+        "max_value": "30.0",
+        "min_value": "27.0",
+        "tags": [
+          "temp"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "ConceptReply",
+      "domain": 0,
+      "lat": "45.0667314876812",
+      "lon": "7.67807006835938",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/6156\" >Concept Reply - Stazione Meteo</a>",
+    "URLMostrar": "https://xively.com/feeds/6156"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\6156.json",
+  "DocumentJSON": null
+}

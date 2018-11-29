@@ -1,0 +1,104 @@
+{
+  "Conceptos": [
+    "moisture"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "83024",
+    "title": "CamsGarduino",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "garden",
+      "thermometer"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/83024.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:06:55",
+    "created": "10/29/2012 15:46:45",
+    "creator": "https://xively.com/users/bdmatic",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "air_temp",
+        "current_value": "39.20",
+        "at": "03/21/2014 14:06:55",
+        "max_value": "151.25",
+        "min_value": "7.7",
+        "tags": [
+          "ambient air temperature (under cold frame)"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "Fahrenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "moisture",
+        "current_value": "1.24",
+        "at": "03/21/2014 14:06:55",
+        "max_value": "90.47",
+        "min_value": "0.0",
+        "tags": [
+          "soil moisture sensor"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "photocell",
+        "current_value": "70.41",
+        "at": "03/21/2014 14:06:55",
+        "max_value": "98.93",
+        "min_value": "0.0",
+        "tags": [
+          "photo sensor"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "soil_temp",
+        "current_value": "40.10",
+        "at": "03/21/2014 14:06:55",
+        "max_value": "140.11",
+        "min_value": "10.06",
+        "tags": [
+          "dirt temp one inch down"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "Fahrenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "greenhouse",
+      "domain": 0,
+      "lat": "35.1285867873988",
+      "lon": "-106.682326197624",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/83024\" >CamsGarduino</a>",
+    "URLMostrar": "https://xively.com/feeds/83024"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\83024.json",
+  "DocumentJSON": null
+}

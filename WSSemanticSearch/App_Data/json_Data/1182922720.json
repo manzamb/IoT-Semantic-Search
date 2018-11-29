@@ -1,0 +1,66 @@
+{
+  "Conceptos": [
+    "thermocouple"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "1182922720",
+    "title": "Thermocouple Temp Monitor 001",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/1182922720.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:14:18",
+    "created": "11/28/2013 21:36:23",
+    "creator": "https://xively.com/users/mam50157",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "BBSensor1",
+        "current_value": "59.9",
+        "at": "03/21/2014 14:14:18",
+        "max_value": "105.8",
+        "min_value": "30.2",
+        "tags": [
+          "Burn Building Temp Sensor"
+        ],
+        "unit": {
+          "symbol": "°F",
+          "label": "Degrees Farenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "BBSensor2",
+        "current_value": "74.3",
+        "at": "02/08/2014 23:14:29",
+        "max_value": "392.45",
+        "min_value": "21.65",
+        "tags": null,
+        "unit": {
+          "symbol": "°F",
+          "label": "Degrees Farenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "35.2441178",
+      "lon": "-75.6178991",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/1182922720\" >Thermocouple Temp Monitor 001</a>",
+    "URLMostrar": "https://xively.com/feeds/1182922720"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\1182922720.json",
+  "DocumentJSON": null
+}

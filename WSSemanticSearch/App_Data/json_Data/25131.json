@@ -1,0 +1,107 @@
+{
+  "Conceptos": [
+    "sensor output"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "25131",
+    "title": "Multi-Sensor PCB (R8) - Bedroom",
+    "Private": false,
+    "tags": [
+      "FSR",
+      "Hall effect",
+      "light",
+      "temperature",
+      "tmp36",
+      "xbee"
+    ],
+    "description": "Testing the output of an xbee board with 4 sensors; Hall Effect Switch, Temperature, LDR, FSR.  Made to show at Maker Faire, 2011.\r\n\r\nDownstairs BR",
+    "feed": "https://api.xively.com/v2/feeds/25131.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:10:37",
+    "created": "05/13/2011 16:58:16",
+    "creator": "https://xively.com/users/chrisjx",
+    "version": null,
+    "website": "http://tinajalabs.com",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "1023.0",
+        "at": "03/21/2014 14:10:34",
+        "max_value": "61568.0",
+        "min_value": "0.0",
+        "tags": [
+          "Hall effect"
+        ],
+        "unit": {
+          "symbol": "mV",
+          "label": "mV",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "65.1818181818",
+        "at": "03/21/2014 14:10:35",
+        "max_value": "6590.0",
+        "min_value": "0.0",
+        "tags": [
+          "TMP36"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "Degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "3.13636363636",
+        "at": "03/21/2014 14:10:36",
+        "max_value": "7645.75",
+        "min_value": "0.0",
+        "tags": [
+          "LDR"
+        ],
+        "unit": {
+          "symbol": "mV",
+          "label": "mV",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "0.590909090909",
+        "at": "03/21/2014 14:10:37",
+        "max_value": "65280.3333333",
+        "min_value": "0.0",
+        "tags": [
+          "FSR"
+        ],
+        "unit": {
+          "symbol": "mV",
+          "label": "mV",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Kensington, CA",
+      "domain": 0,
+      "lat": "37.9054732004846",
+      "lon": "-122.270862646401",
+      "ele": "200",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/25131\" >Multi-Sensor PCB (R8) - Bedroom</a>",
+    "URLMostrar": "https://xively.com/feeds/25131"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\25131.json",
+  "DocumentJSON": null
+}

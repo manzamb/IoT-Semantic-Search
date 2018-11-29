@@ -1,0 +1,70 @@
+{
+  "Conceptos": [
+    "pst"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "43781",
+    "title": "flotestfeed",
+    "Private": false,
+    "tags": [
+      "test"
+    ],
+    "description": "this is just a test",
+    "feed": "https://api.xively.com/v2/feeds/43781.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "04/19/2012 16:37:52",
+    "created": "01/08/2012 16:41:49",
+    "creator": "https://xively.com/users/flotorious",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "1",
+        "current_value": "4.0",
+        "at": "04/19/2012 16:37:52",
+        "max_value": "1090.0",
+        "min_value": "0.0",
+        "tags": [
+          "TP1-StepsIntervall"
+        ],
+        "unit": {
+          "symbol": "Steps",
+          "label": "Steps",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "0.0",
+        "at": "04/19/2012 16:37:48",
+        "max_value": "578.0",
+        "min_value": "0.0",
+        "tags": [
+          "TP1-StepsTotal"
+        ],
+        "unit": {
+          "symbol": "Steps",
+          "label": "Steps",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "vienna",
+      "domain": 0,
+      "lat": "48.1770756277961",
+      "lon": "16.358642578125",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 1
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/43781\" >flotestfeed</a>",
+    "URLMostrar": "https://xively.com/feeds/43781"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\43781.json",
+  "DocumentJSON": null
+}

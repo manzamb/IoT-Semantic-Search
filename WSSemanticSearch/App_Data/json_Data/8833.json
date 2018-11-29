@@ -1,0 +1,98 @@
+{
+  "Conceptos": [
+    "atmospheric pressure"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "8833",
+    "title": "temperature + pressure",
+    "Private": false,
+    "tags": [
+      "berlin",
+      "outside",
+      "pressure",
+      "temperature"
+    ],
+    "description": "Two temperature sensors and one atmospheric pressure sensor.\r\n\r\nOne temperature sensor is on a south-west facing wall. Temperature here is usually a bit higher than the real temperature, because of it's location in a small courtyard.\r\nThe other is on a north-west facing wall facing the street.\r\n\r\nThe temperature sensors are DS18B20/DS18S20, the pressure sensor is a SCP1000",
+    "feed": "https://api.xively.com/v2/feeds/8833.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "09/28/2013 13:16:08",
+    "created": "07/15/2010 12:39:26",
+    "creator": "https://xively.com/users/proq",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "18.125",
+        "at": "09/28/2013 13:16:08",
+        "max_value": "46.625",
+        "min_value": "-12.0",
+        "tags": [
+          "court",
+          "ds18s20",
+          "outside",
+          "southwest",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "T",
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "15.0625",
+        "at": "09/28/2013 13:16:08",
+        "max_value": "40.4375",
+        "min_value": "-17.6875",
+        "tags": [
+          "ds18b20",
+          "northwest",
+          "outside",
+          "street",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "T",
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "1014.34",
+        "at": "09/28/2013 13:16:08",
+        "max_value": "1041.26",
+        "min_value": "963.127",
+        "tags": [
+          "atmospheric pressure",
+          "scp1000"
+        ],
+        "unit": {
+          "symbol": "p",
+          "label": "hPa",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Berlin - Wedding",
+      "domain": 0,
+      "lat": "52.5537681342685",
+      "lon": "13.3902955055237",
+      "ele": "4",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/8833\" >temperature + pressure</a>",
+    "URLMostrar": "https://xively.com/feeds/8833"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\8833.json",
+  "DocumentJSON": null
+}

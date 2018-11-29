@@ -1,0 +1,90 @@
+{
+  "Conceptos": [
+    "event"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "46163",
+    "title": "Garden Data 2.0",
+    "Private": false,
+    "tags": null,
+    "description": "Still in development...eventually this will facilitate bidirectional communication between the garden and Pachube.\r\n\r\nI'm hoping to read: Air temperature, Light intensity, Fluid temperature, Fluid level, pH (later...possibly its own micro), Solar system voltage ,Pump on/off\r\n\r\nAnd remotely actuate: Pump on/off, Lights on/off, Take pH reading",
+    "feed": "https://api.xively.com/v2/feeds/46163.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "01/19/2013 17:55:42",
+    "created": "01/28/2012 19:23:25",
+    "creator": "https://xively.com/users/aka",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "DHT11_humidity",
+        "current_value": "78",
+        "at": "01/19/2013 17:55:42",
+        "max_value": "95.0",
+        "min_value": "0.0",
+        "tags": [
+          "DHT11",
+          "garden",
+          "humidity",
+          "hydroponic",
+          "indoor"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "DHT11_temp",
+        "current_value": "60",
+        "at": "01/19/2013 17:55:42",
+        "max_value": "60.0",
+        "min_value": "0.0",
+        "tags": [
+          "DHT11",
+          "garden",
+          "hydroponic",
+          "indoor",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Reservoir_level",
+        "current_value": "385",
+        "at": "01/19/2013 17:55:42",
+        "max_value": "1023.0",
+        "min_value": "180.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Brooklyn, NY",
+      "domain": 0,
+      "lat": "40.7091413930001",
+      "lon": "-73.9642524719238",
+      "ele": "20",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/46163\" >Garden Data 2.0</a>",
+    "URLMostrar": "https://xively.com/feeds/46163"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\46163.json",
+  "DocumentJSON": null
+}

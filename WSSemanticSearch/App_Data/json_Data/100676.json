@@ -1,0 +1,56 @@
+{
+  "Conceptos": [
+    "physical agent"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "100676",
+    "title": "currentcostagent",
+    "Private": false,
+    "tags": [
+      "Current cost agent",
+      "enrgy used",
+      "PV generated"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/100676.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "01/27/2013 16:17:34",
+    "created": "01/27/2013 12:02:48",
+    "creator": "https://xively.com/users/cochrane53",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "1",
+        "current_value": "10",
+        "at": "01/27/2013 16:17:47",
+        "max_value": "10.0",
+        "min_value": "10.0",
+        "tags": [
+          "test"
+        ],
+        "unit": {
+          "symbol": "kWh",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/100676\" >currentcostagent</a>",
+    "URLMostrar": "https://xively.com/feeds/100676"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\100676.json",
+  "DocumentJSON": null
+}

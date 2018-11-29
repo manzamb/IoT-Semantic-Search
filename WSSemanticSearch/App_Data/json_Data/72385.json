@@ -1,0 +1,96 @@
+{
+  "Conceptos": [
+    "air quality"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "72385",
+    "title": "Moscow air quality monitor",
+    "Private": false,
+    "tags": [
+      "air quality",
+      "dust",
+      "moscow",
+      "particles",
+      "PM2.5"
+    ],
+    "description": "particle meter using Dylos DC1100 monitor",
+    "feed": "https://api.xively.com/v2/feeds/72385.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:09:06",
+    "created": "08/24/2012 15:24:59",
+    "creator": "https://xively.com/users/ati",
+    "version": null,
+    "website": "http://air.tautology2.net",
+    "datastreams": [
+      {
+        "id": "PM10",
+        "current_value": "85",
+        "at": "03/21/2014 14:09:05",
+        "max_value": "13167.0",
+        "min_value": "0.0",
+        "tags": [
+          "air quality",
+          "moscow",
+          "pm10"
+        ],
+        "unit": {
+          "symbol": "n*100/ft³",
+          "label": "particles*100/cubic foot",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "PM2.5",
+        "current_value": "1819",
+        "at": "03/21/2014 14:09:05",
+        "max_value": "62197.0",
+        "min_value": "0.0",
+        "tags": [
+          "air quality",
+          "moscow",
+          "pm2.5"
+        ],
+        "unit": {
+          "symbol": "n*100/ft³",
+          "label": "particles*100/cubic foot",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "rain",
+        "current_value": "308",
+        "at": "03/21/2014 14:09:05",
+        "max_value": "12635.0",
+        "min_value": "0.0",
+        "tags": [
+          "air quality",
+          "moscow",
+          "rain"
+        ],
+        "unit": {
+          "symbol": "points",
+          "label": "0.01 in",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Moscow, Russia",
+      "domain": 0,
+      "lat": "55.7038664676156",
+      "lon": "37.5086116790771",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/72385\" >Moscow air quality monitor</a>",
+    "URLMostrar": "https://xively.com/feeds/72385"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\72385.json",
+  "DocumentJSON": null
+}

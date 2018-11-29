@@ -1,0 +1,72 @@
+{
+  "Conceptos": [
+    "atmospheric pressure"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "67962",
+    "title": "Kohalik ilmainfo",
+    "Private": false,
+    "tags": [
+      "atmospheric pressure",
+      "jeenode",
+      "temperature"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/67962.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "08/31/2013 04:50:04",
+    "created": "07/17/2012 09:54:17",
+    "creator": "https://xively.com/users/suslik",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "p",
+        "current_value": "1007.52",
+        "at": "08/31/2013 04:48:06",
+        "max_value": "1028.42",
+        "min_value": "975.81",
+        "tags": [
+          "pressure"
+        ],
+        "unit": {
+          "symbol": "hPa",
+          "label": "hPa",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temp",
+        "current_value": "13.7",
+        "at": "08/31/2013 04:48:06",
+        "max_value": "1010.66",
+        "min_value": "-21.6",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/67962\" >Kohalik ilmainfo</a>",
+    "URLMostrar": "https://xively.com/feeds/67962"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\67962.json",
+  "DocumentJSON": null
+}

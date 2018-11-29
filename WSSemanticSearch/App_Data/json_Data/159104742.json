@@ -1,0 +1,140 @@
+{
+  "Conceptos": [
+    "physical"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "159104742",
+    "title": "EDF",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/159104742.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:15:13",
+    "created": "07/24/2013 07:32:21",
+    "creator": "https://xively.com/users/pfrey",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Cons",
+        "current_value": "230",
+        "at": "03/21/2014 14:15:06",
+        "max_value": "7480.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "W",
+          "label": "Watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Prod",
+        "current_value": "1130",
+        "at": "03/21/2014 14:15:11",
+        "max_value": "3680.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "W",
+          "label": "Watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temp1",
+        "current_value": "25.9375",
+        "at": "03/21/2014 14:15:11",
+        "max_value": "55.3125",
+        "min_value": "22.4375",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temp2",
+        "current_value": "23.3125",
+        "at": "03/21/2014 14:15:12",
+        "max_value": "77.0625",
+        "min_value": "19.125",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "TempEXT",
+        "current_value": "23.125",
+        "at": "03/21/2014 14:15:04",
+        "max_value": "85.0",
+        "min_value": "-4.75",
+        "tags": [
+          "température extérieure Sud"
+        ],
+        "unit": {
+          "symbol": "deg celcius",
+          "label": "degres",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "TempINT",
+        "current_value": "20.625",
+        "at": "03/21/2014 14:15:07",
+        "max_value": "27.0625",
+        "min_value": "17.125",
+        "tags": [
+          "température interieure couloir"
+        ],
+        "unit": {
+          "symbol": "deg celcius",
+          "label": "deg$",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "TempVIN",
+        "current_value": "15.5",
+        "at": "03/21/2014 14:15:09",
+        "max_value": "26.0625",
+        "min_value": "11.625",
+        "tags": [
+          "Temperature Cave a vin"
+        ],
+        "unit": {
+          "symbol": "def celcius",
+          "label": "degres",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "47.825925",
+      "lon": "7.51632399999994",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/159104742\" >EDF</a>",
+    "URLMostrar": "https://xively.com/feeds/159104742"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\159104742.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,114 @@
+{
+  "Conceptos": [
+    "humedad"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "102976",
+    "title": "Temperatura, Humedad y Presion ambientales",
+    "Private": false,
+    "tags": [
+      "ambiental",
+      "arduino",
+      "chile",
+      "exterior",
+      "humedad",
+      "santiago",
+      "sensor",
+      "temperatura",
+      "tica"
+    ],
+    "description": "Sensor Sensirion SHT11 midiendo temperatura y humedad en edificio La Concepcion 81, piso 17 a la interperie. Construido alrededor de un Arduino Ethernet\r\n\r\nActualizado 8 de febrero:\r\n\r\nAgregado sensor de presión atmosférica y temperatura MS5607, ubicado al interior de la oficina.",
+    "feed": "https://api.xively.com/v2/feeds/102976.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "06/19/2013 20:58:13",
+    "created": "02/06/2013 16:10:00",
+    "creator": "https://xively.com/users/tica",
+    "version": null,
+    "website": "http://www.tica.cl",
+    "datastreams": [
+      {
+        "id": "Humedad",
+        "current_value": "-13.84",
+        "at": "06/19/2013 20:58:12",
+        "max_value": "84.44",
+        "min_value": "-102.65",
+        "tags": [
+          "humedad",
+          "humidity"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Presion_Atmosferica",
+        "current_value": "0.00",
+        "at": "06/19/2013 20:58:12",
+        "max_value": "292633.31",
+        "min_value": "-1062163.75",
+        "tags": [
+          "presion",
+          "pressure"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "mBar",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperatura",
+        "current_value": "-42.56",
+        "at": "06/19/2013 20:58:12",
+        "max_value": "287.67",
+        "min_value": "-42.56",
+        "tags": [
+          "temperatura",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperatura_Interior",
+        "current_value": "20.00",
+        "at": "06/19/2013 20:58:12",
+        "max_value": "143077.9",
+        "min_value": "20.0",
+        "tags": [
+          "temperatura",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Tica HQ",
+      "domain": 0,
+      "lat": "-33.4246787875303",
+      "lon": "-70.6152275204659",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/102976\" >Temperatura, Humedad y Presion ambientales</a>",
+    "URLMostrar": "https://xively.com/feeds/102976"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\102976.json",
+  "DocumentJSON": null
+}

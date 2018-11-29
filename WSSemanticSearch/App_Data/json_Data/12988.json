@@ -1,0 +1,70 @@
+{
+  "Conceptos": [
+    "resolution"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "12988",
+    "title": "indoor LM35 sensors",
+    "Private": false,
+    "tags": [
+      "LM35"
+    ],
+    "description": "high-resolution temperature measurements",
+    "feed": "https://api.xively.com/v2/feeds/12988.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "01/31/2012 05:30:03",
+    "created": "11/24/2010 23:38:14",
+    "creator": "https://xively.com/users/jpb123",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "25465.8",
+        "at": "01/31/2012 05:30:03",
+        "max_value": "53923.0",
+        "min_value": "-32664.8",
+        "tags": [
+          "int"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "millidegrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "21168.3",
+        "at": "01/31/2012 05:30:03",
+        "max_value": "34577.7",
+        "min_value": "-157286.7",
+        "tags": [
+          "ext"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "millidegrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Dublin CA",
+      "domain": 0,
+      "lat": "37.7041014128019",
+      "lon": "-121.874513626099",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/12988\" >indoor LM35 sensors</a>",
+    "URLMostrar": "https://xively.com/feeds/12988"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\12988.json",
+  "DocumentJSON": null
+}

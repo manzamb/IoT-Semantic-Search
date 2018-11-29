@@ -1,0 +1,52 @@
+{
+  "Conceptos": [
+    "region"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "2223",
+    "title": "BioRegional's electricity usage",
+    "Private": false,
+    "tags": null,
+    "description": "Data from a CurrentCost 128 unit.",
+    "feed": "https://api.xively.com/v2/feeds/2223.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "06/08/2010 14:19:25",
+    "created": "07/06/2009 11:12:45",
+    "creator": "https://xively.com/users/bioregional",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "1130",
+        "at": null,
+        "max_value": "1130.0",
+        "min_value": "1130.0",
+        "tags": [
+          "currentcost electricity watts"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "London",
+      "domain": 0,
+      "lat": "51.3820382110114",
+      "lon": "-0.156553030537907",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/2223\" >BioRegional's electricity usage</a>",
+    "URLMostrar": "https://xively.com/feeds/2223"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\2223.json",
+  "DocumentJSON": null
+}

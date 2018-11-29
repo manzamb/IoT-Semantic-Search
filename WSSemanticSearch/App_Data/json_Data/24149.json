@@ -1,0 +1,82 @@
+{
+  "Conceptos": [
+    "thermocouple"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "24149",
+    "title": "Refrigerator",
+    "Private": false,
+    "tags": [
+      "thermocouple temperature"
+    ],
+    "description": "Just trying this out!",
+    "feed": "https://api.xively.com/v2/feeds/24149.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "11/25/2013 17:18:09",
+    "created": "04/23/2011 13:24:09",
+    "creator": "https://xively.com/users/cmurtaugh",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "power",
+        "current_value": "0",
+        "at": "11/25/2013 17:18:09",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "s",
+        "current_value": null,
+        "at": "10/13/2012 16:19:58",
+        "max_value": null,
+        "min_value": null,
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "sensor1",
+        "current_value": "35.93",
+        "at": "11/25/2013 17:18:09",
+        "max_value": "185.0",
+        "min_value": "-196.76",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "basicSI",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "42.3839400911088",
+      "lon": "-71.1042451858521",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/24149\" >Refrigerator</a>",
+    "URLMostrar": "https://xively.com/feeds/24149"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\24149.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,80 @@
+{
+  "Conceptos": [
+    "physical agent"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "73982",
+    "title": "Arduino Uno Ethernet solar agent",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "battery",
+      "project:name=get_pwd_solar",
+      "solar",
+      "voltage"
+    ],
+    "description": "Voltage meter",
+    "feed": "https://api.xively.com/v2/feeds/73982.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "09/06/2012 17:13:58",
+    "created": "09/05/2012 16:38:19",
+    "creator": "https://xively.com/users/lbeerens",
+    "version": null,
+    "website": "http://cosm.com",
+    "datastreams": [
+      {
+        "id": "sensor1",
+        "current_value": "0",
+        "at": "09/05/2012 17:01:57",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "battery",
+          "charge",
+          "project:name=get_pwd_solar",
+          "solar"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "voltage1",
+        "current_value": "0.99",
+        "at": "09/06/2012 17:13:58",
+        "max_value": "18.61",
+        "min_value": "0.0",
+        "tags": [
+          "battery",
+          "project:name=get_pwd_solar",
+          "solar",
+          "voltage"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "V",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "sapin-suchet",
+      "domain": 0,
+      "lat": "46.7694981280266",
+      "lon": "6.46167755126953",
+      "ele": "1300",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/73982\" >Arduino Uno Ethernet solar agent</a>",
+    "URLMostrar": "https://xively.com/feeds/73982"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\73982.json",
+  "DocumentJSON": null
+}

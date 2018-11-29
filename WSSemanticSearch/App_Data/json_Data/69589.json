@@ -1,0 +1,182 @@
+{
+  "Conceptos": [
+    "process"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "69589",
+    "title": "Raspberry Pi",
+    "Private": false,
+    "tags": [
+      "raspberry"
+    ],
+    "description": "My Raspberry Pi system monitoring",
+    "feed": "https://api.xively.com/v2/feeds/69589.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "11/05/2013 20:30:05",
+    "created": "07/30/2012 20:53:31",
+    "creator": "https://xively.com/users/ghubsch",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "diskfree",
+        "current_value": "3584",
+        "at": "11/05/2013 20:30:04",
+        "max_value": "5485.25",
+        "min_value": "24.0",
+        "tags": [
+          "disk"
+        ],
+        "unit": {
+          "symbol": "Mb",
+          "label": "Mb",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "load",
+        "current_value": "0.97",
+        "at": "11/05/2013 20:30:04",
+        "max_value": "26.44",
+        "min_value": "0.01",
+        "tags": [
+          "load"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "memfree",
+        "current_value": "20",
+        "at": "11/05/2013 20:30:04",
+        "max_value": "172.0",
+        "min_value": "8.0",
+        "tags": [
+          "memory"
+        ],
+        "unit": {
+          "symbol": "Mb",
+          "label": "Mb",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "netIn",
+        "current_value": "28",
+        "at": "11/05/2013 20:30:04",
+        "max_value": "190196.0",
+        "min_value": "0.0",
+        "tags": [
+          "network"
+        ],
+        "unit": {
+          "symbol": "Kb",
+          "label": "Kb",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "netOut",
+        "current_value": "148",
+        "at": "11/05/2013 20:30:04",
+        "max_value": "997095.0",
+        "min_value": "-4045250.0",
+        "tags": [
+          "network"
+        ],
+        "unit": {
+          "symbol": "Kb",
+          "label": "Kb",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "processes",
+        "current_value": "109",
+        "at": "11/05/2013 20:30:04",
+        "max_value": "150.0",
+        "min_value": "58.0",
+        "tags": [
+          "processes"
+        ],
+        "unit": {
+          "symbol": "proc",
+          "label": "processes",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "swapfree",
+        "current_value": "99",
+        "at": "11/05/2013 20:30:04",
+        "max_value": "99.0",
+        "min_value": "0.0",
+        "tags": [
+          "memory"
+        ],
+        "unit": {
+          "symbol": "Mb",
+          "label": "Mb",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "uptime",
+        "current_value": "6.92",
+        "at": "11/05/2013 20:30:04",
+        "max_value": "55.03819",
+        "min_value": "0.0",
+        "tags": [
+          "uptime"
+        ],
+        "unit": {
+          "symbol": "day(s)",
+          "label": "days",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "users",
+        "current_value": "1",
+        "at": "11/05/2013 20:30:04",
+        "max_value": "4.0",
+        "min_value": "0.0",
+        "tags": [
+          "users"
+        ],
+        "unit": {
+          "symbol": "users",
+          "label": "users",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "moita, portugal",
+      "domain": 0,
+      "lat": "38.6572978539455",
+      "lon": "-8.99192333221436",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/69589\" >Raspberry Pi</a>",
+    "URLMostrar": "https://xively.com/feeds/69589"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\69589.json",
+  "DocumentJSON": null
+}

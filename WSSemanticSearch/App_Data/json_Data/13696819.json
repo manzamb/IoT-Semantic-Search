@@ -1,0 +1,100 @@
+{
+  "Conceptos": [
+    "system"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "13696819",
+    "title": "HERMS System",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/13696819.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:13:18",
+    "created": "09/25/2013 22:14:01",
+    "creator": "https://xively.com/users/portez",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "BK",
+        "current_value": "15.3",
+        "at": "03/21/2014 14:13:18",
+        "max_value": "99.4",
+        "min_value": "0.0",
+        "tags": [
+          "Boil Kettle Temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "FERM",
+        "current_value": "18.2",
+        "at": "03/21/2014 14:13:09",
+        "max_value": "27.8",
+        "min_value": "3.6",
+        "tags": [
+          "Temperatura Fermentor"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "HLT",
+        "current_value": "15.9",
+        "at": "03/21/2014 14:13:13",
+        "max_value": "98.2",
+        "min_value": "0.0",
+        "tags": [
+          "HLT_Temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "MLT",
+        "current_value": "15.5",
+        "at": "03/21/2014 14:13:15",
+        "max_value": "85.0",
+        "min_value": "0.0",
+        "tags": [
+          "MLT_Temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Zgornji Brnik",
+      "domain": 0,
+      "lat": "46.2389906",
+      "lon": "14.4842349",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/13696819\" >HERMS System</a>",
+    "URLMostrar": "https://xively.com/feeds/13696819"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\13696819.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,219 @@
+{
+  "Conceptos": [
+    "carbon monoxide"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "85080",
+    "title": "London AirPi",
+    "Private": false,
+    "tags": [
+      "air quality",
+      "carbon monoxide",
+      "humidity",
+      "nitrogen dioxide",
+      "pressure",
+      "raspberry pi",
+      "temperature",
+      "uv levels",
+      "weather"
+    ],
+    "description": "Cosm feed for the very first AirPi",
+    "feed": "https://api.xively.com/v2/feeds/85080.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "12/18/2013 14:43:15",
+    "created": "11/12/2012 22:19:44",
+    "creator": "https://xively.com/users/tmhrtly",
+    "version": null,
+    "website": "http://airpi.es",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "12.8",
+        "at": "12/18/2013 14:43:15",
+        "max_value": "146.2",
+        "min_value": "12.8",
+        "tags": [
+          "name: Temperature",
+          "sensor: BMP085"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "29.9",
+        "at": "12/18/2013 14:43:15",
+        "max_value": "110.6",
+        "min_value": "0.4",
+        "tags": [
+          "name: Relative Humidity",
+          "sensor: DHT22"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "Relative Humidity",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "33411.26",
+        "at": "04/28/2013 20:01:06",
+        "max_value": "33411.26",
+        "min_value": "33411.26",
+        "tags": [
+          "name: Air Quality",
+          "sensor: TGS 2600"
+        ],
+        "unit": {
+          "symbol": "Ω",
+          "label": "Ohms",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "29.76",
+        "at": "12/18/2013 14:43:15",
+        "max_value": "5723.2",
+        "min_value": "0.0",
+        "tags": [
+          "name: Light Level",
+          "sensor: LDR"
+        ],
+        "unit": {
+          "symbol": "lx",
+          "label": "Lux",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "55206864.2",
+        "at": "12/18/2013 14:43:15",
+        "max_value": "55206864.2",
+        "min_value": "61660.4",
+        "tags": [
+          "name: Air Pressure",
+          "sensor: BMP085"
+        ],
+        "unit": {
+          "symbol": "Pa",
+          "label": "Pascals",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "0.000",
+        "at": "12/18/2013 14:43:15",
+        "max_value": "40.454",
+        "min_value": "0.0",
+        "tags": [
+          "name: CO",
+          "sensor: MICS-5525"
+        ],
+        "unit": {
+          "symbol": "ppm",
+          "label": "Parts per million",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "0.107",
+        "at": "12/18/2013 14:43:15",
+        "max_value": "0.23",
+        "min_value": "0.0",
+        "tags": [
+          "name: NO2",
+          "sensor: MICS-2710"
+        ],
+        "unit": {
+          "symbol": "ppm",
+          "label": "Parts per million",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "7",
+        "current_value": "283090.2",
+        "at": "12/18/2013 14:43:15",
+        "max_value": "506060.6",
+        "min_value": "0.0",
+        "tags": [
+          "name: CO",
+          "nodisplay",
+          "raw",
+          "sensor: MICS-5525"
+        ],
+        "unit": {
+          "symbol": "Ω",
+          "label": "Ohms",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "8",
+        "current_value": "38636.8",
+        "at": "12/18/2013 14:43:15",
+        "max_value": "82905.1",
+        "min_value": "0.0",
+        "tags": [
+          "name: NO2",
+          "nodisplay",
+          "raw",
+          "sensor: MICS-2710"
+        ],
+        "unit": {
+          "symbol": "Ω",
+          "label": "Ohms",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "9",
+        "current_value": "0.37",
+        "at": "12/18/2013 14:43:15",
+        "max_value": "3.68",
+        "min_value": "0.0",
+        "tags": [
+          "name: UV intensity"
+        ],
+        "unit": {
+          "symbol": "UVI",
+          "label": "UVI",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "London",
+      "domain": 0,
+      "lat": "51.5602108269101",
+      "lon": "-0.192604064941406",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/85080\" >London AirPi</a>",
+    "URLMostrar": "https://xively.com/feeds/85080"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\85080.json",
+  "DocumentJSON": null
+}

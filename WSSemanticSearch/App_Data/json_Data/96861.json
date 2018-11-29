@@ -1,0 +1,93 @@
+{
+  "Conceptos": [
+    "color"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "96861",
+    "title": "RGB_LED",
+    "Private": false,
+    "tags": [
+      "app",
+      "arduino",
+      "colors",
+      "iphone",
+      "rgb"
+    ],
+    "description": "Controls an RGB LED connected to my Arduino Uno.",
+    "feed": "https://api.xively.com/v2/feeds/96861.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "01/10/2013 23:39:40",
+    "created": "01/09/2013 20:32:18",
+    "creator": "https://xively.com/users/daltonclaybrook",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "RGB_Blue",
+        "current_value": "1.000000",
+        "at": "01/10/2013 23:39:39",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "blue",
+          "colors"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "RGB_Green",
+        "current_value": "0.000000",
+        "at": "01/10/2013 23:39:39",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "colors",
+          "green"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "RGB_Red",
+        "current_value": "0.000000",
+        "at": "01/10/2013 23:39:39",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "colors",
+          "red"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Claybrook Software Office",
+      "domain": 0,
+      "lat": "33.518880449269",
+      "lon": "-101.889445334673",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/96861\" >RGB_LED</a>",
+    "URLMostrar": "https://xively.com/feeds/96861"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\96861.json",
+  "DocumentJSON": null
+}

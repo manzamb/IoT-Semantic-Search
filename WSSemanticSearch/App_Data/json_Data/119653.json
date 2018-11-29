@@ -1,0 +1,820 @@
+{
+  "Conceptos": [
+    "object"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "119653",
+    "title": "SystemMonitor Metronit - IPI centre",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/119653.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "01/13/2014 11:14:11",
+    "created": "03/18/2013 15:48:02",
+    "creator": "https://xively.com/users/swarcomizar",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "DBENGINE",
+        "current_value": "2010",
+        "at": "01/13/2014 11:14:10",
+        "max_value": "2010.0",
+        "min_value": "-1.0",
+        "tags": [
+          "_DB_Value"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "objects",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "FEP_AvgMessagePeriod",
+        "current_value": "-1",
+        "at": "01/13/2014 11:13:39",
+        "max_value": "3600.0",
+        "min_value": "-1.0",
+        "tags": [
+          "_DB_Value"
+        ],
+        "unit": {
+          "symbol": "sec",
+          "label": "seconds",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "FEP_ConnectedVehicles",
+        "current_value": "0",
+        "at": "01/13/2014 11:13:39",
+        "max_value": "3.0",
+        "min_value": "-1.0",
+        "tags": [
+          "_DB_Value"
+        ],
+        "unit": {
+          "symbol": "veh",
+          "label": "vehicles",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "FEP_MessagesLastMinute",
+        "current_value": "0",
+        "at": "01/13/2014 11:13:39",
+        "max_value": "20.0",
+        "min_value": "-1.0",
+        "tags": [
+          "_DB_Value"
+        ],
+        "unit": {
+          "symbol": "msg",
+          "label": "messages",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "FLASH_MonitoredPassagesLastHour",
+        "current_value": "0",
+        "at": "01/13/2014 11:13:39",
+        "max_value": "2126.0",
+        "min_value": "-1.0",
+        "tags": [
+          "_DB_Value"
+        ],
+        "unit": {
+          "symbol": "pass",
+          "label": "passages",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "FLASH_PassagesTomorrow",
+        "current_value": "2063",
+        "at": "01/13/2014 11:06:45",
+        "max_value": "13976.0",
+        "min_value": "-1.0",
+        "tags": [
+          "_DB_Value"
+        ],
+        "unit": {
+          "symbol": "pass",
+          "label": "passages",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "FN_ConnectedVehicles",
+        "current_value": "0",
+        "at": "01/13/2014 11:13:39",
+        "max_value": "101.0",
+        "min_value": "-1.0",
+        "tags": [
+          "_DB_Value"
+        ],
+        "unit": {
+          "symbol": "veh",
+          "label": "vehicles",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "FN_EV_RATE",
+        "current_value": "0",
+        "at": "01/13/2014 11:11:41",
+        "max_value": "4300.0",
+        "min_value": "-1.0",
+        "tags": [
+          "_DB_Value"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "percentage",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "FN_MonitoredPassagesLastHour",
+        "current_value": "0",
+        "at": "01/13/2014 11:13:41",
+        "max_value": "227.0",
+        "min_value": "-1.0",
+        "tags": [
+          "_DB_Value"
+        ],
+        "unit": {
+          "symbol": "pass",
+          "label": "passages",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "FN_RunsNext24Hours",
+        "current_value": "0",
+        "at": "01/13/2014 11:13:41",
+        "max_value": "982.0",
+        "min_value": "-1.0",
+        "tags": [
+          "_DB_Value"
+        ],
+        "unit": {
+          "symbol": "runs",
+          "label": "runs",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "FN_VehiclesWithRun",
+        "current_value": "0",
+        "at": "01/13/2014 11:13:39",
+        "max_value": "10.0",
+        "min_value": "-1.0",
+        "tags": [
+          "_DB_Value"
+        ],
+        "unit": {
+          "symbol": "veh",
+          "label": "vehicles",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "FN_VEH_RATE",
+        "current_value": "0",
+        "at": "01/13/2014 11:11:41",
+        "max_value": "10100.0",
+        "min_value": "-1.0",
+        "tags": [
+          "_DB_Value"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "percentage",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "IT_ConnectedDisplays",
+        "current_value": "0",
+        "at": "01/13/2014 11:13:39",
+        "max_value": "4.0",
+        "min_value": "-1.0",
+        "tags": [
+          "_DB_Value"
+        ],
+        "unit": {
+          "symbol": "disp",
+          "label": "displays",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "IT_ForecastsNextHour",
+        "current_value": "0",
+        "at": "01/13/2014 11:13:39",
+        "max_value": "358.0",
+        "min_value": "-1.0",
+        "tags": [
+          "_DB_Value"
+        ],
+        "unit": {
+          "symbol": "pass",
+          "label": "passages",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "IT_PassagesNextHour",
+        "current_value": "0",
+        "at": "01/13/2014 11:13:39",
+        "max_value": "2922.0",
+        "min_value": "-1.0",
+        "tags": [
+          "_DB_Value"
+        ],
+        "unit": {
+          "symbol": "pass",
+          "label": "passages",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "IU_ForecastsNextHour",
+        "current_value": "0",
+        "at": "01/13/2014 11:13:39",
+        "max_value": "333.0",
+        "min_value": "-1.0",
+        "tags": [
+          "_DB_Value"
+        ],
+        "unit": {
+          "symbol": "pass",
+          "label": "passages",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "IU_PassagesNextHour",
+        "current_value": "0",
+        "at": "01/13/2014 11:13:39",
+        "max_value": "2913.0",
+        "min_value": "-1.0",
+        "tags": [
+          "_DB_Value"
+        ],
+        "unit": {
+          "symbol": "pass",
+          "label": "passages",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "PERF_CPUFLASHENGINE",
+        "current_value": "1",
+        "at": "01/13/2014 11:13:43",
+        "max_value": "69.0",
+        "min_value": "-1.0",
+        "tags": [
+          "_Perf"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "percentage",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "PERF_CPUFLASHSQL",
+        "current_value": "2",
+        "at": "01/13/2014 11:13:43",
+        "max_value": "96.0",
+        "min_value": "-1.0",
+        "tags": [
+          "_Perf"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "percentage",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "PERF_CPUFLASHWEB",
+        "current_value": "-1",
+        "at": "01/13/2014 11:13:19",
+        "max_value": "39.0",
+        "min_value": "-1.0",
+        "tags": [
+          "_Perf"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "percentage",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "PERF_FREEVOL_C_FLASHENGINE",
+        "current_value": "47",
+        "at": "01/13/2014 11:13:41",
+        "max_value": "52.0",
+        "min_value": "-1.0",
+        "tags": [
+          "_Perf"
+        ],
+        "unit": {
+          "symbol": "GB",
+          "label": "GBytes",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "PERF_FREEVOL_F_FLASHENGINE",
+        "current_value": "95",
+        "at": "01/13/2014 11:13:41",
+        "max_value": "101.0",
+        "min_value": "-1.0",
+        "tags": [
+          "_Perf"
+        ],
+        "unit": {
+          "symbol": "GB",
+          "label": "GBytes",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "PROC_CONS",
+        "current_value": "-1",
+        "at": "01/13/2014 11:12:58",
+        "max_value": "6104.0",
+        "min_value": "-1.0",
+        "tags": [
+          "_Proc"
+        ],
+        "unit": {
+          "symbol": "PID",
+          "label": "PID",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "PROC_DB_LOGGER",
+        "current_value": "0",
+        "at": "01/13/2014 11:13:41",
+        "max_value": "1319624.0",
+        "min_value": "-1.0",
+        "tags": [
+          "_Proc"
+        ],
+        "unit": {
+          "symbol": "PID",
+          "label": "PID",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "PROC_FEPTCP",
+        "current_value": "0",
+        "at": "01/13/2014 11:13:41",
+        "max_value": "1149848.0",
+        "min_value": "-1.0",
+        "tags": [
+          "_Proc"
+        ],
+        "unit": {
+          "symbol": "PID",
+          "label": "PID",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "PROC_FNJOBSCHED",
+        "current_value": "-1",
+        "at": "01/13/2014 11:13:41",
+        "max_value": "2600.0",
+        "min_value": "-1.0",
+        "tags": [
+          "_Proc"
+        ],
+        "unit": {
+          "symbol": "PID",
+          "label": "PID",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "PROC_FNLOCAL",
+        "current_value": "-1",
+        "at": "01/13/2014 11:12:16",
+        "max_value": "4860.0",
+        "min_value": "-1.0",
+        "tags": [
+          "_Proc"
+        ],
+        "unit": {
+          "symbol": "PID",
+          "label": "PID",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "PROC_GESTTCP",
+        "current_value": "0",
+        "at": "01/13/2014 11:13:41",
+        "max_value": "43612.0",
+        "min_value": "-1.0",
+        "tags": [
+          "_Proc"
+        ],
+        "unit": {
+          "symbol": "PID",
+          "label": "PID",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "PROC_IF_AVM",
+        "current_value": "0",
+        "at": "01/13/2014 11:13:41",
+        "max_value": "1324600.0",
+        "min_value": "-1.0",
+        "tags": [
+          "_Proc"
+        ],
+        "unit": {
+          "symbol": "PID",
+          "label": "PID",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "PROC_MESSAGESERVICE",
+        "current_value": "1312",
+        "at": "01/13/2014 11:13:41",
+        "max_value": "21500.0",
+        "min_value": "-1.0",
+        "tags": [
+          "_Proc"
+        ],
+        "unit": {
+          "symbol": "PID",
+          "label": "PID",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "PROC_MOGPLUS",
+        "current_value": "-1",
+        "at": "01/13/2014 11:12:14",
+        "max_value": "4764.0",
+        "min_value": "-1.0",
+        "tags": [
+          "_Proc"
+        ],
+        "unit": {
+          "symbol": "PID",
+          "label": "PID",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "PROC_ROUTEPLANNAER",
+        "current_value": "0",
+        "at": "04/22/2013 14:44:22",
+        "max_value": "1168740.0",
+        "min_value": "-1.0",
+        "tags": [
+          "_Proc"
+        ],
+        "unit": {
+          "symbol": "PID",
+          "label": "PID",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "PROC_ROUTEPLANNER",
+        "current_value": "3708",
+        "at": "01/13/2014 11:13:41",
+        "max_value": "448232.0",
+        "min_value": "0.0",
+        "tags": [
+          "_Proc"
+        ],
+        "unit": {
+          "symbol": "PID",
+          "label": "PID",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "PROC_RPGENORARI",
+        "current_value": "0",
+        "at": "01/13/2014 11:13:41",
+        "max_value": "84960.0",
+        "min_value": "-1.0",
+        "tags": [
+          "_Proc"
+        ],
+        "unit": {
+          "symbol": "PID",
+          "label": "PID",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "PROC_SYSTEMMANAGER",
+        "current_value": "0",
+        "at": "01/13/2014 11:13:41",
+        "max_value": "43980.0",
+        "min_value": "-1.0",
+        "tags": [
+          "_Proc"
+        ],
+        "unit": {
+          "symbol": "PID",
+          "label": "PID",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "PROC_THUNDER",
+        "current_value": "0",
+        "at": "01/13/2014 11:13:41",
+        "max_value": "45696.0",
+        "min_value": "-1.0",
+        "tags": [
+          "_Proc"
+        ],
+        "unit": {
+          "symbol": "PID",
+          "label": "PID",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "PROC_WDENGINE",
+        "current_value": "0",
+        "at": "01/13/2014 11:13:41",
+        "max_value": "40940.0",
+        "min_value": "-1.0",
+        "tags": [
+          "_Proc"
+        ],
+        "unit": {
+          "symbol": "PID",
+          "label": "PID",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "PROC_WDWEB",
+        "current_value": "-1",
+        "at": "01/13/2014 11:14:02",
+        "max_value": "5116.0",
+        "min_value": "-1.0",
+        "tags": [
+          "_Proc"
+        ],
+        "unit": {
+          "symbol": "PID",
+          "label": "PID",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "URL_DownloadDir",
+        "current_value": "0",
+        "at": "01/13/2014 11:13:41",
+        "max_value": "16599.0",
+        "min_value": "-6624283.0",
+        "tags": [
+          "_Url"
+        ],
+        "unit": {
+          "symbol": "ms",
+          "label": "milliseconds",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "URL_Flashnet",
+        "current_value": "-1",
+        "at": "01/13/2014 11:13:27",
+        "max_value": "16380.0",
+        "min_value": "-6619697.0",
+        "tags": [
+          "_Url"
+        ],
+        "unit": {
+          "symbol": "ms",
+          "label": "milliseconds",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "URL_ForecastService",
+        "current_value": "-1",
+        "at": "01/13/2014 11:14:04",
+        "max_value": "20904.0",
+        "min_value": "-6617403.0",
+        "tags": [
+          "_Url"
+        ],
+        "unit": {
+          "symbol": "ms",
+          "label": "milliseconds",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "URL_Infotransit",
+        "current_value": "-1",
+        "at": "01/13/2014 11:14:09",
+        "max_value": "16053.0",
+        "min_value": "-6626576.0",
+        "tags": [
+          "_Url"
+        ],
+        "unit": {
+          "symbol": "ms",
+          "label": "milliseconds",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "URL_MpkMapsTile",
+        "current_value": "0",
+        "at": "01/13/2014 11:14:04",
+        "max_value": "16396.0",
+        "min_value": "-6621927.0",
+        "tags": [
+          "_Url"
+        ],
+        "unit": {
+          "symbol": "ms",
+          "label": "milliseconds",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "WS_FrService",
+        "current_value": "-1",
+        "at": "01/13/2014 11:14:06",
+        "max_value": "158947.0",
+        "min_value": "-6554750.0",
+        "tags": [
+          "_WebService"
+        ],
+        "unit": {
+          "symbol": "ms",
+          "label": "milliseconds",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "WS_MogGateway",
+        "current_value": "-1",
+        "at": "01/13/2014 11:14:04",
+        "max_value": "16396.0",
+        "min_value": "-6563112.0",
+        "tags": [
+          "_WebService"
+        ],
+        "unit": {
+          "symbol": "ms",
+          "label": "milliseconds",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "WS_MPK",
+        "current_value": "172",
+        "at": "01/13/2014 11:13:58",
+        "max_value": "23805.0",
+        "min_value": "-1.0",
+        "tags": [
+          "_WebService"
+        ],
+        "unit": {
+          "symbol": "ms",
+          "label": "milliseconds",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "WS_SIRI_SM",
+        "current_value": "-1",
+        "at": "01/13/2014 11:13:45",
+        "max_value": "9142.0",
+        "min_value": "-1.0",
+        "tags": [
+          "_WebService"
+        ],
+        "unit": {
+          "symbol": "ms",
+          "label": "milliseconds",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "WS_SIRI_SX",
+        "current_value": "-1",
+        "at": "01/13/2014 11:13:03",
+        "max_value": "27269.0",
+        "min_value": "-1.0",
+        "tags": [
+          "_WebService"
+        ],
+        "unit": {
+          "symbol": "ms",
+          "label": "milliseconds",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "WS_SIRI_VM",
+        "current_value": "-1",
+        "at": "01/13/2014 11:14:06",
+        "max_value": "21029.0",
+        "min_value": "-1.0",
+        "tags": [
+          "_WebService"
+        ],
+        "unit": {
+          "symbol": "ms",
+          "label": "milliseconds",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/119653\" >SystemMonitor Metronit - IPI centre</a>",
+    "URLMostrar": "https://xively.com/feeds/119653"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\119653.json",
+  "DocumentJSON": null
+}

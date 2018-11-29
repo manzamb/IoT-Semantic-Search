@@ -1,0 +1,166 @@
+{
+  "Conceptos": [
+    "precipitation"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "83101",
+    "title": "Local Weather",
+    "Private": false,
+    "tags": [
+      "weather"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/83101.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/19/2013 07:18:08",
+    "created": "10/30/2012 02:31:38",
+    "creator": "https://xively.com/users/bobrich",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "36.3",
+        "at": "03/19/2013 07:18:08",
+        "max_value": "69.6",
+        "min_value": "12.6",
+        "tags": [
+          "Outdoor Temperature"
+        ],
+        "unit": {
+          "symbol": "°",
+          "label": "F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "36",
+        "at": "03/19/2013 07:18:08",
+        "max_value": "50.0",
+        "min_value": "-1.0",
+        "tags": [
+          "Windchill"
+        ],
+        "unit": {
+          "symbol": "°",
+          "label": "F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "0.7",
+        "at": "03/19/2013 07:18:08",
+        "max_value": "47.4",
+        "min_value": "0.0",
+        "tags": [
+          "Wind Speed"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "MPH",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "1.6",
+        "at": "03/19/2013 07:18:08",
+        "max_value": "57.7",
+        "min_value": "0.0",
+        "tags": [
+          "Wind Gust"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "MPH",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "29.78",
+        "at": "03/19/2013 07:18:08",
+        "max_value": "30.58",
+        "min_value": "29.39",
+        "tags": [
+          "Barometric Pressure"
+        ],
+        "unit": {
+          "symbol": "\"",
+          "label": "Inches",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "74%",
+        "at": "03/19/2013 07:18:08",
+        "max_value": "100.0",
+        "min_value": "24.0",
+        "tags": [
+          "Relative Humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "0.00",
+        "at": "03/19/2013 07:18:08",
+        "max_value": "0.38",
+        "min_value": "-9999.0",
+        "tags": [
+          "Precipitation (1hr)"
+        ],
+        "unit": {
+          "symbol": "\"",
+          "label": "Inches",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "7",
+        "current_value": "0.00",
+        "at": "03/19/2013 07:18:08",
+        "max_value": "0.7",
+        "min_value": "-9999.0",
+        "tags": [
+          "Precipitation (today)"
+        ],
+        "unit": {
+          "symbol": "\"",
+          "label": "Inches",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "40.2292181887012",
+      "lon": "-83.2763671875",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/83101\" >Local Weather</a>",
+    "URLMostrar": "https://xively.com/feeds/83101"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\83101.json",
+  "DocumentJSON": null
+}

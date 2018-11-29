@@ -1,0 +1,111 @@
+{
+  "Conceptos": [
+    "description"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "1540317103",
+    "title": "Weather",
+    "Private": false,
+    "tags": [
+      "energy",
+      "energy2"
+    ],
+    "description": "Weather description",
+    "feed": "https://api.xively.com/v2/feeds/1540317103.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "06/18/2013 11:19:50",
+    "created": "05/29/2013 10:16:26",
+    "creator": "https://xively.com/users/demo_user_account",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "asdf",
+        "current_value": "3",
+        "at": "06/06/2013 14:59:54",
+        "max_value": "3.0",
+        "min_value": "3.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "asdf5",
+        "current_value": null,
+        "at": "06/06/2013 15:04:54",
+        "max_value": null,
+        "min_value": null,
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Baz",
+        "current_value": "54",
+        "at": "06/07/2013 12:22:13",
+        "max_value": "54.0",
+        "min_value": "54.0",
+        "tags": [
+          "energy"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Humidity",
+        "current_value": null,
+        "at": "05/29/2013 10:20:36",
+        "max_value": null,
+        "min_value": null,
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "test",
+        "current_value": "500",
+        "at": "06/06/2013 14:43:00",
+        "max_value": "500.0",
+        "min_value": "500.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "Ham",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Field",
+      "domain": 0,
+      "lat": "51.5112139",
+      "lon": "-0.11982439999997",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/1540317103\" >Weather</a>",
+    "URLMostrar": "https://xively.com/feeds/1540317103"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\1540317103.json",
+  "DocumentJSON": null
+}

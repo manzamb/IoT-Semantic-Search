@@ -1,0 +1,119 @@
+{
+  "Conceptos": [
+    "atmospheric pressure"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "98770",
+    "title": "EnviroBox",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "Environmental metrics"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/98770.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:09:43",
+    "created": "01/19/2013 06:22:17",
+    "creator": "https://xively.com/users/futureshocked",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "alti",
+        "current_value": "178.02",
+        "at": "03/21/2014 14:09:43",
+        "max_value": "374.15",
+        "min_value": "0.0",
+        "tags": [
+          "Altitude"
+        ],
+        "unit": {
+          "symbol": "m",
+          "label": "Meters",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "humi",
+        "current_value": "67.00",
+        "at": "03/21/2014 14:09:43",
+        "max_value": "78.0",
+        "min_value": "25.4",
+        "tags": [
+          "humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "lumi",
+        "current_value": "508",
+        "at": "03/21/2014 14:09:43",
+        "max_value": "967.0",
+        "min_value": "506.0",
+        "tags": [
+          "luminosity"
+        ],
+        "unit": {
+          "symbol": "units",
+          "label": "U",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "pres",
+        "current_value": "991.00",
+        "at": "03/21/2014 14:09:43",
+        "max_value": "1008.0",
+        "min_value": "0.0",
+        "tags": [
+          "Atmospheric pressure"
+        ],
+        "unit": {
+          "symbol": "kPa",
+          "label": "kPa",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temp",
+        "current_value": "25.30",
+        "at": "03/21/2014 14:09:43",
+        "max_value": "31.6",
+        "min_value": "13.4",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "-33.6306288953956",
+      "lon": "151.138916015625",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/98770\" >EnviroBox</a>",
+    "URLMostrar": "https://xively.com/feeds/98770"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\98770.json",
+  "DocumentJSON": null
+}

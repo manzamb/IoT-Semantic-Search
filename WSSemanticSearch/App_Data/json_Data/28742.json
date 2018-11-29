@@ -1,0 +1,52 @@
+{
+  "Conceptos": [
+    "surface"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "28742",
+    "title": "Temperature",
+    "Private": false,
+    "tags": null,
+    "description": "First feed. I'm taking the temperature of the surface of my window for 24h.\r\nI live south west of Mexico City.",
+    "feed": "https://api.xively.com/v2/feeds/28742.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "06/24/2011 17:58:00",
+    "created": "06/24/2011 16:58:24",
+    "creator": "https://xively.com/users/barri",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "temperature",
+        "current_value": null,
+        "at": "06/24/2011 17:58:00",
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "C°",
+          "label": "Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "cerrada Tlacojalpan, barrio de San Francisco, Magdalena Contreras, México D.F.",
+      "domain": 0,
+      "lat": "19.3109712266453",
+      "lon": "-99.237334728241",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/28742\" >Temperature</a>",
+    "URLMostrar": "https://xively.com/feeds/28742"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\28742.json",
+  "DocumentJSON": null
+}

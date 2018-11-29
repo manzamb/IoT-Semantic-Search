@@ -1,0 +1,212 @@
+{
+  "Conceptos": [
+    "azione"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "755637586",
+    "title": "Impianto FV Taranta 988,38 kWp",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/755637586.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "01/12/2014 06:23:55",
+    "created": "12/02/2013 14:57:31",
+    "creator": "https://xively.com/users/impiantifv",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "DeltaEgiorno",
+        "current_value": "-1630.33",
+        "at": "01/12/2014 06:23:55",
+        "max_value": "1832.62722656483",
+        "min_value": "-1630.33",
+        "tags": [
+          "Differenza Energia Giorno"
+        ],
+        "unit": {
+          "symbol": "kWh",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "DeltaEmese",
+        "current_value": "-29617.512578125003",
+        "at": "01/12/2014 06:22:54",
+        "max_value": "19454.298359375",
+        "min_value": "-45920.1248828125",
+        "tags": [
+          "Differenza Energia Mese"
+        ],
+        "unit": {
+          "symbol": "kWh",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Emese",
+        "current_value": "20922.607421875",
+        "at": "01/12/2014 06:23:32",
+        "max_value": "67212.5244140625",
+        "min_value": "4619.9951171875",
+        "tags": [
+          "Energia Prodotta Mese"
+        ],
+        "unit": {
+          "symbol": "kWh",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Eoggi",
+        "current_value": "0.0",
+        "at": "01/12/2014 06:23:33",
+        "max_value": "3037.47558593517",
+        "min_value": "0.0",
+        "tags": [
+          "Energia Prodotta Oggi"
+        ],
+        "unit": {
+          "symbol": "kWh",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "FaultInv1",
+        "current_value": "0.0",
+        "at": "01/12/2014 06:22:55",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "Codice Errore Inverter 1"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "FaultInv2",
+        "current_value": "0.0",
+        "at": "01/12/2014 06:23:32",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "Codice Errore Inverter 2"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Irr",
+        "current_value": "1.0",
+        "at": "01/12/2014 06:23:33",
+        "max_value": "723.0",
+        "min_value": "0.0",
+        "tags": [
+          "Irraggiamento"
+        ],
+        "unit": {
+          "symbol": "W/m²",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Pac",
+        "current_value": "0.0",
+        "at": "01/12/2014 06:23:34",
+        "max_value": "659.9",
+        "min_value": "0.0",
+        "tags": [
+          "Potenza Istantanea Immessa in Rete"
+        ],
+        "unit": {
+          "symbol": "kW",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "PRoggi",
+        "current_value": "0.0",
+        "at": "01/12/2014 06:23:55",
+        "max_value": "99.1706205708557",
+        "min_value": "0.0",
+        "tags": [
+          "Prestazione Oggi"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "RadMese",
+        "current_value": "32.7667",
+        "at": "01/12/2014 06:23:34",
+        "max_value": "85.8771333333333",
+        "min_value": "0.499466666666667",
+        "tags": [
+          "Radiazione Mese"
+        ],
+        "unit": {
+          "symbol": "kWh/m²",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "RadOggi",
+        "current_value": "6.5E-4",
+        "at": "01/12/2014 06:22:55",
+        "max_value": "3.89785",
+        "min_value": "0.0",
+        "tags": [
+          "Radiazione Oggi"
+        ],
+        "unit": {
+          "symbol": "kWh/m²",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Loc. Feudo - Taranta Peligna (CH)",
+      "domain": 0,
+      "lat": "42.006586",
+      "lon": "14.177175",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/755637586\" >Impianto FV Taranta 988,38 kWp</a>",
+    "URLMostrar": "https://xively.com/feeds/755637586"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\755637586.json",
+  "DocumentJSON": null
+}

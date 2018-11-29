@@ -1,0 +1,64 @@
+{
+  "Conceptos": [
+    "classification"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "1804154852",
+    "title": "Yaba Transport Prossess",
+    "Private": false,
+    "tags": null,
+    "description": "The device captures in real-time the vehicle classification and speed of a passing vehicle. Vehicle classification refers to the type of cars. E.g. Sedans, Lorries, etc. Vehicle speed is also captured and stored for each individual cars.",
+    "feed": "https://api.xively.com/v2/feeds/1804154852.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "08/09/2013 22:48:10",
+    "created": "08/05/2013 09:04:23",
+    "creator": "https://xively.com/users/spacely",
+    "version": null,
+    "website": "http://www.prossess.com",
+    "datastreams": [
+      {
+        "id": "Classification",
+        "current_value": "40.0",
+        "at": "08/05/2013 13:35:38",
+        "max_value": "62.0",
+        "min_value": "38.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Speed",
+        "current_value": "4.75",
+        "at": "08/05/2013 13:35:38",
+        "max_value": "183.33",
+        "min_value": "-24.69",
+        "tags": null,
+        "unit": {
+          "symbol": "KPH",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "6.5051",
+      "lon": "3.37805",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/1804154852\" >Yaba Transport Prossess</a>",
+    "URLMostrar": "https://xively.com/feeds/1804154852"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\1804154852.json",
+  "DocumentJSON": null
+}

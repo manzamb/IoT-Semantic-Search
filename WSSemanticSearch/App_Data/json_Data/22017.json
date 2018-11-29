@@ -1,0 +1,56 @@
+{
+  "Conceptos": [
+    "radioactivity"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "22017",
+    "title": "Kyoto city, Kyoto",
+    "Private": false,
+    "tags": [
+      "sensor:type=radiation"
+    ],
+    "description": "Original: http://www.mext.go.jp/english/radioactivity_level/detail/1304080.htm\r\n\r\nSource data: http://oku.edu.mie-u.ac.jp/~okumura/stat/data/\r\n\r\nIt's unofficial and may be stopped by any reason. Use it at your own risk. Data will belong to original site.",
+    "feed": "https://api.xively.com/v2/feeds/22017.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "04/05/2011 12:45:38",
+    "created": "04/05/2011 12:42:44",
+    "creator": "https://xively.com/users/kotobuki",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "0.039",
+        "at": "10/30/2011 23:00:00",
+        "max_value": "0.066",
+        "min_value": "0.036",
+        "tags": [
+          "Radiation dose rate",
+          "sensor:usual_max=0.087",
+          "sensor:usual_min=0.033"
+        ],
+        "unit": {
+          "symbol": "µSv/h",
+          "label": "microsieverts/hour",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Kyoto city, Kyoto, Japan",
+      "domain": 0,
+      "lat": "35.0115451044304",
+      "lon": "135.768013000488",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/22017\" >Kyoto city, Kyoto</a>",
+    "URLMostrar": "https://xively.com/feeds/22017"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\22017.json",
+  "DocumentJSON": null
+}

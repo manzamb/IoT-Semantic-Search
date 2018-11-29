@@ -1,0 +1,109 @@
+{
+  "Conceptos": [
+    "system"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "19440",
+    "title": "\"Imp Barn\" Home Heating System",
+    "Private": false,
+    "tags": [
+      "Air",
+      "Boiler",
+      "Cly",
+      "Fireplace",
+      "Outside",
+      "Pennsylvania",
+      "Temperature",
+      "Water"
+    ],
+    "description": "Home Heating System\r\nnear Cly, PA.\r\n(Sensors are T-type thermocouples)",
+    "feed": "https://api.xively.com/v2/feeds/19440.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:13:39",
+    "created": "02/22/2011 13:42:06",
+    "creator": "https://xively.com/users/impbarn",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "41.69999694824219",
+        "at": "03/21/2014 14:13:39",
+        "max_value": "752.0",
+        "min_value": "-1.79999995231628",
+        "tags": [
+          "Outside Air Temperature"
+        ],
+        "unit": {
+          "symbol": "°F",
+          "label": "°F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "19.35832977294922",
+        "at": "03/21/2014 04:58:09",
+        "max_value": "55.8291664123535",
+        "min_value": "-19.3937473297119",
+        "tags": [
+          "Degree Days"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "ddays",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "157.29998779296875",
+        "at": "03/21/2014 14:13:38",
+        "max_value": "185.299987792969",
+        "min_value": "0.0",
+        "tags": [
+          "Oil Boiler Water Temperature"
+        ],
+        "unit": {
+          "symbol": "°F",
+          "label": "°F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "57.0",
+        "at": "03/21/2014 14:13:39",
+        "max_value": "752.099975585938",
+        "min_value": "0.0",
+        "tags": [
+          "Fireplace Temperature"
+        ],
+        "unit": {
+          "symbol": "°F",
+          "label": "°F",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Imp Barn",
+      "domain": 0,
+      "lat": "40.13200962566",
+      "lon": "-76.7408967018127",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/19440\" >\"Imp Barn\" Home Heating System</a>",
+    "URLMostrar": "https://xively.com/feeds/19440"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\19440.json",
+  "DocumentJSON": null
+}

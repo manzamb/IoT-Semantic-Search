@@ -1,0 +1,104 @@
+{
+  "Conceptos": [
+    "process"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "78219",
+    "title": "Raspberry Pi Sensor Values",
+    "Private": false,
+    "tags": [
+      "1 - 10",
+      "arduino",
+      "Random values"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/78219.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "05/30/2013 21:22:26",
+    "created": "10/01/2012 19:23:15",
+    "creator": "https://xively.com/users/raspberry_cosm",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "9",
+        "at": "05/30/2013 21:22:26",
+        "max_value": "254.0",
+        "min_value": "0.0",
+        "tags": [
+          "Light level"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "40",
+        "at": "05/30/2013 21:22:26",
+        "max_value": "51.0",
+        "min_value": "0.0",
+        "tags": [
+          "Temperature Sensor"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": null,
+        "at": null,
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "Processor Temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celcuis",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": null,
+        "at": null,
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "Light Level"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Brightness",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Monitoring station",
+      "domain": 0,
+      "lat": "50.77272",
+      "lon": "-3.25761999999997",
+      "ele": "67",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/78219\" >Raspberry Pi Sensor Values</a>",
+    "URLMostrar": "https://xively.com/feeds/78219"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\78219.json",
+  "DocumentJSON": null
+}

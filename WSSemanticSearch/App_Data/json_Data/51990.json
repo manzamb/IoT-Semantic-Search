@@ -1,0 +1,112 @@
+{
+  "Conceptos": [
+    "precipitation"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "51990",
+    "title": "ISPMOGID2",
+    "Private": false,
+    "tags": [
+      "Dewpoint",
+      "Humidity",
+      "Precipitation",
+      "Temperature",
+      "Wind"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/51990.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:10:03",
+    "created": "03/15/2012 04:35:39",
+    "creator": "https://xively.com/users/mastria",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "dewpoint_c",
+        "current_value": "31.2",
+        "at": "03/21/2014 14:10:02",
+        "max_value": "39.3",
+        "min_value": "-27.3",
+        "tags": null,
+        "unit": {
+          "symbol": "C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "precip_1hr_metric",
+        "current_value": "0.0",
+        "at": "03/21/2014 14:10:02",
+        "max_value": "6.6",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "mm",
+          "label": "Milimeters",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "relative_humidity",
+        "current_value": "90",
+        "at": "03/21/2014 14:10:02",
+        "max_value": "99.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "%RU",
+          "label": "RU",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temp_c",
+        "current_value": "33.1",
+        "at": "03/21/2014 14:10:02",
+        "max_value": "39.4",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "wind_degress",
+        "current_value": "135",
+        "at": "03/21/2014 14:10:02",
+        "max_value": "360.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "DEG",
+          "label": "Degress",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Aruã Lagos II - Mogi das Cruzes - SP - Brasil",
+      "domain": 0,
+      "lat": "-23.4636990503293",
+      "lon": "-46.2701010704041",
+      "ele": "752",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/51990\" >ISPMOGID2</a>",
+    "URLMostrar": "https://xively.com/feeds/51990"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\51990.json",
+  "DocumentJSON": null
+}

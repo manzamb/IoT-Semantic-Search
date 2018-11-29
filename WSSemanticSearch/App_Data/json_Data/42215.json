@@ -1,0 +1,94 @@
+{
+  "Conceptos": [
+    "thermistor"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "42215",
+    "title": "Home Stuff",
+    "Private": false,
+    "tags": [
+      "home temperature light motion"
+    ],
+    "description": "Experiments related to home sensors\r\n\r\nPython script to communicate w/ Pachube runs on a 5W SheevaPlug plug server.\r\n\r\nIt in turn communicates w/ an Arduino reporting DAC readings (0-1024) of light ('high' is 'dark'), temperature (not very exciting since it's inside and the thermistor is a crappy temp monitor) and motion (motions detected = 1. Value = how many 1s in 10 seconds divided by 10).\r\n\r\nSamples are taken every second, averaged and reported every 10 seconds.\r\n\r\nAs of 1/14/12, I am reporting from a station with an ATTiny85 taking and sending readings.\r\n\r\nThe only expensive components are the PIR sensor (about $12) and the FTDI adapter (about $15). The $30 Arduino is now replaced with a $2 chip!\r\n\r\nFuture plans: Report some kind of units. Report more interesting things. Set up over at Bloominglabs.",
+    "feed": "https://api.xively.com/v2/feeds/42215.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/31/2013 16:36:24",
+    "created": "12/18/2011 23:03:28",
+    "creator": "https://xively.com/users/mistasteve",
+    "version": null,
+    "website": "http://bloominglabs.org",
+    "datastreams": [
+      {
+        "id": "Comcast",
+        "current_value": "1",
+        "at": "03/31/2013 16:36:24",
+        "max_value": "1.0",
+        "min_value": "1.0",
+        "tags": null,
+        "unit": {
+          "symbol": "ON",
+          "label": "On/Off",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Light",
+        "current_value": "984.4",
+        "at": "07/03/2012 03:10:28",
+        "max_value": "692367.2",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "DAC",
+          "label": "Arduino DAC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Motion",
+        "current_value": "0.0",
+        "at": "07/03/2012 03:10:28",
+        "max_value": "700.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "ON",
+          "label": "On/Off",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperature",
+        "current_value": "865.0",
+        "at": "12/28/2011 23:32:42",
+        "max_value": "866.0",
+        "min_value": "2.0",
+        "tags": null,
+        "unit": {
+          "symbol": "DAC",
+          "label": "Arduino DAC",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "SDC",
+      "domain": 0,
+      "lat": "39.1240677702771",
+      "lon": "-86.513557434082",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/42215\" >Home Stuff</a>",
+    "URLMostrar": "https://xively.com/feeds/42215"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\42215.json",
+  "DocumentJSON": null
+}

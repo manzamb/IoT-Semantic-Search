@@ -1,0 +1,68 @@
+{
+  "Conceptos": [
+    "group"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "93794",
+    "title": "sensor3",
+    "Private": false,
+    "tags": [
+      "awesome",
+      "group",
+      "sensor3"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/93794.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "12/20/2012 12:51:57",
+    "created": "12/20/2012 12:46:48",
+    "creator": "https://xively.com/users/groupawasome",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "battery",
+        "current_value": "32",
+        "at": "12/20/2012 13:53:44",
+        "max_value": "50.0",
+        "min_value": "2.0",
+        "tags": null,
+        "unit": {
+          "symbol": "%",
+          "label": "kW",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temp",
+        "current_value": "23",
+        "at": "12/20/2012 13:53:44",
+        "max_value": "24.0",
+        "min_value": "22.0",
+        "tags": null,
+        "unit": {
+          "symbol": "°C",
+          "label": "degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/93794\" >sensor3</a>",
+    "URLMostrar": "https://xively.com/feeds/93794"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\93794.json",
+  "DocumentJSON": null
+}

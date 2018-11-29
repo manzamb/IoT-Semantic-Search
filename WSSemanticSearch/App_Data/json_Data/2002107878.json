@@ -1,0 +1,96 @@
+{
+  "Conceptos": [
+    "humidity"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "2002107878",
+    "title": "Living Room",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/2002107878.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:07:08",
+    "created": "10/31/2013 18:51:40",
+    "creator": "https://xively.com/users/supplylink",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "darkness",
+        "current_value": "673.00",
+        "at": "03/21/2014 14:07:08",
+        "max_value": "1023.0",
+        "min_value": "251.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "humidity",
+        "current_value": "51.70",
+        "at": "03/21/2014 14:07:08",
+        "max_value": "77.1",
+        "min_value": "0.0",
+        "tags": [
+          "humidity in lounge"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "RH",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temperature",
+        "current_value": "23.80",
+        "at": "03/21/2014 14:07:08",
+        "max_value": "41.9",
+        "min_value": "0.0",
+        "tags": [
+          "temperature in lounge"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Degrees Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temperature_reading",
+        "current_value": null,
+        "at": null,
+        "max_value": null,
+        "min_value": null,
+        "tags": null,
+        "unit": {
+          "symbol": "C",
+          "label": "Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/2002107878\" >Living Room</a>",
+    "URLMostrar": "https://xively.com/feeds/2002107878"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\2002107878.json",
+  "DocumentJSON": null
+}

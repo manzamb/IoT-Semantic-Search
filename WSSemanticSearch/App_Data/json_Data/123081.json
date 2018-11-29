@@ -1,0 +1,102 @@
+{
+  "Conceptos": [
+    "moisture"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "123081",
+    "title": "moxus room sensors",
+    "Private": false,
+    "tags": [
+      "room bio"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/123081.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "06/10/2013 23:47:38",
+    "created": "04/07/2013 04:36:55",
+    "creator": "https://xively.com/users/moxuse",
+    "version": null,
+    "website": "http://moxus.org",
+    "datastreams": [
+      {
+        "id": "CdS",
+        "current_value": "1.13",
+        "at": "06/10/2013 23:47:38",
+        "max_value": "2.34",
+        "min_value": "0.53",
+        "tags": [
+          "CdS"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": "Volt",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "plant_moisture",
+        "current_value": "0.00",
+        "at": "06/10/2013 23:47:38",
+        "max_value": "55.3",
+        "min_value": "0.0",
+        "tags": [
+          "moisture"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "Persent",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "solar_cell_voltage",
+        "current_value": "2.08",
+        "at": "06/10/2013 23:47:38",
+        "max_value": "3.13",
+        "min_value": "1.87",
+        "tags": [
+          "solar"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": "Volt",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temperature",
+        "current_value": "27.14",
+        "at": "06/10/2013 23:47:38",
+        "max_value": "31.54",
+        "min_value": "15.91",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "℃",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "35.8416818729936",
+      "lon": "139.38399553299",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/123081\" >moxus room sensors</a>",
+    "URLMostrar": "https://xively.com/feeds/123081"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\123081.json",
+  "DocumentJSON": null
+}

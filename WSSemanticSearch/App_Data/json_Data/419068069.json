@@ -1,0 +1,213 @@
+{
+  "Conceptos": [
+    "thermistor"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "419068069",
+    "title": "RPi Building Monitor",
+    "Private": false,
+    "tags": null,
+    "description": "620 Spyglass Ln, 50263",
+    "feed": "https://api.xively.com/v2/feeds/419068069.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "10/21/2013 23:12:05",
+    "created": "08/19/2013 15:44:09",
+    "creator": "https://xively.com/users/yssrpi",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "24VsenseRackA",
+        "current_value": "1.64",
+        "at": "10/21/2013 23:10:00",
+        "max_value": "8.46",
+        "min_value": "0.0",
+        "tags": [
+          "24V sense Rack A",
+          "Isolated Voltage Sense",
+          "Signal_ID-18",
+          "Signal_type-adc"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": "V",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "days_since_reboot",
+        "current_value": "26",
+        "at": "10/21/2013 23:12:04",
+        "max_value": "26.0",
+        "min_value": "0.0",
+        "tags": [
+          "System Info"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Dry_Concat_Main_PWR",
+        "current_value": "1",
+        "at": "10/03/2013 00:07:00",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "Dry Contact",
+          "Dry_Concat_Main_PWR",
+          "Signal_ID-20",
+          "Signal_type-adc"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "MainCurrentSense",
+        "current_value": "0.0",
+        "at": "10/21/2013 23:10:00",
+        "max_value": "30.6",
+        "min_value": "0.0",
+        "tags": [
+          "Analog 0-5V",
+          "Main Current Sense",
+          "Signal_ID-21",
+          "Signal_type-adc"
+        ],
+        "unit": {
+          "symbol": "A",
+          "label": "A",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Room_Humidity",
+        "current_value": "38.3",
+        "at": "10/21/2013 23:10:00",
+        "max_value": "73.2",
+        "min_value": "0.0",
+        "tags": [
+          "DHT Humidity",
+          "Signal_ID-31",
+          "Signal_type-dht",
+          "Temp & Humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Room_Temp",
+        "current_value": "72.9",
+        "at": "10/21/2013 23:10:00",
+        "max_value": "82.0",
+        "min_value": "0.0",
+        "tags": [
+          "DHT Temp",
+          "Room Temp",
+          "Signal_ID-29",
+          "Signal_type-dht"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "server_load",
+        "current_value": "2.17",
+        "at": "10/21/2013 23:12:04",
+        "max_value": "6.59",
+        "min_value": "0.04",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "system_disk_use",
+        "current_value": "25",
+        "at": "10/21/2013 23:12:04",
+        "max_value": "25.0",
+        "min_value": "23.0",
+        "tags": null,
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Therm_2",
+        "current_value": "694.8",
+        "at": "10/21/2013 23:10:00",
+        "max_value": "803.1",
+        "min_value": "-459.4",
+        "tags": [
+          "Signal_ID-33",
+          "Signal_type-adc",
+          "Therm_2",
+          "Thermistor"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Thermistor_Main_Room",
+        "current_value": "793.5",
+        "at": "10/21/2013 23:10:00",
+        "max_value": "820.1",
+        "min_value": "-459.4",
+        "tags": [
+          "Main Room",
+          "Signal_ID-17",
+          "Signal_type-adc",
+          "Thermistor"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/419068069\" >RPi Building Monitor</a>",
+    "URLMostrar": "https://xively.com/feeds/419068069"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\419068069.json",
+  "DocumentJSON": null
+}

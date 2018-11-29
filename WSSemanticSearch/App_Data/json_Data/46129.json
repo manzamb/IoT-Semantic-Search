@@ -1,0 +1,54 @@
+{
+  "Conceptos": [
+    "condition"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "46129",
+    "title": "Weather Conditions",
+    "Private": false,
+    "tags": [
+      "temperature"
+    ],
+    "description": "Weather conditions in back yard. Currently just temperature.",
+    "feed": "https://api.xively.com/v2/feeds/46129.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "10/08/2012 00:23:02",
+    "created": "01/28/2012 14:45:09",
+    "creator": "https://xively.com/users/wkorfhage",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "temperature",
+        "current_value": null,
+        "at": "10/08/2012 00:23:02",
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "T",
+          "label": "degrees C",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "River Forest, IL",
+      "domain": 0,
+      "lat": "41.882346",
+      "lon": "-87.823234",
+      "ele": "192.6",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/46129\" >Weather Conditions</a>",
+    "URLMostrar": "https://xively.com/feeds/46129"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\46129.json",
+  "DocumentJSON": null
+}

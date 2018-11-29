@@ -1,0 +1,112 @@
+{
+  "Conceptos": [
+    "pst"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "75011",
+    "title": "Energy Meter",
+    "Private": false,
+    "tags": [
+      "Energy",
+      "Gas",
+      "Kamilleweerd 40",
+      "Kampstrup",
+      "Zonnepanelen"
+    ],
+    "description": "Energy usage of Kamilleweerd 40",
+    "feed": "https://api.xively.com/v2/feeds/75011.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:12:04",
+    "created": "09/11/2012 19:59:16",
+    "creator": "https://xively.com/users/tomlatten",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Gebruik_Gas",
+        "current_value": "0.142",
+        "at": "03/21/2014 14:01:04",
+        "max_value": "2683.24",
+        "min_value": "-2683.24",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "m^3",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Geleverd_vermogen",
+        "current_value": "0000.00",
+        "at": "03/21/2014 14:12:04",
+        "max_value": "2.19",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "kW",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Opgenomen_vermogen",
+        "current_value": "0000.21",
+        "at": "03/21/2014 14:12:04",
+        "max_value": "8.66",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "kW",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Totaal_Gas",
+        "current_value": "03758.313",
+        "at": "03/21/2014 14:01:04",
+        "max_value": "3758.313",
+        "min_value": "1189.125",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "m^3",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "TotalkWh",
+        "current_value": "8570",
+        "at": "03/21/2014 14:12:04",
+        "max_value": "8570.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "kWh",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Kamilleweerd 40, Maastricht",
+      "domain": 0,
+      "lat": "50.8287737656193",
+      "lon": "5.7092696428299",
+      "ele": "56,6m NAP",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/75011\" >Energy Meter</a>",
+    "URLMostrar": "https://xively.com/feeds/75011"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\75011.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,105 @@
+{
+  "Conceptos": [
+    "pst"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "104053",
+    "title": "tmp36",
+    "Private": false,
+    "tags": [
+      "Arduino",
+      "project=tmp36",
+      "Real Studio",
+      "temperature"
+    ],
+    "description": "House Temperature",
+    "feed": "https://api.xively.com/v2/feeds/104053.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:04:53",
+    "created": "02/12/2013 05:40:20",
+    "creator": "https://xively.com/users/globoy",
+    "version": null,
+    "website": "http://www.danjuliodesigns.com",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "15",
+        "at": "03/21/2014 14:04:52",
+        "max_value": "100.0",
+        "min_value": "-40.0",
+        "tags": [
+          "Outside"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "Fahrenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "59",
+        "at": "03/21/2014 14:04:52",
+        "max_value": "100.0",
+        "min_value": "-40.0",
+        "tags": [
+          "Upstairs"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "Fahrenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "48",
+        "at": "03/21/2014 14:04:52",
+        "max_value": "100.0",
+        "min_value": "-40.0",
+        "tags": [
+          "Garage"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "Fahrenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "57",
+        "at": "03/21/2014 14:04:52",
+        "max_value": "100.0",
+        "min_value": "-40.0",
+        "tags": [
+          "Downstairs"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "Fahrenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Padre's Casa",
+      "domain": 0,
+      "lat": "38.5443894382156",
+      "lon": "-106.926927566528",
+      "ele": "2300",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/104053\" >tmp36</a>",
+    "URLMostrar": "https://xively.com/feeds/104053"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\104053.json",
+  "DocumentJSON": null
+}

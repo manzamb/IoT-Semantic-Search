@@ -1,0 +1,81 @@
+{
+  "Conceptos": [
+    "man"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "283020846",
+    "title": "Arduino",
+    "Private": false,
+    "tags": [
+      "Fermenator",
+      "Tempature"
+    ],
+    "description": "Arduino fridge temp.",
+    "feed": "https://api.xively.com/v2/feeds/283020846.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:13:21",
+    "created": "07/09/2013 00:36:47",
+    "creator": "https://xively.com/users/airiedemann",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "BlackWire",
+        "current_value": "48.88",
+        "at": "03/21/2014 14:13:21",
+        "max_value": "67.55",
+        "min_value": "-196.6",
+        "tags": null,
+        "unit": {
+          "symbol": "F",
+          "label": "°",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "BlueWire",
+        "current_value": "48.65",
+        "at": "03/21/2014 14:13:21",
+        "max_value": "78.57",
+        "min_value": "-196.6",
+        "tags": null,
+        "unit": {
+          "symbol": "F",
+          "label": "°",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Cat5-BlueWire",
+        "current_value": "-196.60",
+        "at": "03/21/2014 14:13:21",
+        "max_value": "89.04",
+        "min_value": "-196.6",
+        "tags": null,
+        "unit": {
+          "symbol": "F",
+          "label": "°",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/283020846\" >Arduino</a>",
+    "URLMostrar": "https://xively.com/feeds/283020846"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\283020846.json",
+  "DocumentJSON": null
+}

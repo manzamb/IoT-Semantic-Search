@@ -1,0 +1,100 @@
+{
+  "Conceptos": [
+    "wind"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "4047",
+    "title": "NOAA Current weather for",
+    "Private": false,
+    "tags": null,
+    "description": "Example of NOAA feed from ICAO coded stations in the US",
+    "feed": "https://api.xively.com/v2/feeds/4047.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/10/2014 16:23:33",
+    "created": "12/26/2009 16:10:29",
+    "creator": "https://xively.com/users/kitwallace",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "1",
+        "current_value": "10",
+        "at": "03/10/2014 16:23:31",
+        "max_value": "911.0",
+        "min_value": "0.0",
+        "tags": [
+          "Average Wind speed"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "kts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "240",
+        "at": "03/10/2014 16:23:31",
+        "max_value": "999.0",
+        "min_value": "0.0",
+        "tags": [
+          "Wind Direction"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "8.3",
+        "at": "03/10/2014 16:23:31",
+        "max_value": "42.2",
+        "min_value": "-14.4",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "1009.6",
+        "at": "03/10/2014 16:23:31",
+        "max_value": "1041.9",
+        "min_value": "0.0",
+        "tags": [
+          "Barometric Pressure"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "hPA",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Newark International Airport, NJ",
+      "domain": 0,
+      "lat": "40.71",
+      "lon": "-74.17",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/4047\" >NOAA Current weather for</a>",
+    "URLMostrar": "https://xively.com/feeds/4047"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\4047.json",
+  "DocumentJSON": null
+}

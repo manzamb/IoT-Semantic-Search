@@ -1,0 +1,108 @@
+{
+  "Conceptos": [
+    "sensing"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "37353",
+    "title": "Nursery Nanode",
+    "Private": false,
+    "tags": [
+      "carbon monoxide",
+      "gas",
+      "humidity",
+      "nursery",
+      "smoke",
+      "temperature"
+    ],
+    "description": "Temperature, humidity, flammable gas/smoke, and carbon monoxide sensing using a Nanode in a nursery.",
+    "feed": "https://api.xively.com/v2/feeds/37353.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "10/26/2011 11:17:12",
+    "created": "10/13/2011 20:33:55",
+    "creator": "https://xively.com/users/ghalfacree",
+    "version": null,
+    "website": "http://gareth.halfacree.co.uk",
+    "datastreams": [
+      {
+        "id": "sensor1",
+        "current_value": "19",
+        "at": "10/26/2011 11:17:12",
+        "max_value": "26.0",
+        "min_value": "14.0",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "sensor2",
+        "current_value": "58",
+        "at": "10/26/2011 11:17:12",
+        "max_value": "70.0",
+        "min_value": "40.0",
+        "tags": [
+          "humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "Percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "sensor3",
+        "current_value": "1",
+        "at": "10/26/2011 11:17:12",
+        "max_value": "5.0",
+        "min_value": "0.0",
+        "tags": [
+          "gas",
+          "smoke"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "Percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "sensor4",
+        "current_value": "5",
+        "at": "10/26/2011 11:17:12",
+        "max_value": "13.0",
+        "min_value": "0.0",
+        "tags": [
+          "carbon monoxide"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "Percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Bradford, UK",
+      "domain": 0,
+      "lat": "53.7977423118832",
+      "lon": "-1.79874300956726",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/37353\" >Nursery Nanode</a>",
+    "URLMostrar": "https://xively.com/feeds/37353"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\37353.json",
+  "DocumentJSON": null
+}

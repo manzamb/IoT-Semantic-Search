@@ -1,0 +1,134 @@
+{
+  "Conceptos": [
+    "man"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "35889",
+    "title": "Kotirinne",
+    "Private": false,
+    "tags": [
+      "mango SCADA"
+    ],
+    "description": "This data coming from Home Automation System via mango SCADA",
+    "feed": "https://api.xively.com/v2/feeds/35889.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:13:24",
+    "created": "09/19/2011 21:01:02",
+    "creator": "https://xively.com/users/aniimsaj",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "1",
+        "current_value": "21.400000000000002",
+        "at": "09/01/2012 19:19:54",
+        "max_value": "37.9",
+        "min_value": "0.0",
+        "tags": [
+          "KHH Floor Temp"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "0.0",
+        "at": "09/01/2012 19:13:54",
+        "max_value": "100.0",
+        "min_value": "0.0",
+        "tags": [
+          "KHH Floor Heating %"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "14.0",
+        "at": "03/20/2014 22:09:07",
+        "max_value": "50.0",
+        "min_value": "-14225.0",
+        "tags": [
+          "kWh/day"
+        ],
+        "unit": {
+          "symbol": "kWh",
+          "label": "kWh",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "51.900000000000006",
+        "at": "03/21/2014 14:12:54",
+        "max_value": "150.0",
+        "min_value": "-26.7",
+        "tags": [
+          "Solar Collectors"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "44.2",
+        "at": "03/21/2014 14:11:24",
+        "max_value": "100.6",
+        "min_value": "0.0",
+        "tags": [
+          "Solar Tank Lower"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "39.6",
+        "at": "03/21/2014 14:13:24",
+        "max_value": "81.7",
+        "min_value": "0.0",
+        "tags": [
+          "Solar Tank Upper"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Tuusula, Finland",
+      "domain": 1,
+      "lat": "60.3952963859024",
+      "lon": "25.0212335586548",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/35889\" >Kotirinne</a>",
+    "URLMostrar": "https://xively.com/feeds/35889"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\35889.json",
+  "DocumentJSON": null
+}

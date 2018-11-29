@@ -1,0 +1,122 @@
+{
+  "Conceptos": [
+    "environment"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "96746",
+    "title": "Home Environment",
+    "Private": false,
+    "tags": [
+      "Alarms",
+      "Humidity",
+      "Power Consumption",
+      "Smoke Detectors",
+      "Temperature"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/96746.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:06:01",
+    "created": "01/09/2013 06:07:24",
+    "creator": "https://xively.com/users/morlock",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Basement",
+        "current_value": "15.8",
+        "at": "03/21/2014 14:08:12",
+        "max_value": "100.0",
+        "min_value": "14.1",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "GroundFloor",
+        "current_value": "20.4",
+        "at": "03/21/2014 14:08:12",
+        "max_value": "100.0",
+        "min_value": "18.2",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Outside",
+        "current_value": "21.9",
+        "at": "03/21/2014 14:08:12",
+        "max_value": "100.0",
+        "min_value": "-9.9",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Power",
+        "current_value": "0.17",
+        "at": "03/21/2014 14:08:12",
+        "max_value": "163.37",
+        "min_value": "0.0",
+        "tags": [
+          "Power Consumption"
+        ],
+        "unit": {
+          "symbol": "kW",
+          "label": "kW",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "TopFloor",
+        "current_value": "20.0",
+        "at": "03/21/2014 14:08:12",
+        "max_value": "100.0",
+        "min_value": "-40.3",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/96746\" >Home Environment</a>",
+    "URLMostrar": "https://xively.com/feeds/96746"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\96746.json",
+  "DocumentJSON": null
+}

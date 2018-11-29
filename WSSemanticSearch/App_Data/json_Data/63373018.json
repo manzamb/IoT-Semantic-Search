@@ -1,0 +1,64 @@
+{
+  "Conceptos": [
+    "environment"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "63373018",
+    "title": "Environment Monitor",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/63373018.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:10:20",
+    "created": "08/10/2013 16:43:03",
+    "creator": "https://xively.com/users/extorian",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "ARD01:BEAM",
+        "current_value": "0",
+        "at": "03/21/2014 14:10:20",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Base_Temperature",
+        "current_value": "20.81",
+        "at": "03/21/2014 14:10:20",
+        "max_value": "45.78",
+        "min_value": "-23.13",
+        "tags": null,
+        "unit": {
+          "symbol": "C",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/63373018\" >Environment Monitor</a>",
+    "URLMostrar": "https://xively.com/feeds/63373018"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\63373018.json",
+  "DocumentJSON": null
+}

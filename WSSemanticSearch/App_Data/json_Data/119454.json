@@ -1,0 +1,210 @@
+{
+  "Conceptos": [
+    "parameter"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "119454",
+    "title": "An Arduino-based Smart Home at Tongji University [Final Project]",
+    "Private": false,
+    "tags": [
+      "Arduino",
+      "Cosm",
+      "Final Project",
+      "Smart Home",
+      "Tongji University"
+    ],
+    "description": "An Arduino-based microcontroller, located in Room 748, CEIE, Tongji University (Jiading Campus), provided some parameters of the laboratory for this feed.\r\nThis project is the final project of one of the B.Eng students in Tongji University.",
+    "feed": "https://api.xively.com/v2/feeds/119454.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "05/15/2013 04:55:17",
+    "created": "03/17/2013 12:55:33",
+    "creator": "https://xively.com/users/xytgeorge",
+    "version": null,
+    "website": "http://cosm.com/feeds/119454",
+    "datastreams": [
+      {
+        "id": "xDigital_Humidity",
+        "current_value": "17.20",
+        "at": "05/15/2013 04:55:15",
+        "max_value": "23.8",
+        "min_value": "-999.0",
+        "tags": null,
+        "unit": {
+          "symbol": "%",
+          "label": "%Rh",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "xDigital_Temperature",
+        "current_value": "27.70",
+        "at": "05/15/2013 04:55:15",
+        "max_value": "34.1",
+        "min_value": "-999.0",
+        "tags": null,
+        "unit": {
+          "symbol": "℃",
+          "label": "℃",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "xLight_Analog",
+        "current_value": "96.39",
+        "at": "05/15/2013 04:55:15",
+        "max_value": "97.56",
+        "min_value": "1.07",
+        "tags": null,
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "xLight_Digital",
+        "current_value": "430.0",
+        "at": "05/15/2013 04:55:15",
+        "max_value": "1068.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "Lux",
+          "label": "Lux",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "yCurtainOnOff",
+        "current_value": "0",
+        "at": "05/14/2013 14:41:11",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "boolean",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "yFanOnOff",
+        "current_value": "0",
+        "at": "05/14/2013 14:41:11",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "yLightOnOff",
+        "current_value": "0",
+        "at": "05/14/2013 14:41:11",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "boolean",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "yWindowOnOff",
+        "current_value": "0",
+        "at": "05/14/2013 14:41:11",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "boolean",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "zBody_Detection",
+        "current_value": "0",
+        "at": "05/15/2013 04:55:16",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "boolean",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "zFlame",
+        "current_value": "13.28",
+        "at": "05/15/2013 04:55:16",
+        "max_value": "72.27",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "zGas_MQ5",
+        "current_value": "15.53",
+        "at": "05/15/2013 04:55:16",
+        "max_value": "83.89",
+        "min_value": "13.96",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "zSound",
+        "current_value": "0.00",
+        "at": "05/15/2013 04:55:16",
+        "max_value": "27.3",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Laboratoy at Tongji University, SH, China",
+      "domain": 0,
+      "lat": "31.2898583862943",
+      "lon": "121.20805978775",
+      "ele": "5",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/119454\" >An Arduino-based Smart Home at Tongji University [Final Project]</a>",
+    "URLMostrar": "https://xively.com/feeds/119454"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\119454.json",
+  "DocumentJSON": null
+}

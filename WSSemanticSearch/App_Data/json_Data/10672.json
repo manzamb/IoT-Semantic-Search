@@ -1,0 +1,148 @@
+{
+  "Conceptos": [
+    "humedad"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "10672",
+    "title": "CasaBarallobre",
+    "Private": false,
+    "tags": null,
+    "description": "Acceso Garaje, riego, farolas, humedad, temperatura. Barallobre. Fene. Spain.",
+    "feed": "https://api.xively.com/v2/feeds/10672.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "05/29/2013 09:44:08",
+    "created": "10/07/2010 23:20:16",
+    "creator": "https://xively.com/users/atycocene",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "1",
+        "current_value": "47",
+        "at": "05/29/2013 09:44:07",
+        "max_value": "255.0",
+        "min_value": "0.0",
+        "tags": [
+          "humedad"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "17",
+        "at": "05/29/2013 09:44:07",
+        "max_value": "16976.0",
+        "min_value": "0.0",
+        "tags": [
+          "temperatura"
+        ],
+        "unit": {
+          "symbol": "º",
+          "label": "grados C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "1",
+        "at": "05/29/2013 09:44:07",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "portal interior"
+        ],
+        "unit": {
+          "symbol": "on-off",
+          "label": "0/1",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "0",
+        "at": "05/29/2013 09:44:07",
+        "max_value": "16976.0",
+        "min_value": "0.0",
+        "tags": [
+          "riego abajo"
+        ],
+        "unit": {
+          "symbol": "on-off",
+          "label": "0/1",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "0",
+        "at": "05/29/2013 09:44:07",
+        "max_value": "35.0",
+        "min_value": "0.0",
+        "tags": [
+          "farola-riego arriba"
+        ],
+        "unit": {
+          "symbol": "on-off",
+          "label": "0/1",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "11",
+        "at": "05/29/2013 09:44:07",
+        "max_value": "23.0",
+        "min_value": "-14870.0",
+        "tags": [
+          "hora"
+        ],
+        "unit": {
+          "symbol": "h",
+          "label": "h",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "7",
+        "current_value": "44",
+        "at": "05/29/2013 09:44:07",
+        "max_value": "59.0",
+        "min_value": "-2552.0",
+        "tags": [
+          "minuto"
+        ],
+        "unit": {
+          "symbol": "'",
+          "label": "min",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Fene",
+      "domain": 0,
+      "lat": "43.4668051478239",
+      "lon": "-8.18943053483963",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/10672\" >CasaBarallobre</a>",
+    "URLMostrar": "https://xively.com/feeds/10672"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\10672.json",
+  "DocumentJSON": null
+}

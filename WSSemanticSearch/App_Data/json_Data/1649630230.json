@@ -1,0 +1,100 @@
+{
+  "Conceptos": [
+    "temperature"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "1649630230",
+    "title": "Marigomen Brü Haüs",
+    "Private": false,
+    "tags": [
+      "Arduino",
+      "Beer",
+      "Fermentation",
+      "Keezer",
+      "Kegerator",
+      "Marigomen",
+      "OneWire Sensor"
+    ],
+    "description": "Home brewery monitoring and control.\n\nComponents:\n - 5.0cu-ft. GE Freezer\n - Arduino Ethernet\n - Arduino Nano Clone & ENC28J60 Ethernet Module\n - Dallas/Maxim DS18B20 OneWire temperature  sensor (x4)",
+    "feed": "https://api.xively.com/v2/feeds/1649630230.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:09:45",
+    "created": "05/19/2013 09:32:36",
+    "creator": "https://xively.com/users/emarigomen",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Fermentation_Temp",
+        "current_value": "61.59",
+        "at": "03/21/2014 14:09:45",
+        "max_value": "80.26",
+        "min_value": "-196.6",
+        "tags": null,
+        "unit": {
+          "symbol": "°Fahrenheit",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Freezer_Ambient_Temp",
+        "current_value": "62.94",
+        "at": "03/21/2014 14:09:45",
+        "max_value": "81.05",
+        "min_value": "-196.6",
+        "tags": null,
+        "unit": {
+          "symbol": "°Fahrenheit",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Garage_Ambient_Temp",
+        "current_value": "68.79",
+        "at": "03/21/2014 14:09:45",
+        "max_value": "100.96",
+        "min_value": "-196.6",
+        "tags": null,
+        "unit": {
+          "symbol": "°Fahrenheit",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "z_ENC28J60-DS18B20",
+        "current_value": "21.3125",
+        "at": "01/29/2014 07:24:18",
+        "max_value": "29.875",
+        "min_value": "16.8125",
+        "tags": null,
+        "unit": {
+          "symbol": "°Celsius",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "34.0521913236261",
+      "lon": "-118.244616264575",
+      "ele": "10000 meters",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/1649630230\" >Marigomen Brü Haüs</a>",
+    "URLMostrar": "https://xively.com/feeds/1649630230"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\1649630230.json",
+  "DocumentJSON": null
+}

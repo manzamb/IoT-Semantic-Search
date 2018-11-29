@@ -1,0 +1,54 @@
+{
+  "Conceptos": [
+    "mp10"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "124337",
+    "title": "TMP102 temperatur",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "Java",
+      "Testing TMP102 to feed temperatur to COSM"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/124337.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "04/16/2013 15:11:33",
+    "created": "04/10/2013 10:35:43",
+    "creator": "https://xively.com/users/java",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "23.25",
+        "at": "04/16/2013 15:11:33",
+        "max_value": "90112.0",
+        "min_value": "21.5",
+        "tags": null,
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/124337\" >TMP102 temperatur</a>",
+    "URLMostrar": "https://xively.com/feeds/124337"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\124337.json",
+  "DocumentJSON": null
+}

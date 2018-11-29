@@ -1,0 +1,147 @@
+{
+  "Conceptos": [
+    "humidity"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "125398",
+    "title": "meteo - T&T",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "meteorological data"
+    ],
+    "description": "IVV - Águeda",
+    "feed": "https://api.xively.com/v2/feeds/125398.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "01/04/2014 06:54:56",
+    "created": "04/15/2013 08:24:39",
+    "creator": "https://xively.com/users/isidro",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "brightness",
+        "current_value": "0",
+        "at": "01/04/2014 06:54:56",
+        "max_value": "947.0",
+        "min_value": "0.0",
+        "tags": [
+          "brightness"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "c",
+        "current_value": "22",
+        "at": "01/04/2014 06:54:56",
+        "max_value": "26.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "humidity",
+        "current_value": "0.00",
+        "at": "01/04/2014 06:54:56",
+        "max_value": "85.0",
+        "min_value": "0.0",
+        "tags": [
+          "humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "pluv",
+        "current_value": "0.00",
+        "at": "01/04/2014 06:54:56",
+        "max_value": "32.68",
+        "min_value": "0.0",
+        "tags": [
+          "rainfall"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temperature",
+        "current_value": "0.00",
+        "at": "01/04/2014 06:54:56",
+        "max_value": "43.0",
+        "min_value": "0.0",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "º",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "widi",
+        "current_value": "4",
+        "at": "01/04/2014 06:54:56",
+        "max_value": "7.0",
+        "min_value": "0.0",
+        "tags": [
+          "0=NW;1=E;2=SE;3=S;4=NE;5=SW;6=N;7=W"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "wisp",
+        "current_value": "0.00",
+        "at": "01/04/2014 06:54:56",
+        "max_value": "87.8",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Lisbon",
+      "domain": 0,
+      "lat": "40.5722503046173",
+      "lon": "-8.45216631889343",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/125398\" >meteo - T&T</a>",
+    "URLMostrar": "https://xively.com/feeds/125398"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\125398.json",
+  "DocumentJSON": null
+}

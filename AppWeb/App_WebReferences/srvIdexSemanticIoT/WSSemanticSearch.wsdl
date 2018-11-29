@@ -1,0 +1,1354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://www.unicacuca.edu.co/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:s1="AppSemanticIndex" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://www.unicacuca.edu.co/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://www.unicacuca.edu.co/">
+      <s:import namespace="AppSemanticIndex" />
+      <s:element name="Buscar">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="stringBuscar" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="idioma" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="BuscarResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="BuscarResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="BuscarFeeds">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="consulta" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="idioma" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="BuscarFeedsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="BuscarFeedsResult" type="tns:ArrayOfFeedXively" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfFeedXively">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="FeedXively" nillable="true" type="tns:FeedXively" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="FeedXively">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Conceptos" type="tns:ArrayOfString" />
+          <s:element minOccurs="0" maxOccurs="1" name="lugares" type="tns:ArrayOfLugar" />
+          <s:element minOccurs="0" maxOccurs="1" name="feed" type="tns:Feed" />
+          <s:element minOccurs="0" maxOccurs="1" name="pathfeed" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DocumentJSON" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfString">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="string" nillable="true" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfLugar">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="lugar" nillable="true" type="tns:lugar" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="lugar">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="nodoGeoname" type="s1:GeonameNode" />
+          <s:element minOccurs="1" maxOccurs="1" name="distancia" type="s:double" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="Feed">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="id" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="title" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="Private" type="s:boolean" />
+          <s:element minOccurs="0" maxOccurs="1" name="tags" type="tns:ArrayOfString" />
+          <s:element minOccurs="0" maxOccurs="1" name="description" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="feed" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="auto_feed_url" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="status" type="tns:Status" />
+          <s:element minOccurs="0" maxOccurs="1" name="updated" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="created" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="creator" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="version" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="website" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="datastreams" type="tns:ArrayOfDatastream" />
+          <s:element minOccurs="0" maxOccurs="1" name="location" type="tns:Location" />
+          <s:element minOccurs="0" maxOccurs="1" name="TitleHTML" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="URLMostrar" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:simpleType name="Status">
+        <s:restriction base="s:string">
+          <s:enumeration value="frozen" />
+          <s:enumeration value="live" />
+        </s:restriction>
+      </s:simpleType>
+      <s:complexType name="ArrayOfDatastream">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="Datastream" nillable="true" type="tns:Datastream" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="Datastream">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="feedid" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="id" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="current_value" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="at" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="max_value" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="min_value" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="tags" type="tns:ArrayOfString" />
+          <s:element minOccurs="0" maxOccurs="1" name="unit" type="tns:Unit" />
+          <s:element minOccurs="0" maxOccurs="1" name="datapoints" type="tns:ArrayOfDatapoint" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="Unit">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="symbol" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="label" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="unitType" type="tns:IFCClassification" />
+        </s:sequence>
+      </s:complexType>
+      <s:simpleType name="IFCClassification">
+        <s:restriction base="s:string">
+          <s:enumeration value="basicSI" />
+          <s:enumeration value="derivedSI" />
+          <s:enumeration value="conservationBasedUnits" />
+          <s:enumeration value="derivedUnits" />
+          <s:enumeration value="contextDependentUnits" />
+        </s:restriction>
+      </s:simpleType>
+      <s:complexType name="ArrayOfDatapoint">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="Datapoint" nillable="true" type="tns:Datapoint" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="Datapoint">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="value" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="at" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="Location">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="name" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="domain" type="tns:Domain" />
+          <s:element minOccurs="0" maxOccurs="1" name="lat" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="lon" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ele" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="exposure" type="tns:Exposure" />
+          <s:element minOccurs="1" maxOccurs="1" name="disposition" type="tns:Disposition" />
+        </s:sequence>
+      </s:complexType>
+      <s:simpleType name="Domain">
+        <s:restriction base="s:string">
+          <s:enumeration value="physical" />
+          <s:enumeration value="virtual" />
+        </s:restriction>
+      </s:simpleType>
+      <s:simpleType name="Exposure">
+        <s:restriction base="s:string">
+          <s:enumeration value="indoor" />
+          <s:enumeration value="outdoor" />
+        </s:restriction>
+      </s:simpleType>
+      <s:simpleType name="Disposition">
+        <s:restriction base="s:string">
+          <s:enumeration value="fixed" />
+          <s:enumeration value="mobile" />
+        </s:restriction>
+      </s:simpleType>
+      <s:element name="BuscarFeedsDataPoints">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="consulta" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="fechaInicio" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="fechaFin" type="s:dateTime" />
+            <s:element minOccurs="0" maxOccurs="1" name="idioma" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="BuscarFeedsDataPointsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="BuscarFeedsDataPointsResult" type="tns:ArrayOfFeedXively" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RetornarConceptos">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Concepto" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="idioma" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RetornarConceptosResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="RetornarConceptosResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RetornarMapaLugar">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="Latitud" type="s:double" />
+            <s:element minOccurs="1" maxOccurs="1" name="Longitud" type="s:double" />
+            <s:element minOccurs="0" maxOccurs="1" name="Consulta" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="idioma" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="radio" type="s:double" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RetornarMapaLugarResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="RetornarMapaLugarResult" type="tns:ArrayOfFeedXively" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RetornarMapaLugarDatapoints">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="Latitud" type="s:double" />
+            <s:element minOccurs="1" maxOccurs="1" name="Longitud" type="s:double" />
+            <s:element minOccurs="0" maxOccurs="1" name="Consulta" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="fechaInicio" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="fechaFin" type="s:dateTime" />
+            <s:element minOccurs="0" maxOccurs="1" name="idioma" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="radio" type="s:double" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RetornarMapaLugarDatapointsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="RetornarMapaLugarDatapointsResult" type="tns:ArrayOfFeedXively" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RetornarMapaLugarListaSensores">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="Latitud" type="s:double" />
+            <s:element minOccurs="1" maxOccurs="1" name="Longitud" type="s:double" />
+            <s:element minOccurs="0" maxOccurs="1" name="dtsResult" type="tns:ArrayOfFeedXively" />
+            <s:element minOccurs="0" maxOccurs="1" name="idioma" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="radio" type="s:double" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RetornarMapaLugarListaSensoresResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="RetornarMapaLugarListaSensoresResult" type="tns:ArrayOfFeedXively" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ExpandirConsultaConceptosOntologia">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Consulta" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="idioma" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ExpandirConsultaConceptosOntologiaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ExpandirConsultaConceptosOntologiaResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ObtenerConfiguracion">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="key" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ObtenerConfiguracionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ObtenerConfiguracionResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AsignarConfiguracion">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="key" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="valor" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AsignarConfiguracionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="AsignarConfiguracionResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CrearIndiceSemantico">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="NombreOntología" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CrearIndiceSemanticoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CrearIndiceSemanticoResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CargarOntologia">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="nuevaontologia" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="info" type="s:base64Binary" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CargarOntologiaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CargarOntologiaResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CargarFeedXivelyBDD">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="feedId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CargarFeedXivelyBDDResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CargarFeedXivelyBDDResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ObtenerLocalizacion">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="lugar" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ObtenerLocalizacionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ObtenerLocalizacionResult" type="tns:ArrayOfGeonameNode" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfGeonameNode">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="GeonameNode" nillable="true" type="s1:GeonameNode" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="ObtenerCiudadesConsulta">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Consulta" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ObtenerCiudadesConsultaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ObtenerCiudadesConsultaResult" type="tns:ArrayOfGeonameNode" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ObtenerLugardeCoordenadas">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="latitud" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="longitud" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ObtenerLugardeCoordenadasResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" ref="s1:GeonameNode" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ObtenerListaLugarCoordenadas">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="geonodesSerializados" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ObtenerListaLugarCoordenadasResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ObtenerListaLugarCoordenadasResult" type="tns:ArrayOfGeonameNode" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ObtenerListaLugarCoordenadasJerarquica">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="geonodesSerializados" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ObtenerListaLugarCoordenadasJerarquicaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ObtenerListaLugarCoordenadasJerarquicaResult" type="tns:ArrayOfGeonameNode" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ObtenerListaLugarCoordenadas_AM1">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="geonodesSerializados" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ObtenerListaLugarCoordenadas_AM1Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ObtenerListaLugarCoordenadas_AM1Result" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ObtenerLugardeCoordenadasJerarquia">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="latitud" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="longitud" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ObtenerLugardeCoordenadasJerarquiaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ObtenerLugardeCoordenadasJerarquiaResult" type="tns:ArrayOfGeonameNode" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GeoNames_Hierarchy">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GeonameId" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GeoNames_HierarchyResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GeoNames_HierarchyResult" type="tns:ArrayOfGeonameNode" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RetornarMetadatosSensor">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="IdSensor" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RetornarMetadatosSensorResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="RetornarMetadatosSensorResult" type="tns:FeedXively" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RetornarJsonSensor">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="IdSensor" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RetornarJsonSensorResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="RetornarJsonSensorResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RetornarDatosSensor">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="feedID" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="fechaInicio" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="fechaFin" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RetornarDatosSensorResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="RetornarDatosSensorResult" type="tns:FeedXively" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RetornarDatapointsFeed">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="feedID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="DatastreamId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="fechaInicio" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="fechaFin" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RetornarDatapointsFeedResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="RetornarDatapointsFeedResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SaveConsulta">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ConsultaOriginal" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ConsultaExpandida" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="FechaConsulta" type="s:dateTime" />
+            <s:element minOccurs="0" maxOccurs="1" name="Usuario" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SaveConsultaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="SaveConsultaResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SaveCalificacion">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="ConsultaId" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="feedId" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="calificacion" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SaveCalificacionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="SaveCalificacionResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+    <s:schema elementFormDefault="qualified" targetNamespace="AppSemanticIndex">
+      <s:complexType name="GeonameNode">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="ToponymName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Nombre_lugar" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="geonameId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Longitud" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Latitud" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Codigo_pais" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Nombre_pais" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="fcl" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="fcode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Nombre_lugar_usuario" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Nombre_lugar_Jerarquico" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GeonameNode" type="s1:GeonameNode" />
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="BuscarSoapIn">
+    <wsdl:part name="parameters" element="tns:Buscar" />
+  </wsdl:message>
+  <wsdl:message name="BuscarSoapOut">
+    <wsdl:part name="parameters" element="tns:BuscarResponse" />
+  </wsdl:message>
+  <wsdl:message name="BuscarFeedsSoapIn">
+    <wsdl:part name="parameters" element="tns:BuscarFeeds" />
+  </wsdl:message>
+  <wsdl:message name="BuscarFeedsSoapOut">
+    <wsdl:part name="parameters" element="tns:BuscarFeedsResponse" />
+  </wsdl:message>
+  <wsdl:message name="BuscarFeedsDataPointsSoapIn">
+    <wsdl:part name="parameters" element="tns:BuscarFeedsDataPoints" />
+  </wsdl:message>
+  <wsdl:message name="BuscarFeedsDataPointsSoapOut">
+    <wsdl:part name="parameters" element="tns:BuscarFeedsDataPointsResponse" />
+  </wsdl:message>
+  <wsdl:message name="RetornarConceptosSoapIn">
+    <wsdl:part name="parameters" element="tns:RetornarConceptos" />
+  </wsdl:message>
+  <wsdl:message name="RetornarConceptosSoapOut">
+    <wsdl:part name="parameters" element="tns:RetornarConceptosResponse" />
+  </wsdl:message>
+  <wsdl:message name="RetornarMapaLugarSoapIn">
+    <wsdl:part name="parameters" element="tns:RetornarMapaLugar" />
+  </wsdl:message>
+  <wsdl:message name="RetornarMapaLugarSoapOut">
+    <wsdl:part name="parameters" element="tns:RetornarMapaLugarResponse" />
+  </wsdl:message>
+  <wsdl:message name="RetornarMapaLugarDatapointsSoapIn">
+    <wsdl:part name="parameters" element="tns:RetornarMapaLugarDatapoints" />
+  </wsdl:message>
+  <wsdl:message name="RetornarMapaLugarDatapointsSoapOut">
+    <wsdl:part name="parameters" element="tns:RetornarMapaLugarDatapointsResponse" />
+  </wsdl:message>
+  <wsdl:message name="RetornarMapaLugarListaSensoresSoapIn">
+    <wsdl:part name="parameters" element="tns:RetornarMapaLugarListaSensores" />
+  </wsdl:message>
+  <wsdl:message name="RetornarMapaLugarListaSensoresSoapOut">
+    <wsdl:part name="parameters" element="tns:RetornarMapaLugarListaSensoresResponse" />
+  </wsdl:message>
+  <wsdl:message name="ExpandirConsultaConceptosOntologiaSoapIn">
+    <wsdl:part name="parameters" element="tns:ExpandirConsultaConceptosOntologia" />
+  </wsdl:message>
+  <wsdl:message name="ExpandirConsultaConceptosOntologiaSoapOut">
+    <wsdl:part name="parameters" element="tns:ExpandirConsultaConceptosOntologiaResponse" />
+  </wsdl:message>
+  <wsdl:message name="ObtenerConfiguracionSoapIn">
+    <wsdl:part name="parameters" element="tns:ObtenerConfiguracion" />
+  </wsdl:message>
+  <wsdl:message name="ObtenerConfiguracionSoapOut">
+    <wsdl:part name="parameters" element="tns:ObtenerConfiguracionResponse" />
+  </wsdl:message>
+  <wsdl:message name="AsignarConfiguracionSoapIn">
+    <wsdl:part name="parameters" element="tns:AsignarConfiguracion" />
+  </wsdl:message>
+  <wsdl:message name="AsignarConfiguracionSoapOut">
+    <wsdl:part name="parameters" element="tns:AsignarConfiguracionResponse" />
+  </wsdl:message>
+  <wsdl:message name="CrearIndiceSemanticoSoapIn">
+    <wsdl:part name="parameters" element="tns:CrearIndiceSemantico" />
+  </wsdl:message>
+  <wsdl:message name="CrearIndiceSemanticoSoapOut">
+    <wsdl:part name="parameters" element="tns:CrearIndiceSemanticoResponse" />
+  </wsdl:message>
+  <wsdl:message name="CargarOntologiaSoapIn">
+    <wsdl:part name="parameters" element="tns:CargarOntologia" />
+  </wsdl:message>
+  <wsdl:message name="CargarOntologiaSoapOut">
+    <wsdl:part name="parameters" element="tns:CargarOntologiaResponse" />
+  </wsdl:message>
+  <wsdl:message name="CargarFeedXivelyBDDSoapIn">
+    <wsdl:part name="parameters" element="tns:CargarFeedXivelyBDD" />
+  </wsdl:message>
+  <wsdl:message name="CargarFeedXivelyBDDSoapOut">
+    <wsdl:part name="parameters" element="tns:CargarFeedXivelyBDDResponse" />
+  </wsdl:message>
+  <wsdl:message name="ObtenerLocalizacionSoapIn">
+    <wsdl:part name="parameters" element="tns:ObtenerLocalizacion" />
+  </wsdl:message>
+  <wsdl:message name="ObtenerLocalizacionSoapOut">
+    <wsdl:part name="parameters" element="tns:ObtenerLocalizacionResponse" />
+  </wsdl:message>
+  <wsdl:message name="ObtenerCiudadesConsultaSoapIn">
+    <wsdl:part name="parameters" element="tns:ObtenerCiudadesConsulta" />
+  </wsdl:message>
+  <wsdl:message name="ObtenerCiudadesConsultaSoapOut">
+    <wsdl:part name="parameters" element="tns:ObtenerCiudadesConsultaResponse" />
+  </wsdl:message>
+  <wsdl:message name="ObtenerLugardeCoordenadasSoapIn">
+    <wsdl:part name="parameters" element="tns:ObtenerLugardeCoordenadas" />
+  </wsdl:message>
+  <wsdl:message name="ObtenerLugardeCoordenadasSoapOut">
+    <wsdl:part name="parameters" element="tns:ObtenerLugardeCoordenadasResponse" />
+  </wsdl:message>
+  <wsdl:message name="ObtenerListaLugarCoordenadasSoapIn">
+    <wsdl:part name="parameters" element="tns:ObtenerListaLugarCoordenadas" />
+  </wsdl:message>
+  <wsdl:message name="ObtenerListaLugarCoordenadasSoapOut">
+    <wsdl:part name="parameters" element="tns:ObtenerListaLugarCoordenadasResponse" />
+  </wsdl:message>
+  <wsdl:message name="ObtenerListaLugarCoordenadasJerarquicaSoapIn">
+    <wsdl:part name="parameters" element="tns:ObtenerListaLugarCoordenadasJerarquica" />
+  </wsdl:message>
+  <wsdl:message name="ObtenerListaLugarCoordenadasJerarquicaSoapOut">
+    <wsdl:part name="parameters" element="tns:ObtenerListaLugarCoordenadasJerarquicaResponse" />
+  </wsdl:message>
+  <wsdl:message name="ObtenerListaLugarCoordenadas_AM1SoapIn">
+    <wsdl:part name="parameters" element="tns:ObtenerListaLugarCoordenadas_AM1" />
+  </wsdl:message>
+  <wsdl:message name="ObtenerListaLugarCoordenadas_AM1SoapOut">
+    <wsdl:part name="parameters" element="tns:ObtenerListaLugarCoordenadas_AM1Response" />
+  </wsdl:message>
+  <wsdl:message name="ObtenerLugardeCoordenadasJerarquiaSoapIn">
+    <wsdl:part name="parameters" element="tns:ObtenerLugardeCoordenadasJerarquia" />
+  </wsdl:message>
+  <wsdl:message name="ObtenerLugardeCoordenadasJerarquiaSoapOut">
+    <wsdl:part name="parameters" element="tns:ObtenerLugardeCoordenadasJerarquiaResponse" />
+  </wsdl:message>
+  <wsdl:message name="GeoNames_HierarchySoapIn">
+    <wsdl:part name="parameters" element="tns:GeoNames_Hierarchy" />
+  </wsdl:message>
+  <wsdl:message name="GeoNames_HierarchySoapOut">
+    <wsdl:part name="parameters" element="tns:GeoNames_HierarchyResponse" />
+  </wsdl:message>
+  <wsdl:message name="RetornarMetadatosSensorSoapIn">
+    <wsdl:part name="parameters" element="tns:RetornarMetadatosSensor" />
+  </wsdl:message>
+  <wsdl:message name="RetornarMetadatosSensorSoapOut">
+    <wsdl:part name="parameters" element="tns:RetornarMetadatosSensorResponse" />
+  </wsdl:message>
+  <wsdl:message name="RetornarJsonSensorSoapIn">
+    <wsdl:part name="parameters" element="tns:RetornarJsonSensor" />
+  </wsdl:message>
+  <wsdl:message name="RetornarJsonSensorSoapOut">
+    <wsdl:part name="parameters" element="tns:RetornarJsonSensorResponse" />
+  </wsdl:message>
+  <wsdl:message name="RetornarDatosSensorSoapIn">
+    <wsdl:part name="parameters" element="tns:RetornarDatosSensor" />
+  </wsdl:message>
+  <wsdl:message name="RetornarDatosSensorSoapOut">
+    <wsdl:part name="parameters" element="tns:RetornarDatosSensorResponse" />
+  </wsdl:message>
+  <wsdl:message name="RetornarDatapointsFeedSoapIn">
+    <wsdl:part name="parameters" element="tns:RetornarDatapointsFeed" />
+  </wsdl:message>
+  <wsdl:message name="RetornarDatapointsFeedSoapOut">
+    <wsdl:part name="parameters" element="tns:RetornarDatapointsFeedResponse" />
+  </wsdl:message>
+  <wsdl:message name="SaveConsultaSoapIn">
+    <wsdl:part name="parameters" element="tns:SaveConsulta" />
+  </wsdl:message>
+  <wsdl:message name="SaveConsultaSoapOut">
+    <wsdl:part name="parameters" element="tns:SaveConsultaResponse" />
+  </wsdl:message>
+  <wsdl:message name="SaveCalificacionSoapIn">
+    <wsdl:part name="parameters" element="tns:SaveCalificacion" />
+  </wsdl:message>
+  <wsdl:message name="SaveCalificacionSoapOut">
+    <wsdl:part name="parameters" element="tns:SaveCalificacionResponse" />
+  </wsdl:message>
+  <wsdl:portType name="WSSemanticSearchSoap">
+    <wsdl:operation name="Buscar">
+      <wsdl:input message="tns:BuscarSoapIn" />
+      <wsdl:output message="tns:BuscarSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="BuscarFeeds">
+      <wsdl:input message="tns:BuscarFeedsSoapIn" />
+      <wsdl:output message="tns:BuscarFeedsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="BuscarFeedsDataPoints">
+      <wsdl:input message="tns:BuscarFeedsDataPointsSoapIn" />
+      <wsdl:output message="tns:BuscarFeedsDataPointsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="RetornarConceptos">
+      <wsdl:input message="tns:RetornarConceptosSoapIn" />
+      <wsdl:output message="tns:RetornarConceptosSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="RetornarMapaLugar">
+      <wsdl:input message="tns:RetornarMapaLugarSoapIn" />
+      <wsdl:output message="tns:RetornarMapaLugarSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="RetornarMapaLugarDatapoints">
+      <wsdl:input message="tns:RetornarMapaLugarDatapointsSoapIn" />
+      <wsdl:output message="tns:RetornarMapaLugarDatapointsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="RetornarMapaLugarListaSensores">
+      <wsdl:input message="tns:RetornarMapaLugarListaSensoresSoapIn" />
+      <wsdl:output message="tns:RetornarMapaLugarListaSensoresSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ExpandirConsultaConceptosOntologia">
+      <wsdl:input message="tns:ExpandirConsultaConceptosOntologiaSoapIn" />
+      <wsdl:output message="tns:ExpandirConsultaConceptosOntologiaSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerConfiguracion">
+      <wsdl:input message="tns:ObtenerConfiguracionSoapIn" />
+      <wsdl:output message="tns:ObtenerConfiguracionSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AsignarConfiguracion">
+      <wsdl:input message="tns:AsignarConfiguracionSoapIn" />
+      <wsdl:output message="tns:AsignarConfiguracionSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CrearIndiceSemantico">
+      <wsdl:input message="tns:CrearIndiceSemanticoSoapIn" />
+      <wsdl:output message="tns:CrearIndiceSemanticoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CargarOntologia">
+      <wsdl:input message="tns:CargarOntologiaSoapIn" />
+      <wsdl:output message="tns:CargarOntologiaSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CargarFeedXivelyBDD">
+      <wsdl:input message="tns:CargarFeedXivelyBDDSoapIn" />
+      <wsdl:output message="tns:CargarFeedXivelyBDDSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerLocalizacion">
+      <wsdl:input message="tns:ObtenerLocalizacionSoapIn" />
+      <wsdl:output message="tns:ObtenerLocalizacionSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerCiudadesConsulta">
+      <wsdl:input message="tns:ObtenerCiudadesConsultaSoapIn" />
+      <wsdl:output message="tns:ObtenerCiudadesConsultaSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerLugardeCoordenadas">
+      <wsdl:input message="tns:ObtenerLugardeCoordenadasSoapIn" />
+      <wsdl:output message="tns:ObtenerLugardeCoordenadasSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerListaLugarCoordenadas">
+      <wsdl:input message="tns:ObtenerListaLugarCoordenadasSoapIn" />
+      <wsdl:output message="tns:ObtenerListaLugarCoordenadasSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerListaLugarCoordenadasJerarquica">
+      <wsdl:input message="tns:ObtenerListaLugarCoordenadasJerarquicaSoapIn" />
+      <wsdl:output message="tns:ObtenerListaLugarCoordenadasJerarquicaSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerListaLugarCoordenadas_AM1">
+      <wsdl:input message="tns:ObtenerListaLugarCoordenadas_AM1SoapIn" />
+      <wsdl:output message="tns:ObtenerListaLugarCoordenadas_AM1SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerLugardeCoordenadasJerarquia">
+      <wsdl:input message="tns:ObtenerLugardeCoordenadasJerarquiaSoapIn" />
+      <wsdl:output message="tns:ObtenerLugardeCoordenadasJerarquiaSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GeoNames_Hierarchy">
+      <wsdl:input message="tns:GeoNames_HierarchySoapIn" />
+      <wsdl:output message="tns:GeoNames_HierarchySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="RetornarMetadatosSensor">
+      <wsdl:input message="tns:RetornarMetadatosSensorSoapIn" />
+      <wsdl:output message="tns:RetornarMetadatosSensorSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="RetornarJsonSensor">
+      <wsdl:input message="tns:RetornarJsonSensorSoapIn" />
+      <wsdl:output message="tns:RetornarJsonSensorSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="RetornarDatosSensor">
+      <wsdl:input message="tns:RetornarDatosSensorSoapIn" />
+      <wsdl:output message="tns:RetornarDatosSensorSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="RetornarDatapointsFeed">
+      <wsdl:input message="tns:RetornarDatapointsFeedSoapIn" />
+      <wsdl:output message="tns:RetornarDatapointsFeedSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveConsulta">
+      <wsdl:input message="tns:SaveConsultaSoapIn" />
+      <wsdl:output message="tns:SaveConsultaSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveCalificacion">
+      <wsdl:input message="tns:SaveCalificacionSoapIn" />
+      <wsdl:output message="tns:SaveCalificacionSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="WSSemanticSearchSoap" type="tns:WSSemanticSearchSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Buscar">
+      <soap:operation soapAction="http://www.unicacuca.edu.co/Buscar" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BuscarFeeds">
+      <soap:operation soapAction="http://www.unicacuca.edu.co/BuscarFeeds" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BuscarFeedsDataPoints">
+      <soap:operation soapAction="http://www.unicacuca.edu.co/BuscarFeedsDataPoints" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RetornarConceptos">
+      <soap:operation soapAction="http://www.unicacuca.edu.co/RetornarConceptos" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RetornarMapaLugar">
+      <soap:operation soapAction="http://www.unicacuca.edu.co/RetornarMapaLugar" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RetornarMapaLugarDatapoints">
+      <soap:operation soapAction="http://www.unicacuca.edu.co/RetornarMapaLugarDatapoints" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RetornarMapaLugarListaSensores">
+      <soap:operation soapAction="http://www.unicacuca.edu.co/RetornarMapaLugarListaSensores" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ExpandirConsultaConceptosOntologia">
+      <soap:operation soapAction="http://www.unicacuca.edu.co/ExpandirConsultaConceptosOntologia" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerConfiguracion">
+      <soap:operation soapAction="http://www.unicacuca.edu.co/ObtenerConfiguracion" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AsignarConfiguracion">
+      <soap:operation soapAction="http://www.unicacuca.edu.co/AsignarConfiguracion" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CrearIndiceSemantico">
+      <soap:operation soapAction="http://www.unicacuca.edu.co/CrearIndiceSemantico" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CargarOntologia">
+      <soap:operation soapAction="http://www.unicacuca.edu.co/CargarOntologia" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CargarFeedXivelyBDD">
+      <soap:operation soapAction="http://www.unicacuca.edu.co/CargarFeedXivelyBDD" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerLocalizacion">
+      <soap:operation soapAction="http://www.unicacuca.edu.co/ObtenerLocalizacion" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerCiudadesConsulta">
+      <soap:operation soapAction="http://www.unicacuca.edu.co/ObtenerCiudadesConsulta" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerLugardeCoordenadas">
+      <soap:operation soapAction="http://www.unicacuca.edu.co/ObtenerLugardeCoordenadas" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerListaLugarCoordenadas">
+      <soap:operation soapAction="http://www.unicacuca.edu.co/ObtenerListaLugarCoordenadas" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerListaLugarCoordenadasJerarquica">
+      <soap:operation soapAction="http://www.unicacuca.edu.co/ObtenerListaLugarCoordenadasJerarquica" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerListaLugarCoordenadas_AM1">
+      <soap:operation soapAction="http://www.unicacuca.edu.co/ObtenerListaLugarCoordenadas_AM1" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerLugardeCoordenadasJerarquia">
+      <soap:operation soapAction="http://www.unicacuca.edu.co/ObtenerLugardeCoordenadasJerarquia" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GeoNames_Hierarchy">
+      <soap:operation soapAction="http://www.unicacuca.edu.co/GeoNames_Hierarchy" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RetornarMetadatosSensor">
+      <soap:operation soapAction="http://www.unicacuca.edu.co/RetornarMetadatosSensor" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RetornarJsonSensor">
+      <soap:operation soapAction="http://www.unicacuca.edu.co/RetornarJsonSensor" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RetornarDatosSensor">
+      <soap:operation soapAction="http://www.unicacuca.edu.co/RetornarDatosSensor" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RetornarDatapointsFeed">
+      <soap:operation soapAction="http://www.unicacuca.edu.co/RetornarDatapointsFeed" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveConsulta">
+      <soap:operation soapAction="http://www.unicacuca.edu.co/SaveConsulta" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveCalificacion">
+      <soap:operation soapAction="http://www.unicacuca.edu.co/SaveCalificacion" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="WSSemanticSearchSoap12" type="tns:WSSemanticSearchSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Buscar">
+      <soap12:operation soapAction="http://www.unicacuca.edu.co/Buscar" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BuscarFeeds">
+      <soap12:operation soapAction="http://www.unicacuca.edu.co/BuscarFeeds" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BuscarFeedsDataPoints">
+      <soap12:operation soapAction="http://www.unicacuca.edu.co/BuscarFeedsDataPoints" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RetornarConceptos">
+      <soap12:operation soapAction="http://www.unicacuca.edu.co/RetornarConceptos" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RetornarMapaLugar">
+      <soap12:operation soapAction="http://www.unicacuca.edu.co/RetornarMapaLugar" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RetornarMapaLugarDatapoints">
+      <soap12:operation soapAction="http://www.unicacuca.edu.co/RetornarMapaLugarDatapoints" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RetornarMapaLugarListaSensores">
+      <soap12:operation soapAction="http://www.unicacuca.edu.co/RetornarMapaLugarListaSensores" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ExpandirConsultaConceptosOntologia">
+      <soap12:operation soapAction="http://www.unicacuca.edu.co/ExpandirConsultaConceptosOntologia" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerConfiguracion">
+      <soap12:operation soapAction="http://www.unicacuca.edu.co/ObtenerConfiguracion" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AsignarConfiguracion">
+      <soap12:operation soapAction="http://www.unicacuca.edu.co/AsignarConfiguracion" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CrearIndiceSemantico">
+      <soap12:operation soapAction="http://www.unicacuca.edu.co/CrearIndiceSemantico" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CargarOntologia">
+      <soap12:operation soapAction="http://www.unicacuca.edu.co/CargarOntologia" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CargarFeedXivelyBDD">
+      <soap12:operation soapAction="http://www.unicacuca.edu.co/CargarFeedXivelyBDD" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerLocalizacion">
+      <soap12:operation soapAction="http://www.unicacuca.edu.co/ObtenerLocalizacion" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerCiudadesConsulta">
+      <soap12:operation soapAction="http://www.unicacuca.edu.co/ObtenerCiudadesConsulta" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerLugardeCoordenadas">
+      <soap12:operation soapAction="http://www.unicacuca.edu.co/ObtenerLugardeCoordenadas" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerListaLugarCoordenadas">
+      <soap12:operation soapAction="http://www.unicacuca.edu.co/ObtenerListaLugarCoordenadas" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerListaLugarCoordenadasJerarquica">
+      <soap12:operation soapAction="http://www.unicacuca.edu.co/ObtenerListaLugarCoordenadasJerarquica" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerListaLugarCoordenadas_AM1">
+      <soap12:operation soapAction="http://www.unicacuca.edu.co/ObtenerListaLugarCoordenadas_AM1" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerLugardeCoordenadasJerarquia">
+      <soap12:operation soapAction="http://www.unicacuca.edu.co/ObtenerLugardeCoordenadasJerarquia" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GeoNames_Hierarchy">
+      <soap12:operation soapAction="http://www.unicacuca.edu.co/GeoNames_Hierarchy" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RetornarMetadatosSensor">
+      <soap12:operation soapAction="http://www.unicacuca.edu.co/RetornarMetadatosSensor" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RetornarJsonSensor">
+      <soap12:operation soapAction="http://www.unicacuca.edu.co/RetornarJsonSensor" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RetornarDatosSensor">
+      <soap12:operation soapAction="http://www.unicacuca.edu.co/RetornarDatosSensor" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RetornarDatapointsFeed">
+      <soap12:operation soapAction="http://www.unicacuca.edu.co/RetornarDatapointsFeed" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveConsulta">
+      <soap12:operation soapAction="http://www.unicacuca.edu.co/SaveConsulta" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveCalificacion">
+      <soap12:operation soapAction="http://www.unicacuca.edu.co/SaveCalificacion" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="WSSemanticSearch">
+    <wsdl:port name="WSSemanticSearchSoap" binding="tns:WSSemanticSearchSoap">
+      <soap:address location="http://localhost:17864/WSSemanticSearch.asmx" />
+    </wsdl:port>
+    <wsdl:port name="WSSemanticSearchSoap12" binding="tns:WSSemanticSearchSoap12">
+      <soap12:address location="http://localhost:17864/WSSemanticSearch.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

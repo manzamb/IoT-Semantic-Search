@@ -1,0 +1,262 @@
+{
+  "Conceptos": [
+    "population"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "2777",
+    "title": "Bulgaria Climate Data",
+    "Private": false,
+    "tags": null,
+    "description": "Description of Bulgaria",
+    "feed": "https://api.xively.com/v2/feeds/2777.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "04/16/2011 17:49:44",
+    "created": "09/29/2009 14:13:49",
+    "creator": "https://xively.com/users/pachube",
+    "version": null,
+    "website": "http://www.openclimatedata.int/bulgaria/",
+    "datastreams": [
+      {
+        "id": "KPBYD:BYFGAS",
+        "current_value": "1995",
+        "at": null,
+        "max_value": "1995.0",
+        "min_value": "1995.0",
+        "tags": [
+          "base year for f-gases"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "KPBYD:QEL",
+        "current_value": "92.0",
+        "at": null,
+        "max_value": "92.0",
+        "min_value": "92.0",
+        "tags": [
+          "quantified emission limitation"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "KPBYD:IME",
+        "current_value": "0",
+        "at": null,
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "is market economy"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "KPBYD:IF",
+        "current_value": "0",
+        "at": null,
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "in force"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "KPBYD:BYTNE",
+        "current_value": "132618658",
+        "at": null,
+        "max_value": "132618658.0",
+        "min_value": "132618658.0",
+        "tags": [
+          "base year level of total national emissions"
+        ],
+        "unit": {
+          "symbol": "tCO2",
+          "label": "tonnes CO2 equivalent",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "KPBYD:SBYD",
+        "current_value": "FCCC/IRR/2007/BGR",
+        "at": null,
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "name",
+          "source of base year data"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "KPBYD:SBYDU",
+        "current_value": "http",
+        "at": null,
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "source of base year data",
+          "url"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "UNFCCCP:DOS",
+        "current_value": "05 June 1992",
+        "at": null,
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "date of signature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "UNFCCCP:DOR",
+        "current_value": "12 May 1995",
+        "at": null,
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "date of ratification"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "UNFCCCP:DOE",
+        "current_value": "10 August 1995",
+        "at": null,
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "date of entry"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "WPP:POPVALNUM",
+        "current_value": "300,400,500,600",
+        "at": null,
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "population number"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "WPP:POPVALYR",
+        "current_value": "1995,2000,2005,2010",
+        "at": null,
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "population year"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "CCMP:POLICY",
+        "current_value": "2986,2974,4152,2930,4097",
+        "at": null,
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "policy ids"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "CCMP:PACHUBE",
+        "current_value": "2758,2634,2255,2666,2464",
+        "at": null,
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "pachube ids"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/2777\" >Bulgaria Climate Data</a>",
+    "URLMostrar": "https://xively.com/feeds/2777"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\2777.json",
+  "DocumentJSON": null
+}

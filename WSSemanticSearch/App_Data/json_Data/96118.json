@@ -1,0 +1,179 @@
+{
+  "Conceptos": [
+    "quality"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "96118",
+    "title": "Air Quality Medford",
+    "Private": false,
+    "tags": [
+      "device:type=Air Quality Egg",
+      "device:type=airqualityegg"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/96118.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:11:44",
+    "created": "01/04/2013 22:50:10",
+    "creator": "https://xively.com/users/airqualityegg",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "CO_00-04-a3-27-c2-e7_1",
+        "current_value": "122455",
+        "at": "03/21/2014 14:11:04",
+        "max_value": "357250.0",
+        "min_value": "122213.0",
+        "tags": [
+          "aqe:data_origin=computed",
+          "aqe:firmware_version=16",
+          "aqe:sensor_address=00:04:a3:27:c2:e7",
+          "aqe:sensor_index=1",
+          "aqe:sensor_type=CO"
+        ],
+        "unit": {
+          "symbol": "ppb",
+          "label": "ppb",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "CO_ra7_00-04-a3-27-c2-e7_1",
+        "current_value": "0",
+        "at": "06/13/2013 19:43:14",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "aqe:data_origin=computed",
+          "aqe:firmware_version=16",
+          "aqe:sensor_address=00:04:a3:27:c2:e7",
+          "aqe:sensor_index=1",
+          "aqe:sensor_type=CO_ra7"
+        ],
+        "unit": {
+          "symbol": "oh-3",
+          "label": "oh-3",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "CO_raw_00-04-a3-27-c2-e7_1",
+        "current_value": "107674",
+        "at": "03/21/2014 14:10:59",
+        "max_value": "4194304.0",
+        "min_value": "0.0",
+        "tags": [
+          "aqe:data_origin=raw",
+          "aqe:firmware_version=16",
+          "aqe:sensor_address=00:04:a3:27:c2:e7",
+          "aqe:sensor_index=1",
+          "aqe:sensor_type=CO"
+        ],
+        "unit": {
+          "symbol": "ohms",
+          "label": "ohms",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Humidity_00-04-a3-27-be-03_1",
+        "current_value": "99",
+        "at": "03/21/2014 14:11:44",
+        "max_value": "131.0",
+        "min_value": "-1.0",
+        "tags": [
+          "aqe:data_origin=computed",
+          "aqe:firmware_version=1",
+          "aqe:sensor_address=00:04:a3:27:be:03",
+          "aqe:sensor_index=1",
+          "aqe:sensor_type=Humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "NO2_00-04-a3-27-c2-e7_0",
+        "current_value": "-2147483648",
+        "at": "03/21/2014 14:10:54",
+        "max_value": "641.0",
+        "min_value": "-2147483648.0",
+        "tags": [
+          "aqe:data_origin=computed",
+          "aqe:firmware_version=16",
+          "aqe:sensor_address=00:04:a3:27:c2:e7",
+          "aqe:sensor_index=0",
+          "aqe:sensor_type=NO2"
+        ],
+        "unit": {
+          "symbol": "ppb",
+          "label": "ppb",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "NO2_raw_00-04-a3-27-c2-e7_0",
+        "current_value": "-1",
+        "at": "03/21/2014 14:10:49",
+        "max_value": "37777777777.0",
+        "min_value": "-1.0",
+        "tags": [
+          "aqe:data_origin=raw",
+          "aqe:firmware_version=16",
+          "aqe:sensor_address=00:04:a3:27:c2:e7",
+          "aqe:sensor_index=0",
+          "aqe:sensor_type=NO2"
+        ],
+        "unit": {
+          "symbol": "ohms",
+          "label": "ohms",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperature_00-04-a3-27-be-03_0",
+        "current_value": "6",
+        "at": "03/21/2014 14:11:39",
+        "max_value": "37777777777.0",
+        "min_value": "-15.0",
+        "tags": [
+          "aqe:data_origin=computed",
+          "aqe:firmware_version=1",
+          "aqe:sensor_address=00:04:a3:27:be:03",
+          "aqe:sensor_index=0",
+          "aqe:sensor_type=Temperature"
+        ],
+        "unit": {
+          "symbol": "deg C",
+          "label": "deg C",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "42.4132549807151",
+      "lon": "-71.1172485351562",
+      "ele": "50",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/96118\" >Air Quality Medford</a>",
+    "URLMostrar": "https://xively.com/feeds/96118"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\96118.json",
+  "DocumentJSON": null
+}

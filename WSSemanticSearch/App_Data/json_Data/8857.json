@@ -1,0 +1,100 @@
+{
+  "Conceptos": [
+    "condition"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "8857",
+    "title": "Inside in room",
+    "Private": false,
+    "tags": null,
+    "description": "Inside in room.\r\nIn this room, there is air-conditioning. \r\n\r\nlight...Cds\r\ntemperature...LM60BIZ\r\nhumidity...CHSGSS\r\n\r\ndiscomfort index is \"FUKAI_DOSU\".",
+    "feed": "https://api.xively.com/v2/feeds/8857.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "10/02/2012 11:31:32",
+    "created": "07/16/2010 08:40:07",
+    "creator": "https://xively.com/users/k_housebot",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "180",
+        "at": "12/04/2012 06:00:31",
+        "max_value": "986.0",
+        "min_value": "0.0",
+        "tags": [
+          "light"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "21",
+        "at": "12/04/2012 06:00:36",
+        "max_value": "95.0",
+        "min_value": "7.0",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "50",
+        "at": "12/04/2012 06:00:41",
+        "max_value": "108.0",
+        "min_value": "0.0",
+        "tags": [
+          "humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "66",
+        "at": "12/04/2012 06:00:45",
+        "max_value": "169.0",
+        "min_value": "46.0",
+        "tags": [
+          "discomfort index"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "saitamacity",
+      "domain": 0,
+      "lat": "35.8800794209884",
+      "lon": "139.626231193542",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/8857\" >Inside in room</a>",
+    "URLMostrar": "https://xively.com/feeds/8857"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\8857.json",
+  "DocumentJSON": null
+}

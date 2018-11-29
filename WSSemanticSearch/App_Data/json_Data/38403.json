@@ -1,0 +1,71 @@
+{
+  "Conceptos": [
+    "person"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "38403",
+    "title": "Nesl Occupancy",
+    "Private": false,
+    "tags": [
+      "Nesl",
+      "UCLA"
+    ],
+    "description": "Occupancy in the Nesl Lab",
+    "feed": "https://api.xively.com/v2/feeds/38403.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "12/10/2011 01:23:42",
+    "created": "10/30/2011 23:27:30",
+    "creator": "https://xively.com/users/jlindblom",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "2.0",
+        "at": "12/10/2011 01:23:42",
+        "max_value": "18.0",
+        "min_value": "-7.0",
+        "tags": [
+          "Occupants"
+        ],
+        "unit": {
+          "symbol": "persons",
+          "label": "persons",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "0.0",
+        "at": "12/10/2011 01:23:22",
+        "max_value": "40.0",
+        "min_value": "0.0",
+        "tags": [
+          "Door Opened"
+        ],
+        "unit": {
+          "symbol": "times",
+          "label": "times",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Westwood, California",
+      "domain": 0,
+      "lat": "34.069653658481",
+      "lon": "-118.445320129395",
+      "ele": "447",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/38403\" >Nesl Occupancy</a>",
+    "URLMostrar": "https://xively.com/feeds/38403"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\38403.json",
+  "DocumentJSON": null
+}

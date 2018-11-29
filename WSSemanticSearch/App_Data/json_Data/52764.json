@@ -1,0 +1,105 @@
+{
+  "Conceptos": [
+    "process"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "52764",
+    "title": "Hack your energy pull",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "energy meter",
+      "peripheria",
+      "processing"
+    ],
+    "description": "energy meter",
+    "feed": "https://api.xively.com/v2/feeds/52764.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "04/26/2013 07:56:59",
+    "created": "03/20/2012 14:46:59",
+    "creator": "https://xively.com/users/bop",
+    "version": null,
+    "website": "http://medea.malmo.se",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "-0.03",
+        "at": "04/26/2013 07:56:59",
+        "max_value": "1980.24",
+        "min_value": "-1.0",
+        "tags": [
+          "power device 0"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "W",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "0.22",
+        "at": "04/26/2013 07:56:59",
+        "max_value": "3.29",
+        "min_value": "-1.0",
+        "tags": [
+          "energy device 0"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "kWh",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "104.29",
+        "at": "04/26/2013 07:56:59",
+        "max_value": "1855.95",
+        "min_value": "-1.0",
+        "tags": [
+          "power device 1"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "W",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "28.96",
+        "at": "04/26/2013 07:56:59",
+        "max_value": "28.96",
+        "min_value": "-1.0",
+        "tags": [
+          "energy device 1"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "kWh",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Malmö, Sweden",
+      "domain": 0,
+      "lat": "55.6142317791585",
+      "lon": "12.9789733886719",
+      "ele": "Metres",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/52764\" >Hack your energy pull</a>",
+    "URLMostrar": "https://xively.com/feeds/52764"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\52764.json",
+  "DocumentJSON": null
+}

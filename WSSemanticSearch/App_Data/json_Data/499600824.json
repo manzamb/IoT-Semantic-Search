@@ -1,0 +1,103 @@
+{
+  "Conceptos": [
+    "environment"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "499600824",
+    "title": "DustDuino",
+    "Private": false,
+    "tags": [
+      "air monitoring",
+      "environmental monitoring"
+    ],
+    "description": "Open-source environmental monitoring.",
+    "feed": "https://api.xively.com/v2/feeds/499600824.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "01/26/2014 17:06:22",
+    "created": "05/14/2013 13:46:02",
+    "creator": "https://xively.com/users/dronejournalismwx",
+    "version": null,
+    "website": "http://mentalmunition.com",
+    "datastreams": [
+      {
+        "id": "PM10",
+        "current_value": "111",
+        "at": "01/26/2014 17:06:22",
+        "max_value": "4984.0",
+        "min_value": "0.0",
+        "tags": [
+          "coarse particle concentration"
+        ],
+        "unit": {
+          "symbol": "µg/m³",
+          "label": "microgram per cubic meter",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "PM10count",
+        "current_value": "345",
+        "at": "01/26/2014 17:06:22",
+        "max_value": "15491.0",
+        "min_value": "0.0",
+        "tags": [
+          "coarse particle count"
+        ],
+        "unit": {
+          "symbol": "pt/cf",
+          "label": "parts per cubic foot",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "PM25",
+        "current_value": "2369",
+        "at": "01/26/2014 17:06:22",
+        "max_value": "2369.0",
+        "min_value": "0.0",
+        "tags": [
+          "fine particle concentration"
+        ],
+        "unit": {
+          "symbol": "µg/m³",
+          "label": "microgram per cubic meter",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "PM25count",
+        "current_value": "1250",
+        "at": "01/26/2014 17:06:22",
+        "max_value": "3275.0",
+        "min_value": "1.0",
+        "tags": [
+          "fine particle count"
+        ],
+        "unit": {
+          "symbol": "pt/cf",
+          "label": "parts per cubic foot",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Home",
+      "domain": 0,
+      "lat": "40.1105875",
+      "lon": "-88.2072697",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/499600824\" >DustDuino</a>",
+    "URLMostrar": "https://xively.com/feeds/499600824"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\499600824.json",
+  "DocumentJSON": null
+}

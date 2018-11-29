@@ -1,0 +1,102 @@
+{
+  "Conceptos": [
+    "precipitation"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "74672",
+    "title": "A723_16818",
+    "Private": false,
+    "tags": [
+      "weather rain"
+    ],
+    "description": "A723 addIT,Temp + rH and Rain Gauge",
+    "feed": "https://api.xively.com/v2/feeds/74672.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/17/2014 22:22:52",
+    "created": "09/09/2012 14:28:31",
+    "creator": "https://xively.com/users/oe1gca1",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "6.875",
+        "at": "03/17/2014 22:22:52",
+        "max_value": "8.984",
+        "min_value": "0.0",
+        "tags": [
+          "Battery"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": "V",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "13.05100",
+        "at": "03/17/2014 22:22:52",
+        "max_value": "39.443",
+        "min_value": "-38.829",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "54.54100",
+        "at": "03/17/2014 22:22:52",
+        "max_value": "99.902",
+        "min_value": "0.0",
+        "tags": [
+          "relative Humidity"
+        ],
+        "unit": {
+          "symbol": "%rH",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "0.000",
+        "at": "03/17/2014 22:22:52",
+        "max_value": "4.4",
+        "min_value": "0.0",
+        "tags": [
+          "Precipitation"
+        ],
+        "unit": {
+          "symbol": "mm/m²",
+          "label": "mm/m²",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Vienna",
+      "domain": 0,
+      "lat": "48.1992349115312",
+      "lon": "16.4128929376602",
+      "ele": "200",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/74672\" >A723_16818</a>",
+    "URLMostrar": "https://xively.com/feeds/74672"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\74672.json",
+  "DocumentJSON": null
+}

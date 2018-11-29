@@ -1,0 +1,68 @@
+{
+  "Conceptos": [
+    "atmospheric pressure"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "64670",
+    "title": "weather",
+    "Private": false,
+    "tags": [
+      "atmospheric",
+      "pressure",
+      "shanghai"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/64670.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "07/07/2013 09:54:29",
+    "created": "06/24/2012 04:41:54",
+    "creator": "https://xively.com/users/cheng9393",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "humidity",
+        "current_value": "36",
+        "at": "07/07/2013 09:54:28",
+        "max_value": "60.0",
+        "min_value": "26.0",
+        "tags": null,
+        "unit": {
+          "symbol": "%RH",
+          "label": "Relative Humidity",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "tempreture",
+        "current_value": "30",
+        "at": "07/07/2013 09:54:28",
+        "max_value": "35.0",
+        "min_value": "27.0",
+        "tags": null,
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "shanghai",
+      "domain": 0,
+      "lat": "31.2409853780213",
+      "lon": "121.475830078125",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/64670\" >weather</a>",
+    "URLMostrar": "https://xively.com/feeds/64670"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\64670.json",
+  "DocumentJSON": null
+}

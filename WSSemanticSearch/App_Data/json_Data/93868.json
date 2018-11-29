@@ -1,0 +1,97 @@
+{
+  "Conceptos": [
+    "population"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "93868",
+    "title": "World RGB Display",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "Data",
+      "RGB",
+      "World"
+    ],
+    "description": "These streams control a map illuminated by RGB LEDs. This will be used to display different variables, such as energy consumption, population, electricity access etc.",
+    "feed": "https://api.xively.com/v2/feeds/93868.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "12/20/2012 18:53:21",
+    "created": "12/20/2012 18:48:45",
+    "creator": "https://xively.com/users/chunky",
+    "version": null,
+    "website": "http://www.re-innovation.co.uk",
+    "datastreams": [
+      {
+        "id": "Area1",
+        "current_value": "100",
+        "at": "12/20/2012 18:53:49",
+        "max_value": "100.0",
+        "min_value": "100.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Area2",
+        "current_value": "500",
+        "at": "12/20/2012 18:53:55",
+        "max_value": "500.0",
+        "min_value": "500.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Area3",
+        "current_value": "400",
+        "at": "12/20/2012 18:54:05",
+        "max_value": "400.0",
+        "min_value": "400.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Area4",
+        "current_value": "200",
+        "at": "12/20/2012 18:54:04",
+        "max_value": "200.0",
+        "min_value": "200.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Nottingham",
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/93868\" >World RGB Display</a>",
+    "URLMostrar": "https://xively.com/feeds/93868"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\93868.json",
+  "DocumentJSON": null
+}

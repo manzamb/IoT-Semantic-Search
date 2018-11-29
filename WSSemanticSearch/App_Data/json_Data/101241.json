@@ -1,0 +1,86 @@
+{
+  "Conceptos": [
+    "atmospheric pressure"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "101241",
+    "title": "Base Station",
+    "Private": false,
+    "tags": [
+      "Arduino"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/101241.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "06/28/2013 14:06:44",
+    "created": "01/29/2013 21:02:55",
+    "creator": "https://xively.com/users/turbulence21",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "81.4",
+        "at": "06/28/2013 14:06:44",
+        "max_value": "82.3",
+        "min_value": "68.9",
+        "tags": [
+          "Indoor Temp"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "°F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "65.9",
+        "at": "06/28/2013 14:06:44",
+        "max_value": "107.1",
+        "min_value": "38.5",
+        "tags": [
+          "Outdoor Temp"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "°F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "29.52",
+        "at": "06/28/2013 14:06:44",
+        "max_value": "30.74",
+        "min_value": "29.52",
+        "tags": [
+          "Atmospheric Pressure"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "inHg",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "42.343256877026",
+      "lon": "-71.0859203338623",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/101241\" >Base Station</a>",
+    "URLMostrar": "https://xively.com/feeds/101241"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\101241.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,119 @@
+{
+  "Conceptos": [
+    "environment"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "40020",
+    "title": "mbed Environmental monitor",
+    "Private": false,
+    "tags": [
+      "mbed",
+      "temp"
+    ],
+    "description": "Ch0:Temperature\r\nCh1:not measured\r\nCh2:not measured\r\nCh3:not measured\r\nCh4:not measured\r\n",
+    "feed": "https://api.xively.com/v2/feeds/40020.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:05:28",
+    "created": "11/20/2011 06:24:49",
+    "creator": "https://xively.com/users/kkmyktk",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "24.677071",
+        "at": "03/21/2014 14:05:22",
+        "max_value": "34.060516",
+        "min_value": "-1.461443",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "deg_C",
+          "label": "deg_C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "0.000000",
+        "at": "03/21/2014 14:05:23",
+        "max_value": "10.895088",
+        "min_value": "-5.30478",
+        "tags": [
+          "not measured"
+        ],
+        "unit": {
+          "symbol": "deg_C",
+          "label": "deg_C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "0.000000",
+        "at": "03/21/2014 14:05:25",
+        "max_value": "19.449613",
+        "min_value": "0.0",
+        "tags": [
+          "not measured"
+        ],
+        "unit": {
+          "symbol": "deg_C",
+          "label": "deg_C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "0.000000",
+        "at": "03/21/2014 14:05:26",
+        "max_value": "13.168032",
+        "min_value": "0.0",
+        "tags": [
+          "not measured"
+        ],
+        "unit": {
+          "symbol": "deg_C",
+          "label": "deg_C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "0.000000",
+        "at": "03/21/2014 14:05:28",
+        "max_value": "13.333336",
+        "min_value": "-0.965529",
+        "tags": [
+          "not measured"
+        ],
+        "unit": {
+          "symbol": "deg_C",
+          "label": "deg_C",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Japan",
+      "domain": 1,
+      "lat": "36.0635318429721",
+      "lon": "140.147845745087",
+      "ele": "20",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/40020\" >mbed Environmental monitor</a>",
+    "URLMostrar": "https://xively.com/feeds/40020"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\40020.json",
+  "DocumentJSON": null
+}

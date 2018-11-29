@@ -1,0 +1,61 @@
+{
+  "Conceptos": [
+    "solar radiation"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "74891",
+    "title": "TXWX Weather",
+    "Private": false,
+    "tags": [
+      "daily rainfall",
+      "humidity",
+      "lightning",
+      "monthly rainfall",
+      "outdoor temperature",
+      "pressure",
+      "solar radiation",
+      "voltage",
+      "wind direction",
+      "wind speed"
+    ],
+    "description": "Weather Data",
+    "feed": "https://api.xively.com/v2/feeds/74891.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "09/10/2012 22:16:19",
+    "created": "09/10/2012 21:07:33",
+    "creator": "https://xively.com/users/dbpweatherman",
+    "version": null,
+    "website": "http://texas-weather.com/txwxupload/skillman/xml/txwx.xml",
+    "datastreams": [
+      {
+        "id": "txwx",
+        "current_value": "57",
+        "at": "09/10/2012 21:17:37",
+        "max_value": "57.0",
+        "min_value": "57.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Texas Weather Instruments",
+      "domain": 0,
+      "lat": "32.907910775679",
+      "lon": "-96.7012310028076",
+      "ele": "150",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/74891\" >TXWX Weather</a>",
+    "URLMostrar": "https://xively.com/feeds/74891"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\74891.json",
+  "DocumentJSON": null
+}

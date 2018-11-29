@@ -1,0 +1,100 @@
+{
+  "Conceptos": [
+    "action"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "36999",
+    "title": "Laser",
+    "Private": false,
+    "tags": null,
+    "description": "WJE testing",
+    "feed": "https://api.xively.com/v2/feeds/36999.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "10/24/2011 16:31:59",
+    "created": "10/06/2011 18:45:36",
+    "creator": "https://xively.com/users/rlindenberg",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "4.358711",
+        "at": "10/24/2011 16:31:52",
+        "max_value": "163.572754",
+        "min_value": "-1.413846",
+        "tags": [
+          "Distance laser"
+        ],
+        "unit": {
+          "symbol": "DL",
+          "label": "ft",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "1792.726563",
+        "at": "10/24/2011 16:31:54",
+        "max_value": "1500795.911499",
+        "min_value": "-462169.489793",
+        "tags": [
+          "Reaction Load"
+        ],
+        "unit": {
+          "symbol": "DS",
+          "label": "lbf",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "-10113.840625",
+        "at": "10/24/2011 16:31:59",
+        "max_value": "3905260.275",
+        "min_value": "-406392.738086",
+        "tags": [
+          "Midspan Load"
+        ],
+        "unit": {
+          "symbol": "MS",
+          "label": "lbf",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "0.001000",
+        "at": "10/24/2011 16:31:50",
+        "max_value": "11.274976",
+        "min_value": "-10.636642",
+        "tags": [
+          "IR target"
+        ],
+        "unit": {
+          "symbol": "LT",
+          "label": "V",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "WJE",
+      "domain": 0,
+      "lat": "42.147",
+      "lon": "-87.85027",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/36999\" >Laser</a>",
+    "URLMostrar": "https://xively.com/feeds/36999"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\36999.json",
+  "DocumentJSON": null
+}

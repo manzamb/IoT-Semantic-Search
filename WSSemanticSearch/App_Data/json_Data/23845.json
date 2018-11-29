@@ -1,0 +1,88 @@
+{
+  "Conceptos": [
+    "ozone"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "23845",
+    "title": "Air Quality Index: Newbury, Massachusetts",
+    "Private": false,
+    "tags": [
+      "airnow:cityid=462",
+      "webscrape"
+    ],
+    "description": "Air Quality Index and pollutant data for Newbury, Massachusetts webscraped from http://www.airnow.gov/. AIRNow observational data are not fully verified or validated; these data are subject to change and should be considered preliminary. If observational data are used for analyses, displayed on web pages, or used for other programs or products, the analysis results, displays, or products must indicate that these data are preliminary.",
+    "feed": "https://api.xively.com/v2/feeds/23845.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/21/2014 13:43:19",
+    "created": "04/19/2011 10:49:04",
+    "creator": "https://xively.com/users/air_now",
+    "version": null,
+    "website": "http://www.airnow.gov/",
+    "datastreams": [
+      {
+        "id": "aqi",
+        "current_value": "40",
+        "at": "03/21/2014 13:43:19",
+        "max_value": "156.0",
+        "min_value": "0.0",
+        "tags": [
+          "air quality index",
+          "pollution"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "ozone",
+        "current_value": "30",
+        "at": "03/21/2014 11:41:58",
+        "max_value": "152.0",
+        "min_value": "3.0",
+        "tags": [
+          "ozone"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "pm2.5",
+        "current_value": "40",
+        "at": "03/21/2014 13:43:19",
+        "max_value": "109.0",
+        "min_value": "0.0",
+        "tags": [
+          "PM2.5"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Newbury, Massachusetts",
+      "domain": 0,
+      "lat": "42.7667589",
+      "lon": "-70.8453293",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/23845\" >Air Quality Index: Newbury, Massachusetts</a>",
+    "URLMostrar": "https://xively.com/feeds/23845"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\23845.json",
+  "DocumentJSON": null
+}

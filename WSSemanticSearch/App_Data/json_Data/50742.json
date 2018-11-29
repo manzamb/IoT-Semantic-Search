@@ -1,0 +1,295 @@
+{
+  "Conceptos": [
+    "co2"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "50742",
+    "title": "Smart Building CSI Piemonte",
+    "Private": false,
+    "tags": [
+      "csi piemonte",
+      "smart building"
+    ],
+    "description": "Sommario dei sensori CSI Piemonte",
+    "feed": "https://api.xively.com/v2/feeds/50742.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "06/13/2013 00:22:12",
+    "created": "03/06/2012 08:34:43",
+    "creator": "https://xively.com/users/sala_ambiente",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "rs485_1_C",
+        "current_value": "90",
+        "at": "06/13/2013 00:22:12",
+        "max_value": "719.0",
+        "min_value": "0.0",
+        "tags": [
+          "Anidride carbonica"
+        ],
+        "unit": {
+          "symbol": "ppm",
+          "label": "CO2",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "rs485_1_L",
+        "current_value": "0",
+        "at": "06/13/2013 00:22:12",
+        "max_value": "13102.0",
+        "min_value": "0.0",
+        "tags": [
+          "Luminosità ambientale"
+        ],
+        "unit": {
+          "symbol": "Lm",
+          "label": "Lumen",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "rs485_1_T",
+        "current_value": "21.0",
+        "at": "06/13/2013 00:22:12",
+        "max_value": "3347.0",
+        "min_value": "4.0",
+        "tags": [
+          "Temperatura"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "rs485_1_U",
+        "current_value": "31.0",
+        "at": "06/13/2013 00:22:12",
+        "max_value": "71.0",
+        "min_value": "5.0",
+        "tags": [
+          "Umidità relativa"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "Relative Umidity",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "rs485_2_C",
+        "current_value": "127",
+        "at": "06/13/2013 00:22:12",
+        "max_value": "679.0",
+        "min_value": "0.0",
+        "tags": [
+          "Anidride carbonica"
+        ],
+        "unit": {
+          "symbol": "ppm",
+          "label": "CO2",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "rs485_2_L",
+        "current_value": "0",
+        "at": "06/13/2013 00:22:12",
+        "max_value": "13090.0",
+        "min_value": "0.0",
+        "tags": [
+          "Luminosità ambientale"
+        ],
+        "unit": {
+          "symbol": "Lm",
+          "label": "Lumen",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "rs485_2_T",
+        "current_value": "22.0",
+        "at": "06/13/2013 00:22:12",
+        "max_value": "32.0",
+        "min_value": "4.0",
+        "tags": [
+          "Temperatura"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "rs485_2_U",
+        "current_value": "29.0",
+        "at": "06/13/2013 00:22:12",
+        "max_value": "58.0",
+        "min_value": "6.0",
+        "tags": [
+          "Umidità relativa"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "Relative Umidity",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "rs485_3_C",
+        "current_value": "122",
+        "at": "06/13/2013 00:22:12",
+        "max_value": "897.0",
+        "min_value": "0.0",
+        "tags": [
+          "Anidride carbonica"
+        ],
+        "unit": {
+          "symbol": "ppm",
+          "label": "CO2",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "rs485_3_L",
+        "current_value": "0",
+        "at": "06/13/2013 00:22:12",
+        "max_value": "13105.0",
+        "min_value": "0.0",
+        "tags": [
+          "Luminosità ambientale"
+        ],
+        "unit": {
+          "symbol": "Lm",
+          "label": "Lumen",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "rs485_3_T",
+        "current_value": "23.0",
+        "at": "06/13/2013 00:22:12",
+        "max_value": "31.0",
+        "min_value": "4.0",
+        "tags": [
+          "Temperatura"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "rs485_3_U",
+        "current_value": "29.0",
+        "at": "06/13/2013 00:22:12",
+        "max_value": "70.0",
+        "min_value": "6.0",
+        "tags": [
+          "Umidità relativa"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "Relative Umidity",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "rs485_4_C",
+        "current_value": "87",
+        "at": "06/13/2013 00:22:12",
+        "max_value": "923.0",
+        "min_value": "0.0",
+        "tags": [
+          "Anidride carbonica"
+        ],
+        "unit": {
+          "symbol": "ppm",
+          "label": "CO2",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "rs485_4_L",
+        "current_value": "0",
+        "at": "06/13/2013 00:22:12",
+        "max_value": "13071.0",
+        "min_value": "0.0",
+        "tags": [
+          "Luminosità ambientale"
+        ],
+        "unit": {
+          "symbol": "Lm",
+          "label": "Lumen",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "rs485_4_T",
+        "current_value": "24.0",
+        "at": "06/13/2013 00:22:12",
+        "max_value": "32.0",
+        "min_value": "10.0",
+        "tags": [
+          "Temperatura"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "rs485_4_U",
+        "current_value": "27.0",
+        "at": "06/13/2013 00:22:12",
+        "max_value": "69.0",
+        "min_value": "9.0",
+        "tags": [
+          "Umidità relativa"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "Relative Umidity",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Turin",
+      "domain": 0,
+      "lat": "45.0359430227481",
+      "lon": "7.61713027954102",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/50742\" >Smart Building CSI Piemonte</a>",
+    "URLMostrar": "https://xively.com/feeds/50742"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\50742.json",
+  "DocumentJSON": null
+}

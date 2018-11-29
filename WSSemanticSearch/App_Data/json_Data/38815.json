@@ -1,0 +1,133 @@
+{
+  "Conceptos": [
+    "device"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "38815",
+    "title": "Wattchy",
+    "Private": false,
+    "tags": [
+      "electricity",
+      "IPswitch kWh",
+      "power consumption",
+      "watt"
+    ],
+    "description": "Real time power consumption data of a domestic home using an IPswitch kWh device.\r\n\r\nData of 3 phases is collected using Google App Engine and transferred to Pachube afterwards.",
+    "feed": "https://api.xively.com/v2/feeds/38815.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:12:07",
+    "created": "11/05/2011 22:51:49",
+    "creator": "https://xively.com/users/ha247",
+    "version": null,
+    "website": "http://wattchy.sensorius.de",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "70",
+        "at": "03/21/2014 14:12:06",
+        "max_value": "13301024.0",
+        "min_value": "-37915808.0",
+        "tags": [
+          "power"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "W",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "94080",
+        "at": "03/21/2014 00:00:00",
+        "max_value": "1376814.0",
+        "min_value": "-37832338.0",
+        "tags": [
+          "power"
+        ],
+        "unit": {
+          "symbol": "Wh",
+          "label": "Wh",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "116.279069767",
+        "at": "03/21/2014 14:12:06",
+        "max_value": "10000.0",
+        "min_value": "-646553.007179",
+        "tags": null,
+        "unit": {
+          "symbol": "W",
+          "label": "Watt",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "939.05",
+        "at": "03/21/2014 00:00:00",
+        "max_value": "12597.17",
+        "min_value": "-343755.2",
+        "tags": [
+          "cost"
+        ],
+        "unit": {
+          "symbol": "€",
+          "label": "Euro",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "2.34",
+        "at": "03/21/2014 14:00:00",
+        "max_value": "34.28",
+        "min_value": "-942.03",
+        "tags": [
+          "cost"
+        ],
+        "unit": {
+          "symbol": "€",
+          "label": "Euro",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "12",
+        "current_value": "133.377792598",
+        "at": "03/21/2014 14:11:18",
+        "max_value": "6854100.0",
+        "min_value": "-631622.515784",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Ahrensburg",
+      "domain": 0,
+      "lat": "53.6728157675267",
+      "lon": "10.2486991882324",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/38815\" >Wattchy</a>",
+    "URLMostrar": "https://xively.com/feeds/38815"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\38815.json",
+  "DocumentJSON": null
+}

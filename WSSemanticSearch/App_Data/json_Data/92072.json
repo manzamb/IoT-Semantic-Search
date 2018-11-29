@@ -1,0 +1,152 @@
+{
+  "Conceptos": [
+    "time interval"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "92072",
+    "title": "Power Usage",
+    "Private": false,
+    "tags": [
+      "Arduino",
+      "Battery",
+      "Current",
+      "Home",
+      "OEM",
+      "Open Energy Monitor",
+      "Openenergymonitor",
+      "Power"
+    ],
+    "description": "Power Comsumption Feed, built using an AVR ATTiny84 micro controller and RFM12b transceivers using an ATMega328 and ENC28j60 as a base station. Libraries from open energy monitor and jeelabs.",
+    "feed": "https://api.xively.com/v2/feeds/92072.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "07/09/2013 04:47:41",
+    "created": "12/15/2012 09:37:23",
+    "creator": "https://xively.com/users/danward79",
+    "version": null,
+    "website": "http://www.africanuhambo.co.uk",
+    "datastreams": [
+      {
+        "id": "Battery",
+        "current_value": "3264",
+        "at": "07/09/2013 04:47:41",
+        "max_value": "23744.0",
+        "min_value": "2880.0",
+        "tags": [
+          "Battery",
+          "DC",
+          "Milli-volts",
+          "Sensor"
+        ],
+        "unit": {
+          "symbol": "mV",
+          "label": "Volts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "CO2",
+        "current_value": "0.01",
+        "at": "07/09/2013 04:47:41",
+        "max_value": "26.05",
+        "min_value": "0.0",
+        "tags": [
+          "Carbon Dioxide",
+          "CO2"
+        ],
+        "unit": {
+          "symbol": "kg",
+          "label": "kg",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Current",
+        "current_value": "0.83",
+        "at": "07/09/2013 04:47:41",
+        "max_value": "36.42",
+        "min_value": "0.0",
+        "tags": [
+          "AC",
+          "Amps",
+          "Current"
+        ],
+        "unit": {
+          "symbol": "A",
+          "label": "Amps",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Interval",
+        "current_value": "5865",
+        "at": "07/09/2013 04:47:41",
+        "max_value": "20754863.0",
+        "min_value": "75.0",
+        "tags": [
+          "Interval",
+          "Reading",
+          "Time"
+        ],
+        "unit": {
+          "symbol": "s",
+          "label": "Seconds",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "kWh",
+        "current_value": "0.01",
+        "at": "07/09/2013 04:47:41",
+        "max_value": "50.01",
+        "min_value": "0.0",
+        "tags": [
+          "Energy",
+          "kWh"
+        ],
+        "unit": {
+          "symbol": "kWh",
+          "label": "Kilo Watt Hours",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Power",
+        "current_value": "199.57",
+        "at": "07/09/2013 04:47:41",
+        "max_value": "8740.48",
+        "min_value": "0.31",
+        "tags": [
+          "",
+          "Power",
+          "Watts"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Hove, East Sussex, United Kingdom",
+      "domain": 0,
+      "lat": "50.8301062275332",
+      "lon": "-0.185211896896362",
+      "ele": "20",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/92072\" >Power Usage</a>",
+    "URLMostrar": "https://xively.com/feeds/92072"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\92072.json",
+  "DocumentJSON": null
+}

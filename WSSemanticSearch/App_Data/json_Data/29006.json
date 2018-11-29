@@ -1,0 +1,184 @@
+{
+  "Conceptos": [
+    "wind"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "29006",
+    "title": "Weather Station",
+    "Private": false,
+    "tags": [
+      "hasselt",
+      "temperature",
+      "weather"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/29006.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:05:06",
+    "created": "06/29/2011 15:15:04",
+    "creator": "https://xively.com/users/vodka",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "11.6",
+        "at": "03/21/2014 14:05:06",
+        "max_value": "100.0",
+        "min_value": "0.0",
+        "tags": [
+          "Zwemvijver"
+        ],
+        "unit": {
+          "symbol": "℃",
+          "label": "celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "9.0",
+        "at": "03/21/2014 14:05:06",
+        "max_value": "100.0",
+        "min_value": "-13.7",
+        "tags": [
+          "Combi"
+        ],
+        "unit": {
+          "symbol": "℃",
+          "label": "celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "20.0",
+        "at": "03/21/2014 14:05:06",
+        "max_value": "36.1",
+        "min_value": "8.0",
+        "tags": [
+          "Master Bedroom"
+        ],
+        "unit": {
+          "symbol": "℃",
+          "label": "celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "0",
+        "at": "03/21/2014 14:05:06",
+        "max_value": "1461.0",
+        "min_value": "0.0",
+        "tags": [
+          "Gas"
+        ],
+        "unit": {
+          "symbol": "m3",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "0",
+        "at": "03/21/2014 14:05:06",
+        "max_value": "1648.288",
+        "min_value": "0.0",
+        "tags": [
+          "Electricity"
+        ],
+        "unit": {
+          "symbol": "kw/h",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "13.9",
+        "at": "03/21/2014 14:05:06",
+        "max_value": "3628.5",
+        "min_value": "-0.9",
+        "tags": [
+          "Rain"
+        ],
+        "unit": {
+          "symbol": "mm/24h",
+          "label": "mm/24h",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "5.2",
+        "at": "03/21/2014 14:05:06",
+        "max_value": "200.0",
+        "min_value": "0.0",
+        "tags": [
+          "windspeed"
+        ],
+        "unit": {
+          "symbol": "km/h",
+          "label": "km/h",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "7",
+        "current_value": "1006",
+        "at": "03/21/2014 14:05:06",
+        "max_value": "9991.0",
+        "min_value": "968.0",
+        "tags": [
+          "QNH"
+        ],
+        "unit": {
+          "symbol": "hPa",
+          "label": "hPa",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "8",
+        "current_value": "0",
+        "at": "03/21/2014 14:05:06",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "Raining"
+        ],
+        "unit": {
+          "symbol": "yes/no",
+          "label": "yes/no",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Hasselt",
+      "domain": 0,
+      "lat": "50.939284342717",
+      "lon": "5.3303861618042",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/29006\" >Weather Station</a>",
+    "URLMostrar": "https://xively.com/feeds/29006"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\29006.json",
+  "DocumentJSON": null
+}

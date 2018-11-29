@@ -1,0 +1,86 @@
+{
+  "Conceptos": [
+    "right"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "1866893740",
+    "title": "mBed Development Board",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/1866893740.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "12/12/2013 19:25:38",
+    "created": "11/21/2013 19:05:03",
+    "creator": "https://xively.com/users/clillios",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "orientation",
+        "current_value": "3.000000",
+        "at": "12/12/2013 19:25:38",
+        "max_value": "4.0",
+        "min_value": "0.0",
+        "tags": [
+          "1=down",
+          "2-up",
+          "3=right",
+          "4=left"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "side_rotation",
+        "current_value": "1.000000",
+        "at": "12/12/2013 19:25:38",
+        "max_value": "2.0",
+        "min_value": "1.0",
+        "tags": [
+          "1=front",
+          "2=back"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temperature",
+        "current_value": "22.625000",
+        "at": "12/12/2013 19:25:38",
+        "max_value": "34.25",
+        "min_value": "22.375",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Laboratory",
+      "domain": 0,
+      "lat": "37.424106",
+      "lon": "-122.1660756",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/1866893740\" >mBed Development Board</a>",
+    "URLMostrar": "https://xively.com/feeds/1866893740"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\1866893740.json",
+  "DocumentJSON": null
+}

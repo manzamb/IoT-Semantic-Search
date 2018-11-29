@@ -1,0 +1,124 @@
+{
+  "Conceptos": [
+    "physical"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "1852210454",
+    "title": "Water Heating Monitor",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/1852210454.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "02/13/2014 19:02:57",
+    "created": "05/27/2013 18:30:14",
+    "creator": "https://xively.com/users/julian_harrison",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Cylinder_Heater",
+        "current_value": "0.00",
+        "at": "02/13/2014 19:02:56",
+        "max_value": "255.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "1=ON 0=OFF",
+          "label": "On Off",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Cylinder_Temp",
+        "current_value": "18.00",
+        "at": "02/13/2014 19:02:56",
+        "max_value": "71.0",
+        "min_value": "-15.0",
+        "tags": [
+          "Measured from lower part of tank"
+        ],
+        "unit": {
+          "symbol": "Deg C",
+          "label": "Deg C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Kiwi_Power",
+        "current_value": "0.00",
+        "at": "02/13/2014 19:02:56",
+        "max_value": "92.0",
+        "min_value": "0.0",
+        "tags": [
+          "Ripple Control"
+        ],
+        "unit": {
+          "symbol": "1=ON  0=OFF",
+          "label": "ON  OFF",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Noise_Level",
+        "current_value": "45.00",
+        "at": "02/13/2014 19:02:56",
+        "max_value": "98.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "dBA",
+          "label": "dBA",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Wetback_Input",
+        "current_value": "18.00",
+        "at": "02/13/2014 19:02:56",
+        "max_value": "82.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "Deg C",
+          "label": "Deg C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Wetback_Output",
+        "current_value": "18.00",
+        "at": "02/13/2014 19:02:56",
+        "max_value": "66.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "Deg C",
+          "label": "Deg C",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Home",
+      "domain": 0,
+      "lat": "-37.821338922519",
+      "lon": "176.04927778244",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/1852210454\" >Water Heating Monitor</a>",
+    "URLMostrar": "https://xively.com/feeds/1852210454"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\1852210454.json",
+  "DocumentJSON": null
+}

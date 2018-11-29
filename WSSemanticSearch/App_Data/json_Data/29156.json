@@ -1,0 +1,77 @@
+{
+  "Conceptos": [
+    "mp10"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "29156",
+    "title": "Home Monitoring",
+    "Private": false,
+    "tags": [
+      "Arduino",
+      "DD-WRT",
+      "HIH-4030",
+      "Humidity",
+      "Japan",
+      "Temperature",
+      "TMP102",
+      "WHR-G54S"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/29156.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "01/22/2012 02:14:47",
+    "created": "07/02/2011 00:52:06",
+    "creator": "https://xively.com/users/smarthomelife",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "19.43",
+        "at": "01/22/2012 02:14:47",
+        "max_value": "32.5",
+        "min_value": "0.27",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "40.76",
+        "at": "01/22/2012 02:14:47",
+        "max_value": "85.18",
+        "min_value": "22.76",
+        "tags": [
+          "Humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "Percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Hirakawa-shi, Aomori, Japan",
+      "domain": 0,
+      "lat": "40.5854409717019",
+      "lon": "140.566420555115",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/29156\" >Home Monitoring</a>",
+    "URLMostrar": "https://xively.com/feeds/29156"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\29156.json",
+  "DocumentJSON": null
+}

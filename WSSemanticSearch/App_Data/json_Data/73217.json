@@ -1,0 +1,134 @@
+{
+  "Conceptos": [
+    "thermistor"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "73217",
+    "title": "JavaSensors",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "back yard",
+      "sensors"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/73217.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "11/28/2012 01:50:55",
+    "created": "08/31/2012 11:48:24",
+    "creator": "https://xively.com/users/nomadau",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Battery",
+        "current_value": "400",
+        "at": "11/28/2012 01:50:55",
+        "max_value": "25970.0",
+        "min_value": "61.0",
+        "tags": [
+          "relative voltage of Lithium Battery"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "ElectricityUsage",
+        "current_value": "150",
+        "at": "11/28/2012 01:50:55",
+        "max_value": "150.0",
+        "min_value": "100.0",
+        "tags": [
+          "Electricity used"
+        ],
+        "unit": {
+          "symbol": "WH",
+          "label": "Watt hours",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Humidity",
+        "current_value": "3600",
+        "at": "11/28/2012 01:50:55",
+        "max_value": "25856.0",
+        "min_value": "0.0",
+        "tags": [
+          "Relative air humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Light",
+        "current_value": "0",
+        "at": "11/28/2012 01:50:55",
+        "max_value": "29298.0",
+        "min_value": "0.0",
+        "tags": [
+          "relative light intensity"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperature",
+        "current_value": "2525",
+        "at": "11/28/2012 01:50:55",
+        "max_value": "29298.0",
+        "min_value": "1110.0",
+        "tags": null,
+        "unit": {
+          "symbol": "c",
+          "label": "degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperature2",
+        "current_value": "340",
+        "at": "11/28/2012 01:50:55",
+        "max_value": "25970.0",
+        "min_value": "340.0",
+        "tags": [
+          "Thermistor measurement"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "JavaOnJava",
+      "domain": 0,
+      "lat": "-33.439964842761",
+      "lon": "151.342420578003",
+      "ele": "30m",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/73217\" >JavaSensors</a>",
+    "URLMostrar": "https://xively.com/feeds/73217"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\73217.json",
+  "DocumentJSON": null
+}

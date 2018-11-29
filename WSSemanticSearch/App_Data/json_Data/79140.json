@@ -1,0 +1,56 @@
+{
+  "Conceptos": [
+    "mp10"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "79140",
+    "title": "Pi TMP102 Temp",
+    "Private": false,
+    "tags": [
+      "RaspBerryPi",
+      "Temp",
+      "TMP102"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/79140.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "10/12/2012 00:33:51",
+    "created": "10/07/2012 06:49:57",
+    "creator": "https://xively.com/users/drew",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Temperature",
+        "current_value": "78.4",
+        "at": "10/12/2012 00:33:51",
+        "max_value": "82.5",
+        "min_value": "32.1125",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/79140\" >Pi TMP102 Temp</a>",
+    "URLMostrar": "https://xively.com/feeds/79140"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\79140.json",
+  "DocumentJSON": null
+}

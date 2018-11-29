@@ -1,0 +1,104 @@
+{
+  "Conceptos": [
+    "humedad"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "98998",
+    "title": "SenseCluod_0.1",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "sense",
+      "temp"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/98998.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "01/25/2013 17:10:38",
+    "created": "01/20/2013 13:23:49",
+    "creator": "https://xively.com/users/cpacheco",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "205",
+        "at": "01/25/2013 17:10:37",
+        "max_value": "529.0",
+        "min_value": "3.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "44",
+        "at": "01/25/2013 17:10:37",
+        "max_value": "143.0",
+        "min_value": "1.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Humedad",
+        "current_value": "35.00",
+        "at": "01/25/2013 16:31:57",
+        "max_value": "60.0",
+        "min_value": "35.0",
+        "tags": [
+          "humedad",
+          "sensecloud",
+          "test"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "HR",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperatura",
+        "current_value": "25.00",
+        "at": "01/25/2013 16:31:57",
+        "max_value": "25.0",
+        "min_value": "21.0",
+        "tags": [
+          "sensecloud",
+          "temperatura",
+          "test"
+        ],
+        "unit": {
+          "symbol": "°",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "UTN",
+      "domain": 0,
+      "lat": "-34.1787372257037",
+      "lon": "-58.9621424674988",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/98998\" >SenseCluod_0.1</a>",
+    "URLMostrar": "https://xively.com/feeds/98998"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\98998.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,104 @@
+{
+  "Conceptos": [
+    "longitud"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "54004",
+    "title": "Power",
+    "Private": false,
+    "tags": null,
+    "description": "Dave's 'smart meter'",
+    "feed": "https://api.xively.com/v2/feeds/54004.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "06/20/2013 01:44:57",
+    "created": "03/31/2012 03:54:47",
+    "creator": "https://xively.com/users/davehart",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "0.00",
+        "at": "06/20/2013 01:44:57",
+        "max_value": "3000.0",
+        "min_value": "0.0",
+        "tags": [
+          "power"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "38.5631",
+        "at": "06/20/2013 01:44:57",
+        "max_value": "38.5631",
+        "min_value": "38.5631",
+        "tags": [
+          "lat",
+          "latitude"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "-121.714",
+        "at": "06/20/2013 01:44:57",
+        "max_value": "-121.714",
+        "min_value": "-121.714",
+        "tags": [
+          "lon",
+          "longitude"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "38.8763",
+        "at": "06/20/2013 01:44:57",
+        "max_value": "38.8763",
+        "min_value": "38.8763",
+        "tags": [
+          "alt",
+          "altitude",
+          "elevation"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "38.5631",
+      "lon": "-121.714",
+      "ele": "38.8763",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/54004\" >Power</a>",
+    "URLMostrar": "https://xively.com/feeds/54004"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\54004.json",
+  "DocumentJSON": null
+}

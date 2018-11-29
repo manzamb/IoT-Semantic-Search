@@ -1,0 +1,122 @@
+{
+  "Conceptos": [
+    "plan"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "266310813",
+    "title": "Ambient RGB Levels",
+    "Private": false,
+    "tags": [
+      "Ambient RGB-Lux-ColorTemp"
+    ],
+    "description": "Logging ambient colors specifically blue values as this affects the human sleep cycle. Plan to log various light sources around the house.",
+    "feed": "https://api.xively.com/v2/feeds/266310813.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "12/19/2013 15:29:53",
+    "created": "10/28/2013 00:04:48",
+    "creator": "https://xively.com/users/mobilewill",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Blue",
+        "current_value": "12",
+        "at": "12/19/2013 15:29:52",
+        "max_value": "3278.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "Blue",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Clear",
+        "current_value": "29",
+        "at": "12/19/2013 15:29:52",
+        "max_value": "10434.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "Clear",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "ColorTemp",
+        "current_value": "8890",
+        "at": "12/19/2013 15:29:52",
+        "max_value": "55934.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "K",
+          "label": "Kelvin",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Green",
+        "current_value": "12",
+        "at": "12/19/2013 15:29:52",
+        "max_value": "3458.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "Green",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Lux",
+        "current_value": "6",
+        "at": "12/19/2013 15:29:52",
+        "max_value": "65535.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "Lux",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Red",
+        "current_value": "12",
+        "at": "12/19/2013 15:29:52",
+        "max_value": "3681.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "Red",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Desk",
+      "domain": 0,
+      "lat": "36.7184776389594",
+      "lon": "-121.919172875",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/266310813\" >Ambient RGB Levels</a>",
+    "URLMostrar": "https://xively.com/feeds/266310813"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\266310813.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,78 @@
+{
+  "Conceptos": [
+    "physical object"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "71574",
+    "title": "NetRad Radiation Counter Ardenne",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "sensor:calibrated=true",
+      "sensor:covered=true",
+      "sensor:detectable=beta_gamma",
+      "sensor:model=sbm-20",
+      "sensor:object=air",
+      "sensor:orientation=face_down",
+      "sensor:type=radiation",
+      "source:type=citizen"
+    ],
+    "description": "Freakduino and NetRad powered radiation counter using SBM-20 Geiger-Muller tube.",
+    "feed": "https://api.xively.com/v2/feeds/71574.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "12/23/2012 07:28:33",
+    "created": "08/19/2012 06:32:23",
+    "creator": "https://xively.com/users/lbergeret",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "38.000",
+        "at": "12/23/2012 07:28:33",
+        "max_value": "170.0",
+        "min_value": "8.0",
+        "tags": [
+          "radiation sensor"
+        ],
+        "unit": {
+          "symbol": "cpm",
+          "label": "counts/minute",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "0.255",
+        "at": "12/23/2012 07:28:33",
+        "max_value": "1.139",
+        "min_value": "0.054",
+        "tags": [
+          "radiation sensor"
+        ],
+        "unit": {
+          "symbol": "µSv/h",
+          "label": "microsieverts/h",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "49.9411675710617",
+      "lon": "5.01646041870117",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/71574\" >NetRad Radiation Counter Ardenne</a>",
+    "URLMostrar": "https://xively.com/feeds/71574"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\71574.json",
+  "DocumentJSON": null
+}

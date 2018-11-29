@@ -1,0 +1,113 @@
+{
+  "Conceptos": [
+    "parameter"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "1536",
+    "title": "UusHuus stats",
+    "Private": false,
+    "tags": [
+      "Belgium"
+    ],
+    "description": "Live parameters from our home monitoring system, currently only solar heating system top/bottom temperature.",
+    "feed": "https://api.xively.com/v2/feeds/1536.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:10:44",
+    "created": "03/15/2009 20:53:32",
+    "creator": "https://xively.com/users/hollie",
+    "version": null,
+    "website": "http://lika.be/stats",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "64.9",
+        "at": "03/21/2014 14:10:44",
+        "max_value": "90.4",
+        "min_value": "0.0",
+        "tags": [
+          "boiler",
+          "solar",
+          "temperature",
+          "top"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "degrees Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "60.8",
+        "at": "03/21/2014 14:10:44",
+        "max_value": "96.7",
+        "min_value": "0.0",
+        "tags": [
+          "boiler",
+          "bottom",
+          "solar",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "degrees Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "53.3",
+        "at": "03/21/2014 14:10:44",
+        "max_value": "137.4",
+        "min_value": "-13.4",
+        "tags": [
+          "boiler",
+          "panel",
+          "solar",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "degrees Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "0",
+        "at": "03/21/2014 14:10:44",
+        "max_value": "30.0",
+        "min_value": "0.0",
+        "tags": [
+          "boiler",
+          "pump",
+          "solar"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "proportional, 30 == max",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Oostende",
+      "domain": 0,
+      "lat": "51.1969442521907",
+      "lon": "2.98228919506073",
+      "ele": "1",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/1536\" >UusHuus stats</a>",
+    "URLMostrar": "https://xively.com/feeds/1536"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\1536.json",
+  "DocumentJSON": null
+}

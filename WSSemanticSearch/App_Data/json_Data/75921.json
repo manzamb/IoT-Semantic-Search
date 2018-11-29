@@ -1,0 +1,228 @@
+{
+  "Conceptos": [
+    "wind"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "75921",
+    "title": "Puyallup Valley Weather",
+    "Private": false,
+    "tags": [
+      "Netduino"
+    ],
+    "description": "Weather Station Prototype",
+    "feed": "https://api.xively.com/v2/feeds/75921.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:07:22",
+    "created": "09/16/2012 00:09:43",
+    "creator": "https://xively.com/users/cyboss",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "aT",
+        "current_value": "30.31",
+        "at": "03/21/2014 14:07:22",
+        "max_value": "95.22",
+        "min_value": "0.0",
+        "tags": [
+          "Onewire Temp"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "bS",
+        "current_value": "32.23",
+        "at": "03/21/2014 14:07:22",
+        "max_value": "97.56",
+        "min_value": "0.0",
+        "tags": [
+          "Sensiron Temp"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "bV",
+        "current_value": "2.97",
+        "at": "03/21/2014 14:07:22",
+        "max_value": "1023.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "cB",
+        "current_value": "70.70",
+        "at": "03/21/2014 14:07:22",
+        "max_value": "102.2",
+        "min_value": "63.14",
+        "tags": [
+          "Bosch Temp"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "dH",
+        "current_value": "81.41",
+        "at": "03/21/2014 14:07:22",
+        "max_value": "102.75",
+        "min_value": "0.0",
+        "tags": [
+          "Relative Humidity"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "eP",
+        "current_value": "30.30",
+        "at": "03/21/2014 14:07:22",
+        "max_value": "30.66",
+        "min_value": "28.9",
+        "tags": [
+          "Barometric Pressure"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "in. Hg",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "rC",
+        "current_value": "0.00",
+        "at": "03/21/2014 14:07:22",
+        "max_value": "10.0",
+        "min_value": "0.0",
+        "tags": [
+          "Rain Count (Bucket Tips)"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "0.01\"",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "rT",
+        "current_value": "1035.00",
+        "at": "03/21/2014 14:07:22",
+        "max_value": "10000.0",
+        "min_value": "0.0",
+        "tags": [
+          "Rain Totals"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "0.01\"",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "wA",
+        "current_value": "0.00",
+        "at": "03/21/2014 14:07:22",
+        "max_value": "21.0",
+        "min_value": "0.0",
+        "tags": [
+          "Average Wind Speed"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "mph",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "wD",
+        "current_value": "0.00",
+        "at": "03/21/2014 14:07:22",
+        "max_value": "1023.0",
+        "min_value": "0.0",
+        "tags": [
+          "Wind Direction"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "?",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "wG",
+        "current_value": "0.00",
+        "at": "03/21/2014 14:07:22",
+        "max_value": "32.0",
+        "min_value": "0.0",
+        "tags": [
+          "Wind Gust"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "mph",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "wT",
+        "current_value": "40.08",
+        "at": "03/21/2014 14:07:22",
+        "max_value": "471841.0",
+        "min_value": "0.0",
+        "tags": [
+          "Wind Total"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "mi",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Garage",
+      "domain": 0,
+      "lat": "47.1920637688292",
+      "lon": "-122.32360124588",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/75921\" >Puyallup Valley Weather</a>",
+    "URLMostrar": "https://xively.com/feeds/75921"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\75921.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,195 @@
+{
+  "Conceptos": [
+    "surface"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "82002",
+    "title": "001010",
+    "Private": false,
+    "tags": [
+      "depth",
+      "humidity",
+      "level",
+      "ski",
+      "SmartyPlanet",
+      "SmartySnow",
+      "snow",
+      "temperature"
+    ],
+    "description": "This is a remote sensors station prototipe  with snow depht, snow surface temperature, humidity and air temperature sensors. It logs the data every 15' and sends every hour through GPRS.",
+    "feed": "https://api.xively.com/v2/feeds/82002.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "01/27/2014 11:36:06",
+    "created": "10/24/2012 06:51:52",
+    "creator": "https://xively.com/users/arantec",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "A00",
+        "current_value": "131.5",
+        "at": "01/27/2014 11:30:00",
+        "max_value": "499.8",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "A01",
+        "current_value": "37.01",
+        "at": "01/27/2014 11:30:00",
+        "max_value": "54.81",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "A02",
+        "current_value": "60.42",
+        "at": "01/27/2014 11:30:00",
+        "max_value": "85.47",
+        "min_value": "17.7",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "A03",
+        "current_value": "4.000",
+        "at": "01/27/2014 11:30:00",
+        "max_value": "23.37",
+        "min_value": "-6.68",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "A04",
+        "current_value": "-0.06",
+        "at": "01/27/2014 11:30:00",
+        "max_value": "-0.06",
+        "min_value": "-0.06",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "battery",
+        "current_value": "7.67",
+        "at": "01/27/2014 11:30:00",
+        "max_value": "7.79",
+        "min_value": "5.55",
+        "tags": [
+          "battery"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": "V",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "humidity",
+        "current_value": "21.41",
+        "at": "12/17/2013 16:00:00",
+        "max_value": "123.0",
+        "min_value": "15.07",
+        "tags": [
+          "humidity"
+        ],
+        "unit": {
+          "symbol": "%HR",
+          "label": "%HR",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "IRtemperature",
+        "current_value": "44.48",
+        "at": "12/17/2013 16:00:00",
+        "max_value": "99999.0",
+        "min_value": "-35.0",
+        "tags": [
+          "Infrared temperature"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "ºC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "snowdist",
+        "current_value": "355.1",
+        "at": "12/17/2013 16:00:00",
+        "max_value": "355.1",
+        "min_value": "0.0",
+        "tags": [
+          "snowdistance"
+        ],
+        "unit": {
+          "symbol": "cm",
+          "label": "cm",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temperature",
+        "current_value": "18.25",
+        "at": "12/17/2013 16:00:00",
+        "max_value": "50.0",
+        "min_value": "-50.0",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "ºC",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "VIelha",
+      "domain": 0,
+      "lat": "42.7054446253087",
+      "lon": "0.7843878865242",
+      "ele": "1000",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/82002\" >001010</a>",
+    "URLMostrar": "https://xively.com/feeds/82002"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\82002.json",
+  "DocumentJSON": null
+}

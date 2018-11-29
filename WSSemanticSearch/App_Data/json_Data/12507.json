@@ -1,0 +1,160 @@
+{
+  "Conceptos": [
+    "amount"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "12507",
+    "title": "Indoor VOC, O2, CO2 - CONTROL",
+    "Private": false,
+    "tags": [
+      "FigaroKE25",
+      "Indoor Air Quality",
+      "Moss",
+      "MQ811",
+      "TGS822"
+    ],
+    "description": "Sensor Testing for Moss Aeration. This is the control.\r\n\r\nUsing the Figaro sensor TGS822, Figaro KE25 and TGS822 I am collecting indoor air quality data by collecting the amount of VOC, O2 and CO2 respectively. \r\n\r\n\r\nThis is a test for a larger project that I am doing comparing the indoor air quality with and without a moss air filter.\r\n\r\n",
+    "feed": "https://api.xively.com/v2/feeds/12507.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "12/17/2010 21:49:45",
+    "created": "11/10/2010 05:30:11",
+    "creator": "https://xively.com/users/hanachan",
+    "version": null,
+    "website": "http://itp.nyu.edu/~hn271/wordpress/",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "974",
+        "at": "12/17/2010 21:49:45",
+        "max_value": "1023.0",
+        "min_value": "0.0",
+        "tags": [
+          "Oxygen"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "508",
+        "at": "12/17/2010 21:49:45",
+        "max_value": "1023.0",
+        "min_value": "0.0",
+        "tags": [
+          "VOC"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "1019",
+        "at": "12/17/2010 21:49:45",
+        "max_value": "1023.0",
+        "min_value": "0.0",
+        "tags": [
+          "CO2"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "546",
+        "at": "12/07/2010 23:25:10",
+        "max_value": "546.0",
+        "min_value": "480.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "452",
+        "at": "12/07/2010 23:25:10",
+        "max_value": "452.0",
+        "min_value": "362.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "396",
+        "at": "12/07/2010 23:25:10",
+        "max_value": "396.0",
+        "min_value": "265.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "1",
+        "at": "12/07/2010 23:25:10",
+        "max_value": "1.0",
+        "min_value": "1.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "7",
+        "current_value": "0",
+        "at": "12/07/2010 23:25:10",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "ITP",
+      "domain": 0,
+      "lat": "40.729210075529",
+      "lon": "-73.9937353134155",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/12507\" >Indoor VOC, O2, CO2 - CONTROL</a>",
+    "URLMostrar": "https://xively.com/feeds/12507"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\12507.json",
+  "DocumentJSON": null
+}

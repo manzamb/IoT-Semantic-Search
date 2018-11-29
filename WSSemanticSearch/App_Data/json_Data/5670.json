@@ -1,0 +1,137 @@
+{
+  "Conceptos": [
+    "community"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "5670",
+    "title": "BabuGarden",
+    "Private": false,
+    "tags": null,
+    "description": "Future Arduino Based Garden.\r\n\r\nStalled by now!!!\r\n\r\ntesting: 2 moisture sensors, ldr, thermistor and thermohygrometer.\r\n\r\nsensors are out of calibration by now..\r\n\r\ni'm using an asus eeepc to provide internet connection. i wrote a simple linux daemon to read serial line and send environment updates to this feed,i'm using pachulib c library:\r\n\r\nhttp://community.pachube.com/tutorials/c\r\n\r\nhttps://sourceforge.net/projects/pachulib/\r\n\r\n\r\n\r\nby min0n&4d4\r\n\r\n\r\n\r\n",
+    "feed": "https://api.xively.com/v2/feeds/5670.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "06/08/2010 14:21:03",
+    "created": "02/14/2010 20:00:51",
+    "creator": "https://xively.com/users/min0n",
+    "version": null,
+    "website": "http://www.babuino.org",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "633",
+        "at": "03/05/2010 18:26:25",
+        "max_value": "723.0",
+        "min_value": "630.0",
+        "tags": [
+          "chamaedorea",
+          "moisture sensor"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "15",
+        "at": "03/05/2010 18:26:25",
+        "max_value": "22.0",
+        "min_value": "9.0",
+        "tags": [
+          "dracena",
+          "moisture sensor"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "260",
+        "at": "03/05/2010 18:26:25",
+        "max_value": "591.0",
+        "min_value": "0.0",
+        "tags": [
+          "ldr",
+          "light"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "20.59",
+        "at": "03/05/2010 18:26:25",
+        "max_value": "21.47",
+        "min_value": "20.42",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "20.74",
+        "at": "03/05/2010 18:26:25",
+        "max_value": "21.07",
+        "min_value": "20.42",
+        "tags": [
+          "temperature",
+          "thermohygrometer"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "39.06",
+        "at": "03/05/2010 18:26:25",
+        "max_value": "47.97",
+        "min_value": "39.06",
+        "tags": [
+          "hygrometer",
+          "thermohygrometer"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "my room",
+      "domain": 0,
+      "lat": "41.6559152321678",
+      "lon": "-0.883219957177062",
+      "ele": "0.2",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/5670\" >BabuGarden</a>",
+    "URLMostrar": "https://xively.com/feeds/5670"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\5670.json",
+  "DocumentJSON": null
+}

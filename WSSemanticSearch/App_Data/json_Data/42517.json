@@ -1,0 +1,78 @@
+{
+  "Conceptos": [
+    "property"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "42517",
+    "title": "Property Monitor",
+    "Private": false,
+    "tags": null,
+    "description": "Light and Motion Sensor operated from a Nanode",
+    "feed": "https://api.xively.com/v2/feeds/42517.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "01/03/2012 23:36:19",
+    "created": "12/22/2011 02:30:43",
+    "creator": "https://xively.com/users/amchap",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "light",
+        "current_value": "116",
+        "at": "01/03/2012 23:36:19",
+        "max_value": "880.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "motion",
+        "current_value": "219417",
+        "at": "01/03/2012 23:36:19",
+        "max_value": "320619.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "motion_percent",
+        "current_value": "67",
+        "at": "01/03/2012 23:36:19",
+        "max_value": "99.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "NC",
+      "domain": 0,
+      "lat": "35.5679804580121",
+      "lon": "-78.85986328125",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/42517\" >Property Monitor</a>",
+    "URLMostrar": "https://xively.com/feeds/42517"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\42517.json",
+  "DocumentJSON": null
+}

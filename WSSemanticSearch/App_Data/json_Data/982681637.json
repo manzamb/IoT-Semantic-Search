@@ -1,0 +1,313 @@
+{
+  "Conceptos": [
+    "co2"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "982681637",
+    "title": "GPRS Logbook",
+    "Private": false,
+    "tags": [
+      "Data logger",
+      "GPRS",
+      "L1V3",
+      "Sciencescope"
+    ],
+    "description": "General purpose 5 channel datalogging device that works with any ScienceScope sensor. Logs at a rate of one averaged sample per minute",
+    "feed": "https://api.xively.com/v2/feeds/982681637.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "02/05/2014 15:44:26",
+    "created": "10/16/2013 13:37:50",
+    "creator": "https://xively.com/users/iostp",
+    "version": null,
+    "website": "http://sciencescope.co.uk/",
+    "datastreams": [
+      {
+        "id": "9999",
+        "current_value": "14",
+        "at": "02/05/2014 15:44:25",
+        "max_value": "31.0",
+        "min_value": "6.0",
+        "tags": [
+          "lbv 1.0.0",
+          "skv 1.0.0"
+        ],
+        "unit": {
+          "symbol": "g",
+          "label": "Signal Strength",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "011424",
+        "current_value": "22.0",
+        "at": "02/05/2014 15:44:25",
+        "max_value": "22.8",
+        "min_value": "16.9",
+        "tags": [
+          "Minimum",
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "Cel",
+          "label": "Temperature",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "021424",
+        "current_value": "22.3",
+        "at": "02/05/2014 15:44:25",
+        "max_value": "23.6",
+        "min_value": "18.5",
+        "tags": [
+          "Maximum",
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "Cel",
+          "label": "Temperature",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "031424",
+        "current_value": "22.2",
+        "at": "02/05/2014 15:44:25",
+        "max_value": "23.2",
+        "min_value": "18.3",
+        "tags": [
+          "Average",
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "Cel",
+          "label": "Temperature",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "111110",
+        "current_value": "670",
+        "at": "02/05/2014 15:44:25",
+        "max_value": "1130.0",
+        "min_value": "74.0",
+        "tags": [
+          "Concentration",
+          "Minimum"
+        ],
+        "unit": {
+          "symbol": "ppm (CO2)",
+          "label": "Concentration",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "121110",
+        "current_value": "742",
+        "at": "02/05/2014 15:44:25",
+        "max_value": "1208.0",
+        "min_value": "210.0",
+        "tags": [
+          "Concentration",
+          "Maximum"
+        ],
+        "unit": {
+          "symbol": "ppm (CO2)",
+          "label": "Concentration",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "131110",
+        "current_value": "704",
+        "at": "02/05/2014 15:44:25",
+        "max_value": "1156.0",
+        "min_value": "210.0",
+        "tags": [
+          "Average",
+          "Concentration"
+        ],
+        "unit": {
+          "symbol": "ppm (CO2)",
+          "label": "Concentration",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "211024",
+        "current_value": "32.90",
+        "at": "02/05/2014 15:44:25",
+        "max_value": "44.85",
+        "min_value": "25.25",
+        "tags": [
+          "Humidity",
+          "Minimum"
+        ],
+        "unit": {
+          "symbol": "%RH",
+          "label": "Humidity",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "221024",
+        "current_value": "33.10",
+        "at": "02/05/2014 15:44:25",
+        "max_value": "45.4",
+        "min_value": "25.45",
+        "tags": [
+          "Humidity",
+          "Maximum"
+        ],
+        "unit": {
+          "symbol": "%RH",
+          "label": "Humidity",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "231024",
+        "current_value": "32.95",
+        "at": "02/05/2014 15:44:25",
+        "max_value": "45.1",
+        "min_value": "25.35",
+        "tags": [
+          "Average",
+          "Humidity"
+        ],
+        "unit": {
+          "symbol": "%RH",
+          "label": "Humidity",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "310618",
+        "current_value": "10.5",
+        "at": "02/05/2014 15:44:25",
+        "max_value": "139.0",
+        "min_value": "0.015",
+        "tags": [
+          "Light level",
+          "Minimum"
+        ],
+        "unit": {
+          "symbol": "lx",
+          "label": "Light level",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "320618",
+        "current_value": "33.2",
+        "at": "02/05/2014 15:44:25",
+        "max_value": "188.0",
+        "min_value": "0.19",
+        "tags": [
+          "Light level",
+          "Maximum"
+        ],
+        "unit": {
+          "symbol": "lx",
+          "label": "Light level",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "330618",
+        "current_value": "31.2",
+        "at": "02/05/2014 15:44:25",
+        "max_value": "149.0",
+        "min_value": "0.13",
+        "tags": [
+          "Average",
+          "Light level"
+        ],
+        "unit": {
+          "symbol": "lx",
+          "label": "Light level",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "410908",
+        "current_value": "55.55",
+        "at": "02/05/2014 15:44:25",
+        "max_value": "93.6",
+        "min_value": "41.85",
+        "tags": [
+          "Minimum",
+          "Sound level"
+        ],
+        "unit": {
+          "symbol": "dB",
+          "label": "Sound level",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "420908",
+        "current_value": "75.65",
+        "at": "02/05/2014 15:44:25",
+        "max_value": "110.0",
+        "min_value": "43.5",
+        "tags": [
+          "Maximum",
+          "Sound level"
+        ],
+        "unit": {
+          "symbol": "dB",
+          "label": "Sound level",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "430908",
+        "current_value": "61.10",
+        "at": "02/05/2014 15:44:25",
+        "max_value": "93.6",
+        "min_value": "43.5",
+        "tags": [
+          "Average",
+          "Sound level"
+        ],
+        "unit": {
+          "symbol": "dB",
+          "label": "Sound level",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "North Liverpool Academy S/N1009 Generic logger",
+      "domain": 0,
+      "lat": "53.4240795",
+      "lon": "-2.96873049999999",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/982681637\" >GPRS Logbook</a>",
+    "URLMostrar": "https://xively.com/feeds/982681637"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\982681637.json",
+  "DocumentJSON": null
+}

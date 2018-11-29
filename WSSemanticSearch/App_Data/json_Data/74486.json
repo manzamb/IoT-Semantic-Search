@@ -1,0 +1,165 @@
+{
+  "Conceptos": [
+    "frequency"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "74486",
+    "title": "MedidorEnergia",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "energy"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/74486.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "09/27/2012 04:20:42",
+    "created": "09/07/2012 21:53:00",
+    "creator": "https://xively.com/users/cesariojr",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "31314",
+        "at": "09/27/2012 04:20:42",
+        "max_value": "32699.0",
+        "min_value": "-32758.0",
+        "tags": [
+          "Real Power"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "W",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "15943",
+        "at": "09/27/2012 04:20:42",
+        "max_value": "18205.0",
+        "min_value": "15925.0",
+        "tags": [
+          "Apparent Power"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "W",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "32086",
+        "at": "09/27/2012 04:20:42",
+        "max_value": "32727.0",
+        "min_value": "-32764.0",
+        "tags": [
+          "Power Factor"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "16018",
+        "at": "09/27/2012 04:20:42",
+        "max_value": "18363.0",
+        "min_value": "16011.0",
+        "tags": [
+          "Voltage RMS"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": "V",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "19672",
+        "at": "09/27/2012 04:20:42",
+        "max_value": "32756.0",
+        "min_value": "-32763.0",
+        "tags": [
+          "Current RMS"
+        ],
+        "unit": {
+          "symbol": "A",
+          "label": "A",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "16174",
+        "at": "09/27/2012 04:20:42",
+        "max_value": "16255.0",
+        "min_value": "16001.0",
+        "tags": [
+          "kWh Total"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "kWh",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "-29667",
+        "at": "09/27/2012 04:20:42",
+        "max_value": "32763.0",
+        "min_value": "-32758.0",
+        "tags": [
+          "Frequency"
+        ],
+        "unit": {
+          "symbol": "Hz",
+          "label": "Hz",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "7",
+        "current_value": "15935",
+        "at": "09/27/2012 04:20:42",
+        "max_value": "17300.0",
+        "min_value": "15924.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/74486\" >MedidorEnergia</a>",
+    "URLMostrar": "https://xively.com/feeds/74486"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\74486.json",
+  "DocumentJSON": null
+}

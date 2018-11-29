@@ -1,0 +1,116 @@
+{
+  "Conceptos": [
+    "moisture"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "84436",
+    "title": "Room Temp and Humidity",
+    "Private": false,
+    "tags": [
+      "air temperature",
+      "arduino",
+      "indoors",
+      "relative humidity",
+      "test"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/84436.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:06:34",
+    "created": "11/08/2012 00:15:01",
+    "creator": "https://xively.com/users/gazzat5",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "16.32",
+        "at": "03/21/2014 14:06:33",
+        "max_value": "526.13",
+        "min_value": "-33.01",
+        "tags": null,
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "53.95",
+        "at": "03/21/2014 14:06:33",
+        "max_value": "80.09",
+        "min_value": "-4445.23",
+        "tags": null,
+        "unit": {
+          "symbol": "%RH",
+          "label": "Relative Humidity",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "9",
+        "at": "01/23/2014 20:14:32",
+        "max_value": "90.0",
+        "min_value": "5.57",
+        "tags": [
+          "Absaloute Moisture"
+        ],
+        "unit": {
+          "symbol": "g/KG",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "977.02",
+        "at": "02/06/2014 21:44:35",
+        "max_value": "1003.41",
+        "min_value": "90.0",
+        "tags": [
+          "signal strength"
+        ],
+        "unit": {
+          "symbol": "dB",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "990.41",
+        "at": "03/21/2014 14:06:33",
+        "max_value": "1030.74",
+        "min_value": "840.59",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "Hpa",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Outside Bathroom door",
+      "domain": 0,
+      "lat": "54.9830859304332",
+      "lon": "-1.59473419189453",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 1
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/84436\" >Room Temp and Humidity</a>",
+    "URLMostrar": "https://xively.com/feeds/84436"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\84436.json",
+  "DocumentJSON": null
+}

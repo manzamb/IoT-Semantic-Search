@@ -1,0 +1,53 @@
+{
+  "Conceptos": [
+    "sensor output"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "35292",
+    "title": "ARTWORK1",
+    "Private": false,
+    "tags": [
+      "Art",
+      "interactive"
+    ],
+    "description": "Interactive artwork #1 is a light sensor which outputs a value between 0 and 1000. The installation is taking the output of another artwork as the input to turn on/off a LED light. \"Artwork1\" will be shown in Istanbul at the \"Uncontainable\" exhibition of the ISEA2011 conference.",
+    "feed": "https://api.xively.com/v2/feeds/35292.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "09/16/2011 00:34:43",
+    "created": "09/07/2011 10:40:01",
+    "creator": "https://xively.com/users/sndrv",
+    "version": null,
+    "website": "http://sndrv.nl/artwork1",
+    "datastreams": [
+      {
+        "id": "OUTPUT",
+        "current_value": "992.781827581088",
+        "at": "09/16/2011 00:34:43",
+        "max_value": "1013.0",
+        "min_value": "3.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Istanbul",
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/35292\" >ARTWORK1</a>",
+    "URLMostrar": "https://xively.com/feeds/35292"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\35292.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,920 @@
+{
+  "Conceptos": [
+    "physical body"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "66892",
+    "title": "CR1000 PB 1003 ",
+    "Private": false,
+    "tags": [
+      "Campbell Scientific",
+      "Inc. CR1000 datalogger.  Project: Hardware Product Testing with HTTPPost",
+      "webpages and COSM"
+    ],
+    "description": "CR1000 OS testing logger with wireless sensors and PakBus access to other loggers.",
+    "feed": "https://api.xively.com/v2/feeds/66892.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "08/24/2012 01:09:44",
+    "created": "07/09/2012 19:36:21",
+    "creator": "https://xively.com/users/ag1t",
+    "version": null,
+    "website": "http://www.campbellsci.com",
+    "datastreams": [
+      {
+        "id": "altitude",
+        "current_value": "1365.3",
+        "at": "08/24/2012 20:48:00",
+        "max_value": "1372.5",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "meters",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Battery_Voltage",
+        "current_value": "12.81418",
+        "at": "08/24/2012 19:56:00",
+        "max_value": "12.88222",
+        "min_value": "0.0",
+        "tags": [
+          "battery voltage"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "volts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "course",
+        "current_value": "0",
+        "at": "08/24/2012 20:48:00",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "cr2xx_batt_v_1",
+        "current_value": "0",
+        "at": "08/24/2012 20:48:00",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "cr2xx_batt_v_2",
+        "current_value": "0",
+        "at": "08/24/2012 20:48:00",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "cr2xx_batt_v_3",
+        "current_value": "0",
+        "at": "08/24/2012 20:48:00",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "cr2xx_batt_v_4",
+        "current_value": "0",
+        "at": "08/24/2012 20:48:00",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "cr2xx_batt_v_5",
+        "current_value": "0",
+        "at": "08/24/2012 20:48:00",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "CWS200_1_BV",
+        "current_value": "2.902471",
+        "at": "08/24/2012 20:48:00",
+        "max_value": "2.988297",
+        "min_value": "0.0",
+        "tags": [
+          "CWS200 battery voltage"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "CWS200_1_SS",
+        "current_value": "NAN",
+        "at": "08/24/2012 20:48:00",
+        "max_value": "32.0",
+        "min_value": "0.0",
+        "tags": [
+          "CWS200 signal strength"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "CWS200_1_Tb",
+        "current_value": "75.58266",
+        "at": "08/24/2012 20:48:00",
+        "max_value": "84.12838",
+        "min_value": "0.0",
+        "tags": [
+          "CWS200 Sensor Body Temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "CWS200_1_Ti",
+        "current_value": "75.58496",
+        "at": "08/24/2012 20:48:00",
+        "max_value": "163.1541",
+        "min_value": "0.0",
+        "tags": [
+          "CWS200 Sensor Internal Temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "CWS200_1_Tt",
+        "current_value": "76.40364",
+        "at": "08/24/2012 20:48:00",
+        "max_value": "84.42343",
+        "min_value": "0.0",
+        "tags": [
+          "CWS200 Sensor Target Temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "CWS655_1_BV",
+        "current_value": "2.52894",
+        "at": "08/24/2012 20:48:00",
+        "max_value": "2.587727",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "CWS655_1_EC",
+        "current_value": "1.317067",
+        "at": "08/24/2012 20:48:00",
+        "max_value": "2.707855",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "CWS655_1_Ka",
+        "current_value": "70.35347",
+        "at": "08/24/2012 20:48:00",
+        "max_value": "87.98563",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "CWS655_1_Pa",
+        "current_value": "2.315945",
+        "at": "08/24/2012 20:48:00",
+        "max_value": "2.815529",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "CWS655_1_SS",
+        "current_value": "NAN",
+        "at": "08/24/2012 20:48:00",
+        "max_value": "32.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "CWS655_1_Ti",
+        "current_value": "75.75346",
+        "at": "08/24/2012 20:48:00",
+        "max_value": "163.1541",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "CWS655_1_Ts",
+        "current_value": "74.42193",
+        "at": "08/24/2012 20:48:00",
+        "max_value": "77.054",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "CWS655_1_VR",
+        "current_value": "2.752681",
+        "at": "08/24/2012 20:48:00",
+        "max_value": "4.72577",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "CWS655_1_VWC",
+        "current_value": "NAN",
+        "at": "08/24/2012 20:48:00",
+        "max_value": "0.521771",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "CWS900_1_BV",
+        "current_value": "2.53186",
+        "at": "08/24/2012 20:48:00",
+        "max_value": "2.837126",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "CWS900_1_RH",
+        "current_value": "0.4953484",
+        "at": "08/24/2012 20:48:00",
+        "max_value": "0.5398946",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "CWS900_1_SS",
+        "current_value": "NAN",
+        "at": "08/24/2012 20:48:00",
+        "max_value": "32.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "CWS900_1_Ti",
+        "current_value": "76.237",
+        "at": "08/24/2012 20:48:00",
+        "max_value": "163.1541",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "CWS900_1_Ts",
+        "current_value": "-39.03288",
+        "at": "08/24/2012 20:48:00",
+        "max_value": "163.1541",
+        "min_value": "-39.48315",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "CWS900_2_BV",
+        "current_value": "2.80104",
+        "at": "08/24/2012 20:48:00",
+        "max_value": "2.897919",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "CWS900_2_SS",
+        "current_value": "NAN",
+        "at": "08/24/2012 20:48:00",
+        "max_value": "78.0107",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "CWS900_2_Ti",
+        "current_value": "76.39481",
+        "at": "08/24/2012 20:48:00",
+        "max_value": "172.5363",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "CWS900_2_Ts",
+        "current_value": "77.21406",
+        "at": "08/24/2012 20:48:00",
+        "max_value": "85.16105",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "CWS900_3_BV",
+        "current_value": "2.488947",
+        "at": "08/24/2012 20:48:00",
+        "max_value": "2.526983",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "CWS900_3_SS",
+        "current_value": "NAN",
+        "at": "08/24/2012 20:48:00",
+        "max_value": "32.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "CWS900_3_Ti",
+        "current_value": "76.20059",
+        "at": "08/24/2012 20:48:00",
+        "max_value": "163.1541",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "CWS900_3_Ts",
+        "current_value": "77.17109",
+        "at": "08/24/2012 20:48:00",
+        "max_value": "79.88336",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "dt_since_gprmc",
+        "current_value": "0.5",
+        "at": "08/24/2012 20:48:00",
+        "max_value": "1.04",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "fix_quality",
+        "current_value": "2",
+        "at": "08/24/2012 20:48:00",
+        "max_value": "2.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "gps_ready",
+        "current_value": "0",
+        "at": "08/24/2012 20:48:00",
+        "max_value": "10.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "latitude_a",
+        "current_value": "41",
+        "at": "08/24/2012 20:48:00",
+        "max_value": "41.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "latitude_b",
+        "current_value": "45.9498",
+        "at": "08/24/2012 20:48:00",
+        "max_value": "45.9526",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "longitude_a",
+        "current_value": "-111",
+        "at": "08/24/2012 20:48:00",
+        "max_value": "0.0",
+        "min_value": "-111.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "longitude_b",
+        "current_value": "-51.2677",
+        "at": "08/24/2012 20:48:00",
+        "max_value": "0.0",
+        "min_value": "-51.2683",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "magnetic_variation",
+        "current_value": "13.4",
+        "at": "08/24/2012 20:48:00",
+        "max_value": "13.4",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "max_clock_change",
+        "current_value": "0",
+        "at": "08/24/2012 20:48:00",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "nmbr_clock_change",
+        "current_value": "0",
+        "at": "08/24/2012 20:48:00",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "nmbr_satellites",
+        "current_value": "9",
+        "at": "08/24/2012 20:48:00",
+        "max_value": "11.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Panel_Temperature_C",
+        "current_value": "24.77698",
+        "at": "08/24/2012 20:48:00",
+        "max_value": "28.62449",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Panel_Temperature_F",
+        "current_value": "76.59857",
+        "at": "08/24/2012 20:48:00",
+        "max_value": "83.52407",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "pb_2951_led_total",
+        "current_value": "0",
+        "at": "08/24/2012 20:48:00",
+        "max_value": "203.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "pb_2951_t109f",
+        "current_value": "77.12035",
+        "at": "08/24/2012 20:48:00",
+        "max_value": "79.68781",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "pb_802_led_total",
+        "current_value": "5",
+        "at": "08/24/2012 20:48:00",
+        "max_value": "16.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "pb_853_panel_temperature_f",
+        "current_value": "75.38263",
+        "at": "08/24/2012 20:48:00",
+        "max_value": "82.12921",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "pps",
+        "current_value": "990000",
+        "at": "08/24/2012 20:48:00",
+        "max_value": "990000.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Skipped_Scans",
+        "current_value": "0",
+        "at": "08/24/2012 20:48:00",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Skipped_System_Scans",
+        "current_value": "0",
+        "at": "08/24/2012 20:48:00",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "speed",
+        "current_value": "0",
+        "at": "08/24/2012 20:48:00",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Watchdog_Errors",
+        "current_value": "0",
+        "at": "08/24/2012 20:48:00",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Wireless_network_health",
+        "current_value": "100",
+        "at": "08/24/2012 20:48:00",
+        "max_value": "100.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Wireless_number_of_retries",
+        "current_value": "0",
+        "at": "08/24/2012 20:48:00",
+        "max_value": "4.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "wireless_number_of_sensors",
+        "current_value": "5",
+        "at": "08/24/2012 20:48:00",
+        "max_value": "5.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Wireless_number_of_sensors_polled",
+        "current_value": "5",
+        "at": "08/24/2012 20:48:00",
+        "max_value": "5.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Wireless_time_to_poll_sensors",
+        "current_value": "34",
+        "at": "08/24/2012 20:48:00",
+        "max_value": "86.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Campbell Scientific, Inc. Headquarters (Building 1)",
+      "domain": 0,
+      "lat": "41.7659594080037",
+      "lon": "-111.855129897594",
+      "ele": "1370.4",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/66892\" >CR1000 PB 1003 </a>",
+    "URLMostrar": "https://xively.com/feeds/66892"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\66892.json",
+  "DocumentJSON": null
+}

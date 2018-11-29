@@ -1,0 +1,3095 @@
+{
+  "Conceptos": [
+    "atmospheric pressure"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "1196",
+    "title": "Solar Radiation Research Laboratory",
+    "Private": false,
+    "tags": null,
+    "description": "Measurement and Instrumentation \r\nData Center (MIDC) at the National Renewable Energy Lab.\r\n\r\nProvides live solar radiation data from approximately 70 instruments at the NREL South Table Mountain site and historical measurements dating to 1981\r\n",
+    "feed": "https://api.xively.com/v2/feeds/1196.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/17/2011 07:22:19",
+    "created": "11/14/2008 18:43:30",
+    "creator": "https://xively.com/users/dhunter",
+    "version": null,
+    "website": "http://www.nrel.gov/midc/srrl_bms/",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "-2.44",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "1337.2",
+        "min_value": "-5.67",
+        "tags": [
+          "CM22",
+          "Global CM22 (vent.)"
+        ],
+        "unit": {
+          "symbol": "W/m2",
+          "label": "W/m2",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "-3.65",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "1326.8",
+        "min_value": "-12.74",
+        "tags": [
+          "CM6B",
+          "Global CM6b"
+        ],
+        "unit": {
+          "symbol": "W/m2",
+          "label": "W/m2",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "-1.50",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "1351.8",
+        "min_value": "-12.48",
+        "tags": [
+          "CM3",
+          "Global CM3 (CNR1)"
+        ],
+        "unit": {
+          "symbol": "W/m2",
+          "label": "W/m2",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "-2.72",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "1319.53",
+        "min_value": "-28.03",
+        "tags": [
+          "GHV",
+          "Global PSP (vent/therm-zen corr.)"
+        ],
+        "unit": {
+          "symbol": "W/m2",
+          "label": "W/m2",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "6.55",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "1328.48",
+        "min_value": "-13.12",
+        "tags": [
+          "GH",
+          "Global PSP (thermal-zenith corr.)"
+        ],
+        "unit": {
+          "symbol": "W/m2",
+          "label": "W/m2",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "-14.55",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "1350.9",
+        "min_value": "-29.88",
+        "tags": [
+          "GHV",
+          "Global PSP (ventilated)"
+        ],
+        "unit": {
+          "symbol": "W/m2",
+          "label": "W/m2",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "-4.20",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "1371.4",
+        "min_value": "-18.59",
+        "tags": [
+          "GH",
+          "Global PSP"
+        ],
+        "unit": {
+          "symbol": "W/m2",
+          "label": "W/m2",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "7",
+        "current_value": "0.68",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "1348.1",
+        "min_value": "-312.62",
+        "tags": [
+          "Global TSP-700 (vent.)",
+          "TSP-700"
+        ],
+        "unit": {
+          "symbol": "W/m2",
+          "label": "W/m2",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "8",
+        "current_value": "0.06",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "1363.4",
+        "min_value": "-19.78",
+        "tags": [
+          "Global TSP-1",
+          "TSP-1"
+        ],
+        "unit": {
+          "symbol": "W/m2",
+          "label": "W/m2",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "9",
+        "current_value": "10.90",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "1339.7",
+        "min_value": "0.21",
+        "tags": [
+          "Global SPN1",
+          "SPN1"
+        ],
+        "unit": {
+          "symbol": "W/m2",
+          "label": "W/m2",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "10",
+        "current_value": "0.00",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "1329.9",
+        "min_value": "0.0",
+        "tags": [
+          "Global SP Lite",
+          "SPL"
+        ],
+        "unit": {
+          "symbol": "W/m2",
+          "label": "W/m2",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "11",
+        "current_value": "0.00",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "1327.6",
+        "min_value": "0.0",
+        "tags": [
+          "Global SP-110",
+          "SP110"
+        ],
+        "unit": {
+          "symbol": "W/m2",
+          "label": "W/m2",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "12",
+        "current_value": "-0.16",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "1384.8",
+        "min_value": "-0.5",
+        "tags": [
+          "GH200-1",
+          "Global LI-200"
+        ],
+        "unit": {
+          "symbol": "W/m2",
+          "label": "W/m2",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "13",
+        "current_value": "0.00",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "1270.77",
+        "min_value": "0.0",
+        "tags": [
+          "ETR",
+          "Global Extraterrestrial (calc.)"
+        ],
+        "unit": {
+          "symbol": "W/m2",
+          "label": "W/m2",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "14",
+        "current_value": "-15.41",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "558.41",
+        "min_value": "-38.52",
+        "tags": [
+          "GH780",
+          "Global RG780 PSP (vent.)"
+        ],
+        "unit": {
+          "symbol": "W/m2",
+          "label": "W/m2",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "15",
+        "current_value": "0.00",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "68.27",
+        "min_value": "-13.7",
+        "tags": [
+          "GCUV4",
+          "Global UV-Total CUV4"
+        ],
+        "unit": {
+          "symbol": "W/m2",
+          "label": "W/m2",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "16",
+        "current_value": "0.00",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "68.99",
+        "min_value": "-0.02",
+        "tags": [
+          "Global UV-Total TUVR",
+          "GUV"
+        ],
+        "unit": {
+          "symbol": "W/m2",
+          "label": "W/m2",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "17",
+        "current_value": "0.30",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "67.04",
+        "min_value": "0.24",
+        "tags": [
+          "Global UVA UV-S-A-T",
+          "UVSAT"
+        ],
+        "unit": {
+          "symbol": "W/m2",
+          "label": "W/m2",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "18",
+        "current_value": "0.00",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "65.55",
+        "min_value": "-18.16",
+        "tags": [
+          "Global UVA CUVA1",
+          "GUVA1"
+        ],
+        "unit": {
+          "symbol": "W/m2",
+          "label": "W/m2",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "19",
+        "current_value": "0.00",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "2.41",
+        "min_value": "-0.24",
+        "tags": [
+          "Global UVB UV-S-B-T",
+          "UVSBT"
+        ],
+        "unit": {
+          "symbol": "W/m2",
+          "label": "W/m2",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "20",
+        "current_value": "0.00",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "2.49",
+        "min_value": "-1.01",
+        "tags": [
+          "Global UVB CUVB1",
+          "GUVB1"
+        ],
+        "unit": {
+          "symbol": "W/m2",
+          "label": "W/m2",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "21",
+        "current_value": "-0.00",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "2.23",
+        "min_value": "-8.02",
+        "tags": [
+          "Global UVB MS210W",
+          "GUV210"
+        ],
+        "unit": {
+          "symbol": "W/m2",
+          "label": "W/m2",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "22",
+        "current_value": "-0.00",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "2.47",
+        "min_value": "0.0",
+        "tags": [
+          "Global UVB UVB-1",
+          "GUVB-1"
+        ],
+        "unit": {
+          "symbol": "W/m2",
+          "label": "W/m2",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "23",
+        "current_value": "0.00",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "2.15",
+        "min_value": "-0.44",
+        "tags": [
+          "Global UVB 501A",
+          "GUV501"
+        ],
+        "unit": {
+          "symbol": "W/m2",
+          "label": "W/m2",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "24",
+        "current_value": "0.00",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "11.09",
+        "min_value": "-2.27",
+        "tags": [
+          "Global UVE 501A (Index)",
+          "GUV501"
+        ],
+        "unit": {
+          "symbol": "Index",
+          "label": "Index",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "25",
+        "current_value": "0.00",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "4.75",
+        "min_value": "-0.97",
+        "tags": [
+          "Global UVE 501A (MED)",
+          "GUV501"
+        ],
+        "unit": {
+          "symbol": "MED/hr",
+          "label": "MED/hr",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "26",
+        "current_value": "-0.20",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "2464.8",
+        "min_value": "-0.29",
+        "tags": [
+          "Global Quantum LI-190",
+          "LI-190"
+        ],
+        "unit": {
+          "symbol": "micromol/s/m2",
+          "label": "micromol/s/m2",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "27",
+        "current_value": "0.00",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "128.08",
+        "min_value": "0.0",
+        "tags": [
+          "Global Photometric LI-210",
+          "LI-210"
+        ],
+        "unit": {
+          "symbol": "klux",
+          "label": "klux",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "28",
+        "current_value": "-3.44",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "1438.6",
+        "min_value": "-14.36",
+        "tags": [
+          "G40S",
+          "Global 40-South PSP"
+        ],
+        "unit": {
+          "symbol": "W/m2",
+          "label": "W/m2",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "29",
+        "current_value": "-0.03",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "1470.2",
+        "min_value": "-0.11",
+        "tags": [
+          "G40SLI",
+          "Global 40-South LI-200"
+        ],
+        "unit": {
+          "symbol": "W/m2",
+          "label": "W/m2",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "30",
+        "current_value": "-1.75",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "496.02",
+        "min_value": "-12.35",
+        "tags": [
+          "G90N",
+          "Global 90-North PSP"
+        ],
+        "unit": {
+          "symbol": "W/m2",
+          "label": "W/m2",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "31",
+        "current_value": "0.02",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "525.63",
+        "min_value": "-0.27",
+        "tags": [
+          "G90NLI",
+          "Global 90-North LI-200"
+        ],
+        "unit": {
+          "symbol": "W/m2",
+          "label": "W/m2",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "32",
+        "current_value": "-1.18",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "1113.2",
+        "min_value": "-10.27",
+        "tags": [
+          "G90E",
+          "Global 90-East PSP"
+        ],
+        "unit": {
+          "symbol": "W/m2",
+          "label": "W/m2",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "33",
+        "current_value": "0.02",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "1186.3",
+        "min_value": "-0.13",
+        "tags": [
+          "G90ELI",
+          "Global 90-East LI-200"
+        ],
+        "unit": {
+          "symbol": "W/m2",
+          "label": "W/m2",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "34",
+        "current_value": "-2.05",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "1329.4",
+        "min_value": "-11.93",
+        "tags": [
+          "G90S",
+          "Global 90-South PSP"
+        ],
+        "unit": {
+          "symbol": "W/m2",
+          "label": "W/m2",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "35",
+        "current_value": "-0.10",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "1396.7",
+        "min_value": "-0.13",
+        "tags": [
+          "G90SLI",
+          "Global 90-South LI-200"
+        ],
+        "unit": {
+          "symbol": "W/m2",
+          "label": "W/m2",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "36",
+        "current_value": "-2.03",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "1046.5",
+        "min_value": "-1390.8",
+        "tags": [
+          "G90W",
+          "Global 90-West PSP"
+        ],
+        "unit": {
+          "symbol": "W/m2",
+          "label": "W/m2",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "37",
+        "current_value": "0.00",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "1119.4",
+        "min_value": "-211.24",
+        "tags": [
+          "G90WLI",
+          "Global 90-West LI-200"
+        ],
+        "unit": {
+          "symbol": "W/m2",
+          "label": "W/m2",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "38",
+        "current_value": "-1.07",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "1466.8",
+        "min_value": "-90.45",
+        "tags": [
+          "Global Normal CM-21",
+          "GN21"
+        ],
+        "unit": {
+          "symbol": "W/m2",
+          "label": "W/m2",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "39",
+        "current_value": "-0.30",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "1086.3",
+        "min_value": "-329.22",
+        "tags": [
+          "CH1",
+          "Direct CH1"
+        ],
+        "unit": {
+          "symbol": "W/m2",
+          "label": "W/m2",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "40",
+        "current_value": "0.91",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "1095.4",
+        "min_value": "-62.36",
+        "tags": [
+          "Direct NIP (unit 2)",
+          "DN2"
+        ],
+        "unit": {
+          "symbol": "W/m2",
+          "label": "W/m2",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "41",
+        "current_value": "1.26",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "1091.5",
+        "min_value": "-44.09",
+        "tags": [
+          "Direct NIP (unit 1)",
+          "DN"
+        ],
+        "unit": {
+          "symbol": "W/m2",
+          "label": "W/m2",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "42",
+        "current_value": "0.00",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "1013.0",
+        "min_value": "-0.29",
+        "tags": [
+          "Direct LI-201",
+          "LI-201"
+        ],
+        "unit": {
+          "symbol": "W/m2",
+          "label": "W/m2",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "43",
+        "current_value": "0.00",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "1413.71",
+        "min_value": "0.0",
+        "tags": [
+          "Direct Extraterrestrial (calc.)",
+          "ETRN"
+        ],
+        "unit": {
+          "symbol": "W/m2",
+          "label": "W/m2",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "44",
+        "current_value": "0.36",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "951.94",
+        "min_value": "-23.74",
+        "tags": [
+          "Direct RG780 NIP",
+          "DN780"
+        ],
+        "unit": {
+          "symbol": "W/m2",
+          "label": "W/m2",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "45",
+        "current_value": "0.00",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "47.78",
+        "min_value": "-5.94",
+        "tags": [
+          "Direct UV-Total (calc.)",
+          "DUVT"
+        ],
+        "unit": {
+          "symbol": "W/m2",
+          "label": "W/m2",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "46",
+        "current_value": "0.00",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "45.13",
+        "min_value": "-28.3",
+        "tags": [
+          "Direct UVA CUVA2",
+          "DUVA2"
+        ],
+        "unit": {
+          "symbol": "W/m2",
+          "label": "W/m2",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "47",
+        "current_value": "-0.00",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "1.14",
+        "min_value": "-0.31",
+        "tags": [
+          "Direct UVB CUVB2",
+          "DUVB2"
+        ],
+        "unit": {
+          "symbol": "W/m2",
+          "label": "W/m2",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "48",
+        "current_value": "-1.01",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "1171.2",
+        "min_value": "-3.73",
+        "tags": [
+          "DH848",
+          "Diffuse 8-48 (vent.)"
+        ],
+        "unit": {
+          "symbol": "W/m2",
+          "label": "W/m2",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "49",
+        "current_value": "-2.11",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "725.42",
+        "min_value": "-5.26",
+        "tags": [
+          "DHCM22",
+          "Diffuse CM22 (vent.)"
+        ],
+        "unit": {
+          "symbol": "W/m2",
+          "label": "W/m2",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "50",
+        "current_value": "0.37",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "1182.3",
+        "min_value": "-21.8",
+        "tags": [
+          "DHSD",
+          "Diffuse PSP (vent/thermal corr.)"
+        ],
+        "unit": {
+          "symbol": "W/m2",
+          "label": "W/m2",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "51",
+        "current_value": "-12.45",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "1188.8",
+        "min_value": "-25.57",
+        "tags": [
+          "DHSD",
+          "Diffuse PSP (vent.)"
+        ],
+        "unit": {
+          "symbol": "W/m2",
+          "label": "W/m2",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "52",
+        "current_value": "-3.32",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "766.49",
+        "min_value": "-99999.0",
+        "tags": [
+          "DHSB",
+          "Diffuse PSP (sdwband corr.)"
+        ],
+        "unit": {
+          "symbol": "W/m2",
+          "label": "W/m2",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "53",
+        "current_value": "1.06",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "726.13",
+        "min_value": "0.55",
+        "tags": [
+          "Diffuse SPN1",
+          "SPN1"
+        ],
+        "unit": {
+          "symbol": "W/m2",
+          "label": "W/m2",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "54",
+        "current_value": "0.00",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "39.98",
+        "min_value": "-0.8",
+        "tags": [
+          "DCUV4",
+          "Diffuse UV-Total CUV4"
+        ],
+        "unit": {
+          "symbol": "W/m2",
+          "label": "W/m2",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "55",
+        "current_value": "-3.82",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "1288.7",
+        "min_value": "-13.44",
+        "tags": [
+          "ZBR",
+          "Zebra PSP"
+        ],
+        "unit": {
+          "symbol": "W/m2",
+          "label": "W/m2",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "56",
+        "current_value": "268.30",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "430.9",
+        "min_value": "136.17",
+        "tags": [
+          "Downwelling IR PIR (vent.)",
+          "DWIR"
+        ],
+        "unit": {
+          "symbol": "W/m2",
+          "label": "W/m2",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "57",
+        "current_value": "261.89",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "422.33",
+        "min_value": "143.65",
+        "tags": [
+          "CG4",
+          "Downwelling IR CG4 (vent.)"
+        ],
+        "unit": {
+          "symbol": "W/m2",
+          "label": "W/m2",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "58",
+        "current_value": "261.92",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "446.73",
+        "min_value": "146.92",
+        "tags": [
+          "CG3",
+          "Downwelling IR CG3 (CNR1)"
+        ],
+        "unit": {
+          "symbol": "W/m2",
+          "label": "W/m2",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "59",
+        "current_value": "348.65",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "2783.0",
+        "min_value": "-99999.0",
+        "tags": [
+          "Upwelling IR PIR",
+          "UWIR"
+        ],
+        "unit": {
+          "symbol": "W/m2",
+          "label": "W/m2",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "60",
+        "current_value": "349.64",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "619.89",
+        "min_value": "194.8",
+        "tags": [
+          "Upwelling IR CG3 (CNR1)",
+          "UWCG3"
+        ],
+        "unit": {
+          "symbol": "W/m2",
+          "label": "W/m2",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "61",
+        "current_value": "-0.29",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "757.62",
+        "min_value": "-99999.0",
+        "tags": [
+          "REF",
+          "Upwelling Shortwave PSP"
+        ],
+        "unit": {
+          "symbol": "W/m2",
+          "label": "W/m2",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "62",
+        "current_value": "3.73",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "822.6",
+        "min_value": "-4.23",
+        "tags": [
+          "REFCM3",
+          "Upwelling Shwv CM3 (CNR1)"
+        ],
+        "unit": {
+          "symbol": "W/m2",
+          "label": "W/m2",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "63",
+        "current_value": "-0.03",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "1029.0",
+        "min_value": "-0.18",
+        "tags": [
+          "REF200",
+          "Upwelling Shortwave LI-200"
+        ],
+        "unit": {
+          "symbol": "W/m2",
+          "label": "W/m2",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "64",
+        "current_value": "-0.06",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "1788.2",
+        "min_value": "-4.43",
+        "tags": [
+          "REF190",
+          "Upwelling Quantum LI-190"
+        ],
+        "unit": {
+          "symbol": "micromol/s/m2",
+          "label": "micromol/s/m2",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "65",
+        "current_value": "-80.35",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "315.27",
+        "min_value": "-99999.0",
+        "tags": [
+          "NET",
+          "Net Infrared PIRs (atmos.)"
+        ],
+        "unit": {
+          "symbol": "W/m2",
+          "label": "W/m2",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "66",
+        "current_value": "-87.72",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "30.17",
+        "min_value": "-273.7",
+        "tags": [
+          "CG3",
+          "Net Infrared CNR1 (atmos.)"
+        ],
+        "unit": {
+          "symbol": "W/m2",
+          "label": "W/m2",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "67",
+        "current_value": "-82.78",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "944.15",
+        "min_value": "-99999.0",
+        "tags": [
+          "NET",
+          "Net Radiation (Eppley)"
+        ],
+        "unit": {
+          "symbol": "W/m2",
+          "label": "W/m2",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "68",
+        "current_value": "-92.95",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "976.51",
+        "min_value": "-216.3",
+        "tags": [
+          "CNR1",
+          "Net Radiation (CNR1)"
+        ],
+        "unit": {
+          "symbol": "W/m2",
+          "label": "W/m2",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "69",
+        "current_value": "-126.38",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "-0.79",
+        "min_value": "-209.6",
+        "tags": [
+          "DWIR",
+          "Instrument Net DW PIR"
+        ],
+        "unit": {
+          "symbol": "W/m2",
+          "label": "W/m2",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "70",
+        "current_value": "-113.23",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "0.78",
+        "min_value": "-176.36",
+        "tags": [
+          "CG4",
+          "Instrument Net DW CG4"
+        ],
+        "unit": {
+          "symbol": "W/m2",
+          "label": "W/m2",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "71",
+        "current_value": "-102.99",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "12.86",
+        "min_value": "-186.44",
+        "tags": [
+          "CG3",
+          "Instrument Net DW CG3"
+        ],
+        "unit": {
+          "symbol": "W/m2",
+          "label": "W/m2",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "72",
+        "current_value": "-26.20",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "1392.4",
+        "min_value": "-99999.0",
+        "tags": [
+          "Instrument Net UW PIR",
+          "UWIR"
+        ],
+        "unit": {
+          "symbol": "W/m2",
+          "label": "W/m2",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "73",
+        "current_value": "-18.79",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "96.59",
+        "min_value": "-99.24",
+        "tags": [
+          "Instrument Net UW CG3",
+          "UWCG3"
+        ],
+        "unit": {
+          "symbol": "W/m2",
+          "label": "W/m2",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "74",
+        "current_value": "0.00",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "3.4",
+        "min_value": "0.0",
+        "tags": [
+          "PH500",
+          "Photometer TWC (500nm)"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": "V",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "75",
+        "current_value": "0.00",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "16.64",
+        "min_value": "-99999.0",
+        "tags": [
+          "Photometer POM-01 (315nm)",
+          "POM01"
+        ],
+        "unit": {
+          "symbol": "nA",
+          "label": "nA",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "76",
+        "current_value": "0.00",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "83.38",
+        "min_value": "-99999.0",
+        "tags": [
+          "Photometer POM-01 (400nm)",
+          "POM01"
+        ],
+        "unit": {
+          "symbol": "micro",
+          "label": "micro",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "77",
+        "current_value": "0.00",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "247.04",
+        "min_value": "-99999.0",
+        "tags": [
+          "Photometer POM-01 (500nm)",
+          "POM01"
+        ],
+        "unit": {
+          "symbol": "micro",
+          "label": "micro",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "78",
+        "current_value": "0.00",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "318.99",
+        "min_value": "-99999.0",
+        "tags": [
+          "Photometer POM-01 (675nm)",
+          "POM01"
+        ],
+        "unit": {
+          "symbol": "micro",
+          "label": "micro",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "79",
+        "current_value": "0.00",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "241.24",
+        "min_value": "-99999.0",
+        "tags": [
+          "Photometer POM-01 (870nm)",
+          "POM01"
+        ],
+        "unit": {
+          "symbol": "micro",
+          "label": "micro",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "80",
+        "current_value": "0.00",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "183.62",
+        "min_value": "-99999.0",
+        "tags": [
+          "Photometer POM-01 (940nm)",
+          "POM01"
+        ],
+        "unit": {
+          "symbol": "micro",
+          "label": "micro",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "81",
+        "current_value": "0.00",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "181.35",
+        "min_value": "-99999.0",
+        "tags": [
+          "Photometer POM-01 (1020nm)",
+          "POM01"
+        ],
+        "unit": {
+          "symbol": "micro",
+          "label": "micro",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "82",
+        "current_value": "141.61",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "163.7",
+        "min_value": "16.32",
+        "tags": [
+          "ZEN",
+          "Zenith Angle"
+        ],
+        "unit": {
+          "symbol": "o",
+          "label": "o",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "83",
+        "current_value": "4.75",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "359.97",
+        "min_value": "0.01",
+        "tags": [
+          "Azimuth Angle",
+          "AZM"
+        ],
+        "unit": {
+          "symbol": "o",
+          "label": "o",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "84",
+        "current_value": "-1.00",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "64.85",
+        "min_value": "-1.0",
+        "tags": [
+          "Airmass",
+          "AMASS"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "85",
+        "current_value": "13.17",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "35.42",
+        "min_value": "-26.75",
+        "tags": [
+          "Dry Bulb Temp (Tower)",
+          "R45"
+        ],
+        "unit": {
+          "symbol": "oC",
+          "label": "oC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "86",
+        "current_value": "13.06",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "35.58",
+        "min_value": "-27.13",
+        "tags": [
+          "D45",
+          "Dry Bulb Temp (Deck)"
+        ],
+        "unit": {
+          "symbol": "oC",
+          "label": "oC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "87",
+        "current_value": "12.46",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "34.78",
+        "min_value": "-30.27",
+        "tags": [
+          "Dry Bulb Temp (PV)",
+          "T45"
+        ],
+        "unit": {
+          "symbol": "oC",
+          "label": "oC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "88",
+        "current_value": "22.77",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "33.8",
+        "min_value": "-40.0",
+        "tags": [
+          "Dry Bulb Temp (Data lab)",
+          "L45"
+        ],
+        "unit": {
+          "symbol": "oC",
+          "label": "oC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "89",
+        "current_value": "3.38",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "19.7",
+        "min_value": "-26.97",
+        "tags": [
+          "R45",
+          "Wet Bulb Temp (Tower)"
+        ],
+        "unit": {
+          "symbol": "oC",
+          "label": "oC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "90",
+        "current_value": "-10.02",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "17.38",
+        "min_value": "-29.07",
+        "tags": [
+          "Dew Point Temp (Tower)",
+          "R45"
+        ],
+        "unit": {
+          "symbol": "oC",
+          "label": "oC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "91",
+        "current_value": "13.17",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "35.42",
+        "min_value": "-32.37",
+        "tags": [
+          "R45",
+          "Wind Chill Temp (Tower)"
+        ],
+        "unit": {
+          "symbol": "oC",
+          "label": "oC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "92",
+        "current_value": "12.26",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "35.58",
+        "min_value": "-32.34",
+        "tags": [
+          "D45",
+          "Wind Chill Temp (Deck)"
+        ],
+        "unit": {
+          "symbol": "oC",
+          "label": "oC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "93",
+        "current_value": "17.10",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "102.9",
+        "min_value": "5.54",
+        "tags": [
+          "R45",
+          "Relative Humidity (Tower)"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "94",
+        "current_value": "16.78",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "98.0",
+        "min_value": "5.21",
+        "tags": [
+          "D45",
+          "Relative Humidity (Deck)"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "95",
+        "current_value": "17.37",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "99.3",
+        "min_value": "5.72",
+        "tags": [
+          "Relative Humidity (PV)",
+          "T45"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "96",
+        "current_value": "12.90",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "62.05",
+        "min_value": "-1.68",
+        "tags": [
+          "L45",
+          "Relative Humidity (Data lab)"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "97",
+        "current_value": "-1.00",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "100.0",
+        "min_value": "-99999.0",
+        "tags": [
+          "Cloud Cover (Total)",
+          "TSI"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "98",
+        "current_value": "-1.00",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "100.0",
+        "min_value": "-99999.0",
+        "tags": [
+          "Cloud Cover (Opaque)",
+          "TSI"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "99",
+        "current_value": "1.46",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "15.39",
+        "min_value": "0.0",
+        "tags": [
+          "RRMY",
+          "Wind Speed (6')",
+          "Wind Speed (6)"
+        ],
+        "unit": {
+          "symbol": "m/s",
+          "label": "m/s",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "100",
+        "current_value": "2.91",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "19.78",
+        "min_value": "0.0",
+        "tags": [
+          "DRMY",
+          "Wind Speed (19')",
+          "Wind Speed (19)"
+        ],
+        "unit": {
+          "symbol": "m/s",
+          "label": "m/s",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "101",
+        "current_value": "1.95",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "20.05",
+        "min_value": "0.0",
+        "tags": [
+          "Wind Speed (22')",
+          "Wind Speed (22)",
+          "WS40C"
+        ],
+        "unit": {
+          "symbol": "m/s",
+          "label": "m/s",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "102",
+        "current_value": "2.68",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "21.33",
+        "min_value": "0.0",
+        "tags": [
+          "Wind Speed (42')",
+          "Wind Speed (42)",
+          "WS40C"
+        ],
+        "unit": {
+          "symbol": "m/s",
+          "label": "m/s",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "103",
+        "current_value": "2.45",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "21.45",
+        "min_value": "0.0",
+        "tags": [
+          "Pk Wind Speed (6')",
+          "Pk Wind Speed (6)",
+          "RRMY"
+        ],
+        "unit": {
+          "symbol": "m/s",
+          "label": "m/s",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "104",
+        "current_value": "3.95",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "26.2",
+        "min_value": "0.0",
+        "tags": [
+          "DRMY",
+          "Pk Wind Speed (19')",
+          "Pk Wind Speed (19)"
+        ],
+        "unit": {
+          "symbol": "m/s",
+          "label": "m/s",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "105",
+        "current_value": "3.00",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "27.32",
+        "min_value": "0.0",
+        "tags": [
+          "Pk Wind Speed (22')",
+          "Pk Wind Speed (22)",
+          "WS40C"
+        ],
+        "unit": {
+          "symbol": "m/s",
+          "label": "m/s",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "106",
+        "current_value": "4.17",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "89.4",
+        "min_value": "0.0",
+        "tags": [
+          "Pk Wind Speed (42')",
+          "Pk Wind Speed (42)",
+          "WS40C"
+        ],
+        "unit": {
+          "symbol": "m/s",
+          "label": "m/s",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "107",
+        "current_value": "271.70",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "360.0",
+        "min_value": "0.0",
+        "tags": [
+          "RRMY",
+          "Wind Direction (6')",
+          "Wind Direction (6)"
+        ],
+        "unit": {
+          "symbol": "o from N",
+          "label": "o from N",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "108",
+        "current_value": "224.50",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "360.0",
+        "min_value": "0.0",
+        "tags": [
+          "DRMY",
+          "Wind Direction (19')",
+          "Wind Direction (19)"
+        ],
+        "unit": {
+          "symbol": "o from N",
+          "label": "o from N",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "109",
+        "current_value": "224.90",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "360.0",
+        "min_value": "0.0",
+        "tags": [
+          "WDNRG",
+          "Wind Direction (22')",
+          "Wind Direction (22)"
+        ],
+        "unit": {
+          "symbol": "o from N",
+          "label": "o from N",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "110",
+        "current_value": "212.70",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "360.0",
+        "min_value": "0.0",
+        "tags": [
+          "WDNRG",
+          "Wind Direction (42')",
+          "Wind Direction (42)"
+        ],
+        "unit": {
+          "symbol": "o from N",
+          "label": "o from N",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "111",
+        "current_value": "0.12",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "1.45",
+        "min_value": "-0.72",
+        "tags": [
+          "Vertical Wind Shear",
+          "WS40C"
+        ],
+        "unit": {
+          "symbol": "1/s",
+          "label": "1/s",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "112",
+        "current_value": "808.43",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "833.9",
+        "min_value": "790.62",
+        "tags": [
+          "PT",
+          "Station Pressure"
+        ],
+        "unit": {
+          "symbol": "mBar",
+          "label": "mBar",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "113",
+        "current_value": "1009.70",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "1035.18",
+        "min_value": "991.89",
+        "tags": [
+          "Est. Sea-Level Pressure",
+          "PT"
+        ],
+        "unit": {
+          "symbol": "mBar",
+          "label": "mBar",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "114",
+        "current_value": "0.05",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "10.14",
+        "min_value": "-9.71",
+        "tags": [
+          "Atmospheric Electric Field",
+          "EF",
+          "Precipitation",
+          "RAIN"
+        ],
+        "unit": {
+          "symbol": "kV/m",
+          "label": "kV/m",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "115",
+        "current_value": "0.00",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "46.99",
+        "min_value": "0.0",
+        "tags": [
+          "Precipitation",
+          "Precipitation (Accumulated)",
+          "RAIN"
+        ],
+        "unit": {
+          "symbol": "mm",
+          "label": "mm",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "116",
+        "current_value": "0.00",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "17.83",
+        "min_value": "-14.36",
+        "tags": [
+          "Precipitation (Accumulated)",
+          "RAIN",
+          "SNOW",
+          "Snow Depth"
+        ],
+        "unit": {
+          "symbol": "mm",
+          "label": "mm",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "117",
+        "current_value": "-0.03",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "70.73",
+        "min_value": "-6999.0",
+        "tags": [
+          "POM01",
+          "Precipitable Water Vapor",
+          "SNOW",
+          "Snow Depth"
+        ],
+        "unit": {
+          "symbol": "cm",
+          "label": "cm",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "118",
+        "current_value": "0.00",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "15.97",
+        "min_value": "-6999.0",
+        "tags": [
+          "POM01",
+          "Precipitable Water Vapor",
+          "Turbidity POM-01 (315nm)"
+        ],
+        "unit": {
+          "symbol": "cm",
+          "label": "cm",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "119",
+        "current_value": "0.00",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "12.44",
+        "min_value": "-6999.0",
+        "tags": [
+          "POM01",
+          "Turbidity POM-01 (315nm)",
+          "Turbidity POM-01 (400nm)"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "120",
+        "current_value": "0.00",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "12.4",
+        "min_value": "-6999.0",
+        "tags": [
+          "POM01",
+          "Turbidity POM-01 (400nm)",
+          "Turbidity POM-01 (500nm)"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "121",
+        "current_value": "0.00",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "14.01",
+        "min_value": "-6999.0",
+        "tags": [
+          "POM01",
+          "Turbidity POM-01 (500nm)",
+          "Turbidity POM-01 (675nm)"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "122",
+        "current_value": "0.00",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "13.78",
+        "min_value": "-6999.0",
+        "tags": [
+          "POM01",
+          "Turbidity POM-01 (675nm)",
+          "Turbidity POM-01 (870nm)"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "123",
+        "current_value": "0.00",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "15.2",
+        "min_value": "-6999.0",
+        "tags": [
+          "POM01",
+          "Turbidity POM-01 (870nm)",
+          "Turbidity POM-01 (940nm)"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "124",
+        "current_value": "0.00",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "13.11",
+        "min_value": "-6999.0",
+        "tags": [
+          "POM01",
+          "Turbidity POM-01 (1020nm)",
+          "Turbidity POM-01 (940nm)"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "125",
+        "current_value": "0.00",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "14.25",
+        "min_value": "-6999.0",
+        "tags": [
+          "PH500",
+          "POM01",
+          "Turbidity POM-01 (1020nm)",
+          "Turbidity TWC (500nm)"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "126",
+        "current_value": "0.00",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "17.84",
+        "min_value": "0.0",
+        "tags": [
+          "Aerosol Optical Depth (500nm)",
+          "CH1",
+          "PH500",
+          "Turbidity TWC (500nm)"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "127",
+        "current_value": "0.00",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "17.73",
+        "min_value": "-99999.0",
+        "tags": [
+          "Aerosol Optical Depth (500nm)",
+          "Aerosol Optical Depth (BB)",
+          "CH1"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "128",
+        "current_value": "0.00",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "13.04",
+        "min_value": "-99999.0",
+        "tags": [
+          "Aerosol Optical Depth (BB)",
+          "Albedo (PSP)",
+          "CH1",
+          "REF"
+        ],
+        "unit": {
+          "symbol": "(ratio)",
+          "label": "(ratio)",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "129",
+        "current_value": "0.00",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "2.0",
+        "min_value": "0.0",
+        "tags": [
+          "Albedo (CNR1)",
+          "Albedo (PSP)",
+          "REF",
+          "REFCM3"
+        ],
+        "unit": {
+          "symbol": "(ratio)",
+          "label": "(ratio)",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "130",
+        "current_value": "0.00",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "2.0",
+        "min_value": "0.0",
+        "tags": [
+          "Albedo (CNR1)",
+          "Albedo (LI-200)",
+          "REF200",
+          "REFCM3"
+        ],
+        "unit": {
+          "symbol": "(ratio)",
+          "label": "(ratio)",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "131",
+        "current_value": "0.00",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "2.0",
+        "min_value": "0.0",
+        "tags": [
+          "Albedo (LI-200)",
+          "Albedo Quantum (LI-190)",
+          "REF190",
+          "REF200"
+        ],
+        "unit": {
+          "symbol": "(ratio)",
+          "label": "(ratio)",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "132",
+        "current_value": "0.00",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "26.05",
+        "min_value": "-37.7",
+        "tags": [
+          "501A Temp",
+          "Albedo Quantum (LI-190)",
+          "GUV501",
+          "REF190"
+        ],
+        "unit": {
+          "symbol": "(ratio)",
+          "label": "(ratio)",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "133",
+        "current_value": "25.20",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "43.22",
+        "min_value": "-273.4",
+        "tags": [
+          "501A Temp",
+          "CUVA1 Temp",
+          "GUV501",
+          "GUVA1"
+        ],
+        "unit": {
+          "symbol": "oC",
+          "label": "oC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "134",
+        "current_value": "39.73",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "42.5",
+        "min_value": "-273.4",
+        "tags": [
+          "CUVA1 Temp",
+          "CUVB1 Temp",
+          "GUVA1",
+          "GUVB1"
+        ],
+        "unit": {
+          "symbol": "oC",
+          "label": "oC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "135",
+        "current_value": "39.73",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "41.08",
+        "min_value": "-273.4",
+        "tags": [
+          "CUVA2 Temp",
+          "CUVB1 Temp",
+          "DUVA2",
+          "GUVB1"
+        ],
+        "unit": {
+          "symbol": "oC",
+          "label": "oC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "136",
+        "current_value": "40.58",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "40.97",
+        "min_value": "-273.3",
+        "tags": [
+          "CUVA2 Temp",
+          "CUVB2 Temp",
+          "DUVA2",
+          "DUVB2"
+        ],
+        "unit": {
+          "symbol": "oC",
+          "label": "oC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "137",
+        "current_value": "39.63",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "40.02",
+        "min_value": "24.57",
+        "tags": [
+          "CUVB2 Temp",
+          "DUVB2",
+          "UV-S-A-T Temp",
+          "UVSAT"
+        ],
+        "unit": {
+          "symbol": "oC",
+          "label": "oC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "138",
+        "current_value": "25.05",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "39.96",
+        "min_value": "20.77",
+        "tags": [
+          "UV-S-A-T Temp",
+          "UV-S-B-T Temp",
+          "UVSAT",
+          "UVSBT"
+        ],
+        "unit": {
+          "symbol": "oC",
+          "label": "oC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "139",
+        "current_value": "24.72",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "46.78",
+        "min_value": "21.25",
+        "tags": [
+          "GUVB-1",
+          "UV-S-B-T Temp",
+          "UVB-1 Temp",
+          "UVSBT"
+        ],
+        "unit": {
+          "symbol": "oC",
+          "label": "oC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "140",
+        "current_value": "46.59",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "312.37",
+        "min_value": "46.02",
+        "tags": [
+          "DWIR",
+          "GUVB-1",
+          "PIR DW Dome Temp",
+          "UVB-1 Temp"
+        ],
+        "unit": {
+          "symbol": "oC",
+          "label": "oC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "141",
+        "current_value": "288.24",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "312.52",
+        "min_value": "249.17",
+        "tags": [
+          "DWIR",
+          "PIR DW Case Temp",
+          "PIR DW Dome Temp"
+        ],
+        "unit": {
+          "symbol": "oK",
+          "label": "oK",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "142",
+        "current_value": "288.70",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "311.45",
+        "min_value": "249.48",
+        "tags": [
+          "DWIR",
+          "PIR DW Case Temp",
+          "PIR UW Dome Temp",
+          "UWIR"
+        ],
+        "unit": {
+          "symbol": "oK",
+          "label": "oK",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "143",
+        "current_value": "285.35",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "365.33",
+        "min_value": "0.0",
+        "tags": [
+          "PIR UW Case Temp",
+          "PIR UW Dome Temp",
+          "UWIR"
+        ],
+        "unit": {
+          "symbol": "oK",
+          "label": "oK",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "144",
+        "current_value": "285.48",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "313.68",
+        "min_value": "0.0",
+        "tags": [
+          "CG4",
+          "CG4 DW Case Temp",
+          "PIR UW Case Temp",
+          "UWIR"
+        ],
+        "unit": {
+          "symbol": "oK",
+          "label": "oK",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "145",
+        "current_value": "286.06",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "313.15",
+        "min_value": "246.74",
+        "tags": [
+          "CG4",
+          "CG4 DW Case Temp",
+          "CNR1",
+          "CNR1 Case Temp"
+        ],
+        "unit": {
+          "symbol": "oK",
+          "label": "oK",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "146",
+        "current_value": "283.39",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "304.32",
+        "min_value": "22.27",
+        "tags": [
+          "CNR1",
+          "CNR1 Case Temp",
+          "CR23X Temp",
+          "TC23"
+        ],
+        "unit": {
+          "symbol": "oK",
+          "label": "oK",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "147",
+        "current_value": "25.36",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "37.74",
+        "min_value": "-6.92",
+        "tags": [
+          "CR10X Temp (Met-Twr)",
+          "CR23X Temp",
+          "TC10",
+          "TC23"
+        ],
+        "unit": {
+          "symbol": "oC",
+          "label": "oC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "148",
+        "current_value": "8.76",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "38.99",
+        "min_value": "-32.31",
+        "tags": [
+          "CR10X Temp (Met-Twr)",
+          "CR10X Temp (Rad-Twr)",
+          "TC10",
+          "TC10R"
+        ],
+        "unit": {
+          "symbol": "oC",
+          "label": "oC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "149",
+        "current_value": "15.01",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "32.46",
+        "min_value": "-23.35",
+        "tags": [
+          "BV23",
+          "CR10X Temp (Rad-Twr)",
+          "CR23X Battery",
+          "TC10R"
+        ],
+        "unit": {
+          "symbol": "oC",
+          "label": "oC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "150",
+        "current_value": "12.94",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "13.7",
+        "min_value": "12.25",
+        "tags": [
+          "BV10",
+          "BV23",
+          "CR10X Battery (Met-Twr)",
+          "CR23X Battery"
+        ],
+        "unit": {
+          "symbol": "VDC",
+          "label": "VDC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "151",
+        "current_value": "12.48",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "14.42",
+        "min_value": "11.69",
+        "tags": [
+          "BV10",
+          "BV10R",
+          "CR10X Battery (Met-Twr)",
+          "CR10X Battery (Rad-Twr)"
+        ],
+        "unit": {
+          "symbol": "VDC",
+          "label": "VDC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "152",
+        "current_value": "13.51",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "21.92",
+        "min_value": "12.23",
+        "tags": [
+          "BV10R",
+          "BV2020",
+          "CR10X Battery (Rad-Twr)",
+          "LI-2020 Battery"
+        ],
+        "unit": {
+          "symbol": "VDC",
+          "label": "VDC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "153",
+        "current_value": "19.73",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "66.38",
+        "min_value": "17.65",
+        "tags": [
+          "BV2020",
+          "DELT",
+          "dT",
+          "LI-2020 Battery"
+        ],
+        "unit": {
+          "symbol": "VDC",
+          "label": "VDC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "154",
+        "current_value": "66.18",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "66.18",
+        "min_value": "2.88",
+        "tags": [
+          "CR23X Pgm. Time (max)",
+          "DELT",
+          "dT",
+          "PGMTIME23"
+        ],
+        "unit": {
+          "symbol": "s",
+          "label": "s",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "155",
+        "current_value": "2.94",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "2.96",
+        "min_value": "0.0",
+        "tags": [
+          "CR10X Overuns (Met-Twr)",
+          "CR23X Pgm. Time (max)",
+          "PGMTIME23",
+          "TO10"
+        ],
+        "unit": {
+          "symbol": "s",
+          "label": "s",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "156",
+        "current_value": "0.00",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "CR10X Overuns (Met-Twr)",
+          "CR10X Overuns (Rad-Twr)",
+          "TO10"
+        ],
+        "unit": {
+          "symbol": "counts",
+          "label": "counts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "157",
+        "current_value": "0.00",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "433.5",
+        "min_value": "-6999.0",
+        "tags": [
+          "CR10X Overuns (Rad-Twr)",
+          "SNOW",
+          "Snow Depth Quality",
+          "TO10"
+        ],
+        "unit": {
+          "symbol": "counts",
+          "label": "counts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "158",
+        "current_value": "194.00",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "539.3",
+        "min_value": "-6999.0",
+        "tags": [
+          "Research Field -1",
+          "RESRCH",
+          "SNOW",
+          "Snow Depth Quality"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "159",
+        "current_value": "0.00",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "Research Field -1",
+          "Research Field 0",
+          "RESRCH"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "160",
+        "current_value": "0.00",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "39.03",
+        "min_value": "-99999.0",
+        "tags": [
+          "Research Ch. 1",
+          "Research Field 0",
+          "RESRCH"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "161",
+        "current_value": "0.00",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "1444.2",
+        "min_value": "-99999.0",
+        "tags": [
+          "Research Ch. 1",
+          "Research Ch. 2",
+          "RESRCH"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "162",
+        "current_value": "0.43",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "1489.7",
+        "min_value": "-70.59",
+        "tags": [
+          "Research Ch. 2",
+          "Research Ch. 3",
+          "RESRCH"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "163",
+        "current_value": "0.43",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "2221.7",
+        "min_value": "0.23",
+        "tags": [
+          "Research Ch. 3",
+          "Research Ch. 4",
+          "RESRCH"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "164",
+        "current_value": "0.00",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "1503.0",
+        "min_value": "-99999.0",
+        "tags": [
+          "Research Ch. 4",
+          "Research Ch. 5",
+          "RESRCH"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "165",
+        "current_value": "0.00",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "6.22",
+        "min_value": "-99999.0",
+        "tags": [
+          "Research Ch. 5",
+          "Research RadTwr 0",
+          "RESRCH"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "166",
+        "current_value": "0.00",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "Research RadTwr 0",
+          "Research RadTwr 1",
+          "RESRCH"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "167",
+        "current_value": "0.00",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "Research RadTwr 1",
+          "Research RadTwr 2",
+          "RESRCH"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "168",
+        "current_value": "0.00",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "0.14",
+        "min_value": "-3.77",
+        "tags": [
+          "Research Future EFM",
+          "Research RadTwr 2",
+          "Research RadTwr 3",
+          "RESRCH"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "169",
+        "current_value": "0.00",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "Research PVTwr 0",
+          "RESRCH"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "170",
+        "current_value": "0.00",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "Research PVTwr 1",
+          "RESRCH"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "171",
+        "current_value": "0.00",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "Research PVTwr 2",
+          "RESRCH"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "172",
+        "current_value": "0.00",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "Research PVTwr 3",
+          "RESRCH"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "173",
+        "current_value": "-99999.00",
+        "at": "03/17/2011 07:22:19",
+        "max_value": "-99999.0",
+        "min_value": "-99999.0",
+        "tags": [
+          "Research Future PA",
+          "RESRCH"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "lab",
+      "domain": 0,
+      "lat": "39.7415143447178",
+      "lon": "-105.174179077148",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/1196\" >Solar Radiation Research Laboratory</a>",
+    "URLMostrar": "https://xively.com/feeds/1196"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\1196.json",
+  "DocumentJSON": null
+}

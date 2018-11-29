@@ -1,0 +1,100 @@
+{
+  "Conceptos": [
+    "temperature"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "28485",
+    "title": "Temperature Belfort  France Live",
+    "Private": false,
+    "tags": [
+      "meteo weather belfort france"
+    ],
+    "description": "Air temperature, updated every minute.\r\nAbris type météo france, 45x40x35 cm\r\nMatérial :Arexx  temperature logger lan BS1000,\r\nlittoclime.com",
+    "feed": "https://api.xively.com/v2/feeds/28485.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:09:37",
+    "created": "06/18/2011 21:30:23",
+    "creator": "https://xively.com/users/meteo90",
+    "version": null,
+    "website": "http://weather.belfort.pagesperso-orange.fr/index.html",
+    "datastreams": [
+      {
+        "id": "85641",
+        "current_value": "24.430",
+        "at": "03/21/2014 14:09:15",
+        "max_value": "107.555",
+        "min_value": "-32.0",
+        "tags": [
+          "aquarium"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "85661",
+        "current_value": "24.805",
+        "at": "03/13/2014 00:55:22",
+        "max_value": "24.805",
+        "min_value": "24.805",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "87931",
+        "current_value": "17.180",
+        "at": "03/21/2014 14:09:37",
+        "max_value": "38.555",
+        "min_value": "-6.57",
+        "tags": [
+          "air exterieur"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "122261",
+        "current_value": "24.242",
+        "at": "03/21/2014 14:09:29",
+        "max_value": "73.359",
+        "min_value": "-22.445",
+        "tags": [
+          "home"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Charmois",
+      "domain": 0,
+      "lat": "47.5722543169065",
+      "lon": "6.93902492523193",
+      "ele": "330",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/28485\" >Temperature Belfort  France Live</a>",
+    "URLMostrar": "https://xively.com/feeds/28485"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\28485.json",
+  "DocumentJSON": null
+}

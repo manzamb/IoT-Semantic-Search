@@ -1,0 +1,80 @@
+{
+  "Conceptos": [
+    "description"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "30689",
+    "title": "My First Feed",
+    "Private": false,
+    "tags": [
+      "gsiot"
+    ],
+    "description": "Enter a description of the Feed",
+    "feed": "https://api.xively.com/v2/feeds/30689.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "07/31/2011 10:07:46",
+    "created": "07/31/2011 09:18:57",
+    "creator": "https://xively.com/users/gcarey",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Number",
+        "current_value": null,
+        "at": null,
+        "max_value": null,
+        "min_value": null,
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "voltage",
+        "current_value": "1.89",
+        "at": "07/31/2011 10:07:46",
+        "max_value": "3.29",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Voltage",
+        "current_value": null,
+        "at": null,
+        "max_value": null,
+        "min_value": null,
+        "tags": null,
+        "unit": {
+          "symbol": "V",
+          "label": "Volt",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "42.1913902870682",
+      "lon": "-71.7602920532227",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/30689\" >My First Feed</a>",
+    "URLMostrar": "https://xively.com/feeds/30689"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\30689.json",
+  "DocumentJSON": null
+}

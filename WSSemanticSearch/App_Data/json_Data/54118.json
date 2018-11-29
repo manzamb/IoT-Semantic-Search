@@ -1,0 +1,187 @@
+{
+  "Conceptos": [
+    "parameter"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "54118",
+    "title": "Lily Farm",
+    "Private": false,
+    "tags": [
+      "activity",
+      "Arduino",
+      "depth",
+      "DS18B20",
+      "filtration",
+      "JeeNode",
+      "koi",
+      "milone",
+      "pond",
+      "pump",
+      "temperature",
+      "water"
+    ],
+    "description": "Various evironmental and system parameters are monitored and controlled at a Water Lily and Koi Farm.\r\nMultiple nodes based on Feetronics Eleven and JeeNodes all capable of rf comms via RFM12B.\r\nAll reporting to a central JeeNode.  Nodes perform autonomous actions as well as monitoring, such as turning on lights, bore pump based on monitored conditions. Also remote control is possible.\r\nSensors include milone liquid level sensor, a slew of DS18B20's (water proof as well as board mounted), CDS and PIR. Some nodes are mains powered, others are solar/battery.\r\nOne of the most interesting things for us that we are monitoring is the water temperature in 80 or so ponds.  Now that I am tracking this it will be interesting to see what correlation there is with Tropical Water Lily growth.\r\n",
+    "feed": "https://api.xively.com/v2/feeds/54118.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:10:15",
+    "created": "04/01/2012 03:40:48",
+    "creator": "https://xively.com/users/fishandlily",
+    "version": null,
+    "website": "http://www.fishandlily.com.au",
+    "datastreams": [
+      {
+        "id": "BoreActivity",
+        "current_value": "0",
+        "at": "03/21/2014 14:09:40",
+        "max_value": "10.0",
+        "min_value": "0.0",
+        "tags": [
+          "bore",
+          "pump"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "FilterCtrlrTemp",
+        "current_value": "25.5",
+        "at": "03/21/2014 14:09:40",
+        "max_value": "101.2",
+        "min_value": "-5.0",
+        "tags": [
+          "controller",
+          "DS18B20",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "c",
+          "label": "celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "FilterLevel",
+        "current_value": "61",
+        "at": "03/21/2014 14:09:40",
+        "max_value": "255.0",
+        "min_value": "-143.0",
+        "tags": [
+          "level",
+          "milone",
+          "water"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "FilterTemp",
+        "current_value": "22.9",
+        "at": "03/21/2014 14:09:40",
+        "max_value": "51.1",
+        "min_value": "-51.2",
+        "tags": [
+          "DS18B20",
+          "filter",
+          "temperature",
+          "water"
+        ],
+        "unit": {
+          "symbol": "c",
+          "label": "celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "SL_01_F",
+        "current_value": "0",
+        "at": "03/21/2014 14:10:15",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "SL_01_LIGHT",
+        "current_value": "51",
+        "at": "03/21/2014 14:10:15",
+        "max_value": "242.0",
+        "min_value": "13.0",
+        "tags": [
+          "LDR",
+          "light"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "SL_01_M",
+        "current_value": "0",
+        "at": "03/21/2014 14:10:15",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "PIR",
+          "state"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "SL_01_TEMP",
+        "current_value": "23.5",
+        "at": "03/21/2014 14:10:15",
+        "max_value": "51.1",
+        "min_value": "-51.1",
+        "tags": [
+          "DS18B20",
+          "light",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "c",
+          "label": "celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Baskerville",
+      "domain": 0,
+      "lat": "-31.7975857152901",
+      "lon": "116.035548448562",
+      "ele": "18",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/54118\" >Lily Farm</a>",
+    "URLMostrar": "https://xively.com/feeds/54118"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\54118.json",
+  "DocumentJSON": null
+}

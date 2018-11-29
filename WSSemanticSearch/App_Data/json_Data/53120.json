@@ -1,0 +1,121 @@
+{
+  "Conceptos": [
+    "atmospheric pressure"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "53120",
+    "title": "Atmospheric Presure",
+    "Private": false,
+    "tags": [
+      "Air pressure",
+      "Air Temp",
+      "Indoor",
+      "室内",
+      "気圧",
+      "気温"
+    ],
+    "description": "Arduino, Ether Shield\r\nCh1 Air temp.  ........... sensor MPL115A2\r\nCh2 Air pressure ...... sensor MPL115A2\r\nCh3 Humidity ... sensor HSM20G\r\nCh4 Temp ........ sensor HSM20G",
+    "feed": "https://api.xively.com/v2/feeds/53120.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:08:59",
+    "created": "03/22/2012 19:16:44",
+    "creator": "https://xively.com/users/ebstsk",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "1",
+        "current_value": "15.0",
+        "at": "03/21/2014 14:08:59",
+        "max_value": "33.4",
+        "min_value": "-0.4",
+        "tags": [
+          "気温"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "℃",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "1005.0",
+        "at": "03/21/2014 14:08:59",
+        "max_value": "1031.7",
+        "min_value": "-299.16",
+        "tags": [
+          "気圧"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "hPa",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "65",
+        "at": "03/21/2014 14:08:59",
+        "max_value": "82.0",
+        "min_value": "-8.0",
+        "tags": [
+          "湿度"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "%RH",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "17.8",
+        "at": "03/21/2014 14:08:59",
+        "max_value": "42.3",
+        "min_value": "2.2",
+        "tags": [
+          "気温"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "℃",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "6",
+        "at": "03/21/2014 14:08:59",
+        "max_value": "713.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Kanagawa-ken, Japan",
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/53120\" >Atmospheric Presure</a>",
+    "URLMostrar": "https://xively.com/feeds/53120"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\53120.json",
+  "DocumentJSON": null
+}

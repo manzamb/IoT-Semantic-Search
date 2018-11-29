@@ -1,0 +1,137 @@
+{
+  "Conceptos": [
+    "dew cell"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "14987",
+    "title": "Cosmopolitan Home Control",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "carlton",
+      "cosmopolitan",
+      "Dalton weather station"
+    ],
+    "description": "Dalton is a home-made weather station that, using an Freetronics TwentyTen (Arduino Clone) and a WiShield 2.0 offers temperature, humidity and barometric pressure values from Carlton, Victoria, Australia.\r\n\r\nFull credit for this project goes to Jose who provides an excellent tutorial here: http://kawasemicorp.com/dalton and his Pachube feed here:  http://www.pachube.com/feeds/13723",
+    "feed": "https://api.xively.com/v2/feeds/14987.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "08/06/2011 23:01:10",
+    "created": "01/16/2011 09:54:08",
+    "creator": "https://xively.com/users/benthomas",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "20.83",
+        "at": "08/06/2011 23:01:10",
+        "max_value": "28.8",
+        "min_value": "10.19",
+        "tags": [
+          "Average Temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "46.69",
+        "at": "08/06/2011 23:01:10",
+        "max_value": "70.5",
+        "min_value": "37.1",
+        "tags": [
+          "Relative Humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "1007",
+        "at": "08/06/2011 23:01:10",
+        "max_value": "1033.0",
+        "min_value": "0.0",
+        "tags": [
+          "Barometric Pressure"
+        ],
+        "unit": {
+          "symbol": "hPa",
+          "label": "hectoPascals",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "9.04",
+        "at": "08/06/2011 23:01:10",
+        "max_value": "20.5",
+        "min_value": "-0.07",
+        "tags": [
+          "Dew Point"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "19.80",
+        "at": "08/06/2011 23:01:10",
+        "max_value": "28.2",
+        "min_value": "0.0",
+        "tags": [
+          "Temperature (BMP085)"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "21.93",
+        "at": "08/06/2011 23:01:10",
+        "max_value": "28.8",
+        "min_value": "18.47",
+        "tags": [
+          "Temperature (SHT15)"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Carlton, Victoria, Australia",
+      "domain": 0,
+      "lat": "-37.8039859221245",
+      "lon": "144.968461990356",
+      "ele": "60",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/14987\" >Cosmopolitan Home Control</a>",
+    "URLMostrar": "https://xively.com/feeds/14987"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\14987.json",
+  "DocumentJSON": null
+}

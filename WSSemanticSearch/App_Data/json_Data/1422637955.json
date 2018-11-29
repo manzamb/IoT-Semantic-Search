@@ -1,0 +1,237 @@
+{
+  "Conceptos": [
+    "area",
+    "calidad del aire",
+    "lluvia ácida",
+    "cadmio",
+    "monóxido de carbono",
+    "co",
+    "nitratos",
+    "óxido de azufre",
+    "so2",
+    "no2",
+    "plomo",
+    "sulfatos",
+    "dióxido de azufre",
+    "no",
+    "pm10",
+    "ozono",
+    "o3",
+    "pst",
+    "region",
+    "color"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "1422637955",
+    "title": "El Tambo",
+    "Private": false,
+    "tags": [
+      "bronconstricción",
+      "CO",
+      "contaminantes",
+      "Dióxido de Azufre",
+      "Dióxido de nitrógeno",
+      "MaterialParticulado",
+      "Monóxido de Carbono",
+      "NO2",
+      "O3",
+      "PM10",
+      "PST",
+      "smog",
+      "SO2"
+    ],
+    "description": "Simulador Estación Meteorológica del Departamento del Cauca.\nMonitoreo de SVCA Sistema de Vigilancia de Calidad del Aire.\nEscala de Monitoreo SVCA: \nTipo Regional:\nRadio de más de 20Km hasta el area total de la juridicción.\n",
+    "feed": "https://api.xively.com/v2/feeds/1422637955.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/30/2014 22:00:14",
+    "created": "03/11/2014 14:20:29",
+    "creator": "https://xively.com/users/simiot",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "feedid": null,
+        "id": "Dioxido_de_Azufre_SO2",
+        "current_value": "314.00",
+        "at": "03/30/2014 05:00:20",
+        "max_value": "488.0",
+        "min_value": "50.0",
+        "tags": [
+          "bronconstricción",
+          "Dióxido de Azufre",
+          "lluvia ácida",
+          "Muestra cada 24 horas",
+          "SO2",
+          "SOx",
+          "sulfatos"
+        ],
+        "unit": {
+          "symbol": "ug/m3",
+          "label": "Miligramo cúbico",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "feedid": null,
+        "id": "Dioxido_de_nitrogeno_NO2",
+        "current_value": "344.00",
+        "at": "03/30/2014 21:00:10",
+        "max_value": "969.0",
+        "min_value": "50.0",
+        "tags": [
+          "Dióxido de nitrógeno",
+          "edema pulmonar",
+          "gas incoloro e inodoro",
+          "irritante del pulmón",
+          "lluvia acida",
+          "Muestra cada 1 horas",
+          "NO",
+          "NO2",
+          "NOx",
+          "partículas mutagénicas",
+          "partículas secundarias tóxicas",
+          "procesos de combustión",
+          "smog"
+        ],
+        "unit": {
+          "symbol": "ug/m3",
+          "label": "Micrometro cúbico",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "feedid": null,
+        "id": "Monoxido_de_Carbono_CO",
+        "current_value": "11.00",
+        "at": "03/30/2014 21:00:09",
+        "max_value": "50.0",
+        "min_value": "10.0",
+        "tags": [
+          "carboxihemoglobina",
+          "cefalea",
+          "CO",
+          "COHb",
+          "hemoglobina",
+          "hipoxia",
+          "hipoxia anémica",
+          "intoxicación",
+          "Monóxido de Carbono",
+          "Muestra cada 8 horas",
+          "náuseas"
+        ],
+        "unit": {
+          "symbol": "mg/m3",
+          "label": "Miligramo cúbico",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "feedid": null,
+        "id": "Ozono_03",
+        "current_value": "295.00",
+        "at": "03/30/2014 22:00:14",
+        "max_value": "992.0",
+        "min_value": "50.0",
+        "tags": [
+          "contaminante secundario",
+          "irritante pulmonar",
+          "Muestra cada 1 horas",
+          "O3",
+          "Ozono",
+          "Ozono contaminante",
+          "smog",
+          "troposfera"
+        ],
+        "unit": {
+          "symbol": "ug/m3",
+          "label": "Micrometro cúbico",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "feedid": null,
+        "id": "PM10_Material_Particulado",
+        "current_value": "171.00",
+        "at": "03/30/2014 05:00:15",
+        "max_value": "546.0",
+        "min_value": "50.0",
+        "tags": [
+          "10 micrómetros",
+          "Cadmio",
+          "Calcio",
+          "Carbono Elemental",
+          "Carbono Orgánico",
+          "diámetro aerodinámico",
+          "gotas liquidas",
+          "Hierro",
+          "Material Partículado",
+          "Muestra cada 24 horas",
+          "Nitratos",
+          "Plomo",
+          "Silicio",
+          "Sulfatos",
+          "velocidad de sedimenta terminal",
+          "Zinc"
+        ],
+        "unit": {
+          "symbol": "ug/m3",
+          "label": "Miligramo cúbico",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "feedid": null,
+        "id": "PST_Material_Particulado_Total",
+        "current_value": "711.00",
+        "at": "03/30/2014 05:00:17",
+        "max_value": "834.0",
+        "min_value": "50.0",
+        "tags": [
+          "Activos Semiautomáticos",
+          "Beta Gauge",
+          "Cadmio",
+          "Calcio",
+          "Carbono Elemental",
+          "Carbono Orgánico",
+          "diámetro aerodinámico",
+          "Hi Vol",
+          "Hierro",
+          "Low Vol",
+          "Material Particulado Total",
+          "Muestra cada 24 horas",
+          "Nitratos",
+          "Plomo",
+          "Silicio",
+          "Sulfatos",
+          "Zinc"
+        ],
+        "unit": {
+          "symbol": "ug/m3",
+          "label": "Miligramo cúbico",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "El Tambo",
+      "domain": 0,
+      "lat": "2.4534228676818",
+      "lon": "-76.8037033081055",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/1422637955\" >El Tambo</a>",
+    "URLMostrar": "https://xively.com/feeds/1422637955"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\1422637955.json",
+  "DocumentJSON": null
+}

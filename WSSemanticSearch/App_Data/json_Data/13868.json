@@ -1,0 +1,595 @@
+{
+  "Conceptos": [
+    "area"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "13868",
+    "title": "Temp Sensors",
+    "Private": false,
+    "tags": [
+      "temperature",
+      "thermostat"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/13868.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:07:24",
+    "created": "12/15/2010 03:24:06",
+    "creator": "https://xively.com/users/cody",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "68",
+        "at": "03/21/2014 14:07:24",
+        "max_value": "75.0",
+        "min_value": "0.0",
+        "tags": [
+          "Guest Heat"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "70",
+        "at": "03/21/2014 14:07:24",
+        "max_value": "75.0",
+        "min_value": "19.0",
+        "tags": [
+          "Comp heat"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "70",
+        "at": "03/21/2014 14:07:24",
+        "max_value": "91.0",
+        "min_value": "0.0",
+        "tags": [
+          "Master Heat"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "74",
+        "at": "03/21/2014 14:07:24",
+        "max_value": "19346.0",
+        "min_value": "0.0",
+        "tags": [
+          "Guest Temp"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "71",
+        "at": "03/21/2014 14:07:24",
+        "max_value": "19595.0",
+        "min_value": "-51.0",
+        "tags": [
+          "Comp Temp"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "74",
+        "at": "03/21/2014 14:07:24",
+        "max_value": "20616.0",
+        "min_value": "-58.0",
+        "tags": [
+          "Master Temp"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "57",
+        "at": "03/21/2014 14:07:24",
+        "max_value": "109.0",
+        "min_value": "0.0",
+        "tags": [
+          "Outside Temp"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "7",
+        "current_value": "82",
+        "at": "03/21/2014 14:07:24",
+        "max_value": "82.0",
+        "min_value": "0.0",
+        "tags": [
+          "Guest Cool"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "8",
+        "current_value": "76",
+        "at": "03/21/2014 14:07:24",
+        "max_value": "92.0",
+        "min_value": "0.0",
+        "tags": [
+          "Comp Cool"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "9",
+        "current_value": "75",
+        "at": "03/21/2014 14:07:24",
+        "max_value": "91.0",
+        "min_value": "0.0",
+        "tags": [
+          "Master Cool"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "10",
+        "current_value": "0",
+        "at": "03/21/2014 14:07:24",
+        "max_value": "12.0",
+        "min_value": "-81.0",
+        "tags": [
+          "Lake Level"
+        ],
+        "unit": {
+          "symbol": "in",
+          "label": "inches",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "11",
+        "current_value": "-42",
+        "at": "03/21/2014 14:07:24",
+        "max_value": "3.0",
+        "min_value": "-42.0",
+        "tags": [
+          "Master Valve Lake"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "12",
+        "current_value": "0",
+        "at": "03/21/2014 14:07:24",
+        "max_value": "3.0",
+        "min_value": "-42.0",
+        "tags": [
+          "Master Valve City"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "13",
+        "current_value": "-14",
+        "at": "03/21/2014 14:07:24",
+        "max_value": "1.0",
+        "min_value": "-14.0",
+        "tags": [
+          "Zone 1"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "14",
+        "current_value": "-14",
+        "at": "03/21/2014 14:07:24",
+        "max_value": "1.0",
+        "min_value": "-14.0",
+        "tags": [
+          "Zone 2"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "15",
+        "current_value": "-14",
+        "at": "03/21/2014 14:07:24",
+        "max_value": "1.0",
+        "min_value": "-14.0",
+        "tags": [
+          "Zone 3"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "16",
+        "current_value": "-14",
+        "at": "03/21/2014 14:07:24",
+        "max_value": "1.0",
+        "min_value": "-14.0",
+        "tags": [
+          "Zone 4"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "17",
+        "current_value": "0",
+        "at": "03/21/2014 14:07:24",
+        "max_value": "1.0",
+        "min_value": "-14.0",
+        "tags": [
+          "Zone 5"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "18",
+        "current_value": "-14",
+        "at": "03/21/2014 14:07:24",
+        "max_value": "1.0",
+        "min_value": "-14.0",
+        "tags": [
+          "Zone 6"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "19",
+        "current_value": "0",
+        "at": "03/21/2014 14:07:24",
+        "max_value": "1.0",
+        "min_value": "-14.0",
+        "tags": [
+          "Zone 7"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "20",
+        "current_value": "-14",
+        "at": "03/21/2014 14:07:24",
+        "max_value": "1.0",
+        "min_value": "-14.0",
+        "tags": [
+          "Zone 8"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "21",
+        "current_value": "0",
+        "at": "03/21/2014 14:07:24",
+        "max_value": "1.0",
+        "min_value": "-14.0",
+        "tags": [
+          "Zone 9"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "22",
+        "current_value": "-14",
+        "at": "03/21/2014 14:07:24",
+        "max_value": "1.0",
+        "min_value": "-14.0",
+        "tags": [
+          "Zone 10"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "23",
+        "current_value": "0",
+        "at": "03/21/2014 14:07:24",
+        "max_value": "1.0",
+        "min_value": "-14.0",
+        "tags": [
+          "Zone 11"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "24",
+        "current_value": "0",
+        "at": "03/21/2014 14:07:24",
+        "max_value": "1.0",
+        "min_value": "-14.0",
+        "tags": [
+          "Zone 12"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "25",
+        "current_value": "0",
+        "at": "03/21/2014 14:07:24",
+        "max_value": "1.0",
+        "min_value": "-14.0",
+        "tags": [
+          "Zone 13"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "26",
+        "current_value": "0",
+        "at": "03/21/2014 14:07:24",
+        "max_value": "2.0",
+        "min_value": "-28.0",
+        "tags": [
+          "Area 1"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "27",
+        "current_value": "-28",
+        "at": "03/21/2014 14:07:24",
+        "max_value": "2.0",
+        "min_value": "-28.0",
+        "tags": [
+          "Area 2"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "28",
+        "current_value": "-28",
+        "at": "03/21/2014 14:07:24",
+        "max_value": "2.0",
+        "min_value": "-28.0",
+        "tags": [
+          "Area 3"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "29",
+        "current_value": "-28",
+        "at": "03/21/2014 14:07:24",
+        "max_value": "2.0",
+        "min_value": "-28.0",
+        "tags": [
+          "Area 4"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "30",
+        "current_value": "-28",
+        "at": "03/21/2014 14:07:24",
+        "max_value": "2.0",
+        "min_value": "-28.0",
+        "tags": [
+          "Area 5"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "31",
+        "current_value": "-28",
+        "at": "03/21/2014 14:07:24",
+        "max_value": "2.0",
+        "min_value": "-28.0",
+        "tags": [
+          "Area 6"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "32",
+        "current_value": "-28",
+        "at": "03/21/2014 14:07:24",
+        "max_value": "2.0",
+        "min_value": "-28.0",
+        "tags": [
+          "Area 7"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "33",
+        "current_value": "60",
+        "at": "03/21/2014 14:07:24",
+        "max_value": "63.5",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "34",
+        "current_value": "58",
+        "at": "03/21/2014 14:07:24",
+        "max_value": "68.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "30.6757154041677",
+      "lon": "-96.361083984375",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/13868\" >Temp Sensors</a>",
+    "URLMostrar": "https://xively.com/feeds/13868"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\13868.json",
+  "DocumentJSON": null
+}

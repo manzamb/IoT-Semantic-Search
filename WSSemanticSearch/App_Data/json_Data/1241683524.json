@@ -1,0 +1,100 @@
+{
+  "Conceptos": [
+    "moisture"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "1241683524",
+    "title": "AfriCanSat",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/1241683524.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "08/20/2013 14:21:03",
+    "created": "08/16/2013 11:06:58",
+    "creator": "https://xively.com/users/etnardlouw",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Barometer",
+        "current_value": "101",
+        "at": "08/20/2013 14:21:03",
+        "max_value": "101.0",
+        "min_value": "101.0",
+        "tags": [
+          "Barometric Pressure sensor"
+        ],
+        "unit": {
+          "symbol": "Pa",
+          "label": "Pascall",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Moisture",
+        "current_value": "50",
+        "at": "08/20/2013 14:15:15",
+        "max_value": "50.0",
+        "min_value": "50.0",
+        "tags": [
+          "Humidity sensor"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "moisture",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temp",
+        "current_value": "26",
+        "at": "08/20/2013 14:16:25",
+        "max_value": "26.0",
+        "min_value": "26.0",
+        "tags": [
+          "External Temperature sensor"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Degrees Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperature",
+        "current_value": "25",
+        "at": "08/16/2013 11:12:54",
+        "max_value": "25.0",
+        "min_value": "25.0",
+        "tags": [
+          "int temp sensor 1"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Degrees Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/1241683524\" >AfriCanSat</a>",
+    "URLMostrar": "https://xively.com/feeds/1241683524"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\1241683524.json",
+  "DocumentJSON": null
+}

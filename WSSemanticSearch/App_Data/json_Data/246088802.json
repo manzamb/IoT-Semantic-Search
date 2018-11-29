@@ -1,0 +1,88 @@
+{
+  "Conceptos": [
+    "design"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "246088802",
+    "title": "environment - kita design - tokyo",
+    "Private": false,
+    "tags": [
+      "Arduino",
+      "BMP085",
+      "HIH4030"
+    ],
+    "description": "Sasazuka, Shibuya, Tokyo\nJapan",
+    "feed": "https://api.xively.com/v2/feeds/246088802.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "06/23/2013 12:34:26",
+    "created": "05/28/2013 00:43:20",
+    "creator": "https://xively.com/users/shingo",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "27.50",
+        "at": "06/23/2013 12:34:26",
+        "max_value": "28.8",
+        "min_value": "2.64",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "73.86",
+        "at": "06/23/2013 12:34:26",
+        "max_value": "88.52",
+        "min_value": "41.0",
+        "tags": [
+          "Humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "1006.81",
+        "at": "06/23/2013 12:34:26",
+        "max_value": "1022.39",
+        "min_value": "993.88",
+        "tags": [
+          "Pressure"
+        ],
+        "unit": {
+          "symbol": "hpa",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "kita design",
+      "domain": 0,
+      "lat": "35.677683",
+      "lon": "139.667187",
+      "ele": "36.303432",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/246088802\" >environment - kita design - tokyo</a>",
+    "URLMostrar": "https://xively.com/feeds/246088802"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\246088802.json",
+  "DocumentJSON": null
+}

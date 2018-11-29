@@ -1,0 +1,88 @@
+{
+  "Conceptos": [
+    "sensing"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "49391",
+    "title": "CCA Urban Sensing",
+    "Private": false,
+    "tags": [
+      "Humidity",
+      "Light Levels",
+      "Temperature"
+    ],
+    "description": "Humidity, Temperature, Light Levels at CCA",
+    "feed": "https://api.xively.com/v2/feeds/49391.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "05/02/2012 21:11:04",
+    "created": "02/22/2012 22:10:17",
+    "creator": "https://xively.com/users/mbarker",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "36.00",
+        "at": "05/02/2012 21:11:04",
+        "max_value": "41.0",
+        "min_value": "34.0",
+        "tags": [
+          "humidity"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "24.00",
+        "at": "05/02/2012 21:11:04",
+        "max_value": "26.0",
+        "min_value": "22.0",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "0",
+        "at": "05/02/2012 21:11:04",
+        "max_value": "557.0",
+        "min_value": "0.0",
+        "tags": [
+          "photocell"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "California College of the Arts",
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/49391\" >CCA Urban Sensing</a>",
+    "URLMostrar": "https://xively.com/feeds/49391"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\49391.json",
+  "DocumentJSON": null
+}

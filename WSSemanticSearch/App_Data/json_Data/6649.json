@@ -1,0 +1,70 @@
+{
+  "Conceptos": [
+    "person"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "6649",
+    "title": "USA IL Elmhurst 1200 foot ranch Brick",
+    "Private": false,
+    "tags": null,
+    "description": "1.5 story brick ranch 1,200 square feet 4 bedrooms 2 bath 5 occupants all published from 2 phase Current Cost CC128 Gen2 now going to my.currentcost.com via an ethernet bridge.  Would like to get RRTP working as well!!\r\n\r\nNow publishing here my house temps and relative humidity via Arduino Uno, ethernet shield and DS18B20.",
+    "feed": "https://api.xively.com/v2/feeds/6649.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "09/25/2011 21:20:48",
+    "created": "04/05/2010 21:42:49",
+    "creator": "https://xively.com/users/rexki",
+    "version": null,
+    "website": "http://www.info-trex.com/main-menu/energy-menu/energy-savings/personal-comed-usage",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "71.1",
+        "at": "05/13/2010 03:01:32",
+        "max_value": "88.2",
+        "min_value": "64.5",
+        "tags": [
+          "degrees",
+          "fahrenheit",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "Fahrenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "174.0",
+        "at": "05/13/2010 03:01:32",
+        "max_value": "1746.0",
+        "min_value": "28.0",
+        "tags": [
+          "relative humidity"
+        ],
+        "unit": {
+          "symbol": "RH%",
+          "label": "percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Elmhurst IL USA",
+      "domain": 1,
+      "lat": "41.8730664808388",
+      "lon": "-87.9506335279439",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/6649\" >USA IL Elmhurst 1200 foot ranch Brick</a>",
+    "URLMostrar": "https://xively.com/feeds/6649"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\6649.json",
+  "DocumentJSON": null
+}

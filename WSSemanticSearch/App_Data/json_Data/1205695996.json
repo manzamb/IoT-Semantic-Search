@@ -1,0 +1,245 @@
+{
+  "Conceptos": [
+    "nitrates"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "1205695996",
+    "title": "Paago Aquaponics",
+    "Private": false,
+    "tags": [
+      "aquaponic",
+      "aquaponics",
+      "bilthoven",
+      "fish",
+      "garden",
+      "nederland",
+      "netherlands",
+      "troyer",
+      "tuin",
+      "utrecht",
+      "vis"
+    ],
+    "description": "These are key metrics for my small Aquaponics installation in my back garden.  So far I have 5 sensors installed.  Three temperature sensors for the inside/outside air and the water temperature of the fish tank.  Additionally, there are two measurements taken from Webcam that measure the relative light level and the current noise level.  The fluctuations in the noise level indicates cycling water from the bell siphon.",
+    "feed": "https://api.xively.com/v2/feeds/1205695996.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:11:56",
+    "created": "09/06/2013 11:12:46",
+    "creator": "https://xively.com/users/paago_org",
+    "version": null,
+    "website": "http://paago.org/aquaponics",
+    "datastreams": [
+      {
+        "id": "bellsiphonsound",
+        "current_value": "29.625\n",
+        "at": "03/21/2014 14:11:56",
+        "max_value": "94.375",
+        "min_value": "0.0",
+        "tags": [
+          "bell siphon",
+          "sound"
+        ],
+        "unit": {
+          "symbol": "Sound Level",
+          "label": "sound level",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "fancommand",
+        "current_value": "-1",
+        "at": "03/19/2014 23:01:57",
+        "max_value": "3.0",
+        "min_value": "-4.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "growlightcommand",
+        "current_value": "-1",
+        "at": "03/19/2014 23:06:23",
+        "max_value": "1.0",
+        "min_value": "-1.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "humidityinside",
+        "current_value": "     53.1087",
+        "at": "03/21/2014 14:11:42",
+        "max_value": "106.763",
+        "min_value": "-1.0",
+        "tags": [
+          "temp"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "light",
+        "current_value": "26.0533\n",
+        "at": "03/21/2014 14:11:04",
+        "max_value": "46.5522",
+        "min_value": "0.727855",
+        "tags": [
+          "light"
+        ],
+        "unit": {
+          "symbol": "Relative Light",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "nh3",
+        "current_value": "0",
+        "at": "11/30/2013 16:17:36",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "ammonia",
+          "nh3"
+        ],
+        "unit": {
+          "symbol": "nh3",
+          "label": "ppm",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "no2",
+        "current_value": "0",
+        "at": "11/30/2013 16:17:36",
+        "max_value": "5.0",
+        "min_value": "0.0",
+        "tags": [
+          "nitrites",
+          "no2"
+        ],
+        "unit": {
+          "symbol": "no2",
+          "label": "ppn",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "no3",
+        "current_value": "60",
+        "at": "11/30/2013 16:17:36",
+        "max_value": "80.0",
+        "min_value": "0.0",
+        "tags": [
+          "nitrates",
+          "no3"
+        ],
+        "unit": {
+          "symbol": "no3",
+          "label": "ppm",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "ph",
+        "current_value": "7.0",
+        "at": "11/30/2013 16:17:36",
+        "max_value": "8.0",
+        "min_value": "7.0",
+        "tags": [
+          "pH"
+        ],
+        "unit": {
+          "symbol": "pH",
+          "label": "pH",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temperatureinside",
+        "current_value": "     31.4375",
+        "at": "03/21/2014 14:11:41",
+        "max_value": "42.75",
+        "min_value": "-1.0",
+        "tags": [
+          "green house",
+          "inside",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temperatureoutside",
+        "current_value": "       10.25",
+        "at": "03/21/2014 14:11:44",
+        "max_value": "85.0",
+        "min_value": "-2.9375",
+        "tags": [
+          "outside",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temperaturewater",
+        "current_value": "     20.0625",
+        "at": "03/21/2014 14:11:45",
+        "max_value": "85.0",
+        "min_value": "-1.0",
+        "tags": [
+          "fish tank",
+          "temperature",
+          "water"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Bilthoven, The Netherlands",
+      "domain": 0,
+      "lat": "52.1365344",
+      "lon": "5.21038060000001",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/1205695996\" >Paago Aquaponics</a>",
+    "URLMostrar": "https://xively.com/feeds/1205695996"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\1205695996.json",
+  "DocumentJSON": null
+}

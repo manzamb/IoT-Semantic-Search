@@ -1,0 +1,76 @@
+{
+  "Conceptos": [
+    "moisture"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "127249",
+    "title": "SoilTempNMoisture",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "garden",
+      "moisture",
+      "soil",
+      "temperature"
+    ],
+    "description": "Running two screws into the soil and measuring the electrical potential as \"soil moisture\".  Also reading the air temp at this time but the probe eventually will be put into the soil for a soil temp reading (once I waterproof the sensor).\r\n\r\nAs the dryness value goes up the soil is getting more dry.  I want to water perhaps before a value of 900.  When I water, the value drops below 850.",
+    "feed": "https://api.xively.com/v2/feeds/127249.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "05/31/2013 13:49:49",
+    "created": "04/23/2013 18:23:03",
+    "creator": "https://xively.com/users/webcompanion",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "SoilMoisture",
+        "current_value": "963.00",
+        "at": "05/31/2013 13:49:49",
+        "max_value": "970.0",
+        "min_value": "823.0",
+        "tags": [
+          "moisture",
+          "soil"
+        ],
+        "unit": {
+          "symbol": "dryness",
+          "label": "dry index",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "SoilTemperature",
+        "current_value": "73.00",
+        "at": "05/31/2013 13:49:49",
+        "max_value": "78.0",
+        "min_value": "65.0",
+        "tags": [
+          "soil",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Detroit",
+      "domain": 0,
+      "lat": "42.338308",
+      "lon": "-83.046367",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/127249\" >SoilTempNMoisture</a>",
+    "URLMostrar": "https://xively.com/feeds/127249"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\127249.json",
+  "DocumentJSON": null
+}

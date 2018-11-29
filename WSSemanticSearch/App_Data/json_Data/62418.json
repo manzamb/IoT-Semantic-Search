@@ -1,0 +1,159 @@
+{
+  "Conceptos": [
+    "atmospheric pressure"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "62418",
+    "title": "SolderCore",
+    "Private": false,
+    "tags": [
+      "BMP085",
+      "CoreBASIC",
+      "CoreLight",
+      "CoreMPU",
+      "CorePressure",
+      "CoreTemp",
+      "ISL29023",
+      "MPU-6050",
+      "SenseCore",
+      "SExI",
+      "SHT21",
+      "SolderCore",
+      "TC77"
+    ],
+    "description": "SolderCore cosm demo. Measuring ambient light, temperature, pitch and roll.",
+    "feed": "https://api.xively.com/v2/feeds/62418.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "11/15/2013 12:54:54",
+    "created": "06/05/2012 10:41:57",
+    "creator": "https://xively.com/users/soldercore",
+    "version": null,
+    "website": "http://soldercore.com",
+    "datastreams": [
+      {
+        "id": "DewPoint",
+        "current_value": "13.1203",
+        "at": "11/15/2013 12:54:53",
+        "max_value": "21.0035",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Humidity",
+        "current_value": "58.3539",
+        "at": "11/15/2013 12:54:52",
+        "max_value": "79.907",
+        "min_value": "0.0",
+        "tags": [
+          "Ambient Humidity",
+          "SHT21"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Light",
+        "current_value": "605.469",
+        "at": "11/15/2013 12:54:51",
+        "max_value": "3000.0",
+        "min_value": "1.95313",
+        "tags": [
+          "Ambient light",
+          "CoreLight"
+        ],
+        "unit": {
+          "symbol": "lx",
+          "label": "Lux",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "MPU_6050_Temp",
+        "current_value": "22.2735",
+        "at": "11/15/2013 12:54:53",
+        "max_value": "181.506",
+        "min_value": "14.3206",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Pressure",
+        "current_value": "1024.97",
+        "at": "11/15/2013 12:54:52",
+        "max_value": "1025.26",
+        "min_value": "972.43",
+        "tags": [
+          "Atmospheric Pressure",
+          "CorePressure"
+        ],
+        "unit": {
+          "symbol": "hPa",
+          "label": "hPa",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "SHT21_Temp",
+        "current_value": "21.6405",
+        "at": "11/15/2013 12:54:53",
+        "max_value": "33.2236",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperature",
+        "current_value": "21.3",
+        "at": "11/15/2013 12:54:52",
+        "max_value": "34.3",
+        "min_value": "12.6",
+        "tags": [
+          "Ambient Temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Torquay",
+      "domain": 0,
+      "lat": "50.4702343911882",
+      "lon": "-3.52380037307739",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/62418\" >SolderCore</a>",
+    "URLMostrar": "https://xively.com/feeds/62418"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\62418.json",
+  "DocumentJSON": null
+}

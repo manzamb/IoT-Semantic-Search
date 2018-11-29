@@ -1,0 +1,54 @@
+{
+  "Conceptos": [
+    "atmospheric pressure"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "1820530794",
+    "title": "Atmospheric pressure",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/1820530794.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:09:03",
+    "created": "06/05/2013 06:15:45",
+    "creator": "https://xively.com/users/edy555",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "pressure",
+        "current_value": "996.1",
+        "at": "03/21/2014 14:09:03",
+        "max_value": "1037.6",
+        "min_value": "854.5",
+        "tags": [
+          "mpl115a2",
+          "pressure",
+          "raspberry pi"
+        ],
+        "unit": {
+          "symbol": "hPa",
+          "label": "hPa",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "near Sapporo",
+      "domain": 0,
+      "lat": "43.0198007503495",
+      "lon": "141.507296562195",
+      "ele": "50m",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/1820530794\" >Atmospheric pressure</a>",
+    "URLMostrar": "https://xively.com/feeds/1820530794"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\1820530794.json",
+  "DocumentJSON": null
+}

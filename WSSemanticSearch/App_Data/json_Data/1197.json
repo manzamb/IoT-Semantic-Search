@@ -1,0 +1,1259 @@
+{
+  "Conceptos": [
+    "surface"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "1197",
+    "title": "National Wind Technology Center",
+    "Private": false,
+    "tags": null,
+    "description": "The readings displayed are derived from instruments mounted on or near a 82 meter (270 foot) meteorological tower located at the western edge of the NWTC Site and about 11 km (7 miles) west of Broomfield, and approximately 8 km (5 miles) south of Boulder, Colorado. The tower is located at 39° 54' 38.34\" N and 105° 14' 5.28\" W (datum WGS84) with its base at an elevation of 1855 meters (6085 feet) above mean sea level. \r\n\r\nThe current conditions represent the mean value of readings taken every two seconds and averaged over one minute. The wind speed and direction are measured at a (6) heights: 2, 5, 10, 20, 50, and 80 meters. The vertical shear (the rate of change in wind speed with height) is calculated from the means of wind speed measurements taken at six heights between 2 and 80 meters (7 and 262 feet). \r\n\r\nThe air temperature is measured at (3) heights: 2, 50, and 80 meters. The dew point temperature, relative humidity, and barometric pressure are measured at a height of 2 meters. The station pressure and altimeter setting (listed as estimated sea-level pressure) are measured at an elevation of 1857.5 meters (6090 feet) above mean sea level. \r\n\r\nSeveral parameters are summarized for each day beginning at midnight local standard time. The totalized liquid precipitation and global solar radiation are also presented. \r\n\r\nThe information is automatically refreshed approximately every minute and historical data is also available.",
+    "feed": "https://api.xively.com/v2/feeds/1197.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/17/2011 07:25:19",
+    "created": "11/14/2008 18:51:21",
+    "creator": "https://xively.com/users/dhunter",
+    "version": null,
+    "website": "http://www.nrel.gov/midc/nwtc_m2/",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "-13.67",
+        "at": "03/17/2011 07:25:19",
+        "max_value": "1425.4",
+        "min_value": "-6999.0",
+        "tags": [
+          "GH",
+          "Global PSP"
+        ],
+        "unit": {
+          "symbol": "W/m2",
+          "label": "W/m2",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "0.00",
+        "at": "03/17/2011 07:25:19",
+        "max_value": "9.23",
+        "min_value": "-6999.0",
+        "tags": [
+          "GH",
+          "Global (Accumulated)"
+        ],
+        "unit": {
+          "symbol": "kWhr/m2",
+          "label": "kWhr/m2",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "16.16",
+        "at": "03/17/2011 07:25:19",
+        "max_value": "33.33",
+        "min_value": "-6999.0",
+        "tags": [
+          "T",
+          "Temperature (2m)"
+        ],
+        "unit": {
+          "symbol": "oC",
+          "label": "oC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "16.29",
+        "at": "03/17/2011 07:25:19",
+        "max_value": "31.0",
+        "min_value": "-6999.0",
+        "tags": [
+          "T",
+          "Temperature (50m)"
+        ],
+        "unit": {
+          "symbol": "oC",
+          "label": "oC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "14.70",
+        "at": "03/17/2011 07:25:19",
+        "max_value": "57.41",
+        "min_value": "-6999.0",
+        "tags": [
+          "T",
+          "Temperature (80m)"
+        ],
+        "unit": {
+          "symbol": "oC",
+          "label": "oC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "14.65",
+        "at": "03/17/2011 07:25:19",
+        "max_value": "33.33",
+        "min_value": "-6999.0",
+        "tags": [
+          "WC",
+          "Wind Chill Temp"
+        ],
+        "unit": {
+          "symbol": "oC",
+          "label": "oC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "-5.54",
+        "at": "03/17/2011 07:25:19",
+        "max_value": "23.95",
+        "min_value": "-6999.0",
+        "tags": [
+          "Dew Point Temp",
+          "DP"
+        ],
+        "unit": {
+          "symbol": "oC",
+          "label": "oC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "7",
+        "current_value": "20.87",
+        "at": "03/17/2011 07:25:19",
+        "max_value": "100.0",
+        "min_value": "-6999.0",
+        "tags": [
+          "Relative Humidity",
+          "RH"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "8",
+        "current_value": "2.96",
+        "at": "03/17/2011 07:25:19",
+        "max_value": "22.64",
+        "min_value": "-6999.0",
+        "tags": [
+          "SH",
+          "Specific Humidity"
+        ],
+        "unit": {
+          "symbol": "g/Kg",
+          "label": "g/Kg",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "9",
+        "current_value": "804.99",
+        "at": "03/17/2011 07:25:19",
+        "max_value": "830.61",
+        "min_value": "-6999.0",
+        "tags": [
+          "PRESS",
+          "Station Pressure"
+        ],
+        "unit": {
+          "symbol": "mBar",
+          "label": "mBar",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "10",
+        "current_value": "1008.00",
+        "at": "03/17/2011 07:25:19",
+        "max_value": "1038.8",
+        "min_value": "-6999.0",
+        "tags": [
+          "Est. Sea-Level Pressure",
+          "SEA"
+        ],
+        "unit": {
+          "symbol": "mBar",
+          "label": "mBar",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "11",
+        "current_value": "0.00",
+        "at": "03/17/2011 07:25:19",
+        "max_value": "30.99",
+        "min_value": "-6999.0",
+        "tags": [
+          "Precipitation (Accumulated)",
+          "RAIN"
+        ],
+        "unit": {
+          "symbol": "mm",
+          "label": "mm",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "12",
+        "current_value": "0.08",
+        "at": "03/17/2011 07:25:19",
+        "max_value": "19.53",
+        "min_value": "-99999.0",
+        "tags": [
+          "Atmospheric Electric Field",
+          "EF",
+          "Wind Speed (2m)",
+          "WS"
+        ],
+        "unit": {
+          "symbol": "kV/m",
+          "label": "kV/m",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "13",
+        "current_value": "8.45",
+        "at": "03/17/2011 07:25:19",
+        "max_value": "21.58",
+        "min_value": "-6999.0",
+        "tags": [
+          "Wind Speed (2m)",
+          "Wind Speed (5m)",
+          "WS"
+        ],
+        "unit": {
+          "symbol": "m/s",
+          "label": "m/s",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "14",
+        "current_value": "8.90",
+        "at": "03/17/2011 07:25:19",
+        "max_value": "23.59",
+        "min_value": "-99999.0",
+        "tags": [
+          "Wind Speed (10m)",
+          "Wind Speed (5m)",
+          "WS"
+        ],
+        "unit": {
+          "symbol": "m/s",
+          "label": "m/s",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "15",
+        "current_value": "10.11",
+        "at": "03/17/2011 07:25:19",
+        "max_value": "27.36",
+        "min_value": "-6999.0",
+        "tags": [
+          "Wind Speed (10m)",
+          "Wind Speed (20m)",
+          "WS"
+        ],
+        "unit": {
+          "symbol": "m/s",
+          "label": "m/s",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "16",
+        "current_value": "11.18",
+        "at": "03/17/2011 07:25:19",
+        "max_value": "28.75",
+        "min_value": "-6999.0",
+        "tags": [
+          "Wind Speed (20m)",
+          "Wind Speed (50m)",
+          "WS"
+        ],
+        "unit": {
+          "symbol": "m/s",
+          "label": "m/s",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "17",
+        "current_value": "12.32",
+        "at": "03/17/2011 07:25:19",
+        "max_value": "33.18",
+        "min_value": "-6999.0",
+        "tags": [
+          "Wind Speed (50m)",
+          "Wind Speed (80m)",
+          "WS"
+        ],
+        "unit": {
+          "symbol": "m/s",
+          "label": "m/s",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "18",
+        "current_value": "12.07",
+        "at": "03/17/2011 07:25:19",
+        "max_value": "33.85",
+        "min_value": "-6999.0",
+        "tags": [
+          "Pk Wind Speed (2m)",
+          "Wind Speed (80m)",
+          "WS"
+        ],
+        "unit": {
+          "symbol": "m/s",
+          "label": "m/s",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "19",
+        "current_value": "11.55",
+        "at": "03/17/2011 07:25:19",
+        "max_value": "33.33",
+        "min_value": "-6999.0",
+        "tags": [
+          "Pk Wind Speed (2m)",
+          "Pk Wind Speed (5m)",
+          "WS"
+        ],
+        "unit": {
+          "symbol": "m/s",
+          "label": "m/s",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "20",
+        "current_value": "11.49",
+        "at": "03/17/2011 07:25:19",
+        "max_value": "31.77",
+        "min_value": "-6999.0",
+        "tags": [
+          "Pk Wind Speed (10m)",
+          "Pk Wind Speed (5m)",
+          "WS"
+        ],
+        "unit": {
+          "symbol": "m/s",
+          "label": "m/s",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "21",
+        "current_value": "12.77",
+        "at": "03/17/2011 07:25:19",
+        "max_value": "39.56",
+        "min_value": "-6999.0",
+        "tags": [
+          "Pk Wind Speed (10m)",
+          "Pk Wind Speed (20m)",
+          "WS"
+        ],
+        "unit": {
+          "symbol": "m/s",
+          "label": "m/s",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "22",
+        "current_value": "14.65",
+        "at": "03/17/2011 07:25:19",
+        "max_value": "39.79",
+        "min_value": "-6999.0",
+        "tags": [
+          "Pk Wind Speed (20m)",
+          "Pk Wind Speed (50m)",
+          "WS"
+        ],
+        "unit": {
+          "symbol": "m/s",
+          "label": "m/s",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "23",
+        "current_value": "16.17",
+        "at": "03/17/2011 07:25:19",
+        "max_value": "41.22",
+        "min_value": "-6999.0",
+        "tags": [
+          "Pk Wind Speed (50m)",
+          "Pk Wind Speed (80m)",
+          "WS"
+        ],
+        "unit": {
+          "symbol": "m/s",
+          "label": "m/s",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "24",
+        "current_value": "13.44",
+        "at": "03/17/2011 07:25:19",
+        "max_value": "38.92",
+        "min_value": "-6999.0",
+        "tags": [
+          "Pk Wind Speed (80m)",
+          "SDev Wind Speed (2m)",
+          "WS"
+        ],
+        "unit": {
+          "symbol": "m/s",
+          "label": "m/s",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "25",
+        "current_value": "1.23",
+        "at": "03/17/2011 07:25:19",
+        "max_value": "7.75",
+        "min_value": "-6999.0",
+        "tags": [
+          "SDev Wind Speed (2m)",
+          "SDev Wind Speed (5m)",
+          "WS"
+        ],
+        "unit": {
+          "symbol": "m/s",
+          "label": "m/s",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "26",
+        "current_value": "1.31",
+        "at": "03/17/2011 07:25:19",
+        "max_value": "99999.0",
+        "min_value": "-6999.0",
+        "tags": [
+          "SDev Wind Speed (10m)",
+          "SDev Wind Speed (5m)",
+          "WS"
+        ],
+        "unit": {
+          "symbol": "m/s",
+          "label": "m/s",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "27",
+        "current_value": "1.40",
+        "at": "03/17/2011 07:25:19",
+        "max_value": "7.4",
+        "min_value": "-6999.0",
+        "tags": [
+          "SDev Wind Speed (10m)",
+          "SDev Wind Speed (20m)",
+          "WS"
+        ],
+        "unit": {
+          "symbol": "m/s",
+          "label": "m/s",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "28",
+        "current_value": "1.66",
+        "at": "03/17/2011 07:25:19",
+        "max_value": "6.63",
+        "min_value": "-6999.0",
+        "tags": [
+          "SDev Wind Speed (20m)",
+          "SDev Wind Speed (50m)",
+          "WS"
+        ],
+        "unit": {
+          "symbol": "m/s",
+          "label": "m/s",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "29",
+        "current_value": "1.54",
+        "at": "03/17/2011 07:25:19",
+        "max_value": "6.84",
+        "min_value": "-6999.0",
+        "tags": [
+          "SDev Wind Speed (50m)",
+          "SDev Wind Speed (80m)",
+          "WS"
+        ],
+        "unit": {
+          "symbol": "m/s",
+          "label": "m/s",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "30",
+        "current_value": "0.96",
+        "at": "03/17/2011 07:25:19",
+        "max_value": "359.99",
+        "min_value": "-6999.0",
+        "tags": [
+          "SDev Wind Speed (80m)",
+          "WD",
+          "Wind Direction (2m)",
+          "WS"
+        ],
+        "unit": {
+          "symbol": "m/s",
+          "label": "m/s",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "31",
+        "current_value": "246.69",
+        "at": "03/17/2011 07:25:19",
+        "max_value": "359.99",
+        "min_value": "-6999.0",
+        "tags": [
+          "WD",
+          "Wind Direction (2m)",
+          "Wind Direction (5m)"
+        ],
+        "unit": {
+          "symbol": "deg",
+          "label": "deg",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "32",
+        "current_value": "245.66",
+        "at": "03/17/2011 07:25:19",
+        "max_value": "360.0",
+        "min_value": "-6999.0",
+        "tags": [
+          "WD",
+          "Wind Direction (10m)",
+          "Wind Direction (5m)"
+        ],
+        "unit": {
+          "symbol": "deg",
+          "label": "deg",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "33",
+        "current_value": "244.40",
+        "at": "03/17/2011 07:25:19",
+        "max_value": "360.0",
+        "min_value": "-6999.0",
+        "tags": [
+          "WD",
+          "Wind Direction (10m)",
+          "Wind Direction (20m)"
+        ],
+        "unit": {
+          "symbol": "deg",
+          "label": "deg",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "34",
+        "current_value": "243.19",
+        "at": "03/17/2011 07:25:19",
+        "max_value": "360.0",
+        "min_value": "-6999.0",
+        "tags": [
+          "WD",
+          "Wind Direction (20m)",
+          "Wind Direction (50m)"
+        ],
+        "unit": {
+          "symbol": "deg",
+          "label": "deg",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "35",
+        "current_value": "245.43",
+        "at": "03/17/2011 07:25:19",
+        "max_value": "359.99",
+        "min_value": "-6999.0",
+        "tags": [
+          "WD",
+          "Wind Direction (50m)",
+          "Wind Direction (80m)"
+        ],
+        "unit": {
+          "symbol": "deg",
+          "label": "deg",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "36",
+        "current_value": "214.93",
+        "at": "03/17/2011 07:25:19",
+        "max_value": "360.0",
+        "min_value": "-6999.0",
+        "tags": [
+          "WD",
+          "Wind Dir at Pk WS (2m)",
+          "Wind Direction (80m)"
+        ],
+        "unit": {
+          "symbol": "deg",
+          "label": "deg",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "37",
+        "current_value": "248.44",
+        "at": "03/17/2011 07:25:19",
+        "max_value": "359.84",
+        "min_value": "-6999.0",
+        "tags": [
+          "WD",
+          "Wind Dir at Pk WS (2m)",
+          "Wind Dir at Pk WS (5m)"
+        ],
+        "unit": {
+          "symbol": "deg",
+          "label": "deg",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "38",
+        "current_value": "253.42",
+        "at": "03/17/2011 07:25:19",
+        "max_value": "362.75",
+        "min_value": "-6999.0",
+        "tags": [
+          "WD",
+          "Wind Dir at Pk WS (10m)",
+          "Wind Dir at Pk WS (5m)"
+        ],
+        "unit": {
+          "symbol": "deg",
+          "label": "deg",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "39",
+        "current_value": "235.08",
+        "at": "03/17/2011 07:25:19",
+        "max_value": "359.8",
+        "min_value": "-6999.0",
+        "tags": [
+          "WD",
+          "Wind Dir at Pk WS (10m)",
+          "Wind Dir at Pk WS (20m)"
+        ],
+        "unit": {
+          "symbol": "deg",
+          "label": "deg",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "40",
+        "current_value": "246.79",
+        "at": "03/17/2011 07:25:19",
+        "max_value": "358.13",
+        "min_value": "-6999.0",
+        "tags": [
+          "WD",
+          "Wind Dir at Pk WS (20m)",
+          "Wind Dir at Pk WS (50m)"
+        ],
+        "unit": {
+          "symbol": "deg",
+          "label": "deg",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "41",
+        "current_value": "243.88",
+        "at": "03/17/2011 07:25:19",
+        "max_value": "359.58",
+        "min_value": "-6999.0",
+        "tags": [
+          "WD",
+          "Wind Dir at Pk WS (50m)",
+          "Wind Dir at Pk WS (80m)"
+        ],
+        "unit": {
+          "symbol": "deg",
+          "label": "deg",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "42",
+        "current_value": "205.01",
+        "at": "03/17/2011 07:25:19",
+        "max_value": "359.71",
+        "min_value": "-6999.0",
+        "tags": [
+          "SDev Wind Direction (2m)",
+          "WD",
+          "Wind Dir at Pk WS (80m)"
+        ],
+        "unit": {
+          "symbol": "deg",
+          "label": "deg",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "43",
+        "current_value": "9.32",
+        "at": "03/17/2011 07:25:19",
+        "max_value": "101.37",
+        "min_value": "-6999.0",
+        "tags": [
+          "SDev Wind Direction (2m)",
+          "SDev Wind Direction (5m)",
+          "WD"
+        ],
+        "unit": {
+          "symbol": "deg",
+          "label": "deg",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "44",
+        "current_value": "8.24",
+        "at": "03/17/2011 07:25:19",
+        "max_value": "99.9",
+        "min_value": "-6999.0",
+        "tags": [
+          "SDev Wind Direction (10m)",
+          "SDev Wind Direction (5m)",
+          "WD"
+        ],
+        "unit": {
+          "symbol": "deg",
+          "label": "deg",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "45",
+        "current_value": "4.51",
+        "at": "03/17/2011 07:25:19",
+        "max_value": "101.33",
+        "min_value": "-6999.0",
+        "tags": [
+          "SDev Wind Direction (10m)",
+          "SDev Wind Direction (20m)",
+          "WD"
+        ],
+        "unit": {
+          "symbol": "deg",
+          "label": "deg",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "46",
+        "current_value": "5.94",
+        "at": "03/17/2011 07:25:19",
+        "max_value": "102.56",
+        "min_value": "-6999.0",
+        "tags": [
+          "SDev Wind Direction (20m)",
+          "SDev Wind Direction (50m)",
+          "WD"
+        ],
+        "unit": {
+          "symbol": "deg",
+          "label": "deg",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "47",
+        "current_value": "4.45",
+        "at": "03/17/2011 07:25:19",
+        "max_value": "101.78",
+        "min_value": "-6999.0",
+        "tags": [
+          "SDev Wind Direction (50m)",
+          "SDev Wind Direction (80m)",
+          "WD"
+        ],
+        "unit": {
+          "symbol": "deg",
+          "label": "deg",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "48",
+        "current_value": "6.21",
+        "at": "03/17/2011 07:25:19",
+        "max_value": "101.17",
+        "min_value": "-6999.0",
+        "tags": [
+          "Avg Wind Shear",
+          "SDev Wind Direction (80m)",
+          "SHEAR",
+          "WD"
+        ],
+        "unit": {
+          "symbol": "deg",
+          "label": "deg",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "49",
+        "current_value": "0.11",
+        "at": "03/17/2011 07:25:19",
+        "max_value": "1.37",
+        "min_value": "-99999.0",
+        "tags": [
+          "Avg Wind Shear",
+          "SHEAR",
+          "TURB",
+          "Turbulence Intensity (2m)"
+        ],
+        "unit": {
+          "symbol": "1/sec",
+          "label": "1/sec",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "50",
+        "current_value": "0.15",
+        "at": "03/17/2011 07:25:19",
+        "max_value": "4.02",
+        "min_value": "-6999.0",
+        "tags": [
+          "TURB",
+          "Turbulence Intensity (2m)",
+          "Turbulence Intensity (5m)"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "51",
+        "current_value": "0.15",
+        "at": "03/17/2011 07:25:19",
+        "max_value": "3.51",
+        "min_value": "-6999.0",
+        "tags": [
+          "TURB",
+          "Turbulence Intensity (10m)",
+          "Turbulence Intensity (5m)"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "52",
+        "current_value": "0.14",
+        "at": "03/17/2011 07:25:19",
+        "max_value": "1.22",
+        "min_value": "-6999.0",
+        "tags": [
+          "TURB",
+          "Turbulence Intensity (10m)",
+          "Turbulence Intensity (20m)"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "53",
+        "current_value": "0.15",
+        "at": "03/17/2011 07:25:19",
+        "max_value": "1.21",
+        "min_value": "-6999.0",
+        "tags": [
+          "TURB",
+          "Turbulence Intensity (20m)",
+          "Turbulence Intensity (50m)"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "54",
+        "current_value": "0.13",
+        "at": "03/17/2011 07:25:19",
+        "max_value": "1.08",
+        "min_value": "-6999.0",
+        "tags": [
+          "TURB",
+          "Turbulence Intensity (50m)",
+          "Turbulence Intensity (80m)"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "55",
+        "current_value": "0.08",
+        "at": "03/17/2011 07:25:19",
+        "max_value": "10.0",
+        "min_value": "-6999.0",
+        "tags": [
+          "Richardson Number (2-50m)",
+          "RN",
+          "TURB",
+          "Turbulence Intensity (80m)"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "56",
+        "current_value": "0.03",
+        "at": "03/17/2011 07:25:19",
+        "max_value": "10.0",
+        "min_value": "-6999.0",
+        "tags": [
+          "Richardson Number (2-50m)",
+          "Richardson Number (2-80m)",
+          "RN"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "57",
+        "current_value": "-0.03",
+        "at": "03/17/2011 07:25:19",
+        "max_value": "10.0",
+        "min_value": "-6999.0",
+        "tags": [
+          "Richardson Number (2-80m)",
+          "Richardson Number (50-80m)",
+          "RN"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "58",
+        "current_value": "-10.00",
+        "at": "03/17/2011 07:25:19",
+        "max_value": "81.34",
+        "min_value": "-6999.0",
+        "tags": [
+          "Friction Velocity (u*)",
+          "FV",
+          "Richardson Number (50-80m)",
+          "RN"
+        ],
+        "unit": {
+          "symbol": "m/s",
+          "label": "m/s",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "59",
+        "current_value": "0.52",
+        "at": "03/17/2011 07:25:19",
+        "max_value": "338.5",
+        "min_value": "-6999.0",
+        "tags": [
+          "Est. Surface Roughness",
+          "Friction Velocity (u*)",
+          "FV",
+          "SR"
+        ],
+        "unit": {
+          "symbol": "m/s",
+          "label": "m/s",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "60",
+        "current_value": "0.00",
+        "at": "03/17/2011 07:25:19",
+        "max_value": "1204.47",
+        "min_value": "-6999.0",
+        "tags": [
+          "Est. Surface Roughness",
+          "SR",
+          "u* Quality Control (r2)",
+          "UQC"
+        ],
+        "unit": {
+          "symbol": "m",
+          "label": "m",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "61",
+        "current_value": "0.99",
+        "at": "03/17/2011 07:25:19",
+        "max_value": "1.0",
+        "min_value": "-6999.0",
+        "tags": [
+          "PLC",
+          "Power Law Coef. (2-80m)",
+          "u* Quality Control (r2)",
+          "UQC"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "62",
+        "current_value": "0.09",
+        "at": "03/17/2011 07:25:19",
+        "max_value": "3016.0",
+        "min_value": "-6999.0",
+        "tags": [
+          "ASP",
+          "Aspirator Fan Speed (2m)",
+          "PLC",
+          "Power Law Coef. (2-80m)"
+        ],
+        "unit": {
+          "symbol": "RPM",
+          "label": "RPM",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "63",
+        "current_value": "2990.00",
+        "at": "03/17/2011 07:25:19",
+        "max_value": "6999.0",
+        "min_value": "-6999.0",
+        "tags": [
+          "ASP",
+          "Aspirator Fan Speed (2m)",
+          "Aspirator Fan Speed (50m)"
+        ],
+        "unit": {
+          "symbol": "RPM",
+          "label": "RPM",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "64",
+        "current_value": "2721.00",
+        "at": "03/17/2011 07:25:19",
+        "max_value": "2774.0",
+        "min_value": "-6999.0",
+        "tags": [
+          "ASP",
+          "Aspirator Fan Speed (50m)",
+          "Aspirator Fan Speed (80m)"
+        ],
+        "unit": {
+          "symbol": "RPM",
+          "label": "RPM",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "65",
+        "current_value": "2680.00",
+        "at": "03/17/2011 07:25:19",
+        "max_value": "6999.0",
+        "min_value": "-6999.0",
+        "tags": [
+          "ASP",
+          "Aspirator Fan Speed (80m)",
+          "CR23X Temp",
+          "TC23"
+        ],
+        "unit": {
+          "symbol": "RPM",
+          "label": "RPM",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "66",
+        "current_value": "21.01",
+        "at": "03/17/2011 07:25:19",
+        "max_value": "32.7",
+        "min_value": "-6999.0",
+        "tags": [
+          "BV23",
+          "CR23X Battery",
+          "CR23X Temp",
+          "TC23"
+        ],
+        "unit": {
+          "symbol": "oC",
+          "label": "oC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "67",
+        "current_value": "13.10",
+        "at": "03/17/2011 07:25:19",
+        "max_value": "13.37",
+        "min_value": "-6999.0",
+        "tags": [
+          "BV23",
+          "CR23X Battery"
+        ],
+        "unit": {
+          "symbol": "VDC",
+          "label": "VDC",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "M2 Tower",
+      "domain": 0,
+      "lat": "39.7441542282084",
+      "lon": "-105.151519775391",
+      "ele": "1937",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/1197\" >National Wind Technology Center</a>",
+    "URLMostrar": "https://xively.com/feeds/1197"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\1197.json",
+  "DocumentJSON": null
+}

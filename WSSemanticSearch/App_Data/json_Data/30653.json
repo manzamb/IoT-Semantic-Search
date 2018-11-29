@@ -1,0 +1,113 @@
+{
+  "Conceptos": [
+    "situation"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "30653",
+    "title": "Fukushima Nuclear Station Monitoring by Homemade Geiger Counter using Geiger Bot Feed from iPad-3",
+    "Private": false,
+    "tags": [
+      "Counter",
+      "Fukushima",
+      "Geiger",
+      "GM",
+      "Indoor",
+      "Japan",
+      "Nuclear",
+      "Radiation",
+      "SBM-20",
+      "SI-1G",
+      "Toyama",
+      "Tube"
+    ],
+    "description": "*** CPM in Toyama measured by homebrew Geiger Counter ***\r\n*** using SI-1G and SBM-20 Russian GM Tube ***\r\n\r\n*Data Stream ID77:\r\n Feed from Homebrew Geiger counter using a Soviet-Russian GM tube SI-1G. \r\n Background here; 14CPM at 0.06uSv/h.\r\n\r\n*Data Stream ID78:\r\n Feed from Homebrew Geiger counter using a Soviet-Russian GM tube SBM-20. \r\n Background here; 17CPM at 0.06uSv/h.\r\n\r\n*Data Stream ID1: added on 1,Apr.2012\r\n Feed from Homebrew Geiger counter using a Soviet-Russian GM tube SBM-20.\r\n Measured its count by iPad-3 with \"GeigerBot-APP\", translate CPM to uSv/h.\r\n\r\n*Data Stream ID2: added on 1,Apr.2012\r\n Feed from Homebrew Geiger counter using a Soviet-Russian GM tube SBM-20. \r\n Measured its count by iPad-3 with \"GeigerBot-APP\". \r\n\r\nBoth of above are placed Indoor, at 2F of the wooden house window side.The value of the CPM is NOT corrected by the specific-background counts and this data is NOT guaranteed at all for any situation.I put this data just for monitoring the tendency of the CPM in my house.\r\n",
+    "feed": "https://api.xively.com/v2/feeds/30653.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "08/25/2012 01:27:01",
+    "created": "07/30/2011 03:34:20",
+    "creator": "https://xively.com/users/qrper723",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "1",
+        "current_value": "0.32",
+        "at": "06/01/2012 12:25:44",
+        "max_value": "0.32",
+        "min_value": "0.0",
+        "tags": [
+          "iPad3/SBM-20"
+        ],
+        "unit": {
+          "symbol": "µSv/h",
+          "label": "microsieverts per hour",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "42",
+        "at": "06/01/2012 12:25:44",
+        "max_value": "42.0",
+        "min_value": "0.0",
+        "tags": [
+          "iPad3/SBM-20"
+        ],
+        "unit": {
+          "symbol": "CPM",
+          "label": "counts per minute",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "77",
+        "current_value": "0",
+        "at": "08/25/2012 01:27:00",
+        "max_value": "82.0",
+        "min_value": "0.0",
+        "tags": [
+          "SI-1G"
+        ],
+        "unit": {
+          "symbol": "cpm",
+          "label": "count per minute",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "78",
+        "current_value": "9",
+        "at": "02/25/2012 03:04:58",
+        "max_value": "93.0",
+        "min_value": "0.0",
+        "tags": [
+          "SBM-20"
+        ],
+        "unit": {
+          "symbol": "cpm",
+          "label": "count per minute",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Toyama Japan",
+      "domain": 0,
+      "lat": "36.74724761",
+      "lon": "137.04106624",
+      "ele": "12.7",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/30653\" >Fukushima Nuclear Station Monitoring by Homemade Geiger Counter using Geiger Bot Feed from iPad-3</a>",
+    "URLMostrar": "https://xively.com/feeds/30653"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\30653.json",
+  "DocumentJSON": null
+}

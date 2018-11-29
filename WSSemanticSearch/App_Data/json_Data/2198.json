@@ -1,0 +1,68 @@
+{
+  "Conceptos": [
+    "system"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "2198",
+    "title": "Doc's Brewshed",
+    "Private": false,
+    "tags": null,
+    "description": "Doctors Orders Brewings' brewery has a dual temperature monitoring system that records the temperature in the brewhaus (brewshed), and the fermentation coolroom (where beer is fermented).\r\nAll readings updated here are in Celsius and are averages over 15min intervals, and updated here hourly.",
+    "feed": "https://api.xively.com/v2/feeds/2198.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/21/2014 13:25:08",
+    "created": "07/03/2009 00:00:16",
+    "creator": "https://xively.com/users/darrenjrobinson",
+    "version": null,
+    "website": "http://twitter.com/DocsBrewShed",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "17.4",
+        "at": "03/21/2014 13:25:07",
+        "max_value": "23.6",
+        "min_value": "9.2",
+        "tags": [
+          "Fermentation Coolroom (°C)"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "31",
+        "at": "03/21/2014 13:25:07",
+        "max_value": "45.6",
+        "min_value": "8.66",
+        "tags": [
+          "Brauhaus (°C)"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Cherrybrook",
+      "domain": 0,
+      "lat": "-33.7381340826895",
+      "lon": "151.040275096893",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/2198\" >Doc's Brewshed</a>",
+    "URLMostrar": "https://xively.com/feeds/2198"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\2198.json",
+  "DocumentJSON": null
+}

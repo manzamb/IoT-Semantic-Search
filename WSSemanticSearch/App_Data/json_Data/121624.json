@@ -1,0 +1,190 @@
+{
+  "Conceptos": [
+    "device"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "121624",
+    "title": "Achatschnecken-Terrarium",
+    "Private": false,
+    "tags": null,
+    "description": "Logs the climate data and system status measured by the digital controller in my terrarium.\r\nThe climate data is measured by a SHT21 temperature and humidity sensor placed inside the terrarium. The fogger water level is not measured by a sensor but estimated using the fogger's operating time.\r\nIn future, the attached devices' data might also be logged, e.g. the status of the lamps, the current setting of the 'ShiftBar' RGB color LED controller. System data like CPU load, memory and storage usage and system temperature might be recorded as well.",
+    "feed": "https://api.xively.com/v2/feeds/121624.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/19/2014 20:16:15",
+    "created": "03/29/2013 16:43:04",
+    "creator": "https://xively.com/users/renwal",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Heizung_links",
+        "current_value": null,
+        "at": null,
+        "max_value": null,
+        "min_value": null,
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Heizung_rechts",
+        "current_value": null,
+        "at": null,
+        "max_value": null,
+        "min_value": null,
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "LED_blau",
+        "current_value": null,
+        "at": null,
+        "max_value": null,
+        "min_value": null,
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "LED_gruen",
+        "current_value": null,
+        "at": null,
+        "max_value": null,
+        "min_value": null,
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "LED_power",
+        "current_value": null,
+        "at": null,
+        "max_value": null,
+        "min_value": null,
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "LED_rot",
+        "current_value": null,
+        "at": null,
+        "max_value": null,
+        "min_value": null,
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Luftfeuchtigkeit",
+        "current_value": "87.0",
+        "at": "03/19/2014 20:16:15",
+        "max_value": "109.0",
+        "min_value": "-2147483650.0",
+        "tags": null,
+        "unit": {
+          "symbol": "% rH",
+          "label": "% rH",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Nebler",
+        "current_value": null,
+        "at": null,
+        "max_value": null,
+        "min_value": null,
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Nebler-Wasserstand",
+        "current_value": "0",
+        "at": "03/19/2014 20:16:15",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "System_temp",
+        "current_value": null,
+        "at": null,
+        "max_value": null,
+        "min_value": null,
+        "tags": null,
+        "unit": {
+          "symbol": "°C",
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperatur",
+        "current_value": "24.8",
+        "at": "03/19/2014 20:16:15",
+        "max_value": "32.6",
+        "min_value": "-3.4028235e+38",
+        "tags": null,
+        "unit": {
+          "symbol": "°C",
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Terrarium",
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/121624\" >Achatschnecken-Terrarium</a>",
+    "URLMostrar": "https://xively.com/feeds/121624"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\121624.json",
+  "DocumentJSON": null
+}

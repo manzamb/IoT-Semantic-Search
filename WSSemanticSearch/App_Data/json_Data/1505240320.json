@@ -1,0 +1,106 @@
+{
+  "Conceptos": [
+    "plan"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "1505240320",
+    "title": "plank",
+    "Private": false,
+    "tags": null,
+    "description": "strawberry field .beta. data sensing",
+    "feed": "https://api.xively.com/v2/feeds/1505240320.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:07:13",
+    "created": "11/04/2013 21:12:16",
+    "creator": "https://xively.com/users/degatt2",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "AirQualitySensor",
+        "current_value": "93.00",
+        "at": "03/21/2014 14:07:12",
+        "max_value": "1023.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Humidity",
+        "current_value": "42.00",
+        "at": "03/21/2014 14:07:12",
+        "max_value": "99.9",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "%",
+          "label": "Percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "LightSensor",
+        "current_value": "76.00",
+        "at": "03/21/2014 14:07:12",
+        "max_value": "774.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "MoisterSensor",
+        "current_value": "56.00",
+        "at": "03/21/2014 14:07:12",
+        "max_value": "1024.0",
+        "min_value": "-291.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperature",
+        "current_value": "24.40",
+        "at": "03/21/2014 14:07:12",
+        "max_value": "40.2",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "C º",
+          "label": "Centigrados",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Location 1",
+      "domain": 0,
+      "lat": "41.3898755352161",
+      "lon": "2.1596060693264",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/1505240320\" >plank</a>",
+    "URLMostrar": "https://xively.com/feeds/1505240320"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\1505240320.json",
+  "DocumentJSON": null
+}

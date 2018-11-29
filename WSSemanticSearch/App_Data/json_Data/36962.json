@@ -1,0 +1,217 @@
+{
+  "Conceptos": [
+    "wind"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "36962",
+    "title": "環境データ　京都伏見　スカイ・エス・エイッチ",
+    "Private": false,
+    "tags": [
+      "fushimi",
+      "humidity",
+      "illumination",
+      "kyoto",
+      "mbed Weather Platform",
+      "pressure",
+      "rain",
+      "Temperature",
+      "UV",
+      "wind",
+      "京都",
+      "伏見",
+      "大気圧",
+      "温度",
+      "湿度",
+      "照度",
+      "紫外線",
+      "雨量",
+      "風向",
+      "風速"
+    ],
+    "description": "mbed Weather Platformを改造\n温度、湿度　SHT11\n気圧　BMP085 2013/1/27 12:00 JST海面補正\n風速、風向、雨量　WeatherMeters\n紫外線　G5842\n照度　　10～700 lux　AMS302\n照度２　1～100,000 lux　BH1751FVI\n照度３　0.001～10 lux S9705",
+    "feed": "https://api.xively.com/v2/feeds/36962.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:06:43",
+    "created": "10/06/2011 08:29:43",
+    "creator": "https://xively.com/users/skysh",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "3.86",
+        "at": "03/21/2014 14:06:42",
+        "max_value": "615.35",
+        "min_value": "-40.0",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "76.9",
+        "at": "03/21/2014 14:06:42",
+        "max_value": "100.0",
+        "min_value": "0.0",
+        "tags": [
+          "Humidity"
+        ],
+        "unit": {
+          "symbol": "%RH",
+          "label": "%RH",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "1017.6",
+        "at": "03/21/2014 14:06:42",
+        "max_value": "2399.8",
+        "min_value": "115.5",
+        "tags": [
+          "Pressure (sea level)"
+        ],
+        "unit": {
+          "symbol": "hPa",
+          "label": "hPa",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "0.0",
+        "at": "03/21/2014 14:06:42",
+        "max_value": "2538.5",
+        "min_value": "0.0",
+        "tags": [
+          "Luminosity （10-700）"
+        ],
+        "unit": {
+          "symbol": "lux",
+          "label": "lux",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "0.000",
+        "at": "03/21/2014 14:06:42",
+        "max_value": "1.851",
+        "min_value": "0.0",
+        "tags": [
+          "UV"
+        ],
+        "unit": {
+          "symbol": "mW/cm2",
+          "label": "mW/cm2",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "1.8",
+        "at": "03/21/2014 14:06:42",
+        "max_value": "21.3",
+        "min_value": "0.0",
+        "tags": [
+          "Wind velocity"
+        ],
+        "unit": {
+          "symbol": "m/s",
+          "label": "m/s",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "225.0",
+        "at": "03/21/2014 14:06:42",
+        "max_value": "337.5",
+        "min_value": "0.0",
+        "tags": [
+          "Wind vane"
+        ],
+        "unit": {
+          "symbol": "°",
+          "label": "°",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "7",
+        "current_value": "0.0",
+        "at": "03/21/2014 14:06:42",
+        "max_value": "25.4",
+        "min_value": "0.0",
+        "tags": [
+          "Precipitation"
+        ],
+        "unit": {
+          "symbol": "mm/h",
+          "label": "mm/h",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "8",
+        "current_value": "0.0",
+        "at": "03/21/2014 14:06:42",
+        "max_value": "116498.7",
+        "min_value": "0.0",
+        "tags": [
+          "Luminosity 2(100kMax)"
+        ],
+        "unit": {
+          "symbol": "lux",
+          "label": "lux",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "9",
+        "current_value": "0.0463",
+        "at": "03/21/2014 14:06:42",
+        "max_value": "125.0",
+        "min_value": "0.0",
+        "tags": [
+          "Luminosity 3(0.001-10lux)"
+        ],
+        "unit": {
+          "symbol": "lux",
+          "label": "lux",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Japan",
+      "domain": 1,
+      "lat": "34.9332435154111",
+      "lon": "135.763348639011",
+      "ele": "35m",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/36962\" >環境データ　京都伏見　スカイ・エス・エイッチ</a>",
+    "URLMostrar": "https://xively.com/feeds/36962"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\36962.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,68 @@
+{
+  "Conceptos": [
+    "description"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "22580",
+    "title": "Wireless Temperature Sensor De Bilt",
+    "Private": false,
+    "tags": [
+      "temperature"
+    ],
+    "description": "Enter a description of the Feed",
+    "feed": "https://api.xively.com/v2/feeds/22580.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "10/29/2012 16:35:02",
+    "created": "04/13/2011 14:30:10",
+    "creator": "https://xively.com/users/henk_kuipers",
+    "version": null,
+    "website": "http://www.pachube.com",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": null,
+        "at": null,
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "degree Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temperature",
+        "current_value": "Unable to lock /var/lock/LCK..heyu.write.ttyS0",
+        "at": "10/29/2012 16:35:02",
+        "max_value": "32.1",
+        "min_value": "-16.0",
+        "tags": null,
+        "unit": {
+          "symbol": "°C",
+          "label": "degree Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "De Bilt",
+      "domain": 0,
+      "lat": "52.1043915251941",
+      "lon": "5.16993910074234",
+      "ele": "2",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/22580\" >Wireless Temperature Sensor De Bilt</a>",
+    "URLMostrar": "https://xively.com/feeds/22580"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\22580.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,374 @@
+{
+  "Conceptos": [
+    "system"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "24678",
+    "title": "Elog",
+    "Private": false,
+    "tags": [
+      "Mbed"
+    ],
+    "description": "MBED datalogger:\r\nbuilding-integrated photovoltaics ,  \r\nsolar thermal collector,\r\ncentral heating system,\r\n",
+    "feed": "https://api.xively.com/v2/feeds/24678.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/04/2014 20:29:18",
+    "created": "05/05/2011 09:52:58",
+    "creator": "https://xively.com/users/elog",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "10",
+        "current_value": "0.0",
+        "at": "03/04/2014 20:29:06",
+        "max_value": "3527.0",
+        "min_value": "0.0",
+        "tags": [
+          "IEP"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "1",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "20",
+        "current_value": "0.0",
+        "at": "03/04/2014 20:29:08",
+        "max_value": "17885.0",
+        "min_value": "0.0",
+        "tags": [
+          "EPT"
+        ],
+        "unit": {
+          "symbol": "Wh",
+          "label": "1",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "30",
+        "current_value": "2.0",
+        "at": "03/04/2014 20:29:09",
+        "max_value": "79176.0",
+        "min_value": "0.0",
+        "tags": [
+          "GSC"
+        ],
+        "unit": {
+          "symbol": "Wh",
+          "label": "1",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "40",
+        "current_value": "130.0",
+        "at": "03/04/2014 20:29:12",
+        "max_value": "72420.0",
+        "min_value": "0.0",
+        "tags": [
+          "GAS"
+        ],
+        "unit": {
+          "symbol": "dm3",
+          "label": "1",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "50",
+        "current_value": "3.0",
+        "at": "03/04/2014 20:29:13",
+        "max_value": "180.7",
+        "min_value": "-11.6",
+        "tags": [
+          "TCol"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "1",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "60",
+        "current_value": "63.2",
+        "at": "03/04/2014 20:29:15",
+        "max_value": "2075.2",
+        "min_value": "-999.0",
+        "tags": [
+          "TUp"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "1",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "70",
+        "current_value": "34.0",
+        "at": "03/04/2014 20:29:16",
+        "max_value": "85.2",
+        "min_value": "0.0",
+        "tags": [
+          "TStore"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "1",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "80",
+        "current_value": "26.6",
+        "at": "03/04/2014 20:29:18",
+        "max_value": "85.0",
+        "min_value": "-999.0",
+        "tags": [
+          "TCV"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "1",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "90",
+        "current_value": "0.0",
+        "at": "03/04/2014 20:29:11",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "pump"
+        ],
+        "unit": {
+          "symbol": "ON/OFF",
+          "label": "1",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "100",
+        "current_value": "234.0",
+        "at": "03/04/2014 17:00:25",
+        "max_value": "243.0",
+        "min_value": "0.0",
+        "tags": [
+          "Grid Voltage"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": "1",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "110",
+        "current_value": "964.0",
+        "at": "03/04/2014 17:00:26",
+        "max_value": "14791.0",
+        "min_value": "0.0",
+        "tags": [
+          "Grid Current"
+        ],
+        "unit": {
+          "symbol": "mA",
+          "label": "1",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "120",
+        "current_value": "50.0",
+        "at": "03/04/2014 17:00:28",
+        "max_value": "5004.0",
+        "min_value": "0.0",
+        "tags": [
+          "Grid Freq"
+        ],
+        "unit": {
+          "symbol": "Hz",
+          "label": "1",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "130",
+        "current_value": "176.2",
+        "at": "03/04/2014 17:00:29",
+        "max_value": "242.7",
+        "min_value": "0.0",
+        "tags": [
+          "PV1"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": "1",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "140",
+        "current_value": "177.7",
+        "at": "03/04/2014 17:00:31",
+        "max_value": "247.0",
+        "min_value": "0.0",
+        "tags": [
+          "PV2"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": "1",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "150",
+        "current_value": "219.0",
+        "at": "03/04/2014 17:00:32",
+        "max_value": "9653.0",
+        "min_value": "0.0",
+        "tags": [
+          "PC1"
+        ],
+        "unit": {
+          "symbol": "mA",
+          "label": "1",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "160",
+        "current_value": "340.0",
+        "at": "03/04/2014 17:00:34",
+        "max_value": "9836.0",
+        "min_value": "0.0",
+        "tags": [
+          "PC2"
+        ],
+        "unit": {
+          "symbol": "mA",
+          "label": "1",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "170",
+        "current_value": "38.0",
+        "at": "03/04/2014 17:00:35",
+        "max_value": "1797.0",
+        "min_value": "0.0",
+        "tags": [
+          "PW1"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "1",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "180",
+        "current_value": "60.0",
+        "at": "03/04/2014 17:00:36",
+        "max_value": "1878.0",
+        "min_value": "0.0",
+        "tags": [
+          "PW2"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "1",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "200",
+        "current_value": "25.0",
+        "at": "09/02/2013 02:10:18",
+        "max_value": "5446706.0",
+        "min_value": "0.0",
+        "tags": [
+          "DHT temp"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "1",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "210",
+        "current_value": "46.0",
+        "at": "09/02/2013 02:10:19",
+        "max_value": "6553.0",
+        "min_value": "0.0",
+        "tags": [
+          "DHT Humidity"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "1",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "220",
+        "current_value": "1023.3",
+        "at": "09/02/2013 05:22:23",
+        "max_value": "2434.3",
+        "min_value": "0.0",
+        "tags": [
+          "Pressure"
+        ],
+        "unit": {
+          "symbol": "hPa",
+          "label": "1",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "51.0526176322973",
+      "lon": "3.73191833496094",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/24678\" >Elog</a>",
+    "URLMostrar": "https://xively.com/feeds/24678"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\24678.json",
+  "DocumentJSON": null
+}

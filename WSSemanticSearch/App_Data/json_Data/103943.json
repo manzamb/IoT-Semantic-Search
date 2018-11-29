@@ -1,0 +1,71 @@
+{
+  "Conceptos": [
+    "humedad"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "103943",
+    "title": "Sala Hogar",
+    "Private": false,
+    "tags": [
+      "H",
+      "T"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/103943.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "04/28/2013 16:36:57",
+    "created": "02/11/2013 13:32:21",
+    "creator": "https://xively.com/users/juliolanas",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "18.0",
+        "at": "04/28/2013 16:36:56",
+        "max_value": "21.0",
+        "min_value": "18.0",
+        "tags": [
+          "Temperatura"
+        ],
+        "unit": {
+          "symbol": "º",
+          "label": "Grados",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "61.0",
+        "at": "04/28/2013 16:36:56",
+        "max_value": "62.0",
+        "min_value": "44.0",
+        "tags": [
+          "Humedad"
+        ],
+        "unit": {
+          "symbol": "º",
+          "label": "Grados",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "39.5620670005376",
+      "lon": "2.64251232147217",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/103943\" >Sala Hogar</a>",
+    "URLMostrar": "https://xively.com/feeds/103943"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\103943.json",
+  "DocumentJSON": null
+}

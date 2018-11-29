@@ -1,0 +1,102 @@
+{
+  "Conceptos": [
+    "event type"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "24004",
+    "title": "DontFlushMe",
+    "Private": false,
+    "tags": [
+      "dontflushme",
+      "environment",
+      "sewer",
+      "wastewater"
+    ],
+    "description": "This is the feed from a prototype sensor installed in the Gowanus Canal. This feed shows the temperature and electrical conductivity of the water. Hopefully the data will show when a CSO event occurs. NOTE: The temperature is in Celsius and has been multiplied by 10 to remove the decimal point: 109 = 10.9 degrees.",
+    "feed": "https://api.xively.com/v2/feeds/24004.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "09/29/2012 13:44:02",
+    "created": "04/19/2011 22:52:33",
+    "creator": "https://xively.com/users/lpercifield",
+    "version": null,
+    "website": "http://dontflush.me",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "66",
+        "at": "09/29/2012 13:44:02",
+        "max_value": "1023.0",
+        "min_value": "-2.0",
+        "tags": [
+          "Electrical Conductivity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "EC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "23",
+        "at": "09/29/2012 13:44:02",
+        "max_value": "36934.0",
+        "min_value": "-10000.0",
+        "tags": [
+          "Water Temperature",
+          "x 10"
+        ],
+        "unit": {
+          "symbol": "c",
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "68",
+        "at": "09/29/2012 13:44:02",
+        "max_value": "19945.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "0",
+        "at": "04/15/2012 18:12:08",
+        "max_value": "30.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "CSO RH-035 ",
+      "domain": 0,
+      "lat": "40.6760815623359",
+      "lon": "-73.9925819635391",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/24004\" >DontFlushMe</a>",
+    "URLMostrar": "https://xively.com/feeds/24004"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\24004.json",
+  "DocumentJSON": null
+}

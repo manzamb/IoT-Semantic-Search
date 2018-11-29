@@ -1,0 +1,92 @@
+{
+  "Conceptos": [
+    "atmospheric pressure"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "11071",
+    "title": "My Atmospherics",
+    "Private": false,
+    "tags": null,
+    "description": "This feed displays data from a Sparkfun USB Weatherboard: light, pressure, temperature and humidity. This is an experimental feed. The weatherboard may not be calibrated correctly yet and the datastreams may be intermittent.",
+    "feed": "https://api.xively.com/v2/feeds/11071.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "10/19/2010 13:17:11",
+    "created": "10/18/2010 13:52:56",
+    "creator": "https://xively.com/users/jmbowers",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Pressure",
+        "current_value": "100959.47",
+        "at": "10/19/2010 07:23:57",
+        "max_value": "101704.73",
+        "min_value": "100537.53",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Light",
+        "current_value": "26.2",
+        "at": "10/19/2010 07:23:57",
+        "max_value": "29.33",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperature",
+        "current_value": "66.98",
+        "at": "10/19/2010 07:23:57",
+        "max_value": "74.58",
+        "min_value": "59.15",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Humidity",
+        "current_value": "60.12",
+        "at": "10/19/2010 07:23:57",
+        "max_value": "63.69",
+        "min_value": "46.46",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Coddenham, Ipswich",
+      "domain": 0,
+      "lat": "52.1444451579255",
+      "lon": "1.11665725708008",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 1
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/11071\" >My Atmospherics</a>",
+    "URLMostrar": "https://xively.com/feeds/11071"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\11071.json",
+  "DocumentJSON": null
+}

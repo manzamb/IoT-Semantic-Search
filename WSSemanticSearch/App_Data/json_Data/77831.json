@@ -1,0 +1,67 @@
+{
+  "Conceptos": [
+    "collection"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "77831",
+    "title": "Hair Dryer",
+    "Private": false,
+    "tags": [
+      "energy",
+      "me3gas"
+    ],
+    "description": "Data collection via plugwise",
+    "feed": "https://api.xively.com/v2/feeds/77831.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/18/2014 08:26:21",
+    "created": "09/28/2012 15:18:48",
+    "creator": "https://xively.com/users/efrecon",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "energy",
+        "current_value": "0.0",
+        "at": "03/18/2014 08:26:21",
+        "max_value": "22.71143",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "Wh",
+          "label": "W.h",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "power",
+        "current_value": "0.0",
+        "at": "03/18/2014 08:26:21",
+        "max_value": "1528.26",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "W",
+          "label": "W",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 1
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/77831\" >Hair Dryer</a>",
+    "URLMostrar": "https://xively.com/feeds/77831"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\77831.json",
+  "DocumentJSON": null
+}

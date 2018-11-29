@@ -1,0 +1,88 @@
+{
+  "Conceptos": [
+    "platform"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "19691",
+    "title": "Davies Reef SF3",
+    "Private": false,
+    "tags": [
+      "creon:instrument:SBE37",
+      "creon:platform:buoy_SF3",
+      "creon:site:Davies Reef"
+    ],
+    "description": "Buoy SF3 at Davies Reef, Australia",
+    "feed": "https://api.xively.com/v2/feeds/19691.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "05/16/2011 06:30:48",
+    "created": "02/28/2011 01:53:06",
+    "creator": "https://xively.com/users/creon",
+    "version": null,
+    "website": "http://www.imos.org.au/faimms.html",
+    "datastreams": [
+      {
+        "id": "depth",
+        "current_value": "9.302474998092697",
+        "at": "05/26/2011 21:52:00",
+        "max_value": "12.0",
+        "min_value": "6.0",
+        "tags": [
+          "Depth"
+        ],
+        "unit": {
+          "symbol": "M",
+          "label": "M",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "salinity",
+        "current_value": "34.94933241804597",
+        "at": "05/19/2011 08:32:00",
+        "max_value": "36.0",
+        "min_value": "33.0",
+        "tags": [
+          "Salinity"
+        ],
+        "unit": {
+          "symbol": "PSU",
+          "label": "PSU",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temperature",
+        "current_value": "24.6733",
+        "at": "05/27/2011 02:52:00",
+        "max_value": "30.0",
+        "min_value": "24.0",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Deg. C.",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Davies Reef",
+      "domain": 0,
+      "lat": "-18.8296783352645",
+      "lon": "147.630372047424",
+      "ele": "-10",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/19691\" >Davies Reef SF3</a>",
+    "URLMostrar": "https://xively.com/feeds/19691"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\19691.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,127 @@
+{
+  "Conceptos": [
+    "environment"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "1522538802",
+    "title": "environmental sensor @ SP",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "humidity",
+      "light",
+      "noise",
+      "sensor",
+      "temperature"
+    ],
+    "description": "my proposition of study is to explore what is the internet of things, the object through the arduino plataform, the system architecture, web services and communication technologies among others.\n",
+    "feed": "https://api.xively.com/v2/feeds/1522538802.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:08:01",
+    "created": "05/14/2013 18:05:09",
+    "creator": "https://xively.com/users/apitta",
+    "version": null,
+    "website": "http://www.bitscale.com.br",
+    "datastreams": [
+      {
+        "id": "external_temperature",
+        "current_value": "31.44",
+        "at": "03/21/2014 14:08:00",
+        "max_value": "85.0",
+        "min_value": "-1000.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "ºC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "humidity",
+        "current_value": "58.27",
+        "at": "03/21/2014 14:08:00",
+        "max_value": "93.45",
+        "min_value": "16.24",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "%RH",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "light",
+        "current_value": "189.00",
+        "at": "03/21/2014 14:08:00",
+        "max_value": "239.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "noise",
+        "current_value": "11.27",
+        "at": "03/21/2014 14:08:00",
+        "max_value": "254.0",
+        "min_value": "-243.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "pressure",
+        "current_value": "927.00",
+        "at": "03/21/2014 14:08:00",
+        "max_value": "932.0",
+        "min_value": "853.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "hPa",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temperature",
+        "current_value": "30.57",
+        "at": "03/21/2014 14:08:00",
+        "max_value": "94.04",
+        "min_value": "-50.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "ºC",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "-23.532385",
+      "lon": "-46.6600559",
+      "ele": "50",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/1522538802\" >environmental sensor @ SP</a>",
+    "URLMostrar": "https://xively.com/feeds/1522538802"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\1522538802.json",
+  "DocumentJSON": null
+}

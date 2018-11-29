@@ -1,0 +1,176 @@
+{
+  "Conceptos": [
+    "thermistor"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "67583",
+    "title": "raspberrypi",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "ciseco",
+      "dht22",
+      "ds18s20",
+      "humidity",
+      "light",
+      "photocell",
+      "raspberrypi",
+      "temp",
+      "thermistor",
+      "xrf"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/67583.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "10/06/2012 01:17:53",
+    "created": "07/13/2012 10:31:50",
+    "creator": "https://xively.com/users/figless",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "19.90",
+        "at": "10/06/2012 01:17:53",
+        "max_value": "1246.0",
+        "min_value": "0.0",
+        "tags": [
+          "Room1_Temp"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "64.20",
+        "at": "10/06/2012 01:17:53",
+        "max_value": "69140.0",
+        "min_value": "0.0",
+        "tags": [
+          "Room1_Humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "59.47",
+        "at": "10/06/2012 01:17:53",
+        "max_value": "73321.6",
+        "min_value": "0.0",
+        "tags": [
+          "Room1_LightPercentage"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "15.41",
+        "at": "10/06/2012 01:12:46",
+        "max_value": "1134.0",
+        "min_value": "1.0",
+        "tags": [
+          "Outside_Temp"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "70",
+        "at": "10/04/2012 09:34:18",
+        "max_value": "59016.0",
+        "min_value": "0.0",
+        "tags": [
+          "Outside_Humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "2.59",
+        "at": "10/05/2012 21:51:48",
+        "max_value": "24.06",
+        "min_value": "2.21",
+        "tags": [
+          "Outside_BatteryLevel"
+        ],
+        "unit": {
+          "symbol": "Volts",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "26.65",
+        "at": "09/23/2012 05:30:05",
+        "max_value": "32.97",
+        "min_value": "2.57",
+        "tags": [
+          "Solar_Temp"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "7",
+        "current_value": "2.37",
+        "at": "09/23/2012 05:20:37",
+        "max_value": "2.82",
+        "min_value": "1.92",
+        "tags": [
+          "Solar_BatteryLevel"
+        ],
+        "unit": {
+          "symbol": "Volts",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "melbourne",
+      "domain": 0,
+      "lat": "-37.8356660979873",
+      "lon": "144.991958141327",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/67583\" >raspberrypi</a>",
+    "URLMostrar": "https://xively.com/feeds/67583"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\67583.json",
+  "DocumentJSON": null
+}

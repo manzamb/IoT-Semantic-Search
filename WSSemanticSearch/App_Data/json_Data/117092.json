@@ -1,0 +1,111 @@
+{
+  "Conceptos": [
+    "co2"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "117092",
+    "title": "AirQuality1",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "CO2",
+      "DHT22",
+      "dust",
+      "GP2Y1010AU0F",
+      "humidity",
+      "indoor",
+      "MG811",
+      "sharp",
+      "temperature"
+    ],
+    "description": "Arduino + Ethernet Shield pushes every 15 Seconds the mean values of DHT22 (Temp.&Hum,), MG811 (CO2), GP2Y1010AU0F (Dust per Volume) in my flat.",
+    "feed": "https://api.xively.com/v2/feeds/117092.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:15:08",
+    "created": "03/04/2013 20:18:45",
+    "creator": "https://xively.com/users/tangsob",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "1",
+        "current_value": "21.30",
+        "at": "03/21/2014 14:15:08",
+        "max_value": "30.5",
+        "min_value": "7.8",
+        "tags": [
+          "Temperatur"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "40.40",
+        "at": "03/21/2014 14:15:08",
+        "max_value": "93.6",
+        "min_value": "21.3",
+        "tags": [
+          "Luftfeuchtigkeit"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "1172.30",
+        "at": "03/21/2014 14:15:08",
+        "max_value": "3989.8",
+        "min_value": "400.0",
+        "tags": [
+          "CO2"
+        ],
+        "unit": {
+          "symbol": "ppm",
+          "label": "ppm",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "164.97",
+        "at": "03/21/2014 14:15:08",
+        "max_value": "517.67",
+        "min_value": "69.92",
+        "tags": [
+          "Staubpartikel"
+        ],
+        "unit": {
+          "symbol": "µg/m3",
+          "label": "µg/m3",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "48.9997041713043",
+      "lon": "8.47904205322266",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/117092\" >AirQuality1</a>",
+    "URLMostrar": "https://xively.com/feeds/117092"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\117092.json",
+  "DocumentJSON": null
+}

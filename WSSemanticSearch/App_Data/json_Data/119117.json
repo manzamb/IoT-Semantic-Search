@@ -1,0 +1,95 @@
+{
+  "Conceptos": [
+    "temperatura"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "119117",
+    "title": "Ardupellet",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "temperatura"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/119117.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:15:00",
+    "created": "03/14/2013 18:43:52",
+    "creator": "https://xively.com/users/ardupellet",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Rele",
+        "current_value": "0",
+        "at": "12/02/2013 16:07:01",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperatura_DHT11",
+        "current_value": "24",
+        "at": "03/21/2014 14:14:59",
+        "max_value": "34.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperatura_LM35",
+        "current_value": "0",
+        "at": "03/21/2014 14:14:59",
+        "max_value": "180.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Umidita_DHT11",
+        "current_value": "34",
+        "at": "03/21/2014 14:14:59",
+        "max_value": "146.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Italia",
+      "domain": 0,
+      "lat": "45.0892476542042",
+      "lon": "9.93041753768921",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/119117\" >Ardupellet</a>",
+    "URLMostrar": "https://xively.com/feeds/119117"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\119117.json",
+  "DocumentJSON": null
+}

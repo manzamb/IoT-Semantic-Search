@@ -1,0 +1,70 @@
+{
+  "Conceptos": [
+    "description"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "44422",
+    "title": "Temperatur auf der Eisscholle",
+    "Private": false,
+    "tags": [
+      "Comma-separated descriptive keywords for this Feed"
+    ],
+    "description": "Enter a description of the Feed",
+    "feed": "https://api.xively.com/v2/feeds/44422.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "01/14/2013 13:52:30",
+    "created": "01/16/2012 23:00:57",
+    "creator": "https://xively.com/users/bgr121",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "24.00",
+        "at": "01/14/2013 13:52:30",
+        "max_value": "37.6",
+        "min_value": "14.6",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "27.30",
+        "at": "01/14/2013 13:52:30",
+        "max_value": "74.1",
+        "min_value": "12.3",
+        "tags": [
+          "humidity"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "BAC",
+      "domain": 0,
+      "lat": "49.2932809778556",
+      "lon": "8.64486694335938",
+      "ele": "Metres",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/44422\" >Temperatur auf der Eisscholle</a>",
+    "URLMostrar": "https://xively.com/feeds/44422"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\44422.json",
+  "DocumentJSON": null
+}

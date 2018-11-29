@@ -1,0 +1,145 @@
+{
+  "Conceptos": [
+    "mp10"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "35141",
+    "title": "Arduino Environment Logger",
+    "Private": false,
+    "tags": [
+      "Arduino",
+      "BMP085",
+      "HIH4030",
+      "TEMT6000",
+      "TMP102"
+    ],
+    "description": "Trial data logger using an Arduino Mega, ethernet shield, HIH4030 humidity, BMP085 pressure and temperature, TMP102 temperature and TEMT6000 light sensors.",
+    "feed": "https://api.xively.com/v2/feeds/35141.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "09/18/2011 13:19:10",
+    "created": "09/04/2011 12:31:33",
+    "creator": "https://xively.com/users/markab",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "1",
+        "current_value": "22.69",
+        "at": "09/18/2011 13:19:10",
+        "max_value": "25.31",
+        "min_value": "20.5",
+        "tags": [
+          "Temperature",
+          "TMP102"
+        ],
+        "unit": {
+          "symbol": "ºc",
+          "label": "Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "22.80",
+        "at": "09/18/2011 13:19:10",
+        "max_value": "26.9",
+        "min_value": "20.2",
+        "tags": [
+          "BMP085",
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "ºc",
+          "label": "Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": " 997.98",
+        "at": "09/18/2011 13:19:10",
+        "max_value": "1016.26",
+        "min_value": "995.08",
+        "tags": [
+          "BMP085",
+          "Pressure"
+        ],
+        "unit": {
+          "symbol": "mb",
+          "label": "Millibar",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "43.80",
+        "at": "09/18/2011 13:19:10",
+        "max_value": "88.93",
+        "min_value": "31.0",
+        "tags": [
+          "HIH4030",
+          "Humidity"
+        ],
+        "unit": {
+          "symbol": "RH%",
+          "label": "Relative Humidity",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": " 9.16",
+        "at": "09/18/2011 13:19:10",
+        "max_value": "237.21",
+        "min_value": "1.93",
+        "tags": [
+          "BMP085",
+          "Dew Point",
+          "HIH4030"
+        ],
+        "unit": {
+          "symbol": "ºc",
+          "label": "Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "10",
+        "at": "09/18/2011 13:19:10",
+        "max_value": "409.0",
+        "min_value": "0.0",
+        "tags": [
+          "Light",
+          "TEMT6000"
+        ],
+        "unit": {
+          "symbol": "?",
+          "label": "Analogue Reading",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Kesgrave, Ipswich",
+      "domain": 0,
+      "lat": "52.0556572035579",
+      "lon": "1.25604629516602",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/35141\" >Arduino Environment Logger</a>",
+    "URLMostrar": "https://xively.com/feeds/35141"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\35141.json",
+  "DocumentJSON": null
+}

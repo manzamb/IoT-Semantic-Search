@@ -1,0 +1,129 @@
+{
+  "Conceptos": [
+    "humidity"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "1898723011",
+    "title": "Node_Paradise2",
+    "Private": false,
+    "tags": [
+      "beachview",
+      "Celcuis",
+      "Humidity",
+      "Light",
+      "Lux",
+      "moved_outdoorview",
+      "outdoorview",
+      "Temperature"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/1898723011.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/20/2014 03:45:13",
+    "created": "12/10/2013 08:35:06",
+    "creator": "https://xively.com/users/wgeorge76",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "DHT_Humidity",
+        "current_value": "53.9 %RH",
+        "at": "03/20/2014 03:45:12",
+        "max_value": "72.9",
+        "min_value": "25.3",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "DHT_Out_Humidity",
+        "current_value": "45.4 %RH",
+        "at": "03/20/2014 03:45:12",
+        "max_value": "3309.2",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "DHT_Out_Temp",
+        "current_value": "21.6 C",
+        "at": "03/20/2014 03:45:12",
+        "max_value": "37.1",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "DHT_Temp",
+        "current_value": "22.8 C",
+        "at": "03/20/2014 03:45:12",
+        "max_value": "44.0",
+        "min_value": "6.5",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Light_Level",
+        "current_value": "0.0 Lx",
+        "at": "03/20/2014 03:45:12",
+        "max_value": "5757.667",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Outside_Lux",
+        "current_value": "0.0 Lx",
+        "at": "03/20/2014 03:45:12",
+        "max_value": "54655.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "-45.7649446202122",
+      "lon": "170.668922066689",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/1898723011\" >Node_Paradise2</a>",
+    "URLMostrar": "https://xively.com/feeds/1898723011"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\1898723011.json",
+  "DocumentJSON": null
+}

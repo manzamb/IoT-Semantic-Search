@@ -1,0 +1,68 @@
+{
+  "Conceptos": [
+    "horn"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "30069",
+    "title": "HelloPachube_ImNetduino",
+    "Private": false,
+    "tags": [
+      "GSIoT",
+      "Netduino",
+      "NetduinoPlus"
+    ],
+    "description": "Feed for Chapter 5 in \"Getting Started with the Internet of Things\" (aka GSIoT) by Cuno Pfister.\r\nA good book for learning to use the Netduino Plus.\r\nThis feed's two datastreams hold Codes and Voltages from a Netduino Plus ADC.",
+    "feed": "https://api.xively.com/v2/feeds/30069.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "07/23/2011 12:34:07",
+    "created": "07/17/2011 18:20:19",
+    "creator": "https://xively.com/users/thorntod",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Code",
+        "current_value": "6",
+        "at": "07/23/2011 12:34:07",
+        "max_value": "1023.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "LSB",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Voltage",
+        "current_value": "0.02",
+        "at": "07/23/2011 12:34:07",
+        "max_value": "3.3",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "V",
+          "label": "derived SI",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Medfield",
+      "domain": 0,
+      "lat": "42.185555412198",
+      "lon": "-71.3089030981064",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/30069\" >HelloPachube_ImNetduino</a>",
+    "URLMostrar": "https://xively.com/feeds/30069"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\30069.json",
+  "DocumentJSON": null
+}

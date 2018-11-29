@@ -1,0 +1,110 @@
+{
+  "Conceptos": [
+    "physical"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "1540683502",
+    "title": "EtherWeather",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "internet of things",
+      "weather monitoring"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/1540683502.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "01/04/2014 19:03:43",
+    "created": "07/27/2013 19:07:15",
+    "creator": "https://xively.com/users/lazze",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Battery",
+        "current_value": "1.42",
+        "at": "01/04/2014 19:03:42",
+        "max_value": "2.63",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "V",
+          "label": "Volts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "DewPoint",
+        "current_value": "6.2",
+        "at": "01/04/2014 19:03:42",
+        "max_value": "8953.8",
+        "min_value": "-8857.0",
+        "tags": null,
+        "unit": {
+          "symbol": "°C",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Humidity",
+        "current_value": "97",
+        "at": "01/04/2014 19:03:42",
+        "max_value": "101418.0",
+        "min_value": "-67.0",
+        "tags": null,
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Pressure",
+        "current_value": "-31.3",
+        "at": "01/04/2014 19:03:42",
+        "max_value": "2670169000.0",
+        "min_value": "-522408460.0",
+        "tags": null,
+        "unit": {
+          "symbol": "hPa",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperature",
+        "current_value": "6.6",
+        "at": "01/04/2014 19:03:42",
+        "max_value": "9727531700101370.0",
+        "min_value": "-19.9",
+        "tags": null,
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "65.0590607",
+      "lon": "25.4663975999999",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/1540683502\" >EtherWeather</a>",
+    "URLMostrar": "https://xively.com/feeds/1540683502"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\1540683502.json",
+  "DocumentJSON": null
+}

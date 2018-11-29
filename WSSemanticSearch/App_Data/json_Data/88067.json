@@ -1,0 +1,190 @@
+{
+  "Conceptos": [
+    "area"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "88067",
+    "title": "Temps",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/88067.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "11/28/2012 22:11:20",
+    "created": "11/25/2012 06:09:45",
+    "creator": "https://xively.com/users/muyloco",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "BedroomAirTemp",
+        "current_value": "64.18\r\n",
+        "at": "03/09/2013 03:30:49",
+        "max_value": "773.96",
+        "min_value": "0.0",
+        "tags": [
+          "285DF75104000044",
+          "Air",
+          "Area",
+          "Indoor"
+        ],
+        "unit": {
+          "symbol": "°",
+          "label": "F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "OutdoorTemp",
+        "current_value": "65.64\r\n",
+        "at": "03/09/2013 03:30:49",
+        "max_value": "185.0",
+        "min_value": "-196.6",
+        "tags": [
+          "28FC4F52040000D6",
+          "Air",
+          "Area",
+          "Outdoor"
+        ],
+        "unit": {
+          "symbol": "°",
+          "label": "F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "SystemAirOutputTemp",
+        "current_value": "65.64\r\n",
+        "at": "11/26/2012 23:45:09",
+        "max_value": "65.64",
+        "min_value": "65.64",
+        "tags": [
+          "28DEB1520400000A",
+          "Air",
+          "Indoor",
+          "Output"
+        ],
+        "unit": {
+          "symbol": "°",
+          "label": "F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "SystemAirReturnTemp",
+        "current_value": "64.96\r\n",
+        "at": "03/09/2013 03:30:49",
+        "max_value": "6045.0",
+        "min_value": "0.0",
+        "tags": [
+          "28A60F52040000DE",
+          "Air",
+          "Indoor",
+          "Return"
+        ],
+        "unit": {
+          "symbol": "°",
+          "label": "F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "SystemHeatExchangerOutputTemp",
+        "current_value": "65.86\r\n",
+        "at": "11/26/2012 23:54:37",
+        "max_value": "65.86",
+        "min_value": "65.86",
+        "tags": [
+          "2878B552040000FB",
+          "Heat Exchanger",
+          "Indoor",
+          "Output",
+          "Water"
+        ],
+        "unit": {
+          "symbol": "°",
+          "label": "F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "SystemHeatExchangerReturnTemp",
+        "current_value": "65.30\r\n",
+        "at": "03/09/2013 03:30:50",
+        "max_value": "636.0",
+        "min_value": "-196.6",
+        "tags": [
+          "28248052040000FE",
+          "Heat Exchanger",
+          "Indoor",
+          "Return",
+          "Water"
+        ],
+        "unit": {
+          "symbol": "°",
+          "label": "F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "SystemWaterHeaterOutputTemp",
+        "current_value": "65.19\r\n",
+        "at": "03/09/2013 03:30:50",
+        "max_value": "6868.79",
+        "min_value": "0.0",
+        "tags": [
+          "2850CC5204000072",
+          "Indoor",
+          "Output",
+          "Water",
+          "Water Heater"
+        ],
+        "unit": {
+          "symbol": "°",
+          "label": "F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "SystemWaterHeaterReturnTemp",
+        "current_value": "64.62\r\n",
+        "at": "03/09/2013 03:30:49",
+        "max_value": "611.81",
+        "min_value": "0.0",
+        "tags": [
+          "289AB45204000071",
+          "Return",
+          "Water Heater"
+        ],
+        "unit": {
+          "symbol": "°",
+          "label": "F",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "42.3363907728198",
+      "lon": "-83.0362451076508",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/88067\" >Temps</a>",
+    "URLMostrar": "https://xively.com/feeds/88067"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\88067.json",
+  "DocumentJSON": null
+}

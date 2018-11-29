@@ -1,0 +1,210 @@
+{
+  "Conceptos": [
+    "carbon monoxide"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "125842",
+    "title": "Daisy1",
+    "Private": false,
+    "tags": [
+      "lots of test data"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/125842.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "07/26/2013 21:20:36",
+    "created": "04/17/2013 09:09:07",
+    "creator": "https://xively.com/users/daisypi",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "baro",
+        "current_value": "1010.0600",
+        "at": "07/26/2013 21:20:30",
+        "max_value": "1012.91",
+        "min_value": "1004.35",
+        "tags": [
+          "atmosferic pressure"
+        ],
+        "unit": {
+          "symbol": "hPa",
+          "label": "hectoPascals",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "co",
+        "current_value": "0",
+        "at": "07/26/2013 21:20:35",
+        "max_value": "695.0",
+        "min_value": "0.0",
+        "tags": [
+          "carbon monoxide level"
+        ],
+        "unit": {
+          "symbol": "ppm",
+          "label": "ppm",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "cpu_temp",
+        "current_value": "50.84",
+        "at": "07/26/2013 21:20:33",
+        "max_value": "85.0",
+        "min_value": "35.24",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "dew",
+        "current_value": "12.8585",
+        "at": "05/16/2013 19:53:04",
+        "max_value": "26.8063",
+        "min_value": "7.8511",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celsius deg",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "dif_press",
+        "current_value": "0",
+        "at": "07/26/2013 21:20:36",
+        "max_value": "1177.0",
+        "min_value": "0.0",
+        "tags": [
+          "differential pressure event"
+        ],
+        "unit": {
+          "symbol": "hPa",
+          "label": "hectoPascals",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "humid",
+        "current_value": "38.6547",
+        "at": "05/01/2013 06:40:06",
+        "max_value": "83.7335",
+        "min_value": "26.1489",
+        "tags": [
+          "humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "light",
+        "current_value": "0",
+        "at": "07/26/2013 21:20:34",
+        "max_value": "3242.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "noise",
+        "current_value": null,
+        "at": null,
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "noise level"
+        ],
+        "unit": {
+          "symbol": "daisies",
+          "label": "daisies",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "pir",
+        "current_value": "0",
+        "at": "04/21/2013 10:49:44",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "motion detected ON/OFF"
+        ],
+        "unit": {
+          "symbol": "1",
+          "label": "booleans",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temp_1",
+        "current_value": "26.1600",
+        "at": "05/16/2013 19:53:03",
+        "max_value": "36.55",
+        "min_value": "24.38",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celsius deg",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temp_2",
+        "current_value": "31.4000",
+        "at": "07/26/2013 21:20:29",
+        "max_value": "31.4",
+        "min_value": "25.1",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celsius deg",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/125842\" >Daisy1</a>",
+    "URLMostrar": "https://xively.com/feeds/125842"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\125842.json",
+  "DocumentJSON": null
+}

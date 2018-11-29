@@ -1,0 +1,88 @@
+{
+  "Conceptos": [
+    "temperature"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "101722",
+    "title": "Tank Status",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "ds18b20",
+      "temperature"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/101722.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:09:47",
+    "created": "01/31/2013 20:57:50",
+    "creator": "https://xively.com/users/prairietech",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "InTemp",
+        "current_value": "40.55",
+        "at": "03/21/2014 14:09:47",
+        "max_value": "185.0",
+        "min_value": "-196.6",
+        "tags": [
+          "Ambient Air Temp"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "OutTemp",
+        "current_value": "38.75",
+        "at": "03/21/2014 14:09:47",
+        "max_value": "185.0",
+        "min_value": "-196.6",
+        "tags": [
+          "Water Temp"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Switch1",
+        "current_value": "1",
+        "at": "03/21/2014 14:09:47",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "0 = Heat ON"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "41.0753396769809",
+      "lon": "-91.3868522644043",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/101722\" >Tank Status</a>",
+    "URLMostrar": "https://xively.com/feeds/101722"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\101722.json",
+  "DocumentJSON": null
+}

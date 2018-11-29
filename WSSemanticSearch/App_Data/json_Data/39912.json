@@ -1,0 +1,198 @@
+{
+  "Conceptos": [
+    "man"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "39912",
+    "title": "Variables sistema de energia",
+    "Private": false,
+    "tags": [
+      "V"
+    ],
+    "description": "Voltaje baterías, Consumo, corriente eolico y corriente solar.\r\nSistema de energía de EyC Meliquina",
+    "feed": "https://api.xively.com/v2/feeds/39912.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:13:02",
+    "created": "11/18/2011 15:00:35",
+    "creator": "https://xively.com/users/manojo",
+    "version": null,
+    "website": "http://www.eycmeliquina.com.ar/",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "25.9",
+        "at": "03/21/2014 14:13:01",
+        "max_value": "1000.0",
+        "min_value": "0.0",
+        "tags": [
+          "V batería"
+        ],
+        "unit": {
+          "symbol": "Vbat",
+          "label": "Volt",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "1.7",
+        "at": "03/21/2014 14:13:01",
+        "max_value": "50.0",
+        "min_value": "-36.2",
+        "tags": [
+          "Corriente Qmax"
+        ],
+        "unit": {
+          "symbol": "Aq",
+          "label": "Amper",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "0.0",
+        "at": "03/21/2014 14:13:01",
+        "max_value": "42.1",
+        "min_value": "-1.0",
+        "tags": [
+          "Corriente eolico"
+        ],
+        "unit": {
+          "symbol": "Ae",
+          "label": "Amper",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "5.3",
+        "at": "03/21/2014 14:13:01",
+        "max_value": "19.5",
+        "min_value": "-1.0",
+        "tags": [
+          "Corriente Solar"
+        ],
+        "unit": {
+          "symbol": "As",
+          "label": "Amper",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "45",
+        "at": "03/21/2014 14:13:01",
+        "max_value": "1231.0",
+        "min_value": "-1344.0",
+        "tags": [
+          "Potencia Qmax"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watt",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "0",
+        "at": "03/21/2014 14:13:01",
+        "max_value": "1273.0",
+        "min_value": "-33.0",
+        "tags": [
+          "Potencia Eolico"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watt",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "138",
+        "at": "03/21/2014 14:13:01",
+        "max_value": "404.0",
+        "min_value": "-26.0",
+        "tags": [
+          "Potencia Solar"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watt",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "7",
+        "current_value": "97",
+        "at": "03/21/2014 14:13:01",
+        "max_value": "2238.0",
+        "min_value": "-713.0",
+        "tags": [
+          "Energía Qmax"
+        ],
+        "unit": {
+          "symbol": "Wh",
+          "label": "Wh",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "8",
+        "current_value": "0",
+        "at": "03/21/2014 14:13:01",
+        "max_value": "3099.0",
+        "min_value": "-2.0",
+        "tags": [
+          "Energía Eolico"
+        ],
+        "unit": {
+          "symbol": "Wh",
+          "label": "Wh",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "9",
+        "current_value": "55",
+        "at": "03/21/2014 14:13:01",
+        "max_value": "3529.0",
+        "min_value": "0.0",
+        "tags": [
+          "Energía solar"
+        ],
+        "unit": {
+          "symbol": "Wh",
+          "label": "Wh",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Meliquina",
+      "domain": 0,
+      "lat": "-40.3821206178224",
+      "lon": "-71.2586975097656",
+      "ele": "950",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/39912\" >Variables sistema de energia</a>",
+    "URLMostrar": "https://xively.com/feeds/39912"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\39912.json",
+  "DocumentJSON": null
+}

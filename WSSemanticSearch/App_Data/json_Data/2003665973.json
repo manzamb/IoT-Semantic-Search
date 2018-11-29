@@ -1,0 +1,236 @@
+{
+  "Conceptos": [
+    "area",
+    "calidad del aire",
+    "lluvia ácida",
+    "cadmio",
+    "monóxido de carbono",
+    "co",
+    "nitratos",
+    "óxido de azufre",
+    "so2",
+    "no2",
+    "plomo",
+    "sulfatos",
+    "dióxido de azufre",
+    "no",
+    "pm10",
+    "ozono",
+    "o3",
+    "pst",
+    "region",
+    "color"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "2003665973",
+    "title": "Popayán",
+    "Private": false,
+    "tags": [
+      "bronconstricción",
+      "contaminantes",
+      "Dióxido de Azufre",
+      "Dióxido de nitrógeno",
+      "MaterialParticulado",
+      "Monóxido de Carbono",
+      "NO2",
+      "O",
+      "O3",
+      "PM10",
+      "PST",
+      "smog",
+      "SO2"
+    ],
+    "description": "Simulador Estación Meteorológica del Departamento del Cauca.\nMonitoreo de SVCA Sistema de Vigilancia de Calidad del Aire.\nEscala de Monitoreo SVCA: \nTipo Regional:\nRadio de más de 20Km hasta el area total de la juridicción.",
+    "feed": "https://api.xively.com/v2/feeds/2003665973.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/30/2014 23:00:11",
+    "created": "03/10/2014 22:02:29",
+    "creator": "https://xively.com/users/simiot",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "feedid": null,
+        "id": "Dioxido_de_Azufre_SO2",
+        "current_value": "372.00",
+        "at": "03/30/2014 05:00:21",
+        "max_value": "474.0",
+        "min_value": "50.0",
+        "tags": [
+          "bronconstricción",
+          "Dióxido de Azufre",
+          "lluvia ácida",
+          "Muestra cada 24 horas",
+          "SO2",
+          "SOx",
+          "sulfatos"
+        ],
+        "unit": {
+          "symbol": "ug/m3",
+          "label": "Micrometro cúbico",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "feedid": null,
+        "id": "Dioxido_de_nitrogeno_NO2",
+        "current_value": "952.00",
+        "at": "03/30/2014 21:00:11",
+        "max_value": "952.0",
+        "min_value": "50.0",
+        "tags": [
+          "Dióxido de nitrógeno",
+          "edema pulmonar",
+          "gas incoloro e inodoro",
+          "irritante del pulmón",
+          "lluvia acida",
+          "Muestra cada 1 horas",
+          "NO",
+          "NO2",
+          "NOx",
+          "partículas mutagénicas",
+          "partículas secundarias tóxicas",
+          "procesos de combustión",
+          "smog"
+        ],
+        "unit": {
+          "symbol": "ug/m3",
+          "label": "Micrometro cúbico",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "feedid": null,
+        "id": "Monoxido_de_Carbono_CO",
+        "current_value": "50",
+        "at": "03/10/2014 23:25:30",
+        "max_value": "50.0",
+        "min_value": "50.0",
+        "tags": [
+          "carboxihemoglobina",
+          "cefalea",
+          "CO",
+          "COHb",
+          "hemoglobina",
+          "hipoxia",
+          "hipoxia anémica",
+          "intoxicación",
+          "Monóxido de Carbono",
+          "Muestra cada 8 horas",
+          "náuseas"
+        ],
+        "unit": {
+          "symbol": "mg/m3",
+          "label": "Miligramo cúbico",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "feedid": null,
+        "id": "Ozono_03",
+        "current_value": "253.00",
+        "at": "03/30/2014 23:00:11",
+        "max_value": "996.0",
+        "min_value": "50.0",
+        "tags": [
+          "contaminante secundario",
+          "irritante pulmonar",
+          "O3",
+          "Ozono",
+          "Ozono contaminante",
+          "smog",
+          "troposfera"
+        ],
+        "unit": {
+          "symbol": "ug/m3",
+          "label": "Micrometro cúbico",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "feedid": null,
+        "id": "PM10_Material_Particulado",
+        "current_value": "257.00",
+        "at": "03/30/2014 05:00:15",
+        "max_value": "458.0",
+        "min_value": "182.0",
+        "tags": [
+          "10 micrómetros",
+          "Cadmio",
+          "Calcio",
+          "Carbono Elemental",
+          "Carbono Orgánico",
+          "diámetro aerodinámico",
+          "gotas liquidas",
+          "Hierro",
+          "Material Partículado",
+          "Muestra cada 24 horas",
+          "Nitratos",
+          "Plomo",
+          "Silicio",
+          "Sulfatos",
+          "velocidad de sedimenta terminal",
+          "Zinc"
+        ],
+        "unit": {
+          "symbol": "ug/m3",
+          "label": "Micrometro cúbico",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "feedid": null,
+        "id": "PST_Material_Particulado_Total",
+        "current_value": "257.00",
+        "at": "03/30/2014 05:00:18",
+        "max_value": "843.0",
+        "min_value": "50.0",
+        "tags": [
+          "Activos Semiautomáticos",
+          "Beta Gauge",
+          "Cadmio",
+          "Calcio",
+          "Carbono Elemental",
+          "Carbono Orgánico",
+          "diámetro aerodinámico",
+          "Hi Vol",
+          "Hierro",
+          "Low Vol",
+          "Material Particulado Total",
+          "Muestra cada 24 horas",
+          "Nitratos",
+          "Plomo",
+          "Silicio",
+          "Sulfatos",
+          "Zinc"
+        ],
+        "unit": {
+          "symbol": "ug/m3",
+          "label": "Micrometro cúbico",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Popayan",
+      "domain": 0,
+      "lat": "2.44460645993619",
+      "lon": "-76.6155624389648",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/2003665973\" >Popayán</a>",
+    "URLMostrar": "https://xively.com/feeds/2003665973"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\2003665973.json",
+  "DocumentJSON": null
+}

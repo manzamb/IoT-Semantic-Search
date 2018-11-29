@@ -1,0 +1,104 @@
+{
+  "Conceptos": [
+    "sensor output"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "75731",
+    "title": "HP_SOLAR",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "HP",
+      "SENSOR"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/75731.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:12:54",
+    "created": "09/14/2012 10:42:35",
+    "creator": "https://xively.com/users/b2o0s1c1h_logger",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "T0",
+        "current_value": "15.43",
+        "at": "03/21/2014 14:12:54",
+        "max_value": "97.0",
+        "min_value": "-254.0",
+        "tags": [
+          "HP - Water temp output"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "ºC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "T1",
+        "current_value": "27.56",
+        "at": "03/21/2014 14:12:54",
+        "max_value": "112.5",
+        "min_value": "-254.0",
+        "tags": [
+          "HP - Water temp input"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "ºC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "T2",
+        "current_value": "6.56",
+        "at": "03/21/2014 14:12:54",
+        "max_value": "4095.93",
+        "min_value": "-254.0",
+        "tags": [
+          "Air temp"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "ºC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "T3",
+        "current_value": "25.43",
+        "at": "09/17/2012 17:20:39",
+        "max_value": "25.43",
+        "min_value": "25.43",
+        "tags": [
+          "Air temp out"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "ºC",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "40.6694741379833",
+      "lon": "-8.61001968383789",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/75731\" >HP_SOLAR</a>",
+    "URLMostrar": "https://xively.com/feeds/75731"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\75731.json",
+  "DocumentJSON": null
+}

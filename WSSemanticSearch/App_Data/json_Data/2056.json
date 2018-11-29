@@ -1,0 +1,187 @@
+{
+  "Conceptos": [
+    "man"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "2056",
+    "title": "Weather Station",
+    "Private": false,
+    "tags": [
+      "humidity",
+      "pressure",
+      "rain",
+      "temperature",
+      "weather",
+      "wind"
+    ],
+    "description": "My wireless weather station gets data from several temperature and humidity sensors, a rain gauge and an anemometer.",
+    "feed": "https://api.xively.com/v2/feeds/2056.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/21/2014 11:19:02",
+    "created": "05/28/2009 20:12:17",
+    "creator": "https://xively.com/users/sferber",
+    "version": null,
+    "website": "http://www.dieferbers.net",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "23.3",
+        "at": "03/21/2014 11:19:02",
+        "max_value": "36.2",
+        "min_value": "0.0",
+        "tags": [
+          "temperature Inside"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "20.6",
+        "at": "03/21/2014 11:19:02",
+        "max_value": "999.0",
+        "min_value": "-14.4",
+        "tags": [
+          "temperature Outside"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "23.4",
+        "at": "03/21/2014 11:19:02",
+        "max_value": "42.6",
+        "min_value": "-19.3",
+        "tags": [
+          "temperature wind chill"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "7",
+        "current_value": "32",
+        "at": "03/21/2014 11:19:02",
+        "max_value": "79.0",
+        "min_value": "0.0",
+        "tags": [
+          "humidity Inside"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "Percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "8",
+        "current_value": "34",
+        "at": "03/21/2014 11:19:02",
+        "max_value": "999.0",
+        "min_value": "0.0",
+        "tags": [
+          "humidity Outside"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "Percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "13",
+        "current_value": "1003.8",
+        "at": "03/21/2014 11:19:02",
+        "max_value": "1049.0",
+        "min_value": "0.0",
+        "tags": [
+          "pressure"
+        ],
+        "unit": {
+          "symbol": "h Pa",
+          "label": "hecto Pascal",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "14",
+        "current_value": "17.6",
+        "at": "03/21/2014 11:19:02",
+        "max_value": "100.0",
+        "min_value": "0.0",
+        "tags": [
+          "wind speed"
+        ],
+        "unit": {
+          "symbol": "km/h",
+          "label": "kilo Meter per Hour",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "15",
+        "current_value": "248",
+        "at": "03/21/2014 11:19:02",
+        "max_value": "360.0",
+        "min_value": "0.0",
+        "tags": [
+          "wind bearing"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Grad",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "16",
+        "current_value": "0.00",
+        "at": "03/21/2014 11:19:02",
+        "max_value": "100.0",
+        "min_value": "0.0",
+        "tags": [
+          "rain in last hour"
+        ],
+        "unit": {
+          "symbol": "mm",
+          "label": "mili meter",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Asperg, Germany",
+      "domain": 0,
+      "lat": "48.9065855655233",
+      "lon": "9.13936972618103",
+      "ele": "270 m",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/2056\" >Weather Station</a>",
+    "URLMostrar": "https://xively.com/feeds/2056"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\2056.json",
+  "DocumentJSON": null
+}

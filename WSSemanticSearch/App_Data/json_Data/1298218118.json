@@ -1,0 +1,150 @@
+{
+  "Conceptos": [
+    "physical"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "1298218118",
+    "title": "Arduino",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/1298218118.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:15:44",
+    "created": "07/08/2013 11:53:00",
+    "creator": "https://xively.com/users/mcgaag",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Buitentemperatuur",
+        "current_value": "6.94",
+        "at": "03/09/2014 05:26:23",
+        "max_value": "20.12",
+        "min_value": "-127.0",
+        "tags": null,
+        "unit": {
+          "symbol": "C",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Collector",
+        "current_value": "19.75",
+        "at": "03/09/2014 05:26:23",
+        "max_value": "68.06",
+        "min_value": "12.88",
+        "tags": null,
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Differential",
+        "current_value": "-6.19",
+        "at": "03/09/2014 05:26:23",
+        "max_value": "42.88",
+        "min_value": "-11.56",
+        "tags": null,
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "humidity",
+        "current_value": "50.20",
+        "at": "03/21/2014 14:15:44",
+        "max_value": "64.6",
+        "min_value": "36.6",
+        "tags": null,
+        "unit": {
+          "symbol": "%",
+          "label": "RV",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Pump",
+        "current_value": "0",
+        "at": "03/09/2014 05:26:23",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "Solarheater pump state"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "On or Off",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "TankBottom",
+        "current_value": "25.94",
+        "at": "03/09/2014 05:26:23",
+        "max_value": "49.25",
+        "min_value": "15.0",
+        "tags": null,
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "TankTop",
+        "current_value": "26.69",
+        "at": "03/09/2014 05:26:23",
+        "max_value": "48.56",
+        "min_value": "15.31",
+        "tags": null,
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temperature",
+        "current_value": "20.30",
+        "at": "03/21/2014 14:15:44",
+        "max_value": "25.2",
+        "min_value": "18.4",
+        "tags": null,
+        "unit": {
+          "symbol": "C",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Op dak",
+      "domain": 0,
+      "lat": "51.9084139446981",
+      "lon": "4.35539245605469",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/1298218118\" >Arduino</a>",
+    "URLMostrar": "https://xively.com/feeds/1298218118"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\1298218118.json",
+  "DocumentJSON": null
+}

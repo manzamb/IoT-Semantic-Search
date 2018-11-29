@@ -1,0 +1,125 @@
+{
+  "Conceptos": [
+    "moisture"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "77832832",
+    "title": "LWC Sensor Terminal",
+    "Private": false,
+    "tags": [
+      "Arduino",
+      "DHT22",
+      "Japan",
+      "logica lworks",
+      "MPL115A2",
+      "Nagano",
+      "S9648",
+      "Shimosuwa"
+    ],
+    "description": "office\nShimosuwa,Nagano,Japan,\nLOGICAL WORKS CO.LTD",
+    "feed": "https://api.xively.com/v2/feeds/77832832.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:06:55",
+    "created": "05/31/2013 14:37:43",
+    "creator": "https://xively.com/users/toshihisa_nakamura",
+    "version": null,
+    "website": "http://logicalworks.co.jp",
+    "datastreams": [
+      {
+        "id": "DHT22-1_Temp",
+        "current_value": "11.40",
+        "at": "03/21/2014 14:06:55",
+        "max_value": "36.0",
+        "min_value": "-0.3",
+        "tags": [
+          "Japan",
+          "my-office",
+          "Nagano",
+          "Shimosuwa",
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Temperature",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "DHT22-2_Hum",
+        "current_value": "58.10",
+        "at": "03/21/2014 14:06:55",
+        "max_value": "91.3",
+        "min_value": "24.0",
+        "tags": [
+          "Japan",
+          "Moisture",
+          "my-office",
+          "Nagano",
+          "Shimosuwa"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "Moisture",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "MPL115A2_Press",
+        "current_value": "917.89",
+        "at": "03/21/2014 14:06:55",
+        "max_value": "937.54",
+        "min_value": "897.6",
+        "tags": [
+          "Japan",
+          "my-office",
+          "Nagano",
+          "Pressure",
+          "Shimosuwa"
+        ],
+        "unit": {
+          "symbol": "hPa",
+          "label": "Pressure",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "S9648_Illum",
+        "current_value": "0.00",
+        "at": "03/21/2014 14:06:55",
+        "max_value": "1090.0",
+        "min_value": "0.0",
+        "tags": [
+          "Illumination",
+          "Japan",
+          "my-office",
+          "Nagano",
+          "Shimosuwa"
+        ],
+        "unit": {
+          "symbol": "Lux",
+          "label": "Illumination",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": " logica lworks Corp,Shimosuwa,Nagano,Japan",
+      "domain": 0,
+      "lat": "36.0845259111711",
+      "lon": "138.080867417285",
+      "ele": "816",
+      "exposure": 1,
+      "disposition": 1
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/77832832\" >LWC Sensor Terminal</a>",
+    "URLMostrar": "https://xively.com/feeds/77832832"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\77832832.json",
+  "DocumentJSON": null
+}

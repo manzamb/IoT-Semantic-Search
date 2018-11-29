@@ -1,0 +1,296 @@
+{
+  "Conceptos": [
+    "system"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "1818925951",
+    "title": "MEGA Monitor",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/1818925951.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:13:45",
+    "created": "05/15/2013 10:06:19",
+    "creator": "https://xively.com/users/bbuino",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "A_Battery_Voltage",
+        "current_value": "50.03",
+        "at": "03/21/2014 14:13:45",
+        "max_value": "4993.43",
+        "min_value": "-67.64",
+        "tags": [
+          "Voltage"
+        ],
+        "unit": {
+          "symbol": "Volts DC",
+          "label": "V",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "B_Battery_Current",
+        "current_value": "-1.63",
+        "at": "03/21/2014 14:13:45",
+        "max_value": "54.47",
+        "min_value": "-363.99",
+        "tags": [
+          "Current"
+        ],
+        "unit": {
+          "symbol": "Amps DC",
+          "label": "Amps",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "C_Consumed_Energy",
+        "current_value": "-40.01",
+        "at": "03/21/2014 14:13:45",
+        "max_value": "2675.39",
+        "min_value": "-3837.0",
+        "tags": [
+          "CE"
+        ],
+        "unit": {
+          "symbol": "Amp Hour",
+          "label": "Amps Hours",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "D_State_of_Charge_Percent",
+        "current_value": "97.50",
+        "at": "03/21/2014 14:13:45",
+        "max_value": "26747.7",
+        "min_value": "-392788.59",
+        "tags": [
+          "SOC"
+        ],
+        "unit": {
+          "symbol": "% FULL",
+          "label": "Percent FULL",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "E_Time_to_Go_Hours",
+        "current_value": "240.00",
+        "at": "03/21/2014 14:13:45",
+        "max_value": "1381.83",
+        "min_value": "-136746.6",
+        "tags": [
+          "TTG"
+        ],
+        "unit": {
+          "symbol": "Hours Left ",
+          "label": "Hours ",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "F_Depth_of_Last_Discharge",
+        "current_value": "-40.01",
+        "at": "03/21/2014 14:13:45",
+        "max_value": "191.21",
+        "min_value": "-16792.06",
+        "tags": [
+          "DOL"
+        ],
+        "unit": {
+          "symbol": "Amp Hours ",
+          "label": "Amp Hours ",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "G_Days_Since_Last_Full_Charge",
+        "current_value": "0.42",
+        "at": "03/21/2014 14:13:45",
+        "max_value": "7.94",
+        "min_value": "-47.65",
+        "tags": null,
+        "unit": {
+          "symbol": "Days ",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "H_Cumulative_Energy_from_the_Battery",
+        "current_value": "-16878.47",
+        "at": "03/21/2014 14:13:45",
+        "max_value": "684.41",
+        "min_value": "-16878.47",
+        "tags": null,
+        "unit": {
+          "symbol": "Amp Hours ",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "I_InDoor_Tmp_Upstairs",
+        "current_value": "21.75",
+        "at": "03/21/2014 14:13:45",
+        "max_value": "85.0",
+        "min_value": "-127.0",
+        "tags": [
+          "IN"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "J_OutDoor_Tmp",
+        "current_value": "-127.00",
+        "at": "03/21/2014 14:13:45",
+        "max_value": "85.0",
+        "min_value": "-127.0",
+        "tags": [
+          "OUT"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "K_InDoor_Tmp_Downs_West",
+        "current_value": "-127.00",
+        "at": "03/21/2014 14:13:45",
+        "max_value": "85.0",
+        "min_value": "-127.0",
+        "tags": [
+          "INW"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "L_InDoor_Tmp_Downs_Center",
+        "current_value": "-127.00",
+        "at": "03/21/2014 14:13:45",
+        "max_value": "85.0",
+        "min_value": "-127.0",
+        "tags": [
+          "INC"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "M_Hot_Water_Pump",
+        "current_value": "22.81",
+        "at": "03/21/2014 14:13:45",
+        "max_value": "85.0",
+        "min_value": "-127.0",
+        "tags": [
+          "HWP"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "N_Hot_Water_Tank",
+        "current_value": "32.44",
+        "at": "03/21/2014 14:13:45",
+        "max_value": "85.0",
+        "min_value": "-127.0",
+        "tags": null,
+        "unit": {
+          "symbol": "°C",
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "O_Indoor_Tmp_Upst_Center",
+        "current_value": "22.31",
+        "at": "03/21/2014 14:13:45",
+        "max_value": "85.0",
+        "min_value": "-127.0",
+        "tags": null,
+        "unit": {
+          "symbol": "°C",
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "P_Indoor_Tmp_Hawks_Nest",
+        "current_value": "-127.00",
+        "at": "03/21/2014 14:13:45",
+        "max_value": "85.0",
+        "min_value": "-127.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Q_Indoor_Tmp_Downs_Bathr",
+        "current_value": "22.19",
+        "at": "03/21/2014 14:13:45",
+        "max_value": "85.0",
+        "min_value": "-127.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "PV system",
+      "domain": 0,
+      "lat": "-41.0968822925842",
+      "lon": "172.954128782959",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/1818925951\" >MEGA Monitor</a>",
+    "URLMostrar": "https://xively.com/feeds/1818925951"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\1818925951.json",
+  "DocumentJSON": null
+}

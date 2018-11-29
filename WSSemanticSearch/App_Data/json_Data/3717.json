@@ -1,0 +1,116 @@
+{
+  "Conceptos": [
+    "noise pollution"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "3717",
+    "title": "modular||neuroid test feed 1",
+    "Private": false,
+    "tags": null,
+    "description": "Modular || Neroid is a wearable, reconfigurable sensor pack and data contextualization system that allows users to collect, share, and understand data using wearable sensors recording environmental conditions such as carbon monoxide, light, noise pollution, and methane gas exposure among others. Users choose what to sense, and then connect with others around the world to share knowledge and experience.\r\n\r\nhttp://thesis.jmsaavedra.com\r\n",
+    "feed": "https://api.xively.com/v2/feeds/3717.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "02/15/2011 23:58:10",
+    "created": "12/03/2009 18:27:23",
+    "creator": "https://xively.com/users/jmsaavedra",
+    "version": null,
+    "website": "http://thesis.jmsaavedra.com",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "670",
+        "at": "02/15/2011 23:58:10",
+        "max_value": "1023.0",
+        "min_value": "0.0",
+        "tags": [
+          "carbon monoxide"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "ppm",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "911",
+        "at": "02/15/2011 23:58:10",
+        "max_value": "1023.0",
+        "min_value": "0.0",
+        "tags": [
+          "noise pollution"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "db",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "84",
+        "at": "02/15/2011 23:58:10",
+        "max_value": "1023.0",
+        "min_value": "0.0",
+        "tags": [
+          "methane gas"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "ppm",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "60",
+        "at": "02/15/2011 23:58:10",
+        "max_value": "1023.0",
+        "min_value": "0.0",
+        "tags": [
+          "light exposure"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "599",
+        "at": "02/15/2011 23:58:10",
+        "max_value": "1023.0",
+        "min_value": "0.0",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "New York City",
+      "domain": 0,
+      "lat": "40.7287547754258",
+      "lon": "-73.9844226837158",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 1
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/3717\" >modular||neuroid test feed 1</a>",
+    "URLMostrar": "https://xively.com/feeds/3717"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\3717.json",
+  "DocumentJSON": null
+}

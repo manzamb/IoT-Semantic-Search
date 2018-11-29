@@ -1,0 +1,59 @@
+{
+  "Conceptos": [
+    "environment"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "24019",
+    "title": "Webscraped Yokohama Isogo Atmospheric Gamma Radiation",
+    "Private": false,
+    "tags": [
+      "gamma",
+      "japan",
+      "sensor:type=radiation",
+      "unofficial",
+      "webscrape",
+      "yokohama"
+    ],
+    "description": "Hourly atmospheric gamma radiation data unofficially web-scraped from the City of Yokohama's Environmental Science Research Laboratory in Isogo, Yokohama, Japan at http://www.city.yokohama.lg.jp/kankyo/saigai/.\r\n\r\nThey report that the average historical radiation level was 22 nano Greys per hour and was typically between 20 and 40 before the Fukushima incident on March 11, 2011.  \r\n\r\nThis pachube feed is unofficial and experimental. For the most reliable data please directly view the above official URL. ",
+    "feed": "https://api.xively.com/v2/feeds/24019.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/21/2014 09:15:09",
+    "created": "04/20/2011 05:32:01",
+    "creator": "https://xively.com/users/yokohamarad2011",
+    "version": null,
+    "website": "http://www.city.yokohama.lg.jp/kankyo/saigai/",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "25",
+        "at": "03/21/2014 09:15:08",
+        "max_value": "55.0",
+        "min_value": "23.0",
+        "tags": [
+          "nGy/h"
+        ],
+        "unit": {
+          "symbol": "nGy/h",
+          "label": "nGy/h",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Takigashira, Isogo, Yokohama, Japan",
+      "domain": 0,
+      "lat": "35.4230226112142",
+      "lon": "139.61790561676",
+      "ele": "20",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/24019\" >Webscraped Yokohama Isogo Atmospheric Gamma Radiation</a>",
+    "URLMostrar": "https://xively.com/feeds/24019"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\24019.json",
+  "DocumentJSON": null
+}

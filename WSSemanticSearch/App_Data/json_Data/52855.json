@@ -1,0 +1,129 @@
+{
+  "Conceptos": [
+    "amount"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "52855",
+    "title": "Mike's Hydroponic Garden Monitors",
+    "Private": false,
+    "tags": [
+      "garden",
+      "humidity",
+      "hydroponics",
+      "temperature"
+    ],
+    "description": "This feed is for a series of variables I monitor in my hydroponics system. I've had problems previously with things going wrong and not catching it in time so I decided to really go all out this year. I'm monitoring:\r\nPump water flow\r\nNutrient tank water level and temperature\r\nAmbient air temperature\r\nAmbient humidity\r\nRefill valve status\r\n\r\nThe data is gathered by a JeeNode v6 running outside next to the system. Indoors I'm running a second JeeNode (the USB link version this time.) The outdoor JeeNode sends data to the indoor one that then makes the data available to a Java application running as a Windows Service. The Java application posts the data to Pachube.\r\n\r\nI'm using a variety of sensors to do this. In case anyone is interested, here are the specifics: \r\nLiquid level sensor - http://www.sparkfun.com/products/10221\r\nWaterproof temperature sensor - http://www.sparkfun.com/products/11050\r\nHumidity and temperature sensor - http://www.sparkfun.com/products/10167\r\nFlow sensor - FLOW25L0 - http://www.futurlec.com/Flow_Sensor.shtml\r\n\r\nSince I know the nutrient tank level, I've also decided to add in the ability for the system to fill itself from the outdoor faucet if it gets too low. This does dilute the nutrient levels when it happens so I'll ultimately need to keep an eye on how often it happens and how much water is added. This is the valve and relay assembly I'm using:\r\n12V Solenoid Valve 3/4\" - http://www.sparkfun.com/products/10456\r\nBeefcake relay - http://www.sparkfun.com/products/11042\r\n\r\nThe valve is plumbed into the the outdoor faucet via PVC 1/2 pipe. This means the faucet is always on a small amount but the solenoid valve is off. The outdoor Jeenode monitors water levels in the tank and automatically turns on the faucet fill when it's too low and turns it off again when it gets high enough. \r\n\r\nRight now, the Java application does the lion's share of the work determining when things are going wrong or water needs to be added. The long term plan is to move it all to a Raspberry PI and have Pachube do all the alerting but I'd rather keep a bit tighter control initially.",
+    "feed": "https://api.xively.com/v2/feeds/52855.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/21/2012 15:33:01",
+    "created": "03/21/2012 13:59:50",
+    "creator": "https://xively.com/users/mikegrundvig",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "AmbientHumidity",
+        "current_value": null,
+        "at": null,
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "humidity"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "AmbientTemp",
+        "current_value": null,
+        "at": null,
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "f",
+          "label": "Farenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "PumpFlow",
+        "current_value": null,
+        "at": null,
+        "max_value": null,
+        "min_value": null,
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "Gallons/Min",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "RefillValveStatus",
+        "current_value": null,
+        "at": null,
+        "max_value": null,
+        "min_value": null,
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "TankLevel",
+        "current_value": null,
+        "at": null,
+        "max_value": null,
+        "min_value": null,
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "Gallons",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "WaterTemp",
+        "current_value": null,
+        "at": null,
+        "max_value": null,
+        "min_value": null,
+        "tags": null,
+        "unit": {
+          "symbol": "f",
+          "label": "Farenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Mike's Garden",
+      "domain": 0,
+      "lat": "38.8453040556262",
+      "lon": "-94.6628621220589",
+      "ele": "304",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/52855\" >Mike's Hydroponic Garden Monitors</a>",
+    "URLMostrar": "https://xively.com/feeds/52855"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\52855.json",
+  "DocumentJSON": null
+}

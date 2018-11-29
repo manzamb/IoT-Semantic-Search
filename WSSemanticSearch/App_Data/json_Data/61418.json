@@ -1,0 +1,90 @@
+{
+  "Conceptos": [
+    "role"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "61418",
+    "title": "Thuis Manager",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "controle",
+      "licht",
+      "thuis manager",
+      "verwarming"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/61418.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "06/28/2012 08:28:06",
+    "created": "05/29/2012 09:55:30",
+    "creator": "https://xively.com/users/willyy1991",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "lichtBuiten",
+        "current_value": "1.00",
+        "at": "06/28/2012 08:21:42",
+        "max_value": "40.0",
+        "min_value": "0.0",
+        "tags": [
+          "lichtval buiten"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temperatuurBinnen",
+        "current_value": "25.0",
+        "at": "06/28/2012 08:28:06",
+        "max_value": "2726.0",
+        "min_value": "17.0",
+        "tags": [
+          "binnen temperatuur"
+        ],
+        "unit": {
+          "symbol": "°",
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temperatuurVerwarming",
+        "current_value": "34",
+        "at": "06/28/2012 08:26:18",
+        "max_value": "34.0",
+        "min_value": "2.0",
+        "tags": [
+          "temperatuur verwarming binnen"
+        ],
+        "unit": {
+          "symbol": "°",
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/61418\" >Thuis Manager</a>",
+    "URLMostrar": "https://xively.com/feeds/61418"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\61418.json",
+  "DocumentJSON": null
+}

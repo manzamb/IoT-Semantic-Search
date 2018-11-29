@@ -1,0 +1,100 @@
+{
+  "Conceptos": [
+    "humedad"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "1071641817",
+    "title": "Sensor_device",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/1071641817.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "01/10/2014 03:10:55",
+    "created": "12/15/2013 17:43:07",
+    "creator": "https://xively.com/users/maverickbcn",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "humedad",
+        "current_value": "37.10",
+        "at": "01/10/2014 03:10:55",
+        "max_value": "104.0",
+        "min_value": "26.2",
+        "tags": [
+          "humedad_sensor"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "HR",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "humrotocayfo",
+        "current_value": null,
+        "at": "12/20/2013 14:50:34",
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "humedad_rotocayfo"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temperatura",
+        "current_value": "24.30",
+        "at": "01/10/2014 03:10:55",
+        "max_value": "32.5",
+        "min_value": "19.4",
+        "tags": [
+          "temperatura_sensor"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "Grados",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temprotocayfo",
+        "current_value": null,
+        "at": "12/20/2013 14:50:04",
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "temperatura_rotocayfo"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "Grados",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/1071641817\" >Sensor_device</a>",
+    "URLMostrar": "https://xively.com/feeds/1071641817"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\1071641817.json",
+  "DocumentJSON": null
+}

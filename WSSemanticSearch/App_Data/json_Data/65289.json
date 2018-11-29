@@ -1,0 +1,102 @@
+{
+  "Conceptos": [
+    "event type"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "65289",
+    "title": "CosmX System Info (paul)",
+    "Private": false,
+    "tags": [
+      "app:author=lebreeze",
+      "app:name=CosmX",
+      "app:version=0.8",
+      "os:type=osx",
+      "os:version=10.7.4"
+    ],
+    "description": "Intel(R) Core(TM)2 Duo CPU     P8600  @ 2.40GHz\r\n\r\nhttps://github.com/levent/CosmX",
+    "feed": "https://api.xively.com/v2/feeds/65289.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "08/22/2012 14:57:08",
+    "created": "06/29/2012 10:29:25",
+    "creator": "https://xively.com/users/paul",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "cpu_0",
+        "current_value": "33.83",
+        "at": "08/22/2012 14:57:08",
+        "max_value": "100.0",
+        "min_value": "4.3",
+        "tags": [
+          "cpu"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "Percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "cpu_1",
+        "current_value": "26.30",
+        "at": "08/22/2012 14:57:08",
+        "max_value": "100.0",
+        "min_value": "4.1",
+        "tags": [
+          "cpu"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "Percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "cpu_count",
+        "current_value": "2",
+        "at": "08/22/2012 14:57:08",
+        "max_value": "2.0",
+        "min_value": "2.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "total_memory",
+        "current_value": "8192",
+        "at": "08/22/2012 14:57:08",
+        "max_value": "8192.0",
+        "min_value": "8192.0",
+        "tags": null,
+        "unit": {
+          "symbol": "(MB)",
+          "label": "Megabytes",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/65289\" >CosmX System Info (paul)</a>",
+    "URLMostrar": "https://xively.com/feeds/65289"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\65289.json",
+  "DocumentJSON": null
+}

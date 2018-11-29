@@ -1,0 +1,102 @@
+{
+  "Conceptos": [
+    "ch4"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "102304",
+    "title": "4 channel RF links",
+    "Private": false,
+    "tags": [
+      "gsiot"
+    ],
+    "description": "Measurement of soil resistance (kohm) in container trees. CH1 is Olive tree, CH2 is a lettuce pot, CH3 is 20K resistor, CH4 is temperature in deg F.",
+    "feed": "https://api.xively.com/v2/feeds/102304.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:15:13",
+    "created": "02/03/2013 18:20:45",
+    "creator": "https://xively.com/users/tbreynol",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "T4ACH1",
+        "current_value": "9.51",
+        "at": "03/21/2014 14:14:12",
+        "max_value": "1121.6",
+        "min_value": "0.0",
+        "tags": [
+          "Olive Tree"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "kohms",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "T4ACH2",
+        "current_value": "1.22",
+        "at": "03/21/2014 14:14:43",
+        "max_value": "1074.94",
+        "min_value": "0.0",
+        "tags": [
+          "Lettuce Pot"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "kohms",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "T4ACH3",
+        "current_value": "17.63",
+        "at": "03/21/2014 14:15:13",
+        "max_value": "22.26",
+        "min_value": "0.0",
+        "tags": [
+          "20k Cal Resistor"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "kohms",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "T4ACH4",
+        "current_value": "58.39",
+        "at": "03/21/2014 14:13:41",
+        "max_value": "369.07",
+        "min_value": "-459.67",
+        "tags": [
+          "Air Temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "deg F",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Los Altos,CA",
+      "domain": 0,
+      "lat": "37.3827071968572",
+      "lon": "-122.113723754883",
+      "ele": "20",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/102304\" >4 channel RF links</a>",
+    "URLMostrar": "https://xively.com/feeds/102304"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\102304.json",
+  "DocumentJSON": null
+}

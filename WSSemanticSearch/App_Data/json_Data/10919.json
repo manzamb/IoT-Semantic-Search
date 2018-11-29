@@ -1,0 +1,84 @@
+{
+  "Conceptos": [
+    "piano"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "10919",
+    "title": "Piano Conditions",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/10919.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/05/2013 14:01:19",
+    "created": "10/15/2010 08:56:09",
+    "creator": "https://xively.com/users/ozonejunkie_au",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "22.01",
+        "at": "03/05/2013 14:01:19",
+        "max_value": "27.86",
+        "min_value": "15.53",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "63.88",
+        "at": "03/05/2013 14:01:19",
+        "max_value": "78.39",
+        "min_value": "0.23",
+        "tags": [
+          "Humidity"
+        ],
+        "unit": {
+          "symbol": "%RH",
+          "label": "Relative Humidity",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "1146.88",
+        "at": "03/05/2013 14:01:19",
+        "max_value": "1169.09",
+        "min_value": "996.71",
+        "tags": [
+          "Pressure"
+        ],
+        "unit": {
+          "symbol": "hPa",
+          "label": "hectopascal",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Canberra",
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": "600",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/10919\" >Piano Conditions</a>",
+    "URLMostrar": "https://xively.com/feeds/10919"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\10919.json",
+  "DocumentJSON": null
+}

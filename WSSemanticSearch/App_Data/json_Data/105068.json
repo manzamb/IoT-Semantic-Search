@@ -1,0 +1,181 @@
+{
+  "Conceptos": [
+    "system"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "105068",
+    "title": "Greenhouse Aquaponics",
+    "Private": false,
+    "tags": [
+      "Aquaponics",
+      "DHT11",
+      "DS18B20",
+      "Greenhouse",
+      "Humidity",
+      "Light",
+      "Lux",
+      "MCP3008",
+      "Raspberry Pi",
+      "Temperature",
+      "Water flow"
+    ],
+    "description": "The system utilizes a Raspberry Pi to monitor vitals for a 10'x10' greenhouse that contains an aquaponics installation. The aquaponics setup consists of:\n- 300+ Gallon Fish Tank\n- 55 Gallon Sump Tank\n- Two 3' x 3' Growbeds w/ Hydroton\n- 5 Gallon Media FIlter\n- 4' x 4' Floating Raft for Hydroponic Lettuce\n- 5W Air pump with multiple airstones.\n- 600GPH Aqua Pump",
+    "feed": "https://api.xively.com/v2/feeds/105068.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:13:06",
+    "created": "02/17/2013 04:26:38",
+    "creator": "https://xively.com/users/helo",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Indoor_Humidity",
+        "current_value": "37.0",
+        "at": "03/21/2014 14:13:05",
+        "max_value": "255.0",
+        "min_value": "1.0",
+        "tags": [
+          "DHT11",
+          "Humidity",
+          "Raspberry Pi"
+        ],
+        "unit": {
+          "symbol": "%RH",
+          "label": "Relative Humidity",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Indoor_Temp_C",
+        "current_value": "16.0",
+        "at": "03/21/2014 14:13:05",
+        "max_value": "255.0",
+        "min_value": "0.0",
+        "tags": [
+          "Celsius",
+          "DHT11",
+          "Raspberry Pi",
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Indoor_Temp_F",
+        "current_value": "60.8",
+        "at": "03/21/2014 14:13:05",
+        "max_value": "491.0",
+        "min_value": "32.0",
+        "tags": [
+          "DHT11",
+          "Fahrenheit",
+          "Raspberry Pi",
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "°F",
+          "label": "Fahrenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Light_Lux",
+        "current_value": "210",
+        "at": "03/21/2014 14:13:05",
+        "max_value": "1004.0",
+        "min_value": "0.0",
+        "tags": [
+          "Light",
+          "Lux",
+          "MCP3008",
+          "Raspberry Pi"
+        ],
+        "unit": {
+          "symbol": "Lux",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Water_LPH",
+        "current_value": "10",
+        "at": "03/21/2014 14:13:05",
+        "max_value": "1023.0",
+        "min_value": "0.0",
+        "tags": [
+          "Flow",
+          "LPH",
+          "MCP3008",
+          "Raspberry Pi",
+          "Water"
+        ],
+        "unit": {
+          "symbol": "LP/H",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Water_Temp_C",
+        "current_value": "21.19",
+        "at": "03/21/2014 14:13:05",
+        "max_value": "85.0",
+        "min_value": "0.0",
+        "tags": [
+          "Celsius",
+          "DS18B20",
+          "Raspberry Pi",
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Water_Temp_F",
+        "current_value": "70.14",
+        "at": "03/21/2014 14:13:05",
+        "max_value": "185.0",
+        "min_value": "0.0",
+        "tags": [
+          "DS18B20",
+          "Fahrenheit",
+          "Raspberry Pi",
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "°F",
+          "label": "Fahrenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Salinas, CA, US",
+      "domain": 0,
+      "lat": "36.666663345856",
+      "lon": "-121.676030158997",
+      "ele": "15",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/105068\" >Greenhouse Aquaponics</a>",
+    "URLMostrar": "https://xively.com/feeds/105068"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\105068.json",
+  "DocumentJSON": null
+}

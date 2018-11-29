@@ -1,0 +1,179 @@
+{
+  "Conceptos": [
+    "frequency"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "96333",
+    "title": "Cosmoid",
+    "Private": false,
+    "tags": [
+      "android"
+    ],
+    "description": "An simple Android app I wrote for my retired HTC Hero phone that I didn't use anymore. Now the phone is making itself useful again by logging readings from its sensors to Cosm.",
+    "feed": "https://api.xively.com/v2/feeds/96333.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "01/19/2013 13:31:34",
+    "created": "01/06/2013 16:09:51",
+    "creator": "https://xively.com/users/claes",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "AudioSensorFrequency",
+        "current_value": "2500.0",
+        "at": "02/04/2013 21:18:17",
+        "max_value": "3656.0",
+        "min_value": "0.0",
+        "tags": [
+          "android",
+          "audio",
+          "frequency"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Hz",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "AudioSensorPower",
+        "current_value": "-61.845939368185086",
+        "at": "02/04/2013 21:18:48",
+        "max_value": "-14.0688516774518",
+        "min_value": "-64.3884567646133",
+        "tags": [
+          "android",
+          "audio",
+          "soundpressurelevel",
+          "spl"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "dB",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "BatterySensor",
+        "current_value": "1.0",
+        "at": "02/04/2013 21:18:39",
+        "max_value": "100.0",
+        "min_value": "1.0",
+        "tags": [
+          "android",
+          "battery"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "HeartbeatSensor",
+        "current_value": "-1.0",
+        "at": "02/04/2013 21:18:36",
+        "max_value": "1.0",
+        "min_value": "-1.0",
+        "tags": [
+          "android"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "LightSensor",
+        "current_value": "90.0",
+        "at": "02/02/2013 18:33:26",
+        "max_value": "225.0",
+        "min_value": "90.0",
+        "tags": [
+          "android",
+          "light"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "lx",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "MagneticFieldSensorX",
+        "current_value": "-49.0",
+        "at": "02/04/2013 21:18:40",
+        "max_value": "0.0",
+        "min_value": "-76.5625",
+        "tags": [
+          "android",
+          "magnet",
+          "magneticfield"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "µT",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "MagneticFieldSensorY",
+        "current_value": "52.4375",
+        "at": "02/04/2013 21:18:42",
+        "max_value": "58.375",
+        "min_value": "0.0",
+        "tags": [
+          "android",
+          "magnet",
+          "magneticfield"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "µT",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "MagneticFieldSensorZ",
+        "current_value": "-20.5",
+        "at": "02/04/2013 21:18:42",
+        "max_value": "80.25",
+        "min_value": "-28.3125",
+        "tags": [
+          "android",
+          "magnet",
+          "magneticfield"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "µT",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Antwerp, Belgium",
+      "domain": 0,
+      "lat": "51.2071724281336",
+      "lon": "4.43015098571777",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 1
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/96333\" >Cosmoid</a>",
+    "URLMostrar": "https://xively.com/feeds/96333"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\96333.json",
+  "DocumentJSON": null
+}

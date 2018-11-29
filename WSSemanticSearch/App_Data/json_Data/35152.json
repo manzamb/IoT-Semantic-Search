@@ -1,0 +1,89 @@
+{
+  "Conceptos": [
+    "surface"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "35152",
+    "title": "Danny Huynh, 3292443, ARCH1390 Project Feed",
+    "Private": false,
+    "tags": [
+      "ARCH1391"
+    ],
+    "description": "Information feed for ARCH1390 project. Sensor value for my temperature sensing LED grid surface.",
+    "feed": "https://api.xively.com/v2/feeds/35152.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "10/17/2011 00:04:23",
+    "created": "09/04/2011 17:09:20",
+    "creator": "https://xively.com/users/dannyunsw",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "20.0",
+        "at": "10/17/2011 00:04:23",
+        "max_value": "2400.0",
+        "min_value": "0.0",
+        "tags": [
+          "analogRead0",
+          "tempSensor1"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "19.0",
+        "at": "10/17/2011 00:04:23",
+        "max_value": "2500.0",
+        "min_value": "0.0",
+        "tags": [
+          "analogRead1",
+          "tempSensor2"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "23.0",
+        "at": "10/17/2011 00:04:23",
+        "max_value": "2600.0",
+        "min_value": "0.0",
+        "tags": [
+          "analogRead2",
+          "tempSensor3"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "UNSW Sydney, NSW, Australia",
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/35152\" >Danny Huynh, 3292443, ARCH1390 Project Feed</a>",
+    "URLMostrar": "https://xively.com/feeds/35152"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\35152.json",
+  "DocumentJSON": null
+}

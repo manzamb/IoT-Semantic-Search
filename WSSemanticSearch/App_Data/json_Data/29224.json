@@ -1,0 +1,75 @@
+{
+  "Conceptos": [
+    "unit of measure"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "29224",
+    "title": "Robs Rads",
+    "Private": false,
+    "tags": [
+      "geiger counter",
+      "radiation",
+      "sensor:model=lnd-712",
+      "sensor:type=radiation"
+    ],
+    "description": "Radiation level measured off a Sprakfun Geiger kit.  I like to use uR/hr units to the conversion factor is 0.833 from CPM to uR/hr.",
+    "feed": "https://api.xively.com/v2/feeds/29224.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "07/06/2012 23:13:39",
+    "created": "07/03/2011 13:25:04",
+    "creator": "https://xively.com/users/professorbud",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "32.0",
+        "at": "07/06/2012 23:13:08",
+        "max_value": "1000.0",
+        "min_value": "0.0",
+        "tags": [
+          "sensor:model=lnd-712",
+          "sensor:type=radiation"
+        ],
+        "unit": {
+          "symbol": "cpm",
+          "label": "counts/min",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "26.655998",
+        "at": "07/06/2012 23:13:08",
+        "max_value": "50.0",
+        "min_value": "0.0",
+        "tags": [
+          "sensor:model=lnd-712",
+          "sensor:type=radiation"
+        ],
+        "unit": {
+          "symbol": "uR/hr",
+          "label": "microrem/hour",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Centereach, NY",
+      "domain": 0,
+      "lat": "40.8575777471874",
+      "lon": "-73.0980491638184",
+      "ele": "30",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/29224\" >Robs Rads</a>",
+    "URLMostrar": "https://xively.com/feeds/29224"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\29224.json",
+  "DocumentJSON": null
+}

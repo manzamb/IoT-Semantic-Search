@@ -1,0 +1,88 @@
+{
+  "Conceptos": [
+    "humedad"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "95838",
+    "title": "shtdemo2",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "humedad",
+      "temperatura"
+    ],
+    "description": "prueba 2 sht",
+    "feed": "https://api.xively.com/v2/feeds/95838.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "01/04/2013 02:30:46",
+    "created": "01/03/2013 14:39:50",
+    "creator": "https://xively.com/users/pcvargas",
+    "version": null,
+    "website": "http://www.i6tecnologia.com",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "17.0",
+        "at": "01/04/2013 02:30:45",
+        "max_value": "50.0",
+        "min_value": "0.0",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": null,
+        "at": null,
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "relative humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "Percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": null,
+        "at": null,
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "dew point"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "sitio2",
+      "domain": 0,
+      "lat": "1.85507779974439",
+      "lon": "-76.0449385643005",
+      "ele": "1270",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/95838\" >shtdemo2</a>",
+    "URLMostrar": "https://xively.com/feeds/95838"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\95838.json",
+  "DocumentJSON": null
+}

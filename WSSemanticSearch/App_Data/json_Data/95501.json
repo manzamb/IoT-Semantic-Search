@@ -1,0 +1,75 @@
+{
+  "Conceptos": [
+    "sensing"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "95501",
+    "title": "Light Sensing Arduino Test",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "ds18b20",
+      "light",
+      "temperature",
+      "test"
+    ],
+    "description": "A feed of the temperature in my bedroom.  Hopefully it will expand to cover my entire apartment.",
+    "feed": "https://api.xively.com/v2/feeds/95501.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:08:34",
+    "created": "01/01/2013 07:34:26",
+    "creator": "https://xively.com/users/takaides",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "sensor1",
+        "current_value": "84",
+        "at": "03/21/2014 14:08:33",
+        "max_value": "1006.0",
+        "min_value": "0.0",
+        "tags": [
+          "Photoresistor"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperature1",
+        "current_value": "72.7250",
+        "at": "03/21/2014 14:08:33",
+        "max_value": "95.675",
+        "min_value": "51.9125",
+        "tags": [
+          "DS18B20",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "°F",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "35.8916530886845",
+      "lon": "-78.9077085256577",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/95501\" >Light Sensing Arduino Test</a>",
+    "URLMostrar": "https://xively.com/feeds/95501"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\95501.json",
+  "DocumentJSON": null
+}

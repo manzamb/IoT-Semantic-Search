@@ -1,0 +1,64 @@
+{
+  "Conceptos": [
+    "humidity"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "469452217",
+    "title": "Temperature and Humidity sensor for Data Center",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/469452217.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:06:55",
+    "created": "07/13/2013 18:13:44",
+    "creator": "https://xively.com/users/serc",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Humidity_sensor",
+        "current_value": "46.90",
+        "at": "03/21/2014 14:06:54",
+        "max_value": "88.1",
+        "min_value": "-99.5",
+        "tags": null,
+        "unit": {
+          "symbol": "%",
+          "label": "Percentage",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperature_sensor",
+        "current_value": "21.30",
+        "at": "03/21/2014 14:06:54",
+        "max_value": "37.3",
+        "min_value": "-99.5",
+        "tags": null,
+        "unit": {
+          "symbol": "deg C",
+          "label": "Degree Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Taramani,Chennai",
+      "domain": 0,
+      "lat": "12.9874053023652",
+      "lon": "80.2455997467041",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/469452217\" >Temperature and Humidity sensor for Data Center</a>",
+    "URLMostrar": "https://xively.com/feeds/469452217"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\469452217.json",
+  "DocumentJSON": null
+}

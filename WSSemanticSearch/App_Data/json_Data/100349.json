@@ -1,0 +1,166 @@
+{
+  "Conceptos": [
+    "frequency"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "100349",
+    "title": "Raspberry Pi stats",
+    "Private": false,
+    "tags": [
+      "frequency",
+      "linux",
+      "load",
+      "processes",
+      "sensors",
+      "temperature"
+    ],
+    "description": "Some stats of my Raspberry Pi model B (512MB) updated every 60 seconds.\r\n\r\nThis device is currently doing nothing except reading current/temperature values via USB from a Currentcost EnviR device (see feed called \"HomeEnergy\").\r\n\r\nScript used: http://bit.ly/12kjzXJ (bash)",
+    "feed": "https://api.xively.com/v2/feeds/100349.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:08:50",
+    "created": "01/25/2013 15:55:33",
+    "creator": "https://xively.com/users/abeler",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "cpuload",
+        "current_value": "0",
+        "at": "03/21/2014 14:08:50",
+        "max_value": "98.0",
+        "min_value": "0.0",
+        "tags": [
+          "cpu load"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "freem",
+        "current_value": "413240",
+        "at": "03/21/2014 14:08:50",
+        "max_value": "432136.0",
+        "min_value": "321252.0",
+        "tags": [
+          "(-/+ buffers/cache)",
+          "512MB",
+          "free memory"
+        ],
+        "unit": {
+          "symbol": "kB",
+          "label": "bytes",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "iowait",
+        "current_value": "0",
+        "at": "03/21/2014 14:08:50",
+        "max_value": "94.0",
+        "min_value": "0.0",
+        "tags": [
+          "I/O wait"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "rx",
+        "current_value": "0.5",
+        "at": "03/21/2014 14:08:50",
+        "max_value": "69683.9",
+        "min_value": "0.1",
+        "tags": [
+          "eth0",
+          "network traffic",
+          "received"
+        ],
+        "unit": {
+          "symbol": "kB/minute",
+          "label": "bytes",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temp",
+        "current_value": "40.1",
+        "at": "03/21/2014 14:08:50",
+        "max_value": "85.0",
+        "min_value": "0.0",
+        "tags": [
+          "/sys/class/thermal/thermal_zone0/temp",
+          "celsius",
+          "cpu",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "tx",
+        "current_value": "1.1",
+        "at": "03/21/2014 14:08:50",
+        "max_value": "6673.4",
+        "min_value": "0.4",
+        "tags": [
+          "eth0",
+          "network traffic",
+          "transmitted"
+        ],
+        "unit": {
+          "symbol": "kB/minute",
+          "label": "bytes",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "usedm",
+        "current_value": "34944",
+        "at": "03/21/2014 14:08:50",
+        "max_value": "127296.0",
+        "min_value": "16640.0",
+        "tags": [
+          "(-/+ buffers/cache)",
+          "512MB",
+          "used memory"
+        ],
+        "unit": {
+          "symbol": "kB",
+          "label": "bytes",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "43.5440439955559",
+      "lon": "10.3127288818359",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/100349\" >Raspberry Pi stats</a>",
+    "URLMostrar": "https://xively.com/feeds/100349"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\100349.json",
+  "DocumentJSON": null
+}

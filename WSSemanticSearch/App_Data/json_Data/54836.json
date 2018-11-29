@@ -1,0 +1,181 @@
+{
+  "Conceptos": [
+    "environment"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "54836",
+    "title": "Eclipse Aquaponics",
+    "Private": false,
+    "tags": [
+      "aquaponics",
+      "arduino",
+      "efficiency",
+      "temperature",
+      "tilapia",
+      "vermont"
+    ],
+    "description": "Monitoring of an indoor environmentally controlled aquaponics system in Bristol, VT.  We are currently using an Arduino Ethernet Board to record indoor/outdoor temperature and humidity, water temperature, and high/low water level alarms.  The data are measured and uploaded once per minute.\r\n\r\nThe aquaponics system has 1200 gallons of recirculating water, 200 tilapia, and 180 square feet of grow space.  We are growing a variety of vegetables, fruits, and herbs including swiss chard, bok choy, basil, lettuce, kale, peppers,  strawberries, water chestnuts, amaranth, rosemary, oregano, and soy beans.",
+    "feed": "https://api.xively.com/v2/feeds/54836.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:09:24",
+    "created": "04/05/2012 15:44:57",
+    "creator": "https://xively.com/users/vwtimah",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "IndoorHumidity",
+        "current_value": "99.9",
+        "at": "03/21/2014 14:09:23",
+        "max_value": "99.9",
+        "min_value": "0.0",
+        "tags": [
+          "DHT22",
+          "Humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "H2O",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "IndoorTemperature",
+        "current_value": "39.0",
+        "at": "03/21/2014 14:09:23",
+        "max_value": "5838.4",
+        "min_value": "-5820.2",
+        "tags": [
+          "DHT22",
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "OutdoorHumidity",
+        "current_value": "56.7",
+        "at": "03/21/2014 14:09:23",
+        "max_value": "99.9",
+        "min_value": "0.0",
+        "tags": [
+          "DHT22",
+          "Humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "H2O",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "OutdoorTemperature",
+        "current_value": "33.3",
+        "at": "03/21/2014 14:09:23",
+        "max_value": "100.4",
+        "min_value": "-17.5",
+        "tags": [
+          "DHT22",
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "WaterTemperature",
+        "current_value": "36.0",
+        "at": "03/21/2014 14:09:23",
+        "max_value": "100.4",
+        "min_value": "-456.9",
+        "tags": [
+          "Temperature",
+          "Thermistor",
+          "Water"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "xFilterDrainTemp",
+        "current_value": "236.4",
+        "at": "03/21/2014 14:09:23",
+        "max_value": "275.7",
+        "min_value": "47.0",
+        "tags": [
+          "Debugging",
+          "Drain Temperature",
+          "Drum Filter"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "zHighWaterAlarm",
+        "current_value": "1",
+        "at": "03/21/2014 14:09:23",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "Float Switch",
+          "Water Level"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Binary",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "zLowWaterAlarm",
+        "current_value": "1",
+        "at": "03/21/2014 14:09:23",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "Float Switch",
+          "Water Level"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Binary",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Bristol, VT",
+      "domain": 0,
+      "lat": "44.1280137437323",
+      "lon": "-73.0837154388428",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/54836\" >Eclipse Aquaponics</a>",
+    "URLMostrar": "https://xively.com/feeds/54836"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\54836.json",
+  "DocumentJSON": null
+}

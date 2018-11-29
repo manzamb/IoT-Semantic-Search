@@ -1,0 +1,134 @@
+{
+  "Conceptos": [
+    "thermistor"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "120084",
+    "title": "Office",
+    "Private": false,
+    "tags": null,
+    "description": "BB is a solar powered LLAP Thermistor in the Main Office\r\nJB is a coin cell powered LLAP Thermistor in Dispatch\r\nWS is the production workshop where we build our radio's",
+    "feed": "https://api.xively.com/v2/feeds/120084.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "04/25/2013 17:05:17",
+    "created": "03/20/2013 17:51:51",
+    "creator": "https://xively.com/users/cisecoplc",
+    "version": null,
+    "website": "http://ciseco.co.uk",
+    "datastreams": [
+      {
+        "id": "BB_Temperature",
+        "current_value": "22.28",
+        "at": "04/25/2013 11:24:53",
+        "max_value": "27.44",
+        "min_value": "13.89",
+        "tags": null,
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "BB_Voltage",
+        "current_value": "2.85",
+        "at": "04/25/2013 10:54:56",
+        "max_value": "3.61",
+        "min_value": "2.53",
+        "tags": null,
+        "unit": {
+          "symbol": "V",
+          "label": "Volt",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "BR_Voltage",
+        "current_value": "3.37",
+        "at": "04/25/2013 11:03:33",
+        "max_value": "3.37",
+        "min_value": "3.37",
+        "tags": null,
+        "unit": {
+          "symbol": "V",
+          "label": "Volt",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "JB_Temperature",
+        "current_value": "23.14",
+        "at": "04/25/2013 11:26:28",
+        "max_value": "25.67",
+        "min_value": "17.0",
+        "tags": null,
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "JB_Voltage",
+        "current_value": "2.44",
+        "at": "04/25/2013 11:06:31",
+        "max_value": "2.48",
+        "min_value": "2.37",
+        "tags": null,
+        "unit": {
+          "symbol": "V",
+          "label": "Volt",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "WS_Temperature",
+        "current_value": "23.87",
+        "at": "04/25/2013 17:05:17",
+        "max_value": "24.38",
+        "min_value": "14.99",
+        "tags": null,
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "WS_Voltage",
+        "current_value": "3.14",
+        "at": "04/25/2013 10:50:45",
+        "max_value": "3.22",
+        "min_value": "3.01",
+        "tags": null,
+        "unit": {
+          "symbol": "V",
+          "label": "Volt",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Ciseco, Nottingham",
+      "domain": 0,
+      "lat": "52.9559033200196",
+      "lon": "-1.18211388587952",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/120084\" >Office</a>",
+    "URLMostrar": "https://xively.com/feeds/120084"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\120084.json",
+  "DocumentJSON": null
+}

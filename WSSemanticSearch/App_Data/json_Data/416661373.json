@@ -1,0 +1,114 @@
+{
+  "Conceptos": [
+    "atmospheric pressure"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "416661373",
+    "title": "Weather",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/416661373.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "12/06/2013 11:05:55",
+    "created": "07/22/2013 19:14:48",
+    "creator": "https://xively.com/users/nr",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Humidity",
+        "current_value": "35.57",
+        "at": "12/06/2013 11:05:55",
+        "max_value": "71.84",
+        "min_value": "24.36",
+        "tags": [
+          "humidity",
+          "relative"
+        ],
+        "unit": {
+          "symbol": "%rH",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Pressure",
+        "current_value": "989.71",
+        "at": "12/06/2013 11:05:55",
+        "max_value": "1033.47",
+        "min_value": "0.0",
+        "tags": [
+          "atmospheric",
+          "pressure"
+        ],
+        "unit": {
+          "symbol": "hPa",
+          "label": "hectopascal",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperature",
+        "current_value": "18.13",
+        "at": "12/06/2013 11:05:55",
+        "max_value": "31.13",
+        "min_value": "16.5",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "TemperatureH",
+        "current_value": "18.18",
+        "at": "12/06/2013 11:05:55",
+        "max_value": "27.85",
+        "min_value": "15.85",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "TemperatureP",
+        "current_value": "17.00",
+        "at": "12/06/2013 11:05:55",
+        "max_value": "26.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Copenhagen, Denmark",
+      "domain": 0,
+      "lat": "55.6507931349367",
+      "lon": "12.552330493927",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/416661373\" >Weather</a>",
+    "URLMostrar": "https://xively.com/feeds/416661373"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\416661373.json",
+  "DocumentJSON": null
+}

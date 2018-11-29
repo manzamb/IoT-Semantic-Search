@@ -1,0 +1,71 @@
+{
+  "Conceptos": [
+    "radioactivity"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "21453",
+    "title": "Radioactivity of water [Ibaraki]",
+    "Private": false,
+    "tags": [
+      "sensor:env=water",
+      "sensor:type=radiation"
+    ],
+    "description": "Radioactivity in water via  http://atmc.jp/water/\r\nUpdated once in a day.",
+    "feed": "https://api.xively.com/v2/feeds/21453.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "01/21/2013 01:35:03",
+    "created": "03/25/2011 16:06:32",
+    "creator": "https://xively.com/users/kaoru622",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "0",
+        "at": "11/14/2012 01:37:00",
+        "max_value": "78.0",
+        "min_value": "0.0",
+        "tags": [
+          "Iodine 131"
+        ],
+        "unit": {
+          "symbol": "Bq/kg",
+          "label": "Unit of each plot radioactivity",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "0",
+        "at": "11/14/2012 01:37:00",
+        "max_value": "9.5",
+        "min_value": "0.0",
+        "tags": [
+          "Cesium 137"
+        ],
+        "unit": {
+          "symbol": "Bq/kg",
+          "label": "Unit of each plot radioactivity",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Hitachinaka,Ibaraki,JAPAN",
+      "domain": 1,
+      "lat": "36.3967257185462",
+      "lon": "140.534706115723",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/21453\" >Radioactivity of water [Ibaraki]</a>",
+    "URLMostrar": "https://xively.com/feeds/21453"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\21453.json",
+  "DocumentJSON": null
+}

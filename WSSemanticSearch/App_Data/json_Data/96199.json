@@ -1,0 +1,190 @@
+{
+  "Conceptos": [
+    "environment"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "96199",
+    "title": "Environment MS5611/DHT22",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "dht22",
+      "DS18B20",
+      "MS5611",
+      "MS5611-01BA03",
+      "nRF24L01+",
+      "TED 5000"
+    ],
+    "description": "Arduino Mega2560 with ethernet shield, dht22 and an MS5611 pressure sensor.  Updates cosm once per minute.",
+    "feed": "https://api.xively.com/v2/feeds/96199.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:10:01",
+    "created": "01/05/2013 16:44:47",
+    "creator": "https://xively.com/users/lokidude",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Freezer",
+        "current_value": "3.13",
+        "at": "03/21/2014 14:09:36",
+        "max_value": "30.0",
+        "min_value": "-25.25",
+        "tags": [
+          "DS18B20"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Fridge",
+        "current_value": "3.06",
+        "at": "03/21/2014 14:09:36",
+        "max_value": "1536.44",
+        "min_value": "-3.44",
+        "tags": [
+          "DS18B20"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Garage_Humidity",
+        "current_value": "66.00",
+        "at": "03/21/2014 14:09:36",
+        "max_value": "4784128.0",
+        "min_value": "0.0",
+        "tags": [
+          "DHT22",
+          "nRF24L01+"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "rH",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Garage_Temp",
+        "current_value": "0.50",
+        "at": "03/21/2014 14:09:36",
+        "max_value": "38.5",
+        "min_value": "-18.1",
+        "tags": [
+          "DHT22",
+          "nRF24L01+"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Power",
+        "current_value": "0.485",
+        "at": "03/21/2014 14:10:01",
+        "max_value": "51.394",
+        "min_value": "0.006",
+        "tags": [
+          "TED 5000"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Kw",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Pressure",
+        "current_value": "100.08",
+        "at": "03/21/2014 14:09:36",
+        "max_value": "102.85",
+        "min_value": "97.05",
+        "tags": [
+          "MS5611-01BA03"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "KPa",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "relative_humidity",
+        "current_value": "41.70",
+        "at": "03/21/2014 14:09:36",
+        "max_value": "54.2",
+        "min_value": "26.2",
+        "tags": [
+          "DHT22"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temperature",
+        "current_value": "20.33",
+        "at": "03/21/2014 14:09:36",
+        "max_value": "27.45",
+        "min_value": "16.12",
+        "tags": [
+          "MS5611-01BA03"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Volts",
+        "current_value": "121.9",
+        "at": "03/21/2014 14:10:00",
+        "max_value": "127.2",
+        "min_value": "94.8",
+        "tags": [
+          "TED 5000"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Ottawa, Ontario",
+      "domain": 0,
+      "lat": "45.2845495480642",
+      "lon": "-75.640869140625",
+      "ele": "121 meters",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/96199\" >Environment MS5611/DHT22</a>",
+    "URLMostrar": "https://xively.com/feeds/96199"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\96199.json",
+  "DocumentJSON": null
+}

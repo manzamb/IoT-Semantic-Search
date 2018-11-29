@@ -1,0 +1,60 @@
+{
+  "Conceptos": [
+    "mp10"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "77907",
+    "title": "My Raspberry Pi",
+    "Private": false,
+    "tags": [
+      "i2c",
+      "Raspberry Pi",
+      "Temperature",
+      "TMP102"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/77907.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "10/05/2012 16:40:35",
+    "created": "09/29/2012 00:02:34",
+    "creator": "https://xively.com/users/jteti",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Temperature",
+        "current_value": "78.80",
+        "at": "10/05/2012 16:40:35",
+        "max_value": "78.8",
+        "min_value": "73.51",
+        "tags": [
+          "i2C",
+          "Raspberry Pi",
+          "Temperature",
+          "TMP102"
+        ],
+        "unit": {
+          "symbol": "°F",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Home",
+      "domain": 0,
+      "lat": "26.146318",
+      "lon": "-80.265589",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/77907\" >My Raspberry Pi</a>",
+    "URLMostrar": "https://xively.com/feeds/77907"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\77907.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,234 @@
+{
+  "Conceptos": [
+    "wind"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "53146",
+    "title": "Turbine DG001",
+    "Private": false,
+    "tags": [
+      "power wind turbine distgen"
+    ],
+    "description": "DistGen Vestas V39 Wind Turbine.",
+    "feed": "https://api.xively.com/v2/feeds/53146.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:07:34",
+    "created": "03/23/2012 01:29:36",
+    "creator": "https://xively.com/users/mrparp",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Ambient",
+        "current_value": "10",
+        "at": "03/21/2014 14:05:30",
+        "max_value": "29.0",
+        "min_value": "1.0",
+        "tags": null,
+        "unit": {
+          "symbol": "C",
+          "label": "Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Bearings",
+        "current_value": "71",
+        "at": "03/21/2014 14:05:30",
+        "max_value": "76.0",
+        "min_value": "13.0",
+        "tags": null,
+        "unit": {
+          "symbol": "C",
+          "label": "Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "BladeRPM",
+        "current_value": "29.8",
+        "at": "03/21/2014 14:07:34",
+        "max_value": "39.9",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "RPM",
+          "label": "RPM",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Controller",
+        "current_value": "32",
+        "at": "03/21/2014 14:05:30",
+        "max_value": "47.0",
+        "min_value": "16.0",
+        "tags": null,
+        "unit": {
+          "symbol": "C",
+          "label": "Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Gearbox",
+        "current_value": "63",
+        "at": "03/21/2014 14:05:30",
+        "max_value": "68.0",
+        "min_value": "14.0",
+        "tags": null,
+        "unit": {
+          "symbol": "C",
+          "label": "Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "GearboxRPM",
+        "current_value": "1523",
+        "at": "03/21/2014 14:07:34",
+        "max_value": "1999.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "RPM",
+          "label": "RPM",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Generator",
+        "current_value": "69",
+        "at": "03/21/2014 14:05:30",
+        "max_value": "79.0",
+        "min_value": "13.0",
+        "tags": null,
+        "unit": {
+          "symbol": "C",
+          "label": "Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Hydraulic",
+        "current_value": "33",
+        "at": "03/21/2014 14:05:30",
+        "max_value": "44.0",
+        "min_value": "15.0",
+        "tags": null,
+        "unit": {
+          "symbol": "C",
+          "label": "Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Nacel",
+        "current_value": "19",
+        "at": "03/21/2014 14:05:30",
+        "max_value": "39.0",
+        "min_value": "8.0",
+        "tags": null,
+        "unit": {
+          "symbol": "C",
+          "label": "Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Pitch",
+        "current_value": "4.1",
+        "at": "03/21/2014 14:07:34",
+        "max_value": "86.8",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Power",
+        "current_value": "314.3",
+        "at": "03/21/2014 14:07:34",
+        "max_value": "626.1",
+        "min_value": "-280.3",
+        "tags": null,
+        "unit": {
+          "symbol": "kW",
+          "label": "kW",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Status",
+        "current_value": "2",
+        "at": "03/21/2014 14:07:34",
+        "max_value": "2.0",
+        "min_value": "-1.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "2=Run",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "StatusText",
+        "current_value": "Run",
+        "at": "03/21/2014 10:50:27",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Windspeed",
+        "current_value": "11.0",
+        "at": "03/21/2014 14:07:34",
+        "max_value": "289.6",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "m/sec",
+          "label": "m/sec",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Faccombe, UK",
+      "domain": 0,
+      "lat": "51.330946",
+      "lon": "-1.44617300000004",
+      "ele": "0",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/53146\" >Turbine DG001</a>",
+    "URLMostrar": "https://xively.com/feeds/53146"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\53146.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,107 @@
+{
+  "Conceptos": [
+    "sensor output"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "24660",
+    "title": "Multi-Sensor PCB (R7) - Office",
+    "Private": false,
+    "tags": [
+      "FSR",
+      "Hall effect",
+      "light",
+      "temperature",
+      "tmp36",
+      "xbee"
+    ],
+    "description": "Testing the output of an xbee board with 4 sensors; temp, ldr, fsr, hall effect.  Showing how this works at Maker Faire, 2011",
+    "feed": "https://api.xively.com/v2/feeds/24660.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:05:11",
+    "created": "05/04/2011 20:42:22",
+    "creator": "https://xively.com/users/chrisjx",
+    "version": null,
+    "website": "http://tinajalabs.com",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "1023.0",
+        "at": "03/21/2014 14:05:08",
+        "max_value": "62976.0",
+        "min_value": "0.0",
+        "tags": [
+          "Hall effect"
+        ],
+        "unit": {
+          "symbol": "mV",
+          "label": "mV",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "64.75",
+        "at": "03/21/2014 14:05:09",
+        "max_value": "1130.71428571",
+        "min_value": "0.0",
+        "tags": [
+          "TMP36"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "Degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "5.0",
+        "at": "03/21/2014 14:05:10",
+        "max_value": "4582.28571429",
+        "min_value": "0.0",
+        "tags": [
+          "LDR"
+        ],
+        "unit": {
+          "symbol": "mV",
+          "label": "mV",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "1.25",
+        "at": "03/21/2014 14:05:11",
+        "max_value": "65280.0",
+        "min_value": "0.0",
+        "tags": [
+          "FSR"
+        ],
+        "unit": {
+          "symbol": "mV",
+          "label": "mV",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Kensington, CA",
+      "domain": 0,
+      "lat": "37.9056735407061",
+      "lon": "-122.270879745483",
+      "ele": "200",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/24660\" >Multi-Sensor PCB (R7) - Office</a>",
+    "URLMostrar": "https://xively.com/feeds/24660"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\24660.json",
+  "DocumentJSON": null
+}

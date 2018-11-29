@@ -1,0 +1,969 @@
+{
+  "Conceptos": [
+    "plan"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "83211",
+    "title": "data logger",
+    "Private": false,
+    "tags": [
+      "1-wire",
+      "energy",
+      "temperature",
+      "web energy logger"
+    ],
+    "description": "1-wire feed from WEL web energy logger",
+    "feed": "https://api.xively.com/v2/feeds/83211.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "12/22/2013 01:14:13",
+    "created": "10/30/2012 19:51:04",
+    "creator": "https://xively.com/users/armourpsa",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "AD",
+        "current_value": "41.730003",
+        "at": "12/22/2013 02:13:20",
+        "max_value": "41.730003",
+        "min_value": "18.37001",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "Fahrenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "ADa",
+        "current_value": "41.730003",
+        "at": "12/22/2013 02:13:20",
+        "max_value": "41.730003",
+        "min_value": "18.37001",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "Fahrenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "A_LIMA_EWT",
+        "current_value": "37.212100",
+        "at": "12/22/2013 02:13:20",
+        "max_value": "37.2121",
+        "min_value": "37.2121",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "Fahrenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "A_LIMA_LWT",
+        "current_value": "41.320003",
+        "at": "12/22/2013 02:13:20",
+        "max_value": "41.320003",
+        "min_value": "41.320003",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "B_Bottom_Void",
+        "current_value": "46.700000",
+        "at": "12/22/2013 02:13:20",
+        "max_value": "46.7",
+        "min_value": "46.7",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "Fahrenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "B_Exhaust",
+        "current_value": "45.869998",
+        "at": "12/22/2013 02:13:20",
+        "max_value": "45.869998",
+        "min_value": "45.869998",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "B_Intake",
+        "current_value": "65.129997",
+        "at": "12/22/2013 02:13:20",
+        "max_value": "65.129997",
+        "min_value": "65.129997",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "Fahrenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "B_Mid_Exhaust",
+        "current_value": "62.780002",
+        "at": "12/22/2013 02:13:20",
+        "max_value": "62.780002",
+        "min_value": "62.780002",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "Fahrenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "B_Top_Void",
+        "current_value": "46.469997",
+        "at": "12/22/2013 02:13:20",
+        "max_value": "46.469997",
+        "min_value": "46.469997",
+        "tags": null,
+        "unit": {
+          "symbol": "W",
+          "label": "Watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "CFM",
+        "current_value": "1500.000000",
+        "at": "12/22/2013 02:13:20",
+        "max_value": "1500.0",
+        "min_value": "1500.0",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "Fahrenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "CFM1",
+        "current_value": "1500.000000",
+        "at": "12/22/2013 02:13:20",
+        "max_value": "1500.0",
+        "min_value": "1500.0",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "Fahrenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "CFMa",
+        "current_value": "0.000000",
+        "at": "12/22/2013 02:13:20",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "Fahrenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "CktW",
+        "current_value": "6580.000000",
+        "at": "12/22/2013 02:13:20",
+        "max_value": "6580.0",
+        "min_value": "6580.0",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "Fahrenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "CMode",
+        "current_value": "0.000000",
+        "at": "12/22/2013 02:13:20",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "F",
+          "label": "Fahrenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Conduit_Temp",
+        "current_value": "47.859996",
+        "at": "06/16/2013 23:27:57",
+        "max_value": "47.859996",
+        "min_value": "47.859996",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "Fahrenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "COP",
+        "current_value": "2.707621",
+        "at": "12/22/2013 02:13:20",
+        "max_value": "3.724316",
+        "min_value": "2.707621",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "Fahrenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "COPa",
+        "current_value": "19.761389",
+        "at": "12/22/2013 02:13:20",
+        "max_value": "22.477282",
+        "min_value": "19.761389",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "COPc",
+        "current_value": "2.707621",
+        "at": "12/22/2013 02:13:20",
+        "max_value": "3.724316",
+        "min_value": "2.707621",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "Fahrenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "DayHour",
+        "current_value": "20.200811",
+        "at": "12/22/2013 02:13:20",
+        "max_value": "23.98452",
+        "min_value": "0.016667",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "EAT",
+        "current_value": "34.000000",
+        "at": "12/22/2013 02:13:20",
+        "max_value": "34.0",
+        "min_value": "34.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "EAT_Heat_Pump",
+        "current_value": "57.359996",
+        "at": "06/16/2013 23:27:57",
+        "max_value": "57.359996",
+        "min_value": "57.359996",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "Fahrenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "EWT_Heat_Pump",
+        "current_value": "36.399997",
+        "at": "12/22/2013 02:13:20",
+        "max_value": "42.649997",
+        "min_value": "36.399997",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "Fahrenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Exterior",
+        "current_value": "50.899997",
+        "at": "12/22/2013 02:13:20",
+        "max_value": "73.400001",
+        "min_value": "39.2",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "FluidFactor",
+        "current_value": "500.000000",
+        "at": "12/22/2013 02:13:20",
+        "max_value": "500.0",
+        "min_value": "500.0",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "Fahrenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "GEOCIRC_Tank",
+        "current_value": "42.439998",
+        "at": "12/22/2013 02:13:20",
+        "max_value": "42.439998",
+        "min_value": "42.439998",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "GeoCirc_Watts",
+        "current_value": "795.049980",
+        "at": "12/22/2013 02:13:20",
+        "max_value": "795.04998",
+        "min_value": "0.0",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "Fahrenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "HE",
+        "current_value": "33.744976",
+        "at": "12/22/2013 02:13:20",
+        "max_value": "53.948406",
+        "min_value": "33.744976",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "HEa",
+        "current_value": "67.489952",
+        "at": "12/22/2013 02:13:20",
+        "max_value": "107.896812",
+        "min_value": "67.489952",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "Fahrenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Heat_Pump_Flow",
+        "current_value": "19.850000",
+        "at": "12/22/2013 02:13:20",
+        "max_value": "20.129999",
+        "min_value": "19.85",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "Fahrenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "HEb",
+        "current_value": "33.744976",
+        "at": "12/22/2013 02:13:20",
+        "max_value": "53.948406",
+        "min_value": "33.744976",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "Fahrenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "HMode",
+        "current_value": "1.000000",
+        "at": "12/22/2013 02:13:20",
+        "max_value": "1.0",
+        "min_value": "1.0",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "Fahrenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "HR",
+        "current_value": "0.000000",
+        "at": "12/22/2013 02:13:20",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "Fahranheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "HUm_indoorAPT",
+        "current_value": "58.375854",
+        "at": "12/22/2013 02:13:20",
+        "max_value": "77.714874",
+        "min_value": "41.659072",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "Fahrenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "LAB_LIMA_EWT",
+        "current_value": "40.281002",
+        "at": "12/22/2013 02:13:20",
+        "max_value": "40.281002",
+        "min_value": "40.281002",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "Fahrenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "LAB_LIMA_EWT2",
+        "current_value": "40.280002",
+        "at": "12/22/2013 02:13:20",
+        "max_value": "40.280002",
+        "min_value": "40.280002",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "Fahrenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "LAB_LIMA_LWT",
+        "current_value": "37.401004",
+        "at": "12/22/2013 02:13:20",
+        "max_value": "37.401004",
+        "min_value": "37.401004",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "LAB_LIMA_LWT2",
+        "current_value": "37.401004",
+        "at": "12/22/2013 02:13:20",
+        "max_value": "37.401004",
+        "min_value": "37.401004",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "Fahrenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "LAB_TEMP_2",
+        "current_value": "68.900001",
+        "at": "12/22/2013 02:13:20",
+        "max_value": "84.200004",
+        "min_value": "63.499996",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "Fahrenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Lake_Temp",
+        "current_value": "37.000000",
+        "at": "12/22/2013 02:13:20",
+        "max_value": "37.0",
+        "min_value": "37.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "LAT",
+        "current_value": "75.730003",
+        "at": "12/22/2013 02:13:20",
+        "max_value": "75.730003",
+        "min_value": "75.730003",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "LAT_Heat_Pump",
+        "current_value": "75.730003",
+        "at": "06/16/2013 23:27:57",
+        "max_value": "75.730003",
+        "min_value": "75.730003",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "LD",
+        "current_value": "3.399998",
+        "at": "12/22/2013 02:13:20",
+        "max_value": "5.360001",
+        "min_value": "3.399998",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "Fahrenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "LIMA_Loop_Flow",
+        "current_value": "21.559999",
+        "at": "12/22/2013 02:13:20",
+        "max_value": "21.559999",
+        "min_value": "0.0",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "Fahrenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "LWT_Heat_Pump",
+        "current_value": "33.000000",
+        "at": "12/22/2013 02:13:20",
+        "max_value": "37.289997",
+        "min_value": "33.0",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "Fahrenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "LWT_Heat_Pump2",
+        "current_value": "35.920001",
+        "at": "12/22/2013 02:13:20",
+        "max_value": "35.920001",
+        "min_value": "35.920001",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "Fahrenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "MonthHour",
+        "current_value": "853.706540",
+        "at": "12/22/2013 02:13:20",
+        "max_value": "853.70654",
+        "min_value": "0.183333",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "Fahrenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Outdoor_Temp",
+        "current_value": "94.999992",
+        "at": "06/16/2013 23:27:57",
+        "max_value": "99.499992",
+        "min_value": "39.2",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Outdoor_Temp2",
+        "current_value": "0.000000",
+        "at": "12/22/2013 02:13:20",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Stage2",
+        "current_value": "0.000000",
+        "at": "12/22/2013 02:13:20",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "Fahrenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "T_Bottom_Void",
+        "current_value": "45.619998",
+        "at": "12/22/2013 02:13:20",
+        "max_value": "45.619998",
+        "min_value": "45.619998",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "Fahrenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "TC",
+        "current_value": "0.000000",
+        "at": "12/22/2013 02:13:20",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "Fahrenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temp_indoorAPT",
+        "current_value": "67.212501",
+        "at": "12/22/2013 02:13:20",
+        "max_value": "83.862495",
+        "min_value": "63.162494",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "Fahrenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "test1",
+        "current_value": "95.459999",
+        "at": "12/22/2013 02:13:20",
+        "max_value": "95.459999",
+        "min_value": "95.459999",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "T_Exhaust",
+        "current_value": "65.709999",
+        "at": "12/22/2013 02:13:20",
+        "max_value": "65.709999",
+        "min_value": "65.709999",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "Fahrenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "T_Intake",
+        "current_value": "51.619998",
+        "at": "12/22/2013 02:13:20",
+        "max_value": "51.619998",
+        "min_value": "51.619998",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Trip1",
+        "current_value": "60.000000",
+        "at": "12/22/2013 02:13:20",
+        "max_value": "60.0",
+        "min_value": "60.0",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "Fahrenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "T_Top_Void",
+        "current_value": "45.840000",
+        "at": "12/22/2013 02:13:20",
+        "max_value": "45.84",
+        "min_value": "45.84",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "Fahrenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "UnitW",
+        "current_value": "5784.949700",
+        "at": "12/22/2013 02:13:20",
+        "max_value": "6580.0",
+        "min_value": "5784.9497",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "WholeMonth",
+        "current_value": "833.505670",
+        "at": "12/22/2013 02:13:20",
+        "max_value": "833.51141",
+        "min_value": "0.0",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "Fahrenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Zero",
+        "current_value": "0.000000",
+        "at": "12/22/2013 02:13:20",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "Fahrenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "plano, Texas",
+      "domain": 0,
+      "lat": "30.7512777762578",
+      "lon": "-98.0859375",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/83211\" >data logger</a>",
+    "URLMostrar": "https://xively.com/feeds/83211"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\83211.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,80 @@
+{
+  "Conceptos": [
+    "goal"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "62267",
+    "title": "Netport Sensors",
+    "Private": false,
+    "tags": [
+      "Microchip",
+      "Netport",
+      "PIC24HJ",
+      "TCP/IP Stack",
+      "Testing Feed"
+    ],
+    "description": "Español:\r\nEstos son flujos de datos de prueba provistos por el hardware que diseñé basado en productos de Microchip Technology. El objetivo del proyecto es facilitar la integración de hardware y software que usan interfaces, sensores y actuadores remotos.\r\n\r\nEnglish:\r\nThis is a test feed provided by the hardware I designed and built based on Microchip Technology Products. The Goal of the project is to enable easy integration of hardware and software using remote interfaces, sensors and actuators.",
+    "feed": "https://api.xively.com/v2/feeds/62267.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "12/03/2012 17:23:10",
+    "created": "06/04/2012 06:23:36",
+    "creator": "https://xively.com/users/kira219",
+    "version": null,
+    "website": "http://tech-freaks.net/redes/nodo-ethernet-100-mbps-con-pic-netport-100/",
+    "datastreams": [
+      {
+        "id": "humidity",
+        "current_value": null,
+        "at": null,
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "Indoor",
+          "Office",
+          "Relative Humidity",
+          "Sensor = DHT22"
+        ],
+        "unit": {
+          "symbol": "% RH",
+          "label": "Relative Humidity",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temp",
+        "current_value": "65535",
+        "at": "12/03/2012 17:23:06",
+        "max_value": "65535.0",
+        "min_value": "19.0",
+        "tags": [
+          "Indoor",
+          "Office",
+          "Sensor = LM75",
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Degree Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Coacalco, Estado de México",
+      "domain": 0,
+      "lat": "19.6160711317575",
+      "lon": "-99.0870666503906",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/62267\" >Netport Sensors</a>",
+    "URLMostrar": "https://xively.com/feeds/62267"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\62267.json",
+  "DocumentJSON": null
+}

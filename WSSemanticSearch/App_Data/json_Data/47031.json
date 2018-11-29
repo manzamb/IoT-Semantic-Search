@@ -1,0 +1,74 @@
+{
+  "Conceptos": [
+    "description"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "47031",
+    "title": "New Haven Geigerbot",
+    "Private": false,
+    "tags": [
+      "dosimeter",
+      "geiger",
+      "geigerbot",
+      "New Haven",
+      "nSv/h",
+      "radiation",
+      "放射能計測"
+    ],
+    "description": "Readings from a DRGB-90 connected directly to a Geigerbot/iPhone 3G via custom cable hack.  I'm using the SB-20/U -Co60 (22) setting for the DRGB-90 as it  uses an SBM-20 tube. \r\n\r\nReadings are in nano-sieverts/hour. To convert to microsieverts (uSv), divide by 1000. So 70 nSv/hr  = 0.07 uSv/hr. \r\n\r\nFeeds 1 & 2 (nSv/h and raw CPM/h) are indoors / fixed in my apartment in Waseda (Shinjuku), Tokyo. Starting in March, the readings will be from my home in New Haven, CT.\r\n\r\nStart to Feb 29: Waseda, Shinjuku, Tokyo, Japan\r\nMarch 1 to now:  New Haven, CT, USA\r\n\r\n\r\n-----\r\n\r\nThis is just a test feed, so please don't consider it accurate in any sense except for over time.\r\n\r\nNote that I started using a CPM offset of -9 from February 6, 2012 based on my conversations with Nick Dolezal, author of Geigerbot, and my own calculations since then.\r\n\r\nRaw CPM from before January 11, 2011 = +/- 0 CPM\r\nRaw CPM from between January 11 - February 6 = CPM + 13\r\nRaw CPM from after February 6 = Raw CPM  (correction factor after Feb 6 = -9)\r\n\r\nI wrote up a quick description of my DRGB-90 hack here: http://www.gpsy.com/ev/2012/01/modding-a-drgb90.html",
+    "feed": "https://api.xively.com/v2/feeds/47031.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "06/11/2012 22:17:18",
+    "created": "02/05/2012 17:53:52",
+    "creator": "https://xively.com/users/robokaren",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "1",
+        "current_value": "44",
+        "at": "06/11/2012 22:17:18",
+        "max_value": "203.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "nSv/h",
+          "label": "nanosieverts per hour",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "15",
+        "at": "06/11/2012 22:17:18",
+        "max_value": "36.0",
+        "min_value": "9.0",
+        "tags": [
+          "Raw CPM"
+        ],
+        "unit": {
+          "symbol": "RawCPM",
+          "label": "raw counts per minute before offset",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "New Haven, CT, USA",
+      "domain": 0,
+      "lat": "41.28293724",
+      "lon": "-72.93030934",
+      "ele": "19.0",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/47031\" >New Haven Geigerbot</a>",
+    "URLMostrar": "https://xively.com/feeds/47031"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\47031.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,89 @@
+{
+  "Conceptos": [
+    "sensing"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "25937",
+    "title": "IPv6 Wireless Parking System",
+    "Private": false,
+    "tags": [
+      "fastprk",
+      "parking",
+      "sensor",
+      "worldsensing"
+    ],
+    "description": "This is the world's first IPv6-enabled commercial smart parking application feeding live data 24/7 from the street using Worldsensing's advanced parking sensors into Pachube's platform, with the support of AT&T and Cisco. It is a significant step forward to massively scalable, secure and robust Smart City Platforms. More information under http://tinyurl.com/6fro65r. [The trial has run on the 8th June 2011 and is now closed.]",
+    "feed": "https://api.xively.com/v2/feeds/25937.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "06/09/2011 13:58:33",
+    "created": "05/30/2011 07:55:51",
+    "creator": "https://xively.com/users/worldsensing",
+    "version": null,
+    "website": "http://www.worldsensing.com",
+    "datastreams": [
+      {
+        "id": "102",
+        "current_value": "0.0",
+        "at": "06/09/2011 13:58:33",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "102"
+        ],
+        "unit": {
+          "symbol": "o",
+          "label": "occupancy",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "106",
+        "current_value": "1.0",
+        "at": "06/09/2011 13:58:30",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "106"
+        ],
+        "unit": {
+          "symbol": "o",
+          "label": "occupancy",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "107",
+        "current_value": "1.0",
+        "at": "06/09/2011 13:58:28",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "107"
+        ],
+        "unit": {
+          "symbol": "o",
+          "label": "occupancy",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Barcelona",
+      "domain": 0,
+      "lat": "41.2760003456326",
+      "lon": "1.99007034301758",
+      "ele": "30",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/25937\" >IPv6 Wireless Parking System</a>",
+    "URLMostrar": "https://xively.com/feeds/25937"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\25937.json",
+  "DocumentJSON": null
+}

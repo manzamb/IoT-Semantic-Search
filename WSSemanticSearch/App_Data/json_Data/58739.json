@@ -1,0 +1,86 @@
+{
+  "Conceptos": [
+    "humedad"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "58739",
+    "title": "TELE-LECTURA 1",
+    "Private": false,
+    "tags": [
+      "Caudal",
+      "Humedad",
+      "Temperatura"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/58739.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:04:24",
+    "created": "05/09/2012 17:20:36",
+    "creator": "https://xively.com/users/watchingec",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "C1",
+        "current_value": "168.2",
+        "at": "03/21/2014 14:04:24",
+        "max_value": "168.2",
+        "min_value": "39.4",
+        "tags": [
+          "Micromedidor Inferior"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "C2",
+        "current_value": "163.8",
+        "at": "03/21/2014 14:04:24",
+        "max_value": "564.0",
+        "min_value": "1.0",
+        "tags": [
+          "Micromedidor Superior"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "PWR",
+        "current_value": "0.0",
+        "at": "03/21/2014 14:04:24",
+        "max_value": "107426612574.704",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "LABORATORIO TRADE VANNUCCI",
+      "domain": 0,
+      "lat": "-0.106608799145054",
+      "lon": "-78.5041916370393",
+      "ele": "2800",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/58739\" >TELE-LECTURA 1</a>",
+    "URLMostrar": "https://xively.com/feeds/58739"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\58739.json",
+  "DocumentJSON": null
+}

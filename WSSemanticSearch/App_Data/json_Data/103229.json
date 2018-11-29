@@ -1,0 +1,86 @@
+{
+  "Conceptos": [
+    "temperatura"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "103229",
+    "title": "Controllo Temperatura e Luce",
+    "Private": false,
+    "tags": [
+      "arduino"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/103229.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:15:10",
+    "created": "02/07/2013 21:30:13",
+    "creator": "https://xively.com/users/brasalix",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "SensLuce",
+        "current_value": "8.00",
+        "at": "03/21/2014 14:15:10",
+        "max_value": "191.0",
+        "min_value": "0.0",
+        "tags": [
+          "Light"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Intensita",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "SensOn",
+        "current_value": "0",
+        "at": "03/21/2014 14:15:05",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "Security"
+        ],
+        "unit": {
+          "symbol": "On-Off",
+          "label": "On-Off",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "SensTemp",
+        "current_value": "25.31",
+        "at": "03/21/2014 14:15:00",
+        "max_value": "34.75",
+        "min_value": "17.62",
+        "tags": [
+          "Temperatura"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "WareHouse",
+      "domain": 0,
+      "lat": "41.8550599699982",
+      "lon": "12.4842734867553",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 1
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/103229\" >Controllo Temperatura e Luce</a>",
+    "URLMostrar": "https://xively.com/feeds/103229"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\103229.json",
+  "DocumentJSON": null
+}

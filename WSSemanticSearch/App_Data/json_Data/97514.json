@@ -1,0 +1,87 @@
+{
+  "Conceptos": [
+    "project"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "97514",
+    "title": "Raumdaten",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "Rasp_Temprature"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/97514.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:14:51",
+    "created": "01/13/2013 19:37:19",
+    "creator": "https://xively.com/users/raspberry",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "23.0",
+        "at": "03/21/2014 14:14:51",
+        "max_value": "28.7",
+        "min_value": "5.7",
+        "tags": [
+          "Büro"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "35.6",
+        "at": "03/21/2014 14:14:51",
+        "max_value": "63.5",
+        "min_value": "18.7",
+        "tags": [
+          "Büro"
+        ],
+        "unit": {
+          "symbol": "%RH",
+          "label": "Relative Humidity",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "vl_hk",
+        "current_value": "21.0",
+        "at": "03/21/2014 14:13:08",
+        "max_value": "47.0",
+        "min_value": "9.0",
+        "tags": [
+          "Energie; project:name=HK_Vorlauf"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/97514\" >Raumdaten</a>",
+    "URLMostrar": "https://xively.com/feeds/97514"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\97514.json",
+  "DocumentJSON": null
+}

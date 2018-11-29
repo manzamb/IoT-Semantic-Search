@@ -1,0 +1,87 @@
+{
+  "Conceptos": [
+    "task"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "41034",
+    "title": "KSEB Voltage Levels at Malabar Oil Mill",
+    "Private": false,
+    "tags": [
+      "kseb",
+      "voltage"
+    ],
+    "description": "NOT WORKING since JAN after removing the bluetooth serial transmitter. Last data is being duplicated.\r\nMonitoring Voltage levels, a zero indicates power failure.\r\nVoltage levels measured using a jaluino board, sent through bluetooth to a PC  which updates Pachube. Updates happen only when PC is on and when there is internet connection. Its done through scheduled tasks using a script.Battery backup was added on 2-1-2012. Only thing left is PC less updates to Pachube. The dots indicate times when there is no updates when there is no net connection. The dips to 0V indicates power failure times.",
+    "feed": "https://api.xively.com/v2/feeds/41034.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/21/2014 07:12:07",
+    "created": "12/03/2011 16:56:12",
+    "creator": "https://xively.com/users/sunish",
+    "version": null,
+    "website": "http://www.sunish.net",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "0",
+        "at": "03/21/2014 07:12:06",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "Phase1"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": "Volts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": null,
+        "at": "10/15/2012 13:09:06",
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "Phase2"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": "Volts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": null,
+        "at": "10/11/2012 13:15:08",
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "Phase3"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": "Volts",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Perambra,Kozhikode,Kerala,India",
+      "domain": 0,
+      "lat": "11.5571980844258",
+      "lon": "75.7588648796082",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/41034\" >KSEB Voltage Levels at Malabar Oil Mill</a>",
+    "URLMostrar": "https://xively.com/feeds/41034"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\41034.json",
+  "DocumentJSON": null
+}

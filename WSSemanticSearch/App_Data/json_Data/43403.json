@@ -1,0 +1,102 @@
+{
+  "Conceptos": [
+    "pst"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "43403",
+    "title": "Oil Level",
+    "Private": false,
+    "tags": null,
+    "description": "Dipstick reading on the expedition ",
+    "feed": "https://api.xively.com/v2/feeds/43403.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "01/03/2012 19:56:54",
+    "created": "01/03/2012 19:41:38",
+    "creator": "https://xively.com/users/sbuchanan",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "5",
+        "at": "01/03/2012 19:56:54",
+        "max_value": "10.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "hatch lines",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "29.628",
+        "at": "01/03/2012 19:56:54",
+        "max_value": "29.628",
+        "min_value": "29.626",
+        "tags": [
+          "lat",
+          "latitude"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "-95.6098",
+        "at": "01/03/2012 19:56:54",
+        "max_value": "-95.6098",
+        "min_value": "-95.6132",
+        "tags": [
+          "lon",
+          "longitude"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "37.2235",
+        "at": "01/03/2012 19:56:54",
+        "max_value": "37.2235",
+        "min_value": "26.0694",
+        "tags": [
+          "alt",
+          "altitude",
+          "elevation"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "29.628",
+      "lon": "-95.6098",
+      "ele": "37.2235",
+      "exposure": 1,
+      "disposition": 1
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/43403\" >Oil Level</a>",
+    "URLMostrar": "https://xively.com/feeds/43403"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\43403.json",
+  "DocumentJSON": null
+}

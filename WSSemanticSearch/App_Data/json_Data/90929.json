@@ -1,0 +1,89 @@
+{
+  "Conceptos": [
+    "longitud"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "90929",
+    "title": "Uni-Project-Arduino",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "latitude",
+      "longitude",
+      "noise-level"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/90929.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "07/14/2013 19:33:08",
+    "created": "12/08/2012 12:17:53",
+    "creator": "https://xively.com/users/sh4ke",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "latitude",
+        "current_value": "52.56",
+        "at": "07/14/2013 19:33:08",
+        "max_value": "52.56",
+        "min_value": "0.0",
+        "tags": [
+          "GPS latitude"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "longitude",
+        "current_value": "13.37",
+        "at": "07/14/2013 19:33:08",
+        "max_value": "13.37",
+        "min_value": "0.0",
+        "tags": [
+          "GPS longitude"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "sound",
+        "current_value": "84",
+        "at": "07/14/2013 19:33:08",
+        "max_value": "299.0",
+        "min_value": "0.0",
+        "tags": [
+          "volume"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 1,
+      "disposition": 1
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/90929\" >Uni-Project-Arduino</a>",
+    "URLMostrar": "https://xively.com/feeds/90929"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\90929.json",
+  "DocumentJSON": null
+}

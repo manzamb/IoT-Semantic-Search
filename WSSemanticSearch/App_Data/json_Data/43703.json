@@ -1,0 +1,80 @@
+{
+  "Conceptos": [
+    "person"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "43703",
+    "title": "Personal Radiation Monitoring Post 43703 (Tomakomai)",
+    "Private": false,
+    "tags": [
+      "cpm",
+      "Geiger",
+      "Mark2",
+      "nSv/h",
+      "radiation",
+      "uSv/h",
+      "Yokohama",
+      "γ線",
+      "ガイガーカウンター",
+      "モニタリングポスト",
+      "横浜"
+    ],
+    "description": "Monitoring post by Mark2 Geiger Counter\r\nSBM-20 Geiger Mueller Tube\r\n\r\n2012-01-08より試験運用中 \r\n2012/１/8-12:20〜15:20までラジウムボールを近づけて実験 しました。\r\n\r\n2012.06.09より苫小牧市内で計測開始\r\n\r\n補足情報などは以下のページに載せていますので参照ください。\r\nhttp://home.f07.itscom.net/ttha/monitoring/monitoringData5post.htm",
+    "feed": "https://api.xively.com/v2/feeds/43703.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:07:14",
+    "created": "01/07/2012 00:25:42",
+    "creator": "https://xively.com/users/geigermonjp",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "5",
+        "current_value": "0.074921",
+        "at": "03/21/2014 14:07:14",
+        "max_value": "0.174992",
+        "min_value": "0.060565",
+        "tags": [
+          "１時間移動平均値"
+        ],
+        "unit": {
+          "symbol": "μSv/h",
+          "label": "uSv/h",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "0.082700",
+        "at": "03/21/2014 14:07:13",
+        "max_value": "0.333801",
+        "min_value": "0.03",
+        "tags": [
+          "10分間移動平均値"
+        ],
+        "unit": {
+          "symbol": "μSv/h",
+          "label": "uSv/h",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Yokohama",
+      "domain": 0,
+      "lat": "42.6388246652035",
+      "lon": "141.595176458358",
+      "ele": "32m",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/43703\" >Personal Radiation Monitoring Post 43703 (Tomakomai)</a>",
+    "URLMostrar": "https://xively.com/feeds/43703"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\43703.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,128 @@
+{
+  "Conceptos": [
+    "contaminación"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "72220",
+    "title": "AQE Madrid 2",
+    "Private": false,
+    "tags": [
+      "air quality",
+      "airqualityegg",
+      "AQE",
+      "arduino",
+      "bluemove",
+      "contaminacion Madrid",
+      "outdoor"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/72220.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "04/16/2013 18:38:58",
+    "created": "08/23/2012 18:46:21",
+    "creator": "https://xively.com/users/gabohbeaumont",
+    "version": null,
+    "website": "http://www.bluemove.es",
+    "datastreams": [
+      {
+        "id": "airQuality",
+        "current_value": "460",
+        "at": "04/16/2013 18:38:58",
+        "max_value": "731.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "button",
+        "current_value": "0",
+        "at": "04/16/2013 18:38:58",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "CO",
+        "current_value": "633",
+        "at": "04/16/2013 18:38:58",
+        "max_value": "846.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "humidity",
+        "current_value": "31",
+        "at": "04/16/2013 18:38:58",
+        "max_value": "64.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "NO2",
+        "current_value": "28",
+        "at": "04/16/2013 18:38:58",
+        "max_value": "170.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temperature",
+        "current_value": "25",
+        "at": "04/16/2013 18:38:58",
+        "max_value": "35.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Oficinas de Bluemove",
+      "domain": 0,
+      "lat": "40.4282099909409",
+      "lon": "-3.69788847863674",
+      "ele": "7",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/72220\" >AQE Madrid 2</a>",
+    "URLMostrar": "https://xively.com/feeds/72220"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\72220.json",
+  "DocumentJSON": null
+}

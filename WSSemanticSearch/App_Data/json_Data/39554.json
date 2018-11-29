@@ -1,0 +1,52 @@
+{
+  "Conceptos": [
+    "condition"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "39554",
+    "title": "Weather Conditions",
+    "Private": false,
+    "tags": null,
+    "description": "send stream of temperature and other weather conditions",
+    "feed": "https://api.xively.com/v2/feeds/39554.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "11/20/2011 06:28:27",
+    "created": "11/14/2011 22:44:22",
+    "creator": "https://xively.com/users/rbengel",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "001",
+        "current_value": null,
+        "at": "11/20/2011 05:57:07",
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "Temp"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Kelowna, British Columbia, Canada",
+      "domain": 0,
+      "lat": "49.8379824530848",
+      "lon": "-119.4873046875",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/39554\" >Weather Conditions</a>",
+    "URLMostrar": "https://xively.com/feeds/39554"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\39554.json",
+  "DocumentJSON": null
+}

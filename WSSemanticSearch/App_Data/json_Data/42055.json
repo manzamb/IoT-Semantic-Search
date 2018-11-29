@@ -1,0 +1,350 @@
+{
+  "Conceptos": [
+    "device"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "42055",
+    "title": "RaumZeitLabor",
+    "Private": false,
+    "tags": [
+      "hackerspace",
+      "mannheim",
+      "rzl"
+    ],
+    "description": "Digitalkultur im Rhein-Neckar-Dreieck",
+    "feed": "https://api.xively.com/v2/feeds/42055.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:12:51",
+    "created": "12/15/2011 23:14:55",
+    "creator": "https://xively.com/users/tiefpunkt",
+    "version": null,
+    "website": "http://www.raumzeitlabor.de",
+    "datastreams": [
+      {
+        "id": "internet.download",
+        "current_value": "28",
+        "at": "03/21/2014 14:12:40",
+        "max_value": "15960600.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "kB/s",
+          "label": "kB/s",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "internet.latency",
+        "current_value": "7.781",
+        "at": "03/21/2014 14:12:40",
+        "max_value": "6642.93",
+        "min_value": "6.636",
+        "tags": null,
+        "unit": {
+          "symbol": "ms",
+          "label": "ms",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "internet.upload",
+        "current_value": "6",
+        "at": "03/21/2014 14:12:40",
+        "max_value": "267.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "kB/s",
+          "label": "kB/s",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Kontostand",
+        "current_value": "5917",
+        "at": "03/21/2014 14:12:01",
+        "max_value": "12251.0",
+        "min_value": "-1372.0",
+        "tags": null,
+        "unit": {
+          "symbol": "€",
+          "label": "€",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Luftdruck_Raum_Beamerplattform_2",
+        "current_value": "100021",
+        "at": "11/23/2013 13:15:54",
+        "max_value": "101821.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Luftfeuchtigkeit_Raum_Beamerplattform",
+        "current_value": "58.6",
+        "at": "10/15/2013 14:04:39",
+        "max_value": "99.9",
+        "min_value": "-999.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Mitglieder",
+        "current_value": "94",
+        "at": "03/21/2014 14:12:01",
+        "max_value": "2147483647.0",
+        "min_value": "78.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Status_Geraete",
+        "current_value": "3",
+        "at": "03/21/2014 14:12:01",
+        "max_value": "61.0",
+        "min_value": "0.0",
+        "tags": [
+          "devices",
+          "status"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Status_Tuer",
+        "current_value": "?",
+        "at": "03/21/2014 14:12:01",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "closed",
+          "door",
+          "open",
+          "status"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Strom_Gesamtverbrauch",
+        "current_value": "188.09",
+        "at": "03/21/2014 14:12:51",
+        "max_value": "3171.27",
+        "min_value": "0.0",
+        "tags": [
+          "electricity",
+          "usage"
+        ],
+        "unit": {
+          "symbol": "kWh",
+          "label": "kWh",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Strom_Leistung",
+        "current_value": "576",
+        "at": "03/21/2014 14:12:51",
+        "max_value": "24074.0",
+        "min_value": "220.0",
+        "tags": [
+          "electricity",
+          "power"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "W",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperatur_Aetzecke",
+        "current_value": "22.0",
+        "at": "03/21/2014 14:12:37",
+        "max_value": "200.0",
+        "min_value": "15.63",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperatur_aussen",
+        "current_value": "19.39",
+        "at": "08/26/2013 14:46:18",
+        "max_value": "58.27",
+        "min_value": "-4.5",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperatur_Getraenkelager",
+        "current_value": "15.06",
+        "at": "03/21/2014 14:12:37",
+        "max_value": "29.62",
+        "min_value": "3.8",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperatur_Heizung_Ruecklauf",
+        "current_value": "30.6",
+        "at": "03/21/2014 14:12:37",
+        "max_value": "54.62",
+        "min_value": "9.9",
+        "tags": [
+          "temperatur"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperatur_Heizung_Vorlauf",
+        "current_value": "36.6",
+        "at": "03/21/2014 14:12:37",
+        "max_value": "69.33",
+        "min_value": "11.9",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperatur_Olymp",
+        "current_value": "21.08",
+        "at": "03/21/2014 14:12:37",
+        "max_value": "32.22",
+        "min_value": "14.23",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperatur_Raum_Beamerplattform",
+        "current_value": "21.7",
+        "at": "03/21/2014 14:12:37",
+        "max_value": "32.38",
+        "min_value": "12.48",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperatur_Raum_Beamerplattform_2",
+        "current_value": "17.5",
+        "at": "10/15/2013 14:04:39",
+        "max_value": "31.3",
+        "min_value": "-999.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperatur_Raum_Tafel",
+        "current_value": "20.73",
+        "at": "03/21/2014 14:12:37",
+        "max_value": "31.89",
+        "min_value": "11.53",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Mannheim, Germany",
+      "domain": 0,
+      "lat": "49.5079618637125",
+      "lon": "8.49959850311279",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/42055\" >RaumZeitLabor</a>",
+    "URLMostrar": "https://xively.com/feeds/42055"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\42055.json",
+  "DocumentJSON": null
+}

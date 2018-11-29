@@ -1,0 +1,110 @@
+{
+  "Conceptos": [
+    "humidity"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "122263",
+    "title": "Weather sensors",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "humidity",
+      "Temperature"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/122263.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:06:25",
+    "created": "04/02/2013 17:08:57",
+    "creator": "https://xively.com/users/tuthome74",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Out_Humi",
+        "current_value": "44.80",
+        "at": "03/21/2014 14:06:25",
+        "max_value": "97.7",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Out_Temp",
+        "current_value": "8.00",
+        "at": "03/21/2014 14:06:25",
+        "max_value": "47.2",
+        "min_value": "-2.8",
+        "tags": null,
+        "unit": {
+          "symbol": "°C",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "RestartCounter",
+        "current_value": "120.00",
+        "at": "03/21/2014 14:06:25",
+        "max_value": "120.0",
+        "min_value": "7.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "WiGa_Humi",
+        "current_value": "23.00",
+        "at": "03/21/2014 14:06:25",
+        "max_value": "55.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "WiGa_Temp",
+        "current_value": "20.00",
+        "at": "03/21/2014 14:06:25",
+        "max_value": "60.0",
+        "min_value": "9.0",
+        "tags": null,
+        "unit": {
+          "symbol": "°C",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "51.4403127571601",
+      "lon": "7.020263671875",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/122263\" >Weather sensors</a>",
+    "URLMostrar": "https://xively.com/feeds/122263"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\122263.json",
+  "DocumentJSON": null
+}

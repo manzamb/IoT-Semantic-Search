@@ -1,0 +1,53 @@
+{
+  "Conceptos": [
+    "color"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "3929",
+    "title": "New York Sky",
+    "Private": false,
+    "tags": null,
+    "description": "Average color of a patch of New York City sky as seen from my apartment window.\r\n\r\nReadings are taken from a cheap webcam once per second. Every minute, those readings are averaged and sent up to Pachube.",
+    "feed": "https://api.xively.com/v2/feeds/3929.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "06/08/2010 14:20:11",
+    "created": "12/12/2009 22:05:50",
+    "creator": "https://xively.com/users/kitschpatrol",
+    "version": null,
+    "website": "http://ericmika.com/itp",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "000000",
+        "at": null,
+        "max_value": "8.68e+96",
+        "min_value": "0.0",
+        "tags": [
+          "Color",
+          "sky"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "hexadecmial color value",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "New York, NY",
+      "domain": 0,
+      "lat": "40.7297954567986",
+      "lon": "-73.9867830276489",
+      "ele": "34",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/3929\" >New York Sky</a>",
+    "URLMostrar": "https://xively.com/feeds/3929"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\3929.json",
+  "DocumentJSON": null
+}

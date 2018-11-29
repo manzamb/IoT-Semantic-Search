@@ -1,0 +1,132 @@
+{
+  "Conceptos": [
+    "atmospheric pressure"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "10403",
+    "title": "Weather Station in Gravina in Puglia, Italy",
+    "Private": false,
+    "tags": null,
+    "description": "Courtesy of Weather Underground http://www.wunderground.com",
+    "feed": "https://api.xively.com/v2/feeds/10403.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "12/09/2010 13:37:42",
+    "created": "09/27/2010 13:35:27",
+    "creator": "https://xively.com/users/perca",
+    "version": null,
+    "website": "http://www.wunderground.com/weatherstation/WXDailyHistory.asp?ID=IITALYMO2",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "15.3",
+        "at": "12/09/2010 13:37:42",
+        "max_value": "26.6",
+        "min_value": "-20.6",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "58",
+        "at": "12/09/2010 13:37:42",
+        "max_value": "100.0",
+        "min_value": "53.0",
+        "tags": [
+          "relative humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "percentage",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "33.0",
+        "at": "12/09/2010 13:37:42",
+        "max_value": "58.0",
+        "min_value": "0.0",
+        "tags": [
+          "wind speed"
+        ],
+        "unit": {
+          "symbol": "mph",
+          "label": "miles per hour",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "941.0",
+        "at": "12/09/2010 13:37:42",
+        "max_value": "1050.0",
+        "min_value": "921.0",
+        "tags": [
+          "atmospheric pressure"
+        ],
+        "unit": {
+          "symbol": "mb",
+          "label": "millibar",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "0.0",
+        "at": "12/09/2010 13:37:42",
+        "max_value": "8.0",
+        "min_value": "0.0",
+        "tags": [
+          "daily rain"
+        ],
+        "unit": {
+          "symbol": "cm",
+          "label": "cm",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "0.0",
+        "at": "12/09/2010 13:37:42",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "1h rain"
+        ],
+        "unit": {
+          "symbol": "cm",
+          "label": "cm",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Gravina in Puglia",
+      "domain": 0,
+      "lat": "40.910399118735",
+      "lon": "16.4094543457031",
+      "ele": "null",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/10403\" >Weather Station in Gravina in Puglia, Italy</a>",
+    "URLMostrar": "https://xively.com/feeds/10403"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\10403.json",
+  "DocumentJSON": null
+}

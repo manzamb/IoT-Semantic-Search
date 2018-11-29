@@ -1,0 +1,212 @@
+{
+  "Conceptos": [
+    "turbidity"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "4883",
+    "title": "Heron Island SensorNet",
+    "Private": false,
+    "tags": null,
+    "description": "Readings from the GBROOS Sensor Network at Heron Island. Data from IMOS Australia.",
+    "feed": "https://api.xively.com/v2/feeds/4883.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "06/27/2010 22:00:09",
+    "created": "01/18/2010 11:30:10",
+    "creator": "https://xively.com/users/gbroos",
+    "version": null,
+    "website": "http://data.aims.gov.au/gbroos",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "0.0",
+        "at": "06/27/2010 22:00:02",
+        "max_value": "2.0",
+        "min_value": "-2.0",
+        "tags": [
+          "Air Temp (Deg. C.)",
+          "Air Temp (Deg.C.)",
+          "Air Temp (deg.C.)",
+          "Inlet Water Temp (Deg.C.)"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Deg. C.",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "0.0",
+        "at": "06/27/2010 22:00:03",
+        "max_value": "2.0",
+        "min_value": "-2.0",
+        "tags": [
+          "Baro. Pressure (hPa)",
+          "Water Temp (Deg.C.)",
+          "Water Temp (deg.C.)"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "0.0",
+        "at": "06/27/2010 22:00:04",
+        "max_value": "5.0",
+        "min_value": "-5.0",
+        "tags": [
+          "Barometric Press. (hPa)",
+          "Barometric Pressure (hPa)",
+          "Inlet Salinity (PSU)",
+          "Pressure (hPa)"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "0.0",
+        "at": "06/27/2010 22:00:05",
+        "max_value": "10.0",
+        "min_value": "-10.0",
+        "tags": [
+          "Humidity (%)",
+          "Rainfall to 9am (mm)",
+          "Relative Humidity (%)",
+          "Relitive Humidity (%)"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "0.0",
+        "at": "06/27/2010 22:00:08",
+        "max_value": "50.0",
+        "min_value": "0.0",
+        "tags": [
+          "Inlet Turbidity (NTU)",
+          "Max Wind Sp. (kph)",
+          "Max Wind Speed (kph)",
+          "Max Wind Speed. (kph)"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "0.0",
+        "at": "06/27/2010 22:00:09",
+        "max_value": "50.0",
+        "min_value": "0.0",
+        "tags": [
+          "Rainfall to 9am (mm)"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "0.14",
+        "at": "06/17/2010 20:40:40",
+        "max_value": "2.0",
+        "min_value": "-2.0",
+        "tags": [
+          "Inlet Chlorophyll",
+          "SF1 Salinity (PSU)"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "7",
+        "current_value": "1.01",
+        "at": "05/07/2010 18:03:12",
+        "max_value": "3.0",
+        "min_value": "-1.0",
+        "tags": [
+          "Est. Tide Height (m)",
+          "Mariculture Chlorophyll"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "8",
+        "current_value": "0.0",
+        "at": null,
+        "max_value": "8.0",
+        "min_value": "0.0",
+        "tags": [
+          "SF1 Water Depth (m)"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "9",
+        "current_value": "0.0",
+        "at": null,
+        "max_value": "20.0",
+        "min_value": "0.0",
+        "tags": [
+          "Turbidity (NTU)"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Heron Island Reef",
+      "domain": 0,
+      "lat": "-23.442821193025",
+      "lon": "151.914773932658",
+      "ele": "6",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/4883\" >Heron Island SensorNet</a>",
+    "URLMostrar": "https://xively.com/feeds/4883"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\4883.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,98 @@
+{
+  "Conceptos": [
+    "biological"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "50560",
+    "title": "Base0 Weather",
+    "Private": false,
+    "tags": [
+      "climate",
+      "Highlands",
+      "phenology",
+      "soil",
+      "weather"
+    ],
+    "description": "This is the test feed for the Highlands Biological Station Phenology Lab",
+    "feed": "https://api.xively.com/v2/feeds/50560.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/12/2012 21:04:19",
+    "created": "03/05/2012 16:55:20",
+    "creator": "https://xively.com/users/sensors_wcu_ecet",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "0.0207089599535",
+        "at": "03/12/2012 21:04:19",
+        "max_value": "0.91362890076",
+        "min_value": "0.0207089599535",
+        "tags": null,
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "0.963588406076",
+        "at": "03/12/2012 21:04:19",
+        "max_value": "0.963588406076",
+        "min_value": "0.24138087406",
+        "tags": null,
+        "unit": {
+          "symbol": "%RH",
+          "label": "Relative Humidity",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Humidity",
+        "current_value": "4",
+        "at": "03/05/2012 22:54:11",
+        "max_value": "4.0",
+        "min_value": "4.0",
+        "tags": null,
+        "unit": {
+          "symbol": "%RH",
+          "label": "Relative Humidity",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperature",
+        "current_value": "3",
+        "at": "03/05/2012 22:54:11",
+        "max_value": "3.0",
+        "min_value": "3.0",
+        "tags": null,
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Cullowhee, NC, USA",
+      "domain": 0,
+      "lat": "35.3081912742852",
+      "lon": "-83.1825542449951",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/50560\" >Base0 Weather</a>",
+    "URLMostrar": "https://xively.com/feeds/50560"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\50560.json",
+  "DocumentJSON": null
+}

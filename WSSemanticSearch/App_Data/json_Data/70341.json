@@ -1,0 +1,322 @@
+{
+  "Conceptos": [
+    "plan"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "70341",
+    "title": "002001",
+    "Private": false,
+    "tags": [
+      "counter",
+      "gas",
+      "Smartcity.",
+      "SmartyPlanet",
+      "SmartySnow"
+    ],
+    "description": "This is a prototipe remote sensors station with humidity, air temperature, and a gas counter in a home. It logs the data every 15' and sends every hour through GPRS.",
+    "feed": "https://api.xively.com/v2/feeds/70341.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "01/27/2014 10:36:18",
+    "created": "08/07/2012 14:25:02",
+    "creator": "https://xively.com/users/arantec",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "A00",
+        "current_value": "00000",
+        "at": "01/27/2014 10:30:00",
+        "max_value": "4.177",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "A01",
+        "current_value": "00000",
+        "at": "08/12/2013 11:00:00",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "A02",
+        "current_value": "14.90",
+        "at": "08/12/2013 11:00:00",
+        "max_value": "394.6",
+        "min_value": "13.56",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "A13",
+        "current_value": "-0.06",
+        "at": "01/27/2014 10:30:00",
+        "max_value": "-0.06",
+        "min_value": "-0.06",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "A14",
+        "current_value": "-0.06",
+        "at": "01/27/2014 10:30:00",
+        "max_value": "-0.06",
+        "min_value": "-0.06",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "battery",
+        "current_value": "12.0",
+        "at": "08/12/2013 11:00:00",
+        "max_value": "12.3",
+        "min_value": "11.3",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "K00",
+        "current_value": "1",
+        "at": "01/27/2014 10:30:00",
+        "max_value": "9.0",
+        "min_value": "1.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "K01",
+        "current_value": "3",
+        "at": "01/27/2014 10:30:00",
+        "max_value": "9.0",
+        "min_value": "3.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "K05",
+        "current_value": "1",
+        "at": "04/19/2013 07:00:00",
+        "max_value": "1.0",
+        "min_value": "1.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "O01",
+        "current_value": "9",
+        "at": "01/27/2014 09:30:00",
+        "max_value": "9.0",
+        "min_value": "9.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "O02",
+        "current_value": "9",
+        "at": "01/27/2014 09:30:00",
+        "max_value": "9.0",
+        "min_value": "9.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "P01",
+        "current_value": "00003826",
+        "at": "01/27/2014 10:30:00",
+        "max_value": "3826.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "P02",
+        "current_value": "00000854",
+        "at": "01/27/2014 10:30:00",
+        "max_value": "854.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "P03",
+        "current_value": "00000024",
+        "at": "01/27/2014 10:30:00",
+        "max_value": "24.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "P04",
+        "current_value": "00003246",
+        "at": "01/27/2014 10:30:00",
+        "max_value": "3246.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "P05",
+        "current_value": "00000631",
+        "at": "01/27/2014 10:30:00",
+        "max_value": "631.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "P06",
+        "current_value": "00000554",
+        "at": "01/27/2014 10:30:00",
+        "max_value": "554.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "rain",
+        "current_value": "00000000",
+        "at": "10/10/2013 16:00:00",
+        "max_value": "99999999.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "TH07",
+        "current_value": "1",
+        "at": "08/12/2013 11:00:00",
+        "max_value": "1.0",
+        "min_value": "1.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "windspeed",
+        "current_value": "00000",
+        "at": "10/10/2013 16:00:00",
+        "max_value": "0.035",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Vielha",
+      "domain": 0,
+      "lat": "42.6976712298593",
+      "lon": "0.789642333984375",
+      "ele": "1000",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/70341\" >002001</a>",
+    "URLMostrar": "https://xively.com/feeds/70341"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\70341.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,142 @@
+{
+  "Conceptos": [
+    "environment"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "18990",
+    "title": "Harold's Home Environment",
+    "Private": false,
+    "tags": [
+      "Harold",
+      "Hong Kong",
+      "Tai Po",
+      "weather"
+    ],
+    "description": "Harold's Home Environment",
+    "feed": "https://api.xively.com/v2/feeds/18990.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/21/2014 01:23:33",
+    "created": "02/13/2011 14:58:11",
+    "creator": "https://xively.com/users/cmkpl",
+    "version": null,
+    "website": "http://weather.phychembio.com",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "20.31",
+        "at": "11/20/2012 09:28:14",
+        "max_value": "24.5",
+        "min_value": "13.62",
+        "tags": [
+          "DS18B20",
+          "indoor temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "degree Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "21.14",
+        "at": "11/20/2012 09:28:14",
+        "max_value": "25.26",
+        "min_value": "14.63",
+        "tags": [
+          "AD22100",
+          "indoor temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "degree Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "49.95",
+        "at": "11/20/2012 09:28:14",
+        "max_value": "92.43",
+        "min_value": "39.72",
+        "tags": [
+          "HIH4000",
+          "indoor RH"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "38420",
+        "at": "11/20/2012 09:28:14",
+        "max_value": "401891.0",
+        "min_value": "41.0",
+        "tags": [
+          "uptime"
+        ],
+        "unit": {
+          "symbol": "s",
+          "label": "second",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "20.2",
+        "at": "11/20/2012 09:28:14",
+        "max_value": "34.7",
+        "min_value": "13.4",
+        "tags": [
+          "BMP085",
+          "indoor temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "degree Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "1021.45",
+        "at": "11/20/2012 09:28:14",
+        "max_value": "1022.5778729352",
+        "min_value": "1013.02",
+        "tags": [
+          "BMP085",
+          "sea level pressure"
+        ],
+        "unit": {
+          "symbol": "hPa",
+          "label": "hPa",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Harold's room",
+      "domain": 0,
+      "lat": "22.4518",
+      "lon": "114.1689",
+      "ele": "50",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/18990\" >Harold's Home Environment</a>",
+    "URLMostrar": "https://xively.com/feeds/18990"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\18990.json",
+  "DocumentJSON": null
+}

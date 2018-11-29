@@ -1,0 +1,333 @@
+{
+  "Conceptos": [
+    "community"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "48835",
+    "title": "Soggy Seattle",
+    "Private": false,
+    "tags": [
+      "BandWidth",
+      "OpenWrt",
+      "Router",
+      "wget"
+    ],
+    "description": "Router Stats\r\nD-Link DIR-825 rev. B1\r\nOpenWrt Backfire 10.03.1 / LuCI 0.10.0 Release (0.10.0)\r\n\r\nSee: http://community.pachube.com/node/998\r\n\r\n",
+    "feed": "https://api.xively.com/v2/feeds/48835.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:06:40",
+    "created": "02/17/2012 03:22:40",
+    "creator": "https://xively.com/users/goldeye",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Heat",
+        "current_value": "69",
+        "at": "03/21/2014 14:06:39",
+        "max_value": "79.0",
+        "min_value": "52.0",
+        "tags": [
+          "Inside Temperature"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "degrees Fahrenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "HeatOn",
+        "current_value": "1",
+        "at": "03/21/2014 14:06:39",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "Off/On",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "HeatSet",
+        "current_value": "70",
+        "at": "03/21/2014 14:06:39",
+        "max_value": "74.0",
+        "min_value": "0.0",
+        "tags": [
+          "Set Point"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "degrees Fahrenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "L-Bedroom",
+        "current_value": "0",
+        "at": "03/21/2014 14:06:39",
+        "max_value": "20.0",
+        "min_value": "0.0",
+        "tags": [
+          "energy"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "L-Dining",
+        "current_value": "0",
+        "at": "03/21/2014 14:06:39",
+        "max_value": "180.0",
+        "min_value": "0.0",
+        "tags": [
+          "energy"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "L-Fireplace",
+        "current_value": "0",
+        "at": "05/09/2013 20:12:34",
+        "max_value": "20.0",
+        "min_value": "0.0",
+        "tags": [
+          "energy"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "L-Kitchen",
+        "current_value": "0",
+        "at": "03/21/2014 14:06:39",
+        "max_value": "500.0",
+        "min_value": "0.0",
+        "tags": [
+          "energy"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "L-Living",
+        "current_value": "0",
+        "at": "03/21/2014 14:06:39",
+        "max_value": "600.0",
+        "min_value": "0.0",
+        "tags": [
+          "energy"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "L-Stairs",
+        "current_value": "0",
+        "at": "03/21/2014 14:06:39",
+        "max_value": "100.0",
+        "min_value": "0.0",
+        "tags": [
+          "energy"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "L-Xmas",
+        "current_value": "0",
+        "at": "05/09/2013 20:12:34",
+        "max_value": "20.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Outside_Humidity",
+        "current_value": "95",
+        "at": "03/21/2014 14:06:39",
+        "max_value": "100.0",
+        "min_value": "7.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Outside_Temperature",
+        "current_value": "34.0",
+        "at": "03/21/2014 14:06:39",
+        "max_value": "124.0",
+        "min_value": "16.3",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Outside_Wind_Direction",
+        "current_value": "2",
+        "at": "03/21/2014 14:06:39",
+        "max_value": "15.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Outside_Wind_Speed",
+        "current_value": "1.0",
+        "at": "03/21/2014 14:06:39",
+        "max_value": "36.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Wan_Kbs_In",
+        "current_value": "10",
+        "at": "03/21/2014 14:06:39",
+        "max_value": "288902.0",
+        "min_value": "0.0",
+        "tags": [
+          "rate"
+        ],
+        "unit": {
+          "symbol": "Kbps",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Wan_Kbs_Out",
+        "current_value": "3",
+        "at": "03/21/2014 14:06:39",
+        "max_value": "10219544.0",
+        "min_value": "0.0",
+        "tags": [
+          "rate"
+        ],
+        "unit": {
+          "symbol": "Kbps",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Wan_MB_In",
+        "current_value": "9348",
+        "at": "03/21/2014 14:06:39",
+        "max_value": "270201.0",
+        "min_value": "0.0",
+        "tags": [
+          "sum"
+        ],
+        "unit": {
+          "symbol": "MB",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Wan_MB_Out",
+        "current_value": "8584",
+        "at": "03/21/2014 14:06:39",
+        "max_value": "18395.0",
+        "min_value": "0.0",
+        "tags": [
+          "sum"
+        ],
+        "unit": {
+          "symbol": "MB",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Wan_Ratio_IO",
+        "current_value": "2",
+        "at": "03/21/2014 14:06:39",
+        "max_value": "306.0",
+        "min_value": "0.0",
+        "tags": [
+          "ratio"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Seattle",
+      "domain": 1,
+      "lat": "47.6659653877986",
+      "lon": "-122.315382957458",
+      "ele": "30",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/48835\" >Soggy Seattle</a>",
+    "URLMostrar": "https://xively.com/feeds/48835"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\48835.json",
+  "DocumentJSON": null
+}

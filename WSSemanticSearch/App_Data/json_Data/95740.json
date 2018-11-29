@@ -1,0 +1,105 @@
+{
+  "Conceptos": [
+    "man"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "95740",
+    "title": "KLYH Weather",
+    "Private": false,
+    "tags": [
+      "Humidity",
+      "Temperature",
+      "Wind Direction",
+      "Wind Speed"
+    ],
+    "description": "Weather conditions automatically retrieved from NOAA weather station at LYH airport.  Data are temperature (F), relative humidity, wind speed (MPH) and wind dir.",
+    "feed": "https://api.xively.com/v2/feeds/95740.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/05/2014 03:32:03",
+    "created": "01/03/2013 03:06:17",
+    "creator": "https://xively.com/users/vfnewman",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "25.0",
+        "at": "03/05/2014 03:32:02",
+        "max_value": "93.0",
+        "min_value": "14.0",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "Deg",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "66",
+        "at": "03/05/2014 03:32:02",
+        "max_value": "100.0",
+        "min_value": "12.0",
+        "tags": [
+          "Humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "0.0",
+        "at": "03/05/2014 03:32:02",
+        "max_value": "25.3",
+        "min_value": "0.0",
+        "tags": [
+          "Wind Speed"
+        ],
+        "unit": {
+          "symbol": "MPH",
+          "label": "MPH",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "0",
+        "at": "03/05/2014 03:32:02",
+        "max_value": "999.0",
+        "min_value": "0.0",
+        "tags": [
+          "Wind Dir"
+        ],
+        "unit": {
+          "symbol": "Deg",
+          "label": "Deg",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "37.3285771016674",
+      "lon": "-79.1990661621094",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/95740\" >KLYH Weather</a>",
+    "URLMostrar": "https://xively.com/feeds/95740"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\95740.json",
+  "DocumentJSON": null
+}

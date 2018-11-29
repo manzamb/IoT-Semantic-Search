@@ -1,0 +1,100 @@
+{
+  "Conceptos": [
+    "right"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "56340272",
+    "title": "RPi-SKKU",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/56340272.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:00:05",
+    "created": "12/16/2013 06:02:56",
+    "creator": "https://xively.com/users/jaeyeolhwang",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "19.29",
+        "at": "03/21/2014 14:00:04",
+        "max_value": "25.41",
+        "min_value": "11.88",
+        "tags": [
+          "TMP36 temperature sensor"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "20.42",
+        "at": "03/21/2014 14:00:04",
+        "max_value": "27.03",
+        "min_value": "13.01",
+        "tags": [
+          "HT-01DV (temperature)"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "23.9",
+        "at": "03/21/2014 14:00:04",
+        "max_value": "41.9",
+        "min_value": "11.5",
+        "tags": [
+          "HT-01DV (humidity)"
+        ],
+        "unit": {
+          "symbol": "%RH",
+          "label": "Relative Humidity",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "1485.64",
+        "at": "03/21/2014 14:00:04",
+        "max_value": "3106.64",
+        "min_value": "0.0",
+        "tags": [
+          "CdS LDR reading (brightness)"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "milli Volt",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "37.263573",
+      "lon": "127.028601",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/56340272\" >RPi-SKKU</a>",
+    "URLMostrar": "https://xively.com/feeds/56340272"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\56340272.json",
+  "DocumentJSON": null
+}

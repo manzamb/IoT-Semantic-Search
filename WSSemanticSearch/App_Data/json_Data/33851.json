@@ -1,0 +1,76 @@
+{
+  "Conceptos": [
+    "measurement  range"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "33851",
+    "title": "ALISO VIEJO GROSS GAMMA ENERGY (range2)",
+    "Private": false,
+    "tags": [
+      "(RANGE 2)",
+      "ALISO VIEJO",
+      "COUNTER",
+      "ENERGY",
+      "GAMMA",
+      "GEIGER",
+      "GROSS",
+      "ionizing",
+      "MONITOR 4",
+      "radiation",
+      "SE"
+    ],
+    "description": "SE MONITOR 4 ionizing radiation GEIGER COUNTER\r\nTHESE VALUES ARE TEST MEASUREMENTS ONLY",
+    "feed": "https://api.xively.com/v2/feeds/33851.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "01/14/2014 11:41:47",
+    "created": "08/05/2011 08:17:40",
+    "creator": "https://xively.com/users/persidion",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "1",
+        "current_value": "121",
+        "at": "01/14/2014 11:41:47",
+        "max_value": "244539.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "CPM",
+          "label": "counts per minute",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "0.09",
+        "at": "01/14/2014 11:41:47",
+        "max_value": "185.26",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "mR/h",
+          "label": "millirem per hour",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "WOOD CANYON ALISO VIEJO, CA 92656",
+      "domain": 0,
+      "lat": "33.554368",
+      "lon": "-117.730001",
+      "ele": "139.1",
+      "exposure": 1,
+      "disposition": 1
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/33851\" >ALISO VIEJO GROSS GAMMA ENERGY (range2)</a>",
+    "URLMostrar": "https://xively.com/feeds/33851"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\33851.json",
+  "DocumentJSON": null
+}

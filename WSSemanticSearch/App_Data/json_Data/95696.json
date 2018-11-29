@@ -1,0 +1,73 @@
+{
+  "Conceptos": [
+    "humedad"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "95696",
+    "title": "secadero",
+    "Private": false,
+    "tags": [
+      "16f1937",
+      "cafe",
+      "humedad",
+      "temperatura"
+    ],
+    "description": "Proyecto secadero Silo de Cafe",
+    "feed": "https://api.xively.com/v2/feeds/95696.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "01/04/2013 02:05:34",
+    "created": "01/02/2013 20:37:17",
+    "creator": "https://xively.com/users/i6tecnologia",
+    "version": null,
+    "website": "http://www.i6tecnologia.com",
+    "datastreams": [
+      {
+        "id": "humedad_id",
+        "current_value": "30",
+        "at": "03/15/2013 14:29:22",
+        "max_value": "50.0",
+        "min_value": "20.0",
+        "tags": [
+          "humedad"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "tempertura_id",
+        "current_value": "16",
+        "at": "03/15/2013 14:29:27",
+        "max_value": "25.0",
+        "min_value": "10.0",
+        "tags": [
+          "temperatura"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Pitalito",
+      "domain": 0,
+      "lat": "1.85173215409014",
+      "lon": "-76.0466766357422",
+      "ele": "1280",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/95696\" >secadero</a>",
+    "URLMostrar": "https://xively.com/feeds/95696"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\95696.json",
+  "DocumentJSON": null
+}

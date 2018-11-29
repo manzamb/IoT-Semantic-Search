@@ -1,0 +1,129 @@
+{
+  "Conceptos": [
+    "thermistor"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "46725",
+    "title": "Arduino Pachube Client Test",
+    "Private": false,
+    "tags": [
+      "Arduino",
+      "DS1820",
+      "Ethernet Shield",
+      "Humidity",
+      "LDR",
+      "Photocell",
+      "Sensitron",
+      "Sensor",
+      "SHT11",
+      "Temp",
+      "Thermistor",
+      "Uno"
+    ],
+    "description": "Arduino Uno\r\nArduino Ethernet Shield\r\nSensitron SHT11 Temp and Humidity Sensor\r\nThermistor\r\nLDR/Photocell\r\nDS1820\r\n",
+    "feed": "https://api.xively.com/v2/feeds/46725.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "02/09/2012 22:19:35",
+    "created": "02/03/2012 03:54:09",
+    "creator": "https://xively.com/users/bitdrift",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "67.459999",
+        "at": "02/09/2012 22:19:35",
+        "max_value": "77.125992",
+        "min_value": "-44.608002",
+        "tags": [
+          "SHT11 TEMP"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "Degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "36.346813",
+        "at": "02/09/2012 22:19:35",
+        "max_value": "81.728676",
+        "min_value": "26.984167",
+        "tags": [
+          "SHT11 Humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "Percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "68.751411",
+        "at": "02/09/2012 22:19:35",
+        "max_value": "73.176155",
+        "min_value": "64.811386",
+        "tags": [
+          "Thermistor"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "Degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "143",
+        "at": "02/09/2012 22:19:35",
+        "max_value": "921.0",
+        "min_value": "142.0",
+        "tags": [
+          "Ambient Light"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "61.812500",
+        "at": "02/09/2012 22:19:35",
+        "max_value": "185.0",
+        "min_value": "58.4375",
+        "tags": [
+          "DS1820"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "Degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Test Bench",
+      "domain": 0,
+      "lat": "43.2575807223197",
+      "lon": "-77.6283645629883",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/46725\" >Arduino Pachube Client Test</a>",
+    "URLMostrar": "https://xively.com/feeds/46725"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\46725.json",
+  "DocumentJSON": null
+}

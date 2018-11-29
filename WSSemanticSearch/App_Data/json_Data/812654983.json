@@ -1,0 +1,54 @@
+{
+  "Conceptos": [
+    "thermocouple"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "812654983",
+    "title": "Stove Monitor",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/812654983.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "11/18/2013 15:51:10",
+    "created": "11/06/2013 14:29:58",
+    "creator": "https://xively.com/users/zmatzkin",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "StoveTemp",
+        "current_value": "32",
+        "at": "11/18/2013 15:51:10",
+        "max_value": "691.25",
+        "min_value": "32.0",
+        "tags": [
+          "Temperature",
+          "Thermocouple",
+          "Woodstove"
+        ],
+        "unit": {
+          "symbol": "°F",
+          "label": "Degrees F",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "43.5959697216667",
+      "lon": "-70.238020775",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/812654983\" >Stove Monitor</a>",
+    "URLMostrar": "https://xively.com/feeds/812654983"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\812654983.json",
+  "DocumentJSON": null
+}

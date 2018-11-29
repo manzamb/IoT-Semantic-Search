@@ -1,0 +1,204 @@
+{
+  "Conceptos": [
+    "turbidity"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "5162",
+    "title": "ATOS WaterNet",
+    "Private": false,
+    "tags": null,
+    "description": "Water Quality Data from the ATOS Sensors. Data from AIMS.",
+    "feed": "https://api.xively.com/v2/feeds/5162.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "06/27/2010 22:00:31",
+    "created": "01/24/2010 23:36:47",
+    "creator": "https://xively.com/users/gbroos",
+    "version": null,
+    "website": "http://www.aims.gov.au",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "0.0",
+        "at": "06/27/2010 22:00:22",
+        "max_value": "2.0",
+        "min_value": "-2.0",
+        "tags": [
+          "Air Temp (Deg. C.)",
+          "Inlet Water Temp (Deg.C.)"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Deg. C.",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "0.0",
+        "at": "06/27/2010 22:00:23",
+        "max_value": "2.0",
+        "min_value": "-2.0",
+        "tags": [
+          "Baro. Pressure (hPa)",
+          "Mariculture Water Temp (Deg.C.)"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "0.0",
+        "at": "06/27/2010 22:00:24",
+        "max_value": "2.0",
+        "min_value": "-2.0",
+        "tags": [
+          "Inlet Salinity (PSU)",
+          "Max. Wind Speed (kph)"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "0.0",
+        "at": "06/27/2010 22:00:24",
+        "max_value": "2.0",
+        "min_value": "-2.0",
+        "tags": [
+          "Mariculture Salinity (PSU)",
+          "Rainfall to 9am (mm)"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "0.0",
+        "at": "06/27/2010 22:00:25",
+        "max_value": "2.0",
+        "min_value": "-2.0",
+        "tags": [
+          "Inlet Turbidity (NTU)",
+          "Water temp (Deg. C.)"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "0.0",
+        "at": "06/27/2010 22:00:26",
+        "max_value": "2.0",
+        "min_value": "-2.0",
+        "tags": [
+          "Mariculture Turbidity (NTU)",
+          "Water Depth (mBar)"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "0.0",
+        "at": "06/27/2010 22:00:29",
+        "max_value": "2.0",
+        "min_value": "-2.0",
+        "tags": [
+          "Inlet Chlorophyll",
+          "Salinity (PSU)"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "7",
+        "current_value": "0.0",
+        "at": "06/27/2010 22:00:31",
+        "max_value": "2.0",
+        "min_value": "-2.0",
+        "tags": [
+          "Dissolved O2",
+          "Mariculture Chlorophyll"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "8",
+        "current_value": "0.52",
+        "at": "05/29/2010 00:20:52",
+        "max_value": "2.0",
+        "min_value": "0.0",
+        "tags": [
+          "Chlorophyll"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "9",
+        "current_value": "7.74",
+        "at": "05/29/2010 00:20:52",
+        "max_value": "20.0",
+        "min_value": "0.0",
+        "tags": [
+          "Turbidity (NTU)"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "AIMS",
+      "domain": 0,
+      "lat": "-19.267683281434",
+      "lon": "147.055410503817",
+      "ele": "10",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/5162\" >ATOS WaterNet</a>",
+    "URLMostrar": "https://xively.com/feeds/5162"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\5162.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,132 @@
+{
+  "Conceptos": [
+    "wind"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "119374",
+    "title": "Weer Nijmegen",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/119374.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/11/2014 00:07:37",
+    "created": "03/16/2013 19:50:27",
+    "creator": "https://xively.com/users/6db",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "8.1",
+        "at": "03/11/2014 00:07:37",
+        "max_value": "37.9",
+        "min_value": "-3.2",
+        "tags": [
+          "Temperatuur"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "98",
+        "at": "03/11/2014 00:07:37",
+        "max_value": "355.0",
+        "min_value": "0.0",
+        "tags": [
+          "Windrichting"
+        ],
+        "unit": {
+          "symbol": "°",
+          "label": "°",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "0.0",
+        "at": "03/11/2014 00:07:37",
+        "max_value": "22.0",
+        "min_value": "0.0",
+        "tags": [
+          "Windsnelheid"
+        ],
+        "unit": {
+          "symbol": "Mph",
+          "label": "Mph",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "0",
+        "at": "03/11/2014 00:07:37",
+        "max_value": "1178.0",
+        "min_value": "0.0",
+        "tags": [
+          "Zonnekracht"
+        ],
+        "unit": {
+          "symbol": "W/m2",
+          "label": "W/m2",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "0.0",
+        "at": "03/11/2014 00:07:37",
+        "max_value": "7.0",
+        "min_value": "0.0",
+        "tags": [
+          "UV index"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "1=laag, 12=hoog",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "0.0",
+        "at": "03/11/2014 00:07:37",
+        "max_value": "1.8",
+        "min_value": "-2537.5",
+        "tags": [
+          "Neerslag"
+        ],
+        "unit": {
+          "symbol": "mm",
+          "label": "mm (1 uur)",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/119374\" >Weer Nijmegen</a>",
+    "URLMostrar": "https://xively.com/feeds/119374"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\119374.json",
+  "DocumentJSON": null
+}

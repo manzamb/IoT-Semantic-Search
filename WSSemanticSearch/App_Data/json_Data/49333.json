@@ -1,0 +1,79 @@
+{
+  "Conceptos": [
+    "environmental pollution"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "49333",
+    "title": "nyu_wipes",
+    "Private": false,
+    "tags": [
+      "air quality",
+      "arduino",
+      "breaths",
+      "wipes",
+      "xclinic:project=nyu_wipes"
+    ],
+    "description": "this will be be something about why and how we are captureing... \r\n\r\nbut tags are important for searching \r\n\r\nmachine tags\r\nproject name \r\ndata_type=greyness\r\ngiven me all of xclinic breaths ... \r\nsingle tag that has a hierarchy ... group name and values of those attribute\r\ngeo:lat=51.2",
+    "feed": "https://api.xively.com/v2/feeds/49333.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "02/29/2012 22:04:24",
+    "created": "02/22/2012 16:55:07",
+    "creator": "https://xively.com/users/nj6",
+    "version": null,
+    "website": "http://environmentalhealthclinic.net/projects/pmasks",
+    "datastreams": [
+      {
+        "id": "browness",
+        "current_value": "50",
+        "at": "02/29/2012 22:04:24",
+        "max_value": "50.0",
+        "min_value": "1.0",
+        "tags": [
+          "dust",
+          "human evaluated",
+          "particulates"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "greyness",
+        "current_value": "20",
+        "at": "02/29/2012 22:04:14",
+        "max_value": "20.0",
+        "min_value": "3.0",
+        "tags": [
+          "black carbon",
+          "human evaluated",
+          "particulates",
+          "pollution"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Barney Bldg and Environs, 34 stuyvesant Steet, 10003",
+      "domain": 0,
+      "lat": "40.7289336436949",
+      "lon": "-73.9890414476395",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/49333\" >nyu_wipes</a>",
+    "URLMostrar": "https://xively.com/feeds/49333"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\49333.json",
+  "DocumentJSON": null
+}

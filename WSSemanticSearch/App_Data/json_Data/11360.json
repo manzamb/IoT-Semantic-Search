@@ -1,0 +1,88 @@
+{
+  "Conceptos": [
+    "process"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "11360",
+    "title": "P206 Lab Testing",
+    "Private": false,
+    "tags": [
+      "Arduino",
+      "eeml",
+      "Electronics",
+      "Firmata",
+      "LM35",
+      "Peace 206",
+      "Photocell",
+      "Processing",
+      "processing.org",
+      "Texas",
+      "WCJC",
+      "WCJC Electronics",
+      "Wharton"
+    ],
+    "description": "Temperature and light level inside the electronics lab. This is a simple example of Arduino + Firmata + Processing.org",
+    "feed": "https://api.xively.com/v2/feeds/11360.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "10/07/2013 19:56:10",
+    "created": "10/25/2010 22:32:50",
+    "creator": "https://xively.com/users/electrodynatronic",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "midnight",
+        "at": "10/07/2013 19:56:09",
+        "max_value": "87102387.0",
+        "min_value": "0.0",
+        "tags": [
+          "Arduino",
+          "Electronics",
+          "Indoor",
+          "LM34",
+          "Peace 206",
+          "Temperature",
+          "WCJC"
+        ],
+        "unit": {
+          "symbol": "°F",
+          "label": "Fahrenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "nce",
+        "at": "10/07/2013 19:56:09",
+        "max_value": "1023881023.0",
+        "min_value": "0.0",
+        "tags": [
+          "Lighting"
+        ],
+        "unit": {
+          "symbol": "!",
+          "label": "Bogus",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "WCJC Peace 206 Lab",
+      "domain": 1,
+      "lat": "29.3258139527785",
+      "lon": "-96.0858035087585",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/11360\" >P206 Lab Testing</a>",
+    "URLMostrar": "https://xively.com/feeds/11360"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\11360.json",
+  "DocumentJSON": null
+}

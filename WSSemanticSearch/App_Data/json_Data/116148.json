@@ -1,0 +1,103 @@
+{
+  "Conceptos": [
+    "system"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "116148",
+    "title": "CE1",
+    "Private": false,
+    "tags": [
+      "ping",
+      "rtt"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/116148.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:10:41",
+    "created": "03/01/2013 11:49:46",
+    "creator": "https://xively.com/users/9dof",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "extStore",
+        "current_value": "440320",
+        "at": "06/01/2013 10:12:02",
+        "max_value": "443392.0",
+        "min_value": "440320.0",
+        "tags": [
+          "external storage"
+        ],
+        "unit": {
+          "symbol": "MB",
+          "label": "MB",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "pktloss",
+        "current_value": "100",
+        "at": "03/21/2014 14:10:41",
+        "max_value": "100.0",
+        "min_value": "0.0",
+        "tags": [
+          "packet loss"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "rtt",
+        "current_value": "65.082",
+        "at": "06/01/2013 10:05:33",
+        "max_value": "876.671",
+        "min_value": "55.849",
+        "tags": [
+          "rtt"
+        ],
+        "unit": {
+          "symbol": "ms",
+          "label": "ms",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "sysStore",
+        "current_value": "3891.2",
+        "at": "06/01/2013 10:12:02",
+        "max_value": "3993.6",
+        "min_value": "3891.2",
+        "tags": [
+          "system storage"
+        ],
+        "unit": {
+          "symbol": "MB",
+          "label": "MB",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/116148\" >CE1</a>",
+    "URLMostrar": "https://xively.com/feeds/116148"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\116148.json",
+  "DocumentJSON": null
+}

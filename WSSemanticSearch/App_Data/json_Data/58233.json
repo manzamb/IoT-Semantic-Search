@@ -1,0 +1,724 @@
+{
+  "Conceptos": [
+    "system"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "58233",
+    "title": "Syracuse Stage Plaza Paver System",
+    "Private": false,
+    "tags": null,
+    "description": "Syracuse Stage Plaza (part of the SU Connective Corridor Project) Paver System: monitors the operating state of the system and 40 weight-sensitive concrete pavers. Pressing on an active paver above its threshold plays a .wav sound specific to that paver. The system was created using LabVIEW.",
+    "feed": "https://api.xively.com/v2/feeds/58233.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:13:28",
+    "created": "05/04/2012 18:57:03",
+    "creator": "https://xively.com/users/pdgelling",
+    "version": null,
+    "website": "http://www.sensyr.com/capabilities/?p=720",
+    "datastreams": [
+      {
+        "id": "1",
+        "current_value": "1",
+        "at": "03/21/2014 14:13:26",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "System Enabled"
+        ],
+        "unit": {
+          "symbol": "#",
+          "label": "state",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "0",
+        "at": "03/21/2014 14:13:26",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "Autozero"
+        ],
+        "unit": {
+          "symbol": "#",
+          "label": "state",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "30",
+        "at": "03/21/2014 14:13:26",
+        "max_value": "25696.0",
+        "min_value": "0.0",
+        "tags": [
+          "Sounds Played"
+        ],
+        "unit": {
+          "symbol": "#",
+          "label": "count",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "0",
+        "at": "03/21/2014 14:13:26",
+        "max_value": "863.0",
+        "min_value": "0.0",
+        "tags": [
+          "Paver 01 Count"
+        ],
+        "unit": {
+          "symbol": "#",
+          "label": "count",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "4",
+        "at": "03/21/2014 14:13:26",
+        "max_value": "1224.0",
+        "min_value": "0.0",
+        "tags": [
+          "Paver 02 Count"
+        ],
+        "unit": {
+          "symbol": "#",
+          "label": "count",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "0",
+        "at": "03/21/2014 14:13:26",
+        "max_value": "720.0",
+        "min_value": "0.0",
+        "tags": [
+          "Paver 03 Count"
+        ],
+        "unit": {
+          "symbol": "#",
+          "label": "count",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "7",
+        "current_value": "0",
+        "at": "03/21/2014 14:13:26",
+        "max_value": "582.0",
+        "min_value": "0.0",
+        "tags": [
+          "Paver 04 Count"
+        ],
+        "unit": {
+          "symbol": "#",
+          "label": "count",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "8",
+        "current_value": "10",
+        "at": "03/21/2014 14:13:26",
+        "max_value": "2322.0",
+        "min_value": "0.0",
+        "tags": [
+          "Paver 05 Count"
+        ],
+        "unit": {
+          "symbol": "#",
+          "label": "count",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "9",
+        "current_value": "4",
+        "at": "03/21/2014 14:13:26",
+        "max_value": "1249.0",
+        "min_value": "0.0",
+        "tags": [
+          "Paver 06 Count"
+        ],
+        "unit": {
+          "symbol": "#",
+          "label": "count",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "10",
+        "current_value": "1",
+        "at": "03/21/2014 14:13:26",
+        "max_value": "1648.0",
+        "min_value": "0.0",
+        "tags": [
+          "Paver 07 Count"
+        ],
+        "unit": {
+          "symbol": "#",
+          "label": "count",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "11",
+        "current_value": "0",
+        "at": "03/21/2014 14:13:26",
+        "max_value": "996.0",
+        "min_value": "0.0",
+        "tags": [
+          "Paver 08 Count"
+        ],
+        "unit": {
+          "symbol": "#",
+          "label": "count",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "12",
+        "current_value": "0",
+        "at": "03/21/2014 14:13:26",
+        "max_value": "1063.0",
+        "min_value": "0.0",
+        "tags": [
+          "Paver 09 Count"
+        ],
+        "unit": {
+          "symbol": "#",
+          "label": "count",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "13",
+        "current_value": "1",
+        "at": "03/21/2014 14:13:26",
+        "max_value": "416.0",
+        "min_value": "0.0",
+        "tags": [
+          "Paver 10 Count"
+        ],
+        "unit": {
+          "symbol": "#",
+          "label": "count",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "14",
+        "current_value": "0",
+        "at": "03/21/2014 14:13:26",
+        "max_value": "1742.0",
+        "min_value": "0.0",
+        "tags": [
+          "Paver 11 Count"
+        ],
+        "unit": {
+          "symbol": "#",
+          "label": "count",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "15",
+        "current_value": "0",
+        "at": "03/21/2014 14:13:26",
+        "max_value": "1172.0",
+        "min_value": "0.0",
+        "tags": [
+          "Paver 12 Count"
+        ],
+        "unit": {
+          "symbol": "#",
+          "label": "count",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "16",
+        "current_value": "0",
+        "at": "03/21/2014 14:13:26",
+        "max_value": "628.0",
+        "min_value": "0.0",
+        "tags": [
+          "Paver 13 Count"
+        ],
+        "unit": {
+          "symbol": "#",
+          "label": "count",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "17",
+        "current_value": "0",
+        "at": "03/21/2014 14:13:26",
+        "max_value": "2251.0",
+        "min_value": "0.0",
+        "tags": [
+          "Paver 14 Count"
+        ],
+        "unit": {
+          "symbol": "#",
+          "label": "count",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "18",
+        "current_value": "2",
+        "at": "03/21/2014 14:13:26",
+        "max_value": "948.0",
+        "min_value": "0.0",
+        "tags": [
+          "Paver 15 Count"
+        ],
+        "unit": {
+          "symbol": "#",
+          "label": "count",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "19",
+        "current_value": "1",
+        "at": "03/21/2014 14:13:26",
+        "max_value": "653.0",
+        "min_value": "0.0",
+        "tags": [
+          "Paver 16 Count"
+        ],
+        "unit": {
+          "symbol": "#",
+          "label": "count",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "20",
+        "current_value": "0",
+        "at": "03/21/2014 14:13:26",
+        "max_value": "1028.0",
+        "min_value": "0.0",
+        "tags": [
+          "Paver 17 Count"
+        ],
+        "unit": {
+          "symbol": "#",
+          "label": "count",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "21",
+        "current_value": "0",
+        "at": "03/21/2014 14:13:26",
+        "max_value": "514.0",
+        "min_value": "0.0",
+        "tags": [
+          "Paver 18 Count"
+        ],
+        "unit": {
+          "symbol": "#",
+          "label": "count",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "22",
+        "current_value": "0",
+        "at": "03/21/2014 14:13:26",
+        "max_value": "945.0",
+        "min_value": "0.0",
+        "tags": [
+          "Paver 19 Count"
+        ],
+        "unit": {
+          "symbol": "#",
+          "label": "count",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "23",
+        "current_value": "0",
+        "at": "03/21/2014 14:13:26",
+        "max_value": "1054.0",
+        "min_value": "0.0",
+        "tags": [
+          "Paver 20 Count"
+        ],
+        "unit": {
+          "symbol": "#",
+          "label": "count",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "24",
+        "current_value": "2",
+        "at": "03/21/2014 14:13:26",
+        "max_value": "1298.0",
+        "min_value": "0.0",
+        "tags": [
+          "Paver 21 Count"
+        ],
+        "unit": {
+          "symbol": "#",
+          "label": "count",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "25",
+        "current_value": "0",
+        "at": "03/21/2014 14:13:26",
+        "max_value": "517.0",
+        "min_value": "0.0",
+        "tags": [
+          "Paver 22 Count"
+        ],
+        "unit": {
+          "symbol": "#",
+          "label": "count",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "26",
+        "current_value": "5",
+        "at": "03/21/2014 14:13:26",
+        "max_value": "1174.0",
+        "min_value": "0.0",
+        "tags": [
+          "Paver 23 Count"
+        ],
+        "unit": {
+          "symbol": "#",
+          "label": "count",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "27",
+        "current_value": "0",
+        "at": "03/21/2014 14:13:26",
+        "max_value": "1665.0",
+        "min_value": "0.0",
+        "tags": [
+          "Paver 24 Count"
+        ],
+        "unit": {
+          "symbol": "#",
+          "label": "count",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "28",
+        "current_value": "0",
+        "at": "03/21/2014 14:13:26",
+        "max_value": "613.0",
+        "min_value": "0.0",
+        "tags": [
+          "Paver 25 Count"
+        ],
+        "unit": {
+          "symbol": "#",
+          "label": "count",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "29",
+        "current_value": "0",
+        "at": "03/21/2014 14:13:26",
+        "max_value": "4094.0",
+        "min_value": "0.0",
+        "tags": [
+          "Paver 26 Count"
+        ],
+        "unit": {
+          "symbol": "#",
+          "label": "count",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "30",
+        "current_value": "0",
+        "at": "03/21/2014 14:13:26",
+        "max_value": "2260.0",
+        "min_value": "0.0",
+        "tags": [
+          "Paver 27 Count"
+        ],
+        "unit": {
+          "symbol": "#",
+          "label": "count",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "31",
+        "current_value": "0",
+        "at": "03/21/2014 14:13:26",
+        "max_value": "1072.0",
+        "min_value": "0.0",
+        "tags": [
+          "Paver 28 Count"
+        ],
+        "unit": {
+          "symbol": "#",
+          "label": "count",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "32",
+        "current_value": "0",
+        "at": "03/21/2014 14:13:26",
+        "max_value": "634.0",
+        "min_value": "0.0",
+        "tags": [
+          "Paver 29 Count"
+        ],
+        "unit": {
+          "symbol": "#",
+          "label": "count",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "33",
+        "current_value": "0",
+        "at": "03/21/2014 14:13:26",
+        "max_value": "527.0",
+        "min_value": "0.0",
+        "tags": [
+          "Paver 30 Count"
+        ],
+        "unit": {
+          "symbol": "#",
+          "label": "count",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "34",
+        "current_value": "0",
+        "at": "03/21/2014 14:13:26",
+        "max_value": "551.0",
+        "min_value": "0.0",
+        "tags": [
+          "Paver 31 Count"
+        ],
+        "unit": {
+          "symbol": "#",
+          "label": "count",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "35",
+        "current_value": "0",
+        "at": "03/21/2014 14:13:26",
+        "max_value": "789.0",
+        "min_value": "0.0",
+        "tags": [
+          "Paver 32 Count"
+        ],
+        "unit": {
+          "symbol": "#",
+          "label": "count",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "36",
+        "current_value": "0",
+        "at": "03/21/2014 14:13:26",
+        "max_value": "252.0",
+        "min_value": "0.0",
+        "tags": [
+          "Paver 33 Count"
+        ],
+        "unit": {
+          "symbol": "#",
+          "label": "count",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "37",
+        "current_value": "0",
+        "at": "03/21/2014 14:13:26",
+        "max_value": "102.0",
+        "min_value": "0.0",
+        "tags": [
+          "Paver 34 Count"
+        ],
+        "unit": {
+          "symbol": "#",
+          "label": "count",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "38",
+        "current_value": "0",
+        "at": "03/21/2014 14:13:26",
+        "max_value": "1019.0",
+        "min_value": "0.0",
+        "tags": [
+          "Paver 35 Count"
+        ],
+        "unit": {
+          "symbol": "#",
+          "label": "count",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "39",
+        "current_value": "0",
+        "at": "03/21/2014 14:13:26",
+        "max_value": "663.0",
+        "min_value": "0.0",
+        "tags": [
+          "Paver 36 Count"
+        ],
+        "unit": {
+          "symbol": "#",
+          "label": "count",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "40",
+        "current_value": "0",
+        "at": "03/21/2014 14:13:26",
+        "max_value": "1715.0",
+        "min_value": "0.0",
+        "tags": [
+          "Paver 37 Count"
+        ],
+        "unit": {
+          "symbol": "#",
+          "label": "count",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "41",
+        "current_value": "0",
+        "at": "03/21/2014 14:13:26",
+        "max_value": "822.0",
+        "min_value": "0.0",
+        "tags": [
+          "Paver 38 Count"
+        ],
+        "unit": {
+          "symbol": "#",
+          "label": "count",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "42",
+        "current_value": "0",
+        "at": "03/21/2014 14:13:26",
+        "max_value": "1835.0",
+        "min_value": "0.0",
+        "tags": [
+          "Paver 39 Count"
+        ],
+        "unit": {
+          "symbol": "#",
+          "label": "count",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "43",
+        "current_value": "0",
+        "at": "03/21/2014 14:13:26",
+        "max_value": "750.0",
+        "min_value": "0.0",
+        "tags": [
+          "Paver 40 Count"
+        ],
+        "unit": {
+          "symbol": "#",
+          "label": "count",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Syracuse Stage Plaza -- Connective Corridor",
+      "domain": 0,
+      "lat": "43.0467234508968",
+      "lon": "-76.1379723250866",
+      "ele": "124.66",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/58233\" >Syracuse Stage Plaza Paver System</a>",
+    "URLMostrar": "https://xively.com/feeds/58233"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\58233.json",
+  "DocumentJSON": null
+}

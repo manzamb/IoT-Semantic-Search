@@ -1,0 +1,393 @@
+{
+  "Conceptos": [
+    "wind"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "34982",
+    "title": "PELICAN - PV Generator",
+    "Private": false,
+    "tags": [
+      "HAH",
+      "PV",
+      "Solar",
+      "Watts"
+    ],
+    "description": "Solar generator ~4kW on WSW roof",
+    "feed": "https://api.xively.com/v2/feeds/34982.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:07:32",
+    "created": "08/31/2011 13:19:05",
+    "creator": "https://xively.com/users/freepower",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "12.41",
+        "at": "03/21/2014 14:07:31",
+        "max_value": "48.67",
+        "min_value": "0.0",
+        "tags": [
+          "DailyUSE"
+        ],
+        "unit": {
+          "symbol": "kWh",
+          "label": "kW",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "741.00",
+        "at": "03/21/2014 14:07:31",
+        "max_value": "17275.0",
+        "min_value": "14.0",
+        "tags": [
+          "MainsW"
+        ],
+        "unit": {
+          "symbol": "Watts",
+          "label": "Watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "657.00",
+        "at": "03/21/2014 14:07:31",
+        "max_value": "4000.0",
+        "min_value": "0.0",
+        "tags": [
+          "PelicanGEN"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "W",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "0.00",
+        "at": "03/21/2014 14:07:31",
+        "max_value": "3682.0",
+        "min_value": "-20.0",
+        "tags": [
+          "ExportW"
+        ],
+        "unit": {
+          "symbol": "Watts",
+          "label": "Watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "0.00",
+        "at": "03/21/2014 14:07:31",
+        "max_value": "3250.0",
+        "min_value": "0.0",
+        "tags": [
+          "PelicanBoiler"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "W",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "66.00",
+        "at": "03/21/2014 14:07:31",
+        "max_value": "17275.0",
+        "min_value": "0.0",
+        "tags": [
+          "ImportW"
+        ],
+        "unit": {
+          "symbol": "Watts",
+          "label": "Watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "11.50",
+        "at": "03/21/2014 14:07:31",
+        "max_value": "55.0",
+        "min_value": "-30.0",
+        "tags": [
+          "OutsideTemp"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "7",
+        "current_value": "18.90",
+        "at": "09/27/2013 17:58:32",
+        "max_value": "27.3",
+        "min_value": "8.7",
+        "tags": [
+          "PelicanTemp"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "8",
+        "current_value": "997.50",
+        "at": "03/21/2014 14:07:31",
+        "max_value": "1053.1",
+        "min_value": "0.0",
+        "tags": [
+          "Barometer"
+        ],
+        "unit": {
+          "symbol": "mBar",
+          "label": "mBar",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "9",
+        "current_value": "11.50",
+        "at": "03/21/2014 14:07:31",
+        "max_value": "97.3",
+        "min_value": "0.0",
+        "tags": [
+          "WindSpeed"
+        ],
+        "unit": {
+          "symbol": "MPH",
+          "label": "MPH",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "10",
+        "current_value": "0.00",
+        "at": "03/21/2014 14:07:31",
+        "max_value": "41.3",
+        "min_value": "0.0",
+        "tags": [
+          "PEEKSDailyKwH"
+        ],
+        "unit": {
+          "symbol": "kWh",
+          "label": "kW",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "11",
+        "current_value": "12.41",
+        "at": "03/21/2014 14:07:31",
+        "max_value": "48.67",
+        "min_value": "0.0",
+        "tags": [
+          "DailyKwH"
+        ],
+        "unit": {
+          "symbol": "kWh",
+          "label": "kW",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "12",
+        "current_value": "8.19",
+        "at": "10/06/2013 13:14:54",
+        "max_value": "24.65",
+        "min_value": "0.0",
+        "tags": [
+          "DailyGEN"
+        ],
+        "unit": {
+          "symbol": "kWh",
+          "label": "kW",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "13",
+        "current_value": "6.16",
+        "at": "03/21/2014 14:07:31",
+        "max_value": "16.28",
+        "min_value": "0.0",
+        "tags": [
+          "BoilerUSE"
+        ],
+        "unit": {
+          "symbol": "kWh",
+          "label": "kW",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "14",
+        "current_value": "-66.00",
+        "at": "03/21/2014 14:07:31",
+        "max_value": "3682.0",
+        "min_value": "-17275.0",
+        "tags": [
+          "Range"
+        ],
+        "unit": {
+          "symbol": "Watts",
+          "label": "Watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "15",
+        "current_value": "741.00",
+        "at": "03/21/2014 14:07:31",
+        "max_value": "4500.0",
+        "min_value": "0.0",
+        "tags": [
+          "PelicanRAW"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "W",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "16",
+        "current_value": "675.00",
+        "at": "03/21/2014 14:07:31",
+        "max_value": "16226.0",
+        "min_value": "0.0",
+        "tags": [
+          "GENi"
+        ],
+        "unit": {
+          "symbol": "Watts",
+          "label": "Watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "17",
+        "current_value": "741.00",
+        "at": "03/21/2014 14:07:31",
+        "max_value": "17275.0",
+        "min_value": "14.0",
+        "tags": [
+          "ESTi"
+        ],
+        "unit": {
+          "symbol": "Watts",
+          "label": "Watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "18",
+        "current_value": "741.00",
+        "at": "03/21/2014 14:07:31",
+        "max_value": "17275.0",
+        "min_value": "250.0",
+        "tags": [
+          "CALC"
+        ],
+        "unit": {
+          "symbol": "Watts",
+          "label": "Watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "19",
+        "current_value": "0.00",
+        "at": "03/21/2014 14:07:31",
+        "max_value": "16384.0",
+        "min_value": "0.0",
+        "tags": [
+          "BoilerW"
+        ],
+        "unit": {
+          "symbol": "Watts",
+          "label": "Watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "20",
+        "current_value": "13.90",
+        "at": "03/21/2014 14:07:31",
+        "max_value": "50.0",
+        "min_value": "-20.0",
+        "tags": [
+          "PorchTemp"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "21",
+        "current_value": "20.50",
+        "at": "07/15/2012 20:20:00",
+        "max_value": "20.5",
+        "min_value": "20.5",
+        "tags": [
+          "PelicanOfficeTemp"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Ringwood, Hampshire, UK",
+      "domain": 0,
+      "lat": "50.839606010562",
+      "lon": "-1.77085876464844",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/34982\" >PELICAN - PV Generator</a>",
+    "URLMostrar": "https://xively.com/feeds/34982"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\34982.json",
+  "DocumentJSON": null
+}

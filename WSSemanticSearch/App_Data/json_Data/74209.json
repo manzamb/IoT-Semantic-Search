@@ -1,0 +1,130 @@
+{
+  "Conceptos": [
+    "unit of measure"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "74209",
+    "title": "Ventilation",
+    "Private": false,
+    "tags": [
+      "Temperature Ventilation VENECO Arduino X-Board"
+    ],
+    "description": "This project is all about monitoring temperatures on a VENECO 4375 (a double flow ventilation unit with heat recovery).\r\nMeasures are acquired by a DFRobot \"x-board\" card programmed with Arduino IDE.\r\nSensors are four DS1820 OneWire placed in the 4 pipes on top of the ventilation unit:\r\n- inlet : the incoming fresh-air\r\n- insuflation : the air supplied to the house\r\n- extraction : the air extracted from the house\r\n- outlet : the used-air expelled on the roof\r\nNote: the \"Bypass\" feed is not yet implemented (status remains 1 even though it is always closed at the moment).\r\nThe \"Bypass\" device is used during summer: it bypasses the heat exchanger, providing the house with the fresh air from the night, minimizing the need for air conditioning.",
+    "feed": "https://api.xively.com/v2/feeds/74209.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:06:33",
+    "created": "09/06/2012 17:18:27",
+    "creator": "https://xively.com/users/sutai",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Attic",
+        "current_value": "18.6",
+        "at": "03/21/2014 14:06:33",
+        "max_value": "34.0",
+        "min_value": "-83.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Bypass",
+        "current_value": "1",
+        "at": "03/21/2014 14:06:33",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Extraction",
+        "current_value": "18.6",
+        "at": "03/21/2014 14:06:33",
+        "max_value": "28.3",
+        "min_value": "-127.0",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Inlet",
+        "current_value": "14.9",
+        "at": "03/21/2014 14:06:33",
+        "max_value": "34.9",
+        "min_value": "-127.0",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Insuflation",
+        "current_value": "18.3",
+        "at": "03/21/2014 14:06:33",
+        "max_value": "29.8",
+        "min_value": "-127.0",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Outlet",
+        "current_value": "15.2",
+        "at": "03/21/2014 14:06:33",
+        "max_value": "33.4",
+        "min_value": "-127.0",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Beauvais",
+      "domain": 0,
+      "lat": "49.4342406355879",
+      "lon": "2.0818018913269",
+      "ele": "66",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/74209\" >Ventilation</a>",
+    "URLMostrar": "https://xively.com/feeds/74209"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\74209.json",
+  "DocumentJSON": null
+}

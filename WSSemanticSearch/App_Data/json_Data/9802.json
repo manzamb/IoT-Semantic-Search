@@ -1,0 +1,132 @@
+{
+  "Conceptos": [
+    "wind"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "9802",
+    "title": "Weather Station in Vieste, Italy",
+    "Private": false,
+    "tags": null,
+    "description": "Courtesy of Weather Underground http://www.wunderground.com",
+    "feed": "https://api.xively.com/v2/feeds/9802.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/21/2014 01:36:32",
+    "created": "09/01/2010 13:46:02",
+    "creator": "https://xively.com/users/pietroblu",
+    "version": null,
+    "website": "http://www.wunderground.com/weatherstation/WXDailyHistory.asp?ID=IPUGLIAV2",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "10.6",
+        "at": "03/21/2014 01:36:31",
+        "max_value": "37.2",
+        "min_value": "-0.8",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "61",
+        "at": "03/21/2014 01:36:31",
+        "max_value": "95.0",
+        "min_value": "13.0",
+        "tags": [
+          "relative humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "percentage",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "5.8",
+        "at": "03/21/2014 01:36:31",
+        "max_value": "55.2",
+        "min_value": "0.0",
+        "tags": [
+          "wind speed"
+        ],
+        "unit": {
+          "symbol": "mph",
+          "label": "miles per hour",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "1022.6",
+        "at": "03/21/2014 01:36:31",
+        "max_value": "1036.8",
+        "min_value": "981.6",
+        "tags": [
+          "atmospheric pressure"
+        ],
+        "unit": {
+          "symbol": "mb",
+          "label": "millibar",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "0.0 cm",
+        "at": "03/21/2014 01:36:31",
+        "max_value": "55.2",
+        "min_value": "0.0",
+        "tags": [
+          "daily rain"
+        ],
+        "unit": {
+          "symbol": "cm",
+          "label": "cm",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "0.0",
+        "at": "03/21/2014 01:36:31",
+        "max_value": "15.6",
+        "min_value": "0.0",
+        "tags": [
+          "1h rain"
+        ],
+        "unit": {
+          "symbol": "cm",
+          "label": "cm",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Vieste",
+      "domain": 0,
+      "lat": "41.8826301523343",
+      "lon": "16.1703729629517",
+      "ele": "30",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/9802\" >Weather Station in Vieste, Italy</a>",
+    "URLMostrar": "https://xively.com/feeds/9802"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\9802.json",
+  "DocumentJSON": null
+}

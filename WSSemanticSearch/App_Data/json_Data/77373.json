@@ -1,0 +1,138 @@
+{
+  "Conceptos": [
+    "precision"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "77373",
+    "title": "ProtoDoorSensor",
+    "Private": false,
+    "tags": [
+      "3Axis AccelerometerXYZ",
+      "arduino",
+      "Light",
+      "Noise",
+      "Temperature"
+    ],
+    "description": "Arduino/WiFly shield. .csv upload based on Arduino forum example.",
+    "feed": "https://api.xively.com/v2/feeds/77373.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "07/01/2013 15:50:19",
+    "created": "09/25/2012 15:39:15",
+    "creator": "https://xively.com/users/esalskov",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Lights",
+        "current_value": "131.00",
+        "at": "07/01/2013 15:50:19",
+        "max_value": "413.0",
+        "min_value": "19.5",
+        "tags": [
+          "photo-resistor"
+        ],
+        "unit": {
+          "symbol": "Lux",
+          "label": "Lux",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Noises",
+        "current_value": "54.14",
+        "at": "07/01/2013 15:50:19",
+        "max_value": "109.89",
+        "min_value": "0.0",
+        "tags": [
+          "elctret microphone"
+        ],
+        "unit": {
+          "symbol": "dB",
+          "label": "dB",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temprs",
+        "current_value": "26.66",
+        "at": "07/01/2013 15:50:19",
+        "max_value": "33.5",
+        "min_value": "-14.36",
+        "tags": [
+          "TMP36 (precision temperature sensor)"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "X-Axis",
+        "current_value": "0.485",
+        "at": "07/01/2013 15:50:19",
+        "max_value": "0.92",
+        "min_value": "0.252",
+        "tags": [
+          "Accelerometer X-Axis"
+        ],
+        "unit": {
+          "symbol": "G",
+          "label": "G",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Y-Axis",
+        "current_value": "0.495",
+        "at": "07/01/2013 15:50:19",
+        "max_value": "0.598",
+        "min_value": "0.2",
+        "tags": [
+          "Accelerometer Y-Axis"
+        ],
+        "unit": {
+          "symbol": "G",
+          "label": "G",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Z-Axis",
+        "current_value": "0.190",
+        "at": "07/01/2013 15:50:19",
+        "max_value": "0.735",
+        "min_value": "0.056",
+        "tags": [
+          "Accelerometer Z-Axis"
+        ],
+        "unit": {
+          "symbol": "G",
+          "label": "G",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Labs",
+      "domain": 0,
+      "lat": "45.54259",
+      "lon": "-122.96053",
+      "ele": "120",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/77373\" >ProtoDoorSensor</a>",
+    "URLMostrar": "https://xively.com/feeds/77373"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\77373.json",
+  "DocumentJSON": null
+}

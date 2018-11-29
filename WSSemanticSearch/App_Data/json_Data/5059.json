@@ -1,0 +1,110 @@
+{
+  "Conceptos": [
+    "radioactivity"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "5059",
+    "title": "Labomedia atmo EM radioactivity pollution",
+    "Private": false,
+    "tags": null,
+    "description": "we set up several sensors @ labomedia's place : figaro sensors on atmospheric pollution, a device to reveal electromagnetic pollution and an old geiger compter to mesure radioactivity",
+    "feed": "https://api.xively.com/v2/feeds/5059.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "06/01/2011 14:50:09",
+    "created": "01/22/2010 17:07:56",
+    "creator": "https://xively.com/users/labomedia",
+    "version": null,
+    "website": "http://labomedia.net",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "241.0",
+        "at": "06/01/2011 14:50:09",
+        "max_value": "967.0",
+        "min_value": "0.0",
+        "tags": [
+          "LDR",
+          "light level",
+          "light sensor"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "0.0",
+        "at": "07/14/2010 16:52:52",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "analogRead1",
+          "pollution atmo COV",
+          "pollution sensor"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "0.0",
+        "at": "07/14/2010 16:52:52",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "analogRead2",
+          "biofeedback",
+          "button",
+          "digitalRead2"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "0.0",
+        "at": "07/14/2010 16:52:52",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "analogRead3",
+          "button2",
+          "digitalRead5",
+          "Pollution electromagnetic"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Le108",
+      "domain": 0,
+      "lat": "47.900606557393",
+      "lon": "1.91372394561768",
+      "ele": "100m",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/5059\" >Labomedia atmo EM radioactivity pollution</a>",
+    "URLMostrar": "https://xively.com/feeds/5059"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\5059.json",
+  "DocumentJSON": null
+}

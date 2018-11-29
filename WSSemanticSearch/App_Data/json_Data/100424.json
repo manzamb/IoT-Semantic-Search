@@ -1,0 +1,94 @@
+{
+  "Conceptos": [
+    "viento"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "100424",
+    "title": "Testing TuViento.com project",
+    "Private": false,
+    "tags": [
+      "Pruebas"
+    ],
+    "description": "Testing stuff for TuViento.com project",
+    "feed": "https://api.xively.com/v2/feeds/100424.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "07/27/2013 11:54:56",
+    "created": "01/25/2013 23:10:22",
+    "creator": "https://xively.com/users/migama",
+    "version": null,
+    "website": "http://www.tuviento.com",
+    "datastreams": [
+      {
+        "id": "GW_Temp",
+        "current_value": "27.60",
+        "at": "07/27/2013 11:54:56",
+        "max_value": "30.14",
+        "min_value": "15.94",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "SGS01_Pack_ID",
+        "current_value": "-14490",
+        "at": "07/27/2013 11:54:56",
+        "max_value": "32767.0",
+        "min_value": "-32768.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "SGS01_Temp",
+        "current_value": "363",
+        "at": "07/27/2013 11:54:56",
+        "max_value": "534.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "SGS01_VBat",
+        "current_value": "3861",
+        "at": "07/27/2013 11:54:56",
+        "max_value": "3870.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Granada",
+      "domain": 0,
+      "lat": "37.110974941348",
+      "lon": "-3.63841652870178",
+      "ele": "600",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/100424\" >Testing TuViento.com project</a>",
+    "URLMostrar": "https://xively.com/feeds/100424"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\100424.json",
+  "DocumentJSON": null
+}

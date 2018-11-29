@@ -1,0 +1,100 @@
+{
+  "Conceptos": [
+    "temperatura"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "103400",
+    "title": "Meteo Turriaco",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/103400.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/14/2014 01:26:56",
+    "created": "02/08/2013 14:10:29",
+    "creator": "https://xively.com/users/angelosan",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "22.1",
+        "at": "03/14/2014 01:26:56",
+        "max_value": "36.2",
+        "min_value": "-4.9",
+        "tags": [
+          "Temperatura"
+        ],
+        "unit": {
+          "symbol": "gradi",
+          "label": "gradi",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "20",
+        "at": "03/14/2014 01:26:56",
+        "max_value": "100.0",
+        "min_value": "0.0",
+        "tags": [
+          "Umidità"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "percentuale",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "4.9",
+        "at": "03/14/2014 01:26:56",
+        "max_value": "37.1",
+        "min_value": "0.0",
+        "tags": [
+          "Vento"
+        ],
+        "unit": {
+          "symbol": "Mph",
+          "label": "Mph",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "1028.0",
+        "at": "03/14/2014 01:26:56",
+        "max_value": "1035.1",
+        "min_value": "989.1",
+        "tags": [
+          "Pressione"
+        ],
+        "unit": {
+          "symbol": "mb",
+          "label": "Millibar",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Turriaco",
+      "domain": 0,
+      "lat": "45.823257533823",
+      "lon": "13.4495702023773",
+      "ele": "9",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/103400\" >Meteo Turriaco</a>",
+    "URLMostrar": "https://xively.com/feeds/103400"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\103400.json",
+  "DocumentJSON": null
+}

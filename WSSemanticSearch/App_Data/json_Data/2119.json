@@ -1,0 +1,90 @@
+{
+  "Conceptos": [
+    "color"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "2119",
+    "title": "Boulder's first networked CurrentCost meter",
+    "Private": false,
+    "tags": null,
+    "description": "A CurrentCost CC128 (Envi) meter that monitors a 220V residence with two CTs. Located in Boulder, Colorado.",
+    "feed": "https://api.xively.com/v2/feeds/2119.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "11/23/2010 17:13:07",
+    "created": "06/14/2009 20:53:33",
+    "creator": "https://xively.com/users/pasrich",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "62.4",
+        "at": "11/23/2010 17:13:07",
+        "max_value": "79.9",
+        "min_value": "49.8",
+        "tags": [
+          "degrees",
+          "fahrenheit",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "Fahrenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "32.0",
+        "at": "11/23/2010 17:13:07",
+        "max_value": "6020.0",
+        "min_value": "25.0",
+        "tags": [
+          "electricity",
+          "power",
+          "watts"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "108.0",
+        "at": "11/23/2010 17:13:07",
+        "max_value": "5436.0",
+        "min_value": "22.0",
+        "tags": [
+          "electricity",
+          "power",
+          "watts"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Boulder, CO",
+      "domain": 0,
+      "lat": "40.0161512903322",
+      "lon": "-105.251701371744",
+      "ele": "5430",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/2119\" >Boulder's first networked CurrentCost meter</a>",
+    "URLMostrar": "https://xively.com/feeds/2119"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\2119.json",
+  "DocumentJSON": null
+}

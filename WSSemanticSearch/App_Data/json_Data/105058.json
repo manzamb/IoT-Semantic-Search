@@ -1,0 +1,136 @@
+{
+  "Conceptos": [
+    "project"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "105058",
+    "title": "Air Quality Monitor",
+    "Private": false,
+    "tags": [
+      "air quality",
+      "arduino",
+      "project:name=Air_Quality_Monitor"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/105058.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:12:57",
+    "created": "02/17/2013 01:37:48",
+    "creator": "https://xively.com/users/toddgilbert",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "ABS_Humidity",
+        "current_value": "6.34",
+        "at": "03/21/2014 14:12:57",
+        "max_value": "16.22",
+        "min_value": "0.0",
+        "tags": [
+          "Absolute Humidity"
+        ],
+        "unit": {
+          "symbol": "g/m^3",
+          "label": "g/m^3",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "AQ_Ratio",
+        "current_value": "571.66",
+        "at": "03/21/2014 14:12:57",
+        "max_value": "1000.0",
+        "min_value": "0.0",
+        "tags": [
+          "Air Quality Sensor Resistance"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "AQ_Resistance",
+        "current_value": "57.30",
+        "at": "03/21/2014 14:12:57",
+        "max_value": "121.15",
+        "min_value": "0.0",
+        "tags": [
+          "Air Quality Sensor Resistance"
+        ],
+        "unit": {
+          "symbol": "kOhm",
+          "label": "kOhm",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Humidity",
+        "current_value": "37.59",
+        "at": "03/21/2014 14:12:57",
+        "max_value": "100.0",
+        "min_value": "0.0",
+        "tags": [
+          "Relative Humidity"
+        ],
+        "unit": {
+          "symbol": "RH",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Light",
+        "current_value": "0.14",
+        "at": "03/21/2014 14:12:57",
+        "max_value": "5869.57",
+        "min_value": "0.0",
+        "tags": [
+          "Ambient Light Intensity"
+        ],
+        "unit": {
+          "symbol": "Lx",
+          "label": "Lux",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperature",
+        "current_value": "19.37",
+        "at": "03/21/2014 14:12:57",
+        "max_value": "30.0",
+        "min_value": "0.0",
+        "tags": [
+          "Ambient Temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "51.0275763378024",
+      "lon": "-114.0380859375",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/105058\" >Air Quality Monitor</a>",
+    "URLMostrar": "https://xively.com/feeds/105058"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\105058.json",
+  "DocumentJSON": null
+}

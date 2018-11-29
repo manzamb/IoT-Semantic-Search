@@ -1,0 +1,199 @@
+{
+  "Conceptos": [
+    "azione"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "81252",
+    "title": "CronoTermostato",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "Temperatura"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/81252.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:14:01",
+    "created": "10/20/2012 16:59:09",
+    "creator": "https://xively.com/users/jurgen",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Automatico",
+        "current_value": "1",
+        "at": "03/21/2014 14:14:00",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "0 Off - 1 On",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Caldo",
+        "current_value": "19.50",
+        "at": "03/21/2014 14:14:00",
+        "max_value": "21.0",
+        "min_value": "19.5",
+        "tags": null,
+        "unit": {
+          "symbol": "°C",
+          "label": "Gradi Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Campione",
+        "current_value": "5",
+        "at": "03/21/2014 14:14:00",
+        "max_value": "5.0",
+        "min_value": "5.0",
+        "tags": null,
+        "unit": {
+          "symbol": "min",
+          "label": "Minuti",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Fiamma",
+        "current_value": "0",
+        "at": "03/21/2014 14:14:00",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "0 Off - 1 On",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Freddo",
+        "current_value": "14.50",
+        "at": "03/21/2014 14:14:00",
+        "max_value": "14.5",
+        "min_value": "14.5",
+        "tags": null,
+        "unit": {
+          "symbol": "°C",
+          "label": "Gradi Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Porta",
+        "current_value": "0",
+        "at": "03/21/2014 14:14:00",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Programma",
+        "current_value": "1",
+        "at": "03/21/2014 14:14:00",
+        "max_value": "3.0",
+        "min_value": "1.0",
+        "tags": null,
+        "unit": {
+          "symbol": "Tipo",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temp_Est",
+        "current_value": "26.19",
+        "at": "03/21/2014 14:14:00",
+        "max_value": "44.25",
+        "min_value": "-4.13",
+        "tags": [
+          "Temperatura Esterna"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Gradi Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temp_Int",
+        "current_value": "19.87",
+        "at": "03/21/2014 14:14:00",
+        "max_value": "31.94",
+        "min_value": "-0.06",
+        "tags": [
+          "Temperatura Interna"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Gradi Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Termostato",
+        "current_value": "1",
+        "at": "03/21/2014 14:14:00",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "0 Off - 1 On",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Z11",
+        "current_value": "1111111111111111111111111111111111000000000000000000000000001111111111111111111111110000000000000",
+        "at": "11/29/2012 08:59:03",
+        "max_value": "1.11111111111111e+96",
+        "min_value": "1.11111111111111e+96",
+        "tags": [
+          "Programmazione"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Sorbano del Giudice",
+      "domain": 0,
+      "lat": "43.8254248232682",
+      "lon": "10.5115127563477",
+      "ele": "10",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/81252\" >CronoTermostato</a>",
+    "URLMostrar": "https://xively.com/feeds/81252"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\81252.json",
+  "DocumentJSON": null
+}

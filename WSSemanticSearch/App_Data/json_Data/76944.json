@@ -1,0 +1,642 @@
+{
+  "Conceptos": [
+    "radioactivity"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "76944",
+    "title": "contrechoc's living room",
+    "Private": false,
+    "tags": [
+      "air pressure",
+      "arduino",
+      "radioactivity",
+      "sound",
+      "temperature"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/76944.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "05/20/2013 19:52:27",
+    "created": "09/22/2012 18:09:30",
+    "creator": "https://xively.com/users/contrechoc",
+    "version": null,
+    "website": "http://www.contrechoc.com",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "812",
+        "at": "05/20/2013 19:52:26",
+        "max_value": "1023.0",
+        "min_value": "0.0",
+        "tags": [
+          "light_LDR"
+        ],
+        "unit": {
+          "symbol": "%RH",
+          "label": "Relative Humidity",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "476",
+        "at": "05/20/2013 19:52:26",
+        "max_value": "499.0",
+        "min_value": "0.0",
+        "tags": [
+          "temp_KT_130"
+        ],
+        "unit": {
+          "symbol": "%RH",
+          "label": "Relative Humidity",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "66",
+        "at": "05/20/2013 19:52:26",
+        "max_value": "83.0",
+        "min_value": "-8717.0",
+        "tags": [
+          "sensor-MQ2"
+        ],
+        "unit": {
+          "symbol": "%RH",
+          "label": "Relative Humidity",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "201",
+        "at": "05/20/2013 19:52:26",
+        "max_value": "541.0",
+        "min_value": "0.0",
+        "tags": [
+          "sensor-TGS_822"
+        ],
+        "unit": {
+          "symbol": "%RH",
+          "label": "Relative Humidity",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "100",
+        "at": "05/20/2013 19:52:26",
+        "max_value": "350657.0",
+        "min_value": "0.0",
+        "tags": [
+          "PIR_ON_OFF"
+        ],
+        "unit": {
+          "symbol": "%RH",
+          "label": "Relative Humidity",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "740",
+        "at": "04/01/2013 19:23:07",
+        "max_value": "892675.0",
+        "min_value": "0.0",
+        "tags": [
+          "sound_piezo_frige"
+        ],
+        "unit": {
+          "symbol": "%RH",
+          "label": "Relative Humidity",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "191",
+        "at": "05/20/2013 19:52:26",
+        "max_value": "18692.0",
+        "min_value": "0.0",
+        "tags": [
+          "sensor-MQ3"
+        ],
+        "unit": {
+          "symbol": "%RH",
+          "label": "Relative Humidity",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "7",
+        "current_value": "289",
+        "at": "05/20/2013 19:52:26",
+        "max_value": "18692.0",
+        "min_value": "0.0",
+        "tags": [
+          "sensor-MQ7"
+        ],
+        "unit": {
+          "symbol": "%RH",
+          "label": "Relative Humidity",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "8",
+        "current_value": "188",
+        "at": "05/20/2013 19:52:26",
+        "max_value": "600.0",
+        "min_value": "0.0",
+        "tags": [
+          "sensor-MQ5"
+        ],
+        "unit": {
+          "symbol": "%RH",
+          "label": "Relative Humidity",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "9",
+        "current_value": "640",
+        "at": "04/01/2013 19:23:07",
+        "max_value": "1020.0",
+        "min_value": "0.0",
+        "tags": [
+          "sound_electret"
+        ],
+        "unit": {
+          "symbol": "%RH",
+          "label": "Relative Humidity",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "10",
+        "current_value": "500",
+        "at": "05/20/2013 19:52:26",
+        "max_value": "500.0",
+        "min_value": "0.0",
+        "tags": [
+          "humidity_dht11"
+        ],
+        "unit": {
+          "symbol": "%RH",
+          "label": "Relative Humidity",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "11",
+        "current_value": "127",
+        "at": "02/25/2013 10:22:47",
+        "max_value": "130.0",
+        "min_value": "-8001.0",
+        "tags": [
+          "temperature_HDPM01"
+        ],
+        "unit": {
+          "symbol": "%RH",
+          "label": "Relative Humidity",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "12",
+        "current_value": "78",
+        "at": "04/01/2013 19:23:07",
+        "max_value": "1055.0",
+        "min_value": "0.0",
+        "tags": [
+          "pressure_HDPM01"
+        ],
+        "unit": {
+          "symbol": "%RH",
+          "label": "Relative Humidity",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "13",
+        "current_value": "127",
+        "at": "02/25/2013 10:22:47",
+        "max_value": "1255.0",
+        "min_value": "-8001.0",
+        "tags": [
+          "temperature_HDPM01"
+        ],
+        "unit": {
+          "symbol": "%RH",
+          "label": "Relative Humidity",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "14",
+        "current_value": "134",
+        "at": "05/20/2013 19:52:26",
+        "max_value": "2359.0",
+        "min_value": "0.0",
+        "tags": [
+          "time_chip"
+        ],
+        "unit": {
+          "symbol": "%RH",
+          "label": "Relative Humidity",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "15",
+        "current_value": "105",
+        "at": "05/20/2013 19:52:26",
+        "max_value": "183341.0",
+        "min_value": "0.0",
+        "tags": [
+          "sensor-MQ6"
+        ],
+        "unit": {
+          "symbol": "%RH",
+          "label": "Relative Humidity",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "16",
+        "current_value": "1020",
+        "at": "04/01/2013 19:23:07",
+        "max_value": "1020.0",
+        "min_value": "-10000.0",
+        "tags": [
+          "sound_piezo_boiler"
+        ],
+        "unit": {
+          "symbol": "%RH",
+          "label": "Relative Humidity",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "17",
+        "current_value": "169",
+        "at": "05/20/2013 19:52:26",
+        "max_value": "332797.0",
+        "min_value": "-10000.0",
+        "tags": [
+          "temp_ds18b20"
+        ],
+        "unit": {
+          "symbol": "%RH",
+          "label": "Relative Humidity",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "18",
+        "current_value": "170",
+        "at": "05/20/2013 19:52:26",
+        "max_value": "360.0",
+        "min_value": "0.0",
+        "tags": [
+          "temp_dht11"
+        ],
+        "unit": {
+          "symbol": "%RH",
+          "label": "Relative Humidity",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "19",
+        "current_value": "650",
+        "at": "05/20/2013 19:52:26",
+        "max_value": "1024.0",
+        "min_value": "0.0",
+        "tags": [
+          "ldr_2"
+        ],
+        "unit": {
+          "symbol": "%RH",
+          "label": "Relative Humidity",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "humidity_dht11",
+        "current_value": "420",
+        "at": "02/10/2013 11:17:59",
+        "max_value": "15450.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "light_LDR",
+        "current_value": "1016",
+        "at": "02/10/2013 11:17:59",
+        "max_value": "1023.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "messageCount_RM12",
+        "current_value": "7",
+        "at": "02/10/2013 11:17:59",
+        "max_value": "26.0",
+        "min_value": "-31.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "PIR_ON_OFF",
+        "current_value": "100",
+        "at": "02/10/2013 11:17:59",
+        "max_value": "100.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "pressure_HDPM01",
+        "current_value": "0",
+        "at": "02/10/2013 11:17:39",
+        "max_value": "1040.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "sensor-MQ2",
+        "current_value": "59",
+        "at": "02/10/2013 11:17:59",
+        "max_value": "73.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "sensor-MQ3",
+        "current_value": "137",
+        "at": "02/10/2013 11:17:59",
+        "max_value": "282.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "sensor-MQ5",
+        "current_value": "163",
+        "at": "02/10/2013 11:17:59",
+        "max_value": "251.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "sensor-MQ6",
+        "current_value": "104",
+        "at": "02/10/2013 11:17:39",
+        "max_value": "406.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "sensor-MQ7",
+        "current_value": "269",
+        "at": "02/10/2013 11:17:59",
+        "max_value": "533.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "sensor-TGS_822",
+        "current_value": "362",
+        "at": "02/10/2013 11:17:59",
+        "max_value": "699.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "sound_electret",
+        "current_value": "510",
+        "at": "02/10/2013 11:17:59",
+        "max_value": "1020.0",
+        "min_value": "-7907.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "sound_piezo_boiler",
+        "current_value": "0",
+        "at": "02/10/2013 11:17:39",
+        "max_value": "1020.0",
+        "min_value": "-16.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "sound_piezo_frige",
+        "current_value": "0",
+        "at": "02/10/2013 11:17:59",
+        "max_value": "1020.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "tem",
+        "current_value": null,
+        "at": null,
+        "max_value": null,
+        "min_value": null,
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temp_dht11",
+        "current_value": "150",
+        "at": "02/10/2013 11:17:39",
+        "max_value": "180.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temp_ds18b20",
+        "current_value": "-10000",
+        "at": "02/10/2013 11:17:39",
+        "max_value": "0.0",
+        "min_value": "-10000.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temperature_HDPM01",
+        "current_value": "0",
+        "at": "02/10/2013 11:17:39",
+        "max_value": "171.0",
+        "min_value": "-17776.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temp_KT_130",
+        "current_value": "467",
+        "at": "02/10/2013 11:17:59",
+        "max_value": "475.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "time_chip",
+        "current_value": "1222",
+        "at": "02/10/2013 11:17:39",
+        "max_value": "2359.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "51.9170881784598",
+      "lon": "4.43821907043457",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/76944\" >contrechoc's living room</a>",
+    "URLMostrar": "https://xively.com/feeds/76944"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\76944.json",
+  "DocumentJSON": null
+}

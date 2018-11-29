@@ -1,0 +1,74 @@
+{
+  "Conceptos": [
+    "radioactivity"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "22314",
+    "title": "Radioactivity of water [Osaka]",
+    "Private": false,
+    "tags": [
+      "sensor:env=water",
+      "sensor:object=water",
+      "sensor:type=radiation"
+    ],
+    "description": "Radioactivity in water via  http://atmc.jp/water/\nUpdated once in a day.",
+    "feed": "https://api.xively.com/v2/feeds/22314.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "01/21/2013 09:36:44",
+    "created": "04/07/2011 23:32:33",
+    "creator": "https://xively.com/users/kaoru622",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "0",
+        "at": "11/10/2012 01:37:36",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "Iodine 131",
+          "radiation sensor"
+        ],
+        "unit": {
+          "symbol": "Bq/kg",
+          "label": "Unit of each plot radioactivity",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "0",
+        "at": "11/10/2012 01:37:36",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "Cesium 137",
+          "radiation sensor"
+        ],
+        "unit": {
+          "symbol": "Bq/kg",
+          "label": "Unit of each plot radioactivity",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "osaka,osaka,Japan",
+      "domain": 1,
+      "lat": "34.6695703189045",
+      "lon": "135.497603416443",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/22314\" >Radioactivity of water [Osaka]</a>",
+    "URLMostrar": "https://xively.com/feeds/22314"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\22314.json",
+  "DocumentJSON": null
+}

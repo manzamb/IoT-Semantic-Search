@@ -1,0 +1,70 @@
+{
+  "Conceptos": [
+    "longitud"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "103173",
+    "title": "Akkerweb",
+    "Private": false,
+    "tags": [
+      "Fuel",
+      "Latitude",
+      "Longitude"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/103173.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "02/08/2013 22:16:03",
+    "created": "02/07/2013 16:09:39",
+    "creator": "https://xively.com/users/ardnieuwenhuizen",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "CPUTemperature",
+        "current_value": "53",
+        "at": "02/08/2013 22:37:46",
+        "max_value": "53.0",
+        "min_value": "24.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "FuelConsumption",
+        "current_value": "10",
+        "at": "02/07/2013 16:14:03",
+        "max_value": "11.0",
+        "min_value": "10.0",
+        "tags": [
+          "Fuel"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "L/hr",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Wageningen",
+      "domain": 0,
+      "lat": "51.9857258998492",
+      "lon": "5.65984725952148",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/103173\" >Akkerweb</a>",
+    "URLMostrar": "https://xively.com/feeds/103173"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\103173.json",
+  "DocumentJSON": null
+}

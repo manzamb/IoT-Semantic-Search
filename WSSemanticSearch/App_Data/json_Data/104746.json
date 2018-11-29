@@ -1,0 +1,148 @@
+{
+  "Conceptos": [
+    "frequency"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "104746",
+    "title": "RaspberryPi System Status",
+    "Private": false,
+    "tags": [
+      "cpu",
+      "hdd",
+      "memory",
+      "raspberry pi",
+      "raspberyypi",
+      "rpi",
+      "stats",
+      "system status",
+      "temperature"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/104746.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "11/05/2013 12:48:02",
+    "created": "02/15/2013 14:49:20",
+    "creator": "https://xively.com/users/naesk",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "cpu",
+        "current_value": "2",
+        "at": "11/05/2013 12:48:02",
+        "max_value": "70.0",
+        "min_value": "1.0",
+        "tags": [
+          "cpu",
+          "cpu usage"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "cpu_freq",
+        "current_value": "800",
+        "at": "11/05/2013 12:48:02",
+        "max_value": "900.0",
+        "min_value": "100.0",
+        "tags": [
+          "cpu",
+          "cpu frequency"
+        ],
+        "unit": {
+          "symbol": "MHz",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "cpu_temp",
+        "current_value": "44.9",
+        "at": "11/05/2013 12:48:02",
+        "max_value": "56.8",
+        "min_value": "29.9",
+        "tags": [
+          "cpu",
+          "cpu temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "hdd",
+        "current_value": "4254",
+        "at": "11/05/2013 12:48:02",
+        "max_value": "5663.0",
+        "min_value": "4191.0",
+        "tags": [
+          "disk",
+          "hdd"
+        ],
+        "unit": {
+          "symbol": "Mb",
+          "label": "Mb",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "mem_free",
+        "current_value": "78",
+        "at": "11/05/2013 12:48:02",
+        "max_value": "438.0",
+        "min_value": "7.0",
+        "tags": [
+          "free memory",
+          "memory"
+        ],
+        "unit": {
+          "symbol": "Mb",
+          "label": "Mb",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "mem_used",
+        "current_value": "360",
+        "at": "11/05/2013 12:48:02",
+        "max_value": "475.0",
+        "min_value": "47.0",
+        "tags": [
+          "memory",
+          "used memory"
+        ],
+        "unit": {
+          "symbol": "Mb",
+          "label": "Mb",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Home, UK",
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": "3",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/104746\" >RaspberryPi System Status</a>",
+    "URLMostrar": "https://xively.com/feeds/104746"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\104746.json",
+  "DocumentJSON": null
+}

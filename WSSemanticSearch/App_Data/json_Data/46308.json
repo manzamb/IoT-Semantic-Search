@@ -1,0 +1,132 @@
+{
+  "Conceptos": [
+    "wind"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "46308",
+    "title": "Windspeed1",
+    "Private": false,
+    "tags": null,
+    "description": "Windmessung 1 mit 6 Sensoren",
+    "feed": "https://api.xively.com/v2/feeds/46308.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:06:08",
+    "created": "01/30/2012 06:41:25",
+    "creator": "https://xively.com/users/tbfsolar",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Sensor01",
+        "current_value": "-11.66",
+        "at": "03/21/2014 14:06:07",
+        "max_value": "180.0",
+        "min_value": "-45.11",
+        "tags": [
+          "v1"
+        ],
+        "unit": {
+          "symbol": "v1",
+          "label": "km/h",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Sensor02",
+        "current_value": "41.15",
+        "at": "03/21/2014 14:06:07",
+        "max_value": "161.96",
+        "min_value": "-43.57",
+        "tags": [
+          "v2"
+        ],
+        "unit": {
+          "symbol": "v2",
+          "label": "km/h",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Sensor03",
+        "current_value": "51.27",
+        "at": "03/21/2014 14:06:07",
+        "max_value": "174.72",
+        "min_value": "-45.11",
+        "tags": [
+          "v3"
+        ],
+        "unit": {
+          "symbol": "v3",
+          "label": "km/h",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Sensor04",
+        "current_value": "77.68",
+        "at": "03/21/2014 14:06:07",
+        "max_value": "169.44",
+        "min_value": "-45.11",
+        "tags": [
+          "v4"
+        ],
+        "unit": {
+          "symbol": "v4",
+          "label": "km/h",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Sensor05",
+        "current_value": "56.77",
+        "at": "03/21/2014 14:06:07",
+        "max_value": "139.29",
+        "min_value": "-45.11",
+        "tags": [
+          "v5"
+        ],
+        "unit": {
+          "symbol": "v5",
+          "label": "km/h",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Sensor06",
+        "current_value": "-38.29",
+        "at": "03/21/2014 14:06:07",
+        "max_value": "97.92",
+        "min_value": "-45.11",
+        "tags": [
+          "v6"
+        ],
+        "unit": {
+          "symbol": "v6",
+          "label": "km/h",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Bad Hersfeld",
+      "domain": 0,
+      "lat": "50.8640444932375",
+      "lon": "9.71603393554688",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/46308\" >Windspeed1</a>",
+    "URLMostrar": "https://xively.com/feeds/46308"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\46308.json",
+  "DocumentJSON": null
+}

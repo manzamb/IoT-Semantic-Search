@@ -1,0 +1,159 @@
+{
+  "Conceptos": [
+    "man"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "106178",
+    "title": "Solnechnoye Weather",
+    "Private": false,
+    "tags": [
+      "air",
+      "indoor",
+      "work"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/106178.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:13:19",
+    "created": "02/22/2013 09:48:03",
+    "creator": "https://xively.com/users/mandmkelly",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "20.9",
+        "at": "03/21/2014 14:13:19",
+        "max_value": "33.6",
+        "min_value": "11.3",
+        "tags": [
+          "BMP085",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "˚C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "30.1",
+        "at": "03/21/2014 14:13:19",
+        "max_value": "5631.9",
+        "min_value": "3.4",
+        "tags": [
+          "DHT22",
+          "humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "Percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "98584.0",
+        "at": "03/21/2014 14:13:19",
+        "max_value": "54555560.0",
+        "min_value": "96360.0",
+        "tags": [
+          "BMP085",
+          "pressure"
+        ],
+        "unit": {
+          "symbol": "Pa",
+          "label": "Pascals",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "96",
+        "current_value": "231.3",
+        "at": "03/21/2014 14:13:19",
+        "max_value": "4580.2",
+        "min_value": "-102370.1",
+        "tags": [
+          "altitude",
+          "BMP085"
+        ],
+        "unit": {
+          "symbol": "m",
+          "label": "m",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "97",
+        "current_value": "19.8",
+        "at": "03/21/2014 14:13:19",
+        "max_value": "3276.7",
+        "min_value": "0.2",
+        "tags": [
+          "DHT22",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "˚C",
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "98",
+        "current_value": "739.4",
+        "at": "03/21/2014 14:13:19",
+        "max_value": "409200.4",
+        "min_value": "722.8",
+        "tags": [
+          "BMP085",
+          "pressure"
+        ],
+        "unit": {
+          "symbol": "mmHg",
+          "label": "mmHg",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "99",
+        "current_value": "6.8",
+        "at": "03/21/2014 14:13:19",
+        "max_value": "1031.2",
+        "min_value": "-2023.3",
+        "tags": [
+          "DS18B20",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "˚C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Solnechnoye, Russia 197739",
+      "domain": 0,
+      "lat": "60.1588517726602",
+      "lon": "29.9274444580076",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/106178\" >Solnechnoye Weather</a>",
+    "URLMostrar": "https://xively.com/feeds/106178"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\106178.json",
+  "DocumentJSON": null
+}

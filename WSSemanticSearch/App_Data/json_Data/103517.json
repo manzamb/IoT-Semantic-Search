@@ -1,0 +1,104 @@
+{
+  "Conceptos": [
+    "co2"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "103517",
+    "title": "CAR-IAQ-04",
+    "Private": false,
+    "tags": [
+      "CO2",
+      "RH",
+      "Temp"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/103517.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "01/10/2014 10:22:51",
+    "created": "02/09/2013 09:27:02",
+    "creator": "https://xively.com/users/car",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "1",
+        "current_value": "1180",
+        "at": "01/10/2014 10:22:50",
+        "max_value": "2009.0",
+        "min_value": "387.0",
+        "tags": [
+          "CO2"
+        ],
+        "unit": {
+          "symbol": "ppm",
+          "label": "ppm",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "23.7",
+        "at": "01/10/2014 10:22:50",
+        "max_value": "31.8",
+        "min_value": "17.9",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "ºC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "43.9",
+        "at": "01/10/2014 10:22:50",
+        "max_value": "62.7",
+        "min_value": "22.7",
+        "tags": [
+          "RH"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "10.68",
+        "at": "01/10/2014 10:22:50",
+        "max_value": "18.89",
+        "min_value": "0.88",
+        "tags": [
+          "Dew Point"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "ºC",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/103517\" >CAR-IAQ-04</a>",
+    "URLMostrar": "https://xively.com/feeds/103517"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\103517.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,112 @@
+{
+  "Conceptos": [
+    "humedad"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "418270729",
+    "title": "mbed1",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/418270729.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "07/26/2013 22:26:18",
+    "created": "07/09/2013 16:24:30",
+    "creator": "https://xively.com/users/txutxi",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "humedad",
+        "current_value": "4.819048",
+        "at": "07/26/2013 22:26:18",
+        "max_value": "33.0",
+        "min_value": "0.0",
+        "tags": [
+          "humedad"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "Porcentaje",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "orientation",
+        "current_value": "left",
+        "at": "07/26/2013 22:26:18",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "radiacion",
+        "current_value": "0.217582",
+        "at": "07/26/2013 22:26:18",
+        "max_value": "32.967766",
+        "min_value": "0.0",
+        "tags": [
+          "radiacion"
+        ],
+        "unit": {
+          "symbol": "W/m²",
+          "label": "Watios",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "side_rotation",
+        "current_value": "front",
+        "at": "07/26/2013 22:26:18",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temperature",
+        "current_value": "33.750000",
+        "at": "07/26/2013 22:26:18",
+        "max_value": "37.0",
+        "min_value": "25.25",
+        "tags": [
+          "TMP_ITC"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "Grados",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "ITC",
+      "domain": 0,
+      "lat": "28.4627043",
+      "lon": "-16.2747831",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/418270729\" >mbed1</a>",
+    "URLMostrar": "https://xively.com/feeds/418270729"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\418270729.json",
+  "DocumentJSON": null
+}

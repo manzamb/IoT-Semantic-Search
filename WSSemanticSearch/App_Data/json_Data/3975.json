@@ -1,0 +1,68 @@
+{
+  "Conceptos": [
+    "community"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "3975",
+    "title": "testing pachulib",
+    "Private": false,
+    "tags": null,
+    "description": "Pachulib upload mem_free and swap_free datastreams from /proc/meminfo each 10 minutes (cron job).\r\n\r\nThe program is running 24/7 at home.\r\n\r\nTesting pachulib c code.\r\n\r\nvisit website if want to play this code.\r\n\r\npachulib api tutorial:\r\n\r\nhttp://community.pachube.com/node/337\r\n",
+    "feed": "https://api.xively.com/v2/feeds/3975.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "08/21/2011 10:45:17",
+    "created": "12/18/2009 12:17:43",
+    "creator": "https://xively.com/users/min0n",
+    "version": null,
+    "website": "http://sourceforge.net/projects/pachulib/",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "200720",
+        "at": "08/21/2011 10:45:17",
+        "max_value": "662236.0",
+        "min_value": "7624.0",
+        "tags": [
+          "mem_free"
+        ],
+        "unit": {
+          "symbol": "KB",
+          "label": "KB",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "2607064",
+        "at": "08/21/2011 10:45:17",
+        "max_value": "2649024.0",
+        "min_value": "2044548.0",
+        "tags": [
+          "swap_free"
+        ],
+        "unit": {
+          "symbol": "KB",
+          "label": "KB",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "My Room",
+      "domain": 0,
+      "lat": "41.6564330665767",
+      "lon": "-0.882940292358398",
+      "ele": "0.2",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/3975\" >testing pachulib</a>",
+    "URLMostrar": "https://xively.com/feeds/3975"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\3975.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,108 @@
+{
+  "Conceptos": [
+    "humidity"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "43573",
+    "title": "Room monitor",
+    "Private": false,
+    "tags": [
+      "Air pressure",
+      "Arduino",
+      "external wall insulation",
+      "high airtight",
+      "Humidity",
+      "outer insulting method",
+      "temperature"
+    ],
+    "description": "this house is woodframe house & \"outer insulting method\".\r\n(two-storied building,external wall insulation & high airtight)\r\nthis room(the second floor) with north facing windows cannot get sunshine.\r\n0     air temperature                                           LM35\r\n1     measure of humidity                                  HMZ-333\r\n2     air pressure                                                 MPL115A2\r\n3     air temperature                                           MPL115A2\r\nChange  sensor  & hardware  march 28\r\n\r\nPlan\r\n     De'longhi oil-fille radiator current           \r\n     Room Air Con　current\r\ncontroller Arduino",
+    "feed": "https://api.xively.com/v2/feeds/43573.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:07:08",
+    "created": "01/05/2012 12:27:28",
+    "creator": "https://xively.com/users/minoru",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "11.328125",
+        "at": "03/21/2014 14:07:07",
+        "max_value": "503.64673",
+        "min_value": "0.0",
+        "tags": [
+          "Thermo"
+        ],
+        "unit": {
+          "symbol": "℃",
+          "label": "℃",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "62.736584",
+        "at": "03/21/2014 14:07:07",
+        "max_value": "149.70732",
+        "min_value": "0.0",
+        "tags": [
+          "Humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "1022.922900",
+        "at": "03/21/2014 14:07:07",
+        "max_value": "1040.7136",
+        "min_value": "0.0",
+        "tags": [
+          "Air pressure"
+        ],
+        "unit": {
+          "symbol": "hPa",
+          "label": "hPa",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "12.476635",
+        "at": "03/21/2014 14:07:07",
+        "max_value": "39.205608",
+        "min_value": "7.056074",
+        "tags": [
+          "Thermo"
+        ],
+        "unit": {
+          "symbol": "℃",
+          "label": "℃",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Japan Nisinomiya",
+      "domain": 0,
+      "lat": "0",
+      "lon": "0",
+      "ele": "8",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/43573\" >Room monitor</a>",
+    "URLMostrar": "https://xively.com/feeds/43573"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\43573.json",
+  "DocumentJSON": null
+}

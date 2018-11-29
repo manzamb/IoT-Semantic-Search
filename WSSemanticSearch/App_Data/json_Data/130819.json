@@ -1,0 +1,579 @@
+{
+  "Conceptos": [
+    "o3"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "130819",
+    "title": "BC egg 5",
+    "Private": false,
+    "tags": [
+      "device:type=Air Quality Egg",
+      "device:type=airqualityegg"
+    ],
+    "description": "Seacoast High School, Revere Public,\r\nHanging outside my 2nd floor window facing east and marsh",
+    "feed": "https://api.xively.com/v2/feeds/130819.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "12/23/2013 15:11:51",
+    "created": "05/08/2013 15:22:21",
+    "creator": "https://xively.com/users/airqualityegg",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "CO_00-00-00-00-00-00_1",
+        "current_value": "-2147483648",
+        "at": "11/01/2013 17:57:08",
+        "max_value": "-2147483648.0",
+        "min_value": "-2147483648.0",
+        "tags": [
+          "aqe:data_origin=computed",
+          "aqe:firmware_version=32",
+          "aqe:sensor_address=00:00:00:00:00:00",
+          "aqe:sensor_index=1",
+          "aqe:sensor_type=CO"
+        ],
+        "unit": {
+          "symbol": "ppb",
+          "label": "ppb",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "CO_00-04-a3-ad-90-bb_1",
+        "current_value": "-2147483648",
+        "at": "12/23/2013 15:04:49",
+        "max_value": "32298.0",
+        "min_value": "-2147483648.0",
+        "tags": [
+          "aqe:data_origin=computed",
+          "aqe:firmware_version=32",
+          "aqe:sensor_address=00:04:a3:ad:90:bb",
+          "aqe:sensor_index=1",
+          "aqe:sensor_type=CO"
+        ],
+        "unit": {
+          "symbol": "ppb",
+          "label": "ppb",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "CO_r0_00-00-00-00-00-00_1",
+        "current_value": "750000",
+        "at": "11/01/2013 17:57:00",
+        "max_value": "750000.0",
+        "min_value": "750000.0",
+        "tags": [
+          "aqe:data_origin=r0",
+          "aqe:firmware_version=32",
+          "aqe:sensor_address=00:00:00:00:00:00",
+          "aqe:sensor_index=1",
+          "aqe:sensor_type=CO"
+        ],
+        "unit": {
+          "symbol": "ohms",
+          "label": "ohms",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "CO_r0_00-04-a3-ad-90-bb_1",
+        "current_value": "0",
+        "at": "12/23/2013 15:04:44",
+        "max_value": "750000.0",
+        "min_value": "-821333584.0",
+        "tags": [
+          "aqe:data_origin=r0",
+          "aqe:firmware_version=32",
+          "aqe:sensor_address=00:04:a3:ad:90:bb",
+          "aqe:sensor_index=1",
+          "aqe:sensor_type=CO"
+        ],
+        "unit": {
+          "symbol": "ohms",
+          "label": "ohms",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "CO_raw_00-00-00-00-00-00_1",
+        "current_value": "0",
+        "at": "11/01/2013 17:56:52",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "aqe:data_origin=raw",
+          "aqe:firmware_version=32",
+          "aqe:sensor_address=00:00:00:00:00:00",
+          "aqe:sensor_index=1",
+          "aqe:sensor_type=COCO_raw"
+        ],
+        "unit": {
+          "symbol": "ohms",
+          "label": "ohms",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "CO_raw_00-04-a3-ad-90-bb_1",
+        "current_value": "121419",
+        "at": "12/23/2013 15:09:04",
+        "max_value": "4574864.0",
+        "min_value": "46521.0",
+        "tags": [
+          "aqe:data_origin=raw",
+          "aqe:firmware_version=32",
+          "aqe:sensor_address=00:04:a3:ad:90:bb",
+          "aqe:sensor_index=1",
+          "aqe:sensor_type=COCO_raw"
+        ],
+        "unit": {
+          "symbol": "ohms",
+          "label": "ohms",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Dust_00-00-00-00-00-00_0",
+        "current_value": "0",
+        "at": "12/23/2013 15:02:40",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "aqe:data_origin=computed",
+          "aqe:firmware_version=32",
+          "aqe:sensor_address=00:00:00:00:00:00",
+          "aqe:sensor_index=0",
+          "aqe:sensor_type=Dust"
+        ],
+        "unit": {
+          "symbol": "pcs/283ml",
+          "label": "pcs/283ml",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Dust_00-04-a3-ad-b0-7b_0",
+        "current_value": "0",
+        "at": "12/09/2013 10:56:22",
+        "max_value": "29419.0",
+        "min_value": "0.0",
+        "tags": [
+          "aqe:data_origin=computed",
+          "aqe:firmware_version=32",
+          "aqe:sensor_address=00:04:a3:ad:b0:7b",
+          "aqe:sensor_index=0",
+          "aqe:sensor_type=Dust"
+        ],
+        "unit": {
+          "symbol": "pcs/283ml",
+          "label": "pcs/283ml",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Dust_r0_00-00-00-00-00-00_0",
+        "current_value": "-34049",
+        "at": "12/23/2013 15:02:35",
+        "max_value": "-34049.0",
+        "min_value": "-34049.0",
+        "tags": [
+          "aqe:data_origin=r0",
+          "aqe:firmware_version=32",
+          "aqe:sensor_address=00:00:00:00:00:00",
+          "aqe:sensor_index=0",
+          "aqe:sensor_type=Dust"
+        ],
+        "unit": {
+          "symbol": "ohms",
+          "label": "ohms",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Dust_r0_00-04-a3-ad-b0-7b_0",
+        "current_value": "-34049",
+        "at": "12/09/2013 10:56:17",
+        "max_value": "100.0",
+        "min_value": "-34049.0",
+        "tags": [
+          "aqe:data_origin=r0",
+          "aqe:firmware_version=32",
+          "aqe:sensor_address=00:04:a3:ad:b0:7b",
+          "aqe:sensor_index=0",
+          "aqe:sensor_type=Dust"
+        ],
+        "unit": {
+          "symbol": "ohms",
+          "label": "ohms",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Dust_raw_00-00-00-00-00-00_0",
+        "current_value": "0",
+        "at": "12/23/2013 15:02:30",
+        "max_value": "10000.0",
+        "min_value": "0.0",
+        "tags": [
+          "aqe:data_origin=raw",
+          "aqe:firmware_version=32",
+          "aqe:sensor_address=00:00:00:00:00:00",
+          "aqe:sensor_index=0",
+          "aqe:sensor_type=DustDust_raw"
+        ],
+        "unit": {
+          "symbol": "ohms",
+          "label": "ohms",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Dust_raw_00-04-a3-ad-b0-7b_0",
+        "current_value": "0",
+        "at": "12/09/2013 10:56:09",
+        "max_value": "2936.0",
+        "min_value": "0.0",
+        "tags": [
+          "aqe:data_origin=raw",
+          "aqe:firmware_version=32",
+          "aqe:sensor_address=00:04:a3:ad:b0:7b",
+          "aqe:sensor_index=0",
+          "aqe:sensor_type=DustDust_raw"
+        ],
+        "unit": {
+          "symbol": "ohms",
+          "label": "ohms",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Humidity_00-04-a3-ad-a8-5a_1",
+        "current_value": "99",
+        "at": "12/23/2013 15:11:51",
+        "max_value": "99.0",
+        "min_value": "-1.0",
+        "tags": [
+          "aqe:data_origin=computed",
+          "aqe:firmware_version=32",
+          "aqe:sensor_address=00:04:a3:ad:a8:5a",
+          "aqe:sensor_index=1",
+          "aqe:sensor_type=Humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "NO2_00-00-00-00-00-00_0",
+        "current_value": "-2147483648",
+        "at": "11/01/2013 17:56:44",
+        "max_value": "-2147483648.0",
+        "min_value": "-2147483648.0",
+        "tags": [
+          "aqe:data_origin=computed",
+          "aqe:firmware_version=32",
+          "aqe:sensor_address=00:00:00:00:00:00",
+          "aqe:sensor_index=0",
+          "aqe:sensor_type=NO2"
+        ],
+        "unit": {
+          "symbol": "ppb",
+          "label": "ppb",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "NO2_00-04-a3-ad-90-bb_0",
+        "current_value": "2",
+        "at": "12/23/2013 15:09:00",
+        "max_value": "130767.0",
+        "min_value": "-2147483648.0",
+        "tags": [
+          "aqe:data_origin=computed",
+          "aqe:firmware_version=32",
+          "aqe:sensor_address=00:04:a3:ad:90:bb",
+          "aqe:sensor_index=0",
+          "aqe:sensor_type=NO2"
+        ],
+        "unit": {
+          "symbol": "ppb",
+          "label": "ppb",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "NO2_r0_00-00-00-00-00-00_0",
+        "current_value": "2200",
+        "at": "11/01/2013 17:56:35",
+        "max_value": "2200.0",
+        "min_value": "2200.0",
+        "tags": [
+          "aqe:data_origin=r0",
+          "aqe:firmware_version=32",
+          "aqe:sensor_address=00:00:00:00:00:00",
+          "aqe:sensor_index=0",
+          "aqe:sensor_type=NO2"
+        ],
+        "unit": {
+          "symbol": "ohms",
+          "label": "ohms",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "NO2_r0_00-04-a3-ad-90-bb_0",
+        "current_value": "29848",
+        "at": "12/23/2013 15:08:53",
+        "max_value": "1313812992.0",
+        "min_value": "2200.0",
+        "tags": [
+          "aqe:data_origin=r0",
+          "aqe:firmware_version=32",
+          "aqe:sensor_address=00:04:a3:ad:90:bb",
+          "aqe:sensor_index=0",
+          "aqe:sensor_type=NO2"
+        ],
+        "unit": {
+          "symbol": "ohms",
+          "label": "ohms",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "NO2_raw_00-00-00-00-00-00_0",
+        "current_value": "0",
+        "at": "11/01/2013 17:57:22",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "aqe:data_origin=raw",
+          "aqe:firmware_version=32",
+          "aqe:sensor_address=00:00:00:00:00:00",
+          "aqe:sensor_index=0",
+          "aqe:sensor_type=NO2NO2_raw"
+        ],
+        "unit": {
+          "symbol": "ohms",
+          "label": "ohms",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "NO2_raw_00-04-a3-ad-90-bb_0",
+        "current_value": "8527",
+        "at": "12/23/2013 15:08:48",
+        "max_value": "124786208.0",
+        "min_value": "0.0",
+        "tags": [
+          "aqe:data_origin=raw",
+          "aqe:firmware_version=32",
+          "aqe:sensor_address=00:04:a3:ad:90:bb",
+          "aqe:sensor_index=0",
+          "aqe:sensor_type=NO2NO2_raw"
+        ],
+        "unit": {
+          "symbol": "ohms",
+          "label": "ohms",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "NO2_raw_4e-4f-32-00-00-00_0",
+        "current_value": "-7",
+        "at": "12/23/2013 14:41:15",
+        "max_value": "-7.0",
+        "min_value": "-7.0",
+        "tags": [
+          "aqe:data_origin=raw",
+          "aqe:firmware_version=0",
+          "aqe:sensor_address=4e:4f:32:00:00:00",
+          "aqe:sensor_index=0",
+          "aqe:sensor_type=NO2NO2_raw"
+        ],
+        "unit": {
+          "symbol": "ohms",
+          "label": "ohms",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "O3_00-04-a3-8c-24-5d_0",
+        "current_value": "0",
+        "at": "12/23/2013 15:09:29",
+        "max_value": "7278.0",
+        "min_value": "-2147483648.0",
+        "tags": [
+          "aqe:data_origin=computed",
+          "aqe:firmware_version=32",
+          "aqe:sensor_address=00:04:a3:8c:24:5d",
+          "aqe:sensor_index=0",
+          "aqe:sensor_type=O3"
+        ],
+        "unit": {
+          "symbol": "ppb",
+          "label": "ppb",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "O3_r0_00-04-a3-8c-24-5d_0",
+        "current_value": "118129929",
+        "at": "12/23/2013 15:09:24",
+        "max_value": "118129929.0",
+        "min_value": "11000.0",
+        "tags": [
+          "aqe:data_origin=r0",
+          "aqe:firmware_version=32",
+          "aqe:sensor_address=00:04:a3:8c:24:5d",
+          "aqe:sensor_index=0",
+          "aqe:sensor_type=O3"
+        ],
+        "unit": {
+          "symbol": "ohms",
+          "label": "ohms",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "O3_raw_00-04-a3-8c-24-5d_0",
+        "current_value": "281600",
+        "at": "12/23/2013 15:09:19",
+        "max_value": "204395392.0",
+        "min_value": "0.0",
+        "tags": [
+          "aqe:data_origin=raw",
+          "aqe:firmware_version=32",
+          "aqe:sensor_address=00:04:a3:8c:24:5d",
+          "aqe:sensor_index=0",
+          "aqe:sensor_type=O3O3_raw"
+        ],
+        "unit": {
+          "symbol": "ohms",
+          "label": "ohms",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperature_00-04-a3-ad-a8-5a_0",
+        "current_value": "0",
+        "at": "12/23/2013 15:11:51",
+        "max_value": "65.0",
+        "min_value": "-11.0",
+        "tags": [
+          "aqe:data_origin=computed",
+          "aqe:firmware_version=32",
+          "aqe:sensor_address=00:04:a3:ad:a8:5a",
+          "aqe:sensor_index=0",
+          "aqe:sensor_type=Temperature"
+        ],
+        "unit": {
+          "symbol": "deg C",
+          "label": "deg C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "VOC_00-04-a3-37-de-01_0",
+        "current_value": "-66094772",
+        "at": "12/23/2013 15:02:25",
+        "max_value": "30.0",
+        "min_value": "-2147483648.0",
+        "tags": [
+          "aqe:data_origin=computed",
+          "aqe:firmware_version=32",
+          "aqe:sensor_address=00:04:a3:37:de:01",
+          "aqe:sensor_index=0",
+          "aqe:sensor_type=VOC"
+        ],
+        "unit": {
+          "symbol": "ppm",
+          "label": "ppm",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "VOC_r0_00-04-a3-37-de-01_0",
+        "current_value": "758",
+        "at": "12/23/2013 15:05:14",
+        "max_value": "1500000.0",
+        "min_value": "2.0",
+        "tags": [
+          "aqe:data_origin=r0",
+          "aqe:firmware_version=32",
+          "aqe:sensor_address=00:04:a3:37:de:01",
+          "aqe:sensor_index=0",
+          "aqe:sensor_type=VOC"
+        ],
+        "unit": {
+          "symbol": "ohms",
+          "label": "ohms",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "VOC_raw_00-04-a3-37-de-01_0",
+        "current_value": "2419630",
+        "at": "12/23/2013 15:05:09",
+        "max_value": "5833714.0",
+        "min_value": "40577.0",
+        "tags": [
+          "aqe:data_origin=raw",
+          "aqe:firmware_version=32",
+          "aqe:sensor_address=00:04:a3:37:de:01",
+          "aqe:sensor_index=0",
+          "aqe:sensor_type=VOCVOC_raw"
+        ],
+        "unit": {
+          "symbol": "ohms",
+          "label": "ohms",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "42.3348635",
+      "lon": "-71.1688228",
+      "ele": "20 ft",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/130819\" >BC egg 5</a>",
+    "URLMostrar": "https://xively.com/feeds/130819"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\130819.json",
+  "DocumentJSON": null
+}

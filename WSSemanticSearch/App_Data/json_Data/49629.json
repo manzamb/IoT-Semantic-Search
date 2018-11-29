@@ -1,0 +1,120 @@
+{
+  "Conceptos": [
+    "temperatura"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "49629",
+    "title": "CONDADO  W265",
+    "Private": false,
+    "tags": [
+      "AC",
+      "Puerta",
+      "Temperatura"
+    ],
+    "description": "DITECnet15\r\n10.100.10.25",
+    "feed": "https://api.xively.com/v2/feeds/49629.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:10:26",
+    "created": "02/24/2012 17:59:55",
+    "creator": "https://xively.com/users/tvcable_watching",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "AC",
+        "current_value": "1",
+        "at": "03/21/2014 14:10:26",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "Alimentación AC"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "0=FALLA / 1=OK",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "PT1",
+        "current_value": "1",
+        "at": "03/21/2014 14:10:26",
+        "max_value": "1.097",
+        "min_value": "0.0",
+        "tags": [
+          "Puerta 1"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "0=ABIERTA / 1=CERRADA",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "PT2",
+        "current_value": "0",
+        "at": "03/21/2014 14:10:26",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "Puerta 2"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "0=ABIERTA / 1=CERRADA",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "PWR",
+        "current_value": "12.210960387",
+        "at": "03/21/2014 14:10:26",
+        "max_value": "12.417291638",
+        "min_value": "10.360185621",
+        "tags": [
+          "Alimentación DITECnet"
+        ],
+        "unit": {
+          "symbol": "VDC",
+          "label": "Voltios",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "T1",
+        "current_value": "25.1875",
+        "at": "03/21/2014 14:10:26",
+        "max_value": "29.8125",
+        "min_value": "-740.75",
+        "tags": [
+          "Temperatura ambiente"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "° Centigrados",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Quito",
+      "domain": 0,
+      "lat": "-0.703107352436478",
+      "lon": "-78.486328125",
+      "ele": "2200",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/49629\" >CONDADO  W265</a>",
+    "URLMostrar": "https://xively.com/feeds/49629"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\49629.json",
+  "DocumentJSON": null
+}

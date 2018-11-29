@@ -1,0 +1,135 @@
+{
+  "Conceptos": [
+    "moisture"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "119673",
+    "title": "Weather pole prototype",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "none"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/119673.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "05/24/2013 14:48:04",
+    "created": "03/18/2013 18:19:50",
+    "creator": "https://xively.com/users/weatherpole",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "01",
+        "current_value": "22.5",
+        "at": "05/24/2013 14:48:03",
+        "max_value": "337.5",
+        "min_value": "0.0",
+        "tags": [
+          "Wind direction"
+        ],
+        "unit": {
+          "symbol": "°",
+          "label": "Degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "02",
+        "current_value": " 0",
+        "at": "05/24/2013 14:48:03",
+        "max_value": "125.0",
+        "min_value": "0.0",
+        "tags": [
+          "Soil moisture"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "RH",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "03",
+        "current_value": "45",
+        "at": "05/24/2013 14:48:03",
+        "max_value": "64.0",
+        "min_value": "0.0",
+        "tags": [
+          "Air humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "RH",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "04",
+        "current_value": "25.1",
+        "at": "05/24/2013 14:48:03",
+        "max_value": "1079.5",
+        "min_value": "-273.6",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "05",
+        "current_value": "0.00",
+        "at": "05/24/2013 14:48:03",
+        "max_value": "2.7",
+        "min_value": "0.0",
+        "tags": [
+          "Wind speed"
+        ],
+        "unit": {
+          "symbol": "m/s",
+          "label": "m/s",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "06",
+        "current_value": "0.00",
+        "at": "05/24/2013 14:48:03",
+        "max_value": "77.0",
+        "min_value": "0.0",
+        "tags": [
+          "Rainfall"
+        ],
+        "unit": {
+          "symbol": "mm",
+          "label": "mm",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/119673\" >Weather pole prototype</a>",
+    "URLMostrar": "https://xively.com/feeds/119673"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\119673.json",
+  "DocumentJSON": null
+}

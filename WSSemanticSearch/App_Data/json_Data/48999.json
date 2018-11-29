@@ -1,0 +1,104 @@
+{
+  "Conceptos": [
+    "process"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "48999",
+    "title": "Sensor Project - Beaverton, OR",
+    "Private": false,
+    "tags": [
+      "Arduino",
+      "RF",
+      "Temp"
+    ],
+    "description": "Data logs for my capstone project. Sensor data is transmitted via RF from individual sensor modules to a centralized base station. The base station then processes the signals it receives, stores them in registers, packages them, and sends them over Ethernet to Cosm.\r\n\r\nThe base station is an Arduino Uno with an ethernet shield. The remote sensors are custom designed bare bones Arduino with an digital thermometer. Both the base station and the remote unit communicate via a norton RF adapter.",
+    "feed": "https://api.xively.com/v2/feeds/48999.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "08/02/2013 22:36:26",
+    "created": "02/18/2012 20:35:08",
+    "creator": "https://xively.com/users/timbeach",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "1",
+        "current_value": "1743.937500",
+        "at": "08/02/2013 22:36:26",
+        "max_value": "1949.4375",
+        "min_value": "-49.974998",
+        "tags": [
+          "Outside Temp"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "Degrees Farenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "5.001564",
+        "at": "08/02/2013 22:36:26",
+        "max_value": "49.662498",
+        "min_value": "4.202347",
+        "tags": [
+          "Outside Battery Charge"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": "Volts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "339.307250",
+        "at": "08/02/2013 22:36:26",
+        "max_value": "384.62122",
+        "min_value": "-41.187515",
+        "tags": [
+          "Inside Temp"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "Degrees Farenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "5.020897",
+        "at": "08/02/2013 22:36:26",
+        "max_value": "5.955467",
+        "min_value": "4.163673",
+        "tags": [
+          "Inside Battery Charge"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": "Volts",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Beaverton, OR ",
+      "domain": 0,
+      "lat": "45.5135779241475",
+      "lon": "-122.874838113785",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/48999\" >Sensor Project - Beaverton, OR</a>",
+    "URLMostrar": "https://xively.com/feeds/48999"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\48999.json",
+  "DocumentJSON": null
+}

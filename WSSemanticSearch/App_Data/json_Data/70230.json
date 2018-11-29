@@ -1,0 +1,250 @@
+{
+  "Conceptos": [
+    "plan"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "70230",
+    "title": "ArdaSol",
+    "Private": false,
+    "tags": [
+      "Arduino",
+      "Italy",
+      "PV",
+      "Solar Energy",
+      "Solar Energy project:name=ArdaSol"
+    ],
+    "description": "Data of a Photovoltaic Solar Plant, 3kW peak Power, Data is collected from a PowerOne PVI, Arduino based HW, Data are displayed on Sure Electronics Dot-Matrix Display, logged on a SD card and part of sent to Xively. Consumed energy is monitored and metered.",
+    "feed": "https://api.xively.com/v2/feeds/70230.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:07:18",
+    "created": "08/06/2012 11:15:37",
+    "creator": "https://xively.com/users/hpieren",
+    "version": null,
+    "website": "http://www.semprevacanze.it/deutsch/vizulu/arduino.html",
+    "datastreams": [
+      {
+        "id": "1_Pp",
+        "current_value": "1560",
+        "at": "03/21/2014 14:07:18",
+        "max_value": "2682.0",
+        "min_value": "0.0",
+        "tags": [
+          "Instantaneous power produced"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2_Ep",
+        "current_value": "14.265",
+        "at": "03/21/2014 14:07:18",
+        "max_value": "17.195",
+        "min_value": "0.0",
+        "tags": [
+          "Energy produced in a day"
+        ],
+        "unit": {
+          "symbol": "kWh",
+          "label": "kiloWattHours",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "7_Pc",
+        "current_value": "170",
+        "at": "03/21/2014 14:06:58",
+        "max_value": "7080.0",
+        "min_value": "0.0",
+        "tags": [
+          "Instantaneous power consumed"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6a_Vg",
+        "current_value": "249",
+        "at": "03/21/2014 14:07:18",
+        "max_value": "255.0",
+        "min_value": "230.0",
+        "tags": [
+          "Grid Voltage (PVI)"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": "Volts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6b_Vg",
+        "current_value": "239",
+        "at": "03/21/2014 14:06:58",
+        "max_value": "253.0",
+        "min_value": "1.0",
+        "tags": [
+          "Grid Voltage (ASM)"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": "Volts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "8a_Ec",
+        "current_value": "5.311",
+        "at": "03/21/2014 14:06:58",
+        "max_value": "26.375",
+        "min_value": "0.001",
+        "tags": [
+          "Energy consumed in 24h"
+        ],
+        "unit": {
+          "symbol": "kWh",
+          "label": "kiloWattHours",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3_PpPk",
+        "current_value": "2684",
+        "at": "03/21/2014 14:07:18",
+        "max_value": "2706.0",
+        "min_value": "0.0",
+        "tags": [
+          "Peak power produced in a day"
+        ],
+        "unit": {
+          "symbol": "kWh",
+          "label": "kiloWattHours",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4_EpTo",
+        "current_value": "669",
+        "at": "03/21/2014 14:07:18",
+        "max_value": "5920.0",
+        "min_value": "0.0",
+        "tags": [
+          "Total energy produced in a year"
+        ],
+        "unit": {
+          "symbol": "kWh",
+          "label": "kiloWattHours",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5_Temp",
+        "current_value": "19.1",
+        "at": "03/21/2014 14:07:18",
+        "max_value": "30.4",
+        "min_value": "-10.9",
+        "tags": [
+          "Ambient temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Degree Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "8b_Ecg",
+        "current_value": "1.956",
+        "at": "03/21/2014 14:06:58",
+        "max_value": "19.796",
+        "min_value": "0.001",
+        "tags": [
+          "Energy consumed from grid in 24h"
+        ],
+        "unit": {
+          "symbol": "kWh",
+          "label": "kiloWattHours",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "9_EcTo",
+        "current_value": "399",
+        "at": "03/21/2014 14:06:58",
+        "max_value": "3277.0",
+        "min_value": "1.0",
+        "tags": [
+          "Total energy consumed in a year"
+        ],
+        "unit": {
+          "symbol": "kWh",
+          "label": "kiloWattHours",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "A_SD",
+        "current_value": "1",
+        "at": "03/21/2014 14:06:58",
+        "max_value": "1.0",
+        "min_value": "1.0",
+        "tags": [
+          "State of SD-Card"
+        ],
+        "unit": {
+          "symbol": "1=On/0=Off",
+          "label": "1=On/0=Off",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "B_WC",
+        "current_value": "27",
+        "at": "03/21/2014 14:06:58",
+        "max_value": "219.0",
+        "min_value": "0.0",
+        "tags": [
+          "ASM persistent write counter"
+        ],
+        "unit": {
+          "symbol": "Write cycles",
+          "label": "Write cycles",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "San Pietro in Bevagna, Italy",
+      "domain": 0,
+      "lat": "40.312115",
+      "lon": "17.697827",
+      "ele": "30",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/70230\" >ArdaSol</a>",
+    "URLMostrar": "https://xively.com/feeds/70230"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\70230.json",
+  "DocumentJSON": null
+}

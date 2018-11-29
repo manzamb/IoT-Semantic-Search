@@ -1,0 +1,183 @@
+{
+  "Conceptos": [
+    "humidity"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "42603",
+    "title": "House Data",
+    "Private": false,
+    "tags": [
+      "solar",
+      "temperature"
+    ],
+    "description": "Temps",
+    "feed": "https://api.xively.com/v2/feeds/42603.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:06:58",
+    "created": "12/24/2011 01:49:14",
+    "creator": "https://xively.com/users/ejsharp",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "16.40",
+        "at": "03/21/2014 14:06:58",
+        "max_value": "85.0",
+        "min_value": "-127.0",
+        "tags": [
+          "Inside Temp"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "deg C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "5.44",
+        "at": "03/21/2014 14:06:58",
+        "max_value": "85.0",
+        "min_value": "-127.0",
+        "tags": [
+          "Outside Temp"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "deg C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "10.00",
+        "at": "03/21/2014 14:06:58",
+        "max_value": "2019.5",
+        "min_value": "-130.0",
+        "tags": [
+          "Setpoint"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "deg C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "25.81",
+        "at": "03/21/2014 14:06:58",
+        "max_value": "102.31",
+        "min_value": "-127.0",
+        "tags": [
+          "Collector Temp"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "10.69",
+        "at": "03/21/2014 14:06:58",
+        "max_value": "127.94",
+        "min_value": "-127.0",
+        "tags": [
+          "Tank Bottom Temp"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "10.81",
+        "at": "03/21/2014 14:06:58",
+        "max_value": "127.94",
+        "min_value": "-127.0",
+        "tags": [
+          "Tank Top Temp"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "39.80",
+        "at": "03/21/2014 14:06:58",
+        "max_value": "99.9",
+        "min_value": "0.0",
+        "tags": [
+          "Humidity"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "7",
+        "current_value": "11.63",
+        "at": "03/21/2014 14:06:58",
+        "max_value": "26.19",
+        "min_value": "0.0",
+        "tags": [
+          "Basement Temp"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "8",
+        "current_value": "1.00",
+        "at": "03/21/2014 14:06:58",
+        "max_value": "10.0",
+        "min_value": "0.0",
+        "tags": [
+          "Solpump"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "44.529081873369",
+      "lon": "-63.8097524642944",
+      "ele": "15",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/42603\" >House Data</a>",
+    "URLMostrar": "https://xively.com/feeds/42603"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\42603.json",
+  "DocumentJSON": null
+}

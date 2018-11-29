@@ -1,0 +1,68 @@
+{
+  "Conceptos": [
+    "physical agent"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "1738653708",
+    "title": "SunSPOT Public",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/1738653708.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "05/31/2013 09:22:22",
+    "created": "05/28/2013 19:22:22",
+    "creator": "https://xively.com/users/agent009",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "lightSensor",
+        "current_value": "50",
+        "at": "05/31/2013 09:22:22",
+        "max_value": "84.0",
+        "min_value": "30.0",
+        "tags": [
+          "light sensor"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "light",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "tempSensor",
+        "current_value": "30",
+        "at": "05/28/2013 19:27:09",
+        "max_value": "50.0",
+        "min_value": "30.0",
+        "tags": [
+          "temperature sensor"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Degrees Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "University of Bradford",
+      "domain": 0,
+      "lat": "53.7774536",
+      "lon": "-1.77735540000003",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/1738653708\" >SunSPOT Public</a>",
+    "URLMostrar": "https://xively.com/feeds/1738653708"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\1738653708.json",
+  "DocumentJSON": null
+}

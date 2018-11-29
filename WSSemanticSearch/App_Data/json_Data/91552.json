@@ -1,0 +1,122 @@
+{
+  "Conceptos": [
+    "wind"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "91552",
+    "title": "Weather Station",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "Weather",
+      "Weather Station"
+    ],
+    "description": "This is a feed from my weather station",
+    "feed": "https://api.xively.com/v2/feeds/91552.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:07:32",
+    "created": "12/11/2012 23:56:27",
+    "creator": "https://xively.com/users/tampapoet",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "24HrRainfall",
+        "current_value": "0",
+        "at": "03/21/2014 14:07:32",
+        "max_value": "5.26",
+        "min_value": "0.0",
+        "tags": [
+          "Rainfall"
+        ],
+        "unit": {
+          "symbol": "Inches",
+          "label": "Inches",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "CurrentRainRate",
+        "current_value": "0",
+        "at": "03/21/2014 14:07:32",
+        "max_value": "21.05",
+        "min_value": "0.0",
+        "tags": [
+          "Rain Rate (Inch/Hr.)"
+        ],
+        "unit": {
+          "symbol": "In/Hr",
+          "label": "inches Per Hour",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temp",
+        "current_value": "77",
+        "at": "03/21/2014 14:07:32",
+        "max_value": "77.0",
+        "min_value": "77.0",
+        "tags": [
+          "Temp",
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "Fahrenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "WindDirection",
+        "current_value": "180",
+        "at": "03/21/2014 14:07:32",
+        "max_value": "337.0",
+        "min_value": "0.0",
+        "tags": [
+          "Direction",
+          "Wind Direction"
+        ],
+        "unit": {
+          "symbol": "°",
+          "label": "Degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "WindSpeed",
+        "current_value": "1",
+        "at": "03/21/2014 14:07:32",
+        "max_value": "2248.3",
+        "min_value": "-2316.1",
+        "tags": [
+          "Windspeed"
+        ],
+        "unit": {
+          "symbol": "MPH",
+          "label": "MPH",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "27.7835053634514",
+      "lon": "-82.3140335083008",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/91552\" >Weather Station</a>",
+    "URLMostrar": "https://xively.com/feeds/91552"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\91552.json",
+  "DocumentJSON": null
+}

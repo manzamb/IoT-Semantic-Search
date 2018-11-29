@@ -1,0 +1,71 @@
+{
+  "Conceptos": [
+    "sensing"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "21881",
+    "title": "Physiology",
+    "Private": false,
+    "tags": [
+      "heartrate",
+      "SpO2"
+    ],
+    "description": "Sensing your world for you!",
+    "feed": "https://api.xively.com/v2/feeds/21881.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "06/09/2011 15:23:33",
+    "created": "04/02/2011 21:21:07",
+    "creator": "https://xively.com/users/daqtronics",
+    "version": null,
+    "website": "http://www.daqtronics.com",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "66",
+        "at": "06/09/2011 15:23:33",
+        "max_value": "100.0",
+        "min_value": "0.0",
+        "tags": [
+          "SpO2"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "20",
+        "at": "06/09/2011 15:23:33",
+        "max_value": "200.0",
+        "min_value": "0.0",
+        "tags": [
+          "heartrate"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "cortland, oh 44410",
+      "domain": 0,
+      "lat": "41.3211383952396",
+      "lon": "-80.7227325439453",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/21881\" >Physiology</a>",
+    "URLMostrar": "https://xively.com/feeds/21881"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\21881.json",
+  "DocumentJSON": null
+}

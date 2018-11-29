@@ -1,0 +1,89 @@
+{
+  "Conceptos": [
+    "collection"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "40193",
+    "title": "CISECO - Test",
+    "Private": false,
+    "tags": [
+      "Ciseco",
+      "Demo",
+      "LLAP",
+      "Test",
+      "Xino",
+      "XRF"
+    ],
+    "description": "Demo collection from a LLAP sensors.",
+    "feed": "https://api.xively.com/v2/feeds/40193.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "04/25/2013 11:35:07",
+    "created": "11/22/2011 13:39:25",
+    "creator": "https://xively.com/users/ciseco",
+    "version": null,
+    "website": "http://shop.ciseco.co.uk",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "2.59",
+        "at": "11/14/2012 18:43:41",
+        "max_value": "2380.0",
+        "min_value": "-999.0",
+        "tags": [
+          "Uptime"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "16.46",
+        "at": "11/14/2012 20:03:41",
+        "max_value": "620.0",
+        "min_value": "0.0",
+        "tags": [
+          "Inside Temp"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Deg C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Electricity",
+        "current_value": "00403",
+        "at": "04/25/2013 11:35:07",
+        "max_value": "6160.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Nottingham",
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/40193\" >CISECO - Test</a>",
+    "URLMostrar": "https://xively.com/feeds/40193"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\40193.json",
+  "DocumentJSON": null
+}

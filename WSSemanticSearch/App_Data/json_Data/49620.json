@@ -1,0 +1,120 @@
+{
+  "Conceptos": [
+    "temperatura"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "49620",
+    "title": "GUAMANí W256",
+    "Private": false,
+    "tags": [
+      "AC",
+      "Puerta",
+      "Temperatura"
+    ],
+    "description": "DITECnet06\r\n10.100.10.16",
+    "feed": "https://api.xively.com/v2/feeds/49620.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:15:00",
+    "created": "02/24/2012 17:52:53",
+    "creator": "https://xively.com/users/tvcable_watching",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "AC",
+        "current_value": "1",
+        "at": "03/21/2014 14:15:00",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "Alimentación AC"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "0=FALLA / 1=OK",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "PT1",
+        "current_value": "1",
+        "at": "03/21/2014 14:15:00",
+        "max_value": "2097152331.0",
+        "min_value": "0.0",
+        "tags": [
+          "Puerta 1"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "0=ABIERTA / 1=CERRADA",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "PT2",
+        "current_value": "0",
+        "at": "03/21/2014 14:15:00",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "Puerta 2"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "0=ABIERTA / 1=CERRADA",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "PWR",
+        "current_value": "12.616468427",
+        "at": "03/21/2014 14:15:00",
+        "max_value": "12.723218916",
+        "min_value": "11.521621703",
+        "tags": [
+          "Alimentación DITECnet"
+        ],
+        "unit": {
+          "symbol": "VDC",
+          "label": "Voltios",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "T1",
+        "current_value": "16.625",
+        "at": "03/21/2014 14:15:00",
+        "max_value": "21.125",
+        "min_value": "-46.8125",
+        "tags": [
+          "Temperatura ambiente"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "° Centigrados",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Quito",
+      "domain": 0,
+      "lat": "-0.324601",
+      "lon": "-78.449005",
+      "ele": "2496",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/49620\" >GUAMANí W256</a>",
+    "URLMostrar": "https://xively.com/feeds/49620"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\49620.json",
+  "DocumentJSON": null
+}

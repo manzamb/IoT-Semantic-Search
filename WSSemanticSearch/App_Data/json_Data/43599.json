@@ -1,0 +1,102 @@
+{
+  "Conceptos": [
+    "process"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "43599",
+    "title": "Bul",
+    "Private": false,
+    "tags": [
+      "agricolture arduino processing"
+    ],
+    "description": "Arduino Temperature ,Pressure ,Wind,Umidity,ecc\r\nAgricolture services ",
+    "feed": "https://api.xively.com/v2/feeds/43599.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "09/08/2013 09:56:15",
+    "created": "01/05/2012 15:58:54",
+    "creator": "https://xively.com/users/bul",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "30.68",
+        "at": "09/08/2013 09:56:15",
+        "max_value": "40.29",
+        "min_value": "-4.04",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "C°",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "1018",
+        "at": "09/08/2013 09:56:15",
+        "max_value": "1034.0",
+        "min_value": "979.0",
+        "tags": [
+          "Pressure"
+        ],
+        "unit": {
+          "symbol": "hPa",
+          "label": "hPa",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "547",
+        "at": "09/08/2013 09:56:15",
+        "max_value": "824.0",
+        "min_value": "0.0",
+        "tags": [
+          "LUX"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "LUX",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "57",
+        "at": "09/08/2013 09:56:15",
+        "max_value": "152.0",
+        "min_value": "40.0",
+        "tags": [
+          "Humidity"
+        ],
+        "unit": {
+          "symbol": "Hr%",
+          "label": "Hr",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Bul System",
+      "domain": 1,
+      "lat": "44.6790041927702",
+      "lon": "11.7457580566406",
+      "ele": "0",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/43599\" >Bul</a>",
+    "URLMostrar": "https://xively.com/feeds/43599"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\43599.json",
+  "DocumentJSON": null
+}

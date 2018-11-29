@@ -1,0 +1,87 @@
+{
+  "Conceptos": [
+    "mp10"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "106492",
+    "title": "Electric IMP TMP102, test",
+    "Private": false,
+    "tags": [
+      "C",
+      "Temperature"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/106492.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/11/2013 01:36:34",
+    "created": "02/23/2013 20:19:45",
+    "creator": "https://xively.com/users/mdobbs",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "20130223a",
+        "current_value": "22.2",
+        "at": "06/27/2013 03:01:08",
+        "max_value": "24.6",
+        "min_value": "11.2",
+        "tags": [
+          "BMP085 Temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "20130223b",
+        "current_value": "3.274",
+        "at": "06/27/2013 03:01:08",
+        "max_value": "3.289",
+        "min_value": "0.995",
+        "tags": [
+          "IMP Supply Voltage"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "V",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "20130223c",
+        "current_value": "0.986",
+        "at": "06/27/2013 03:01:08",
+        "max_value": "3.271",
+        "min_value": "0.976",
+        "tags": [
+          "BMP085 Pressure"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "atm",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "45.5199397794377",
+      "lon": "-73.5921764373779",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/106492\" >Electric IMP TMP102, test</a>",
+    "URLMostrar": "https://xively.com/feeds/106492"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\106492.json",
+  "DocumentJSON": null
+}

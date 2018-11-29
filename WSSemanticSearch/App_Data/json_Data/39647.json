@@ -1,0 +1,91 @@
+{
+  "Conceptos": [
+    "situation"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "39647",
+    "title": "Radiation level at Hoogwoud, Netherlands",
+    "Private": false,
+    "tags": [
+      "celcius",
+      "geiger",
+      "indoor temperature",
+      "pe1nsu",
+      "radiation",
+      "si-22g"
+    ],
+    "description": "This is a home brew geiger counter with a SBM-20 tube. The SBM-20 is sensitive for hard-β and γ radiation. The 16F628 microcontroller counts the pulses from the tube and transmits the counted value every minute via RS232 to my PC. A small self written script creates a logfile and uploads the data to this feed. \r\n\r\nThe sensor is located inside the house . The SBM-20 tube is mostly unshielded so air can circulate around it. In this situation it is also possible for the tube to detect hard-β (>250keV).\r\nAlthough the data is trustful, keep in mind that this is not an official site. So use it for informative purposes only.\r\n\r\n01-11-2012:\r\nThe QNAP NAS is now taking care of logging and sent the data to COSM.\r\n\r\n21-03-2013:\r\nDatalogging is now done by a t5700 thin client running on debian linux. Also the circuit will be redesigned for a SI-22G geiger tube which is more sensitive than the SBM-20.\r\n\r\n07-04-2011:\r\nAdded a half hour (actually 32 mins) average.",
+    "feed": "https://api.xively.com/v2/feeds/39647.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:13:26",
+    "created": "11/15/2011 18:36:55",
+    "creator": "https://xively.com/users/pe1nsu",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "1",
+        "current_value": "00110",
+        "at": "03/21/2014 14:13:26",
+        "max_value": "421.0",
+        "min_value": "48.0",
+        "tags": [
+          "Radiation"
+        ],
+        "unit": {
+          "symbol": "CPM",
+          "label": "Counts per minute",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "014.6",
+        "at": "03/21/2014 14:13:26",
+        "max_value": "85.0",
+        "min_value": "-27.6",
+        "tags": [
+          "Storage Temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "00102",
+        "at": "03/21/2014 14:13:26",
+        "max_value": "296.0",
+        "min_value": "72.0",
+        "tags": [
+          "Averaged radiation"
+        ],
+        "unit": {
+          "symbol": "CPM",
+          "label": "Counts per minute",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Hoogwoud",
+      "domain": 0,
+      "lat": "52.71402",
+      "lon": "4.93997999999999",
+      "ele": "-4m",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/39647\" >Radiation level at Hoogwoud, Netherlands</a>",
+    "URLMostrar": "https://xively.com/feeds/39647"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\39647.json",
+  "DocumentJSON": null
+}

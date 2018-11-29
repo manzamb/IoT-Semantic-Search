@@ -1,0 +1,202 @@
+{
+  "Conceptos": [
+    "humedad"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "100371",
+    "title": "LATINA UC Test",
+    "Private": false,
+    "tags": [
+      "Humedad",
+      "SHT15",
+      "Temperatura",
+      "TMP102",
+      "Z1"
+    ],
+    "description": "Nodos desplegados dentro del Laboratorio y cercanías. \r\nEl sensor de humedad es un Decagon SHT-15  y el de temperatura un TMP102, integrado a los nodos Z1",
+    "feed": "https://api.xively.com/v2/feeds/100371.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "02/18/2013 19:51:47",
+    "created": "01/25/2013 17:20:39",
+    "creator": "https://xively.com/users/latinauc",
+    "version": null,
+    "website": "http://web.ing.puc.cl/latina",
+    "datastreams": [
+      {
+        "id": "3_Humidity",
+        "current_value": "57.52",
+        "at": "04/02/2013 14:53:49",
+        "max_value": "106.3",
+        "min_value": "11.82",
+        "tags": [
+          "Plant Soil Humidity SHT15"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "degrees Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3_Temperature",
+        "current_value": "27.75",
+        "at": "04/02/2013 17:32:50",
+        "max_value": "108.63",
+        "min_value": "19.06",
+        "tags": [
+          "Temperature Z1 TMP102"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "degrees Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "7_Temperature",
+        "current_value": "23.38",
+        "at": "03/09/2013 05:09:59",
+        "max_value": "30.13",
+        "min_value": "22.19",
+        "tags": [
+          "Temperature Z1 TMP102"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "degrees Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "12_Temperature",
+        "current_value": "30.0",
+        "at": "03/21/2013 20:48:24",
+        "max_value": "46.13",
+        "min_value": "17.75",
+        "tags": [
+          "Temperature Z1 TMP102"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "degrees Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "14_Temperature",
+        "current_value": "22.56",
+        "at": "04/02/2013 14:31:58",
+        "max_value": "1559.06",
+        "min_value": "21.56",
+        "tags": [
+          "Temperature Z1 TMP102"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "degrees Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "15_Temperature",
+        "current_value": "23.63",
+        "at": "04/18/2013 05:18:26",
+        "max_value": "1564.94",
+        "min_value": "21.06",
+        "tags": [
+          "Temperature Z1 TMP102"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "degrees Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "17_Temperature",
+        "current_value": "24.75",
+        "at": "04/01/2013 19:50:56",
+        "max_value": "30.5",
+        "min_value": "21.25",
+        "tags": [
+          "Temperature Z1 TMP102"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "degrees Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "20_Temperature",
+        "current_value": "25.5",
+        "at": "03/28/2013 14:56:01",
+        "max_value": "37.44",
+        "min_value": "18.5",
+        "tags": [
+          "Temperature Z1 TMP102"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "degrees Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "21_Temperature",
+        "current_value": "25.63",
+        "at": "03/28/2013 14:55:24",
+        "max_value": "34.69",
+        "min_value": "21.5",
+        "tags": [
+          "Temperature Z1 TMP102"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "degrees Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "22_Temperature",
+        "current_value": "24.13",
+        "at": "03/27/2013 14:09:52",
+        "max_value": "30.0",
+        "min_value": "21.38",
+        "tags": [
+          "Temperature Z1 TMP102"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "degrees Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "LATINA UC",
+      "domain": 0,
+      "lat": "-33.4999548628077",
+      "lon": "-70.6141841411591",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/100371\" >LATINA UC Test</a>",
+    "URLMostrar": "https://xively.com/feeds/100371"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\100371.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,96 @@
+{
+  "Conceptos": [
+    "latency"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "220375411",
+    "title": "Electric Imp Latency Logger",
+    "Private": false,
+    "tags": [
+      "electric imp",
+      "latency",
+      "statistics"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/220375411.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "06/20/2013 05:42:20",
+    "created": "06/09/2013 06:08:25",
+    "creator": "https://xively.com/users/marcboon",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "avg",
+        "current_value": "342",
+        "at": "06/20/2013 05:42:20",
+        "max_value": "7392.0",
+        "min_value": "286.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "ms",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "cnt",
+        "current_value": "175",
+        "at": "06/20/2013 05:42:20",
+        "max_value": "210.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "measurements/minute",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "max",
+        "current_value": "394",
+        "at": "06/20/2013 05:42:20",
+        "max_value": "33377.0",
+        "min_value": "308.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "ms",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "min",
+        "current_value": "317",
+        "at": "06/20/2013 05:42:20",
+        "max_value": "1429.0",
+        "min_value": "280.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "ms",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Xiamen, China",
+      "domain": 0,
+      "lat": "24.479834",
+      "lon": "118.089425",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/220375411\" >Electric Imp Latency Logger</a>",
+    "URLMostrar": "https://xively.com/feeds/220375411"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\220375411.json",
+  "DocumentJSON": null
+}

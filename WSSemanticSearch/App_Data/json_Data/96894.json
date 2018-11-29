@@ -1,0 +1,111 @@
+{
+  "Conceptos": [
+    "sensing"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "96894",
+    "title": "Beer Refrigeration Unit Monitor",
+    "Private": false,
+    "tags": [
+      "ambient",
+      "arduino",
+      "garage",
+      "raspberrypi",
+      "refrigerator",
+      "temperature"
+    ],
+    "description": "A DS18B20 in the freezer and refigerator with a DHT22 sensing the ambient conditions in the garage.  All sensors are wired to a Arduino Uno with a Raspberry Pi collecting and pushing the data to Cosm.  ",
+    "feed": "https://api.xively.com/v2/feeds/96894.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "02/19/2014 21:33:45",
+    "created": "01/10/2013 02:03:22",
+    "creator": "https://xively.com/users/adingeldein",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Ambient",
+        "current_value": "71.78",
+        "at": "02/19/2014 21:33:45",
+        "max_value": "5916.38",
+        "min_value": "0.0",
+        "tags": [
+          "DHT22",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "°F",
+          "label": "Fahrenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Freezer",
+        "current_value": "1.29",
+        "at": "02/19/2014 21:33:45",
+        "max_value": "56.07",
+        "min_value": "-196.6",
+        "tags": [
+          "DS18B20",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "°F",
+          "label": "Fahrenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Humidity",
+        "current_value": "75.30",
+        "at": "02/19/2014 21:33:45",
+        "max_value": "90.8",
+        "min_value": "22.2",
+        "tags": [
+          "DHT22",
+          "humidity"
+        ],
+        "unit": {
+          "symbol": "%RH",
+          "label": "Relative Humidity",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Refrigerator",
+        "current_value": "36.28",
+        "at": "02/19/2014 21:33:45",
+        "max_value": "93.54",
+        "min_value": "-196.6",
+        "tags": [
+          "DS18B20",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "°F",
+          "label": "Fahrenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "29.9308372770882",
+      "lon": "-98.2109069824219",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/96894\" >Beer Refrigeration Unit Monitor</a>",
+    "URLMostrar": "https://xively.com/feeds/96894"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\96894.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,64 @@
+{
+  "Conceptos": [
+    "moisture"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "892885546",
+    "title": "NH_SoilMoisture_02",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/892885546.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "08/26/2013 17:08:00",
+    "created": "07/04/2013 19:31:44",
+    "creator": "https://xively.com/users/nh_hydro",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Deep",
+        "current_value": "900",
+        "at": "08/26/2013 17:08:00",
+        "max_value": "900.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "cbar",
+          "label": "centibars",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Shallow",
+        "current_value": "9",
+        "at": "08/26/2013 16:54:53",
+        "max_value": "214.93117125",
+        "min_value": "-2.24504925",
+        "tags": null,
+        "unit": {
+          "symbol": "cbar",
+          "label": "centibars",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/892885546\" >NH_SoilMoisture_02</a>",
+    "URLMostrar": "https://xively.com/feeds/892885546"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\892885546.json",
+  "DocumentJSON": null
+}

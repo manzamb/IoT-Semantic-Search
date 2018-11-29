@@ -1,0 +1,102 @@
+{
+  "Conceptos": [
+    "event type"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "92195",
+    "title": "iXively System Info (ophelia)",
+    "Private": false,
+    "tags": [
+      "app:author=lebreeze",
+      "app:name=iXively",
+      "app:version=1.2",
+      "os:type=osx",
+      "os:version=10.9.2"
+    ],
+    "description": "Intel(R) Core(TM)2 Duo CPU     P8700  @ 2.53GHz\r\n\r\nhttps://github.com/levent/iXively",
+    "feed": "https://api.xively.com/v2/feeds/92195.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:08:13",
+    "created": "12/16/2012 16:31:42",
+    "creator": "https://xively.com/users/sillett",
+    "version": null,
+    "website": "https://github.com/levent/iXively",
+    "datastreams": [
+      {
+        "id": "cpu_0",
+        "current_value": "1.80",
+        "at": "03/21/2014 14:08:13",
+        "max_value": "100.0",
+        "min_value": "0.7",
+        "tags": [
+          "cpu"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "Percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "cpu_1",
+        "current_value": "1.10",
+        "at": "03/21/2014 14:08:13",
+        "max_value": "100.0",
+        "min_value": "0.5",
+        "tags": [
+          "cpu"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "Percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "cpu_count",
+        "current_value": "2",
+        "at": "03/21/2014 14:08:13",
+        "max_value": "2.0",
+        "min_value": "2.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "total_memory",
+        "current_value": "8192",
+        "at": "03/21/2014 14:08:13",
+        "max_value": "8192.0",
+        "min_value": "8192.0",
+        "tags": null,
+        "unit": {
+          "symbol": "(MB)",
+          "label": "Megabytes",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/92195\" >iXively System Info (ophelia)</a>",
+    "URLMostrar": "https://xively.com/feeds/92195"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\92195.json",
+  "DocumentJSON": null
+}

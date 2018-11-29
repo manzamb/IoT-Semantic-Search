@@ -1,0 +1,52 @@
+{
+  "Conceptos": [
+    "resolution"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "3922",
+    "title": "Tower Bridge",
+    "Private": false,
+    "tags": null,
+    "description": "The status of the lifting Tower Bridge: 1 is open , 0 is closed . This is  based on  the RSS feed from http://twitter.com/towerbridge .  The server is refeshing from the Twitter feed every minute. Since bridge lifts take about 10 minutes this should be sufficient resolution provided the Pachube refresh rate is faster.",
+    "feed": "https://api.xively.com/v2/feeds/3922.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/20/2014 12:46:41",
+    "created": "12/12/2009 00:10:21",
+    "creator": "https://xively.com/users/kitwallace",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "0",
+        "at": "03/20/2014 12:46:28",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "bridge open"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Tower Bridge",
+      "domain": 0,
+      "lat": "51.5064186",
+      "lon": "-0.074865818",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/3922\" >Tower Bridge</a>",
+    "URLMostrar": "https://xively.com/feeds/3922"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\3922.json",
+  "DocumentJSON": null
+}

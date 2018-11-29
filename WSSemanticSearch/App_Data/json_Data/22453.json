@@ -1,0 +1,54 @@
+{
+  "Conceptos": [
+    "radioactivity"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "22453",
+    "title": "Sapporo city, Hokkaido",
+    "Private": false,
+    "tags": [
+      "sensor:type=radiation"
+    ],
+    "description": "Original: http://www.mext.go.jp/english/radioactivity_level/detail/1304080.htm\r\n\r\nSource data: http://oku.edu.mie-u.ac.jp/~okumura/stat/data/\r\n\r\nIt's unofficial and may be stopped by any reason. Use it at your own risk. Data will belong to original site.",
+    "feed": "https://api.xively.com/v2/feeds/22453.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "04/10/2011 10:05:41",
+    "created": "04/10/2011 10:05:41",
+    "creator": "https://xively.com/users/kotobuki",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "0.03",
+        "at": "10/30/2011 23:00:00",
+        "max_value": "0.054",
+        "min_value": "0.0",
+        "tags": [
+          "Radiation dose rate"
+        ],
+        "unit": {
+          "symbol": "µSv/h",
+          "label": "microsieverts/hour",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Sapporo city, Hokkaido, Japan",
+      "domain": 0,
+      "lat": "43.0620215023442",
+      "lon": "141.354303359985",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/22453\" >Sapporo city, Hokkaido</a>",
+    "URLMostrar": "https://xively.com/feeds/22453"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\22453.json",
+  "DocumentJSON": null
+}

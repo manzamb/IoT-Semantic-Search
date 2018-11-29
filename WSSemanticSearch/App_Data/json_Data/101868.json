@@ -1,0 +1,108 @@
+{
+  "Conceptos": [
+    "co2"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "101868",
+    "title": "CAR-IAQ-01",
+    "Private": false,
+    "tags": [
+      "AirSensor",
+      "CAR",
+      "CO2",
+      "IAQ",
+      "RH",
+      "SolderCore",
+      "Temperature"
+    ],
+    "description": "Test installation at CAR",
+    "feed": "https://api.xively.com/v2/feeds/101868.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 13:59:59",
+    "created": "02/01/2013 10:21:09",
+    "creator": "https://xively.com/users/car",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "1",
+        "current_value": "0",
+        "at": "03/21/2014 13:59:59",
+        "max_value": "1579.0",
+        "min_value": "0.0",
+        "tags": [
+          "CO2"
+        ],
+        "unit": {
+          "symbol": "ppm",
+          "label": "ppm",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "0",
+        "at": "03/21/2014 13:59:59",
+        "max_value": "31.7",
+        "min_value": "0.0",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "0",
+        "at": "03/21/2014 13:59:59",
+        "max_value": "62.0",
+        "min_value": "0.0",
+        "tags": [
+          "RH"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "0",
+        "at": "03/21/2014 13:59:59",
+        "max_value": "18.22",
+        "min_value": "-3.37",
+        "tags": [
+          "Dew Point"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Cambridge",
+      "domain": 0,
+      "lat": "52.2035696520667",
+      "lon": "0.138638019561768",
+      "ele": "10m",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/101868\" >CAR-IAQ-01</a>",
+    "URLMostrar": "https://xively.com/feeds/101868"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\101868.json",
+  "DocumentJSON": null
+}

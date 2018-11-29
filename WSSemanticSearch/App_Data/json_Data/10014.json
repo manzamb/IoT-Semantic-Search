@@ -1,0 +1,88 @@
+{
+  "Conceptos": [
+    "sensor input"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "10014",
+    "title": "Temp, Light & Tank Level",
+    "Private": false,
+    "tags": [
+      "Level",
+      "Light",
+      "Temperature"
+    ],
+    "description": "Temperature and light sensors are mounted on Arduino shield as is the input from a pressure transducer mounted in the outlet pipe from the water holding tank.",
+    "feed": "https://api.xively.com/v2/feeds/10014.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "11/12/2011 17:06:22",
+    "created": "09/10/2010 13:52:05",
+    "creator": "https://xively.com/users/cantrade",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "22.0",
+        "at": "11/12/2011 17:06:22",
+        "max_value": "100.0",
+        "min_value": "-20.0",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "deg",
+          "label": "Deg. C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "217.0",
+        "at": "11/12/2011 17:06:22",
+        "max_value": "437.0",
+        "min_value": "0.0",
+        "tags": [
+          "Light Status"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "On/Off",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "99.65398",
+        "at": "11/12/2011 17:06:22",
+        "max_value": "316.60898",
+        "min_value": "-30.795847",
+        "tags": [
+          "Tank Level"
+        ],
+        "unit": {
+          "symbol": "&",
+          "label": "Percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Tajique, New Mexico",
+      "domain": 0,
+      "lat": "34.822822727237",
+      "lon": "-106.250152587891",
+      "ele": "2087",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/10014\" >Temp, Light & Tank Level</a>",
+    "URLMostrar": "https://xively.com/feeds/10014"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\10014.json",
+  "DocumentJSON": null
+}

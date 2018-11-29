@@ -1,0 +1,88 @@
+{
+  "Conceptos": [
+    "sensing"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "98853",
+    "title": "Home Sensing Station",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "light",
+      "temperature"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/98853.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "04/21/2013 09:12:50",
+    "created": "01/19/2013 16:37:03",
+    "creator": "https://xively.com/users/brock",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "light",
+        "current_value": "66.00",
+        "at": "04/21/2013 09:12:50",
+        "max_value": "81.0",
+        "min_value": "0.0",
+        "tags": [
+          "light level"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "of 100",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temp1",
+        "current_value": "20.80",
+        "at": "04/21/2013 09:12:50",
+        "max_value": "29.59",
+        "min_value": "-50.0",
+        "tags": [
+          "Inside"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temp2",
+        "current_value": "3.71",
+        "at": "04/21/2013 09:12:50",
+        "max_value": "429.49",
+        "min_value": "-25.1",
+        "tags": [
+          "Outside"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/98853\" >Home Sensing Station</a>",
+    "URLMostrar": "https://xively.com/feeds/98853"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\98853.json",
+  "DocumentJSON": null
+}

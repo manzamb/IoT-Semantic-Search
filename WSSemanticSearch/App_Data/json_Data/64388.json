@@ -1,0 +1,568 @@
+{
+  "Conceptos": [
+    "physical"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "64388",
+    "title": "DULC - RAKA (IKU d.o.o.)",
+    "Private": false,
+    "tags": [
+      "energy efficient house",
+      "isomax",
+      "solar energy"
+    ],
+    "description": "ISOMAX HOUSE\r\nHW: DULC d.o.o.\r\nSW: IKU d.o.o.\r\nwww.isomax.si",
+    "feed": "https://api.xively.com/v2/feeds/64388.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:15:04",
+    "created": "06/21/2012 07:16:52",
+    "creator": "https://xively.com/users/ikutest",
+    "version": null,
+    "website": "http://www.iku.si",
+    "datastreams": [
+      {
+        "id": "10",
+        "current_value": "ZIMSKI",
+        "at": "03/21/2014 14:15:03",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "Rezim delovanja"
+        ],
+        "unit": {
+          "symbol": "REZIM",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "11",
+        "current_value": "20.5",
+        "at": "03/21/2014 14:15:03",
+        "max_value": "6365.7",
+        "min_value": "-5.6",
+        "tags": [
+          "Temp. zunanja"
+        ],
+        "unit": {
+          "symbol": "T11",
+          "label": "degrees Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "12",
+        "current_value": "247.3",
+        "at": "03/21/2014 14:15:03",
+        "max_value": "907.0",
+        "min_value": "0.0",
+        "tags": [
+          "Soncno obsevanje"
+        ],
+        "unit": {
+          "symbol": "W/m2",
+          "label": "degrees Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "13",
+        "current_value": "23.5",
+        "at": "03/21/2014 14:15:03",
+        "max_value": "26.2",
+        "min_value": "21.2",
+        "tags": [
+          "Temp. v prostoru"
+        ],
+        "unit": {
+          "symbol": "T12",
+          "label": "degrees Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "14",
+        "current_value": "17.5",
+        "at": "03/21/2014 14:15:03",
+        "max_value": "37.2",
+        "min_value": "-74.7",
+        "tags": [
+          "Temp. talnega gr."
+        ],
+        "unit": {
+          "symbol": "T13",
+          "label": "degrees Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "15",
+        "current_value": "0.0",
+        "at": "03/21/2014 14:15:03",
+        "max_value": "33.1",
+        "min_value": "0.0",
+        "tags": [
+          "Setpoint talno"
+        ],
+        "unit": {
+          "symbol": "0 = OFF",
+          "label": "degrees Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "16",
+        "current_value": "49.7",
+        "at": "03/21/2014 14:15:03",
+        "max_value": "56.4",
+        "min_value": "-83.2",
+        "tags": [
+          "Temp. toplot. cr."
+        ],
+        "unit": {
+          "symbol": "T14",
+          "label": "degrees Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "17",
+        "current_value": "27.4",
+        "at": "03/21/2014 14:15:03",
+        "max_value": "90.4",
+        "min_value": "-53.5",
+        "tags": [
+          "Temp.  strehe (sol. kolektor)"
+        ],
+        "unit": {
+          "symbol": "T1",
+          "label": "degrees Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "18",
+        "current_value": "26.4",
+        "at": "03/21/2014 14:15:03",
+        "max_value": "58.1",
+        "min_value": "9.9",
+        "tags": [
+          "Temp. iz strehe"
+        ],
+        "unit": {
+          "symbol": "T2",
+          "label": "degrees Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "19",
+        "current_value": "23.1",
+        "at": "03/21/2014 14:15:03",
+        "max_value": "53.8",
+        "min_value": "14.2",
+        "tags": [
+          "Temp. povratna (v streho)"
+        ],
+        "unit": {
+          "symbol": "T3",
+          "label": "degrees Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "20",
+        "current_value": "2",
+        "at": "03/21/2014 14:15:03",
+        "max_value": "2.0",
+        "min_value": "0.0",
+        "tags": [
+          "Tokokrog Streha (M8)"
+        ],
+        "unit": {
+          "symbol": "0=OFF,1=TC,2=Zemlja",
+          "label": "Volt",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "21",
+        "current_value": "100",
+        "at": "03/21/2014 14:15:03",
+        "max_value": "100.0",
+        "min_value": "100.0",
+        "tags": [
+          "Ventil M7"
+        ],
+        "unit": {
+          "symbol": "M7 [%]",
+          "label": "Volt",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "22",
+        "current_value": "55",
+        "at": "03/21/2014 14:15:03",
+        "max_value": "100.0",
+        "min_value": "0.0",
+        "tags": [
+          "Crpalka sol. kol."
+        ],
+        "unit": {
+          "symbol": "C2 [%]",
+          "label": "Volt",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "23",
+        "current_value": "2300",
+        "at": "03/21/2014 14:15:03",
+        "max_value": "38100.0",
+        "min_value": "-13813.0",
+        "tags": [
+          "K2 - tr. moc"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "degrees Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "24",
+        "current_value": "0.464",
+        "at": "03/21/2014 14:15:03",
+        "max_value": "0.687",
+        "min_value": "0.0",
+        "tags": [
+          "K2 - tr. pretok"
+        ],
+        "unit": {
+          "symbol": "m3/h",
+          "label": "degrees Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "25",
+        "current_value": "28.47",
+        "at": "03/21/2014 14:15:03",
+        "max_value": "446.21",
+        "min_value": "26.96",
+        "tags": [
+          "K2 - sk. energija"
+        ],
+        "unit": {
+          "symbol": "MWh",
+          "label": "degrees Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "26",
+        "current_value": "20.0",
+        "at": "03/21/2014 14:15:03",
+        "max_value": "20.3",
+        "min_value": "-50.4",
+        "tags": [
+          "Temp. bariere"
+        ],
+        "unit": {
+          "symbol": "T4",
+          "label": "degrees Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "27",
+        "current_value": "22.8",
+        "at": "03/21/2014 14:15:03",
+        "max_value": "40.2",
+        "min_value": "-51.8",
+        "tags": [
+          "Temp. v bariero"
+        ],
+        "unit": {
+          "symbol": "T18",
+          "label": "degrees Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "28",
+        "current_value": "22.9",
+        "at": "03/21/2014 14:15:03",
+        "max_value": "23.4",
+        "min_value": "-28.5",
+        "tags": [
+          "Temp. iz bariere"
+        ],
+        "unit": {
+          "symbol": "T17",
+          "label": "degrees Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "29",
+        "current_value": "100",
+        "at": "03/21/2014 14:15:03",
+        "max_value": "100.0",
+        "min_value": "0.0",
+        "tags": [
+          "Crpalka v bariero"
+        ],
+        "unit": {
+          "symbol": "C1 [%]",
+          "label": "degrees Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "30",
+        "current_value": "-64",
+        "at": "03/21/2014 14:15:03",
+        "max_value": "38300.0",
+        "min_value": "-21074.0",
+        "tags": [
+          "K1 - tr. moc"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "degrees Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "31",
+        "current_value": "1.114",
+        "at": "03/21/2014 14:15:03",
+        "max_value": "61.755",
+        "min_value": "0.0",
+        "tags": [
+          "K1 - tr. pretok"
+        ],
+        "unit": {
+          "symbol": "m3/h",
+          "label": "degrees Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "32",
+        "current_value": "10.15",
+        "at": "03/21/2014 14:15:03",
+        "max_value": "582.4",
+        "min_value": "8.63",
+        "tags": [
+          "K1 - sk. energija"
+        ],
+        "unit": {
+          "symbol": "MWh",
+          "label": "degrees Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "33",
+        "current_value": "18.6",
+        "at": "03/21/2014 14:15:03",
+        "max_value": "18.7",
+        "min_value": "-83.2",
+        "tags": [
+          "Temp. zemlje - topli"
+        ],
+        "unit": {
+          "symbol": "T9",
+          "label": "degrees Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "34",
+        "current_value": "14.8",
+        "at": "03/21/2014 14:15:03",
+        "max_value": "14.8",
+        "min_value": "-74.7",
+        "tags": [
+          "Temp. zemlje - hladni"
+        ],
+        "unit": {
+          "symbol": "T7",
+          "label": "degrees Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "35",
+        "current_value": "18.2",
+        "at": "03/21/2014 14:15:03",
+        "max_value": "85.0",
+        "min_value": "15.0",
+        "tags": [
+          "T zraka - vpih"
+        ],
+        "unit": {
+          "symbol": "T6",
+          "label": "degrees Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "36",
+        "current_value": "21.6",
+        "at": "03/21/2014 14:15:03",
+        "max_value": "85.0",
+        "min_value": "17.5",
+        "tags": [
+          "T zraka - izsesan"
+        ],
+        "unit": {
+          "symbol": "T5",
+          "label": "degrees Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "37",
+        "current_value": "0",
+        "at": "03/21/2014 14:15:03",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "Regulacija vpiha - M4"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "degrees Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "38",
+        "current_value": "40",
+        "at": "03/21/2014 14:15:03",
+        "max_value": "75.0",
+        "min_value": "10.0",
+        "tags": [
+          "Ventilator - vpih"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "degrees Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "39",
+        "current_value": "28",
+        "at": "03/21/2014 14:15:03",
+        "max_value": "52.0",
+        "min_value": "7.0",
+        "tags": [
+          "Ventilator - izpih"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "degrees Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "40",
+        "current_value": "31.6",
+        "at": "03/21/2014 14:15:03",
+        "max_value": "85.0",
+        "min_value": "29.4",
+        "tags": [
+          "Temp. elektro omarice"
+        ],
+        "unit": {
+          "symbol": "T21",
+          "label": "degrees Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "41",
+        "current_value": "0",
+        "at": "03/21/2014 14:15:03",
+        "max_value": "514.0",
+        "min_value": "0.0",
+        "tags": [
+          "Koda napake"
+        ],
+        "unit": {
+          "symbol": "Koda napake",
+          "label": "degrees Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "42",
+        "current_value": "13",
+        "at": "03/21/2014 14:15:03",
+        "max_value": "13.0",
+        "min_value": "3.0",
+        "tags": [
+          "DSCAN resets"
+        ],
+        "unit": {
+          "symbol": "DSCAN resets",
+          "label": "degrees Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Raka, Slovenia",
+      "domain": 0,
+      "lat": "45.9284981600298",
+      "lon": "15.3710961341858",
+      "ele": "240m",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/64388\" >DULC - RAKA (IKU d.o.o.)</a>",
+    "URLMostrar": "https://xively.com/feeds/64388"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\64388.json",
+  "DocumentJSON": null
+}

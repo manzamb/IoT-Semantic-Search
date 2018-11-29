@@ -1,0 +1,84 @@
+{
+  "Conceptos": [
+    "sensing"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "2365",
+    "title": "Pachube + dNA + M.K.I.",
+    "Private": false,
+    "tags": null,
+    "description": "M.K.I. transforms the data from the installation \"Corpora.prospect\" by doubleNegatives Architecture (dNA), in the \"Mission G: sensing the earth\" exhibition at NTT InterCommunication Center[ICC]. The temperature, wind direction and brightness data from the weather station (that dNA originally uses for their own installation) are fed to the M.K.I.'s installation in the same exhibition, and each datum is transformed into the height of lampshade. A cubic chair below the lamp has a light sensor and it gets the data of the radiation intensity and feeds them to Pachube.",
+    "feed": "https://api.xively.com/v2/feeds/2365.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "01/14/2011 08:42:32",
+    "created": "07/26/2009 15:44:10",
+    "creator": "https://xively.com/users/dnaicc",
+    "version": null,
+    "website": "http://www.ntticc.or.jp/",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "-1604102784.000000",
+        "at": "01/14/2011 08:42:32",
+        "max_value": "27.0",
+        "min_value": "-1604102784.0",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "-1604120960.000000",
+        "at": "01/14/2011 08:42:32",
+        "max_value": "29.0",
+        "min_value": "-1604120960.0",
+        "tags": [
+          "windspeed"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "436273.593750",
+        "at": "01/14/2011 08:42:32",
+        "max_value": "436273.59375",
+        "min_value": "-158218608.0",
+        "tags": [
+          "brightness"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "ICC",
+      "domain": 0,
+      "lat": "35.6828950735557",
+      "lon": "139.686559438705",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/2365\" >Pachube + dNA + M.K.I.</a>",
+    "URLMostrar": "https://xively.com/feeds/2365"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\2365.json",
+  "DocumentJSON": null
+}

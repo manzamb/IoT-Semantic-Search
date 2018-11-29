@@ -1,0 +1,100 @@
+{
+  "Conceptos": [
+    "humidity"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "53651",
+    "title": "Home Environment Data",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/53651.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/20/2014 02:23:00",
+    "created": "03/28/2012 09:57:40",
+    "creator": "https://xively.com/users/grivvr",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "bed_humidity",
+        "current_value": "60.894802",
+        "at": "03/20/2014 02:23:00",
+        "max_value": "91.98657",
+        "min_value": "14.210598",
+        "tags": [
+          "humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "bed_temp",
+        "current_value": "20.993736",
+        "at": "03/20/2014 02:23:00",
+        "max_value": "33.14936",
+        "min_value": "7.210129",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "degrees Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "lounge_temp",
+        "current_value": "25.71489",
+        "at": "03/15/2014 06:09:00",
+        "max_value": "34.56028",
+        "min_value": "5.202278",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "degrees Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "studio_temp",
+        "current_value": "11.931282",
+        "at": "08/04/2012 04:15:33",
+        "max_value": "11.931282",
+        "min_value": "11.931282",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "degrees Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Canberra, Australia",
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/53651\" >Home Environment Data</a>",
+    "URLMostrar": "https://xively.com/feeds/53651"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\53651.json",
+  "DocumentJSON": null
+}

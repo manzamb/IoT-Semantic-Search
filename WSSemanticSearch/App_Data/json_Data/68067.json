@@ -1,0 +1,73 @@
+{
+  "Conceptos": [
+    "system"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "68067",
+    "title": "Gia's aquarium",
+    "Private": false,
+    "tags": [
+      "Aquarium",
+      "Arduino",
+      "PH",
+      "Temperature"
+    ],
+    "description": "Aquarium Automation System (AquaGod)",
+    "feed": "https://api.xively.com/v2/feeds/68067.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:13:40",
+    "created": "07/17/2012 19:39:55",
+    "creator": "https://xively.com/users/gianick",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Aquarium_Temperature",
+        "current_value": "29.81",
+        "at": "03/21/2014 14:13:40",
+        "max_value": "106.75",
+        "min_value": "-147.9",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Degrees Centigrade",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Board_Temperature",
+        "current_value": "32",
+        "at": "03/21/2014 14:13:40",
+        "max_value": "99.99",
+        "min_value": "24.0",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Degrees Centigrade",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "41.7191676303287",
+      "lon": "44.7836744785309",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/68067\" >Gia's aquarium</a>",
+    "URLMostrar": "https://xively.com/feeds/68067"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\68067.json",
+  "DocumentJSON": null
+}

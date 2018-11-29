@@ -1,0 +1,269 @@
+{
+  "Conceptos": [
+    "process"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "39512",
+    "title": "BeerFridge",
+    "Private": false,
+    "tags": null,
+    "description": "Temperature of my beer fridge. Measured by a JeeNode with a Microchip TC74 I2C temperature sensor, transmitting every 10 seconds to a JeeLink receiver, with the output being parsed by a Processing application that posts the data to Pachube.",
+    "feed": "https://api.xively.com/v2/feeds/39512.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:10:06",
+    "created": "11/14/2011 17:41:39",
+    "creator": "https://xively.com/users/gsgeschke",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "0",
+        "at": "03/21/2014 14:09:43",
+        "max_value": "255.0",
+        "min_value": "0.0",
+        "tags": [
+          "fridge",
+          "msgsMissed",
+          "refrigerator"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "11",
+        "at": "03/21/2014 14:09:42",
+        "max_value": "17.0",
+        "min_value": "-6.0",
+        "tags": [
+          "degC",
+          "fridge",
+          "refrigerator",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "degC",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "51",
+        "at": "03/21/2014 14:09:43",
+        "max_value": "8231.0",
+        "min_value": "22.0",
+        "tags": [
+          "degF",
+          "fridge",
+          "refrigerator",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "degF",
+          "label": "Fahrenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "0",
+        "at": "03/21/2014 14:09:12",
+        "max_value": "255.0",
+        "min_value": "0.0",
+        "tags": [
+          "ambient",
+          "garage",
+          "msgsMissed"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "3",
+        "at": "03/21/2014 14:10:03",
+        "max_value": "39.0",
+        "min_value": "-10.0",
+        "tags": [
+          "ambient",
+          "degC",
+          "garage",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "degC",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "37",
+        "at": "03/21/2014 14:10:05",
+        "max_value": "102.0",
+        "min_value": "14.0",
+        "tags": [
+          "ambient",
+          "degF",
+          "garage",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "degF",
+          "label": "Fahrenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "0",
+        "at": "03/21/2014 14:09:54",
+        "max_value": "254.0",
+        "min_value": "0.0",
+        "tags": [
+          "fluid",
+          "msgsMissed"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "7",
+        "current_value": "10",
+        "at": "03/21/2014 14:09:53",
+        "max_value": "14.0",
+        "min_value": "-3.0",
+        "tags": [
+          "degC",
+          "fluid",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "degC",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "8",
+        "current_value": "50",
+        "at": "03/21/2014 14:09:53",
+        "max_value": "57.0",
+        "min_value": "27.0",
+        "tags": [
+          "degF",
+          "fluid",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "degF",
+          "label": "Fahrenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "9",
+        "current_value": "0",
+        "at": "03/21/2014 14:09:21",
+        "max_value": "255.0",
+        "min_value": "0.0",
+        "tags": [
+          "battery",
+          "msgsMissed"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "10",
+        "current_value": "1448",
+        "at": "03/21/2014 14:09:21",
+        "max_value": "1625.0",
+        "min_value": "916.0",
+        "tags": [
+          "battery",
+          "voltage"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "mV",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "11",
+        "current_value": "0",
+        "at": "03/21/2014 14:09:32",
+        "max_value": "254.0",
+        "min_value": "0.0",
+        "tags": [
+          "msgsMissed",
+          "vcc"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "12",
+        "current_value": "3240",
+        "at": "03/21/2014 14:09:31",
+        "max_value": "3320.0",
+        "min_value": "2680.0",
+        "tags": [
+          "vcc",
+          "voltage"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "mV",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "47.6357835908649",
+      "lon": "-117.421875",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/39512\" >BeerFridge</a>",
+    "URLMostrar": "https://xively.com/feeds/39512"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\39512.json",
+  "DocumentJSON": null
+}

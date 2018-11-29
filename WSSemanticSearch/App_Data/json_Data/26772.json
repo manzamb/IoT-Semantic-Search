@@ -1,0 +1,79 @@
+{
+  "Conceptos": [
+    "horn"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "26772",
+    "title": "Gamma Radiation in Nordhorn-Klausheide, Germany (034560151)",
+    "Private": false,
+    "tags": [
+      "bfs",
+      "doserate",
+      "gamma",
+      "germany",
+      "ortsdosisleistung",
+      "radiation",
+      "sensor:type=radiation",
+      "strahlung"
+    ],
+    "description": "This feed represents the gamma radiation dose rate in/near Nordhorn-Klausheide (station ID: 034560151) in Germany, 1.3 meters above ground level. Data is from BfS (Bundesamt für Strahlenschutz), pushed to pachube by Marian Steinbach. Units are μSv/h (Micro-Sievert per hour). Values are reported in two different intervals: 2 hour average and 24 hour average. 2 hour values are unverified, 24 hour values are verified and manually corrected. For more information, see http://odlinfo.bfs.de/ (german).",
+    "feed": "https://api.xively.com/v2/feeds/26772.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "08/12/2013 12:00:00",
+    "created": "06/15/2011 17:58:35",
+    "creator": "https://xively.com/users/marian",
+    "version": null,
+    "website": "http://www.sendung.de/radiation-germany-open-data/",
+    "datastreams": [
+      {
+        "id": "2h",
+        "current_value": "0.065",
+        "at": "08/12/2013 12:00:00",
+        "max_value": "0.117",
+        "min_value": "0.0",
+        "tags": [
+          "radiation",
+          "unverified"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "24h",
+        "current_value": null,
+        "at": "06/15/2011 17:58:35",
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "radiation",
+          "verified"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Nordhorn-Klausheide",
+      "domain": 0,
+      "lat": "52.46",
+      "lon": "7.18",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/26772\" >Gamma Radiation in Nordhorn-Klausheide, Germany (034560151)</a>",
+    "URLMostrar": "https://xively.com/feeds/26772"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\26772.json",
+  "DocumentJSON": null
+}

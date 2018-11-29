@@ -1,0 +1,118 @@
+{
+  "Conceptos": [
+    "plan"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "24996",
+    "title": "FV1",
+    "Private": false,
+    "tags": [
+      "Photo Voltaic Plant"
+    ],
+    "description": "FV1\r\nPV production\r\nInstant current\r\nIncremental kWh (per day)\r\nInverter Faults ...\r\nAnd other control values\r\n\r\nValid measures from 13-nov-2011 until 02 jul 2012 (router fault) then from 22-jul-2012.\r\nFrom 24-SEP-2012 data feeding problems ... still working on ...\r\nFeed update restored from 14-OCT-2012.",
+    "feed": "https://api.xively.com/v2/feeds/24996.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:07:12",
+    "created": "05/10/2011 07:07:53",
+    "creator": "https://xively.com/users/sole69",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "5.96",
+        "at": "03/21/2014 14:07:12",
+        "max_value": "13.1",
+        "min_value": "0.0",
+        "tags": [
+          "Corrente"
+        ],
+        "unit": {
+          "symbol": "A",
+          "label": "Ampere",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "0",
+        "at": "03/21/2014 14:07:12",
+        "max_value": "5.0",
+        "min_value": "0.0",
+        "tags": [
+          "Inverter Faults"
+        ],
+        "unit": {
+          "symbol": "Times",
+          "label": "Times",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "11.56",
+        "at": "03/21/2014 14:07:12",
+        "max_value": "18.87",
+        "min_value": "0.0",
+        "tags": [
+          "Produzione"
+        ],
+        "unit": {
+          "symbol": "kWh",
+          "label": "kWh",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "1.29",
+        "at": "03/21/2014 14:07:12",
+        "max_value": "16.62",
+        "min_value": "0.0",
+        "tags": [
+          "Corrente c"
+        ],
+        "unit": {
+          "symbol": "A",
+          "label": "Ampere",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "5.42",
+        "at": "03/21/2014 14:07:12",
+        "max_value": "16.57",
+        "min_value": "0.42",
+        "tags": [
+          "Corrente e"
+        ],
+        "unit": {
+          "symbol": "A",
+          "label": "Ampere",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "FV",
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": "85",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/24996\" >FV1</a>",
+    "URLMostrar": "https://xively.com/feeds/24996"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\24996.json",
+  "DocumentJSON": null
+}

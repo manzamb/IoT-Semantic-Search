@@ -1,0 +1,164 @@
+{
+  "Conceptos": [
+    "temperatura"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "107213",
+    "title": "Raspberry Marco Tonoli Moneglia",
+    "Private": false,
+    "tags": [
+      "TemperaturaCPU"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/107213.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "02/17/2014 17:00:04",
+    "created": "02/27/2013 11:51:03",
+    "creator": "https://xively.com/users/marcottt",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "cpu_load10m",
+        "current_value": "0.98\n",
+        "at": "02/16/2014 21:10:05",
+        "max_value": "5.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "cpu_temp",
+        "current_value": "40.6\n",
+        "at": "02/17/2014 17:00:03",
+        "max_value": "59.5",
+        "min_value": "31.5",
+        "tags": null,
+        "unit": {
+          "symbol": "°C",
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "file_webcam",
+        "current_value": "0\n",
+        "at": "02/17/2014 17:00:03",
+        "max_value": "14334.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "num",
+          "label": "num",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "file_webcam_pi2",
+        "current_value": "0\n",
+        "at": "02/17/2014 17:00:03",
+        "max_value": "540.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "num",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "free_hdd_gb",
+        "current_value": "40",
+        "at": "02/17/2014 17:00:03",
+        "max_value": "205.0",
+        "min_value": "40.0",
+        "tags": null,
+        "unit": {
+          "symbol": "GB",
+          "label": "GB",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "free_sd_gb",
+        "current_value": "12",
+        "at": "02/17/2014 17:00:03",
+        "max_value": "26.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "GB",
+          "label": "GB",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "mem_free",
+        "current_value": "282\n",
+        "at": "02/17/2014 17:00:03",
+        "max_value": "444.0",
+        "min_value": "54.0",
+        "tags": null,
+        "unit": {
+          "symbol": "MB",
+          "label": "MB",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "mem_used",
+        "current_value": "92\n",
+        "at": "02/17/2014 17:00:03",
+        "max_value": "319.0",
+        "min_value": "25.0",
+        "tags": null,
+        "unit": {
+          "symbol": "MB",
+          "label": "MB",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Torrent_Finished",
+        "current_value": "0\n",
+        "at": "02/17/2014 17:00:03",
+        "max_value": "11.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Moneglia",
+      "domain": 0,
+      "lat": "44.2479965483782",
+      "lon": "9.4907283782959",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/107213\" >Raspberry Marco Tonoli Moneglia</a>",
+    "URLMostrar": "https://xively.com/feeds/107213"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\107213.json",
+  "DocumentJSON": null
+}

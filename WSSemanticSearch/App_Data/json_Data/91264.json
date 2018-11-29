@@ -1,0 +1,267 @@
+{
+  "Conceptos": [
+    "deployment"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "91264",
+    "title": "Igor Ivanovic egg 1",
+    "Private": false,
+    "tags": [
+      "device:type=Air Quality Egg",
+      "device:type=airqualityegg"
+    ],
+    "description": "Podgorica, Montenegro Egg Deployment. ",
+    "feed": "https://api.xively.com/v2/feeds/91264.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "07/08/2013 15:53:09",
+    "created": "12/10/2012 13:30:20",
+    "creator": "https://xively.com/users/airqualityegg",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "CO_00-04-a3-27-b5-11_1",
+        "current_value": "317205",
+        "at": "07/08/2013 15:52:34",
+        "max_value": "347334.0",
+        "min_value": "30420.0",
+        "tags": [
+          "aqe:data_origin=computed",
+          "aqe:sensor_address=00:04:a3:27:b5:11",
+          "aqe:sensor_index=1",
+          "aqe:sensor_type=CO"
+        ],
+        "unit": {
+          "symbol": "ppb",
+          "label": "ppb",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "CO_00-04-a3-27-b8-20_1",
+        "current_value": "276531",
+        "at": "12/10/2012 13:36:04",
+        "max_value": "306062.0",
+        "min_value": "272703.0",
+        "tags": [
+          "aqe:data_origin=computed",
+          "aqe:sensor_address=00:04:a3:27:b8:20",
+          "aqe:sensor_index=1",
+          "aqe:sensor_type=CO"
+        ],
+        "unit": {
+          "symbol": "ppb",
+          "label": "ppb",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "CO_raw_00-04-a3-27-b5-11_1",
+        "current_value": "170550",
+        "at": "07/08/2013 15:52:29",
+        "max_value": "4571617.0",
+        "min_value": "34554.0",
+        "tags": [
+          "aqe:data_origin=raw",
+          "aqe:sensor_address=00:04:a3:27:b5:11",
+          "aqe:sensor_index=1",
+          "aqe:sensor_type=CO"
+        ],
+        "unit": {
+          "symbol": "ohms",
+          "label": "ohms",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "CO_raw_00-04-a3-27-b8-20_1",
+        "current_value": "265510",
+        "at": "12/10/2012 13:35:59",
+        "max_value": "265510.0",
+        "min_value": "223520.0",
+        "tags": [
+          "aqe:data_origin=raw",
+          "aqe:sensor_address=00:04:a3:27:b8:20",
+          "aqe:sensor_index=1",
+          "aqe:sensor_type=CO"
+        ],
+        "unit": {
+          "symbol": "ohms",
+          "label": "ohms",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Humidity_00-04-a3-27-bc-eb_1",
+        "current_value": "55",
+        "at": "07/08/2013 15:52:14",
+        "max_value": "124.0",
+        "min_value": "26.0",
+        "tags": [
+          "aqe:data_origin=computed",
+          "aqe:sensor_address=00:04:a3:27:bc:eb",
+          "aqe:sensor_index=1",
+          "aqe:sensor_type=Humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Humidity_00-04-a3-27-c9-6b_1",
+        "current_value": "33",
+        "at": "12/10/2012 13:35:44",
+        "max_value": "40.0",
+        "min_value": "27.0",
+        "tags": [
+          "aqe:data_origin=computed",
+          "aqe:sensor_address=00:04:a3:27:c9:6b",
+          "aqe:sensor_index=1",
+          "aqe:sensor_type=Humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "NO2_00-04-a3-27-b5-11_0",
+        "current_value": "357",
+        "at": "07/08/2013 15:52:24",
+        "max_value": "637.0",
+        "min_value": "0.0",
+        "tags": [
+          "aqe:data_origin=computed",
+          "aqe:sensor_address=00:04:a3:27:b5:11",
+          "aqe:sensor_index=0",
+          "aqe:sensor_type=NO2"
+        ],
+        "unit": {
+          "symbol": "ppb",
+          "label": "ppb",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "NO2_00-04-a3-27-b8-20_0",
+        "current_value": "134",
+        "at": "12/10/2012 13:35:54",
+        "max_value": "134.0",
+        "min_value": "130.0",
+        "tags": [
+          "aqe:data_origin=computed",
+          "aqe:sensor_address=00:04:a3:27:b8:20",
+          "aqe:sensor_index=0",
+          "aqe:sensor_type=NO2"
+        ],
+        "unit": {
+          "symbol": "ppb",
+          "label": "ppb",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "NO2_raw_00-04-a3-27-b5-11_0",
+        "current_value": "234312",
+        "at": "07/08/2013 15:52:19",
+        "max_value": "37777777777.0",
+        "min_value": "1747.0",
+        "tags": [
+          "aqe:data_origin=raw",
+          "aqe:sensor_address=00:04:a3:27:b5:11",
+          "aqe:sensor_index=0",
+          "aqe:sensor_type=NO2"
+        ],
+        "unit": {
+          "symbol": "ohms",
+          "label": "ohms",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "NO2_raw_00-04-a3-27-b8-20_0",
+        "current_value": "6571",
+        "at": "12/10/2012 13:35:49",
+        "max_value": "6571.0",
+        "min_value": "3015.0",
+        "tags": [
+          "aqe:data_origin=raw",
+          "aqe:sensor_address=00:04:a3:27:b8:20",
+          "aqe:sensor_index=0",
+          "aqe:sensor_type=NO2"
+        ],
+        "unit": {
+          "symbol": "ohms",
+          "label": "ohms",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperature_00-04-a3-27-bc-eb_0",
+        "current_value": "36",
+        "at": "07/08/2013 15:53:09",
+        "max_value": "37777777777.0",
+        "min_value": "0.0",
+        "tags": [
+          "aqe:data_origin=computed",
+          "aqe:sensor_address=00:04:a3:27:bc:eb",
+          "aqe:sensor_index=0",
+          "aqe:sensor_type=Temperature"
+        ],
+        "unit": {
+          "symbol": "deg C",
+          "label": "deg C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperature_00-04-a3-27-c9-6b_0",
+        "current_value": "31",
+        "at": "12/10/2012 13:35:42",
+        "max_value": "31.0",
+        "min_value": "31.0",
+        "tags": [
+          "aqe:data_origin=computed",
+          "aqe:sensor_address=00:04:a3:27:c9:6b",
+          "aqe:sensor_index=0",
+          "aqe:sensor_type=Temperature"
+        ],
+        "unit": {
+          "symbol": "deg C",
+          "label": "deg C",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "42.466652076595",
+      "lon": "19.2968845367432",
+      "ele": "2m",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/91264\" >Igor Ivanovic egg 1</a>",
+    "URLMostrar": "https://xively.com/feeds/91264"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\91264.json",
+  "DocumentJSON": null
+}

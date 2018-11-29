@@ -1,0 +1,297 @@
+{
+  "Conceptos": [
+    "environment"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "62988",
+    "title": "Residential information",
+    "Private": false,
+    "tags": [
+      "energy",
+      "PV",
+      "RPi",
+      "smart meter"
+    ],
+    "description": "Testing Raspberry Pi connected with my smartmeters (E+G+PV) and some environmental measurements",
+    "feed": "https://api.xively.com/v2/feeds/62988.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:10:17",
+    "created": "06/09/2012 14:53:38",
+    "creator": "https://xively.com/users/eefbakker",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "2",
+        "current_value": "17.5",
+        "at": "03/21/2014 14:10:10",
+        "max_value": "85.0",
+        "min_value": "-999.99",
+        "tags": [
+          "Attick temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "805.0",
+        "at": "03/21/2014 14:10:16",
+        "max_value": "1219.0",
+        "min_value": "0.0",
+        "tags": [
+          "PV currently"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "W",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "3033.329",
+        "at": "03/21/2014 14:10:16",
+        "max_value": "3033.329",
+        "min_value": "1742.879",
+        "tags": [
+          "PV total"
+        ],
+        "unit": {
+          "symbol": "kWh",
+          "label": "kWh",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "-690.0",
+        "at": "03/21/2014 14:10:15",
+        "max_value": "5580.0",
+        "min_value": "-1130.0",
+        "tags": [
+          "Smartmeter Q"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "W",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "2976.0",
+        "at": "03/21/2014 14:10:15",
+        "max_value": "2976.0",
+        "min_value": "2145.0",
+        "tags": [
+          "Smartmeter +T1"
+        ],
+        "unit": {
+          "symbol": "kWh",
+          "label": "kWh",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "7",
+        "current_value": "2936.0",
+        "at": "03/21/2014 14:10:15",
+        "max_value": "2936.0",
+        "min_value": "2194.0",
+        "tags": [
+          "Smartmeter +T2"
+        ],
+        "unit": {
+          "symbol": "kWh",
+          "label": "kWh",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "8",
+        "current_value": "509.0",
+        "at": "03/21/2014 14:10:15",
+        "max_value": "509.0",
+        "min_value": "315.0",
+        "tags": [
+          "Smartmeter -T1"
+        ],
+        "unit": {
+          "symbol": "kWh",
+          "label": "kWh",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "9",
+        "current_value": "1333.0",
+        "at": "03/21/2014 14:10:15",
+        "max_value": "1333.0",
+        "min_value": "746.0",
+        "tags": [
+          "Smartmeter -T2"
+        ],
+        "unit": {
+          "symbol": "kWh",
+          "label": "kWh",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "10",
+        "current_value": "4312.706",
+        "at": "03/21/2014 14:10:15",
+        "max_value": "4312.706",
+        "min_value": "3295.16",
+        "tags": [
+          "Gas usages"
+        ],
+        "unit": {
+          "symbol": "m3",
+          "label": "m3",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "11",
+        "current_value": "0.941",
+        "at": "03/21/2014 14:10:16",
+        "max_value": "9.936",
+        "min_value": "0.0",
+        "tags": [
+          "PV daily total"
+        ],
+        "unit": {
+          "symbol": "kWh",
+          "label": "kWh",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "12",
+        "current_value": "1004.6",
+        "at": "03/21/2014 14:10:10",
+        "max_value": "1133.0",
+        "min_value": "568.0",
+        "tags": [
+          "Pressure"
+        ],
+        "unit": {
+          "symbol": "mBar",
+          "label": "mBar",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "13",
+        "current_value": "41",
+        "at": "03/21/2014 14:10:10",
+        "max_value": "60.0",
+        "min_value": "26.0",
+        "tags": [
+          "rel Humidity"
+        ],
+        "unit": {
+          "symbol": "%rH",
+          "label": "%rH",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "14",
+        "current_value": "40.1",
+        "at": "03/21/2014 14:10:10",
+        "max_value": "54.6",
+        "min_value": "27.7",
+        "tags": [
+          "RPi CPU temp"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "15",
+        "current_value": "17",
+        "at": "03/21/2014 14:09:32",
+        "max_value": "94.0",
+        "min_value": "0.0",
+        "tags": [
+          "Attick light intensity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "16",
+        "current_value": "10.7",
+        "at": "03/21/2014 14:10:10",
+        "max_value": "127.7",
+        "min_value": "-999.99",
+        "tags": [
+          "T1 temp"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "17",
+        "current_value": "5.9",
+        "at": "03/21/2014 14:09:32",
+        "max_value": "100.0",
+        "min_value": "0.0",
+        "tags": [
+          "RPi CPU load"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Groningen",
+      "domain": 0,
+      "lat": "53.2304264353476",
+      "lon": "6.59379512071609",
+      "ele": "5",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/62988\" >Residential information</a>",
+    "URLMostrar": "https://xively.com/feeds/62988"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\62988.json",
+  "DocumentJSON": null
+}

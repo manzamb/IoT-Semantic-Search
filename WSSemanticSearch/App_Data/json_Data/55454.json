@@ -1,0 +1,50 @@
+{
+  "Conceptos": [
+    "physical body"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "55454",
+    "title": "Arduino Based patient monitoring",
+    "Private": false,
+    "tags": null,
+    "description": "\t\r\n                                PATIENT MONITORING USING ARDUINO\r\n               Samuel Livingston M under the guidance of Prof. Jeeva J.B \r\n\r\nIn hospitals, Patients in Intensive care & critical care units will be kept under continuous monitoring. In general wards, the Patient doesn’t require continuous monitoring instead there body temperature, pulse rate will be noted in Patient chart for every one hour. During hospitalization the details about the Patient conditions will be noted in the Patient chart. These charts will be stored in medical records unit so that whenever it is needed the details can be retrieved and utilized. The Patient’s temperature and blood pressure will be monitored manually. To increase the accuracy of readings & to avoid errors while writing in the chart Arduino based Patient monitoring is designed.\r\nArduino is an open source micro-controller board, and a development environment for writing program, designed to make the process of using electronics for the required application. Arduino based Patient monitoring unit collects the data’s like body temperature, pulse rate...etc from patient using sensors & displays it in the LCD monitor. The collected data from the Patient monitoring unit will transmit the information to the hospital website so that Patient data will be stored as Patient chart or Patient history. \r\n",
+    "feed": "https://api.xively.com/v2/feeds/55454.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "04/20/2012 09:23:27",
+    "created": "04/12/2012 10:47:06",
+    "creator": "https://xively.com/users/samuellivingston",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Temperature",
+        "current_value": "38",
+        "at": "04/15/2012 12:40:52",
+        "max_value": "38.0",
+        "min_value": "38.0",
+        "tags": null,
+        "unit": {
+          "symbol": "C",
+          "label": "celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Gudiyatham",
+      "domain": 0,
+      "lat": "12.8939203118884",
+      "lon": "79.1308575868607",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/55454\" >Arduino Based patient monitoring</a>",
+    "URLMostrar": "https://xively.com/feeds/55454"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\55454.json",
+  "DocumentJSON": null
+}

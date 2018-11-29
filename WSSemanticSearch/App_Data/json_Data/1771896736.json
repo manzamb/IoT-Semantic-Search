@@ -1,0 +1,129 @@
+{
+  "Conceptos": [
+    "carbon monoxide"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "1771896736",
+    "title": "RespiraXixon",
+    "Private": false,
+    "tags": [
+      "air quality",
+      "xixonrespira"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/1771896736.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "08/01/2013 18:32:58",
+    "created": "06/15/2013 05:41:35",
+    "creator": "https://xively.com/users/tolbier",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "CO",
+        "current_value": "28",
+        "at": "08/01/2013 18:31:55",
+        "max_value": "432.0",
+        "min_value": "1.0",
+        "tags": [
+          "air quality",
+          "carbon monoxide",
+          "xixonrespira"
+        ],
+        "unit": {
+          "symbol": "ppm",
+          "label": "ppm",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Humidity",
+        "current_value": "42.8",
+        "at": "08/01/2013 18:32:58",
+        "max_value": "83.7",
+        "min_value": "29.3",
+        "tags": [
+          "air quality",
+          "humidity",
+          "xixonrespira"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "NO2",
+        "current_value": "19",
+        "at": "08/01/2013 18:32:35",
+        "max_value": "50.0",
+        "min_value": "10.0",
+        "tags": [
+          "air quality",
+          "nitrogen dioxide",
+          "xixonrespira"
+        ],
+        "unit": {
+          "symbol": "ppb",
+          "label": "ppb",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temp",
+        "current_value": "33.2",
+        "at": "08/01/2013 18:32:46",
+        "max_value": "39.7",
+        "min_value": "-50.0",
+        "tags": [
+          "air quality",
+          "temperature",
+          "xixonrespira"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Voltage",
+        "current_value": "3.312",
+        "at": "07/30/2013 09:02:20",
+        "max_value": "3.312",
+        "min_value": "3.311",
+        "tags": [
+          "air quality",
+          "voltage",
+          "xixonrespira"
+        ],
+        "unit": {
+          "symbol": "volts",
+          "label": "volts",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "#korama Cangues d'Onís",
+      "domain": 0,
+      "lat": "43.5413160892444",
+      "lon": "-5.66184282302856",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/1771896736\" >RespiraXixon</a>",
+    "URLMostrar": "https://xively.com/feeds/1771896736"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\1771896736.json",
+  "DocumentJSON": null
+}

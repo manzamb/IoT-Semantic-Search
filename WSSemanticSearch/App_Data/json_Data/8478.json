@@ -1,0 +1,388 @@
+{
+  "Conceptos": [
+    "humedad"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "8478",
+    "title": "Acuario v2.0",
+    "Private": false,
+    "tags": null,
+    "description": "Control de Acuario Marino",
+    "feed": "https://api.xively.com/v2/feeds/8478.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/21/2014 07:41:08",
+    "created": "06/29/2010 20:28:20",
+    "creator": "https://xively.com/users/a28s5162",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "26.44",
+        "at": "03/21/2014 07:41:08",
+        "max_value": "32.81",
+        "min_value": "-127.0",
+        "tags": [
+          "Temp. Acuario"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Grados",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "24.75",
+        "at": "03/21/2014 07:41:08",
+        "max_value": "65.56",
+        "min_value": "-127.0",
+        "tags": [
+          "Temp. Luz"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Grados",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "24.81",
+        "at": "03/21/2014 07:41:08",
+        "max_value": "31.81",
+        "min_value": "-127.0",
+        "tags": [
+          "Temp. Casa"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Grados",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "13.44",
+        "at": "03/21/2014 07:41:08",
+        "max_value": "85.0",
+        "min_value": "-127.0",
+        "tags": [
+          "Temp. Exterior"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Grados",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "0",
+        "at": "03/21/2014 07:41:08",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "Luz Blanca"
+        ],
+        "unit": {
+          "symbol": "-",
+          "label": "on-off",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "0",
+        "at": "03/21/2014 07:41:08",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "Luz Actinica"
+        ],
+        "unit": {
+          "symbol": "-",
+          "label": "on-off",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "0",
+        "at": "03/21/2014 07:41:08",
+        "max_value": "255.0",
+        "min_value": "0.0",
+        "tags": [
+          "Luz Led"
+        ],
+        "unit": {
+          "symbol": "-",
+          "label": "0-255",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "7",
+        "current_value": "145",
+        "at": "03/21/2014 07:41:08",
+        "max_value": "1023.0",
+        "min_value": "0.0",
+        "tags": [
+          "Intensidad Luz"
+        ],
+        "unit": {
+          "symbol": "-",
+          "label": "0-1023",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "8",
+        "current_value": "0",
+        "at": "03/21/2014 07:41:08",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "Ventilador Luz"
+        ],
+        "unit": {
+          "symbol": "-",
+          "label": "on-off",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "9",
+        "current_value": "1",
+        "at": "03/21/2014 07:41:08",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "Ventilador Agua"
+        ],
+        "unit": {
+          "symbol": "-",
+          "label": "on-off",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "11",
+        "current_value": "0",
+        "at": "03/21/2014 07:41:08",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "Calefaccion"
+        ],
+        "unit": {
+          "symbol": "-",
+          "label": "on-off",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "12",
+        "current_value": "0",
+        "at": "03/21/2014 07:41:08",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "Calefaccion Up"
+        ],
+        "unit": {
+          "symbol": "-",
+          "label": "on-off",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "13",
+        "current_value": "1",
+        "at": "03/21/2014 07:41:08",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "Power"
+        ],
+        "unit": {
+          "symbol": "-",
+          "label": "on-off",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "14",
+        "current_value": "29.00",
+        "at": "03/21/2014 07:41:08",
+        "max_value": "181.0",
+        "min_value": "0.0",
+        "tags": [
+          "Tiempo Relleno agua"
+        ],
+        "unit": {
+          "symbol": "s",
+          "label": "seg.",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "15",
+        "current_value": "1",
+        "at": "03/21/2014 07:41:08",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "Nivel agua (up)"
+        ],
+        "unit": {
+          "symbol": "-",
+          "label": "on-off",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "16",
+        "current_value": "0",
+        "at": "03/21/2014 07:41:08",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "Nivel agua (down)"
+        ],
+        "unit": {
+          "symbol": "-",
+          "label": "on-off",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "17",
+        "current_value": "0",
+        "at": "03/21/2014 07:41:08",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "Relleno agua"
+        ],
+        "unit": {
+          "symbol": "-",
+          "label": "on-off",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "18",
+        "current_value": "245.98",
+        "at": "03/21/2014 07:41:08",
+        "max_value": "310.69",
+        "min_value": "0.46",
+        "tags": [
+          "Voltaje"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": "voltios",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "19",
+        "current_value": "30.32",
+        "at": "03/21/2014 07:41:08",
+        "max_value": "35.05",
+        "min_value": "3.73",
+        "tags": [
+          "Corriente"
+        ],
+        "unit": {
+          "symbol": "A",
+          "label": "amperios",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "20",
+        "current_value": "0.00",
+        "at": "03/21/2014 07:41:08",
+        "max_value": "1920.0",
+        "min_value": "0.0",
+        "tags": [
+          "Tiempo riego"
+        ],
+        "unit": {
+          "symbol": "s",
+          "label": "seg.",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "21",
+        "current_value": "9",
+        "at": "03/21/2014 07:41:08",
+        "max_value": "8844.0",
+        "min_value": "0.0",
+        "tags": [
+          "Errores temperatura"
+        ],
+        "unit": {
+          "symbol": "u",
+          "label": "errores",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "22",
+        "current_value": "49.80",
+        "at": "03/21/2014 07:41:08",
+        "max_value": "65.4",
+        "min_value": "0.0",
+        "tags": [
+          "Humedad"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "alcorcon",
+      "domain": 0,
+      "lat": "40.3468057815893",
+      "lon": "-3.82839202880859",
+      "ele": "718",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/8478\" >Acuario v2.0</a>",
+    "URLMostrar": "https://xively.com/feeds/8478"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\8478.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,362 @@
+{
+  "Conceptos": [
+    "frequency"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "61224",
+    "title": "PST05 Sensor",
+    "Private": false,
+    "tags": [
+      "project",
+      "PST05",
+      "rs232",
+      "sensor",
+      "Еlectricity"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/61224.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "05/29/2012 13:51:54",
+    "created": "05/27/2012 14:05:32",
+    "creator": "https://xively.com/users/demon89dm",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "EC",
+        "current_value": " 158.40",
+        "at": "06/05/2012 07:58:30",
+        "max_value": "158.4",
+        "min_value": "0.0",
+        "tags": [
+          "reactive energy - capacitive"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Wh",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "EL",
+        "current_value": " 79.10",
+        "at": "06/05/2012 07:58:30",
+        "max_value": "79.1",
+        "min_value": "0.0",
+        "tags": [
+          "reactive energy - inductive"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Wh",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Eminus",
+        "current_value": " 257.00",
+        "at": "06/05/2012 07:58:30",
+        "max_value": "257.0",
+        "min_value": "0.0",
+        "tags": [
+          "active energy - export"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Wh",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Eplus",
+        "current_value": " 50534.90",
+        "at": "06/05/2012 07:58:30",
+        "max_value": "50535.0",
+        "min_value": "0.0",
+        "tags": [
+          "active energy - import"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Wh",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "F",
+        "current_value": " 49.98",
+        "at": "06/05/2012 07:58:30",
+        "max_value": "50.04",
+        "min_value": "0.0",
+        "tags": [
+          "frequency"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Hz",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "I1",
+        "current_value": " 0.00",
+        "at": "06/04/2012 08:05:43",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "electricity"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "A",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "I2",
+        "current_value": " 0.01",
+        "at": "06/04/2012 08:05:43",
+        "max_value": "0.01",
+        "min_value": "0.0",
+        "tags": [
+          "electricity"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "A",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "I3",
+        "current_value": " 0.00",
+        "at": "06/04/2012 08:05:43",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "electricity"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "A",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Ki",
+        "current_value": " 1000.00",
+        "at": "06/05/2012 07:58:30",
+        "max_value": "1000.0",
+        "min_value": "1000.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Ku",
+        "current_value": " 1000.00",
+        "at": "06/05/2012 07:58:30",
+        "max_value": "1000.0",
+        "min_value": "1000.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "P",
+        "current_value": " 0.10",
+        "at": "06/05/2012 07:58:30",
+        "max_value": "0.1",
+        "min_value": "0.0",
+        "tags": [
+          "active power"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "W",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "phiI1",
+        "current_value": " 53.60",
+        "at": "06/05/2012 07:58:30",
+        "max_value": "215.96",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "degree",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "phiI2",
+        "current_value": " 35.70",
+        "at": "06/05/2012 07:58:30",
+        "max_value": "85.52",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "degree",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "phiI3",
+        "current_value": " 45.10",
+        "at": "06/05/2012 07:58:30",
+        "max_value": "354.58",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "degree",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "phiU1",
+        "current_value": " 0.00",
+        "at": "06/04/2012 08:05:43",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "degree",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "phiU2",
+        "current_value": " 0.40",
+        "at": "06/05/2012 07:58:30",
+        "max_value": "0.62",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "degree",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "phiU3",
+        "current_value": " 0.10",
+        "at": "06/05/2012 07:58:30",
+        "max_value": "287.94",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "degree",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Q",
+        "current_value": " 0.00",
+        "at": "06/04/2012 08:05:43",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "reactive power"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "W",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "U1",
+        "current_value": " 234.87",
+        "at": "06/05/2012 07:58:30",
+        "max_value": "236.4",
+        "min_value": "233.27",
+        "tags": [
+          "electricity"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "V",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "U2",
+        "current_value": " 234.11",
+        "at": "06/05/2012 07:58:30",
+        "max_value": "236.01",
+        "min_value": "0.0",
+        "tags": [
+          "electricity"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "V",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "U3",
+        "current_value": " 234.11",
+        "at": "06/05/2012 07:58:30",
+        "max_value": "235.63",
+        "min_value": "0.0",
+        "tags": [
+          "electricity"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "V",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "42.1415778017963",
+      "lon": "24.7800064086914",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/61224\" >PST05 Sensor</a>",
+    "URLMostrar": "https://xively.com/feeds/61224"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\61224.json",
+  "DocumentJSON": null
+}

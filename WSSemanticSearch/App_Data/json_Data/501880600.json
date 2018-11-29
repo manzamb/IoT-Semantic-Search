@@ -1,0 +1,116 @@
+{
+  "Conceptos": [
+    "progetto"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "501880600",
+    "title": "Cappa",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/501880600.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "05/14/2013 13:00:40",
+    "created": "05/14/2013 09:11:12",
+    "creator": "https://xively.com/users/progettolak",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "CO2",
+        "current_value": "765",
+        "at": "05/14/2013 12:51:52",
+        "max_value": "850.0",
+        "min_value": "687.0",
+        "tags": [
+          "air"
+        ],
+        "unit": {
+          "symbol": "ppm",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Humidity",
+        "current_value": "54",
+        "at": "05/14/2013 12:51:52",
+        "max_value": "59.0",
+        "min_value": "52.0",
+        "tags": [
+          "air"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temp",
+        "current_value": "21",
+        "at": "05/14/2013 12:51:52",
+        "max_value": "22.0",
+        "min_value": "19.0",
+        "tags": [
+          "air"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "VOC1",
+        "current_value": "1",
+        "at": "05/14/2013 12:51:52",
+        "max_value": "2.0",
+        "min_value": "1.0",
+        "tags": [
+          "air"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "VOC2",
+        "current_value": "2",
+        "at": "05/14/2013 12:51:52",
+        "max_value": "3.0",
+        "min_value": "1.0",
+        "tags": [
+          "air"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/501880600\" >Cappa</a>",
+    "URLMostrar": "https://xively.com/feeds/501880600"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\501880600.json",
+  "DocumentJSON": null
+}

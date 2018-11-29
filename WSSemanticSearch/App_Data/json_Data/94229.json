@@ -1,0 +1,119 @@
+{
+  "Conceptos": [
+    "wind"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "94229",
+    "title": "mein Wetter",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "mein Wetter"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/94229.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:07:11",
+    "created": "12/21/2012 20:40:58",
+    "creator": "https://xively.com/users/paul123456",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "18",
+        "at": "03/21/2014 14:07:10",
+        "max_value": "152.0",
+        "min_value": "-99.0",
+        "tags": [
+          "Temperatur"
+        ],
+        "unit": {
+          "symbol": "��",
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "6",
+        "at": "03/21/2014 14:07:10",
+        "max_value": "377.0",
+        "min_value": "-55.0",
+        "tags": [
+          "Taupunkt"
+        ],
+        "unit": {
+          "symbol": "������",
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "45",
+        "at": "03/21/2014 14:07:10",
+        "max_value": "314.0",
+        "min_value": "-1754.0",
+        "tags": [
+          "Feuchte"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "1002",
+        "at": "03/21/2014 14:07:10",
+        "max_value": "1029.0",
+        "min_value": "465.0",
+        "tags": [
+          "Luftdruck"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "mbar",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "0",
+        "at": "03/21/2014 14:07:10",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "Windgeschwindigkeit"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "km/h",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "50.0359736721955",
+      "lon": "8.701171875",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/94229\" >mein Wetter</a>",
+    "URLMostrar": "https://xively.com/feeds/94229"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\94229.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,234 @@
+{
+  "Conceptos": [
+    "plan"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "157388679",
+    "title": "Mi acuario plantado",
+    "Private": false,
+    "tags": [
+      "Datos obtenidos de mi acuario"
+    ],
+    "description": "Datos obtenidos del controlador de mi acuario por arduino y con una ethernet shield.",
+    "feed": "https://api.xively.com/v2/feeds/157388679.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:06:54",
+    "created": "08/03/2013 12:58:51",
+    "creator": "https://xively.com/users/anakin",
+    "version": null,
+    "website": "http://miacuarioplantado.16mb.com/",
+    "datastreams": [
+      {
+        "id": "Aire",
+        "current_value": "1",
+        "at": "03/21/2014 14:06:54",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Calent",
+        "current_value": "0",
+        "at": "03/21/2014 14:06:54",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Crono",
+        "current_value": "18740",
+        "at": "03/21/2014 14:06:54",
+        "max_value": "32767.0",
+        "min_value": "-32768.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "Minutos",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Fan",
+        "current_value": "22",
+        "at": "03/21/2014 14:06:54",
+        "max_value": "255.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Luz_Blanca",
+        "current_value": "89",
+        "at": "03/21/2014 14:06:54",
+        "max_value": "100.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Luz_Luna",
+        "current_value": "63",
+        "at": "03/21/2014 14:06:54",
+        "max_value": "97.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "pH",
+        "current_value": "0.00",
+        "at": "03/21/2014 14:06:54",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "T3",
+        "current_value": "1",
+        "at": "03/21/2014 14:06:54",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "T4",
+        "current_value": "1",
+        "at": "03/21/2014 14:06:54",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "T5",
+        "current_value": "1",
+        "at": "03/21/2014 14:06:54",
+        "max_value": "1.0",
+        "min_value": "1.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "T.Agua",
+        "current_value": "25.01",
+        "at": "03/21/2014 14:06:54",
+        "max_value": "28.56",
+        "min_value": "-127.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "T.Disip",
+        "current_value": "30.93",
+        "at": "03/21/2014 14:06:54",
+        "max_value": "85.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "T.Habit",
+        "current_value": "20.81",
+        "at": "03/21/2014 14:06:54",
+        "max_value": "85.0",
+        "min_value": "-127.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "UV",
+        "current_value": "1",
+        "at": "03/21/2014 14:06:54",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Casa",
+      "domain": 0,
+      "lat": "37.939646762203",
+      "lon": "-4.49332760052494",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/157388679\" >Mi acuario plantado</a>",
+    "URLMostrar": "https://xively.com/feeds/157388679"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\157388679.json",
+  "DocumentJSON": null
+}

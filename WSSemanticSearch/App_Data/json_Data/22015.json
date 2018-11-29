@@ -1,0 +1,56 @@
+{
+  "Conceptos": [
+    "radioactivity"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "22015",
+    "title": "Yokkaichi city, Mie",
+    "Private": false,
+    "tags": [
+      "sensor:type=radiation"
+    ],
+    "description": "Original: http://www.mext.go.jp/english/radioactivity_level/detail/1304080.htm\r\n\r\nSource data: http://oku.edu.mie-u.ac.jp/~okumura/stat/data/\r\n\r\nIt's unofficial and may be stopped by any reason. Use it at your own risk. Data will belong to original site.",
+    "feed": "https://api.xively.com/v2/feeds/22015.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "04/05/2011 12:25:15",
+    "created": "04/05/2011 12:12:52",
+    "creator": "https://xively.com/users/kotobuki",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "0.045",
+        "at": "10/30/2011 23:00:00",
+        "max_value": "0.081",
+        "min_value": "0.044",
+        "tags": [
+          "Radiation dose rate",
+          "sensor:usual_max=0.0789",
+          "sensor:usual_min=0.0416"
+        ],
+        "unit": {
+          "symbol": "µSv/h",
+          "label": "microsieverts/hour",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Yokkaichi city, Mie, Japan",
+      "domain": 0,
+      "lat": "34.9651349622111",
+      "lon": "136.624689102173",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/22015\" >Yokkaichi city, Mie</a>",
+    "URLMostrar": "https://xively.com/feeds/22015"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\22015.json",
+  "DocumentJSON": null
+}

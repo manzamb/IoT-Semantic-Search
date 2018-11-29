@@ -1,0 +1,102 @@
+{
+  "Conceptos": [
+    "event type"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "69009",
+    "title": "CosmX System Info (MacBook Pro de Carlos)",
+    "Private": false,
+    "tags": [
+      "app:author=lebreeze",
+      "app:name=CosmX",
+      "app:version=0.8",
+      "os:type=osx",
+      "os:version=10.7.4"
+    ],
+    "description": "Intel(R) Core(TM)2 Duo CPU     P8600  @ 2.40GHz\r\n\r\nhttps://github.com/levent/CosmX",
+    "feed": "https://api.xively.com/v2/feeds/69009.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "08/25/2012 01:23:55",
+    "created": "07/25/2012 17:09:26",
+    "creator": "https://xively.com/users/tayfly",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "cpu_0",
+        "current_value": "31.10",
+        "at": "08/25/2012 01:23:55",
+        "max_value": "99.4",
+        "min_value": "2.0",
+        "tags": [
+          "cpu"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "Percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "cpu_1",
+        "current_value": "35.14",
+        "at": "08/25/2012 01:23:55",
+        "max_value": "99.5",
+        "min_value": "1.7",
+        "tags": [
+          "cpu"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "Percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "cpu_count",
+        "current_value": "2",
+        "at": "08/25/2012 01:23:55",
+        "max_value": "2.0",
+        "min_value": "2.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "total_memory",
+        "current_value": "4096",
+        "at": "08/25/2012 01:23:55",
+        "max_value": "4096.0",
+        "min_value": "4096.0",
+        "tags": null,
+        "unit": {
+          "symbol": "(MB)",
+          "label": "Megabytes",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "44.5904671813088",
+      "lon": "-28.125",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/69009\" >CosmX System Info (MacBook Pro de Carlos)</a>",
+    "URLMostrar": "https://xively.com/feeds/69009"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\69009.json",
+  "DocumentJSON": null
+}

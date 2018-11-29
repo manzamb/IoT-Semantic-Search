@@ -1,0 +1,123 @@
+{
+  "Conceptos": [
+    "environment"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "38556",
+    "title": "Outside Environmental Monitoring",
+    "Private": false,
+    "tags": [
+      "air pressure",
+      "brightness",
+      "dewpoint",
+      "humidity",
+      "temp"
+    ],
+    "description": "Some sensor values measured by a SHT11 (temp, humidity), a BMP085 (pressure) and an LDR (brightness). The sensors are connected to JeeNodes which send the data wirelessly to a central node.",
+    "feed": "https://api.xively.com/v2/feeds/38556.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "02/01/2014 11:25:03",
+    "created": "11/02/2011 12:03:14",
+    "creator": "https://xively.com/users/tht",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "dewpoint",
+        "current_value": "0.4",
+        "at": "02/01/2014 11:24:13",
+        "max_value": "22.6",
+        "min_value": "-17.5",
+        "tags": [
+          "BMP085",
+          "SHT11"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "humidity",
+        "current_value": "89",
+        "at": "02/01/2014 11:24:13",
+        "max_value": "98.0",
+        "min_value": "1.0",
+        "tags": [
+          "SHT11"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "light",
+        "current_value": "248",
+        "at": "02/01/2014 11:24:13",
+        "max_value": "251.0",
+        "min_value": "0.0",
+        "tags": [
+          "LDR"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "pressure",
+        "current_value": "1008.0",
+        "at": "02/01/2014 11:25:03",
+        "max_value": "1042.2",
+        "min_value": "985.0",
+        "tags": [
+          "BMP085"
+        ],
+        "unit": {
+          "symbol": "hPa",
+          "label": "hPa",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temperature",
+        "current_value": "2.0",
+        "at": "02/01/2014 11:24:13",
+        "max_value": "49.9",
+        "min_value": "-39.6",
+        "tags": [
+          "SHT11"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Aarau, Switzerland",
+      "domain": 0,
+      "lat": "47.3909120610478",
+      "lon": "8.05556416511536",
+      "ele": "403",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/38556\" >Outside Environmental Monitoring</a>",
+    "URLMostrar": "https://xively.com/feeds/38556"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\38556.json",
+  "DocumentJSON": null
+}

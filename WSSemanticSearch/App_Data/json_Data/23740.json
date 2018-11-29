@@ -1,0 +1,88 @@
+{
+  "Conceptos": [
+    "ozone"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "23740",
+    "title": "Air Quality Index: Dayton, Ohio",
+    "Private": false,
+    "tags": [
+      "airnow:cityid=150",
+      "webscrape"
+    ],
+    "description": "Air Quality Index and pollutant data for Dayton, Ohio webscraped from http://www.airnow.gov/. AIRNow observational data are not fully verified or validated; these data are subject to change and should be considered preliminary. If observational data are used for analyses, displayed on web pages, or used for other programs or products, the analysis results, displays, or products must indicate that these data are preliminary.",
+    "feed": "https://api.xively.com/v2/feeds/23740.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/21/2014 13:39:26",
+    "created": "04/19/2011 10:36:53",
+    "creator": "https://xively.com/users/air_now",
+    "version": null,
+    "website": "http://www.airnow.gov/",
+    "datastreams": [
+      {
+        "id": "aqi",
+        "current_value": "68",
+        "at": "03/21/2014 13:39:23",
+        "max_value": "209.0",
+        "min_value": "0.0",
+        "tags": [
+          "air quality index",
+          "pollution"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "ozone",
+        "current_value": "21",
+        "at": "03/21/2014 03:39:05",
+        "max_value": "209.0",
+        "min_value": "0.0",
+        "tags": [
+          "ozone"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "pm2.5",
+        "current_value": "68",
+        "at": "03/21/2014 13:39:23",
+        "max_value": "157.0",
+        "min_value": "3.0",
+        "tags": [
+          "PM2.5"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Dayton, Ohio",
+      "domain": 0,
+      "lat": "39.7589478",
+      "lon": "-84.1916069",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/23740\" >Air Quality Index: Dayton, Ohio</a>",
+    "URLMostrar": "https://xively.com/feeds/23740"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\23740.json",
+  "DocumentJSON": null
+}

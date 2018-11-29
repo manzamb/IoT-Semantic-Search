@@ -1,0 +1,210 @@
+{
+  "Conceptos": [
+    "horn"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "45833",
+    "title": "Aurora",
+    "Private": false,
+    "tags": [
+      "aurora",
+      "inverter",
+      "solar"
+    ],
+    "description": "Aurora Solar Inverter",
+    "feed": "https://api.xively.com/v2/feeds/45833.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "04/07/2012 08:57:06",
+    "created": "01/25/2012 20:13:25",
+    "creator": "https://xively.com/users/jansipke",
+    "version": null,
+    "website": "http://www.jansipke.nl",
+    "datastreams": [
+      {
+        "id": "booster_temperature",
+        "current_value": "46.452003",
+        "at": "05/06/2012 11:45:00",
+        "max_value": "50.014996",
+        "min_value": "0.0",
+        "tags": [
+          "booster",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "daily_energy",
+        "current_value": "3.244",
+        "at": "05/06/2012 11:45:00",
+        "max_value": "8.5",
+        "min_value": "0.0",
+        "tags": [
+          "daily",
+          "energy"
+        ],
+        "unit": {
+          "symbol": "kWh",
+          "label": "kWh",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "grid_current",
+        "current_value": "1.951446",
+        "at": "05/06/2012 11:45:00",
+        "max_value": "7.339941",
+        "min_value": "0.0",
+        "tags": [
+          "current",
+          "grid"
+        ],
+        "unit": {
+          "symbol": "A",
+          "label": "A",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "grid_power",
+        "current_value": "468.671967",
+        "at": "05/06/2012 11:45:00",
+        "max_value": "1739.5813",
+        "min_value": "0.0",
+        "tags": [
+          "grid",
+          "power"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "W",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "grid_voltage",
+        "current_value": "232.519089",
+        "at": "05/06/2012 11:45:00",
+        "max_value": "250.53065",
+        "min_value": "0.0",
+        "tags": [
+          "grid",
+          "voltage"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": "V",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "input1_current",
+        "current_value": "2.948961",
+        "at": "05/06/2012 11:44:00",
+        "max_value": "10.898294",
+        "min_value": "0.0",
+        "tags": [
+          "current",
+          "input1"
+        ],
+        "unit": {
+          "symbol": "A",
+          "label": "A",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "input1_power",
+        "current_value": "522.153625",
+        "at": "05/06/2012 11:44:00",
+        "max_value": "1917.328",
+        "min_value": "0.0",
+        "tags": [
+          "input1",
+          "power"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "W",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "input1_voltage",
+        "current_value": "177.063599",
+        "at": "05/06/2012 11:44:00",
+        "max_value": "228.8746",
+        "min_value": "0.0",
+        "tags": [
+          "input1",
+          "voltage"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": "V",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "inverter_temperature",
+        "current_value": "52.903996",
+        "at": "05/06/2012 11:45:00",
+        "max_value": "63.496998",
+        "min_value": "0.0",
+        "tags": [
+          "inverter",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "total_energy",
+        "current_value": "416.006",
+        "at": "05/06/2012 11:45:00",
+        "max_value": "416.006",
+        "min_value": "0.0",
+        "tags": [
+          "energy",
+          "total"
+        ],
+        "unit": {
+          "symbol": "kWh",
+          "label": "kWh",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Zuidhorn",
+      "domain": 0,
+      "lat": "53.2441598470585",
+      "lon": "6.39065265655518",
+      "ele": "6",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/45833\" >Aurora</a>",
+    "URLMostrar": "https://xively.com/feeds/45833"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\45833.json",
+  "DocumentJSON": null
+}

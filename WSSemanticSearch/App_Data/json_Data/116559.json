@@ -1,0 +1,86 @@
+{
+  "Conceptos": [
+    "wind"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "116559",
+    "title": "Lox Wetter Temperatur",
+    "Private": false,
+    "tags": [
+      "Lox Wetter Daten"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/116559.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:07:34",
+    "created": "03/03/2013 17:52:24",
+    "creator": "https://xively.com/users/dirk_deep",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Aussentemperatur",
+        "current_value": "23.40000",
+        "at": "03/21/2014 13:44:14",
+        "max_value": "43.0",
+        "min_value": "-2.4",
+        "tags": [
+          "Temperatur"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Helligkeit",
+        "current_value": "29388.80",
+        "at": "03/21/2014 14:06:13",
+        "max_value": "100024.3",
+        "min_value": "1.0",
+        "tags": [
+          "Licht"
+        ],
+        "unit": {
+          "symbol": "lux",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Windgeschwindigkeit",
+        "current_value": "10.7900000",
+        "at": "03/21/2014 14:07:34",
+        "max_value": "82.8",
+        "min_value": "0.0",
+        "tags": [
+          "Windgeschwindigkeit"
+        ],
+        "unit": {
+          "symbol": "km/h",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Azmoos, Switzerland",
+      "domain": 0,
+      "lat": "47.07804958",
+      "lon": "9.47381773",
+      "ele": "456",
+      "exposure": 1,
+      "disposition": 1
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/116559\" >Lox Wetter Temperatur</a>",
+    "URLMostrar": "https://xively.com/feeds/116559"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\116559.json",
+  "DocumentJSON": null
+}

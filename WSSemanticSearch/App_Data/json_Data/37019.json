@@ -1,0 +1,103 @@
+{
+  "Conceptos": [
+    "físicas"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "37019",
+    "title": "Oficina Indomótika",
+    "Private": false,
+    "tags": [
+      "luminosity",
+      "temperature"
+    ],
+    "description": "Variables físicas KNX en la oficina de Indomótika",
+    "feed": "https://api.xively.com/v2/feeds/37019.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "10/07/2011 10:22:38",
+    "created": "10/07/2011 10:22:38",
+    "creator": "https://xively.com/users/indomotika",
+    "version": null,
+    "website": "http://www.indomotika.com",
+    "datastreams": [
+      {
+        "id": "luxdespacho",
+        "current_value": "295",
+        "at": "10/07/2011 11:01:44",
+        "max_value": "295.0",
+        "min_value": "0.0",
+        "tags": [
+          "luminosity"
+        ],
+        "unit": {
+          "symbol": "lux",
+          "label": "lux",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "luxtecnicos",
+        "current_value": null,
+        "at": "10/07/2011 10:22:38",
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "luminosity"
+        ],
+        "unit": {
+          "symbol": "lux",
+          "label": "lux",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "tdespacho",
+        "current_value": null,
+        "at": "10/07/2011 10:22:38",
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "tshowroom",
+        "current_value": null,
+        "at": "10/07/2011 10:22:38",
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Indomótika, Pontevedra, Spain",
+      "domain": 0,
+      "lat": "42.4209142093529",
+      "lon": "-8.63844573497772",
+      "ele": "0",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/37019\" >Oficina Indomótika</a>",
+    "URLMostrar": "https://xively.com/feeds/37019"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\37019.json",
+  "DocumentJSON": null
+}

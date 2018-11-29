@@ -1,0 +1,70 @@
+{
+  "Conceptos": [
+    "sensing"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "79620",
+    "title": "isoBox",
+    "Private": false,
+    "tags": null,
+    "description": "Remote temperature sensing via KNS TALK!",
+    "feed": "https://api.xively.com/v2/feeds/79620.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "10/17/2012 11:39:30",
+    "created": "10/10/2012 13:17:15",
+    "creator": "https://xively.com/users/knownowsolutions",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "10.5",
+        "at": "10/17/2012 11:39:30",
+        "max_value": "24.0",
+        "min_value": "10.5",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "0",
+        "at": "10/17/2012 11:39:30",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "0=Oprita",
+          "1=Pornita",
+          "Incalzire"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Bucharest ",
+      "domain": 0,
+      "lat": "44.4274055187844",
+      "lon": "26.1052322387695",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/79620\" >isoBox</a>",
+    "URLMostrar": "https://xively.com/feeds/79620"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\79620.json",
+  "DocumentJSON": null
+}

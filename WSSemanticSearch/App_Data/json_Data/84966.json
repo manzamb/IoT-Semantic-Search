@@ -1,0 +1,436 @@
+{
+  "Conceptos": [
+    "man"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "84966",
+    "title": "heatingClient",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "heating automation",
+      "slovakia"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/84966.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:13:12",
+    "created": "11/12/2012 07:29:34",
+    "creator": "https://xively.com/users/slavomirhustaty",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "arduinoDevice",
+        "current_value": "3",
+        "at": "03/21/2014 14:13:11",
+        "max_value": "3.0",
+        "min_value": "1.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "freeMemory",
+        "current_value": "2952",
+        "at": "03/21/2014 14:13:11",
+        "max_value": "3066.0",
+        "min_value": "1998.0",
+        "tags": [
+          "bytes"
+        ],
+        "unit": {
+          "symbol": "B",
+          "label": "byte",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "freeMemory3",
+        "current_value": "1451",
+        "at": "03/21/2014 14:13:11",
+        "max_value": "1899.0",
+        "min_value": "1451.0",
+        "tags": null,
+        "unit": {
+          "symbol": "B",
+          "label": "byte",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Heating",
+        "current_value": "Heating:OFF",
+        "at": "03/21/2014 14:13:11",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "energy"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "heatingState",
+        "current_value": "0",
+        "at": "03/21/2014 14:13:11",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "energy"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "HeatingValidity",
+        "current_value": "2014-03-21 15:14:36",
+        "at": "03/21/2014 14:13:11",
+        "max_value": "2014.0",
+        "min_value": "2013.0",
+        "tags": [
+          "date"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "HotWater",
+        "current_value": "HotWater:OFF",
+        "at": "03/21/2014 14:13:11",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "energy"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "hotWaterSupply",
+        "current_value": "0",
+        "at": "03/21/2014 14:13:11",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "energy"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "hotWaterSwitch",
+        "current_value": "0",
+        "at": "03/21/2014 14:13:11",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "energy"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "HotWaterValidity",
+        "current_value": "2014-03-19 07:01:00",
+        "at": "03/19/2014 05:34:32",
+        "max_value": "2014.0",
+        "min_value": "2013.0",
+        "tags": [
+          "date"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "LastCommunicationFromArduino",
+        "current_value": "2014-03-21 15:13:08",
+        "at": "03/21/2014 14:13:11",
+        "max_value": "2014.0",
+        "min_value": "2013.0",
+        "tags": [
+          "date"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "remainingTimeForLastServerCommand",
+        "current_value": "50097",
+        "at": "03/21/2014 14:13:11",
+        "max_value": "59929.0",
+        "min_value": "0.0",
+        "tags": [
+          "millis"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "ms",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "remainingTimeForLastServerCommand3",
+        "current_value": "0",
+        "at": "03/21/2014 14:13:11",
+        "max_value": "43481.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "reset",
+        "current_value": "resetFunc",
+        "at": "03/07/2014 03:42:26",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "command"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "t280F5B8504000019",
+        "current_value": "21.31",
+        "at": "03/21/2014 14:13:11",
+        "max_value": "127.94",
+        "min_value": "-127.0",
+        "tags": [
+          "pracovňa",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "t28205B850400008B",
+        "current_value": "22.87",
+        "at": "03/21/2014 14:13:11",
+        "max_value": "85.0",
+        "min_value": "-127.0",
+        "tags": [
+          "horná chodba",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "t28B79F8504000082",
+        "current_value": "23.25",
+        "at": "03/21/2014 14:13:11",
+        "max_value": "31.0",
+        "min_value": "-127.0",
+        "tags": [
+          "spálňa",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "t28C9C9AA040000EA",
+        "current_value": "24.13",
+        "at": "03/21/2014 14:13:11",
+        "max_value": "29.81",
+        "min_value": "0.0",
+        "tags": [
+          "kuchyna",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "t28F1E685040000DB",
+        "current_value": "18.94",
+        "at": "03/21/2014 14:13:11",
+        "max_value": "28.25",
+        "min_value": "0.0",
+        "tags": [
+          "temperature",
+          "vstupna hala"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "t28F82D850400001F",
+        "current_value": "18.37",
+        "at": "03/21/2014 14:13:11",
+        "max_value": "85.0",
+        "min_value": "-127.0",
+        "tags": [
+          "outside",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "thermostat1",
+        "current_value": "0",
+        "at": "03/21/2014 14:13:11",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "energy"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "thermostat2",
+        "current_value": "0",
+        "at": "03/21/2014 14:13:11",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "energy"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "uptime",
+        "current_value": "0.469",
+        "at": "03/21/2014 14:13:11",
+        "max_value": "84433.444",
+        "min_value": "0.0",
+        "tags": [
+          "millis"
+        ],
+        "unit": {
+          "symbol": "hrs.",
+          "label": "hours",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "uptime2",
+        "current_value": "0.467",
+        "at": "03/21/2014 14:13:11",
+        "max_value": "48.903",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "hrs.",
+          "label": "hours",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "uptime3",
+        "current_value": "0.25",
+        "at": "03/21/2014 14:13:11",
+        "max_value": "75.891",
+        "min_value": "0.005",
+        "tags": null,
+        "unit": {
+          "symbol": "hrs.",
+          "label": "hours",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Home",
+      "domain": 0,
+      "lat": "48.7462960000615",
+      "lon": "21.3221964240074",
+      "ele": "230",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/84966\" >heatingClient</a>",
+    "URLMostrar": "https://xively.com/feeds/84966"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\84966.json",
+  "DocumentJSON": null
+}

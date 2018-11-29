@@ -1,0 +1,132 @@
+{
+  "Conceptos": [
+    "frequency"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "1228",
+    "title": "Electricity supply - UK National Grid",
+    "Private": false,
+    "tags": null,
+    "description": "UK National Grid data webscraped from http://www.nationalgrid.com/.",
+    "feed": "https://api.xively.com/v2/feeds/1228.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:00:05",
+    "created": "12/02/2008 13:55:48",
+    "creator": "https://xively.com/users/pachube",
+    "version": null,
+    "website": "http://www.nationalgrid.com/",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "38275",
+        "at": "03/21/2014 14:00:05",
+        "max_value": "254852.0",
+        "min_value": "0.0",
+        "tags": [
+          "demand, MW"
+        ],
+        "unit": {
+          "symbol": "MW",
+          "label": "MW",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "50.053",
+        "at": "03/21/2014 14:00:05",
+        "max_value": "50.297",
+        "min_value": "0.0",
+        "tags": [
+          "frequency, Hz"
+        ],
+        "unit": {
+          "symbol": "Hz",
+          "label": "Hz",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "-252",
+        "at": "03/21/2014 14:00:05",
+        "max_value": "414.0",
+        "min_value": "-506.0",
+        "tags": [
+          "North Ireland to GB, transfer, MW"
+        ],
+        "unit": {
+          "symbol": "MW",
+          "label": "MW",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": null,
+        "at": "09/12/2012 13:30:05",
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "France to GB, transfer, MW"
+        ],
+        "unit": {
+          "symbol": "MW",
+          "label": "MW",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "7707",
+        "at": "03/21/2014 14:00:05",
+        "max_value": "12746.0",
+        "min_value": "-301.0",
+        "tags": [
+          "North-South, transfer, MW"
+        ],
+        "unit": {
+          "symbol": "MW",
+          "label": "MW",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "1760",
+        "at": "03/21/2014 14:00:05",
+        "max_value": "3614.0",
+        "min_value": "-1586.0",
+        "tags": [
+          "Scotland-England, transfer, MW"
+        ],
+        "unit": {
+          "symbol": "MW",
+          "label": "MW",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/1228\" >Electricity supply - UK National Grid</a>",
+    "URLMostrar": "https://xively.com/feeds/1228"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\1228.json",
+  "DocumentJSON": null
+}

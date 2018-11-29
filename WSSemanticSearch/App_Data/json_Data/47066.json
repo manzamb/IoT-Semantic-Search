@@ -1,0 +1,70 @@
+{
+  "Conceptos": [
+    "condition"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "47066",
+    "title": "Ilievi's home electricity consumption",
+    "Private": false,
+    "tags": [
+      "electricity watt envi currentcost wili98"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/47066.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "05/04/2012 03:00:01",
+    "created": "02/06/2012 10:27:15",
+    "creator": "https://xively.com/users/wili98",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "AC",
+        "current_value": "2",
+        "at": "05/04/2012 03:00:01",
+        "max_value": "2114.0",
+        "min_value": "1.0",
+        "tags": [
+          "Air condition consumption"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Total",
+        "current_value": "366",
+        "at": "05/04/2012 02:59:56",
+        "max_value": "10923.0",
+        "min_value": "1.0",
+        "tags": [
+          "total electricity consumption envi"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Sofia, Bulgaria",
+      "domain": 0,
+      "lat": "42.6930346332999",
+      "lon": "23.3226013183594",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/47066\" >Ilievi's home electricity consumption</a>",
+    "URLMostrar": "https://xively.com/feeds/47066"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\47066.json",
+  "DocumentJSON": null
+}

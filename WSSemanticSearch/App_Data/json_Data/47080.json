@@ -1,0 +1,228 @@
+{
+  "Conceptos": [
+    "wind"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "47080",
+    "title": "UK energy data - generation source percentage",
+    "Private": false,
+    "tags": null,
+    "description": "Data published over MQTT.\r\n\r\nhttp://bitbucket.org/oojah/mqtt2pachube",
+    "feed": "https://api.xively.com/v2/feeds/47080.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/21/2014 10:24:12",
+    "created": "02/06/2012 12:14:59",
+    "creator": "https://xively.com/users/ralight",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "24.7",
+        "at": "03/21/2014 10:24:09",
+        "max_value": "50.1",
+        "min_value": "0.0",
+        "tags": [
+          "closed-circuit-gas-turbine"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "39.5",
+        "at": "03/21/2014 10:24:10",
+        "max_value": "59.1",
+        "min_value": "0.0",
+        "tags": [
+          "coal"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "2.5",
+        "at": "03/21/2014 10:24:11",
+        "max_value": "28.0",
+        "min_value": "0.0",
+        "tags": [
+          "import-france"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "0.0",
+        "at": "03/21/2014 10:24:11",
+        "max_value": "0.7",
+        "min_value": "0.0",
+        "tags": [
+          "import-ireland"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "2.2",
+        "at": "03/21/2014 10:24:12",
+        "max_value": "73.0",
+        "min_value": "0.0",
+        "tags": [
+          "import-netherlands"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "2.2",
+        "at": "03/21/2014 10:24:11",
+        "max_value": "3.4",
+        "min_value": "0.0",
+        "tags": [
+          "non-pumped-stored-hydro"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "14.9",
+        "at": "03/21/2014 10:24:10",
+        "max_value": "42.1",
+        "min_value": "0.0",
+        "tags": [
+          "nuclear"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "7",
+        "current_value": "0.0",
+        "at": "03/21/2014 10:24:09",
+        "max_value": "1.6",
+        "min_value": "0.0",
+        "tags": [
+          "open-circuit-gas-turbine"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "8",
+        "current_value": "0.0",
+        "at": "03/21/2014 10:24:09",
+        "max_value": "0.6",
+        "min_value": "0.0",
+        "tags": [
+          "oil"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "9",
+        "current_value": "2.6",
+        "at": "03/21/2014 10:24:11",
+        "max_value": "4.7",
+        "min_value": "0.0",
+        "tags": [
+          "other"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "10",
+        "current_value": "1.0",
+        "at": "03/21/2014 10:24:11",
+        "max_value": "6.1",
+        "min_value": "0.0",
+        "tags": [
+          "pumped-storage"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "11",
+        "current_value": "10.3",
+        "at": "03/21/2014 10:24:10",
+        "max_value": "22.4",
+        "min_value": "0.0",
+        "tags": [
+          "wind"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 1,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/47080\" >UK energy data - generation source percentage</a>",
+    "URLMostrar": "https://xively.com/feeds/47080"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\47080.json",
+  "DocumentJSON": null
+}

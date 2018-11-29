@@ -1,0 +1,203 @@
+{
+  "Conceptos": [
+    "wind"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "53609",
+    "title": "WXtbyc",
+    "Private": false,
+    "tags": [
+      "Weather"
+    ],
+    "description": "Thunder Bay Yacht club weather station\nArduino type, communication using Synapse RF engine.\nOn site and Active (July 19,2013).",
+    "feed": "https://api.xively.com/v2/feeds/53609.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "01/15/2014 22:40:54",
+    "created": "03/27/2012 21:51:09",
+    "creator": "https://xively.com/users/paulywog32",
+    "version": null,
+    "website": "http://www.cote32besse.ca",
+    "datastreams": [
+      {
+        "id": "airtemp",
+        "current_value": "-11.80",
+        "at": "01/15/2014 22:40:53",
+        "max_value": "215.6",
+        "min_value": "-93.1",
+        "tags": [
+          "BMP085",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "battV",
+        "current_value": "10.10",
+        "at": "01/15/2014 22:40:53",
+        "max_value": "19.98",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "Volts",
+          "label": "Volts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "BOX",
+        "current_value": "-10.16",
+        "at": "01/15/2014 22:40:53",
+        "max_value": "38.66",
+        "min_value": "-6553.62",
+        "tags": null,
+        "unit": {
+          "symbol": "Deg.C (Box temp)",
+          "label": "Degree",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "KB_Status",
+        "current_value": "0",
+        "at": "01/15/2014 22:40:53",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "Boolean",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "pressure",
+        "current_value": "97.84",
+        "at": "01/15/2014 22:40:53",
+        "max_value": "339.19",
+        "min_value": "0.0",
+        "tags": [
+          "Barometer"
+        ],
+        "unit": {
+          "symbol": "kPa@190 m ASL",
+          "label": "kPa",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "RH",
+        "current_value": "84",
+        "at": "01/15/2014 22:40:53",
+        "max_value": "1234.0",
+        "min_value": "20.0",
+        "tags": [
+          "Relative humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "wind_avg",
+        "current_value": "4",
+        "at": "01/15/2014 22:40:53",
+        "max_value": "22512.0",
+        "min_value": "-21127.0",
+        "tags": [
+          "Wind speed"
+        ],
+        "unit": {
+          "symbol": "Kn (10min Avg)",
+          "label": "knots",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "wind_dir",
+        "current_value": "173",
+        "at": "01/15/2014 22:40:53",
+        "max_value": "1148.0",
+        "min_value": "0.0",
+        "tags": [
+          "Wind direction"
+        ],
+        "unit": {
+          "symbol": "Deg.(10min avg)",
+          "label": "Degree",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "wind_dirDev",
+        "current_value": "9",
+        "at": "01/15/2014 22:40:53",
+        "max_value": "16892.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "Deg.",
+          "label": "Degree",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "wind_gustH",
+        "current_value": "8",
+        "at": "01/15/2014 22:40:53",
+        "max_value": "17095.0",
+        "min_value": "-31161.0",
+        "tags": null,
+        "unit": {
+          "symbol": "Kn(3sec)",
+          "label": "knots",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "wind_gustL",
+        "current_value": "2",
+        "at": "01/15/2014 22:40:53",
+        "max_value": "57.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "Kn(3sec)",
+          "label": "knots",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "WXtbyc",
+      "domain": 0,
+      "lat": "48.3619663910807",
+      "lon": "-89.229696393013",
+      "ele": "190 m",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/53609\" >WXtbyc</a>",
+    "URLMostrar": "https://xively.com/feeds/53609"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\53609.json",
+  "DocumentJSON": null
+}

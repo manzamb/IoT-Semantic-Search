@@ -1,0 +1,105 @@
+{
+  "Conceptos": [
+    "man"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "1446611917",
+    "title": "MSOE Temperature WiFi Sensor",
+    "Private": false,
+    "tags": [
+      "Battery",
+      "Humidity",
+      "Temperature",
+      "WiFi"
+    ],
+    "description": "Battery Powered WiFi Temperature and Humidity Sensor",
+    "feed": "https://api.xively.com/v2/feeds/1446611917.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:11:48",
+    "created": "05/31/2013 03:45:25",
+    "creator": "https://xively.com/users/mbuchmann",
+    "version": null,
+    "website": "http://www.evriskosys.com",
+    "datastreams": [
+      {
+        "id": "BATTERY",
+        "current_value": "2.6",
+        "at": "03/21/2014 14:11:48",
+        "max_value": "58.5",
+        "min_value": "2.6",
+        "tags": [
+          "battery"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": "Volts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "HUMIDITY",
+        "current_value": "31",
+        "at": "03/21/2014 14:11:48",
+        "max_value": "655.0",
+        "min_value": "9.0",
+        "tags": [
+          "humidty"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "RSSI",
+        "current_value": "-51",
+        "at": "03/21/2014 14:11:48",
+        "max_value": "-29.0",
+        "min_value": "-93.0",
+        "tags": [
+          "rssi"
+        ],
+        "unit": {
+          "symbol": "dBm",
+          "label": "dBm",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "TEMPERATURE",
+        "current_value": "66.2",
+        "at": "03/21/2014 14:11:48",
+        "max_value": "89.6",
+        "min_value": "25.0",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "°F",
+          "label": "°F",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/1446611917\" >MSOE Temperature WiFi Sensor</a>",
+    "URLMostrar": "https://xively.com/feeds/1446611917"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\1446611917.json",
+  "DocumentJSON": null
+}

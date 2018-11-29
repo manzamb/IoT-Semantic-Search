@@ -1,0 +1,182 @@
+{
+  "Conceptos": [
+    "pst"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "19518",
+    "title": "Home Temps",
+    "Private": false,
+    "tags": [
+      "Nanode JeeNode DS18B20"
+    ],
+    "description": "Temperature sensors around my home. Maxium DS18B20's attached to an JeeNodev5 wireless node broadcasting to a Nanode v5.",
+    "feed": "https://api.xively.com/v2/feeds/19518.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:11:47",
+    "created": "02/24/2011 05:36:49",
+    "creator": "https://xively.com/users/sleander",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "12.80",
+        "at": "03/21/2014 14:11:46",
+        "max_value": "15.45",
+        "min_value": "0.0",
+        "tags": [
+          "Battery Voltage"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": "V",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "36.50",
+        "at": "03/21/2014 14:11:46",
+        "max_value": "97.92",
+        "min_value": "-196.6",
+        "tags": [
+          "Shed Temp"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "32.79",
+        "at": "03/21/2014 14:11:46",
+        "max_value": "185.0",
+        "min_value": "-196.6",
+        "tags": [
+          "Outside Temp"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "4",
+        "at": "03/21/2014 14:11:46",
+        "max_value": "351.0",
+        "min_value": "0.0",
+        "tags": [
+          "RX Packet"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Packets",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "68.11",
+        "at": "03/21/2014 14:11:46",
+        "max_value": "84.43",
+        "min_value": "-196.6",
+        "tags": [
+          "Upstairs Temp"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "308",
+        "at": "03/21/2014 14:11:46",
+        "max_value": "32673.0",
+        "min_value": "-32699.0",
+        "tags": [
+          "Power used"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "14752",
+        "at": "03/21/2014 14:11:46",
+        "max_value": "32767.0",
+        "min_value": "-32768.0",
+        "tags": [
+          "IR counter"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "7",
+        "current_value": "49.21",
+        "at": "03/21/2014 14:11:46",
+        "max_value": "78.35",
+        "min_value": "-196.6",
+        "tags": [
+          "Garage Temp"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "8",
+        "current_value": "63.50",
+        "at": "03/21/2014 14:11:46",
+        "max_value": "86.9",
+        "min_value": "-196.6",
+        "tags": [
+          "Downstairs Temp"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "F",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Crystal Park",
+      "domain": 0,
+      "lat": "38.8264693249451",
+      "lon": "-104.93016242981",
+      "ele": "2636",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/19518\" >Home Temps</a>",
+    "URLMostrar": "https://xively.com/feeds/19518"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\19518.json",
+  "DocumentJSON": null
+}

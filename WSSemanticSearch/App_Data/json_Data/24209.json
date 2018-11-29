@@ -1,0 +1,81 @@
+{
+  "Conceptos": [
+    "solar radiation"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "24209",
+    "title": "Takizawa, Iwate Enviroment",
+    "Private": false,
+    "tags": [
+      "geiger counter",
+      "Iwate",
+      "Japan",
+      "radiation",
+      "Takizawa",
+      "Tohoku",
+      "岩手県",
+      "日本",
+      "東北",
+      "滝沢村"
+    ],
+    "description": "Located in a home environment near an outside intake vent.\r\n\r\nUsing a Sparkfun SEN-09848 with an Arduino Uno, Ethernet & USB shield, and a mini wireless converter (powered by the usb shield)\r\n\r\n(Resource: http://www.yapan.org/main/2011/03/measure_radiation_dose.html)\r\n\r\nSparkfun Geiger has cap off (to count alpha, beta, & gamma) and is exposed to 24/7 open airflow\r\n\r\nwill later be relocated to a permanent outside location running of battery/solar power",
+    "feed": "https://api.xively.com/v2/feeds/24209.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "01/13/2012 02:04:58",
+    "created": "04/25/2011 13:39:15",
+    "creator": "https://xively.com/users/lostininaka",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "0",
+        "at": "01/13/2012 02:04:58",
+        "max_value": "1000.0",
+        "min_value": "0.0",
+        "tags": [
+          "sensor:model=lnd-712",
+          "sensor:type=radiation"
+        ],
+        "unit": {
+          "symbol": "cpm",
+          "label": "counts / minute",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "0.000",
+        "at": "01/13/2012 02:04:58",
+        "max_value": "10.0",
+        "min_value": "0.0",
+        "tags": [
+          "sensor:model=lnd-712",
+          "sensor:type=radiation"
+        ],
+        "unit": {
+          "symbol": "μSv / h",
+          "label": "microsieverts / hour",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Takizawa, Iwate, Japan",
+      "domain": 0,
+      "lat": "39.8153434020413",
+      "lon": "141.136915683747",
+      "ele": "192m",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/24209\" >Takizawa, Iwate Enviroment</a>",
+    "URLMostrar": "https://xively.com/feeds/24209"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\24209.json",
+  "DocumentJSON": null
+}

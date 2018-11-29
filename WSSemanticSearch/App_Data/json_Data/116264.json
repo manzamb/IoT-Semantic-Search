@@ -1,0 +1,102 @@
+{
+  "Conceptos": [
+    "moisture"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "116264",
+    "title": "Farm Monitoring System",
+    "Private": false,
+    "tags": [
+      "arduino"
+    ],
+    "description": "Farm Monitoring System",
+    "feed": "https://api.xively.com/v2/feeds/116264.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "06/18/2013 02:24:56",
+    "created": "03/01/2013 20:19:42",
+    "creator": "https://xively.com/users/nehabolia",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "11.89",
+        "at": "06/18/2013 02:24:56",
+        "max_value": "1232.34",
+        "min_value": "5.98",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "71.38",
+        "at": "06/18/2013 02:24:56",
+        "max_value": "2121.12",
+        "min_value": "9.25",
+        "tags": [
+          "Humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "32.95",
+        "at": "06/18/2013 02:24:56",
+        "max_value": "3232.23",
+        "min_value": "0.38",
+        "tags": [
+          "Soil Moisture"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "48.21",
+        "at": "06/18/2013 02:24:56",
+        "max_value": "92.38",
+        "min_value": "3.34",
+        "tags": [
+          "Dew Point"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Bangalore",
+      "domain": 0,
+      "lat": "12.9171706626397",
+      "lon": "77.6074004173279",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/116264\" >Farm Monitoring System</a>",
+    "URLMostrar": "https://xively.com/feeds/116264"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\116264.json",
+  "DocumentJSON": null
+}

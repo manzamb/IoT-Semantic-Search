@@ -1,0 +1,54 @@
+{
+  "Conceptos": [
+    "concept"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "54854",
+    "title": "TC Monitoring Test",
+    "Private": false,
+    "tags": [
+      "furnace",
+      "glass",
+      "temperature"
+    ],
+    "description": "A proof of concept test to route glass furnace TC readings online.",
+    "feed": "https://api.xively.com/v2/feeds/54854.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:05:03",
+    "created": "04/05/2012 18:53:32",
+    "creator": "https://xively.com/users/spurgear",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "1150.0",
+        "at": "03/21/2014 14:05:03",
+        "max_value": "1274.0",
+        "min_value": "-100.0",
+        "tags": null,
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Ames, Iowa",
+      "domain": 0,
+      "lat": "42.0273509961203",
+      "lon": "-93.650711774826",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/54854\" >TC Monitoring Test</a>",
+    "URLMostrar": "https://xively.com/feeds/54854"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\54854.json",
+  "DocumentJSON": null
+}

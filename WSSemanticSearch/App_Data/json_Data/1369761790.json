@@ -1,0 +1,110 @@
+{
+  "Conceptos": [
+    "moisture"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "1369761790",
+    "title": "Environment Monitor",
+    "Private": false,
+    "tags": [
+      "environment"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/1369761790.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:06:42",
+    "created": "09/30/2013 07:01:42",
+    "creator": "https://xively.com/users/circuit_lab",
+    "version": null,
+    "website": "http://cct.la",
+    "datastreams": [
+      {
+        "id": "atomospheric_pressure",
+        "current_value": "1004.90",
+        "at": "03/21/2014 14:06:42",
+        "max_value": "1024.82",
+        "min_value": "0.0",
+        "tags": [
+          "atomospheric_pressure",
+          "environment",
+          "monitor"
+        ],
+        "unit": {
+          "symbol": "hPa",
+          "label": "hPa",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "humidity",
+        "current_value": "14.54",
+        "at": "03/21/2014 14:06:42",
+        "max_value": "79.23",
+        "min_value": "0.0",
+        "tags": [
+          "environment",
+          "humidity",
+          "monitor"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "Percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "plant_moisture",
+        "current_value": null,
+        "at": "10/02/2013 10:05:38",
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "envirinment",
+          "monitor",
+          "plant_moisture"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "Percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temperature",
+        "current_value": "45.34",
+        "at": "03/21/2014 14:06:42",
+        "max_value": "75.82",
+        "min_value": "0.0",
+        "tags": [
+          "environment",
+          "monitor",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "℃",
+          "label": "℃",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Circuit Lab",
+      "domain": 0,
+      "lat": "35.6619635",
+      "lon": "139.7059338",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/1369761790\" >Environment Monitor</a>",
+    "URLMostrar": "https://xively.com/feeds/1369761790"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\1369761790.json",
+  "DocumentJSON": null
+}

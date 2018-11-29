@@ -1,0 +1,221 @@
+{
+  "Conceptos": [
+    "right"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "93526",
+    "title": "Garrys' Home Energy Usage",
+    "Private": false,
+    "tags": [
+      "APC",
+      "CC128",
+      "Current Cost",
+      "Gas",
+      "Home Energy Usage",
+      "KWh",
+      "Light Level",
+      "Python"
+    ],
+    "description": "Home energy usage monitor.\r\nUses an old recovered APC AP92200 ISX Manager with replaced BIOS, 120GB 3.5\" HDD, Debian 6.06 booting into the CLI.  Uses (probably poorly written) Python script(s), some borrowed and butchered from the internet, to update COSM.  Also keeps a local RRD database, XML log and CSV file if required.\r\n\r\nIf time and money permits, hoping to add:-\r\nElectrical KWh demand\r\nGas KWh demand \r\nMains voltage measurement\r\nOutdoor temperature(s)\r\nOutdoor Light level(s)\r\nMight add a couple of IAM's onto the freezers",
+    "feed": "https://api.xively.com/v2/feeds/93526.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "12/09/2013 17:53:49",
+    "created": "12/19/2012 20:43:13",
+    "creator": "https://xively.com/users/gpriestland",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Ch1_Watts",
+        "current_value": "00512",
+        "at": "12/09/2013 17:53:48",
+        "max_value": "10009.0",
+        "min_value": "0.0",
+        "tags": [
+          "Electrical Demand"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "CPU_usage",
+        "current_value": "0.00",
+        "at": "12/09/2013 17:53:48",
+        "max_value": "100.0",
+        "min_value": "0.0",
+        "tags": [
+          "CPU Load"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "Percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "cum_gas_kwh",
+        "current_value": "32197.20",
+        "at": "12/09/2013 17:53:48",
+        "max_value": "36132.83",
+        "min_value": "1296.93",
+        "tags": [
+          "Cumulative gas usage"
+        ],
+        "unit": {
+          "symbol": "KWh",
+          "label": "Kilowatt Hours",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Data_sent",
+        "current_value": "5.64",
+        "at": "12/09/2013 17:53:48",
+        "max_value": "4096.01",
+        "min_value": "0.01",
+        "tags": [
+          "Data uploaded"
+        ],
+        "unit": {
+          "symbol": "MB",
+          "label": "MB",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Disk_usage",
+        "current_value": "29.90",
+        "at": "12/09/2013 17:53:48",
+        "max_value": "54.1",
+        "min_value": "5.5",
+        "tags": [
+          "Disk Usage"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "Percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "gas_kwh",
+        "current_value": "2417.73",
+        "at": "12/09/2013 17:53:48",
+        "max_value": "28672.26",
+        "min_value": "0.0",
+        "tags": [
+          "Gas KWh"
+        ],
+        "unit": {
+          "symbol": "KWh",
+          "label": "Kilowatt Hours",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "gas_pulse_count",
+        "current_value": "35898",
+        "at": "12/09/2013 17:53:48",
+        "max_value": "40286.0",
+        "min_value": "1446.0",
+        "tags": [
+          "Cubic Feet"
+        ],
+        "unit": {
+          "symbol": "cu.Ft.",
+          "label": "Cubic Feet",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "gas_pulse_state",
+        "current_value": "1",
+        "at": "12/09/2013 17:53:48",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "Gas Pulse Status"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "0 / 1",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "gas_total_cost",
+        "current_value": "1230.49",
+        "at": "12/09/2013 17:53:48",
+        "max_value": "1380.9",
+        "min_value": "49.57",
+        "tags": [
+          "Total Gas Cost"
+        ],
+        "unit": {
+          "symbol": "£",
+          "label": "Pounds Sterling",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Sensor1",
+        "current_value": "02325",
+        "at": "12/09/2013 17:53:48",
+        "max_value": "23192.0",
+        "min_value": "0.0",
+        "tags": [
+          "Dining Room Light Level"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Higher = Brighter",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperature",
+        "current_value": "25.0",
+        "at": "12/09/2013 17:53:48",
+        "max_value": "29.8",
+        "min_value": "0.0",
+        "tags": [
+          "Dining Room Temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Home",
+      "domain": 0,
+      "lat": "52.7103513382894",
+      "lon": "-1.50280952453613",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/93526\" >Garrys' Home Energy Usage</a>",
+    "URLMostrar": "https://xively.com/feeds/93526"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\93526.json",
+  "DocumentJSON": null
+}

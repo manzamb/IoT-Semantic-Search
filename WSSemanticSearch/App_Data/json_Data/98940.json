@@ -1,0 +1,142 @@
+{
+  "Conceptos": [
+    "task"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "98940",
+    "title": "Temperaturen der Wetterstationen",
+    "Private": false,
+    "tags": [
+      "Aargau",
+      "Davis Vantage Pro 2",
+      "IROX",
+      "Schweiz",
+      "Switzerland",
+      "Temp",
+      "WsWin"
+    ],
+    "description": "*** T e s t  i n  p r o g r e s s ***\r\nCombined temperature sensor data from my Irox ant the Davis Vantage Pro 2. \r\nSW used: WsWin (custom files funtionality)\r\nCurl and Win7 task scheduler upload the CSV files every 1 min ",
+    "feed": "https://api.xively.com/v2/feeds/98940.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:15:01",
+    "created": "01/20/2013 01:06:53",
+    "creator": "https://xively.com/users/groner",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "IROX_Temperatur_A_bei_Sat",
+        "current_value": "24.9",
+        "at": "03/21/2014 14:15:00",
+        "max_value": "39.9",
+        "min_value": "-9.1",
+        "tags": null,
+        "unit": {
+          "symbol": "° C",
+          "label": "° Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "IROX_Temperatur_A_Pool",
+        "current_value": "15.9",
+        "at": "03/21/2014 14:15:00",
+        "max_value": "30.2",
+        "min_value": "-3.8",
+        "tags": null,
+        "unit": {
+          "symbol": "° C",
+          "label": "° Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "IROX_Temperatur_A_WRG_Ein",
+        "current_value": "19.2",
+        "at": "03/21/2014 14:15:00",
+        "max_value": "36.8",
+        "min_value": "-8.4",
+        "tags": null,
+        "unit": {
+          "symbol": "° C",
+          "label": "° Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "IROX_Temperatur_I_EG_Reduit",
+        "current_value": "23.1",
+        "at": "03/21/2014 14:15:00",
+        "max_value": "26.7",
+        "min_value": "20.8",
+        "tags": null,
+        "unit": {
+          "symbol": "° C",
+          "label": "° Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "IROX_Temperatur_I_OG_Lounge",
+        "current_value": "23.2",
+        "at": "03/21/2014 14:15:00",
+        "max_value": "27.8",
+        "min_value": "20.6",
+        "tags": null,
+        "unit": {
+          "symbol": "° C",
+          "label": "° Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "VP2_Temperatur_A_Aussen",
+        "current_value": "20.7",
+        "at": "03/21/2014 14:15:00",
+        "max_value": "38.1",
+        "min_value": "-9.9",
+        "tags": null,
+        "unit": {
+          "symbol": "° C",
+          "label": "° Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "VP2_Temperatur_I_OG_Lounge",
+        "current_value": "23.4",
+        "at": "03/21/2014 14:15:00",
+        "max_value": "27.5",
+        "min_value": "19.3",
+        "tags": null,
+        "unit": {
+          "symbol": "° C",
+          "label": "° Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Busslingen",
+      "domain": 0,
+      "lat": "47.4106029381996",
+      "lon": "8.31667184829712",
+      "ele": "420",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/98940\" >Temperaturen der Wetterstationen</a>",
+    "URLMostrar": "https://xively.com/feeds/98940"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\98940.json",
+  "DocumentJSON": null
+}

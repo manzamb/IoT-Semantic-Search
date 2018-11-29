@@ -1,0 +1,92 @@
+{
+  "Conceptos": [
+    "community"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "6888",
+    "title": "Hedge End Weather",
+    "Private": false,
+    "tags": null,
+    "description": "Simple weather feed for ambient orb project. Data is from Weather Underground (http://www.wunderground.com/) combined using Mashup Hub (http://greenhouse.lotus.com/mashuphub/public/permalink?entryid=10089) and finally converted using XML to CSV (http://community.pachube.com/node/388).",
+    "feed": "https://api.xively.com/v2/feeds/6888.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "04/25/2013 11:31:45",
+    "created": "04/21/2010 07:07:50",
+    "creator": "https://xively.com/users/jtonline",
+    "version": null,
+    "website": "http://jtlog.wordpress.com/2010/05/09/weather-underground-mashup-hub-pachube-orb-food/",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "17.2",
+        "at": "04/25/2013 11:31:45",
+        "max_value": "30.5",
+        "min_value": "-7.0",
+        "tags": [
+          "current",
+          "temp",
+          "temperature",
+          "weather"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "18",
+        "at": "04/25/2013 11:31:45",
+        "max_value": "29.0",
+        "min_value": "0.0",
+        "tags": [
+          "forecast",
+          "temp",
+          "temperature",
+          "weather"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "13",
+        "at": "04/25/2013 11:31:45",
+        "max_value": "19.0",
+        "min_value": "2.0",
+        "tags": [
+          "conditions",
+          "forecast",
+          "weather"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Hedge End",
+      "domain": 0,
+      "lat": "50.9223253977407",
+      "lon": "-1.3044548034668",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/6888\" >Hedge End Weather</a>",
+    "URLMostrar": "https://xively.com/feeds/6888"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\6888.json",
+  "DocumentJSON": null
+}

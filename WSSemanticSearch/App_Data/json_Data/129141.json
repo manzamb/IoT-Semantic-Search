@@ -1,0 +1,71 @@
+{
+  "Conceptos": [
+    "description"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "129141",
+    "title": "Test Automatic Feed",
+    "Private": false,
+    "tags": [
+      "project:name=pull_test",
+      "temperature"
+    ],
+    "description": "Description of automatic feed",
+    "feed": "https://api.xively.com/v2/feeds/129141.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/18/2014 05:54:44",
+    "created": "05/02/2013 12:36:35",
+    "creator": "https://xively.com/users/pico",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "stream0",
+        "current_value": "1.00",
+        "at": "03/18/2014 05:54:44",
+        "max_value": "20.0",
+        "min_value": "0.0",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "stream1",
+        "current_value": "19.00",
+        "at": "03/18/2014 05:54:44",
+        "max_value": "23.46",
+        "min_value": "-10.0",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/129141\" >Test Automatic Feed</a>",
+    "URLMostrar": "https://xively.com/feeds/129141"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\129141.json",
+  "DocumentJSON": null
+}

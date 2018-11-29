@@ -1,0 +1,137 @@
+{
+  "Conceptos": [
+    "frequency"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "127108",
+    "title": "Raspi (RaspberryPi)",
+    "Private": false,
+    "tags": [
+      "load",
+      "PC",
+      "status",
+      "temp"
+    ],
+    "description": "A Raspberry Pi status monitor",
+    "feed": "https://api.xively.com/v2/feeds/127108.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "10/25/2013 23:15:02",
+    "created": "04/23/2013 06:46:25",
+    "creator": "https://xively.com/users/adicon",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "CPU_freq",
+        "current_value": "700",
+        "at": "10/25/2013 23:15:02",
+        "max_value": "800.0",
+        "min_value": "700.0",
+        "tags": [
+          "CPU frequency"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "MHz",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "CPU_load",
+        "current_value": "0.01",
+        "at": "10/25/2013 23:15:02",
+        "max_value": "7.22",
+        "min_value": "0.01",
+        "tags": [
+          "CPU load"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "1/100",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "CPU_temp",
+        "current_value": "43.3",
+        "at": "10/25/2013 23:15:02",
+        "max_value": "52.5",
+        "min_value": "39.0",
+        "tags": [
+          "CPU temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius degree",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "ETH_Rx",
+        "current_value": "145",
+        "at": "10/25/2013 23:15:02",
+        "max_value": "1501646.0",
+        "min_value": "16.0",
+        "tags": [
+          "Network received"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "byte",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "ETH_Tx",
+        "current_value": "78",
+        "at": "10/25/2013 23:15:02",
+        "max_value": "793712.0",
+        "min_value": "15.0",
+        "tags": [
+          "Network transmitted"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "byte",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Mem_free",
+        "current_value": "178548",
+        "at": "10/25/2013 23:15:02",
+        "max_value": "218436.0",
+        "min_value": "17128.0",
+        "tags": [
+          "Memory free"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "byte",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Naples, italy",
+      "domain": 0,
+      "lat": "40.8357660980316",
+      "lon": "14.2487096786499",
+      "ele": "100",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/127108\" >Raspi (RaspberryPi)</a>",
+    "URLMostrar": "https://xively.com/feeds/127108"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\127108.json",
+  "DocumentJSON": null
+}

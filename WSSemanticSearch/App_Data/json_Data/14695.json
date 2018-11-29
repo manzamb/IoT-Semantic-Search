@@ -1,0 +1,84 @@
+{
+  "Conceptos": [
+    "viento"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "14695",
+    "title": "cala martina (ibiza)",
+    "Private": false,
+    "tags": null,
+    "description": "en pruebas temperatura,humedad,felocida viento",
+    "feed": "https://api.xively.com/v2/feeds/14695.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "01/09/2011 16:30:52",
+    "created": "01/09/2011 16:30:52",
+    "creator": "https://xively.com/users/daviddatocabeza",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": null,
+        "at": null,
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "temperatura"
+        ],
+        "unit": {
+          "symbol": "c",
+          "label": "celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": null,
+        "at": null,
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "humedad"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "relativa",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": null,
+        "at": null,
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "velocidad viento"
+        ],
+        "unit": {
+          "symbol": "k/h",
+          "label": "k/h",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "ibiza",
+      "domain": 0,
+      "lat": "38.9918395478759",
+      "lon": "1.57115757465363",
+      "ele": "6",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/14695\" >cala martina (ibiza)</a>",
+    "URLMostrar": "https://xively.com/feeds/14695"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\14695.json",
+  "DocumentJSON": null
+}

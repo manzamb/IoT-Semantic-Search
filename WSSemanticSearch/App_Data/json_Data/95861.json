@@ -1,0 +1,86 @@
+{
+  "Conceptos": [
+    "humedad"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "95861",
+    "title": "DHT",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "humedad",
+      "temperatura"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/95861.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "01/06/2013 15:24:24",
+    "created": "01/03/2013 16:57:17",
+    "creator": "https://xively.com/users/peko86",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "humedad",
+        "current_value": "66.00",
+        "at": "01/06/2013 15:24:24",
+        "max_value": "68.0",
+        "min_value": "60.0",
+        "tags": [
+          "humedad"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "luz",
+        "current_value": "71",
+        "at": "01/06/2013 15:24:24",
+        "max_value": "82.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temperatura",
+        "current_value": "16.00",
+        "at": "01/06/2013 15:24:24",
+        "max_value": "17.0",
+        "min_value": "13.0",
+        "tags": [
+          "temperatura"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Revilla de Camargo",
+      "domain": 0,
+      "lat": "43.4048635340156",
+      "lon": "-3.85759592056274",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/95861\" >DHT</a>",
+    "URLMostrar": "https://xively.com/feeds/95861"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\95861.json",
+  "DocumentJSON": null
+}

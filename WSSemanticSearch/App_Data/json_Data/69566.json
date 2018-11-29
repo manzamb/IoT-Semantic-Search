@@ -1,0 +1,72 @@
+{
+  "Conceptos": [
+    "temperatura"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "69566",
+    "title": "Homeps",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "Domotica",
+      "Homeps"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/69566.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:15:10",
+    "created": "07/30/2012 15:45:28",
+    "creator": "https://xively.com/users/paulodiaspt",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "0.601173",
+        "at": "03/21/2014 14:15:10",
+        "max_value": "99.900002",
+        "min_value": "-99.5",
+        "tags": [
+          "humidade WC Suite"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "-99.500000",
+        "at": "03/30/2013 10:53:13",
+        "max_value": "99.900002",
+        "min_value": "-99.5",
+        "tags": [
+          "Temperatura WC Suite"
+        ],
+        "unit": {
+          "symbol": "Oc",
+          "label": "Oc",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Alcochete",
+      "domain": 0,
+      "lat": "38.7519495530772",
+      "lon": "-8.93715375568718",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/69566\" >Homeps</a>",
+    "URLMostrar": "https://xively.com/feeds/69566"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\69566.json",
+  "DocumentJSON": null
+}

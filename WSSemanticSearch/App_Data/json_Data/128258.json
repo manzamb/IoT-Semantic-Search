@@ -1,0 +1,101 @@
+{
+  "Conceptos": [
+    "event"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "128258",
+    "title": "Newmill Fish Farm",
+    "Private": false,
+    "tags": [
+      "air",
+      "ambient",
+      "aquaculture",
+      "arduino",
+      "atlas",
+      "carp",
+      "dissolved",
+      "farm",
+      "fish",
+      "fishfarm",
+      "fishing",
+      "fishingmad",
+      "flow",
+      "lanark",
+      "newmill",
+      "oxygen",
+      "RAS",
+      "scientific",
+      "scotland",
+      "temperature",
+      "trout",
+      "water"
+    ],
+    "description": "Newmill Trout Farm.\nBased 3 miles outside the town of Lanark in Scotland's central belt Newmill Fish Farm is a modern RAS (Recirculating Aquaculture System) system. This feed monitors the dissolved Oxygen, water temperature and the ambient temperature. We used an Arduino Mega in conjunction with an Atlas Scientific DO sensor and Dallas one wire temperature probes. \nSensor data is sent to Xively for logging and Zapier for trigger events. \n\nOur system is open to the public. Visit our website www.fishingmad.co.uk for more information. (coming soon)",
+    "feed": "https://api.xively.com/v2/feeds/128258.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "01/09/2014 09:20:48",
+    "created": "04/29/2013 14:41:31",
+    "creator": "https://xively.com/users/drunken_ejit",
+    "version": null,
+    "website": "http://www.fishingmad.co.uk",
+    "datastreams": [
+      {
+        "id": "Dissolved_Oxygen",
+        "current_value": "8.42",
+        "at": "01/09/2014 09:20:47",
+        "max_value": "508.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temp_Ambient_Air",
+        "current_value": "14",
+        "at": "01/09/2014 09:20:47",
+        "max_value": "459.0",
+        "min_value": "-127.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temp_Water",
+        "current_value": "12",
+        "at": "01/09/2014 09:20:47",
+        "max_value": "503.0",
+        "min_value": "-127.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Newmill Fishing Ltd.",
+      "domain": 0,
+      "lat": "55.691138869639",
+      "lon": "-3.72067451477051",
+      "ele": "250m",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/128258\" >Newmill Fish Farm</a>",
+    "URLMostrar": "https://xively.com/feeds/128258"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\128258.json",
+  "DocumentJSON": null
+}

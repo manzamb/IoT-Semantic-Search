@@ -1,0 +1,79 @@
+{
+  "Conceptos": [
+    "wind"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "2145880605",
+    "title": "Geiger Kit ",
+    "Private": false,
+    "tags": [
+      "counter",
+      "diy",
+      "geiger",
+      "israel",
+      "jerusalem",
+      "kit",
+      "monitoring",
+      "radiation",
+      "radiation logger",
+      "rh electronics"
+    ],
+    "description": "Online monitoring for nuclear radiation in Israel. Based on DIY Geiger Counter kit produced in RH Electronics. Take note, this is private Geiger Counter station, I'm not represent any official measurement! \nI'm using Radiation Logger windows software to upload data online.\nhttp://radiohobbystore.com/radiation-logger/",
+    "feed": "https://api.xively.com/v2/feeds/2145880605.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "01/19/2014 14:25:26",
+    "created": "10/10/2013 16:07:42",
+    "creator": "https://xively.com/users/rhelectronics",
+    "version": null,
+    "website": "http://radiohobbystore.com",
+    "datastreams": [
+      {
+        "id": "CPM",
+        "current_value": "14.33",
+        "at": "01/19/2014 14:25:26",
+        "max_value": "637.0",
+        "min_value": "0.0",
+        "tags": [
+          "Counts Per Minute"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "cpm",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "uSv",
+        "current_value": "0.1134",
+        "at": "01/19/2014 14:25:26",
+        "max_value": "3.0",
+        "min_value": "0.0",
+        "tags": [
+          "Sieverts"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "uSv/h",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Laboratory",
+      "domain": 0,
+      "lat": "31.7852469254524",
+      "lon": "35.2143108148193",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/2145880605\" >Geiger Kit </a>",
+    "URLMostrar": "https://xively.com/feeds/2145880605"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\2145880605.json",
+  "DocumentJSON": null
+}

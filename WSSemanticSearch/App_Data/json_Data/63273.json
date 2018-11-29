@@ -1,0 +1,129 @@
+{
+  "Conceptos": [
+    "wind"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "63273",
+    "title": "FeedEstado",
+    "Private": false,
+    "tags": [
+      "projet:name=PmmC",
+      "Raspberry Pi"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/63273.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:06:43",
+    "created": "06/11/2012 16:37:00",
+    "creator": "https://xively.com/users/fran69",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "extractor",
+        "current_value": "1",
+        "at": "03/21/2014 14:06:42",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "wind"
+        ],
+        "unit": {
+          "symbol": "On/Off",
+          "label": "1/0",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "humedad",
+        "current_value": "40",
+        "at": "03/21/2014 14:06:42",
+        "max_value": "24355.0",
+        "min_value": "0.0",
+        "tags": [
+          "humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "instractor",
+        "current_value": "1",
+        "at": "03/21/2014 14:06:42",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "wind"
+        ],
+        "unit": {
+          "symbol": "On/Off",
+          "label": "1/0",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "reflector",
+        "current_value": "0",
+        "at": "03/21/2014 14:06:42",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "regador",
+        "current_value": "1",
+        "at": "03/21/2014 14:06:42",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temperatura",
+        "current_value": "44",
+        "at": "03/21/2014 14:06:42",
+        "max_value": "44.0",
+        "min_value": "13.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "-32.9439335998616",
+      "lon": "-68.8463401794434",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/63273\" >FeedEstado</a>",
+    "URLMostrar": "https://xively.com/feeds/63273"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\63273.json",
+  "DocumentJSON": null
+}

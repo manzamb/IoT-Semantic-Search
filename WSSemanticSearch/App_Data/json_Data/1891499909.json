@@ -1,0 +1,84 @@
+{
+  "Conceptos": [
+    "co2"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "1891499909",
+    "title": "Hollison IAQ",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/1891499909.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "07/12/2013 21:59:48",
+    "created": "06/05/2013 19:36:32",
+    "creator": "https://xively.com/users/ho02142",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "CO2",
+        "current_value": "642",
+        "at": "07/12/2013 21:59:48",
+        "max_value": "651.0",
+        "min_value": "290.0",
+        "tags": [
+          "CO2"
+        ],
+        "unit": {
+          "symbol": "ppm",
+          "label": "ppm",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Humidity",
+        "current_value": "57",
+        "at": "07/12/2013 21:59:48",
+        "max_value": "66.0",
+        "min_value": "45.0",
+        "tags": [
+          "Humidity"
+        ],
+        "unit": {
+          "symbol": "%RH",
+          "label": "%RH",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperature",
+        "current_value": "76",
+        "at": "07/12/2013 21:59:48",
+        "max_value": "83.0",
+        "min_value": "71.0",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "degF",
+          "label": "degF",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "37.766749",
+      "lon": "-87.110487",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/1891499909\" >Hollison IAQ</a>",
+    "URLMostrar": "https://xively.com/feeds/1891499909"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\1891499909.json",
+  "DocumentJSON": null
+}

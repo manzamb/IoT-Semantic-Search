@@ -1,0 +1,186 @@
+{
+  "Conceptos": [
+    "humidity"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "35872",
+    "title": "若松ネットガイガーの実証試験用",
+    "Private": false,
+    "tags": [
+      "Humidity",
+      "Mark2",
+      "SBM-20",
+      "Temperature",
+      "wakwak_koba"
+    ],
+    "description": "若松ネットガイガー mark2 の拡張ファームウェア製作に伴う実証試験用です。\r\nデバッグ中の計測結果が多分に含まれていますので、変な値が記録されていても無視してください。\r\n\r\nオリジナルに比較して\r\n　　・μSV/h での表示検証\r\n　　・ツィッターへの呟き（GPSから取得した経緯度も）\r\n　　・内蔵フラッシュディスク・microSD へのログ保存\r\n　　・独自サイトへの測定値 Post\r\n　　・温度、湿度　\r\nなどの各サービスを追加したうえで、同時に Pachube してます。\r\n\r\nファームウェア製作時を除いて、原則として車載ルーター（PHS網）を経由して発信となっています。\r\n車の移動に伴い測定地も移動しています。\r\n電波状況やバッテリー切れなどが原因で発信が途切れることがあります。\r\n\r\n詳しくは下記枠外の WEB SITE もしくは COMTACT EMAIL まで。",
+    "feed": "https://api.xively.com/v2/feeds/35872.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "02/06/2106 06:27:45",
+    "created": "09/19/2011 14:58:08",
+    "creator": "https://xively.com/users/wakwak_koba",
+    "version": null,
+    "website": "http://g.wakwak-koba.jp/",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "0.095",
+        "at": "11/06/2013 12:44:54",
+        "max_value": "0.22",
+        "min_value": "0.0",
+        "tags": [
+          "1時間移動平均"
+        ],
+        "unit": {
+          "symbol": "uSV/h",
+          "label": "uSV/h",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "16.4",
+        "at": "11/06/2013 12:44:54",
+        "max_value": "32.5",
+        "min_value": "0.0",
+        "tags": [
+          "1時間移動平均"
+        ],
+        "unit": {
+          "symbol": "cpm",
+          "label": "cpm",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "94",
+        "at": "11/06/2013 12:44:54",
+        "max_value": "219.0",
+        "min_value": "0.0",
+        "tags": [
+          "1時間移動平均"
+        ],
+        "unit": {
+          "symbol": "nSV/h",
+          "label": "nSV/h",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "15.6",
+        "at": "11/06/2013 13:09:54",
+        "max_value": "32.5",
+        "min_value": "0.0",
+        "tags": [
+          "10分間移動平均"
+        ],
+        "unit": {
+          "symbol": "cpm",
+          "label": "cpm",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "88",
+        "at": "11/06/2013 13:09:54",
+        "max_value": "219.0",
+        "min_value": "0.0",
+        "tags": [
+          "10分間移動平均"
+        ],
+        "unit": {
+          "symbol": "nSV/h",
+          "label": "nSV/h",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Humidity",
+        "current_value": "49.9",
+        "at": "09/21/2013 05:12:20",
+        "max_value": "78.6",
+        "min_value": "45.7",
+        "tags": [
+          "HIH-6130"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Pressure",
+        "current_value": "998.3",
+        "at": "09/21/2013 05:12:18",
+        "max_value": "1007.9",
+        "min_value": "962.8",
+        "tags": [
+          "LPS331AP"
+        ],
+        "unit": {
+          "symbol": "hPa",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temp",
+        "current_value": "29.5",
+        "at": "09/23/2013 08:20:31",
+        "max_value": "98.2",
+        "min_value": "12.5",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "℃",
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperature",
+        "current_value": "27.5",
+        "at": "09/21/2013 05:12:24",
+        "max_value": "35.6",
+        "min_value": "20.9",
+        "tags": [
+          "LPS331AP"
+        ],
+        "unit": {
+          "symbol": "℃",
+          "label": "℃",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "名古屋から概ね50キロ圏内を移動しながら測定",
+      "domain": 0,
+      "lat": "35.1855963204513",
+      "lon": "136.899084448815",
+      "ele": "ダッシュボード上",
+      "exposure": 1,
+      "disposition": 1
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/35872\" >若松ネットガイガーの実証試験用</a>",
+    "URLMostrar": "https://xively.com/feeds/35872"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\35872.json",
+  "DocumentJSON": null
+}

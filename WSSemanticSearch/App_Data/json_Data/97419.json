@@ -1,0 +1,83 @@
+{
+  "Conceptos": [
+    "concept"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "97419",
+    "title": "ardu_test",
+    "Private": false,
+    "tags": [
+      "learning",
+      "proof of concept"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/97419.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "01/19/2013 10:06:31",
+    "created": "01/13/2013 09:43:01",
+    "creator": "https://xively.com/users/amonra",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "sensor1",
+        "current_value": "0",
+        "at": "01/19/2013 05:49:12",
+        "max_value": "41.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "sensr1",
+        "current_value": "0",
+        "at": "01/19/2013 07:07:31",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "val1",
+        "current_value": "6",
+        "at": "01/19/2013 10:06:30",
+        "max_value": "6.0",
+        "min_value": "0.0",
+        "tags": [
+          "pitici / metru cub"
+        ],
+        "unit": {
+          "symbol": "Pmc",
+          "label": "pmc",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/97419\" >ardu_test</a>",
+    "URLMostrar": "https://xively.com/feeds/97419"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\97419.json",
+  "DocumentJSON": null
+}

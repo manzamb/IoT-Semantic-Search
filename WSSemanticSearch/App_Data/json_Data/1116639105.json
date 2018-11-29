@@ -1,0 +1,126 @@
+{
+  "Conceptos": [
+    "description"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "1116639105",
+    "title": "Indoor Environment Monitoring System",
+    "Private": false,
+    "tags": [
+      "Indoors",
+      "IoT",
+      "Netduino",
+      "Sensor",
+      "WoT"
+    ],
+    "description": " The purpose of this application is to monitor indoor environment on this website, xlivly. As for the hardware, my system consists of Netduino and some sensors. The sensory data is automatically uploaded here every 5 minutes. If you have any questions, please feel free to email me at gene8192(_at_)ust.ac.kr",
+    "feed": "https://api.xively.com/v2/feeds/1116639105.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "01/14/2014 14:38:59",
+    "created": "08/01/2013 03:16:25",
+    "creator": "https://xively.com/users/youngjin",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "E_Radiation",
+        "current_value": "0",
+        "at": "01/14/2014 14:38:58",
+        "max_value": "20.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "CPM",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "E_Temperature2",
+        "current_value": "0.0",
+        "at": "01/14/2014 14:38:58",
+        "max_value": "27.5",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Gas",
+        "current_value": "144",
+        "at": "01/14/2014 14:38:58",
+        "max_value": "647.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "AD Value",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Humidity",
+        "current_value": "17.8",
+        "at": "01/14/2014 14:38:58",
+        "max_value": "68.6",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "%",
+          "label": "Percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Light",
+        "current_value": "889",
+        "at": "01/14/2014 14:38:58",
+        "max_value": "932.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "AD Value",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperature",
+        "current_value": "20.6",
+        "at": "01/14/2014 14:38:58",
+        "max_value": "35.1",
+        "min_value": "-40.0",
+        "tags": null,
+        "unit": {
+          "symbol": "C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "ETRI (UST)",
+      "domain": 0,
+      "lat": "36.3811336180621",
+      "lon": "127.36513317115",
+      "ele": "Approximately 15 meters from the ground",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/1116639105\" >Indoor Environment Monitoring System</a>",
+    "URLMostrar": "https://xively.com/feeds/1116639105"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\1116639105.json",
+  "DocumentJSON": null
+}

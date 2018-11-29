@@ -1,0 +1,70 @@
+{
+  "Conceptos": [
+    "condition"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "86623",
+    "title": "My room conditions",
+    "Private": false,
+    "tags": [
+      "environment"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/86623.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "11/17/2012 10:53:55",
+    "created": "11/16/2012 20:42:41",
+    "creator": "https://xively.com/users/dcsergio",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "16.75",
+        "at": "11/20/2012 15:49:33",
+        "max_value": "32.43",
+        "min_value": "0.0",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "371.0",
+        "at": "11/20/2012 15:49:33",
+        "max_value": "654.0",
+        "min_value": "-650.0",
+        "tags": [
+          "Light"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "41.0238676064289",
+      "lon": "13.9287757873535",
+      "ele": "0",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/86623\" >My room conditions</a>",
+    "URLMostrar": "https://xively.com/feeds/86623"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\86623.json",
+  "DocumentJSON": null
+}

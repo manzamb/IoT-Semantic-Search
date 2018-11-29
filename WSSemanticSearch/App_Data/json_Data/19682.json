@@ -1,0 +1,323 @@
+{
+  "Conceptos": [
+    "mercury barometer"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "19682",
+    "title": "Wview Weather Station",
+    "Private": false,
+    "tags": [
+      "humidity",
+      "outdoor",
+      "rain",
+      "temperature",
+      "weather",
+      "wind",
+      "wview"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/19682.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/19/2011 10:10:03",
+    "created": "02/27/2011 20:27:10",
+    "creator": "https://xively.com/users/cscm",
+    "version": null,
+    "website": "http://www.wviewweather.com/",
+    "datastreams": [
+      {
+        "id": "altimeter",
+        "current_value": "30.489422",
+        "at": "03/19/2011 10:10:03",
+        "max_value": "30.719353",
+        "min_value": "30.013023",
+        "tags": [
+          "altitude",
+          "outdoor"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "barometer",
+        "current_value": "30.516729",
+        "at": "03/19/2011 10:10:03",
+        "max_value": "30.754471",
+        "min_value": "30.003271",
+        "tags": [
+          "barometer",
+          "outdoor"
+        ],
+        "unit": {
+          "symbol": "inHg",
+          "label": "Inches of mercury",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "dewpoint",
+        "current_value": "29.664316",
+        "at": "03/19/2011 10:10:03",
+        "max_value": "59.827942",
+        "min_value": "23.178785",
+        "tags": [
+          "dewpoint",
+          "outdoor"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "Fahrenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "heatindex",
+        "current_value": "45.32",
+        "at": "03/19/2011 10:10:03",
+        "max_value": "70.501541",
+        "min_value": "37.220001",
+        "tags": [
+          "heat index",
+          "outdoor"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "Fahrenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "inHumidity",
+        "current_value": "50.0",
+        "at": "03/19/2011 10:10:03",
+        "max_value": "100.0",
+        "min_value": "0.0",
+        "tags": [
+          "humidity",
+          "indoor"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "Percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "inTemp",
+        "current_value": "70.771996",
+        "at": "03/19/2011 10:10:03",
+        "max_value": "78.799995",
+        "min_value": "0.0",
+        "tags": [
+          "indoor",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "Fahrenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "outHumidity",
+        "current_value": "54.0",
+        "at": "03/19/2011 10:10:03",
+        "max_value": "100.0",
+        "min_value": "0.0",
+        "tags": [
+          "humidity",
+          "outdoor"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "Percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "outTemp",
+        "current_value": "45.32",
+        "at": "03/19/2011 10:10:03",
+        "max_value": "70.501541",
+        "min_value": "37.220001",
+        "tags": [
+          "outdoor",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "Fahrenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "pressure",
+        "current_value": "29.866623",
+        "at": "03/19/2011 10:10:03",
+        "max_value": "30.092691",
+        "min_value": "29.216394",
+        "tags": [
+          "outdoor",
+          "pressure"
+        ],
+        "unit": {
+          "symbol": "inHg",
+          "label": "Inches of mercury",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "rain",
+        "current_value": "0.0",
+        "at": "03/19/2011 10:10:03",
+        "max_value": "0.010031",
+        "min_value": "0.0",
+        "tags": [
+          "outdoor",
+          "rain"
+        ],
+        "unit": {
+          "symbol": "in",
+          "label": "inches",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "rainRate",
+        "current_value": "0.0",
+        "at": "03/19/2011 10:10:03",
+        "max_value": "0.334831",
+        "min_value": "0.0",
+        "tags": [
+          "outdoor",
+          "rain",
+          "rate"
+        ],
+        "unit": {
+          "symbol": "in/h",
+          "label": "inches per hour",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "windchill",
+        "current_value": "45.32",
+        "at": "03/19/2011 10:10:03",
+        "max_value": "70.501541",
+        "min_value": "37.220001",
+        "tags": [
+          "outdoor",
+          "wind",
+          "windchill"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "Fahrenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "windDir",
+        "current_value": "0.0",
+        "at": "02/28/2011 08:33:29",
+        "max_value": "359.0",
+        "min_value": "0.0",
+        "tags": [
+          "dir",
+          "outdoor",
+          "wind"
+        ],
+        "unit": {
+          "symbol": "°",
+          "label": "degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "windGust",
+        "current_value": "0.0",
+        "at": "03/19/2011 10:10:03",
+        "max_value": "20.0",
+        "min_value": "0.0",
+        "tags": [
+          "gust",
+          "outdoor",
+          "wind"
+        ],
+        "unit": {
+          "symbol": "mph",
+          "label": "Miles per hour",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "windGustDir",
+        "current_value": "46.0",
+        "at": "02/28/2011 08:33:29",
+        "max_value": "359.0",
+        "min_value": "0.0",
+        "tags": [
+          "dir",
+          "gust",
+          "outdoor",
+          "wind"
+        ],
+        "unit": {
+          "symbol": "°",
+          "label": "degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "windSpeed",
+        "current_value": "0.0",
+        "at": "03/19/2011 10:10:03",
+        "max_value": "10.0",
+        "min_value": "0.0",
+        "tags": [
+          "outdoor",
+          "speed",
+          "wind"
+        ],
+        "unit": {
+          "symbol": "mph",
+          "label": "Miles per hour",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "48.8",
+      "lon": "2.17",
+      "ele": "580.7",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/19682\" >Wview Weather Station</a>",
+    "URLMostrar": "https://xively.com/feeds/19682"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\19682.json",
+  "DocumentJSON": null
+}

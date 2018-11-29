@@ -1,0 +1,234 @@
+{
+  "Conceptos": [
+    "condition"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "14045",
+    "title": "NB's house",
+    "Private": false,
+    "tags": [
+      "electricity",
+      "humidity",
+      "Japan",
+      "temperature",
+      "watt"
+    ],
+    "description": "Measurement of my house's conditions collected by Arduino + Xbee.",
+    "feed": "https://api.xively.com/v2/feeds/14045.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/11/2013 16:00:34",
+    "created": "12/20/2010 17:06:45",
+    "creator": "https://xively.com/users/nbyoshi",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "0.00",
+        "at": "03/11/2013 16:00:33",
+        "max_value": "31.77",
+        "min_value": "-42.56",
+        "tags": [
+          "outside temp"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "0.00",
+        "at": "03/11/2013 16:00:33",
+        "max_value": "93.4",
+        "min_value": "-13.84",
+        "tags": [
+          "outside humidity"
+        ],
+        "unit": {
+          "symbol": "RH%",
+          "label": "relative humidity",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "21.3",
+        "at": "03/11/2013 16:00:33",
+        "max_value": "31.1",
+        "min_value": "0.0",
+        "tags": [
+          "1F living temp"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "15.50",
+        "at": "03/11/2013 16:00:33",
+        "max_value": "29.1",
+        "min_value": "0.0",
+        "tags": [
+          "1F air outlet"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "7.5",
+        "at": "03/11/2013 16:00:33",
+        "max_value": "95.5",
+        "min_value": "-10.0",
+        "tags": [
+          "Roof"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "12.0",
+        "at": "03/11/2013 16:00:33",
+        "max_value": "59.0",
+        "min_value": "-10.0",
+        "tags": [
+          "Attic"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "16.90",
+        "at": "03/11/2013 16:00:33",
+        "max_value": "85.5",
+        "min_value": "-8.0",
+        "tags": [
+          "Bottom of duct"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "7",
+        "current_value": "16.80",
+        "at": "03/11/2013 16:00:33",
+        "max_value": "61.8",
+        "min_value": "-9.0",
+        "tags": [
+          "Base Slab"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "8",
+        "current_value": "30.02",
+        "at": "03/11/2013 16:00:33",
+        "max_value": "252.46",
+        "min_value": "0.0",
+        "tags": [
+          "Total Wh"
+        ],
+        "unit": {
+          "symbol": "Wh/5min",
+          "label": "Wh/5min",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "9",
+        "current_value": "0.00",
+        "at": "03/11/2013 16:00:33",
+        "max_value": "6.85",
+        "min_value": "0.0",
+        "tags": [
+          "Solar Collector"
+        ],
+        "unit": {
+          "symbol": "Wh/5min",
+          "label": "Wh/5min",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "10",
+        "current_value": "0.00",
+        "at": "03/11/2013 16:00:33",
+        "max_value": "157.09",
+        "min_value": "0.0",
+        "tags": [
+          "1F AC"
+        ],
+        "unit": {
+          "symbol": "Wh/5min",
+          "label": "Wh/5min",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "11",
+        "current_value": "47.3",
+        "at": "03/11/2013 16:00:33",
+        "max_value": "99.9",
+        "min_value": "0.0",
+        "tags": [
+          "1F living humidity"
+        ],
+        "unit": {
+          "symbol": "RH%",
+          "label": "relative humidity",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Asaka City, Saitama, Japan",
+      "domain": 1,
+      "lat": "35.7964087191685",
+      "lon": "139.590911865234",
+      "ele": "21",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/14045\" >NB's house</a>",
+    "URLMostrar": "https://xively.com/feeds/14045"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\14045.json",
+  "DocumentJSON": null
+}

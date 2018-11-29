@@ -1,0 +1,79 @@
+{
+  "Conceptos": [
+    "radioactivity"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "25905",
+    "title": "Radiation dose in Oiso , Kanagawa JAPAN  (unofficial report)",
+    "Private": false,
+    "tags": [
+      "Arduino",
+      "Geiger",
+      "J408",
+      "Japan",
+      "Radiation",
+      "Radioactivity"
+    ],
+    "description": "Only gamma ray data. I designed this measurement system that is made up of the Arduino uno plus J408-GM. This data is an unofficial report as Oiso town. (Measured at a height of 1m)  Updated every 1 minutes. Use it at your own risk. No guarantee of validity.",
+    "feed": "https://api.xively.com/v2/feeds/25905.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "07/15/2011 12:40:34",
+    "created": "05/29/2011 04:16:09",
+    "creator": "https://xively.com/users/vj",
+    "version": null,
+    "website": "http://www.pachube.com/feeds/25905/",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "70.000",
+        "at": "07/15/2011 12:40:34",
+        "max_value": "120.0",
+        "min_value": "0.0",
+        "tags": [
+          "CPM",
+          "sensor:model=J408",
+          "sensor:type=radiation"
+        ],
+        "unit": {
+          "symbol": "cpm",
+          "label": "counts/minutes",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "0.111",
+        "at": "07/15/2011 12:40:34",
+        "max_value": "0.19",
+        "min_value": "0.0",
+        "tags": [
+          "microsieverts/hour",
+          "sensor:model=J408",
+          "sensor:type=radiation"
+        ],
+        "unit": {
+          "symbol": "µSv/h",
+          "label": "microsieverts/hour",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Oiso",
+      "domain": 0,
+      "lat": "35.310432605148",
+      "lon": "139.277544021606",
+      "ele": "10",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/25905\" >Radiation dose in Oiso , Kanagawa JAPAN  (unofficial report)</a>",
+    "URLMostrar": "https://xively.com/feeds/25905"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\25905.json",
+  "DocumentJSON": null
+}

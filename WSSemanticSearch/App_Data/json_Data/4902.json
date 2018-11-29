@@ -1,0 +1,84 @@
+{
+  "Conceptos": [
+    "persona {it}"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "4902",
+    "title": "Personal Weather Front",
+    "Private": false,
+    "tags": null,
+    "description": "Test feed for B-lo studio - using Senserion SHT15 temperature and humidity sensor",
+    "feed": "https://api.xively.com/v2/feeds/4902.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "06/08/2010 14:20:41",
+    "created": "01/18/2010 20:29:18",
+    "creator": "https://xively.com/users/mark",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "0.0",
+        "at": null,
+        "max_value": "27.19",
+        "min_value": "0.0",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "0.0",
+        "at": null,
+        "max_value": "30.36",
+        "min_value": "0.0",
+        "tags": [
+          "humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "RH",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "0.0",
+        "at": null,
+        "max_value": "5.85",
+        "min_value": "0.0",
+        "tags": [
+          "dewpoint"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "42.953218755853",
+      "lon": "-78.8198661804199",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/4902\" >Personal Weather Front</a>",
+    "URLMostrar": "https://xively.com/feeds/4902"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\4902.json",
+  "DocumentJSON": null
+}

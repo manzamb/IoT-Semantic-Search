@@ -1,0 +1,136 @@
+{
+  "Conceptos": [
+    "moisture"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "23986",
+    "title": "Garden",
+    "Private": false,
+    "tags": [
+      "garden",
+      "humidity",
+      "moisture test",
+      "soil",
+      "temperature"
+    ],
+    "description": "Sensors in the garden",
+    "feed": "https://api.xively.com/v2/feeds/23986.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/21/2014 10:23:42",
+    "created": "04/19/2011 17:25:42",
+    "creator": "https://xively.com/users/shakespeare",
+    "version": null,
+    "website": "http://blog.thiseldo.co.uk",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "8.403",
+        "at": "03/21/2014 10:23:42",
+        "max_value": "327.279",
+        "min_value": "-327.169",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "66.709",
+        "at": "05/08/2013 10:18:26",
+        "max_value": "291.979",
+        "min_value": "-326.429",
+        "tags": [
+          "Humidity"
+        ],
+        "unit": {
+          "symbol": "%RH",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "1.98",
+        "at": "05/08/2013 10:18:26",
+        "max_value": "32.69",
+        "min_value": "-32.763",
+        "tags": [
+          "Dew Point"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "279.179",
+        "at": "05/03/2013 18:18:35",
+        "max_value": "279.179",
+        "min_value": "-127.0",
+        "tags": [
+          "Soil Temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "204.940",
+        "at": "05/05/2013 19:18:06",
+        "max_value": "204.94",
+        "min_value": "-246.349",
+        "tags": [
+          "Soil Moisture"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "32703.0",
+        "at": "05/05/2013 19:36:50",
+        "max_value": "32703.0",
+        "min_value": "-31497.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "51.4074782173888",
+      "lon": "-1.26235485076904",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/23986\" >Garden</a>",
+    "URLMostrar": "https://xively.com/feeds/23986"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\23986.json",
+  "DocumentJSON": null
+}

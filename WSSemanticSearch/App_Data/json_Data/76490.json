@@ -1,0 +1,257 @@
+{
+  "Conceptos": [
+    "frequency"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "76490",
+    "title": "Kamstrup Multical 21 (C-Mode)",
+    "Private": false,
+    "tags": [
+      "76490",
+      "Cold water",
+      "KAM631784611B16",
+      "Kamstrup Multical 21 (C-Mode)",
+      "wmbus"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/76490.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 13:56:26",
+    "created": "09/19/2012 15:04:15",
+    "creator": "https://xively.com/users/rudiratlos",
+    "version": null,
+    "website": "http://www.google.com",
+    "datastreams": [
+      {
+        "id": "Brightness",
+        "current_value": "1098",
+        "at": "12/31/2013 13:44:19",
+        "max_value": "1138.0",
+        "min_value": "0.0",
+        "tags": [
+          "007C",
+          "no range",
+          "wMBUS"
+        ],
+        "unit": {
+          "symbol": "lx",
+          "label": "lx",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Cost",
+        "current_value": "0",
+        "at": "03/21/2014 13:55:40",
+        "max_value": "66912.98",
+        "min_value": "-5.47",
+        "tags": [
+          "ffff",
+          "mbus"
+        ],
+        "unit": {
+          "symbol": "EUR/Year @ 23ct/kWh",
+          "label": "EUR/Year @ 23ct/kWh",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Freq",
+        "current_value": "49.812",
+        "at": "03/21/2014 13:55:40",
+        "max_value": "50.312",
+        "min_value": "49.562",
+        "tags": [
+          "FB2C",
+          "Frequency",
+          "mbus"
+        ],
+        "unit": {
+          "symbol": "Hz",
+          "label": "Hz",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Humidity",
+        "current_value": "35",
+        "at": "12/31/2013 13:44:19",
+        "max_value": "255.0",
+        "min_value": "26.0",
+        "tags": [
+          "FB1A",
+          "Humidity",
+          "wMBUS"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "I",
+        "current_value": "0.313",
+        "at": "03/21/2014 13:55:40",
+        "max_value": "9.954",
+        "min_value": "0.0",
+        "tags": [
+          "electrical units",
+          "FD50",
+          "mbus"
+        ],
+        "unit": {
+          "symbol": "Ampere",
+          "label": "Ampere",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Movement",
+        "current_value": "0",
+        "at": "12/31/2013 13:44:19",
+        "max_value": "122.0",
+        "min_value": "0.0",
+        "tags": [
+          "ffff",
+          "wMBUS"
+        ],
+        "unit": {
+          "symbol": "MOVE",
+          "label": "MOVE",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "piggy_back_board_Temp",
+        "current_value": "32.5",
+        "at": "03/27/2013 11:02:40",
+        "max_value": "32.5",
+        "min_value": "31.812",
+        "tags": [
+          "1wire",
+          "ffff",
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Power",
+        "current_value": "69",
+        "at": "03/21/2014 13:55:40",
+        "max_value": "3480.0",
+        "min_value": "0.0",
+        "tags": [
+          "0028",
+          "mbus",
+          "Power"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "W",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Preassure",
+        "current_value": "0.955",
+        "at": "12/31/2013 13:44:19",
+        "max_value": "0.965",
+        "min_value": "0.931",
+        "tags": [
+          "0068",
+          "Preassure",
+          "wMBUS"
+        ],
+        "unit": {
+          "symbol": "bar",
+          "label": "bar",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temp",
+        "current_value": "68",
+        "at": "03/21/2014 08:53:47",
+        "max_value": "68.0",
+        "min_value": "14.1",
+        "tags": [
+          "0064",
+          "External Temperature",
+          "mbus"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "U",
+        "current_value": "229",
+        "at": "03/21/2014 13:55:40",
+        "max_value": "2290.0",
+        "min_value": "220.0",
+        "tags": [
+          "electrical units",
+          "FD40",
+          "mbus"
+        ],
+        "unit": {
+          "symbol": "Volt",
+          "label": "Volt",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Usage",
+        "current_value": "5936534",
+        "at": "03/21/2014 13:55:40",
+        "max_value": "51499400.0",
+        "min_value": "2552909.0",
+        "tags": [
+          "0000",
+          "1-0:1.8.0*255",
+          "Energy",
+          "mbus"
+        ],
+        "unit": {
+          "symbol": "Wh",
+          "label": "Wh",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "officename",
+      "domain": 0,
+      "lat": "48.1317",
+      "lon": "11.6696",
+      "ele": "519",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/76490\" >Kamstrup Multical 21 (C-Mode)</a>",
+    "URLMostrar": "https://xively.com/feeds/76490"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\76490.json",
+  "DocumentJSON": null
+}

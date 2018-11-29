@@ -1,0 +1,135 @@
+{
+  "Conceptos": [
+    "temperature"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "82838",
+    "title": "My PV-system",
+    "Private": false,
+    "tags": [
+      "energy",
+      "solar"
+    ],
+    "description": "Experimental datagathering from the powerinverter of my PV solarsystem.\r\nPanels are 11x Evergreen ES-E-210. Total of 2310Wp heading south, tilted 30deg.",
+    "feed": "https://api.xively.com/v2/feeds/82838.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:09:49",
+    "created": "10/28/2012 08:19:02",
+    "creator": "https://xively.com/users/oosterzon",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "ADC4",
+        "current_value": "88",
+        "at": "03/21/2014 14:09:49",
+        "max_value": "888.0",
+        "min_value": "8.0",
+        "tags": [
+          "Heartbeat sawtooth"
+        ],
+        "unit": {
+          "symbol": "y",
+          "label": "y",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Pac",
+        "current_value": "00155",
+        "at": "03/21/2014 14:09:49",
+        "max_value": "20315.0",
+        "min_value": "0.0",
+        "tags": [
+          "Currently generated power"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "W",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Pday",
+        "current_value": "920",
+        "at": "03/21/2014 14:09:49",
+        "max_value": "196980.0",
+        "min_value": "10.0",
+        "tags": [
+          "Today's generated power"
+        ],
+        "unit": {
+          "symbol": "Wh",
+          "label": "Wh",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Ptotl",
+        "current_value": "2172",
+        "at": "03/21/2014 14:09:49",
+        "max_value": "2172.0",
+        "min_value": "0.0",
+        "tags": [
+          "Generated ever since"
+        ],
+        "unit": {
+          "symbol": "kWh",
+          "label": "kWh",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temp",
+        "current_value": "20",
+        "at": "03/21/2014 14:09:49",
+        "max_value": "216.0",
+        "min_value": "1.0",
+        "tags": [
+          "Heatsink temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "deg C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Vdc",
+        "current_value": "315",
+        "at": "03/21/2014 14:09:49",
+        "max_value": "999.0",
+        "min_value": "0.0",
+        "tags": [
+          "PV-voltage"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": "V",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Hengelo",
+      "domain": 0,
+      "lat": "52.2395742814126",
+      "lon": "6.7510986328125",
+      "ele": "20",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/82838\" >My PV-system</a>",
+    "URLMostrar": "https://xively.com/feeds/82838"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\82838.json",
+  "DocumentJSON": null
+}

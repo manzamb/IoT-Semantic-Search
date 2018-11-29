@@ -1,0 +1,55 @@
+{
+  "Conceptos": [
+    "description"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "37471",
+    "title": "test",
+    "Private": false,
+    "tags": [
+      "amsterdam",
+      "humidity"
+    ],
+    "description": "this is a description",
+    "feed": "https://api.xively.com/v2/feeds/37471.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "10/16/2011 10:07:00",
+    "created": "10/16/2011 10:03:37",
+    "creator": "https://xively.com/users/melt",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "humidity",
+        "current_value": "0.2",
+        "at": "10/16/2011 10:07:00",
+        "max_value": "0.2",
+        "min_value": "0.2",
+        "tags": [
+          "humidity"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Pakhuis",
+      "domain": 0,
+      "lat": "52.3573346509535",
+      "lon": "4.98985290527344",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/37471\" >test</a>",
+    "URLMostrar": "https://xively.com/feeds/37471"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\37471.json",
+  "DocumentJSON": null
+}

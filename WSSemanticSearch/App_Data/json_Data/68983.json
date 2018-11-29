@@ -1,0 +1,105 @@
+{
+  "Conceptos": [
+    "co2"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "68983",
+    "title": "RiCo_GreenEnergy3000",
+    "Private": false,
+    "tags": [
+      "Energy_Today",
+      "Energy_Total",
+      "Power",
+      "Saving_Co2"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/68983.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:15:16",
+    "created": "07/25/2012 13:35:30",
+    "creator": "https://xively.com/users/pachube_rico_1",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Energy_Today",
+        "current_value": "27.0",
+        "at": "03/21/2014 14:15:15",
+        "max_value": "56.9",
+        "min_value": "0.0",
+        "tags": [
+          "Energy_Today"
+        ],
+        "unit": {
+          "symbol": "MWh",
+          "label": "MWh",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Energy_Total",
+        "current_value": "7803",
+        "at": "03/21/2014 14:15:15",
+        "max_value": "7803.0",
+        "min_value": "0.0",
+        "tags": [
+          "Energy_Total"
+        ],
+        "unit": {
+          "symbol": "MWh",
+          "label": "MWh",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Power",
+        "current_value": "2581",
+        "at": "03/21/2014 14:15:15",
+        "max_value": "7584.0",
+        "min_value": "0.0",
+        "tags": [
+          "Power"
+        ],
+        "unit": {
+          "symbol": "kW",
+          "label": "kW",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Saving_Co2",
+        "current_value": "5462",
+        "at": "03/21/2014 14:15:15",
+        "max_value": "5462.0",
+        "min_value": "0.0",
+        "tags": [
+          "Saving_Co2"
+        ],
+        "unit": {
+          "symbol": "t",
+          "label": "t",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/68983\" >RiCo_GreenEnergy3000</a>",
+    "URLMostrar": "https://xively.com/feeds/68983"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\68983.json",
+  "DocumentJSON": null
+}

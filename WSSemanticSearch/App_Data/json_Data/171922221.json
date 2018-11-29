@@ -1,0 +1,78 @@
+{
+  "Conceptos": [
+    "environment"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "171922221",
+    "title": "Athens Simulated Environmental Sensor 2",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/171922221.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/21/2014 13:43:45",
+    "created": "06/11/2013 08:24:14",
+    "creator": "https://xively.com/users/lkorres",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Humidity",
+        "current_value": "67",
+        "at": "03/21/2014 13:43:45",
+        "max_value": "75.0",
+        "min_value": "35.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Pressure",
+        "current_value": "1011",
+        "at": "03/21/2014 13:43:44",
+        "max_value": "1015.0",
+        "min_value": "1002.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "hPa",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperature",
+        "current_value": "14",
+        "at": "03/21/2014 13:43:43",
+        "max_value": "30.0",
+        "min_value": "13.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "37.9678835704573",
+      "lon": "23.7311121444579",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/171922221\" >Athens Simulated Environmental Sensor 2</a>",
+    "URLMostrar": "https://xively.com/feeds/171922221"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\171922221.json",
+  "DocumentJSON": null
+}

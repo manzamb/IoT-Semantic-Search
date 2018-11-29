@@ -1,0 +1,132 @@
+{
+  "Conceptos": [
+    "person"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "3232",
+    "title": "kiilo processing OSC gateway",
+    "Private": false,
+    "tags": null,
+    "description": "processing open sound control gateway",
+    "feed": "https://api.xively.com/v2/feeds/3232.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "06/06/2013 14:41:29",
+    "created": "11/21/2009 15:57:13",
+    "creator": "https://xively.com/users/kiilo",
+    "version": null,
+    "website": "http://2010.playaround.cc",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "26.0",
+        "at": "06/06/2013 14:41:29",
+        "max_value": "930.0",
+        "min_value": "0.0",
+        "tags": [
+          "temp"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "37.0",
+        "at": "06/06/2013 14:41:29",
+        "max_value": "65.34147",
+        "min_value": "-100.0",
+        "tags": [
+          "humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "relative humidity",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "-11.0",
+        "at": "06/06/2013 14:41:29",
+        "max_value": "25.0",
+        "min_value": "-16.0",
+        "tags": [
+          "people"
+        ],
+        "unit": {
+          "symbol": "persons",
+          "label": "noses",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "470.0",
+        "at": "06/06/2013 14:41:29",
+        "max_value": "719.0",
+        "min_value": "0.0",
+        "tags": [
+          "power"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "0.0",
+        "at": "06/06/2013 14:41:29",
+        "max_value": "400.0",
+        "min_value": "-7.0",
+        "tags": [
+          "CO2"
+        ],
+        "unit": {
+          "symbol": "relative",
+          "label": "arbitrary",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": null,
+        "at": null,
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "test"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "HONF cellsbutton04",
+      "domain": 1,
+      "lat": "-7.788894438928",
+      "lon": "110.374488830566",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/3232\" >kiilo processing OSC gateway</a>",
+    "URLMostrar": "https://xively.com/feeds/3232"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\3232.json",
+  "DocumentJSON": null
+}

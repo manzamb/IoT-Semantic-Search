@@ -1,0 +1,180 @@
+{
+  "Conceptos": [
+    "project"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "120356",
+    "title": "Estação Meteorológica Experimental",
+    "Private": false,
+    "tags": [
+      "arca",
+      "arduino",
+      "diluvio",
+      "eLua",
+      "escalada",
+      "meteorologia",
+      "Noé"
+    ],
+    "description": "Data parsing and COSM/pachube connection through eLua (running on a Mizar32 board)",
+    "feed": "https://api.xively.com/v2/feeds/120356.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "12/27/2013 00:15:17",
+    "created": "03/22/2013 01:53:22",
+    "creator": "https://xively.com/users/barmak",
+    "version": null,
+    "website": "http://www.eluaproject.net",
+    "datastreams": [
+      {
+        "id": "Battery",
+        "current_value": "4.10",
+        "at": "12/27/2013 00:15:17",
+        "max_value": "450.0",
+        "min_value": "0.0",
+        "tags": [
+          "LiPol 1S"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": "V",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Humidity",
+        "current_value": "99.90",
+        "at": "12/27/2013 00:15:17",
+        "max_value": "99.9",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "%RH",
+          "label": "%RH",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "MCU_Temperature",
+        "current_value": "27.25",
+        "at": "12/27/2013 00:15:17",
+        "max_value": "413032.0",
+        "min_value": "0.0",
+        "tags": [
+          "Inside"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "ºC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Pressure",
+        "current_value": "1012.50",
+        "at": "12/27/2013 00:15:17",
+        "max_value": "101830.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "hPa",
+          "label": "hPa",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Rain",
+        "current_value": "0.00",
+        "at": "12/27/2013 00:15:17",
+        "max_value": "7.7",
+        "min_value": "0.0",
+        "tags": [
+          "30 days"
+        ],
+        "unit": {
+          "symbol": "mm",
+          "label": "mm",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperature",
+        "current_value": "26.00",
+        "at": "12/27/2013 00:15:17",
+        "max_value": "41.3",
+        "min_value": "0.0",
+        "tags": [
+          "Outside"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "ºC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Wind_Direction",
+        "current_value": "72",
+        "at": "12/27/2013 00:15:17",
+        "max_value": "359.0",
+        "min_value": "-1.0",
+        "tags": null,
+        "unit": {
+          "symbol": "º",
+          "label": "º",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Wind_Dir_Verbose",
+        "current_value": "E",
+        "at": "12/27/2013 00:15:17",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "Ignore the graph"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Wind_Speed",
+        "current_value": "0.00",
+        "at": "12/27/2013 00:15:17",
+        "max_value": "184.25",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "km/h",
+          "label": "km/h",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Urca",
+      "domain": 0,
+      "lat": "-22.9468047696994",
+      "lon": "-43.1648889183998",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/120356\" >Estação Meteorológica Experimental</a>",
+    "URLMostrar": "https://xively.com/feeds/120356"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\120356.json",
+  "DocumentJSON": null
+}

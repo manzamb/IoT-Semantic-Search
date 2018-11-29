@@ -1,0 +1,57 @@
+{
+  "Conceptos": [
+    "area"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "35525",
+    "title": "Light Flow Analysis",
+    "Private": false,
+    "tags": [
+      "ARCH1391",
+      "arduino",
+      "light flow"
+    ],
+    "description": "I have attached a light sensor to my window in order to gather information on how much light flow may vary throughout the day. The sensor has been positioned in an area where direct sunlight will hit the most as there are no obstructions.",
+    "feed": "https://api.xively.com/v2/feeds/35525.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "09/12/2011 13:31:05",
+    "created": "09/11/2011 20:41:15",
+    "creator": "https://xively.com/users/z3292328_digitalcomp",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "861.0",
+        "at": "09/12/2011 13:31:05",
+        "max_value": "1023.0",
+        "min_value": "0.0",
+        "tags": [
+          "analogRead0",
+          "lightSensor"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "UNSW, Sydney, NSW, Australia",
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/35525\" >Light Flow Analysis</a>",
+    "URLMostrar": "https://xively.com/feeds/35525"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\35525.json",
+  "DocumentJSON": null
+}

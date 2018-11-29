@@ -1,0 +1,57 @@
+{
+  "Conceptos": [
+    "plan"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "107097",
+    "title": "Soil humidity",
+    "Private": false,
+    "tags": [
+      "humidity",
+      "irrigation",
+      "plant",
+      "soil"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/107097.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/21/2014 13:50:02",
+    "created": "02/26/2013 18:28:17",
+    "creator": "https://xively.com/users/ejeklint",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "probe1",
+        "current_value": "76",
+        "at": "03/21/2014 13:50:02",
+        "max_value": "93.0",
+        "min_value": "0.0",
+        "tags": [
+          "humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "VWC",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Valarvägen 5, Burgsvik",
+      "domain": 0,
+      "lat": "57.0315063204034",
+      "lon": "18.257303237915",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/107097\" >Soil humidity</a>",
+    "URLMostrar": "https://xively.com/feeds/107097"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\107097.json",
+  "DocumentJSON": null
+}

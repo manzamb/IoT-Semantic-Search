@@ -1,0 +1,70 @@
+{
+  "Conceptos": [
+    "sensor output"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "35206",
+    "title": "Capacitive Sensor Feed",
+    "Private": false,
+    "tags": [
+      "ARCH1391"
+    ],
+    "description": "Collects the data output from an analog pin 0 of the capacitive sensor for every millisecond. The data is collected through a copper material which acts as a sensor, this is then passed from the Arduino to Processing and then shown on the computer.",
+    "feed": "https://api.xively.com/v2/feeds/35206.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "09/12/2011 05:15:01",
+    "created": "09/06/2011 03:01:39",
+    "creator": "https://xively.com/users/cynthiaquang",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "570.0",
+        "at": "09/12/2011 05:15:01",
+        "max_value": "2834.0",
+        "min_value": "0.0",
+        "tags": [
+          "CapacitiveSensor"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "145248.0",
+        "at": "09/12/2011 05:15:01",
+        "max_value": "289839.0",
+        "min_value": "10001.0",
+        "tags": [
+          "timer"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "UNSW, Sydney, NSW, Australia",
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/35206\" >Capacitive Sensor Feed</a>",
+    "URLMostrar": "https://xively.com/feeds/35206"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\35206.json",
+  "DocumentJSON": null
+}

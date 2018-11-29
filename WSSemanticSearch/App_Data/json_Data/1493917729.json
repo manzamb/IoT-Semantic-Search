@@ -1,0 +1,81 @@
+{
+  "Conceptos": [
+    "man"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "1493917729",
+    "title": "IZ8XTV Sensor Test",
+    "Private": false,
+    "tags": [
+      "IZ8XTV",
+      "Locator JN70JV Mercogliano (AV) Italy"
+    ],
+    "description": "Test Sensor Arduino 2009 shield Ethernet W5100 DS18B20\n",
+    "feed": "https://api.xively.com/v2/feeds/1493917729.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "01/20/2014 17:25:27",
+    "created": "12/22/2013 15:24:45",
+    "creator": "https://xively.com/users/oldman",
+    "version": null,
+    "website": "http://iz8xtv.altervista.org",
+    "datastreams": [
+      {
+        "id": "light",
+        "current_value": "100.00",
+        "at": "01/20/2014 13:45:23",
+        "max_value": "100.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temp1",
+        "current_value": "10.00",
+        "at": "01/20/2014 17:25:27",
+        "max_value": "449.51",
+        "min_value": "-50.0",
+        "tags": null,
+        "unit": {
+          "symbol": "Gradi centigradi",
+          "label": "°",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temp2",
+        "current_value": "73.54",
+        "at": "01/20/2014 13:45:23",
+        "max_value": "355.27",
+        "min_value": "-50.0",
+        "tags": null,
+        "unit": {
+          "symbol": "gradi centigradi",
+          "label": "°",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Mercogliano AV - JN70JV",
+      "domain": 0,
+      "lat": "40.9071646972075",
+      "lon": "14.7609714742612",
+      "ele": "396 m slm",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/1493917729\" >IZ8XTV Sensor Test</a>",
+    "URLMostrar": "https://xively.com/feeds/1493917729"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\1493917729.json",
+  "DocumentJSON": null
+}

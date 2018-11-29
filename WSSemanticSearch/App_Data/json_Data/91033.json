@@ -1,0 +1,169 @@
+{
+  "Conceptos": [
+    "temperatura"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "91033",
+    "title": "Borgo Priolo",
+    "Private": false,
+    "tags": [
+      "air temperature",
+      "temperatura",
+      "temperatura aria",
+      "temperature"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/91033.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/13/2014 00:59:44",
+    "created": "12/09/2012 00:58:55",
+    "creator": "https://xively.com/users/cortesimone",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "bagnatura_foglie",
+        "current_value": "0",
+        "at": "03/13/2014 00:59:44",
+        "max_value": "86158.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "s/day",
+          "label": "s",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "direzione_vento",
+        "current_value": "330",
+        "at": "03/13/2014 00:59:44",
+        "max_value": "370.0",
+        "min_value": "0.0",
+        "tags": [
+          "wind_direction"
+        ],
+        "unit": {
+          "symbol": "°N",
+          "label": "°N",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "precipitazioni",
+        "current_value": "0",
+        "at": "03/13/2014 00:59:44",
+        "max_value": "26.2",
+        "min_value": "0.0",
+        "tags": [
+          "rainfall"
+        ],
+        "unit": {
+          "symbol": "mm/day",
+          "label": "mm/day",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "radiazione_solare",
+        "current_value": "2",
+        "at": "03/13/2014 00:59:44",
+        "max_value": "1119.0",
+        "min_value": "0.0",
+        "tags": [
+          "enrgy",
+          "sun"
+        ],
+        "unit": {
+          "symbol": "W/m^2",
+          "label": "W/m^2",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temperatura_aria",
+        "current_value": "7.2",
+        "at": "03/13/2014 00:59:44",
+        "max_value": "35.9",
+        "min_value": "-4.5",
+        "tags": [
+          "air_temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temperatura_suolo",
+        "current_value": "9.7",
+        "at": "03/13/2014 00:59:44",
+        "max_value": "24.7",
+        "min_value": "0.0",
+        "tags": [
+          "30cm",
+          "ground_temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "umidita_relativa",
+        "current_value": "53",
+        "at": "03/13/2014 00:59:44",
+        "max_value": "95.0",
+        "min_value": "0.0",
+        "tags": [
+          "humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "velocita_vento",
+        "current_value": "0",
+        "at": "03/13/2014 00:59:44",
+        "max_value": "7.8",
+        "min_value": "0.0",
+        "tags": [
+          "wind_speed"
+        ],
+        "unit": {
+          "symbol": "m/s",
+          "label": "m/s",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Borgo Priolo - Località Canova",
+      "domain": 0,
+      "lat": "44.957433339167",
+      "lon": "9.15980815887451",
+      "ele": "144",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/91033\" >Borgo Priolo</a>",
+    "URLMostrar": "https://xively.com/feeds/91033"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\91033.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,166 @@
+{
+  "Conceptos": [
+    "process"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "127098",
+    "title": "Arduino controlled woodburner",
+    "Private": false,
+    "tags": [
+      "arduino"
+    ],
+    "description": "Arduino readings from wood burner.\r\nArduino sends to processing via usb.\r\nProcessing to www.cosm.com.\r\nNew data once a minute.",
+    "feed": "https://api.xively.com/v2/feeds/127098.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:02:26",
+    "created": "04/23/2013 05:53:46",
+    "creator": "https://xively.com/users/batman",
+    "version": null,
+    "website": "https://cosm.com/feeds/127098",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "148.0",
+        "at": "03/21/2014 14:02:26",
+        "max_value": "468.0",
+        "min_value": "0.0",
+        "tags": [
+          "Burner Temp"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "95.0",
+        "at": "03/21/2014 14:02:26",
+        "max_value": "3539.0",
+        "min_value": "-3906.0",
+        "tags": [
+          "Hot Water Temp"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "87.0",
+        "at": "03/21/2014 14:02:26",
+        "max_value": "128.0",
+        "min_value": "0.0",
+        "tags": [
+          "Tank Temp"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "72.0",
+        "at": "03/21/2014 14:02:26",
+        "max_value": "80.0",
+        "min_value": "20.0",
+        "tags": [
+          "Room Temp"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "56.560814",
+        "at": "03/21/2014 14:02:26",
+        "max_value": "2089989.0",
+        "min_value": "-2095716.0",
+        "tags": [
+          "Blue Flow Gallons Per Hour"
+        ],
+        "unit": {
+          "symbol": "#",
+          "label": "pulses",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "39.304974",
+        "at": "03/21/2014 14:02:26",
+        "max_value": "1977029.0",
+        "min_value": "-1440843.0",
+        "tags": [
+          "Red Flow Gallons Per Hour"
+        ],
+        "unit": {
+          "symbol": "#",
+          "label": "pulses",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "1.0",
+        "at": "03/21/2014 14:02:26",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "Blower"
+        ],
+        "unit": {
+          "symbol": "-",
+          "label": "on/off",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "7",
+        "current_value": "3776.0",
+        "at": "03/21/2014 14:02:26",
+        "max_value": "340702336.0",
+        "min_value": "-85551936.0",
+        "tags": [
+          "Btu"
+        ],
+        "unit": {
+          "symbol": "-",
+          "label": "btu",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Home",
+      "domain": 0,
+      "lat": "39.4876066305495",
+      "lon": "-87.1237707138062",
+      "ele": "199 meters",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/127098\" >Arduino controlled woodburner</a>",
+    "URLMostrar": "https://xively.com/feeds/127098"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\127098.json",
+  "DocumentJSON": null
+}

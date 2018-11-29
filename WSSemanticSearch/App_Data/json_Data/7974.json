@@ -1,0 +1,52 @@
+{
+  "Conceptos": [
+    "collection"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "7974",
+    "title": "CEIT Room 417",
+    "Private": false,
+    "tags": null,
+    "description": "Test of room monitoring in GPS at The University of Queensland.  Using an Arduino to do the data collection.  Also testing a feed of this data to an MQTT server in the building.",
+    "feed": "https://api.xively.com/v2/feeds/7974.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "06/10/2010 03:32:22",
+    "created": "06/10/2010 03:30:41",
+    "creator": "https://xively.com/users/ceitmark",
+    "version": null,
+    "website": "http://ceit.uq.edu.au",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": null,
+        "at": null,
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "LightLevel"
+        ],
+        "unit": {
+          "symbol": "Light",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Building 78, GP South, St Lucia",
+      "domain": 0,
+      "lat": "-27.5004300505807",
+      "lon": "153.015003204346",
+      "ele": "20",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/7974\" >CEIT Room 417</a>",
+    "URLMostrar": "https://xively.com/feeds/7974"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\7974.json",
+  "DocumentJSON": null
+}

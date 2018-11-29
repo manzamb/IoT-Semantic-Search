@@ -1,0 +1,76 @@
+{
+  "Conceptos": [
+    "humidity"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "66417",
+    "title": "Hedgehog Cage",
+    "Private": false,
+    "tags": [
+      "animal",
+      "arduino",
+      "environmental",
+      "hedgehog",
+      "humidity",
+      "temperature"
+    ],
+    "description": "Environment monitoring for our hedgehogs.",
+    "feed": "https://api.xively.com/v2/feeds/66417.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:06:40",
+    "created": "07/06/2012 20:52:44",
+    "creator": "https://xively.com/users/venpixel",
+    "version": null,
+    "website": "http://hedgie.ca/",
+    "datastreams": [
+      {
+        "id": "humidity1",
+        "current_value": "20.9",
+        "at": "03/21/2014 14:06:40",
+        "max_value": "67.6",
+        "min_value": "12.0",
+        "tags": [
+          "humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "RH",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temp1",
+        "current_value": "25.2",
+        "at": "03/21/2014 14:06:40",
+        "max_value": "31005.0",
+        "min_value": "16.8",
+        "tags": [
+          "centigrade",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Centigrade",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "43.6689270630038",
+      "lon": "-79.4054460525513",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/66417\" >Hedgehog Cage</a>",
+    "URLMostrar": "https://xively.com/feeds/66417"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\66417.json",
+  "DocumentJSON": null
+}

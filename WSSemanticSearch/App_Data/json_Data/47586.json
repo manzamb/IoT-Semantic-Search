@@ -1,0 +1,70 @@
+{
+  "Conceptos": [
+    "temperature"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "47586",
+    "title": "Current Cost Bridge",
+    "Private": false,
+    "tags": [
+      "solar pv"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/47586.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:05:57",
+    "created": "02/09/2012 14:22:52",
+    "creator": "https://xively.com/users/bobmclarty",
+    "version": null,
+    "website": "http://www.currentcost.com",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "17.60",
+        "at": "03/21/2014 14:05:57",
+        "max_value": "27.6",
+        "min_value": "0.0",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "903",
+        "at": "03/21/2014 14:05:57",
+        "max_value": "7152.0",
+        "min_value": "0.0",
+        "tags": [
+          "watts"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "dalmellington",
+      "domain": 0,
+      "lat": "54.8766066541087",
+      "lon": "-4.5703125",
+      "ele": "200",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/47586\" >Current Cost Bridge</a>",
+    "URLMostrar": "https://xively.com/feeds/47586"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\47586.json",
+  "DocumentJSON": null
+}

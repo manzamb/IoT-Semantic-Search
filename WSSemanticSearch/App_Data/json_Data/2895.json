@@ -1,0 +1,52 @@
+{
+  "Conceptos": [
+    "sensing"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "2895",
+    "title": "City Road Footbridge pedestrian monitor",
+    "Private": false,
+    "tags": null,
+    "description": "Ultrasonic rangefinder counts people crossing the footbridge. \r\n\r\nLow value indicates broken beam.",
+    "feed": "https://api.xively.com/v2/feeds/2895.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "06/08/2010 14:19:45",
+    "created": "10/11/2009 07:58:55",
+    "creator": "https://xively.com/users/gabriele",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "2.0",
+        "at": null,
+        "max_value": "512.0",
+        "min_value": "1.0",
+        "tags": [
+          "urban sensing"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "City Rd Footbridge",
+      "domain": 0,
+      "lat": "-33.8893931541149",
+      "lon": "151.190231323417",
+      "ele": "10m ",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/2895\" >City Road Footbridge pedestrian monitor</a>",
+    "URLMostrar": "https://xively.com/feeds/2895"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\2895.json",
+  "DocumentJSON": null
+}

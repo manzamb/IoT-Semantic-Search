@@ -1,0 +1,122 @@
+{
+  "Conceptos": [
+    "progetto"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "126206",
+    "title": "Misura T,P,U,H2S,CO2 -Salinelle-",
+    "Private": false,
+    "tags": [
+      "Hot Earth"
+    ],
+    "description": "Misura dati ambientali pozzo per progetto Hot Earth",
+    "feed": "https://api.xively.com/v2/feeds/126206.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "05/17/2013 11:08:04",
+    "created": "04/18/2013 12:37:10",
+    "creator": "https://xively.com/users/luigi68",
+    "version": null,
+    "website": "http://www.medianetonline.net",
+    "datastreams": [
+      {
+        "id": "CO2_pozzo",
+        "current_value": "625.00",
+        "at": "05/17/2013 11:08:04",
+        "max_value": "5625.0",
+        "min_value": "-1772.0",
+        "tags": null,
+        "unit": {
+          "symbol": "ppm",
+          "label": "ppm",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "H2S_pozzo",
+        "current_value": "0.37",
+        "at": "05/17/2013 11:08:04",
+        "max_value": "6.78",
+        "min_value": "-12.5",
+        "tags": null,
+        "unit": {
+          "symbol": "ppm",
+          "label": "ppm",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Pressione_pozzo",
+        "current_value": "984.00",
+        "at": "05/17/2013 11:08:04",
+        "max_value": "1000.0",
+        "min_value": "961.0",
+        "tags": null,
+        "unit": {
+          "symbol": "hPa",
+          "label": "hPa",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Pump_ON",
+        "current_value": "0.00",
+        "at": "05/17/2013 11:08:04",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "ON=1",
+          "label": "ON/OFF",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperatura_pozzo",
+        "current_value": "34.00",
+        "at": "05/17/2013 11:08:04",
+        "max_value": "35.9",
+        "min_value": "11.4",
+        "tags": null,
+        "unit": {
+          "symbol": "°C",
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Umidita_pozzo",
+        "current_value": "28.81",
+        "at": "05/17/2013 11:08:04",
+        "max_value": "70.35",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Paterno, salinelle",
+      "domain": 0,
+      "lat": "37.5823056411422",
+      "lon": "14.901237487793",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/126206\" >Misura T,P,U,H2S,CO2 -Salinelle-</a>",
+    "URLMostrar": "https://xively.com/feeds/126206"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\126206.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,109 @@
+{
+  "Conceptos": [
+    "system"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "60357",
+    "title": "ubuntubox.local network",
+    "Private": false,
+    "tags": [
+      "cpu",
+      "linux",
+      "sensors",
+      "system",
+      "temp"
+    ],
+    "description": "Ubuntu Server monitoring",
+    "feed": "https://api.xively.com/v2/feeds/60357.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:10:05",
+    "created": "05/19/2012 18:24:22",
+    "creator": "https://xively.com/users/am3rig0",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "MemoryFree",
+        "current_value": "0.08",
+        "at": "03/20/2014 19:05:05",
+        "max_value": "3.15",
+        "min_value": "0.04",
+        "tags": [
+          "free memory",
+          "server monitoring"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "GB",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "MemoryUsed",
+        "current_value": "0.89",
+        "at": "03/20/2014 19:05:04",
+        "max_value": "3.76",
+        "min_value": "0.26",
+        "tags": [
+          "server monitoring",
+          "used memory"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "GB",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "RaspberryPi",
+        "current_value": "41.2",
+        "at": "03/21/2014 14:10:05",
+        "max_value": "49.8",
+        "min_value": "29.3",
+        "tags": [
+          "raspberry pi",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Uptime",
+        "current_value": "1",
+        "at": "03/20/2014 19:05:04",
+        "max_value": "59.0",
+        "min_value": "0.0",
+        "tags": [
+          "uptime"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "days",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Leeds",
+      "domain": 0,
+      "lat": "53.8006679",
+      "lon": "-1.54743150000002",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/60357\" >ubuntubox.local network</a>",
+    "URLMostrar": "https://xively.com/feeds/60357"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\60357.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,200 @@
+{
+  "Conceptos": [
+    "atmospheric pressure"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "65819",
+    "title": "PondDuinoSol",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "pond",
+      "water temperature"
+    ],
+    "description": "An Arduino monitoring the small pond in my backyard",
+    "feed": "https://api.xively.com/v2/feeds/65819.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "06/04/2013 15:21:26",
+    "created": "07/02/2012 20:07:26",
+    "creator": "https://xively.com/users/oceanwanderlust",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "185.0",
+        "at": "06/03/2013 00:15:47",
+        "max_value": "262.3",
+        "min_value": "32.0",
+        "tags": [
+          "Pond Temperature 1"
+        ],
+        "unit": {
+          "symbol": "Pond Temperature 1",
+          "label": "Fahrenheit ",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "0.0",
+        "at": "06/04/2013 15:21:26",
+        "max_value": "185.0",
+        "min_value": "0.0",
+        "tags": [
+          "Pond Temperature 2"
+        ],
+        "unit": {
+          "symbol": "Pond Temperature 2",
+          "label": "Fahrenheit ",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "64.0",
+        "at": "06/04/2013 15:21:26",
+        "max_value": "262.3",
+        "min_value": "-196.6",
+        "tags": [
+          "Onboard Temperature 1"
+        ],
+        "unit": {
+          "symbol": "Onboard Temperature 1",
+          "label": "Fahrenheit ",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "0",
+        "at": "06/04/2013 15:21:26",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "Pond Percent Full"
+        ],
+        "unit": {
+          "symbol": "Pond Percent Full",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "0",
+        "at": "06/04/2013 15:21:26",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "Pond Level Analog Reading"
+        ],
+        "unit": {
+          "symbol": "Pond Level Analog Reading",
+          "label": "Ohm",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "29.0",
+        "at": "06/04/2013 15:21:26",
+        "max_value": "102617.0",
+        "min_value": "29.0",
+        "tags": [
+          "Atmospheric Pressure"
+        ],
+        "unit": {
+          "symbol": "Atmospheric Pressure",
+          "label": "Pa",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "0",
+        "at": "06/04/2013 15:21:26",
+        "max_value": "32.9",
+        "min_value": "0.0",
+        "tags": [
+          "BMP Onboard Temperature 2"
+        ],
+        "unit": {
+          "symbol": "BMP Onboard Temperature 2",
+          "label": "F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "7",
+        "current_value": "0",
+        "at": "06/04/2013 15:21:26",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "BMP Altitude"
+        ],
+        "unit": {
+          "symbol": "BMP Altitude",
+          "label": "M",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "8",
+        "current_value": "60.0 0.0",
+        "at": "06/04/2013 15:21:26",
+        "max_value": "85.0",
+        "min_value": "4.0",
+        "tags": [
+          "Backyard Humidity"
+        ],
+        "unit": {
+          "symbol": "Backyard Humidity",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "9",
+        "current_value": "0",
+        "at": "06/04/2013 15:21:26",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "DHT Onboard Temperature 3"
+        ],
+        "unit": {
+          "symbol": "DHT Onboard Temperature 3",
+          "label": "F",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Vintage Lane",
+      "domain": 0,
+      "lat": "33.6706666726555",
+      "lon": "-117.978186607361",
+      "ele": "4",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/65819\" >PondDuinoSol</a>",
+    "URLMostrar": "https://xively.com/feeds/65819"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\65819.json",
+  "DocumentJSON": null
+}

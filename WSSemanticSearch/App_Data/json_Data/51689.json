@@ -1,0 +1,188 @@
+{
+  "Conceptos": [
+    "thermistor"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "51689",
+    "title": "Active Building Sensor Module 04",
+    "Private": false,
+    "tags": [
+      "Humidity",
+      "IFC",
+      "Light",
+      "Location",
+      "Sound",
+      "Temperature",
+      "XBee"
+    ],
+    "description": "Mobile Indoor Sensor Modules that monitor Environment and People Behaviour.",
+    "feed": "https://api.xively.com/v2/feeds/51689.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "07/15/2013 09:22:23",
+    "created": "03/12/2012 01:23:12",
+    "creator": "https://xively.com/users/yasu",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Joystick-Byte",
+        "current_value": "0",
+        "at": "07/15/2013 09:22:23",
+        "max_value": "31.0",
+        "min_value": "0.0",
+        "tags": [
+          "5-Way",
+          "Joystick",
+          "SparkFun"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Light-Sensor",
+        "current_value": "858",
+        "at": "07/15/2013 09:22:23",
+        "max_value": "1023.0",
+        "min_value": "0.0",
+        "tags": [
+          "Analog",
+          "LDR",
+          "~"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Pot-Setting",
+        "current_value": "451",
+        "at": "07/15/2013 09:22:23",
+        "max_value": "1023.0",
+        "min_value": "0.0",
+        "tags": [
+          "Potentiometer",
+          "Rotary",
+          "~"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Relative-Humidity",
+        "current_value": "54.8",
+        "at": "07/15/2013 09:22:23",
+        "max_value": "100.0",
+        "min_value": "0.0",
+        "tags": [
+          "Capacitive",
+          "RHT03",
+          "SparkFun"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Signal-Strength",
+        "current_value": "0",
+        "at": "07/15/2013 09:22:23",
+        "max_value": "1023.0",
+        "min_value": "0.0",
+        "tags": [
+          "RSSI",
+          "XBee",
+          "~"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Sound-Sensor",
+        "current_value": "35",
+        "at": "07/15/2013 09:22:23",
+        "max_value": "1023.0",
+        "min_value": "0.0",
+        "tags": [
+          "Analog",
+          "Microphone",
+          "SparkFun"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperature",
+        "current_value": "24.4",
+        "at": "07/15/2013 09:22:23",
+        "max_value": "40.0",
+        "min_value": "0.0",
+        "tags": [
+          "RHT03",
+          "SparkFun",
+          "Thermistor"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Voltage",
+        "current_value": "3.94",
+        "at": "07/15/2013 09:22:23",
+        "max_value": "6.6",
+        "min_value": "0.0",
+        "tags": [
+          "1000mAh",
+          "LiPo",
+          "SparkFun"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "SEC, Gardens Point",
+      "domain": 0,
+      "lat": "-27.4782",
+      "lon": "153.0295",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 1
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/51689\" >Active Building Sensor Module 04</a>",
+    "URLMostrar": "https://xively.com/feeds/51689"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\51689.json",
+  "DocumentJSON": null
+}

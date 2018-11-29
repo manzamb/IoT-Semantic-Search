@@ -1,0 +1,132 @@
+{
+  "Conceptos": [
+    "humidity"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "779284175",
+    "title": "Harrold AirPi",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/779284175.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:07:06",
+    "created": "08/21/2013 17:23:12",
+    "creator": "https://xively.com/users/logie359",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "20.2",
+        "at": "03/21/2014 14:07:06",
+        "max_value": "138.9",
+        "min_value": "12.8",
+        "tags": [
+          "Temperature (BMP085)"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "41.1",
+        "at": "03/21/2014 14:07:06",
+        "max_value": "6553.5",
+        "min_value": "0.8",
+        "tags": [
+          "Humidity (DHT22)"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "percentage",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "16032.13",
+        "at": "03/21/2014 14:07:06",
+        "max_value": "27749.76",
+        "min_value": "-2420.54",
+        "tags": [
+          "Air Quality (TGS2600)"
+        ],
+        "unit": {
+          "symbol": "Ω",
+          "label": "Ohms",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "11.05",
+        "at": "03/21/2014 14:07:06",
+        "max_value": "5723.2",
+        "min_value": "0.0",
+        "tags": [
+          "Photo Dependent Resistor"
+        ],
+        "unit": {
+          "symbol": "lx",
+          "label": "Lux",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "100327.6",
+        "at": "03/21/2014 14:07:06",
+        "max_value": "54782470.8",
+        "min_value": "53987.6",
+        "tags": [
+          "Pressure BMP085"
+        ],
+        "unit": {
+          "symbol": "Pa",
+          "label": "pascal",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "9",
+        "current_value": "0.04",
+        "at": "03/21/2014 14:07:06",
+        "max_value": "3.68",
+        "min_value": "0.0",
+        "tags": [
+          "Ultraviolet rays detector"
+        ],
+        "unit": {
+          "symbol": "UVindex",
+          "label": "UV level",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "52.20325636",
+      "lon": "-0.606418960000042",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/779284175\" >Harrold AirPi</a>",
+    "URLMostrar": "https://xively.com/feeds/779284175"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\779284175.json",
+  "DocumentJSON": null
+}

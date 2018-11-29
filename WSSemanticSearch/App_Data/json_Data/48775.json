@@ -1,0 +1,108 @@
+{
+  "Conceptos": [
+    "amount"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "48775",
+    "title": "Light and temperature of the room",
+    "Private": false,
+    "tags": [
+      "ldr",
+      "light",
+      "lm35",
+      "recife",
+      "room",
+      "temperatura",
+      "temperature"
+    ],
+    "description": "Measuring light and temperature of the room. Using a LM35 temperature sensor, a LDR and an arduino with the a ethernet shield.",
+    "feed": "https://api.xively.com/v2/feeds/48775.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "10/02/2012 11:34:32",
+    "created": "02/16/2012 18:03:22",
+    "creator": "https://xively.com/users/filipecalegario",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "failure",
+        "current_value": "28.00000",
+        "at": "11/13/2012 14:26:10",
+        "max_value": "31.0",
+        "min_value": "-31.0",
+        "tags": [
+          "temperatura"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "humidity",
+        "current_value": "15.0",
+        "at": "11/13/2012 14:27:41",
+        "max_value": "160.0",
+        "min_value": "0.0",
+        "tags": [
+          "humidade do DH11"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "sucess",
+        "current_value": "114.",
+        "at": "11/13/2012 14:30:42",
+        "max_value": "1023.0",
+        "min_value": "0.0",
+        "tags": [
+          "luz"
+        ],
+        "unit": {
+          "symbol": "x",
+          "label": "amount",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temp",
+        "current_value": "30.0",
+        "at": "11/13/2012 14:32:12",
+        "max_value": "136.0",
+        "min_value": "0.0",
+        "tags": [
+          "temperatura do DH11"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "quant",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Recife, Brazil",
+      "domain": 0,
+      "lat": "-8.04675818042055",
+      "lon": "-34.8815274238586",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/48775\" >Light and temperature of the room</a>",
+    "URLMostrar": "https://xively.com/feeds/48775"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\48775.json",
+  "DocumentJSON": null
+}

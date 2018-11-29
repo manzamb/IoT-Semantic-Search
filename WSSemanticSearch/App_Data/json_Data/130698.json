@@ -1,0 +1,54 @@
+{
+  "Conceptos": [
+    "radioactivity"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "130698",
+    "title": "Geiger Counter",
+    "Private": false,
+    "tags": [
+      "arduino xbee geiger cpm radioactivity"
+    ],
+    "description": "Geiger Counter (beta and gamma radiation) with a ATMEGA328 w/arduino bootloader, a 16x2 LCD display and a XBee radio",
+    "feed": "https://api.xively.com/v2/feeds/130698.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:07:41",
+    "created": "05/08/2013 00:10:57",
+    "creator": "https://xively.com/users/xose",
+    "version": null,
+    "website": "http://tinkerman.eldiariblau.net/geiger-counter/",
+    "datastreams": [
+      {
+        "id": "cpm",
+        "current_value": "17",
+        "at": "03/21/2014 14:07:41",
+        "max_value": "1711.0",
+        "min_value": "0.0",
+        "tags": [
+          "radioactivity"
+        ],
+        "unit": {
+          "symbol": "CPM",
+          "label": "cpm",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Barcelona",
+      "domain": 0,
+      "lat": "41.3777987930218",
+      "lon": "2.12548971176147",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/130698\" >Geiger Counter</a>",
+    "URLMostrar": "https://xively.com/feeds/130698"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\130698.json",
+  "DocumentJSON": null
+}

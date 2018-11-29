@@ -1,0 +1,89 @@
+{
+  "Conceptos": [
+    "amount"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "78004",
+    "title": "Salt tank",
+    "Private": false,
+    "tags": [
+      "Arduino",
+      "Parallax",
+      "Temperature",
+      "Tmp36"
+    ],
+    "description": "Level indicator for the amount of salt remaining in the water softener salt tank.",
+    "feed": "https://api.xively.com/v2/feeds/78004.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:01:00",
+    "created": "09/30/2012 05:13:54",
+    "creator": "https://xively.com/users/cammc",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Distance",
+        "current_value": "15.81",
+        "at": "03/21/2014 14:01:00",
+        "max_value": "46.45",
+        "min_value": "10.27",
+        "tags": [
+          "Parallax Ultrasonic Ping"
+        ],
+        "unit": {
+          "symbol": "cm",
+          "label": "Centimeters",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "level",
+        "current_value": "80.00",
+        "at": "03/21/2014 14:01:00",
+        "max_value": "100.0",
+        "min_value": "0.0",
+        "tags": [
+          "Parallax Ultrasonic Ping"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "percentage",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temp",
+        "current_value": "17.68",
+        "at": "03/21/2014 14:01:00",
+        "max_value": "22.19",
+        "min_value": "13.49",
+        "tags": [
+          "tmp36"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "50.9104511333878",
+      "lon": "-113.957960307598",
+      "ele": "1033",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/78004\" >Salt tank</a>",
+    "URLMostrar": "https://xively.com/feeds/78004"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\78004.json",
+  "DocumentJSON": null
+}

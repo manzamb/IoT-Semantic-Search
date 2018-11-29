@@ -1,0 +1,103 @@
+{
+  "Conceptos": [
+    "co2"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "119365",
+    "title": "Brewmonitor",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "CO2generation"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/119365.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/21/2014 13:51:34",
+    "created": "03/16/2013 19:00:44",
+    "creator": "https://xively.com/users/frankreil",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "AbsolutCount",
+        "current_value": "5248",
+        "at": "03/21/2014 13:51:33",
+        "max_value": "8449.0",
+        "min_value": "0.0",
+        "tags": [
+          "total number of switch cycles"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "N",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "SecCount",
+        "current_value": "361",
+        "at": "03/21/2014 13:51:33",
+        "max_value": "32467.0",
+        "min_value": "-19024.0",
+        "tags": [
+          "Time between switch cyckes"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "sec",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "SwitchCount",
+        "current_value": "5",
+        "at": "03/21/2014 13:51:33",
+        "max_value": "2919.0",
+        "min_value": "0.0",
+        "tags": [
+          "number of switch cycles"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "n",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temp",
+        "current_value": "8.35",
+        "at": "03/21/2014 13:51:33",
+        "max_value": "22.7",
+        "min_value": "5.05",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/119365\" >Brewmonitor</a>",
+    "URLMostrar": "https://xively.com/feeds/119365"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\119365.json",
+  "DocumentJSON": null
+}

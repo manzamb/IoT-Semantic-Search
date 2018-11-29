@@ -1,0 +1,104 @@
+{
+  "Conceptos": [
+    "area"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "40684",
+    "title": "Pine st. data (historical)",
+    "Private": false,
+    "tags": [
+      "currentcost",
+      "power",
+      "temperature"
+    ],
+    "description": "Temperature of the living area, and power usage of the entire household.",
+    "feed": "https://api.xively.com/v2/feeds/40684.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "02/13/2014 08:09:04",
+    "created": "11/29/2011 00:05:47",
+    "creator": "https://xively.com/users/pjay",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "phase1",
+        "current_value": "219",
+        "at": "04/30/2013 10:19:58",
+        "max_value": "219.0",
+        "min_value": "219.0",
+        "tags": [
+          "power"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "phase2",
+        "current_value": "245",
+        "at": "04/30/2013 10:19:58",
+        "max_value": "245.0",
+        "min_value": "245.0",
+        "tags": [
+          "power"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "phase3",
+        "current_value": "173",
+        "at": "04/30/2013 10:19:58",
+        "max_value": "173.0",
+        "min_value": "173.0",
+        "tags": [
+          "power"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temperature",
+        "current_value": "16.7",
+        "at": "04/30/2013 10:19:58",
+        "max_value": "16.7",
+        "min_value": "16.7",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Hawthorn, Victoria, Australia",
+      "domain": 0,
+      "lat": "-37.8220227454259",
+      "lon": "145.023050308228",
+      "ele": "28",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/40684\" >Pine st. data (historical)</a>",
+    "URLMostrar": "https://xively.com/feeds/40684"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\40684.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,106 @@
+{
+  "Conceptos": [
+    "process"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "1959900029",
+    "title": "Sentinel",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/1959900029.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:10:02",
+    "created": "11/13/2013 14:09:45",
+    "creator": "https://xively.com/users/neomod",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Carico_CPU",
+        "current_value": "0.24",
+        "at": "03/21/2014 14:10:02",
+        "max_value": "5.6",
+        "min_value": "0.01",
+        "tags": [
+          "activity",
+          "average",
+          "cpu",
+          "load"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "Processi",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "RAM",
+        "current_value": "336",
+        "at": "03/21/2014 14:10:02",
+        "max_value": "410.0",
+        "min_value": "238.0",
+        "tags": [
+          "allocated",
+          "free memory",
+          "RAM"
+        ],
+        "unit": {
+          "symbol": "Mb",
+          "label": "Megabytes",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temp",
+        "current_value": "38.5",
+        "at": "03/21/2014 14:10:02",
+        "max_value": "60.5",
+        "min_value": "32.6",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Centigrade",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "uptime",
+        "current_value": "30 days",
+        "at": "03/21/2014 14:10:02",
+        "max_value": "59.0",
+        "min_value": "0.0",
+        "tags": [
+          "system activity",
+          "uptime"
+        ],
+        "unit": {
+          "symbol": "Giorni / Ore / Minuti",
+          "label": "gg:hh:mm",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Rome",
+      "domain": 0,
+      "lat": "41.8929163",
+      "lon": "12.4825198999999",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/1959900029\" >Sentinel</a>",
+    "URLMostrar": "https://xively.com/feeds/1959900029"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\1959900029.json",
+  "DocumentJSON": null
+}

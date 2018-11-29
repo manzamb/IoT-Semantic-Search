@@ -1,0 +1,84 @@
+{
+  "Conceptos": [
+    "right"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "1963762100",
+    "title": "Gerald",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/1963762100.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:10:13",
+    "created": "12/22/2013 19:05:12",
+    "creator": "https://xively.com/users/markdoutre",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "GLight",
+        "current_value": "229",
+        "at": "03/21/2014 14:10:13",
+        "max_value": "255.0",
+        "min_value": "0.0",
+        "tags": [
+          "light Lvl 0=dark 255=bright"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "GMoist",
+        "current_value": "0",
+        "at": "03/21/2014 14:10:13",
+        "max_value": "802.0",
+        "min_value": "0.0",
+        "tags": [
+          "Soil Mosture 0 = dry"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "GTemp",
+        "current_value": "20.80",
+        "at": "03/21/2014 14:10:13",
+        "max_value": "449.51",
+        "min_value": "0.0",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "50.81787",
+      "lon": "-0.372882000000004",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/1963762100\" >Gerald</a>",
+    "URLMostrar": "https://xively.com/feeds/1963762100"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\1963762100.json",
+  "DocumentJSON": null
+}

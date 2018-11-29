@@ -1,0 +1,82 @@
+{
+  "Conceptos": [
+    "resolution"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "618057386",
+    "title": "Earth Geomagnetic Activity Sensor",
+    "Private": false,
+    "tags": [
+      "geomagnetic"
+    ],
+    "description": "A high sensitivity magnetometer configured to measure the Earths geomagnetic field. Sensor set to detect east-west field with a resolution of <2nT. The sensitivity is enough to give an indication of Solar flare activity. These can range from minor storms -/+20nT to a major -/+200nT. The sensor is located within a London suburb, roughly 60 feet from electromagnetic devices. Some local interference is inevitable, mostly from electric lawnmowers. The setup is a solar EV powered Arduino with wireless RS232 link to a Raspberry PI, this then feeds live data over the Internet to Xively.",
+    "feed": "https://api.xively.com/v2/feeds/618057386.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "01/29/2014 20:36:12",
+    "created": "06/15/2013 17:10:00",
+    "creator": "https://xively.com/users/robjohnb",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Battery",
+        "current_value": "10.14",
+        "at": "01/29/2014 20:36:12",
+        "max_value": "12.8533018558594",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "V",
+          "label": "Volts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Sensor1",
+        "current_value": "25487",
+        "at": "01/29/2014 20:36:12",
+        "max_value": "58067.0",
+        "min_value": "250.0",
+        "tags": [
+          "Reading"
+        ],
+        "unit": {
+          "symbol": "nT",
+          "label": "Nano Tesla",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Sensor1Delta",
+        "current_value": "7130",
+        "at": "01/29/2014 20:36:12",
+        "max_value": "19168.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "ΔnT",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/618057386\" >Earth Geomagnetic Activity Sensor</a>",
+    "URLMostrar": "https://xively.com/feeds/618057386"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\618057386.json",
+  "DocumentJSON": null
+}

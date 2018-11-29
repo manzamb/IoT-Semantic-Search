@@ -1,0 +1,73 @@
+{
+  "Conceptos": [
+    "color"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "67933",
+    "title": "Castle Rock Arduino 1",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "Arduino",
+      "Castle Rock",
+      "Colorado"
+    ],
+    "description": "Just a small test of Arduino and a DHT22 sensor.",
+    "feed": "https://api.xively.com/v2/feeds/67933.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "12/31/2012 20:10:51",
+    "created": "07/17/2012 03:03:09",
+    "creator": "https://xively.com/users/gderoeck",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "humidity",
+        "current_value": "25.",
+        "at": "12/31/2012 20:10:51",
+        "max_value": "36.3",
+        "min_value": "21.9",
+        "tags": [
+          "humidity"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temp",
+        "current_value": "65.48",
+        "at": "12/31/2012 20:10:51",
+        "max_value": "90.86",
+        "min_value": "23.0",
+        "tags": [
+          "temp"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Castle Rock, CO",
+      "domain": 0,
+      "lat": "39.3709332749614",
+      "lon": "-104.865188598633",
+      "ele": "~6200 ft",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/67933\" >Castle Rock Arduino 1</a>",
+    "URLMostrar": "https://xively.com/feeds/67933"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\67933.json",
+  "DocumentJSON": null
+}

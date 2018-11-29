@@ -1,0 +1,265 @@
+{
+  "Conceptos": [
+    "frequency"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "115685",
+    "title": "Eaton 5PX3000",
+    "Private": false,
+    "tags": [
+      "curl",
+      "Power",
+      "snmp",
+      "UPS"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/115685.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/07/2014 15:45:16",
+    "created": "02/28/2013 23:39:21",
+    "creator": "https://xively.com/users/ghristow",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "13-OutputLoad",
+        "current_value": "8",
+        "at": "03/07/2014 15:45:15",
+        "max_value": "107.533",
+        "min_value": "0.0",
+        "tags": [
+          "Output Load"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "Percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "12-OutputWatts",
+        "current_value": "162",
+        "at": "03/07/2014 15:45:15",
+        "max_value": "243.0",
+        "min_value": "0.0",
+        "tags": [
+          "Output Watts"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "07-OutputSource",
+        "current_value": "3",
+        "at": "03/07/2014 15:45:15",
+        "max_value": "49.9",
+        "min_value": "3.0",
+        "tags": [
+          "Output Source"
+        ],
+        "unit": {
+          "symbol": "code",
+          "label": "code",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "09-InputVoltage",
+        "current_value": "225",
+        "at": "03/07/2014 15:45:15",
+        "max_value": "237.0",
+        "min_value": "0.0",
+        "tags": [
+          "Input Voltage"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": "Volts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "10-OutputVoltage",
+        "current_value": "225",
+        "at": "03/07/2014 15:45:15",
+        "max_value": "238.0",
+        "min_value": "212.0",
+        "tags": [
+          "Output Voltage"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": "Volts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "11-OutputCurrent",
+        "current_value": "1.1",
+        "at": "03/07/2014 15:45:15",
+        "max_value": "226.0",
+        "min_value": "0.5",
+        "tags": [
+          "Output Current"
+        ],
+        "unit": {
+          "symbol": "A",
+          "label": "Amps",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "14-InputLineBads",
+        "current_value": "33",
+        "at": "03/07/2014 15:45:15",
+        "max_value": "135.0",
+        "min_value": "0.9",
+        "tags": [
+          "Input Line Bads"
+        ],
+        "unit": {
+          "symbol": "Count",
+          "label": "Count",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "03-BatteryVoltage",
+        "current_value": "77",
+        "at": "03/07/2014 15:45:15",
+        "max_value": "135.0",
+        "min_value": "7.0",
+        "tags": [
+          "Battery Voltage"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": "Volts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "04-BatteryCurrent",
+        "current_value": "0",
+        "at": "03/07/2014 15:45:15",
+        "max_value": "16.0",
+        "min_value": "0.0",
+        "tags": [
+          "Battery Current"
+        ],
+        "unit": {
+          "symbol": "A",
+          "label": "Amps",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "08-InputFrequency",
+        "current_value": "49.9",
+        "at": "03/07/2014 15:45:15",
+        "max_value": "78.0",
+        "min_value": "0.0",
+        "tags": [
+          "Input Frequency"
+        ],
+        "unit": {
+          "symbol": "Hz",
+          "label": "Hz",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "05-BatteryCapacity",
+        "current_value": "100",
+        "at": "03/07/2014 15:45:15",
+        "max_value": "100.0",
+        "min_value": "0.0",
+        "tags": [
+          "Battery Capacity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "Percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "02-MinutesOnBattery",
+        "current_value": "0",
+        "at": "03/07/2014 15:45:15",
+        "max_value": "100.0",
+        "min_value": "0.0",
+        "tags": [
+          "Minutes On Battery"
+        ],
+        "unit": {
+          "symbol": "min",
+          "label": "min",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "06-BatteryAbmStatus",
+        "current_value": "4",
+        "at": "03/07/2014 15:45:15",
+        "max_value": "100.0",
+        "min_value": "1.0",
+        "tags": [
+          "Battery ABM Status"
+        ],
+        "unit": {
+          "symbol": "code",
+          "label": "code",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "01-BatteryTimeRemaining",
+        "current_value": "85.9833",
+        "at": "03/07/2014 15:45:15",
+        "max_value": "215.383",
+        "min_value": "4.0",
+        "tags": [
+          "Battery Time Remaining"
+        ],
+        "unit": {
+          "symbol": "min",
+          "label": "min",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/115685\" >Eaton 5PX3000</a>",
+    "URLMostrar": "https://xively.com/feeds/115685"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\115685.json",
+  "DocumentJSON": null
+}

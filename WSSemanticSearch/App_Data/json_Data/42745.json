@@ -1,0 +1,443 @@
+{
+  "Conceptos": [
+    "wind"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "42745",
+    "title": "Home",
+    "Private": false,
+    "tags": [
+      "Adelaide",
+      "Australia",
+      "Bearing",
+      "C",
+      "Electricity",
+      "Felixstow",
+      "Humidity",
+      "Pressure",
+      "South Australia",
+      "Temperature",
+      "Watts",
+      "Wind Direction",
+      "Wind Speed"
+    ],
+    "description": "This feed is receiving data from 3 different sensors. Energy readings come from a CurrentCost EnviR. Indoor and Outdoor environmental conditions come from a WH3081 wireless weather station. The third sensor feed provides another outdoor environment reference - this comes from a nearby BoM (http://www.bom.gov.au/index.shtml) weather station. \n\nA suite of ZMQ based Python software services (for CurrentCost, Weather, BOM) provide the data to a Cosm updater. The BoM data is only updated every half hour.\n\nThe Python software makes use of some packages I wrote which might be of use to others and can be found here:\ntxPachube: https://github.com/claws/txcosm\ntxCurrentCost: https://github.com/claws/txCurrentCost\ntxBOM: https://github.com/claws/txBOM\n",
+    "feed": "https://api.xively.com/v2/feeds/42745.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "01/25/2014 13:20:25",
+    "created": "12/27/2011 07:16:19",
+    "creator": "https://xively.com/users/claws",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "1",
+        "current_value": "23.7",
+        "at": "01/25/2014 13:20:25",
+        "max_value": "39.3",
+        "min_value": "0.0",
+        "tags": [
+          "C",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "199",
+        "at": "01/25/2014 13:20:25",
+        "max_value": "6429.0",
+        "min_value": "0.0",
+        "tags": [
+          "energy"
+        ],
+        "unit": {
+          "symbol": "Watts",
+          "label": "watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "abs_pressure_local",
+        "current_value": "1009.4",
+        "at": "01/25/2014 13:20:25",
+        "max_value": "5321.7",
+        "min_value": "0.0",
+        "tags": [
+          "[]"
+        ],
+        "unit": {
+          "symbol": "hPa",
+          "label": "hectoPascals",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "air_temperature",
+        "current_value": "19.0",
+        "at": "01/25/2014 13:20:25",
+        "max_value": "44.4",
+        "min_value": "2.2",
+        "tags": [
+          "C",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "air_temp_inside_local",
+        "current_value": "30.2",
+        "at": "01/25/2014 13:20:25",
+        "max_value": "3200.0",
+        "min_value": "-3273.5",
+        "tags": [
+          "C",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "air_temp_outside_local",
+        "current_value": "35.0",
+        "at": "01/25/2014 13:20:25",
+        "max_value": "3260.8",
+        "min_value": "-3262.7",
+        "tags": [
+          "C",
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "apparent_temperature",
+        "current_value": "15.6",
+        "at": "01/25/2014 13:20:25",
+        "max_value": "40.7",
+        "min_value": "-1.8",
+        "tags": [
+          "C",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "apparent_temp_inside_local",
+        "current_value": "31.8",
+        "at": "01/25/2014 13:20:25",
+        "max_value": "946771848014.0",
+        "min_value": "-80.8",
+        "tags": [
+          "C",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "apparent_temp_outside_local",
+        "current_value": "36.2",
+        "at": "01/25/2014 13:20:25",
+        "max_value": "23460636129.3",
+        "min_value": "-269.9",
+        "tags": [
+          "C",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "dew_point",
+        "current_value": "7.6",
+        "at": "01/25/2014 13:20:25",
+        "max_value": "21.6",
+        "min_value": "-15.6",
+        "tags": [
+          "C",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "dew_point_local",
+        "current_value": "13.7",
+        "at": "01/25/2014 13:20:25",
+        "max_value": "11165.3",
+        "min_value": "-21924.9",
+        "tags": [
+          "C",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "humidity",
+        "current_value": "47",
+        "at": "01/25/2014 13:20:25",
+        "max_value": "100.0",
+        "min_value": "4.0",
+        "tags": [
+          "humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "humidity_inside_local",
+        "current_value": "40",
+        "at": "01/25/2014 13:20:25",
+        "max_value": "240.0",
+        "min_value": "0.0",
+        "tags": [
+          "humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "humidity_outside_local",
+        "current_value": "28",
+        "at": "01/25/2014 13:20:25",
+        "max_value": "245.0",
+        "min_value": "1.0",
+        "tags": [
+          "humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "illuminance_local",
+        "current_value": "14608.9",
+        "at": "01/25/2014 13:20:25",
+        "max_value": "1674449.8",
+        "min_value": "0.0",
+        "tags": [
+          "light"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "lux",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "pressure",
+        "current_value": "1020.5",
+        "at": "01/25/2014 13:20:25",
+        "max_value": "1036.6",
+        "min_value": "0.0",
+        "tags": [
+          "pressure"
+        ],
+        "unit": {
+          "symbol": "hPA",
+          "label": "hectoPascals",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "rain_local",
+        "current_value": "657.0",
+        "at": "01/25/2014 13:20:25",
+        "max_value": "19653.3",
+        "min_value": "-636.9",
+        "tags": [
+          "mm"
+        ],
+        "unit": {
+          "symbol": "mm",
+          "label": "millimeters",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "uv_local",
+        "current_value": "1",
+        "at": "01/25/2014 13:20:25",
+        "max_value": "240.0",
+        "min_value": "0.0",
+        "tags": [
+          "uv"
+        ],
+        "unit": {
+          "symbol": "index",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "wind_direction",
+        "current_value": "SSE",
+        "at": "01/25/2014 13:20:25",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "bearing"
+        ],
+        "unit": {
+          "symbol": "bearing",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "wind_direction_local",
+        "current_value": "N",
+        "at": "01/25/2014 13:20:25",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "direction"
+        ],
+        "unit": {
+          "symbol": "bearing",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "wind_gust_speed",
+        "current_value": "24",
+        "at": "01/25/2014 13:20:25",
+        "max_value": "80.0",
+        "min_value": "0.0",
+        "tags": [
+          "kmh"
+        ],
+        "unit": {
+          "symbol": "km/h",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "wind_gust_speed_local",
+        "current_value": "0",
+        "at": "01/25/2014 13:20:25",
+        "max_value": "387.4",
+        "min_value": "0.0",
+        "tags": [
+          "kmh"
+        ],
+        "unit": {
+          "symbol": "km/h",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "wind_speed",
+        "current_value": "15",
+        "at": "01/25/2014 13:20:25",
+        "max_value": "52.0",
+        "min_value": "0.0",
+        "tags": [
+          "kmh"
+        ],
+        "unit": {
+          "symbol": "km/h",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "wind_speed_local",
+        "current_value": "0",
+        "at": "01/25/2014 13:20:25",
+        "max_value": "406.4",
+        "min_value": "0.0",
+        "tags": [
+          "kmh"
+        ],
+        "unit": {
+          "symbol": "km/h",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Felixstow, South Australia, Australia",
+      "domain": 0,
+      "lat": "-34.8848396365311",
+      "lon": "138.649349212646",
+      "ele": "47",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/42745\" >Home</a>",
+    "URLMostrar": "https://xively.com/feeds/42745"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\42745.json",
+  "DocumentJSON": null
+}

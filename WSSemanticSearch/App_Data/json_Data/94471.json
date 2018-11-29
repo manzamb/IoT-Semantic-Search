@@ -1,0 +1,71 @@
+{
+  "Conceptos": [
+    "area"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "94471",
+    "title": "Hibernation temperature (times by 100)",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "hibernation",
+      "temperature",
+      "tortoise"
+    ],
+    "description": "Temperature divide by 100  gives the temperature of the area were the tortoise  is in hibernation. Should \r\nread between 0400 and 1000 (4-10  C)",
+    "feed": "https://api.xively.com/v2/feeds/94471.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:05:21",
+    "created": "12/23/2012 00:10:01",
+    "creator": "https://xively.com/users/nke85117",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "nsor1",
+        "current_value": "1024",
+        "at": "02/11/2014 04:15:25",
+        "max_value": "1024.0",
+        "min_value": "1024.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "sensor1",
+        "current_value": "1030",
+        "at": "03/21/2014 14:05:21",
+        "max_value": "2739.0",
+        "min_value": "0.0",
+        "tags": [
+          "C"
+        ],
+        "unit": {
+          "symbol": "C*100",
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "UK Near Basingstoke",
+      "domain": 0,
+      "lat": "51.2605402044664",
+      "lon": "-1.0931396484375",
+      "ele": "300 feet",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/94471\" >Hibernation temperature (times by 100)</a>",
+    "URLMostrar": "https://xively.com/feeds/94471"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\94471.json",
+  "DocumentJSON": null
+}

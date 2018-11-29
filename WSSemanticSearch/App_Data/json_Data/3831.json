@@ -1,0 +1,164 @@
+{
+  "Conceptos": [
+    "wind"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "3831",
+    "title": "FHEM-Weather: Moritzburg, Germany",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/3831.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:07:25",
+    "created": "12/08/2009 22:57:19",
+    "creator": "https://xively.com/users/tostmann",
+    "version": null,
+    "website": "http://busware.de",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "18.8",
+        "at": "03/21/2014 14:07:23",
+        "max_value": "41.4",
+        "min_value": "-22.6",
+        "tags": [
+          "Air Temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "11.7",
+        "at": "05/18/2011 15:30:02",
+        "max_value": "13.7",
+        "min_value": "9.7",
+        "tags": [
+          "pool temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "18.2",
+        "at": "04/03/2012 13:28:38",
+        "max_value": "38.6",
+        "min_value": "-9.8",
+        "tags": [
+          "garage temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "1.7",
+        "at": "03/29/2012 16:58:32",
+        "max_value": "56.2",
+        "min_value": "-24.4",
+        "tags": [
+          "pool heater temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "984.0",
+        "at": "04/03/2012 13:28:38",
+        "max_value": "1020.0",
+        "min_value": "951.0",
+        "tags": [
+          "Air Pressure"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "hPa",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "45",
+        "at": "03/21/2014 14:07:24",
+        "max_value": "94.0",
+        "min_value": "16.0",
+        "tags": [
+          "air humidity"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "%rel",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "0.0",
+        "at": "03/21/2014 14:07:25",
+        "max_value": "65.5",
+        "min_value": "0.0",
+        "tags": [
+          "wind"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "km/h",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "7",
+        "current_value": "0",
+        "at": "03/21/2014 14:07:25",
+        "max_value": "865.7",
+        "min_value": "-865.7",
+        "tags": [
+          "rain"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "l/qm",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "busware.de offices",
+      "domain": 0,
+      "lat": "51.1244417059019",
+      "lon": "13.6530661582947",
+      "ele": "45",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/3831\" >FHEM-Weather: Moritzburg, Germany</a>",
+    "URLMostrar": "https://xively.com/feeds/3831"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\3831.json",
+  "DocumentJSON": null
+}

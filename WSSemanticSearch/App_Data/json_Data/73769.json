@@ -1,0 +1,72 @@
+{
+  "Conceptos": [
+    "humedad"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "73769",
+    "title": "Est_Met_SV",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "humedad relativa y presión barométrica.",
+      "Temperatura"
+    ],
+    "description": "Estación de monitoreo de bajo costo para El Salvador",
+    "feed": "https://api.xively.com/v2/feeds/73769.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "10/18/2013 00:53:15",
+    "created": "09/04/2012 20:09:34",
+    "creator": "https://xively.com/users/vcuchillac",
+    "version": null,
+    "website": "http://www.cuchillac.net",
+    "datastreams": [
+      {
+        "id": "Hum_rel",
+        "current_value": "32",
+        "at": "10/18/2013 00:53:03",
+        "max_value": "80.0",
+        "min_value": "0.0",
+        "tags": [
+          "Humedad relativa con Módulo HH10D"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temp_amb",
+        "current_value": "21.5",
+        "at": "10/18/2013 00:53:15",
+        "max_value": "119.0",
+        "min_value": "0.0",
+        "tags": [
+          "Temperatura con sensor LM35DT"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "centigrados",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Ex-Bayer",
+      "domain": 0,
+      "lat": "13.6969747774914",
+      "lon": "-89.2201101779938",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 1
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/73769\" >Est_Met_SV</a>",
+    "URLMostrar": "https://xively.com/feeds/73769"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\73769.json",
+  "DocumentJSON": null
+}

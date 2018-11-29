@@ -1,0 +1,88 @@
+{
+  "Conceptos": [
+    "humidity"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "103510",
+    "title": "raspberry pi",
+    "Private": false,
+    "tags": [
+      "humidity",
+      "luminosity",
+      "temperature"
+    ],
+    "description": "Raspberry Pi GPIO sensor measured data",
+    "feed": "https://api.xively.com/v2/feeds/103510.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:06:30",
+    "created": "02/09/2013 08:38:52",
+    "creator": "https://xively.com/users/bluefloyd",
+    "version": null,
+    "website": "http://bluefloyd.info",
+    "datastreams": [
+      {
+        "id": "humidity",
+        "current_value": "8.00",
+        "at": "03/21/2014 14:06:29",
+        "max_value": "2047.0",
+        "min_value": "0.0",
+        "tags": [
+          "humidity"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "luminosity",
+        "current_value": "83.00",
+        "at": "03/21/2014 14:06:30",
+        "max_value": "2047.0",
+        "min_value": "0.0",
+        "tags": [
+          "luminosity"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temperature",
+        "current_value": "28.63",
+        "at": "03/21/2014 14:06:28",
+        "max_value": "609.68",
+        "min_value": "-50.0",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Floresti",
+      "domain": 0,
+      "lat": "46.7417428321234",
+      "lon": "23.48876953125",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/103510\" >raspberry pi</a>",
+    "URLMostrar": "https://xively.com/feeds/103510"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\103510.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,116 @@
+{
+  "Conceptos": [
+    "atmospheric pressure"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "6671",
+    "title": "CO2 Meter (Dev 1)",
+    "Private": false,
+    "tags": null,
+    "description": "Temperature, Humidity and CO2. Synchro Comp Device.",
+    "feed": "https://api.xively.com/v2/feeds/6671.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/20/2014 18:21:21",
+    "created": "04/07/2010 13:16:36",
+    "creator": "https://xively.com/users/sfolea",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "23.9",
+        "at": "03/20/2014 18:21:20",
+        "max_value": "25.7",
+        "min_value": "1.1",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "degrees Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "32.3",
+        "at": "03/20/2014 18:21:20",
+        "max_value": "88.6",
+        "min_value": "14.9",
+        "tags": [
+          "Humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "894",
+        "at": "03/20/2014 18:21:20",
+        "max_value": "2001.0",
+        "min_value": "0.0",
+        "tags": [
+          "CO2"
+        ],
+        "unit": {
+          "symbol": "ppm",
+          "label": "ppm",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "3.45",
+        "at": "03/20/2014 18:21:20",
+        "max_value": "3.46",
+        "min_value": "0.0",
+        "tags": [
+          "Battery Voltage"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": "Voltage",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "1.0",
+        "at": "03/20/2014 18:21:20",
+        "max_value": "36.9",
+        "min_value": "0.1",
+        "tags": [
+          "AP Distance"
+        ],
+        "unit": {
+          "symbol": "m",
+          "label": "meter",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Automation Department, Technical University of Cluj-Napoca",
+      "domain": 0,
+      "lat": "46.7570614656457",
+      "lon": "23.5961222648621",
+      "ele": "350 m",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/6671\" >CO2 Meter (Dev 1)</a>",
+    "URLMostrar": "https://xively.com/feeds/6671"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\6671.json",
+  "DocumentJSON": null
+}

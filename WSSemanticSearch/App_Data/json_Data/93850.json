@@ -1,0 +1,85 @@
+{
+  "Conceptos": [
+    "humedad"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "93850",
+    "title": "arduino",
+    "Private": false,
+    "tags": [
+      "arduino"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/93850.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "12/29/2012 12:34:48",
+    "created": "12/20/2012 15:25:36",
+    "creator": "https://xively.com/users/javierojan",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "humedad",
+        "current_value": "70",
+        "at": "12/28/2012 16:03:46",
+        "max_value": "70.0",
+        "min_value": "70.0",
+        "tags": [
+          "humedad relativa"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "sensor1",
+        "current_value": "1023",
+        "at": "12/29/2012 12:34:48",
+        "max_value": "1023.0",
+        "min_value": "1023.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temperatura",
+        "current_value": "24",
+        "at": "12/24/2012 10:05:52",
+        "max_value": "24.0",
+        "min_value": "24.0",
+        "tags": [
+          "temperatura",
+          "ver"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "centigrados",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 1,
+      "lat": "43.3540802263926",
+      "lon": "-2.84215450286865",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/93850\" >arduino</a>",
+    "URLMostrar": "https://xively.com/feeds/93850"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\93850.json",
+  "DocumentJSON": null
+}

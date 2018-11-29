@@ -1,0 +1,191 @@
+{
+  "Conceptos": [
+    "resolution"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "44055",
+    "title": "Electricity Monitor",
+    "Private": false,
+    "tags": [
+      "ATmega32",
+      "Atmel",
+      "AVR",
+      "bluetooth",
+      "electricity",
+      "energy",
+      "Japan",
+      "pachuber",
+      "power",
+      "ruby"
+    ],
+    "description": "DIY 4 channels electricity sensor placed in distribution box and connected to home gateway with bluetooth.\r\nMeasuring voltage and current of each line with adc in 2kHz sampling and 10bit resolution, and periodically calculating instantaneous electric power and integrating them to acquire joules on each line.\r\nch1(0, 4): Line1 (mono-phase split 3-line 1, 100V)\r\nch2(1, 5): Line2 (mono-phase split 3-line 2, 100V)\r\nch3(2, 6): Heat Storage under floor (10.4kW, 200V, active only in mid-night)\r\nch4(3, 7): Panel Heater (1.2kW + 0.8kW, 200V)\r\nvoltage(8): Line Voltage\r\n\r\nSince Jan 12, 2012.\r\n\r\nTweet daily electricity from @smartmeter_tt\r\n",
+    "feed": "https://api.xively.com/v2/feeds/44055.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/13/2014 16:29:56",
+    "created": "01/11/2012 16:04:44",
+    "creator": "https://xively.com/users/edy555",
+    "version": null,
+    "website": "http://dl.dropbox.com/u/223520/electricity.html",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "3905345",
+        "at": "03/13/2014 16:29:55",
+        "max_value": "3905345.0",
+        "min_value": "0.0",
+        "tags": [
+          "wh"
+        ],
+        "unit": {
+          "symbol": "Wh",
+          "label": "Watt-Hour",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "4742034",
+        "at": "03/13/2014 16:29:55",
+        "max_value": "4742034.0",
+        "min_value": "0.0",
+        "tags": [
+          "wh"
+        ],
+        "unit": {
+          "symbol": "Wh",
+          "label": "Watt-Hour",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "5765209",
+        "at": "03/13/2014 16:29:55",
+        "max_value": "5765209.0",
+        "min_value": "0.0",
+        "tags": [
+          "wh"
+        ],
+        "unit": {
+          "symbol": "Wh",
+          "label": "Watt-Hour",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "5949827",
+        "at": "03/13/2014 16:29:55",
+        "max_value": "5949827.0",
+        "min_value": "8.637",
+        "tags": [
+          "wh"
+        ],
+        "unit": {
+          "symbol": "Wh",
+          "label": "Watt-Hour",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "145.3",
+        "at": "03/13/2014 16:29:55",
+        "max_value": "1656388.445",
+        "min_value": "0.0",
+        "tags": [
+          "watts"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "243.5",
+        "at": "03/13/2014 16:29:55",
+        "max_value": "1656387.942",
+        "min_value": "-0.1",
+        "tags": [
+          "watts"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "8.4",
+        "at": "03/13/2014 16:29:55",
+        "max_value": "1656385.287",
+        "min_value": "-3033.6",
+        "tags": [
+          "watts"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "7",
+        "current_value": "1.0",
+        "at": "03/13/2014 16:29:55",
+        "max_value": "1650698.691",
+        "min_value": "-1.0",
+        "tags": [
+          "watts"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "8",
+        "current_value": "102.4",
+        "at": "03/13/2014 16:29:55",
+        "max_value": "108.8",
+        "min_value": "0.1",
+        "tags": [
+          "volts"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": "Volts",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Hokkaido, JAPAN",
+      "domain": 0,
+      "lat": "43.0202115808221",
+      "lon": "141.49772644043",
+      "ele": "55",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/44055\" >Electricity Monitor</a>",
+    "URLMostrar": "https://xively.com/feeds/44055"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\44055.json",
+  "DocumentJSON": null
+}

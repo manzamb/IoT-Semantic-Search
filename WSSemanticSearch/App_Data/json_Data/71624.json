@@ -1,0 +1,90 @@
+{
+  "Conceptos": [
+    "condition"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "71624",
+    "title": "WiFly 2",
+    "Private": false,
+    "tags": [
+      "A/C",
+      "arduino",
+      "evaporator",
+      "indoor",
+      "suction",
+      "temperature"
+    ],
+    "description": "Temperature of air conditioning evaporator low pressure line. Proper operation is ~55 degs F when A/C is running. ",
+    "feed": "https://api.xively.com/v2/feeds/71624.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:15:13",
+    "created": "08/19/2012 16:28:03",
+    "creator": "https://xively.com/users/tbitson",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "AC_Suction_DegF",
+        "current_value": "70.5",
+        "at": "03/21/2014 14:12:54",
+        "max_value": "110.0",
+        "min_value": "0.0",
+        "tags": [
+          "A/C",
+          "charge level",
+          "evaporator temp",
+          "low pressure"
+        ],
+        "unit": {
+          "symbol": "°F",
+          "label": "Degs",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Heartbeat",
+        "current_value": "0",
+        "at": "03/21/2014 14:15:13",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Time",
+        "current_value": "38731",
+        "at": "03/21/2014 14:14:04",
+        "max_value": "71581.0",
+        "min_value": "2.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/71624\" >WiFly 2</a>",
+    "URLMostrar": "https://xively.com/feeds/71624"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\71624.json",
+  "DocumentJSON": null
+}

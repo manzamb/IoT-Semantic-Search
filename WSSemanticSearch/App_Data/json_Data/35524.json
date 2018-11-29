@@ -1,0 +1,72 @@
+{
+  "Conceptos": [
+    "sensor input"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "35524",
+    "title": "Arduino Light Sensor Feed",
+    "Private": false,
+    "tags": [
+      "ARCH1391"
+    ],
+    "description": "This feed displays light input data ranging from 0 to 1023, as collected by a light dependent resistor within an Arduino scheme. A high value currently represents low light intensity, and a low value represents high intensity.These values are translated into an angle value from 0 to 90 degrees which informs the rotation of one or more servos. These servos power circular shutters which block circular openings in a facade system during periods of high daylight intensity, and un-block the openings during periods of low intensity. In this way, the facade is able to maintain soft natural internal lighting at all times.",
+    "feed": "https://api.xively.com/v2/feeds/35524.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "10/23/2011 12:04:42",
+    "created": "09/11/2011 20:34:37",
+    "creator": "https://xively.com/users/roryaj",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "826.0",
+        "at": "10/23/2011 12:04:42",
+        "max_value": "855.0",
+        "min_value": "0.0",
+        "tags": [
+          "analogRead0",
+          "lightSensor"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "21.0",
+        "at": "10/23/2011 12:04:42",
+        "max_value": "812.0",
+        "min_value": "13.0",
+        "tags": [
+          "analogRead1",
+          "rangeSensor"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "University of New South Wales",
+      "domain": 0,
+      "lat": "-33.9183635767308",
+      "lon": "151.22989654541",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/35524\" >Arduino Light Sensor Feed</a>",
+    "URLMostrar": "https://xively.com/feeds/35524"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\35524.json",
+  "DocumentJSON": null
+}

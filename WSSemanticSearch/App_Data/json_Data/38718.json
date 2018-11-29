@@ -1,0 +1,238 @@
+{
+  "Conceptos": [
+    "role"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "38718",
+    "title": "Gaz detection",
+    "Private": false,
+    "tags": [
+      "gas1",
+      "gas2",
+      "gas3",
+      "gas4",
+      "gas5",
+      "gas6",
+      "gas7",
+      "gas8",
+      "gas9"
+    ],
+    "description": "Gas0 : Température de référence\r\nGas1 : Humidité de référence\r\nGas2 : MQ135 : Air Quality\r\nGas3 : MQ138 : Air Quality\r\nGas4 : MQ7 : Carbon Monoxyde (CO)\r\nGas5 : MQ9 : Carbon Monoxyde (CO)\r\nGas6 : MG811 : Dioxyde de Carbone (CO2)\r\nGas7 : MQ2 : Smoke & gas\r\nGas8 : MQ4 : Natural Gas (méthane, ...)\r\nGas9 : MQ6 : Liquefied Petroleum Gas (LPG - propane, butane, ...)\r\nGas91 : MQ8 : Hydrogene H2\r\nGas92 : MQ5 : Combustion\r\n\r\n",
+    "feed": "https://api.xively.com/v2/feeds/38718.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "01/20/2012 15:27:05",
+    "created": "11/04/2011 10:55:44",
+    "creator": "https://xively.com/users/michel33",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "gas0",
+        "current_value": "534\r\n",
+        "at": "01/20/2012 15:27:05",
+        "max_value": "858.0",
+        "min_value": "0.0",
+        "tags": [
+          "temp"
+        ],
+        "unit": {
+          "symbol": "Temperature ref",
+          "label": "°",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "gas1",
+        "current_value": "51\r\n",
+        "at": "01/20/2012 09:37:44",
+        "max_value": "3538.0",
+        "min_value": "0.0",
+        "tags": [
+          "gas1"
+        ],
+        "unit": {
+          "symbol": "Humidite de ref",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "gas2",
+        "current_value": "395\r\n",
+        "at": "01/19/2012 16:46:40",
+        "max_value": "593.0",
+        "min_value": "0.0",
+        "tags": [
+          "gas2"
+        ],
+        "unit": {
+          "symbol": "MQ135:qualité de l'air",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "gas3",
+        "current_value": "403\r\n",
+        "at": "01/19/2012 16:46:47",
+        "max_value": "993.0",
+        "min_value": "0.0",
+        "tags": [
+          "gas3"
+        ],
+        "unit": {
+          "symbol": "MQ138:qualité de l'air",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "gas4",
+        "current_value": "991\r\n",
+        "at": "01/19/2012 16:46:54",
+        "max_value": "1023.0",
+        "min_value": "0.0",
+        "tags": [
+          "gas3"
+        ],
+        "unit": {
+          "symbol": "MQ7:CO",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "gas5",
+        "current_value": "991\r\n",
+        "at": "01/19/2012 16:47:02",
+        "max_value": "1020.0",
+        "min_value": "0.0",
+        "tags": [
+          "gas5"
+        ],
+        "unit": {
+          "symbol": "MQ9:CO",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "gas6",
+        "current_value": "55\r\n",
+        "at": "01/19/2012 16:47:09",
+        "max_value": "662.0",
+        "min_value": "0.0",
+        "tags": [
+          "gas6"
+        ],
+        "unit": {
+          "symbol": "MG811:CO2",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "gas7",
+        "current_value": "398\r\n",
+        "at": "01/19/2012 16:47:23",
+        "max_value": "817.0",
+        "min_value": "0.0",
+        "tags": [
+          "gas7"
+        ],
+        "unit": {
+          "symbol": "MQ2:combustion",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "gas8",
+        "current_value": "70\r\n",
+        "at": "01/19/2012 16:47:30",
+        "max_value": "463.0",
+        "min_value": "0.0",
+        "tags": [
+          "gas8"
+        ],
+        "unit": {
+          "symbol": "MQ4:gaz naturel",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "gas9",
+        "current_value": "382\r\n",
+        "at": "01/19/2012 16:47:37",
+        "max_value": "984.0",
+        "min_value": "0.0",
+        "tags": [
+          "gas9"
+        ],
+        "unit": {
+          "symbol": "MQ6:GPL",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "gas91",
+        "current_value": "545\r\n",
+        "at": "01/19/2012 16:47:45",
+        "max_value": "739.0",
+        "min_value": "67.0",
+        "tags": [
+          "gas91"
+        ],
+        "unit": {
+          "symbol": "MQ8:H2",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "gas92",
+        "current_value": "107\r\n",
+        "at": "01/19/2012 16:47:52",
+        "max_value": "970.0",
+        "min_value": "67.0",
+        "tags": [
+          "gas92"
+        ],
+        "unit": {
+          "symbol": "MQ5:combustion",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Bordeaux",
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/38718\" >Gaz detection</a>",
+    "URLMostrar": "https://xively.com/feeds/38718"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\38718.json",
+  "DocumentJSON": null
+}

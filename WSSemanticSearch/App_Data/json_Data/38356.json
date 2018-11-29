@@ -1,0 +1,148 @@
+{
+  "Conceptos": [
+    "wind"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "38356",
+    "title": "Wetter Ludwigsfelde",
+    "Private": false,
+    "tags": null,
+    "description": "Die Station steht in Ludwigsfelder Ortsteil Groß Schulzendorf. Es ist eine WS300PC mit einem Linux-Server welcher die Daten alle 3 Minuten speichert und updated.",
+    "feed": "https://api.xively.com/v2/feeds/38356.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:07:03",
+    "created": "10/29/2011 18:53:17",
+    "creator": "https://xively.com/users/britiger",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "22.0",
+        "at": "03/21/2014 14:07:02",
+        "max_value": "596.5",
+        "min_value": "-22.2",
+        "tags": [
+          "Temp"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "999",
+        "at": "03/21/2014 14:07:02",
+        "max_value": "59907.0",
+        "min_value": "3.0",
+        "tags": [
+          "Pressure"
+        ],
+        "unit": {
+          "symbol": "hPa",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "41",
+        "at": "03/21/2014 14:07:02",
+        "max_value": "83.0",
+        "min_value": "0.0",
+        "tags": [
+          "Hum"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "14.1",
+        "at": "03/21/2014 14:07:02",
+        "max_value": "6374.4",
+        "min_value": "0.0",
+        "tags": [
+          "Wind"
+        ],
+        "unit": {
+          "symbol": "km/h",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "0",
+        "at": "03/21/2014 14:07:02",
+        "max_value": "125157.1",
+        "min_value": "-0.3",
+        "tags": [
+          "RainHourly"
+        ],
+        "unit": {
+          "symbol": "l",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "0",
+        "at": "03/21/2014 14:07:02",
+        "max_value": "125158.3",
+        "min_value": "0.0",
+        "tags": [
+          "Rain24h"
+        ],
+        "unit": {
+          "symbol": "l",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "4.4",
+        "at": "03/21/2014 14:07:02",
+        "max_value": "63.9",
+        "min_value": "-17.8",
+        "tags": [
+          "LightTest"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Ludwigsfelde, Germany",
+      "domain": 0,
+      "lat": "52.2698381585798",
+      "lon": "13.3552551269531",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/38356\" >Wetter Ludwigsfelde</a>",
+    "URLMostrar": "https://xively.com/feeds/38356"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\38356.json",
+  "DocumentJSON": null
+}

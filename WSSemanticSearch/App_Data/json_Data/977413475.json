@@ -1,0 +1,66 @@
+{
+  "Conceptos": [
+    "temperature"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "977413475",
+    "title": "Arduino Server Room Temperature Monitor",
+    "Private": false,
+    "tags": [
+      "Temperature and Humidity Monitor for Server rack"
+    ],
+    "description": "Project consists of a Arduino Uno board connected to a DHT 11 sensor which reads temperature and humidity levels in my home server rack. Data is then uploaded to xively for constant remote monitoring.\nArduino is also connected to a LCD for local monitoring",
+    "feed": "https://api.xively.com/v2/feeds/977413475.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:09:49",
+    "created": "07/20/2013 06:17:23",
+    "creator": "https://xively.com/users/djrich29",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "humidity2",
+        "current_value": "35.00",
+        "at": "03/21/2014 14:09:49",
+        "max_value": "46.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temperature1",
+        "current_value": "69.80",
+        "at": "03/21/2014 14:09:49",
+        "max_value": "491.0",
+        "min_value": "2.83",
+        "tags": null,
+        "unit": {
+          "symbol": "F",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Richard's Intec Server Rack",
+      "domain": 0,
+      "lat": "40.7143528",
+      "lon": "-74.0059731",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/977413475\" >Arduino Server Room Temperature Monitor</a>",
+    "URLMostrar": "https://xively.com/feeds/977413475"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\977413475.json",
+  "DocumentJSON": null
+}

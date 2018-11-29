@@ -1,0 +1,279 @@
+{
+  "Conceptos": [
+    "sensing"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "97529",
+    "title": "LegendWeather",
+    "Private": false,
+    "tags": [
+      "Home Automation",
+      "Raspberry Pi",
+      "Sensing",
+      "Weather"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/97529.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "08/10/2013 20:02:31",
+    "created": "01/13/2013 21:36:14",
+    "creator": "https://xively.com/users/shango0",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Air_Temp",
+        "current_value": "22.611",
+        "at": "08/08/2013 22:42:21",
+        "max_value": "39.278",
+        "min_value": "0.389",
+        "tags": [
+          "Temperature",
+          "Vantage Vue"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Air_Temp_Inside",
+        "current_value": "27.722",
+        "at": "08/08/2013 22:42:21",
+        "max_value": "31.444",
+        "min_value": "17.944",
+        "tags": [
+          "Temperature",
+          "Vantage Vue"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Attic",
+        "current_value": "45.875",
+        "at": "08/10/2013 20:02:31",
+        "max_value": "54.5",
+        "min_value": "3.25",
+        "tags": [
+          "DS18B20",
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Barometric_Press",
+        "current_value": "29.807",
+        "at": "08/08/2013 22:42:21",
+        "max_value": "30.311",
+        "min_value": "29.367",
+        "tags": [
+          "Barometer",
+          "Vantage Vue"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "in",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Batt_Cons",
+        "current_value": "4.728515625",
+        "at": "08/08/2013 22:42:21",
+        "max_value": "4.8515625",
+        "min_value": "4.62890625",
+        "tags": [
+          "Battery",
+          "Vantage Vue"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "V",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Garage_Freezer",
+        "current_value": "-23.812",
+        "at": "08/08/2013 22:17:27",
+        "max_value": "9.562",
+        "min_value": "-27.75",
+        "tags": [
+          "DS18B20",
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Garage_Fridge",
+        "current_value": "1",
+        "at": "08/08/2013 22:17:27",
+        "max_value": "8.812",
+        "min_value": "-1.75",
+        "tags": [
+          "DS18B20",
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Garage_Temp",
+        "current_value": "25.687",
+        "at": "08/08/2013 22:17:27",
+        "max_value": "35.375",
+        "min_value": "8.062",
+        "tags": [
+          "DS18B20",
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Humidity_Inside",
+        "current_value": "48",
+        "at": "08/08/2013 22:42:21",
+        "max_value": "67.0",
+        "min_value": "29.0",
+        "tags": [
+          "Humidity",
+          "Vantage Vue"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "HVAC_Output",
+        "current_value": "20.687",
+        "at": "08/10/2013 20:02:31",
+        "max_value": "85.0",
+        "min_value": "16.625",
+        "tags": [
+          "DS18B20",
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Rain_Rate",
+        "current_value": "0",
+        "at": "08/08/2013 22:42:21",
+        "max_value": "5.54",
+        "min_value": "0.0",
+        "tags": [
+          "Rain",
+          "Vantage Vue"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "in/hr",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Relative_Humidity",
+        "current_value": "85",
+        "at": "08/08/2013 22:42:21",
+        "max_value": "98.0",
+        "min_value": "19.0",
+        "tags": [
+          "Humidity",
+          "Vantage Vue"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Utility_Closet",
+        "current_value": "27.187",
+        "at": "08/10/2013 20:02:31",
+        "max_value": "37.25",
+        "min_value": "15.937",
+        "tags": [
+          "DS18B20",
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Wind_Speed",
+        "current_value": "1",
+        "at": "08/08/2013 22:42:21",
+        "max_value": "26.0",
+        "min_value": "0.0",
+        "tags": [
+          "Vantage Vue",
+          "Wind"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "mph",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/97529\" >LegendWeather</a>",
+    "URLMostrar": "https://xively.com/feeds/97529"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\97529.json",
+  "DocumentJSON": null
+}

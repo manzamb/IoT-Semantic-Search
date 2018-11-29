@@ -1,0 +1,54 @@
+{
+  "Conceptos": [
+    "temperature"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "75848",
+    "title": "Temp@Sawbo",
+    "Private": false,
+    "tags": [
+      "temperatue"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/75848.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:09:02",
+    "created": "09/15/2012 10:38:16",
+    "creator": "https://xively.com/users/markymark",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Temperature",
+        "current_value": "11.00",
+        "at": "03/21/2014 14:09:01",
+        "max_value": "32.06",
+        "min_value": "-7.19",
+        "tags": [
+          "Outdoor Temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Sawbo",
+      "domain": 0,
+      "lat": "51.6623341580471",
+      "lon": "0.1373291015625",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/75848\" >Temp@Sawbo</a>",
+    "URLMostrar": "https://xively.com/feeds/75848"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\75848.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,118 @@
+{
+  "Conceptos": [
+    "man"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "56641",
+    "title": "Rain data",
+    "Private": false,
+    "tags": [
+      "rain"
+    ],
+    "description": "Rain",
+    "feed": "https://api.xively.com/v2/feeds/56641.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:11:05",
+    "created": "04/21/2012 14:39:33",
+    "creator": "https://xively.com/users/kasperkamperman",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "0",
+        "at": "03/21/2014 14:11:01",
+        "max_value": "42.17",
+        "min_value": "0.0",
+        "tags": [
+          "currentRain"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "mm/hour",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "-1",
+        "at": "03/21/2014 14:11:03",
+        "max_value": "54.0",
+        "min_value": "-1.0",
+        "tags": [
+          "minutesTillRain"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "minutes",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "0",
+        "at": "03/21/2014 14:11:03",
+        "max_value": "24.37",
+        "min_value": "0.0",
+        "tags": [
+          "averageRainThisHour"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "mm/hour",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "0",
+        "at": "03/21/2014 14:11:04",
+        "max_value": "100.0",
+        "min_value": "0.0",
+        "tags": [
+          "maxRainThisHour"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "mm/hour",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "0",
+        "at": "03/21/2014 14:11:05",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "isRaining"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "boolean",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Enschede, The Netherlands",
+      "domain": 1,
+      "lat": "52.226658",
+      "lon": "6.90315799999996",
+      "ele": "41",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/56641\" >Rain data</a>",
+    "URLMostrar": "https://xively.com/feeds/56641"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\56641.json",
+  "DocumentJSON": null
+}

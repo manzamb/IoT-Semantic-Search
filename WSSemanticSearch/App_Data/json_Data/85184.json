@@ -1,0 +1,73 @@
+{
+  "Conceptos": [
+    "temperatura"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "85184",
+    "title": "Oficina gesHAB",
+    "Private": false,
+    "tags": [
+      "eficiencia energética",
+      "energy",
+      "energía",
+      "monitorización"
+    ],
+    "description": "Monitorización del consumo eléctrico de nuestra oficina en Madrid. Sin incluir climatización.",
+    "feed": "https://api.xively.com/v2/feeds/85184.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:12:29",
+    "created": "11/13/2012 13:05:21",
+    "creator": "https://xively.com/users/geshab",
+    "version": null,
+    "website": "http://www.geshab.es",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "25.60",
+        "at": "03/21/2014 14:12:29",
+        "max_value": "33.92",
+        "min_value": "-289.36",
+        "tags": [
+          "Temperatura Interior"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Grados Centigrados",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "623",
+        "at": "03/21/2014 14:12:29",
+        "max_value": "10299.0",
+        "min_value": "0.0",
+        "tags": [
+          "Potencia Total"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watios",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Madrid",
+      "domain": 0,
+      "lat": "40.41002259456",
+      "lon": "-3.65222454071045",
+      "ele": "670",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/85184\" >Oficina gesHAB</a>",
+    "URLMostrar": "https://xively.com/feeds/85184"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\85184.json",
+  "DocumentJSON": null
+}

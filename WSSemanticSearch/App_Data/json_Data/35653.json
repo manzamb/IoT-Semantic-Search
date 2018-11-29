@@ -1,0 +1,74 @@
+{
+  "Conceptos": [
+    "frequency"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "35653",
+    "title": "Anemometer",
+    "Private": false,
+    "tags": [
+      "anemometer",
+      "arduino",
+      "DIY",
+      "speed",
+      "Wind"
+    ],
+    "description": "Wind speed in Tournefeuille, France, sensed with DIY anemometer, and sent to pachube by Arduino Uno",
+    "feed": "https://api.xively.com/v2/feeds/35653.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "11/05/2012 23:20:39",
+    "created": "09/13/2011 20:05:54",
+    "creator": "https://xively.com/users/philco81",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "FREQUENCY",
+        "current_value": null,
+        "at": null,
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "Anemometer frequency"
+        ],
+        "unit": {
+          "symbol": "Hz",
+          "label": "Hz",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "WIND",
+        "current_value": null,
+        "at": null,
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "Wind speed"
+        ],
+        "unit": {
+          "symbol": "m/s",
+          "label": "m/s",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Tournefeuille, France",
+      "domain": 0,
+      "lat": "43.585753",
+      "lon": "1.36715400000003",
+      "ele": "170",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/35653\" >Anemometer</a>",
+    "URLMostrar": "https://xively.com/feeds/35653"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\35653.json",
+  "DocumentJSON": null
+}

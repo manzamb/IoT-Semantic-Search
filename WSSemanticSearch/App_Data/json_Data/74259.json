@@ -1,0 +1,68 @@
+{
+  "Conceptos": [
+    "project"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "74259",
+    "title": "OHMS - Our Home Makerspace",
+    "Private": false,
+    "tags": null,
+    "description": "Data come from experiments at OHMS (Our Home Makerspace), mostly with ScadaBR at the moment.\r\n\r\nMore info at:\r\nhttp://www.weekendtinkers.net\r\nhttp://www.diybrasil.com.br/\r\nhttp://www.eluaproject.net",
+    "feed": "https://api.xively.com/v2/feeds/74259.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "12/15/2013 21:55:40",
+    "created": "09/07/2012 03:29:49",
+    "creator": "https://xively.com/users/dadosutter",
+    "version": null,
+    "website": "http://www.weekendtinkers.net",
+    "datastreams": [
+      {
+        "id": "OngoingProjects",
+        "current_value": "8",
+        "at": "12/15/2013 21:55:40",
+        "max_value": "10.0",
+        "min_value": "1.0",
+        "tags": [
+          "None"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "RoomTemperature",
+        "current_value": "26.452432092499244",
+        "at": "12/15/2013 21:55:40",
+        "max_value": "35.0",
+        "min_value": "20.0",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "Degree Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "OHMS",
+      "domain": 1,
+      "lat": "-22.9686670745533",
+      "lon": "-43.2266521453857",
+      "ele": "5",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/74259\" >OHMS - Our Home Makerspace</a>",
+    "URLMostrar": "https://xively.com/feeds/74259"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\74259.json",
+  "DocumentJSON": null
+}

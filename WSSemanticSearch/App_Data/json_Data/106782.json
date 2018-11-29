@@ -1,0 +1,94 @@
+{
+  "Conceptos": [
+    "mp10"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "106782",
+    "title": "Raspberry Pi",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "ciseco",
+      "eve",
+      "pi",
+      "srf",
+      "temperature"
+    ],
+    "description": "This is a feed to log the local temperature of my Raspberry Pi plus remote temperature and humidity sensors",
+    "feed": "https://api.xively.com/v2/feeds/106782.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "04/22/2013 13:22:19",
+    "created": "02/25/2013 08:04:34",
+    "creator": "https://xively.com/users/rosterloh",
+    "version": null,
+    "website": "http://byteoutalife.wordpress.com",
+    "datastreams": [
+      {
+        "id": "DH_HUMIDITY",
+        "current_value": "70.1",
+        "at": "04/24/2013 12:10:05",
+        "max_value": "87.3",
+        "min_value": "37.5",
+        "tags": [
+          "DHT22",
+          "Humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "DH_TEMPERATURE",
+        "current_value": "17.6",
+        "at": "04/24/2013 12:10:06",
+        "max_value": "25.9",
+        "min_value": "15.6",
+        "tags": [
+          "DHT22",
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "PI_TEMPERATURE",
+        "current_value": "36.0",
+        "at": "04/24/2013 12:10:07",
+        "max_value": "39.0",
+        "min_value": "34.5",
+        "tags": [
+          "Temperature",
+          "TMP100"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Home",
+      "domain": 0,
+      "lat": "51.448658120386",
+      "lon": "-1.00353240966797",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/106782\" >Raspberry Pi</a>",
+    "URLMostrar": "https://xively.com/feeds/106782"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\106782.json",
+  "DocumentJSON": null
+}

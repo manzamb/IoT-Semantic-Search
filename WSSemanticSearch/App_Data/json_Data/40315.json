@@ -1,0 +1,205 @@
+{
+  "Conceptos": [
+    "person"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "40315",
+    "title": "Radiation in Itabashi-ku, Tokyo, JPN",
+    "Private": false,
+    "tags": [
+      "Mark2",
+      "radiation",
+      "Temp",
+      "wakwak_koba",
+      "μSv/h",
+      "ガイガーカウンター",
+      "温度",
+      "環境放射線計測"
+    ],
+    "description": "　東京都板橋区で私的に運用中の「パーソナルモニタリングポスト 若松通商 Mark2（若松ネットガイガー）」です。GM管をJ209に換装しました。簡易校正ですのでμSv/hの値は正確ではありません。\nhttp://wiki.livedoor.jp/mk2r2/\n　計測環境は南向き斜面に立っている木造アパート２階。\n　こばさんのWAKWAK改造（http://g.wakwak-koba.jp/）をしています。20130827版 ファームウェア。\n　ツイッターでは、0.2μSV/hを超えたら @geiger_searcher で発信し始め、0.4μSV/hを超えたら @Geiger_Alert で要注意情報を発信します。\n\nIt is \"personal monitoring post   Wakamatsu commerce Mark2 (the Wakamatsu net geiger   http://wiki.livedoor.jp/mk2r2/)\" under employment privately in Itabashi-ku, Tokyo. \nMeasurement environment is the second floor of the wooden apartment building. \n\"WAKWAK reconstruction of Mr.KOBA\" is carried out. (http://g.wakwak-koba.jp/) \nAt a twitter, if 0.2microSV/h is exceeded, it will begin to send by @geiger_searcher, and if 0.4microSV/h is exceeded, information requiring special attention will be disseminated by @Geiger_Alert. \n\n※ご注意 \n・機器は公的機関による校正を実施していません。 \n・本データの測定結果は一切保証いたしません。 \n・測定結果による、いかなる損失、損害の求償の責は負いかねます。 \n・予告無く運用を停止する場合があります。\n\n* Attention \n･The equipment doesn't execute the calibration by the statutory board. \n･The result of a measurement of this data is not guaranteed at all. \n• Measured by results, for any loss, damage can not assume responsibility for reimbursement.\n･There is no previous notice and operation might be stopped.",
+    "feed": "https://api.xively.com/v2/feeds/40315.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:09:38",
+    "created": "11/24/2011 08:43:50",
+    "creator": "https://xively.com/users/okuyamamasao",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0usv",
+        "current_value": "0.069",
+        "at": "03/21/2014 14:09:09",
+        "max_value": "0.101",
+        "min_value": "0.063",
+        "tags": [
+          "直近10分間のuSV/h"
+        ],
+        "unit": {
+          "symbol": "μSv/h",
+          "label": "μSv/h",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1cpm",
+        "current_value": "521.4",
+        "at": "03/21/2014 14:09:07",
+        "max_value": "846.1",
+        "min_value": "492.5",
+        "tags": [
+          "直近10分間のcpm"
+        ],
+        "unit": {
+          "symbol": "cpm",
+          "label": "cpm",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2usvlong",
+        "current_value": "0.070",
+        "at": "03/21/2014 14:09:10",
+        "max_value": "0.096",
+        "min_value": "0.063",
+        "tags": [
+          "直近60分間のuSV/h"
+        ],
+        "unit": {
+          "symbol": "μSv/h",
+          "label": "μSv/h",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3cpmlong",
+        "current_value": "529.8",
+        "at": "03/21/2014 14:09:08",
+        "max_value": "654.6",
+        "min_value": "492.4",
+        "tags": [
+          "直近60分間のcpm"
+        ],
+        "unit": {
+          "symbol": "cpm",
+          "label": "cpm",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Barometer",
+        "current_value": "1010.0",
+        "at": "03/21/2014 14:09:12",
+        "max_value": "1037.1",
+        "min_value": "974.0",
+        "tags": [
+          "気圧(LPS331AP)"
+        ],
+        "unit": {
+          "symbol": "hPa",
+          "label": "hPa",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Humidity",
+        "current_value": "43.7",
+        "at": "03/21/2014 14:09:13",
+        "max_value": "83.4",
+        "min_value": "8.0",
+        "tags": [
+          "湿度(HIH-6130)"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "sbm20_usv",
+        "current_value": "0.109",
+        "at": "03/21/2014 14:09:37",
+        "max_value": "0.415",
+        "min_value": "0.056",
+        "tags": [
+          "直近60分間のuSV/h"
+        ],
+        "unit": {
+          "symbol": "μSv/h",
+          "label": "μSv/h",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temp",
+        "current_value": "12.4",
+        "at": "03/21/2014 14:09:11",
+        "max_value": "64.7",
+        "min_value": "1.1",
+        "tags": [
+          "室温(LM35DZ)"
+        ],
+        "unit": {
+          "symbol": "℃",
+          "label": "℃",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temp3",
+        "current_value": "11.7",
+        "at": "03/21/2014 14:09:15",
+        "max_value": "49.5",
+        "min_value": "0.1",
+        "tags": [
+          "室温(LPS331AP)"
+        ],
+        "unit": {
+          "symbol": "℃",
+          "label": "℃",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temp4",
+        "current_value": "15.2",
+        "at": "03/21/2014 14:09:38",
+        "max_value": "62.1",
+        "min_value": "3.2",
+        "tags": [
+          "室温(LM61)"
+        ],
+        "unit": {
+          "symbol": "℃",
+          "label": "℃",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Itabashi-ku Tokyo Japan",
+      "domain": 0,
+      "lat": "35.7681608264289",
+      "lon": "139.680218696594",
+      "ele": "4m",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/40315\" >Radiation in Itabashi-ku, Tokyo, JPN</a>",
+    "URLMostrar": "https://xively.com/feeds/40315"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\40315.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,123 @@
+{
+  "Conceptos": [
+    "temperature"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "81321",
+    "title": "Twodas Greenhouse",
+    "Private": false,
+    "tags": [
+      "aquaponics",
+      "arduino",
+      "greenhouse",
+      "humidity",
+      "light",
+      "temperature"
+    ],
+    "description": "Greenhouse parameters (light, air temperature, water temperature, relative humidity) with aquaponics.",
+    "feed": "https://api.xively.com/v2/feeds/81321.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:09:41",
+    "created": "10/21/2012 03:46:28",
+    "creator": "https://xively.com/users/kstock",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "24",
+        "at": "03/21/2014 14:09:41",
+        "max_value": "539.0",
+        "min_value": "0.0",
+        "tags": [
+          "Photocell 11K-20K @ 120 ohm"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "66",
+        "at": "03/21/2014 14:09:41",
+        "max_value": "812.0",
+        "min_value": "0.0",
+        "tags": [
+          "Photocell 11K-20K @ 510 ohm"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "23.875000",
+        "at": "03/21/2014 14:09:41",
+        "max_value": "1014.0",
+        "min_value": "0.0",
+        "tags": [
+          "Water temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "21.000000",
+        "at": "03/21/2014 14:09:41",
+        "max_value": "51.599998",
+        "min_value": "0.0",
+        "tags": [
+          "Air Temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "47.599998",
+        "at": "03/21/2014 14:09:41",
+        "max_value": "89.900002",
+        "min_value": "0.0",
+        "tags": [
+          "Relative Humidity"
+        ],
+        "unit": {
+          "symbol": "%RH",
+          "label": "RH",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "49.239120832467",
+      "lon": "-123.134765625",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/81321\" >Twodas Greenhouse</a>",
+    "URLMostrar": "https://xively.com/feeds/81321"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\81321.json",
+  "DocumentJSON": null
+}

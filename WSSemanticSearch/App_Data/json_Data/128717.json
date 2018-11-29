@@ -1,0 +1,83 @@
+{
+  "Conceptos": [
+    "moisture"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "128717",
+    "title": "DroughtMonitor",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "relative humidity",
+      "soil moisture",
+      "temperature"
+    ],
+    "description": "A prototype soil moisture monitor.",
+    "feed": "https://api.xively.com/v2/feeds/128717.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "06/05/2013 20:09:24",
+    "created": "05/01/2013 19:41:07",
+    "creator": "https://xively.com/users/mwaite",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Humidity",
+        "current_value": "78",
+        "at": "06/05/2013 20:09:24",
+        "max_value": "100.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "SoilMoisture",
+        "current_value": "99",
+        "at": "06/05/2013 20:09:24",
+        "max_value": "122.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperature",
+        "current_value": "64",
+        "at": "06/05/2013 20:09:24",
+        "max_value": "89.0",
+        "min_value": "32.0",
+        "tags": null,
+        "unit": {
+          "symbol": "F",
+          "label": "degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Test location",
+      "domain": 0,
+      "lat": "40.734313",
+      "lon": "-96.670162",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/128717\" >DroughtMonitor</a>",
+    "URLMostrar": "https://xively.com/feeds/128717"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\128717.json",
+  "DocumentJSON": null
+}

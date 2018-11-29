@@ -1,0 +1,253 @@
+{
+  "Conceptos": [
+    "system"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "75618",
+    "title": "Solar",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "solar system Jan Holcik"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/75618.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:13:56",
+    "created": "09/13/2012 11:46:34",
+    "creator": "https://xively.com/users/jholcik",
+    "version": null,
+    "website": "http://public",
+    "datastreams": [
+      {
+        "id": "DewPoint1",
+        "current_value": "1",
+        "at": "03/21/2014 14:13:54",
+        "max_value": "54.0",
+        "min_value": "-19.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "DewPoint2",
+        "current_value": "7",
+        "at": "03/21/2014 14:13:54",
+        "max_value": "20.0",
+        "min_value": "-6.0",
+        "tags": [
+          "Rosný bod INT - 2"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Humidity1",
+        "current_value": "36",
+        "at": "03/21/2014 14:13:54",
+        "max_value": "95.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Humidity2",
+        "current_value": "52",
+        "at": "03/21/2014 14:13:54",
+        "max_value": "95.0",
+        "min_value": "0.0",
+        "tags": [
+          "Vlhkost INT"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Power",
+        "current_value": "857.5",
+        "at": "03/21/2014 14:13:56",
+        "max_value": "27440.0",
+        "min_value": "0.0",
+        "tags": [
+          "Výkon soláru"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "W",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Press",
+        "current_value": "100903",
+        "at": "03/21/2014 14:13:54",
+        "max_value": "103506.0",
+        "min_value": "98787.0",
+        "tags": [
+          "Tlak"
+        ],
+        "unit": {
+          "symbol": "Pa",
+          "label": "Pa",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "T0000000000000000",
+        "current_value": "-127.0",
+        "at": "06/18/2013 15:39:31",
+        "max_value": "-127.0",
+        "min_value": "-127.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "T2828C6F3010000E5",
+        "current_value": "29.5",
+        "at": "03/21/2014 14:13:54",
+        "max_value": "105.5",
+        "min_value": "-127.0",
+        "tags": [
+          "SOLAR OUTPUT"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "T28446CF3010000D5",
+        "current_value": "19.0",
+        "at": "03/21/2014 14:13:54",
+        "max_value": "41.6",
+        "min_value": "-12.8",
+        "tags": [
+          "EXT teplota"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "T2890A5F30100001C",
+        "current_value": "27.0",
+        "at": "03/21/2014 14:13:54",
+        "max_value": "104.2",
+        "min_value": "-127.0",
+        "tags": [
+          "SOLAR INPUT"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "T289879F3010000C2",
+        "current_value": "18.0",
+        "at": "03/21/2014 14:13:54",
+        "max_value": "33.5",
+        "min_value": "-127.0",
+        "tags": [
+          "INT teplota"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "T28D376F301000020",
+        "current_value": "23.4",
+        "at": "03/21/2014 14:13:54",
+        "max_value": "89.1",
+        "min_value": "-127.0",
+        "tags": [
+          "BOJLER"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "TempDHT1",
+        "current_value": "17",
+        "at": "03/21/2014 14:13:54",
+        "max_value": "60.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "TempDHT2",
+        "current_value": "17",
+        "at": "03/21/2014 14:13:54",
+        "max_value": "28.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "XXX",
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": "537",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/75618\" >Solar</a>",
+    "URLMostrar": "https://xively.com/feeds/75618"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\75618.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,108 @@
+{
+  "Conceptos": [
+    "moisture"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "126197",
+    "title": "SG mini GreenHouse",
+    "Private": false,
+    "tags": [
+      "Agricolture",
+      "arduino",
+      "curva d'irrigazione",
+      "Humidity ambient",
+      "Soil Moisture",
+      "Soil temperature",
+      "Temperature ambient"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/126197.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "01/20/2014 16:47:25",
+    "created": "04/18/2013 11:03:56",
+    "creator": "https://xively.com/users/dletizia",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "001",
+        "current_value": "16.90",
+        "at": "01/20/2014 16:47:25",
+        "max_value": "52.2",
+        "min_value": "15.3",
+        "tags": [
+          "Ambient Temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "002",
+        "current_value": "53.30",
+        "at": "01/20/2014 16:47:25",
+        "max_value": "99.9",
+        "min_value": "5.1",
+        "tags": [
+          "Ambient Humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "RH",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "003",
+        "current_value": "17.31",
+        "at": "01/20/2014 16:47:25",
+        "max_value": "38.94",
+        "min_value": "14.56",
+        "tags": [
+          "Soil Temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "004",
+        "current_value": "50000.00",
+        "at": "01/20/2014 16:47:25",
+        "max_value": "562100.25",
+        "min_value": "14.34",
+        "tags": [
+          "Soil Moisture"
+        ],
+        "unit": {
+          "symbol": "kΩ",
+          "label": "kOhm",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/126197\" >SG mini GreenHouse</a>",
+    "URLMostrar": "https://xively.com/feeds/126197"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\126197.json",
+  "DocumentJSON": null
+}

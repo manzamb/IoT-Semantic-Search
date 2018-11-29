@@ -1,0 +1,68 @@
+{
+  "Conceptos": [
+    "parameter"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "56505",
+    "title": "GreenHouse Monitor",
+    "Private": false,
+    "tags": null,
+    "description": "Example of a Greenhouse monitoring project. Parameters are Humidity, temperature and Light intensity",
+    "feed": "https://api.xively.com/v2/feeds/56505.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "04/20/2012 08:30:03",
+    "created": "04/20/2012 08:27:44",
+    "creator": "https://xively.com/users/jinosv",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Humidity",
+        "current_value": null,
+        "at": "04/20/2012 08:27:44",
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "0"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "RH",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperature",
+        "current_value": null,
+        "at": null,
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "1"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Gadgeon Office, Kochi",
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/56505\" >GreenHouse Monitor</a>",
+    "URLMostrar": "https://xively.com/feeds/56505"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\56505.json",
+  "DocumentJSON": null
+}

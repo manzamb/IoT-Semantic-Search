@@ -1,0 +1,378 @@
+{
+  "Conceptos": [
+    "process"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "39255",
+    "title": "我家My Apartment",
+    "Private": false,
+    "tags": [
+      "2.4G",
+      "Air",
+      "brightness",
+      "DHT11",
+      "DS18B20",
+      "Humidity",
+      "Infrared",
+      "LDR",
+      "light",
+      "motion detector",
+      "motion sensor",
+      "NRF24L01+",
+      "PIR",
+      "Pyroelectric",
+      "relative humidity",
+      "RH%",
+      "Temperature",
+      "wirless",
+      "亮度",
+      "温度",
+      "湿度",
+      "热释电",
+      "红外"
+    ],
+    "description": "这些是我家的传感器收集的数据。我还将集成更多的传感器。\r\nThese are the sensors inside and outside my apartment. I'll keep adding them. \r\n\r\nID 001: 卧室温度 Bedroom Temperature (ºC)\r\nID 002: 卧室湿度 Bedroom Humidity (RH%)\r\n\r\nID 003: 书房温度 Study Room Temperature (ºC)\r\nID 004: 书房湿度 Study Room Humidity (RH%)\r\nID 005: 书房亮度 这是一个相对值。0表示最暗，255表示最亮。Study Room Brightness. This is a relative value. 0 represents the darkest, and 255 represents the brightest.\r\n\r\nID 006: 客厅的热释电红外传感器。1表示有人在活动，0表示没有检测到人体活动。Living Room Motion Sensor, (Pyroelectric Infrared Sensor, PIR)\r\nvalue 1 - motion detected, 0 - no motion detected.\r\n\r\nID 007: 室外湿度（北） Outdoor Humidity (North) (RH%)\r\nID 008: 室外温度（北） Outdoor Temperature (North) (ºC)\r\nID 009: 室外亮度（北） 这是一个相对值。0表示最暗，255表示最亮。Outdoor Brightness (North). This is a relative value. 0 represents the darkest, and 255 represents the brightest.\r\n\r\nID 010: 餐厅湿度 Dining Room Humidity (RH%)\r\nID 011: 餐厅温度 Dining Room Temperature (ºC)\r\n\r\nID 012: 室外温度（南） Outdoor Temperature (South) (ºC)\r\nID 013: 室外湿度（南） Outdoor Humidity (South) (RH%)\r\n\r\nID 014: 客厅温度 Living Room Temperature (ºC)\r\nID 015: 客厅湿度 Living Room Humidity (RH%)\r\n\r\nID 016: 室外声音强度 Outdoor Sound Level (Relative value)\r\n\r\n所有的传感器都连接了NRF24L01+无线模块。测量数据通过2.4GHz的无线信号传送到主机上。我在电脑上运行了一个C#程序处理这些数据并上传到Pachube网站。\r\n\r\nAll sensors are equipped with NRF24L01+ wireless module. Measurement results are transferred back to Host via 2.4GHz radio signal. The data are processed and uploaded to Pachube by a C# application running on my PC.\r\n\r\n----- Updates --------------\r\n2012-JAN-31 Sensor 016 Online.\r\n2012-JAN-25 Sensor 014, 015 Online.\r\n2011-DEC-10 Sensor 012, 013 Online.\r\n2011-DEC-02 Sensor 010, 011 Online.\r\n2011-NOV-30 Sensor 007, 008, 009 Online.\r\n2011-NOV-19 Sensor 003, 004, 005, 006 Online.\r\n2011-NOV-11 Sensor 001 & 002 Online.",
+    "feed": "https://api.xively.com/v2/feeds/39255.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "10/17/2012 13:46:42",
+    "created": "11/11/2011 11:11:27",
+    "creator": "https://xively.com/users/changhao",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "001",
+        "current_value": "25.3",
+        "at": "10/17/2012 13:45:58",
+        "max_value": "33.3",
+        "min_value": "0.1",
+        "tags": [
+          "Bedroom",
+          "Temperature",
+          "卧室",
+          "温度"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "Degree Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "002",
+        "current_value": "50",
+        "at": "06/12/2012 15:53:42",
+        "max_value": "255.0",
+        "min_value": "27.0",
+        "tags": [
+          "Bedroom",
+          "Humidity",
+          "卧室",
+          "湿度"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "Percentage",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "003",
+        "current_value": "0.1",
+        "at": "08/12/2012 10:48:39",
+        "max_value": "24.6",
+        "min_value": "0.1",
+        "tags": [
+          "Study room",
+          "Temperature",
+          "书房",
+          "温度"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "Degree Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "004",
+        "current_value": "33",
+        "at": "04/27/2012 15:18:19",
+        "max_value": "75.2",
+        "min_value": "16.0",
+        "tags": [
+          "Humidity",
+          "Study room",
+          "书房",
+          "湿度"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "Percentage",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "005",
+        "current_value": "12",
+        "at": "08/12/2012 10:48:39",
+        "max_value": "238.0",
+        "min_value": "0.0",
+        "tags": [
+          "Brightness",
+          "LDR",
+          "light",
+          "Study room",
+          "书房",
+          "亮度"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Relative Value",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "006",
+        "current_value": "0",
+        "at": "10/17/2012 13:46:42",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "Living room",
+          "motion detector",
+          "motion sensor",
+          "PIR",
+          "客厅",
+          "热释电",
+          "红外"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Relative Value",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "007",
+        "current_value": "38.1",
+        "at": "10/17/2012 13:45:48",
+        "max_value": "99.9",
+        "min_value": "21.2",
+        "tags": [
+          "Humidity",
+          "North",
+          "Outdoor",
+          "北",
+          "室外",
+          "湿度"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "Percentage",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "008",
+        "current_value": "20.4",
+        "at": "10/17/2012 13:45:49",
+        "max_value": "34.3",
+        "min_value": "2.6",
+        "tags": [
+          "North",
+          "Outdoor",
+          "Temperature",
+          "北",
+          "室外",
+          "温度"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "Degree Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "009",
+        "current_value": "0",
+        "at": "10/17/2012 13:45:50",
+        "max_value": "212.0",
+        "min_value": "0.0",
+        "tags": [
+          "brightness",
+          "light",
+          "Outdoor",
+          "亮度",
+          "室外"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Relative Value",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "010",
+        "current_value": "25",
+        "at": "10/17/2012 13:45:50",
+        "max_value": "64.0",
+        "min_value": "16.0",
+        "tags": [
+          "Dining room",
+          "Humidity",
+          "湿度",
+          "餐厅"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "Percentage",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "011",
+        "current_value": "25.4",
+        "at": "10/17/2012 13:45:51",
+        "max_value": "32.1",
+        "min_value": "8.2",
+        "tags": [
+          "Dining room",
+          "Temperature",
+          "温度",
+          "餐厅"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "Degree Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "012",
+        "current_value": "18.5",
+        "at": "10/17/2012 13:46:25",
+        "max_value": "40.0",
+        "min_value": "-0.6",
+        "tags": [
+          "Outdoor",
+          "South",
+          "Temperature",
+          "南",
+          "室外",
+          "温度"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "Degree Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "013",
+        "current_value": "99.9",
+        "at": "10/17/2012 13:46:24",
+        "max_value": "99.9",
+        "min_value": "13.4",
+        "tags": [
+          "Humidity",
+          "Outdoor",
+          "South",
+          "南",
+          "室外",
+          "湿度"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "Percentage",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "014",
+        "current_value": "26.0",
+        "at": "10/17/2012 13:46:42",
+        "max_value": "32.3",
+        "min_value": "9.3",
+        "tags": [
+          "Living room",
+          "Temperature",
+          "客厅",
+          "温度"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "Degree Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "015",
+        "current_value": "41.2",
+        "at": "10/17/2012 13:46:41",
+        "max_value": "87.4",
+        "min_value": "24.4",
+        "tags": [
+          "Humidity",
+          "Living room",
+          "客厅",
+          "湿度"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "Percentage",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "016",
+        "current_value": "207",
+        "at": "10/17/2012 13:46:23",
+        "max_value": "254.0",
+        "min_value": "40.0",
+        "tags": [
+          "Outdoor",
+          "Sound Level",
+          "声音强度",
+          "室外"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Relative Value",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Suzhou, Jiangsu, China, 中国, 江苏, 苏州",
+      "domain": 0,
+      "lat": "31.3065776545445",
+      "lon": "120.654140710831",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/39255\" >我家My Apartment</a>",
+    "URLMostrar": "https://xively.com/feeds/39255"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\39255.json",
+  "DocumentJSON": null
+}

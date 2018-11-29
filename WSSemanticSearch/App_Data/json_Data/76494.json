@@ -1,0 +1,52 @@
+{
+  "Conceptos": [
+    "physical agent"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "76494",
+    "title": "Prototype1",
+    "Private": false,
+    "tags": [
+      "Prototype temperature"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/76494.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "11/12/2012 13:07:03",
+    "created": "09/19/2012 15:14:54",
+    "creator": "https://xively.com/users/agentsmith",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Temperature",
+        "current_value": "20",
+        "at": "11/12/2012 13:07:03",
+        "max_value": "24.0",
+        "min_value": "20.0",
+        "tags": null,
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Comms Room, Marlow",
+      "domain": 0,
+      "lat": "51.5727649244622",
+      "lon": "-0.763474702835083",
+      "ele": "8",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/76494\" >Prototype1</a>",
+    "URLMostrar": "https://xively.com/feeds/76494"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\76494.json",
+  "DocumentJSON": null
+}

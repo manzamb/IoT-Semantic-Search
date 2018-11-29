@@ -1,0 +1,102 @@
+{
+  "Conceptos": [
+    "platform"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "75647",
+    "title": "Test Platform",
+    "Private": false,
+    "tags": [
+      "Multi Sensor - Temp"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/75647.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "10/06/2012 19:28:52",
+    "created": "09/13/2012 16:23:56",
+    "creator": "https://xively.com/users/rupert97212",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Battery_Volt",
+        "current_value": "3.003",
+        "at": "10/06/2012 19:28:52",
+        "max_value": "3.089",
+        "min_value": "3.002",
+        "tags": [
+          "Sensor Battery Voltage"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": "V",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Est_Usable_Power",
+        "current_value": "70",
+        "at": "10/06/2012 19:28:52",
+        "max_value": "123.0",
+        "min_value": "0.0",
+        "tags": [
+          "Usable power"
+        ],
+        "unit": {
+          "symbol": "W/M^2",
+          "label": "W/M^2",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Solar_Irradiance",
+        "current_value": "550.9",
+        "at": "10/06/2012 19:28:52",
+        "max_value": "940.3",
+        "min_value": "0.0",
+        "tags": [
+          "Incident solar energy"
+        ],
+        "unit": {
+          "symbol": "W/M^2",
+          "label": "W/M^2",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temp",
+        "current_value": "36.6",
+        "at": "10/06/2012 19:28:52",
+        "max_value": "45.8",
+        "min_value": "-273.1",
+        "tags": [
+          "Temperature back side of solar panel"
+        ],
+        "unit": {
+          "symbol": "oC",
+          "label": "Deg C ",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Portland Test ",
+      "domain": 0,
+      "lat": "45.5387298333955",
+      "lon": "-122.643953561783",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/75647\" >Test Platform</a>",
+    "URLMostrar": "https://xively.com/feeds/75647"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\75647.json",
+  "DocumentJSON": null
+}

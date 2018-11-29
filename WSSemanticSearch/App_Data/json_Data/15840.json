@@ -1,0 +1,230 @@
+{
+  "Conceptos": [
+    "plan"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "15840",
+    "title": "Downing",
+    "Private": false,
+    "tags": [
+      "temperature"
+    ],
+    "description": "A feed of temperatures, humidity and power. Also, the water tank for watering African Violets is tracked. Water temperature needs to be within 5 degrees of air temperature when watering the plants.",
+    "feed": "https://api.xively.com/v2/feeds/15840.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:07:00",
+    "created": "01/31/2011 01:06:50",
+    "creator": "https://xively.com/users/bluebird",
+    "version": null,
+    "website": "http://www.bluebirdgreenhouse.com/",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "50.8",
+        "at": "03/21/2014 14:06:59",
+        "max_value": "121.5",
+        "min_value": "-196.6",
+        "tags": [
+          "Attic Temp"
+        ],
+        "unit": {
+          "symbol": "Attic",
+          "label": "°F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "58.1",
+        "at": "03/21/2014 14:06:59",
+        "max_value": "113.9",
+        "min_value": "-196.6",
+        "tags": [
+          "HVAC Out"
+        ],
+        "unit": {
+          "symbol": "Coil output",
+          "label": "°F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "55.4",
+        "at": "03/21/2014 14:06:59",
+        "max_value": "110.3",
+        "min_value": "-196.6",
+        "tags": [
+          "HVAC In"
+        ],
+        "unit": {
+          "symbol": "Return air",
+          "label": "°F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "68.9",
+        "at": "03/21/2014 14:06:59",
+        "max_value": "83.3",
+        "min_value": "-196.6",
+        "tags": [
+          "H2O"
+        ],
+        "unit": {
+          "symbol": "H2O Tank",
+          "label": "°F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "71.6",
+        "at": "03/21/2014 14:06:59",
+        "max_value": "87.8",
+        "min_value": "63.5",
+        "tags": [
+          "African Violet Room"
+        ],
+        "unit": {
+          "symbol": "Plant Room",
+          "label": "°F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "66.2",
+        "at": "03/20/2014 23:29:38",
+        "max_value": "86.3",
+        "min_value": "-196.6",
+        "tags": [
+          "Back Porch"
+        ],
+        "unit": {
+          "symbol": "Porch ambient",
+          "label": "°F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "68.6",
+        "at": "03/20/2014 23:29:38",
+        "max_value": "262.3",
+        "min_value": "-198.4",
+        "tags": [
+          "Porch Heater"
+        ],
+        "unit": {
+          "symbol": "Porch flue",
+          "label": "°F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "7",
+        "current_value": "68.9",
+        "at": "03/20/2014 23:29:38",
+        "max_value": "210.2",
+        "min_value": "-196.6",
+        "tags": [
+          "Greenhouse"
+        ],
+        "unit": {
+          "symbol": "GH Temperature",
+          "label": "°F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "8",
+        "current_value": "68.0",
+        "at": "03/20/2014 23:29:38",
+        "max_value": "262.3",
+        "min_value": "-198.4",
+        "tags": [
+          "GH Flue"
+        ],
+        "unit": {
+          "symbol": "GH Flue",
+          "label": "°F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "9",
+        "current_value": "1.211",
+        "at": "03/20/2014 23:29:38",
+        "max_value": "3566.9",
+        "min_value": "0.0",
+        "tags": [
+          "Light"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Footcandles",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "10",
+        "current_value": "2.0",
+        "at": "03/20/2014 23:29:38",
+        "max_value": "4927.0",
+        "min_value": "0.0",
+        "tags": [
+          "IR"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "IR Lux",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "11",
+        "current_value": "2.000",
+        "at": "03/20/2014 23:29:38",
+        "max_value": "3247.0",
+        "min_value": "0.0",
+        "tags": [
+          "Visible"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Visible Lux",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Bluebird Greenhouse On Downing Place",
+      "domain": 0,
+      "lat": "35.7332755684323",
+      "lon": "-78.826904296875",
+      "ele": "400",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/15840\" >Downing</a>",
+    "URLMostrar": "https://xively.com/feeds/15840"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\15840.json",
+  "DocumentJSON": null
+}

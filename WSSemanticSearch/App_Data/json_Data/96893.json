@@ -1,0 +1,101 @@
+{
+  "Conceptos": [
+    "humedad"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "96893",
+    "title": "Remoto",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "Arduino JPC"
+    ],
+    "description": "Test",
+    "feed": "https://api.xively.com/v2/feeds/96893.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "04/16/2013 03:47:12",
+    "created": "01/10/2013 01:11:19",
+    "creator": "https://xively.com/users/jpedroc",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "1",
+        "current_value": "9.71",
+        "at": "04/16/2013 03:47:12",
+        "max_value": "11.14",
+        "min_value": "0.0",
+        "tags": [
+          "Voltaje de la bateria"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "V",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "50.00",
+        "at": "04/16/2013 03:47:12",
+        "max_value": "66.0",
+        "min_value": "0.0",
+        "tags": [
+          "Humedad"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "18.00",
+        "at": "04/16/2013 03:47:12",
+        "max_value": "540.0",
+        "min_value": "0.0",
+        "tags": [
+          "Temperatura"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "grados",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": " 22 ",
+        "at": "04/16/2013 03:47:12",
+        "max_value": "22.0",
+        "min_value": "15.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "28.4771415661455",
+      "lon": "-16.4170074462891",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/96893\" >Remoto</a>",
+    "URLMostrar": "https://xively.com/feeds/96893"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\96893.json",
+  "DocumentJSON": null
+}

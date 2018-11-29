@@ -1,0 +1,479 @@
+{
+  "Conceptos": [
+    "right"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "66509",
+    "title": "smartHome",
+    "Private": false,
+    "tags": [
+      "electricity",
+      "lpg stock",
+      "Out side temperature",
+      "porch light",
+      "sunlight",
+      "water level"
+    ],
+    "description": "I am doing some automation with android and arduino ADK . The data collected from the ADK board and updated in Cosm feed , now it is under development stage.",
+    "feed": "https://api.xively.com/v2/feeds/66509.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "01/20/2014 15:05:35",
+    "created": "07/07/2012 16:56:22",
+    "creator": "https://xively.com/users/latheefdd",
+    "version": null,
+    "website": "http://androidinhome.blogspot.in",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "10.0",
+        "at": "01/20/2014 15:05:32",
+        "max_value": "10.0",
+        "min_value": "0.0",
+        "tags": [
+          "controlcammand"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "On/Off",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "11.0",
+        "at": "01/03/2014 10:37:29",
+        "max_value": "20.0",
+        "min_value": "0.0",
+        "tags": [
+          "for servert 1-32bit"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "on/off",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "24.0",
+        "at": "01/20/2014 15:05:33",
+        "max_value": "49.0",
+        "min_value": "0.0",
+        "tags": [
+          "for server -port number"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "On/Off",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "1.0",
+        "at": "01/20/2014 15:05:35",
+        "max_value": "70.0",
+        "min_value": "0.0",
+        "tags": [
+          "for server-port valuet"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "on/off",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "0.0",
+        "at": "01/03/2014 10:37:30",
+        "max_value": "3895246863.0",
+        "min_value": "0.0",
+        "tags": [
+          "for client 0-31bit"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "on/off",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "37",
+        "at": "12/02/2013 05:22:10",
+        "max_value": "65022.0",
+        "min_value": "-122.0",
+        "tags": [
+          "for client 32-44bit"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "on/off",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "0.0",
+        "at": "12/20/2013 18:06:45",
+        "max_value": "2935.0",
+        "min_value": "0.0",
+        "tags": [
+          "Sensors"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "on/off",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "7",
+        "current_value": "-105.0",
+        "at": "12/20/2013 18:06:59",
+        "max_value": "125.0",
+        "min_value": "-105.0",
+        "tags": [
+          "water level"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "on/off",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "8",
+        "current_value": "0.0",
+        "at": "11/23/2013 05:56:01",
+        "max_value": "107.0",
+        "min_value": "0.0",
+        "tags": [
+          "lpg"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "on/off",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "9",
+        "current_value": "0.0",
+        "at": "11/23/2013 05:56:02",
+        "max_value": "7057.0",
+        "min_value": "0.0",
+        "tags": [
+          "co2"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "on/off",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "10",
+        "current_value": "10",
+        "at": "11/25/2013 18:12:32",
+        "max_value": "10.0",
+        "min_value": "0.0",
+        "tags": [
+          "message notification  to server"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "on/off",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "11",
+        "current_value": "1.0",
+        "at": "12/18/2013 16:23:27",
+        "max_value": "2.0",
+        "min_value": "0.0",
+        "tags": [
+          "message notification to client"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "on/off",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "12",
+        "current_value": "1.0111115E11",
+        "at": "10/27/2013 14:01:42",
+        "max_value": "2017181719160000.0",
+        "min_value": "0.0",
+        "tags": [
+          "message to server"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "on/off",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "13",
+        "current_value": "2.5122211E7",
+        "at": "12/18/2013 16:23:29",
+        "max_value": "18211121131316200000.0",
+        "min_value": "0.0",
+        "tags": [
+          "message to client"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "on/off",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "14",
+        "current_value": null,
+        "at": "10/02/2012 06:29:14",
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "Hall 4"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "on/off",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "15",
+        "current_value": null,
+        "at": "10/02/2012 06:29:14",
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "Room 3"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "on/off",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "16",
+        "current_value": null,
+        "at": "10/02/2012 06:29:14",
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "Room 4"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "on/off",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "17",
+        "current_value": null,
+        "at": "10/02/2012 06:29:14",
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "Room 5"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "on/off",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "bluetooth",
+        "current_value": "0",
+        "at": "12/25/2013 17:15:16",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "level",
+        "current_value": "41",
+        "at": "12/25/2013 17:15:16",
+        "max_value": "100.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "%",
+          "label": "Percentage",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "network",
+        "current_value": "2",
+        "at": "12/25/2013 17:15:16",
+        "max_value": "2.0",
+        "min_value": "0.0",
+        "tags": [
+          "Network Gen"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "phonecall",
+        "current_value": "0",
+        "at": "12/25/2013 17:15:16",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "Call State"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "plugged",
+        "current_value": "0",
+        "at": "12/25/2013 17:15:16",
+        "max_value": "2.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "RxTx",
+        "current_value": "437.259",
+        "at": "12/25/2013 17:15:16",
+        "max_value": "36254.932",
+        "min_value": "0.0",
+        "tags": [
+          "Data transfered"
+        ],
+        "unit": {
+          "symbol": "kB",
+          "label": "kiloBytes",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "screen",
+        "current_value": "25.5",
+        "at": "12/24/2013 16:23:59",
+        "max_value": "25.5",
+        "min_value": "0.0",
+        "tags": [
+          "Brightness"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temperature",
+        "current_value": "23",
+        "at": "12/25/2013 17:15:16",
+        "max_value": "23.0",
+        "min_value": "23.0",
+        "tags": null,
+        "unit": {
+          "symbol": "ºC",
+          "label": "Degrees Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "voltage",
+        "current_value": "3.771",
+        "at": "12/25/2013 17:15:16",
+        "max_value": "4.209",
+        "min_value": "2.999",
+        "tags": null,
+        "unit": {
+          "symbol": "V",
+          "label": "Volt",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "wifi",
+        "current_value": "1",
+        "at": "12/25/2013 17:15:16",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Kozhikode",
+      "domain": 0,
+      "lat": "11.2642832133783",
+      "lon": "75.7693115830423",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/66509\" >smartHome</a>",
+    "URLMostrar": "https://xively.com/feeds/66509"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\66509.json",
+  "DocumentJSON": null
+}

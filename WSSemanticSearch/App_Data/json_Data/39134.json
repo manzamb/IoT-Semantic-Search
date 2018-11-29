@@ -1,0 +1,89 @@
+{
+  "Conceptos": [
+    "project"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "39134",
+    "title": "東京 六町 電力データ",
+    "Private": false,
+    "tags": [
+      "Archiduino",
+      "Architecture",
+      "Arduino",
+      "Monitoring"
+    ],
+    "description": "東京 六町 電力データ",
+    "feed": "https://api.xively.com/v2/feeds/39134.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/07/2014 15:31:39",
+    "created": "11/09/2011 16:59:12",
+    "creator": "https://xively.com/users/entasan",
+    "version": null,
+    "website": "http://entasan.dyndns.org/",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "224.19",
+        "at": "03/08/2014 00:31:33",
+        "max_value": "1443.77",
+        "min_value": "0.0",
+        "tags": [
+          "Electricity"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "[Watt]",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "13.45",
+        "at": "03/08/2014 00:31:33",
+        "max_value": "2645.42",
+        "min_value": "0.0",
+        "tags": [
+          "Electricity"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "[Watt]",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "237.64",
+        "at": "03/08/2014 00:31:33",
+        "max_value": "2779.93",
+        "min_value": "26.9",
+        "tags": [
+          "Electricity"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "[Watt]",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Japan Tokyo Rokucho",
+      "domain": 0,
+      "lat": "35.78681618",
+      "lon": "139.8225635",
+      "ele": "10",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/39134\" >東京 六町 電力データ</a>",
+    "URLMostrar": "https://xively.com/feeds/39134"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\39134.json",
+  "DocumentJSON": null
+}

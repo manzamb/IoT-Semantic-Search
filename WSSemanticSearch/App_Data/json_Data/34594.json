@@ -1,0 +1,84 @@
+{
+  "Conceptos": [
+    "process"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "34594",
+    "title": "Smurfer",
+    "Private": false,
+    "tags": null,
+    "description": "my home server",
+    "feed": "https://api.xively.com/v2/feeds/34594.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "06/25/2013 19:45:02",
+    "created": "08/22/2011 08:41:12",
+    "creator": "https://xively.com/users/avthart",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "memusage",
+        "current_value": "30",
+        "at": "06/25/2013 19:45:02",
+        "max_value": "59.0",
+        "min_value": "7.0",
+        "tags": [
+          "memory"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "processes",
+        "current_value": "145",
+        "at": "06/25/2013 19:45:02",
+        "max_value": "167.0",
+        "min_value": "123.0",
+        "tags": [
+          "process"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "systemload",
+        "current_value": "1.05",
+        "at": "06/25/2013 19:45:02",
+        "max_value": "4.18",
+        "min_value": "0.0",
+        "tags": [
+          "load"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Nootdorp, Netherlands",
+      "domain": 0,
+      "lat": "52.0457340403413",
+      "lon": "4.37942504882812",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/34594\" >Smurfer</a>",
+    "URLMostrar": "https://xively.com/feeds/34594"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\34594.json",
+  "DocumentJSON": null
+}

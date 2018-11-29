@@ -1,0 +1,54 @@
+{
+  "Conceptos": [
+    "temperatura"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "120722",
+    "title": "Temperatura",
+    "Private": false,
+    "tags": [
+      "temperatura boguchwała"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/120722.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:15:02",
+    "created": "03/24/2013 12:23:17",
+    "creator": "https://xively.com/users/bkabala",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "temp_zew1",
+        "current_value": "18.2",
+        "at": "03/21/2014 14:15:02",
+        "max_value": "85.0",
+        "min_value": "-14.4",
+        "tags": [
+          "temp"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "49.9794877610865",
+      "lon": "21.97265625",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/120722\" >Temperatura</a>",
+    "URLMostrar": "https://xively.com/feeds/120722"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\120722.json",
+  "DocumentJSON": null
+}

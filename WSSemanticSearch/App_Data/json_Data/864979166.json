@@ -1,0 +1,164 @@
+{
+  "Conceptos": [
+    "solar radiation"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "864979166",
+    "title": "Weather station",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/864979166.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "08/11/2013 21:54:37",
+    "created": "08/11/2013 21:54:37",
+    "creator": "https://xively.com/users/intruz",
+    "version": null,
+    "website": "http://www.if.pw.edu.pl/~meteo/",
+    "datastreams": [
+      {
+        "id": "Atmospheric_Pressure",
+        "current_value": "1012.1",
+        "at": "10/12/2013 15:35:00",
+        "max_value": "1020.7",
+        "min_value": "997.4",
+        "tags": [
+          "pressure"
+        ],
+        "unit": {
+          "symbol": "hPa",
+          "label": "hectopascal",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Humidity",
+        "current_value": "85",
+        "at": "10/12/2013 15:35:00",
+        "max_value": "98.0",
+        "min_value": "35.0",
+        "tags": [
+          "humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Rain",
+        "current_value": "0.0",
+        "at": "10/12/2013 15:35:00",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "rain"
+        ],
+        "unit": {
+          "symbol": "l/m²",
+          "label": "litres per square metre per hour",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Solar_Radiation",
+        "current_value": "65",
+        "at": "10/12/2013 15:35:00",
+        "max_value": "870.0",
+        "min_value": "0.0",
+        "tags": [
+          "solar radiation"
+        ],
+        "unit": {
+          "symbol": "W/m²",
+          "label": "watts per square meter",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperature",
+        "current_value": "13.1",
+        "at": "10/12/2013 15:35:00",
+        "max_value": "26.0",
+        "min_value": "2.7",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "degrees Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "UV_Index",
+        "current_value": "0.8",
+        "at": "10/12/2013 15:35:00",
+        "max_value": "4.7",
+        "min_value": "0.0",
+        "tags": [
+          "uv index"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Wind_Chill",
+        "current_value": "12.6",
+        "at": "10/12/2013 15:35:00",
+        "max_value": "26.0",
+        "min_value": "0.1",
+        "tags": [
+          "wind chill"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "degrees Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Wind_Speed",
+        "current_value": "2.2",
+        "at": "10/12/2013 15:35:00",
+        "max_value": "4.0",
+        "min_value": "0.0",
+        "tags": [
+          "wind speed"
+        ],
+        "unit": {
+          "symbol": "m/s",
+          "label": "metre per second",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/864979166\" >Weather station</a>",
+    "URLMostrar": "https://xively.com/feeds/864979166"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\864979166.json",
+  "DocumentJSON": null
+}

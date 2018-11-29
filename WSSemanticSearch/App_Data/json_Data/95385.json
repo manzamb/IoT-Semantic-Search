@@ -1,0 +1,72 @@
+{
+  "Conceptos": [
+    "process"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "95385",
+    "title": "pend2",
+    "Private": false,
+    "tags": [
+      "arduino"
+    ],
+    "description": "pendulum (1 second) fed to arduino via picax detector and then sent to COSM via processing.",
+    "feed": "https://api.xively.com/v2/feeds/95385.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "02/01/2013 09:02:06",
+    "created": "12/31/2012 04:20:23",
+    "creator": "https://xively.com/users/steviewonder",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "591.0",
+        "at": "02/01/2013 09:02:06",
+        "max_value": "1000.0",
+        "min_value": "0.0",
+        "tags": [
+          "gated to allow 327680 pulses",
+          "Second Pendulum Data"
+        ],
+        "unit": {
+          "symbol": "c/s",
+          "label": "counts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "541.0",
+        "at": "02/01/2013 09:02:06",
+        "max_value": "577.0",
+        "min_value": "474.0",
+        "tags": [
+          "for long term variation",
+          "running ave of feed 0"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Scotland island",
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/95385\" >pend2</a>",
+    "URLMostrar": "https://xively.com/feeds/95385"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\95385.json",
+  "DocumentJSON": null
+}

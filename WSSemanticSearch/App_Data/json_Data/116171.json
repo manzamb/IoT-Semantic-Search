@@ -1,0 +1,118 @@
+{
+  "Conceptos": [
+    "sensing"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "116171",
+    "title": "Thermoelectric Refrigerator",
+    "Private": false,
+    "tags": [
+      "electric imp",
+      "humidity",
+      "peltier",
+      "temperature",
+      "thermoelectric cooling"
+    ],
+    "description": "A DIY peltier fridge. I took an esky and added a 130W, 40mm Peltier. The hot side of the Peltier is cooled by a custom water loop, using PC parts. The advantage over air-cooling is the system is very quiet and it limits the hot side of the Peltier to only 5 or 6 deg.C above ambient. The internal air of the esky is cooled to 0 deg. C within 45 minutes of turn-on.  \r\n\r\nControl and sensing is done with an \"electric Imp\" device. It is currently connected to 3 analog temperature sensors and 1 analog relative humidity sensor.\r\n\r\nStill to do... \r\n\r\n(1) Implement a PID loop and PWM switching to control the Peltier voltage - this will maintain the internal air temperature at 2 or 3 deg.C\r\n\r\n(2) Hook up various I2C chips to monitor voltages, currents, fan RPMs, water temperature and water flow rate. \r\n\r\n(3) Implement condition monitoring and fail-safe shutdown of the Peltier if the hot side  goes above 35 deg.C.",
+    "feed": "https://api.xively.com/v2/feeds/116171.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "07/20/2013 06:26:32",
+    "created": "03/01/2013 14:14:40",
+    "creator": "https://xively.com/users/lmunday",
+    "version": null,
+    "website": "http://fridge.zzl.org",
+    "datastreams": [
+      {
+        "id": "Internal_air_temperature",
+        "current_value": "-4.6",
+        "at": "07/20/2013 06:26:31",
+        "max_value": "0.6",
+        "min_value": "-6.5",
+        "tags": [
+          "electric imp",
+          "peltier",
+          "temperature",
+          "thermoelectric cooling"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Internal_relative_humidity",
+        "current_value": "36.6",
+        "at": "07/20/2013 06:26:32",
+        "max_value": "56.4",
+        "min_value": "28.4",
+        "tags": [
+          "electric imp",
+          "humidity",
+          "peltier",
+          "thermoelectric cooling"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "Percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Peltier_cold_side_temperature",
+        "current_value": "-12.3",
+        "at": "07/20/2013 06:26:32",
+        "max_value": "-10.5",
+        "min_value": "-13.2",
+        "tags": [
+          "electric imp",
+          "peltier",
+          "temperature",
+          "thermoelectric cooling"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Peltier_hot_side_temperature",
+        "current_value": "26.2",
+        "at": "07/20/2013 06:26:31",
+        "max_value": "32.6",
+        "min_value": "25.5",
+        "tags": [
+          "electric imp",
+          "peltier",
+          "temperature",
+          "thermoelectric cooling"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "CSIRO, 1 Technology Ct, Pullenvale, Queensland, Australia",
+      "domain": 0,
+      "lat": "-27.5273372030328",
+      "lon": "152.911486029625",
+      "ele": "80",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/116171\" >Thermoelectric Refrigerator</a>",
+    "URLMostrar": "https://xively.com/feeds/116171"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\116171.json",
+  "DocumentJSON": null
+}

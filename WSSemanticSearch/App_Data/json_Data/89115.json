@@ -1,0 +1,66 @@
+{
+  "Conceptos": [
+    "medium"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "89115",
+    "title": "Battery an RSSI -close with medium traffic",
+    "Private": false,
+    "tags": [
+      "arduino"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/89115.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "12/03/2012 09:30:53",
+    "created": "11/29/2012 13:23:27",
+    "creator": "https://xively.com/users/sutasom",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Battery",
+        "current_value": "4.08",
+        "at": "12/03/2012 09:30:53",
+        "max_value": "4.08",
+        "min_value": "3.71",
+        "tags": null,
+        "unit": {
+          "symbol": "V",
+          "label": "Volts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "RSSI",
+        "current_value": "-33",
+        "at": "12/03/2012 09:30:53",
+        "max_value": "-27.0",
+        "min_value": "-4126.0",
+        "tags": null,
+        "unit": {
+          "symbol": "RSSI",
+          "label": "dbm",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/89115\" >Battery an RSSI -close with medium traffic</a>",
+    "URLMostrar": "https://xively.com/feeds/89115"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\89115.json",
+  "DocumentJSON": null
+}

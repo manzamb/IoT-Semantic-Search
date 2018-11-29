@@ -1,0 +1,118 @@
+{
+  "Conceptos": [
+    "precipitation"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "24127",
+    "title": "Sandyford Road Weather",
+    "Private": false,
+    "tags": [
+      "weather"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/24127.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "12/21/2013 07:20:08",
+    "created": "04/22/2011 14:20:49",
+    "creator": "https://xively.com/users/caog",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "air",
+        "current_value": "8.3",
+        "at": "12/21/2013 07:20:07",
+        "max_value": "29.0",
+        "min_value": "-3.3",
+        "tags": [
+          "Air Temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "hum",
+        "current_value": "69",
+        "at": "09/09/2013 19:00:01",
+        "max_value": "100.0",
+        "min_value": "27.0",
+        "tags": [
+          "Humidity"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "rain",
+        "current_value": "0",
+        "at": "09/09/2013 19:00:01",
+        "max_value": "109.0",
+        "min_value": "0.0",
+        "tags": [
+          "Precipitation"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "mm",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "road",
+        "current_value": "16.4",
+        "at": "09/09/2013 19:00:01",
+        "max_value": "46.0",
+        "min_value": "-3.9",
+        "tags": [
+          "Road Temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "wind",
+        "current_value": "2",
+        "at": "09/09/2013 19:00:01",
+        "max_value": "45.0",
+        "min_value": "0.0",
+        "tags": [
+          "Wind Speed"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Km/h",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Sandyford M50, Dublin, Ireland",
+      "domain": 0,
+      "lat": "53.267009665765",
+      "lon": "-6.25220775604248",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/24127\" >Sandyford Road Weather</a>",
+    "URLMostrar": "https://xively.com/feeds/24127"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\24127.json",
+  "DocumentJSON": null
+}

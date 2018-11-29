@@ -1,0 +1,68 @@
+{
+  "Conceptos": [
+    "temperatura"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "80734",
+    "title": "Vivienda Unifamiliar Adosada 001",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/80734.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:12:57",
+    "created": "10/17/2012 15:51:03",
+    "creator": "https://xively.com/users/geshab",
+    "version": null,
+    "website": "http://www.geshab.es",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "20.20",
+        "at": "03/21/2014 14:12:57",
+        "max_value": "30.8",
+        "min_value": "0.0",
+        "tags": [
+          "Temperatura Interior"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Grados Centigrados",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "908",
+        "at": "03/21/2014 14:12:57",
+        "max_value": "8563.0",
+        "min_value": "0.0",
+        "tags": [
+          "Potencia Total"
+        ],
+        "unit": {
+          "symbol": "w",
+          "label": "Watios",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Pozuelo de Alarcón",
+      "domain": 0,
+      "lat": "40.4220482204016",
+      "lon": "-3.80307197570801",
+      "ele": "690",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/80734\" >Vivienda Unifamiliar Adosada 001</a>",
+    "URLMostrar": "https://xively.com/feeds/80734"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\80734.json",
+  "DocumentJSON": null
+}

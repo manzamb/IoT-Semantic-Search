@@ -1,0 +1,81 @@
+{
+  "Conceptos": [
+    "person"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "79086",
+    "title": "Thrissur Weather report powered by Raspberry Pi",
+    "Private": false,
+    "tags": [
+      "Arch Linux",
+      "Arduino",
+      "arduino",
+      "bmp085",
+      "india",
+      "Kerala",
+      "pressure",
+      "rain",
+      "Raspberry Pi",
+      "temperature",
+      "Thrissur",
+      "Weather Station"
+    ],
+    "description": "Thrissur's weather report from Jeffrey's personal weather station.",
+    "feed": "https://api.xively.com/v2/feeds/79086.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "12/22/2012 18:16:49",
+    "created": "10/06/2012 15:59:54",
+    "creator": "https://xively.com/users/tsrwtr",
+    "version": null,
+    "website": "http://www.jeffrey.co.in/projects/tsrwtr",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "28.70",
+        "at": "12/22/2012 18:16:49",
+        "max_value": "30.2",
+        "min_value": "25.4",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "1009.92",
+        "at": "12/22/2012 18:16:49",
+        "max_value": "1013.5",
+        "min_value": "1004.05",
+        "tags": [
+          "Pressure"
+        ],
+        "unit": {
+          "symbol": "mbar",
+          "label": "millibar",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Chembukkavu",
+      "domain": 0,
+      "lat": "10.5319904340351",
+      "lon": "76.2240242958069",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/79086\" >Thrissur Weather report powered by Raspberry Pi</a>",
+    "URLMostrar": "https://xively.com/feeds/79086"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\79086.json",
+  "DocumentJSON": null
+}

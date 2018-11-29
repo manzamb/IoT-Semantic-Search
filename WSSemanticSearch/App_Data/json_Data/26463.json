@@ -1,0 +1,116 @@
+{
+  "Conceptos": [
+    "frequency"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "26463",
+    "title": "Tres Alas Electric",
+    "Private": false,
+    "tags": null,
+    "description": "Electric power usage at Tres Alas",
+    "feed": "https://api.xively.com/v2/feeds/26463.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "02/01/2014 08:32:43",
+    "created": "06/11/2011 23:10:23",
+    "creator": "https://xively.com/users/joebritt",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "119.0",
+        "at": "02/01/2014 08:32:42",
+        "max_value": "125.0",
+        "min_value": "101.0",
+        "tags": [
+          "Leg 1 Voltage"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": "Volts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "119.0",
+        "at": "02/01/2014 08:32:42",
+        "max_value": "125.0",
+        "min_value": "97.0",
+        "tags": [
+          "Leg 2 Voltage"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": "Volts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "4.0",
+        "at": "02/01/2014 08:32:42",
+        "max_value": "42.0",
+        "min_value": "3.0",
+        "tags": [
+          "Leg 1 Current"
+        ],
+        "unit": {
+          "symbol": "A",
+          "label": "Amps",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "4.0",
+        "at": "02/01/2014 08:32:42",
+        "max_value": "86.0",
+        "min_value": "3.0",
+        "tags": [
+          "Leg 2 Current"
+        ],
+        "unit": {
+          "symbol": "A",
+          "label": "Amps",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "60.0",
+        "at": "02/01/2014 08:32:42",
+        "max_value": "63.8",
+        "min_value": "33.0",
+        "tags": [
+          "Line Frequency"
+        ],
+        "unit": {
+          "symbol": "Hz",
+          "label": "Hertz",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/26463\" >Tres Alas Electric</a>",
+    "URLMostrar": "https://xively.com/feeds/26463"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\26463.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,111 @@
+{
+  "Conceptos": [
+    "sensing"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "77207",
+    "title": "Monitor de variables",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "humidity",
+      "light intensity",
+      "Sensor temperature"
+    ],
+    "description": "Sensor for sensing different variables to monitor plant's habitat",
+    "feed": "https://api.xively.com/v2/feeds/77207.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "09/27/2012 13:16:08",
+    "created": "09/24/2012 16:30:57",
+    "creator": "https://xively.com/users/elmasnacho",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Hum",
+        "current_value": null,
+        "at": "09/27/2012 13:16:08",
+        "max_value": null,
+        "min_value": null,
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Hume",
+        "current_value": null,
+        "at": "09/27/2012 11:56:09",
+        "max_value": null,
+        "min_value": null,
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Humed",
+        "current_value": null,
+        "at": "09/27/2012 11:56:29",
+        "max_value": null,
+        "min_value": null,
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Humedad",
+        "current_value": "0",
+        "at": "09/27/2012 13:14:56",
+        "max_value": "104.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperatura",
+        "current_value": "15",
+        "at": "09/27/2012 13:16:08",
+        "max_value": "17.0",
+        "min_value": "14.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "*C",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Arica",
+      "domain": 0,
+      "lat": "-18.4691889044172",
+      "lon": "-70.33447265625",
+      "ele": "10",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/77207\" >Monitor de variables</a>",
+    "URLMostrar": "https://xively.com/feeds/77207"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\77207.json",
+  "DocumentJSON": null
+}

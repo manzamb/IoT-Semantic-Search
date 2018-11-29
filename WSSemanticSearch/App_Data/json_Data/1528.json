@@ -1,0 +1,91 @@
+{
+  "Conceptos": [
+    "frequency"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "1528",
+    "title": "Light Load Lamp",
+    "Private": false,
+    "tags": null,
+    "description": "Data from the Light Load Lamp, a lamp plugged into a Mazzini prototype that automatically turns itself off if the National Grid is overloaded",
+    "feed": "https://api.xively.com/v2/feeds/1528.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "09/08/2010 09:41:03",
+    "created": "03/12/2009 02:32:45",
+    "creator": "https://xively.com/users/amcewen",
+    "version": null,
+    "website": "http://www.mcqn.com/research",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "1956.0",
+        "at": "09/08/2010 09:41:03",
+        "max_value": "3117.0",
+        "min_value": "49.898",
+        "tags": [
+          "electricity",
+          "energy",
+          "mains frequency",
+          "power consumption"
+        ],
+        "unit": {
+          "symbol": "J",
+          "label": "Joule",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "50.051",
+        "at": "09/08/2010 09:41:03",
+        "max_value": "52.147",
+        "min_value": "1.0",
+        "tags": [
+          "lamp status",
+          "mains frequency"
+        ],
+        "unit": {
+          "symbol": "Hz",
+          "label": "Hertz",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "1",
+        "at": "09/08/2010 09:41:03",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "electricity",
+          "Energy",
+          "lamp status",
+          "power consumption"
+        ],
+        "unit": {
+          "symbol": "J",
+          "label": "On or off",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "MCQN Office",
+      "domain": 0,
+      "lat": "53.39767",
+      "lon": "-2.96859",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/1528\" >Light Load Lamp</a>",
+    "URLMostrar": "https://xively.com/feeds/1528"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\1528.json",
+  "DocumentJSON": null
+}

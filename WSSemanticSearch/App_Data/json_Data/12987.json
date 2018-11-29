@@ -1,0 +1,106 @@
+{
+  "Conceptos": [
+    "solar radiation"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "12987",
+    "title": "Home Monitoring and Automation",
+    "Private": false,
+    "tags": [
+      "air",
+      "fridge",
+      "hallway",
+      "humidity",
+      "temperature"
+    ],
+    "description": "Work-in-progress! ==Problems with the server== Fixing these days!!\r\n\r\nThis is part of a research project for the PRISPA house, the Romanian team participating in the Solar Decathlon Europe 2012, the most important competition nowadays promoting the use of solar energy (for more info check: http://prispa.org/ and  http://www.solardecathlon.gov/sd_europe.html). \r\n\r\nYou can also find us on Facebook: https://www.facebook.com/prispa2012\r\n\r\nThis project is evolving. Sensors and actuators will be added in the near future.\r\n\r\nNow monitoring: \r\n\r\n- temperature in apartment hallway  \r\n- humidity in apartment hallway \r\n- temperature inside the refrigerator \r\n- humidity inside the refrigerator \r\n\r\nNext on the list:\r\n\r\nIndoors:\r\n- open/close refrigerator (to combine the info with temp and humidity inside and outside  the refrigerator to see how they influence one another. Refrigerator temperature will be monitored in the competition)\r\nOutdoors:\r\n- radiation levels using a Sparkfun Geiger counter.\r\n- light intensity (will work with a curtain actuator)\r\n- tempererature and humidity\r\n\r\nFor now the whole infrastructure is based on Arduino + Mac Mini Server + Max/MSP + Pachube. ",
+    "feed": "https://api.xively.com/v2/feeds/12987.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "11/23/2013 16:06:25",
+    "created": "11/24/2010 23:15:21",
+    "creator": "https://xively.com/users/zws",
+    "version": null,
+    "website": "http://prispa.org/",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "0.00",
+        "at": "11/23/2013 16:06:25",
+        "max_value": "997.75684",
+        "min_value": "0.0",
+        "tags": [
+          "ambient temperature"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "0.00",
+        "at": "11/23/2013 16:06:25",
+        "max_value": "12000.0",
+        "min_value": "0.0",
+        "tags": [
+          "ambient humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "0.00",
+        "at": "11/23/2013 16:06:25",
+        "max_value": "34.0",
+        "min_value": "0.0",
+        "tags": [
+          "fridge temperature"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "0.00",
+        "at": "11/23/2013 16:06:25",
+        "max_value": "57.0",
+        "min_value": "0.0",
+        "tags": [
+          "fridge humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Bucharest, Romania",
+      "domain": 0,
+      "lat": "44.4107922268879",
+      "lon": "26.1726522445679",
+      "ele": "23",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/12987\" >Home Monitoring and Automation</a>",
+    "URLMostrar": "https://xively.com/feeds/12987"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\12987.json",
+  "DocumentJSON": null
+}

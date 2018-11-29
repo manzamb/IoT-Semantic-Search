@@ -1,0 +1,171 @@
+{
+  "Conceptos": [
+    "pst"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "603221342",
+    "title": "RaspiStrado",
+    "Private": false,
+    "tags": [
+      "18b20",
+      "arduino",
+      "bmp085",
+      "dht11",
+      "meteo",
+      "pluviometro",
+      "raspberry",
+      "uno"
+    ],
+    "description": "Esempio, in continuo sviluppo, di stazione meteo autocostruita con sensori stand-alone, Raspberry Pi e Arduino Uno. ©2014 RaspiStrado",
+    "feed": "https://api.xively.com/v2/feeds/603221342.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:11:51",
+    "created": "12/03/2013 08:15:02",
+    "creator": "https://xively.com/users/stradini",
+    "version": null,
+    "website": "http://raspistrado.homepc.it",
+    "datastreams": [
+      {
+        "id": "CPU_Temperature",
+        "current_value": "35.8",
+        "at": "03/21/2014 14:11:51",
+        "max_value": "44.9",
+        "min_value": "25.0",
+        "tags": null,
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Humidity",
+        "current_value": "41",
+        "at": "03/21/2014 14:11:51",
+        "max_value": "95.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "%RH",
+          "label": "Relative Humidity",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Light",
+        "current_value": "7943",
+        "at": "03/21/2014 14:11:51",
+        "max_value": "3162240.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "Lx",
+          "label": "Lx",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Pressure_Rel",
+        "current_value": "1018.11",
+        "at": "03/21/2014 14:11:51",
+        "max_value": "1033.98",
+        "min_value": "12.35",
+        "tags": null,
+        "unit": {
+          "symbol": "hPa",
+          "label": "hPa",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Rain",
+        "current_value": "0.0",
+        "at": "03/21/2014 14:11:51",
+        "max_value": "9.99",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "mm",
+          "label": "mm",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Rain_day",
+        "current_value": "0.0",
+        "at": "03/21/2014 14:11:51",
+        "max_value": "21.76",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "mm",
+          "label": "mm",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temp",
+        "current_value": "16.4",
+        "at": "03/21/2014 14:11:51",
+        "max_value": "22.9",
+        "min_value": "2.3",
+        "tags": null,
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temp_risc",
+        "current_value": "16.18",
+        "at": "03/21/2014 14:11:51",
+        "max_value": "22.18",
+        "min_value": "-0.7",
+        "tags": null,
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Vento",
+        "current_value": "0.0",
+        "at": "03/21/2014 14:11:51",
+        "max_value": "61.97",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "Kmh",
+          "label": "Kmh",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Le Grazie Portovenere (La Spezia) - Italy",
+      "domain": 0,
+      "lat": "44.0682853632244",
+      "lon": "9.83310699462891",
+      "ele": "18 meters",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/603221342\" >RaspiStrado</a>",
+    "URLMostrar": "https://xively.com/feeds/603221342"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\603221342.json",
+  "DocumentJSON": null
+}

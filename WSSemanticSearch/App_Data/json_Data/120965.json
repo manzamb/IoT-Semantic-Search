@@ -1,0 +1,278 @@
+{
+  "Conceptos": [
+    "mp10"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "120965",
+    "title": "Domotique Ardui'Mat",
+    "Private": false,
+    "tags": [
+      "433MHz",
+      "arduino",
+      "bmp085",
+      "boulogne-sur-mer",
+      "france",
+      "temperature",
+      "tmp102"
+    ],
+    "description": "Différentes données en provenance de divers capteurs de mon équipement domotique (températures, état chaudière, ..)",
+    "feed": "https://api.xively.com/v2/feeds/120965.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:11:52",
+    "created": "03/25/2013 18:49:08",
+    "creator": "https://xively.com/users/swatre",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "11_pir1",
+        "current_value": "1",
+        "at": "03/21/2014 13:29:51",
+        "max_value": "4096.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1_temp2",
+        "current_value": "21.2",
+        "at": "11/16/2013 15:34:00",
+        "max_value": "31.0",
+        "min_value": "0.0",
+        "tags": [
+          "Température SdB"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4_temp2",
+        "current_value": "16.7",
+        "at": "03/21/2014 13:29:52",
+        "max_value": "26.9",
+        "min_value": "-127.0",
+        "tags": [
+          "Température capteur 2"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Degrés",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6_temp3",
+        "current_value": "21.4",
+        "at": "11/16/2013 15:34:00",
+        "max_value": "27.2",
+        "min_value": "0.0",
+        "tags": [
+          "Température BMP085"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Degrés",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "7_press",
+        "current_value": "1029.4",
+        "at": "11/16/2013 15:34:00",
+        "max_value": "1034.4",
+        "min_value": "50.4",
+        "tags": [
+          "Pression atmosphérique BMP085"
+        ],
+        "unit": {
+          "symbol": "hPa",
+          "label": "Hectopascal",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "8_temp4",
+        "current_value": "12.3",
+        "at": "03/21/2014 13:29:51",
+        "max_value": "509.8",
+        "min_value": "-390.4",
+        "tags": [
+          "Température cave"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Degrés",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "9_humid1",
+        "current_value": "68.4",
+        "at": "03/21/2014 13:29:51",
+        "max_value": "4050124.8",
+        "min_value": "-71790.4",
+        "tags": [
+          "Hygrométrie cave"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "Pourcentage",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2_tension",
+        "current_value": "100",
+        "at": "11/16/2013 15:34:00",
+        "max_value": "100.0",
+        "min_value": "0.0",
+        "tags": [
+          "Tension capteur +VCC"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "Pourcentage",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5_tension2",
+        "current_value": "81",
+        "at": "03/21/2014 13:29:52",
+        "max_value": "124.0",
+        "min_value": "0.0",
+        "tags": [
+          "Tension capteur2 +VCC"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "Pourcentage",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "10_tension3",
+        "current_value": "44",
+        "at": "03/21/2014 13:29:51",
+        "max_value": "236.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "12_tension3v",
+        "current_value": "4.2",
+        "at": "03/21/2014 13:29:51",
+        "max_value": "1467.2",
+        "min_value": "-6.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3_tension_aff",
+        "current_value": "15",
+        "at": "01/28/2014 23:27:41",
+        "max_value": "252.0",
+        "min_value": "-7.84",
+        "tags": [
+          "Tension afficheur +VCC"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "Pourcentage",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "chaud",
+        "current_value": "0",
+        "at": "03/21/2014 14:11:52",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "Etat Chaudière"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temp_ext",
+        "current_value": "11.8",
+        "at": "03/21/2014 14:11:52",
+        "max_value": "30.9",
+        "min_value": "-0.1",
+        "tags": [
+          "Température extérieure"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temp_int",
+        "current_value": "18.5",
+        "at": "03/21/2014 14:11:51",
+        "max_value": "27.3",
+        "min_value": "0.0",
+        "tags": [
+          "Température intérieure"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "france, boulogne-sur-mer",
+      "domain": 0,
+      "lat": "50.7250259107891",
+      "lon": "1.61385834217072",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/120965\" >Domotique Ardui'Mat</a>",
+    "URLMostrar": "https://xively.com/feeds/120965"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\120965.json",
+  "DocumentJSON": null
+}

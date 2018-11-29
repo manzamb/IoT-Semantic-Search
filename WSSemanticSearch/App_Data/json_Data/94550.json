@@ -1,0 +1,68 @@
+{
+  "Conceptos": [
+    "process"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "94550",
+    "title": "RPi1",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/94550.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "12/24/2012 01:25:04",
+    "created": "12/24/2012 01:23:05",
+    "creator": "https://xively.com/users/savimarko",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "CpuLoad",
+        "current_value": "0.08",
+        "at": "12/24/2012 02:00:05",
+        "max_value": "0.11",
+        "min_value": "0.01",
+        "tags": [
+          "processor load"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperature",
+        "current_value": "42.774",
+        "at": "12/24/2012 00:00:00",
+        "max_value": "42.774",
+        "min_value": "0.0",
+        "tags": [
+          "temperature raspberry pi"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/94550\" >RPi1</a>",
+    "URLMostrar": "https://xively.com/feeds/94550"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\94550.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,110 @@
+{
+  "Conceptos": [
+    "pst"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "79901",
+    "title": "Home Monitoring",
+    "Private": false,
+    "tags": [
+      "home",
+      "temperature",
+      "upstairs"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/79901.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:09:43",
+    "created": "10/12/2012 04:03:58",
+    "creator": "https://xively.com/users/nanotube",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "5_Backup_Temperature",
+        "current_value": "70.7",
+        "at": "03/21/2014 14:09:43",
+        "max_value": "75.7",
+        "min_value": "66.2",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2_Kevins_Room_Humidity",
+        "current_value": "52",
+        "at": "03/21/2014 14:09:43",
+        "max_value": "80.0",
+        "min_value": "17.0",
+        "tags": null,
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1_Kevins_Room_Temperature",
+        "current_value": "71.1",
+        "at": "03/21/2014 14:09:43",
+        "max_value": "85.1",
+        "min_value": "45.3",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3_Outside_of_Home_Temperature",
+        "current_value": "57.6",
+        "at": "03/21/2014 14:09:43",
+        "max_value": "90.2",
+        "min_value": "35.8",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4_Downstairs_Tstat_Temperature",
+        "current_value": "67.1",
+        "at": "03/21/2014 14:09:43",
+        "max_value": "79.5",
+        "min_value": "60.8",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/79901\" >Home Monitoring</a>",
+    "URLMostrar": "https://xively.com/feeds/79901"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\79901.json",
+  "DocumentJSON": null
+}

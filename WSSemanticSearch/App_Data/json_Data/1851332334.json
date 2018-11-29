@@ -1,0 +1,100 @@
+{
+  "Conceptos": [
+    "co2"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "1851332334",
+    "title": "평안산업",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/1851332334.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:05:29",
+    "created": "10/18/2013 07:11:37",
+    "creator": "https://xively.com/users/pyungansanup",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "CO2",
+        "current_value": "361.91",
+        "at": "03/21/2014 14:05:29",
+        "max_value": "1187.51",
+        "min_value": "-1248.4",
+        "tags": [
+          "CO2 농도"
+        ],
+        "unit": {
+          "symbol": "ppm",
+          "label": "ppm",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "RH",
+        "current_value": "32.69",
+        "at": "03/21/2014 14:05:29",
+        "max_value": "51.75",
+        "min_value": "11.55",
+        "tags": [
+          "습도"
+        ],
+        "unit": {
+          "symbol": "%RH",
+          "label": "%RH",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temp",
+        "current_value": "20.60",
+        "at": "03/21/2014 14:05:29",
+        "max_value": "27.94",
+        "min_value": "10.59",
+        "tags": [
+          "온도"
+        ],
+        "unit": {
+          "symbol": "'C",
+          "label": "'C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Watt",
+        "current_value": "405.37",
+        "at": "03/21/2014 14:05:29",
+        "max_value": "2023.47",
+        "min_value": "-2747.76",
+        "tags": [
+          "전력"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "W",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/1851332334\" >평안산업</a>",
+    "URLMostrar": "https://xively.com/feeds/1851332334"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\1851332334.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,83 @@
+{
+  "Conceptos": [
+    "group"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "102393",
+    "title": "EAVN Office Rack 4th floor",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "humidity",
+      "light",
+      "temperature"
+    ],
+    "description": "An arduino system with humidity, temperature, and light sensors.",
+    "feed": "https://api.xively.com/v2/feeds/102393.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "04/23/2013 04:23:53",
+    "created": "02/04/2013 04:46:36",
+    "creator": "https://xively.com/users/lwsinclair",
+    "version": null,
+    "website": "http://eastagile.com",
+    "datastreams": [
+      {
+        "id": "sensor3-humid",
+        "current_value": "40",
+        "at": "04/23/2013 04:23:53",
+        "max_value": "65.0",
+        "min_value": "30.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "sensor3-temp",
+        "current_value": "29",
+        "at": "04/23/2013 04:23:53",
+        "max_value": "37.0",
+        "min_value": "27.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "sensor4-light",
+        "current_value": "530",
+        "at": "04/23/2013 04:23:53",
+        "max_value": "779.0",
+        "min_value": "508.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "East Agile Vietnam 4th floor",
+      "domain": 0,
+      "lat": "10.7793",
+      "lon": "106.6633",
+      "ele": "16",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/102393\" >EAVN Office Rack 4th floor</a>",
+    "URLMostrar": "https://xively.com/feeds/102393"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\102393.json",
+  "DocumentJSON": null
+}

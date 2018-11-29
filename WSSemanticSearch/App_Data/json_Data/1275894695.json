@@ -1,0 +1,68 @@
+{
+  "Conceptos": [
+    "co2"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "1275894695",
+    "title": "Indoor CO2",
+    "Private": false,
+    "tags": [
+      "Air Quality",
+      "CO2",
+      "Raumlima"
+    ],
+    "description": "Sensor Testing by using the CO2 Sensor SEN CO2 O 100.\nCO2 is an indicator for the air quality.\nThe CO2 content is measured in a conference room.\nSensordaten - Messmethode: Dual Wavelength NDIR\nAufwärmzeit. < 2 Minuten\nMax. Luftgeschwindigkeit 0,2 - 1 m/s\nMessbereich: 0 - 5000 ppm \nSpannungsversorgung: 16-24 VDC\nAusgang: analog\nKommunikation: UART",
+    "feed": "https://api.xively.com/v2/feeds/1275894695.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "11/03/2013 18:51:31",
+    "created": "06/27/2013 05:12:14",
+    "creator": "https://xively.com/users/pedrothomas",
+    "version": null,
+    "website": "http://datalogger.gmxhome.de",
+    "datastreams": [
+      {
+        "id": "CO2-Inside",
+        "current_value": "647",
+        "at": "10/04/2013 10:30:00",
+        "max_value": "5000.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "ppm",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperature-Inside",
+        "current_value": "24.35",
+        "at": "10/04/2013 10:30:00",
+        "max_value": "29.77",
+        "min_value": "21.92",
+        "tags": null,
+        "unit": {
+          "symbol": "°C",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Z1",
+      "domain": 0,
+      "lat": "48.7279458917269",
+      "lon": "9.13252437132269",
+      "ele": "410 ",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/1275894695\" >Indoor CO2</a>",
+    "URLMostrar": "https://xively.com/feeds/1275894695"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\1275894695.json",
+  "DocumentJSON": null
+}

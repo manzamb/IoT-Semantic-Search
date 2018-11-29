@@ -1,0 +1,118 @@
+{
+  "Conceptos": [
+    "air quality"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "26495",
+    "title": "MIS1",
+    "Private": false,
+    "tags": [
+      "Solar Radiation & Temperature"
+    ],
+    "description": "- Photo Voltaic Panel Temperature\r\n- Solar Radiation\r\nIlluminance & Estimation of the Total Daily Radiation Energy (TDRE) in Wh per square meter in the 550-650nm band (LDR response with a 5% error in the range 25lx-200lx and 90klx-200klx; a 10% error below 25lx and over 200klx and a typical error of 1.5% in the range 200lx-90klx).\r\nIn the clear sky scenario the TDRE is about 17% of the Solar Radiation Energy due to the entire Solar Spectrum at sea level.\r\nThe illumination is the mean value of several measures, taken about every 0,5s, between two records (about 30s).\r\n- OSC reports the half of the absolute variation/oscillation  (in %) of the illuminance between two records (about 30s), the % is computed to the mean illuminance in that interval, so it is useful to estimate the quality (continuity) of the stored measures.\r\nValid measures of Temperature and Illuminance from 13-NOV-2011.\r\nEstimation of  the Total Daily Radiation Energy in Wh per square meter in the 550-650nm band from 13-NOV-2011.\r\nValid measures of OSC from 04-JAN-2012.\r\nMissing data, due to router fault, from 02-JUL-2012 to 21-JUL-2012.\r\nFrom 24-SEP-2012 data feeding problems ... still working on ...\r\nFeed update restored from 14-OCT-2012.\r\nLDR sensor failure from 04-NOV-2012 to ... (under repair) ... Diagnosis :\r\nLDR failure, the LDR itself isn't working anymore ... looking for a substitute ...",
+    "feed": "https://api.xively.com/v2/feeds/26495.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:09:00",
+    "created": "06/12/2011 15:55:14",
+    "creator": "https://xively.com/users/sole69",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "36.8",
+        "at": "03/21/2014 14:09:00",
+        "max_value": "63.7",
+        "min_value": "-7.4",
+        "tags": [
+          "Temperatura"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "26676",
+        "at": "03/21/2014 14:09:00",
+        "max_value": "876805.0",
+        "min_value": "0.0",
+        "tags": [
+          "LUX 550-650nm"
+        ],
+        "unit": {
+          "symbol": "lx",
+          "label": "Lux",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "0.0",
+        "at": "03/21/2014 14:09:00",
+        "max_value": "445.8",
+        "min_value": "0.0",
+        "tags": [
+          "OSC"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "absolute",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "365.2",
+        "at": "03/21/2014 14:09:00",
+        "max_value": "17645.5",
+        "min_value": "0.0",
+        "tags": [
+          "550-650nm"
+        ],
+        "unit": {
+          "symbol": "Wh/m^2",
+          "label": "Watt hour /m^2",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "3587",
+        "at": "03/21/2014 14:09:00",
+        "max_value": "7348846.0",
+        "min_value": "332.0",
+        "tags": [
+          "LDR value"
+        ],
+        "unit": {
+          "symbol": "ohm",
+          "label": "Ohm",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": "85",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/26495\" >MIS1</a>",
+    "URLMostrar": "https://xively.com/feeds/26495"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\26495.json",
+  "DocumentJSON": null
+}

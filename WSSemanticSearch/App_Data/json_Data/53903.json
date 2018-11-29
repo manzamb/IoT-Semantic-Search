@@ -1,0 +1,68 @@
+{
+  "Conceptos": [
+    "area"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "53903",
+    "title": "Bosch BMP085",
+    "Private": false,
+    "tags": null,
+    "description": "• Decreasing barometric pressure indicates storms, rain and windy weather. \r\n• Rising barometric pressure indicates fair, dry, and colder weather. \r\n• Slow, regular and moderate falls in pressure suggest a low pressure area is passing some distance away. Marked changes in the weather are unlikely.\r\n • Small rapid decreases in pressure indicate a nearby change in weather. They are usually followed by short lasting wind and showers.\r\n • A quick drop in pressure over a short time indicates a storm is likely in 5 to 6 hours.\r\n • Large, slow and sustained decreasing pressure forecasts a long period of poor weather. The weather will be more pronounced if the pressure started rising before it began to drop.\r\n • A rapid rise in pressure, during fair weather and average, or above average pressure, indicates a low pressure cell is approaching. The pressure will soon decrease forecasting poorer weather.\r\n • Quickly rising pressure, when the pressure is low, indicates a short period of fair weather is likely.\r\n • A large, slow and sustained rise in pressure forecasts a long period of good weather is on its way.\r\n \r\nFor pressure tendency, the definitions used by these guidelines are: \r\n\r\n\r\nTerm \r\nPressure change \r\nover 3 hours \r\n\r\nhPa \r\n\r\nin-Hg \r\n\r\nmm-Hg \r\n\r\nSteady Less than 0.1 0.003 0.08 Slowly rising or falling 0.15 to 1.5 0.003 to 0.04 0.08 to 1.1 Rising or falling 1.6 to 3.5 0.05 to 0.1 1.2 to 2.6 Quickly rising or falling 3.6 to 6.0 0.1 to 0.18 2.7 to 4.5 Rapidly rising or falling More than 6.0 0.18 4.5\r\n \r\n\r\n\r\n",
+    "feed": "https://api.xively.com/v2/feeds/53903.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "04/02/2012 19:00:45",
+    "created": "03/30/2012 09:26:24",
+    "creator": "https://xively.com/users/carefactorzer0",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "ntemp",
+        "current_value": null,
+        "at": "03/30/2012 09:26:24",
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "PA",
+        "current_value": null,
+        "at": "03/30/2012 09:26:24",
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "Pressure"
+        ],
+        "unit": {
+          "symbol": "PA",
+          "label": "Pascals",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/53903\" >Bosch BMP085</a>",
+    "URLMostrar": "https://xively.com/feeds/53903"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\53903.json",
+  "DocumentJSON": null
+}

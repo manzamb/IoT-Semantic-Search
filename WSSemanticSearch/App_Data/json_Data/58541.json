@@ -1,0 +1,180 @@
+{
+  "Conceptos": [
+    "frequency"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "58541",
+    "title": "Home Power Monitor",
+    "Private": false,
+    "tags": null,
+    "description": "Whole house power monitor\r\nMeasures:\r\nReal Power (Watts) - Total power currently used\r\nApparent Power (Volt-Amps) - Reactive power + real power\r\nPower Factor - Ratio of real power to apparent power\r\nCurrent1 (Amps) - Current used by one leg (circuit) of house\r\nCurrent2 (Amps) - Current used by other leg (circuit) of house\r\nTotal Current (Amps) - Total Current used by house\r\nFrequency (Hertz) - Frequency of AC power\r\nBasement Temperature - Current temperature in basement",
+    "feed": "https://api.xively.com/v2/feeds/58541.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "11/17/2013 21:38:12",
+    "created": "05/08/2012 05:49:56",
+    "creator": "https://xively.com/users/saylesnm",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "1",
+        "current_value": "2771.63",
+        "at": "11/17/2013 21:38:12",
+        "max_value": "13692.75",
+        "min_value": "0.0",
+        "tags": [
+          "Real Power"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "2787.39",
+        "at": "11/17/2013 21:38:12",
+        "max_value": "13877.16",
+        "min_value": "0.0",
+        "tags": [
+          "Apparent Power"
+        ],
+        "unit": {
+          "symbol": "VA",
+          "label": "Volt-Amps",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "0.99",
+        "at": "11/17/2013 21:38:12",
+        "max_value": "0.99",
+        "min_value": "0.02",
+        "tags": [
+          "Power Factor"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "122.21",
+        "at": "11/17/2013 21:38:12",
+        "max_value": "269.14",
+        "min_value": "0.0",
+        "tags": [
+          "Voltage - Vrms"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": "Volts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "11.86",
+        "at": "11/17/2013 21:38:12",
+        "max_value": "48.46",
+        "min_value": "0.0",
+        "tags": [
+          "Current1 - Irms1"
+        ],
+        "unit": {
+          "symbol": "A",
+          "label": "Current",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "10.94",
+        "at": "11/17/2013 21:38:12",
+        "max_value": "43.14",
+        "min_value": "0.0",
+        "tags": [
+          "Current2 - Irms2"
+        ],
+        "unit": {
+          "symbol": "A",
+          "label": "Current",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "7",
+        "current_value": "22.80",
+        "at": "11/17/2013 21:38:12",
+        "max_value": "86.36",
+        "min_value": "0.02",
+        "tags": [
+          "Total Current - Irms"
+        ],
+        "unit": {
+          "symbol": "A",
+          "label": "Current",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "8",
+        "current_value": "60.16",
+        "at": "11/17/2013 21:38:12",
+        "max_value": "67.14",
+        "min_value": "0.0",
+        "tags": [
+          "Frequency"
+        ],
+        "unit": {
+          "symbol": "Hz",
+          "label": "Hertz",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "9",
+        "current_value": "67",
+        "at": "11/17/2013 21:38:12",
+        "max_value": "627.0",
+        "min_value": "-24.0",
+        "tags": [
+          "Inside Temperature"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "Degrees F",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Bloomington, IN",
+      "domain": 0,
+      "lat": "39.1380446613609",
+      "lon": "-86.5567654181885",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/58541\" >Home Power Monitor</a>",
+    "URLMostrar": "https://xively.com/feeds/58541"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\58541.json",
+  "DocumentJSON": null
+}

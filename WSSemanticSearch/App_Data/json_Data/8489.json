@@ -1,0 +1,89 @@
+{
+  "Conceptos": [
+    "sensor output"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "8489",
+    "title": "BodgeIT's Hoose",
+    "Private": false,
+    "tags": [
+      "1-wire",
+      "CurrentCost",
+      "HAH",
+      "Temp"
+    ],
+    "description": "Outputs from 1wire temp sensors & CurrentCost electricity monitor connected to my Home Automation Hub (HAH).",
+    "feed": "https://api.xively.com/v2/feeds/8489.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "12/16/2013 12:33:15",
+    "created": "06/30/2010 13:40:52",
+    "creator": "https://xively.com/users/bodgeit",
+    "version": null,
+    "website": "http://www.dbzoo.com/livebox/hah",
+    "datastreams": [
+      {
+        "id": "1",
+        "current_value": "20.20",
+        "at": "11/14/2013 19:00:30",
+        "max_value": "37.7",
+        "min_value": "16.0",
+        "tags": [
+          "temp"
+        ],
+        "unit": {
+          "symbol": "c",
+          "label": "c",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "26.60",
+        "at": "07/05/2013 12:01:52",
+        "max_value": "127.9",
+        "min_value": "-126.9",
+        "tags": [
+          "Outside"
+        ],
+        "unit": {
+          "symbol": "c",
+          "label": "c",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "925.00",
+        "at": "11/14/2013 19:00:30",
+        "max_value": "6532.0",
+        "min_value": "0.0",
+        "tags": [
+          "CurrentCost"
+        ],
+        "unit": {
+          "symbol": "w",
+          "label": "w",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "London",
+      "domain": 0,
+      "lat": "51.505863887455",
+      "lon": "-0.268371105194092",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/8489\" >BodgeIT's Hoose</a>",
+    "URLMostrar": "https://xively.com/feeds/8489"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\8489.json",
+  "DocumentJSON": null
+}

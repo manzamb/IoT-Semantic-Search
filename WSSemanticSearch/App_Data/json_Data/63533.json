@@ -1,0 +1,104 @@
+{
+  "Conceptos": [
+    "longitud"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "63533",
+    "title": "Relative Humidity",
+    "Private": false,
+    "tags": null,
+    "description": "This feed was created using Data Logger for iPhone.",
+    "feed": "https://api.xively.com/v2/feeds/63533.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "01/23/2014 23:33:31",
+    "created": "06/13/2012 16:56:16",
+    "creator": "https://xively.com/users/thereeldill",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "69.54",
+        "at": "01/23/2014 23:33:31",
+        "max_value": "100.0",
+        "min_value": "0.0",
+        "tags": [
+          "relative humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "Percentage",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "51.5632",
+        "at": "01/23/2014 23:33:31",
+        "max_value": "51.5894",
+        "min_value": "51.5459",
+        "tags": [
+          "lat",
+          "latitude"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "0.201561",
+        "at": "01/23/2014 23:33:31",
+        "max_value": "0.457602",
+        "min_value": "0.201473",
+        "tags": [
+          "lon",
+          "longitude"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "25.1867",
+        "at": "01/23/2014 23:33:31",
+        "max_value": "71.5891",
+        "min_value": "0.0",
+        "tags": [
+          "alt",
+          "altitude",
+          "elevation"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "51.5632",
+      "lon": "0.201561",
+      "ele": "25.1867",
+      "exposure": 0,
+      "disposition": 1
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/63533\" >Relative Humidity</a>",
+    "URLMostrar": "https://xively.com/feeds/63533"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\63533.json",
+  "DocumentJSON": null
+}

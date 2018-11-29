@@ -1,0 +1,96 @@
+{
+  "Conceptos": [
+    "condition"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "120306",
+    "title": "Outside Conditions",
+    "Private": false,
+    "tags": [
+      "4in1",
+      "aeon",
+      "humidity",
+      "level",
+      "light",
+      "micasaverde",
+      "multisensor",
+      "temperature"
+    ],
+    "description": "Outside conditions as measured by the Aeon 4-in-1",
+    "feed": "https://api.xively.com/v2/feeds/120306.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:00:46",
+    "created": "03/21/2013 19:25:03",
+    "creator": "https://xively.com/users/falldeaf",
+    "version": null,
+    "website": "http://falldeaf.com",
+    "datastreams": [
+      {
+        "id": "humidity",
+        "current_value": "69",
+        "at": "03/21/2014 14:00:46",
+        "max_value": "88.0",
+        "min_value": "24.0",
+        "tags": [
+          "air",
+          "humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "lightlevel",
+        "current_value": "7",
+        "at": "03/21/2014 14:00:45",
+        "max_value": "1000.0",
+        "min_value": "0.0",
+        "tags": [
+          "level",
+          "light"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temperature",
+        "current_value": "72",
+        "at": "03/21/2014 14:00:45",
+        "max_value": "99.0",
+        "min_value": "40.0",
+        "tags": [
+          "outside",
+          "temp"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "F",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Home",
+      "domain": 0,
+      "lat": "27.352225",
+      "lon": "-80.389714",
+      "ele": "5",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/120306\" >Outside Conditions</a>",
+    "URLMostrar": "https://xively.com/feeds/120306"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\120306.json",
+  "DocumentJSON": null
+}

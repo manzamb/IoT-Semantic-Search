@@ -1,0 +1,139 @@
+{
+  "Conceptos": [
+    "atmospheric pressure"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "103000",
+    "title": "Sołacz Base No.1",
+    "Private": false,
+    "tags": [
+      "ambient_light",
+      "arduino",
+      "BMP085",
+      "DS18B20",
+      "pressure",
+      "temperature"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/103000.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:09:33",
+    "created": "02/06/2013 17:13:39",
+    "creator": "https://xively.com/users/krzycho",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "ambient_light",
+        "current_value": "915.00",
+        "at": "03/21/2014 14:09:33",
+        "max_value": "1017.0",
+        "min_value": "0.0",
+        "tags": [
+          "value"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "atmospheric_pressure",
+        "current_value": "1004.30",
+        "at": "03/21/2014 14:09:33",
+        "max_value": "1035.8",
+        "min_value": "516.95",
+        "tags": [
+          "pressure"
+        ],
+        "unit": {
+          "symbol": "hPa",
+          "label": "hPa",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "heater",
+        "current_value": "20.75",
+        "at": "03/21/2014 14:09:33",
+        "max_value": "47.5",
+        "min_value": "0.0",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "indoor",
+        "current_value": "20.75",
+        "at": "03/21/2014 14:09:33",
+        "max_value": "30.0",
+        "min_value": "0.0",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "outdoor",
+        "current_value": "22.00",
+        "at": "03/21/2014 14:09:33",
+        "max_value": "37.0",
+        "min_value": "-14.25",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "switch01",
+        "current_value": "1.00",
+        "at": "03/21/2014 14:09:33",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "event"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/103000\" >Sołacz Base No.1</a>",
+    "URLMostrar": "https://xively.com/feeds/103000"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\103000.json",
+  "DocumentJSON": null
+}

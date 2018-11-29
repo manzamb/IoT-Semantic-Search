@@ -1,0 +1,156 @@
+{
+  "Conceptos": [
+    "configuration"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "35426",
+    "title": "Rice Homestead",
+    "Private": false,
+    "tags": [
+      "Brultech",
+      "ECM",
+      "generation",
+      "home",
+      "power",
+      "solar",
+      "wind"
+    ],
+    "description": "6-32 channels of power consumption and generation. This includes 8Kw solar, wind and battery installation in a micro-grid configuration.",
+    "feed": "https://api.xively.com/v2/feeds/35426.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/20/2014 02:21:25",
+    "created": "09/10/2011 01:36:40",
+    "creator": "https://xively.com/users/donger88",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "854",
+        "at": "03/20/2014 02:21:25",
+        "max_value": "12134.0",
+        "min_value": "0.0",
+        "tags": [
+          "Main Panel Net-Meter"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "W",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "-226",
+        "at": "03/20/2014 02:21:25",
+        "max_value": "7818.0",
+        "min_value": "-226.0",
+        "tags": [
+          "Energy Generated"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "W",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "628",
+        "at": "03/20/2014 02:21:25",
+        "max_value": "12736.0",
+        "min_value": "0.0",
+        "tags": [
+          "Total Energy Consumed"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "W",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "0",
+        "at": "03/20/2014 02:21:25",
+        "max_value": "2184.0",
+        "min_value": "0.0",
+        "tags": [
+          "Basement Family"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "W",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "0",
+        "at": "03/20/2014 02:21:25",
+        "max_value": "1194.0",
+        "min_value": "0.0",
+        "tags": [
+          "Garage Outlets"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "W",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "0",
+        "at": "03/20/2014 02:21:25",
+        "max_value": "1880.0",
+        "min_value": "0.0",
+        "tags": [
+          "Fridge"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "W",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "3",
+        "at": "03/20/2014 02:21:25",
+        "max_value": "591.0",
+        "min_value": "0.0",
+        "tags": [
+          "Solar Leg 1"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "W",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Greenville, SC",
+      "domain": 0,
+      "lat": "34.7832",
+      "lon": "-82.2553",
+      "ele": "985",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/35426\" >Rice Homestead</a>",
+    "URLMostrar": "https://xively.com/feeds/35426"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\35426.json",
+  "DocumentJSON": null
+}

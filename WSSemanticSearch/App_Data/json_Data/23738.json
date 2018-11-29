@@ -1,0 +1,88 @@
+{
+  "Conceptos": [
+    "ozone"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "23738",
+    "title": "Air Quality Index: Cleveland-Akron-Lorain, Ohio",
+    "Private": false,
+    "tags": [
+      "airnow:cityid=148",
+      "webscrape"
+    ],
+    "description": "Air Quality Index and pollutant data for Cleveland-Akron-Lorain, Ohio webscraped from http://www.airnow.gov/. AIRNow observational data are not fully verified or validated; these data are subject to change and should be considered preliminary. If observational data are used for analyses, displayed on web pages, or used for other programs or products, the analysis results, displays, or products must indicate that these data are preliminary.",
+    "feed": "https://api.xively.com/v2/feeds/23738.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/21/2014 13:39:20",
+    "created": "04/19/2011 10:36:48",
+    "creator": "https://xively.com/users/air_now",
+    "version": null,
+    "website": "http://www.airnow.gov/",
+    "datastreams": [
+      {
+        "id": "aqi",
+        "current_value": "62",
+        "at": "03/21/2014 13:39:19",
+        "max_value": "273.0",
+        "min_value": "1.0",
+        "tags": [
+          "air quality index",
+          "pollution"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "ozone",
+        "current_value": "1",
+        "at": "03/21/2014 13:39:19",
+        "max_value": "228.0",
+        "min_value": "0.0",
+        "tags": [
+          "ozone"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "pm2.5",
+        "current_value": "62",
+        "at": "03/21/2014 13:39:19",
+        "max_value": "273.0",
+        "min_value": "1.0",
+        "tags": [
+          "PM2.5"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Cleveland-Akron-Lorain, Ohio",
+      "domain": 0,
+      "lat": "41.3282764",
+      "lon": "-82.6468774",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/23738\" >Air Quality Index: Cleveland-Akron-Lorain, Ohio</a>",
+    "URLMostrar": "https://xively.com/feeds/23738"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\23738.json",
+  "DocumentJSON": null
+}

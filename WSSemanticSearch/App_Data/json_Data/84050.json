@@ -1,0 +1,86 @@
+{
+  "Conceptos": [
+    "system"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "84050",
+    "title": "PV system 6.5kWp",
+    "Private": false,
+    "tags": [
+      "energy photovoltaic solar"
+    ],
+    "description": "Live data of our 6,5kWp photovoltaic system\r\n\r\nSystem was set up in October 2006.\r\n\r\nConsists of:\r\n35 x MSK TP 156-190 190Wp each.\r\n2 x Sunny Boy 3800\r\n+ Sunny Beam and cisco nslu2 (for updating this site)",
+    "feed": "https://api.xively.com/v2/feeds/84050.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:10:11",
+    "created": "11/05/2012 20:17:05",
+    "creator": "https://xively.com/users/franknitty",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Pac",
+        "current_value": "480",
+        "at": "03/21/2014 14:10:11",
+        "max_value": "7323.0",
+        "min_value": "0.0",
+        "tags": [
+          "energy"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "W",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "yield-daily",
+        "current_value": "12.13",
+        "at": "03/21/2014 11:00:26",
+        "max_value": "41.34",
+        "min_value": "0.0",
+        "tags": [
+          "energy"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "kWh",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "yield-total",
+        "current_value": "48585.21",
+        "at": "03/20/2014 23:00:23",
+        "max_value": "48585.21",
+        "min_value": "0.0",
+        "tags": [
+          "energy"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "kWh",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Hohenhaslach",
+      "domain": 0,
+      "lat": "48.9998731020156",
+      "lon": "9.01878833770752",
+      "ele": "266m",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/84050\" >PV system 6.5kWp</a>",
+    "URLMostrar": "https://xively.com/feeds/84050"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\84050.json",
+  "DocumentJSON": null
+}

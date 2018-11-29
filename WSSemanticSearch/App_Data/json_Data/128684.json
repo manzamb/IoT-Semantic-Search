@@ -1,0 +1,88 @@
+{
+  "Conceptos": [
+    "air quality"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "128684",
+    "title": "Air monitor - Keynsham UK",
+    "Private": false,
+    "tags": [
+      "Air quality",
+      "AQE",
+      "Arduino",
+      "BMP085",
+      "Carbon monoxide",
+      "CO",
+      "Egg",
+      "MQ-7",
+      "MQ7"
+    ],
+    "description": "Indoor Air Sensors\r\nCO sensor: MQ-7\r\nPressure: BMP085\r\nTemperature: BMP085",
+    "feed": "https://api.xively.com/v2/feeds/128684.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/08/2014 13:54:46",
+    "created": "05/01/2013 16:07:52",
+    "creator": "https://xively.com/users/bodmer",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "CO_level",
+        "current_value": "31",
+        "at": "03/08/2014 13:54:46",
+        "max_value": "569.0",
+        "min_value": "10.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Pressure",
+        "current_value": "1021.20",
+        "at": "03/08/2014 13:54:46",
+        "max_value": "1040.7",
+        "min_value": "968.3",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperature",
+        "current_value": "10.90",
+        "at": "03/08/2014 13:54:46",
+        "max_value": "38.1",
+        "min_value": "9.8",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Keynsham",
+      "domain": 0,
+      "lat": "51.4117558042342",
+      "lon": "-2.50635266304016",
+      "ele": "46",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/128684\" >Air monitor - Keynsham UK</a>",
+    "URLMostrar": "https://xively.com/feeds/128684"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\128684.json",
+  "DocumentJSON": null
+}

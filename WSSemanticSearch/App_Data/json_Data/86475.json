@@ -1,0 +1,110 @@
+{
+  "Conceptos": [
+    "mp10"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "86475",
+    "title": "Greg's Raspberry Pi",
+    "Private": false,
+    "tags": [
+      "raspberry pi",
+      "temperature",
+      "TMP102"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/86475.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "12/16/2012 12:50:09",
+    "created": "11/16/2012 01:50:52",
+    "creator": "https://xively.com/users/kapuzniak",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "1",
+        "current_value": "69.01",
+        "at": "12/16/2012 12:50:07",
+        "max_value": "73.29",
+        "min_value": "68.0",
+        "tags": [
+          "raspberry pi",
+          "temperature",
+          "TMP102"
+        ],
+        "unit": {
+          "symbol": "°F",
+          "label": "F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Pi_CPU_Load",
+        "current_value": "0.03",
+        "at": "12/16/2012 12:50:01",
+        "max_value": "0.26",
+        "min_value": "0.01",
+        "tags": [
+          "cpu load",
+          "raspberry pi"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Capacity",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Pi_CPU_Temp",
+        "current_value": "47.615",
+        "at": "12/16/2012 12:50:01",
+        "max_value": "85.0",
+        "min_value": "-1005220.0",
+        "tags": [
+          "cpu temperature",
+          "raspberry pi"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "TMP102",
+        "current_value": "68.90",
+        "at": "12/16/2012 12:50:07",
+        "max_value": "73.29",
+        "min_value": "68.0",
+        "tags": [
+          "raspberry pi",
+          "temperature",
+          "TMP102"
+        ],
+        "unit": {
+          "symbol": "°F",
+          "label": "F",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/86475\" >Greg's Raspberry Pi</a>",
+    "URLMostrar": "https://xively.com/feeds/86475"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\86475.json",
+  "DocumentJSON": null
+}

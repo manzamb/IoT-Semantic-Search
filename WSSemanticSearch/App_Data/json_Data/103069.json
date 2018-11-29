@@ -1,0 +1,172 @@
+{
+  "Conceptos": [
+    "condition"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "103069",
+    "title": "Climatron 2000",
+    "Private": false,
+    "tags": [
+      "Canada",
+      "David Dunlap Observatory",
+      "Nest",
+      "Ontario",
+      "Richmond Hill",
+      "Thermostat",
+      "Toronto"
+    ],
+    "description": "A Nest thermostat located in Richmond Hill, Ontario, Canada.\r\n\r\nOutside temp being taken from the David Dunlap Observatory weather station.\r\n\r\n",
+    "feed": "https://api.xively.com/v2/feeds/103069.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:14:06",
+    "created": "02/06/2013 23:02:32",
+    "creator": "https://xively.com/users/shmick",
+    "version": null,
+    "website": "http://theddo.ca/",
+    "datastreams": [
+      {
+        "id": "A_OutsideTemp",
+        "current_value": "-2.7",
+        "at": "03/21/2014 14:14:01",
+        "max_value": "36.3",
+        "min_value": "-25.5",
+        "tags": [
+          "Outside Temp"
+        ],
+        "unit": {
+          "symbol": "Outside C",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "B_InsideTemp",
+        "current_value": "20.13",
+        "at": "03/21/2014 14:14:01",
+        "max_value": "33.66",
+        "min_value": "16.9",
+        "tags": [
+          "Inside Temp"
+        ],
+        "unit": {
+          "symbol": "Inside C",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "C_TargetTemp",
+        "current_value": "18.0",
+        "at": "03/21/2014 14:14:01",
+        "max_value": "30.0",
+        "min_value": "16.5",
+        "tags": [
+          "Target Temp"
+        ],
+        "unit": {
+          "symbol": "Target C",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "D_RelativeHumidity",
+        "current_value": "34",
+        "at": "03/21/2014 14:14:01",
+        "max_value": "66.0",
+        "min_value": "21.0",
+        "tags": [
+          "Relative Humidity"
+        ],
+        "unit": {
+          "symbol": "RH%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "E_FurnaceOn",
+        "current_value": "0",
+        "at": "03/21/2014 14:14:01",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "Furnace State"
+        ],
+        "unit": {
+          "symbol": "Heat 0/1",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "F_AirConOn",
+        "current_value": "0",
+        "at": "03/21/2014 14:14:01",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "Air Conditioner State"
+        ],
+        "unit": {
+          "symbol": "AC 0/1",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "G_FanOn",
+        "current_value": "0",
+        "at": "03/21/2014 14:14:01",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "Fan State"
+        ],
+        "unit": {
+          "symbol": "Fan 0/1",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "H_Battery",
+        "current_value": "3.954",
+        "at": "03/21/2014 14:14:01",
+        "max_value": "3.963",
+        "min_value": "3.816",
+        "tags": [
+          "Battery Voltage"
+        ],
+        "unit": {
+          "symbol": "Batt V",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Home",
+      "domain": 0,
+      "lat": "43.9076944268893",
+      "lon": "-79.4457864761353",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/103069\" >Climatron 2000</a>",
+    "URLMostrar": "https://xively.com/feeds/103069"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\103069.json",
+  "DocumentJSON": null
+}

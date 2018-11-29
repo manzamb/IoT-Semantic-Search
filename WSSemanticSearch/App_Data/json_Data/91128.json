@@ -1,0 +1,102 @@
+{
+  "Conceptos": [
+    "moisture"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "91128",
+    "title": "A723_599",
+    "Private": false,
+    "tags": [
+      "soil moisture"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/91128.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "07/22/2059 18:39:59",
+    "created": "12/09/2012 14:51:39",
+    "creator": "https://xively.com/users/oe1gca",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "6.172",
+        "at": "03/17/2014 22:13:17",
+        "max_value": "19.922",
+        "min_value": "0.0",
+        "tags": [
+          "battery voltage"
+        ],
+        "unit": {
+          "symbol": "batt",
+          "label": "V",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "12.14800",
+        "at": "03/17/2014 22:13:17",
+        "max_value": "59.975",
+        "min_value": "-40.0",
+        "tags": [
+          "temperatrue"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": null,
+        "at": null,
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "relative humidity"
+        ],
+        "unit": {
+          "symbol": "rH",
+          "label": "rH",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "0",
+        "at": "04/22/2013 09:07:58",
+        "max_value": "0.85325",
+        "min_value": "0.0",
+        "tags": [
+          "soil moisture"
+        ],
+        "unit": {
+          "symbol": "sm",
+          "label": "sm",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/91128\" >A723_599</a>",
+    "URLMostrar": "https://xively.com/feeds/91128"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\91128.json",
+  "DocumentJSON": null
+}

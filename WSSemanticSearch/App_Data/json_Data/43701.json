@@ -1,0 +1,80 @@
+{
+  "Conceptos": [
+    "person"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "43701",
+    "title": "Personal Radiation Monitoring Post 43701 ( Yokohama - Kanagawa )",
+    "Private": false,
+    "tags": [
+      "cpm",
+      "Geiger",
+      "Mark2",
+      "nSv/h",
+      "radiation",
+      "uSv/h",
+      "Yokohama",
+      "γ線",
+      "ガイガーカウンター",
+      "モニタリングポスト",
+      "横浜"
+    ],
+    "description": "Monitoring post by Mark2 Geiger Counter\nSBM-20 Geiger Mueller Tube\n\n2012-01-08より試験運用中 \n2012/１/8-12:20〜15:20までラジウムボールを近づけて実験 しました。\n\n2012/07/02より北海道当麻町内にて計測開始\n\n2013/07/27より横浜市神奈川区にて仮計測開始\n\n\n補足情報などは以下のページに載せていますので参照ください。\nhttp://home.f07.itscom.net/ttha/monitoring/monitoringData5post.htm",
+    "feed": "https://api.xively.com/v2/feeds/43701.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:08:14",
+    "created": "01/07/2012 00:21:15",
+    "creator": "https://xively.com/users/geigermonjp",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "5",
+        "current_value": "0.097259",
+        "at": "03/21/2014 14:08:14",
+        "max_value": "0.410901",
+        "min_value": "-0.032",
+        "tags": [
+          "１時間移動平均値"
+        ],
+        "unit": {
+          "symbol": "μSv/h",
+          "label": "uSv/h",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "0.098975",
+        "at": "03/21/2014 14:08:13",
+        "max_value": "1.153752",
+        "min_value": "0.0",
+        "tags": [
+          "10分間移動平均値"
+        ],
+        "unit": {
+          "symbol": "μSv/h",
+          "label": "uSv/h",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Yokohama",
+      "domain": 0,
+      "lat": "35.5109354645568",
+      "lon": "139.566793441772",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/43701\" >Personal Radiation Monitoring Post 43701 ( Yokohama - Kanagawa )</a>",
+    "URLMostrar": "https://xively.com/feeds/43701"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\43701.json",
+  "DocumentJSON": null
+}

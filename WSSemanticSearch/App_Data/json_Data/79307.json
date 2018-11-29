@@ -1,0 +1,81 @@
+{
+  "Conceptos": [
+    "sensing"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "79307",
+    "title": "URBICS City Noise Sensing",
+    "Private": false,
+    "tags": [
+      "noise",
+      "sound"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/79307.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/17/2013 08:57:38",
+    "created": "10/08/2012 14:41:57",
+    "creator": "https://xively.com/users/zimme2cj",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "lat",
+        "current_value": "55.683784",
+        "at": "03/17/2013 08:57:38",
+        "max_value": "55.683971",
+        "min_value": "55.683779",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "lon",
+        "current_value": "12.535650",
+        "at": "03/17/2013 08:57:38",
+        "max_value": "12.53565",
+        "min_value": "12.535589",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "sound_level",
+        "current_value": "-53.36124",
+        "at": "03/17/2013 08:57:38",
+        "max_value": "-52.58789",
+        "min_value": "-120.0",
+        "tags": null,
+        "unit": {
+          "symbol": "dB",
+          "label": "Decibel",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "55.683784",
+      "lon": "12.53565",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 1
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/79307\" >URBICS City Noise Sensing</a>",
+    "URLMostrar": "https://xively.com/feeds/79307"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\79307.json",
+  "DocumentJSON": null
+}

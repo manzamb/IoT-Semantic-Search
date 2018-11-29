@@ -1,0 +1,57 @@
+{
+  "Conceptos": [
+    "amount"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "95384",
+    "title": "Philly Daylight",
+    "Private": false,
+    "tags": [
+      "daylight",
+      "gsiot",
+      "netduino",
+      "photocell"
+    ],
+    "description": "Amount of daylight in Philadelphia, as measured by a cheap photocell connected to a Neduino Plus.",
+    "feed": "https://api.xively.com/v2/feeds/95384.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/06/2014 09:22:39",
+    "created": "12/31/2012 03:28:26",
+    "creator": "https://xively.com/users/alanboris",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "level",
+        "current_value": "0",
+        "at": "03/06/2014 09:22:33",
+        "max_value": "100.0",
+        "min_value": "0.0",
+        "tags": [
+          "light"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "Percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Philadelphia",
+      "domain": 0,
+      "lat": "39.9626125124315",
+      "lon": "-75.168628692627",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/95384\" >Philly Daylight</a>",
+    "URLMostrar": "https://xively.com/feeds/95384"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\95384.json",
+  "DocumentJSON": null
+}

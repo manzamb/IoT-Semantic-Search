@@ -1,0 +1,56 @@
+{
+  "Conceptos": [
+    "mp10"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "30346",
+    "title": "Office temperature",
+    "Private": false,
+    "tags": [
+      "Arduino",
+      "temperature",
+      "TPM102"
+    ],
+    "description": "Arduino used to read TMP102 sensor to detect the temperature of our space.",
+    "feed": "https://api.xively.com/v2/feeds/30346.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "07/22/2011 20:59:33",
+    "created": "07/22/2011 14:06:58",
+    "creator": "https://xively.com/users/rsbardsley",
+    "version": null,
+    "website": "http://www.dfcs.us",
+    "datastreams": [
+      {
+        "id": "TMP102",
+        "current_value": "101",
+        "at": "07/22/2011 20:45:07",
+        "max_value": "102.0",
+        "min_value": "95.0",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "°F",
+          "label": "degrees F",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Design for Complex Systems, LLC",
+      "domain": 0,
+      "lat": "42.3104184077214",
+      "lon": "-71.1059081554413",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/30346\" >Office temperature</a>",
+    "URLMostrar": "https://xively.com/feeds/30346"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\30346.json",
+  "DocumentJSON": null
+}

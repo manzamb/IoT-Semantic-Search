@@ -1,0 +1,121 @@
+{
+  "Conceptos": [
+    "temperatura"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "38939",
+    "title": "Oleoducto Guamani",
+    "Private": false,
+    "tags": [
+      "AC",
+      "Bateria",
+      "Puerta",
+      "Temperatura"
+    ],
+    "description": "Ditec - GPRS, Estación Guamaní",
+    "feed": "https://api.xively.com/v2/feeds/38939.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/13/2014 18:30:24",
+    "created": "11/07/2011 20:12:09",
+    "creator": "https://xively.com/users/watchingec",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "AC",
+        "current_value": "0",
+        "at": "03/13/2014 18:30:24",
+        "max_value": "19.0625",
+        "min_value": "0.0",
+        "tags": [
+          "Alimentación AC"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "1=OK/0=Falla",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "PT1",
+        "current_value": "1",
+        "at": "03/13/2014 18:30:24",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "Puerta caseta"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "1=Cerrada/0=Abierta",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "PWR",
+        "current_value": "13.598271368",
+        "at": "03/13/2014 18:30:24",
+        "max_value": "6776448013.60805",
+        "min_value": "0.0",
+        "tags": [
+          "Alimentación DC"
+        ],
+        "unit": {
+          "symbol": "VDC",
+          "label": "Voltios",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "T",
+        "current_value": "19.25",
+        "at": "03/13/2014 18:30:24",
+        "max_value": "60497958.3125",
+        "min_value": "0.0",
+        "tags": [
+          "Temperatura"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "VDC",
+        "current_value": "51.498489378",
+        "at": "03/13/2014 18:30:24",
+        "max_value": "41949593691.341",
+        "min_value": "0.0",
+        "tags": [
+          "Voltaje Baterías"
+        ],
+        "unit": {
+          "symbol": "VDC",
+          "label": "Voltios",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Quito, Cerro Guamani",
+      "domain": 0,
+      "lat": "-0.321968",
+      "lon": "-78.19143",
+      "ele": "4309",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/38939\" >Oleoducto Guamani</a>",
+    "URLMostrar": "https://xively.com/feeds/38939"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\38939.json",
+  "DocumentJSON": null
+}

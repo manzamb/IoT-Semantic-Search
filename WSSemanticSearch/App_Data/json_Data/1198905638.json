@@ -1,0 +1,463 @@
+{
+  "Conceptos": [
+    "atmospheric pressure"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "1198905638",
+    "title": "ArduXWeatherStation FABRO1",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/1198905638.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:08:53",
+    "created": "09/22/2013 14:37:40",
+    "creator": "https://xively.com/users/icnmfabro",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "A__DATE_AND_DAY_READING",
+        "current_value": "21/03/2014 FRI",
+        "at": "03/21/2014 14:08:52",
+        "max_value": "165.0",
+        "min_value": "1.0",
+        "tags": [
+          "DATE",
+          "DAY"
+        ],
+        "unit": {
+          "symbol": "D/M/Y",
+          "label": "DATE + DAY",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "B__TIME_READING",
+        "current_value": "14:13:19UTC +1.00",
+        "at": "03/21/2014 14:08:52",
+        "max_value": "165.0",
+        "min_value": "0.0",
+        "tags": [
+          "TIME READING"
+        ],
+        "unit": {
+          "symbol": "H/M/S",
+          "label": "UTC + TIME ZONE",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "C__TEMPERATURE_CELSIUS",
+        "current_value": "24.40",
+        "at": "03/21/2014 14:08:52",
+        "max_value": "26.1",
+        "min_value": "0.0",
+        "tags": [
+          "CELSIUS",
+          "TEMPERATURE"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "CELSIUS",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "D__TEMPERATURE_KELVIN",
+        "current_value": "297.55",
+        "at": "03/21/2014 14:08:52",
+        "max_value": "299.25",
+        "min_value": "273.15",
+        "tags": [
+          "KELVIN",
+          "TEMPERATURE"
+        ],
+        "unit": {
+          "symbol": "K",
+          "label": "KELVIN",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "E__TEMPERATURE_FAHRENHEIT",
+        "current_value": "75.92",
+        "at": "03/21/2014 14:08:52",
+        "max_value": "78.98",
+        "min_value": "32.0",
+        "tags": [
+          "FAHRENHEIT",
+          "TEMPERATURE"
+        ],
+        "unit": {
+          "symbol": "°F",
+          "label": "FAHRENHEIT",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "F__RELATIVE_HUMIDITY",
+        "current_value": "46.40",
+        "at": "03/21/2014 14:08:52",
+        "max_value": "68.5",
+        "min_value": "0.0",
+        "tags": [
+          "HUMIDITY",
+          "RELATIVE"
+        ],
+        "unit": {
+          "symbol": "% RH",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "G__ATMOSPHERIC_PRESSURE",
+        "current_value": "1018.87",
+        "at": "03/21/2014 14:08:52",
+        "max_value": "1033.99",
+        "min_value": "2.45",
+        "tags": [
+          "ATMOSPHERIC",
+          "PRESSURE"
+        ],
+        "unit": {
+          "symbol": "Mbar",
+          "label": "MILLIBAR",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "H__DEW_POINT",
+        "current_value": "12.18",
+        "at": "03/21/2014 14:08:52",
+        "max_value": "17.87",
+        "min_value": "0.0",
+        "tags": [
+          "DEW POINT"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "CELSIUS",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "I__DEW_POINT_FAST",
+        "current_value": "12.15",
+        "at": "03/21/2014 14:08:52",
+        "max_value": "17.84",
+        "min_value": "0.0",
+        "tags": [
+          "DEW POINT FAST"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "CELSIUS",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "J__APPROXIMATE_TEMPERATURE_WET_BULB",
+        "current_value": "16.93",
+        "at": "03/21/2014 14:08:52",
+        "max_value": "19.95",
+        "min_value": "0.0",
+        "tags": [
+          "APPROXIMATE TEMPERATURE",
+          "WET BULB"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "CELSIUS",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "K__APPROXIMATE_HIGHT_BASE_CUMULUS_CLOUD",
+        "current_value": "1527.05",
+        "at": "03/21/2014 14:08:52",
+        "max_value": "2175.76",
+        "min_value": "0.0",
+        "tags": [
+          "APPROXIMATE HIGHT BASE",
+          "CUMULUS CLOUD"
+        ],
+        "unit": {
+          "symbol": "M",
+          "label": "METER",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "L__APPROXIMATE_CLOUD_TEMPERATURE",
+        "current_value": "9.40",
+        "at": "03/21/2014 14:08:52",
+        "max_value": "16.38",
+        "min_value": "-2.37",
+        "tags": [
+          "APPROXIMATE TEMPERATURE",
+          "CLOUD"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "CELSIUS",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "M__VALUE_HEAT_INDEX",
+        "current_value": "0.00",
+        "at": "03/21/2014 14:08:52",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "HEAT INDEX"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "N__MESSAGE_HEAT_INDEX",
+        "current_value": "Value Heat Index not available",
+        "at": "03/21/2014 14:08:52",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "MESSAGE HEAT INDEX"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "O__VALUE_SUMMER_SIMMER_INDEX",
+        "current_value": "83.03",
+        "at": "03/21/2014 14:08:52",
+        "max_value": "88.55",
+        "min_value": "0.0",
+        "tags": [
+          "SUMMER SIMMER INDEX"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "P__MESSAGE_SUMMER_SIMMER_INDEX",
+        "current_value": "Slightly warm - most people are at ease, even if it is slightly warm",
+        "at": "03/21/2014 14:08:52",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "MESSAGE SUMMER SIMMER INDEX"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Q__VALUE_SCHARLAU_INDEX_WINTRY",
+        "current_value": "0.00",
+        "at": "03/21/2014 14:08:52",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "SCHARLAU INDEX WINTRY"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "R__MESSAGE_SCHARLAU_INDEX_WINTRY",
+        "current_value": "Value Scharlau Index Wintry not available",
+        "at": "03/21/2014 14:08:52",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "MESSAGE SCHARLAU INDEX WINTRY"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "S__VALUE_SCHARLAU_INDEX_SUMMER",
+        "current_value": "5.00",
+        "at": "03/21/2014 14:08:52",
+        "max_value": "17.19",
+        "min_value": "-1.25",
+        "tags": [
+          "SCHARLAU INDEX SUMMER"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "T__MESSAGE_SCHARLAU_INDEX_SUMMER",
+        "current_value": "Welfare",
+        "at": "03/21/2014 14:08:52",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "MESSAGE SCHARLAU INDEX SUMMER"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "U__INTENSITY_DIGITAL_LIGHT_SENSOR",
+        "current_value": "0.00",
+        "at": "03/21/2014 14:08:52",
+        "max_value": "54612.0",
+        "min_value": "0.0",
+        "tags": [
+          "INTENSITY DIGITAL LIGHT"
+        ],
+        "unit": {
+          "symbol": "LX",
+          "label": "LUX",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "V__WEATHER_INFORMATION_AND_ALARMS",
+        "current_value": "http://allarmi.meteo-allerta.it/getwarning_it.php?xpos=153&ypos=331&bland=umbria&lang=it",
+        "at": "03/21/2014 14:08:52",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "ALARMS",
+          "WEATHER INFORMATION"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "W__VALUE_UV_INDEX",
+        "current_value": "0.00",
+        "at": "03/21/2014 14:08:52",
+        "max_value": "11.0",
+        "min_value": "0.0",
+        "tags": [
+          "ULTRAVIOLET INDEX"
+        ],
+        "unit": {
+          "symbol": "UVI",
+          "label": "UVI",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "X__UV_INDEX_CODE_COLOR",
+        "current_value": "No Data",
+        "at": "03/21/2014 14:08:52",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "CODE COLOR",
+          "UV INDEX"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Y__UV_STRENGTH",
+        "current_value": "No Data",
+        "at": "03/21/2014 14:08:52",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "POWER OF ULTRAVIOLET LIGHT"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Z__UV_WARNINGS",
+        "current_value": "No Data",
+        "at": "03/21/2014 14:08:52",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "WARNINGS ULTRAVIOLET LIGHT"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Fabro",
+      "domain": 0,
+      "lat": "42.863892130327",
+      "lon": "12.0134554952149",
+      "ele": "364 m",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/1198905638\" >ArduXWeatherStation FABRO1</a>",
+    "URLMostrar": "https://xively.com/feeds/1198905638"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\1198905638.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,184 @@
+{
+  "Conceptos": [
+    "temperatura"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "81159",
+    "title": "Temp_Oficina",
+    "Private": false,
+    "tags": [
+      "chile",
+      "chinoox",
+      "dataloger"
+    ],
+    "description": "Experiencia realizada en mi Taller, con el fin de tener un datalogger de la temperatura",
+    "feed": "https://api.xively.com/v2/feeds/81159.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/13/2014 11:18:42",
+    "created": "10/19/2012 23:34:37",
+    "creator": "https://xively.com/users/chinoox",
+    "version": null,
+    "website": "http://chinoox.blogspot.com",
+    "datastreams": [
+      {
+        "id": "adcin",
+        "current_value": "54",
+        "at": "12/05/2013 21:02:26",
+        "max_value": "54.0",
+        "min_value": "54.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "adc_in",
+        "current_value": "55",
+        "at": "03/13/2014 11:18:42",
+        "max_value": "78.0",
+        "min_value": "1.0",
+        "tags": [
+          "adc indoor"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "ADC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "adc_n",
+        "current_value": "63",
+        "at": "02/19/2014 17:46:57",
+        "max_value": "63.0",
+        "min_value": "63.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "adc_out",
+        "current_value": "40",
+        "at": "03/13/2014 11:18:42",
+        "max_value": "99.0",
+        "min_value": "0.0",
+        "tags": [
+          "adc outdoor"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "ADC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "ad_out",
+        "current_value": "71",
+        "at": "12/15/2013 17:01:33",
+        "max_value": "71.0",
+        "min_value": "71.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "tem_in",
+        "current_value": "31",
+        "at": "02/19/2014 18:43:06",
+        "max_value": "31.0",
+        "min_value": "31.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "tem_out",
+        "current_value": "34",
+        "at": "12/15/2013 17:06:40",
+        "max_value": "34.0",
+        "min_value": "34.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temp_in",
+        "current_value": "26",
+        "at": "03/13/2014 11:18:42",
+        "max_value": "38.0",
+        "min_value": "2.0",
+        "tags": null,
+        "unit": {
+          "symbol": "°C",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temp_out",
+        "current_value": "20",
+        "at": "03/13/2014 11:18:42",
+        "max_value": "48.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "°C",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "tetemp_in",
+        "current_value": "2",
+        "at": "12/05/2013 20:57:37",
+        "max_value": "2.0",
+        "min_value": "2.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "-33.4291984005744",
+      "lon": "-70.6803596019745",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/81159\" >Temp_Oficina</a>",
+    "URLMostrar": "https://xively.com/feeds/81159"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\81159.json",
+  "DocumentJSON": null
+}

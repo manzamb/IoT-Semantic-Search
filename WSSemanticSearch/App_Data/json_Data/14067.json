@@ -1,0 +1,87 @@
+{
+  "Conceptos": [
+    "processo"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "14067",
+    "title": "Glimpse",
+    "Private": false,
+    "tags": [
+      "cpu load",
+      "temperature"
+    ],
+    "description": "Pachube test for monitoring",
+    "feed": "https://api.xively.com/v2/feeds/14067.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "01/10/2011 13:48:28",
+    "created": "12/21/2010 11:41:55",
+    "creator": "https://xively.com/users/acalabro",
+    "version": null,
+    "website": "http://labse.isti.cnr.it",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "0.27",
+        "at": "01/10/2011 13:48:28",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "CPU Load"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "2.0",
+        "at": "01/10/2011 13:48:28",
+        "max_value": "2.0",
+        "min_value": "0.0",
+        "tags": [
+          "Available Processors"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": null,
+        "at": "01/10/2011 13:48:28",
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "Pisa weather"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Pisa",
+      "domain": 0,
+      "lat": "43.7187605471379",
+      "lon": "10.4208326339722",
+      "ele": "15",
+      "exposure": 0,
+      "disposition": 1
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/14067\" >Glimpse</a>",
+    "URLMostrar": "https://xively.com/feeds/14067"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\14067.json",
+  "DocumentJSON": null
+}

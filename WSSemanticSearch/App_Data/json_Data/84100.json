@@ -1,0 +1,54 @@
+{
+  "Conceptos": [
+    "surface"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "84100",
+    "title": "House",
+    "Private": false,
+    "tags": [
+      "arduino water level"
+    ],
+    "description": "This graph shows the height between the water surface and the sensor mounted in the top of the tank, the sensor is approximately 2.8m above the bottom of the tank and about 51cm above the maximum fill level.",
+    "feed": "https://api.xively.com/v2/feeds/84100.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "05/29/2013 09:39:01",
+    "created": "11/06/2012 02:51:03",
+    "creator": "https://xively.com/users/dgashby",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "WaterTank",
+        "current_value": "521",
+        "at": "05/29/2013 09:39:01",
+        "max_value": "1478.0",
+        "min_value": "54.0",
+        "tags": [
+          "water tank level"
+        ],
+        "unit": {
+          "symbol": "mm",
+          "label": "mm",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Christchurch, New Zealand",
+      "domain": 0,
+      "lat": "-43.3856961253658",
+      "lon": "172.525179684162",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/84100\" >House</a>",
+    "URLMostrar": "https://xively.com/feeds/84100"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\84100.json",
+  "DocumentJSON": null
+}

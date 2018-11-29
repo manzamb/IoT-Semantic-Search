@@ -1,0 +1,86 @@
+{
+  "Conceptos": [
+    "co2"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "1654376120",
+    "title": "Jerry's Lab - Device 1",
+    "Private": false,
+    "tags": [
+      "18 Vermont St"
+    ],
+    "description": "4012485838@vtext.com",
+    "feed": "https://api.xively.com/v2/feeds/1654376120.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "08/28/2013 08:45:24",
+    "created": "05/17/2013 16:24:59",
+    "creator": "https://xively.com/users/narragansett",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "CO2",
+        "current_value": "783",
+        "at": "08/28/2013 08:45:24",
+        "max_value": "1813.0",
+        "min_value": "277.0",
+        "tags": [
+          "CO2"
+        ],
+        "unit": {
+          "symbol": "ppmCO2",
+          "label": "ppmCO2",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Humidity",
+        "current_value": "60",
+        "at": "08/28/2013 08:45:24",
+        "max_value": "68.0",
+        "min_value": "30.0",
+        "tags": [
+          "Relative Humidity"
+        ],
+        "unit": {
+          "symbol": "%RelH",
+          "label": "%RelH",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperature",
+        "current_value": "76",
+        "at": "08/28/2013 08:45:24",
+        "max_value": "84.0",
+        "min_value": "58.0",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "degF",
+          "label": "degF",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Home Office",
+      "domain": 0,
+      "lat": "41.75",
+      "lon": "-71.5",
+      "ele": "25",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/1654376120\" >Jerry's Lab - Device 1</a>",
+    "URLMostrar": "https://xively.com/feeds/1654376120"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\1654376120.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,308 @@
+{
+  "Conceptos": [
+    "man"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "7458",
+    "title": "Battery_manager_duino",
+    "Private": false,
+    "tags": null,
+    "description": "Feeds Battery voltage, temperature, Charge Current, Discharge Currents",
+    "feed": "https://api.xively.com/v2/feeds/7458.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/21/2014 13:55:41",
+    "created": "05/19/2010 18:23:28",
+    "creator": "https://xively.com/users/kerisaar",
+    "version": null,
+    "website": "http://www.keri.ee",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "13.46",
+        "at": "03/21/2014 13:55:41",
+        "max_value": "16.0",
+        "min_value": "0.0",
+        "tags": [
+          "Battery Voltage"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": "Volts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "16",
+        "current_value": "1.62",
+        "at": "03/21/2014 13:55:41",
+        "max_value": "37.87",
+        "min_value": "-9.6",
+        "tags": [
+          "Battery temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "2847",
+        "at": "03/21/2014 13:55:41",
+        "max_value": "32767.0",
+        "min_value": "-32768.0",
+        "tags": [
+          "Battery charging current"
+        ],
+        "unit": {
+          "symbol": "mA",
+          "label": "milli Amperes",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "1402",
+        "at": "03/21/2014 13:55:41",
+        "max_value": "32766.0",
+        "min_value": "-32768.0",
+        "tags": [
+          "Battery discharging current"
+        ],
+        "unit": {
+          "symbol": "mA",
+          "label": "milli Amperes",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "0",
+        "at": "03/21/2014 13:55:41",
+        "max_value": "32682.0",
+        "min_value": "-32719.0",
+        "tags": [
+          "AC/DC current"
+        ],
+        "unit": {
+          "symbol": "mA",
+          "label": "milliAmperes",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "13612",
+        "at": "03/21/2014 13:55:41",
+        "max_value": "196155.0",
+        "min_value": "-16.0",
+        "tags": [
+          "Consumed capacity today"
+        ],
+        "unit": {
+          "symbol": "mA/h",
+          "label": "milliAmpere Hours",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "20068",
+        "at": "03/21/2014 13:55:41",
+        "max_value": "733986.0",
+        "min_value": "0.0",
+        "tags": [
+          "Produced capacity today"
+        ],
+        "unit": {
+          "symbol": "mA/h",
+          "label": "milliAmpere Hours",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "215",
+        "at": "03/21/2014 13:55:41",
+        "max_value": "20750.0",
+        "min_value": "0.0",
+        "tags": [
+          "number of number of successful connections"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "times",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "7",
+        "current_value": "200",
+        "at": "03/21/2014 13:55:41",
+        "max_value": "1658.0",
+        "min_value": "0.0",
+        "tags": [
+          "number of number number of unsuccessful connections"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "times",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "8",
+        "current_value": "129",
+        "at": "03/21/2014 13:55:41",
+        "max_value": "255.0",
+        "min_value": "0.0",
+        "tags": [
+          "number of BM restart counter"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "times",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "9",
+        "current_value": "1",
+        "at": "03/21/2014 13:55:41",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "WebCams + other"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "on/off",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "10",
+        "current_value": "0",
+        "at": "03/21/2014 13:55:41",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "Power Inverter - AC&DC"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "on/off",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "11",
+        "current_value": "1",
+        "at": "03/21/2014 13:55:41",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "Solar Power (charge)"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "on/off",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "12",
+        "current_value": "1",
+        "at": "03/21/2014 13:55:41",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "Wind Power (charge)"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "on/off",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "13",
+        "current_value": "1",
+        "at": "03/21/2014 13:55:41",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "Auxiliary Power (charge)"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "on/off",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "14",
+        "current_value": "1004",
+        "at": "03/21/2014 13:55:41",
+        "max_value": "1023.0",
+        "min_value": "0.0",
+        "tags": [
+          "Ambient luminosity level"
+        ],
+        "unit": {
+          "symbol": "Luminosity",
+          "label": "Units",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "15",
+        "current_value": "955",
+        "at": "03/21/2014 13:55:41",
+        "max_value": "1439.0",
+        "min_value": "0.0",
+        "tags": [
+          "BM minute of day counter"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "minutes",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Keri saar",
+      "domain": 0,
+      "lat": "59.6987184132855",
+      "lon": "25.0225639343262",
+      "ele": "21",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/7458\" >Battery_manager_duino</a>",
+    "URLMostrar": "https://xively.com/feeds/7458"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\7458.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,295 @@
+{
+  "Conceptos": [
+    "condition"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "65673",
+    "title": "Swimming Pool",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "xbee"
+    ],
+    "description": "Monitors swimming pool conditions",
+    "feed": "https://api.xively.com/v2/feeds/65673.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "11/29/2013 17:30:36",
+    "created": "07/02/2012 00:23:57",
+    "creator": "https://xively.com/users/scott216",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "0",
+        "at": "11/29/2013 17:29:50",
+        "max_value": "2457.6",
+        "min_value": "0.0",
+        "tags": [
+          "Pressure 1"
+        ],
+        "unit": {
+          "symbol": "PSI",
+          "label": "PSI",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "0.00",
+        "at": "09/25/2013 23:53:43",
+        "max_value": "30.4",
+        "min_value": "0.0",
+        "tags": [
+          "Pressure 2"
+        ],
+        "unit": {
+          "symbol": "PSI",
+          "label": "PSI",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "0",
+        "at": "11/29/2013 17:30:15",
+        "max_value": "2457.6",
+        "min_value": "-11.5",
+        "tags": [
+          "Water Fill Pressure"
+        ],
+        "unit": {
+          "symbol": "PSI",
+          "label": "PSI",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "0",
+        "at": "11/29/2013 17:30:20",
+        "max_value": "125.7",
+        "min_value": "-2845.0",
+        "tags": [
+          "Temp 1"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "Degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "0",
+        "at": "11/29/2013 17:30:25",
+        "max_value": "149.7",
+        "min_value": "0.0",
+        "tags": [
+          "Temp 2"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "Degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "0",
+        "at": "09/25/2013 23:53:43",
+        "max_value": "3.0",
+        "min_value": "0.0",
+        "tags": [
+          "Heater"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "On/Off",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "0",
+        "at": "11/29/2013 17:30:31",
+        "max_value": "286.0",
+        "min_value": "0.0",
+        "tags": [
+          "Pump Temp"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "Degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "7",
+        "current_value": "0",
+        "at": "11/29/2013 17:30:36",
+        "max_value": "18.9",
+        "min_value": "0.0",
+        "tags": [
+          "Pump Amps"
+        ],
+        "unit": {
+          "symbol": "Amps",
+          "label": "Amps",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "8",
+        "current_value": "0",
+        "at": "09/25/2013 23:53:43",
+        "max_value": "35.0",
+        "min_value": "0.0",
+        "tags": [
+          "Low Pressure Counter"
+        ],
+        "unit": {
+          "symbol": "Count",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "9",
+        "current_value": "0",
+        "at": "09/25/2013 23:53:43",
+        "max_value": "255.0",
+        "min_value": "0.0",
+        "tags": [
+          "Water Fill Minutes"
+        ],
+        "unit": {
+          "symbol": "Min",
+          "label": "Minutes",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "10",
+        "current_value": "NO XBEE COMM",
+        "at": "09/25/2013 23:53:43",
+        "max_value": "255.0",
+        "min_value": "0.0",
+        "tags": [
+          "Status"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "11",
+        "current_value": "0",
+        "at": "11/29/2013 17:29:57",
+        "max_value": "2970.0",
+        "min_value": "0.0",
+        "tags": [
+          "Successes"
+        ],
+        "unit": {
+          "symbol": "Successes",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "12",
+        "current_value": "0",
+        "at": "09/25/2013 23:53:43",
+        "max_value": "34.0",
+        "min_value": "0.0",
+        "tags": [
+          "Failures"
+        ],
+        "unit": {
+          "symbol": "Failures",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "13",
+        "current_value": "0",
+        "at": "11/29/2013 17:30:03",
+        "max_value": "5.0",
+        "min_value": "0.0",
+        "tags": [
+          "Status"
+        ],
+        "unit": {
+          "symbol": "Status",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "14",
+        "current_value": "0",
+        "at": "11/29/2013 17:30:10",
+        "max_value": "128.0",
+        "min_value": "0.0",
+        "tags": [
+          "Low Level Sensor"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "15",
+        "current_value": "0.00",
+        "at": "09/25/2013 23:53:43",
+        "max_value": "3169.0",
+        "min_value": "0.0",
+        "tags": [
+          "Battery"
+        ],
+        "unit": {
+          "symbol": "Volts",
+          "label": "Vots",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/65673\" >Swimming Pool</a>",
+    "URLMostrar": "https://xively.com/feeds/65673"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\65673.json",
+  "DocumentJSON": null
+}

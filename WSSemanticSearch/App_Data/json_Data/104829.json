@@ -1,0 +1,106 @@
+{
+  "Conceptos": [
+    "pst"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "104829",
+    "title": "Home - Upstairs Temperature / Humidity",
+    "Private": false,
+    "tags": [
+      "Battery",
+      "Humidity",
+      "Room",
+      "RSSI",
+      "Temperature"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/104829.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:12:33",
+    "created": "02/16/2013 00:07:00",
+    "creator": "https://xively.com/users/mbuchmann",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "2.8",
+        "at": "03/21/2014 14:12:33",
+        "max_value": "3.3",
+        "min_value": "2.6",
+        "tags": [
+          "Battery"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": "V",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "-58",
+        "at": "03/21/2014 14:12:33",
+        "max_value": "-44.0",
+        "min_value": "-92.0",
+        "tags": [
+          "RSSI"
+        ],
+        "unit": {
+          "symbol": "dBm",
+          "label": "dBm",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "66.2",
+        "at": "03/21/2014 14:12:33",
+        "max_value": "83.3",
+        "min_value": "55.4",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "°F",
+          "label": "°F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "33",
+        "at": "03/21/2014 14:12:33",
+        "max_value": "655.0",
+        "min_value": "15.0",
+        "tags": [
+          "Humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/104829\" >Home - Upstairs Temperature / Humidity</a>",
+    "URLMostrar": "https://xively.com/feeds/104829"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\104829.json",
+  "DocumentJSON": null
+}

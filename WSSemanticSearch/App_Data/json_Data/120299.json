@@ -1,0 +1,79 @@
+{
+  "Conceptos": [
+    "radioactivity"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "120299",
+    "title": "USB Geiger counter",
+    "Private": false,
+    "tags": [
+      "counter",
+      "CTC-5",
+      "geiger",
+      "radioactivity",
+      "SBM-20",
+      "slomkowski",
+      "usb"
+    ],
+    "description": "Radioactivity monitoring using USB Geiger solution.",
+    "feed": "https://api.xively.com/v2/feeds/120299.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 13:59:02",
+    "created": "03/21/2013 18:38:06",
+    "creator": "https://xively.com/users/slomkowski",
+    "version": null,
+    "website": "http://slomkowski.eu",
+    "datastreams": [
+      {
+        "id": "CPM",
+        "current_value": "18.4",
+        "at": "03/21/2014 13:59:00",
+        "max_value": "60.0",
+        "min_value": "0.0",
+        "tags": [
+          "cpm",
+          "geiger",
+          "radioactivity"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Radiation",
+        "current_value": "0.123",
+        "at": "03/21/2014 13:59:00",
+        "max_value": "28.0",
+        "min_value": "0.0",
+        "tags": [
+          "radiation",
+          "sievert"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "uSv/h",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Poznań",
+      "domain": 0,
+      "lat": "52.3901372656187",
+      "lon": "16.9846487045288",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/120299\" >USB Geiger counter</a>",
+    "URLMostrar": "https://xively.com/feeds/120299"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\120299.json",
+  "DocumentJSON": null
+}

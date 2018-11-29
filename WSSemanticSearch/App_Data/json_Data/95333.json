@@ -1,0 +1,71 @@
+{
+  "Conceptos": [
+    "relation"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "95333",
+    "title": "GasLogger",
+    "Private": false,
+    "tags": [
+      "Aussentemperatur",
+      "Gasverbrauch"
+    ],
+    "description": "Relation zwischen Gasverbrauch Aussentemperatur",
+    "feed": "https://api.xively.com/v2/feeds/95333.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/21/2014 09:45:54",
+    "created": "12/30/2012 17:37:41",
+    "creator": "https://xively.com/users/toarnold",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Gas",
+        "current_value": "3",
+        "at": "03/21/2014 09:45:54",
+        "max_value": "44.0",
+        "min_value": "0.0",
+        "tags": [
+          "Gasverbrauch"
+        ],
+        "unit": {
+          "symbol": "10l/15min",
+          "label": "x10 l/15min",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temp",
+        "current_value": "13.5",
+        "at": "03/21/2014 09:45:54",
+        "max_value": "84.0",
+        "min_value": "-5.0",
+        "tags": [
+          "Aussentemperatur"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "GradC",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Knüfen",
+      "domain": 0,
+      "lat": "51.4581812043327",
+      "lon": "6.88951134681702",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/95333\" >GasLogger</a>",
+    "URLMostrar": "https://xively.com/feeds/95333"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\95333.json",
+  "DocumentJSON": null
+}

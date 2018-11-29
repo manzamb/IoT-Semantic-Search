@@ -1,0 +1,90 @@
+{
+  "Conceptos": [
+    "area"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "84790",
+    "title": "MYSAT",
+    "Private": false,
+    "tags": [
+      "HAN",
+      "home area management",
+      "power consumption",
+      "smart grid",
+      "smart meters"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/84790.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "11/10/2012 19:57:31",
+    "created": "11/10/2012 17:37:34",
+    "creator": "https://xively.com/users/mhelmy",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "1",
+        "current_value": "4.4",
+        "at": "11/10/2012 19:57:31",
+        "max_value": "20.0",
+        "min_value": "4.4",
+        "tags": [
+          "Current"
+        ],
+        "unit": {
+          "symbol": "A",
+          "label": "Amper",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "2.2",
+        "at": "11/10/2012 19:41:30",
+        "max_value": "2.2",
+        "min_value": "2.2",
+        "tags": [
+          "Power"
+        ],
+        "unit": {
+          "symbol": "kW",
+          "label": "k Watt",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "98",
+        "at": "11/10/2012 19:41:30",
+        "max_value": "98.0",
+        "min_value": "98.0",
+        "tags": [
+          "Battery"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "Capacity",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/84790\" >MYSAT</a>",
+    "URLMostrar": "https://xively.com/feeds/84790"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\84790.json",
+  "DocumentJSON": null
+}

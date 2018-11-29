@@ -1,0 +1,811 @@
+{
+  "Conceptos": [
+    "wind vane"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "1136",
+    "title": "i-DAT building",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/1136.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "06/28/2011 10:07:09",
+    "created": "10/16/2008 07:55:54",
+    "creator": "https://xively.com/users/dhunter",
+    "version": null,
+    "website": "http://www.i-dat.org/",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "30",
+        "at": "06/28/2011 10:07:09",
+        "max_value": "30.0",
+        "min_value": "-219.86",
+        "tags": [
+          "carbondioxide",
+          "co2",
+          "controlvalve",
+          "valvestate"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "15.31",
+        "at": "06/28/2011 10:07:09",
+        "max_value": "57.09",
+        "min_value": "13.85",
+        "tags": [
+          "airhumidity",
+          "flow",
+          "heatingflow",
+          "humidity",
+          "interior",
+          "rh"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "30",
+        "at": "06/28/2011 10:07:09",
+        "max_value": "30.0",
+        "min_value": "0.0",
+        "tags": [
+          "celsius",
+          "centigrade",
+          "controlvalve",
+          "interior",
+          "temperature",
+          "valvestate"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "17.01",
+        "at": "06/28/2011 10:07:09",
+        "max_value": "88.09",
+        "min_value": "15.19",
+        "tags": [
+          "airhumidity",
+          "flow",
+          "heatingflow",
+          "humidity",
+          "interior",
+          "rh"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "11.39",
+        "at": "06/28/2011 10:07:09",
+        "max_value": "100.0",
+        "min_value": "0.0",
+        "tags": [
+          "celsius",
+          "centigrade",
+          "controlvalve",
+          "interior",
+          "temperature",
+          "valvestate"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "40.4",
+        "at": "06/28/2011 10:07:09",
+        "max_value": "79.05",
+        "min_value": "0.0",
+        "tags": [
+          "airhumidity",
+          "flow",
+          "heatingflow",
+          "humidity",
+          "interior",
+          "rh"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "0",
+        "at": "06/28/2011 10:07:09",
+        "max_value": "327.12",
+        "min_value": "-326.8",
+        "tags": [
+          "celsius",
+          "centigrade",
+          "interior",
+          "mainmeter",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "7",
+        "current_value": "232.6",
+        "at": "06/28/2011 10:07:09",
+        "max_value": "327.64",
+        "min_value": "-327.68",
+        "tags": [
+          "airhumidity",
+          "blockameter",
+          "exterior",
+          "humidity",
+          "rh"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "8",
+        "current_value": "222.76",
+        "at": "06/28/2011 10:07:09",
+        "max_value": "327.64",
+        "min_value": "-327.68",
+        "tags": [
+          "blockbmeter",
+          "celsius",
+          "centigrade",
+          "exterior",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "9",
+        "current_value": "90.2",
+        "at": "06/28/2011 10:07:09",
+        "max_value": "327.64",
+        "min_value": "-327.68",
+        "tags": [
+          "blockcmeter",
+          "rain",
+          "rainsensor"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "10",
+        "current_value": "280.64",
+        "at": "06/28/2011 10:07:09",
+        "max_value": "326.64",
+        "min_value": "-326.72",
+        "tags": [
+          "celsius",
+          "centigrade",
+          "electricity",
+          "temp",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "11",
+        "current_value": "-121.36",
+        "at": "06/28/2011 10:07:09",
+        "max_value": "325.64",
+        "min_value": "-321.72",
+        "tags": [
+          "carbondioxide",
+          "celsius",
+          "centigrade",
+          "co2",
+          "temp",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "12",
+        "current_value": "2",
+        "at": "06/28/2011 10:07:09",
+        "max_value": "21.45",
+        "min_value": "1.5",
+        "tags": [
+          "carbondioxide",
+          "celsius",
+          "centigrade",
+          "co2",
+          "temp",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "13",
+        "current_value": "-60.86",
+        "at": "06/28/2011 10:07:09",
+        "max_value": "326.64",
+        "min_value": "-326.08",
+        "tags": [
+          "carbondioxide",
+          "celsius",
+          "centigrade",
+          "co2",
+          "temp",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "14",
+        "current_value": "31.02",
+        "at": "06/28/2011 10:07:09",
+        "max_value": "81.69",
+        "min_value": "13.06",
+        "tags": [
+          "airhumidity",
+          "celsius",
+          "centigrade",
+          "humidity",
+          "interior",
+          "rH",
+          "rh",
+          "temp",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "15",
+        "current_value": "18.79",
+        "at": "06/28/2011 10:07:09",
+        "max_value": "24.45",
+        "min_value": "6.05",
+        "tags": [
+          "celsius",
+          "centigrade",
+          "interior",
+          "temp",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "16",
+        "current_value": "45.34",
+        "at": "06/28/2011 10:07:09",
+        "max_value": "98.19",
+        "min_value": "20.25",
+        "tags": [
+          "airhumidity",
+          "celsius",
+          "centigrade",
+          "humidity",
+          "interior",
+          "rH",
+          "rh",
+          "temp",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "17",
+        "current_value": "23.28",
+        "at": "06/28/2011 10:07:09",
+        "max_value": "25.23",
+        "min_value": "8.82",
+        "tags": [
+          "celsius",
+          "centigrade",
+          "interior",
+          "temp",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "18",
+        "current_value": "43.59",
+        "at": "06/28/2011 10:07:09",
+        "max_value": "90.8",
+        "min_value": "21.5",
+        "tags": [
+          "airhumidity",
+          "celsius",
+          "centigrade",
+          "humidity",
+          "interior",
+          "rH",
+          "rh",
+          "temp",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "19",
+        "current_value": "20.29",
+        "at": "06/28/2011 10:07:09",
+        "max_value": "26.7",
+        "min_value": "8.01",
+        "tags": [
+          "celsius",
+          "centigrade",
+          "interior",
+          "temp",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "20",
+        "current_value": "54.09",
+        "at": "06/28/2011 10:07:09",
+        "max_value": "96.25",
+        "min_value": "0.0",
+        "tags": [
+          "airhumidity",
+          "coldwater",
+          "exterior",
+          "humidity",
+          "rH",
+          "rh"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "21",
+        "current_value": "9.5",
+        "at": "06/28/2011 10:07:09",
+        "max_value": "26.12",
+        "min_value": "-3.55",
+        "tags": [
+          "celsius",
+          "centigrade",
+          "exterior",
+          "hotwater",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "22",
+        "current_value": "1.5",
+        "at": "06/28/2011 10:07:09",
+        "max_value": "94.19",
+        "min_value": "0.0",
+        "tags": [
+          "coldwater",
+          "rain",
+          "rainsensor"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "23",
+        "current_value": "17.79",
+        "at": "06/28/2011 10:07:09",
+        "max_value": "108.22",
+        "min_value": "8.43",
+        "tags": [
+          "celsius",
+          "centigrade",
+          "hotwater",
+          "temp",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "24",
+        "current_value": "22.11",
+        "at": "06/28/2011 10:07:09",
+        "max_value": "26.87",
+        "min_value": "0.01",
+        "tags": [
+          "celsius",
+          "centigrade",
+          "meterspersecond",
+          "mps",
+          "temp",
+          "temperature",
+          "wind",
+          "windspeed"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "25",
+        "current_value": "13.88",
+        "at": "06/28/2011 10:07:09",
+        "max_value": "267.67",
+        "min_value": "0.0",
+        "tags": [
+          "celsius",
+          "centigrade",
+          "orientation",
+          "temp",
+          "temperature",
+          "vane",
+          "windvane"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "26",
+        "current_value": "19.37",
+        "at": "06/28/2011 10:07:09",
+        "max_value": "23.53",
+        "min_value": "16.54",
+        "tags": [
+          "celsius",
+          "centigrade",
+          "temp",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "27",
+        "current_value": "20.17",
+        "at": "06/28/2011 10:07:09",
+        "max_value": "24.26",
+        "min_value": "17.57",
+        "tags": [
+          "celsius",
+          "centigrade",
+          "temp",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "28",
+        "current_value": "21.71",
+        "at": "06/28/2011 10:07:09",
+        "max_value": "26.38",
+        "min_value": "18.7",
+        "tags": [
+          "celsius",
+          "centigrade",
+          "temp",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "29",
+        "current_value": "17.14",
+        "at": "06/28/2011 10:07:09",
+        "max_value": "22.64",
+        "min_value": "12.93",
+        "tags": [
+          "celsius",
+          "centigrade",
+          "temp",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "30",
+        "current_value": "20.9",
+        "at": "06/28/2011 10:07:09",
+        "max_value": "23.71",
+        "min_value": "13.13",
+        "tags": [
+          "celsius",
+          "centigrade",
+          "temp",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "31",
+        "current_value": "21.14",
+        "at": "06/28/2011 10:07:09",
+        "max_value": "25.76",
+        "min_value": "12.93",
+        "tags": [
+          "celsius",
+          "centigrade",
+          "temp",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "32",
+        "current_value": "18.38",
+        "at": "06/28/2011 10:07:09",
+        "max_value": "23.01",
+        "min_value": "5.55",
+        "tags": [
+          "celsius",
+          "centigrade",
+          "temp",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "33",
+        "current_value": "0",
+        "at": "06/28/2011 10:07:09",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "coldwater"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "34",
+        "current_value": "4.09",
+        "at": "06/28/2011 10:07:09",
+        "max_value": "4.09",
+        "min_value": "4.09",
+        "tags": [
+          "hotwater"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "35",
+        "current_value": "30.26",
+        "at": "06/28/2011 10:07:09",
+        "max_value": "30.26",
+        "min_value": "18.87",
+        "tags": [
+          "coldwater"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "36",
+        "current_value": "115.05",
+        "at": "06/28/2011 10:07:09",
+        "max_value": "115.05",
+        "min_value": "76.69",
+        "tags": [
+          "hotwater"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "37",
+        "current_value": "1.72",
+        "at": "06/28/2011 10:07:09",
+        "max_value": "11.69",
+        "min_value": "0.0",
+        "tags": [
+          "meterspersecond",
+          "mps",
+          "wind",
+          "windspeed"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "38",
+        "current_value": "258.85",
+        "at": "06/28/2011 10:07:09",
+        "max_value": "325.86",
+        "min_value": "-321.35",
+        "tags": [
+          "orientation",
+          "vane",
+          "windvane"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "50.3758225851221",
+      "lon": "-4.13738250732422",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/1136\" >i-DAT building</a>",
+    "URLMostrar": "https://xively.com/feeds/1136"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\1136.json",
+  "DocumentJSON": null
+}

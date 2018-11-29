@@ -1,0 +1,71 @@
+{
+  "Conceptos": [
+    "thermocouple"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "65050",
+    "title": "test CR1000",
+    "Private": false,
+    "tags": [
+      "temperature",
+      "test"
+    ],
+    "description": "thermocouple test",
+    "feed": "https://api.xively.com/v2/feeds/65050.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "06/27/2012 17:32:30",
+    "created": "06/27/2012 14:25:53",
+    "creator": "https://xively.com/users/cfinnert",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "temp1",
+        "current_value": null,
+        "at": null,
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "test"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temp2",
+        "current_value": null,
+        "at": null,
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "test"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Vermont Smart Resource Institute",
+      "domain": 0,
+      "lat": "44.4845963494498",
+      "lon": "-73.2217526435852",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/65050\" >test CR1000</a>",
+    "URLMostrar": "https://xively.com/feeds/65050"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\65050.json",
+  "DocumentJSON": null
+}

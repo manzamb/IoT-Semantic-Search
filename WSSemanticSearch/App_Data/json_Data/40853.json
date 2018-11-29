@@ -1,0 +1,64 @@
+{
+  "Conceptos": [
+    "description"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "40853",
+    "title": "My Geiger Bot Feed",
+    "Private": false,
+    "tags": null,
+    "description": "Enter a description of the Feed",
+    "feed": "https://api.xively.com/v2/feeds/40853.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "01/24/2012 23:46:26",
+    "created": "12/01/2011 08:14:45",
+    "creator": "https://xively.com/users/hougyoku",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "0.16",
+        "at": "01/24/2012 23:46:25",
+        "max_value": "5.53",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "µSv/h",
+          "label": "microsieverts per hour",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "21",
+        "at": "01/24/2012 23:46:25",
+        "max_value": "166.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "CPM",
+          "label": "counts per minute",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Iwaki,Japan",
+      "domain": 0,
+      "lat": "36.9848082",
+      "lon": "140.89971932",
+      "ele": "18.0",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/40853\" >My Geiger Bot Feed</a>",
+    "URLMostrar": "https://xively.com/feeds/40853"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\40853.json",
+  "DocumentJSON": null
+}

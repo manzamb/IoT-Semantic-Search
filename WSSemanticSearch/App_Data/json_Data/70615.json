@@ -1,0 +1,105 @@
+{
+  "Conceptos": [
+    "right"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "70615",
+    "title": "東京 六町 環境データ（ダイニング）",
+    "Private": false,
+    "tags": [
+      "Archiduino",
+      "Architecture",
+      "Arduino",
+      "Monitoring"
+    ],
+    "description": "東京 六町 環境データ（ダイニング）",
+    "feed": "https://api.xively.com/v2/feeds/70615.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/16/2014 21:16:08",
+    "created": "08/09/2012 14:12:48",
+    "creator": "https://xively.com/users/entasan",
+    "version": null,
+    "website": "http://entasan.dyndns.org/",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "149.56",
+        "at": "03/17/2014 06:15:56",
+        "max_value": "948.0",
+        "min_value": "0.0",
+        "tags": [
+          "Brightness"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "[lx]",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "29.57",
+        "at": "03/17/2014 06:15:56",
+        "max_value": "50.0",
+        "min_value": "21.68",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "['C]",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "25.42",
+        "at": "03/17/2014 06:15:56",
+        "max_value": "52.52",
+        "min_value": "11.2",
+        "tags": [
+          "Humidity"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "[%RH]",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "0.00",
+        "at": "03/17/2014 06:15:56",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "Presence"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "[%]",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Japan Tokyo Rokucho",
+      "domain": 0,
+      "lat": "35.78681618",
+      "lon": "139.8225635",
+      "ele": "10",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/70615\" >東京 六町 環境データ（ダイニング）</a>",
+    "URLMostrar": "https://xively.com/feeds/70615"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\70615.json",
+  "DocumentJSON": null
+}

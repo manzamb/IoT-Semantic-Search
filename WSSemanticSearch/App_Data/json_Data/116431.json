@@ -1,0 +1,108 @@
+{
+  "Conceptos": [
+    "moisture"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "116431",
+    "title": "Planten",
+    "Private": false,
+    "tags": [
+      "imp",
+      "moisture",
+      "plant"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/116431.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "11/21/2013 23:12:47",
+    "created": "03/02/2013 22:23:44",
+    "creator": "https://xively.com/users/tacoe",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "groteplant",
+        "current_value": "0.008",
+        "at": "11/21/2013 23:12:47",
+        "max_value": "0.723",
+        "min_value": "0.0",
+        "tags": [
+          "plant",
+          "soil moisture"
+        ],
+        "unit": {
+          "symbol": "θ",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "groteplant-battery",
+        "current_value": "3.267",
+        "at": "11/21/2013 23:12:47",
+        "max_value": "3.282",
+        "min_value": "2.534",
+        "tags": [
+          "plant",
+          "voltage"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "kleineplant",
+        "current_value": "0.57",
+        "at": "09/13/2013 11:09:58",
+        "max_value": "0.742",
+        "min_value": "0.0",
+        "tags": [
+          "plant",
+          "soil moisture"
+        ],
+        "unit": {
+          "symbol": "θ",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "kleineplant-battery",
+        "current_value": "3.183",
+        "at": "09/13/2013 11:09:58",
+        "max_value": "3.289",
+        "min_value": "2.993",
+        "tags": [
+          "plant",
+          "voltage"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Home",
+      "domain": 0,
+      "lat": "52.3866276068338",
+      "lon": "4.87698554992676",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/116431\" >Planten</a>",
+    "URLMostrar": "https://xively.com/feeds/116431"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\116431.json",
+  "DocumentJSON": null
+}

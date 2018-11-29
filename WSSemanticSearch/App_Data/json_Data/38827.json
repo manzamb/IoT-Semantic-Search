@@ -1,0 +1,64 @@
+{
+  "Conceptos": [
+    "description"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "38827",
+    "title": "Mobile Geigerbot",
+    "Private": false,
+    "tags": null,
+    "description": "This feed is now deprecated. Use this instead:\r\n\r\nhttps://pachube.com/feeds/47031\r\n\r\n\r\n\r\n\r\n\r\n\r\n======= OLD STUFF ======\r\nReadings from a DRGB-90 connected directly to a Geigerbot via custom cable hack. This is just a test run. I'm using the SB-20/U - Co60 (22) setting for the DRGB-90 as it apparently uses an SBM-20 tube with an offset of -13 CPM.  This is just a test feed, so please don't consider it accurate in any sense.\r\n\r\nNote that I started using the offset of -13 from January 11, 2012 based on my conversations with Nick Dolezal, author of Geigerbot.  I'm now fairly convinced that this gives the most accurate figures for an SBM-20 tube. \r\n\r\nIf you must use my data, use the CPM as that is relatively stable as it doesn't depend on my occasional mucking around with the algorithm that converts the CPM to uSv/hr. Oops, just realized that Nick's algorithm must be applying the compensation factor to CPM as well. So add +13 to all CPM after 1/11 if you want to see historical trends.\r\n\r\n\r\nFeeds 1 & 2 (uSv/h and CPM/h) are indoors / fixed.\r\n\r\nI wrote up a quick description of my DRGB-90 hack here: http://www.gpsy.com/ev/2012/01/modding-a-drgb90.html",
+    "feed": "https://api.xively.com/v2/feeds/38827.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "02/20/2012 08:38:54",
+    "created": "11/06/2011 05:01:52",
+    "creator": "https://xively.com/users/robokaren",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "1",
+        "current_value": "30",
+        "at": "02/20/2012 08:38:54",
+        "max_value": "68.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "nSv/h",
+          "label": "nanosieverts per hour",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "13",
+        "at": "02/20/2012 08:38:54",
+        "max_value": "1889.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "RawCPM",
+          "label": "raw counts per minute before offset",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "35.71119397",
+      "lon": "139.71891635",
+      "ele": "47.6",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/38827\" >Mobile Geigerbot</a>",
+    "URLMostrar": "https://xively.com/feeds/38827"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\38827.json",
+  "DocumentJSON": null
+}

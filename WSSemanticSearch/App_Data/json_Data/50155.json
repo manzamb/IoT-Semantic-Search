@@ -1,0 +1,292 @@
+{
+  "Conceptos": [
+    "humidity"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "50155",
+    "title": "My home feed",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/50155.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/17/2014 16:39:04",
+    "created": "02/29/2012 22:51:55",
+    "creator": "https://xively.com/users/nferreyra",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "407.09",
+        "at": "03/17/2014 16:39:04",
+        "max_value": "129211.41",
+        "min_value": "-25.58",
+        "tags": [
+          "power",
+          "real"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watt",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "440.54",
+        "at": "03/17/2014 16:39:04",
+        "max_value": "177500.0",
+        "min_value": "0.0",
+        "tags": [
+          "apparent",
+          "power"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watt",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "0.92",
+        "at": "03/17/2014 16:39:04",
+        "max_value": "2248.84",
+        "min_value": "-0.2",
+        "tags": [
+          "power factor"
+        ],
+        "unit": {
+          "symbol": "PF",
+          "label": "Power Factor",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "227.13",
+        "at": "03/17/2014 16:39:04",
+        "max_value": "224485.38",
+        "min_value": "0.0",
+        "tags": [
+          "rms",
+          "voltage"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": "Vrms",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "1.94",
+        "at": "03/17/2014 16:39:04",
+        "max_value": "817.97",
+        "min_value": "0.0",
+        "tags": [
+          "current",
+          "rms"
+        ],
+        "unit": {
+          "symbol": "A",
+          "label": "Irms",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "7.06",
+        "at": "03/17/2014 16:39:04",
+        "max_value": "45.99",
+        "min_value": "0.0",
+        "tags": [
+          "power",
+          "total"
+        ],
+        "unit": {
+          "symbol": "kWh",
+          "label": "Watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "0.928",
+        "at": "03/17/2014 16:39:04",
+        "max_value": "6.162",
+        "min_value": "0.0",
+        "tags": [
+          "cost",
+          "total"
+        ],
+        "unit": {
+          "symbol": "Eur",
+          "label": "Cost",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "7",
+        "current_value": "0.42",
+        "at": "03/17/2014 16:39:04",
+        "max_value": "6.13",
+        "min_value": "-24.65",
+        "tags": [
+          "hour",
+          "last",
+          "power"
+        ],
+        "unit": {
+          "symbol": "kWh",
+          "label": "Watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "8",
+        "current_value": "0.069",
+        "at": "03/17/2014 16:39:04",
+        "max_value": "0.878",
+        "min_value": "-3.873",
+        "tags": [
+          "cost",
+          "hour",
+          "last"
+        ],
+        "unit": {
+          "symbol": "Eur",
+          "label": "Cost",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "9",
+        "current_value": "25.39",
+        "at": "03/17/2014 16:39:04",
+        "max_value": "2864.0",
+        "min_value": "0.0",
+        "tags": [
+          "box",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "10",
+        "current_value": "16.00",
+        "at": "03/17/2014 16:39:04",
+        "max_value": "1761.0",
+        "min_value": "0.0",
+        "tags": [
+          "inside",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "11",
+        "current_value": "55.00",
+        "at": "03/17/2014 16:39:04",
+        "max_value": "657.21",
+        "min_value": "0.0",
+        "tags": [
+          "humidity",
+          "inside"
+        ],
+        "unit": {
+          "symbol": "%RH",
+          "label": "Relative Humidity",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "12",
+        "current_value": "6.96",
+        "at": "03/17/2014 16:39:04",
+        "max_value": "3362.08",
+        "min_value": "0.0",
+        "tags": [
+          "dew point",
+          "inside"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "13",
+        "current_value": "9.00",
+        "at": "03/17/2014 16:39:04",
+        "max_value": "37.0",
+        "min_value": "-2.0",
+        "tags": [
+          "outside",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "14",
+        "current_value": "80.00",
+        "at": "03/17/2014 16:39:04",
+        "max_value": "100.0",
+        "min_value": "20.0",
+        "tags": [
+          "humidity",
+          "outside"
+        ],
+        "unit": {
+          "symbol": "%RH",
+          "label": "Relative Humidity",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Sandim",
+      "domain": 0,
+      "lat": "41.0343050853875",
+      "lon": "-8.51852416992188",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/50155\" >My home feed</a>",
+    "URLMostrar": "https://xively.com/feeds/50155"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\50155.json",
+  "DocumentJSON": null
+}

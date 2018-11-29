@@ -1,0 +1,144 @@
+{
+  "Conceptos": [
+    "process"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "65742",
+    "title": "Raspberry Pi",
+    "Private": false,
+    "tags": [
+      "raspberrypi",
+      "uptime"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/65742.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "09/03/2012 20:10:03",
+    "created": "07/02/2012 09:31:06",
+    "creator": "https://xively.com/users/rooreynolds",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "load",
+        "current_value": null,
+        "at": "09/03/2012 20:10:03",
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "15mins",
+          "average",
+          "load"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "memfree",
+        "current_value": "95",
+        "at": "09/03/2012 20:10:03",
+        "max_value": "95.0",
+        "min_value": "10.0",
+        "tags": [
+          "free",
+          "memory"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "MB",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "processes",
+        "current_value": "72",
+        "at": "09/03/2012 20:10:03",
+        "max_value": "80.0",
+        "min_value": "66.0",
+        "tags": [
+          "count",
+          "processes",
+          "ps"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "swapfree",
+        "current_value": "127",
+        "at": "09/03/2012 20:10:03",
+        "max_value": "127.0",
+        "min_value": "117.0",
+        "tags": [
+          "free",
+          "memory",
+          "swap"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "MB",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "uptime",
+        "current_value": "8.00555",
+        "at": "09/03/2012 20:10:03",
+        "max_value": "59.32082",
+        "min_value": "1.98888",
+        "tags": [
+          "days",
+          "uptime"
+        ],
+        "unit": {
+          "symbol": "days",
+          "label": "days",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "users",
+        "current_value": "load",
+        "at": "09/03/2012 20:10:03",
+        "max_value": "2.0",
+        "min_value": "0.0",
+        "tags": [
+          "connected",
+          "users"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "users",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 1,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/65742\" >Raspberry Pi</a>",
+    "URLMostrar": "https://xively.com/feeds/65742"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\65742.json",
+  "DocumentJSON": null
+}

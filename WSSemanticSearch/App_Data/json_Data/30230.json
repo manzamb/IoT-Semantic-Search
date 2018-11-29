@@ -1,0 +1,70 @@
+{
+  "Conceptos": [
+    "area"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "30230",
+    "title": "test feed",
+    "Private": false,
+    "tags": [
+      "SHT15"
+    ],
+    "description": "SHT15の温度，湿度データです．\r\nmbed+BoardOrange+SHT15",
+    "feed": "https://api.xively.com/v2/feeds/30230.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "09/07/2011 06:06:35",
+    "created": "07/20/2011 01:38:32",
+    "creator": "https://xively.com/users/luy_cipher",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "29.034500",
+        "at": "09/07/2011 06:06:34",
+        "max_value": "61.567767",
+        "min_value": "0.0",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "℃",
+          "label": "deg C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "48.642511",
+        "at": "09/07/2011 06:06:35",
+        "max_value": "71.658033",
+        "min_value": "0.0",
+        "tags": [
+          "humidity"
+        ],
+        "unit": {
+          "symbol": "％",
+          "label": "percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Tottori-east area　鳥取県東部",
+      "domain": 0,
+      "lat": "35.5190675223341",
+      "lon": "134.176744222641",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/30230\" >test feed</a>",
+    "URLMostrar": "https://xively.com/feeds/30230"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\30230.json",
+  "DocumentJSON": null
+}

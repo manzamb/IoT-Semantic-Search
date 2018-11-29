@@ -1,0 +1,74 @@
+{
+  "Conceptos": [
+    "radioactivity"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "57245",
+    "title": "Radioactivity monitor@Setagaya, Tokyo",
+    "Private": false,
+    "tags": [
+      "cpm",
+      "Geiger",
+      "Mark2",
+      "nSv/h",
+      "radiation"
+    ],
+    "description": "Private monitoring post by using a hand-made Geiger counter Mark2 (mbed)\r\nMark2: http://diytec.web.fc2.com/mark2r2/",
+    "feed": "https://api.xively.com/v2/feeds/57245.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:06:41",
+    "created": "04/26/2012 22:53:28",
+    "creator": "https://xively.com/users/geodenx",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "116.825849",
+        "at": "03/21/2014 14:06:39",
+        "max_value": "146.039158",
+        "min_value": "60.231593",
+        "tags": [
+          "1h moving average"
+        ],
+        "unit": {
+          "symbol": "nSv/h",
+          "label": "nSv/h",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "19.203297",
+        "at": "03/21/2014 14:06:41",
+        "max_value": "22.97275",
+        "min_value": "11.900826",
+        "tags": [
+          "1h moving average"
+        ],
+        "unit": {
+          "symbol": "cpm",
+          "label": "cpm",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Setagaya, Tokyo",
+      "domain": 1,
+      "lat": "35.64659059434",
+      "lon": "139.653267860413",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/57245\" >Radioactivity monitor@Setagaya, Tokyo</a>",
+    "URLMostrar": "https://xively.com/feeds/57245"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\57245.json",
+  "DocumentJSON": null
+}

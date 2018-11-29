@@ -1,0 +1,78 @@
+{
+  "Conceptos": [
+    "environment"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "49865",
+    "title": "OfficeEnvironment",
+    "Private": false,
+    "tags": null,
+    "description": "Office Temperature & Humidity & Pressure",
+    "feed": "https://api.xively.com/v2/feeds/49865.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:10:01",
+    "created": "02/27/2012 08:22:24",
+    "creator": "https://xively.com/users/albertmaeda",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Humidity",
+        "current_value": "40.34",
+        "at": "03/21/2014 14:10:01",
+        "max_value": "88.47",
+        "min_value": "1.77",
+        "tags": null,
+        "unit": {
+          "symbol": "%RH",
+          "label": "%RH",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Pressure",
+        "current_value": "1008.00",
+        "at": "03/21/2014 14:10:01",
+        "max_value": "1471.56",
+        "min_value": "501.9",
+        "tags": null,
+        "unit": {
+          "symbol": "hPa",
+          "label": "hPa",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperature",
+        "current_value": "22.75",
+        "at": "03/21/2014 14:10:01",
+        "max_value": "33.0",
+        "min_value": "-1.36",
+        "tags": null,
+        "unit": {
+          "symbol": "C",
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "FUJISAWA",
+      "domain": 0,
+      "lat": "35.3355732789542",
+      "lon": "139.499448537827",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/49865\" >OfficeEnvironment</a>",
+    "URLMostrar": "https://xively.com/feeds/49865"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\49865.json",
+  "DocumentJSON": null
+}

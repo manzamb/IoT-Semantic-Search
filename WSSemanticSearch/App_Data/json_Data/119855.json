@@ -1,0 +1,161 @@
+{
+  "Conceptos": [
+    "temperature"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "119855",
+    "title": "Water Temp Monitor",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "energy",
+      "monitor",
+      "temperature",
+      "water"
+    ],
+    "description": "Water Temperature Monitor\r\nUses DS18B20 networked temperature sensors to monitor in and out temperatures on two water heaters. The gas heater is the primary heater and feeds the electric storage tank.",
+    "feed": "https://api.xively.com/v2/feeds/119855.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:09:37",
+    "created": "03/19/2013 13:29:02",
+    "creator": "https://xively.com/users/jburden",
+    "version": null,
+    "website": "http://open.sen.se/jburden",
+    "datastreams": [
+      {
+        "id": "cur_elc_cold",
+        "current_value": "125.60",
+        "at": "03/21/2014 14:09:36",
+        "max_value": "138.2",
+        "min_value": "0.0",
+        "tags": [
+          "ElectricCold",
+          "environment"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "cur_elc_hot",
+        "current_value": "122.00",
+        "at": "03/21/2014 14:09:36",
+        "max_value": "133.25",
+        "min_value": "0.0",
+        "tags": [
+          "ElectricHot",
+          "environment"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "cur_elc_tank",
+        "current_value": "122.00",
+        "at": "03/21/2014 14:09:36",
+        "max_value": "130.1",
+        "min_value": "0.0",
+        "tags": [
+          "ElectricTank",
+          "environment"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "cur_gas_cold",
+        "current_value": "109.40",
+        "at": "03/21/2014 14:09:36",
+        "max_value": "131.45",
+        "min_value": "0.0",
+        "tags": [
+          "environment",
+          "GasCold"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "cur_gas_hot",
+        "current_value": "135.05",
+        "at": "03/21/2014 14:09:36",
+        "max_value": "143.6",
+        "min_value": "0.0",
+        "tags": [
+          "environment",
+          "GasHot"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "cur_gas_tank",
+        "current_value": "134.15",
+        "at": "03/21/2014 14:09:36",
+        "max_value": "140.9",
+        "min_value": "0.0",
+        "tags": [
+          "environment",
+          "GasTank"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "cur_inlet",
+        "current_value": "51.35",
+        "at": "03/21/2014 14:09:36",
+        "max_value": "113.9",
+        "min_value": "0.0",
+        "tags": [
+          "environment",
+          "Inlet"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Round Hill, VA",
+      "domain": 0,
+      "lat": "39.1324903770768",
+      "lon": "-77.768611907959",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/119855\" >Water Temp Monitor</a>",
+    "URLMostrar": "https://xively.com/feeds/119855"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\119855.json",
+  "DocumentJSON": null
+}

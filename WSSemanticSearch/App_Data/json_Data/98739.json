@@ -1,0 +1,108 @@
+{
+  "Conceptos": [
+    "moisture"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "98739",
+    "title": "Growerbot",
+    "Private": false,
+    "tags": [
+      "gardening",
+      "growerbot",
+      "internet thing"
+    ],
+    "description": "My first internet of thing.",
+    "feed": "https://api.xively.com/v2/feeds/98739.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "09/09/2013 12:50:37",
+    "created": "01/18/2013 23:14:14",
+    "creator": "https://xively.com/users/budcaddell",
+    "version": null,
+    "website": "http://whatconsumesme.com",
+    "datastreams": [
+      {
+        "id": "humidity",
+        "current_value": "NAN",
+        "at": "09/09/2013 12:50:37",
+        "max_value": "99.9",
+        "min_value": "0.0",
+        "tags": [
+          "growerbot",
+          "humidity"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "light",
+        "current_value": "58310",
+        "at": "09/09/2013 12:50:37",
+        "max_value": "58310.0",
+        "min_value": "0.0",
+        "tags": [
+          "growerbot",
+          "light"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "lux",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "moisture",
+        "current_value": "2",
+        "at": "09/09/2013 12:50:37",
+        "max_value": "1023.0",
+        "min_value": "0.0",
+        "tags": [
+          "growerbot",
+          "moisture"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temperature",
+        "current_value": "0.00",
+        "at": "09/09/2013 12:50:37",
+        "max_value": "31.6",
+        "min_value": "0.0",
+        "tags": [
+          "growerbot",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Deutsch LA",
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/98739\" >Growerbot</a>",
+    "URLMostrar": "https://xively.com/feeds/98739"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\98739.json",
+  "DocumentJSON": null
+}

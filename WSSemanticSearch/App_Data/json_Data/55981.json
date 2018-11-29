@@ -1,0 +1,108 @@
+{
+  "Conceptos": [
+    "plan"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "55981",
+    "title": "Radiation & Airpressure",
+    "Private": false,
+    "tags": [
+      "geiger",
+      "mpx4115",
+      "pe1nsu",
+      "pressure",
+      "radiation",
+      "si-29bg",
+      "temperature"
+    ],
+    "description": "This feed is to measure radiation with a SI-29BG geiger tube. With the same microcontroller also the air pressure is measured. In this project a  PIC16F883 is used. For direct conversion in µRem/h every 80 seconds the counter is read along with the other sensors. The data is sent via the serial port with a speed of 9600 baud to the host PC which processes the data for upload and logging with a little bash script. The serial string gives the outdoor temperature, measured radiation, calculated average radiation over 640 seconds (10 2/3 min.) and air pressure.\r\nExplanation of  the 80 second cycle:\r\nFrom the SI-29BG datasheet we learn that the sensitivity  for Co60 44-52 impulses per µRem/h is and for Cs137 38-44 imp. per µRem/h. I have decided to take 45 imp. per µRem/h because this is almost in the middle between the two given isotopes and for easy calculation. So 1mRem/h = 45000 imp. pro second = 750 CPM = 12,5 CPS. The measuring time (Cal. factor) = 1000 / CPS mRem/h = 1000/ 12,5 = 80 seconds.  This is actually twice the time needed for the SBM-20. Thus, a measuring time of 80 seconds will give the radiation directly in µRem/h. For µSv/h divide it by a factor 100.\r\nThe value of the MPX4115 pressure sensor is digitized by the chip's 10 bit ADC.  Because i am writing the software in assembler the math is done with a 16 bit fixed point routine which is easier to implement.\r\nDespite that the resolution of the 10 bit ADC is somewhat to small, it produces good data.\r\nAlthough the hardware is finished and fully checked i need to implement still the third sensor in the script, which is measuring the outdoor temperature. And at least remember: I'm doing my best to produce reliable data but the data provided is unofficial, so the normal disclaimers apply.\r\n\r\nI have changed the radiation average for over a period of 42 minutes. This will produce a more stable value of the background radiation level.\r\n\r\n04-11-2012:\r\nAdded the last datastream, outside temperature. All sensors are now online.",
+    "feed": "https://api.xively.com/v2/feeds/55981.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:06:42",
+    "created": "04/17/2012 19:42:00",
+    "creator": "https://xively.com/users/pe1nsu",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "10",
+        "current_value": "16",
+        "at": "03/21/2014 14:06:41",
+        "max_value": "1025.0",
+        "min_value": "0.0",
+        "tags": [
+          "Radiation"
+        ],
+        "unit": {
+          "symbol": "µRem/h",
+          "label": "µRem/h",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "11",
+        "current_value": "1007",
+        "at": "03/21/2014 14:06:41",
+        "max_value": "1036.0",
+        "min_value": "16.0",
+        "tags": [
+          "Air pressure"
+        ],
+        "unit": {
+          "symbol": "mBar",
+          "label": "mBar",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "12",
+        "current_value": "14",
+        "at": "03/21/2014 14:06:41",
+        "max_value": "20.0",
+        "min_value": "0.15",
+        "tags": [
+          "Average radiation"
+        ],
+        "unit": {
+          "symbol": "µRem/h",
+          "label": "µRem/h",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "13",
+        "current_value": "10.6",
+        "at": "03/21/2014 14:06:41",
+        "max_value": "95.0",
+        "min_value": "-33.5",
+        "tags": [
+          "Outside temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Hoogwoud, Netherlands",
+      "domain": 0,
+      "lat": "52.7140561856631",
+      "lon": "4.94016230106354",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/55981\" >Radiation & Airpressure</a>",
+    "URLMostrar": "https://xively.com/feeds/55981"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\55981.json",
+  "DocumentJSON": null
+}

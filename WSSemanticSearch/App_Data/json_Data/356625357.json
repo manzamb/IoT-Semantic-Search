@@ -1,0 +1,64 @@
+{
+  "Conceptos": [
+    "group"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "356625357",
+    "title": "Sensor 1",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/356625357.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "12/19/2013 14:12:42",
+    "created": "12/19/2013 12:46:15",
+    "creator": "https://xively.com/users/epicgroup",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Battery",
+        "current_value": "35",
+        "at": "12/19/2013 14:12:42",
+        "max_value": "50.0",
+        "min_value": "35.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temp",
+        "current_value": "20",
+        "at": "12/19/2013 14:12:41",
+        "max_value": "21.0",
+        "min_value": "19.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/356625357\" >Sensor 1</a>",
+    "URLMostrar": "https://xively.com/feeds/356625357"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\356625357.json",
+  "DocumentJSON": null
+}

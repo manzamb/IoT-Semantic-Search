@@ -1,0 +1,148 @@
+{
+  "Conceptos": [
+    "so2"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "630601824",
+    "title": "GPRS Logbook",
+    "Private": false,
+    "tags": [
+      "Data logger",
+      "GPRS",
+      "L1V3",
+      "Sciencescope"
+    ],
+    "description": "Air Quality Monitor measuring Carbon Monoxide, Nitric Oxide, Nitrogen Dioxide, Sulphur Dioxide and Volatile Organic Compound levels",
+    "feed": "https://api.xively.com/v2/feeds/630601824.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/12/2014 12:52:57",
+    "created": "10/16/2013 13:37:50",
+    "creator": "https://xively.com/users/iostp",
+    "version": null,
+    "website": "http://sciencescope.co.uk/",
+    "datastreams": [
+      {
+        "id": "9999",
+        "current_value": "27",
+        "at": "03/12/2014 12:52:56",
+        "max_value": "29.0",
+        "min_value": "7.0",
+        "tags": [
+          "lbv 1.0.2",
+          "skv 1.0.0"
+        ],
+        "unit": {
+          "symbol": "g",
+          "label": "Signal Strength",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "032734",
+        "current_value": "-0.00",
+        "at": "03/12/2014 12:52:56",
+        "max_value": "4.18",
+        "min_value": "-0.01",
+        "tags": [
+          "Average",
+          "NO Concentration",
+          "Pollution"
+        ],
+        "unit": {
+          "symbol": "ppm (NO)",
+          "label": "NO Concentration, Pollution",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "132732",
+        "current_value": "0.8",
+        "at": "03/12/2014 12:52:56",
+        "max_value": "25.9",
+        "min_value": "-0.2",
+        "tags": [
+          "Average",
+          "CO Concentration",
+          "Pollution"
+        ],
+        "unit": {
+          "symbol": "ppm (CO)",
+          "label": "CO Concentration, Pollution",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "232738",
+        "current_value": "0.03",
+        "at": "03/12/2014 12:52:56",
+        "max_value": "4.95",
+        "min_value": "-0.01",
+        "tags": [
+          "Average",
+          "NO2 Concentration",
+          "Pollution"
+        ],
+        "unit": {
+          "symbol": "ppm (NO2)",
+          "label": "NO2 Concentration, Pollution",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "332739",
+        "current_value": "0.04",
+        "at": "03/12/2014 12:52:56",
+        "max_value": "0.18",
+        "min_value": "-0.02",
+        "tags": [
+          "Average",
+          "Pollution",
+          "SO2 Concentration"
+        ],
+        "unit": {
+          "symbol": "ppm (SO2)",
+          "label": "SO2 Concentration, Pollution",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "432735",
+        "current_value": "0.02",
+        "at": "03/12/2014 12:52:56",
+        "max_value": "2.4",
+        "min_value": "-0.02",
+        "tags": [
+          "Average",
+          "Pollution",
+          "VOC Concentration"
+        ],
+        "unit": {
+          "symbol": "ppm (VOC)",
+          "label": "VOC Concentration, Pollution",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Alder Grange School S/N1016 Air Quality box",
+      "domain": 0,
+      "lat": "53.7088007",
+      "lon": "-2.28264990000002",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/630601824\" >GPRS Logbook</a>",
+    "URLMostrar": "https://xively.com/feeds/630601824"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\630601824.json",
+  "DocumentJSON": null
+}

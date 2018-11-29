@@ -1,0 +1,812 @@
+{
+  "Conceptos": [
+    "thermistor"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "284312558",
+    "title": "AB Sensor Module 02",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/284312558.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:10:31",
+    "created": "07/14/2013 01:44:53",
+    "creator": "https://xively.com/users/yasu",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Joystick-Byte_006",
+        "current_value": "0.00",
+        "at": "02/20/2014 05:35:36",
+        "max_value": "31.0",
+        "min_value": "0.0",
+        "tags": [
+          "5-Way",
+          "COM-10063",
+          "Joystick"
+        ],
+        "unit": {
+          "symbol": "pos",
+          "label": "0~31",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Joystick-Byte_007",
+        "current_value": "0.00",
+        "at": "02/20/2014 05:37:21",
+        "max_value": "31.0",
+        "min_value": "0.0",
+        "tags": [
+          "5-Way",
+          "COM-10063",
+          "Joystick"
+        ],
+        "unit": {
+          "symbol": "pos",
+          "label": "0~31",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Joystick-Byte_008",
+        "current_value": "0.00",
+        "at": "02/20/2014 05:36:21",
+        "max_value": "31.0",
+        "min_value": "0.0",
+        "tags": [
+          "5-Way",
+          "COM-10063",
+          "Joystick"
+        ],
+        "unit": {
+          "symbol": "pos",
+          "label": "0~31",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Joystick-Byte_009",
+        "current_value": "0.00",
+        "at": "02/20/2014 03:48:45",
+        "max_value": "31.0",
+        "min_value": "0.0",
+        "tags": [
+          "5-Way",
+          "COM-10063",
+          "Joystick"
+        ],
+        "unit": {
+          "symbol": "pos",
+          "label": "0~31",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Joystick-Byte_010",
+        "current_value": "0.00",
+        "at": "02/20/2014 03:51:09",
+        "max_value": "31.0",
+        "min_value": "0.0",
+        "tags": [
+          "5-Way",
+          "COM-10063",
+          "Joystick"
+        ],
+        "unit": {
+          "symbol": "pos",
+          "label": "0~31",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Light-Sensor_006",
+        "current_value": "0.08",
+        "at": "03/21/2014 14:10:30",
+        "max_value": "4974.97",
+        "min_value": "0.04",
+        "tags": [
+          "Analog",
+          "LDR",
+          "~"
+        ],
+        "unit": {
+          "symbol": "lx",
+          "label": "Lux",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Light-Sensor_007",
+        "current_value": "238.59",
+        "at": "02/20/2014 05:37:21",
+        "max_value": "4974.97",
+        "min_value": "0.01",
+        "tags": [
+          "Analog",
+          "LDR",
+          "~"
+        ],
+        "unit": {
+          "symbol": "lx",
+          "label": "Lux",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Light-Sensor_008",
+        "current_value": "192.53",
+        "at": "02/20/2014 05:36:21",
+        "max_value": "4974.97",
+        "min_value": "0.01",
+        "tags": [
+          "Analog",
+          "LDR",
+          "~"
+        ],
+        "unit": {
+          "symbol": "lx",
+          "label": "Lux",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Light-Sensor_009",
+        "current_value": "216.09",
+        "at": "02/20/2014 03:48:45",
+        "max_value": "4974.97",
+        "min_value": "0.01",
+        "tags": [
+          "Analog",
+          "LDR",
+          "~"
+        ],
+        "unit": {
+          "symbol": "lx",
+          "label": "Lux",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Light-Sensor_010",
+        "current_value": "339.48",
+        "at": "02/20/2014 03:51:09",
+        "max_value": "4974.97",
+        "min_value": "0.01",
+        "tags": [
+          "Analog",
+          "LDR",
+          "~"
+        ],
+        "unit": {
+          "symbol": "lx",
+          "label": "Lux",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Pot-Setting_006",
+        "current_value": "0.00",
+        "at": "02/20/2014 05:35:36",
+        "max_value": "1023.0",
+        "min_value": "0.0",
+        "tags": [
+          "Potentiometer",
+          "Rotary",
+          "~"
+        ],
+        "unit": {
+          "symbol": "pos",
+          "label": "ADC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Pot-Setting_007",
+        "current_value": "0.00",
+        "at": "02/20/2014 05:37:21",
+        "max_value": "1023.0",
+        "min_value": "0.0",
+        "tags": [
+          "Potentiometer",
+          "Rotary",
+          "~"
+        ],
+        "unit": {
+          "symbol": "pos",
+          "label": "ADC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Pot-Setting_008",
+        "current_value": "0.00",
+        "at": "02/20/2014 05:36:21",
+        "max_value": "1023.0",
+        "min_value": "0.0",
+        "tags": [
+          "Potentiometer",
+          "Rotary",
+          "~"
+        ],
+        "unit": {
+          "symbol": "pos",
+          "label": "ADC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Pot-Setting_009",
+        "current_value": "0.00",
+        "at": "02/20/2014 03:48:45",
+        "max_value": "1023.0",
+        "min_value": "0.0",
+        "tags": [
+          "Potentiometer",
+          "Rotary",
+          "~"
+        ],
+        "unit": {
+          "symbol": "pos",
+          "label": "ADC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Pot-Setting_010",
+        "current_value": "0.00",
+        "at": "02/20/2014 03:51:09",
+        "max_value": "1023.0",
+        "min_value": "0.0",
+        "tags": [
+          "Potentiometer",
+          "Rotary",
+          "~"
+        ],
+        "unit": {
+          "symbol": "pos",
+          "label": "ADC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "_Pref-Light_006",
+        "current_value": "632.00",
+        "at": "03/21/2014 14:10:30",
+        "max_value": "782.0",
+        "min_value": "632.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "_Pref-Social_006",
+        "current_value": "178.00",
+        "at": "03/21/2014 14:10:30",
+        "max_value": "178.0",
+        "min_value": "176.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "_Pref-Sound_006",
+        "current_value": "521.00",
+        "at": "03/21/2014 14:10:30",
+        "max_value": "521.0",
+        "min_value": "518.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "_Pref-Temp_006",
+        "current_value": "684.00",
+        "at": "03/21/2014 14:10:30",
+        "max_value": "684.0",
+        "min_value": "560.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Rel-Humidity_006",
+        "current_value": "59.70",
+        "at": "03/21/2014 14:10:30",
+        "max_value": "100.0",
+        "min_value": "0.0",
+        "tags": [
+          "Capacitive",
+          "RHT03",
+          "SEN-10167"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "RH",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Rel-Humidity_007",
+        "current_value": "53.30",
+        "at": "02/20/2014 05:37:21",
+        "max_value": "100.0",
+        "min_value": "0.0",
+        "tags": [
+          "Capacitive",
+          "RHT03",
+          "SEN-10167"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "RH",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Rel-Humidity_008",
+        "current_value": "51.70",
+        "at": "02/20/2014 05:36:21",
+        "max_value": "100.0",
+        "min_value": "0.0",
+        "tags": [
+          "Capacitive",
+          "RHT03",
+          "SEN-10167"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "RH",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Rel-Humidity_009",
+        "current_value": "51.50",
+        "at": "02/20/2014 03:48:45",
+        "max_value": "100.0",
+        "min_value": "0.0",
+        "tags": [
+          "Capacitive",
+          "RHT03",
+          "SEN-10167"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "RH",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Rel-Humidity_010",
+        "current_value": "52.50",
+        "at": "02/20/2014 03:51:09",
+        "max_value": "100.0",
+        "min_value": "0.0",
+        "tags": [
+          "Capacitive",
+          "RHT03",
+          "SEN-10167"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "RH",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Signal-Strength_006",
+        "current_value": "0.00",
+        "at": "02/20/2014 05:35:36",
+        "max_value": "1023.0",
+        "min_value": "0.0",
+        "tags": [
+          "RSSI",
+          "XBee",
+          "~"
+        ],
+        "unit": {
+          "symbol": "rssi",
+          "label": "RSSI",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Signal-Strength_007",
+        "current_value": "0.00",
+        "at": "02/20/2014 05:37:21",
+        "max_value": "1023.0",
+        "min_value": "0.0",
+        "tags": [
+          "RSSI",
+          "XBee",
+          "~"
+        ],
+        "unit": {
+          "symbol": "rssi",
+          "label": "RSSI",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Signal-Strength_008",
+        "current_value": "0.00",
+        "at": "02/20/2014 05:36:21",
+        "max_value": "1023.0",
+        "min_value": "0.0",
+        "tags": [
+          "RSSI",
+          "XBee",
+          "~"
+        ],
+        "unit": {
+          "symbol": "rssi",
+          "label": "RSSI",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Signal-Strength_009",
+        "current_value": "0.00",
+        "at": "02/20/2014 03:48:45",
+        "max_value": "1023.0",
+        "min_value": "0.0",
+        "tags": [
+          "RSSI",
+          "XBee",
+          "~"
+        ],
+        "unit": {
+          "symbol": "rssi",
+          "label": "RSSI",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Signal-Strength_010",
+        "current_value": "0.00",
+        "at": "02/20/2014 03:51:09",
+        "max_value": "1023.0",
+        "min_value": "0.0",
+        "tags": [
+          "RSSI",
+          "XBee",
+          "~"
+        ],
+        "unit": {
+          "symbol": "rssi",
+          "label": "RSSI",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Sound-Sensor_006",
+        "current_value": "55.00",
+        "at": "03/21/2014 14:10:30",
+        "max_value": "86.57",
+        "min_value": "50.98",
+        "tags": [
+          "Analog",
+          "BOB-09964",
+          "Microphone"
+        ],
+        "unit": {
+          "symbol": "dB",
+          "label": "Decibel",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Sound-Sensor_007",
+        "current_value": "59.24",
+        "at": "02/20/2014 05:37:21",
+        "max_value": "86.57",
+        "min_value": "52.4",
+        "tags": [
+          "Analog",
+          "BOB-09964",
+          "Microphone"
+        ],
+        "unit": {
+          "symbol": "dB",
+          "label": "Decibel",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Sound-Sensor_008",
+        "current_value": "57.50",
+        "at": "02/20/2014 05:36:21",
+        "max_value": "86.57",
+        "min_value": "50.98",
+        "tags": [
+          "Analog",
+          "BOB-09964",
+          "Microphone"
+        ],
+        "unit": {
+          "symbol": "dB",
+          "label": "Decibel",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Sound-Sensor_009",
+        "current_value": "61.49",
+        "at": "02/20/2014 03:48:45",
+        "max_value": "86.57",
+        "min_value": "51.48",
+        "tags": [
+          "Analog",
+          "BOB-09964",
+          "Microphone"
+        ],
+        "unit": {
+          "symbol": "dB",
+          "label": "Decibel",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Sound-Sensor_010",
+        "current_value": "60.86",
+        "at": "02/20/2014 03:51:09",
+        "max_value": "86.57",
+        "min_value": "51.48",
+        "tags": [
+          "Analog",
+          "BOB-09964",
+          "Microphone"
+        ],
+        "unit": {
+          "symbol": "dB",
+          "label": "Decibel",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperature_006",
+        "current_value": "26.20",
+        "at": "03/21/2014 14:10:30",
+        "max_value": "34.0",
+        "min_value": "16.0",
+        "tags": [
+          "RHT03",
+          "SEN-10167",
+          "Thermistor"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperature_007",
+        "current_value": "25.00",
+        "at": "02/20/2014 05:37:21",
+        "max_value": "34.0",
+        "min_value": "16.0",
+        "tags": [
+          "RHT03",
+          "SEN-10167",
+          "Thermistor"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperature_008",
+        "current_value": "25.30",
+        "at": "02/20/2014 05:36:21",
+        "max_value": "34.0",
+        "min_value": "16.0",
+        "tags": [
+          "RHT03",
+          "SEN-10167",
+          "Thermistor"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperature_009",
+        "current_value": "25.50",
+        "at": "02/20/2014 03:48:45",
+        "max_value": "34.0",
+        "min_value": "16.0",
+        "tags": [
+          "RHT03",
+          "SEN-10167",
+          "Thermistor"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperature_010",
+        "current_value": "25.80",
+        "at": "02/20/2014 03:51:09",
+        "max_value": "34.0",
+        "min_value": "16.0",
+        "tags": [
+          "RHT03",
+          "SEN-10167",
+          "Thermistor"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Voltage_006",
+        "current_value": "0.00",
+        "at": "02/20/2014 05:35:36",
+        "max_value": "6.59",
+        "min_value": "0.0",
+        "tags": [
+          "~",
+          "~",
+          "~"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": "Volt",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Voltage_007",
+        "current_value": "0.00",
+        "at": "02/20/2014 05:37:21",
+        "max_value": "6.59",
+        "min_value": "0.0",
+        "tags": [
+          "~",
+          "~",
+          "~"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": "Volt",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Voltage_008",
+        "current_value": "0.00",
+        "at": "02/20/2014 05:36:21",
+        "max_value": "6.59",
+        "min_value": "0.0",
+        "tags": [
+          "~",
+          "~",
+          "~"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": "Volt",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Voltage_009",
+        "current_value": "0.00",
+        "at": "02/20/2014 03:48:45",
+        "max_value": "6.59",
+        "min_value": "0.0",
+        "tags": [
+          "~",
+          "~",
+          "~"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": "Volt",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Voltage_010",
+        "current_value": "0.00",
+        "at": "02/20/2014 03:51:09",
+        "max_value": "6.59",
+        "min_value": "0.0",
+        "tags": [
+          "~",
+          "~",
+          "~"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": "Volt",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/284312558\" >AB Sensor Module 02</a>",
+    "URLMostrar": "https://xively.com/feeds/284312558"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\284312558.json",
+  "DocumentJSON": null
+}

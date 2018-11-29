@@ -1,0 +1,84 @@
+{
+  "Conceptos": [
+    "sensor output"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "44405",
+    "title": "G_O_E_TA TESTING : Relationship between the \"Amount of Light in the Room\" and \"Temperature in the Room\" ",
+    "Private": false,
+    "tags": null,
+    "description": "Buenos Dias,\r\n\r\nThis Feed is updated every 5 seconds and contains 3 datastreams:\r\n\r\n0. Amount of Light in the Room [ From a CCD in a Voltage Divider. Arbitrary Units (min:0,max:900) ]\r\n\r\n1. Temperature in the Room [From a TMP36 sensor . In deg C ]\r\n\r\n2. Ratio of Amount of light in the Room to Temperature in the Room [Arbitrary Units]",
+    "feed": "https://api.xively.com/v2/feeds/44405.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "01/21/2012 17:42:38",
+    "created": "01/16/2012 17:32:51",
+    "creator": "https://xively.com/users/fvillalp2",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "166.10324",
+        "at": "01/21/2012 17:42:38",
+        "max_value": "987.57635",
+        "min_value": "0.0",
+        "tags": [
+          "etiqueta1"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "0.0",
+        "at": "01/21/2012 17:40:50",
+        "max_value": "60.0",
+        "min_value": "0.0",
+        "tags": [
+          "Output to drive LED"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "30.674057",
+        "at": "01/18/2012 00:44:19",
+        "max_value": "43.577366",
+        "min_value": "0.6287714",
+        "tags": [
+          "Ratio: Amount of light in the room/Temperature in the Room"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Cambridge",
+      "domain": 0,
+      "lat": "42.10908791799",
+      "lon": "-70.9863272309303",
+      "ele": "0",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/44405\" >G_O_E_TA TESTING : Relationship between the \"Amount of Light in the Room\" and \"Temperature in the Room\" </a>",
+    "URLMostrar": "https://xively.com/feeds/44405"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\44405.json",
+  "DocumentJSON": null
+}

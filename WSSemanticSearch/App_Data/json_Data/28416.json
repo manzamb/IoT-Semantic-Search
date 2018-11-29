@@ -1,0 +1,89 @@
+{
+  "Conceptos": [
+    "platform"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "28416",
+    "title": "Office temperaure, relative humidity and dew point",
+    "Private": false,
+    "tags": [
+      "celsius",
+      "dew point",
+      "relative humidity",
+      "temperature"
+    ],
+    "description": "The main indoor environment parameters from our office space. The hardware platform was constructed using an Arduino Duemilanove board and a Sensirion SHT11 sensor.",
+    "feed": "https://api.xively.com/v2/feeds/28416.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "06/24/2011 10:57:35",
+    "created": "06/17/2011 08:59:44",
+    "creator": "https://xively.com/users/catalinbujdei",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "27.75",
+        "at": "06/24/2011 10:57:35",
+        "max_value": "50.0",
+        "min_value": "0.0",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "50.85",
+        "at": "06/24/2011 10:57:35",
+        "max_value": "100.0",
+        "min_value": "0.0",
+        "tags": [
+          "relative humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "Percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "16.51",
+        "at": "06/24/2011 10:57:35",
+        "max_value": "50.0",
+        "min_value": "0.0",
+        "tags": [
+          "dew point"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Brasov, V III 8",
+      "domain": 0,
+      "lat": "45.6554465903643",
+      "lon": "25.5992214381695",
+      "ele": "12",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/28416\" >Office temperaure, relative humidity and dew point</a>",
+    "URLMostrar": "https://xively.com/feeds/28416"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\28416.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,105 @@
+{
+  "Conceptos": [
+    "frequency"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "1164",
+    "title": "Mazzini Prototype",
+    "Private": false,
+    "tags": null,
+    "description": "Data from the sensors on the Mazzini prototype module - a per-appliance, intelligent energy monitor",
+    "feed": "https://api.xively.com/v2/feeds/1164.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "11/30/2010 22:59:19",
+    "created": "11/04/2008 14:33:15",
+    "creator": "https://xively.com/users/amcewen",
+    "version": null,
+    "website": "http://www.mcqn.com/research",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "1292.0",
+        "at": "11/30/2010 22:59:19",
+        "max_value": "2259.0",
+        "min_value": "278.0",
+        "tags": [
+          "electricity",
+          "Energy",
+          "energy",
+          "power consumption"
+        ],
+        "unit": {
+          "symbol": "J",
+          "label": "Joule",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "50.0",
+        "at": "11/30/2010 22:59:19",
+        "max_value": "52.192",
+        "min_value": "49.74",
+        "tags": [
+          "mains frequency"
+        ],
+        "unit": {
+          "symbol": "Hz",
+          "label": "Hertz",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "15.709",
+        "at": "11/30/2010 22:59:19",
+        "max_value": "29.781",
+        "min_value": "9.381",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "degrees Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "6.0",
+        "at": "11/30/2010 22:59:19",
+        "max_value": "40.0",
+        "min_value": "0.0",
+        "tags": [
+          "LDR",
+          "light level",
+          "light sensor"
+        ],
+        "unit": {
+          "symbol": "lx",
+          "label": "Lux",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "MCQN Office",
+      "domain": 0,
+      "lat": "53.39767",
+      "lon": "-2.96859",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/1164\" >Mazzini Prototype</a>",
+    "URLMostrar": "https://xively.com/feeds/1164"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\1164.json",
+  "DocumentJSON": null
+}

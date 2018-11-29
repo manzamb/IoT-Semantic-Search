@@ -1,0 +1,103 @@
+{
+  "Conceptos": [
+    "task"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "62926",
+    "title": "Temperatures",
+    "Private": false,
+    "tags": [
+      "indoor",
+      "temperature"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/62926.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "08/27/2012 03:16:10",
+    "created": "06/09/2012 04:56:07",
+    "creator": "https://xively.com/users/davisonja",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "lounge",
+        "current_value": "43.70",
+        "at": "08/27/2012 03:15:01",
+        "max_value": "49.88",
+        "min_value": "19.26",
+        "tags": [
+          "temperatures cron-http"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "lounge.335541777",
+        "current_value": "40.05",
+        "at": "08/10/2012 01:26:19",
+        "max_value": "51.01",
+        "min_value": "26.85",
+        "tags": [
+          "temperature NeonTask"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "lounge.335542049",
+        "current_value": "43.70",
+        "at": "08/27/2012 03:15:27",
+        "max_value": "47.92",
+        "min_value": "14.49",
+        "tags": [
+          "temperature NeonTask"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "lounge.B",
+        "current_value": "39.49",
+        "at": "08/27/2012 03:15:23",
+        "max_value": "46.51",
+        "min_value": "19.55",
+        "tags": [
+          "temperature NeonTask"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "-45.9048369867795",
+      "lon": "170.396983623505",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/62926\" >Temperatures</a>",
+    "URLMostrar": "https://xively.com/feeds/62926"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\62926.json",
+  "DocumentJSON": null
+}

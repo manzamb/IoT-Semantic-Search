@@ -1,0 +1,92 @@
+{
+  "Conceptos": [
+    "man"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "122351",
+    "title": "Home",
+    "Private": false,
+    "tags": [
+      "18b20",
+      "dallas",
+      "ds18b20",
+      "pi",
+      "raspberry",
+      "raspberry pi",
+      "temperature"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/122351.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:13:24",
+    "created": "04/02/2013 22:46:07",
+    "creator": "https://xively.com/users/dstamand",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "1.062",
+        "at": "03/21/2014 14:13:21",
+        "max_value": "1046.06",
+        "min_value": "-28.187",
+        "tags": [
+          "PiTempExternal"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "32.014",
+        "at": "03/21/2014 14:13:24",
+        "max_value": "44.388",
+        "min_value": "3.5",
+        "tags": [
+          "PiTempInternal"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "0.06",
+        "at": "03/21/2014 14:13:16",
+        "max_value": "2.42",
+        "min_value": "0.0",
+        "tags": [
+          "PiCpuLoad"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Average Load",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Saint-Hyacinthe",
+      "domain": 0,
+      "lat": "45.6239",
+      "lon": "-72.9574",
+      "ele": "30",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/122351\" >Home</a>",
+    "URLMostrar": "https://xively.com/feeds/122351"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\122351.json",
+  "DocumentJSON": null
+}

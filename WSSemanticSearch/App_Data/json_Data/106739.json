@@ -1,0 +1,87 @@
+{
+  "Conceptos": [
+    "humedad"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "106739",
+    "title": "GrowLite",
+    "Private": false,
+    "tags": [
+      "air monitor",
+      "arduino"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/106739.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/06/2013 22:45:55",
+    "created": "02/24/2013 23:16:01",
+    "creator": "https://xively.com/users/decoy_1981",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Co2",
+        "current_value": "400",
+        "at": "03/06/2013 22:45:54",
+        "max_value": "5212.0",
+        "min_value": "400.0",
+        "tags": [
+          "Dioxido de Carbono"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "ppm",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Hume",
+        "current_value": "0.00",
+        "at": "03/06/2013 22:45:54",
+        "max_value": "99.9",
+        "min_value": "0.0",
+        "tags": [
+          "Humedad"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temp",
+        "current_value": "0.00",
+        "at": "03/06/2013 22:45:54",
+        "max_value": "28.9",
+        "min_value": "0.0",
+        "tags": [
+          "Temperatura"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "-34.593932731351",
+      "lon": "-58.3748245239258",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/106739\" >GrowLite</a>",
+    "URLMostrar": "https://xively.com/feeds/106739"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\106739.json",
+  "DocumentJSON": null
+}

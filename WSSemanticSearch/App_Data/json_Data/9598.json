@@ -1,0 +1,128 @@
+{
+  "Conceptos": [
+    "platform"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "9598",
+    "title": "1-Wire Weather Station",
+    "Private": false,
+    "tags": null,
+    "description": "1-wire (indoor) sensor platform including DS1820 temperature probes, DS2438 humidity/solar/barometer sensors, and DS2423 lightning detector all connected via DS2409 switch.",
+    "feed": "https://api.xively.com/v2/feeds/9598.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "05/06/2011 18:04:54",
+    "created": "08/20/2010 02:24:01",
+    "creator": "https://xively.com/users/taintedkernel",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "66",
+        "at": "05/06/2011 18:04:54",
+        "max_value": "81.0",
+        "min_value": "46.0",
+        "tags": [
+          "temp"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "29",
+        "at": "05/06/2011 18:04:54",
+        "max_value": "134.0",
+        "min_value": "18.0",
+        "tags": [
+          "humidity"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "RH",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "0",
+        "at": "05/06/2011 18:04:54",
+        "max_value": "1389.0",
+        "min_value": "-19096.0",
+        "tags": [
+          "lightning"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "1",
+        "at": "05/06/2011 18:04:54",
+        "max_value": "1.0",
+        "min_value": "1.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "0",
+        "at": "05/06/2011 18:04:54",
+        "max_value": "3057.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "29.88",
+        "at": "05/06/2011 18:04:54",
+        "max_value": "32.0",
+        "min_value": "28.94",
+        "tags": [
+          "pressure"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "inHg",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/9598\" >1-Wire Weather Station</a>",
+    "URLMostrar": "https://xively.com/feeds/9598"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\9598.json",
+  "DocumentJSON": null
+}

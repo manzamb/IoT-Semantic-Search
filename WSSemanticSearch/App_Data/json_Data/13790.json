@@ -1,0 +1,438 @@
+{
+  "Conceptos": [
+    "population"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "13790",
+    "title": "Roque: Generator Shed",
+    "Private": false,
+    "tags": [
+      "electricity  watts"
+    ],
+    "description": "The Roque Island Archipelago consist of 6 islands with Roque Island having approximately 1300 acres.  The housing compound, located in Shorey Cove has 6 houses, 2 large barns and several out buildings located on about 15 acres.  We have a year round small farming operation normally consisting of 2 dairy cows, a bull, a steer, 25 to 40 sheep and lambs, 5 to 6 horses, 80ish laying hens, 4 pigs, a goat, and a stray animal or two.  The farm raises and processes on island about 200 broilers and 40 turkeys each year.\r\n\r\nThe island is occupied year round by a staff of 6 living in three of the houses.  Family members are in residence normally from mid May through late October and at times a house is used at Thanksgiving and Christmas.  July, August and September are the heavy use months with the population increasing to 30 plus on a regular basis.\r\n\r\nThe Generator Shed is where the power that comes onto the island is split off to several feeds: The managers house, Monks House, Farm House, Gardner House, Main Barn to sheds, Red House to boat and metal shops and Sheep Barn to ISH and Poultry Palace.  Each of these are measured by a pair of channels. Each pair are connected to the 240V mains of each of the structures (in some cases more than one). Therefore the sum of the two channels will be the total power used for that particular feed.  The last channel is used for the electric fence. It is only a single 120V channel. \r\n\r\n",
+    "feed": "https://api.xively.com/v2/feeds/13790.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "08/02/2011 06:10:06",
+    "created": "12/13/2010 16:58:56",
+    "creator": "https://xively.com/users/mshook",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "124.49",
+        "at": "08/02/2011 06:10:06",
+        "max_value": "126.56",
+        "min_value": "106.35",
+        "tags": [
+          "Ref Voltage"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": "volts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "242.22602628",
+        "at": "08/02/2011 06:10:06",
+        "max_value": "6157.3390956",
+        "min_value": "0.0",
+        "tags": [
+          "Sheep barm & ISH"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "84.25253088",
+        "at": "08/02/2011 06:10:06",
+        "max_value": "11295.0531036",
+        "min_value": "1.318031904",
+        "tags": [
+          "Sheep barm & ISH"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "42.12626544",
+        "at": "08/02/2011 06:10:06",
+        "max_value": "15120.4997614",
+        "min_value": "0.0",
+        "tags": [
+          "Main Barn"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "42.12626544",
+        "at": "08/02/2011 06:10:06",
+        "max_value": "15763.1716053",
+        "min_value": "1.318031904",
+        "tags": [
+          "Main Barn"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "263.289159",
+        "at": "08/02/2011 06:10:06",
+        "max_value": "3361.99940622",
+        "min_value": "0.0",
+        "tags": [
+          "Manager's House"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "136.91036268",
+        "at": "08/02/2011 06:10:06",
+        "max_value": "6082.04009574",
+        "min_value": "0.0",
+        "tags": [
+          "Manager's House"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "7",
+        "current_value": "758.27277792",
+        "at": "08/02/2011 06:10:06",
+        "max_value": "792.70192386",
+        "min_value": "0.0",
+        "tags": [
+          "Well"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "8",
+        "current_value": "758.27277792",
+        "at": "08/02/2011 06:10:06",
+        "max_value": "2566.22147712",
+        "min_value": "0.0",
+        "tags": [
+          "Well"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "9",
+        "current_value": "405.46530486",
+        "at": "08/02/2011 06:10:06",
+        "max_value": "4716.3343941",
+        "min_value": "0.0",
+        "tags": [
+          "Red house & waterfront"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "10",
+        "current_value": "563.43880026",
+        "at": "08/02/2011 06:10:06",
+        "max_value": "5066.410167",
+        "min_value": "0.0",
+        "tags": [
+          "Red house & waterfront"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "11",
+        "current_value": "342.2759067",
+        "at": "08/02/2011 06:10:06",
+        "max_value": "6373.20594456",
+        "min_value": "1.318031904",
+        "tags": [
+          "Monks"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "12",
+        "current_value": "563.43880026",
+        "at": "08/02/2011 06:10:06",
+        "max_value": "5063.8654836",
+        "min_value": "1.318031904",
+        "tags": [
+          "Monks"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "13",
+        "current_value": "52.6578318",
+        "at": "08/02/2011 06:10:06",
+        "max_value": "6020.83379772",
+        "min_value": "0.0",
+        "tags": [
+          "Gardiner"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "14",
+        "current_value": "252.75759264",
+        "at": "08/02/2011 06:10:06",
+        "max_value": "6136.2307188",
+        "min_value": "0.0",
+        "tags": [
+          "Gardiner"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "15",
+        "current_value": "679.28603022",
+        "at": "08/02/2011 06:10:06",
+        "max_value": "6663.5007264",
+        "min_value": "0.0",
+        "tags": [
+          "Farm House"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "16",
+        "current_value": "521.31253482",
+        "at": "08/02/2011 06:10:06",
+        "max_value": "12122.9487036",
+        "min_value": "0.0",
+        "tags": [
+          "Farm House"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "17",
+        "current_value": "10.53156636",
+        "at": "08/02/2011 06:10:06",
+        "max_value": "15.96950208",
+        "min_value": "0.0",
+        "tags": [
+          "17"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "18",
+        "current_value": "10.53156636",
+        "at": "08/02/2011 06:10:06",
+        "max_value": "10.70673912",
+        "min_value": "0.0",
+        "tags": [
+          "18"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "19",
+        "current_value": "10.53156636",
+        "at": "08/02/2011 06:10:06",
+        "max_value": "15.82453152",
+        "min_value": "0.0",
+        "tags": [
+          "19"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "20",
+        "current_value": "10.53156636",
+        "at": "08/02/2011 06:10:06",
+        "max_value": "16.0329267",
+        "min_value": "0.0",
+        "tags": [
+          "20"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "21",
+        "current_value": "10.53156636",
+        "at": "08/02/2011 06:10:06",
+        "max_value": "15.75204624",
+        "min_value": "0.0",
+        "tags": [
+          "21"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "22",
+        "current_value": "10.53156636",
+        "at": "08/02/2011 06:10:06",
+        "max_value": "497.53872504",
+        "min_value": "1.318031904",
+        "tags": [
+          "22"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "23",
+        "current_value": "10.53156636",
+        "at": "08/02/2011 06:10:06",
+        "max_value": "63.2256408",
+        "min_value": "1.318031904",
+        "tags": [
+          "23"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "24",
+        "current_value": "1.404208848",
+        "at": "08/02/2011 06:10:06",
+        "max_value": "12.949771632",
+        "min_value": "1.19963928",
+        "tags": [
+          "20 Amp CT - Electric Fence"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Roque Island: Generator Shed",
+      "domain": 0,
+      "lat": "44.5855770786518",
+      "lon": "-67.5254058837891",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/13790\" >Roque: Generator Shed</a>",
+    "URLMostrar": "https://xively.com/feeds/13790"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\13790.json",
+  "DocumentJSON": null
+}

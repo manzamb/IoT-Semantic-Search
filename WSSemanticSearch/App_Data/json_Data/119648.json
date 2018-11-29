@@ -1,0 +1,109 @@
+{
+  "Conceptos": [
+    "system"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "119648",
+    "title": "RasPi System Solmonitor Desarrollo",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "RasPi"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/119648.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:10:04",
+    "created": "03/18/2013 15:02:05",
+    "creator": "https://xively.com/users/lobolobo",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "cpu",
+        "current_value": "12",
+        "at": "03/21/2014 14:10:03",
+        "max_value": "84.0",
+        "min_value": "5.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "free_hdd",
+        "current_value": "11043",
+        "at": "03/21/2014 14:10:03",
+        "max_value": "11444.0",
+        "min_value": "8272.0",
+        "tags": null,
+        "unit": {
+          "symbol": "Mb",
+          "label": "Mb",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "free_mem",
+        "current_value": "125",
+        "at": "03/21/2014 14:10:03",
+        "max_value": "399.0",
+        "min_value": "8.0",
+        "tags": null,
+        "unit": {
+          "symbol": "Mb",
+          "label": "Mb",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "hdd",
+        "current_value": "12477",
+        "at": "03/26/2013 11:20:03",
+        "max_value": "12477.0",
+        "min_value": "12477.0",
+        "tags": null,
+        "unit": {
+          "symbol": "Mb",
+          "label": "Mb",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "used_mem",
+        "current_value": "360",
+        "at": "03/21/2014 14:10:03",
+        "max_value": "477.0",
+        "min_value": "86.0",
+        "tags": null,
+        "unit": {
+          "symbol": "Mb",
+          "label": "Mb",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "villanueva del pardillo",
+      "domain": 0,
+      "lat": "40.4845921956684",
+      "lon": "-3.98271560668945",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/119648\" >RasPi System Solmonitor Desarrollo</a>",
+    "URLMostrar": "https://xively.com/feeds/119648"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\119648.json",
+  "DocumentJSON": null
+}

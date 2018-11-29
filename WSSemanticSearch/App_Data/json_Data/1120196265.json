@@ -1,0 +1,84 @@
+{
+  "Conceptos": [
+    "group"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "1120196265",
+    "title": "arduino",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/1120196265.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "11/20/2013 18:14:53",
+    "created": "05/20/2013 08:25:45",
+    "creator": "https://xively.com/users/analistgroup",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Humidity",
+        "current_value": "51.70",
+        "at": "11/20/2013 18:14:53",
+        "max_value": "60.49",
+        "min_value": "0.0",
+        "tags": [
+          "humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "RH",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Pressure",
+        "current_value": "96.38",
+        "at": "11/20/2013 18:14:53",
+        "max_value": "99.32",
+        "min_value": "10.55",
+        "tags": [
+          "pressure"
+        ],
+        "unit": {
+          "symbol": "kPa",
+          "label": "Pascal",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperature",
+        "current_value": "23.20",
+        "at": "11/20/2013 18:14:53",
+        "max_value": "38.37",
+        "min_value": "0.08",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Mercogliano",
+      "domain": 0,
+      "lat": "40.9052678915536",
+      "lon": "14.7624408552002",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/1120196265\" >arduino</a>",
+    "URLMostrar": "https://xively.com/feeds/1120196265"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\1120196265.json",
+  "DocumentJSON": null
+}

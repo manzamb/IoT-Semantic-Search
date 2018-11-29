@@ -1,0 +1,160 @@
+{
+  "Conceptos": [
+    "co2"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "63826",
+    "title": "Vera",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/63826.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "12/15/2013 15:11:27",
+    "created": "06/16/2012 15:37:46",
+    "creator": "https://xively.com/users/ulrichpicaud",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Co2_salon",
+        "current_value": "1244",
+        "at": "12/15/2013 15:11:27",
+        "max_value": "2930.0",
+        "min_value": "0.0",
+        "tags": [
+          "CO2",
+          "interieur",
+          "salon"
+        ],
+        "unit": {
+          "symbol": "ppm",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Humidite_chambre",
+        "current_value": "43",
+        "at": "12/15/2013 15:11:26",
+        "max_value": "89.0",
+        "min_value": "30.0",
+        "tags": [
+          "chambre",
+          "humidite",
+          "interieur"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Humidite_exterieure",
+        "current_value": "77",
+        "at": "12/15/2013 15:11:25",
+        "max_value": "100.0",
+        "min_value": "0.0",
+        "tags": [
+          "exterieur",
+          "humidite"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Humidite_salon",
+        "current_value": "47",
+        "at": "12/15/2013 15:11:24",
+        "max_value": "74.0",
+        "min_value": "0.0",
+        "tags": [
+          "humidite",
+          "interieur",
+          "salon"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperature_chambre",
+        "current_value": "17",
+        "at": "12/15/2013 15:11:25",
+        "max_value": "30.0",
+        "min_value": "11.0",
+        "tags": [
+          "chambre",
+          "interieur",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperature_exterieure",
+        "current_value": "6",
+        "at": "12/15/2013 15:11:24",
+        "max_value": "38.0",
+        "min_value": "-5.9",
+        "tags": [
+          "exterieur",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperature_salon",
+        "current_value": "18",
+        "at": "12/15/2013 15:11:23",
+        "max_value": "29.5",
+        "min_value": "0.0",
+        "tags": [
+          "interieur",
+          "salon",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Albertville",
+      "domain": 0,
+      "lat": "45.6712315167169",
+      "lon": "6.37001037597656",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 1
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/63826\" >Vera</a>",
+    "URLMostrar": "https://xively.com/feeds/63826"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\63826.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,295 @@
+{
+  "Conceptos": [
+    "pst"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "118905",
+    "title": "Arduinetta",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "automation",
+      "climate",
+      "energy"
+    ],
+    "description": "Home domotics",
+    "feed": "https://api.xively.com/v2/feeds/118905.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/21/2014 06:16:21",
+    "created": "03/13/2013 11:17:27",
+    "creator": "https://xively.com/users/ololygon_rubra",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Dew_point_in",
+        "current_value": "0.00",
+        "at": "03/21/2014 06:16:20",
+        "max_value": "314.0",
+        "min_value": "-45.0",
+        "tags": [
+          "Condensation_in"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Dew_point_out",
+        "current_value": "1.00",
+        "at": "03/21/2014 06:16:20",
+        "max_value": "1587.0",
+        "min_value": "-979.0",
+        "tags": [
+          "Condensation_out"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Gaz",
+        "current_value": "277.00",
+        "at": "03/21/2014 06:16:20",
+        "max_value": "801.0",
+        "min_value": "0.0",
+        "tags": [
+          "Gaz_CO"
+        ],
+        "unit": {
+          "symbol": "ppm",
+          "label": "ppm",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Hum_in",
+        "current_value": "-999.00",
+        "at": "03/21/2014 06:16:20",
+        "max_value": "255.0",
+        "min_value": "-999.0",
+        "tags": [
+          "Humidity_inside"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Hum_out",
+        "current_value": "63.00",
+        "at": "03/21/2014 06:16:20",
+        "max_value": "6553.0",
+        "min_value": "-999.0",
+        "tags": [
+          "Humidity_outside"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Light",
+        "current_value": "0.00",
+        "at": "03/21/2014 06:16:20",
+        "max_value": "97.0",
+        "min_value": "0.0",
+        "tags": [
+          "Sun_light"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temp_bureau",
+        "current_value": "17.06",
+        "at": "03/21/2014 06:16:20",
+        "max_value": "30.69",
+        "min_value": "-0.06",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temp_down",
+        "current_value": "22.87",
+        "at": "03/21/2014 06:16:20",
+        "max_value": "40.38",
+        "min_value": "-0.06",
+        "tags": [
+          "Temperature_cold_point"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temp_out",
+        "current_value": "11.06",
+        "at": "03/21/2014 06:16:20",
+        "max_value": "30.69",
+        "min_value": "-2.06",
+        "tags": [
+          "Temperature_outside"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temp_ref_in",
+        "current_value": "-1001.00",
+        "at": "03/21/2014 06:16:20",
+        "max_value": "253.0",
+        "min_value": "-1001.0",
+        "tags": [
+          "Condensation_out"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temp_ref_out",
+        "current_value": "8.00",
+        "at": "03/21/2014 06:16:20",
+        "max_value": "1639.0",
+        "min_value": "-3278.0",
+        "tags": [
+          "Temperature_ref_out"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temp_salon",
+        "current_value": "-100.00",
+        "at": "03/21/2014 06:16:20",
+        "max_value": "30.69",
+        "min_value": "-100.0",
+        "tags": [
+          "Temperature_downstair"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temp_set_day",
+        "current_value": "11.43",
+        "at": "03/21/2014 06:16:20",
+        "max_value": "528.18",
+        "min_value": "0.0",
+        "tags": [
+          "Temperature_setting_day"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temp_set_night",
+        "current_value": "0.00",
+        "at": "03/21/2014 06:16:20",
+        "max_value": "45.0",
+        "min_value": "0.0",
+        "tags": [
+          "Temperature_setting_night"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temp_set_water",
+        "current_value": "0.00",
+        "at": "03/21/2014 06:16:20",
+        "max_value": "50.0",
+        "min_value": "0.0",
+        "tags": [
+          "Temperature_eau_chaude"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temp_up",
+        "current_value": "-100.00",
+        "at": "03/21/2014 06:16:20",
+        "max_value": "27.81",
+        "min_value": "-100.0",
+        "tags": [
+          "Temperature_upstair"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/118905\" >Arduinetta</a>",
+    "URLMostrar": "https://xively.com/feeds/118905"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\118905.json",
+  "DocumentJSON": null
+}

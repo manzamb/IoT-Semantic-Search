@@ -1,0 +1,281 @@
+{
+  "Conceptos": [
+    "wind"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "63310",
+    "title": "Meteo",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "BMP085",
+      "DHT11",
+      "DS18B20",
+      "humidity",
+      "pressure",
+      "temperature",
+      "wind",
+      "wind direction",
+      "wind speed"
+    ],
+    "description": "Based on Arduino 2009, sensors are refreshed every 20 seconds. Temperature sensor is DS18B20.\r\nThe position is not accurate.",
+    "feed": "https://api.xively.com/v2/feeds/63310.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:07:19",
+    "created": "06/11/2012 20:15:45",
+    "creator": "https://xively.com/users/datel",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "DewPoint",
+        "current_value": "-2.0",
+        "at": "02/26/2014 10:44:20",
+        "max_value": "13.2",
+        "min_value": "-16.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "H",
+        "current_value": "0",
+        "at": "03/21/2014 14:07:19",
+        "max_value": "2.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Humidity",
+        "current_value": "36",
+        "at": "03/21/2014 14:07:19",
+        "max_value": "95.0",
+        "min_value": "0.0",
+        "tags": [
+          "DHT11"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "koefWind",
+        "current_value": "4",
+        "at": "10/02/2013 12:41:14",
+        "max_value": "4.5",
+        "min_value": "4.0",
+        "tags": [
+          "WindSpeed=WindS/koefWind"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Press",
+        "current_value": "101009",
+        "at": "03/21/2014 14:07:19",
+        "max_value": "1198706944.0",
+        "min_value": "-584256796.0",
+        "tags": [
+          "BMP085"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Pa",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Rain",
+        "current_value": "0",
+        "at": "03/21/2014 14:07:19",
+        "max_value": "20.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "T2899BDCF02000076",
+        "current_value": "21.2",
+        "at": "03/21/2014 14:07:19",
+        "max_value": "38.1",
+        "min_value": "-8.8",
+        "tags": [
+          "Outdoor"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temp085",
+        "current_value": "21.9",
+        "at": "03/21/2014 14:07:19",
+        "max_value": "26214.16822",
+        "min_value": "-26214.16821",
+        "tags": [
+          "BMP085"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "TempDHT",
+        "current_value": "21",
+        "at": "03/21/2014 14:07:19",
+        "max_value": "37.0",
+        "min_value": "0.0",
+        "tags": [
+          "DHT11"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "V",
+        "current_value": "0.80",
+        "at": "03/21/2014 14:07:19",
+        "max_value": "0.8",
+        "min_value": "0.79",
+        "tags": [
+          "Version"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "WindD",
+        "current_value": "280",
+        "at": "03/21/2014 14:07:19",
+        "max_value": "359.0",
+        "min_value": "0.0",
+        "tags": [
+          "Wind direction"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "°",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "WindS",
+        "current_value": "21",
+        "at": "03/21/2014 14:07:19",
+        "max_value": "557.0",
+        "min_value": "0.0",
+        "tags": [
+          "Revolution of wind turbine"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "RPS/4",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "WindSM",
+        "current_value": "81",
+        "at": "03/21/2014 14:07:19",
+        "max_value": "1671.0",
+        "min_value": "0.0",
+        "tags": [
+          "Wind speed maximal"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "RPS/4",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "WindSpeed",
+        "current_value": "0.2",
+        "at": "02/26/2014 10:44:15",
+        "max_value": "139.25",
+        "min_value": "0.0",
+        "tags": [
+          "Wind speed"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "m/s",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "WindSpeedMax",
+        "current_value": "4.0",
+        "at": "02/26/2014 10:44:16",
+        "max_value": "34.0",
+        "min_value": "0.0",
+        "tags": [
+          "Maximal wind speed"
+        ],
+        "unit": {
+          "symbol": "m/s",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Plzeň",
+      "domain": 0,
+      "lat": "49.6568262185553",
+      "lon": "13.5294431447983",
+      "ele": "320",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/63310\" >Meteo</a>",
+    "URLMostrar": "https://xively.com/feeds/63310"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\63310.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,70 @@
+{
+  "Conceptos": [
+    "condition"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "106906",
+    "title": "Greenhouse",
+    "Private": false,
+    "tags": [
+      "Greenhouse conditions"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/106906.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "07/16/2013 21:56:13",
+    "created": "02/25/2013 20:50:23",
+    "creator": "https://xively.com/users/penguinpal",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Humidity",
+        "current_value": "85",
+        "at": "07/16/2013 21:56:12",
+        "max_value": "674379.0",
+        "min_value": "-38.0",
+        "tags": [
+          "humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temp",
+        "current_value": "24",
+        "at": "07/16/2013 21:56:12",
+        "max_value": "125.0",
+        "min_value": "0.0",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/106906\" >Greenhouse</a>",
+    "URLMostrar": "https://xively.com/feeds/106906"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\106906.json",
+  "DocumentJSON": null
+}

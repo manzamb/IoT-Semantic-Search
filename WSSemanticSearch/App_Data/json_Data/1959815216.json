@@ -1,0 +1,100 @@
+{
+  "Conceptos": [
+    "moisture"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "1959815216",
+    "title": "Elecrow GPRS Shield",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/1959815216.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "06/22/2013 03:38:04",
+    "created": "06/22/2013 03:10:24",
+    "creator": "https://xively.com/users/elecrow100",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Barometer1",
+        "current_value": "90",
+        "at": "06/22/2013 03:38:04",
+        "max_value": "90.0",
+        "min_value": "88.0",
+        "tags": [
+          "Elecrow_barometer1"
+        ],
+        "unit": {
+          "symbol": "Pa",
+          "label": "P",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Humidity1",
+        "current_value": "120",
+        "at": "06/22/2013 03:38:04",
+        "max_value": "120.0",
+        "min_value": "100.0",
+        "tags": [
+          "Elecrow_humidity1"
+        ],
+        "unit": {
+          "symbol": "RH",
+          "label": "S",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Moisture1",
+        "current_value": "300",
+        "at": "06/22/2013 03:38:04",
+        "max_value": "300.0",
+        "min_value": "200.0",
+        "tags": [
+          "Elecrow_moisture"
+        ],
+        "unit": {
+          "symbol": "PF",
+          "label": "W",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperature1",
+        "current_value": "20",
+        "at": "06/22/2013 03:38:04",
+        "max_value": "200.0",
+        "min_value": "20.0",
+        "tags": [
+          "Elecrow_temperature1"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Degree",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/1959815216\" >Elecrow GPRS Shield</a>",
+    "URLMostrar": "https://xively.com/feeds/1959815216"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\1959815216.json",
+  "DocumentJSON": null
+}

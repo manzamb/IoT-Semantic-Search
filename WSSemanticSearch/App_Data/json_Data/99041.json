@@ -1,0 +1,362 @@
+{
+  "Conceptos": [
+    "process"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "99041",
+    "title": "Raspberry Pi HA",
+    "Private": false,
+    "tags": [
+      "HA",
+      "mini pc",
+      "raspberry pi",
+      "system stats"
+    ],
+    "description": "Raspberry Pi HA server system stats. The vmstat parameters are collected within a 5 second time interval. ",
+    "feed": "https://api.xively.com/v2/feeds/99041.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "11/01/2013 16:18:16",
+    "created": "01/20/2013 18:34:59",
+    "creator": "https://xively.com/users/nahkis",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "b",
+        "current_value": "0",
+        "at": "11/01/2013 16:18:10",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "The number of processes in uninterruptible sleep"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "#",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "bi",
+        "current_value": "0",
+        "at": "11/01/2013 16:18:12",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "Blocks received from a block device"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "blocks/s",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "bo",
+        "current_value": "5",
+        "at": "11/01/2013 16:18:11",
+        "max_value": "22.0",
+        "min_value": "0.0",
+        "tags": [
+          "Blocks sent to a block device"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "blocks/s",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "buff",
+        "current_value": "28700",
+        "at": "11/01/2013 16:18:16",
+        "max_value": "45456.0",
+        "min_value": "8852.0",
+        "tags": [
+          "the amount of memory used as buffers"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "K",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "cache",
+        "current_value": "49908",
+        "at": "11/01/2013 16:18:12",
+        "max_value": "56252.0",
+        "min_value": "23320.0",
+        "tags": [
+          "the amount of memory used as cache"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "K",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "cs",
+        "current_value": "31",
+        "at": "11/01/2013 16:18:15",
+        "max_value": "53.0",
+        "min_value": "23.0",
+        "tags": [
+          "The number of context switches per second"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "#",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "free",
+        "current_value": "85932",
+        "at": "11/01/2013 16:18:13",
+        "max_value": "139632.0",
+        "min_value": "51344.0",
+        "tags": [
+          "the amount of idle memory"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "K",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "id",
+        "current_value": "100",
+        "at": "11/01/2013 16:18:16",
+        "max_value": "100.0",
+        "min_value": "36.0",
+        "tags": [
+          "CPU Time spent idle"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "in",
+        "current_value": "8112",
+        "at": "11/01/2013 16:18:15",
+        "max_value": "8138.0",
+        "min_value": "8069.0",
+        "tags": [
+          "including the clock",
+          "The number of interrupts per second"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "#",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "loadavg1",
+        "current_value": "0.0",
+        "at": "11/01/2013 16:18:04",
+        "max_value": "0.8",
+        "min_value": "0.0",
+        "tags": [
+          "1 minute cpu load average"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "loadavg15",
+        "current_value": "0.05",
+        "at": "11/01/2013 16:18:03",
+        "max_value": "0.13",
+        "min_value": "0.05",
+        "tags": [
+          "15 minute cpu load average"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "loadavg5",
+        "current_value": "0.01",
+        "at": "11/01/2013 16:18:02",
+        "max_value": "0.26",
+        "min_value": "0.01",
+        "tags": [
+          "5 minute cpu load average"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "r",
+        "current_value": "0",
+        "at": "11/01/2013 16:18:13",
+        "max_value": "2.0",
+        "min_value": "0.0",
+        "tags": [
+          "The number of processes waiting for run time"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "#",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "si",
+        "current_value": "0",
+        "at": "11/01/2013 16:18:13",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "Amount of memory swapped in from disk"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "K / s",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "so",
+        "current_value": "0",
+        "at": "11/01/2013 16:18:14",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "Amount of memory swapped to disk"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "K / s",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "swpd",
+        "current_value": "0",
+        "at": "11/01/2013 16:18:14",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "the amount of virtual memory used"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "K",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "sy",
+        "current_value": "0",
+        "at": "11/01/2013 16:18:10",
+        "max_value": "3.0",
+        "min_value": "0.0",
+        "tags": [
+          "CPU Time spent running kernel code"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "us",
+        "current_value": "0",
+        "at": "11/01/2013 16:18:11",
+        "max_value": "4.0",
+        "min_value": "0.0",
+        "tags": [
+          "CPU Time spent running non-kernel code"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "users",
+        "current_value": "0",
+        "at": "11/01/2013 16:18:03",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "Number of concurrent users"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "#",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "wa",
+        "current_value": "0",
+        "at": "11/01/2013 16:18:09",
+        "max_value": "62.0",
+        "min_value": "0.0",
+        "tags": [
+          "CPU Time spent waiting for IO"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "62.8428664573224",
+      "lon": "27.6988935470581",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/99041\" >Raspberry Pi HA</a>",
+    "URLMostrar": "https://xively.com/feeds/99041"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\99041.json",
+  "DocumentJSON": null
+}

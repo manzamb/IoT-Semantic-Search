@@ -1,0 +1,107 @@
+{
+  "Conceptos": [
+    "description"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "70075",
+    "title": "Temp",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "beer",
+      "brew",
+      "brewery",
+      "brewing",
+      "c",
+      "co",
+      "colorado",
+      "eherms",
+      "f",
+      "feed",
+      "ferment",
+      "fermentation",
+      "firestone",
+      "fridge",
+      "herms",
+      "ipa",
+      "lager",
+      "tap",
+      "temp",
+      "temperature",
+      "yeast"
+    ],
+    "description": "Beer fermentation temperature. Temp probes are used for various purposes. If I am fermenting beer then I use one for the beer temp and one probe at the thermocouple to measure what my fridge temperature controller is reading. If I am lagering then I use one to monitor my lager temps. Description of each probe will say what it is measuring. ",
+    "feed": "https://api.xively.com/v2/feeds/70075.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "09/17/2013 20:50:26",
+    "created": "08/05/2012 00:21:58",
+    "creator": "https://xively.com/users/acefaser",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "1",
+        "current_value": "72",
+        "at": "09/17/2013 20:50:26",
+        "max_value": "78.0",
+        "min_value": "54.0",
+        "tags": [
+          "Downstairs Temp"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "42",
+        "at": "09/17/2013 20:50:26",
+        "max_value": "57.0",
+        "min_value": "31.0",
+        "tags": [
+          "Keezer Temp"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "66",
+        "at": "09/17/2013 20:50:26",
+        "max_value": "75.0",
+        "min_value": "32.0",
+        "tags": [
+          "Fermentation Fridge Temp 15 gallon Irish Red"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "F",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Firestone, CO",
+      "domain": 0,
+      "lat": "40.1425992320216",
+      "lon": "-104.956512451172",
+      "ele": "5200'",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/70075\" >Temp</a>",
+    "URLMostrar": "https://xively.com/feeds/70075"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\70075.json",
+  "DocumentJSON": null
+}

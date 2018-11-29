@@ -1,0 +1,1002 @@
+{
+  "Conceptos": [
+    "precipitation"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "14635",
+    "title": "Soil Climate Analysis Network - site 337",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/14635.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "01/07/2011 17:52:36",
+    "created": "01/07/2011 16:30:23",
+    "creator": "https://xively.com/users/dhunter",
+    "version": null,
+    "website": "http://www.wcc.nrcs.usda.gov/scan/",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "16.6",
+        "at": "01/07/2011 17:44:46",
+        "max_value": "16.6",
+        "min_value": "16.6",
+        "tags": [
+          "sensor:ecode=WTEQ",
+          "sensor:height=unknown",
+          "sensor:instrument=100 Transducer - Sensotec",
+          "sensor:interval=Instantaneous",
+          "Snow Water Equivalent"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "In",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "14.4",
+        "at": "01/07/2011 17:44:46",
+        "max_value": "14.4",
+        "min_value": "14.4",
+        "tags": [
+          "Precipitation Accumulation",
+          "sensor:ecode=PREC",
+          "sensor:height=unknown",
+          "sensor:instrument=100 Transducer - Sensotec",
+          "sensor:interval=Instantaneous"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "In",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "2.9",
+        "at": "01/07/2011 17:44:46",
+        "max_value": "2.9",
+        "min_value": "2.9",
+        "tags": [
+          "Air Temperature Observed",
+          "sensor:ecode=TOBS",
+          "sensor:height=unknown",
+          "sensor:instrument=Extended Range",
+          "sensor:interval=Instantaneous"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Degc",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "50",
+        "at": "01/07/2011 17:44:46",
+        "max_value": "50.0",
+        "min_value": "50.0",
+        "tags": [
+          "sensor:ecode=SNWD",
+          "sensor:height=unknown",
+          "sensor:instrument=Unknown - Linear Equation",
+          "sensor:interval=Instantaneous",
+          "Snow Depth"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "In",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "18.3",
+        "at": "01/07/2011 17:44:46",
+        "max_value": "18.3",
+        "min_value": "18.3",
+        "tags": [
+          "sensor:ecode=SMS",
+          "sensor:height=-2",
+          "sensor:instrument=Hydraprobe Analog (2.5 Volt)  - 1 Of 4",
+          "sensor:interval=Instantaneous",
+          "Soil Moisture Percent"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Pct",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "23.4",
+        "at": "01/07/2011 17:44:46",
+        "max_value": "23.4",
+        "min_value": "23.4",
+        "tags": [
+          "sensor:ecode=SMS",
+          "sensor:height=-8",
+          "sensor:instrument=Hydraprobe Analog (2.5 Volt)  - 1 Of 4",
+          "sensor:interval=Instantaneous",
+          "Soil Moisture Percent"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Pct",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "13.0",
+        "at": "01/07/2011 17:44:46",
+        "max_value": "13.0",
+        "min_value": "13.0",
+        "tags": [
+          "sensor:ecode=SMS",
+          "sensor:height=-20",
+          "sensor:instrument=Hydraprobe Analog (2.5 Volt)  - 1 Of 4",
+          "sensor:interval=Instantaneous",
+          "Soil Moisture Percent"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Pct",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "7",
+        "current_value": "0.6",
+        "at": "01/07/2011 17:44:46",
+        "max_value": "0.6",
+        "min_value": "0.6",
+        "tags": [
+          "sensor:ecode=STO",
+          "sensor:height=-2",
+          "sensor:instrument=Hydraprobe Analog (2.5 Volt)  - 1 Of 4",
+          "sensor:interval=Instantaneous",
+          "Soil Temperature Observed"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Degc",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "8",
+        "current_value": "1.1",
+        "at": "01/07/2011 17:44:46",
+        "max_value": "1.1",
+        "min_value": "1.1",
+        "tags": [
+          "sensor:ecode=STO",
+          "sensor:height=-8",
+          "sensor:instrument=Hydraprobe Analog (2.5 Volt)  - 1 Of 4",
+          "sensor:interval=Instantaneous",
+          "Soil Temperature Observed"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Degc",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "9",
+        "current_value": "1.1",
+        "at": "01/07/2011 17:44:46",
+        "max_value": "1.1",
+        "min_value": "1.1",
+        "tags": [
+          "sensor:ecode=STO",
+          "sensor:height=-20",
+          "sensor:instrument=Hydraprobe Analog (2.5 Volt)  - 1 Of 4",
+          "sensor:interval=Instantaneous",
+          "Soil Temperature Observed"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Degc",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "SMS.I-1-0",
+        "current_value": "16.6",
+        "at": "01/07/2011 17:49:20",
+        "max_value": "16.6",
+        "min_value": "16.6",
+        "tags": [
+          "sensor:ecode=WTEQ",
+          "sensor:height=unknown",
+          "sensor:instrument=100 Transducer - Sensotec",
+          "sensor:interval=Instantaneous",
+          "Snow Water Equivalent"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "In",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "SMS.I-1-1",
+        "current_value": "14.4",
+        "at": "01/07/2011 17:49:20",
+        "max_value": "14.4",
+        "min_value": "14.4",
+        "tags": [
+          "Precipitation Accumulation",
+          "sensor:ecode=PREC",
+          "sensor:height=unknown",
+          "sensor:instrument=100 Transducer - Sensotec",
+          "sensor:interval=Instantaneous"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "In",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "SMS.I-1-2",
+        "current_value": "2.9",
+        "at": "01/07/2011 17:49:20",
+        "max_value": "2.9",
+        "min_value": "2.9",
+        "tags": [
+          "Air Temperature Observed",
+          "sensor:ecode=TOBS",
+          "sensor:height=unknown",
+          "sensor:instrument=Extended Range",
+          "sensor:interval=Instantaneous"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Degc",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "SMS.I-1-3",
+        "current_value": "50",
+        "at": "01/07/2011 17:49:20",
+        "max_value": "50.0",
+        "min_value": "50.0",
+        "tags": [
+          "sensor:ecode=SNWD",
+          "sensor:height=unknown",
+          "sensor:instrument=Unknown - Linear Equation",
+          "sensor:interval=Instantaneous",
+          "Snow Depth"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "In",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "SMS.I-1-4",
+        "current_value": "18.3",
+        "at": "01/07/2011 17:49:20",
+        "max_value": "18.3",
+        "min_value": "18.3",
+        "tags": [
+          "sensor:ecode=SMS",
+          "sensor:height=-2",
+          "sensor:instrument=Hydraprobe Analog (2.5 Volt)  - 1 Of 4",
+          "sensor:interval=Instantaneous",
+          "Soil Moisture Percent"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Pct",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "SMS.I-1-5",
+        "current_value": "23.4",
+        "at": "01/07/2011 17:49:20",
+        "max_value": "23.4",
+        "min_value": "23.4",
+        "tags": [
+          "sensor:ecode=SMS",
+          "sensor:height=-8",
+          "sensor:instrument=Hydraprobe Analog (2.5 Volt)  - 1 Of 4",
+          "sensor:interval=Instantaneous",
+          "Soil Moisture Percent"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Pct",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "SMS.I-1-6",
+        "current_value": "13.0",
+        "at": "01/07/2011 17:49:20",
+        "max_value": "13.0",
+        "min_value": "13.0",
+        "tags": [
+          "sensor:ecode=SMS",
+          "sensor:height=-20",
+          "sensor:instrument=Hydraprobe Analog (2.5 Volt)  - 1 Of 4",
+          "sensor:interval=Instantaneous",
+          "Soil Moisture Percent"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Pct",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "SMS.I-1-7",
+        "current_value": "0.6",
+        "at": "01/07/2011 17:49:20",
+        "max_value": "0.6",
+        "min_value": "0.6",
+        "tags": [
+          "sensor:ecode=STO",
+          "sensor:height=-2",
+          "sensor:instrument=Hydraprobe Analog (2.5 Volt)  - 1 Of 4",
+          "sensor:interval=Instantaneous",
+          "Soil Temperature Observed"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Degc",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "SMS.I-1-8",
+        "current_value": "1.1",
+        "at": "01/07/2011 17:49:20",
+        "max_value": "1.1",
+        "min_value": "1.1",
+        "tags": [
+          "sensor:ecode=STO",
+          "sensor:height=-8",
+          "sensor:instrument=Hydraprobe Analog (2.5 Volt)  - 1 Of 4",
+          "sensor:interval=Instantaneous",
+          "Soil Temperature Observed"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Degc",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "SMS.I-1-9",
+        "current_value": "1.1",
+        "at": "01/07/2011 17:49:20",
+        "max_value": "1.1",
+        "min_value": "1.1",
+        "tags": [
+          "sensor:ecode=STO",
+          "sensor:height=-20",
+          "sensor:instrument=Hydraprobe Analog (2.5 Volt)  - 1 Of 4",
+          "sensor:interval=Instantaneous",
+          "Soil Temperature Observed"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Degc",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "SMS.I-1.-0",
+        "current_value": "16.6",
+        "at": "01/07/2011 17:50:55",
+        "max_value": "16.6",
+        "min_value": "16.6",
+        "tags": [
+          "sensor:ecode=WTEQ",
+          "sensor:height=unknown",
+          "sensor:instrument=100 Transducer - Sensotec",
+          "sensor:interval=Instantaneous",
+          "Snow Water Equivalent"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "In",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "SMS.I-1.-1",
+        "current_value": "14.4",
+        "at": "01/07/2011 17:50:55",
+        "max_value": "14.4",
+        "min_value": "14.4",
+        "tags": [
+          "Precipitation Accumulation",
+          "sensor:ecode=PREC",
+          "sensor:height=unknown",
+          "sensor:instrument=100 Transducer - Sensotec",
+          "sensor:interval=Instantaneous"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "In",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "SMS.I-1.-2",
+        "current_value": "2.9",
+        "at": "01/07/2011 17:50:55",
+        "max_value": "2.9",
+        "min_value": "2.9",
+        "tags": [
+          "Air Temperature Observed",
+          "sensor:ecode=TOBS",
+          "sensor:height=unknown",
+          "sensor:instrument=Extended Range",
+          "sensor:interval=Instantaneous"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Degc",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "SMS.I-1.-3",
+        "current_value": "50",
+        "at": "01/07/2011 17:50:55",
+        "max_value": "50.0",
+        "min_value": "50.0",
+        "tags": [
+          "sensor:ecode=SNWD",
+          "sensor:height=unknown",
+          "sensor:instrument=Unknown - Linear Equation",
+          "sensor:interval=Instantaneous",
+          "Snow Depth"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "In",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "SMS.I-1.-4",
+        "current_value": "18.3",
+        "at": "01/07/2011 17:50:55",
+        "max_value": "18.3",
+        "min_value": "18.3",
+        "tags": [
+          "sensor:ecode=SMS",
+          "sensor:height=-2",
+          "sensor:instrument=Hydraprobe Analog (2.5 Volt)  - 1 Of 4",
+          "sensor:interval=Instantaneous",
+          "Soil Moisture Percent"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Pct",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "SMS.I-1.-5",
+        "current_value": "23.4",
+        "at": "01/07/2011 17:50:55",
+        "max_value": "23.4",
+        "min_value": "23.4",
+        "tags": [
+          "sensor:ecode=SMS",
+          "sensor:height=-8",
+          "sensor:instrument=Hydraprobe Analog (2.5 Volt)  - 1 Of 4",
+          "sensor:interval=Instantaneous",
+          "Soil Moisture Percent"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Pct",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "SMS.I-1.-6",
+        "current_value": "13.0",
+        "at": "01/07/2011 17:50:55",
+        "max_value": "13.0",
+        "min_value": "13.0",
+        "tags": [
+          "sensor:ecode=SMS",
+          "sensor:height=-20",
+          "sensor:instrument=Hydraprobe Analog (2.5 Volt)  - 1 Of 4",
+          "sensor:interval=Instantaneous",
+          "Soil Moisture Percent"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Pct",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "SMS.I-1.-7",
+        "current_value": "0.6",
+        "at": "01/07/2011 17:50:55",
+        "max_value": "0.6",
+        "min_value": "0.6",
+        "tags": [
+          "sensor:ecode=STO",
+          "sensor:height=-2",
+          "sensor:instrument=Hydraprobe Analog (2.5 Volt)  - 1 Of 4",
+          "sensor:interval=Instantaneous",
+          "Soil Temperature Observed"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Degc",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "SMS.I-1.-8",
+        "current_value": "1.1",
+        "at": "01/07/2011 17:50:55",
+        "max_value": "1.1",
+        "min_value": "1.1",
+        "tags": [
+          "sensor:ecode=STO",
+          "sensor:height=-8",
+          "sensor:instrument=Hydraprobe Analog (2.5 Volt)  - 1 Of 4",
+          "sensor:interval=Instantaneous",
+          "Soil Temperature Observed"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Degc",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "SMS.I-1.-9",
+        "current_value": "1.1",
+        "at": "01/07/2011 17:50:55",
+        "max_value": "1.1",
+        "min_value": "1.1",
+        "tags": [
+          "sensor:ecode=STO",
+          "sensor:height=-20",
+          "sensor:instrument=Hydraprobe Analog (2.5 Volt)  - 1 Of 4",
+          "sensor:interval=Instantaneous",
+          "Soil Temperature Observed"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Degc",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "SMS.I-1..-0",
+        "current_value": "16.6",
+        "at": "01/07/2011 17:51:39",
+        "max_value": "16.6",
+        "min_value": "16.6",
+        "tags": [
+          "sensor:ecode=WTEQ",
+          "sensor:height=unknown",
+          "sensor:instrument=100 Transducer - Sensotec",
+          "sensor:interval=Instantaneous",
+          "Snow Water Equivalent"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "In",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "SMS.I-1..-1",
+        "current_value": "14.4",
+        "at": "01/07/2011 17:51:39",
+        "max_value": "14.4",
+        "min_value": "14.4",
+        "tags": [
+          "Precipitation Accumulation",
+          "sensor:ecode=PREC",
+          "sensor:height=unknown",
+          "sensor:instrument=100 Transducer - Sensotec",
+          "sensor:interval=Instantaneous"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "In",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "SMS.I-1..-2",
+        "current_value": "18.3",
+        "at": "01/07/2011 17:52:36",
+        "max_value": "18.3",
+        "min_value": "2.9",
+        "tags": [
+          "Air Temperature Observed",
+          "sensor:ecode=SMS",
+          "sensor:ecode=TOBS",
+          "sensor:height=-2",
+          "sensor:height=unknown",
+          "sensor:instrument=Extended Range",
+          "sensor:instrument=Hydraprobe Analog (2.5 Volt)  - 1 Of 4",
+          "sensor:interval=Instantaneous",
+          "Soil Moisture Percent"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Pct",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "SMS.I-1..-3",
+        "current_value": "50",
+        "at": "01/07/2011 17:51:39",
+        "max_value": "50.0",
+        "min_value": "50.0",
+        "tags": [
+          "sensor:ecode=SNWD",
+          "sensor:height=unknown",
+          "sensor:instrument=Unknown - Linear Equation",
+          "sensor:interval=Instantaneous",
+          "Snow Depth"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "In",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "SMS.I-1..-4",
+        "current_value": "18.3",
+        "at": "01/07/2011 17:51:39",
+        "max_value": "18.3",
+        "min_value": "18.3",
+        "tags": [
+          "sensor:ecode=SMS",
+          "sensor:height=-2",
+          "sensor:instrument=Hydraprobe Analog (2.5 Volt)  - 1 Of 4",
+          "sensor:interval=Instantaneous",
+          "Soil Moisture Percent"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Pct",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "SMS.I-1..-5",
+        "current_value": "23.4",
+        "at": "01/07/2011 17:51:39",
+        "max_value": "23.4",
+        "min_value": "23.4",
+        "tags": [
+          "sensor:ecode=SMS",
+          "sensor:height=-8",
+          "sensor:instrument=Hydraprobe Analog (2.5 Volt)  - 1 Of 4",
+          "sensor:interval=Instantaneous",
+          "Soil Moisture Percent"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Pct",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "SMS.I-1..-6",
+        "current_value": "13.0",
+        "at": "01/07/2011 17:51:39",
+        "max_value": "13.0",
+        "min_value": "13.0",
+        "tags": [
+          "sensor:ecode=SMS",
+          "sensor:height=-20",
+          "sensor:instrument=Hydraprobe Analog (2.5 Volt)  - 1 Of 4",
+          "sensor:interval=Instantaneous",
+          "Soil Moisture Percent"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Pct",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "SMS.I-1..-7",
+        "current_value": "0.6",
+        "at": "01/07/2011 17:51:39",
+        "max_value": "0.6",
+        "min_value": "0.6",
+        "tags": [
+          "sensor:ecode=STO",
+          "sensor:height=-2",
+          "sensor:instrument=Hydraprobe Analog (2.5 Volt)  - 1 Of 4",
+          "sensor:interval=Instantaneous",
+          "Soil Temperature Observed"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Degc",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "SMS.I-1..-8",
+        "current_value": "23.4",
+        "at": "01/07/2011 17:52:36",
+        "max_value": "23.4",
+        "min_value": "1.1",
+        "tags": [
+          "sensor:ecode=SMS",
+          "sensor:ecode=STO",
+          "sensor:height=-8",
+          "sensor:instrument=Hydraprobe Analog (2.5 Volt)  - 1 Of 4",
+          "sensor:interval=Instantaneous",
+          "Soil Moisture Percent",
+          "Soil Temperature Observed"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Pct",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "SMS.I-1..-9",
+        "current_value": "1.1",
+        "at": "01/07/2011 17:51:39",
+        "max_value": "1.1",
+        "min_value": "1.1",
+        "tags": [
+          "sensor:ecode=STO",
+          "sensor:height=-20",
+          "sensor:instrument=Hydraprobe Analog (2.5 Volt)  - 1 Of 4",
+          "sensor:interval=Instantaneous",
+          "Soil Temperature Observed"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Degc",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "WTEQ.I-1",
+        "current_value": "16.6",
+        "at": "01/07/2011 17:52:36",
+        "max_value": "16.6",
+        "min_value": "16.6",
+        "tags": [
+          "sensor:ecode=WTEQ",
+          "sensor:height=unknown",
+          "sensor:instrument=100 Transducer - Sensotec",
+          "sensor:interval=Instantaneous",
+          "Snow Water Equivalent"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "In",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "PREC.I-1",
+        "current_value": "14.4",
+        "at": "01/07/2011 17:52:36",
+        "max_value": "14.4",
+        "min_value": "14.4",
+        "tags": [
+          "Precipitation Accumulation",
+          "sensor:ecode=PREC",
+          "sensor:height=unknown",
+          "sensor:instrument=100 Transducer - Sensotec",
+          "sensor:interval=Instantaneous"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "In",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "TOBS.I-1",
+        "current_value": "2.9",
+        "at": "01/07/2011 17:52:36",
+        "max_value": "2.9",
+        "min_value": "2.9",
+        "tags": [
+          "Air Temperature Observed",
+          "sensor:ecode=TOBS",
+          "sensor:height=unknown",
+          "sensor:instrument=Extended Range",
+          "sensor:interval=Instantaneous"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Degc",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "SNWD.I-1",
+        "current_value": "50",
+        "at": "01/07/2011 17:52:36",
+        "max_value": "50.0",
+        "min_value": "50.0",
+        "tags": [
+          "sensor:ecode=SNWD",
+          "sensor:height=unknown",
+          "sensor:instrument=Unknown - Linear Equation",
+          "sensor:interval=Instantaneous",
+          "Snow Depth"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "In",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "SMS.I-1..-20",
+        "current_value": "13.0",
+        "at": "01/07/2011 17:52:36",
+        "max_value": "13.0",
+        "min_value": "13.0",
+        "tags": [
+          "sensor:ecode=SMS",
+          "sensor:height=-20",
+          "sensor:instrument=Hydraprobe Analog (2.5 Volt)  - 1 Of 4",
+          "sensor:interval=Instantaneous",
+          "Soil Moisture Percent"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Pct",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "STO.I-1..-2",
+        "current_value": "0.6",
+        "at": "01/07/2011 17:52:36",
+        "max_value": "0.6",
+        "min_value": "0.6",
+        "tags": [
+          "sensor:ecode=STO",
+          "sensor:height=-2",
+          "sensor:instrument=Hydraprobe Analog (2.5 Volt)  - 1 Of 4",
+          "sensor:interval=Instantaneous",
+          "Soil Temperature Observed"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Degc",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "STO.I-1..-8",
+        "current_value": "1.1",
+        "at": "01/07/2011 17:52:36",
+        "max_value": "1.1",
+        "min_value": "1.1",
+        "tags": [
+          "sensor:ecode=STO",
+          "sensor:height=-8",
+          "sensor:instrument=Hydraprobe Analog (2.5 Volt)  - 1 Of 4",
+          "sensor:interval=Instantaneous",
+          "Soil Temperature Observed"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Degc",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "STO.I-1..-20",
+        "current_value": "1.1",
+        "at": "01/07/2011 17:52:36",
+        "max_value": "1.1",
+        "min_value": "1.1",
+        "tags": [
+          "sensor:ecode=STO",
+          "sensor:height=-20",
+          "sensor:instrument=Hydraprobe Analog (2.5 Volt)  - 1 Of 4",
+          "sensor:interval=Instantaneous",
+          "Soil Temperature Observed"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Degc",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/14635\" >Soil Climate Analysis Network - site 337</a>",
+    "URLMostrar": "https://xively.com/feeds/14635"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\14635.json",
+  "DocumentJSON": null
+}

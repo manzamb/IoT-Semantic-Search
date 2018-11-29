@@ -1,0 +1,153 @@
+{
+  "Conceptos": [
+    "platform"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "51435",
+    "title": "Arduino Weather Station of Marina de Sainte-Anne-des-Monts",
+    "Private": false,
+    "tags": [
+      "anemometer",
+      "arduino",
+      "bmp085",
+      "diy",
+      "home made",
+      "humidity",
+      "inspeed e-vane",
+      "inspeed vortex",
+      "kitesurfing",
+      "marina",
+      "open source",
+      "pressure",
+      "sailing",
+      "sea",
+      "sht11",
+      "temperature",
+      "weather station",
+      "wind direction",
+      "wind gusts",
+      "wind speed"
+    ],
+    "description": "This weather station is open source and based on the Arduino platform. It is installed in a lighting tower in the Marina de Sainte-Anne-des-Monts, right next to the sea (St-Lawrence River) in Gaspésie, Québec, Canada. It is mainly used by local kitesurfers and sailors.\r\nIt measures wind speed, wind direction every 3 seconds. It measures temperature, humidity and pressure every 2 minutes. It calculates the mean wind speed and gusts values every 2 minutes. It publishes data every 2 minutes.\r\n\r\n*** This Pachube feed is for test purposes only. The feed will probably be migrated to our internal server in the near future. ***\r\n\r\nReference and code:\r\nhttp://code.google.com/p/openws/\r\n\r\nHardware:\r\nMicrocontroller = Arduino Duemilanove or Uno R3 with Ethernet Shield\r\nWindSpeed = Inspeed Vortex\r\nWindDirection = Inspeed e-Vane\r\nTemperature = SHT-11 (can also use ZX-Thermometer, DHT22, or BMP085)\r\nHumidity = SHT-11 (can also use DHT22)\r\nPressure = BMP085",
+    "feed": "https://api.xively.com/v2/feeds/51435.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "06/28/2012 15:19:41",
+    "created": "03/09/2012 19:49:18",
+    "creator": "https://xively.com/users/jflagarde",
+    "version": null,
+    "website": "http://StationNautiqueHauteGaspesie.com",
+    "datastreams": [
+      {
+        "id": "humidity",
+        "current_value": "629",
+        "at": "06/28/2012 15:19:40",
+        "max_value": "16700.0",
+        "min_value": "1.0",
+        "tags": [
+          "Humidity"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "% (x10)",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "pressure",
+        "current_value": "10007",
+        "at": "06/28/2012 15:19:40",
+        "max_value": "10177.0",
+        "min_value": "1011.0",
+        "tags": [
+          "Pressure"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "kPa (x100)",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temperature",
+        "current_value": "220",
+        "at": "06/28/2012 15:19:40",
+        "max_value": "794.0",
+        "min_value": "-74.0",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Degrees C (x10)",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "winddirection",
+        "current_value": "1694",
+        "at": "06/28/2012 15:19:40",
+        "max_value": "3600.0",
+        "min_value": "0.0",
+        "tags": [
+          "Wind direction"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Degrees (x10)",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "windgust",
+        "current_value": "7",
+        "at": "06/28/2012 15:19:40",
+        "max_value": "1448.0",
+        "min_value": "0.0",
+        "tags": [
+          "Wind gust"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Knots (x10)",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "windspeed",
+        "current_value": "0",
+        "at": "06/28/2012 15:19:40",
+        "max_value": "3592.0",
+        "min_value": "0.0",
+        "tags": [
+          "Wind speed"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Knots (x10)",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Sainte-Anne-des-Monts, Gaspésie, Québec, Canada",
+      "domain": 0,
+      "lat": "49.1323631466155",
+      "lon": "-66.4899444580078",
+      "ele": "10",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/51435\" >Arduino Weather Station of Marina de Sainte-Anne-des-Monts</a>",
+    "URLMostrar": "https://xively.com/feeds/51435"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\51435.json",
+  "DocumentJSON": null
+}

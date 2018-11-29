@@ -1,0 +1,170 @@
+{
+  "Conceptos": [
+    "process"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "120586",
+    "title": "Raspberry Pi Stats",
+    "Private": false,
+    "tags": [
+      "CPU",
+      "Network",
+      "Raspberry Pi",
+      "Traffic"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/120586.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "06/29/2013 16:45:03",
+    "created": "03/23/2013 11:44:00",
+    "creator": "https://xively.com/users/mlw123",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "connections",
+        "current_value": "1",
+        "at": "06/29/2013 16:45:03",
+        "max_value": "3.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "eth0_down",
+        "current_value": "0.00",
+        "at": "06/29/2013 16:45:03",
+        "max_value": "583.01",
+        "min_value": "0.0",
+        "tags": [
+          "KB/S",
+          "Network Activity"
+        ],
+        "unit": {
+          "symbol": "KB/S",
+          "label": "KB/S",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "eth0_up",
+        "current_value": "0.00",
+        "at": "06/29/2013 16:45:03",
+        "max_value": "10.99",
+        "min_value": "0.0",
+        "tags": [
+          "KB/S",
+          "Network Activity"
+        ],
+        "unit": {
+          "symbol": "KB/S",
+          "label": "KB/S",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "load_avg",
+        "current_value": "0.06",
+        "at": "06/29/2013 16:45:03",
+        "max_value": "2.54",
+        "min_value": "0.01",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "mem_free",
+        "current_value": "18.66",
+        "at": "06/29/2013 16:45:03",
+        "max_value": "386.62",
+        "min_value": "11.12",
+        "tags": [
+          "Memory",
+          "RAM"
+        ],
+        "unit": {
+          "symbol": "MB",
+          "label": "Megabytes",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "mem_used",
+        "current_value": "420",
+        "at": "06/29/2013 16:45:03",
+        "max_value": "427.0",
+        "min_value": "52.0",
+        "tags": [
+          "Memory",
+          "RAM"
+        ],
+        "unit": {
+          "symbol": "MB",
+          "label": "Megabytes",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "processes",
+        "current_value": "91",
+        "at": "06/29/2013 16:45:03",
+        "max_value": "97.0",
+        "min_value": "60.0",
+        "tags": [
+          "PID Count",
+          "Processes"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temp",
+        "current_value": "51.4",
+        "at": "06/29/2013 16:45:03",
+        "max_value": "56.2",
+        "min_value": "41.2",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Brighton",
+      "domain": 0,
+      "lat": "50.8047414178823",
+      "lon": "-0.037078857421875",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/120586\" >Raspberry Pi Stats</a>",
+    "URLMostrar": "https://xively.com/feeds/120586"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\120586.json",
+  "DocumentJSON": null
+}

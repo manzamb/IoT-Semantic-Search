@@ -1,0 +1,169 @@
+{
+  "Conceptos": [
+    "sensor output"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "129364",
+    "title": "AirPi Basingstoke",
+    "Private": false,
+    "tags": [
+      "air quality",
+      "airpi",
+      "pressure",
+      "raspberry pi"
+    ],
+    "description": "An AirPi as per the website www.airpi.es. I've made a few tweaks which are the following:-\r\n\r\nFor the LDR I have used the VT935G as some helpful people here have provided the Lux logic http://home.roboticlab.eu/en/examples/sensor/photoresistor\r\n\r\nFor the pressure I have added the logic to take into account my altitude and converted the output into millibars.\r\n\r\nUsing the output the DHT22 I have used the Magnus formula to provide the dew point value.\r\n\r\n",
+    "feed": "https://api.xively.com/v2/feeds/129364.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "06/08/2013 05:49:58",
+    "created": "05/03/2013 14:22:22",
+    "creator": "https://xively.com/users/kirkmanb",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "12.2",
+        "at": "06/08/2013 05:49:58",
+        "max_value": "34.3",
+        "min_value": "3.5",
+        "tags": [
+          "Temperature BMP085"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "10.3",
+        "at": "06/08/2013 05:49:58",
+        "max_value": "32.5",
+        "min_value": "2.2",
+        "tags": [
+          "Temperature DHT 22"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "73.3",
+        "at": "06/08/2013 05:49:58",
+        "max_value": "99.9",
+        "min_value": "17.0",
+        "tags": [
+          "Humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "17267.40",
+        "at": "06/08/2013 05:49:58",
+        "max_value": "18573.02",
+        "min_value": "10769.95",
+        "tags": [
+          "Air Quality"
+        ],
+        "unit": {
+          "symbol": "Ohm",
+          "label": "Ohm",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "1022.0",
+        "at": "06/08/2013 05:49:58",
+        "max_value": "1032.0",
+        "min_value": "984.9",
+        "tags": [
+          "Pressure"
+        ],
+        "unit": {
+          "symbol": "mb",
+          "label": "Millbar",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "8",
+        "current_value": "681.6",
+        "at": "06/08/2013 05:49:58",
+        "max_value": "3635.9",
+        "min_value": "111.8",
+        "tags": [
+          "Cloudbase"
+        ],
+        "unit": {
+          "symbol": "m",
+          "label": "Meters",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "9",
+        "current_value": "5.7",
+        "at": "06/08/2013 05:49:58",
+        "max_value": "14.3",
+        "min_value": "-1.2",
+        "tags": [
+          "Dewpoint"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "10",
+        "current_value": "2.28",
+        "at": "06/08/2013 05:49:58",
+        "max_value": "16373.76",
+        "min_value": "0.0",
+        "tags": [
+          "Light sensor"
+        ],
+        "unit": {
+          "symbol": "L",
+          "label": "Lux",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Basingstoke",
+      "domain": 0,
+      "lat": "51.2633112794285",
+      "lon": "-1.08807563781738",
+      "ele": "110",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/129364\" >AirPi Basingstoke</a>",
+    "URLMostrar": "https://xively.com/feeds/129364"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\129364.json",
+  "DocumentJSON": null
+}

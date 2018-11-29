@@ -1,0 +1,1 @@
+﻿<%@ WebService Language="C#" CodeBehind="WSWordNet.asmx.cs" Class="WSWordNet.WebServiceWordNet" %>

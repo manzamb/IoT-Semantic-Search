@@ -1,0 +1,87 @@
+{
+  "Conceptos": [
+    "color"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "23223",
+    "title": "Air Quality Index: Greeley, Colorado",
+    "Private": false,
+    "tags": [
+      "webscrape"
+    ],
+    "description": "Air Quality Index and pollutant data for Greeley, Colorado webscraped from http://www.airnow.gov/",
+    "feed": "https://api.xively.com/v2/feeds/23223.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "04/16/2011 11:19:06",
+    "created": "04/16/2011 11:19:05",
+    "creator": "https://xively.com/users/airnow",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "aqi",
+        "current_value": "49",
+        "at": "04/16/2011 11:19:06",
+        "max_value": "49.0",
+        "min_value": "49.0",
+        "tags": [
+          "air quality index",
+          "pollution"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "ozone",
+        "current_value": "23",
+        "at": "04/16/2011 11:19:06",
+        "max_value": "23.0",
+        "min_value": "23.0",
+        "tags": [
+          "ozone"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "pm2.5",
+        "current_value": "49",
+        "at": "04/16/2011 11:19:06",
+        "max_value": "49.0",
+        "min_value": "49.0",
+        "tags": [
+          "PM2.5"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Greeley, Colorado",
+      "domain": 0,
+      "lat": "40.4233142",
+      "lon": "-104.7091322",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/23223\" >Air Quality Index: Greeley, Colorado</a>",
+    "URLMostrar": "https://xively.com/feeds/23223"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\23223.json",
+  "DocumentJSON": null
+}

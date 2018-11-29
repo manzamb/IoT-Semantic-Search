@@ -1,0 +1,70 @@
+{
+  "Conceptos": [
+    "humedad"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "95349",
+    "title": "Temperatura y humedad 2",
+    "Private": false,
+    "tags": [
+      "arduino"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/95349.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "12/30/2012 21:43:57",
+    "created": "12/30/2012 20:55:34",
+    "creator": "https://xively.com/users/mazz1",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "-999.00",
+        "at": "12/30/2012 21:43:57",
+        "max_value": "25.7",
+        "min_value": "-999.0",
+        "tags": [
+          "Temperatura"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "-999.00",
+        "at": "12/30/2012 21:43:57",
+        "max_value": "61.4",
+        "min_value": "-999.0",
+        "tags": [
+          "Humedad"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Casa",
+      "domain": 0,
+      "lat": "-41.134632033679",
+      "lon": "-71.3146750927262",
+      "ele": "800",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/95349\" >Temperatura y humedad 2</a>",
+    "URLMostrar": "https://xively.com/feeds/95349"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\95349.json",
+  "DocumentJSON": null
+}

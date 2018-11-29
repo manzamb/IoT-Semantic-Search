@@ -1,0 +1,71 @@
+{
+  "Conceptos": [
+    "goal"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "94808",
+    "title": "Hus",
+    "Private": false,
+    "tags": [
+      "Nanode",
+      "Overvågning af hus"
+    ],
+    "description": "Purpose\r\nGoal\r\nHow\r\n\r\nhttp://xx.net\r\n",
+    "feed": "https://api.xively.com/v2/feeds/94808.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "01/30/2013 14:36:47",
+    "created": "12/26/2012 16:22:44",
+    "creator": "https://xively.com/users/gninnorg",
+    "version": null,
+    "website": "http://www.xxx.net",
+    "datastreams": [
+      {
+        "id": "Humidity",
+        "current_value": "41.90",
+        "at": "01/30/2013 14:36:47",
+        "max_value": "65.4",
+        "min_value": "0.0",
+        "tags": [
+          "Humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperature",
+        "current_value": "19.60",
+        "at": "01/30/2013 14:36:47",
+        "max_value": "39.8",
+        "min_value": "0.0",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "55.6353994710574",
+      "lon": "12.0159530639648",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/94808\" >Hus</a>",
+    "URLMostrar": "https://xively.com/feeds/94808"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\94808.json",
+  "DocumentJSON": null
+}

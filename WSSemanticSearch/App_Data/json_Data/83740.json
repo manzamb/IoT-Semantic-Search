@@ -1,0 +1,55 @@
+{
+  "Conceptos": [
+    "co2"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "83740",
+    "title": "Lizzie's Temperature",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "test"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/83740.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:15:18",
+    "created": "11/03/2012 21:25:22",
+    "creator": "https://xively.com/users/mtedesco203",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "sensor1",
+        "current_value": "76",
+        "at": "03/21/2014 14:15:18",
+        "max_value": "98.0",
+        "min_value": "59.0",
+        "tags": [
+          "air temperature"
+        ],
+        "unit": {
+          "symbol": "°F",
+          "label": "°F",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Monroe, CT",
+      "domain": 0,
+      "lat": "41.3326",
+      "lon": "-73.2073",
+      "ele": "552",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/83740\" >Lizzie's Temperature</a>",
+    "URLMostrar": "https://xively.com/feeds/83740"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\83740.json",
+  "DocumentJSON": null
+}

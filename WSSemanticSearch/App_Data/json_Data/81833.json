@@ -1,0 +1,121 @@
+{
+  "Conceptos": [
+    "observation"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "81833",
+    "title": "LSMP - Payerne, Switzerland",
+    "Private": false,
+    "tags": [
+      "LSMP",
+      "METAR",
+      "Switzerland",
+      "weather report"
+    ],
+    "description": "LSMP - Payerne, Switzerland\n\n\nThis feed is unofficial and may be stopped by any reason at any time. Use it at your own risk. No guarantee of validity.\n\nData retrieved from http://weather.noaa.gov/pub/data/observations/metar/decoded/\n\nOfficial data are published by Meteo Suisse on the following link http://www.meteosuisse.admin.ch/web/de/services/aviatik/metar_taf_schweiz.html\n",
+    "feed": "https://api.xively.com/v2/feeds/81833.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/21/2014 13:50:00",
+    "created": "10/23/2012 13:09:23",
+    "creator": "https://xively.com/users/jpmieville",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "humidity",
+        "current_value": "34",
+        "at": "03/21/2014 13:50:00",
+        "max_value": "100.0",
+        "min_value": "22.0",
+        "tags": [
+          "humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "Relative Humidity",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "pressure",
+        "current_value": "1012.9",
+        "at": "03/21/2014 13:50:00",
+        "max_value": "1040.0",
+        "min_value": "0.0",
+        "tags": [
+          "pressure"
+        ],
+        "unit": {
+          "symbol": "hPa",
+          "label": "Pascal",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temp",
+        "current_value": "19",
+        "at": "03/21/2014 13:50:00",
+        "max_value": "33.0",
+        "min_value": "-13.0",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "windDirection",
+        "current_value": "240",
+        "at": "03/21/2014 13:50:00",
+        "max_value": "360.0",
+        "min_value": "0.0",
+        "tags": [
+          "Wind direction"
+        ],
+        "unit": {
+          "symbol": "degree",
+          "label": "angle",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "windSpeed",
+        "current_value": "8.0",
+        "at": "03/21/2014 13:50:00",
+        "max_value": "14.3",
+        "min_value": "0.0",
+        "tags": [
+          "Wind speed"
+        ],
+        "unit": {
+          "symbol": "m/s",
+          "label": "metre per second",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "LSMP",
+      "domain": 0,
+      "lat": "46.8166666666667",
+      "lon": "6.95",
+      "ele": "491",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/81833\" >LSMP - Payerne, Switzerland</a>",
+    "URLMostrar": "https://xively.com/feeds/81833"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\81833.json",
+  "DocumentJSON": null
+}

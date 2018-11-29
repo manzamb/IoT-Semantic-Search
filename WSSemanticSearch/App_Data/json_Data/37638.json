@@ -1,0 +1,76 @@
+{
+  "Conceptos": [
+    "parameter"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "37638",
+    "title": "Radiation in South of Tokyo (@machida)",
+    "Private": false,
+    "tags": [
+      "cpm",
+      "japan",
+      "Mark2",
+      "nSv/h",
+      "radiation",
+      "tokyo",
+      "環境放射線計測"
+    ],
+    "description": "Radiation Measurement System\r\n  Sensor : SBM-20 (Gamma only, Beta is rejected with alminium filter)\r\n  Hardware : Mark2r2 - http://diytec.web.fc2.com/mark2r2/\r\n  Status : no calibrated / run with default parameter / nSv is no gurantee\r\n2012/07/11 01:00 JST -> changed to 1 hour moving ave",
+    "feed": "https://api.xively.com/v2/feeds/37638.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:04:29",
+    "created": "10/18/2011 15:31:15",
+    "creator": "https://xively.com/users/je1ldv",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "14.626865",
+        "at": "03/21/2014 14:04:29",
+        "max_value": "19.999998",
+        "min_value": "0.0",
+        "tags": [
+          "1hour moving ave"
+        ],
+        "unit": {
+          "symbol": "cpm",
+          "label": "cpm",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "81.358433",
+        "at": "03/21/2014 14:04:27",
+        "max_value": "123.000294",
+        "min_value": "-32.000002",
+        "tags": [
+          "1hour moving ave"
+        ],
+        "unit": {
+          "symbol": "nSv/h",
+          "label": "nSv/h",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Machida, Tokyo, JAPAN",
+      "domain": 0,
+      "lat": "35.510884810843",
+      "lon": "139.467058181763",
+      "ele": "106m",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/37638\" >Radiation in South of Tokyo (@machida)</a>",
+    "URLMostrar": "https://xively.com/feeds/37638"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\37638.json",
+  "DocumentJSON": null
+}

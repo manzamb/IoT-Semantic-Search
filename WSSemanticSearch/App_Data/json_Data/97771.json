@@ -1,0 +1,154 @@
+{
+  "Conceptos": [
+    "condition"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "97771",
+    "title": "SPmon",
+    "Private": false,
+    "tags": [
+      "Current Draw",
+      "Humidity",
+      "Temperature",
+      "Watt Draw",
+      "Watt used"
+    ],
+    "description": "Environmental Monitoring",
+    "feed": "https://api.xively.com/v2/feeds/97771.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/27/2013 02:31:19",
+    "created": "01/14/2013 20:29:09",
+    "creator": "https://xively.com/users/mni8",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "8.16413662239",
+        "at": "03/26/2013 21:08:09",
+        "max_value": "8.16413662239",
+        "min_value": "8.16413662239",
+        "tags": [
+          "Current Draw in Amps"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "160",
+        "at": "03/26/2013 21:08:09",
+        "max_value": "160.0",
+        "min_value": "160.0",
+        "tags": [
+          "Voltage Data"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "66",
+        "at": "03/26/2013 21:08:09",
+        "max_value": "66.0",
+        "min_value": "66.0",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "degress",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "0.401872532425",
+        "at": "03/26/2013 21:08:09",
+        "max_value": "0.401872532425",
+        "min_value": "0.401872532425",
+        "tags": [
+          "Watt Usage"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "2",
+        "at": "03/26/2013 21:08:09",
+        "max_value": "2.0",
+        "min_value": "2.0",
+        "tags": [
+          "Xbee Address"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "Tue Mar 26 16:08:05 2013",
+        "at": "03/26/2013 21:08:09",
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "Last Time Triggered"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "1",
+        "at": "03/26/2013 21:08:09",
+        "max_value": "1.0",
+        "min_value": "1.0",
+        "tags": [
+          "Trigger Condition"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Chicago",
+      "domain": 0,
+      "lat": "41.9022770409637",
+      "lon": "-88.330078125",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/97771\" >SPmon</a>",
+    "URLMostrar": "https://xively.com/feeds/97771"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\97771.json",
+  "DocumentJSON": null
+}

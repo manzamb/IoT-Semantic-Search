@@ -1,0 +1,124 @@
+{
+  "Conceptos": [
+    "plan"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "7728",
+    "title": "University of Lapland",
+    "Private": false,
+    "tags": null,
+    "description": "Live sensor feed from the Interactive Environments Lab.",
+    "feed": "https://api.xively.com/v2/feeds/7728.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:07:18",
+    "created": "06/03/2010 14:03:11",
+    "creator": "https://xively.com/users/uol",
+    "version": null,
+    "website": "http://medialappi.net/lab/",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "863.0",
+        "at": "03/21/2014 14:07:18",
+        "max_value": "1023.0",
+        "min_value": "0.0",
+        "tags": [
+          "LDR",
+          "light dependent resistor",
+          "light level",
+          "light sensor"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "24.379997",
+        "at": "03/21/2014 14:07:18",
+        "max_value": "30.119995",
+        "min_value": "-40.01",
+        "tags": [
+          "SHT15",
+          "temperature (celcius)"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "˚C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "75.883995",
+        "at": "03/21/2014 14:07:18",
+        "max_value": "86.215996",
+        "min_value": "-40.018",
+        "tags": [
+          "SHT15",
+          "temperature (fahrenheit)"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "˚F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "8.73",
+        "at": "03/21/2014 14:07:18",
+        "max_value": "70.96",
+        "min_value": "-4.44",
+        "tags": [
+          "humidity",
+          "SHT15"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "0.0",
+        "at": "03/21/2014 14:07:18",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "motion",
+          "motion detector",
+          "PIR sensor"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Interactive Environments Lab.",
+      "domain": 0,
+      "lat": "66.485417745738",
+      "lon": "25.7189619541168",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/7728\" >University of Lapland</a>",
+    "URLMostrar": "https://xively.com/feeds/7728"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\7728.json",
+  "DocumentJSON": null
+}

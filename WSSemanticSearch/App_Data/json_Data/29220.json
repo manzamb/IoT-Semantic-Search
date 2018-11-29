@@ -1,0 +1,104 @@
+{
+  "Conceptos": [
+    "horn"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "29220",
+    "title": "Relative Humidity",
+    "Private": false,
+    "tags": null,
+    "description": "This feed was created using Data Logger for iPhone.",
+    "feed": "https://api.xively.com/v2/feeds/29220.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "07/03/2011 09:12:27",
+    "created": "07/03/2011 09:08:03",
+    "creator": "https://xively.com/users/ed_allchorne",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "0.00",
+        "at": "07/03/2011 09:12:27",
+        "max_value": "100.0",
+        "min_value": "0.0",
+        "tags": [
+          "relative humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "Percentage",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "51.1552",
+        "at": "07/03/2011 09:12:27",
+        "max_value": "51.6645",
+        "min_value": "51.1552",
+        "tags": [
+          "lat",
+          "latitude"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "-3.34973",
+        "at": "07/03/2011 09:12:27",
+        "max_value": "-0.0820814",
+        "min_value": "-3.34973",
+        "tags": [
+          "lon",
+          "longitude"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "0",
+        "at": "07/03/2011 09:12:27",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "alt",
+          "altitude",
+          "elevation"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Taunton",
+      "domain": 0,
+      "lat": "51.1552",
+      "lon": "-3.34973",
+      "ele": "0",
+      "exposure": 1,
+      "disposition": 1
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/29220\" >Relative Humidity</a>",
+    "URLMostrar": "https://xively.com/feeds/29220"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\29220.json",
+  "DocumentJSON": null
+}

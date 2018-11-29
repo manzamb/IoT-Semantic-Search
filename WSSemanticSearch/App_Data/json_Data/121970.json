@@ -1,0 +1,115 @@
+{
+  "Conceptos": [
+    "collection"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "121970",
+    "title": "Arduino Solar Hot Water Controller",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "differduino",
+      "differential controller",
+      "nateful",
+      "solar",
+      "solar hot water",
+      "solar thermal",
+      "water"
+    ],
+    "description": "Arduino based differential controller for solar hot water collection. Uses DallasTemperature DS18B20 thermometers.",
+    "feed": "https://api.xively.com/v2/feeds/121970.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "06/24/2013 17:20:00",
+    "created": "03/31/2013 23:26:31",
+    "creator": "https://xively.com/users/nateful",
+    "version": null,
+    "website": "http://www.nateful.com/differduino/differduino.html",
+    "datastreams": [
+      {
+        "id": "Collector",
+        "current_value": "110.97",
+        "at": "06/24/2013 17:20:00",
+        "max_value": "230.45",
+        "min_value": "13.66",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Differential",
+        "current_value": "12.26",
+        "at": "06/24/2013 17:20:00",
+        "max_value": "144.0",
+        "min_value": "-75.37",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Pump",
+        "current_value": "0",
+        "at": "06/24/2013 17:20:00",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "TankBottom",
+        "current_value": "98.71",
+        "at": "06/24/2013 17:20:00",
+        "max_value": "117.39",
+        "min_value": "59.45",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "TankTop",
+        "current_value": "99.05",
+        "at": "06/24/2013 17:20:00",
+        "max_value": "117.5",
+        "min_value": "60.35",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/121970\" >Arduino Solar Hot Water Controller</a>",
+    "URLMostrar": "https://xively.com/feeds/121970"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\121970.json",
+  "DocumentJSON": null
+}

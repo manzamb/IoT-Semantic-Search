@@ -1,0 +1,124 @@
+{
+  "Conceptos": [
+    "environment"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "25526",
+    "title": "Environment Data from my office ",
+    "Private": false,
+    "tags": [
+      "Arduino",
+      "Arduino Ethernet",
+      "BMP085",
+      "DHT22",
+      "Montreal",
+      "TEMT6000",
+      "weather"
+    ],
+    "description": "Dev feed used to experiment with Arduino\r\n\r\nUpdated every 3 minutes\r\n\r\nSensors are:\r\n-BMP085 (http://adafruit.com/products/391) for Pressure \r\n-DHT22 (http://adafruit.com/products/385) for temperature and humidity\r\n-TEMT6000 (https://www.sparkfun.com/products/8688) for light\r\n\r\n\r\nModified August 19, 2012:\r\n-running on an Arduino Ethernet (used to be UNO R1 + Ethernet Shield)\r\n-Code migrated to Arduino V1.0\r\n-API V2",
+    "feed": "https://api.xively.com/v2/feeds/25526.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:08:49",
+    "created": "05/20/2011 20:41:07",
+    "creator": "https://xively.com/users/ytouchette",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "212",
+        "at": "03/21/2014 14:08:49",
+        "max_value": "1000.0",
+        "min_value": "0.0",
+        "tags": [
+          "Light"
+        ],
+        "unit": {
+          "symbol": "L",
+          "label": "Lum",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "20.00",
+        "at": "03/21/2014 14:08:49",
+        "max_value": "845.0",
+        "min_value": "0.0",
+        "tags": [
+          "Temp"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "48.10",
+        "at": "03/21/2014 14:08:49",
+        "max_value": "26872.0",
+        "min_value": "0.0",
+        "tags": [
+          "humidity"
+        ],
+        "unit": {
+          "symbol": "%RH",
+          "label": "%rh",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "100.96",
+        "at": "03/21/2014 14:08:49",
+        "max_value": "228.49",
+        "min_value": "18.55",
+        "tags": [
+          "Pressure"
+        ],
+        "unit": {
+          "symbol": "kpa",
+          "label": "KiloPascal",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "19923",
+        "at": "03/21/2014 14:08:49",
+        "max_value": "71582.0",
+        "min_value": "3.0",
+        "tags": [
+          "Uptime"
+        ],
+        "unit": {
+          "symbol": "m",
+          "label": "min",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Montreal",
+      "domain": 0,
+      "lat": "45.555169737745",
+      "lon": "-73.5802459716797",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/25526\" >Environment Data from my office </a>",
+    "URLMostrar": "https://xively.com/feeds/25526"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\25526.json",
+  "DocumentJSON": null
+}

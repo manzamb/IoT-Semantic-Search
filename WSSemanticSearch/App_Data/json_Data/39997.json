@@ -1,0 +1,54 @@
+{
+  "Conceptos": [
+    "precipitation"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "39997",
+    "title": "Weather",
+    "Private": false,
+    "tags": [
+      "weather temperature humidity barometer wind precipitation"
+    ],
+    "description": "Data from various weather and environmental sensors",
+    "feed": "https://api.xively.com/v2/feeds/39997.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "11/19/2011 18:45:12",
+    "created": "11/19/2011 18:45:12",
+    "creator": "https://xively.com/users/mjkoster",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "1",
+        "current_value": null,
+        "at": "11/19/2011 18:45:12",
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "DegF (outdoor)",
+          "label": "Fahrenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Larabee Valley",
+      "domain": 0,
+      "lat": "40.4354501517125",
+      "lon": "-123.686141967773",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/39997\" >Weather</a>",
+    "URLMostrar": "https://xively.com/feeds/39997"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\39997.json",
+  "DocumentJSON": null
+}

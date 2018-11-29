@@ -1,0 +1,67 @@
+{
+  "Conceptos": [
+    "parameter"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "70059",
+    "title": "ArduinoDJB",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "SytemDS3 parameters"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/70059.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "05/22/2013 20:20:25",
+    "created": "08/04/2012 19:14:05",
+    "creator": "https://xively.com/users/deon3106",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "sensor1",
+        "current_value": "19.80",
+        "at": "05/22/2013 20:20:24",
+        "max_value": "30.0",
+        "min_value": "-30.0",
+        "tags": null,
+        "unit": {
+          "symbol": "C",
+          "label": "degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "sensor2",
+        "current_value": "19.40",
+        "at": "05/22/2013 20:20:24",
+        "max_value": "30.0",
+        "min_value": "-30.0",
+        "tags": null,
+        "unit": {
+          "symbol": "C",
+          "label": "degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/70059\" >ArduinoDJB</a>",
+    "URLMostrar": "https://xively.com/feeds/70059"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\70059.json",
+  "DocumentJSON": null
+}

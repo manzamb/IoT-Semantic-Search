@@ -1,0 +1,73 @@
+{
+  "Conceptos": [
+    "man"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "95437",
+    "title": "PowerMeter Pulse Counter",
+    "Private": false,
+    "tags": [
+      "energy",
+      "mqtt",
+      "pulse",
+      "xbee"
+    ],
+    "description": "Pulse counter for a domestic smart power meter based on an Arduino Pro Mini and an Xbee radio. ",
+    "feed": "https://api.xively.com/v2/feeds/95437.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:12:47",
+    "created": "12/31/2012 15:53:43",
+    "creator": "https://xively.com/users/xose",
+    "version": null,
+    "website": "http://tinkerman.eldiariblau.net",
+    "datastreams": [
+      {
+        "id": "1",
+        "current_value": "180",
+        "at": "03/21/2014 14:12:47",
+        "max_value": "8370.0",
+        "min_value": "0.0",
+        "tags": [
+          "power"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "W",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "3682",
+        "at": "03/21/2014 14:05:47",
+        "max_value": "4466.0",
+        "min_value": "3219.0",
+        "tags": [
+          "battery"
+        ],
+        "unit": {
+          "symbol": "mV",
+          "label": "mV",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Barcelona",
+      "domain": 0,
+      "lat": "41.3777987930218",
+      "lon": "2.12548971176147",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/95437\" >PowerMeter Pulse Counter</a>",
+    "URLMostrar": "https://xively.com/feeds/95437"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\95437.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,83 @@
+{
+  "Conceptos": [
+    "temperature"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "95742",
+    "title": "Enola Weather Hub",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "Barometric Pressure",
+      "Humidity",
+      "Temperature"
+    ],
+    "description": "Arduino Uno with Ethernet shield R2 sending data every 5 minutes.",
+    "feed": "https://api.xively.com/v2/feeds/95742.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/19/2014 10:05:31",
+    "created": "01/03/2013 03:39:10",
+    "creator": "https://xively.com/users/gwan",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "37",
+        "at": "03/19/2014 10:05:30",
+        "max_value": "88.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "62",
+        "at": "03/19/2014 10:05:30",
+        "max_value": "100.0",
+        "min_value": "9.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "29.76",
+        "at": "03/19/2014 10:05:30",
+        "max_value": "30.21",
+        "min_value": "28.59",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "40.2987741012619",
+      "lon": "-76.9351959228516",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/95742\" >Enola Weather Hub</a>",
+    "URLMostrar": "https://xively.com/feeds/95742"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\95742.json",
+  "DocumentJSON": null
+}

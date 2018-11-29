@@ -1,0 +1,66 @@
+{
+  "Conceptos": [
+    "sensing"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "2052453575",
+    "title": "TheHubIOT",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/2052453575.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "08/04/2013 05:32:58",
+    "created": "08/04/2013 03:41:31",
+    "creator": "https://xively.com/users/ahuja_s",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "led",
+        "current_value": "200",
+        "at": "08/04/2013 05:32:58",
+        "max_value": "200.0",
+        "min_value": "200.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "light",
+        "current_value": "100.0",
+        "at": "08/04/2013 05:32:29",
+        "max_value": "100.0",
+        "min_value": "100.0",
+        "tags": [
+          "light sensing"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/2052453575\" >TheHubIOT</a>",
+    "URLMostrar": "https://xively.com/feeds/2052453575"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\2052453575.json",
+  "DocumentJSON": null
+}

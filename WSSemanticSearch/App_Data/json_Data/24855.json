@@ -1,0 +1,203 @@
+{
+  "Conceptos": [
+    "plan"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "24855",
+    "title": "Sami's home test feed",
+    "Private": false,
+    "tags": [
+      "1-wire",
+      "building",
+      "data:comms=onewire",
+      "DS18S20",
+      "DS9490R-A",
+      "home",
+      "house",
+      "temperature",
+      "test"
+    ],
+    "description": "Temperature somewhere in Lohja, Finland... Exact location may vary.\n\nHobby Boards 1-Wire USB Adaptor [DS9490R-A], Hobby Boards 6 channel hub [6CH1-R3-A], T3-R1-A sensor [DS18S20], DS18B20 sensor and EDS OW-ENV-THPLR weather sensor.\n\nServed to you by Raspberry Pi running Raspbian.\n\nFuture plans:\nadd more temperature sensors [DS18B20], add outside humidity sensor.",
+    "feed": "https://api.xively.com/v2/feeds/24855.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:04:40",
+    "created": "05/06/2011 15:43:20",
+    "creator": "https://xively.com/users/samih",
+    "version": null,
+    "website": "http://samih.kapsi.fi/index.php?page=it-onewire",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "17.0625",
+        "at": "03/21/2014 14:04:40",
+        "max_value": "85.0",
+        "min_value": "0.0",
+        "tags": [
+          "0-A",
+          "inside",
+          "sensor:manufacturer=Dallas",
+          "sensor:model=DS18S20",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "9.0",
+        "at": "03/21/2014 14:04:40",
+        "max_value": "85.0",
+        "min_value": "-23.5625",
+        "tags": [
+          "1-U",
+          "outside",
+          "sensor:manufacturer=Dallas",
+          "sensor:model=DS18B20",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "982.28",
+        "at": "03/21/2014 14:04:40",
+        "max_value": "1030.36",
+        "min_value": "-0.000488281",
+        "tags": [
+          "2-eds",
+          "atmospheric air pressure",
+          "sensor:manufacturer=EDS",
+          "sensor:model=OW-ENV-THPLR"
+        ],
+        "unit": {
+          "symbol": "hPa",
+          "label": "hectopascal",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "20.875",
+        "at": "03/21/2014 14:04:40",
+        "max_value": "31.1875",
+        "min_value": "-0.0625",
+        "tags": null,
+        "unit": {
+          "symbol": "°C",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "23.5625",
+        "at": "03/21/2014 14:04:40",
+        "max_value": "51.0625",
+        "min_value": "-0.0625",
+        "tags": null,
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "0.0",
+        "at": "03/21/2014 14:04:40",
+        "max_value": "16777215.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "lux",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "11.3125",
+        "at": "03/21/2014 14:04:40",
+        "max_value": "17.625",
+        "min_value": "10.5625",
+        "tags": null,
+        "unit": {
+          "symbol": "°C",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "o0",
+        "current_value": "8.4",
+        "at": "03/21/2014 14:04:40",
+        "max_value": "10.0",
+        "min_value": "-22.4",
+        "tags": null,
+        "unit": {
+          "symbol": "C",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "o1",
+        "current_value": "31.5",
+        "at": "03/21/2014 14:04:40",
+        "max_value": "60.9",
+        "min_value": "29.5",
+        "tags": null,
+        "unit": {
+          "symbol": "C",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "o2",
+        "current_value": "18",
+        "at": "03/21/2014 14:04:40",
+        "max_value": "100.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "60.2751532901772",
+      "lon": "24.1111278533936",
+      "ele": "60 meters",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/24855\" >Sami's home test feed</a>",
+    "URLMostrar": "https://xively.com/feeds/24855"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\24855.json",
+  "DocumentJSON": null
+}

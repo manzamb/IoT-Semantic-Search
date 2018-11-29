@@ -1,0 +1,85 @@
+{
+  "Conceptos": [
+    "platform"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "86196",
+    "title": "Radiation, De Uithof, Utrecht, Netherlands",
+    "Private": false,
+    "tags": [
+      "Beta",
+      "Counter",
+      "Gamma",
+      "Geiger",
+      "MightyOhm",
+      "Radiation"
+    ],
+    "description": "These are the radiation readings taken from a MightyOhm Geiger Counter kit with an SBM-20 tube.\r\nNote: This feed is still experimental and runs on an experimental platform. Some blackouts will definately occur and this is normal.",
+    "feed": "https://api.xively.com/v2/feeds/86196.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/18/2013 17:13:36",
+    "created": "11/14/2012 07:21:14",
+    "creator": "https://xively.com/users/vliegendehuiskat",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "cpm",
+        "current_value": "10",
+        "at": "03/18/2013 17:13:34",
+        "max_value": "38.0",
+        "min_value": "2.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "cps",
+        "current_value": "0",
+        "at": "03/18/2013 17:13:34",
+        "max_value": "5.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "dose",
+        "current_value": "0.05",
+        "at": "03/18/2013 17:13:34",
+        "max_value": "0.21",
+        "min_value": "0.01",
+        "tags": null,
+        "unit": {
+          "symbol": "μSv/hr",
+          "label": "μSv/hr",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Casa Confetti",
+      "domain": 0,
+      "lat": "52.0853475448696",
+      "lon": "5.1735520362854",
+      "ele": "45",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/86196\" >Radiation, De Uithof, Utrecht, Netherlands</a>",
+    "URLMostrar": "https://xively.com/feeds/86196"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\86196.json",
+  "DocumentJSON": null
+}

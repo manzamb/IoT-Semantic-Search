@@ -1,0 +1,144 @@
+{
+  "Conceptos": [
+    "humedad"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "393417690",
+    "title": "meteo",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/393417690.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "07/03/2013 14:58:54",
+    "created": "06/16/2013 11:39:04",
+    "creator": "https://xively.com/users/mbest",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "ENCENDIDO",
+        "current_value": "630",
+        "at": "07/03/2013 14:58:54",
+        "max_value": "968.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Humedad1",
+        "current_value": "62",
+        "at": "07/03/2013 14:58:54",
+        "max_value": "85.0",
+        "min_value": "24.0",
+        "tags": [
+          "Humedad"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Humedad2",
+        "current_value": "68",
+        "at": "07/03/2013 14:58:54",
+        "max_value": "69.0",
+        "min_value": "25.0",
+        "tags": [
+          "Humedad"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "LED",
+        "current_value": "1",
+        "at": "06/26/2013 16:15:11",
+        "max_value": "100.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "ON",
+          "label": "ON/OFF",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperatura1",
+        "current_value": "24.80",
+        "at": "07/03/2013 14:58:54",
+        "max_value": "45.0",
+        "min_value": "15.9",
+        "tags": [
+          "Grados"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "ºC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperatura2",
+        "current_value": "22.50",
+        "at": "07/03/2013 14:58:54",
+        "max_value": "31.4",
+        "min_value": "20.2",
+        "tags": [
+          "Temperatura"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "ºC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "VAC",
+        "current_value": "647",
+        "at": "07/03/2013 14:58:54",
+        "max_value": "685.0",
+        "min_value": "0.0",
+        "tags": [
+          "Red"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "on/off",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "40.444005",
+      "lon": "-3.805653",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 1
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/393417690\" >meteo</a>",
+    "URLMostrar": "https://xively.com/feeds/393417690"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\393417690.json",
+  "DocumentJSON": null
+}

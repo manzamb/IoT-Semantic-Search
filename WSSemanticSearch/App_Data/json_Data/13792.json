@@ -1,0 +1,71 @@
+{
+  "Conceptos": [
+    "temperature"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "13792",
+    "title": "Cambridge Home",
+    "Private": false,
+    "tags": [
+      "electric",
+      "home"
+    ],
+    "description": "Home Electric",
+    "feed": "https://api.xively.com/v2/feeds/13792.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:05:00",
+    "created": "12/13/2010 17:03:35",
+    "creator": "https://xively.com/users/geoffjones",
+    "version": null,
+    "website": "http://www.currentcost.com",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "17.40",
+        "at": "03/21/2014 14:05:00",
+        "max_value": "27.3",
+        "min_value": "0.0",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "125",
+        "at": "03/21/2014 14:05:00",
+        "max_value": "5511.0",
+        "min_value": "0.0",
+        "tags": [
+          "watts"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Cambridge",
+      "domain": 0,
+      "lat": "52.2161791942413",
+      "lon": "0.136127471923828",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/13792\" >Cambridge Home</a>",
+    "URLMostrar": "https://xively.com/feeds/13792"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\13792.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,73 @@
+{
+  "Conceptos": [
+    "organization"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "49544",
+    "title": "Radon Gas Concentration",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "levels",
+      "radiation",
+      "radon"
+    ],
+    "description": "Arduino Uno Ethernet is connected to a SafetySiren Pro Series 3 Radon Gas Detector.\r\n\r\nThe World Health Organization set the Radon Action Level at 2.7 pCi/L. This is less than EPA's Action Level  of 4.0 pCi/L.\r\n\r\nTypical outdoor Radon levels in the US are 0.4 pCi/L.\r\n",
+    "feed": "https://api.xively.com/v2/feeds/49544.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:11:19",
+    "created": "02/24/2012 02:26:25",
+    "creator": "https://xively.com/users/nafis",
+    "version": null,
+    "website": "http://www.howmuchsnow.com/arduino/radon/",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "0.6",
+        "at": "03/21/2014 14:11:18",
+        "max_value": "10.0",
+        "min_value": "0.0",
+        "tags": [
+          "short-term radon"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "pCi/L",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "2.4",
+        "at": "03/21/2014 14:11:18",
+        "max_value": "10.0",
+        "min_value": "0.0",
+        "tags": [
+          "long-term radon"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "pCi/L",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Vischer Ferry, NY, USA",
+      "domain": 0,
+      "lat": "42.7955513",
+      "lon": "-73.82299805",
+      "ele": "65",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/49544\" >Radon Gas Concentration</a>",
+    "URLMostrar": "https://xively.com/feeds/49544"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\49544.json",
+  "DocumentJSON": null
+}

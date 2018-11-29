@@ -1,0 +1,348 @@
+{
+  "Conceptos": [
+    "frequency"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "30397",
+    "title": "Kuehlschrank WK (MBS-110V2)",
+    "Private": false,
+    "tags": [
+      "30397",
+      "Electricity",
+      "Kuehlschrank WK (MBS-110V2)",
+      "mbus",
+      "PIK6E1208820202"
+    ],
+    "description": "Temperatur im RZ",
+    "feed": "https://api.xively.com/v2/feeds/30397.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:08:08",
+    "created": "07/24/2011 08:41:03",
+    "creator": "https://xively.com/users/rudiratlos",
+    "version": null,
+    "website": "http://www.google.com",
+    "datastreams": [
+      {
+        "id": "Brightness",
+        "current_value": "14",
+        "at": "03/21/2014 13:28:42",
+        "max_value": "988.0",
+        "min_value": "0.0",
+        "tags": [
+          "007C",
+          "mbus",
+          "no range"
+        ],
+        "unit": {
+          "symbol": "lx",
+          "label": "lx",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Brightness_Out",
+        "current_value": "0",
+        "at": "03/21/2014 13:53:54",
+        "max_value": "1134.0",
+        "min_value": "0.0",
+        "tags": [
+          "007C",
+          "mbus",
+          "no range"
+        ],
+        "unit": {
+          "symbol": "lx",
+          "label": "lx",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Cost_KK",
+        "current_value": "114",
+        "at": "03/21/2014 13:55:49",
+        "max_value": "2648456.68",
+        "min_value": "-14367289938.32",
+        "tags": [
+          "ffff",
+          "mbus"
+        ],
+        "unit": {
+          "symbol": "EUR/Year @ 23ct/kWh",
+          "label": "EUR/Year @ 23ct/kWh",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Cost_WK",
+        "current_value": "110.72",
+        "at": "03/21/2014 14:07:09",
+        "max_value": "1747182.02",
+        "min_value": "-15995764507.66",
+        "tags": [
+          "ffff",
+          "mbus"
+        ],
+        "unit": {
+          "symbol": "EUR/Year @ 23ct/kWh",
+          "label": "EUR/Year @ 23ct/kWh",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Freq",
+        "current_value": "50.125",
+        "at": "03/21/2014 14:07:09",
+        "max_value": "59.25",
+        "min_value": "49.562",
+        "tags": [
+          "FB2C",
+          "Frequency",
+          "mbus"
+        ],
+        "unit": {
+          "symbol": "Hz",
+          "label": "Hz",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Humidity",
+        "current_value": "54",
+        "at": "03/21/2014 13:28:42",
+        "max_value": "84.0",
+        "min_value": "31.0",
+        "tags": [
+          "FB1A",
+          "Humidity",
+          "mbus"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Humidity_Out",
+        "current_value": "23",
+        "at": "03/21/2014 13:53:54",
+        "max_value": "255.0",
+        "min_value": "17.0",
+        "tags": [
+          "FB1A",
+          "Humidity",
+          "mbus"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Movement",
+        "current_value": "1",
+        "at": "03/21/2014 13:56:12",
+        "max_value": "776.0",
+        "min_value": "0.0",
+        "tags": [
+          "007C",
+          "mbus",
+          "no range"
+        ],
+        "unit": {
+          "symbol": "MOVE",
+          "label": "MOVE",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Power_KK",
+        "current_value": "0",
+        "at": "03/21/2014 13:55:49",
+        "max_value": "1327.0",
+        "min_value": "0.0",
+        "tags": [
+          "0028",
+          "mbus",
+          "Power"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "W",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Power_WK",
+        "current_value": "0",
+        "at": "03/21/2014 14:07:09",
+        "max_value": "1682.0",
+        "min_value": "0.0",
+        "tags": [
+          "0028",
+          "mbus",
+          "Power"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "W",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Preassure",
+        "current_value": "0.95",
+        "at": "03/21/2014 13:28:42",
+        "max_value": "0.97",
+        "min_value": "0.927",
+        "tags": [
+          "0068",
+          "mbus",
+          "Preassure"
+        ],
+        "unit": {
+          "symbol": "bar",
+          "label": "bar",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Preassure_Out",
+        "current_value": "0.95",
+        "at": "03/21/2014 13:53:54",
+        "max_value": "0.969",
+        "min_value": "0.93",
+        "tags": [
+          "0068",
+          "mbus",
+          "Preassure"
+        ],
+        "unit": {
+          "symbol": "bar",
+          "label": "bar",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temp",
+        "current_value": "22.2",
+        "at": "03/21/2014 13:28:42",
+        "max_value": "70.0",
+        "min_value": "13.9",
+        "tags": [
+          "0064",
+          "External Temperature",
+          "mbus"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temp_Out",
+        "current_value": "21.3",
+        "at": "03/21/2014 13:53:54",
+        "max_value": "28.9",
+        "min_value": "1.3",
+        "tags": [
+          "0064",
+          "External Temperature",
+          "mbus"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "U",
+        "current_value": "231",
+        "at": "03/21/2014 14:07:09",
+        "max_value": "238.0",
+        "min_value": "200.0",
+        "tags": [
+          "electrical units",
+          "FD40",
+          "mbus"
+        ],
+        "unit": {
+          "symbol": "Volt",
+          "label": "Volt",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Usage_KK",
+        "current_value": "194903",
+        "at": "03/21/2014 13:55:49",
+        "max_value": "1573368.0",
+        "min_value": "7.0",
+        "tags": [
+          "0000",
+          "1-0:1.8.0*255",
+          "Energy",
+          "mbus"
+        ],
+        "unit": {
+          "symbol": "Wh",
+          "label": "Wh",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Usage_WK",
+        "current_value": "242382",
+        "at": "03/21/2014 14:07:09",
+        "max_value": "1442349.0",
+        "min_value": "7.0",
+        "tags": [
+          "0000",
+          "1-0:1.8.0*255",
+          "Energy",
+          "mbus"
+        ],
+        "unit": {
+          "symbol": "Wh",
+          "label": "Wh",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "officename",
+      "domain": 0,
+      "lat": "48.131965715359",
+      "lon": "11.6698569059372",
+      "ele": "519",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/30397\" >Kuehlschrank WK (MBS-110V2)</a>",
+    "URLMostrar": "https://xively.com/feeds/30397"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\30397.json",
+  "DocumentJSON": null
+}

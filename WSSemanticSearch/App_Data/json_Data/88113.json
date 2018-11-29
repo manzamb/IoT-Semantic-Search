@@ -1,0 +1,68 @@
+{
+  "Conceptos": [
+    "moisture"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "88113",
+    "title": "chilli1",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "chilli",
+      "watering"
+    ],
+    "description": "Chilli plants with moisture sensor to trigger watering.",
+    "feed": "https://api.xively.com/v2/feeds/88113.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "07/22/2013 05:52:02",
+    "created": "11/25/2012 15:22:57",
+    "creator": "https://xively.com/users/cgrant",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "moisture",
+        "current_value": "286",
+        "at": "03/25/2013 10:04:42",
+        "max_value": "1023.0",
+        "min_value": "7.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "water",
+        "current_value": "0",
+        "at": "07/22/2013 05:52:01",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "s",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Toft",
+      "domain": 0,
+      "lat": "52.1861022079308",
+      "lon": "-0.00870418734848499",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/88113\" >chilli1</a>",
+    "URLMostrar": "https://xively.com/feeds/88113"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\88113.json",
+  "DocumentJSON": null
+}

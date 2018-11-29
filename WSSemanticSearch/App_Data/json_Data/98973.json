@@ -1,0 +1,83 @@
+{
+  "Conceptos": [
+    "process"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "98973",
+    "title": "ProbioticEsplanade",
+    "Private": false,
+    "tags": [
+      "energy",
+      "processing",
+      "solar",
+      "xbee"
+    ],
+    "description": "Monitoring the performance of different kinds of solar cells.",
+    "feed": "https://api.xively.com/v2/feeds/98973.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/27/2013 09:58:10",
+    "created": "01/20/2013 09:30:19",
+    "creator": "https://xively.com/users/adam_iredale",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "backyardSolarA0",
+        "current_value": "0.0",
+        "at": "03/27/2013 09:58:09",
+        "max_value": "55.816227",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "backyardSolarB0",
+        "current_value": "0.0",
+        "at": "03/27/2013 09:58:10",
+        "max_value": "83.18671",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "backyardSolarV0",
+        "current_value": "96.57869",
+        "at": "03/27/2013 09:58:08",
+        "max_value": "99.70674",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Somewhere in Sydney, Australia",
+      "domain": 0,
+      "lat": "-33.8547357595706",
+      "lon": "151.211700439453",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/98973\" >ProbioticEsplanade</a>",
+    "URLMostrar": "https://xively.com/feeds/98973"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\98973.json",
+  "DocumentJSON": null
+}

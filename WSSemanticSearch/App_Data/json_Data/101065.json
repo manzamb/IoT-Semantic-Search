@@ -1,0 +1,267 @@
+{
+  "Conceptos": [
+    "person"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "101065",
+    "title": "Meteo Arduino",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "meteo personnelle"
+    ],
+    "description": "Ici, la vitesse du vent est la moyenne calculée sur 4 minutes.",
+    "feed": "https://api.xively.com/v2/feeds/101065.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:08:43",
+    "created": "01/29/2013 10:23:59",
+    "creator": "https://xively.com/users/vstrom50",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Bureau",
+        "current_value": "18.50",
+        "at": "03/21/2014 14:08:43",
+        "max_value": "20.19",
+        "min_value": "15.5",
+        "tags": [
+          "Bureau"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Degré",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Congelateur",
+        "current_value": "-22.19",
+        "at": "03/21/2014 14:08:43",
+        "max_value": "-20.25",
+        "min_value": "-25.75",
+        "tags": null,
+        "unit": {
+          "symbol": "°C",
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Direction",
+        "current_value": "225.00",
+        "at": "03/21/2014 14:07:54",
+        "max_value": "315.0",
+        "min_value": "0.0",
+        "tags": [
+          "Direction Vent"
+        ],
+        "unit": {
+          "symbol": "°",
+          "label": "degré",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Exterieure",
+        "current_value": "13.81",
+        "at": "03/21/2014 14:07:54",
+        "max_value": "35.31",
+        "min_value": "-5.44",
+        "tags": [
+          "DS 18B20"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Frigo",
+        "current_value": "4.63",
+        "at": "03/21/2014 14:08:43",
+        "max_value": "6.19",
+        "min_value": "1.31",
+        "tags": null,
+        "unit": {
+          "symbol": "°C",
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Humidite",
+        "current_value": "54.00",
+        "at": "03/21/2014 14:07:54",
+        "max_value": "90.0",
+        "min_value": "0.0",
+        "tags": [
+          "DTH11"
+        ],
+        "unit": {
+          "symbol": "H%",
+          "label": "H%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Intensite",
+        "current_value": "1.80",
+        "at": "03/21/2014 14:08:43",
+        "max_value": "23.6",
+        "min_value": "1.0",
+        "tags": null,
+        "unit": {
+          "symbol": "A",
+          "label": "A",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Lingerie",
+        "current_value": "17.70",
+        "at": "03/21/2014 14:07:54",
+        "max_value": "230.85",
+        "min_value": "13.75",
+        "tags": [
+          "DTH11 & BMP085"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Pluie",
+        "current_value": "0.00",
+        "at": "03/21/2014 14:07:54",
+        "max_value": "2.94",
+        "min_value": "0.0",
+        "tags": [
+          "Pluie"
+        ],
+        "unit": {
+          "symbol": "mm",
+          "label": "mm",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Pression",
+        "current_value": "1012.05",
+        "at": "03/21/2014 14:07:54",
+        "max_value": "3519.72",
+        "min_value": "983.94",
+        "tags": [
+          "BMP085"
+        ],
+        "unit": {
+          "symbol": "Hpa",
+          "label": "hectoPascal",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Sejour1",
+        "current_value": "19.31",
+        "at": "03/21/2014 14:08:43",
+        "max_value": "22.56",
+        "min_value": "16.62",
+        "tags": null,
+        "unit": {
+          "symbol": "°C",
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Sejour2",
+        "current_value": "18.31",
+        "at": "03/21/2014 14:07:54",
+        "max_value": "27.06",
+        "min_value": "-0.06",
+        "tags": [
+          "DS 18B20"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperature_Chambre",
+        "current_value": "18.44",
+        "at": "03/21/2014 14:08:43",
+        "max_value": "20.37",
+        "min_value": "16.56",
+        "tags": null,
+        "unit": {
+          "symbol": "°C",
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperature_Cuisine",
+        "current_value": "17.94",
+        "at": "03/21/2014 14:08:43",
+        "max_value": "20.25",
+        "min_value": "16.62",
+        "tags": null,
+        "unit": {
+          "symbol": "°C",
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Vent",
+        "current_value": "21.00",
+        "at": "03/21/2014 14:07:54",
+        "max_value": "68.0",
+        "min_value": "0.0",
+        "tags": [
+          "SEN-08942"
+        ],
+        "unit": {
+          "symbol": "Km/h",
+          "label": "Km/h",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Chéneché",
+      "domain": 0,
+      "lat": "46.7375606582835",
+      "lon": "0.285949229146354",
+      "ele": "93 m",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/101065\" >Meteo Arduino</a>",
+    "URLMostrar": "https://xively.com/feeds/101065"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\101065.json",
+  "DocumentJSON": null
+}

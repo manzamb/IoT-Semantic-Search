@@ -1,0 +1,123 @@
+{
+  "Conceptos": [
+    "pst"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "82177",
+    "title": "Lake Cottage",
+    "Private": false,
+    "tags": [
+      "ATmega644P",
+      "ATtiny84",
+      "AVR",
+      "LM75B",
+      "WIZnet",
+      "XBee"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/82177.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:12:33",
+    "created": "10/24/2012 21:37:38",
+    "creator": "https://xively.com/users/donblake",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "85.6",
+        "at": "03/21/2014 14:11:18",
+        "max_value": "104.0",
+        "min_value": "63.5",
+        "tags": [
+          "Sensor Base PCB Temperature"
+        ],
+        "unit": {
+          "symbol": "°F",
+          "label": "°F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "61.7",
+        "at": "03/21/2014 14:12:33",
+        "max_value": "93.4",
+        "min_value": "55.6",
+        "tags": [
+          "Upstairs Temperature"
+        ],
+        "unit": {
+          "symbol": "°F",
+          "label": "°F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "64.0",
+        "at": "03/21/2014 14:11:35",
+        "max_value": "93.7",
+        "min_value": "56.5",
+        "tags": [
+          "Downstairs Temperature"
+        ],
+        "unit": {
+          "symbol": "°F",
+          "label": "°F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "32.7",
+        "at": "03/21/2014 14:11:41",
+        "max_value": "90.5",
+        "min_value": "-5.8",
+        "tags": [
+          "Outside Temperature"
+        ],
+        "unit": {
+          "symbol": "°F",
+          "label": "°F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "99",
+        "current_value": "0x040000",
+        "at": "03/13/2014 00:36:23",
+        "max_value": "458752.0",
+        "min_value": "0.0",
+        "tags": [
+          "Debug Information"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "42.6591916666667",
+      "lon": "-76.6629305555556",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/82177\" >Lake Cottage</a>",
+    "URLMostrar": "https://xively.com/feeds/82177"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\82177.json",
+  "DocumentJSON": null
+}

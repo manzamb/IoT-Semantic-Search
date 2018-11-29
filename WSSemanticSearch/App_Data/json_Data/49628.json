@@ -1,0 +1,120 @@
+{
+  "Conceptos": [
+    "temperatura"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "49628",
+    "title": "MIRAVALLE  W264",
+    "Private": false,
+    "tags": [
+      "AC",
+      "Puerta",
+      "Temperatura"
+    ],
+    "description": "DITECnet14\r\n10.100.10.24 ",
+    "feed": "https://api.xively.com/v2/feeds/49628.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:13:51",
+    "created": "02/24/2012 17:59:04",
+    "creator": "https://xively.com/users/tvcable_watching",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "AC",
+        "current_value": "1",
+        "at": "03/21/2014 14:13:50",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "Alimentación AC"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "0=FALLA / 1=OK",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "PT1",
+        "current_value": "1",
+        "at": "03/21/2014 14:13:50",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "Puerta 1"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "0=ABIERTA / 1=CERRADA",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "PT2",
+        "current_value": "0",
+        "at": "03/21/2014 14:13:50",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "Puerta 2"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "0=ABIERTA / 1=CERRADA",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "PWR",
+        "current_value": "12.292153356",
+        "at": "03/21/2014 14:13:50",
+        "max_value": "12.492757795",
+        "min_value": "12.101199148",
+        "tags": [
+          "Alimentación DITECnet"
+        ],
+        "unit": {
+          "symbol": "VDC",
+          "label": "Voltios",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "T1",
+        "current_value": "19.125",
+        "at": "03/21/2014 14:13:50",
+        "max_value": "30.6875",
+        "min_value": "13.875",
+        "tags": [
+          "Temperatura ambiente"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "° Centigrados",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Quito",
+      "domain": 0,
+      "lat": "-0.272698",
+      "lon": "-78.509067",
+      "ele": "3170",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/49628\" >MIRAVALLE  W264</a>",
+    "URLMostrar": "https://xively.com/feeds/49628"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\49628.json",
+  "DocumentJSON": null
+}

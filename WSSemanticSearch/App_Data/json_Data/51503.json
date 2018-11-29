@@ -1,0 +1,114 @@
+{
+  "Conceptos": [
+    "o3"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "51503",
+    "title": "Sensor Feed",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/51503.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:12:18",
+    "created": "03/10/2012 18:30:33",
+    "creator": "https://xively.com/users/cwharto3",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "BatteryD1",
+        "current_value": "3.3",
+        "at": "03/21/2014 14:12:17",
+        "max_value": "3.315",
+        "min_value": "3.261",
+        "tags": [
+          "Battery Voltage"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": "Volts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Electricity",
+        "current_value": "1.26",
+        "at": "03/25/2013 22:28:15",
+        "max_value": "7.44",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "KWH",
+          "label": "KWH",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "TempIN",
+        "current_value": "17.94",
+        "at": "03/25/2013 22:28:15",
+        "max_value": "23.38",
+        "min_value": "0.0",
+        "tags": [
+          "Temp"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "TempS1",
+        "current_value": "24",
+        "at": "03/21/2014 14:12:17",
+        "max_value": "38.625",
+        "min_value": "12.063",
+        "tags": [
+          "Temp"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "TempS2",
+        "current_value": "21.25",
+        "at": "03/21/2014 14:12:17",
+        "max_value": "51.25",
+        "min_value": "1.375",
+        "tags": [
+          "Temp"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Palmers Green, London",
+      "domain": 0,
+      "lat": "51.6418852587683",
+      "lon": "-0.0714111328125",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/51503\" >Sensor Feed</a>",
+    "URLMostrar": "https://xively.com/feeds/51503"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\51503.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,113 @@
+{
+  "Conceptos": [
+    "frequency"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "66011",
+    "title": "Home Environment Moniter",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "Humidity",
+      "Light",
+      "Motion",
+      "Tempurature",
+      "TMP 36"
+    ],
+    "description": "This is data from my simple home environment monitor.  I plan on implementing a  grid frequency and power stream soon.",
+    "feed": "https://api.xively.com/v2/feeds/66011.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "08/13/2012 12:21:54",
+    "created": "07/03/2012 23:39:40",
+    "creator": "https://xively.com/users/jephsonc",
+    "version": null,
+    "website": "http://calebjephson.com",
+    "datastreams": [
+      {
+        "id": "Humidity",
+        "current_value": "51.56",
+        "at": "07/19/2012 21:17:01",
+        "max_value": "63.72",
+        "min_value": "-0.2",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "Percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Light1",
+        "current_value": "48",
+        "at": "07/19/2012 21:13:09",
+        "max_value": "90.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "Intensity",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Light2",
+        "current_value": "52",
+        "at": "07/19/2012 21:12:39",
+        "max_value": "84.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "Intensity",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Motion1",
+        "current_value": "1592",
+        "at": "07/19/2012 21:12:39",
+        "max_value": "1780.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temp",
+        "current_value": "72",
+        "at": "08/12/2012 21:56:42",
+        "max_value": "77.0",
+        "min_value": "61.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "Degree_F",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Corvallis",
+      "domain": 0,
+      "lat": "44.5471754822907",
+      "lon": "-123.30436706543",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/66011\" >Home Environment Moniter</a>",
+    "URLMostrar": "https://xively.com/feeds/66011"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\66011.json",
+  "DocumentJSON": null
+}

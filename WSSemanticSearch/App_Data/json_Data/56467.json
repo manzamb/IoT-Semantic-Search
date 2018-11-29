@@ -1,0 +1,56 @@
+{
+  "Conceptos": [
+    "moisture"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "56467",
+    "title": "Plant Soil Moisture Levels from Botanicalls",
+    "Private": false,
+    "tags": [
+      "Botanicalls",
+      "moisture level",
+      "MQTT"
+    ],
+    "description": "I nearly killed my pot plant over Easter because I forgot to water it for 8 days. ????\r\n\r\nI have modified the Botanicalls (http://www.botanicalls.com/) Arduino code to send the average moisture level in my potplant to our MQTT server.  I have written an app to send this data to Pachube.  I will be adding further apps to monitor this data and send it to Twitter, Nimbits, and our ThingSpeak server.  \r\n\r\nThe idea is to move the logic of the watering algorithm out of the Arduino.  Why?  Because I don't want to have to reprogram the chip for different soil types.  The current reading of moisture level one day after the event is 736.  The current Bottanicalls code classifies this as over watered, yet the soil is dry to the touch.",
+    "feed": "https://api.xively.com/v2/feeds/56467.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/16/2014 19:55:36",
+    "created": "04/20/2012 01:31:32",
+    "creator": "https://xively.com/users/ceitmark",
+    "version": null,
+    "website": "http://ceit.uq.edu.au/content/my-plant-now-tells-me-how-dry-it",
+    "datastreams": [
+      {
+        "id": "AvMoisture",
+        "current_value": "702",
+        "at": "03/16/2014 19:55:36",
+        "max_value": "7775.0",
+        "min_value": "-1.0",
+        "tags": [
+          "Moisture"
+        ],
+        "unit": {
+          "symbol": "M",
+          "label": "Dimensionless",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Brisbane, Australia",
+      "domain": 0,
+      "lat": "-27.4998352641843",
+      "lon": "153.015416264534",
+      "ele": "60",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/56467\" >Plant Soil Moisture Levels from Botanicalls</a>",
+    "URLMostrar": "https://xively.com/feeds/56467"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\56467.json",
+  "DocumentJSON": null
+}

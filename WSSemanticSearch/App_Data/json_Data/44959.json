@@ -1,0 +1,166 @@
+{
+  "Conceptos": [
+    "moisture"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "44959",
+    "title": "JanisAlnis Quantified Self Arduino Webserver ENC28J60",
+    "Private": false,
+    "tags": [
+      "temperature"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/44959.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "05/21/2013 16:26:07",
+    "created": "01/20/2012 22:48:31",
+    "creator": "https://xively.com/users/janisalnis",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "1",
+        "current_value": "13.88",
+        "at": "05/21/2013 16:26:03",
+        "max_value": "85.0",
+        "min_value": "-127.0",
+        "tags": [
+          "outside temp."
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "23.12",
+        "at": "05/21/2013 16:26:03",
+        "max_value": "127.94",
+        "min_value": "-127.0",
+        "tags": [
+          "room temp."
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "26.75",
+        "at": "05/21/2013 16:26:04",
+        "max_value": "127.94",
+        "min_value": "-127.0",
+        "tags": [
+          "bed temp."
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "22",
+        "at": "05/21/2013 16:26:05",
+        "max_value": "23315.0",
+        "min_value": "-30016.0",
+        "tags": [
+          "PIR motion detected times"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "29",
+        "at": "05/21/2013 16:26:05",
+        "max_value": "1023.0",
+        "min_value": "0.0",
+        "tags": [
+          "Light level photodiode"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "1",
+        "at": "05/21/2013 16:26:06",
+        "max_value": "511.0",
+        "min_value": "0.0",
+        "tags": [
+          "Sound level from mic (snorking detector)"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "7",
+        "current_value": "2",
+        "at": "05/21/2013 16:26:06",
+        "max_value": "846.0",
+        "min_value": "0.0",
+        "tags": [
+          "Bed moisture"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "8",
+        "current_value": "534",
+        "at": "05/21/2013 16:26:07",
+        "max_value": "595.0",
+        "min_value": "0.0",
+        "tags": [
+          "CO2 sensor in room"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "wr703n",
+      "domain": 0,
+      "lat": "48.2436533479957",
+      "lon": "11.6526317596436",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/44959\" >JanisAlnis Quantified Self Arduino Webserver ENC28J60</a>",
+    "URLMostrar": "https://xively.com/feeds/44959"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\44959.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,66 @@
+{
+  "Conceptos": [
+    "event"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "120087",
+    "title": "sensor 1",
+    "Private": false,
+    "tags": [
+      "energy stuff eventually"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/120087.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "05/01/2013 16:27:02",
+    "created": "03/20/2013 17:56:49",
+    "creator": "https://xively.com/users/samatt",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "sensor1",
+        "current_value": "20",
+        "at": "05/01/2013 16:27:02",
+        "max_value": "20.0",
+        "min_value": "10.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "sensor2",
+        "current_value": "2",
+        "at": "05/01/2013 16:27:02",
+        "max_value": "2.0",
+        "min_value": "1.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "ITP",
+      "domain": 0,
+      "lat": "40.7293726819538",
+      "lon": "-73.9936494827271",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/120087\" >sensor 1</a>",
+    "URLMostrar": "https://xively.com/feeds/120087"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\120087.json",
+  "DocumentJSON": null
+}

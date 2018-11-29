@@ -1,0 +1,132 @@
+{
+  "Conceptos": [
+    "processo"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "3327",
+    "title": "Temperature Sensor Project",
+    "Private": false,
+    "tags": null,
+    "description": "This project seeks to gather temperature data for performing a cost-benefit analysis on several types on insulation.\r\n\r\nTemperatures gathered are: \r\nOutdoor Temp, Attic Temp, Indoor Temp, System Temp\r\n\r\nThe temperatures are gathered using 4- LM7805 Sensors, an Arduino 168 Microprocessor. An ethernet shield allows communication to Pachube.",
+    "feed": "https://api.xively.com/v2/feeds/3327.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "06/08/2010 14:19:57",
+    "created": "11/30/2009 04:29:11",
+    "creator": "https://xively.com/users/mitsubob8404",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "417",
+        "at": null,
+        "max_value": "846.0",
+        "min_value": "32.0",
+        "tags": [
+          "outdoor temp"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "57",
+        "at": null,
+        "max_value": "70.0",
+        "min_value": "32.0",
+        "tags": [
+          "attic temp"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "64",
+        "at": null,
+        "max_value": "68.0",
+        "min_value": "57.0",
+        "tags": [
+          "indoor temp"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "59",
+        "at": null,
+        "max_value": "64.0",
+        "min_value": "51.0",
+        "tags": [
+          "system temp"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "31474",
+        "at": null,
+        "max_value": "31474.0",
+        "min_value": "1.0",
+        "tags": [
+          "successful updates"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "1598",
+        "at": null,
+        "max_value": "1598.0",
+        "min_value": "0.0",
+        "tags": [
+          "horrible failures to update"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "35.0692702338398",
+      "lon": "-78.9177245646715",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/3327\" >Temperature Sensor Project</a>",
+    "URLMostrar": "https://xively.com/feeds/3327"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\3327.json",
+  "DocumentJSON": null
+}

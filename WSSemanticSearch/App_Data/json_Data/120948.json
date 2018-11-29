@@ -1,0 +1,92 @@
+{
+  "Conceptos": [
+    "mp10"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "120948",
+    "title": "Températures",
+    "Private": false,
+    "tags": [
+      "Température intérieure mesurée par tmp102 / Raspberry PI"
+    ],
+    "description": "Température intérieure",
+    "feed": "https://api.xively.com/v2/feeds/120948.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "10/13/2013 22:35:05",
+    "created": "03/25/2013 17:00:19",
+    "creator": "https://xively.com/users/xapi",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Temperature_exterieure",
+        "current_value": "14.7",
+        "at": "10/13/2013 22:01:04",
+        "max_value": "81.0",
+        "min_value": "5.3",
+        "tags": [
+          "température extérieure"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperature_interieure",
+        "current_value": "27.19",
+        "at": "10/13/2013 22:30:04",
+        "max_value": "37.81",
+        "min_value": "12.7",
+        "tags": [
+          "intérieure",
+          "RPi",
+          "température",
+          "tmp102"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperature_interieure1",
+        "current_value": "24.70",
+        "at": "10/13/2013 22:35:05",
+        "max_value": "237.0",
+        "min_value": "-50.0",
+        "tags": [
+          "intérieure",
+          "RPi",
+          "température",
+          "tmp36"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Corbarieu",
+      "domain": 0,
+      "lat": "43.9255936635507",
+      "lon": "1.4007568359375",
+      "ele": "100",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/120948\" >Températures</a>",
+    "URLMostrar": "https://xively.com/feeds/120948"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\120948.json",
+  "DocumentJSON": null
+}

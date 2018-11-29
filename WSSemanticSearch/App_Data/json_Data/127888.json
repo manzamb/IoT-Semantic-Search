@@ -1,0 +1,125 @@
+{
+  "Conceptos": [
+    "thermistor"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "127888",
+    "title": "Arduino Uno Testing",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "Arduino Uno",
+      "GPRS-GSM Shield",
+      "Temp Sensor with 503 Thermistor"
+    ],
+    "description": "Temperature Reading of a 503 Thermistor supplied with Arduino's starter kit. ",
+    "feed": "https://api.xively.com/v2/feeds/127888.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "05/04/2013 23:20:32",
+    "created": "04/27/2013 03:48:16",
+    "creator": "https://xively.com/users/mmm111",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "201.0",
+        "at": "05/04/2013 23:20:32",
+        "max_value": "800.0",
+        "min_value": "0.0",
+        "tags": [
+          "F",
+          "RawADC 1 - 503 Thermistor",
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "RawADC",
+          "label": "RawADC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "24.0",
+        "at": "05/04/2013 23:20:32",
+        "max_value": "634.0",
+        "min_value": "0.0",
+        "tags": [
+          "Temp 1 - 503 Thermistor -Nonlinear Eqn"
+        ],
+        "unit": {
+          "symbol": "°F",
+          "label": "°F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "81.0",
+        "at": "05/04/2013 23:20:32",
+        "max_value": "292.0",
+        "min_value": "0.0",
+        "tags": [
+          "Temp 2 - 503 Thermistor - Piecewise Linear Eq"
+        ],
+        "unit": {
+          "symbol": "°F",
+          "label": "°F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "34.25",
+        "at": "05/04/2013 23:20:32",
+        "max_value": "74.93",
+        "min_value": "0.0",
+        "tags": [
+          "Elapsed Time",
+          "Hours",
+          "Time"
+        ],
+        "unit": {
+          "symbol": "Hours",
+          "label": "Elapsed Time",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "127888",
+        "current_value": null,
+        "at": null,
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "°F",
+          "label": "°F",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Pasco WA",
+      "domain": 0,
+      "lat": "46.260391",
+      "lon": "-119.175218",
+      "ele": "118",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/127888\" >Arduino Uno Testing</a>",
+    "URLMostrar": "https://xively.com/feeds/127888"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\127888.json",
+  "DocumentJSON": null
+}

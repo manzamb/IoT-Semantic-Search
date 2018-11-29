@@ -1,0 +1,551 @@
+{
+  "Conceptos": [
+    "description"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "61626",
+    "title": "CSC 8223 Demo",
+    "Private": false,
+    "tags": [
+      "sensor 1",
+      "sensor 2"
+    ],
+    "description": "my description",
+    "feed": "https://api.xively.com/v2/feeds/61626.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "12/05/2012 17:06:33",
+    "created": "05/30/2012 15:49:58",
+    "creator": "https://xively.com/users/debrajde1",
+    "version": null,
+    "website": "http://sensorweb.cs.gsu.edu/",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "101",
+        "at": "12/05/2012 06:49:53",
+        "max_value": "2000.0",
+        "min_value": "0.0",
+        "tags": [
+          "node-5-lightPar"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "135",
+        "at": "12/05/2012 06:47:28",
+        "max_value": "2000.0",
+        "min_value": "0.0",
+        "tags": [
+          "node-5-lightTsr"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "92",
+        "at": "12/05/2012 06:47:29",
+        "max_value": "7287.0",
+        "min_value": "92.0",
+        "tags": [
+          "node-5-Temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "29",
+        "at": "12/05/2012 06:47:29",
+        "max_value": "906.0",
+        "min_value": "0.0",
+        "tags": [
+          "node-5-Humidity"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "0",
+        "at": "12/05/2012 06:47:30",
+        "max_value": "63.0",
+        "min_value": "0.0",
+        "tags": [
+          "node-5-Proximity"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "0",
+        "at": "12/05/2012 06:47:30",
+        "max_value": "1000.0",
+        "min_value": "0.0",
+        "tags": [
+          "node-5-Parent"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": null,
+        "at": null,
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "node-5-Hopcount"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "7",
+        "current_value": "265",
+        "at": "12/05/2012 06:47:23",
+        "max_value": "265.0",
+        "min_value": "265.0",
+        "tags": [
+          "node-5-LinkQtoParent"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "10",
+        "current_value": "119",
+        "at": "12/05/2012 06:49:53",
+        "max_value": "119.0",
+        "min_value": "0.0",
+        "tags": [
+          "node-6-lightPar"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "11",
+        "current_value": "133",
+        "at": "12/05/2012 06:47:24",
+        "max_value": "134.0",
+        "min_value": "0.0",
+        "tags": [
+          "node-6-lightTsr"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "12",
+        "current_value": "87",
+        "at": "12/05/2012 06:47:24",
+        "max_value": "7219.0",
+        "min_value": "0.0",
+        "tags": [
+          "node-6-Temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "13",
+        "current_value": "35",
+        "at": "12/05/2012 06:47:24",
+        "max_value": "960.0",
+        "min_value": "0.0",
+        "tags": [
+          "node-6-Humidity"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "14",
+        "current_value": "0",
+        "at": "12/05/2012 06:47:24",
+        "max_value": "66.0",
+        "min_value": "0.0",
+        "tags": [
+          "node-6-Proximity"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "15",
+        "current_value": "5",
+        "at": "12/05/2012 06:47:25",
+        "max_value": "5.0",
+        "min_value": "5.0",
+        "tags": [
+          "node-6-Parent"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "16",
+        "current_value": null,
+        "at": null,
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "node-6-Hopcount"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "17",
+        "current_value": "15",
+        "at": "12/05/2012 06:47:25",
+        "max_value": "15.0",
+        "min_value": "15.0",
+        "tags": [
+          "node-6-LinkQtoParent"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "20",
+        "current_value": "67",
+        "at": "12/05/2012 17:06:32",
+        "max_value": "1420.0",
+        "min_value": "0.0",
+        "tags": [
+          "node-7-lightPar"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "21",
+        "current_value": "194",
+        "at": "12/05/2012 06:47:25",
+        "max_value": "195.0",
+        "min_value": "0.0",
+        "tags": [
+          "node-7-lightTsr"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "22",
+        "current_value": "85",
+        "at": "12/05/2012 06:47:25",
+        "max_value": "7138.0",
+        "min_value": "0.0",
+        "tags": [
+          "node-7-Temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "23",
+        "current_value": "36",
+        "at": "12/05/2012 06:47:26",
+        "max_value": "969.0",
+        "min_value": "36.0",
+        "tags": [
+          "node-7-Humidity"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "24",
+        "current_value": "0",
+        "at": "12/05/2012 06:47:26",
+        "max_value": "55.0",
+        "min_value": "0.0",
+        "tags": [
+          "node-7-Proximity"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "25",
+        "current_value": "5",
+        "at": "12/05/2012 06:47:26",
+        "max_value": "5.0",
+        "min_value": "5.0",
+        "tags": [
+          "node-7-Parent"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "26",
+        "current_value": null,
+        "at": null,
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "node-7-Hopcount"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "27",
+        "current_value": "15",
+        "at": "12/05/2012 06:47:26",
+        "max_value": "15.0",
+        "min_value": "15.0",
+        "tags": [
+          "node-7-LinkQtoParent"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "30",
+        "current_value": "53",
+        "at": "12/05/2012 17:06:32",
+        "max_value": "1421.0",
+        "min_value": "0.0",
+        "tags": [
+          "node-8-lightPar"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "31",
+        "current_value": "225",
+        "at": "12/05/2012 06:47:27",
+        "max_value": "227.0",
+        "min_value": "0.0",
+        "tags": [
+          "node-8-lightTsr"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "32",
+        "current_value": "86",
+        "at": "12/05/2012 06:47:27",
+        "max_value": "7257.0",
+        "min_value": "0.0",
+        "tags": [
+          "node-8-Temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "33",
+        "current_value": "33",
+        "at": "12/05/2012 06:47:27",
+        "max_value": "782.0",
+        "min_value": "0.0",
+        "tags": [
+          "node-8-Humidity"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "34",
+        "current_value": "0",
+        "at": "12/05/2012 06:47:27",
+        "max_value": "25.0",
+        "min_value": "0.0",
+        "tags": [
+          "node-8-Proximity"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "35",
+        "current_value": "5",
+        "at": "12/05/2012 06:47:27",
+        "max_value": "7.0",
+        "min_value": "0.0",
+        "tags": [
+          "node-8-Parent"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "36",
+        "current_value": null,
+        "at": null,
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "node-8-Hopcount"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "37",
+        "current_value": "15",
+        "at": "12/05/2012 06:47:28",
+        "max_value": "15.0",
+        "min_value": "15.0",
+        "tags": [
+          "node-8-LinkQtoParent"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "GSU",
+      "domain": 0,
+      "lat": "33.753844",
+      "lon": "-84.38646",
+      "ele": "123.0",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/61626\" >CSC 8223 Demo</a>",
+    "URLMostrar": "https://xively.com/feeds/61626"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\61626.json",
+  "DocumentJSON": null
+}

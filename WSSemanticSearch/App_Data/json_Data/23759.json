@@ -1,0 +1,88 @@
+{
+  "Conceptos": [
+    "ozone"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "23759",
+    "title": "Air Quality Index: Roanoke, Virginia",
+    "Private": false,
+    "tags": [
+      "airnow:cityid=191",
+      "webscrape"
+    ],
+    "description": "Air Quality Index and pollutant data for Roanoke, Virginia webscraped from http://www.airnow.gov/. AIRNow observational data are not fully verified or validated; these data are subject to change and should be considered preliminary. If observational data are used for analyses, displayed on web pages, or used for other programs or products, the analysis results, displays, or products must indicate that these data are preliminary.",
+    "feed": "https://api.xively.com/v2/feeds/23759.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/21/2014 13:40:12",
+    "created": "04/19/2011 10:38:43",
+    "creator": "https://xively.com/users/air_now",
+    "version": null,
+    "website": "http://www.airnow.gov/",
+    "datastreams": [
+      {
+        "id": "aqi",
+        "current_value": "26",
+        "at": "03/21/2014 13:40:12",
+        "max_value": "132.0",
+        "min_value": "0.0",
+        "tags": [
+          "air quality index",
+          "pollution"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "ozone",
+        "current_value": "15",
+        "at": "03/21/2014 13:40:12",
+        "max_value": "132.0",
+        "min_value": "0.0",
+        "tags": [
+          "ozone"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "pm2.5",
+        "current_value": "26",
+        "at": "03/21/2014 13:40:12",
+        "max_value": "109.0",
+        "min_value": "0.0",
+        "tags": [
+          "PM2.5"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Roanoke, Virginia",
+      "domain": 0,
+      "lat": "37.2709704",
+      "lon": "-79.9414266",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/23759\" >Air Quality Index: Roanoke, Virginia</a>",
+    "URLMostrar": "https://xively.com/feeds/23759"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\23759.json",
+  "DocumentJSON": null
+}

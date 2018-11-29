@@ -1,0 +1,121 @@
+{
+  "Conceptos": [
+    "wind"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "41709",
+    "title": "Meteo Roanne, Weather",
+    "Private": false,
+    "tags": [
+      "precipitations",
+      "pression",
+      "temperatures",
+      "vent"
+    ],
+    "description": "Temperature  exterieure                     --  Outside t°\r\nTemperature  du sol (-20cm)              --  Ground t°\r\nVitesse du vent                                    --  Wind speed\r\nPression atmospherique                     --  Pressure\r\nPrecipitations                                       --  rainfall\r\n  ",
+    "feed": "https://api.xively.com/v2/feeds/41709.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:07:34",
+    "created": "12/11/2011 19:36:12",
+    "creator": "https://xively.com/users/domus",
+    "version": null,
+    "website": "http://pachube.com/feeds/41709/",
+    "datastreams": [
+      {
+        "id": "P_atm",
+        "current_value": "1016.17",
+        "at": "06/15/2013 08:57:23",
+        "max_value": "1060.0",
+        "min_value": "339.093333333333",
+        "tags": [
+          "Pression"
+        ],
+        "unit": {
+          "symbol": "Pression",
+          "label": "hPa",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Rain",
+        "current_value": "0",
+        "at": "03/21/2014 14:07:33",
+        "max_value": "0.2",
+        "min_value": "0.0",
+        "tags": [
+          "Precipitations"
+        ],
+        "unit": {
+          "symbol": "Pluie",
+          "label": "mm",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "T_ext",
+        "current_value": "14.9",
+        "at": "03/21/2014 14:07:32",
+        "max_value": "6502.5",
+        "min_value": "-19.0",
+        "tags": [
+          "T° exterieure"
+        ],
+        "unit": {
+          "symbol": "T°ext",
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "T_gnd",
+        "current_value": "14.7",
+        "at": "03/21/2014 14:07:32",
+        "max_value": "33.9",
+        "min_value": "0.0",
+        "tags": [
+          "T° sol (-20cm)"
+        ],
+        "unit": {
+          "symbol": "T°sol",
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Wind",
+        "current_value": "0",
+        "at": "03/21/2014 14:07:33",
+        "max_value": "82.0",
+        "min_value": "0.0",
+        "tags": [
+          "Vent"
+        ],
+        "unit": {
+          "symbol": "Vent",
+          "label": "km/h",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Roanne",
+      "domain": 0,
+      "lat": "46.0351092794734",
+      "lon": "4.08554077148438",
+      "ele": "300m",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/41709\" >Meteo Roanne, Weather</a>",
+    "URLMostrar": "https://xively.com/feeds/41709"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\41709.json",
+  "DocumentJSON": null
+}

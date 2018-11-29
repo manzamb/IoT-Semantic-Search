@@ -1,0 +1,72 @@
+{
+  "Conceptos": [
+    "humedad"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "124727",
+    "title": "Greenhouse",
+    "Private": false,
+    "tags": [
+      "Humedad",
+      "Temperature",
+      "UPPuebla"
+    ],
+    "description": "Measure the temperature and relative humidity",
+    "feed": "https://api.xively.com/v2/feeds/124727.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "05/22/2013 22:26:42",
+    "created": "04/12/2013 15:59:55",
+    "creator": "https://xively.com/users/davefb34",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "2",
+        "current_value": " 24",
+        "at": "05/22/2013 22:26:42",
+        "max_value": "58.0",
+        "min_value": "5.0",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "°",
+          "label": "celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": " 31",
+        "at": "05/22/2013 22:26:42",
+        "max_value": "89.0",
+        "min_value": "11.0",
+        "tags": [
+          "Humedad Relativa"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Universidad Politécnica de Puebla",
+      "domain": 0,
+      "lat": "19.0955782240458",
+      "lon": "-98.3676338195801",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/124727\" >Greenhouse</a>",
+    "URLMostrar": "https://xively.com/feeds/124727"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\124727.json",
+  "DocumentJSON": null
+}

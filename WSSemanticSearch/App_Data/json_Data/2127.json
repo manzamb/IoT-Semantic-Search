@@ -1,0 +1,148 @@
+{
+  "Conceptos": [
+    "thermistor"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "2127",
+    "title": "Solar Arduino Logger",
+    "Private": false,
+    "tags": null,
+    "description": "Arduino based solar meter - reading solar panel amps from Alegro ACS712's into Analog inputs 0 to 3.  Analog 4 is total system volts and input 5 is a 10k thermistor.  ",
+    "feed": "https://api.xively.com/v2/feeds/2127.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "09/25/2010 14:46:00",
+    "created": "06/19/2009 14:01:40",
+    "creator": "https://xively.com/users/jeremy_jackson",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "0.12",
+        "at": "09/25/2010 14:46:00",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "Solar Panel 1 Amps"
+        ],
+        "unit": {
+          "symbol": "A",
+          "label": "Amps",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "0.08",
+        "at": "09/25/2010 14:46:00",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "Solar Panel 2 Amps"
+        ],
+        "unit": {
+          "symbol": "A",
+          "label": "Amps",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "0",
+        "at": "09/25/2010 14:46:00",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "Solar Panel 3 Amps"
+        ],
+        "unit": {
+          "symbol": "A",
+          "label": "Amps",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "0",
+        "at": "09/25/2010 14:46:00",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "Solar Panel 4 Amps"
+        ],
+        "unit": {
+          "symbol": "A",
+          "label": "Amps",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "8.73",
+        "at": "09/25/2010 14:46:00",
+        "max_value": "30.0",
+        "min_value": "0.0",
+        "tags": [
+          "System Volts"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": "Volts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "1.7460",
+        "at": "09/25/2010 14:46:00",
+        "max_value": "35.0",
+        "min_value": "0.0",
+        "tags": [
+          "System Watts"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "71.75",
+        "at": "09/25/2010 14:46:00",
+        "max_value": "105.0",
+        "min_value": "-20.0",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "F",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Fort Wayne, IN",
+      "domain": 0,
+      "lat": "41.0204606568799",
+      "lon": "-85.1548200845718",
+      "ele": "200",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/2127\" >Solar Arduino Logger</a>",
+    "URLMostrar": "https://xively.com/feeds/2127"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\2127.json",
+  "DocumentJSON": null
+}

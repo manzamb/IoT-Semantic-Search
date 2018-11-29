@@ -1,0 +1,68 @@
+{
+  "Conceptos": [
+    "sensor output"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "2036708936",
+    "title": "Arduino Light Sensor",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/2036708936.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "05/29/2013 02:32:34",
+    "created": "05/28/2013 16:40:43",
+    "creator": "https://xively.com/users/matthewbatie",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "led",
+        "current_value": "0",
+        "at": "05/29/2013 02:32:34",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "output"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": "volts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "photocell",
+        "current_value": "913",
+        "at": "05/29/2013 02:31:39",
+        "max_value": "913.0",
+        "min_value": "913.0",
+        "tags": [
+          "Light Output"
+        ],
+        "unit": {
+          "symbol": "l",
+          "label": "lumons",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/2036708936\" >Arduino Light Sensor</a>",
+    "URLMostrar": "https://xively.com/feeds/2036708936"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\2036708936.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,92 @@
+{
+  "Conceptos": [
+    "frequency"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "1853732654",
+    "title": "CRN Freezer Temperature",
+    "Private": false,
+    "tags": null,
+    "description": "The data presented in the temperature graphs are the readings from two thermocouples in the CRN freezer that are being fed to an Arduino.\n\nIf the temperature exceeds some threshold for a certain amount of time, the \"Email_Warm_Temperature\" channel will pulse once to a magnitude of '1'. The pulse will trigger an email indicating the temperature is out of range.\nIf the temperature continues to trend out of range for a set amount of time, the \"Email_Warm_Temperature\" channel will pulse again to a magnitude of '1' and will trigger repeated emails.\nThe repeated emails will continue sending at a set frequency until the temperature returns to normal.\n\nIf the temperature has returned to normal after triggering a warning email, the \"Email_Temperature_Recovered\" channel will pulse to a magnitude of '1'. This pulse will trigger a final email indicating that the temperature has recovered.",
+    "feed": "https://api.xively.com/v2/feeds/1853732654.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:09:35",
+    "created": "12/10/2013 06:30:12",
+    "creator": "https://xively.com/users/crn_freezer",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Back_Thermocouple",
+        "current_value": "-20.50",
+        "at": "03/21/2014 14:09:35",
+        "max_value": "25.75",
+        "min_value": "-24.75",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "°C.",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Email_Temperature_Recovered",
+        "current_value": "0.00",
+        "at": "03/21/2014 14:09:35",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Email_Warm_Temperature",
+        "current_value": "0.00",
+        "at": "03/21/2014 14:09:35",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Front_Thermocouple",
+        "current_value": "-18.25",
+        "at": "03/21/2014 14:09:35",
+        "max_value": "23.5",
+        "min_value": "-25.25",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "°C.",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "High-Head ",
+      "domain": 0,
+      "lat": "49.2619991",
+      "lon": "-123.2485911",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/1853732654\" >CRN Freezer Temperature</a>",
+    "URLMostrar": "https://xively.com/feeds/1853732654"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\1853732654.json",
+  "DocumentJSON": null
+}

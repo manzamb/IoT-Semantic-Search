@@ -1,0 +1,102 @@
+{
+  "Conceptos": [
+    "goal"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "24859",
+    "title": "Copenhagen University  Mars Chamber ",
+    "Private": false,
+    "tags": [
+      "Mars Chamber Copenhagen"
+    ],
+    "description": "Chamber pressure, temperature and humidity of the\r\nJens Martin Mars Chamber JMMC\r\nRun by: Silas Boye Nissen, Asmus Koefoed & Morten Bo Madsen\r\n\r\nThe goal of the the chamber is to run various tests on minerals subject to Martian conditions.\r\nAs samples are taken in and out the pressure will rise to 1 atm.\r\n\r\nSince out baking of the camber is currently impossible the relative humidity will rise slowly as the water molecules are released from the chamber walls\r\n\r\nThe UV index value is above 60 when the chamber is flooded in UV radiation \r\n",
+    "feed": "https://api.xively.com/v2/feeds/24859.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "01/15/2013 15:50:25",
+    "created": "05/06/2011 16:37:13",
+    "creator": "https://xively.com/users/cphmars",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "2381.9",
+        "at": "01/15/2013 15:50:24",
+        "max_value": "233773265523000.0",
+        "min_value": "-13283.1",
+        "tags": [
+          "Pressure"
+        ],
+        "unit": {
+          "symbol": "Pa",
+          "label": "Pa",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "7.82",
+        "at": "01/15/2013 15:50:24",
+        "max_value": "77273495.0361",
+        "min_value": "-9.66772747034",
+        "tags": [
+          "Relative Humidity"
+        ],
+        "unit": {
+          "symbol": "%RH",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "24.0680908203",
+        "at": "01/15/2013 15:50:24",
+        "max_value": "17412141.0435",
+        "min_value": "0.0",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "54.76",
+        "at": "01/15/2013 15:50:24",
+        "max_value": "26364.3119792",
+        "min_value": "0.0",
+        "tags": [
+          "UV flux"
+        ],
+        "unit": {
+          "symbol": "Na",
+          "label": "Number",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "H.C. Ørsteds Instituttet. ",
+      "domain": 0,
+      "lat": "55.7002511628713",
+      "lon": "12.5611925125122",
+      "ele": "-2",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/24859\" >Copenhagen University  Mars Chamber </a>",
+    "URLMostrar": "https://xively.com/feeds/24859"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\24859.json",
+  "DocumentJSON": null
+}

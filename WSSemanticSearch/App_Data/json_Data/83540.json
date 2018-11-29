@@ -1,0 +1,81 @@
+{
+  "Conceptos": [
+    "physical agent"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "83540",
+    "title": "Sound Level feed",
+    "Private": false,
+    "tags": [
+      "noise",
+      "sound"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/83540.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "11/04/2012 08:07:22",
+    "created": "11/02/2012 06:33:16",
+    "creator": "https://xively.com/users/semioticagent",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "lat",
+        "current_value": "42.008796",
+        "at": "11/04/2012 08:07:22",
+        "max_value": "42.009537",
+        "min_value": "42.008537",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "lon",
+        "current_value": "-93.579466",
+        "at": "11/04/2012 08:07:22",
+        "max_value": "-93.578976",
+        "min_value": "-93.675302",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "sound_level",
+        "current_value": "-47.28645",
+        "at": "11/04/2012 08:07:22",
+        "max_value": "0.0",
+        "min_value": "-120.0",
+        "tags": null,
+        "unit": {
+          "symbol": "dB",
+          "label": "Decibel",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "42.008796",
+      "lon": "-93.579466",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/83540\" >Sound Level feed</a>",
+    "URLMostrar": "https://xively.com/feeds/83540"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\83540.json",
+  "DocumentJSON": null
+}

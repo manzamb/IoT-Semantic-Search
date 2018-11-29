@@ -1,0 +1,203 @@
+{
+  "Conceptos": [
+    "moisture"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "105805",
+    "title": "flowerPotEnviroment",
+    "Private": false,
+    "tags": [
+      "3G",
+      "arduino",
+      "battery",
+      "dht11",
+      "humidity",
+      "light",
+      "moisture",
+      "mq2",
+      "poda",
+      "soil",
+      "temperature",
+      "teplota",
+      "vlhkost"
+    ],
+    "description": "It's all about flower enviroment in/near flower pot. Now running on T-Mobile FlashOFDM router (wireless) and Arduino UNO R3/Ethernet shield. Using DHT11 sensor for temperature and humidity monitoring, and soil moisture sensor for .. clear ;-) new also photoresistor and an MQ2 sensor for lpg/propane/smoke monitoring. Planning dust sensing through DSM501A sensor. Now in testing.",
+    "feed": "https://api.xively.com/v2/feeds/105805.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "10/19/2013 14:11:30",
+    "created": "02/20/2013 13:19:08",
+    "creator": "https://xively.com/users/looserko",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Air_DewPoint",
+        "current_value": "2.78",
+        "at": "10/19/2013 14:11:30",
+        "max_value": "19.66",
+        "min_value": "-3.73",
+        "tags": [
+          "dew point",
+          "rosny bod"
+        ],
+        "unit": {
+          "symbol": "oC",
+          "label": "oC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Air_Humidity",
+        "current_value": "34.00",
+        "at": "10/19/2013 14:11:30",
+        "max_value": "77.0",
+        "min_value": "26.0",
+        "tags": [
+          "dht11",
+          "humidity",
+          "relative humidity",
+          "relativna",
+          "vlhkost"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Air_Temp",
+        "current_value": "19.00",
+        "at": "10/19/2013 14:11:30",
+        "max_value": "32.0",
+        "min_value": "13.0",
+        "tags": [
+          "air temperature",
+          "dht11",
+          "temperature",
+          "teplota",
+          "vzduch"
+        ],
+        "unit": {
+          "symbol": "oC",
+          "label": "oC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Light_Sensor",
+        "current_value": "826.00",
+        "at": "10/19/2013 14:11:30",
+        "max_value": "949.0",
+        "min_value": "0.0",
+        "tags": [
+          "light",
+          "photoresistor"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "MQ2_Gas_Sensor",
+        "current_value": "372.00",
+        "at": "10/19/2013 14:11:30",
+        "max_value": "1007.0",
+        "min_value": "280.0",
+        "tags": [
+          "CO",
+          "LPG",
+          "MQ2",
+          "smoke"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Soil_Moisture",
+        "current_value": "257.00",
+        "at": "10/19/2013 14:11:30",
+        "max_value": "838.0",
+        "min_value": "0.0",
+        "tags": [
+          "metallic",
+          "moisture",
+          "poda",
+          "resistance",
+          "soil",
+          "soil moisture",
+          "vlhkost"
+        ],
+        "unit": {
+          "symbol": "o/oo",
+          "label": "x/1024",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Soil_Moisture_Average",
+        "current_value": "320.00",
+        "at": "10/19/2013 14:11:30",
+        "max_value": "731.0",
+        "min_value": "0.0",
+        "tags": [
+          "Average"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Soil_Moisture_NRF24L01",
+        "current_value": "0.00",
+        "at": "10/19/2013 14:11:30",
+        "max_value": "989.0",
+        "min_value": "-1.0",
+        "tags": [
+          "arduino",
+          "battery",
+          "nano",
+          "nrf24l01",
+          "resistance",
+          "solar",
+          "wireless"
+        ],
+        "unit": {
+          "symbol": "o/oo",
+          "label": "x/1024",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "ConcreteForrest",
+      "domain": 1,
+      "lat": "48.1179755591023",
+      "lon": "17.127857208252",
+      "ele": "120",
+      "exposure": 0,
+      "disposition": 1
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/105805\" >flowerPotEnviroment</a>",
+    "URLMostrar": "https://xively.com/feeds/105805"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\105805.json",
+  "DocumentJSON": null
+}

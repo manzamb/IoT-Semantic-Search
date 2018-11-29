@@ -1,0 +1,151 @@
+{
+  "Conceptos": [
+    "system"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "117014",
+    "title": "DEV",
+    "Private": false,
+    "tags": [
+      "ping",
+      "rtt"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/117014.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:11:02",
+    "created": "03/04/2013 13:33:38",
+    "creator": "https://xively.com/users/9dof",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "extStore",
+        "current_value": "142",
+        "at": "03/21/2014 14:11:02",
+        "max_value": "6144.0",
+        "min_value": "142.0",
+        "tags": [
+          "external storage"
+        ],
+        "unit": {
+          "symbol": "MB",
+          "label": "MB",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "pktloss",
+        "current_value": "0",
+        "at": "03/21/2014 14:10:05",
+        "max_value": "100.0",
+        "min_value": "0.0",
+        "tags": [
+          "packet loss"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "rh",
+        "current_value": "50.50",
+        "at": "12/27/2013 03:19:01",
+        "max_value": "57.0",
+        "min_value": "0.0",
+        "tags": [
+          "rh"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "rtt",
+        "current_value": "41.578",
+        "at": "03/21/2014 14:10:05",
+        "max_value": "5121.792",
+        "min_value": "34.725",
+        "tags": [
+          "rtt"
+        ],
+        "unit": {
+          "symbol": "ms",
+          "label": "ms",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "sysStore",
+        "current_value": "4300.8",
+        "at": "03/21/2014 14:11:02",
+        "max_value": "4608.0",
+        "min_value": "0.0",
+        "tags": [
+          "system storage"
+        ],
+        "unit": {
+          "symbol": "MB",
+          "label": "MB",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "t0",
+        "current_value": "26.60",
+        "at": "12/27/2013 03:19:03",
+        "max_value": "255.0",
+        "min_value": "0.0",
+        "tags": [
+          "temp"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "t1",
+        "current_value": "28.06",
+        "at": "12/27/2013 03:19:04",
+        "max_value": "85.0",
+        "min_value": "0.0",
+        "tags": [
+          "temp"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "13.7806519434497",
+      "lon": "100.510214567184",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/117014\" >DEV</a>",
+    "URLMostrar": "https://xively.com/feeds/117014"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\117014.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,92 @@
+{
+  "Conceptos": [
+    "pst"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "107080",
+    "title": "Hamster Tracker",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "distance",
+      "hamster",
+      "rpm"
+    ],
+    "description": "What does an unemployed engineer do for a project with the kids?. A micro controller and hall effect sensor setup to track how far the kids pet hamster travels on the hamster wheel each night.",
+    "feed": "https://api.xively.com/v2/feeds/107080.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "04/25/2013 16:54:35",
+    "created": "02/26/2013 17:14:45",
+    "creator": "https://xively.com/users/dleroy",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "laps",
+        "current_value": "0",
+        "at": "04/25/2013 16:54:33",
+        "max_value": "291.0",
+        "min_value": "0.0",
+        "tags": [
+          "hamster",
+          "laps"
+        ],
+        "unit": {
+          "symbol": "laps",
+          "label": "laps",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "miles",
+        "current_value": "9.70",
+        "at": "04/25/2013 16:54:33",
+        "max_value": "9.7",
+        "min_value": "0.0",
+        "tags": [
+          "hampster",
+          "miles"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "timestamps",
+        "current_value": "0",
+        "at": "04/25/2013 16:54:33",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "hampster",
+          "timestamp"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Home",
+      "domain": 0,
+      "lat": "37.3177518516369",
+      "lon": "-121.904296875",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/107080\" >Hamster Tracker</a>",
+    "URLMostrar": "https://xively.com/feeds/107080"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\107080.json",
+  "DocumentJSON": null
+}

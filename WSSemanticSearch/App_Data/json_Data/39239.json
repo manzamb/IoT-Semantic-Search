@@ -1,0 +1,54 @@
+{
+  "Conceptos": [
+    "mp10"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "39239",
+    "title": "housetemp",
+    "Private": false,
+    "tags": [
+      "temperature   arduino  wifly  webclient"
+    ],
+    "description": "Temperature sensor TMP102 is I2C connected to an arduino board. It lays down in a bedroom and sends data wirelessly (Wifi) to the router Linksys/Cisco located in a livingroom. A SMS is triggered to a CELLphone every time temperature goes higher than 28C degree (just for fun!). Arduino is 32kbytes, 16MHz powerful!!!! Arduino code is downloaded to work as Web client performing PUT request to PACHUBE. As seen in the \"rvtemp\" datastream (dot's line) it has been shutdowned because arduino may get unexpected replies from the cloud. Computer's browsers usually perform checkupdown to get more reliability connecting through internet. In a 32kbytes core, pacing watchdog may keep it up while working around connections problems.  Next step: light and electricity monitoring and door sensor! There is another temperature sensor RF connected to arduino, i will plug it in ASAP. ",
+    "feed": "https://api.xively.com/v2/feeds/39239.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "01/10/2012 02:13:55",
+    "created": "11/11/2011 04:15:34",
+    "creator": "https://xively.com/users/edsonvend",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "rvtemp",
+        "current_value": "00.00",
+        "at": "01/10/2012 02:13:55",
+        "max_value": "99999.0",
+        "min_value": "0.0",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "Celsius",
+          "label": "graus",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "ames, iowa",
+      "domain": 0,
+      "lat": "41.8695608269946",
+      "lon": "-93.603515625",
+      "ele": "10",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/39239\" >housetemp</a>",
+    "URLMostrar": "https://xively.com/feeds/39239"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\39239.json",
+  "DocumentJSON": null
+}

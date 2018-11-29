@@ -1,0 +1,109 @@
+{
+  "Conceptos": [
+    "event"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "58529",
+    "title": "Weather",
+    "Private": false,
+    "tags": [
+      "fahrenheit",
+      "rainfall",
+      "temperature",
+      "wind speed"
+    ],
+    "description": "Connecting from Arduino with WiFi. Will eventually be weather data  like temperature and wind speed.",
+    "feed": "https://api.xively.com/v2/feeds/58529.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:12:28",
+    "created": "05/07/2012 23:06:59",
+    "creator": "https://xively.com/users/chiefrobot",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "0.00",
+        "at": "03/21/2014 14:12:28",
+        "max_value": "1.15",
+        "min_value": "0.0",
+        "tags": [
+          "rain",
+          "rainfall"
+        ],
+        "unit": {
+          "symbol": "Inch/24hr",
+          "label": "iph",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "3",
+        "at": "03/21/2014 14:12:28",
+        "max_value": "44.0",
+        "min_value": "0.0",
+        "tags": [
+          "speed",
+          "wind"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "mph",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "6",
+        "at": "03/21/2014 14:12:28",
+        "max_value": "8.0",
+        "min_value": "1.0",
+        "tags": [
+          "direction",
+          "wind"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "3=N",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "41",
+        "at": "03/21/2014 14:12:28",
+        "max_value": "7404.0",
+        "min_value": "11.0",
+        "tags": [
+          "temp",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "F",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Medford",
+      "domain": 0,
+      "lat": "42.4120509631092",
+      "lon": "-71.110897064209",
+      "ele": "50 feet",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/58529\" >Weather</a>",
+    "URLMostrar": "https://xively.com/feeds/58529"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\58529.json",
+  "DocumentJSON": null
+}

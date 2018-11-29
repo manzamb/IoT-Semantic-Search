@@ -1,0 +1,140 @@
+{
+  "Conceptos": [
+    "physical"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "460494147",
+    "title": "Consumptions",
+    "Private": false,
+    "tags": null,
+    "description": "Power consumptions",
+    "feed": "https://api.xively.com/v2/feeds/460494147.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/21/2014 07:39:05",
+    "created": "10/03/2013 21:09:31",
+    "creator": "https://xively.com/users/pepoli",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Cost_rate",
+        "current_value": "109.67",
+        "at": "03/21/2014 07:39:05",
+        "max_value": "704729.06",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "€/y",
+          "label": "Euro/year",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Current",
+        "current_value": "0.31",
+        "at": "03/21/2014 07:39:05",
+        "max_value": "24.05",
+        "min_value": "-0.01",
+        "tags": [
+          "Current"
+        ],
+        "unit": {
+          "symbol": "A",
+          "label": "Ampere",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Current_fine",
+        "current_value": "0.39",
+        "at": "03/21/2014 07:39:05",
+        "max_value": "13.68",
+        "min_value": "-0.01",
+        "tags": null,
+        "unit": {
+          "symbol": "A",
+          "label": "Ampere",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Power",
+        "current_value": "70.73",
+        "at": "03/21/2014 07:39:05",
+        "max_value": "3809.2",
+        "min_value": "-0.63",
+        "tags": [
+          "Power"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watt",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Transmitting_power",
+        "current_value": "0.00",
+        "at": "03/21/2014 07:39:05",
+        "max_value": "10.0",
+        "min_value": "-96.0",
+        "tags": null,
+        "unit": {
+          "symbol": "dB",
+          "label": "Decibels",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Voltage",
+        "current_value": "229.73",
+        "at": "03/21/2014 07:39:05",
+        "max_value": "875.0",
+        "min_value": "0.0",
+        "tags": [
+          "Voltage"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": "Volt",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Voltage_bias",
+        "current_value": "0.00",
+        "at": "03/21/2014 07:39:05",
+        "max_value": "4.8",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "V",
+          "label": "Volt",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Villa Adriana",
+      "domain": 0,
+      "lat": "41.9564264146142",
+      "lon": "12.7738380432129",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/460494147\" >Consumptions</a>",
+    "URLMostrar": "https://xively.com/feeds/460494147"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\460494147.json",
+  "DocumentJSON": null
+}

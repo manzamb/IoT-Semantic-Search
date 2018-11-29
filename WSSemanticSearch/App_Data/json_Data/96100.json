@@ -1,0 +1,130 @@
+{
+  "Conceptos": [
+    "person"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "96100",
+    "title": "orx57-florange indoor",
+    "Private": false,
+    "tags": [
+      "air quality",
+      "netatmo",
+      "weather"
+    ],
+    "description": "Measures of a personal weather station (Netatmo).",
+    "feed": "https://api.xively.com/v2/feeds/96100.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:00:08",
+    "created": "01/04/2013 21:10:04",
+    "creator": "https://xively.com/users/orx57",
+    "version": null,
+    "website": "http://wiki.raggi.fr/meteo/netatmo",
+    "datastreams": [
+      {
+        "id": "CO2",
+        "current_value": "910",
+        "at": "03/21/2014 14:00:08",
+        "max_value": "4198.0",
+        "min_value": "0.0",
+        "tags": [
+          "CO2",
+          "netatmo",
+          "weather"
+        ],
+        "unit": {
+          "symbol": "ppm",
+          "label": "Parts-per-million",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Humidity",
+        "current_value": "54",
+        "at": "03/21/2014 14:00:08",
+        "max_value": "77.0",
+        "min_value": "30.0",
+        "tags": [
+          "humidity",
+          "netatmo",
+          "weather"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "Percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Noise",
+        "current_value": "53",
+        "at": "03/21/2014 14:00:08",
+        "max_value": "86.0",
+        "min_value": "0.0",
+        "tags": [
+          "netatmo",
+          "noise",
+          "weather"
+        ],
+        "unit": {
+          "symbol": "db",
+          "label": "Decibel",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Pressure",
+        "current_value": "1013",
+        "at": "03/21/2014 14:00:08",
+        "max_value": "1037.0",
+        "min_value": "989.1",
+        "tags": [
+          "netatmo",
+          "pressure",
+          "weather"
+        ],
+        "unit": {
+          "symbol": "mb",
+          "label": "Millibar",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperature",
+        "current_value": "20.7",
+        "at": "03/21/2014 14:00:08",
+        "max_value": "28.9",
+        "min_value": "17.8",
+        "tags": [
+          "netatmo",
+          "temperature",
+          "weather"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Florange, 57, France",
+      "domain": 0,
+      "lat": "49.322437",
+      "lon": "6.11193900000001",
+      "ele": "172",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/96100\" >orx57-florange indoor</a>",
+    "URLMostrar": "https://xively.com/feeds/96100"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\96100.json",
+  "DocumentJSON": null
+}

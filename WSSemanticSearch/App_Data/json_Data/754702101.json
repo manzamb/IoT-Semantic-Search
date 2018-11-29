@@ -1,0 +1,172 @@
+{
+  "Conceptos": [
+    "observation"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "754702101",
+    "title": "BUCL Weather Station Network",
+    "Private": false,
+    "tags": [
+      "BUCL",
+      "L1V3",
+      "observations:height=3m",
+      "observations:logger=CampbellScientific_CR800_or_CR1000",
+      "observations:sensor=Vaisala_WXT520",
+      "observations:solar=Skye_Instruments_SKS1110",
+      "project:id=distance_iot"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/754702101.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/21/2014 13:14:39",
+    "created": "10/17/2013 13:41:27",
+    "creator": "https://xively.com/users/iostp",
+    "version": null,
+    "website": "http://www.bucl.org.uk",
+    "datastreams": [
+      {
+        "id": "Air_Pressure",
+        "current_value": "1003.9",
+        "at": "03/21/2014 13:14:37",
+        "max_value": "1041.3",
+        "min_value": "852.5",
+        "tags": [
+          "Air Pressure"
+        ],
+        "unit": {
+          "symbol": "hPa",
+          "label": "hectopascal",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Air_Temperature",
+        "current_value": "10.6",
+        "at": "03/21/2014 13:14:37",
+        "max_value": "17.5",
+        "min_value": "-64.3",
+        "tags": [
+          "Air Temperature"
+        ],
+        "unit": {
+          "symbol": "Cel",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Rainfall_Total",
+        "current_value": "5.4",
+        "at": "03/21/2014 13:14:39",
+        "max_value": "10.5",
+        "min_value": "-998.2",
+        "tags": [
+          "Rainfall Total"
+        ],
+        "unit": {
+          "symbol": "mm",
+          "label": "millimeters",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Relative_Humidity",
+        "current_value": "55.1",
+        "at": "03/21/2014 13:14:37",
+        "max_value": "93.3",
+        "min_value": "-7.4",
+        "tags": [
+          "Relative Humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "percent Relative Humidity",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Solar_Radiation",
+        "current_value": "662.4",
+        "at": "03/21/2014 13:14:37",
+        "max_value": "694.8",
+        "min_value": "-69.8",
+        "tags": [
+          "Solar Radiation"
+        ],
+        "unit": {
+          "symbol": "W/m^2",
+          "label": "Watts per square metre",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Wind_Direction",
+        "current_value": "203",
+        "at": "03/21/2014 13:14:39",
+        "max_value": "359.0",
+        "min_value": "0.0",
+        "tags": [
+          "Wind Direction"
+        ],
+        "unit": {
+          "symbol": "Deg",
+          "label": "Degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Wind_Gust",
+        "current_value": "8.0",
+        "at": "03/21/2014 13:14:39",
+        "max_value": "19.2",
+        "min_value": "-999.0",
+        "tags": [
+          "Wind Gust"
+        ],
+        "unit": {
+          "symbol": "m/s",
+          "label": "meters per second",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Wind_Speed",
+        "current_value": "0.1",
+        "at": "03/21/2014 13:14:39",
+        "max_value": "66.7",
+        "min_value": "0.0",
+        "tags": [
+          "Wind Speed"
+        ],
+        "unit": {
+          "symbol": "m/s",
+          "label": "meters per second",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "University of Birmingham W026",
+      "domain": 0,
+      "lat": "52.456",
+      "lon": "-1.927",
+      "ele": "140",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/754702101\" >BUCL Weather Station Network</a>",
+    "URLMostrar": "https://xively.com/feeds/754702101"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\754702101.json",
+  "DocumentJSON": null
+}

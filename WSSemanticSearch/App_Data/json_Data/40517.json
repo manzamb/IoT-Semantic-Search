@@ -1,0 +1,87 @@
+{
+  "Conceptos": [
+    "humidity"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "40517",
+    "title": "Amelia's Environment",
+    "Private": false,
+    "tags": [
+      "Clifton Hill",
+      "Weather"
+    ],
+    "description": "Amelia's USB Weather Board",
+    "feed": "https://api.xively.com/v2/feeds/40517.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "01/08/2014 07:59:02",
+    "created": "11/26/2011 22:41:06",
+    "creator": "https://xively.com/users/iepwong",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "0.0",
+        "at": "01/08/2014 07:59:02",
+        "max_value": "19.3",
+        "min_value": "0.0",
+        "tags": [
+          "light level"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "21.0",
+        "at": "01/08/2014 07:59:02",
+        "max_value": "25.9",
+        "min_value": "15.4",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "62.0",
+        "at": "07/15/2013 11:35:08",
+        "max_value": "76.0",
+        "min_value": "33.0",
+        "tags": [
+          "humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Clifton Hill, Victoria, Australia",
+      "domain": 0,
+      "lat": "-37.7872504559421",
+      "lon": "144.996979236603",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/40517\" >Amelia's Environment</a>",
+    "URLMostrar": "https://xively.com/feeds/40517"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\40517.json",
+  "DocumentJSON": null
+}

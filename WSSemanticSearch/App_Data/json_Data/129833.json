@@ -1,0 +1,223 @@
+{
+  "Conceptos": [
+    "temperature"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "129833",
+    "title": "House Sensors",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "Jeenode",
+      "RPi",
+      "temperature"
+    ],
+    "description": "Jeenode-style sensors--> JeeLink--> RaspberryPi--> Python/EEML--> Cosm",
+    "feed": "https://api.xively.com/v2/feeds/129833.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:09:35",
+    "created": "05/06/2013 15:21:11",
+    "creator": "https://xively.com/users/firesign",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "G_Carbon_Monoxide",
+        "current_value": "24",
+        "at": "03/21/2014 14:09:34",
+        "max_value": "224.0",
+        "min_value": "24.0",
+        "tags": null,
+        "unit": {
+          "symbol": "/1024",
+          "label": "/1024",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "G_Door",
+        "current_value": "0",
+        "at": "03/21/2014 14:09:34",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "binary",
+          "label": "binary",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "G_Humidity",
+        "current_value": "55.0",
+        "at": "03/21/2014 14:09:34",
+        "max_value": "88.6",
+        "min_value": "25.7",
+        "tags": null,
+        "unit": {
+          "symbol": "RH",
+          "label": "percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "G_Temp",
+        "current_value": "9.7",
+        "at": "03/21/2014 14:09:34",
+        "max_value": "25.9",
+        "min_value": "-16.9",
+        "tags": null,
+        "unit": {
+          "symbol": "C",
+          "label": "celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "G_Wormbox_Humidity",
+        "current_value": "81.4",
+        "at": "03/21/2014 14:09:34",
+        "max_value": "99.9",
+        "min_value": "26.4",
+        "tags": null,
+        "unit": {
+          "symbol": "RH",
+          "label": "percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "G_Wormbox_Temp",
+        "current_value": "8.6",
+        "at": "03/21/2014 14:09:34",
+        "max_value": "30.5",
+        "min_value": "-6.3",
+        "tags": null,
+        "unit": {
+          "symbol": "C",
+          "label": "celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "In-Law_Suite",
+        "current_value": "19.1",
+        "at": "03/21/2014 14:09:35",
+        "max_value": "152.8",
+        "min_value": "12.53",
+        "tags": null,
+        "unit": {
+          "symbol": "C",
+          "label": "celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "MBL_Room",
+        "current_value": "18.48",
+        "at": "03/21/2014 14:09:19",
+        "max_value": "30.4",
+        "min_value": "14.9",
+        "tags": null,
+        "unit": {
+          "symbol": "C",
+          "label": "celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Pantry",
+        "current_value": "15.18",
+        "at": "03/21/2014 14:08:43",
+        "max_value": "28.65",
+        "min_value": "11.38",
+        "tags": null,
+        "unit": {
+          "symbol": "C",
+          "label": "celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Remote_Batt_Temp",
+        "current_value": "37.31",
+        "at": "03/21/2014 14:09:26",
+        "max_value": "655.3",
+        "min_value": "0.06",
+        "tags": null,
+        "unit": {
+          "symbol": "C",
+          "label": "celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Remote_Batt_V",
+        "current_value": "4.38",
+        "at": "03/21/2014 14:09:26",
+        "max_value": "6.11",
+        "min_value": "3.26",
+        "tags": null,
+        "unit": {
+          "symbol": "V",
+          "label": "volts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Remote_Humidity",
+        "current_value": "15.3",
+        "at": "03/21/2014 14:09:26",
+        "max_value": "99.9",
+        "min_value": "-0.1",
+        "tags": null,
+        "unit": {
+          "symbol": "RH",
+          "label": "percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Remote_Temp",
+        "current_value": "12.6",
+        "at": "03/21/2014 14:09:26",
+        "max_value": "36.4",
+        "min_value": "-21.0",
+        "tags": null,
+        "unit": {
+          "symbol": "C",
+          "label": "celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "44.6640440611129",
+      "lon": "-63.6459445953369",
+      "ele": "70 m",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/129833\" >House Sensors</a>",
+    "URLMostrar": "https://xively.com/feeds/129833"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\129833.json",
+  "DocumentJSON": null
+}

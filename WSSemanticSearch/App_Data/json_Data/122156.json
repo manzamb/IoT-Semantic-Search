@@ -1,0 +1,100 @@
+{
+  "Conceptos": [
+    "sensing"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "122156",
+    "title": "cinvestav_potencia_1",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "energy",
+      "investigation",
+      "power",
+      "sensing",
+      "solar",
+      "stand-alone"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/122156.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "02/18/2014 21:46:21",
+    "created": "04/02/2013 08:57:09",
+    "creator": "https://xively.com/users/r2x7",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "CorrienteAC",
+        "current_value": "-0.19",
+        "at": "02/18/2014 21:46:18",
+        "max_value": "10.34",
+        "min_value": "-2.97",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "CorrienteDC",
+        "current_value": "0.00",
+        "at": "02/18/2014 21:46:18",
+        "max_value": "38.75",
+        "min_value": "-2.7",
+        "tags": null,
+        "unit": {
+          "symbol": "A",
+          "label": "Amperes",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "VoltajeAC",
+        "current_value": "219.35",
+        "at": "02/18/2014 21:46:18",
+        "max_value": "233.8",
+        "min_value": "0.97",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "VoltajeDC",
+        "current_value": "0.00",
+        "at": "02/18/2014 21:46:18",
+        "max_value": "291.56",
+        "min_value": "-2.64",
+        "tags": null,
+        "unit": {
+          "symbol": "V",
+          "label": "Volts",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Centro de Investigación y de Estudios Avanzados del Instituto Politécnico Nacional unidad Guadalajara",
+      "domain": 0,
+      "lat": "20.6670391504173",
+      "lon": "-103.464560508728",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/122156\" >cinvestav_potencia_1</a>",
+    "URLMostrar": "https://xively.com/feeds/122156"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\122156.json",
+  "DocumentJSON": null
+}

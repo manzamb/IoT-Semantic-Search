@@ -1,0 +1,140 @@
+{
+  "Conceptos": [
+    "calidad del aire"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "80276",
+    "title": "Burgos (Estación 4)",
+    "Private": false,
+    "tags": [
+      "air quality",
+      "burgos",
+      "calidad del aire",
+      "españa",
+      "salud",
+      "spain"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/80276.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/21/2014 12:00:00",
+    "created": "10/14/2012 10:09:18",
+    "creator": "https://xively.com/users/eduardop",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "NO",
+        "current_value": "1",
+        "at": "03/21/2014 12:00:00",
+        "max_value": "322.0",
+        "min_value": "0.0",
+        "tags": [
+          "lluvia ácida",
+          "Monóxido de nitrógeno"
+        ],
+        "unit": {
+          "symbol": "ug/m3",
+          "label": "microgramos por metro cúbico",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "NO2",
+        "current_value": "5",
+        "at": "03/21/2014 12:00:00",
+        "max_value": "120.0",
+        "min_value": "0.0",
+        "tags": [
+          "Dióxido de nitrógeno"
+        ],
+        "unit": {
+          "symbol": "ug/m3",
+          "label": "microgramos por metro cúbico",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "O3",
+        "current_value": "76",
+        "at": "03/21/2014 12:00:00",
+        "max_value": "169.0",
+        "min_value": "0.0",
+        "tags": [
+          "Ozono"
+        ],
+        "unit": {
+          "symbol": "ug/m3",
+          "label": "microgramos por metro cúbico",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "PM10",
+        "current_value": "32",
+        "at": "03/21/2014 12:00:00",
+        "max_value": "995.0",
+        "min_value": "0.0",
+        "tags": [
+          "Partículas 10 micrómetros"
+        ],
+        "unit": {
+          "symbol": "ug/m3",
+          "label": "microgramos por metro cúbico",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "PM25",
+        "current_value": "13",
+        "at": "03/21/2014 12:00:00",
+        "max_value": "976.0",
+        "min_value": "0.0",
+        "tags": [
+          "Partículas 2.5 micrómetros"
+        ],
+        "unit": {
+          "symbol": "ug/m3",
+          "label": "microgramos por metro cúbico",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "SO2",
+        "current_value": "4",
+        "at": "03/21/2014 12:00:00",
+        "max_value": "161.0",
+        "min_value": "0.0",
+        "tags": [
+          "Dióxido de azufre"
+        ],
+        "unit": {
+          "symbol": "ug/m3",
+          "label": "microgramos por metro cúbico",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Burgos, Spain",
+      "domain": 0,
+      "lat": "42.3364050466967",
+      "lon": "-3.6350154876709",
+      "ele": "856",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/80276\" >Burgos (Estación 4)</a>",
+    "URLMostrar": "https://xively.com/feeds/80276"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\80276.json",
+  "DocumentJSON": null
+}

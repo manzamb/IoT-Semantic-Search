@@ -1,0 +1,246 @@
+{
+  "Conceptos": [
+    "description"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "12327",
+    "title": "Heating Test",
+    "Private": false,
+    "tags": [
+      "heating can"
+    ],
+    "description": "No description yet...\r\n",
+    "feed": "https://api.xively.com/v2/feeds/12327.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/22/2013 07:09:17",
+    "created": "11/04/2010 15:56:01",
+    "creator": "https://xively.com/users/jsl123",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "flow_act",
+        "current_value": "0.0",
+        "at": "03/22/2013 07:09:16",
+        "max_value": "85.5",
+        "min_value": "0.0",
+        "tags": [
+          "temperature flow actual"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "flow_setp",
+        "current_value": "0.0",
+        "at": "03/22/2013 07:09:16",
+        "max_value": "58.0",
+        "min_value": "0.0",
+        "tags": [
+          "temperature flow setpoint"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "water_act",
+        "current_value": "0.0",
+        "at": "03/22/2013 07:09:16",
+        "max_value": "60.0",
+        "min_value": "0.0",
+        "tags": [
+          "temperature warm_water actual"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "water_setp",
+        "current_value": "0.0",
+        "at": "03/22/2013 07:09:16",
+        "max_value": "56.0",
+        "min_value": "0.0",
+        "tags": [
+          "temperature warm_water setpoint"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "outd_temp",
+        "current_value": "0.0",
+        "at": "03/22/2013 07:09:16",
+        "max_value": "15.7",
+        "min_value": "-7.6",
+        "tags": [
+          "temperature outdoor actual"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "blower",
+        "current_value": "0",
+        "at": "03/22/2013 07:09:16",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "blower state actual"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Binary",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "circ_pump",
+        "current_value": "0",
+        "at": "03/22/2013 07:09:16",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "circuit_pump state actual"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Binary",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "storage_loading",
+        "current_value": "0",
+        "at": "03/22/2013 07:09:16",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "storage_loading state actual"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Binary",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "unknown_20d",
+        "current_value": "0",
+        "at": "03/22/2013 07:09:16",
+        "max_value": "25.0",
+        "min_value": "0.0",
+        "tags": [
+          "unknown_value"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "unknown",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "unknown_208",
+        "current_value": "0",
+        "at": "03/22/2013 07:09:16",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "unknown_value"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "unknown",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "unknown_250",
+        "current_value": "0",
+        "at": "03/22/2013 07:09:16",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "unknown_value"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "unknown",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "unknown_254",
+        "current_value": null,
+        "at": "09/28/2012 06:31:41",
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "unknown_value"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "unknown",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "unknown_258",
+        "current_value": null,
+        "at": "09/28/2012 06:31:41",
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "unknown_value"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "unknown",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "home",
+      "domain": 0,
+      "lat": "51.747311980122",
+      "lon": "7.17621803283691",
+      "ele": "54",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/12327\" >Heating Test</a>",
+    "URLMostrar": "https://xively.com/feeds/12327"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\12327.json",
+  "DocumentJSON": null
+}

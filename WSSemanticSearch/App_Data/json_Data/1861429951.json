@@ -1,0 +1,141 @@
+{
+  "Conceptos": [
+    "parameter"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "1861429951",
+    "title": "ECO-BUOY LAKE OF ROMENA (Compiobbi, Firenze, Italy)",
+    "Private": false,
+    "tags": [
+      "Arduino",
+      "Atlas Scientific",
+      "fish",
+      "Garmin",
+      "lake",
+      "water quality"
+    ],
+    "description": "Multi parameter buoy for monitoring water quality parameters of lakes: pH, dissolved oxygen, conductivity, temperature, depth. The buoy is on-line via a GSM-GPRS Shield on an Arduino Mega. A solar panel and a 5 Ah - 12 V battery provide the necessary energy for the buoy working.",
+    "feed": "https://api.xively.com/v2/feeds/1861429951.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/21/2014 11:55:45",
+    "created": "10/02/2013 15:23:39",
+    "creator": "https://xively.com/users/sebastian1967",
+    "version": null,
+    "website": "http://www.aquaterra.it",
+    "datastreams": [
+      {
+        "id": "Conductivity",
+        "current_value": "82.0",
+        "at": "03/21/2014 11:55:45",
+        "max_value": "2079.0",
+        "min_value": "0.0",
+        "tags": [
+          "Atlas Scientific",
+          "conductivity"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "microS",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Depth",
+        "current_value": "4.5",
+        "at": "03/21/2014 11:55:45",
+        "max_value": "96.0",
+        "min_value": "0.0",
+        "tags": [
+          "depth",
+          "Garmin",
+          "transducer"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "m",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Dissolved_Oxygen",
+        "current_value": "19.4",
+        "at": "03/21/2014 11:55:45",
+        "max_value": "161.9",
+        "min_value": "0.0",
+        "tags": [
+          "Atlas Scientific",
+          "dissolved oxygen",
+          "DO"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "ppm",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "pH",
+        "current_value": "0.0",
+        "at": "03/21/2014 11:55:45",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperature",
+        "current_value": "15.3",
+        "at": "03/21/2014 11:55:45",
+        "max_value": "85.0",
+        "min_value": "-127.0",
+        "tags": [
+          "one wire",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Volume",
+        "current_value": "22817.0",
+        "at": "03/21/2014 11:55:45",
+        "max_value": "894024.9",
+        "min_value": "-501.2",
+        "tags": null,
+        "unit": {
+          "symbol": "m3",
+          "label": "cubic meters",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Fishing lake of Romena, Compiobbi, Florence, Italy",
+      "domain": 0,
+      "lat": "43.7883724825352",
+      "lon": "11.3504906083984",
+      "ele": "155 meters a.s.l.",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/1861429951\" >ECO-BUOY LAKE OF ROMENA (Compiobbi, Firenze, Italy)</a>",
+    "URLMostrar": "https://xively.com/feeds/1861429951"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\1861429951.json",
+  "DocumentJSON": null
+}

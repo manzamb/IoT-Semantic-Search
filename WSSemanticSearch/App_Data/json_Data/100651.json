@@ -1,0 +1,200 @@
+{
+  "Conceptos": [
+    "humedad"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "100651",
+    "title": "Estacion Meteorologica Arjona (Jaén)",
+    "Private": false,
+    "tags": [
+      "Arduino",
+      "Arjona",
+      "estacion",
+      "humedad",
+      "lluvia",
+      "meteorologica",
+      "presion",
+      "temperatura",
+      "viento"
+    ],
+    "description": "Datos estacion meteorologica situada en Arjona (Jaen)",
+    "feed": "https://api.xively.com/v2/feeds/100651.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:06:48",
+    "created": "01/27/2013 08:48:17",
+    "creator": "https://xively.com/users/bujiero_1",
+    "version": null,
+    "website": "http://meteoarjona.eshost.es/",
+    "datastreams": [
+      {
+        "id": "A_Temperatura",
+        "current_value": "24.51",
+        "at": "03/21/2014 14:06:48",
+        "max_value": "44.71",
+        "min_value": "2.52",
+        "tags": null,
+        "unit": {
+          "symbol": "ºC",
+          "label": "grados",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "B_Humedad",
+        "current_value": "41.86",
+        "at": "03/21/2014 14:06:48",
+        "max_value": "100.14",
+        "min_value": "11.38",
+        "tags": null,
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "C_Presion",
+        "current_value": "1016.96",
+        "at": "03/21/2014 14:06:48",
+        "max_value": "1028.6",
+        "min_value": "990.04",
+        "tags": null,
+        "unit": {
+          "symbol": "mbar",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "D_Direccion",
+        "current_value": "OESTE   ",
+        "at": "03/21/2014 14:06:48",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "D_Direccion_Grados",
+        "current_value": "270.00",
+        "at": "03/21/2014 14:06:48",
+        "max_value": "315.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "º",
+          "label": "Grados",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "E_Viento_Rafaga",
+        "current_value": "0.00",
+        "at": "03/21/2014 14:06:48",
+        "max_value": "48.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "k/h",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "F_Viento_Media",
+        "current_value": "0.00",
+        "at": "03/21/2014 14:06:48",
+        "max_value": "19.9",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "k/h",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "G_Lluvia_Hoy",
+        "current_value": "0.00",
+        "at": "03/21/2014 14:06:48",
+        "max_value": "41.1",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "lts/m2",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "G_Lluvia_Hoy_Hora",
+        "current_value": "0.00",
+        "at": "03/21/2014 14:06:48",
+        "max_value": "37.5",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "lts/m2",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "H_Lluvia_Mes",
+        "current_value": "23.10",
+        "at": "03/21/2014 14:06:48",
+        "max_value": "229.2",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "lts/m2",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "I_Lluvia_Anual",
+        "current_value": "324.90",
+        "at": "03/21/2014 14:06:48",
+        "max_value": "825.9",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "lts/m2",
+          "label": "l",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Arjona",
+      "domain": 0,
+      "lat": "37.9355838330083",
+      "lon": "-4.05818223953247",
+      "ele": "435",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/100651\" >Estacion Meteorologica Arjona (Jaén)</a>",
+    "URLMostrar": "https://xively.com/feeds/100651"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\100651.json",
+  "DocumentJSON": null
+}

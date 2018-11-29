@@ -1,0 +1,76 @@
+{
+  "Conceptos": [
+    "thermocouple"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "1990153056",
+    "title": "impTherm X2 - Dual Probe Temperature Monitor - Electric Imp Prototype",
+    "Private": false,
+    "tags": [
+      "Adafruit",
+      "BBQ",
+      "Electric Imp",
+      "Grill",
+      "Maxim 31855",
+      "Temperature",
+      "Thermocouple"
+    ],
+    "description": "BBQ temperature monitor, using thermocouple probes, and an Electric Imp",
+    "feed": "https://api.xively.com/v2/feeds/1990153056.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/06/2014 16:04:25",
+    "created": "06/07/2013 22:21:56",
+    "creator": "https://xively.com/users/joelwehr",
+    "version": null,
+    "website": "http://www.joelwehr.com",
+    "datastreams": [
+      {
+        "id": "probe_1",
+        "current_value": "32",
+        "at": "03/06/2014 16:04:24",
+        "max_value": "1220.8",
+        "min_value": "32.0",
+        "tags": [
+          "Woodstove exhaust temperature"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "degrees Farenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "probe_2",
+        "current_value": "32",
+        "at": "03/06/2014 16:04:24",
+        "max_value": "1589.55",
+        "min_value": "32.0",
+        "tags": [
+          "Internal woodstove temperature"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "degrees Farenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Kirby-Wehr residence",
+      "domain": 0,
+      "lat": "40.073049",
+      "lon": "-76.392237",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/1990153056\" >impTherm X2 - Dual Probe Temperature Monitor - Electric Imp Prototype</a>",
+    "URLMostrar": "https://xively.com/feeds/1990153056"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\1990153056.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,225 @@
+{
+  "Conceptos": [
+    "area",
+    "description",
+    "lluvia ácida",
+    "co",
+    "sulfatos",
+    "device",
+    "physical",
+    "color"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "140284357",
+    "title": "Piedecuesta",
+    "Private": false,
+    "tags": [
+      "bronconstricción",
+      "CO",
+      "contaminantes",
+      "Dióxido de Azufre",
+      "Dióxido de nitrógeno",
+      "MaterialParticulado",
+      "Monóxido de Carbono",
+      "NO2",
+      "O3",
+      "PM10",
+      "PST",
+      "smog",
+      "SO2"
+    ],
+    "description": "Simulador Estación Meteorológica del Departamento de Santander.\nMonitoreo de SVCA Sistema de Vigilancia de Calidad del Aire.\nEscala de Monitoreo SVCA: \nTipo Regional:\nRadio de más de 20Km hasta el area total de la juridicción.",
+    "feed": "https://api.xively.com/v2/feeds/140284357.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/30/2014 14:00:10",
+    "created": "03/11/2014 15:13:53",
+    "creator": "https://xively.com/users/simiot",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "feedid": null,
+        "id": "Dioxido_de_Azufre_SO2",
+        "current_value": "466.00",
+        "at": "03/30/2014 05:00:21",
+        "max_value": "486.0",
+        "min_value": "50.0",
+        "tags": [
+          "bronconstricción",
+          "Dióxido de Azufre",
+          "lluvia ácida",
+          "Muestra cada 24 horas",
+          "SO2",
+          "SOx",
+          "sulfatos"
+        ],
+        "unit": {
+          "symbol": "ug/m3",
+          "label": "Miligramo cúbico",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "feedid": null,
+        "id": "Dioxido_de_nitrogeno_NO2",
+        "current_value": "313.00",
+        "at": "03/30/2014 05:00:09",
+        "max_value": "963.0",
+        "min_value": "50.0",
+        "tags": [
+          "Dióxido de nitrógeno",
+          "edema pulmonar",
+          "gas incoloro e inodoro",
+          "irritante del pulmón",
+          "lluvia acida",
+          "Muestra cada 1 horas",
+          "NO",
+          "NO2",
+          "NOx",
+          "partículas mutagénicas",
+          "partículas secundarias tóxicas",
+          "procesos de combustión",
+          "smog"
+        ],
+        "unit": {
+          "symbol": "ug/m3",
+          "label": "Micrometro cúbico",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "feedid": null,
+        "id": "Monoxido_de_Carbono_CO",
+        "current_value": "11.00",
+        "at": "03/30/2014 13:00:08",
+        "max_value": "50.0",
+        "min_value": "10.0",
+        "tags": [
+          "carboxihemoglobina",
+          "cefalea",
+          "CO",
+          "COHb",
+          "hemoglobina",
+          "hipoxia",
+          "hipoxia anémica",
+          "intoxicación",
+          "Monóxido de Carbono",
+          "Muestra cada 8 horas",
+          "náuseas"
+        ],
+        "unit": {
+          "symbol": "mg/m3",
+          "label": "Miligramo cúbico",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "feedid": null,
+        "id": "Ozono_03",
+        "current_value": "327.00",
+        "at": "03/30/2014 14:00:10",
+        "max_value": "998.0",
+        "min_value": "50.0",
+        "tags": [
+          "contaminante secundario",
+          "irritante pulmonar",
+          "Muestra cada 1 horas",
+          "O3",
+          "Ozono",
+          "Ozono contaminante",
+          "smog",
+          "troposfera"
+        ],
+        "unit": {
+          "symbol": "ug/m3",
+          "label": "Micrometro cúbico",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "feedid": null,
+        "id": "PM10_Material_Particulado",
+        "current_value": "238.00",
+        "at": "03/30/2014 05:00:15",
+        "max_value": "574.0",
+        "min_value": "50.0",
+        "tags": [
+          "10 micrómetros",
+          "Cadmio",
+          "Calcio",
+          "Carbono Elemental",
+          "Carbono Orgánico",
+          "diámetro aerodinámico",
+          "gotas liquidas",
+          "Hierro",
+          "Material Partículado",
+          "Muestra cada 24 horas",
+          "Nitratos",
+          "Plomo",
+          "Silicio",
+          "Sulfatos",
+          "velocidad de sedimenta terminal",
+          "Zinc"
+        ],
+        "unit": {
+          "symbol": "ug/m3",
+          "label": "Miligramo cúbico",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "feedid": null,
+        "id": "PST_Material_Particulado_Total",
+        "current_value": "319.00",
+        "at": "03/30/2014 05:00:18",
+        "max_value": "755.0",
+        "min_value": "50.0",
+        "tags": [
+          "Activos Semiautomáticos",
+          "Beta Gauge",
+          "Cadmio",
+          "Calcio",
+          "Carbono Elemental",
+          "Carbono Orgánico",
+          "diámetro aerodinámico",
+          "Hi Vol",
+          "Hierro",
+          "Low Vol",
+          "Material Particulado Total",
+          "Muestra cada 24 horas",
+          "Nitratos",
+          "Plomo",
+          "Silicio",
+          "Sulfatos",
+          "Zinc"
+        ],
+        "unit": {
+          "symbol": "ug/m3",
+          "label": "Miligramo cúbico",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Piedecuesta",
+      "domain": 0,
+      "lat": "6.98679819277429",
+      "lon": "-73.048267364502",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/140284357\" >Piedecuesta</a>",
+    "URLMostrar": "https://xively.com/feeds/140284357"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\140284357.json",
+  "DocumentJSON": null
+}

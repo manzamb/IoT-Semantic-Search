@@ -1,0 +1,217 @@
+{
+  "Conceptos": [
+    "wind"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "4055",
+    "title": "mbed Weather Platform in Osaka",
+    "Private": false,
+    "tags": [
+      "ARM",
+      "BMP085",
+      "mbed",
+      "radiation",
+      "sensor:model=lnd-712",
+      "sensor:type=radiation",
+      "SHT11",
+      "SHT15"
+    ],
+    "description": "mbed Weather Platform\r\n\r\ntemperature: SHT15\r\nhumidity: SHT15\r\npressure: BMP085\r\nbright: S9648-100\r\n\r\nwind&rain: SparkFun Weather Meters\r\n\r\nSparkfun geiger counter LND-712\r\n\r\n\r\nhttp://weather.sugakoubou.com/f/1000",
+    "feed": "https://api.xively.com/v2/feeds/4055.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:06:57",
+    "created": "12/28/2009 08:54:11",
+    "creator": "https://xively.com/users/okini3939",
+    "version": null,
+    "website": "http://bit.ly/gKSEwH",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "1017.80",
+        "at": "03/21/2014 14:06:57",
+        "max_value": "1033.17",
+        "min_value": "5.0",
+        "tags": [
+          "Pressure"
+        ],
+        "unit": {
+          "symbol": "hPa",
+          "label": "h pascal",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "6.82",
+        "at": "03/21/2014 14:06:57",
+        "max_value": "1016.5",
+        "min_value": "0.44",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "60.37",
+        "at": "03/21/2014 14:06:57",
+        "max_value": "100.0",
+        "min_value": "16.0",
+        "tags": [
+          "humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "percent ",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "2.00",
+        "at": "03/21/2014 14:06:57",
+        "max_value": "94.57",
+        "min_value": "0.0",
+        "tags": [
+          "Wind speed"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "m/s",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "315.00",
+        "at": "03/21/2014 14:06:57",
+        "max_value": "337.5",
+        "min_value": "0.0",
+        "tags": [
+          "Wind vane"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "degree",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "0.00",
+        "at": "03/21/2014 14:06:57",
+        "max_value": "337.5",
+        "min_value": "0.0",
+        "tags": [
+          "Rainfall"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "mm/h",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "0.00",
+        "at": "03/21/2014 14:06:57",
+        "max_value": "1923.08",
+        "min_value": "0.0",
+        "tags": [
+          "bright"
+        ],
+        "unit": {
+          "symbol": "lx",
+          "label": "lux",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "7",
+        "current_value": "0.00",
+        "at": "03/21/2014 14:06:57",
+        "max_value": "1269.23",
+        "min_value": "0.0",
+        "tags": [
+          "UV (none)"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "mW/cm2",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "8",
+        "current_value": "0.00",
+        "at": "03/21/2014 14:06:57",
+        "max_value": "247.0",
+        "min_value": "0.0",
+        "tags": [
+          "Geiger counter"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "count/min",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "9",
+        "current_value": "11.50",
+        "at": "03/21/2014 14:06:57",
+        "max_value": "46.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "10",
+        "current_value": "29.40",
+        "at": "09/04/2011 21:29:01",
+        "max_value": "42.9",
+        "min_value": "23.44",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Osaka, Japan",
+      "domain": 0,
+      "lat": "34.6751468304166",
+      "lon": "135.51043510437",
+      "ele": "20",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/4055\" >mbed Weather Platform in Osaka</a>",
+    "URLMostrar": "https://xively.com/feeds/4055"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\4055.json",
+  "DocumentJSON": null
+}

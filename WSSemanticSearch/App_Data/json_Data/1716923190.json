@@ -1,0 +1,135 @@
+{
+  "Conceptos": [
+    "humidity"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "1716923190",
+    "title": "House",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/1716923190.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "01/29/2014 21:59:45",
+    "created": "09/05/2013 20:25:07",
+    "creator": "https://xively.com/users/justinh24",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "External_Humid",
+        "current_value": "94",
+        "at": "01/29/2014 21:59:44",
+        "max_value": "98.0",
+        "min_value": "0.0",
+        "tags": [
+          "97212",
+          "humidity"
+        ],
+        "unit": {
+          "symbol": "%rh",
+          "label": "Relative Humidity",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "External_Temp",
+        "current_value": "49.6",
+        "at": "01/29/2014 21:59:44",
+        "max_value": "91.4",
+        "min_value": "0.0",
+        "tags": [
+          "97212",
+          "portland",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "Fahrenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Familyroom_Temp",
+        "current_value": "67.5",
+        "at": "01/29/2014 21:59:44",
+        "max_value": "79.9",
+        "min_value": "0.01",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "Fahrenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Office_Temp",
+        "current_value": "70.7",
+        "at": "01/29/2014 21:59:44",
+        "max_value": "84.2",
+        "min_value": "0.0",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "Fahrenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Power_Usage",
+        "current_value": "2704",
+        "at": "01/29/2014 21:59:44",
+        "max_value": "14043.0",
+        "min_value": "291.0",
+        "tags": [
+          "energy"
+        ],
+        "unit": {
+          "symbol": "KW",
+          "label": "Killowatts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "TV_Status",
+        "current_value": "0",
+        "at": "01/29/2014 21:59:44",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "AV"
+        ],
+        "unit": {
+          "symbol": "Status",
+          "label": "Boolean",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Home",
+      "domain": 0,
+      "lat": "45.5419699",
+      "lon": "-122.6486134",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/1716923190\" >House</a>",
+    "URLMostrar": "https://xively.com/feeds/1716923190"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\1716923190.json",
+  "DocumentJSON": null
+}

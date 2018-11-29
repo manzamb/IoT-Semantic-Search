@@ -1,0 +1,73 @@
+{
+  "Conceptos": [
+    "description"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "13593",
+    "title": "Temperature",
+    "Private": false,
+    "tags": [
+      "test",
+      "testing",
+      "trial",
+      "trialling"
+    ],
+    "description": "DATA HERE NO LONGER VALID or ACTIVE - keeping this to try a few things out via API from time-to-time.\r\n\r\nUsing as test feed for trigger trials - still has temp and light streams.\r\n\r\n(Old description = Another play with the Arduino and DS18B20 sensor combination.)",
+    "feed": "https://api.xively.com/v2/feeds/13593.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "05/15/2012 19:33:20",
+    "created": "12/08/2010 19:42:42",
+    "creator": "https://xively.com/users/ccspk",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "1",
+        "current_value": "2012-03-13T16:32:45.000000Z,2",
+        "at": "03/13/2012 17:26:45",
+        "max_value": "85.0",
+        "min_value": "-127.0",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "115",
+        "at": "02/13/2012 20:44:24",
+        "max_value": "244.0",
+        "min_value": "0.0",
+        "tags": [
+          "light"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "in and around the house",
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": "5 m",
+      "exposure": 0,
+      "disposition": 1
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/13593\" >Temperature</a>",
+    "URLMostrar": "https://xively.com/feeds/13593"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\13593.json",
+  "DocumentJSON": null
+}

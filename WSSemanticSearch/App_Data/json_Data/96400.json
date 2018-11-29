@@ -1,0 +1,108 @@
+{
+  "Conceptos": [
+    "moisture"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "96400",
+    "title": "growerbot_elv1s",
+    "Private": false,
+    "tags": [
+      "gardening",
+      "growerbot",
+      "planting"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/96400.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "07/20/2013 07:22:27",
+    "created": "01/07/2013 05:01:28",
+    "creator": "https://xively.com/users/elv1s",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "humidity",
+        "current_value": "66.60",
+        "at": "07/20/2013 07:22:27",
+        "max_value": "99.9",
+        "min_value": "36.5",
+        "tags": [
+          "growerbot",
+          "humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "light",
+        "current_value": "0",
+        "at": "07/20/2013 07:22:27",
+        "max_value": "4392.0",
+        "min_value": "0.0",
+        "tags": [
+          "growerbot",
+          "light"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "lux",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "moisture",
+        "current_value": "1",
+        "at": "07/20/2013 07:22:26",
+        "max_value": "521.0",
+        "min_value": "0.0",
+        "tags": [
+          "growerbot",
+          "moisture"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temperature",
+        "current_value": "21.70",
+        "at": "07/20/2013 07:22:26",
+        "max_value": "35.0",
+        "min_value": "12.5",
+        "tags": [
+          "growerbot",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Bainbridge Island",
+      "domain": 0,
+      "lat": "47.6064408596376",
+      "lon": "-122.51335144043",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/96400\" >growerbot_elv1s</a>",
+    "URLMostrar": "https://xively.com/feeds/96400"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\96400.json",
+  "DocumentJSON": null
+}

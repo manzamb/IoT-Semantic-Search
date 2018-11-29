@@ -1,0 +1,102 @@
+{
+  "Conceptos": [
+    "sensor input"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "89795",
+    "title": "Production Sensor",
+    "Private": false,
+    "tags": [
+      "Production data"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/89795.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "01/03/2013 02:57:12",
+    "created": "12/04/2012 02:49:22",
+    "creator": "https://xively.com/users/jpaiwa",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "500",
+        "current_value": "0.0",
+        "at": "01/03/2013 03:26:29",
+        "max_value": "50.0",
+        "min_value": "-1.0",
+        "tags": [
+          "Digital Input A"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "501",
+        "current_value": "33",
+        "at": "01/04/2013 00:36:18",
+        "max_value": "65467.0",
+        "min_value": "-1.0",
+        "tags": [
+          "Pulse Counter A"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "502",
+        "current_value": "1.0",
+        "at": "01/03/2013 03:26:26",
+        "max_value": "45.0",
+        "min_value": "0.0",
+        "tags": [
+          "Digital Input B"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "503",
+        "current_value": "80.0",
+        "at": "01/03/2013 03:26:27",
+        "max_value": "80.0",
+        "min_value": "5.0",
+        "tags": [
+          "Pulse Counter B"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Natal",
+      "domain": 0,
+      "lat": "-5.78786029488513",
+      "lon": "-35.2008873224258",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/89795\" >Production Sensor</a>",
+    "URLMostrar": "https://xively.com/feeds/89795"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\89795.json",
+  "DocumentJSON": null
+}

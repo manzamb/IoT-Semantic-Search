@@ -1,0 +1,201 @@
+{
+  "Conceptos": [
+    "humidity"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "76990",
+    "title": "Temp Monitor",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "CPMA",
+      "humidity",
+      "school",
+      "temperature"
+    ],
+    "description": "Temperature and humidity in a typical classroom at CPMA middle school.  A bit high?!?",
+    "feed": "https://api.xively.com/v2/feeds/76990.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:07:00",
+    "created": "09/23/2012 04:00:05",
+    "creator": "https://xively.com/users/jbrzensk",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Humidity",
+        "current_value": "45.50",
+        "at": "03/21/2014 14:06:51",
+        "max_value": "77.5",
+        "min_value": "0.0",
+        "tags": [
+          "humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Room100_HeatIndex",
+        "current_value": "79.19",
+        "at": "11/08/2013 18:47:29",
+        "max_value": "107.28",
+        "min_value": "74.74",
+        "tags": [
+          "Heat Index"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "Degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Room100_Humidity",
+        "current_value": "27.80",
+        "at": "11/08/2013 18:47:29",
+        "max_value": "99.9",
+        "min_value": "15.5",
+        "tags": [
+          "Humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "Percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Room100_Temperature",
+        "current_value": "80.24",
+        "at": "11/08/2013 18:47:29",
+        "max_value": "94.64",
+        "min_value": "68.18",
+        "tags": null,
+        "unit": {
+          "symbol": "F",
+          "label": "Degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Room419_Humidity",
+        "current_value": "38.40",
+        "at": "03/21/2014 14:07:00",
+        "max_value": "75.0",
+        "min_value": "15.4",
+        "tags": [
+          "Humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "Percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Room419_Temp",
+        "current_value": "75.56",
+        "at": "03/21/2014 14:07:00",
+        "max_value": "100.22",
+        "min_value": "59.0",
+        "tags": [
+          "419",
+          "CPMA",
+          "room",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "Degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperature",
+        "current_value": "69.80",
+        "at": "03/21/2014 14:06:51",
+        "max_value": "101.12",
+        "min_value": "0.0",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "Farenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Vapa_HeatIndex",
+        "current_value": "77.11",
+        "at": "02/07/2014 10:20:01",
+        "max_value": "98.21",
+        "min_value": "74.15",
+        "tags": null,
+        "unit": {
+          "symbol": "F",
+          "label": "Degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Vapa_Humidity",
+        "current_value": "43.70",
+        "at": "02/07/2014 10:20:01",
+        "max_value": "63.1",
+        "min_value": "18.3",
+        "tags": [
+          "vapa"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Vapa_Temperature",
+        "current_value": "72.86",
+        "at": "02/07/2014 10:20:01",
+        "max_value": "93.2",
+        "min_value": "50.0",
+        "tags": [
+          "Vapa temp"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "Degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "CPMA Middel School",
+      "domain": 0,
+      "lat": "32.836543920645",
+      "lon": "-117.182214260101",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/76990\" >Temp Monitor</a>",
+    "URLMostrar": "https://xively.com/feeds/76990"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\76990.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,490 @@
+{
+  "Conceptos": [
+    "parametro"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "69337",
+    "title": "Ferduino - Status dos aquários",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "ds18b20",
+      "enc28j60",
+      "ethercard.h",
+      "Reef"
+    ],
+    "description": "Veja aqui o programa utilizado neste feed: https://github.com/FernandoGarcia\n\nEspero que seja útil.\n\nParâmetro A : Temp. da água\nParâmetro B : Temp. dissipador\nParâmetro C : Temp. ambiente\nParâmetro D : PH do aquário\nParâmetro E : PH do reator de cálcio\nParâmetro F : Densidade\nParâmetro G : ORP\nParâmetro H : Status chiller 0 = desligado, 1 = ligado\nParâmetro I : Status aquecedor, 0 = desligado e 1 = ligado\nParâmetro J : Status reator de cálcio, 0 = desligado e 1 = ligado\nParâmetro K : Status ozonizador, 0 = desligado e 1 = ligado\nParâmetro L : Status reposição de água doce, 0 = desligado e 1 = ligado\nParâmetro M: Status níveis, 0 = baixo e 1 = normal\nParâmetro N: Status TPA , 0 = desligado 1 = ligado.\nParâmetro O = Potência dos leds azuis.\nParâmetro P = Potência dos leds brancos.\nParâmetro Q = Potência dos leds azul royal.\nParâmetro R = Potência dos leds vermelhos.\nParâmetro S = Potência dos leds violeta.\nParâmetro T = Status timer 1, 0 = desligado e 1 = ligado.\nParâmetro U = Status timer 2, 0 = desligado e 1 = ligado.\nParâmetro V = Status timer 3, 0 = desligado e 1 = ligado.\nParâmetro W = Status timer 4, 0 = desligado e 1 = ligado.\nParâmetro X = Status timer 5, 0 = desligado e 1 = ligado.\nParâmetro Y = Potência real utilizada.\nParâmetro Z = Potência aparente utilizada.\nParâmetro ZA = Fator de potência.\nParâmetro ZB = Tensão da rede.\nParâmetro ZC = Corrente consumida.\nParâmetro ZD = Frequência.\nParâmetro ZE = Consumo mensal.\nParâmetro ZF = Sinaliza falha na TPA, 1 = falha. ",
+    "feed": "https://api.xively.com/v2/feeds/69337.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:11:02",
+    "created": "07/28/2012 04:58:21",
+    "creator": "https://xively.com/users/fernando_garcia",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "A",
+        "current_value": "25.0000000000",
+        "at": "03/21/2014 14:11:02",
+        "max_value": "85.0",
+        "min_value": "-127.0",
+        "tags": null,
+        "unit": {
+          "symbol": "Temperatura da água em °C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "B",
+        "current_value": "26.2500000000",
+        "at": "03/21/2014 14:11:02",
+        "max_value": "93.0208358764",
+        "min_value": "-127.0",
+        "tags": null,
+        "unit": {
+          "symbol": "Temperatura do dissipador em °C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "C",
+        "current_value": "26.1041660308",
+        "at": "03/21/2014 14:11:02",
+        "max_value": "85.0",
+        "min_value": "-127.0",
+        "tags": null,
+        "unit": {
+          "symbol": "Temperatura ambiente em °C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "D",
+        "current_value": "5.3899998664",
+        "at": "03/21/2014 14:11:02",
+        "max_value": "180.8600006103",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "PH do aquário",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "E",
+        "current_value": "8.7700004577",
+        "at": "03/21/2014 14:11:02",
+        "max_value": "122.080001831",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "PH do reator de cálcio",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "F",
+        "current_value": "0",
+        "at": "03/21/2014 14:11:02",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "Densidade",
+          "label": "mg/l",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "G",
+        "current_value": "233",
+        "at": "03/21/2014 14:11:02",
+        "max_value": "257.0",
+        "min_value": "-5328.0",
+        "tags": null,
+        "unit": {
+          "symbol": "ORP",
+          "label": "mV",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "H",
+        "current_value": "0",
+        "at": "03/21/2014 14:11:02",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "Status chiller",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "I",
+        "current_value": "1",
+        "at": "03/21/2014 14:11:02",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "Status aquecedor",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "J",
+        "current_value": "0",
+        "at": "03/21/2014 14:11:02",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "Status reator de cálcio",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "K",
+        "current_value": "1",
+        "at": "03/21/2014 14:11:02",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "Status ozonizador",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "L",
+        "current_value": "1",
+        "at": "03/21/2014 14:11:02",
+        "max_value": "2.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "Status reposição de água doce",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "M",
+        "current_value": "1",
+        "at": "03/21/2014 14:11:02",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "Status níveis",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "N",
+        "current_value": "0",
+        "at": "03/21/2014 14:11:02",
+        "max_value": "100.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "Status TPA",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "O",
+        "current_value": "92",
+        "at": "03/21/2014 14:11:02",
+        "max_value": "100.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "Potência dos LEDs azuis em %",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "P",
+        "current_value": "92",
+        "at": "03/21/2014 14:11:02",
+        "max_value": "100.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "Potência dos LEDs brancos",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Q",
+        "current_value": "92",
+        "at": "03/21/2014 14:11:02",
+        "max_value": "100.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "Potência dos LEDs azul royal em %",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "R",
+        "current_value": "92",
+        "at": "03/21/2014 14:11:02",
+        "max_value": "100.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "Potência dos LEDs vermelhos em %",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "S",
+        "current_value": "92",
+        "at": "03/21/2014 14:11:02",
+        "max_value": "100.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "Potência dos LEDs violeta em %",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "T",
+        "current_value": "1",
+        "at": "03/21/2014 14:11:02",
+        "max_value": "100.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "Status timer 1",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "U",
+        "current_value": "1",
+        "at": "03/21/2014 14:11:02",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "Status timer 2",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "V",
+        "current_value": "0",
+        "at": "03/21/2014 14:11:02",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "Status timer 3",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "W",
+        "current_value": "0",
+        "at": "03/21/2014 14:11:02",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "Status timer 4",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "X",
+        "current_value": "0",
+        "at": "03/21/2014 14:11:02",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "Status timer 5",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Y",
+        "current_value": "657",
+        "at": "03/21/2014 14:11:02",
+        "max_value": "8960.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "Potência Real em W",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Z",
+        "current_value": "657",
+        "at": "03/21/2014 14:11:02",
+        "max_value": "8960.0",
+        "min_value": "1.0",
+        "tags": null,
+        "unit": {
+          "symbol": "Potência aparente em W",
+          "label": "Watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "ZA",
+        "current_value": "657",
+        "at": "03/21/2014 14:11:02",
+        "max_value": "8960.0",
+        "min_value": "1.0",
+        "tags": null,
+        "unit": {
+          "symbol": "Fator de potência",
+          "label": "Watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "ZB",
+        "current_value": "657",
+        "at": "03/21/2014 14:11:02",
+        "max_value": "8960.0",
+        "min_value": "1.0",
+        "tags": null,
+        "unit": {
+          "symbol": "Tensão RMS",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "ZC",
+        "current_value": "657",
+        "at": "03/21/2014 14:11:02",
+        "max_value": "8960.0",
+        "min_value": "1.0",
+        "tags": null,
+        "unit": {
+          "symbol": "Corrente RMS",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "ZD",
+        "current_value": "657",
+        "at": "03/21/2014 14:11:02",
+        "max_value": "8960.0",
+        "min_value": "1.0",
+        "tags": null,
+        "unit": {
+          "symbol": "Frequência em Hz",
+          "label": "Hz",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "ZE",
+        "current_value": "657",
+        "at": "03/21/2014 14:11:02",
+        "max_value": "8960.0",
+        "min_value": "1.0",
+        "tags": null,
+        "unit": {
+          "symbol": "Consumo mensal em KWh",
+          "label": "KWh",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "ZF",
+        "current_value": "0",
+        "at": "03/21/2014 14:11:02",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "Falha na TPA",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "São Paulo, Brasil",
+      "domain": 0,
+      "lat": "-23.7112993489018",
+      "lon": "-46.6599977016449",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/69337\" >Ferduino - Status dos aquários</a>",
+    "URLMostrar": "https://xively.com/feeds/69337"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\69337.json",
+  "DocumentJSON": null
+}

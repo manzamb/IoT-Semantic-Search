@@ -1,0 +1,104 @@
+{
+  "Conceptos": [
+    "system"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "1745536861",
+    "title": "Garage Imp",
+    "Private": false,
+    "tags": [
+      "Central heating",
+      "residential block of flats",
+      "TCN75A",
+      "temperature"
+    ],
+    "description": "Monitoring the control functions of the central heating system in a residential building.",
+    "feed": "https://api.xively.com/v2/feeds/1745536861.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/21/2014 02:15:35",
+    "created": "11/10/2013 19:03:40",
+    "creator": "https://xively.com/users/jores",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Central_heating",
+        "current_value": "61.8",
+        "at": "03/21/2014 02:15:34",
+        "max_value": "255.9",
+        "min_value": "0.0",
+        "tags": [
+          "central heating",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Hot_water",
+        "current_value": "53.2",
+        "at": "03/21/2014 02:15:35",
+        "max_value": "62.6",
+        "min_value": "0.0",
+        "tags": [
+          "hot water"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Local_heating",
+        "current_value": "58.1",
+        "at": "03/21/2014 02:15:35",
+        "max_value": "70.9",
+        "min_value": "0.0",
+        "tags": [
+          "local heating"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Water_meter",
+        "current_value": "1",
+        "at": "11/27/2013 07:18:22",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Residential building central heating room",
+      "domain": 0,
+      "lat": "42.6900073",
+      "lon": "23.3120317",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/1745536861\" >Garage Imp</a>",
+    "URLMostrar": "https://xively.com/feeds/1745536861"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\1745536861.json",
+  "DocumentJSON": null
+}

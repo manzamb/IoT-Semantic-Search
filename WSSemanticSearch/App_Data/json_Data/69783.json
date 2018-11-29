@@ -1,0 +1,84 @@
+{
+  "Conceptos": [
+    "humedad"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "69783",
+    "title": "DHT22 Exterior",
+    "Private": false,
+    "tags": [
+      "Arduino",
+      "Argentina",
+      "DHT22",
+      "Humedad",
+      "Temperatura"
+    ],
+    "description": "Este feed indica la temperatura y humedad de mi patio trasero,esta compuesto por un Arduino Duemilanove,Ethernet shield w5100 y un sensor DHT22.Si necesitas el codigo no dudes en comentar y te lo enviare.",
+    "feed": "https://api.xively.com/v2/feeds/69783.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:06:04",
+    "created": "08/01/2012 19:01:44",
+    "creator": "https://xively.com/users/gcorallo",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Humedad",
+        "current_value": "62",
+        "at": "03/21/2014 14:06:04",
+        "max_value": "99.0",
+        "min_value": "14.0",
+        "tags": null,
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Luz",
+        "current_value": "1023",
+        "at": "03/21/2014 14:06:04",
+        "max_value": "1023.0",
+        "min_value": "1021.0",
+        "tags": null,
+        "unit": {
+          "symbol": "Lux",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperatura",
+        "current_value": "16.3",
+        "at": "03/21/2014 14:06:04",
+        "max_value": "43.1",
+        "min_value": "7.4",
+        "tags": null,
+        "unit": {
+          "symbol": "°C",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Buenos Aires",
+      "domain": 0,
+      "lat": "-34.6525382892408",
+      "lon": "-58.5624942245369",
+      "ele": "0.6",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/69783\" >DHT22 Exterior</a>",
+    "URLMostrar": "https://xively.com/feeds/69783"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\69783.json",
+  "DocumentJSON": null
+}

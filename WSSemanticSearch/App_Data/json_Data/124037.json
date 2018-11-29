@@ -1,0 +1,121 @@
+{
+  "Conceptos": [
+    "plan"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "124037",
+    "title": "001022",
+    "Private": false,
+    "tags": [
+      "anemometer",
+      "humidity",
+      "temperature",
+      "Wind speed"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/124037.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "09/16/2013 23:06:06",
+    "created": "04/09/2013 16:51:47",
+    "creator": "https://xively.com/users/arantec",
+    "version": null,
+    "website": "http://www.smartyplanet.com",
+    "datastreams": [
+      {
+        "id": "battery",
+        "current_value": "5.57",
+        "at": "09/16/2013 22:00:00",
+        "max_value": "8.8",
+        "min_value": "5.57",
+        "tags": [
+          "battery"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": "V",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "humidity",
+        "current_value": "100",
+        "at": "09/16/2013 23:00:00",
+        "max_value": "100.0",
+        "min_value": "20.21",
+        "tags": [
+          "humidity"
+        ],
+        "unit": {
+          "symbol": "%HR",
+          "label": "%HR",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temperature",
+        "current_value": "5.437",
+        "at": "09/16/2013 23:00:00",
+        "max_value": "50.0",
+        "min_value": "-4.81",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "ºC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "winddirection",
+        "current_value": "192.4",
+        "at": "09/16/2013 23:00:00",
+        "max_value": "360.0",
+        "min_value": "0.0",
+        "tags": [
+          "wind direction anemometer"
+        ],
+        "unit": {
+          "symbol": "º",
+          "label": "º",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "windspeed",
+        "current_value": "8.019",
+        "at": "09/16/2013 23:00:00",
+        "max_value": "100.0",
+        "min_value": "0.0",
+        "tags": [
+          "wind speed anemometer"
+        ],
+        "unit": {
+          "symbol": "m/s",
+          "label": "m/s",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Vielha",
+      "domain": 0,
+      "lat": "42.6884923255087",
+      "lon": "0.79925537109375",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/124037\" >001022</a>",
+    "URLMostrar": "https://xively.com/feeds/124037"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\124037.json",
+  "DocumentJSON": null
+}

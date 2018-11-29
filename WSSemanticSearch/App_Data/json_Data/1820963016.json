@@ -1,0 +1,84 @@
+{
+  "Conceptos": [
+    "co2"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "1820963016",
+    "title": "Concord, MA",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/1820963016.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "09/22/2013 00:39:07",
+    "created": "07/08/2013 16:54:52",
+    "creator": "https://xively.com/users/z02142z",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "CO2",
+        "current_value": "449",
+        "at": "09/22/2013 00:39:07",
+        "max_value": "1036.0",
+        "min_value": "369.0",
+        "tags": [
+          "CO2"
+        ],
+        "unit": {
+          "symbol": "ppm",
+          "label": "ppm",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Humidity",
+        "current_value": "57",
+        "at": "09/22/2013 00:39:07",
+        "max_value": "74.0",
+        "min_value": "30.0",
+        "tags": [
+          "%RH"
+        ],
+        "unit": {
+          "symbol": "%RH",
+          "label": "%RH",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperature",
+        "current_value": "78",
+        "at": "09/22/2013 00:39:07",
+        "max_value": "94.0",
+        "min_value": "58.0",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "degF",
+          "label": "degF",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "42.4657656636715",
+      "lon": "-71.3220405578613",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/1820963016\" >Concord, MA</a>",
+    "URLMostrar": "https://xively.com/feeds/1820963016"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\1820963016.json",
+  "DocumentJSON": null
+}

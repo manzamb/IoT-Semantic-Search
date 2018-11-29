@@ -1,0 +1,120 @@
+{
+  "Conceptos": [
+    "humidity"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "1059316321",
+    "title": "Saro's Sensorbox",
+    "Private": false,
+    "tags": [
+      "air",
+      "Air quality",
+      "co",
+      "co2",
+      "data",
+      "humidity",
+      "Mediamatic",
+      "no2",
+      "temperature"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/1059316321.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/13/2014 14:08:39",
+    "created": "10/14/2013 17:22:19",
+    "creator": "https://xively.com/users/sarosun",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "CO",
+        "current_value": "68.00",
+        "at": "03/13/2014 14:08:39",
+        "max_value": "216.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "CO2",
+        "current_value": "720.00",
+        "at": "03/13/2014 14:08:39",
+        "max_value": "10000.0",
+        "min_value": "0.0",
+        "tags": [
+          "airquality",
+          "co2",
+          "sensor"
+        ],
+        "unit": {
+          "symbol": "ppm",
+          "label": "Parts per million",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Humidity",
+        "current_value": "28.90",
+        "at": "03/13/2014 14:08:39",
+        "max_value": "99.9",
+        "min_value": "20.6",
+        "tags": null,
+        "unit": {
+          "symbol": "%",
+          "label": "Percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "NO2",
+        "current_value": "81.00",
+        "at": "03/13/2014 14:08:39",
+        "max_value": "145.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperature",
+        "current_value": "23.40",
+        "at": "03/13/2014 14:08:39",
+        "max_value": "30.0",
+        "min_value": "8.5",
+        "tags": null,
+        "unit": {
+          "symbol": "C",
+          "label": "Celsius ",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Amsterdam ",
+      "domain": 0,
+      "lat": "52.3638966056209",
+      "lon": "4.85848395088897",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/1059316321\" >Saro's Sensorbox</a>",
+    "URLMostrar": "https://xively.com/feeds/1059316321"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\1059316321.json",
+  "DocumentJSON": null
+}

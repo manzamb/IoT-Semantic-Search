@@ -1,0 +1,103 @@
+{
+  "Conceptos": [
+    "sensor output"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "98162",
+    "title": "Repeater site Stichting FORAD",
+    "Private": false,
+    "tags": [
+      "Sensors PI3GRN/PI6GRO",
+      "Stichting FORAD"
+    ],
+    "description": "Measuring the health of our repeaters.",
+    "feed": "https://api.xively.com/v2/feeds/98162.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "01/18/2013 20:03:20",
+    "created": "01/16/2013 12:35:44",
+    "creator": "https://xively.com/users/repeater",
+    "version": null,
+    "website": "http://www.FORAD.org",
+    "datastreams": [
+      {
+        "id": "Powersensor_13cm",
+        "current_value": "76.00",
+        "at": "01/18/2013 20:03:19",
+        "max_value": "140.0",
+        "min_value": "49.0",
+        "tags": [
+          "13cm TX output"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "W",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Powersensor_2m",
+        "current_value": "37.00",
+        "at": "01/18/2013 20:03:19",
+        "max_value": "81.0",
+        "min_value": "23.0",
+        "tags": [
+          "2m TX output"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "W",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "PSU",
+        "current_value": "53.00",
+        "at": "01/18/2013 20:03:19",
+        "max_value": "79.0",
+        "min_value": "17.0",
+        "tags": [
+          "Power supply unit"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "V",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperature",
+        "current_value": "39.00",
+        "at": "01/18/2013 20:03:19",
+        "max_value": "94.0",
+        "min_value": "17.0",
+        "tags": [
+          "Closet temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "PI3GRN/PI6GRO",
+      "domain": 0,
+      "lat": "53.2010136130649",
+      "lon": "6.5508234500885",
+      "ele": "90",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/98162\" >Repeater site Stichting FORAD</a>",
+    "URLMostrar": "https://xively.com/feeds/98162"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\98162.json",
+  "DocumentJSON": null
+}

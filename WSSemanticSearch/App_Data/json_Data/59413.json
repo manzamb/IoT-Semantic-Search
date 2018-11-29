@@ -1,0 +1,109 @@
+{
+  "Conceptos": [
+    "parameter"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "59413",
+    "title": "UberGrow",
+    "Private": false,
+    "tags": [
+      "aeroponic",
+      "arduino",
+      "automation",
+      "DHT11 sensor",
+      "experimental",
+      "foggerponic",
+      "greenhouse",
+      "hydroponic"
+    ],
+    "description": "This are the two most critical parameters i have to monitor in order to maintain proper air roots atmospheric conditions. \r\n\r\n",
+    "feed": "https://api.xively.com/v2/feeds/59413.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "05/24/2012 02:38:51",
+    "created": "05/13/2012 17:51:14",
+    "creator": "https://xively.com/users/maxlugo",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "57",
+        "at": "05/24/2012 02:38:51",
+        "max_value": "173.0",
+        "min_value": "0.0",
+        "tags": [
+          "Humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "32",
+        "at": "05/24/2012 02:38:51",
+        "max_value": "90.0",
+        "min_value": "0.0",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "89.599998",
+        "at": "05/24/2012 02:38:51",
+        "max_value": "113.0",
+        "min_value": "10.0",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "°F",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "65",
+        "at": "05/24/2012 02:38:51",
+        "max_value": "302.14999",
+        "min_value": "4.0",
+        "tags": [
+          "Status / Activity"
+        ],
+        "unit": {
+          "symbol": "K",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Santo Domingo",
+      "domain": 0,
+      "lat": "18.4721908684305",
+      "lon": "-69.9384605884552",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/59413\" >UberGrow</a>",
+    "URLMostrar": "https://xively.com/feeds/59413"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\59413.json",
+  "DocumentJSON": null
+}

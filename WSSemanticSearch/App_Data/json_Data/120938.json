@@ -1,0 +1,50 @@
+{
+  "Conceptos": [
+    "thermistor"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "120938",
+    "title": "sensor1",
+    "Private": false,
+    "tags": null,
+    "description": "Temperature reading in degrees C from 10k thermistor, values calculated using Steinhart Hart equation. Raw data is an integer between 0 and 1023.",
+    "feed": "https://api.xively.com/v2/feeds/120938.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "05/31/2013 06:35:20",
+    "created": "03/25/2013 16:12:39",
+    "creator": "https://xively.com/users/markbanfield",
+    "version": null,
+    "website": "http://www.itwswitches.co.uk",
+    "datastreams": [
+      {
+        "id": "sensor1",
+        "current_value": "31.0",
+        "at": "05/31/2013 06:35:20",
+        "max_value": "56.0",
+        "min_value": "-70.0",
+        "tags": null,
+        "unit": {
+          "symbol": "degrees C",
+          "label": "degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Dorset, UK",
+      "domain": 0,
+      "lat": "50.8001611340303",
+      "lon": "-1.98802381753922",
+      "ele": "30m",
+      "exposure": 0,
+      "disposition": 1
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/120938\" >sensor1</a>",
+    "URLMostrar": "https://xively.com/feeds/120938"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\120938.json",
+  "DocumentJSON": null
+}

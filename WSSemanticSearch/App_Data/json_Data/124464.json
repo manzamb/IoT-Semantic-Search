@@ -1,0 +1,95 @@
+{
+  "Conceptos": [
+    "moisture"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "124464",
+    "title": "growerbot",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/124464.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/06/2014 09:35:42",
+    "created": "04/11/2013 06:19:46",
+    "creator": "https://xively.com/users/bedinsky",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "humid",
+        "current_value": "61.00",
+        "at": "03/06/2014 09:35:41",
+        "max_value": "86.5",
+        "min_value": "40.3",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "light",
+        "current_value": "59",
+        "at": "03/06/2014 09:35:41",
+        "max_value": "58310.0",
+        "min_value": "0.0",
+        "tags": [
+          "growerbot",
+          "light"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "lux",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "moist",
+        "current_value": "0",
+        "at": "03/06/2014 09:35:41",
+        "max_value": "9.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temp",
+        "current_value": "19.90",
+        "at": "03/06/2014 09:35:41",
+        "max_value": "21.1",
+        "min_value": "11.9",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Bob's growerbot",
+      "domain": 0,
+      "lat": "45.3768287370493",
+      "lon": "11.877658367157",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/124464\" >growerbot</a>",
+    "URLMostrar": "https://xively.com/feeds/124464"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\124464.json",
+  "DocumentJSON": null
+}

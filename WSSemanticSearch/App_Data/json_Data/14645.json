@@ -1,0 +1,516 @@
+{
+  "Conceptos": [
+    "precipitation"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "14645",
+    "title": "Soil Climate Analysis Network - Site 2053",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/14645.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "05/09/2013 13:00:11",
+    "created": "01/07/2011 16:31:39",
+    "creator": "https://xively.com/users/dhunter",
+    "version": null,
+    "website": "http://www.wcc.nrcs.usda.gov/scan/",
+    "datastreams": [
+      {
+        "id": "PREC.I-1",
+        "current_value": "0",
+        "at": "04/17/2013 14:00:07",
+        "max_value": "59.57",
+        "min_value": "-16.54",
+        "tags": [
+          "Precipitation Accumulation",
+          "sensor:ecode=PREC",
+          "sensor:height=unknown",
+          "sensor:instrument=Unknown Precipitation To Hundredths",
+          "sensor:interval=Instantaneous"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "In",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "TOBS.I-1",
+        "current_value": "22.4",
+        "at": "04/17/2013 14:00:07",
+        "max_value": "39.4",
+        "min_value": "-16.7",
+        "tags": [
+          "Air Temperature Observed",
+          "sensor:ecode=TOBS",
+          "sensor:height=unknown",
+          "sensor:instrument=Unknown - Linear Equation",
+          "sensor:interval=Instantaneous"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Degc",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "TMAX.H-1",
+        "current_value": "22.4",
+        "at": "04/17/2013 14:00:07",
+        "max_value": "39.4",
+        "min_value": "-16.1",
+        "tags": [
+          "Air Temperature Maximum",
+          "sensor:ecode=TMAX",
+          "sensor:height=unknown",
+          "sensor:instrument=Unknown - Linear Equation",
+          "sensor:interval=1 Hour"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Degc",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "TMIN.H-1",
+        "current_value": "21.1",
+        "at": "04/17/2013 14:00:07",
+        "max_value": "39.2",
+        "min_value": "-16.9",
+        "tags": [
+          "Air Temperature Minimum",
+          "sensor:ecode=TMIN",
+          "sensor:height=unknown",
+          "sensor:instrument=Unknown - Linear Equation",
+          "sensor:interval=1 Hour"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Degc",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "TAVG.H-1",
+        "current_value": "21.5",
+        "at": "04/17/2013 14:00:07",
+        "max_value": "39.3",
+        "min_value": "-16.5",
+        "tags": [
+          "Air Temperature Average",
+          "sensor:ecode=TAVG",
+          "sensor:height=unknown",
+          "sensor:instrument=Unknown - Linear Equation",
+          "sensor:interval=1 Hour"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Degc",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "PRCP.H-1",
+        "current_value": "0.00",
+        "at": "04/17/2013 14:00:07",
+        "max_value": "1.4",
+        "min_value": "0.0",
+        "tags": [
+          "Precipitation Increment",
+          "sensor:ecode=PRCP",
+          "sensor:height=unknown",
+          "sensor:instrument=Pulse Count",
+          "sensor:interval=1 Hour"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "In",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "SMS.I-1..-2",
+        "current_value": "36.4",
+        "at": "04/17/2013 14:00:07",
+        "max_value": "41.6",
+        "min_value": "0.0",
+        "tags": [
+          "sensor:ecode=SMS",
+          "sensor:height=-2\"\"",
+          "sensor:instrument=Hydraprobe Analog (2.5 Volt)  - 1 Of 4",
+          "sensor:interval=Instantaneous",
+          "Soil Moisture Percent"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Pct",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "SMS.I-1..-4",
+        "current_value": "38.4",
+        "at": "04/17/2013 14:00:07",
+        "max_value": "40.0",
+        "min_value": "0.0",
+        "tags": [
+          "sensor:ecode=SMS",
+          "sensor:height=-4\"\"",
+          "sensor:instrument=Hydraprobe Analog (2.5 Volt)  - 1 Of 4",
+          "sensor:interval=Instantaneous",
+          "Soil Moisture Percent"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Pct",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "SMS.I-1..-8",
+        "current_value": "30.0",
+        "at": "04/17/2013 14:00:07",
+        "max_value": "40.9",
+        "min_value": "0.0",
+        "tags": [
+          "sensor:ecode=SMS",
+          "sensor:height=-8\"\"",
+          "sensor:instrument=Hydraprobe Analog (2.5 Volt)  - 1 Of 4",
+          "sensor:interval=Instantaneous",
+          "Soil Moisture Percent"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Pct",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "SMS.I-1..-20",
+        "current_value": "14.4",
+        "at": "04/17/2013 14:00:07",
+        "max_value": "45.6",
+        "min_value": "0.0",
+        "tags": [
+          "sensor:ecode=SMS",
+          "sensor:height=-20\"\"",
+          "sensor:instrument=Hydraprobe Analog (2.5 Volt)  - 1 Of 4",
+          "sensor:interval=Instantaneous",
+          "Soil Moisture Percent"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Pct",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "SMS.I-1..-40",
+        "current_value": "40.7",
+        "at": "04/17/2013 14:00:07",
+        "max_value": "40.7",
+        "min_value": "0.0",
+        "tags": [
+          "sensor:ecode=SMS",
+          "sensor:height=-40\"\"",
+          "sensor:instrument=Hydraprobe Analog (2.5 Volt)  - 1 Of 4",
+          "sensor:interval=Instantaneous",
+          "Soil Moisture Percent"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Pct",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "STO.I-1..-2",
+        "current_value": "18.9",
+        "at": "04/17/2013 14:00:07",
+        "max_value": "36.8",
+        "min_value": "0.0",
+        "tags": [
+          "sensor:ecode=STO",
+          "sensor:height=-2\"\"",
+          "sensor:instrument=Hydraprobe Analog (2.5 Volt)  - 1 Of 4",
+          "sensor:interval=Instantaneous",
+          "Soil Temperature Observed"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Degc",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "STO.I-1..-4",
+        "current_value": "18.6",
+        "at": "04/17/2013 14:00:07",
+        "max_value": "87.4",
+        "min_value": "0.0",
+        "tags": [
+          "sensor:ecode=STO",
+          "sensor:height=-4\"\"",
+          "sensor:instrument=Hydraprobe Analog (2.5 Volt)  - 1 Of 4",
+          "sensor:interval=Instantaneous",
+          "Soil Temperature Observed"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Degc",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "STO.I-1..-8",
+        "current_value": "18.3",
+        "at": "04/17/2013 14:00:07",
+        "max_value": "30.4",
+        "min_value": "0.0",
+        "tags": [
+          "sensor:ecode=STO",
+          "sensor:height=-8\"\"",
+          "sensor:instrument=Hydraprobe Analog (2.5 Volt)  - 1 Of 4",
+          "sensor:interval=Instantaneous",
+          "Soil Temperature Observed"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Degc",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "STO.I-1..-20",
+        "current_value": "16.0",
+        "at": "04/17/2013 14:00:07",
+        "max_value": "28.1",
+        "min_value": "0.0",
+        "tags": [
+          "sensor:ecode=STO",
+          "sensor:height=-20\"\"",
+          "sensor:instrument=Hydraprobe Analog (2.5 Volt)  - 1 Of 4",
+          "sensor:interval=Instantaneous",
+          "Soil Temperature Observed"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Degc",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "STO.I-1..-40",
+        "current_value": "14.4",
+        "at": "04/17/2013 14:00:07",
+        "max_value": "30.8",
+        "min_value": "0.0",
+        "tags": [
+          "sensor:ecode=STO",
+          "sensor:height=-40\"\"",
+          "sensor:instrument=Hydraprobe Analog (2.5 Volt)  - 1 Of 4",
+          "sensor:interval=Instantaneous",
+          "Soil Temperature Observed"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Degc",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "RHUM.I-1",
+        "current_value": "80",
+        "at": "04/17/2013 14:00:07",
+        "max_value": "100.0",
+        "min_value": "0.0",
+        "tags": [
+          "Salinity",
+          "sensor:ecode=SAL",
+          "sensor:height=-4\"\"",
+          "sensor:instrument=Hydraprobe Analog (2.5 Volt)  - 1 Of 4",
+          "sensor:interval=Instantaneous"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Gram",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "PRES.I-1",
+        "current_value": "30.35",
+        "at": "11/13/2012 23:00:05",
+        "max_value": "30.55",
+        "min_value": "0.0",
+        "tags": [
+          "Salinity",
+          "sensor:ecode=SAL",
+          "sensor:height=-8\"\"",
+          "sensor:instrument=Hydraprobe Analog (2.5 Volt)  - 1 Of 4",
+          "sensor:interval=Instantaneous"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Gram",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "RHUMN.H-1",
+        "current_value": "80",
+        "at": "04/17/2013 14:00:07",
+        "max_value": "100.0",
+        "min_value": "0.0",
+        "tags": [
+          "Salinity",
+          "sensor:ecode=SAL",
+          "sensor:height=-40\"\"",
+          "sensor:instrument=Hydraprobe Analog (2.5 Volt)  - 1 Of 4",
+          "sensor:interval=Instantaneous"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Gram",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "RHUMX.H-1",
+        "current_value": "83",
+        "at": "04/17/2013 14:00:07",
+        "max_value": "100.0",
+        "min_value": "0.0",
+        "tags": [
+          "Real Dielectric Constant",
+          "sensor:ecode=RDC",
+          "sensor:height=-2\"\"",
+          "sensor:instrument=Hydraprobe Analog (2.5 Volt)  - 1 Of 4",
+          "sensor:interval=Instantaneous"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Unit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "DPTP.H-1",
+        "current_value": "18.3",
+        "at": "04/17/2013 14:00:07",
+        "max_value": "26.0",
+        "min_value": "-14.2",
+        "tags": [
+          "Salinity",
+          "sensor:ecode=SAL",
+          "sensor:height=-8\"\"",
+          "sensor:instrument=Hydraprobe Analog (2.5 Volt)  - 1 Of 4",
+          "sensor:interval=Instantaneous"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Gram",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "PVPV.H-1",
+        "current_value": "2.10",
+        "at": "04/17/2013 14:00:07",
+        "max_value": "3.37",
+        "min_value": "0.0",
+        "tags": [
+          "Salinity",
+          "sensor:ecode=SAL",
+          "sensor:height=-20\"\"",
+          "sensor:instrument=Hydraprobe Analog (2.5 Volt)  - 1 Of 4",
+          "sensor:interval=Instantaneous"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Gram",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "SVPV.H-1",
+        "current_value": "2.57",
+        "at": "04/17/2013 14:00:07",
+        "max_value": "6.96",
+        "min_value": "0.0",
+        "tags": [
+          "Real Dielectric Constant",
+          "sensor:ecode=RDC",
+          "sensor:height=-4\"\"",
+          "sensor:instrument=Hydraprobe Analog (2.5 Volt)  - 1 Of 4",
+          "sensor:interval=Instantaneous"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Unit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "WSPDX.H-1..141",
+        "current_value": "8.0",
+        "at": "04/17/2013 14:00:07",
+        "max_value": "33.6",
+        "min_value": "0.0",
+        "tags": [
+          "Salinity",
+          "sensor:ecode=SAL",
+          "sensor:height=-2\"\"",
+          "sensor:instrument=Hydraprobe Analog (2.5 Volt)  - 1 Of 4",
+          "sensor:interval=Instantaneous"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Gram",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": " Wtars ",
+      "domain": 0,
+      "lat": "34.95",
+      "lon": "-86.5",
+      "ele": "625",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/14645\" >Soil Climate Analysis Network - Site 2053</a>",
+    "URLMostrar": "https://xively.com/feeds/14645"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\14645.json",
+  "DocumentJSON": null
+}

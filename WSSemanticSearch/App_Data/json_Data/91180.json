@@ -1,0 +1,102 @@
+{
+  "Conceptos": [
+    "mp10"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "91180",
+    "title": "Raspberry IZ3DVQ",
+    "Private": false,
+    "tags": [
+      "raspberry pi temperature i2c bus tmp102 bmp085"
+    ],
+    "description": "Test dei sensori TMP102 e BMP085 via I2C bus su scheda Raspberry Pi.",
+    "feed": "https://api.xively.com/v2/feeds/91180.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:11:40",
+    "created": "12/09/2012 21:42:51",
+    "creator": "https://xively.com/users/iz3dvq",
+    "version": null,
+    "website": "http://www.arivv.it",
+    "datastreams": [
+      {
+        "id": "A0_Temperatura-esterna",
+        "current_value": "24.75",
+        "at": "03/21/2014 14:11:33",
+        "max_value": "45.56",
+        "min_value": "0.0",
+        "tags": [
+          "tmp102"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "A1_Pressione",
+        "current_value": "999.84",
+        "at": "03/21/2014 14:11:38",
+        "max_value": "1018.3",
+        "min_value": "969.74",
+        "tags": [
+          "bmp085"
+        ],
+        "unit": {
+          "symbol": "hPa",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "A2_Pressione-livello-mare",
+        "current_value": "1017.04",
+        "at": "03/21/2014 14:11:40",
+        "max_value": "1035.73",
+        "min_value": "986.37",
+        "tags": [
+          "bmp085"
+        ],
+        "unit": {
+          "symbol": "hPa",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "A3_Temperatura-interna",
+        "current_value": "21.30",
+        "at": "03/21/2014 14:11:36",
+        "max_value": "29.2",
+        "min_value": "17.3",
+        "tags": [
+          "bmp085"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Anzano, Cappella Maggiore",
+      "domain": 0,
+      "lat": "45.9848531746017",
+      "lon": "12.3341274261475",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 1
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/91180\" >Raspberry IZ3DVQ</a>",
+    "URLMostrar": "https://xively.com/feeds/91180"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\91180.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,52 @@
+{
+  "Conceptos": [
+    "device"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "55366",
+    "title": "stroomverbruik realtime",
+    "Private": false,
+    "tags": null,
+    "description": "Realtime feed van stroomverbruik, 4 x per minuut geupdated en gemeten met Youless device.",
+    "feed": "https://api.xively.com/v2/feeds/55366.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/21/2014 00:25:07",
+    "created": "04/11/2012 14:58:56",
+    "creator": "https://xively.com/users/gbme",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "1",
+        "current_value": "313",
+        "at": "03/21/2014 00:25:07",
+        "max_value": "20178.0",
+        "min_value": "0.0",
+        "tags": [
+          "power"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "W",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "52.052490476001",
+      "lon": "4.921875",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/55366\" >stroomverbruik realtime</a>",
+    "URLMostrar": "https://xively.com/feeds/55366"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\55366.json",
+  "DocumentJSON": null
+}

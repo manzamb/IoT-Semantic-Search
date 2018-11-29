@@ -1,0 +1,72 @@
+{
+  "Conceptos": [
+    "observation"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "23777",
+    "title": "Air Quality Index: Aberdeen, Washington",
+    "Private": false,
+    "tags": [
+      "airnow:cityid=244",
+      "webscrape"
+    ],
+    "description": "Air Quality Index and pollutant data for Aberdeen, Washington webscraped from http://www.airnow.gov/. AIRNow observational data are not fully verified or validated; these data are subject to change and should be considered preliminary. If observational data are used for analyses, displayed on web pages, or used for other programs or products, the analysis results, displays, or products must indicate that these data are preliminary.",
+    "feed": "https://api.xively.com/v2/feeds/23777.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/21/2014 13:40:59",
+    "created": "04/19/2011 10:41:05",
+    "creator": "https://xively.com/users/air_now",
+    "version": null,
+    "website": "http://www.airnow.gov/",
+    "datastreams": [
+      {
+        "id": "aqi",
+        "current_value": "5",
+        "at": "03/21/2014 13:40:59",
+        "max_value": "131.0",
+        "min_value": "3.0",
+        "tags": [
+          "air quality index",
+          "pollution"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "pm2.5",
+        "current_value": "5",
+        "at": "03/21/2014 13:40:59",
+        "max_value": "108.0",
+        "min_value": "3.0",
+        "tags": [
+          "PM2.5"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Aberdeen, Washington",
+      "domain": 0,
+      "lat": "46.9753708",
+      "lon": "-123.8157218",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/23777\" >Air Quality Index: Aberdeen, Washington</a>",
+    "URLMostrar": "https://xively.com/feeds/23777"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\23777.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,90 @@
+{
+  "Conceptos": [
+    "radioactivity"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "21568",
+    "title": "Radioactivity density at filter plant in Tanigahara",
+    "Private": false,
+    "tags": [
+      "device:type=virtual",
+      "sensor:type=radiation"
+    ],
+    "description": "Feed the data retrieved from http://www.pref.kanagawa.jp. Updated 1 time a day. This feed is UNOFFICIAL and may be stopped by any reason at any time. Use it at your own risk. No guarantee of validity.",
+    "feed": "https://api.xively.com/v2/feeds/21568.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "07/14/2011 13:06:37",
+    "created": "03/28/2011 21:26:19",
+    "creator": "https://xively.com/users/kaku60",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "0.0",
+        "at": "07/14/2011 13:06:36",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "sensor:env=water",
+          "sensor:type=I-131"
+        ],
+        "unit": {
+          "symbol": "Bq/kg",
+          "label": "becquerel per kilogram",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "0.0",
+        "at": "07/14/2011 13:06:36",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "sensor:env=water",
+          "sensor:type=Cs-134"
+        ],
+        "unit": {
+          "symbol": "Bq/kg",
+          "label": "becquerel per kilogram",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "0.0",
+        "at": "07/14/2011 13:06:37",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "sensor:env=water",
+          "sensor:type=Cs-137"
+        ],
+        "unit": {
+          "symbol": "Bq/kg",
+          "label": "becquerel per kilogram ",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Tanigahara, Sagamihara, Kanagawa, Japan",
+      "domain": 0,
+      "lat": "35.5927616270952",
+      "lon": "139.29874420166",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/21568\" >Radioactivity density at filter plant in Tanigahara</a>",
+    "URLMostrar": "https://xively.com/feeds/21568"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\21568.json",
+  "DocumentJSON": null
+}

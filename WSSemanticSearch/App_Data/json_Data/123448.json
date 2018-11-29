@@ -1,0 +1,124 @@
+{
+  "Conceptos": [
+    "co2"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "123448",
+    "title": "6CE873EB08E2",
+    "Private": false,
+    "tags": [
+      "co2",
+      "humidity",
+      "temperature"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/123448.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:15:02",
+    "created": "04/08/2013 15:59:45",
+    "creator": "https://xively.com/users/avonelectric",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "ambT",
+        "current_value": "36.7",
+        "at": "03/21/2014 14:15:02",
+        "max_value": "45.9",
+        "min_value": "30.8",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "co2",
+        "current_value": "1539",
+        "at": "03/21/2014 14:15:02",
+        "max_value": "3720.0",
+        "min_value": "600.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "light",
+        "current_value": "1",
+        "at": "03/21/2014 14:15:02",
+        "max_value": "1.0",
+        "min_value": "1.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "ls1",
+        "current_value": "316",
+        "at": "12/05/2013 23:35:02",
+        "max_value": "734.0",
+        "min_value": "56.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "rh",
+        "current_value": "82.8",
+        "at": "03/21/2014 14:15:02",
+        "max_value": "95.5",
+        "min_value": "74.7",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "up",
+        "current_value": "257",
+        "at": "03/21/2014 14:15:02",
+        "max_value": "2346.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "shop",
+      "domain": 0,
+      "lat": "42.6678914",
+      "lon": "-83.1327332",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/123448\" >6CE873EB08E2</a>",
+    "URLMostrar": "https://xively.com/feeds/123448"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\123448.json",
+  "DocumentJSON": null
+}

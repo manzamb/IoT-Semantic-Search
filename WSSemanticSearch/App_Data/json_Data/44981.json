@@ -1,0 +1,57 @@
+{
+  "Conceptos": [
+    "sensor input"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "44981",
+    "title": "sensor_LLT",
+    "Private": false,
+    "tags": [
+      "LDR or HALL"
+    ],
+    "description": "THE ANALOG INPUT OF MY ARDUINO",
+    "feed": "https://api.xively.com/v2/feeds/44981.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "01/22/2012 06:49:23",
+    "created": "01/21/2012 02:15:46",
+    "creator": "https://xively.com/users/taotao137",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "539.0",
+        "at": "01/22/2012 06:49:23",
+        "max_value": "961.0",
+        "min_value": "0.0",
+        "tags": [
+          "LDR",
+          "light dependent resistor",
+          "light level",
+          "light sensor"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "WUHAN,CHINA",
+      "domain": 0,
+      "lat": "30.5213217861443",
+      "lon": "114.399712085724",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/44981\" >sensor_LLT</a>",
+    "URLMostrar": "https://xively.com/feeds/44981"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\44981.json",
+  "DocumentJSON": null
+}

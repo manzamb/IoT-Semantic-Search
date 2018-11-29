@@ -1,0 +1,68 @@
+{
+  "Conceptos": [
+    "sensor output"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "47662",
+    "title": "Boiler Temps",
+    "Private": false,
+    "tags": null,
+    "description": "Input & output temps on gas-fired boiler, data from arduino + ethernet shield + TMP36 temp sensors  (Currently down for the non-heating season)",
+    "feed": "https://api.xively.com/v2/feeds/47662.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "05/15/2013 22:31:54",
+    "created": "02/10/2012 05:26:53",
+    "creator": "https://xively.com/users/sandeen",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Input",
+        "current_value": "85",
+        "at": "05/15/2013 22:31:54",
+        "max_value": "187.0",
+        "min_value": "67.0",
+        "tags": [
+          "Input Temperature"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Output",
+        "current_value": "85",
+        "at": "05/15/2013 22:31:54",
+        "max_value": "187.0",
+        "min_value": "70.0",
+        "tags": [
+          "Output Temperature"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "F",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "44.9025779962889",
+      "lon": "-93.427734375",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/47662\" >Boiler Temps</a>",
+    "URLMostrar": "https://xively.com/feeds/47662"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\47662.json",
+  "DocumentJSON": null
+}

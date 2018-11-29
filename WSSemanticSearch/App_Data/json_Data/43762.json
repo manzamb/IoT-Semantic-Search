@@ -1,0 +1,230 @@
+{
+  "Conceptos": [
+    "moisture"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "43762",
+    "title": "flud",
+    "Private": false,
+    "tags": [
+      "irrigation",
+      "raspberrypi",
+      "sprinkler"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/43762.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 13:58:31",
+    "created": "01/08/2012 08:35:06",
+    "creator": "https://xively.com/users/jeffkowalski",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "dirtmon1.moisture1",
+        "current_value": "1022",
+        "at": "03/18/2014 15:35:56",
+        "max_value": "1023.0",
+        "min_value": "0.0",
+        "tags": [
+          "moisture"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "dirtmon1.moisture2",
+        "current_value": "1023",
+        "at": "03/18/2014 15:35:57",
+        "max_value": "1023.0",
+        "min_value": "0.0",
+        "tags": [
+          "moisture"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "dirtmon1.vcc1",
+        "current_value": "5.08",
+        "at": "03/18/2014 15:35:56",
+        "max_value": "5.12",
+        "min_value": "1.0",
+        "tags": [
+          "voltage"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "V",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "dirtmon1.vcc2",
+        "current_value": "3.9",
+        "at": "03/18/2014 15:35:56",
+        "max_value": "5.08",
+        "min_value": "1.0",
+        "tags": [
+          "voltage"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "V",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "forecast.rainfall",
+        "current_value": "0",
+        "at": "03/21/2014 13:58:31",
+        "max_value": "5.18",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "in",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "valve.1",
+        "current_value": "0",
+        "at": "03/20/2014 02:26:35",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "valve.2",
+        "current_value": "0",
+        "at": "03/20/2014 02:26:35",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "valve.3",
+        "current_value": "0",
+        "at": "03/20/2014 02:26:34",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "valve.4",
+        "current_value": "0",
+        "at": "03/20/2014 02:26:34",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "valve.5",
+        "current_value": "0",
+        "at": "03/20/2014 02:26:34",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "valve.6",
+        "current_value": "0",
+        "at": "03/20/2014 02:26:33",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "valve.7",
+        "current_value": "0",
+        "at": "03/20/2014 02:26:33",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "valve.8",
+        "current_value": "0",
+        "at": "03/20/2014 02:26:33",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "211 The Uplands",
+      "domain": 0,
+      "lat": "37.8534325699501",
+      "lon": "-122.240452766418",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/43762\" >flud</a>",
+    "URLMostrar": "https://xively.com/feeds/43762"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\43762.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,117 @@
+{
+  "Conceptos": [
+    "wind"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "14534",
+    "title": "Current weather in Kokkola, Finland",
+    "Private": false,
+    "tags": [
+      "humidity",
+      "rain",
+      "temperature",
+      "wind"
+    ],
+    "description": "Gathering Vaisala WXT520 weather station data with wireless sensor network CiNet platform (Jennic JN5418) and Deutschmann UNIGATE IC-Ethernet TCP/IP. The station is located in Kokkola University Consortium Chydenius ( Kokkolan yliopistokeskus Chydenius).",
+    "feed": "https://api.xively.com/v2/feeds/14534.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "02/25/2014 09:49:51",
+    "created": "01/05/2011 19:57:34",
+    "creator": "https://xively.com/users/chydenius",
+    "version": null,
+    "website": "http://www.chydenius.fi/tutkimus/informaatioteknologia",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "5.0",
+        "at": "02/25/2014 09:49:50",
+        "max_value": "27.9",
+        "min_value": "-23.7",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "70.8",
+        "at": "02/25/2014 09:49:50",
+        "max_value": "94.0",
+        "min_value": "0.0",
+        "tags": [
+          "humidity"
+        ],
+        "unit": {
+          "symbol": "%RH",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "1012.5",
+        "at": "02/25/2014 09:49:50",
+        "max_value": "1037.4",
+        "min_value": "0.0",
+        "tags": [
+          "pressure"
+        ],
+        "unit": {
+          "symbol": "Pa",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "200",
+        "at": "02/25/2014 09:49:50",
+        "max_value": "359.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "0.0",
+        "at": "02/25/2014 09:49:50",
+        "max_value": "22.8",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Kokkola",
+      "domain": 0,
+      "lat": "63.8334400597235",
+      "lon": "23.1612396240234",
+      "ele": "30",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/14534\" >Current weather in Kokkola, Finland</a>",
+    "URLMostrar": "https://xively.com/feeds/14534"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\14534.json",
+  "DocumentJSON": null
+}

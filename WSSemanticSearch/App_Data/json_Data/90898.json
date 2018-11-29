@@ -1,0 +1,104 @@
+{
+  "Conceptos": [
+    "moisture"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "90898",
+    "title": "Soil Probe",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "Soil Moisture",
+      "Soil Sensor"
+    ],
+    "description": "This is a Vegetronix VH400 Soil Moisture probe located in my front yard.  It's part of a smart irrigation system I'm building.",
+    "feed": "https://api.xively.com/v2/feeds/90898.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:06:56",
+    "created": "12/08/2012 06:17:40",
+    "creator": "https://xively.com/users/tampapoet",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "SoilMoisture",
+        "current_value": "448",
+        "at": "03/21/2014 14:06:56",
+        "max_value": "777.0",
+        "min_value": "0.0",
+        "tags": [
+          "Moisture"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Reading",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "SoilTemp",
+        "current_value": "70.2",
+        "at": "03/21/2014 14:06:56",
+        "max_value": "185.0",
+        "min_value": "-1768.0",
+        "tags": [
+          "Temp"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "Fahrenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "SoilVolts",
+        "current_value": "2.19",
+        "at": "03/21/2014 14:06:56",
+        "max_value": "3.79",
+        "min_value": "0.0",
+        "tags": [
+          "Volts"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": "Volts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "SoilVWC",
+        "current_value": "49.8",
+        "at": "03/21/2014 14:06:56",
+        "max_value": "91.9",
+        "min_value": "-0.9",
+        "tags": [
+          "Water Content"
+        ],
+        "unit": {
+          "symbol": "VWC",
+          "label": "VWC",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Soil Sensor, Front Yard",
+      "domain": 0,
+      "lat": "27.6640689653845",
+      "lon": "-82.28759765625",
+      "ele": "10",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/90898\" >Soil Probe</a>",
+    "URLMostrar": "https://xively.com/feeds/90898"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\90898.json",
+  "DocumentJSON": null
+}

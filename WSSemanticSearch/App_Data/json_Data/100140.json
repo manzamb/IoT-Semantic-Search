@@ -1,0 +1,55 @@
+{
+  "Conceptos": [
+    "role"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "100140",
+    "title": "Arduinex",
+    "Private": false,
+    "tags": [
+      "all purpose",
+      "arduino"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/100140.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "01/26/2013 17:33:19",
+    "created": "01/24/2013 16:19:34",
+    "creator": "https://xively.com/users/drolex",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "temp_from_thermistor",
+        "current_value": "0.00",
+        "at": "01/26/2013 17:33:19",
+        "max_value": "247.0",
+        "min_value": "0.0",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/100140\" >Arduinex</a>",
+    "URLMostrar": "https://xively.com/feeds/100140"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\100140.json",
+  "DocumentJSON": null
+}

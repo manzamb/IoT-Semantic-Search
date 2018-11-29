@@ -1,0 +1,82 @@
+{
+  "Conceptos": [
+    "configuration"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "49417",
+    "title": "Loxone Test Feed",
+    "Private": false,
+    "tags": [
+      "Home Automation",
+      "Loxone",
+      "Miniserver"
+    ],
+    "description": "This is a feed that everyone may use for testing. The Pachube Example Configuration File that we provide uses an API Key that will allow you to send data to this feed. \r\n\r\nHappy testing!  ",
+    "feed": "https://api.xively.com/v2/feeds/49417.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "09/17/2012 16:36:50",
+    "created": "02/23/2012 07:41:52",
+    "creator": "https://xively.com/users/loxone_uk",
+    "version": null,
+    "website": "http://www.loxone.co.uk",
+    "datastreams": [
+      {
+        "id": "Stream_1",
+        "current_value": "4.0",
+        "at": "01/09/2013 22:37:46",
+        "max_value": "21.7",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "Arbs",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Stream_2",
+        "current_value": "4.0",
+        "at": "01/09/2013 22:37:46",
+        "max_value": "970.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "Arbs",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Stream_3",
+        "current_value": "4.000000",
+        "at": "01/09/2013 22:37:47",
+        "max_value": "65.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "Abrs",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Loxone Headquarters, Kollerschlag Austria",
+      "domain": 0,
+      "lat": "48.6045386818543",
+      "lon": "13.8404130935669",
+      "ele": "680",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/49417\" >Loxone Test Feed</a>",
+    "URLMostrar": "https://xively.com/feeds/49417"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\49417.json",
+  "DocumentJSON": null
+}

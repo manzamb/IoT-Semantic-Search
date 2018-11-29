@@ -1,0 +1,116 @@
+{
+  "Conceptos": [
+    "man"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "403020533",
+    "title": "Heizungsueberwachung",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/403020533.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:13:18",
+    "created": "09/22/2013 15:07:30",
+    "creator": "https://xively.com/users/csdatenlogger",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Aussentemperatur",
+        "current_value": "12.2",
+        "at": "03/21/2014 14:13:18",
+        "max_value": "85.0",
+        "min_value": "-0.9",
+        "tags": [
+          "Aussentemperatur"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Heizungsruecklauf",
+        "current_value": "30.8",
+        "at": "03/21/2014 14:13:18",
+        "max_value": "150.8",
+        "min_value": "-0.1",
+        "tags": [
+          "Heizungsruecklauf"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Heizungszulauf",
+        "current_value": "31.1",
+        "at": "03/21/2014 14:13:18",
+        "max_value": "1046.3",
+        "min_value": "-0.1",
+        "tags": [
+          "Heizungszulauf"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Kesseltemperatur",
+        "current_value": "53.0",
+        "at": "03/21/2014 14:13:18",
+        "max_value": "85.0",
+        "min_value": "-0.1",
+        "tags": [
+          "Kesseltemperatur"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "degree celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Kesselzulauf",
+        "current_value": "33.6",
+        "at": "03/21/2014 14:13:18",
+        "max_value": "85.0",
+        "min_value": "-0.1",
+        "tags": [
+          "Kesselzulauf"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Neuss, Germany",
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/403020533\" >Heizungsueberwachung</a>",
+    "URLMostrar": "https://xively.com/feeds/403020533"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\403020533.json",
+  "DocumentJSON": null
+}

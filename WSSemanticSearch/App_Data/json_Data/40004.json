@@ -1,0 +1,61 @@
+{
+  "Conceptos": [
+    "system"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "40004",
+    "title": "Bandon FEWS",
+    "Private": false,
+    "tags": [
+      "flood",
+      "river",
+      "tide",
+      "water",
+      "weather"
+    ],
+    "description": "Bandon Flood Early Warning System. This is the river level at the Bandon bridge.",
+    "feed": "https://api.xively.com/v2/feeds/40004.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 13:59:33",
+    "created": "11/19/2011 19:44:43",
+    "creator": "https://xively.com/users/conoro",
+    "version": null,
+    "website": "http://www.bandonfloodwarning.ie/",
+    "datastreams": [
+      {
+        "id": "1",
+        "current_value": "0.27",
+        "at": "03/21/2014 13:59:33",
+        "max_value": "2.64",
+        "min_value": "-0.21",
+        "tags": [
+          "flood",
+          "level",
+          "river",
+          "tide"
+        ],
+        "unit": {
+          "symbol": "m",
+          "label": "m",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Bandon, Cork, Ireland",
+      "domain": 0,
+      "lat": "51.7464488827464",
+      "lon": "-8.7351930141449",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/40004\" >Bandon FEWS</a>",
+    "URLMostrar": "https://xively.com/feeds/40004"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\40004.json",
+  "DocumentJSON": null
+}

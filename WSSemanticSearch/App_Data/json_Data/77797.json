@@ -1,0 +1,344 @@
+{
+  "Conceptos": [
+    "piano"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "77797",
+    "title": "Tetto Meridionale Impianti - Scheda String Control",
+    "Private": false,
+    "tags": [
+      "Irraggiamento",
+      "Meridionale Impianti",
+      "String Control"
+    ],
+    "description": "Valori ottenuti con String Control MI (nella versione Cloud) Correnti di Stringa + Tensione + Temperatura + IO Analogici e Digitali + Irraggiamento sul piano dei pannelli solari",
+    "feed": "https://api.xively.com/v2/feeds/77797.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "08/12/2013 12:19:50",
+    "created": "09/28/2012 09:32:37",
+    "creator": "https://xively.com/users/antoniokz",
+    "version": null,
+    "website": "http://www.merimp.com",
+    "datastreams": [
+      {
+        "id": "Aux1I",
+        "current_value": "7.12",
+        "at": "08/12/2013 12:19:49",
+        "max_value": "8.97",
+        "min_value": "2.3",
+        "tags": [
+          "Ingresso di Corrente Ausiliario 1"
+        ],
+        "unit": {
+          "symbol": "mA",
+          "label": "Corrente",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Aux1V",
+        "current_value": "0.00",
+        "at": "08/12/2013 12:19:49",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "Ingresso di Tensione Ausiliario 1"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": "Tensione",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Aux2I",
+        "current_value": "0.00",
+        "at": "08/12/2013 12:19:49",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "Ingresso di Corrente Ausiliario 2"
+        ],
+        "unit": {
+          "symbol": "mA",
+          "label": "Corrente",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Aux2V",
+        "current_value": "0.00",
+        "at": "08/12/2013 12:19:49",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "Ingresso di Tensione Ausiliario 2"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": "Tensione",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "D1In",
+        "current_value": "0",
+        "at": "08/12/2013 12:19:49",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "Ingresso Digitale 1"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "D1Out",
+        "current_value": "0",
+        "at": "08/12/2013 12:19:49",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "Uscita Digitale 1"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "D2In",
+        "current_value": "0",
+        "at": "08/12/2013 12:19:49",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "Ingresso Digitale 2"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "D2Out",
+        "current_value": "0",
+        "at": "08/12/2013 12:19:49",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "Uscita Digitale 2"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "I1",
+        "current_value": "0.00",
+        "at": "08/12/2013 12:19:49",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "Corrente Stringa 1"
+        ],
+        "unit": {
+          "symbol": "A",
+          "label": "Ampere",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "I2",
+        "current_value": "0.00",
+        "at": "08/12/2013 12:19:49",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "Corrente Stringa 2"
+        ],
+        "unit": {
+          "symbol": "A",
+          "label": "Ampere",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "I3",
+        "current_value": "0.00",
+        "at": "08/12/2013 12:19:49",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "Corrente Stringa 3"
+        ],
+        "unit": {
+          "symbol": "A",
+          "label": "Ampere",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "I4",
+        "current_value": "0.00",
+        "at": "08/12/2013 12:19:49",
+        "max_value": "4.44",
+        "min_value": "0.0",
+        "tags": [
+          "Corrente Stringa 4"
+        ],
+        "unit": {
+          "symbol": "A",
+          "label": "Ampere",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "I5",
+        "current_value": "0.00",
+        "at": "08/12/2013 12:19:49",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "Corrente Stringa 5"
+        ],
+        "unit": {
+          "symbol": "A",
+          "label": "Ampere",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "I6",
+        "current_value": "0.00",
+        "at": "08/12/2013 12:19:49",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "Corrente Stringa 6"
+        ],
+        "unit": {
+          "symbol": "A",
+          "label": "Ampere",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "I7",
+        "current_value": "0.00",
+        "at": "08/12/2013 12:19:49",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "Corrente Stringa 7"
+        ],
+        "unit": {
+          "symbol": "A",
+          "label": "Ampere",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "I8",
+        "current_value": "0.00",
+        "at": "08/12/2013 12:19:49",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "Corrente Stringa 8"
+        ],
+        "unit": {
+          "symbol": "A",
+          "label": "Ampere",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "IRR",
+        "current_value": "763",
+        "at": "08/12/2013 12:19:49",
+        "max_value": "1218.0",
+        "min_value": "0.0",
+        "tags": [
+          "Irraggiamento"
+        ],
+        "unit": {
+          "symbol": "W/mq",
+          "label": "W/mq",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "T",
+        "current_value": "42.16",
+        "at": "08/12/2013 12:19:49",
+        "max_value": "49.89",
+        "min_value": "6.39",
+        "tags": [
+          "Temperatura a Bordo Scheda"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "° Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "VS",
+        "current_value": "0.00",
+        "at": "08/12/2013 12:19:49",
+        "max_value": "443.8",
+        "min_value": "0.0",
+        "tags": [
+          "Tensione // di Stringhe"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": "Tensione",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "37.5310793223394",
+      "lon": "14.975266456604",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/77797\" >Tetto Meridionale Impianti - Scheda String Control</a>",
+    "URLMostrar": "https://xively.com/feeds/77797"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\77797.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,52 @@
+{
+  "Conceptos": [
+    "surface"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "1140951116",
+    "title": "Water Level Detector",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/1140951116.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "09/12/2013 05:44:37",
+    "created": "08/24/2013 04:39:41",
+    "creator": "https://xively.com/users/safecastjp",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "waterLevelSensor",
+        "current_value": "330.00",
+        "at": "09/12/2013 05:44:37",
+        "max_value": "395.0",
+        "min_value": "55.0",
+        "tags": [
+          "distance to water surface"
+        ],
+        "unit": {
+          "symbol": "mm",
+          "label": "mm",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/1140951116\" >Water Level Detector</a>",
+    "URLMostrar": "https://xively.com/feeds/1140951116"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\1140951116.json",
+  "DocumentJSON": null
+}

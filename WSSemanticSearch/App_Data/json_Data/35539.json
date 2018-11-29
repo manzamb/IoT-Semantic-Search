@@ -1,0 +1,84 @@
+{
+  "Conceptos": [
+    "platform"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "35539",
+    "title": "Potentiometer Control",
+    "Private": false,
+    "tags": [
+      "ARCH1391"
+    ],
+    "description": "Data extracted from the potentiometer attached to the arduino. My project aims to create a set of interactive platforms that respond to direct human input represented by the potentiometer",
+    "feed": "https://api.xively.com/v2/feeds/35539.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "09/12/2011 07:31:54",
+    "created": "09/12/2011 00:55:14",
+    "creator": "https://xively.com/users/ceskar",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "357.0",
+        "at": "09/12/2011 07:31:54",
+        "max_value": "1023.0",
+        "min_value": "183.0",
+        "tags": [
+          "potentiometer"
+        ],
+        "unit": {
+          "symbol": "°",
+          "label": "Degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "93462.0",
+        "at": "09/12/2011 07:31:54",
+        "max_value": "93462.0",
+        "min_value": "10004.0",
+        "tags": [
+          "timer"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "_245",
+        "at": "09/12/2011 01:11:03",
+        "max_value": null,
+        "min_value": null,
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "UNSW, Sydney, Australia",
+      "domain": 1,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/35539\" >Potentiometer Control</a>",
+    "URLMostrar": "https://xively.com/feeds/35539"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\35539.json",
+  "DocumentJSON": null
+}

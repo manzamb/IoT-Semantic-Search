@@ -1,0 +1,388 @@
+{
+  "Conceptos": [
+    "frequency"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "76651",
+    "title": "Cleeve Power",
+    "Private": false,
+    "tags": [
+      "Volts Frequency UV Temperature solar"
+    ],
+    "description": "Power going into, and out of House in Bishops Cleeve",
+    "feed": "https://api.xively.com/v2/feeds/76651.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:09:04",
+    "created": "09/20/2012 15:42:16",
+    "creator": "https://xively.com/users/cleeve",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Bandwidth-Down",
+        "current_value": "11551",
+        "at": "03/21/2014 14:09:01",
+        "max_value": "14892.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "K",
+          "label": "Kpbs",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Bandwidth-Up",
+        "current_value": "1066",
+        "at": "03/21/2014 14:09:01",
+        "max_value": "1178.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "K",
+          "label": "Kpbs",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "C-Free",
+        "current_value": "C:",
+        "at": "12/27/2012 16:30:31",
+        "max_value": null,
+        "min_value": null,
+        "tags": null,
+        "unit": {
+          "symbol": "B",
+          "label": "Bytes",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "E-Free",
+        "current_value": "E:",
+        "at": "12/27/2012 16:30:31",
+        "max_value": null,
+        "min_value": null,
+        "tags": null,
+        "unit": {
+          "symbol": "B",
+          "label": "Bytes",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Energy-Exported",
+        "current_value": "1397",
+        "at": "03/21/2014 14:09:01",
+        "max_value": "32493.0",
+        "min_value": "-5320.0",
+        "tags": null,
+        "unit": {
+          "symbol": "W",
+          "label": "Watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Energy-Used",
+        "current_value": "246",
+        "at": "03/21/2014 14:09:01",
+        "max_value": "5460.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "W",
+          "label": "Watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Frequency",
+        "current_value": "50.00",
+        "at": "03/21/2014 14:09:01",
+        "max_value": "50.0",
+        "min_value": "49.75",
+        "tags": null,
+        "unit": {
+          "symbol": "Hz",
+          "label": "Hertz",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Gas",
+        "current_value": "0",
+        "at": "03/21/2014 14:09:01",
+        "max_value": "44539.0967333333",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "kw",
+          "label": "kilowatt",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Gas-Used",
+        "current_value": "3.86529999999999",
+        "at": "03/21/2014 14:09:01",
+        "max_value": "38.6555333333329",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "kwh",
+          "label": "kilowatt hour",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "G-Free",
+        "current_value": "G:",
+        "at": "12/27/2012 16:30:31",
+        "max_value": null,
+        "min_value": null,
+        "tags": null,
+        "unit": {
+          "symbol": "B",
+          "label": "Bytes",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Humidity",
+        "current_value": "50",
+        "at": "03/21/2014 14:09:03",
+        "max_value": "100.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "pc",
+          "label": "Percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Power-Generated",
+        "current_value": "6020",
+        "at": "03/21/2014 14:09:01",
+        "max_value": "14143.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "Wh",
+          "label": "Watt Hours",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Power-Used",
+        "current_value": "3985",
+        "at": "03/21/2014 14:09:01",
+        "max_value": "19466.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "Wh",
+          "label": "Watt Hours",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Pressure",
+        "current_value": "1007.0",
+        "at": "03/21/2014 14:09:03",
+        "max_value": "1043.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "mb",
+          "label": "Millibar",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Rainfall-Rate",
+        "current_value": "2.0",
+        "at": "03/21/2014 14:09:03",
+        "max_value": "337.7",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "mm/h",
+          "label": "Milimetre/ Sec",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Rainfall-Today",
+        "current_value": "1.0",
+        "at": "03/21/2014 14:09:03",
+        "max_value": "946.4",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "mm",
+          "label": "Milimetre",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Solar-Energy-Generated",
+        "current_value": "1643",
+        "at": "03/21/2014 14:09:01",
+        "max_value": "32767.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "W",
+          "label": "Watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperature",
+        "current_value": "11.7",
+        "at": "03/21/2014 14:09:03",
+        "max_value": "36.0",
+        "min_value": "-4.2",
+        "tags": null,
+        "unit": {
+          "symbol": "C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperature-1",
+        "current_value": "19.1",
+        "at": "03/21/2014 14:09:03",
+        "max_value": "27.8",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperature-2",
+        "current_value": "19.1",
+        "at": "03/21/2014 14:09:03",
+        "max_value": "174.8",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperature-3",
+        "current_value": "22.2",
+        "at": "03/21/2014 14:09:03",
+        "max_value": "180.1",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Ultraviolet",
+        "current_value": "4",
+        "at": "03/21/2014 14:09:03",
+        "max_value": "31.5",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "Index",
+          "label": "UV Index",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "UPS-Utilisation",
+        "current_value": "14.9",
+        "at": "03/21/2014 14:09:01",
+        "max_value": "61.1",
+        "min_value": "13.6",
+        "tags": null,
+        "unit": {
+          "symbol": "PC",
+          "label": "Percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Voltage",
+        "current_value": "239.0",
+        "at": "03/21/2014 14:09:01",
+        "max_value": "247.6",
+        "min_value": "214.5",
+        "tags": null,
+        "unit": {
+          "symbol": "V",
+          "label": "Volts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Wind-Speed",
+        "current_value": "11.7",
+        "at": "03/21/2014 14:09:03",
+        "max_value": "83.4",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "km/s",
+          "label": "Kilometre/ Sec",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Bishops Cleeve",
+      "domain": 0,
+      "lat": "51.9470160323101",
+      "lon": "-2.06336975097656",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/76651\" >Cleeve Power</a>",
+    "URLMostrar": "https://xively.com/feeds/76651"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\76651.json",
+  "DocumentJSON": null
+}

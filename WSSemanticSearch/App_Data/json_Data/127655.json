@@ -1,0 +1,118 @@
+{
+  "Conceptos": [
+    "co2"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "127655",
+    "title": "RTR-576",
+    "Private": false,
+    "tags": [
+      "温度、湿度、CO2"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/127655.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "07/30/2013 06:17:23",
+    "created": "04/25/2013 14:44:09",
+    "creator": "https://xively.com/users/arina",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "1",
+        "current_value": "0",
+        "at": "07/30/2013 06:17:23",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "電池残量"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "100",
+        "at": "07/30/2013 06:17:23",
+        "max_value": "100.0",
+        "min_value": "100.0",
+        "tags": [
+          "RSSI（電波強度）"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "426",
+        "at": "07/30/2013 06:17:23",
+        "max_value": "3051.0",
+        "min_value": "255.0",
+        "tags": [
+          "CO2"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "ppm",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "30.9",
+        "at": "07/30/2013 06:17:23",
+        "max_value": "56.6",
+        "min_value": "9.2",
+        "tags": [
+          "温度"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "℃",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "70",
+        "at": "07/30/2013 06:17:23",
+        "max_value": "100.0",
+        "min_value": "18.0",
+        "tags": [
+          "湿度"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "32.9282567",
+      "lon": "130.5595011",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/127655\" >RTR-576</a>",
+    "URLMostrar": "https://xively.com/feeds/127655"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\127655.json",
+  "DocumentJSON": null
+}

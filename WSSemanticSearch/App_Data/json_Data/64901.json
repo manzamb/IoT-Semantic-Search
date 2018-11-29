@@ -1,0 +1,68 @@
+{
+  "Conceptos": [
+    "task"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "64901",
+    "title": "gpio",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/64901.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "09/21/2012 10:21:42",
+    "created": "06/26/2012 09:58:43",
+    "creator": "https://xively.com/users/taskitcosm",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "AI",
+        "current_value": "49.25",
+        "at": "03/07/2013 10:31:33",
+        "max_value": "4096.0",
+        "min_value": "0.0",
+        "tags": [
+          "show the status of the channel 5"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "mV",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Relais",
+        "current_value": "0",
+        "at": "03/07/2013 09:26:32",
+        "max_value": "2.0",
+        "min_value": "-1.0",
+        "tags": [
+          "change the status of the relay 4"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/64901\" >gpio</a>",
+    "URLMostrar": "https://xively.com/feeds/64901"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\64901.json",
+  "DocumentJSON": null
+}

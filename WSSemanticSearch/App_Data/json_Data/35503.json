@@ -1,0 +1,70 @@
+{
+  "Conceptos": [
+    "platform"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "35503",
+    "title": "Button Pressed Feed",
+    "Private": false,
+    "tags": [
+      "ARCH1391"
+    ],
+    "description": "Feed collects data from push buttoninput. The Arduino platform with set of input collect data and send to Pachube Feed by analog pin 0 and 1 input.",
+    "feed": "https://api.xively.com/v2/feeds/35503.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "09/12/2011 04:39:11",
+    "created": "09/11/2011 12:35:28",
+    "creator": "https://xively.com/users/3326192unsw",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "1023.0",
+        "at": "09/12/2011 04:39:11",
+        "max_value": "1023.0",
+        "min_value": "1.0",
+        "tags": [
+          "push button"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "177400.0",
+        "at": "09/12/2011 04:39:11",
+        "max_value": "448143.0",
+        "min_value": "3327.0",
+        "tags": [
+          "timer"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "UNSW, Sydney, NSW, Australia",
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/35503\" >Button Pressed Feed</a>",
+    "URLMostrar": "https://xively.com/feeds/35503"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\35503.json",
+  "DocumentJSON": null
+}

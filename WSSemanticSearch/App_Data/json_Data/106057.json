@@ -1,0 +1,178 @@
+{
+  "Conceptos": [
+    "system"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "106057",
+    "title": "devpi@G7RUH",
+    "Private": false,
+    "tags": [
+      "data gathering",
+      "development system",
+      "model b",
+      "raspberry pi"
+    ],
+    "description": "Development system for writing software. This will contain new and interesting sensors as I learn how to program in BASH and Python.\r\nLight reading from voltage divider and light dependent resistor using an ADC in 10-bit mode",
+    "feed": "https://api.xively.com/v2/feeds/106057.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:10:04",
+    "created": "02/21/2013 15:56:31",
+    "creator": "https://xively.com/users/g7ruh",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "devpi_cpu_load",
+        "current_value": "0.35",
+        "at": "03/21/2014 14:10:02",
+        "max_value": "6.21",
+        "min_value": "0.01",
+        "tags": [
+          "",
+          "cpu load",
+          "model B Rev 2",
+          "raspberry pi"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "devpi_cpu_temp",
+        "current_value": "42.236",
+        "at": "03/21/2014 14:10:02",
+        "max_value": "85.0",
+        "min_value": "0.0",
+        "tags": [
+          "cpu temp",
+          "model B Rev 2",
+          "raspberry pi"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Deg C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "devpi_floating_temp",
+        "current_value": "11.75",
+        "at": "03/21/2014 14:10:02",
+        "max_value": "82.3125",
+        "min_value": "-127.688",
+        "tags": [
+          "DS18B20",
+          "raspberry pi"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Deg C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "devpi_light_level",
+        "current_value": "959",
+        "at": "03/21/2014 14:10:01",
+        "max_value": "2047.0",
+        "min_value": "0.0",
+        "tags": [
+          "3002 ADC",
+          "LDR",
+          "light sensor"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "x",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "devpi_lux",
+        "current_value": "3185",
+        "at": "03/21/2014 08:32:25",
+        "max_value": "18082.0",
+        "min_value": "0.0",
+        "tags": [
+          "tsl2561 lux sensor"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "lux",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "devpi_lux_ambient",
+        "current_value": "104725",
+        "at": "03/21/2014 08:32:25",
+        "max_value": "594832.0",
+        "min_value": "0.0001",
+        "tags": [
+          "tsl2561 lux sensor"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "x",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "devpi_lux_ir",
+        "current_value": "34998",
+        "at": "03/21/2014 08:32:25",
+        "max_value": "594816.0",
+        "min_value": "0.0",
+        "tags": [
+          "tsl2561 lux sensor IR"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "x",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "devpi_onboard_temp",
+        "current_value": "18.5625",
+        "at": "03/21/2014 14:10:04",
+        "max_value": "82.9375",
+        "min_value": "-128.0",
+        "tags": [
+          "DS18B20",
+          "raspberry pi"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Deg C",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/106057\" >devpi@G7RUH</a>",
+    "URLMostrar": "https://xively.com/feeds/106057"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\106057.json",
+  "DocumentJSON": null
+}

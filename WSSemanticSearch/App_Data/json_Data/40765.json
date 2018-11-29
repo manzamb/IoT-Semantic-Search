@@ -1,0 +1,107 @@
+{
+  "Conceptos": [
+    "configuration"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "40765",
+    "title": "Sensor Pack 2",
+    "Private": false,
+    "tags": [
+      "light",
+      "movement",
+      "sensor",
+      "social",
+      "sound",
+      "temperature"
+    ],
+    "description": "Social sensor packs detect social activity at the Edge. The current configuration contains light level, temperature, sound level and movement.",
+    "feed": "https://api.xively.com/v2/feeds/40765.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "11/30/2011 05:28:15",
+    "created": "11/30/2011 05:28:15",
+    "creator": "https://xively.com/users/slqedge",
+    "version": null,
+    "website": "http://edgeqld.org.au/",
+    "datastreams": [
+      {
+        "id": "light",
+        "current_value": null,
+        "at": "11/30/2011 05:28:15",
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "light"
+        ],
+        "unit": {
+          "symbol": "lm",
+          "label": "lumen",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "motion",
+        "current_value": null,
+        "at": "11/30/2011 05:28:15",
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "motion"
+        ],
+        "unit": {
+          "symbol": "M",
+          "label": "motion",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "sound",
+        "current_value": null,
+        "at": "11/30/2011 05:28:15",
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "sound"
+        ],
+        "unit": {
+          "symbol": "dB",
+          "label": "sound level",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temp",
+        "current_value": null,
+        "at": "11/30/2011 05:28:15",
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "The Edge, State Library of Queensland, QLD, Australia",
+      "domain": 0,
+      "lat": "-27.4726286790801",
+      "lon": "153.019552230835",
+      "ele": "Metres",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/40765\" >Sensor Pack 2</a>",
+    "URLMostrar": "https://xively.com/feeds/40765"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\40765.json",
+  "DocumentJSON": null
+}

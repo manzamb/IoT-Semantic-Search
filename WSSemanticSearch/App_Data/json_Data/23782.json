@@ -1,0 +1,88 @@
+{
+  "Conceptos": [
+    "ozone"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "23782",
+    "title": "Air Quality Index: Shelton, Washington",
+    "Private": false,
+    "tags": [
+      "airnow:cityid=259",
+      "webscrape"
+    ],
+    "description": "Air Quality Index and pollutant data for Shelton, Washington webscraped from http://www.airnow.gov/. AIRNow observational data are not fully verified or validated; these data are subject to change and should be considered preliminary. If observational data are used for analyses, displayed on web pages, or used for other programs or products, the analysis results, displays, or products must indicate that these data are preliminary.",
+    "feed": "https://api.xively.com/v2/feeds/23782.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/21/2014 13:41:11",
+    "created": "04/19/2011 10:41:39",
+    "creator": "https://xively.com/users/air_now",
+    "version": null,
+    "website": "http://www.airnow.gov/",
+    "datastreams": [
+      {
+        "id": "aqi",
+        "current_value": "15",
+        "at": "03/21/2014 13:41:10",
+        "max_value": "152.0",
+        "min_value": "0.0",
+        "tags": [
+          "air quality index",
+          "pollution"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "ozone",
+        "current_value": "21",
+        "at": "10/01/2013 20:39:36",
+        "max_value": "48.0",
+        "min_value": "0.0",
+        "tags": [
+          "ozone"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "pm2.5",
+        "current_value": "15",
+        "at": "03/21/2014 13:41:10",
+        "max_value": "152.0",
+        "min_value": "3.0",
+        "tags": [
+          "PM2.5"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Shelton, Washington",
+      "domain": 0,
+      "lat": "47.2150945",
+      "lon": "-123.1007066",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/23782\" >Air Quality Index: Shelton, Washington</a>",
+    "URLMostrar": "https://xively.com/feeds/23782"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\23782.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,84 @@
+{
+  "Conceptos": [
+    "pst"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "87138",
+    "title": "ImpStatusPush",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/87138.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "11/19/2012 21:19:01",
+    "created": "11/19/2012 21:16:16",
+    "creator": "https://xively.com/users/tpiikivi",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Count",
+        "current_value": "266",
+        "at": "11/28/2012 18:36:15",
+        "max_value": "101419.0",
+        "min_value": "0.0",
+        "tags": [
+          "counter"
+        ],
+        "unit": {
+          "symbol": "i",
+          "label": "i",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Signal",
+        "current_value": "-76",
+        "at": "11/28/2012 18:36:15",
+        "max_value": "-66.0",
+        "min_value": "-91.0",
+        "tags": [
+          "signal"
+        ],
+        "unit": {
+          "symbol": "dB",
+          "label": "dB",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Voltage",
+        "current_value": "3.263",
+        "at": "11/28/2012 18:36:05",
+        "max_value": "15715.0",
+        "min_value": "0.0",
+        "tags": [
+          "voltage"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "v",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/87138\" >ImpStatusPush</a>",
+    "URLMostrar": "https://xively.com/feeds/87138"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\87138.json",
+  "DocumentJSON": null
+}

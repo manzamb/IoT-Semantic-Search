@@ -1,0 +1,188 @@
+{
+  "Conceptos": [
+    "role"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "74382",
+    "title": "Arduino Ethernet #1",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "Controleur température pour batterie élevage crevettes",
+      "DHT11",
+      "DS18B20",
+      "MQ-2"
+    ],
+    "description": "Quelques essais de mes capteurs reliés à un Arduino Ethernet",
+    "feed": "https://api.xively.com/v2/feeds/74382.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/15/2014 05:49:41",
+    "created": "09/07/2012 15:22:33",
+    "creator": "https://xively.com/users/agoraqua",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "GazFumée",
+        "current_value": "608.00",
+        "at": "03/15/2014 05:49:41",
+        "max_value": "930.0",
+        "min_value": "32.0",
+        "tags": [
+          "MQ-2"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "HumiditeAmbiante",
+        "current_value": "0.00",
+        "at": "03/15/2014 05:49:41",
+        "max_value": "100.0",
+        "min_value": "0.0",
+        "tags": [
+          "DHT11"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "HumiditeAmbiante2",
+        "current_value": "0.00",
+        "at": "03/15/2014 05:49:41",
+        "max_value": "85.6",
+        "min_value": "0.0",
+        "tags": [
+          "AM2302",
+          "DHT22"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "HumiditeAmbiante3",
+        "current_value": "0.00",
+        "at": "03/15/2014 05:49:41",
+        "max_value": "83.0",
+        "min_value": "0.0",
+        "tags": [
+          "DHT11"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "LumiereAmbiante",
+        "current_value": "7.72",
+        "at": "03/15/2014 05:49:41",
+        "max_value": "100.0",
+        "min_value": "1.37",
+        "tags": [
+          "Photo-résistance"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "TemperatureAmbiante",
+        "current_value": "24.00",
+        "at": "03/15/2014 05:49:41",
+        "max_value": "31.12",
+        "min_value": "-127.0",
+        "tags": [
+          "DS18B20"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "TemperatureAmbiante2",
+        "current_value": "0.00",
+        "at": "03/15/2014 05:49:41",
+        "max_value": "29.5",
+        "min_value": "0.0",
+        "tags": [
+          "AM2302",
+          "DHT22"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "TemperatureAmbiante3",
+        "current_value": "0.00",
+        "at": "03/15/2014 05:49:41",
+        "max_value": "27.0",
+        "min_value": "0.0",
+        "tags": [
+          "DHT11"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "TemperatureAmbiante4",
+        "current_value": "0.00",
+        "at": "03/15/2014 05:49:41",
+        "max_value": "28.0",
+        "min_value": "0.0",
+        "tags": [
+          "DH11"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "48.6890764582247",
+      "lon": "2.38786339759827",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/74382\" >Arduino Ethernet #1</a>",
+    "URLMostrar": "https://xively.com/feeds/74382"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\74382.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,148 @@
+{
+  "Conceptos": [
+    "sensing"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "41032",
+    "title": "PV peninsula status",
+    "Private": false,
+    "tags": null,
+    "description": "2x 2xLiFePo4 60Ah in series (4 in total). Volts on battery and amps in (from PV).\r\n1x BZ MPPT500 Solar Charge Control\r\n1x Meanwell TS-1500. AC Volts (*10 for better visualization), Load, Battery Volts, inverter temperature.\r\n3x 185Wp PV\r\n\r\nMeasured  by Arduino UNO every 10seconds. Current measurements by AttoPilot sensing PCB.\r\n\r\n30Day zoomable  chart here:  http://biodynamika.cz/blog/content/static/graph.html",
+    "feed": "https://api.xively.com/v2/feeds/41032.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "08/21/2013 09:25:26",
+    "created": "12/03/2011 16:29:14",
+    "creator": "https://xively.com/users/vanous",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "25.70",
+        "at": "08/21/2013 09:25:26",
+        "max_value": "27.84",
+        "min_value": "21.35",
+        "tags": [
+          "volts"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "V",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "0.11",
+        "at": "08/21/2013 09:25:26",
+        "max_value": "23.15",
+        "min_value": "0.0",
+        "tags": [
+          "amps"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "A",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "0.00",
+        "at": "08/21/2013 09:25:26",
+        "max_value": "24.3",
+        "min_value": "0.0",
+        "tags": [
+          "meanwell acv (/10)"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "V",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "00.0",
+        "at": "08/21/2013 09:25:26",
+        "max_value": "28.1",
+        "min_value": "0.0",
+        "tags": [
+          "meanwell batv"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "V",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "000",
+        "at": "08/21/2013 09:25:26",
+        "max_value": "100.0",
+        "min_value": "0.0",
+        "tags": [
+          "meanwell load"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "00.0",
+        "at": "08/21/2013 09:25:26",
+        "max_value": "41.0",
+        "min_value": "0.0",
+        "tags": [
+          "meanwell temp"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "17.8",
+        "at": "08/21/2013 09:25:26",
+        "max_value": "30.6",
+        "min_value": "15.1",
+        "tags": [
+          "single battery"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "V",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "49.7035562941765",
+      "lon": "16.8927240371704",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/41032\" >PV peninsula status</a>",
+    "URLMostrar": "https://xively.com/feeds/41032"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\41032.json",
+  "DocumentJSON": null
+}

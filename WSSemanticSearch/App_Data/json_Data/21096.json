@@ -1,0 +1,55 @@
+{
+  "Conceptos": [
+    "community"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "21096",
+    "title": "1220000003: Sakuragaike community hall Omaezaki City",
+    "Private": false,
+    "tags": [
+      "sensor:type=radiation",
+      "webscrape"
+    ],
+    "description": "Data, updated every 10mins, provided by Marian Steinbach http://www.sendung.de/japan-radiation-open-data/, webscraped from http://www.bousai.ne.jp/eng/",
+    "feed": "https://api.xively.com/v2/feeds/21096.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/21/2014 13:50:00",
+    "created": "03/20/2011 18:58:51",
+    "creator": "https://xively.com/users/geiger_data",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "radiation",
+        "current_value": "48",
+        "at": "03/21/2014 13:50:00",
+        "max_value": "100.0",
+        "min_value": "0.0",
+        "tags": [
+          "radiation"
+        ],
+        "unit": {
+          "symbol": "nGy/h",
+          "label": "nano Gray per hour",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Sakuragaike community hall, Shizuoka",
+      "domain": 0,
+      "lat": "34.6366643916667",
+      "lon": "138.141944902778",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/21096\" >1220000003: Sakuragaike community hall Omaezaki City</a>",
+    "URLMostrar": "https://xively.com/feeds/21096"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\21096.json",
+  "DocumentJSON": null
+}

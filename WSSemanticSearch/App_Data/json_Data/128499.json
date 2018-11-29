@@ -1,0 +1,71 @@
+{
+  "Conceptos": [
+    "biome"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "128499",
+    "title": "BobFinal",
+    "Private": false,
+    "tags": [
+      "biometrics",
+      "heartbeat",
+      "light",
+      "photosensor",
+      "pulse",
+      "sensemakers"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/128499.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "05/13/2013 18:00:36",
+    "created": "04/30/2013 19:31:47",
+    "creator": "https://xively.com/users/bfata",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Light",
+        "current_value": "5",
+        "at": "05/14/2013 20:50:32",
+        "max_value": "685.0",
+        "min_value": "5.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Pulse",
+        "current_value": "79",
+        "at": "05/14/2013 20:32:49",
+        "max_value": "238.0",
+        "min_value": "41.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/128499\" >BobFinal</a>",
+    "URLMostrar": "https://xively.com/feeds/128499"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\128499.json",
+  "DocumentJSON": null
+}

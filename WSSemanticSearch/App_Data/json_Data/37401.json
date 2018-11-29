@@ -1,0 +1,71 @@
+{
+  "Conceptos": [
+    "condition"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "37401",
+    "title": "Home sensors",
+    "Private": false,
+    "tags": [
+      "light",
+      "temperature"
+    ],
+    "description": "NOW INACTIVE - after a 6 month spell in use.\r\n\r\n\r\nA small feed with two sensors - one is a DS18B20 digital temperature sensor while the other is a simple LDR (light-dependent resistor). These are attached to an Arduino with Ethernet shield and a small Linksys WET11 bridge which allows me to place them anywhere in and around the house. Every 15/20 seconds the Arduino reads the sensors and attempts to send the values to Pachube. The DS18B20 provides a direct reading of the temperature while the LDR has been roughly calibrated so that 0 (zero) represents darkness while 250 is for bright light conditions.\r\n[NOTE - location is not my home but simply the middle of the town.]",
+    "feed": "https://api.xively.com/v2/feeds/37401.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "10/29/2012 23:36:44",
+    "created": "10/14/2011 19:27:56",
+    "creator": "https://xively.com/users/ccspk",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "1",
+        "current_value": "19.37",
+        "at": "10/29/2012 23:36:44",
+        "max_value": "26.5",
+        "min_value": "-9.87",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "27",
+        "at": "10/29/2012 23:36:44",
+        "max_value": "250.0",
+        "min_value": "0.0",
+        "tags": [
+          "light"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Hoddesdon, UK",
+      "domain": 0,
+      "lat": "51.761379158685",
+      "lon": "-0.0115013122558594",
+      "ele": "5",
+      "exposure": 0,
+      "disposition": 1
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/37401\" >Home sensors</a>",
+    "URLMostrar": "https://xively.com/feeds/37401"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\37401.json",
+  "DocumentJSON": null
+}

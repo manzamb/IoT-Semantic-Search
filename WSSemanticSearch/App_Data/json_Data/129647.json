@@ -1,0 +1,86 @@
+{
+  "Conceptos": [
+    "piano"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "129647",
+    "title": "Indoor Air Quality Monitor",
+    "Private": false,
+    "tags": [
+      "Indoor Air Quality"
+    ],
+    "description": "Indoor Air Quality",
+    "feed": "https://api.xively.com/v2/feeds/129647.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "05/05/2013 15:44:50",
+    "created": "05/05/2013 15:41:44",
+    "creator": "https://xively.com/users/pianogirl",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "CO2",
+        "current_value": "693",
+        "at": "05/21/2013 23:37:29",
+        "max_value": "1727.0",
+        "min_value": "410.0",
+        "tags": [
+          "CO2"
+        ],
+        "unit": {
+          "symbol": "ppmCO2",
+          "label": "ppmCO2",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "humidity",
+        "current_value": "48",
+        "at": "05/21/2013 23:37:29",
+        "max_value": "57.0",
+        "min_value": "41.0",
+        "tags": [
+          "Relative Humidity"
+        ],
+        "unit": {
+          "symbol": "%RH",
+          "label": "%RH",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temperature",
+        "current_value": "77",
+        "at": "05/21/2013 23:37:29",
+        "max_value": "80.0",
+        "min_value": "66.0",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "degF",
+          "label": "degF",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Brianna's Home",
+      "domain": 0,
+      "lat": "41.46",
+      "lon": "-71.27",
+      "ele": "25",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/129647\" >Indoor Air Quality Monitor</a>",
+    "URLMostrar": "https://xively.com/feeds/129647"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\129647.json",
+  "DocumentJSON": null
+}

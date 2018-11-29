@@ -1,0 +1,92 @@
+{
+  "Conceptos": [
+    "area"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "10719",
+    "title": "Current Cost Powermeter",
+    "Private": false,
+    "tags": [
+      "currentcost power meter powermeter"
+    ],
+    "description": "Monitoring our homes power consumption and temperature.",
+    "feed": "https://api.xively.com/v2/feeds/10719.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "07/25/2011 23:42:54",
+    "created": "10/10/2010 17:33:55",
+    "creator": "https://xively.com/users/oshawapilot",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "74.6",
+        "at": "07/25/2011 23:42:54",
+        "max_value": "81.1",
+        "min_value": "65.6",
+        "tags": [
+          "degrees",
+          "fahrenheit",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "Fahrenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "1273.0",
+        "at": "07/25/2011 23:42:54",
+        "max_value": "3613.0",
+        "min_value": "11.0",
+        "tags": [
+          "electricity",
+          "power",
+          "watts"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "2581.0",
+        "at": "07/25/2011 23:42:54",
+        "max_value": "3482.0",
+        "min_value": "187.0",
+        "tags": [
+          "electricity",
+          "power",
+          "watts"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Greater Toronto Area",
+      "domain": 0,
+      "lat": "43.9165674330591",
+      "lon": "-78.7799549102783",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/10719\" >Current Cost Powermeter</a>",
+    "URLMostrar": "https://xively.com/feeds/10719"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\10719.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,105 @@
+{
+  "Conceptos": [
+    "environment"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "1552169494",
+    "title": "vocs_01",
+    "Private": false,
+    "tags": [
+      "environmental monitoring",
+      "Vocs"
+    ],
+    "description": "Experimental device for vocs environmental monitoring",
+    "feed": "https://api.xively.com/v2/feeds/1552169494.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:10:22",
+    "created": "08/15/2013 20:10:57",
+    "creator": "https://xively.com/users/gallini",
+    "version": null,
+    "website": "http://www.gallini.org",
+    "datastreams": [
+      {
+        "id": "s2602",
+        "current_value": "20.00",
+        "at": "03/21/2014 14:10:22",
+        "max_value": "735.0",
+        "min_value": "0.0",
+        "tags": [
+          "H2S",
+          "NH3"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "s2620",
+        "current_value": "37.00",
+        "at": "03/21/2014 14:10:22",
+        "max_value": "501.0",
+        "min_value": "0.0",
+        "tags": [
+          "alchools",
+          "solvents"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperature",
+        "current_value": "20.10",
+        "at": "03/21/2014 14:10:22",
+        "max_value": "39.8",
+        "min_value": "-3276.7",
+        "tags": [
+          "environment temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Umidity",
+        "current_value": "46.30",
+        "at": "03/21/2014 14:10:22",
+        "max_value": "6553.5",
+        "min_value": "-999.0",
+        "tags": [
+          "environment humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Istituto Gallini, voghera",
+      "domain": 0,
+      "lat": "44.988881128826",
+      "lon": "9.00108844041824",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/1552169494\" >vocs_01</a>",
+    "URLMostrar": "https://xively.com/feeds/1552169494"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\1552169494.json",
+  "DocumentJSON": null
+}

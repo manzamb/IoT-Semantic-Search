@@ -1,0 +1,95 @@
+{
+  "Conceptos": [
+    "sensor output"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "329605035",
+    "title": "Water Tank  Level Sensor",
+    "Private": false,
+    "tags": [
+      "Water Tank Level",
+      "Water Tank Volume"
+    ],
+    "description": "This Water Tank feed is based on measuring the distance from the roof of the tank down to the water using a Maxbotix MaxSonar ultrasonic sensor. The serial output from the MaxSonar is connected to an Electric Imp that converts the serial data distance string into the Level in percent and the Volume of water available in litres",
+    "feed": "https://api.xively.com/v2/feeds/329605035.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/21/2014 07:00:09",
+    "created": "05/18/2013 05:27:27",
+    "creator": "https://xively.com/users/kiwi64ajs",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Depth",
+        "current_value": "687",
+        "at": "03/21/2014 07:00:09",
+        "max_value": "1137.0",
+        "min_value": "230.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Level",
+        "current_value": "29.86",
+        "at": "03/21/2014 07:00:09",
+        "max_value": "49.43",
+        "min_value": "-106.09",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Sensor-Range",
+        "current_value": "1873",
+        "at": "03/21/2014 07:00:09",
+        "max_value": "5000.0",
+        "min_value": "1423.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Volume",
+        "current_value": "13986",
+        "at": "03/21/2014 07:00:09",
+        "max_value": "23146.0",
+        "min_value": "-49672.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Horsham Downs, Hamilton",
+      "domain": 0,
+      "lat": "-37.7083098",
+      "lon": "175.2619539",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/329605035\" >Water Tank  Level Sensor</a>",
+    "URLMostrar": "https://xively.com/feeds/329605035"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\329605035.json",
+  "DocumentJSON": null
+}

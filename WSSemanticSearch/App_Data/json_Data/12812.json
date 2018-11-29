@@ -1,0 +1,76 @@
+{
+  "Conceptos": [
+    "community"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "12812",
+    "title": "Current Cost de GB à Sorède",
+    "Private": false,
+    "tags": [
+      "CurrentCost",
+      "EDF",
+      "ENVI"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/12812.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "11/19/2010 14:25:06",
+    "created": "11/19/2010 13:51:42",
+    "creator": "https://xively.com/users/kayukan",
+    "version": null,
+    "website": "http://community.pachube.com/currentcost",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "20.2",
+        "at": "11/19/2010 14:25:06",
+        "max_value": "20.2",
+        "min_value": "20.0",
+        "tags": [
+          "celsius",
+          "degrees",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "104.0",
+        "at": "11/19/2010 14:25:06",
+        "max_value": "1036.0",
+        "min_value": "0.0",
+        "tags": [
+          "electricity",
+          "power",
+          "watts"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Sorède, France",
+      "domain": 1,
+      "lat": "42.5282228079789",
+      "lon": "2.96184539794922",
+      "ele": "80",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/12812\" >Current Cost de GB à Sorède</a>",
+    "URLMostrar": "https://xively.com/feeds/12812"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\12812.json",
+  "DocumentJSON": null
+}

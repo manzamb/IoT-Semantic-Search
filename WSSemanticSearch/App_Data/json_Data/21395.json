@@ -1,0 +1,136 @@
+{
+  "Conceptos": [
+    "color"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "21395",
+    "title": "Xeric Weather Station (api v1)",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "colorado",
+      "denver",
+      "weather",
+      "zip80231"
+    ],
+    "description": "Currently serves only temperature and light readings of the server room. \r\nUses an arduino,  freetronics ethernet shield + POE, adafruit datalogging shield. \r\n",
+    "feed": "https://api.xively.com/v2/feeds/21395.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "09/14/2012 15:58:00",
+    "created": "03/23/2011 21:38:31",
+    "creator": "https://xively.com/users/ejy",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": null,
+        "at": "09/14/2012 15:58:00",
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "Internal Temp F"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "Fehrenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": null,
+        "at": "09/14/2012 15:58:00",
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "Internal Temp C"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": null,
+        "at": "09/14/2012 15:58:00",
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "Luminosity"
+        ],
+        "unit": {
+          "symbol": "L",
+          "label": "Lumins",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": null,
+        "at": "09/14/2012 15:58:00",
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "successes"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": null,
+        "at": "09/14/2012 15:58:00",
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "failures"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": null,
+        "at": "09/14/2012 15:58:00",
+        "max_value": null,
+        "min_value": null,
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Denver, Colorado, USA",
+      "domain": 0,
+      "lat": "39.6616431131744",
+      "lon": "-104.888963699341",
+      "ele": "1687",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/21395\" >Xeric Weather Station (api v1)</a>",
+    "URLMostrar": "https://xively.com/feeds/21395"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\21395.json",
+  "DocumentJSON": null
+}

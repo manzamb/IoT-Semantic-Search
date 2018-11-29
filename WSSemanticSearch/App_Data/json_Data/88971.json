@@ -1,0 +1,326 @@
+{
+  "Conceptos": [
+    "condition"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "88971",
+    "title": "Emotions and Environment ",
+    "Private": false,
+    "tags": [
+      "Arduino Environmental_data Emotions XML Weather_data"
+    ],
+    "description": "This feed is grabbing peoples emotions with a face tracking software. It is also using arduino to grab multiple environmental data in the space. Lastly it is reading an XML file that is constantly updating the current weather conditions. ",
+    "feed": "https://api.xively.com/v2/feeds/88971.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "12/12/2012 16:47:56",
+    "created": "11/28/2012 18:49:56",
+    "creator": "https://xively.com/users/jhaak614",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "58.888893",
+        "at": "12/12/2012 16:47:56",
+        "max_value": "100.0",
+        "min_value": "0.0",
+        "tags": [
+          "Angry"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "#",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "17.777775",
+        "at": "12/12/2012 16:47:56",
+        "max_value": "100.0",
+        "min_value": "0.0",
+        "tags": [
+          "Happy"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "#",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "0",
+        "at": "12/12/2012 16:47:56",
+        "max_value": "100.0",
+        "min_value": "0.0",
+        "tags": [
+          "Sad"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "#",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "0",
+        "at": "12/12/2012 16:47:56",
+        "max_value": "100.0",
+        "min_value": "0.0",
+        "tags": [
+          "Surprised"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "#",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "12",
+        "at": "12/12/2012 16:47:56",
+        "max_value": "67.0",
+        "min_value": "0.0",
+        "tags": [
+          "Age"
+        ],
+        "unit": {
+          "symbol": "Years",
+          "label": "Years",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "70",
+        "at": "12/12/2012 16:47:56",
+        "max_value": "188.0",
+        "min_value": "0.0",
+        "tags": [
+          "Number Of People Seen"
+        ],
+        "unit": {
+          "symbol": "#",
+          "label": "#",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "10",
+        "at": "12/12/2012 16:47:56",
+        "max_value": "161.0",
+        "min_value": "0.0",
+        "tags": [
+          "Inside Temperature"
+        ],
+        "unit": {
+          "symbol": "#",
+          "label": "F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "7",
+        "current_value": "672",
+        "at": "12/12/2012 16:47:56",
+        "max_value": "1023.0",
+        "min_value": "0.0",
+        "tags": [
+          "Photocell"
+        ],
+        "unit": {
+          "symbol": "#",
+          "label": "#",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "8",
+        "current_value": "51",
+        "at": "12/12/2012 16:47:56",
+        "max_value": "655.0",
+        "min_value": "0.0",
+        "tags": [
+          "Infrared Sensor"
+        ],
+        "unit": {
+          "symbol": "mm",
+          "label": "mm",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "9",
+        "current_value": "40",
+        "at": "12/12/2012 16:47:56",
+        "max_value": "672.0",
+        "min_value": "0.0",
+        "tags": [
+          "Noise Level"
+        ],
+        "unit": {
+          "symbol": "#",
+          "label": "#",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "10",
+        "current_value": "6",
+        "at": "12/12/2012 16:47:56",
+        "max_value": "79.0",
+        "min_value": "1.0",
+        "tags": [
+          "Outside Temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "11",
+        "current_value": "43",
+        "at": "12/12/2012 16:47:56",
+        "max_value": "79.0",
+        "min_value": "12.0",
+        "tags": [
+          "Outside Temperature"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "12",
+        "current_value": "11",
+        "at": "12/12/2012 16:47:56",
+        "max_value": "79.0",
+        "min_value": "0.0",
+        "tags": [
+          "Wind"
+        ],
+        "unit": {
+          "symbol": "mph",
+          "label": "mph",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "13",
+        "current_value": "NNW",
+        "at": "12/12/2012 16:47:56",
+        "max_value": "79.0",
+        "min_value": "12.0",
+        "tags": [
+          "Wind Direction"
+        ],
+        "unit": {
+          "symbol": "#",
+          "label": "#",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "14",
+        "current_value": "0.0",
+        "at": "12/12/2012 16:47:56",
+        "max_value": "79.0",
+        "min_value": "0.0",
+        "tags": [
+          "Rain"
+        ],
+        "unit": {
+          "symbol": "mm",
+          "label": "mm",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "15",
+        "current_value": "52",
+        "at": "12/12/2012 16:47:56",
+        "max_value": "100.0",
+        "min_value": "12.0",
+        "tags": [
+          "Humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "16",
+        "current_value": "1030",
+        "at": "12/12/2012 16:47:56",
+        "max_value": "1030.0",
+        "min_value": "12.0",
+        "tags": [
+          "Pressure"
+        ],
+        "unit": {
+          "symbol": "mb",
+          "label": "mb",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "17",
+        "current_value": "75",
+        "at": "12/12/2012 16:47:56",
+        "max_value": "100.0",
+        "min_value": "0.0",
+        "tags": [
+          "Cloud Coverage"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "CUA - Washington DC",
+      "domain": 0,
+      "lat": "38.9344223146805",
+      "lon": "-76.997401714325",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 1
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/88971\" >Emotions and Environment </a>",
+    "URLMostrar": "https://xively.com/feeds/88971"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\88971.json",
+  "DocumentJSON": null
+}

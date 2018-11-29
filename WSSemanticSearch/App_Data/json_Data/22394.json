@@ -1,0 +1,56 @@
+{
+  "Conceptos": [
+    "nature"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "22394",
+    "title": "Pachube Hackday network signature occupancy",
+    "Private": false,
+    "tags": [
+      "herenow",
+      "hn_001",
+      "occupancy"
+    ],
+    "description": "A small script designed to poll space served by wifi, and based on how many people laptops or smart phones are active on the network, infer how busy the building is.",
+    "feed": "https://api.xively.com/v2/feeds/22394.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "04/09/2011 03:44:34",
+    "created": "04/09/2011 02:40:38",
+    "creator": "https://xively.com/users/chris_d_adams",
+    "version": null,
+    "website": "http://pachube@herenow.in",
+    "datastreams": [
+      {
+        "id": "1",
+        "current_value": "5",
+        "at": "04/09/2011 03:31:31",
+        "max_value": "10.0",
+        "min_value": "5.0",
+        "tags": [
+          "occupancy"
+        ],
+        "unit": {
+          "symbol": "p",
+          "label": "people",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "W1F 0HS, London, England",
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/22394\" >Pachube Hackday network signature occupancy</a>",
+    "URLMostrar": "https://xively.com/feeds/22394"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\22394.json",
+  "DocumentJSON": null
+}

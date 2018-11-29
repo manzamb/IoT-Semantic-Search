@@ -1,0 +1,93 @@
+{
+  "Conceptos": [
+    "event type"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "28976",
+    "title": "Geigerbot-Umeda (CPM, uSv/hr)",
+    "Private": false,
+    "tags": [
+      "Beta",
+      "Counter",
+      "CPM",
+      "FH40T",
+      "Frieseke",
+      "Gamma",
+      "Geiger",
+      "Geigerbot",
+      "Hoepfner",
+      "iphone",
+      "Japan",
+      "Radiation",
+      "sensor:model=FH40T",
+      "sensor:type=radiation",
+      "tokyo",
+      "umeda",
+      "uSv"
+    ],
+    "description": "CPM/ microSv per hr feed from a IPhone Geigerbot connected to a 1968 Frieseke & Höpfner FH40T geiger counter.\r\n\r\n1. Technical stuff\r\nAs conversion factor the F&H spec 320 CPM at 0.5mR/hr is used (valid for γ -only!). This is equivalent to 5uSv/hr.  For Geigerbot this means the conversion factor is 640/60 equals 10 2/3 is approx. 10.66666666. F&H background radiation detection level or nulleffect is specified between 5 and 12 CPM. The energy-compensated GM tube inside the FH40T Geiger counter is a FHZ76V, sensitive to  β and γ radiation over 0.25MeV.The FHZ76V tube actually contains a Valvo 18550 tube, equivalent to Centronics ZP1320, Mullard Mx164 and LND-713. The  ZP1320 tube sensitivity is 9cps/mR/h for Cs-137 (540cpm/mR/h).  \r\nSources:\r\nhttp://radgoes.blogspot.com/  (with thanks to \"Rad Goes\")\r\nhttp://www.centronic.co.uk/beta%20gamma%20detectors.htm\r\nhttp://www.akh.se/tubes/htm/18550.htm\r\nhttp://www.radiomuseum.org/r/frieseke_strahlungsmessgeraet_fh_4.html\r\nhttp://geigerbot.com  (with thanks to Nick Dolezal)\r\n\r\n2. Disclaimer: \r\nThe equipment is not calibrated however the measured values until now reveal normal background radiation levels according original specification by F&H. Rise in levels could indicate extra radiation from unnatural sources such as Fukushima Dai-ichi. Therefor use these data only as indication for changes and ignore the absolute values. Errors in measurement could occur as experienced already with this old equipment. Such occasion will be reported if possible.\r\n\r\n3. NOTICES: \r\nGeigerbot-Umeda is on-line as of 29 June 2011 9.45pm JST.\r\nAll data before 29 June 2011 9.45pm JST are simulated non-real data produced by the IPhone microphone.\r\n\r\n30 June 2011: \r\nInterruption between 7.45am JST and 9.00am JST, with a few unnatural peaks from disconnecting before interruption. Has moved temporarily to Uchisaiwai-cho, test on office location.\r\n11.00am JST : Quite some peaks occur now due to the imperfect acoustic coupling with the iphone microphone. When the interface cable is ready this noise will be eliminated and we can expect avg CPM of about 7-8 again in normal situation.\r\n12.00pm JST minimum 1 hour off-line. Peak at shutdown of Geigerbot application shud be filtered out.\r\n1.00pm JST online again, peaks during the startup, 1st minute  appear, geigerbot should wait for 60secs or more to start giving CPM values.\r\n5.30pm few hours off-line\r\n9.30pm-10.15pm Back at Umeda location - noise, no real measurements could be taken.\r\n10.15pm - Some measurements taken with external probe hanging in the window facing North. \r\n\r\n1 July 2011:\r\n 6.00am JST  Geigerbot shows it restarted during night. For unknown reasons got frozen on Pachube - no continuous measurements  (failing Geigerbot,3g network and/or power-outage?).\r\n1 July 2011 9.45am KEPT OFFLINE NOW UNTIL FURTHER NOTICE. (PACHUBE SHOWS IT IS LIVE NOW WHEN IT IS NOT!)\r\n1:10pm Pachube shows it is \"frozen\" allright now.\r\n1:21pm Pachube shows it is \"LIVE\" again WHEN IT IS NOT!\r\n1:59pm Pachube shows it is \"frozen\" allright now.\r\n2 July 2011:\r\n11.00pm BACK ONLINE with direct cable connection, no attenuation. threshhold at 21300, no auto adjust. Observed too many extra counts when in auto adjust. With higher dosis rate expect wrong counting. A 2400 Hz rimple on the signal still cud cause extra or loss of counts.\r\n11.25 pm Currently the background radiation really seems to be lower than before. The needle leaves the left corner about 4 times per minute.\r\n3 July 2011:\r\n7 am: SHUTDOWN Geigerbot - reading during night got incorrect due to batteries drain.\r\n              WILL NOT GO ONLINE UNTIL THE OLD FH40T IS REVISED.\r\n21 July 2011:\r\nGeigerbot online for test today using the external F&H probe from about 9.45pm until 10.30pm. Nick Dolezal of Geigerbot.com clearly improved with version 1.3.4e now that the noise on my old counter is not producing any error counts in default setup. This weekend will do some mobile surveying around for testing.\r\nN.B. the proposed conversion factor of 10.66666666 by F&H 1968 gives more realistic readings(lower) then 9cps/mR/h specified as the ZP1320 tube sensitivity.\r\n\r\n22 July 2011:\r\n9.50pm-10.20pm outdoor survey around the mansion. downstairs and in the park the background radiation looks double about 0.15 uSv/hr. One spot of the mansion which not accessible,surrounded by steel fences and left untouched with a few plants inside seem to give higher counts (20cpm) through the external F&H probe in use now - probably from the concrete. Have to repeat measurement there to see if it is reproducable.\r\n\r\n23 July 2011: ONLINE AGAIN. N.B.: VALID DATA START FROM HERE\r\n8.30pm Running from ipod via wlan connection indoors external F&H probe in front of window facing North. Normal background 0.08 uSv/hr.  Geigercounter is supplied with 5VDC from external power supply with Rohm BP5221 DC-DC convertor (84% conversion efficiency) having few external components.\r\nIgnore some higher levels from tests before today due to wrong setup.\r\n\r\n24 July 2011\r\nGet a steady 5CPM / 0.08 uSv/hr on average during 24 hours now w/o fail\r\n\r\n31 July 2011\r\nAfter 1 week of uninterrupted service few hours no values due to ipod battery drained. Ipod is kept on backup supply now.\r\n\r\n2 August 2011\r\nMight be observing a small upwards trend now. Installed 0.2uSv and 0.4 uSv/hr email notification triggers on the stream. Above 10CPM events are rare with this equipment but those will trigger.\r\n\r\n2 September 2011\r\nGeigerbot stopped registration around 20 August 2011 AM during 2 weeks absense. For unknown reason the application was killed. Today returned back to base and restarted Geigerbot successfully.\r\n\r\n22 September 2011\r\nPachube had trouble today - more than 2 hours no data logging possible - just now before 2.30pm JST cud access again. The Geigerbot itself was not affected - data-logging continues as before.",
+    "feed": "https://api.xively.com/v2/feeds/28976.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/17/2013 01:16:05",
+    "created": "06/29/2011 02:42:34",
+    "creator": "https://xively.com/users/piljapan",
+    "version": null,
+    "website": "http://sabisu.net",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "0.05",
+        "at": "03/17/2013 01:16:05",
+        "max_value": "4.08",
+        "min_value": "0.0",
+        "tags": [
+          "beta",
+          "gamma",
+          "hr",
+          "uSv"
+        ],
+        "unit": {
+          "symbol": "µSv/h",
+          "label": "microsieverts per hour",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "3",
+        "at": "03/17/2013 01:16:05",
+        "max_value": "1089.0",
+        "min_value": "0.0",
+        "tags": [
+          "beta",
+          "counts",
+          "CPM",
+          "gamma",
+          "min"
+        ],
+        "unit": {
+          "symbol": "CPM",
+          "label": "counts per minute",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Tokyo Adachi-ku Umeda",
+      "domain": 0,
+      "lat": "35.7689921741194",
+      "lon": "139.799845218659",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 1
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/28976\" >Geigerbot-Umeda (CPM, uSv/hr)</a>",
+    "URLMostrar": "https://xively.com/feeds/28976"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\28976.json",
+  "DocumentJSON": null
+}

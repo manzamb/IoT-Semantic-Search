@@ -1,0 +1,106 @@
+{
+  "Conceptos": [
+    "carbon monoxide"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "119509",
+    "title": "EID-Air Quality",
+    "Private": false,
+    "tags": [
+      "Carbon Monoxide",
+      "Dust.",
+      "LPG",
+      "Rpi",
+      "Temperature"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/119509.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/19/2013 10:12:33",
+    "created": "03/17/2013 17:39:04",
+    "creator": "https://xively.com/users/joe90",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "23.7",
+        "at": "03/19/2013 10:12:33",
+        "max_value": "24.7",
+        "min_value": "23.7",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "0.972",
+        "at": "03/19/2013 10:12:33",
+        "max_value": "0.996",
+        "min_value": "0.942",
+        "tags": [
+          "Carbon Monoxide"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "1.104",
+        "at": "03/19/2013 10:12:33",
+        "max_value": "1.123",
+        "min_value": "1.094",
+        "tags": [
+          "LPG"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "0.000",
+        "at": "03/19/2013 10:12:33",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "Particulate"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/119509\" >EID-Air Quality</a>",
+    "URLMostrar": "https://xively.com/feeds/119509"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\119509.json",
+  "DocumentJSON": null
+}

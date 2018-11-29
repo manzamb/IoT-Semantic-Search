@@ -1,0 +1,126 @@
+{
+  "Conceptos": [
+    "right"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "82509",
+    "title": "Sector 0-0-1",
+    "Private": false,
+    "tags": [
+      "Arduino",
+      "OpenWRT",
+      "Siegburg"
+    ],
+    "description": "Sensors attached to Olimexino-32U4\r\nEthernet via TP-MR3020 (OpenWRT)\r\n\r\nSensors: \r\n- Robotbase DS18B20\r\n- Robotbase Analog Light Sensor\r\n- Seeedstudio Sound Sensor (LM386)\r\n\r\nSoftware: v0.26\r\nbuggy mix of c and bash :-)\r\n\r\nUpdate period : 15 sec\r\n\r\nIssues : \r\n- Direct sun light heats up the sensor box, causing high temperature values.\r\n- Cheap electret microphone is quite sensitive to the temperature changes",
+    "feed": "https://api.xively.com/v2/feeds/82509.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "08/15/2013 20:38:50",
+    "created": "10/25/2012 14:54:10",
+    "creator": "https://xively.com/users/carolus",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "brightness",
+        "current_value": "124",
+        "at": "08/15/2013 20:38:49",
+        "max_value": "943.0",
+        "min_value": "87.0",
+        "tags": [
+          "brightness",
+          "light"
+        ],
+        "unit": {
+          "symbol": "Ⰳ",
+          "label": "relative unit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "mean_volume",
+        "current_value": "38",
+        "at": "08/15/2013 20:38:49",
+        "max_value": "54.0",
+        "min_value": "10.0",
+        "tags": [
+          "audio",
+          "microphone",
+          "sound",
+          "volume"
+        ],
+        "unit": {
+          "symbol": "Ⱄ",
+          "label": "relative unit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "peak_volume",
+        "current_value": "663",
+        "at": "08/15/2013 20:38:49",
+        "max_value": "767.0",
+        "min_value": "630.0",
+        "tags": [
+          "audio",
+          "maximum",
+          "peak",
+          "volume"
+        ],
+        "unit": {
+          "symbol": "Ⰰ",
+          "label": "relative unit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temperature",
+        "current_value": "19.81",
+        "at": "08/15/2013 20:38:49",
+        "max_value": "56.81",
+        "min_value": "3.69",
+        "tags": [
+          "temp",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "testing",
+        "current_value": "140",
+        "at": "11/15/2012 15:03:52",
+        "max_value": "140.0",
+        "min_value": "140.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Siegburg",
+      "domain": 0,
+      "lat": "50.799847",
+      "lon": "7.20745099999999",
+      "ele": "60",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/82509\" >Sector 0-0-1</a>",
+    "URLMostrar": "https://xively.com/feeds/82509"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\82509.json",
+  "DocumentJSON": null
+}

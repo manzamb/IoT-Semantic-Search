@@ -1,0 +1,86 @@
+{
+  "Conceptos": [
+    "atmospheric pressure"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "127538",
+    "title": "BOM Brisbane Weather Observations",
+    "Private": false,
+    "tags": [
+      "weather"
+    ],
+    "description": "Obtained from: http://www.bom.gov.au/fwo/IDQ60901/IDQ60901.94576.json\r\nusing Python script running on PC",
+    "feed": "https://api.xively.com/v2/feeds/127538.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:01:31",
+    "created": "04/24/2013 23:35:29",
+    "creator": "https://xively.com/users/mbatchelor",
+    "version": null,
+    "website": "http://www.bom.gov.au/products/IDQ60901/IDQ60901.94576.shtml",
+    "datastreams": [
+      {
+        "id": "air_temp",
+        "current_value": "20.7",
+        "at": "03/21/2014 13:30:00",
+        "max_value": "38.0",
+        "min_value": "5.9",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "press",
+        "current_value": "1018.0",
+        "at": "03/21/2014 13:30:00",
+        "max_value": "1031.7",
+        "min_value": "997.3",
+        "tags": [
+          "atmospheric pressure"
+        ],
+        "unit": {
+          "symbol": "hPa",
+          "label": "hPa",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "rel_hum",
+        "current_value": "86",
+        "at": "03/21/2014 13:30:00",
+        "max_value": "99.0",
+        "min_value": "14.0",
+        "tags": [
+          "relative humidity"
+        ],
+        "unit": {
+          "symbol": "%RH",
+          "label": "Relative Humidity",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "BOM Brisbane 040913",
+      "domain": 0,
+      "lat": "-27.4807958357641",
+      "lon": "153.038818192625",
+      "ele": "8.13",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/127538\" >BOM Brisbane Weather Observations</a>",
+    "URLMostrar": "https://xively.com/feeds/127538"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\127538.json",
+  "DocumentJSON": null
+}

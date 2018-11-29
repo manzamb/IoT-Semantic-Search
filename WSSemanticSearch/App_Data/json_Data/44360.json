@@ -1,0 +1,292 @@
+{
+  "Conceptos": [
+    "moisture"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "44360",
+    "title": "Pocosin Lakes ESP Array - Allen Rd. site",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/44360.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:01:31",
+    "created": "01/16/2012 03:57:22",
+    "creator": "https://xively.com/users/ralphwella",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "batv",
+        "current_value": "13.6",
+        "at": "03/21/2014 14:01:31",
+        "max_value": "14.3",
+        "min_value": "-99.0",
+        "tags": [
+          "battery voltage"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": "volts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "counter3",
+        "current_value": "-66",
+        "at": "03/21/2014 14:01:31",
+        "max_value": "364.864",
+        "min_value": "-153.0",
+        "tags": [
+          "Evapotranspiration"
+        ],
+        "unit": {
+          "symbol": "inches",
+          "label": "integer",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "counter4",
+        "current_value": "-66",
+        "at": "03/21/2014 14:01:31",
+        "max_value": "329.0",
+        "min_value": "-153.0",
+        "tags": [
+          "count"
+        ],
+        "unit": {
+          "symbol": "c4",
+          "label": "integer",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "fmoist",
+        "current_value": "19.17",
+        "at": "03/21/2014 14:01:31",
+        "max_value": "70.23",
+        "min_value": "-99.0",
+        "tags": [
+          "fuel moisture"
+        ],
+        "unit": {
+          "symbol": "fuel moisture %",
+          "label": "period",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "ftemp",
+        "current_value": "22.18",
+        "at": "03/21/2014 14:01:31",
+        "max_value": "50.62",
+        "min_value": "-99.0",
+        "tags": [
+          "fuel temperature"
+        ],
+        "unit": {
+          "symbol": "fuel temp",
+          "label": "celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "id",
+        "current_value": "13",
+        "at": "03/21/2014 14:01:31",
+        "max_value": "13.0",
+        "min_value": "-77.0",
+        "tags": [
+          "logger id"
+        ],
+        "unit": {
+          "symbol": "ID",
+          "label": "integer",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "inttemp",
+        "current_value": "21",
+        "at": "03/21/2014 14:01:31",
+        "max_value": "48.0",
+        "min_value": "-12.0",
+        "tags": [
+          "internal temperature"
+        ],
+        "unit": {
+          "symbol": "c",
+          "label": "celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "light1",
+        "current_value": "-89",
+        "at": "03/21/2014 14:01:31",
+        "max_value": "1876932463.0",
+        "min_value": "-153.0",
+        "tags": [
+          "lightning activity"
+        ],
+        "unit": {
+          "symbol": "count",
+          "label": "integer",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "mcsq",
+        "current_value": "9",
+        "at": "03/21/2014 14:01:31",
+        "max_value": "20.0",
+        "min_value": "3.0",
+        "tags": [
+          "signal strength"
+        ],
+        "unit": {
+          "symbol": "csq",
+          "label": "bars",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "mdmv",
+        "current_value": "376",
+        "at": "03/21/2014 14:01:31",
+        "max_value": "377.0",
+        "min_value": "369.0",
+        "tags": [
+          "modem voltage"
+        ],
+        "unit": {
+          "symbol": "mv",
+          "label": "millivolts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "precip1",
+        "current_value": "-66",
+        "at": "03/21/2014 14:01:31",
+        "max_value": "634.329",
+        "min_value": "-153.0",
+        "tags": [
+          "precipitation"
+        ],
+        "unit": {
+          "symbol": "inches",
+          "label": "count/inches",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "precip2",
+        "current_value": "-66",
+        "at": "03/21/2014 14:01:31",
+        "max_value": "224.664",
+        "min_value": "-153.0",
+        "tags": [
+          "precipitation"
+        ],
+        "unit": {
+          "symbol": "inches",
+          "label": "count/inches",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "shumid",
+        "current_value": "2.2730",
+        "at": "03/21/2014 14:01:31",
+        "max_value": "5.1933",
+        "min_value": "-99.0",
+        "tags": [
+          "soil humidity"
+        ],
+        "unit": {
+          "symbol": "sh",
+          "label": "period/ms",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "smoist",
+        "current_value": "230.58",
+        "at": "03/21/2014 14:01:31",
+        "max_value": "255.78",
+        "min_value": "-99.0",
+        "tags": [
+          "soil moisture"
+        ],
+        "unit": {
+          "symbol": "sm",
+          "label": "period/ms",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "stemp",
+        "current_value": "9.06",
+        "at": "03/21/2014 14:01:31",
+        "max_value": "29.68",
+        "min_value": "-99.0",
+        "tags": [
+          "soil temperature"
+        ],
+        "unit": {
+          "symbol": "c",
+          "label": "celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "welld",
+        "current_value": "-99",
+        "at": "03/21/2014 14:01:31",
+        "max_value": "-23.9",
+        "min_value": "-99.0",
+        "tags": [
+          "water table depth"
+        ],
+        "unit": {
+          "symbol": "inches",
+          "label": "inches",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Pocosin Lakes NWR",
+      "domain": 0,
+      "lat": "35.6796096093686",
+      "lon": "-76.5355682373047",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/44360\" >Pocosin Lakes ESP Array - Allen Rd. site</a>",
+    "URLMostrar": "https://xively.com/feeds/44360"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\44360.json",
+  "DocumentJSON": null
+}

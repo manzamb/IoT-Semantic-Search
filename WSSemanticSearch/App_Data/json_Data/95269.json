@@ -1,0 +1,86 @@
+{
+  "Conceptos": [
+    "frequency"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "95269",
+    "title": "RPi",
+    "Private": false,
+    "tags": [
+      "My RPi"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/95269.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "01/27/2013 23:34:30",
+    "created": "12/30/2012 01:55:34",
+    "creator": "https://xively.com/users/zarloc",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "RPi_Cpu_Load",
+        "current_value": "0.08",
+        "at": "04/05/2013 00:35:01",
+        "max_value": "2.8",
+        "min_value": "0.01",
+        "tags": [
+          "RPi cpu load"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Capacity",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "RPi_Freq",
+        "current_value": "700",
+        "at": "04/05/2013 00:35:01",
+        "max_value": "950.0",
+        "min_value": "700.0",
+        "tags": [
+          "RPi Frequency"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "MHz",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "RPi_Temp",
+        "current_value": "39.546",
+        "at": "04/05/2013 00:35:01",
+        "max_value": "85.0",
+        "min_value": "-1060760.0",
+        "tags": [
+          "RPi Temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/95269\" >RPi</a>",
+    "URLMostrar": "https://xively.com/feeds/95269"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\95269.json",
+  "DocumentJSON": null
+}

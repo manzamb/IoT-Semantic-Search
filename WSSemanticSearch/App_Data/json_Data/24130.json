@@ -1,0 +1,118 @@
+{
+  "Conceptos": [
+    "plan"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "24130",
+    "title": "Small PV plant",
+    "Private": false,
+    "tags": [
+      "Solar"
+    ],
+    "description": "A simulation of a small PV plant",
+    "feed": "https://api.xively.com/v2/feeds/24130.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/13/2014 15:58:17",
+    "created": "04/22/2011 15:06:07",
+    "creator": "https://xively.com/users/omronit",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "1",
+        "current_value": "0.0",
+        "at": "03/13/2014 15:58:17",
+        "max_value": "98.8",
+        "min_value": "0.0",
+        "tags": [
+          "Temp"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "10.00",
+        "at": "03/13/2014 15:58:17",
+        "max_value": "1000.0",
+        "min_value": "0.0",
+        "tags": [
+          "Power"
+        ],
+        "unit": {
+          "symbol": "kW",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "0.00",
+        "at": "03/13/2014 15:58:17",
+        "max_value": "1000.0",
+        "min_value": "0.0",
+        "tags": [
+          "Peak Power"
+        ],
+        "unit": {
+          "symbol": "kW",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "0.0",
+        "at": "03/13/2014 15:58:17",
+        "max_value": "1000.0",
+        "min_value": "0.0",
+        "tags": [
+          "Energy produced today"
+        ],
+        "unit": {
+          "symbol": "kWh",
+          "label": "kWh",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "1000",
+        "at": "05/14/2013 08:32:06",
+        "max_value": "9999.8",
+        "min_value": "0.0",
+        "tags": [
+          "Total Energy produced since 02/05/2011"
+        ],
+        "unit": {
+          "symbol": "kWh",
+          "label": "kWh",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Omron Electronics Spa",
+      "domain": 0,
+      "lat": "45.4906147610649",
+      "lon": "9.1501522064209",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/24130\" >Small PV plant</a>",
+    "URLMostrar": "https://xively.com/feeds/24130"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\24130.json",
+  "DocumentJSON": null
+}

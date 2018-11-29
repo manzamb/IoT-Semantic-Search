@@ -1,0 +1,50 @@
+{
+  "Conceptos": [
+    "thermistor"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "37101",
+    "title": "107M Temperature",
+    "Private": false,
+    "tags": null,
+    "description": "Netduino Plus with a thermistor  divider to pin 1. 'Hello Pachube' program from the \"Internet of Things'   ( ~p.48 in the book )\r\n\r\nThe voltage is displayed, and the programming to convert to degrees C & F, needs to get figured out.",
+    "feed": "https://api.xively.com/v2/feeds/37101.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:10:29",
+    "created": "10/09/2011 18:43:26",
+    "creator": "https://xively.com/users/jbranlund",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "voltage",
+        "current_value": "3.30",
+        "at": "03/21/2014 14:10:28",
+        "max_value": "3.3",
+        "min_value": "2.74",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "San Jose, CA 95128",
+      "domain": 0,
+      "lat": "37.3141588677082",
+      "lon": "-121.92941776162",
+      "ele": "35.3568",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/37101\" >107M Temperature</a>",
+    "URLMostrar": "https://xively.com/feeds/37101"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\37101.json",
+  "DocumentJSON": null
+}

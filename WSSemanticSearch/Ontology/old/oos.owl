@@ -1,0 +1,3002 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY kos "http://localhost/kos#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY ssn "http://purl.oclc.org/NET/ssnx/ssn#" >
+    <!ENTITY daml "http://www.daml.org/2001/03/daml+oil#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY DUL "http://www.loa-cnr.it/ontologies/DUL.owl#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY oos "http://semanticsearchiot.net/sswot/Ontologies/oos.owl#" >
+    <!ENTITY restfulgrounding "http://www.knoesis.org/research/srl/standards/sa-rest#" >
+    <!ENTITY Service "http://www.ai.sri.com/daml/services/owl-s/1.2/Service.owl#" >
+    <!ENTITY Grounding "http://www.ai.sri.com/daml/services/owl-s/1.2/Grounding.owl#" >
+]>
+
+
+<rdf:RDF xmlns="http://localhost/default#"
+     xml:base="http://localhost/default"
+     xmlns:Service="http://www.ai.sri.com/daml/services/owl-s/1.2/Service.owl#"
+     xmlns:DUL="http://www.loa-cnr.it/ontologies/DUL.owl#"
+     xmlns:ssn="http://purl.oclc.org/NET/ssnx/ssn#"
+     xmlns:restfulgrounding="http://www.knoesis.org/research/srl/standards/sa-rest#"
+     xmlns:daml="http://www.daml.org/2001/03/daml+oil#"
+     xmlns:kos="http://localhost/kos#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:Grounding="http://www.ai.sri.com/daml/services/owl-s/1.2/Grounding.owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:oos="http://semanticsearchiot.net/sswot/Ontologies/oos.owl#">
+    <owl:Ontology rdf:about="http://semanticsearchiot.net/sswot/Ontologies/oos.owl">
+        <oos:contributor rdf:datatype="&xsd;string"></oos:contributor>
+        <oos:priorVersion rdf:datatype="&xsd;string"></oos:priorVersion>
+        <oos:license rdf:datatype="&xsd;string">
+Copyright (c) 2013-2015 Miguel Angel Niño Zambrano
+
+Licensed under the Apache License, Version 2.0 (the &quot;License&quot;);
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an &quot;AS IS&quot; BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License         </oos:license>
+        <oos:modiffied rdf:datatype="&xsd;string">1.0.0</oos:modiffied>
+        <oos:modiffied rdf:datatype="&xsd;string">2015-09-25</oos:modiffied>
+        <oos:creator rdf:datatype="&xsd;string">Miguel Angel Niño Zambrano (manzamb@unicauca.edu.co, manzamb@hotmail.com)</oos:creator>
+        <oos:descrption rdf:datatype="&xsd;string">Semantic Interaction in WoT</oos:descrption>
+        <oos:title rdf:datatype="&xsd;string">Semantic Object Ontology</oos:title>
+        <oos:descrption rdf:datatype="&xsd;string">The ontology semantic object (OOS) defines the essential features for semantic interaction of objects in the WoT based on Semantic Web technologies. The OOS is able to deal with semantic interoperability problems that can describe:
+
+• What characteristics does an object?
+• What are the services provided by the object?
+• In which contexts can be used in order?
+• What has relationships with other objects of the WoT?
+• What are your operating restrictions?
+• What are their states and how they generate an interaction with other objects?
+So, you can have the information necessary to generate processes of interaction that link various sensors.</oos:descrption>
+        <oos:preferredNamespaceUri rdf:datatype="&xsd;string">http://SemanticSearciot.net/Ontologies/oos.owl</oos:preferredNamespaceUri>
+        <oos:preferredNamespacePrefix rdf:datatype="&xsd;string">oos</oos:preferredNamespacePrefix>
+        <owl:versionIRI rdf:resource="http://semanticsearchiot.net/sswot/Ontologies/oos.owl/1.0.0"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://semanticsearchiot.net/sswot/Ontologies/oos.owl#contributor -->
+
+    <owl:AnnotationProperty rdf:about="&oos;contributor"/>
+    
+
+
+    <!-- http://semanticsearchiot.net/sswot/Ontologies/oos.owl#creator -->
+
+    <owl:AnnotationProperty rdf:about="&oos;creator"/>
+    
+
+
+    <!-- http://semanticsearchiot.net/sswot/Ontologies/oos.owl#descrption -->
+
+    <owl:AnnotationProperty rdf:about="&oos;descrption"/>
+    
+
+
+    <!-- http://semanticsearchiot.net/sswot/Ontologies/oos.owl#license -->
+
+    <owl:AnnotationProperty rdf:about="&oos;license"/>
+    
+
+
+    <!-- http://semanticsearchiot.net/sswot/Ontologies/oos.owl#modiffied -->
+
+    <owl:AnnotationProperty rdf:about="&oos;modiffied"/>
+    
+
+
+    <!-- http://semanticsearchiot.net/sswot/Ontologies/oos.owl#preferredNamespacePrefix -->
+
+    <owl:AnnotationProperty rdf:about="&oos;preferredNamespacePrefix"/>
+    
+
+
+    <!-- http://semanticsearchiot.net/sswot/Ontologies/oos.owl#preferredNamespaceUri -->
+
+    <owl:AnnotationProperty rdf:about="&oos;preferredNamespaceUri"/>
+    
+
+
+    <!-- http://semanticsearchiot.net/sswot/Ontologies/oos.owl#primaryTopic -->
+
+    <owl:AnnotationProperty rdf:about="&oos;primaryTopic"/>
+    
+
+
+    <!-- http://semanticsearchiot.net/sswot/Ontologies/oos.owl#priorVersion -->
+
+    <owl:AnnotationProperty rdf:about="&oos;priorVersion"/>
+    
+
+
+    <!-- http://semanticsearchiot.net/sswot/Ontologies/oos.owl#title -->
+
+    <owl:AnnotationProperty rdf:about="&oos;title"/>
+    
+
+
+    <!-- http://semanticsearchiot.net/sswot/Ontologies/oos.owl#versioninfo -->
+
+    <owl:AnnotationProperty rdf:about="&oos;versioninfo"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://localhost/default#CalculadosCon -->
+
+    <owl:ObjectProperty rdf:about="http://localhost/default#CalculadosCon"/>
+    
+
+
+    <!-- http://localhost/default#Definen -->
+
+    <owl:ObjectProperty rdf:about="http://localhost/default#Definen"/>
+    
+
+
+    <!-- http://localhost/default#DescribedBy -->
+
+    <owl:ObjectProperty rdf:about="http://localhost/default#DescribedBy">
+        <rdfs:range rdf:resource="http://localhost/default#ObjectType"/>
+        <rdfs:domain rdf:resource="http://localhost/default#Objeto"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://localhost/default#EnvíaDatosA -->
+
+    <owl:ObjectProperty rdf:about="http://localhost/default#EnvíaDatosA"/>
+    
+
+
+    <!-- http://localhost/default#EsEjecutadaCon -->
+
+    <owl:ObjectProperty rdf:about="http://localhost/default#EsEjecutadaCon"/>
+    
+
+
+    <!-- http://localhost/default#EsMedidaCon -->
+
+    <owl:ObjectProperty rdf:about="http://localhost/default#EsMedidaCon"/>
+    
+
+
+    <!-- http://localhost/default#EstaRelacionadaA -->
+
+    <owl:ObjectProperty rdf:about="http://localhost/default#EstaRelacionadaA"/>
+    
+
+
+    <!-- http://localhost/default#EstaRelacionadaCon -->
+
+    <owl:ObjectProperty rdf:about="http://localhost/default#EstaRelacionadaCon"/>
+    
+
+
+    <!-- http://localhost/default#EvaluadaCon -->
+
+    <owl:ObjectProperty rdf:about="http://localhost/default#EvaluadaCon"/>
+    
+
+
+    <!-- http://localhost/default#IdentificadoPor -->
+
+    <owl:ObjectProperty rdf:about="http://localhost/default#IdentificadoPor"/>
+    
+
+
+    <!-- http://localhost/default#IniciaCon -->
+
+    <owl:ObjectProperty rdf:about="http://localhost/default#IniciaCon"/>
+    
+
+
+    <!-- http://localhost/default#MedidaPor -->
+
+    <owl:ObjectProperty rdf:about="http://localhost/default#MedidaPor"/>
+    
+
+
+    <!-- http://localhost/default#Propone -->
+
+    <owl:ObjectProperty rdf:about="http://localhost/default#Propone"/>
+    
+
+
+    <!-- http://localhost/default#ProvocaUn -->
+
+    <owl:ObjectProperty rdf:about="http://localhost/default#ProvocaUn"/>
+    
+
+
+    <!-- http://localhost/default#PublicadasCon -->
+
+    <owl:ObjectProperty rdf:about="http://localhost/default#PublicadasCon"/>
+    
+
+
+    <!-- http://localhost/default#RecibeDatosDe -->
+
+    <owl:ObjectProperty rdf:about="http://localhost/default#RecibeDatosDe"/>
+    
+
+
+    <!-- http://localhost/default#Tiene -->
+
+    <owl:ObjectProperty rdf:about="http://localhost/default#Tiene"/>
+    
+
+
+    <!-- http://localhost/default#Verifica -->
+
+    <owl:ObjectProperty rdf:about="http://localhost/default#Verifica"/>
+    
+
+
+    <!-- http://localhost/default#hasIdde -->
+
+    <owl:ObjectProperty rdf:about="http://localhost/default#hasIdde">
+        <rdfs:range rdf:resource="http://localhost/default#device_serial"/>
+        <rdfs:domain rdf:resource="&ssn;Device"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://localhost/default#Accion -->
+
+    <owl:Class rdf:about="http://localhost/default#Accion">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://localhost/default#EsEjecutadaCon"/>
+                <owl:someValuesFrom rdf:resource="http://localhost/default#Enviar"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/default#Calidad -->
+
+    <owl:Class rdf:about="http://localhost/default#Calidad">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://localhost/default#Propone"/>
+                <owl:allValuesFrom rdf:resource="http://localhost/default#Objetivos"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/default#Condicion -->
+
+    <owl:Class rdf:about="http://localhost/default#Condicion">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://localhost/default#EstaRelacionadaCon"/>
+                <owl:allValuesFrom rdf:resource="http://localhost/default#Accion"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/default#Conocimientos -->
+
+    <owl:Class rdf:about="http://localhost/default#Conocimientos">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://localhost/default#Definen"/>
+                <owl:someValuesFrom rdf:resource="http://localhost/default#Estados"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/default#Contexto -->
+
+    <owl:Class rdf:about="http://localhost/default#Contexto">
+        <rdfs:subClassOf rdf:resource="http://localhost/default#Conocimientos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/default#Dinamicas -->
+
+    <owl:Class rdf:about="http://localhost/default#Dinamicas">
+        <rdfs:subClassOf rdf:resource="http://localhost/default#Interacciones"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://localhost/default#IniciaCon"/>
+                <owl:allValuesFrom rdf:resource="http://localhost/default#Evento"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/default#Enviar -->
+
+    <owl:Class rdf:about="http://localhost/default#Enviar">
+        <rdfs:subClassOf rdf:resource="http://localhost/default#Metodos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/default#EnviarEstado() -->
+
+    <owl:Class rdf:about="http://localhost/default#EnviarEstado()"/>
+    
+
+
+    <!-- http://localhost/default#Estado -->
+
+    <owl:Class rdf:about="http://localhost/default#Estado">
+        <rdfs:subClassOf rdf:resource="http://localhost/default#Propiedades"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://localhost/default#PublicadasCon"/>
+                <owl:allValuesFrom rdf:resource="http://localhost/default#EnviarEstado()"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/default#Estados -->
+
+    <owl:Class rdf:about="http://localhost/default#Estados"/>
+    
+
+
+    <!-- http://localhost/default#Estructurales -->
+
+    <owl:Class rdf:about="http://localhost/default#Estructurales">
+        <rdfs:subClassOf rdf:resource="http://localhost/default#Interacciones"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://localhost/default#EnvíaDatosA"/>
+                <owl:someValuesFrom rdf:resource="http://localhost/default#OSDestino"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://localhost/default#RecibeDatosDe"/>
+                <owl:someValuesFrom rdf:resource="http://localhost/default#OSOrigen"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/default#Evento -->
+
+    <owl:Class rdf:about="http://localhost/default#Evento">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://localhost/default#Verifica"/>
+                <owl:allValuesFrom rdf:resource="http://localhost/default#Condicion"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/default#Externos -->
+
+    <owl:Class rdf:about="http://localhost/default#Externos">
+        <rdfs:subClassOf rdf:resource="http://localhost/default#Metodos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/default#Identificador() -->
+
+    <owl:Class rdf:about="http://localhost/default#Identificador()"/>
+    
+
+
+    <!-- http://localhost/default#Indicadores -->
+
+    <owl:Class rdf:about="http://localhost/default#Indicadores">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://localhost/default#CalculadosCon"/>
+                <owl:someValuesFrom rdf:resource="http://localhost/default#variable"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://localhost/default#EvaluadaCon"/>
+                <owl:allValuesFrom rdf:resource="http://localhost/default#Metas"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/default#Interacciones -->
+
+    <owl:Class rdf:about="http://localhost/default#Interacciones"/>
+    
+
+
+    <!-- http://localhost/default#Internos -->
+
+    <owl:Class rdf:about="http://localhost/default#Internos">
+        <rdfs:subClassOf rdf:resource="http://localhost/default#Metodos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/default#Metas -->
+
+    <owl:Class rdf:about="http://localhost/default#Metas"/>
+    
+
+
+    <!-- http://localhost/default#Metodos -->
+
+    <owl:Class rdf:about="http://localhost/default#Metodos"/>
+    
+
+
+    <!-- http://localhost/default#OSDestino -->
+
+    <owl:Class rdf:about="http://localhost/default#OSDestino">
+        <rdfs:subClassOf rdf:resource="http://localhost/default#Objeto%20Semantico"/>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/default#OSOrigen -->
+
+    <owl:Class rdf:about="http://localhost/default#OSOrigen">
+        <rdfs:subClassOf rdf:resource="http://localhost/default#Objeto%20Semantico"/>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/default#ObjectType -->
+
+    <owl:Class rdf:about="http://localhost/default#ObjectType"/>
+    
+
+
+    <!-- http://localhost/default#Objetivos -->
+
+    <owl:Class rdf:about="http://localhost/default#Objetivos">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://localhost/default#MedidaPor"/>
+                <owl:allValuesFrom rdf:resource="http://localhost/default#Indicadores"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/default#Objeto -->
+
+    <owl:Class rdf:about="http://localhost/default#Objeto">
+        <rdfs:subClassOf rdf:resource="http://localhost/default#Propiedades"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://localhost/default#IdentificadoPor"/>
+                <owl:allValuesFrom rdf:resource="http://localhost/default#Identificador()"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/default#Objeto%20Semantico -->
+
+    <owl:Class rdf:about="http://localhost/default#Objeto%20Semantico"/>
+    
+
+
+    <!-- http://localhost/default#Propiedades -->
+
+    <owl:Class rdf:about="http://localhost/default#Propiedades"/>
+    
+
+
+    <!-- http://localhost/default#Rango%20Tiempo -->
+
+    <owl:Class rdf:about="http://localhost/default#Rango%20Tiempo"/>
+    
+
+
+    <!-- http://localhost/default#Recibir -->
+
+    <owl:Class rdf:about="http://localhost/default#Recibir">
+        <rdfs:subClassOf rdf:resource="http://localhost/default#Metodos"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://localhost/default#ProvocaUn"/>
+                <owl:someValuesFrom rdf:resource="http://localhost/default#Evento"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/default#Servicio -->
+
+    <owl:Class rdf:about="http://localhost/default#Servicio">
+        <rdfs:subClassOf rdf:resource="http://localhost/default#Conocimientos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/default#Symbol -->
+
+    <owl:Class rdf:about="http://localhost/default#Symbol"/>
+    
+
+
+    <!-- http://localhost/default#Tiempo%20Mayor -->
+
+    <owl:Class rdf:about="http://localhost/default#Tiempo%20Mayor"/>
+    
+
+
+    <!-- http://localhost/default#Tiempo%20Menor -->
+
+    <owl:Class rdf:about="http://localhost/default#Tiempo%20Menor"/>
+    
+
+
+    <!-- http://localhost/default#Unidades -->
+
+    <owl:Class rdf:about="http://localhost/default#Unidades"/>
+    
+
+
+    <!-- http://localhost/default#Usuario -->
+
+    <owl:Class rdf:about="http://localhost/default#Usuario">
+        <rdfs:subClassOf rdf:resource="http://localhost/default#Conocimientos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/default#Valor%20Maximo -->
+
+    <owl:Class rdf:about="http://localhost/default#Valor%20Maximo"/>
+    
+
+
+    <!-- http://localhost/default#Valor%20Minimo -->
+
+    <owl:Class rdf:about="http://localhost/default#Valor%20Minimo"/>
+    
+
+
+    <!-- http://localhost/default#Valor%20Referencia -->
+
+    <owl:Class rdf:about="http://localhost/default#Valor%20Referencia"/>
+    
+
+
+    <!-- http://localhost/default#at -->
+
+    <owl:Class rdf:about="http://localhost/default#at"/>
+    
+
+
+    <!-- http://localhost/default#created -->
+
+    <owl:Class rdf:about="http://localhost/default#created"/>
+    
+
+
+    <!-- http://localhost/default#creator -->
+
+    <owl:Class rdf:about="http://localhost/default#creator"/>
+    
+
+
+    <!-- http://localhost/default#current_value -->
+
+    <owl:Class rdf:about="http://localhost/default#current_value"/>
+    
+
+
+    <!-- http://localhost/default#datastream_id -->
+
+    <owl:Class rdf:about="http://localhost/default#datastream_id"/>
+    
+
+
+    <!-- http://localhost/default#datastreams -->
+
+    <owl:Class rdf:about="http://localhost/default#datastreams"/>
+    
+
+
+    <!-- http://localhost/default#description -->
+
+    <owl:Class rdf:about="http://localhost/default#description"/>
+    
+
+
+    <!-- http://localhost/default#device_serial -->
+
+    <owl:Class rdf:about="http://localhost/default#device_serial"/>
+    
+
+
+    <!-- http://localhost/default#domain -->
+
+    <owl:Class rdf:about="http://localhost/default#domain"/>
+    
+
+
+    <!-- http://localhost/default#ele -->
+
+    <owl:Class rdf:about="http://localhost/default#ele"/>
+    
+
+
+    <!-- http://localhost/default#email -->
+
+    <owl:Class rdf:about="http://localhost/default#email"/>
+    
+
+
+    <!-- http://localhost/default#feed -->
+
+    <owl:Class rdf:about="http://localhost/default#feed"/>
+    
+
+
+    <!-- http://localhost/default#id -->
+
+    <owl:Class rdf:about="http://localhost/default#id"/>
+    
+
+
+    <!-- http://localhost/default#label -->
+
+    <owl:Class rdf:about="http://localhost/default#label"/>
+    
+
+
+    <!-- http://localhost/default#lat -->
+
+    <owl:Class rdf:about="http://localhost/default#lat"/>
+    
+
+
+    <!-- http://localhost/default#location -->
+
+    <owl:Class rdf:about="http://localhost/default#location"/>
+    
+
+
+    <!-- http://localhost/default#lon -->
+
+    <owl:Class rdf:about="http://localhost/default#lon"/>
+    
+
+
+    <!-- http://localhost/default#max_value -->
+
+    <owl:Class rdf:about="http://localhost/default#max_value"/>
+    
+
+
+    <!-- http://localhost/default#min_value -->
+
+    <owl:Class rdf:about="http://localhost/default#min_value"/>
+    
+
+
+    <!-- http://localhost/default#name -->
+
+    <owl:Class rdf:about="http://localhost/default#name"/>
+    
+
+
+    <!-- http://localhost/default#private -->
+
+    <owl:Class rdf:about="http://localhost/default#private"/>
+    
+
+
+    <!-- http://localhost/default#status -->
+
+    <owl:Class rdf:about="http://localhost/default#status"/>
+    
+
+
+    <!-- http://localhost/default#tags -->
+
+    <owl:Class rdf:about="http://localhost/default#tags"/>
+    
+
+
+    <!-- http://localhost/default#title -->
+
+    <owl:Class rdf:about="http://localhost/default#title"/>
+    
+
+
+    <!-- http://localhost/default#updated -->
+
+    <owl:Class rdf:about="http://localhost/default#updated"/>
+    
+
+
+    <!-- http://localhost/default#variable -->
+
+    <owl:Class rdf:about="http://localhost/default#variable">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://localhost/default#Tiene"/>
+                <owl:allValuesFrom rdf:resource="http://localhost/default#Unidades"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://localhost/default#EstaRelacionadaA"/>
+                <owl:someValuesFrom rdf:resource="http://localhost/default#variable"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://localhost/default#EsMedidaCon"/>
+                <owl:allValuesFrom rdf:resource="http://localhost/default#Recibir"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/default#version -->
+
+    <owl:Class rdf:about="http://localhost/default#version"/>
+    
+
+
+    <!-- http://localhost/default#website -->
+
+    <owl:Class rdf:about="http://localhost/default#website"/>
+    
+
+
+    <!-- http://localhost/kos#Unit -->
+
+    <owl:Class rdf:about="&kos;Unit">
+        <rdfs:subClassOf rdf:resource="http://localhost/default#Unidades"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.oclc.org/NET/ssnx/ssn#Device -->
+
+    <owl:Class rdf:about="&ssn;Device"/>
+    
+
+
+    <!-- http://purl.oclc.org/NET/ssnx/ssn#Sensor -->
+
+    <owl:Class rdf:about="&ssn;Sensor"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://localhost/default#EnviarComando() -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/default#EnviarComando()">
+        <rdf:type rdf:resource="http://localhost/default#Enviar"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/default#EnviarDatos() -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/default#EnviarDatos()">
+        <rdf:type rdf:resource="http://localhost/default#Enviar"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/default#EnviarEstado() -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/default#EnviarEstado()">
+        <rdf:type rdf:resource="http://localhost/default#Enviar"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/default#EnviarInformacion() -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/default#EnviarInformacion()">
+        <rdf:type rdf:resource="http://localhost/default#Enviar"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/default#Identificador() -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/default#Identificador()">
+        <rdf:type rdf:resource="http://localhost/default#Enviar"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/default#PhysicalObject -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/default#PhysicalObject">
+        <rdf:type rdf:resource="http://localhost/default#ObjectType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/default#RecibirComando() -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/default#RecibirComando()">
+        <rdf:type rdf:resource="http://localhost/default#Recibir"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/default#RecibirDatos() -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/default#RecibirDatos()">
+        <rdf:type rdf:resource="http://localhost/default#Recibir"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/default#RecibirEstado() -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/default#RecibirEstado()">
+        <rdf:type rdf:resource="http://localhost/default#Recibir"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/default#RecibirInformación() -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/default#RecibirInformación()">
+        <rdf:type rdf:resource="http://localhost/default#Recibir"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/default#VirtualObject -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/default#VirtualObject">
+        <rdf:type rdf:resource="http://localhost/default#ObjectType"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+
+
+    <owl:ObjectProperty rdf:about="&oos2;EstadosSonDefinidosPor">
+        <rdfs:range rdf:resource="http://localhost/default#Conocimientos"/>
+        <rdfs:domain rdf:resource="http://localhost/default#Estados"/>
+        <owl:inverseOf rdf:resource="&oos2;ConDefinenLos"/>
+        <rdfs:subPropertyOf rdf:resource="&oos2;IsDefinedBy"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.websemantica.com/oos#EveIniciaUna -->
+
+    <owl:ObjectProperty rdf:about="&oos2;EveIniciaUna">
+        <rdfs:range rdf:resource="http://localhost/default#Dinamicas"/>
+        <rdfs:domain rdf:resource="http://localhost/default#Evento"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.websemantica.com/oos#EvenEsProvocadoPor -->
+
+    <owl:ObjectProperty rdf:about="&oos2;EvenEsProvocadoPor">
+        <rdfs:domain rdf:resource="http://localhost/default#Evento"/>
+        <rdfs:range rdf:resource="http://localhost/default#Recibir"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.websemantica.com/oos#ExtEstaRelacionadoConContex -->
+
+    <owl:ObjectProperty rdf:about="&oos2;ExtEstaRelacionadoConContex">
+        <rdfs:range rdf:resource="http://localhost/default#Contexto"/>
+        <rdfs:domain rdf:resource="http://localhost/default#Externos"/>
+        <rdfs:subPropertyOf rdf:resource="&oos2;EstaRelacionadoCon"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.websemantica.com/oos#ExtEstaRelacionadoConServ -->
+
+    <owl:ObjectProperty rdf:about="&oos2;ExtEstaRelacionadoConServ">
+        <rdfs:domain rdf:resource="http://localhost/default#Externos"/>
+        <rdfs:range rdf:resource="http://localhost/default#Servicio"/>
+        <rdfs:subPropertyOf rdf:resource="&oos2;EstaRelacionadoCon"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.websemantica.com/oos#ExtEstaRelacionadoConUsu -->
+
+    <owl:ObjectProperty rdf:about="&oos2;ExtEstaRelacionadoConUsu">
+        <rdfs:domain rdf:resource="http://localhost/default#Externos"/>
+        <rdfs:range rdf:resource="http://localhost/default#Usuario"/>
+        <rdfs:subPropertyOf rdf:resource="&oos2;EstaRelacionadoCon"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.websemantica.com/oos#ExtProvovaUn -->
+
+    <owl:ObjectProperty rdf:about="&oos2;ExtProvovaUn">
+        <rdfs:range rdf:resource="http://localhost/default#Evento"/>
+        <rdfs:domain rdf:resource="http://localhost/default#Recibir"/>
+        <owl:inverseOf rdf:resource="&oos2;EvenEsProvocadoPor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.websemantica.com/oos#IndSeComparanA -->
+
+    <owl:ObjectProperty rdf:about="&oos2;IndSeComparanA">
+        <rdfs:domain rdf:resource="http://localhost/default#Indicadores"/>
+        <rdfs:range rdf:resource="http://localhost/default#Metas"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.websemantica.com/oos#IndSonDefinidosPorObj -->
+
+    <owl:ObjectProperty rdf:about="&oos2;IndSonDefinidosPorObj">
+        <rdfs:domain rdf:resource="http://localhost/default#Indicadores"/>
+        <rdfs:range rdf:resource="http://localhost/default#Objetivos"/>
+        <rdfs:subPropertyOf rdf:resource="&oos2;IsDefinedBy"/>
+        <owl:inverseOf rdf:resource="&oos2;ObjDefinenUnosInd"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.websemantica.com/oos#IntDefinenLosObj -->
+
+    <owl:ObjectProperty rdf:about="&oos2;IntDefinenLosObj">
+        <rdfs:domain rdf:resource="http://localhost/default#Interacciones"/>
+        <rdfs:range rdf:resource="http://localhost/default#Objetivos"/>
+        <rdfs:subPropertyOf rdf:resource="&oos2;DefineA"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.websemantica.com/oos#IsDefinedBy -->
+
+    <owl:ObjectProperty rdf:about="&oos2;IsDefinedBy"/>
+    
+
+
+    <!-- http://www.websemantica.com/oos#LaHaceParteDeUn -->
+
+    <owl:ObjectProperty rdf:about="&oos2;LaHaceParteDeUn">
+        <rdfs:range rdf:resource="http://localhost/default#Unidades"/>
+        <rdfs:domain rdf:resource="http://localhost/default#label"/>
+        <rdfs:subPropertyOf rdf:resource="&oos2;SeComponeDe"/>
+        <owl:inverseOf rdf:resource="&oos2;UnCompuestaPorLa"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.websemantica.com/oos#LatHaceParteDeLoc -->
+
+    <owl:ObjectProperty rdf:about="&oos2;LatHaceParteDeLoc">
+        <rdfs:domain rdf:resource="http://localhost/default#lat"/>
+        <rdfs:range rdf:resource="http://localhost/default#location"/>
+        <owl:inverseOf rdf:resource="&oos2;LocCompuestaPorLat"/>
+        <rdfs:subPropertyOf rdf:resource="&oos2;SeComponeDe"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.websemantica.com/oos#LocCompuestaPorDominio -->
+
+    <owl:ObjectProperty rdf:about="&oos2;LocCompuestaPorDominio">
+        <rdfs:range rdf:resource="http://localhost/default#domain"/>
+        <rdfs:domain rdf:resource="http://localhost/default#location"/>
+        <rdfs:subPropertyOf rdf:resource="&oos2;EstaCompuestaPor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.websemantica.com/oos#LocCompuestaPorLat -->
+
+    <owl:ObjectProperty rdf:about="&oos2;LocCompuestaPorLat">
+        <rdfs:range rdf:resource="http://localhost/default#lat"/>
+        <rdfs:domain rdf:resource="http://localhost/default#location"/>
+        <rdfs:subPropertyOf rdf:resource="&oos2;EstaCompuestaPor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.websemantica.com/oos#LocCompuestaPorLon -->
+
+    <owl:ObjectProperty rdf:about="&oos2;LocCompuestaPorLon">
+        <rdfs:domain rdf:resource="http://localhost/default#location"/>
+        <rdfs:range rdf:resource="http://localhost/default#lon"/>
+        <rdfs:subPropertyOf rdf:resource="&oos2;EstaCompuestaPor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.websemantica.com/oos#LocCompuestaPorName -->
+
+    <owl:ObjectProperty rdf:about="&oos2;LocCompuestaPorName">
+        <rdfs:domain rdf:resource="http://localhost/default#location"/>
+        <rdfs:range rdf:resource="http://localhost/default#name"/>
+        <rdfs:subPropertyOf rdf:resource="&oos2;EstaCompuestaPor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.websemantica.com/oos#LocCompuestaProEle -->
+
+    <owl:ObjectProperty rdf:about="&oos2;LocCompuestaProEle">
+        <rdfs:range rdf:resource="http://localhost/default#ele"/>
+        <rdfs:domain rdf:resource="http://localhost/default#location"/>
+        <rdfs:subPropertyOf rdf:resource="&oos2;EstaCompuestaPor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.websemantica.com/oos#LonHaceParteDeLoc -->
+
+    <owl:ObjectProperty rdf:about="&oos2;LonHaceParteDeLoc">
+        <rdfs:range rdf:resource="http://localhost/default#location"/>
+        <rdfs:domain rdf:resource="http://localhost/default#lon"/>
+        <owl:inverseOf rdf:resource="&oos2;LocCompuestaPorLon"/>
+        <rdfs:subPropertyOf rdf:resource="&oos2;SeComponeDe"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.websemantica.com/oos#MaxHaceParteDeDts -->
+
+    <owl:ObjectProperty rdf:about="&oos2;MaxHaceParteDeDts">
+        <rdfs:range rdf:resource="http://localhost/default#datastreams"/>
+        <rdfs:domain rdf:resource="http://localhost/default#max_value"/>
+        <owl:inverseOf rdf:resource="&oos2;DtsCompuestaPorMax"/>
+        <rdfs:subPropertyOf rdf:resource="&oos2;SeComponeDe"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.websemantica.com/oos#MetClasificanLos -->
+
+    <owl:ObjectProperty rdf:about="&oos2;MetClasificanLos">
+        <rdfs:range rdf:resource="http://localhost/default#Indicadores"/>
+        <rdfs:domain rdf:resource="http://localhost/default#Metas"/>
+        <owl:inverseOf rdf:resource="&oos2;IndSeComparanA"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.websemantica.com/oos#MetPermiteMEdirLasVar -->
+
+    <owl:ObjectProperty rdf:about="&oos2;MetPermiteMEdirLasVar">
+        <rdfs:domain rdf:resource="http://localhost/default#Recibir"/>
+        <rdfs:range rdf:resource="http://localhost/default#variable"/>
+        <owl:inverseOf rdf:resource="&oos2;VarEsMedidaConMetodo"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.websemantica.com/oos#NameHaceParteDeLoc -->
+
+    <owl:ObjectProperty rdf:about="&oos2;NameHaceParteDeLoc">
+        <rdfs:range rdf:resource="http://localhost/default#location"/>
+        <rdfs:domain rdf:resource="http://localhost/default#name"/>
+        <owl:inverseOf rdf:resource="&oos2;LocCompuestaPorName"/>
+        <rdfs:subPropertyOf rdf:resource="&oos2;SeComponeDe"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.websemantica.com/oos#ObjDefinenUnosInd -->
+
+    <owl:ObjectProperty rdf:about="&oos2;ObjDefinenUnosInd">
+        <rdfs:range rdf:resource="http://localhost/default#Indicadores"/>
+        <rdfs:domain rdf:resource="http://localhost/default#Objetivos"/>
+        <rdfs:subPropertyOf rdf:resource="&oos2;DefineA"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.websemantica.com/oos#ObjSonDefinidosPorCon -->
+
+    <owl:ObjectProperty rdf:about="&oos2;ObjSonDefinidosPorCon">
+        <rdfs:range rdf:resource="http://localhost/default#Conocimientos"/>
+        <rdfs:domain rdf:resource="http://localhost/default#Objetivos"/>
+        <owl:inverseOf rdf:resource="&oos2;ConDefinenLosObj"/>
+        <rdfs:subPropertyOf rdf:resource="&oos2;IsDefinedBy"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.websemantica.com/oos#ObjSonDefinidosPorInt -->
+
+    <owl:ObjectProperty rdf:about="&oos2;ObjSonDefinidosPorInt">
+        <rdfs:range rdf:resource="http://localhost/default#Interacciones"/>
+        <rdfs:domain rdf:resource="http://localhost/default#Objetivos"/>
+        <owl:inverseOf rdf:resource="&oos2;IntDefinenLosObj"/>
+        <rdfs:subPropertyOf rdf:resource="&oos2;IsDefinedBy"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.websemantica.com/oos#ObjSonPorpuestosPorCal -->
+
+    <owl:ObjectProperty rdf:about="&oos2;ObjSonPorpuestosPorCal">
+        <rdfs:range rdf:resource="http://localhost/default#Calidad"/>
+        <rdfs:domain rdf:resource="http://localhost/default#Objetivos"/>
+        <owl:inverseOf rdf:resource="&oos2;CalProponeUnos"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.websemantica.com/oos#PrivDescribeAEst -->
+
+    <owl:ObjectProperty rdf:about="&oos2;PrivDescribeAEst">
+        <rdfs:subPropertyOf rdf:resource="http://localhost/default#DescribedBy"/>
+        <rdfs:range rdf:resource="http://localhost/default#Estado"/>
+        <rdfs:domain rdf:resource="http://localhost/default#private"/>
+        <owl:inverseOf rdf:resource="&oos2;EstEsDescritoPorPri"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.websemantica.com/oos#RangoDefineUnEsta -->
+
+    <owl:ObjectProperty rdf:about="&oos2;RangoDefineUnEsta">
+        <rdfs:range rdf:resource="http://localhost/default#Estados"/>
+        <owl:inverseOf rdf:resource="&oos2;EstEsDefinidoEnUnRang"/>
+        <rdfs:subPropertyOf rdf:resource="&oos2;IsDefinedBy"/>
+        <rdfs:domain rdf:resource="&oos2;RangoDeTiempo"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.websemantica.com/oos#RangoEsDefinidoPoUnTMa -->
+
+    <owl:ObjectProperty rdf:about="&oos2;RangoEsDefinidoPoUnTMa">
+        <rdfs:subPropertyOf rdf:resource="&oos2;DefineA"/>
+        <rdfs:domain rdf:resource="&oos2;RangoDeTiempo"/>
+        <rdfs:range rdf:resource="&oos2;TiempoMayor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.websemantica.com/oos#RangoEsDefinidoPoUnTMe -->
+
+    <owl:ObjectProperty rdf:about="&oos2;RangoEsDefinidoPoUnTMe">
+        <rdfs:subPropertyOf rdf:resource="&oos2;DefineA"/>
+        <rdfs:domain rdf:resource="&oos2;RangoDeTiempo"/>
+        <rdfs:range rdf:resource="&oos2;TiempoMenor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.websemantica.com/oos#RelacionadoA -->
+
+    <owl:ObjectProperty rdf:about="&oos2;RelacionadoA"/>
+    
+
+
+    <!-- http://www.websemantica.com/oos#SeComponeDe -->
+
+    <owl:ObjectProperty rdf:about="&oos2;SeComponeDe"/>
+    
+
+
+    <!-- http://www.websemantica.com/oos#ServSeRelacionaA -->
+
+    <owl:ObjectProperty rdf:about="&oos2;ServSeRelacionaA">
+        <rdfs:range rdf:resource="http://localhost/default#Externos"/>
+        <rdfs:domain rdf:resource="http://localhost/default#Servicio"/>
+        <owl:inverseOf rdf:resource="&oos2;ExtEstaRelacionadoConServ"/>
+        <rdfs:subPropertyOf rdf:resource="&oos2;RelacionadoA"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.websemantica.com/oos#StaDescribeAEst -->
+
+    <owl:ObjectProperty rdf:about="&oos2;StaDescribeAEst">
+        <rdfs:subPropertyOf rdf:resource="http://localhost/default#DescribedBy"/>
+        <rdfs:range rdf:resource="http://localhost/default#Estado"/>
+        <rdfs:domain rdf:resource="http://localhost/default#status"/>
+        <owl:inverseOf rdf:resource="&oos2;EstEsDescritoPorSta"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.websemantica.com/oos#SyHaceParteDeUn -->
+
+    <owl:ObjectProperty rdf:about="&oos2;SyHaceParteDeUn">
+        <rdfs:domain rdf:resource="http://localhost/default#Symbol"/>
+        <rdfs:range rdf:resource="http://localhost/default#Unidades"/>
+        <rdfs:subPropertyOf rdf:resource="&oos2;SeComponeDe"/>
+        <owl:inverseOf rdf:resource="&oos2;UnCompuestaPorSy"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.websemantica.com/oos#TagDescribeAEst -->
+
+    <owl:ObjectProperty rdf:about="&oos2;TagDescribeAEst">
+        <rdfs:subPropertyOf rdf:resource="http://localhost/default#DescribedBy"/>
+        <rdfs:range rdf:resource="http://localhost/default#Estado"/>
+        <owl:inverseOf rdf:resource="&oos2;EstEsDescritoPorTag"/>
+        <rdfs:domain rdf:resource="&oos2;tag_device"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.websemantica.com/oos#TagHaceParteDeDts -->
+
+    <owl:ObjectProperty rdf:about="&oos2;TagHaceParteDeDts">
+        <rdfs:range rdf:resource="http://localhost/default#datastreams"/>
+        <rdfs:domain rdf:resource="http://localhost/default#tags"/>
+        <owl:inverseOf rdf:resource="&oos2;DtsCompuestaPorTag"/>
+        <rdfs:subPropertyOf rdf:resource="&oos2;SeComponeDe"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.websemantica.com/oos#TieneCalidad -->
+
+    <owl:ObjectProperty rdf:about="&oos2;TieneCalidad">
+        <rdfs:range rdf:resource="http://localhost/default#Calidad"/>
+        <rdfs:domain rdf:resource="http://localhost/default#ObjetoSemantico"/>
+        <rdfs:subPropertyOf rdf:resource="&oos2;EsCaracterizadoPor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.websemantica.com/oos#TieneComoId -->
+
+    <owl:ObjectProperty rdf:about="&oos2;TieneComoId">
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://localhost/default#device_serial"/>
+        <rdfs:subPropertyOf rdf:resource="http://localhost/default#hasIdde"/>
+        <rdfs:domain rdf:resource="&ssn;Device"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.websemantica.com/oos#TieneConocimientos -->
+
+    <owl:ObjectProperty rdf:about="&oos2;TieneConocimientos">
+        <rdfs:range rdf:resource="http://localhost/default#Conocimientos"/>
+        <rdfs:domain rdf:resource="http://localhost/default#ObjetoSemantico"/>
+        <rdfs:subPropertyOf rdf:resource="&oos2;EsCaracterizadoPor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.websemantica.com/oos#TieneEstados -->
+
+    <owl:ObjectProperty rdf:about="&oos2;TieneEstados">
+        <rdfs:range rdf:resource="http://localhost/default#Estados"/>
+        <rdfs:domain rdf:resource="http://localhost/default#ObjetoSemantico"/>
+        <rdfs:subPropertyOf rdf:resource="&oos2;EsCaracterizadoPor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.websemantica.com/oos#TieneInteracciones -->
+
+    <owl:ObjectProperty rdf:about="&oos2;TieneInteracciones">
+        <rdfs:range rdf:resource="http://localhost/default#Interacciones"/>
+        <rdfs:domain rdf:resource="http://localhost/default#ObjetoSemantico"/>
+        <rdfs:subPropertyOf rdf:resource="&oos2;EsCaracterizadoPor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.websemantica.com/oos#TieneMedicionesComo -->
+
+    <owl:ObjectProperty rdf:about="&oos2;TieneMedicionesComo">
+        <rdfs:subPropertyOf rdf:resource="http://localhost/default#DescribedBy"/>
+        <rdfs:range rdf:resource="http://localhost/default#datastreams"/>
+        <rdfs:domain rdf:resource="&ssn;Sensor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.websemantica.com/oos#TieneMetodos -->
+
+    <owl:ObjectProperty rdf:about="&oos2;TieneMetodos">
+        <rdfs:range rdf:resource="http://localhost/default#Metodos"/>
+        <rdfs:domain rdf:resource="http://localhost/default#ObjetoSemantico"/>
+        <rdfs:subPropertyOf rdf:resource="&oos2;EsCaracterizadoPor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.websemantica.com/oos#TienePropiedades -->
+
+    <owl:ObjectProperty rdf:about="&oos2;TienePropiedades">
+        <rdfs:domain rdf:resource="http://localhost/default#ObjetoSemantico"/>
+        <rdfs:range rdf:resource="http://localhost/default#Propiedades"/>
+        <rdfs:subPropertyOf rdf:resource="&oos2;EsCaracterizadoPor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.websemantica.com/oos#TieneUnaLocalizacion -->
+
+    <owl:ObjectProperty rdf:about="&oos2;TieneUnaLocalizacion">
+        <rdfs:subPropertyOf rdf:resource="http://localhost/default#DescribedBy"/>
+        <rdfs:range rdf:resource="http://localhost/default#location"/>
+        <rdfs:domain rdf:resource="&ssn;Sensor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.websemantica.com/oos#TitDescribeAEst -->
+
+    <owl:ObjectProperty rdf:about="&oos2;TitDescribeAEst">
+        <rdfs:subPropertyOf rdf:resource="http://localhost/default#DescribedBy"/>
+        <rdfs:range rdf:resource="http://localhost/default#Estado"/>
+        <rdfs:domain rdf:resource="http://localhost/default#title"/>
+        <owl:inverseOf rdf:resource="&oos2;EstEsDescritoPorTit"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.websemantica.com/oos#TmaDefineUnRango -->
+
+    <owl:ObjectProperty rdf:about="&oos2;TmaDefineUnRango">
+        <rdfs:subPropertyOf rdf:resource="&oos2;IsDefinedBy"/>
+        <owl:inverseOf rdf:resource="&oos2;RangoEsDefinidoPoUnTMa"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.websemantica.com/oos#TmeDefineUnRango -->
+
+    <owl:ObjectProperty rdf:about="&oos2;TmeDefineUnRango">
+        <rdfs:subPropertyOf rdf:resource="&oos2;IsDefinedBy"/>
+        <owl:inverseOf rdf:resource="&oos2;RangoEsDefinidoPoUnTMe"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.websemantica.com/oos#UnCompuestaPorLa -->
+
+    <owl:ObjectProperty rdf:about="&oos2;UnCompuestaPorLa">
+        <rdfs:domain rdf:resource="http://localhost/default#Unidades"/>
+        <rdfs:range rdf:resource="http://localhost/default#label"/>
+        <rdfs:subPropertyOf rdf:resource="&oos2;EstaCompuestaPor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.websemantica.com/oos#UnCompuestaPorSy -->
+
+    <owl:ObjectProperty rdf:about="&oos2;UnCompuestaPorSy">
+        <rdfs:range rdf:resource="http://localhost/default#Symbol"/>
+        <rdfs:domain rdf:resource="http://localhost/default#Unidades"/>
+        <rdfs:subPropertyOf rdf:resource="&oos2;EstaCompuestaPor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.websemantica.com/oos#UnHaceParteDeTts -->
+
+    <owl:ObjectProperty rdf:about="&oos2;UnHaceParteDeTts">
+        <rdfs:domain rdf:resource="http://localhost/default#Unidades"/>
+        <rdfs:range rdf:resource="http://localhost/default#datastreams"/>
+        <owl:inverseOf rdf:resource="&oos2;DtsCompuestaPorUn"/>
+        <rdfs:subPropertyOf rdf:resource="&oos2;SeComponeDe"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.websemantica.com/oos#UnRelacionadasAVar -->
+
+    <owl:ObjectProperty rdf:about="&oos2;UnRelacionadasAVar">
+        <rdfs:domain rdf:resource="http://localhost/default#Unidades"/>
+        <rdfs:range rdf:resource="http://localhost/default#variable"/>
+        <owl:inverseOf rdf:resource="&oos2;VarTienenUn"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.websemantica.com/oos#UpdDescribeAEst -->
+
+    <owl:ObjectProperty rdf:about="&oos2;UpdDescribeAEst">
+        <rdfs:subPropertyOf rdf:resource="http://localhost/default#DescribedBy"/>
+        <rdfs:range rdf:resource="http://localhost/default#Estado"/>
+        <rdfs:domain rdf:resource="http://localhost/default#updated"/>
+        <owl:inverseOf rdf:resource="&oos2;EstEsDescritoPorUpd"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.websemantica.com/oos#UsuSeRelacionaA -->
+
+    <owl:ObjectProperty rdf:about="&oos2;UsuSeRelacionaA">
+        <rdfs:range rdf:resource="http://localhost/default#Externos"/>
+        <rdfs:domain rdf:resource="http://localhost/default#Usuario"/>
+        <owl:inverseOf rdf:resource="&oos2;ExtEstaRelacionadoConUsu"/>
+        <rdfs:subPropertyOf rdf:resource="&oos2;RelacionadoA"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.websemantica.com/oos#VarEsMedidaConMetodo -->
+
+    <owl:ObjectProperty rdf:about="&oos2;VarEsMedidaConMetodo">
+        <rdfs:range rdf:resource="http://localhost/default#Recibir"/>
+        <rdfs:domain rdf:resource="http://localhost/default#variable"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.websemantica.com/oos#VarEsUnaReacionDeOtras -->
+
+    <owl:ObjectProperty rdf:about="&oos2;VarEsUnaReacionDeOtras">
+        <rdf:type rdf:resource="&owl;ReflexiveProperty"/>
+        <rdfs:range rdf:resource="http://localhost/default#variable"/>
+        <rdfs:domain rdf:resource="http://localhost/default#variable"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.websemantica.com/oos#VarTienenUn -->
+
+    <owl:ObjectProperty rdf:about="&oos2;VarTienenUn">
+        <rdfs:range rdf:resource="http://localhost/default#Unidades"/>
+        <rdfs:domain rdf:resource="http://localhost/default#variable"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.websemantica.com/oos#VerDescribeAEst -->
+
+    <owl:ObjectProperty rdf:about="&oos2;VerDescribeAEst">
+        <rdfs:subPropertyOf rdf:resource="http://localhost/default#DescribedBy"/>
+        <rdfs:range rdf:resource="http://localhost/default#Estado"/>
+        <rdfs:domain rdf:resource="http://localhost/default#version"/>
+        <owl:inverseOf rdf:resource="&oos2;EstEsDescritoPorVer"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.websemantica.com/oos#VerficaUna -->
+
+    <owl:ObjectProperty rdf:about="&oos2;VerficaUna">
+        <rdfs:range rdf:resource="http://localhost/default#Condicion"/>
+        <rdfs:domain rdf:resource="http://localhost/default#Evento"/>
+        <owl:inverseOf rdf:resource="&oos2;EsEvaluadoEnUn"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.websemantica.com/oos#WebDescribeAEst -->
+
+    <owl:ObjectProperty rdf:about="&oos2;WebDescribeAEst">
+        <rdfs:subPropertyOf rdf:resource="http://localhost/default#DescribedBy"/>
+        <rdfs:range rdf:resource="http://localhost/default#Estado"/>
+        <rdfs:domain rdf:resource="http://localhost/default#website"/>
+        <owl:inverseOf rdf:resource="&oos2;EstEsDescritoPorWeb"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.websemantica.com/oos#minHaceParteDeDts -->
+
+    <owl:ObjectProperty rdf:about="&oos2;minHaceParteDeDts">
+        <rdfs:range rdf:resource="http://localhost/default#datastreams"/>
+        <rdfs:domain rdf:resource="http://localhost/default#min_value"/>
+        <owl:inverseOf rdf:resource="&oos2;DtsCompuestaPorMin"/>
+        <rdfs:subPropertyOf rdf:resource="&oos2;SeComponeDe"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://localhost/default#Accion -->
+
+    <owl:Class rdf:about="http://localhost/default#Accion">
+        <rdfs:label xml:lang="en">Action</rdfs:label>
+        <rdfs:label xml:lang="es">Acción</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://localhost/default#Dinamicas"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&oos2;AccEsEjecutadaCon"/>
+                <owl:someValuesFrom rdf:resource="http://localhost/default#Enviar"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&oos2;AccEsProvocadaPor"/>
+                <owl:allValuesFrom rdf:resource="http://localhost/default#Condicion"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="es">Se corresponden con métodos que envían información, después de validar unas condiciones específicas.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/default#Calidad -->
+
+    <owl:Class rdf:about="http://localhost/default#Calidad">
+        <rdfs:label xml:lang="en">Quality</rdfs:label>
+        <rdfs:label xml:lang="es">Calidad</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&oos2;Facetas"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&oos2;EsCalidadDe"/>
+                <owl:someValuesFrom rdf:resource="http://localhost/default#ObjetoSemantico"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&oos2;CalProponeUnos"/>
+                <owl:someValuesFrom rdf:resource="http://localhost/default#Objetivos"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="es">Establece objetivos e indicadores que permiten monitorear y capturar datos sobre el desempeño del objeto semántico. Adicionalmente, puede definir objetivos de interacción y de conocimiento, en el cual pueden participar objetos externos y así colaborarse para el cumplimiento de los mismos. Se ha incorporado un patrón de indicadores de gestión, con el fin de medir adecuadamente el logro de los mismos.</rdfs:comment>
+        <oos2:sinonimos xml:lang="es">Evaluación, eficacia, eficiencia, relevancia.</oos2:sinonimos>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/default#Condicion -->
+
+    <owl:Class rdf:about="http://localhost/default#Condicion">
+        <rdfs:label xml:lang="en">Condition</rdfs:label>
+        <rdfs:label xml:lang="es">Condición</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://localhost/default#Dinamicas"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&oos2;ConProvocaUna"/>
+                <owl:someValuesFrom rdf:resource="http://localhost/default#Accion"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&oos2;EsEvaluadoEnUn"/>
+                <owl:someValuesFrom rdf:resource="http://localhost/default#Evento"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="es">Define un conjunto de condiciones que se prueban con el fin de establecer un comportamiento del objeto semántico.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/default#Conocimientos -->
+
+    <owl:Class rdf:about="http://localhost/default#Conocimientos">
+        <rdfs:label xml:lang="en">knowledge</rdfs:label>
+        <rdfs:label xml:lang="es">Conocimientos</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&oos2;Facetas"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&oos2;EsConocimientoDe"/>
+                <owl:someValuesFrom rdf:resource="http://localhost/default#ObjetoSemantico"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="es">Este concepto añade semántica al objeto dependiendo del conocimiento del dominio en que se modele. Se propone manejar conocimiento de: contexto - conciencia, servicios y usuarios. El modelado de este conocimiento, permitirá establecer el comportamiento del objeto semántico y de las capacidades del mismo en un contexto definido. El conocimiento posteriormente es adquirido o enviado a otros objetos a través de métodos externos. Los diferentes modelos de contexto, servicios y usuario serán sub árboles de ontologías de dominio que se desprenden de estos conceptos.</rdfs:comment>
+        <oos2:sinonimos xml:lang="es">Juicio, comprensión, entendimiento, inteligencia, competencia</oos2:sinonimos>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/default#Contexto -->
+
+    <owl:Class rdf:about="http://localhost/default#Contexto">
+        <rdfs:label xml:lang="en">Knowledge of context</rdfs:label>
+        <rdfs:label xml:lang="es">Conocimiento de Contexto</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://localhost/default#Conocimientos"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&oos2;ContexSeRelacionaA"/>
+                <owl:someValuesFrom rdf:resource="http://localhost/default#Externos"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="es">El conocimiento de contexto relaciona las propiedades que almacenan información de la relación del objeto con un dominio particular. Se deben definir modelos adecuados [3] del contexto particular con el fin de entregar información útil. Estos métodos debe heredar de Enviar/Recibir información.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/default#Dinamicas -->
+
+    <owl:Class rdf:about="http://localhost/default#Dinamicas">
+        <rdfs:label xml:lang="en">Dynamic interactions</rdfs:label>
+        <rdfs:label xml:lang="es">Interacciones Dinámicas</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://localhost/default#Interacciones"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&oos2;DinIniciaCon"/>
+                <owl:someValuesFrom rdf:resource="http://localhost/default#Evento"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://localhost/default#Estructurales"/>
+        <rdfs:comment xml:lang="es">Definen un conjunto de Disparadores que permiten realizar intercambio de datos e información entre objetos semánticos a través del patrón ECA: Evento-Condición-Acción. El evento puede ser producido por otro objeto semántico o (incluso el mismo) por un estímulo externo de envío de información. Una vez se recibe el evento, se consulta la condición relacionada y se ejecutan las acciones si se cumplen las condiciones. Las acciones a su vez son métodos externos.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/default#Enviar -->
+
+    <owl:Class rdf:about="http://localhost/default#Enviar">
+        <rdfs:label xml:lang="en">Send</rdfs:label>
+        <rdfs:label xml:lang="es">Enviar</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://localhost/default#Externos"/>
+        <owl:disjointWith rdf:resource="http://localhost/default#Recibir"/>
+        <rdfs:comment xml:lang="es">Es un concepto que agrupa los métodos que permiten enviar datos e información a otro usuario u objeto semántico.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/default#Estado -->
+
+    <owl:Class rdf:about="http://localhost/default#Estado">
+        <rdfs:label xml:lang="en">Status Properties</rdfs:label>
+        <rdfs:label xml:lang="es">Propiedades de Estado</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://localhost/default#Propiedades"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&oos2;EstEsDescritoPorSta"/>
+                <owl:someValuesFrom rdf:resource="http://localhost/default#status"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&oos2;EstEsDescritoPorUpd"/>
+                <owl:someValuesFrom rdf:resource="http://localhost/default#updated"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&oos2;EsIdentificadoPor"/>
+                <owl:onClass rdf:resource="http://localhost/default#feed"/>
+                <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&oos2;EstEsDescritoPorPri"/>
+                <owl:someValuesFrom rdf:resource="http://localhost/default#private"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&oos2;EstEsDescritoPorTit"/>
+                <owl:someValuesFrom rdf:resource="http://localhost/default#title"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&oos2;EstEsDescritoPorVer"/>
+                <owl:someValuesFrom rdf:resource="http://localhost/default#version"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&oos2;EstEsDescritoPorCre"/>
+                <owl:someValuesFrom rdf:resource="http://localhost/default#created"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="es">Caracterizan el objeto, pero estas propiedades son públicas y su información es compartida a través de métodos, convirtiéndose en variables de estado del sistema. El estado lo envóia a través del método EnviarEstado()</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/default#Estados -->
+
+    <owl:Class rdf:about="http://localhost/default#Estados">
+        <rdfs:label xml:lang="en">Status</rdfs:label>
+        <rdfs:label xml:lang="es">Estados</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&oos2;Facetas"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&oos2;EstEsDefinidoATravesDe"/>
+                <owl:allValuesFrom rdf:resource="http://localhost/default#Propiedades"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&oos2;EsEstadoDe"/>
+                <owl:someValuesFrom rdf:resource="http://localhost/default#ObjetoSemantico"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&oos2;EstEsDefinidoEnUnRang"/>
+                <owl:someValuesFrom rdf:resource="&oos2;RangoDeTiempo"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&oos2;EstadosSonDefinidosPor"/>
+                <owl:someValuesFrom rdf:resource="http://localhost/default#Conocimientos"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="es">En la teoría del control se definen los estados del sistema como el valor de las variables (propiedades) de estado que tiene el mismo en un momento dado en el tiempo. Por ello aquí se define como las propiedades de estado en un rango de tiempo definido. El estado también está relacionado al contexto y las entidades que participan en el mismo, por ello los diferentes modelos de conocimiento pueden definir estados particulares. Finalmente, en una estructura superior de interrelación entre varios objetos semánticos, el estado del sistema superior corresponderá a la suma de las propiedades públicas de los objetos participantes.</rdfs:comment>
+        <oos2:sinonimos xml:lang="es">Etapa, cambio, fase, curso, momento, periodo, estación, estadio.</oos2:sinonimos>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/default#Estructurales -->
+
+    <owl:Class rdf:about="http://localhost/default#Estructurales">
+        <rdfs:label xml:lang="en">Structural interactions</rdfs:label>
+        <rdfs:label xml:lang="es">Interacciones Estructurales</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://localhost/default#Interacciones"/>
+        <rdfs:comment xml:lang="es">Definen una red de objetos semánticos que se crea al momento de definir las colaboraciones mutuas. Por ello está compuesta por objetos semánticos origen y objetos semánticos destino. Los primeros envían datos e información al objeto semántico modelado y los segundos reciben datos del objeto semántico modelado. </rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/default#Evento -->
+
+    <owl:Class rdf:about="http://localhost/default#Evento">
+        <rdfs:label xml:lang="en">Event</rdfs:label>
+        <rdfs:label xml:lang="es">Evento</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://localhost/default#Dinamicas"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&oos2;VerficaUna"/>
+                <owl:someValuesFrom rdf:resource="http://localhost/default#Condicion"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&oos2;EveIniciaUna"/>
+                <owl:someValuesFrom rdf:resource="http://localhost/default#Dinamicas"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&oos2;EvenEsProvocadoPor"/>
+                <owl:someValuesFrom rdf:resource="http://localhost/default#Recibir"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="es">Se corresponden con los métodos que permiten recibir información. Cada método de prueba con respecto a unas condiciones y así verificar la ejecución de alguna acción si es necesario. </rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/default#Externos -->
+
+    <owl:Class rdf:about="http://localhost/default#Externos">
+        <rdfs:label xml:lang="en">External methods</rdfs:label>
+        <rdfs:label xml:lang="es">Métodos Externos</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://localhost/default#Metodos"/>
+        <owl:disjointWith rdf:resource="http://localhost/default#Internos"/>
+        <rdfs:comment xml:lang="es">Los métodos externos se enfocan particularmente a la comunicación y permiten enviar/recibir los datos e información de los otros objetos semánticos. Se proponen ocho métodos generales específicos para el modelo.Son métodos que están compartidos públicamente para enviar/recibir información del medio (Entorno). Los métodos deben seguir una especificación estándar para facilitar su interoperabilidad. Cada vez que se ejecuta un método es posible que se cambie el estado o un valor de propiedad pública del objeto semántico.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/default#Indicadores -->
+
+    <owl:Class rdf:about="http://localhost/default#Indicadores">
+        <rdfs:label xml:lang="en">Indicators</rdfs:label>
+        <rdfs:label xml:lang="es">Indicadores</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://localhost/default#Calidad"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&oos2;IndSeComparanA"/>
+                <owl:onClass rdf:resource="http://localhost/default#Metas"/>
+                <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&oos2;IndSonDefinidosPorObj"/>
+                <owl:someValuesFrom rdf:resource="http://localhost/default#Objetivos"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="es">Son variables que están relacionados a los objetivos y por medio de los cuales es posible medir su logro.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/default#Interacciones -->
+
+    <owl:Class rdf:about="http://localhost/default#Interacciones">
+        <rdfs:label xml:lang="en">Interactions</rdfs:label>
+        <rdfs:label xml:lang="es">Interacciones</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&oos2;Facetas"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&oos2;EsInteraccionDe"/>
+                <owl:someValuesFrom rdf:resource="http://localhost/default#ObjetoSemantico"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oos2:sinonimos xml:lang="es">Interrelación, colaboración, cooperación, participación, alianza, asociación, asistencia.</oos2:sinonimos>
+        <rdfs:comment xml:lang="es">Son todos los mecanismos que permiten establecer comunicación entre diversos objetos semánticos del sistema. Pueden ser estructurales o dinámicas. Así, si un objeto semántico colabora con otro, deben manejar el mismo lenguaje de interacción y deben exponer de manera estándar los métodos de sus funcionalidades, dependiendo de los objetivos de interacción definidos también de manera estándar. Esto permitirá que cualquier otro objeto participe el proceso si es necesario y que les permita construir servicios más elaborados al actuar sinérgicamente como estructuras más complejas.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/default#Internos -->
+
+    <owl:Class rdf:about="http://localhost/default#Internos">
+        <rdfs:label xml:lang="en">Internal methods</rdfs:label>
+        <rdfs:label xml:lang="es">Métodos Internos</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://localhost/default#Metodos"/>
+        <rdfs:comment xml:lang="es">Las funciones internas corresponden a procesos que conciernen sólo al objeto semántico mismo y dependiendo de lo que representen definirán ciertos comportamientos en su lógica de negocio. Son métodos que están definidos y conocidos sólo por el mismo objeto para desarrollar sus operaciones como sistema. También son conocidos por los métodos externos cuando necesitan cambiar propiedades internas.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/default#Metas -->
+
+    <owl:Class rdf:about="http://localhost/default#Metas">
+        <rdfs:label xml:lang="en">Goals</rdfs:label>
+        <rdfs:label xml:lang="es">Metas</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://localhost/default#Indicadores"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&oos2;MetClasificanLos"/>
+                <owl:someValuesFrom rdf:resource="http://localhost/default#Indicadores"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="es">Una meta está relacionada directamente a un indicador. Se definen como un conjunto de tres valores, en los cuales se establece un rango y un valor de referencia para la variable que se ha calculado en la característica de interés medida. Esta permitirá hacer análisis de fallos, logro de objetivos y tendencias del indicador relacionado.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/default#Metodos -->
+
+    <owl:Class rdf:about="http://localhost/default#Metodos">
+        <rdfs:label xml:lang="en">Methods</rdfs:label>
+        <rdfs:label xml:lang="es">Métodos</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&oos2;Facetas"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&oos2;EsMetodoDe"/>
+                <owl:someValuesFrom rdf:resource="http://localhost/default#ObjetoSemantico"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="es">Corresponde al conjunto de funciones internas o externas para el intercambio de información.</rdfs:comment>
+        <oos2:sinonimos xml:lang="es">Funciones, Procedimientos, técnicas, reglas, planes.</oos2:sinonimos>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/default#OSDestino -->
+
+    <owl:Class rdf:about="http://localhost/default#OSDestino">
+        <rdfs:label xml:lang="en">Object Publisher</rdfs:label>
+        <rdfs:label xml:lang="es">Objeto Publicador</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://localhost/default#ObjetoSemantico"/>
+        <rdfs:comment xml:lang="es">Es un conjunto de objetos semántico al cual provee servicios de información y mantiene una relacion activa. Es un objeto semántico que envía datos – información al objeto semántico actual</rdfs:comment>
+        <oos2:sinonimos xml:lang="es">Objeto Semántico Origen</oos2:sinonimos>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/default#OSOrigen -->
+
+    <owl:Class rdf:about="http://localhost/default#OSOrigen">
+        <rdfs:label xml:lang="en">Subscriber object</rdfs:label>
+        <rdfs:label xml:lang="es">Objeto Suscriptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://localhost/default#ObjetoSemantico"/>
+        <rdfs:comment xml:lang="es">Es un conjunto objetos semánticos del cual recibe servicios de información y mantiene una relacion activa. Es un objeto semántico que recibe datos – información del objeto semántico actual.</rdfs:comment>
+        <oos2:sinonimos xml:lang="es">Objeto Semántico Destino</oos2:sinonimos>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/default#ObjectType -->
+
+    <owl:Class rdf:about="http://localhost/default#ObjectType">
+        <owl:equivalentClass rdf:resource="http://localhost/default#domain"/>
+        <rdfs:subClassOf rdf:resource="http://localhost/default#Objeto"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&oos2;ClasificaA"/>
+                <owl:someValuesFrom rdf:resource="http://localhost/default#Objeto"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="es">Permite clasificar el dispositivo en (físico o virtual), dependiendo de si el mismo es real o no.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/default#Objetivos -->
+
+    <owl:Class rdf:about="http://localhost/default#Objetivos">
+        <rdfs:label xml:lang="en">Objectives</rdfs:label>
+        <rdfs:label xml:lang="es">Objetivos</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://localhost/default#Calidad"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&oos2;ObjSonPorpuestosPorCal"/>
+                <owl:someValuesFrom rdf:resource="http://localhost/default#Calidad"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&oos2;ObjSonDefinidosPorInt"/>
+                <owl:someValuesFrom rdf:resource="http://localhost/default#Interacciones"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&oos2;ObjDefinenUnosInd"/>
+                <owl:someValuesFrom rdf:resource="http://localhost/default#Indicadores"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="es">Están definidos como propósitos que se deben tener en cuenta con los modelos de conocimiento e interacción, a fin de establecer la sinergia de objetos.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/default#Objeto -->
+
+    <owl:Class rdf:about="http://localhost/default#Objeto">
+        <rdfs:label xml:lang="en">Object Properties</rdfs:label>
+        <rdfs:label xml:lang="es">Propiedades de Objeto</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://localhost/default#Propiedades"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&oos2;EsClasificadoPor"/>
+                <owl:onClass rdf:resource="http://localhost/default#ObjectType"/>
+                <owl:minQualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:minQualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&oos2;EstaDefinidoComoDispositivo"/>
+                <owl:someValuesFrom rdf:resource="&ssn;Device"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&oos2;EsClasificadoPor"/>
+                <owl:allValuesFrom rdf:resource="http://localhost/default#ObjectType"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&oos2;EstaDefinidoComoSensor"/>
+                <owl:someValuesFrom rdf:resource="&ssn;Sensor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="es">Caracterizan el objeto mismo clasificándolo e identificándolo. La identificación se estandariza con un método llamado identificador() el cual es público.Estas propiedades son necesarias para el funcionamiento interno del objeto y son privadas, es decir no necesitan ser conocidas por ningún otro objeto. Sin embargo, una de las propiedades importantes del objeto es su Identificación, la cual si debe ser expuesta a través de un método externo para su identificación con otros objetos.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/default#ObjetoSemantico -->
+
+    <owl:Class rdf:about="http://localhost/default#ObjetoSemantico">
+        <rdfs:label xml:lang="en">Semantic Object</rdfs:label>
+        <rdfs:label xml:lang="es">Objeto Semántico</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&oos2;EsCaracterizadoPor"/>
+                <owl:allValuesFrom rdf:resource="&oos2;Facetas"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&oos2;TienePropiedades"/>
+                <owl:someValuesFrom rdf:resource="http://localhost/default#Propiedades"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&oos2;TieneEstados"/>
+                <owl:someValuesFrom rdf:resource="http://localhost/default#Estados"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&oos2;TieneConocimientos"/>
+                <owl:someValuesFrom rdf:resource="http://localhost/default#Conocimientos"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&oos2;TieneInteracciones"/>
+                <owl:someValuesFrom rdf:resource="http://localhost/default#Interacciones"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&oos2;TieneMetodos"/>
+                <owl:someValuesFrom rdf:resource="http://localhost/default#Metodos"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&oos2;TieneCalidad"/>
+                <owl:someValuesFrom rdf:resource="http://localhost/default#Calidad"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="es">Dispositivos o Personas de la red social de objetos y personas - RSoTP con capacidades de procesamiento, almacenamiento y comunicación de información, que a su vez se encuentran enriquecidos con información semántica acerca de sus características y servicio que es capaz de proveer y compartir con otros objetos. El objeto Semántico sobre el cual se pueden modelar todas las cosas, representa la unidad estructural mínima, por el cual se espera abarcar los perfiles más relevantes del modelado semántico de las cosas.  Por definición los perfiles son ortogonales, esto con el fin de simplificar la formalización matemática.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/default#Propiedades -->
+
+    <owl:Class rdf:about="http://localhost/default#Propiedades">
+        <rdfs:label xml:lang="en">Properties</rdfs:label>
+        <rdfs:label xml:lang="es">Propiedades</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&oos2;Facetas"/>
+        <oos2:sinonimos xml:lang="es">Atributos, cualidades, rasgos, peculiaridades, características</oos2:sinonimos>
+        <rdfs:comment xml:lang="es">Estas corresponden a todo el conjunto de características o atributos que definen el objeto semántico modelado</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/default#Recibir -->
+
+    <owl:Class rdf:about="http://localhost/default#Recibir">
+        <rdfs:label xml:lang="en">Receive</rdfs:label>
+        <rdfs:label xml:lang="es">Recibir</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://localhost/default#Externos"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&oos2;MetPermiteMEdirLasVar"/>
+                <owl:someValuesFrom rdf:resource="http://localhost/default#variable"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="es">Es un concepto que agrupa los métodos que permiten recibir datos e información de otro usuario u objeto semántico. Especifica una interfaz del tipo de datos y cantidad de datos que es capaz de recibir.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/default#Servicio -->
+
+    <owl:Class rdf:about="http://localhost/default#Servicio">
+        <rdfs:label xml:lang="en">Service Knowledge</rdfs:label>
+        <rdfs:label xml:lang="es">Conocimiento de servicio</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://localhost/default#Conocimientos"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&oos2;ServSeRelacionaA"/>
+                <owl:someValuesFrom rdf:resource="http://localhost/default#Externos"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="es">Este conocimiento se relaciona a la publicación de servicios públicos de acuerdo al contexto particular. Los servicios pueden ir desde compartir simples datos, hasta compartir información y capacidades de raciocinio sobre la información. Los servicios web semánticos son una buena opción en este punto.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/default#Symbol -->
+
+    <owl:Class rdf:about="http://localhost/default#Symbol">
+        <rdfs:label xml:lang="en">Symbol</rdfs:label>
+        <rdfs:label xml:lang="es">Símbolo</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://localhost/default#Unidades"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&oos2;SyHaceParteDeUn"/>
+                <owl:someValuesFrom rdf:resource="http://localhost/default#Unidades"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="es">Define los caracteres por los cuales se expresa el tipo de unidad a utlizar. Corresponde a las unidades de medida del fenómeno que está midiendo en cada canal el dispositivo.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/default#Unidades -->
+
+    <owl:Class rdf:about="http://localhost/default#Unidades">
+        <rdfs:label xml:lang="en">Units</rdfs:label>
+        <rdfs:label xml:lang="es">Unidades</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://localhost/default#variable"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&oos2;UnCompuestaPorLa"/>
+                <owl:someValuesFrom rdf:resource="http://localhost/default#label"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&oos2;UnCompuestaPorSy"/>
+                <owl:someValuesFrom rdf:resource="http://localhost/default#Symbol"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="es">Define las unidades que mide una variable. Una variable está relacionada sólo a un tipo de unidades particulares.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/default#Usuario -->
+
+    <owl:Class rdf:about="http://localhost/default#Usuario">
+        <rdfs:label xml:lang="en">User Knowledge</rdfs:label>
+        <rdfs:label xml:lang="es">Conocimiento de Usuario</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://localhost/default#Conocimientos"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&oos2;UsuSeRelacionaA"/>
+                <owl:someValuesFrom rdf:resource="http://localhost/default#Externos"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="es">Este conocimiento está relacionado a los modelos de usuario que se implementan y como gestionar la información del mismo para adaptar los métodos de envío de datos e información.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/default#at -->
+
+    <owl:Class rdf:about="http://localhost/default#at">
+        <rdfs:subClassOf rdf:resource="http://localhost/default#datastreams"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&oos2;AtHaceParteDeDts"/>
+                <owl:someValuesFrom rdf:resource="http://localhost/default#datastreams"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="es">Corresponde a la hora y fecha en que fué tomada la medición del sensor</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/default#created -->
+
+    <owl:Class rdf:about="http://localhost/default#created">
+        <rdfs:subClassOf rdf:resource="http://localhost/default#Estado"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&oos2;CreDescribeAEst"/>
+                <owl:someValuesFrom rdf:resource="http://localhost/default#Estado"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="es">Por defecto Xively le asigna el valor de fecha en que se creó el dispositivo</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/default#creator -->
+
+    <owl:Class rdf:about="http://localhost/default#creator">
+        <rdfs:subClassOf rdf:resource="http://localhost/default#Estado"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&oos2;EstEsDescritoPorCreator"/>
+                <owl:someValuesFrom rdf:resource="http://localhost/default#creator"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&oos2;CreatorDescribeAEst"/>
+                <owl:someValuesFrom rdf:resource="http://localhost/default#Estado"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="es">Por defecto Xively coloca el nombre del usuario</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/default#current_value -->
+
+    <owl:Class rdf:about="http://localhost/default#current_value">
+        <rdfs:subClassOf rdf:resource="http://localhost/default#datastreams"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&oos2;CurHaceParteDeDts"/>
+                <owl:someValuesFrom rdf:resource="http://localhost/default#datastreams"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="es">Opcionalmente el usuario puede colocar un valor inicial, para inicializar el canal</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/default#datastream_id -->
+
+    <owl:Class rdf:about="http://localhost/default#datastream_id">
+        <rdfs:subClassOf rdf:resource="http://localhost/default#datastreams"/>
+        <rdfs:comment xml:lang="es">Es un nombre que le coloca el usuario al sensor que está vinculando al canal</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/default#datastreams -->
+
+    <owl:Class rdf:about="http://localhost/default#datastreams">
+        <rdfs:subClassOf rdf:resource="&ssn;Sensor"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&oos2;DtsCompuestaPorDt"/>
+                <owl:allValuesFrom rdf:resource="http://localhost/default#datastream_id"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&oos2;DtsCompuestaPorUn"/>
+                <owl:someValuesFrom rdf:resource="http://localhost/default#Unidades"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&oos2;EsMedicionDe"/>
+                <owl:someValuesFrom rdf:resource="&ssn;Sensor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&oos2;DtsCompuestaPorAt"/>
+                <owl:someValuesFrom rdf:resource="http://localhost/default#at"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oos2:sinonimos xml:lang="en">Chanels</oos2:sinonimos>
+        <rdfs:comment xml:lang="es">Los canales se pueden ver como cajas contextuales que permiten clasificar los diferentes tipos de datos que soporta un dispositivo. Así para el dispositivo de ejemplo si éste posee dos sensores: uno de temperatura y otro de humedad, sería conveniente crear un canal por cada sensor, así quedaría el canal de datos de temperatura y el canal de datos de humedad</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/default#description -->
+
+    <owl:Class rdf:about="http://localhost/default#description">
+        <rdfs:subClassOf rdf:resource="http://localhost/default#Estado"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&oos2;DeDescribeAEst"/>
+                <owl:someValuesFrom rdf:resource="http://localhost/default#Estado"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="es">Es un texto que aporta información adicional del dispositivo y su propósito.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/default#device_serial -->
+
+    <owl:Class rdf:about="http://localhost/default#device_serial">
+        <rdfs:subClassOf rdf:resource="&ssn;Device"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&oos2;EsIdSerialDe"/>
+                <owl:someValuesFrom rdf:resource="&ssn;Device"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oos2:sinonimos xml:lang="en">Serial Number</oos2:sinonimos>
+        <rdfs:comment xml:lang="es">Es utilizado para identificar el dispositivo que se ha creado</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/default#domain -->
+
+    <owl:Class rdf:about="http://localhost/default#domain">
+        <rdfs:subClassOf rdf:resource="http://localhost/default#location"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&oos2;DominioHaceParteDeLoc"/>
+                <owl:someValuesFrom rdf:resource="http://localhost/default#location"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="es">Permite clasificar el dispositivo en (físico o virtual), dependiendo de si el mismo es real o no.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/default#ele -->
+
+    <owl:Class rdf:about="http://localhost/default#ele">
+        <rdfs:subClassOf rdf:resource="http://localhost/default#location"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&oos2;EleHaceParteDeLoc"/>
+                <owl:someValuesFrom rdf:resource="http://localhost/default#location"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oos2:sinonimos xml:lang="en">Elevation</oos2:sinonimos>
+        <rdfs:comment xml:lang="es">Es la distancia vertical desde la superficie del suelo en el que está situado el dispositivo. Esta medida es definida por el usuario</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/default#email -->
+
+    <owl:Class rdf:about="http://localhost/default#email">
+        <rdfs:subClassOf rdf:resource="http://localhost/default#Estado"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&oos2;EmaDescribeAEst"/>
+                <owl:someValuesFrom rdf:resource="http://localhost/default#Estado"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="es">Dirección de correo electrónico para contactar al creador del dispositivo.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/default#feed -->
+
+    <owl:Class rdf:about="http://localhost/default#feed">
+        <rdfs:subClassOf rdf:resource="http://localhost/default#Estado"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&oos2;EsIdentificadoPor"/>
+                <owl:someValuesFrom rdf:resource="http://localhost/default#Estado"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="es">Es una URL que permite compartir los diferentes canales “Channels”, localización “Localization” y metadatos “metadata”.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/default#id -->
+
+    <owl:Class rdf:about="http://localhost/default#id">
+        <rdfs:subClassOf rdf:resource="http://localhost/default#Objeto"/>
+        <rdfs:comment xml:lang="es">Número que identifica cada dispositivo en Xively</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/default#label -->
+
+    <owl:Class rdf:about="http://localhost/default#label">
+        <rdfs:label xml:lang="en">Label</rdfs:label>
+        <rdfs:label xml:lang="es">Nombre Unidad</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://localhost/default#Unidades"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&oos2;LaHaceParteDeUn"/>
+                <owl:someValuesFrom rdf:resource="http://localhost/default#Unidades"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="es">Corresponde a la etiqueta del nombre largo de las unidades de medida.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/default#lat -->
+
+    <owl:Class rdf:about="http://localhost/default#lat">
+        <rdfs:subClassOf rdf:resource="http://localhost/default#location"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&oos2;LatHaceParteDeLoc"/>
+                <owl:someValuesFrom rdf:resource="http://localhost/default#location"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oos2:sinonimos xml:lang="en">Latitude</oos2:sinonimos>
+        <rdfs:comment xml:lang="es">Es la distancia angular entre un punto de la tierra y la línea ecuatorial, medida a lo largo del meridiano en el que se encuentra dicho punto.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/default#location -->
+
+    <owl:Class rdf:about="http://localhost/default#location">
+        <rdfs:subClassOf rdf:resource="&ssn;Sensor"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&oos2;LocCompuestaPorLat"/>
+                <owl:someValuesFrom rdf:resource="http://localhost/default#lat"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&oos2;LocCompuestaPorLon"/>
+                <owl:someValuesFrom rdf:resource="http://localhost/default#lon"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&oos2;LocCompuestaPorDominio"/>
+                <owl:someValuesFrom rdf:resource="http://localhost/default#domain"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&oos2;LocCompuestaProEle"/>
+                <owl:someValuesFrom rdf:resource="http://localhost/default#ele"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="es">La localización se define como las coordenadas GPS que permiten establecer la ubicación geográfica del dispositivo que se está creando</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/default#lon -->
+
+    <owl:Class rdf:about="http://localhost/default#lon">
+        <rdfs:subClassOf rdf:resource="http://localhost/default#location"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&oos2;LocCompuestaPorLon"/>
+                <owl:someValuesFrom rdf:resource="http://localhost/default#lon"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&oos2;LonHaceParteDeLoc"/>
+                <owl:someValuesFrom rdf:resource="http://localhost/default#location"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oos2:sinonimos xml:lang="en">Longitude</oos2:sinonimos>
+        <rdfs:comment xml:lang="es">Es la distancia angular entre un punto de la tierra y el meridiano cero (Greenwich)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/default#max_value -->
+
+    <owl:Class rdf:about="http://localhost/default#max_value">
+        <rdfs:subClassOf rdf:resource="http://localhost/default#datastreams"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&oos2;MaxHaceParteDeDts"/>
+                <owl:someValuesFrom rdf:resource="http://localhost/default#datastreams"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="es">Corrsponde al maximo valor reportado por el canal de datos</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/default#min_value -->
+
+    <owl:Class rdf:about="http://localhost/default#min_value">
+        <rdfs:subClassOf rdf:resource="http://localhost/default#datastreams"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&oos2;minHaceParteDeDts"/>
+                <owl:someValuesFrom rdf:resource="http://localhost/default#datastreams"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="es">Corrsponde al mínimo valor reportado por el canal de datos</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/default#name -->
+
+    <owl:Class rdf:about="http://localhost/default#name">
+        <rdfs:subClassOf rdf:resource="http://localhost/default#location"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&oos2;NameHaceParteDeLoc"/>
+                <owl:someValuesFrom rdf:resource="http://localhost/default#location"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&oos2;LocCompuestaPorName"/>
+                <owl:someValuesFrom rdf:resource="http://localhost/default#name"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oos2:sinonimos xml:lang="en">Location Name</oos2:sinonimos>
+        <rdfs:comment xml:lang="es">Nombre dado por el usuario del sitio en el cuan se encuentra el dispositivo</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/default#private -->
+
+    <owl:Class rdf:about="http://localhost/default#private">
+        <rdfs:subClassOf rdf:resource="http://localhost/default#Estado"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&oos2;PrivDescribeAEst"/>
+                <owl:someValuesFrom rdf:resource="http://localhost/default#Estado"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="es">En Xively se define como un valor lógico que establece si esl feed es de uso privado o no</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/default#status -->
+
+    <owl:Class rdf:about="http://localhost/default#status">
+        <rdfs:subClassOf rdf:resource="http://localhost/default#Estado"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&oos2;StaDescribeAEst"/>
+                <owl:someValuesFrom rdf:resource="http://localhost/default#Estado"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="es">En Xively establece si el dispositivo se encuentra congelado (frozen) o activo (live)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/default#tags -->
+
+    <owl:Class rdf:about="http://localhost/default#tags">
+        <rdfs:subClassOf rdf:resource="http://localhost/default#datastreams"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&oos2;TagHaceParteDeDts"/>
+                <owl:someValuesFrom rdf:resource="http://localhost/default#datastreams"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="es">Son las anotaciones hechas por el propietario sobre el canal de medición. Puede referirse al sensor mismo o la propiedad que esta midiendo.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/default#title -->
+
+    <owl:Class rdf:about="http://localhost/default#title">
+        <rdfs:subClassOf rdf:resource="http://localhost/default#Estado"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&oos2;TitDescribeAEst"/>
+                <owl:someValuesFrom rdf:resource="http://localhost/default#Estado"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="es">Nombre del Dispositivo que se va a crear. El usuario coloca allí cualquier contenido y por ello dependerá que tan ajustado a la realidad se encuentre dicho contenido.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/default#updated -->
+
+    <owl:Class rdf:about="http://localhost/default#updated">
+        <rdfs:subClassOf rdf:resource="http://localhost/default#Estado"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&oos2;UpdDescribeAEst"/>
+                <owl:someValuesFrom rdf:resource="http://localhost/default#Estado"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="es">Fcha y hora de la última vez que fué actualizado los datos del dispositivo.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/default#variable -->
+
+    <owl:Class rdf:about="http://localhost/default#variable">
+        <rdfs:label xml:lang="en">Variable</rdfs:label>
+        <rdfs:label xml:lang="es">Variable</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://localhost/default#Indicadores"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&oos2;VarTienenUn"/>
+                <owl:someValuesFrom rdf:resource="http://localhost/default#Unidades"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&oos2;VarEsMedidaConMetodo"/>
+                <owl:someValuesFrom rdf:resource="http://localhost/default#Recibir"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="es">Es un elemento del cual se puede obtener información y dependiendo de su estructura permite ser definido como una relación de más variables, las cuales miden alguna característica de interés del desempeño del objeto semántico.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/default#version -->
+
+    <owl:Class rdf:about="http://localhost/default#version">
+        <rdfs:subClassOf rdf:resource="http://localhost/default#Estado"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&oos2;VerDescribeAEst"/>
+                <owl:someValuesFrom rdf:resource="http://localhost/default#Estado"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="es">Número de la versión de actualización del dispositivo</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/default#website -->
+
+    <owl:Class rdf:about="http://localhost/default#website">
+        <rdfs:subClassOf rdf:resource="http://localhost/default#Estado"/>
+        <rdfs:comment xml:lang="es">Dirección URL para ofrecer más información del dispositivo o su creador</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.oclc.org/NET/ssnx/ssn#Device -->
+
+    <owl:Class rdf:about="&ssn;Device">
+        <rdfs:subClassOf rdf:resource="http://localhost/default#Objeto"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&oos2;TieneComoId"/>
+                <owl:onClass rdf:resource="http://localhost/default#device_serial"/>
+                <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&oos2;EsDispositivoDe"/>
+                <owl:someValuesFrom rdf:resource="http://localhost/default#Objeto"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="es">Es el concepto que se apropia de la ontología ssn. Establece un dispositivo de la IoT</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.oclc.org/NET/ssnx/ssn#Sensor -->
+
+    <owl:Class rdf:about="&ssn;Sensor">
+        <rdfs:subClassOf rdf:resource="http://localhost/default#Objeto"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&oos2;EsLocalizadorDe"/>
+                <owl:someValuesFrom rdf:resource="http://localhost/default#location"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&oos2;EsSensorDe"/>
+                <owl:someValuesFrom rdf:resource="http://localhost/default#Objeto"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="es">Es un concepto adaptado de la ontología ssn. PErmite relacionar lo que mide y en donde lo mide.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.websemantica.com/oos#EnviarComando -->
+
+    <owl:Class rdf:about="&oos2;EnviarComando">
+        <rdfs:label xml:lang="en">Send Command</rdfs:label>
+        <rdfs:label xml:lang="es">Enviar Comando</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://localhost/default#Enviar"/>
+        <rdfs:comment xml:lang="es">Envía la ejecución de una acción o método externo de un objeto semántico para que la realice acciones internas, esto supone un cambio de estado del objeto que recibe el comando.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.websemantica.com/oos#EnviarDatos -->
+
+    <owl:Class rdf:about="&oos2;EnviarDatos">
+        <rdfs:label xml:lang="en">Send data</rdfs:label>
+        <rdfs:label xml:lang="es">Enviar Datos</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://localhost/default#Enviar"/>
+        <rdfs:comment xml:lang="es">Es un tipo de método externo que permite enviar los datos que el objeto semántico está capturando en un tiempo específico. Si no se especifica un rango de tiempo se envían los datos en el tiempo actual.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.websemantica.com/oos#EnviarEstado -->
+
+    <owl:Class rdf:about="&oos2;EnviarEstado">
+        <rdfs:label xml:lang="en">Send Status</rdfs:label>
+        <rdfs:label xml:lang="es">Enviar Estado</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://localhost/default#Enviar"/>
+        <rdfs:comment xml:lang="es">Envía la información de los valores de las propiedades públicas del objeto semántico.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.websemantica.com/oos#EnviarInformacion -->
+
+    <owl:Class rdf:about="&oos2;EnviarInformacion">
+        <rdfs:label xml:lang="en">Send Information</rdfs:label>
+        <rdfs:label xml:lang="es">Enviar Información</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://localhost/default#Enviar"/>
+        <rdfs:comment xml:lang="es">Corresponde al envío de datos procesados de acuerdo a los servicios del negocio o contexto definidos. Esta información debe estar adaptada al usuario que se envía (objeto, persona).</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.websemantica.com/oos#Facetas -->
+
+    <owl:Class rdf:about="&oos2;Facetas">
+        <rdfs:label xml:lang="en">Facets</rdfs:label>
+        <rdfs:label xml:lang="es">Facetas</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://localhost/default#ObjetoSemantico"/>
+        <oos2:sinonimos xml:lang="es">cara, aspecto, fase, perspectiva</oos2:sinonimos>
+        <rdfs:comment xml:lang="es">una faceta es una característica esencial por la cual se va a carcterizar los objetos semánticos. El modelo plantea seis facetas fundamentales: Propiedades, Métodos, Conocimientos, Interacciones, Calidad y Estados.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.websemantica.com/oos#Identificador -->
+
+    <owl:Class rdf:about="&oos2;Identificador">
+        <rdfs:label xml:lang="en">Identifier</rdfs:label>
+        <rdfs:label xml:lang="es">Indentificador</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://localhost/default#Enviar"/>
+        <rdfs:comment xml:lang="es">Es un método que permite enviar la información de localización del objeto semántico y con las propiedades de las capacidades relacionadas y métodos de ejecución que expone.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.websemantica.com/oos#PhysicalObject -->
+
+    <owl:Class rdf:about="&oos2;PhysicalObject">
+        <rdfs:label xml:lang="en">Physical</rdfs:label>
+        <rdfs:label xml:lang="es">Dispositivo Físico</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://localhost/default#domain"/>
+        <rdfs:comment xml:lang="es">Establece que el sensor es un objeto real.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.websemantica.com/oos#RangoDeTiempo -->
+
+    <owl:Class rdf:about="&oos2;RangoDeTiempo">
+        <rdfs:label xml:lang="en">Time Range</rdfs:label>
+        <rdfs:label xml:lang="es">Rango de Tiempo</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://localhost/default#Estados"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&oos2;RangoEsDefinidoPoUnTMe"/>
+                <owl:someValuesFrom rdf:resource="&oos2;TiempoMenor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&oos2;RangoEsDefinidoPoUnTMa"/>
+                <owl:someValuesFrom rdf:resource="&oos2;TiempoMayor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&oos2;RangoDefineUnEsta"/>
+                <owl:someValuesFrom rdf:resource="http://localhost/default#Estados"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="es">Define un periodo de tiempo en el cual se van a obtener los valores de variables del objeto semántico.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.websemantica.com/oos#RecibirComando -->
+
+    <owl:Class rdf:about="&oos2;RecibirComando">
+        <rdfs:label xml:lang="en">Receive Command</rdfs:label>
+        <rdfs:label xml:lang="es">Recibir Comando</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://localhost/default#Recibir"/>
+        <rdfs:comment xml:lang="es">Recibe la ejecución de una acción o método interno para que la realice internamente, esto supone un cambio de estado del objeto semántico.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.websemantica.com/oos#RecibirDatos -->
+
+    <owl:Class rdf:about="&oos2;RecibirDatos">
+        <rdfs:label xml:lang="en">Receive Data</rdfs:label>
+        <rdfs:label xml:lang="es">Recibir Datos</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://localhost/default#Recibir"/>
+        <rdfs:comment xml:lang="es">Es un tipo de método externo que permite recibir datos de otro objeto semántico en un tiempo específico. Si no se especifica un rango de tiempo se reciben los datos en el tiempo actual.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.websemantica.com/oos#RecibirEstado -->
+
+    <owl:Class rdf:about="&oos2;RecibirEstado">
+        <rdfs:label xml:lang="en">Receiving Status</rdfs:label>
+        <rdfs:label xml:lang="es">Recibir Estado</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://localhost/default#Recibir"/>
+        <rdfs:comment xml:lang="es">Recibe la información de los valores de las propiedades públicas de un objeto semántico.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.websemantica.com/oos#ReciibirInformacion -->
+
+    <owl:Class rdf:about="&oos2;ReciibirInformacion">
+        <rdfs:label xml:lang="en">Receive Information</rdfs:label>
+        <rdfs:label xml:lang="es">Recibir Información</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://localhost/default#Recibir"/>
+        <rdfs:comment xml:lang="es">Corresponde a recibir datos procesados, de acuerdo a los servicios del negocio o contexto definidos. Esta información debe estar adaptada al usuario que se envía (objeto, persona).</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.websemantica.com/oos#TiempoMayor -->
+
+    <owl:Class rdf:about="&oos2;TiempoMayor">
+        <rdfs:label xml:lang="en">Maximum time</rdfs:label>
+        <rdfs:label xml:lang="es">Tiempo Mayor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&oos2;RangoDeTiempo"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&oos2;TmaDefineUnRango"/>
+                <owl:someValuesFrom rdf:resource="&oos2;RangoDeTiempo"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="es">Define un valor de Referencia mínimo en el tiempo para obtener información antes de esta fecha.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.websemantica.com/oos#TiempoMenor -->
+
+    <owl:Class rdf:about="&oos2;TiempoMenor">
+        <rdfs:label xml:lang="en">Minimum time</rdfs:label>
+        <rdfs:label xml:lang="es">Tiempo Menor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&oos2;RangoDeTiempo"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&oos2;TmeDefineUnRango"/>
+                <owl:someValuesFrom rdf:resource="&oos2;RangoDeTiempo"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="es">Define un valor de Referencia mínimo en el tiempo para obtener información después de esta fecha.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.websemantica.com/oos#ValorDeReferencia -->
+
+    <owl:Class rdf:about="&oos2;ValorDeReferencia">
+        <rdfs:label xml:lang="en">Reference Value</rdfs:label>
+        <rdfs:label xml:lang="es">Valor de Referencia</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://localhost/default#Metas"/>
+        <rdfs:comment xml:lang="es">Es un valor que se considera el objetivo actual del sistema y por el cual se busca que el valor real medido de la variable este cerca o por encima del mismo.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.websemantica.com/oos#ValorMaximo -->
+
+    <owl:Class rdf:about="&oos2;ValorMaximo">
+        <rdfs:label xml:lang="en">Maximum Value</rdfs:label>
+        <rdfs:label xml:lang="es">Valor Máximo</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://localhost/default#Metas"/>
+        <rdfs:comment xml:lang="es">Es un valor máximo de una determinada variable indicando una fortaleza o un logro más allá de lo esperado.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.websemantica.com/oos#ValorMinimo -->
+
+    <owl:Class rdf:about="&oos2;ValorMinimo">
+        <rdfs:label xml:lang="en">Minimum Value</rdfs:label>
+        <rdfs:label xml:lang="es">Valor Mínimo</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://localhost/default#Metas"/>
+        <rdfs:comment xml:lang="es">Es un valor de referencia por el cual el valor de una determinada variable se considera mínima y es un fallo del sistema.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.websemantica.com/oos#VirtualObject -->
+
+    <owl:Class rdf:about="&oos2;VirtualObject">
+        <rdfs:label xml:lang="en">Virtual</rdfs:label>
+        <rdfs:label xml:lang="es">Dispositivo Virtual</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://localhost/default#domain"/>
+        <rdfs:comment xml:lang="es">Establece que el disositivo no existe en la realidad y es implementado por mecanísmos que los simulan.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.websemantica.com/oos#tag_device -->
+
+    <owl:Class rdf:about="&oos2;tag_device">
+        <rdfs:subClassOf rdf:resource="http://localhost/default#Estado"/>
+        <rdfs:comment xml:lang="es">En Xively se establece como una lista de palabras clave que permiten etiquetar las características principales del dispositivo según el propietario del mismo.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://localhost/default#Contexto"/>
+            <rdf:Description rdf:about="http://localhost/default#Servicio"/>
+            <rdf:Description rdf:about="http://localhost/default#Usuario"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://localhost/default#id"/>
+            <rdf:Description rdf:about="&ssn;Device"/>
+            <rdf:Description rdf:about="&ssn;Sensor"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://localhost/default#Calidad"/>
+            <rdf:Description rdf:about="http://localhost/default#Conocimientos"/>
+            <rdf:Description rdf:about="http://localhost/default#Estados"/>
+            <rdf:Description rdf:about="http://localhost/default#Interacciones"/>
+            <rdf:Description rdf:about="http://localhost/default#Metodos"/>
+            <rdf:Description rdf:about="http://localhost/default#Propiedades"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+

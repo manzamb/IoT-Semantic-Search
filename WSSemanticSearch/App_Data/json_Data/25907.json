@@ -1,0 +1,118 @@
+{
+  "Conceptos": [
+    "sensing"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "25907",
+    "title": "Climatic Variables Sensing",
+    "Private": false,
+    "tags": [
+      "Climatic Variables Sensing Arduino Valparaíso Chile"
+    ],
+    "description": "Arduino Duemilanove + Arduino Mega 2560 + XBee",
+    "feed": "https://api.xively.com/v2/feeds/25907.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "01/29/2012 20:44:53",
+    "created": "05/29/2011 05:52:13",
+    "creator": "https://xively.com/users/capablazab",
+    "version": null,
+    "website": "http://www.pachube.com/feeds/25907",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "33.527",
+        "at": "01/29/2012 20:44:53",
+        "max_value": "1023.0",
+        "min_value": "0.0",
+        "tags": [
+          "Relative Humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "Percentage",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "-425",
+        "at": "01/29/2012 20:44:53",
+        "max_value": "18748.0",
+        "min_value": "-945.0",
+        "tags": [
+          "Pressure"
+        ],
+        "unit": {
+          "symbol": "Pa (-100000)",
+          "label": "Pascal",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "27.399",
+        "at": "01/29/2012 20:44:53",
+        "max_value": "975.0",
+        "min_value": "-1.2",
+        "tags": [
+          "Temp Living 1"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "26.750",
+        "at": "01/29/2012 20:44:53",
+        "max_value": "8526.256",
+        "min_value": "-133.0",
+        "tags": [
+          "Temp Living 2"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "31.500",
+        "at": "01/29/2012 20:44:53",
+        "max_value": "402521.0",
+        "min_value": "-238.0",
+        "tags": [
+          "Temp Uploader"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Valparaíso, Chile",
+      "domain": 0,
+      "lat": "-33.0419823648548",
+      "lon": "-71.5912914276123",
+      "ele": "150",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/25907\" >Climatic Variables Sensing</a>",
+    "URLMostrar": "https://xively.com/feeds/25907"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\25907.json",
+  "DocumentJSON": null
+}

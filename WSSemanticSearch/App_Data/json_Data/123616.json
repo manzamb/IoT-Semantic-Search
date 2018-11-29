@@ -1,0 +1,78 @@
+{
+  "Conceptos": [
+    "azione"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "123616",
+    "title": "Rivers",
+    "Private": false,
+    "tags": [
+      "acqua",
+      "fiumi",
+      "idrografico",
+      "level",
+      "livelli",
+      "meduna",
+      "noncello",
+      "pordenone",
+      "river"
+    ],
+    "description": "Questo datastream raccoglie i valori dei livelli dei Meduna e Noncello ogni 30 minuti.",
+    "feed": "https://api.xively.com/v2/feeds/123616.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/17/2014 16:18:29",
+    "created": "04/09/2013 08:15:10",
+    "creator": "https://xively.com/users/evazzoler",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "meduna",
+        "current_value": "17.06",
+        "at": "03/17/2014 15:30:00",
+        "max_value": "19.85",
+        "min_value": "16.4",
+        "tags": [
+          "Meduna"
+        ],
+        "unit": {
+          "symbol": "m",
+          "label": "mt",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "noncello",
+        "current_value": "2.45",
+        "at": "03/17/2014 15:30:00",
+        "max_value": "5.22",
+        "min_value": "1.73",
+        "tags": [
+          "Noncello"
+        ],
+        "unit": {
+          "symbol": "m",
+          "label": "mt",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Stazione Noncello",
+      "domain": 0,
+      "lat": "45.9531264065244",
+      "lon": "12.6618075370789",
+      "ele": "18",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/123616\" >Rivers</a>",
+    "URLMostrar": "https://xively.com/feeds/123616"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\123616.json",
+  "DocumentJSON": null
+}

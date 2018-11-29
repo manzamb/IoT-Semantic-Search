@@ -1,0 +1,115 @@
+{
+  "Conceptos": [
+    "process"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "605855730",
+    "title": "Intel Miner 1",
+    "Private": false,
+    "tags": [
+      "bitcoin",
+      "crypto-currency",
+      "litecoin",
+      "mining",
+      "monitoring",
+      "node-red",
+      "raspberry pi",
+      "wovyn"
+    ],
+    "description": "We are running Node-RED on a Raspberry Pi, and it is gathering data via REST web services from a cloud mining pool service used to mine crypto-currency. The data is processed and posed to Xively.",
+    "feed": "https://api.xively.com/v2/feeds/605855730.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:09:04",
+    "created": "12/03/2013 03:31:50",
+    "creator": "https://xively.com/users/ewiggins",
+    "version": null,
+    "website": "http://www.Wovyn.com",
+    "datastreams": [
+      {
+        "id": "4-Payout",
+        "current_value": "0.000",
+        "at": "03/21/2014 14:09:04",
+        "max_value": "5170.187",
+        "min_value": "-5475.489",
+        "tags": null,
+        "unit": {
+          "symbol": "days",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1-Hashrate",
+        "current_value": "0",
+        "at": "03/21/2014 14:09:04",
+        "max_value": "1960.84",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "kh/s",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3-Earnings",
+        "current_value": "0.1144",
+        "at": "03/21/2014 14:09:04",
+        "max_value": "5.001",
+        "min_value": "0.0002",
+        "tags": null,
+        "unit": {
+          "symbol": "ltc",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5-Holdings",
+        "current_value": "114.82",
+        "at": "03/21/2014 14:09:04",
+        "max_value": "218.02",
+        "min_value": "68.25",
+        "tags": null,
+        "unit": {
+          "symbol": "usd",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2-Efficiency",
+        "current_value": "NaN",
+        "at": "03/21/2014 14:09:04",
+        "max_value": "100.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": " Wovyn Alternate R&D Center",
+      "domain": 0,
+      "lat": "40.4517150865264",
+      "lon": "-111.441922187805",
+      "ele": "4500 feet",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/605855730\" >Intel Miner 1</a>",
+    "URLMostrar": "https://xively.com/feeds/605855730"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\605855730.json",
+  "DocumentJSON": null
+}

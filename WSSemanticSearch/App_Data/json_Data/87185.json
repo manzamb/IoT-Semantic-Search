@@ -1,0 +1,129 @@
+{
+  "Conceptos": [
+    "frequency"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "87185",
+    "title": "Optimum Modem Status",
+    "Private": false,
+    "tags": [
+      "cable modem",
+      "internet",
+      "internet speed",
+      "modem",
+      "signal",
+      "signal strength"
+    ],
+    "description": "Simple data feed from polled data from my cable model",
+    "feed": "https://api.xively.com/v2/feeds/87185.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "07/13/2013 02:56:07",
+    "created": "11/20/2012 03:33:35",
+    "creator": "https://xively.com/users/motowilliams",
+    "version": null,
+    "website": "http://www.twitter.com/motowilliams",
+    "datastreams": [
+      {
+        "id": "Downstream_Frequency",
+        "current_value": "117000000",
+        "at": "07/13/2013 02:56:07",
+        "max_value": "117000000.0",
+        "min_value": "333.0",
+        "tags": [
+          "Frequency"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Hz",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Downstream_Power",
+        "current_value": "-5.0",
+        "at": "07/13/2013 02:56:07",
+        "max_value": "333.0",
+        "min_value": "-5.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "dBmV",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Downstream_Signal_To_Noise_Ratio",
+        "current_value": "36.5",
+        "at": "07/13/2013 02:56:07",
+        "max_value": "333.0",
+        "min_value": "36.5",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "dB",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Upstream_Channel_ID",
+        "current_value": "3",
+        "at": "07/13/2013 02:56:07",
+        "max_value": "333.0",
+        "min_value": "3.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Upstream_Frequency",
+        "current_value": "23000000 ",
+        "at": "07/13/2013 02:56:07",
+        "max_value": "23000000.0",
+        "min_value": "333.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "Hz",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Upstream_Power",
+        "current_value": "22.2",
+        "at": "07/13/2013 02:56:07",
+        "max_value": "333.0",
+        "min_value": "22.2",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "dBmV",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "@motowilliams_modem",
+      "domain": 0,
+      "lat": "46.7571158518363",
+      "lon": "-114.082717895508",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/87185\" >Optimum Modem Status</a>",
+    "URLMostrar": "https://xively.com/feeds/87185"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\87185.json",
+  "DocumentJSON": null
+}

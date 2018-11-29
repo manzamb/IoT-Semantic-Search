@@ -1,0 +1,59 @@
+{
+  "Conceptos": [
+    "man"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "94700",
+    "title": "My Home Temparature",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "Ciekurkalns",
+      "indoor",
+      "Latvia",
+      "Riga",
+      "Temp"
+    ],
+    "description": "My room temperature",
+    "feed": "https://api.xively.com/v2/feeds/94700.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/16/2014 22:06:28",
+    "created": "12/25/2012 11:00:53",
+    "creator": "https://xively.com/users/eumanecs",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "sensor1",
+        "current_value": "20",
+        "at": "03/16/2014 22:06:28",
+        "max_value": "295.0",
+        "min_value": "0.0",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Rīga, Čiekurkalns",
+      "domain": 0,
+      "lat": "56.9861376859961",
+      "lon": "24.1841697692871",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/94700\" >My Home Temparature</a>",
+    "URLMostrar": "https://xively.com/feeds/94700"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\94700.json",
+  "DocumentJSON": null
+}

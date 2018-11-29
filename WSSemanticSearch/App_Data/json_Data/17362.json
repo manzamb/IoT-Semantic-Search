@@ -1,0 +1,1325 @@
+{
+  "Conceptos": [
+    "pattern"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "17362",
+    "title": "gx1 Home Energy Server",
+    "Private": false,
+    "tags": null,
+    "description": "Moixa Office",
+    "feed": "https://api.xively.com/v2/feeds/17362.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "11/23/2011 09:58:07",
+    "created": "02/03/2011 12:32:09",
+    "creator": "https://xively.com/users/moixa",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "thermostat_control_pattern",
+        "current_value": "0",
+        "at": "02/04/2011 17:05:45",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "ped:thermostat_boost_pattern"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "savings_live",
+        "current_value": "500.0",
+        "at": "11/23/2011 09:58:07",
+        "max_value": "500.0",
+        "min_value": "0.0",
+        "tags": [
+          "ped:flow_type=actual_savings",
+          "ped:power_type=dc"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "thermostat_boost_status",
+        "current_value": "0",
+        "at": "02/04/2011 17:05:45",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "ped:device",
+          "ped:switch_type:binary"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "whole_house_usage_live",
+        "current_value": "0.0",
+        "at": "06/04/2011 08:27:57",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "electricity",
+          "energy",
+          "ped:device_name=Whole House",
+          "ped:device_usage",
+          "watts"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "thermostat_conversion_factor",
+        "current_value": "{\"10\":7, \"11\":8, \"12\":10, \"13\":11, \"14\":13, \"15\":15, \"16\":17, \"17\":20, \"18\":22, \"19\":25, \"20\":28, \"21\":30, \"22\":33, \"23\":37, \"24\":40, \"25\":43, \"26\":47, \"27\":51, \"28\":54, \"29\":58, \"30\":63}",
+        "at": "11/23/2011 09:58:07",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "ped:temp_conversion_factor"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "dc_generated_live",
+        "current_value": "0.0",
+        "at": "11/23/2011 09:58:07",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "ped:flow_type=generation",
+          "ped:power_type=dc"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "ac_usage_total",
+        "current_value": "0.0",
+        "at": "11/23/2011 09:58:07",
+        "max_value": "23.4",
+        "min_value": "0.0",
+        "tags": [
+          "ped:flow_type=usage",
+          "ped:power_type=ac"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "ac_usage_live",
+        "current_value": "0.0",
+        "at": "11/23/2011 09:58:07",
+        "max_value": "838859.55",
+        "min_value": "0.0",
+        "tags": [
+          "ped:flow_type=usage",
+          "ped:power_type=ac"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "property_temperature",
+        "current_value": "0.0",
+        "at": "11/23/2011 09:58:07",
+        "max_value": "55.0",
+        "min_value": "0.0",
+        "tags": [
+          "centigrade",
+          "ped:global_temp",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "dc_generated_total",
+        "current_value": "0.0",
+        "at": "11/23/2011 09:58:07",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "ped:flow_type=generation",
+          "ped:power_type=dc"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "dc_usage_live",
+        "current_value": "0.0",
+        "at": "11/23/2011 09:58:07",
+        "max_value": "4509.91254900724",
+        "min_value": "-2972.54065104741",
+        "tags": [
+          "ped:flow_type=usage",
+          "ped:power_type=dc"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "batteryPower",
+        "current_value": "0",
+        "at": "02/04/2011 17:05:45",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "potential_savings_live",
+        "current_value": "500.0",
+        "at": "11/23/2011 09:58:07",
+        "max_value": "500.0",
+        "min_value": "0.0",
+        "tags": [
+          "ped:flow_type=potential_savings",
+          "ped:power_type=ac"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "savings_total",
+        "current_value": "0.0",
+        "at": "11/23/2011 09:58:07",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "ped:flow_type=actual_savings",
+          "ped:power_type=dc"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "dc_usage_total",
+        "current_value": "0.0",
+        "at": "11/23/2011 09:58:07",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "ped:flow_type=usage",
+          "ped:power_type=dc"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "potential_savings_total",
+        "current_value": "0.0",
+        "at": "11/23/2011 09:58:07",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "ped:flow_type=potential_savings",
+          "ped:power_type=ac"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "thermostat_temperature",
+        "current_value": "18.0",
+        "at": "11/23/2011 09:58:07",
+        "max_value": "30.0",
+        "min_value": "0.0",
+        "tags": [
+          "centigrade",
+          "ped:thermostat_temp",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "hub_network_1_switch_state",
+        "current_value": "0.0",
+        "at": "05/19/2011 14:28:47",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "electricity",
+          "energy",
+          "ped:device_name=hub_network_1",
+          "ped:device_usage",
+          "watts"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "hub_network_1_usage_live",
+        "current_value": "0.0",
+        "at": "09/28/2011 13:52:01",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "electricity",
+          "energy",
+          "ped:device_name=hub_network_1",
+          "ped:device_usage",
+          "watts"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "hub_network_2_switch_state",
+        "current_value": "0.0",
+        "at": "05/19/2011 14:28:47",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "electricity",
+          "energy",
+          "ped:device_name=hub_network_2",
+          "ped:device_usage",
+          "watts"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "hub_network_2_usage_live",
+        "current_value": "0.0",
+        "at": "09/28/2011 13:52:01",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "electricity",
+          "energy",
+          "ped:device_name=hub_network_2",
+          "ped:device_usage",
+          "watts"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "hub_power_1_switch_state",
+        "current_value": "0.0",
+        "at": "05/19/2011 15:49:33",
+        "max_value": "173.43045438779",
+        "min_value": "0.0",
+        "tags": [
+          "electricity",
+          "energy",
+          "ped:device_name=hub_power_1",
+          "ped:device_usage",
+          "watts"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "hub_power_1_usage_live",
+        "current_value": "0.0",
+        "at": "09/28/2011 13:52:01",
+        "max_value": "1051.09366295631",
+        "min_value": "0.0",
+        "tags": [
+          "electricity",
+          "energy",
+          "ped:device_name=hub_power_1",
+          "ped:device_usage",
+          "watts"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "hub_power_2_switch_state",
+        "current_value": "0.0",
+        "at": "05/19/2011 15:49:33",
+        "max_value": "173.43045438779",
+        "min_value": "0.0",
+        "tags": [
+          "electricity",
+          "energy",
+          "ped:device_name=hub_power_2",
+          "ped:device_usage",
+          "watts"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "hub_power_2_usage_live",
+        "current_value": "0.0",
+        "at": "09/28/2011 13:52:01",
+        "max_value": "1051.09366295631",
+        "min_value": "0.0",
+        "tags": [
+          "electricity",
+          "energy",
+          "ped:device_name=hub_power_2",
+          "ped:device_usage",
+          "watts"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "hub_power_3_switch_state",
+        "current_value": "173.4304543877905",
+        "at": "05/19/2011 14:28:47",
+        "max_value": "173.43045438779",
+        "min_value": "45.4637530350329",
+        "tags": [
+          "electricity",
+          "energy",
+          "ped:device_name=hub_power_3",
+          "ped:device_usage",
+          "watts"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "hub_power_3_usage_live",
+        "current_value": "0.0",
+        "at": "09/28/2011 13:52:01",
+        "max_value": "1051.09366295631",
+        "min_value": "0.0",
+        "tags": [
+          "electricity",
+          "energy",
+          "ped:device_name=hub_power_3",
+          "ped:device_usage",
+          "watts"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "hub_usb_switch_state",
+        "current_value": "0.0",
+        "at": "05/19/2011 15:49:33",
+        "max_value": "0.0",
+        "min_value": "-270.899126541166",
+        "tags": [
+          "electricity",
+          "energy",
+          "ped:device_name=hub_usb",
+          "ped:device_usage",
+          "watts"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "hub_usb_usage_live",
+        "current_value": "5.0",
+        "at": "09/28/2011 13:52:01",
+        "max_value": "6.73036294264182",
+        "min_value": "-35.1857492721176",
+        "tags": [
+          "electricity",
+          "energy",
+          "ped:device_name=hub_usb",
+          "ped:device_usage",
+          "watts"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "lsu30_network_1_usage_live",
+        "current_value": "0.0",
+        "at": "05/10/2011 15:16:26",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "electricity",
+          "energy",
+          "ped:device_name=lsu30_network_1",
+          "ped:device_usage",
+          "watts"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "lsu30_power_1_usage_live",
+        "current_value": "0.0",
+        "at": "05/10/2011 15:16:26",
+        "max_value": "275.537897182018",
+        "min_value": "0.0",
+        "tags": [
+          "electricity",
+          "energy",
+          "ped:device_name=lsu30_power_1",
+          "ped:device_usage",
+          "watts"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "lsu30_switch_1_switch_state",
+        "current_value": "-136.27429340228508",
+        "at": "05/18/2011 22:28:47",
+        "max_value": "-136.274293402285",
+        "min_value": "-136.274293402285",
+        "tags": [
+          "electricity",
+          "energy",
+          "ped:device_name=lsu30_switch_1",
+          "ped:device_usage",
+          "watts"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "lsu30_switch_1_usage_live",
+        "current_value": "0.0",
+        "at": "06/15/2011 13:47:46",
+        "max_value": "39.0229033309158",
+        "min_value": "-286.842619745846",
+        "tags": [
+          "electricity",
+          "energy",
+          "ped:device_name=lsu30_switch_1",
+          "ped:device_usage",
+          "watts"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "lsu30_switch_2_switch_state",
+        "current_value": "-136.27429340228508",
+        "at": "05/18/2011 22:28:47",
+        "max_value": "-136.274293402285",
+        "min_value": "-136.274293402285",
+        "tags": [
+          "electricity",
+          "energy",
+          "ped:device_name=lsu30_switch_2",
+          "ped:device_usage",
+          "watts"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "lsu30_switch_2_usage_live",
+        "current_value": "8.085853330390272",
+        "at": "06/15/2011 13:47:46",
+        "max_value": "39.0229033309158",
+        "min_value": "-286.842619745846",
+        "tags": [
+          "electricity",
+          "energy",
+          "ped:device_name=lsu30_switch_2",
+          "ped:device_usage",
+          "watts"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "lsu30_usb_usage_live",
+        "current_value": "0.0",
+        "at": "05/10/2011 15:16:26",
+        "max_value": "17.8040551193517",
+        "min_value": "-9.1532389451224",
+        "tags": [
+          "electricity",
+          "energy",
+          "ped:device_name=lsu30_usb",
+          "ped:device_usage",
+          "watts"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "lsu31_network_1_usage_live",
+        "current_value": "0.0",
+        "at": "05/10/2011 15:16:26",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "electricity",
+          "energy",
+          "ped:device_name=lsu31_network_1",
+          "ped:device_usage",
+          "watts"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "lsu31_power_1_usage_live",
+        "current_value": "0.0",
+        "at": "05/10/2011 15:16:26",
+        "max_value": "1051.09366295631",
+        "min_value": "0.0",
+        "tags": [
+          "electricity",
+          "energy",
+          "ped:device_name=lsu31_power_1",
+          "ped:device_usage",
+          "watts"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "lsu31_switch_1_switch_state",
+        "current_value": "0.0",
+        "at": "05/18/2011 22:28:47",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "electricity",
+          "energy",
+          "ped:device_name=lsu31_switch_1",
+          "ped:device_usage",
+          "watts"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "lsu31_switch_1_usage_live",
+        "current_value": "0.0",
+        "at": "06/15/2011 11:44:43",
+        "max_value": "60.0052554683148",
+        "min_value": "-299.839182669568",
+        "tags": [
+          "electricity",
+          "energy",
+          "ped:device_name=lsu31_switch_1",
+          "ped:device_usage",
+          "watts"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "lsu31_switch_2_switch_state",
+        "current_value": "-136.27429340228508",
+        "at": "05/18/2011 22:28:47",
+        "max_value": "-136.274293402285",
+        "min_value": "-136.274293402285",
+        "tags": [
+          "electricity",
+          "energy",
+          "ped:device_name=lsu31_switch_2",
+          "ped:device_usage",
+          "watts"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "lsu31_switch_2_usage_live",
+        "current_value": "0.0",
+        "at": "06/15/2011 11:44:43",
+        "max_value": "60.0052554683148",
+        "min_value": "-299.839182669568",
+        "tags": [
+          "electricity",
+          "energy",
+          "ped:device_name=lsu31_switch_2",
+          "ped:device_usage",
+          "watts"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "lsu31_usb_usage_live",
+        "current_value": "0.0",
+        "at": "05/10/2011 15:16:26",
+        "max_value": "68.2701100495065",
+        "min_value": "-12.1896383186706",
+        "tags": [
+          "electricity",
+          "energy",
+          "ped:device_name=lsu31_usb",
+          "ped:device_usage",
+          "watts"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "lsu32_network_1_usage_live",
+        "current_value": "0.0",
+        "at": "05/10/2011 15:16:26",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "electricity",
+          "energy",
+          "ped:device_name=lsu32_network_1",
+          "ped:device_usage",
+          "watts"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "lsu32_power_1_usage_live",
+        "current_value": "0.0",
+        "at": "05/10/2011 15:16:26",
+        "max_value": "0.673751037954992",
+        "min_value": "0.0",
+        "tags": [
+          "electricity",
+          "energy",
+          "ped:device_name=lsu32_power_1",
+          "ped:device_usage",
+          "watts"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "lsu32_switch_1_usage_live",
+        "current_value": "0.0",
+        "at": "06/15/2011 13:47:46",
+        "max_value": "62.9508403493835",
+        "min_value": "-297.269889319837",
+        "tags": [
+          "electricity",
+          "energy",
+          "ped:device_name=lsu32_switch_1",
+          "ped:device_usage",
+          "watts"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "lsu32_switch_2_usage_live",
+        "current_value": "0.0",
+        "at": "06/15/2011 13:47:46",
+        "max_value": "62.9508403493835",
+        "min_value": "-300.871777084056",
+        "tags": [
+          "electricity",
+          "energy",
+          "ped:device_name=lsu32_switch_2",
+          "ped:device_usage",
+          "watts"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "lsu32_usb_usage_live",
+        "current_value": "0.0",
+        "at": "05/10/2011 15:16:26",
+        "max_value": "57.9379644520123",
+        "min_value": "-18.0037629153134",
+        "tags": [
+          "electricity",
+          "energy",
+          "ped:device_name=lsu32_usb",
+          "ped:device_usage",
+          "watts"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "lsu33_network_1_usage_live",
+        "current_value": "0.0",
+        "at": "05/10/2011 15:16:26",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "electricity",
+          "energy",
+          "ped:device_name=lsu33_network_1",
+          "ped:device_usage",
+          "watts"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "lsu33_power_1_usage_live",
+        "current_value": "0.0",
+        "at": "05/10/2011 15:16:26",
+        "max_value": "0.277488727020465",
+        "min_value": "0.0",
+        "tags": [
+          "electricity",
+          "energy",
+          "ped:device_name=lsu33_power_1",
+          "ped:device_usage",
+          "watts"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "lsu33_switch_1_usage_live",
+        "current_value": "0.0",
+        "at": "06/15/2011 11:44:43",
+        "max_value": "46.4665384332398",
+        "min_value": "-312.751868318986",
+        "tags": [
+          "electricity",
+          "energy",
+          "ped:device_name=lsu33_switch_1",
+          "ped:device_usage",
+          "watts"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "lsu33_switch_2_usage_live",
+        "current_value": "0.0",
+        "at": "06/15/2011 11:44:43",
+        "max_value": "46.4665384332398",
+        "min_value": "-312.751868318986",
+        "tags": [
+          "electricity",
+          "energy",
+          "ped:device_name=lsu33_switch_2",
+          "ped:device_usage",
+          "watts"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "lsu33_usb_usage_live",
+        "current_value": "0.0",
+        "at": "05/10/2011 15:16:26",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "electricity",
+          "energy",
+          "ped:device_name=lsu33_usb",
+          "ped:device_usage",
+          "watts"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "lsu34_network_1_usage_live",
+        "current_value": "0.0",
+        "at": "05/09/2011 17:12:24",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "electricity",
+          "energy",
+          "ped:device_name=lsu34_network_1",
+          "ped:device_usage",
+          "watts"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "lsu34_power_1_usage_live",
+        "current_value": "0.0",
+        "at": "05/09/2011 17:12:24",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "electricity",
+          "energy",
+          "ped:device_name=lsu34_power_1",
+          "ped:device_usage",
+          "watts"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "lsu34_switch_1_usage_live",
+        "current_value": "35.95907041276448",
+        "at": "06/13/2011 14:11:17",
+        "max_value": "37.4284993535774",
+        "min_value": "-287.390029325513",
+        "tags": [
+          "electricity",
+          "energy",
+          "ped:device_name=lsu34_switch_1",
+          "ped:device_usage",
+          "watts"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "lsu34_switch_2_usage_live",
+        "current_value": "0.0",
+        "at": "06/13/2011 14:11:17",
+        "max_value": "37.4284993535774",
+        "min_value": "-183.583808953216",
+        "tags": [
+          "electricity",
+          "energy",
+          "ped:device_name=lsu34_switch_2",
+          "ped:device_usage",
+          "watts"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "lsu34_usb_usage_live",
+        "current_value": "0.0",
+        "at": "05/09/2011 17:12:24",
+        "max_value": "6.96475682948107",
+        "min_value": "-12.0486866584681",
+        "tags": [
+          "electricity",
+          "energy",
+          "ped:device_name=lsu34_usb",
+          "ped:device_usage",
+          "watts"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "lsu35_network_1_usage_live",
+        "current_value": "0.0",
+        "at": "05/09/2011 17:12:24",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "electricity",
+          "energy",
+          "ped:device_name=lsu35_network_1",
+          "ped:device_usage",
+          "watts"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "lsu35_power_1_usage_live",
+        "current_value": "0.0",
+        "at": "05/09/2011 17:12:24",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "electricity",
+          "energy",
+          "ped:device_name=lsu35_power_1",
+          "ped:device_usage",
+          "watts"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "lsu35_switch_1_usage_live",
+        "current_value": "0.0",
+        "at": "06/15/2011 11:44:43",
+        "max_value": "54.3931510736922",
+        "min_value": "-287.390029325513",
+        "tags": [
+          "electricity",
+          "energy",
+          "ped:device_name=lsu35_switch_1",
+          "ped:device_usage",
+          "watts"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "lsu35_switch_2_usage_live",
+        "current_value": "0.0",
+        "at": "06/15/2011 11:44:43",
+        "max_value": "54.3931510736922",
+        "min_value": "-286.842619745846",
+        "tags": [
+          "electricity",
+          "energy",
+          "ped:device_name=lsu35_switch_2",
+          "ped:device_usage",
+          "watts"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "lsu35_usb_usage_live",
+        "current_value": "0.0",
+        "at": "05/09/2011 17:12:24",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "electricity",
+          "energy",
+          "ped:device_name=lsu35_usb",
+          "ped:device_usage",
+          "watts"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "lsu36_switch_1_usage_live",
+        "current_value": "0.0",
+        "at": "06/15/2011 11:44:43",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "electricity",
+          "energy",
+          "ped:device_name=lsu36_switch_1",
+          "ped:device_usage",
+          "watts"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "lsu36_switch_2_usage_live",
+        "current_value": "0.0",
+        "at": "06/15/2011 11:44:43",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "electricity",
+          "energy",
+          "ped:device_name=lsu36_switch_2",
+          "ped:device_usage",
+          "watts"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "lsu37_switch_1_usage_live",
+        "current_value": "-279.7262952101662",
+        "at": "05/12/2011 13:56:16",
+        "max_value": "0.0",
+        "min_value": "-279.726295210166",
+        "tags": [
+          "electricity",
+          "energy",
+          "ped:device_name=lsu37_switch_1",
+          "ped:device_usage",
+          "watts"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "lsu37_switch_2_usage_live",
+        "current_value": "-279.7262952101662",
+        "at": "05/12/2011 13:56:16",
+        "max_value": "-279.726295210166",
+        "min_value": "-287.390029325513",
+        "tags": [
+          "electricity",
+          "energy",
+          "ped:device_name=lsu37_switch_2",
+          "ped:device_usage",
+          "watts"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "office",
+      "domain": 0,
+      "lat": "51.541877",
+      "lon": "-0.153955",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/17362\" >gx1 Home Energy Server</a>",
+    "URLMostrar": "https://xively.com/feeds/17362"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\17362.json",
+  "DocumentJSON": null
+}

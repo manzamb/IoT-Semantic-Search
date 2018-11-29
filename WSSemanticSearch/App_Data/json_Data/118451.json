@@ -1,0 +1,317 @@
+{
+  "Conceptos": [
+    "pst"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "118451",
+    "title": "Home Temperature Sensor Network",
+    "Private": false,
+    "tags": [
+      "home",
+      "temp",
+      "temperature",
+      "xbee"
+    ],
+    "description": "Temperature at several rooms of my home.\r\nSoftware:\r\n\r\nhttps://github.com/vzaliva/xbee_temp_sensor\r\n\r\nThere are datastreams for several sensors, tagged with 'sensorX'. Each sensor provides 2 datastreams: measuring temperature and power supply voltage.\r\n\r\nAdditionally there is a datasteam for outside temperature measurements, sourced by data from weather underground.\r\n\r\nFinally, there are 3 datastream from my thermostat. One, with temperature measurements. Two others report HVAC and FAN status.\r\n\r\n",
+    "feed": "https://api.xively.com/v2/feeds/118451.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:11:42",
+    "created": "03/10/2013 16:54:14",
+    "creator": "https://xively.com/users/vzaliva",
+    "version": null,
+    "website": "https://github.com/vzaliva/xbee_temp_sensor",
+    "datastreams": [
+      {
+        "id": "1",
+        "current_value": "16.4",
+        "at": "03/21/2014 14:07:37",
+        "max_value": "272.1",
+        "min_value": "11.0",
+        "tags": [
+          "office",
+          "sensor1",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "20.6",
+        "at": "03/21/2014 14:07:37",
+        "max_value": "29.4",
+        "min_value": "12.2",
+        "tags": [
+          "bedroom",
+          "sensor2",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "16.3",
+        "at": "03/21/2014 14:07:37",
+        "max_value": "26.7",
+        "min_value": "11.8",
+        "tags": [
+          "kidsroom",
+          "sensor3",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "18.5",
+        "at": "03/21/2014 14:07:37",
+        "max_value": "38.4",
+        "min_value": "-50.0",
+        "tags": [
+          "livingroom",
+          "sensor4",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "16.6",
+        "at": "03/21/2014 14:07:09",
+        "max_value": "274.8",
+        "min_value": "-49.8",
+        "tags": [
+          "corridor",
+          "sensor5",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "8",
+        "current_value": "16.625",
+        "at": "03/21/2014 14:10:01",
+        "max_value": "31.75",
+        "min_value": "10.625",
+        "tags": [
+          "serverroom",
+          "temper",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "96",
+        "current_value": "0",
+        "at": "03/21/2014 14:10:59",
+        "max_value": "1.0",
+        "min_value": "-1.0",
+        "tags": [
+          "3M",
+          "fan",
+          "thermostat",
+          "upstairs"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "off/on",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "97",
+        "current_value": "1",
+        "at": "03/21/2014 14:10:59",
+        "max_value": "1.0",
+        "min_value": "-1.0",
+        "tags": [
+          "3M",
+          "hvac",
+          "thermostat",
+          "upstairs"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "cool/off/heat",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "98",
+        "current_value": "19.2",
+        "at": "03/21/2014 14:10:59",
+        "max_value": "28.6",
+        "min_value": "-18.3",
+        "tags": [
+          "3M",
+          "temperature",
+          "thermostat",
+          "upstairs"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "99",
+        "current_value": "5.1",
+        "at": "03/21/2014 14:11:42",
+        "max_value": "38.6",
+        "min_value": "-2.8",
+        "tags": [
+          "95070",
+          "ca",
+          "outdoors",
+          "saratoga",
+          "temperature",
+          "wu"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "101",
+        "current_value": "4440.913",
+        "at": "03/21/2014 14:07:37",
+        "max_value": "15996.67",
+        "min_value": "2818.573",
+        "tags": [
+          "office",
+          "sensor1",
+          "voltage"
+        ],
+        "unit": {
+          "symbol": "mV",
+          "label": "milliVolts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "102",
+        "current_value": "4500.291",
+        "at": "03/21/2014 14:07:37",
+        "max_value": "4522.297",
+        "min_value": "3155.155",
+        "tags": [
+          "bedroom",
+          "sensor2",
+          "voltage"
+        ],
+        "unit": {
+          "symbol": "mV",
+          "label": "milliVolts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "103",
+        "current_value": "4440.473",
+        "at": "03/21/2014 14:07:37",
+        "max_value": "4455.875",
+        "min_value": "4427.441",
+        "tags": [
+          "kidsroom",
+          "sensor3",
+          "voltage"
+        ],
+        "unit": {
+          "symbol": "mV",
+          "label": "milliVolts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "104",
+        "current_value": "4453.883",
+        "at": "03/21/2014 14:07:37",
+        "max_value": "5095.062",
+        "min_value": "4316.403",
+        "tags": [
+          "livingroom",
+          "sensor4",
+          "voltage"
+        ],
+        "unit": {
+          "symbol": "mV",
+          "label": "milliVolts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "105",
+        "current_value": "4998.408",
+        "at": "03/21/2014 14:07:09",
+        "max_value": "9737.504",
+        "min_value": "3325.9",
+        "tags": [
+          "corridor",
+          "sensor5",
+          "voltage"
+        ],
+        "unit": {
+          "symbol": "mV",
+          "label": "milliVolts",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Saratoga, CA, USA",
+      "domain": 0,
+      "lat": "37.2561305738901",
+      "lon": "-122.039496302605",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/118451\" >Home Temperature Sensor Network</a>",
+    "URLMostrar": "https://xively.com/feeds/118451"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\118451.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,104 @@
+{
+  "Conceptos": [
+    "area"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "40884",
+    "title": "TBox test area",
+    "Private": false,
+    "tags": [
+      "Semaphore",
+      "TBox",
+      "test"
+    ],
+    "description": "Just a little test of posting data to pachube....",
+    "feed": "https://api.xively.com/v2/feeds/40884.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "12/08/2011 15:00:20",
+    "created": "12/01/2011 11:43:07",
+    "creator": "https://xively.com/users/csecasey",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Analog_IN_1",
+        "current_value": "101",
+        "at": "12/08/2011 15:00:20",
+        "max_value": "6969.0",
+        "min_value": "1.0",
+        "tags": [
+          "analog"
+        ],
+        "unit": {
+          "symbol": "AI_1",
+          "label": "PLOK",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Analog_IN_2",
+        "current_value": null,
+        "at": "12/01/2011 11:43:07",
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "analog"
+        ],
+        "unit": {
+          "symbol": "AI_2",
+          "label": "PLOK",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Digital_IN_1",
+        "current_value": null,
+        "at": "12/01/2011 11:43:07",
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "digital"
+        ],
+        "unit": {
+          "symbol": "DI_1",
+          "label": "PLOK",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Digital_IN_2",
+        "current_value": null,
+        "at": "12/01/2011 11:43:07",
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "digital"
+        ],
+        "unit": {
+          "symbol": "DI_2",
+          "label": "PLOK",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Waterloo, Belgium",
+      "domain": 0,
+      "lat": "49.6107099380742",
+      "lon": "3.515625",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/40884\" >TBox test area</a>",
+    "URLMostrar": "https://xively.com/feeds/40884"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\40884.json",
+  "DocumentJSON": null
+}

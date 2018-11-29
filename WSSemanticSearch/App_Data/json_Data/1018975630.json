@@ -1,0 +1,100 @@
+{
+  "Conceptos": [
+    "man"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "1018975630",
+    "title": "Temp",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/1018975630.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:13:04",
+    "created": "11/24/2013 18:38:11",
+    "creator": "https://xively.com/users/roman",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "temp1",
+        "current_value": "25.12",
+        "at": "03/21/2014 14:13:04",
+        "max_value": "87.81",
+        "min_value": "-127.0",
+        "tags": [
+          "Lohberger VL"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temp2",
+        "current_value": "21.62",
+        "at": "03/21/2014 14:13:04",
+        "max_value": "88.0",
+        "min_value": "-127.0",
+        "tags": [
+          "Lohberger RL"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temp3",
+        "current_value": "28.50",
+        "at": "03/21/2014 14:13:04",
+        "max_value": "78.31",
+        "min_value": "-127.0",
+        "tags": [
+          "Heizkreis RL mit Anhebung"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temp4",
+        "current_value": "58.38",
+        "at": "03/21/2014 14:13:04",
+        "max_value": "86.62",
+        "min_value": "-127.0",
+        "tags": [
+          "Heizkreis RL mit Anhebung Keller"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Home",
+      "domain": 0,
+      "lat": "48.7904472",
+      "lon": "11.4978894999999",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/1018975630\" >Temp</a>",
+    "URLMostrar": "https://xively.com/feeds/1018975630"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\1018975630.json",
+  "DocumentJSON": null
+}

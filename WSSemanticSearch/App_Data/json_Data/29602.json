@@ -1,0 +1,122 @@
+{
+  "Conceptos": [
+    "solar radiation"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "29602",
+    "title": "Port Elliot RE",
+    "Private": false,
+    "tags": [
+      "batV",
+      "house",
+      "pv",
+      "solar",
+      "windspeed"
+    ],
+    "description": "Incident Solar Radiation\r\nHouse consumption\r\nSolar PV generated\r\nBattery Voltage\r\nWindspeed",
+    "feed": "https://api.xively.com/v2/feeds/29602.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "07/10/2011 09:01:28",
+    "created": "07/10/2011 07:52:34",
+    "creator": "https://xively.com/users/gwatpe",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "BatteryVolts",
+        "current_value": null,
+        "at": "07/10/2011 09:01:28",
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "tag4"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": "Volts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "HousePower",
+        "current_value": null,
+        "at": "07/10/2011 09:01:28",
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "tag2"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "IncidentSolar",
+        "current_value": null,
+        "at": "07/10/2011 09:01:28",
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "tag1"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watts/m^2",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "SolarPV",
+        "current_value": null,
+        "at": "07/10/2011 09:01:28",
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "tag3"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Windspeed",
+        "current_value": null,
+        "at": "07/10/2011 09:01:28",
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "tag5"
+        ],
+        "unit": {
+          "symbol": "kph",
+          "label": "kph",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Port Elliot",
+      "domain": 0,
+      "lat": "-35.530707018222",
+      "lon": "138.6798620224",
+      "ele": "8",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/29602\" >Port Elliot RE</a>",
+    "URLMostrar": "https://xively.com/feeds/29602"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\29602.json",
+  "DocumentJSON": null
+}

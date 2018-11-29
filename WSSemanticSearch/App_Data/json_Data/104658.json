@@ -1,0 +1,87 @@
+{
+  "Conceptos": [
+    "humedad"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "104658",
+    "title": "Temperatura PLC",
+    "Private": false,
+    "tags": [
+      "448",
+      "arduino"
+    ],
+    "description": "Data Room Monitor",
+    "feed": "https://api.xively.com/v2/feeds/104658.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:06:58",
+    "created": "02/14/2013 20:57:38",
+    "creator": "https://xively.com/users/ve11054",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "DewPt",
+        "current_value": "11.87",
+        "at": "03/21/2014 14:06:58",
+        "max_value": "29.16",
+        "min_value": "-3.82",
+        "tags": [
+          "Punto Condensacion"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Humid",
+        "current_value": "31.00",
+        "at": "03/21/2014 14:06:58",
+        "max_value": "95.0",
+        "min_value": "0.0",
+        "tags": [
+          "Humedad del aire"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "TempC",
+        "current_value": "31.00",
+        "at": "03/21/2014 14:06:58",
+        "max_value": "43.0",
+        "min_value": "0.0",
+        "tags": [
+          "Temperatura °C"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "PLC",
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/104658\" >Temperatura PLC</a>",
+    "URLMostrar": "https://xively.com/feeds/104658"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\104658.json",
+  "DocumentJSON": null
+}

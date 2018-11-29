@@ -1,0 +1,78 @@
+{
+  "Conceptos": [
+    "physical object"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "34540",
+    "title": "NetRad Radiation Counter station",
+    "Private": false,
+    "tags": [
+      "sensor:calibrated=false",
+      "sensor:covered=true",
+      "sensor:detectable=gamma",
+      "sensor:model=si-180g",
+      "sensor:object=air",
+      "sensor:orientation=face_up",
+      "sensor:type=radiation",
+      "source:type=citizen",
+      "THS:08/22"
+    ],
+    "description": "Freakduino and NetRad powered radiation counter using SI-180G Geiger-Muller tube.",
+    "feed": "https://api.xively.com/v2/feeds/34540.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:10:28",
+    "created": "08/20/2011 03:21:33",
+    "creator": "https://xively.com/users/lbergeretjp",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "49.000",
+        "at": "03/21/2014 14:10:27",
+        "max_value": "144.0",
+        "min_value": "19.0",
+        "tags": [
+          "radiation sensor"
+        ],
+        "unit": {
+          "symbol": "cpm",
+          "label": "counts/minute",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "0.137",
+        "at": "03/21/2014 14:10:27",
+        "max_value": "0.44",
+        "min_value": "0.053",
+        "tags": [
+          "radiation sensor"
+        ],
+        "unit": {
+          "symbol": "µSv/h",
+          "label": "microsieverts/hour",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "37.6533832012877",
+      "lon": "140.079803466797",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/34540\" >NetRad Radiation Counter station</a>",
+    "URLMostrar": "https://xively.com/feeds/34540"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\34540.json",
+  "DocumentJSON": null
+}

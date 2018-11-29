@@ -1,0 +1,248 @@
+{
+  "Conceptos": [
+    "thermistor"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "4038",
+    "title": "VT Gas Meter",
+    "Private": false,
+    "tags": [
+      "Arduino",
+      "Energy",
+      "Pulse Meter"
+    ],
+    "description": "Pulse meter on propane line measures cu-ft of propane used (stream 1).  Calculated therms (stream 0).  Various thermistors measure temperature in rooms and inside heater.  Data is sent to puchube with Ardunio.",
+    "feed": "https://api.xively.com/v2/feeds/4038.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:10:26",
+    "created": "12/24/2009 12:44:38",
+    "creator": "https://xively.com/users/scott216",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "0.1",
+        "at": "03/21/2014 14:10:26",
+        "max_value": "1.2",
+        "min_value": "0.0",
+        "tags": [
+          "Therms"
+        ],
+        "unit": {
+          "symbol": "Therm/h",
+          "label": "Therms per Hour",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "113561.0",
+        "at": "03/21/2014 14:10:26",
+        "max_value": "113561.0",
+        "min_value": "92584.0",
+        "tags": [
+          "Propane Cu-FT"
+        ],
+        "unit": {
+          "symbol": "Cu-FT",
+          "label": "Cu-Ft",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "43",
+        "at": "03/21/2014 14:10:26",
+        "max_value": "321.0",
+        "min_value": "0.0",
+        "tags": [
+          "Yesterday Gas"
+        ],
+        "unit": {
+          "symbol": "Cu-Ft",
+          "label": "Cu-Ft",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "1",
+        "at": "03/21/2014 14:10:26",
+        "max_value": "13.0",
+        "min_value": "0.0",
+        "tags": [
+          "Daily Cost"
+        ],
+        "unit": {
+          "symbol": "$",
+          "label": "Dollars",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "0",
+        "at": "03/21/2014 14:10:26",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "Crawlspace"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "Fahrenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "65",
+        "at": "03/21/2014 14:10:26",
+        "max_value": "132.0",
+        "min_value": "48.0",
+        "tags": [
+          "Radiant Heat"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "Fahrenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "0",
+        "at": "03/21/2014 14:10:26",
+        "max_value": "101.0",
+        "min_value": "0.0",
+        "tags": [
+          "Outside"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "Fahrenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "7",
+        "current_value": "0",
+        "at": "03/21/2014 14:10:26",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "Spare 1"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "Fahrenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "8",
+        "current_value": "0",
+        "at": "03/21/2014 14:10:26",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "Spare 2"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "Fahrenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "9",
+        "current_value": "0",
+        "at": "03/21/2014 14:10:26",
+        "max_value": "77.0",
+        "min_value": "0.0",
+        "tags": [
+          "Living Rm"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "Fahrenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "10",
+        "current_value": "164",
+        "at": "03/21/2014 14:10:26",
+        "max_value": "255.0",
+        "min_value": "0.0",
+        "tags": [
+          "Successes"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "11",
+        "current_value": "0",
+        "at": "03/21/2014 14:10:26",
+        "max_value": "9.0",
+        "min_value": "0.0",
+        "tags": [
+          "Failures"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "12",
+        "current_value": "1.65",
+        "at": "04/16/2013 15:10:29",
+        "max_value": "1.65",
+        "min_value": "1.63",
+        "tags": [
+          "Gas Price"
+        ],
+        "unit": {
+          "symbol": "$",
+          "label": "dollars",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "West Dover, Vermont, USA",
+      "domain": 0,
+      "lat": "42.9484442229236",
+      "lon": "-72.8882360458374",
+      "ele": "589",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/4038\" >VT Gas Meter</a>",
+    "URLMostrar": "https://xively.com/feeds/4038"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\4038.json",
+  "DocumentJSON": null
+}

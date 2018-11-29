@@ -1,0 +1,54 @@
+{
+  "Conceptos": [
+    "description"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "35298",
+    "title": "Home Temp",
+    "Private": false,
+    "tags": [
+      "temperature"
+    ],
+    "description": "Description here - USB computer temp monitor",
+    "feed": "https://api.xively.com/v2/feeds/35298.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "09/07/2011 11:19:18",
+    "created": "09/07/2011 11:19:18",
+    "creator": "https://xively.com/users/froude",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Temp1",
+        "current_value": null,
+        "at": "09/07/2011 11:19:18",
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "temp"
+        ],
+        "unit": {
+          "symbol": "c",
+          "label": "deg c",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Sydney",
+      "domain": 0,
+      "lat": "-34.5970415161442",
+      "lon": "150.46875",
+      "ele": "50",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/35298\" >Home Temp</a>",
+    "URLMostrar": "https://xively.com/feeds/35298"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\35298.json",
+  "DocumentJSON": null
+}

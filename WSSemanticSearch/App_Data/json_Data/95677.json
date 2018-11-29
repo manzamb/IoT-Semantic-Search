@@ -1,0 +1,361 @@
+{
+  "Conceptos": [
+    "wind"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "95677",
+    "title": "My House",
+    "Private": false,
+    "tags": [
+      "connected",
+      "eib",
+      "house",
+      "knx"
+    ],
+    "description": "Public data from my house which is collected from KNX/EIB sensors and exported to Cosm using openHAB",
+    "feed": "https://api.xively.com/v2/feeds/95677.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:05:09",
+    "created": "01/02/2013 18:47:09",
+    "creator": "https://xively.com/users/belovictor",
+    "version": null,
+    "website": "http://www.openhab.org/",
+    "datastreams": [
+      {
+        "id": "1",
+        "current_value": "6.0",
+        "at": "03/21/2014 14:05:00",
+        "max_value": "50.48",
+        "min_value": "-27.0",
+        "tags": [
+          "Outside Temperature"
+        ],
+        "unit": {
+          "symbol": "°",
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "Uninitialized",
+        "at": "03/21/2014 14:05:01",
+        "max_value": "27.6",
+        "min_value": "-0.1",
+        "tags": [
+          "Inside Temperature"
+        ],
+        "unit": {
+          "symbol": "°",
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "69140.48",
+        "at": "03/21/2014 14:05:01",
+        "max_value": "109936.64",
+        "min_value": "0.0",
+        "tags": [
+          "Outside Light Level"
+        ],
+        "unit": {
+          "symbol": "Lx",
+          "label": "Lx",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "2",
+        "at": "03/21/2014 14:05:02",
+        "max_value": "2.0",
+        "min_value": "0.0",
+        "tags": [
+          "Precipitation"
+        ],
+        "unit": {
+          "symbol": "YesNo",
+          "label": "YesNo",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "3.6",
+        "at": "03/21/2014 14:05:02",
+        "max_value": "5.1",
+        "min_value": "0.0",
+        "tags": [
+          "Wind Speed"
+        ],
+        "unit": {
+          "symbol": "M/S",
+          "label": "M/S",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "1001.57996",
+        "at": "03/21/2014 14:05:02",
+        "max_value": "21200.35",
+        "min_value": "0.0",
+        "tags": [
+          "Power Consumption"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "W",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "7",
+        "current_value": "1.54",
+        "at": "03/21/2014 14:05:03",
+        "max_value": "38.059998",
+        "min_value": "-89984405000000.0",
+        "tags": [
+          "Current L1"
+        ],
+        "unit": {
+          "symbol": "A",
+          "label": "A",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "8",
+        "current_value": "3.5399997",
+        "at": "03/21/2014 14:05:03",
+        "max_value": "46.799995",
+        "min_value": "-122.60986",
+        "tags": [
+          "Current L2"
+        ],
+        "unit": {
+          "symbol": "A",
+          "label": "A",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "9",
+        "current_value": "0.40999997",
+        "at": "03/21/2014 14:05:04",
+        "max_value": "44.639996",
+        "min_value": "0.0",
+        "tags": [
+          "Current L3"
+        ],
+        "unit": {
+          "symbol": "A",
+          "label": "A",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "10",
+        "current_value": "233.3",
+        "at": "03/21/2014 14:05:05",
+        "max_value": "266.2",
+        "min_value": "0.0",
+        "tags": [
+          "Voltage L1"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": "V",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "11",
+        "current_value": "221.8",
+        "at": "03/21/2014 14:05:05",
+        "max_value": "266.2",
+        "min_value": "0.0",
+        "tags": [
+          "Voltage L2"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": "V",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "12",
+        "current_value": "225.2",
+        "at": "03/21/2014 14:05:06",
+        "max_value": "271.2",
+        "min_value": "0.0",
+        "tags": [
+          "Voltage L3"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": "V",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "13",
+        "current_value": "673.92",
+        "at": "03/21/2014 14:05:06",
+        "max_value": "673.92",
+        "min_value": "0.0",
+        "tags": [
+          "Twilight"
+        ],
+        "unit": {
+          "symbol": "Lx",
+          "label": "Lx",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "14",
+        "current_value": "26.16",
+        "at": "03/21/2014 14:05:07",
+        "max_value": "28.04",
+        "min_value": "0.0",
+        "tags": [
+          "Office temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "15",
+        "current_value": "25.02",
+        "at": "03/21/2014 14:05:07",
+        "max_value": "26.98",
+        "min_value": "0.0",
+        "tags": [
+          "Living room temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "16",
+        "current_value": "22.5",
+        "at": "03/21/2014 14:05:08",
+        "max_value": "27.48",
+        "min_value": "0.0",
+        "tags": [
+          "Parents temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "17",
+        "current_value": "22.8",
+        "at": "03/21/2014 14:05:08",
+        "max_value": "25.64",
+        "min_value": "0.0",
+        "tags": [
+          "Slava temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "18",
+        "current_value": "22.74",
+        "at": "03/21/2014 14:05:08",
+        "max_value": "24.72",
+        "min_value": "0.0",
+        "tags": [
+          "Margo temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "19",
+        "current_value": "49.0",
+        "at": "03/21/2014 14:05:08",
+        "max_value": "86.0",
+        "min_value": "0.0",
+        "tags": [
+          "Boiler temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "20",
+        "current_value": "51.0",
+        "at": "03/21/2014 14:05:09",
+        "max_value": "57.0",
+        "min_value": "0.0",
+        "tags": [
+          "Hot water temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "My Connected openHAB House",
+      "domain": 0,
+      "lat": "55.5759975307025",
+      "lon": "37.1427690982819",
+      "ele": "150",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/95677\" >My House</a>",
+    "URLMostrar": "https://xively.com/feeds/95677"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\95677.json",
+  "DocumentJSON": null
+}

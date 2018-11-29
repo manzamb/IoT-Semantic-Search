@@ -1,0 +1,516 @@
+{
+  "Conceptos": [
+    "condition"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "12709",
+    "title": "HVAC Monitor (Beta)",
+    "Private": false,
+    "tags": [
+      "HVAC"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/12709.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/21/2014 13:58:50",
+    "created": "11/15/2010 21:38:17",
+    "creator": "https://xively.com/users/metawatch",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "3/21/2014 9:58:46 AM",
+        "at": "03/21/2014 13:58:50",
+        "max_value": "12.0",
+        "min_value": "1.0",
+        "tags": [
+          "Time Stamp"
+        ],
+        "unit": {
+          "symbol": "Time",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "1",
+        "at": "03/21/2014 13:58:50",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "Heat Pump Compressor On"
+        ],
+        "unit": {
+          "symbol": "DI_0",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "1",
+        "at": "03/21/2014 13:58:50",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "Heat Pump Heat/Cool"
+        ],
+        "unit": {
+          "symbol": "DI_1",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "1",
+        "at": "03/21/2014 13:58:50",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "Heat Pump Defrost Active"
+        ],
+        "unit": {
+          "symbol": "DI_2",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "1",
+        "at": "03/21/2014 13:58:50",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "Fan On"
+        ],
+        "unit": {
+          "symbol": "DI_3",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "1",
+        "at": "03/21/2014 13:58:50",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "Hydro Temperature Bypass"
+        ],
+        "unit": {
+          "symbol": "DI_4",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "1",
+        "at": "03/21/2014 13:58:50",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "Oil Furnace On"
+        ],
+        "unit": {
+          "symbol": "DI_5",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "7",
+        "current_value": "0",
+        "at": "03/21/2014 13:58:50",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "Spare01"
+        ],
+        "unit": {
+          "symbol": "DI_6",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "8",
+        "current_value": "0",
+        "at": "03/21/2014 13:58:50",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "Spare02"
+        ],
+        "unit": {
+          "symbol": "DI_7",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "9",
+        "current_value": "15.3",
+        "at": "03/21/2014 13:58:50",
+        "max_value": "29.4",
+        "min_value": "7.1",
+        "tags": [
+          "Temp Return"
+        ],
+        "unit": {
+          "symbol": "AI_0",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "10",
+        "current_value": "20.3",
+        "at": "03/21/2014 13:58:50",
+        "max_value": "53.4",
+        "min_value": "1.0",
+        "tags": [
+          "Temp Feed"
+        ],
+        "unit": {
+          "symbol": "AI_1",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "11",
+        "current_value": "3.3311064",
+        "at": "03/21/2014 13:58:50",
+        "max_value": "3.3311064",
+        "min_value": "0.0",
+        "tags": [
+          "Current Cost"
+        ],
+        "unit": {
+          "symbol": "CC",
+          "label": "$",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "12",
+        "current_value": "20.88",
+        "at": "03/21/2014 13:58:50",
+        "max_value": "56.25",
+        "min_value": "0.0",
+        "tags": [
+          "Daily Cost"
+        ],
+        "unit": {
+          "symbol": "DC",
+          "label": "$",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "13",
+        "current_value": "0.35",
+        "at": "03/21/2014 13:58:50",
+        "max_value": "0.98",
+        "min_value": "0.0",
+        "tags": [
+          "HP Cost"
+        ],
+        "unit": {
+          "symbol": "HPTC",
+          "label": "$",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "14",
+        "current_value": "20.32",
+        "at": "03/21/2014 13:58:50",
+        "max_value": "54.72",
+        "min_value": "0.01",
+        "tags": [
+          "Oil Cost"
+        ],
+        "unit": {
+          "symbol": "OTC",
+          "label": "$",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "15",
+        "current_value": "0.21",
+        "at": "03/21/2014 13:58:50",
+        "max_value": "0.64",
+        "min_value": "0.0",
+        "tags": [
+          "Fan Cost"
+        ],
+        "unit": {
+          "symbol": "FTC",
+          "label": "$",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "16",
+        "current_value": "20.9",
+        "at": "03/21/2014 13:58:50",
+        "max_value": "56.21",
+        "min_value": "0.0",
+        "tags": [
+          "Defrost Cost"
+        ],
+        "unit": {
+          "symbol": "DTC",
+          "label": "$",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "17",
+        "current_value": "-3",
+        "at": "03/21/2014 13:58:50",
+        "max_value": "6.0",
+        "min_value": "-19.0",
+        "tags": [
+          "HP Balance pt"
+        ],
+        "unit": {
+          "symbol": "HPBP",
+          "label": "Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "18",
+        "current_value": "0",
+        "at": "03/21/2014 13:58:50",
+        "max_value": "31.0",
+        "min_value": "0.0",
+        "tags": [
+          "Defrost 45 Min"
+        ],
+        "unit": {
+          "symbol": "Def45",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "19",
+        "current_value": "0",
+        "at": "03/21/2014 13:58:50",
+        "max_value": "5.0",
+        "min_value": "0.0",
+        "tags": [
+          "Defrost 60 Min"
+        ],
+        "unit": {
+          "symbol": "Def60",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "20",
+        "current_value": "0",
+        "at": "03/21/2014 13:58:50",
+        "max_value": "2.0",
+        "min_value": "0.0",
+        "tags": [
+          "Defrost 90 Min"
+        ],
+        "unit": {
+          "symbol": "Def90",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "21",
+        "current_value": "0",
+        "at": "03/21/2014 13:58:50",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "Defrost 8 Hr"
+        ],
+        "unit": {
+          "symbol": "Def8hr",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "22",
+        "current_value": "0",
+        "at": "03/21/2014 13:58:50",
+        "max_value": "158.0",
+        "min_value": "0.0",
+        "tags": [
+          "Defrost Min"
+        ],
+        "unit": {
+          "symbol": "DD",
+          "label": "Minutes",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "23",
+        "current_value": "-3",
+        "at": "03/21/2014 13:58:50",
+        "max_value": "33.0",
+        "min_value": "-28.0",
+        "tags": [
+          "Outside Temp"
+        ],
+        "unit": {
+          "symbol": "OT",
+          "label": "Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "24",
+        "current_value": "Humidity: 86%",
+        "at": "03/21/2014 13:58:50",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "Humidity"
+        ],
+        "unit": {
+          "symbol": "Hum",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "25",
+        "current_value": "Wind: W at 11 mph",
+        "at": "03/21/2014 13:58:50",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "Wind"
+        ],
+        "unit": {
+          "symbol": "Win",
+          "label": "KPH",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "26",
+        "current_value": "Sunny",
+        "at": "03/21/2014 13:58:50",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "Current Condition"
+        ],
+        "unit": {
+          "symbol": "CC",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "27",
+        "current_value": "0",
+        "at": "03/21/2014 13:58:50",
+        "max_value": "26.4",
+        "min_value": "-23.0",
+        "tags": [
+          "Delta T"
+        ],
+        "unit": {
+          "symbol": "DT",
+          "label": "Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "28",
+        "current_value": "NaN",
+        "at": "03/21/2014 13:58:50",
+        "max_value": "1.0",
+        "min_value": "-26.2857142857143",
+        "tags": [
+          "efficiency"
+        ],
+        "unit": {
+          "symbol": "Eff",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "29",
+        "current_value": "0.5625",
+        "at": "12/07/2011 04:38:40",
+        "max_value": "0.5625",
+        "min_value": "0.5625",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Pointe-Fortune",
+      "domain": 0,
+      "lat": "45.5198195028771",
+      "lon": "-74.3719482421875",
+      "ele": "20",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/12709\" >HVAC Monitor (Beta)</a>",
+    "URLMostrar": "https://xively.com/feeds/12709"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\12709.json",
+  "DocumentJSON": null
+}

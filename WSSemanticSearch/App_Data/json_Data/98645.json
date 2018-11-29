@@ -1,0 +1,576 @@
+{
+  "Conceptos": [
+    "condition"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "98645",
+    "title": "Instrumented House",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "development",
+      "energy conservation",
+      "home management",
+      "TED5000"
+    ],
+    "description": "Initial feeds on prototype systems for home monitoring.  This includes energy related weather data, TED5000 derived power information and solar collector information. Additional data on Solar Hot Water hot water under development.",
+    "feed": "https://api.xively.com/v2/feeds/98645.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "07/01/2013 16:04:48",
+    "created": "01/18/2013 16:14:56",
+    "creator": "https://xively.com/users/jfmergen",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Basement_AC_Return",
+        "current_value": "20",
+        "at": "05/19/2013 19:13:13",
+        "max_value": "20.0",
+        "min_value": "19.0",
+        "tags": [
+          "HVAC airconditioning return"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Basement_AC_Supply",
+        "current_value": "22",
+        "at": "05/19/2013 19:13:13",
+        "max_value": "23.0",
+        "min_value": "21.0",
+        "tags": [
+          "HVAC airconditioning supply"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Basement_Loop",
+        "current_value": "23",
+        "at": "05/19/2013 19:13:13",
+        "max_value": "44.0",
+        "min_value": "22.0",
+        "tags": [
+          "hydronic heat return"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Basement_Temp",
+        "current_value": "23.9",
+        "at": "07/01/2013 16:04:39",
+        "max_value": "25.6",
+        "min_value": "17.8",
+        "tags": [
+          "Temperature measured at control thermostat"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Bedroom_AC_Return",
+        "current_value": "28",
+        "at": "05/18/2013 00:26:58",
+        "max_value": "31.0",
+        "min_value": "10.0",
+        "tags": [
+          "HVAC airconditioning return"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Bedroom_Attic",
+        "current_value": "26",
+        "at": "05/18/2013 00:26:58",
+        "max_value": "40.0",
+        "min_value": "4.0",
+        "tags": [
+          "Temperature above insulation"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Bedroom_Loop",
+        "current_value": "23",
+        "at": "05/19/2013 19:13:13",
+        "max_value": "46.0",
+        "min_value": "21.0",
+        "tags": [
+          "hydronic heat return"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Bedroom_Temp",
+        "current_value": "21.7",
+        "at": "07/01/2013 16:04:39",
+        "max_value": "26.7",
+        "min_value": "16.1",
+        "tags": [
+          "Temperature measured at control thermostat"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Dining_room_Attic",
+        "current_value": "33",
+        "at": "05/18/2013 00:26:58",
+        "max_value": "48.0",
+        "min_value": "-127.0",
+        "tags": [
+          "Temperature above insulation"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Family_room_AC_Return",
+        "current_value": "34",
+        "at": "05/18/2013 00:26:58",
+        "max_value": "48.0",
+        "min_value": "10.0",
+        "tags": [
+          "Temperature measured at control thermostat"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Library_Temp",
+        "current_value": "26.4",
+        "at": "07/01/2013 16:04:39",
+        "max_value": "29.4",
+        "min_value": "16.7",
+        "tags": [
+          "Temperature measured at control thermostat"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Living_room_AC_Return_1",
+        "current_value": "33",
+        "at": "05/18/2013 00:26:58",
+        "max_value": "40.0",
+        "min_value": "8.0",
+        "tags": [
+          "HVAC airconditioning return"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Living_room_AC_Return_2",
+        "current_value": "34",
+        "at": "05/18/2013 00:26:58",
+        "max_value": "47.0",
+        "min_value": "10.0",
+        "tags": [
+          "HVAC airconditioning return"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Livingroom_Loop",
+        "current_value": "23",
+        "at": "05/19/2013 19:13:13",
+        "max_value": "51.0",
+        "min_value": "22.0",
+        "tags": [
+          "hydronic heat return"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Livingroom_Temp",
+        "current_value": "24.7",
+        "at": "07/01/2013 16:04:39",
+        "max_value": "27.8",
+        "min_value": "18.3",
+        "tags": [
+          "Temperature measured at control thermostat"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Main_AC_Return",
+        "current_value": "29",
+        "at": "05/18/2013 00:26:58",
+        "max_value": "35.0",
+        "min_value": "9.0",
+        "tags": [
+          "HVAC airconditioning return"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Main_Attic",
+        "current_value": "33",
+        "at": "05/18/2013 00:26:58",
+        "max_value": "46.0",
+        "min_value": "-127.0",
+        "tags": [
+          "Temperature above insulation"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Outside_Dew_point",
+        "current_value": "12.0",
+        "at": "05/15/2013 11:50:50",
+        "max_value": "20.0",
+        "min_value": "-9.0",
+        "tags": [
+          "Computed dew point"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Outside_Temp",
+        "current_value": "0.0",
+        "at": "07/01/2013 16:04:40",
+        "max_value": "36.6",
+        "min_value": "0.0",
+        "tags": [
+          "Shade Temp"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Outside_Wind_Speed",
+        "current_value": "1.0",
+        "at": "05/15/2013 11:50:50",
+        "max_value": "10.0",
+        "min_value": "0.0",
+        "tags": [
+          "environment"
+        ],
+        "unit": {
+          "symbol": "mph",
+          "label": "mph",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Supply",
+        "current_value": "32",
+        "at": "05/19/2013 19:13:13",
+        "max_value": "61.0",
+        "min_value": "29.0",
+        "tags": [
+          "hydronic heat"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Supply_Main_AC",
+        "current_value": "33",
+        "at": "05/18/2013 00:26:58",
+        "max_value": "42.0",
+        "min_value": "9.0",
+        "tags": [
+          "HVAC airconditioning supply"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Utility_Room_Temp",
+        "current_value": "22",
+        "at": "05/19/2013 19:13:13",
+        "max_value": "28.0",
+        "min_value": "21.0",
+        "tags": [
+          "Thermometer"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Watts_200A-A",
+        "current_value": "111.0",
+        "at": "05/15/2013 11:54:59",
+        "max_value": "6279.0",
+        "min_value": "0.0",
+        "tags": [
+          "mains power feed A"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Watts_200A-B",
+        "current_value": "454.0",
+        "at": "05/15/2013 11:54:59",
+        "max_value": "10831.0",
+        "min_value": "0.0",
+        "tags": [
+          "mains power feed B"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Watts_200A_mains_A",
+        "current_value": "903.0",
+        "at": "07/01/2013 16:04:48",
+        "max_value": "33081.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Watts_200A_mains_B",
+        "current_value": "4870.0",
+        "at": "07/01/2013 16:04:48",
+        "max_value": "12575.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Watts_Electric_PV_Gen_Now",
+        "current_value": "358.0",
+        "at": "05/15/2013 11:55:12",
+        "max_value": "2590.0",
+        "min_value": "0.0",
+        "tags": [
+          "Solar Electric"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Watts_Electric_PV_Gen_Today",
+        "current_value": "277.0",
+        "at": "05/15/2013 11:55:12",
+        "max_value": "18700.0",
+        "min_value": "0.0",
+        "tags": [
+          "Solar Electric"
+        ],
+        "unit": {
+          "symbol": "Wh",
+          "label": "Watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Watts_Generator",
+        "current_value": "0.0",
+        "at": "07/01/2013 16:04:48",
+        "max_value": "0.0",
+        "min_value": "-1.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Watts_net",
+        "current_value": "5531.0",
+        "at": "07/01/2013 16:04:48",
+        "max_value": "35031.0",
+        "min_value": "-2323.0",
+        "tags": [
+          "Net electric"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Watts_PV_current",
+        "current_value": "207.0",
+        "at": "07/01/2013 16:04:46",
+        "max_value": "2580.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Watts_PVgen_Today",
+        "current_value": "3060.0",
+        "at": "07/01/2013 16:04:46",
+        "max_value": "20500.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Z-Sensor_Read_Errors",
+        "current_value": "-20791",
+        "at": "05/18/2013 00:26:58",
+        "max_value": "32735.0",
+        "min_value": "-32647.0",
+        "tags": [
+          "Internal thermometer bus errors"
+        ],
+        "unit": {
+          "symbol": "Error",
+          "label": "thermometer read errors (cumulative) sensor array 2",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Instrumented House",
+      "domain": 0,
+      "lat": "39.4",
+      "lon": "-76.6",
+      "ele": "350",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/98645\" >Instrumented House</a>",
+    "URLMostrar": "https://xively.com/feeds/98645"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\98645.json",
+  "DocumentJSON": null
+}

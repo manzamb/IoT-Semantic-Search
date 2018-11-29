@@ -1,0 +1,248 @@
+{
+  "Conceptos": [
+    "humedad"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "1437358538",
+    "title": "mbed miguelitic",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/1437358538.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "02/08/2014 17:13:49",
+    "created": "05/18/2013 17:36:37",
+    "creator": "https://xively.com/users/miguelitic",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "DS18B20",
+        "current_value": "Sensores ON",
+        "at": "06/08/2013 14:34:47",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Estado",
+        "current_value": "ON",
+        "at": "02/08/2014 17:13:49",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Humedad_AM2302",
+        "current_value": "25.000000",
+        "at": "06/08/2013 14:34:47",
+        "max_value": "66.0",
+        "min_value": "0.0",
+        "tags": [
+          "humedad"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "porcentaje",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Orientacion",
+        "current_value": "Down",
+        "at": "02/08/2014 17:13:49",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Presion",
+        "current_value": "976.219971",
+        "at": "06/08/2013 14:34:47",
+        "max_value": "1384.48999",
+        "min_value": "970.830017",
+        "tags": [
+          "presion"
+        ],
+        "unit": {
+          "symbol": "hPa",
+          "label": "hectopascales",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Punto_de_rocio",
+        "current_value": "7.849681",
+        "at": "06/08/2013 14:34:47",
+        "max_value": "47.494873",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "System",
+        "current_value": "Ok",
+        "at": "06/08/2013 14:34:47",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temp_AM2302",
+        "current_value": "30.000000",
+        "at": "06/08/2013 14:34:47",
+        "max_value": "56.0",
+        "min_value": "0.0",
+        "tags": [
+          "temperatura"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "Grados C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temp_BMP085",
+        "current_value": "28.600000",
+        "at": "06/08/2013 14:34:47",
+        "max_value": "190.699997",
+        "min_value": "19.6",
+        "tags": [
+          "temperatura"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "Gados C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temp_DS18B20_1",
+        "current_value": "29.500000",
+        "at": "06/08/2013 14:34:47",
+        "max_value": "1052.5",
+        "min_value": "-2019.75",
+        "tags": [
+          "temperatura"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "Grados C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temp_DS18B20_2",
+        "current_value": "26.312500",
+        "at": "06/08/2013 14:34:47",
+        "max_value": "1049.0625",
+        "min_value": "-2023.9375",
+        "tags": [
+          "temperatura"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "Grados C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperatura",
+        "current_value": "11.732000",
+        "at": "02/08/2014 17:13:49",
+        "max_value": "11.732",
+        "min_value": "11.732",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Vel_racha",
+        "current_value": "53.765579",
+        "at": "06/08/2013 14:34:47",
+        "max_value": "276.412781",
+        "min_value": "0.0",
+        "tags": [
+          "velocidad"
+        ],
+        "unit": {
+          "symbol": "km/h",
+          "label": "km/h",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Vel_viento",
+        "current_value": "4.796588",
+        "at": "06/08/2013 14:34:47",
+        "max_value": "11.305918",
+        "min_value": "0.0",
+        "tags": [
+          "velocidad"
+        ],
+        "unit": {
+          "symbol": "km/h",
+          "label": "km/h",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/1437358538\" >mbed miguelitic</a>",
+    "URLMostrar": "https://xively.com/feeds/1437358538"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\1437358538.json",
+  "DocumentJSON": null
+}

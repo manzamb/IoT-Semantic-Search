@@ -1,0 +1,54 @@
+{
+  "Conceptos": [
+    "thermistor"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "43947",
+    "title": "Office Temperature",
+    "Private": false,
+    "tags": [
+      "Office Temperature"
+    ],
+    "description": "Temperature of my office as collected by a PIC32 Ethernet Starter kit and a thermistor.  The Microchip TCP/IP library was used to format and send the thermistor data in Celsius to this feed.",
+    "feed": "https://api.xively.com/v2/feeds/43947.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/15/2012 22:10:50",
+    "created": "01/10/2012 15:58:16",
+    "creator": "https://xively.com/users/n9wxu",
+    "version": null,
+    "website": "http://www.microchip.com",
+    "datastreams": [
+      {
+        "id": "1",
+        "current_value": "27.403801",
+        "at": "03/15/2012 22:10:50",
+        "max_value": "28.156151",
+        "min_value": "20.465721",
+        "tags": [
+          "OT"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Microchip Technology, Chandler Arizona, C4",
+      "domain": 0,
+      "lat": "33.2973906354567",
+      "lon": "-111.883392333984",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/43947\" >Office Temperature</a>",
+    "URLMostrar": "https://xively.com/feeds/43947"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\43947.json",
+  "DocumentJSON": null
+}

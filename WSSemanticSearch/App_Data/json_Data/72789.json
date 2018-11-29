@@ -1,0 +1,86 @@
+{
+  "Conceptos": [
+    "humidity"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "72789",
+    "title": "A720_6382_Wine",
+    "Private": false,
+    "tags": [
+      "weather"
+    ],
+    "description": "addIT A720, monitoring outdoor temperature and relative humidity",
+    "feed": "https://api.xively.com/v2/feeds/72789.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "11/01/2050 08:39:59",
+    "created": "08/27/2012 15:13:27",
+    "creator": "https://xively.com/users/oe1gca1",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "6.875",
+        "at": "03/17/2014 22:13:28",
+        "max_value": "7.266",
+        "min_value": "0.0",
+        "tags": [
+          "Battery"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": "Volts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "12.734",
+        "at": "03/17/2014 22:13:28",
+        "max_value": "49.453",
+        "min_value": "-38.438",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "48.828",
+        "at": "03/17/2014 22:13:28",
+        "max_value": "98.047",
+        "min_value": "0.0",
+        "tags": [
+          "rel. Humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "rH",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Vienna",
+      "domain": 0,
+      "lat": "48.1992349115312",
+      "lon": "16.4128929376602",
+      "ele": "200",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/72789\" >A720_6382_Wine</a>",
+    "URLMostrar": "https://xively.com/feeds/72789"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\72789.json",
+  "DocumentJSON": null
+}

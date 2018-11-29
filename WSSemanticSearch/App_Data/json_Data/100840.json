@@ -1,0 +1,105 @@
+{
+  "Conceptos": [
+    "horn"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "100840",
+    "title": "Esic clone",
+    "Private": false,
+    "tags": [
+      "1-wire",
+      "1wire",
+      "clone",
+      "ds18b20",
+      "esic",
+      "pic"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/100840.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/08/2014 22:45:52",
+    "created": "01/28/2013 07:55:20",
+    "creator": "https://xively.com/users/niclasf",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Battery_status",
+        "current_value": "0",
+        "at": "09/28/2013 20:01:15",
+        "max_value": "124.0",
+        "min_value": "0.0",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Unitless",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Battery_status2",
+        "current_value": null,
+        "at": null,
+        "max_value": null,
+        "min_value": null,
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Hum_DHT22",
+        "current_value": "24",
+        "at": "03/08/2014 22:45:52",
+        "max_value": "99.0",
+        "min_value": "0.0",
+        "tags": [
+          "Humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temp_DHT22",
+        "current_value": "26.1",
+        "at": "03/08/2014 22:45:51",
+        "max_value": "205.6",
+        "min_value": "-50.0",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Hornsbergs Strand 49",
+      "domain": 0,
+      "lat": "59.3405213652447",
+      "lon": "18.0079650878906",
+      "ele": "11",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/100840\" >Esic clone</a>",
+    "URLMostrar": "https://xively.com/feeds/100840"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\100840.json",
+  "DocumentJSON": null
+}

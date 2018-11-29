@@ -1,0 +1,274 @@
+{
+  "Conceptos": [
+    "temperature"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "9533296",
+    "title": "PokeysF46-0",
+    "Private": false,
+    "tags": [
+      "Zalogovnika"
+    ],
+    "description": "Temperature v obeh zalogovnikih Solarbayer SPS,\nZ1-1 do 4 = prvi zalogovnik, 1=zgoraj, 4=spodaj,\nZ2-1 do 4= drugi zalogovnik 1=zgoraj, 4=spodaj,\nx-senzorji na PoSensors 1.0 plati",
+    "feed": "https://api.xively.com/v2/feeds/9533296.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:09:47",
+    "created": "09/29/2013 16:02:25",
+    "creator": "https://xively.com/users/iwananza",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "T-Hisa",
+        "current_value": "20.81",
+        "at": "03/21/2014 14:09:47",
+        "max_value": "104.37",
+        "min_value": "-23.81",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "T-Zunaj",
+        "current_value": "22.06",
+        "at": "03/21/2014 14:09:47",
+        "max_value": "85.0",
+        "min_value": "-8.43",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "xBH1750",
+        "current_value": "0.03",
+        "at": "03/21/2014 14:09:47",
+        "max_value": "11.6",
+        "min_value": "0.0",
+        "tags": [
+          "Senzor svetlobe"
+        ],
+        "unit": {
+          "symbol": "Lux",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "xLM75",
+        "current_value": "23.50",
+        "at": "03/21/2014 14:09:47",
+        "max_value": "29.5",
+        "min_value": "16.0",
+        "tags": [
+          "Temperatura"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "xMMA7660",
+        "current_value": "-1.01",
+        "at": "03/21/2014 14:09:47",
+        "max_value": "1.21",
+        "min_value": "-1.16",
+        "tags": [
+          "x-os"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "xSHT21T",
+        "current_value": "24.75",
+        "at": "03/21/2014 14:09:47",
+        "max_value": "29.52",
+        "min_value": "16.82",
+        "tags": [
+          "Temperatura"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "xSHT21V",
+        "current_value": "33.29",
+        "at": "03/21/2014 14:09:47",
+        "max_value": "58.28",
+        "min_value": "21.95",
+        "tags": [
+          "Vlažnost"
+        ],
+        "unit": {
+          "symbol": "%RH",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Z1-1",
+        "current_value": "72.68",
+        "at": "03/21/2014 14:09:47",
+        "max_value": "717.62",
+        "min_value": "-704.56",
+        "tags": [
+          "Zalogovnik 1 - zgoraj"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "stopinj",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Z1-2",
+        "current_value": "72.25",
+        "at": "03/21/2014 14:09:47",
+        "max_value": "693.62",
+        "min_value": "-676.31",
+        "tags": [
+          "Zalogovnik 1 - zg. polovica"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "stopinje",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Z1-3",
+        "current_value": "69.12",
+        "at": "03/21/2014 14:09:47",
+        "max_value": "878.81",
+        "min_value": "-861.37",
+        "tags": [
+          "Zalogovnik 1 - sp. polovica"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "stopinje",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Z1-4",
+        "current_value": "63.37",
+        "at": "03/21/2014 14:09:47",
+        "max_value": "950.81",
+        "min_value": "-861.37",
+        "tags": [
+          "Zalogovnik 1 - spodaj"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "stopinje",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Z2-1",
+        "current_value": "49.68",
+        "at": "03/21/2014 14:09:47",
+        "max_value": "878.81",
+        "min_value": "-355.62",
+        "tags": [
+          "Zalogovnik 2 - zgoraj"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "stopinje",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Z2-2",
+        "current_value": "41.56",
+        "at": "03/21/2014 14:09:47",
+        "max_value": "710.81",
+        "min_value": "-658.31",
+        "tags": [
+          "Zalogovnik 2 - zg.polovica"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "stopinj",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Z2-3",
+        "current_value": "33.18",
+        "at": "03/21/2014 14:09:47",
+        "max_value": "85.0",
+        "min_value": "0.0",
+        "tags": [
+          "Zalogovnik 2 - sp.polovica"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "stopinj",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Z2-4",
+        "current_value": "33.12",
+        "at": "03/21/2014 14:09:47",
+        "max_value": "85.0",
+        "min_value": "-297.12",
+        "tags": [
+          "Zalogovnik 2 - spodaj"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "stopinj",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Prevalje",
+      "domain": 0,
+      "lat": "46.5468788",
+      "lon": "14.9197478999999",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/9533296\" >PokeysF46-0</a>",
+    "URLMostrar": "https://xively.com/feeds/9533296"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\9533296.json",
+  "DocumentJSON": null
+}

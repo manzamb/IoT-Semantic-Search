@@ -1,0 +1,104 @@
+{
+  "Conceptos": [
+    "platform"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "19558",
+    "title": "Racha Island CTD",
+    "Private": false,
+    "tags": [
+      "creon:instrument:SBE37",
+      "creon:platform:buoy_1",
+      "creon:site:Racha Island"
+    ],
+    "description": "CTD Located at Racha Island, Thailand",
+    "feed": "https://api.xively.com/v2/feeds/19558.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "07/12/2011 23:18:38",
+    "created": "02/25/2011 04:54:49",
+    "creator": "https://xively.com/users/creon",
+    "version": null,
+    "website": "http://www.corelreefeon.org",
+    "datastreams": [
+      {
+        "id": "depth",
+        "current_value": "9.586786125774518",
+        "at": "10/15/2011 22:12:00",
+        "max_value": "11.8719417993115",
+        "min_value": "9.09870617313048",
+        "tags": [
+          "Depth"
+        ],
+        "unit": {
+          "symbol": "M",
+          "label": "M",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "salinity",
+        "current_value": "32.104399525640034",
+        "at": "10/15/2011 22:12:00",
+        "max_value": "34.8072715556627",
+        "min_value": "29.8655904005552",
+        "tags": [
+          "Salinity"
+        ],
+        "unit": {
+          "symbol": "PSU",
+          "label": "PSU",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temp2",
+        "current_value": null,
+        "at": "07/12/2011 23:18:38",
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Deg. C.",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temperature",
+        "current_value": "28.0681",
+        "at": "09/29/2011 08:37:00",
+        "max_value": "30.8742",
+        "min_value": "27.154",
+        "tags": [
+          "Temperatue"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Deg. C.",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Racha Island",
+      "domain": 0,
+      "lat": "7.7412473209248",
+      "lon": "98.3777618408203",
+      "ele": "-10",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/19558\" >Racha Island CTD</a>",
+    "URLMostrar": "https://xively.com/feeds/19558"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\19558.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,104 @@
+{
+  "Conceptos": [
+    "color"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "42109",
+    "title": "Temp, Humidity, Light",
+    "Private": false,
+    "tags": [
+      "humidity",
+      "light",
+      "temperature"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/42109.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "07/25/2012 04:58:19",
+    "created": "12/16/2011 19:25:44",
+    "creator": "https://xively.com/users/joehays",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "581",
+        "at": "07/25/2012 04:58:18",
+        "max_value": "1023.0",
+        "min_value": "0.0",
+        "tags": [
+          "light"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "48",
+        "at": "07/25/2012 04:58:18",
+        "max_value": "61.0",
+        "min_value": "0.0",
+        "tags": [
+          "humidy"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "72",
+        "at": "07/25/2012 04:58:18",
+        "max_value": "91.0",
+        "min_value": "32.0",
+        "tags": [
+          "temp F"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "22",
+        "at": "07/25/2012 04:58:18",
+        "max_value": "2020.0",
+        "min_value": "0.0",
+        "tags": [
+          "temp C"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Golden Colorado - study-1",
+      "domain": 0,
+      "lat": "39.7287177264415",
+      "lon": "-105.16083240509",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/42109\" >Temp, Humidity, Light</a>",
+    "URLMostrar": "https://xively.com/feeds/42109"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\42109.json",
+  "DocumentJSON": null
+}

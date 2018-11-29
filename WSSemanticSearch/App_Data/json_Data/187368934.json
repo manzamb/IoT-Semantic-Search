@@ -1,0 +1,128 @@
+{
+  "Conceptos": [
+    "wind"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "187368934",
+    "title": "Arduino Weather Station",
+    "Private": false,
+    "tags": [
+      "estação meteorológica",
+      "weather station"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/187368934.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/19/2014 11:50:41",
+    "created": "05/16/2013 12:01:26",
+    "creator": "https://xively.com/users/jefuchoas",
+    "version": null,
+    "website": "http://weatherstation-hitechdv.rhcloud.com",
+    "datastreams": [
+      {
+        "id": "anemometer",
+        "current_value": "5.76",
+        "at": "03/19/2014 11:50:41",
+        "max_value": "267.36",
+        "min_value": "0.0",
+        "tags": [
+          "velocidade",
+          "velocity",
+          "vento",
+          "wind"
+        ],
+        "unit": {
+          "symbol": "KM/h",
+          "label": "KM/h",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "humidity",
+        "current_value": "74.10",
+        "at": "03/19/2014 11:50:41",
+        "max_value": "99.9",
+        "min_value": "-999.0",
+        "tags": [
+          "humidity",
+          "umidade"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "raingauge",
+        "current_value": "0.00",
+        "at": "03/19/2014 11:50:41",
+        "max_value": "40.51",
+        "min_value": "0.0",
+        "tags": [
+          "pluviometer",
+          "pluviometro"
+        ],
+        "unit": {
+          "symbol": "mm",
+          "label": "Milimetros",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temperature",
+        "current_value": "26.80",
+        "at": "03/19/2014 11:50:41",
+        "max_value": "586.0",
+        "min_value": "-999.0",
+        "tags": [
+          "temperatura",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "º C",
+          "label": "Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "windvane",
+        "current_value": "W",
+        "at": "03/19/2014 11:50:41",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "direction",
+          "direção",
+          "vento",
+          "wind"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "São José dos Campos",
+      "domain": 0,
+      "lat": "-23.1772524262497",
+      "lon": "-45.845775604248",
+      "ele": "592",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/187368934\" >Arduino Weather Station</a>",
+    "URLMostrar": "https://xively.com/feeds/187368934"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\187368934.json",
+  "DocumentJSON": null
+}

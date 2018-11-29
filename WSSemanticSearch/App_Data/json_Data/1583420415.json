@@ -1,0 +1,214 @@
+{
+  "Conceptos": [
+    "wind"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "1583420415",
+    "title": "Weather Station (Hostalets)",
+    "Private": false,
+    "tags": [
+      "arduino fio",
+      "BMP085",
+      "ciseco",
+      "dew point",
+      "DHT22",
+      "garrotxa",
+      "hostalets",
+      "humidity",
+      "LiPo",
+      "llap",
+      "pressure",
+      "rain",
+      "solar panel",
+      "temperature",
+      "weather",
+      "wind",
+      "xfr"
+    ],
+    "description": "Outdoor weather station in Els Hostalets d'en Bas (Garrotxa, Girona) with an Arduino Fio, Ciseco XFR radio, DHT22 and BMP085 sensors, anemometer and rain gauge. Powered by a 850mAh LiPo battery and a 8V 5.2W solar panel.",
+    "feed": "https://api.xively.com/v2/feeds/1583420415.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/13/2014 18:08:28",
+    "created": "06/28/2013 09:11:48",
+    "creator": "https://xively.com/users/xose",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "battery",
+        "current_value": "4185",
+        "at": "03/13/2014 18:08:24",
+        "max_value": "4708.0",
+        "min_value": "0.0",
+        "tags": [
+          "battery LiPo 3.7V 850mA"
+        ],
+        "unit": {
+          "symbol": "mV",
+          "label": "mV",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "humidity",
+        "current_value": "42.63",
+        "at": "03/13/2014 18:08:21",
+        "max_value": "99.9",
+        "min_value": "0.0",
+        "tags": [
+          "dht22 humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "pressure",
+        "current_value": "1681.7",
+        "at": "09/24/2013 10:24:25",
+        "max_value": "2227.6",
+        "min_value": "0.0",
+        "tags": [
+          "bmp085 pressure"
+        ],
+        "unit": {
+          "symbol": "hPA",
+          "label": "hPA",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "rain1hour",
+        "current_value": " 0.0",
+        "at": "03/13/2014 18:08:10",
+        "max_value": "6442451.0",
+        "min_value": "0.0",
+        "tags": [
+          "rain ml/m2 1hour"
+        ],
+        "unit": {
+          "symbol": "mm/m2",
+          "label": "mm/m2",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "rain5min",
+        "current_value": " 0.0",
+        "at": "03/13/2014 18:08:09",
+        "max_value": "6439951.0",
+        "min_value": "0.0",
+        "tags": [
+          "rain ml/m2 5min"
+        ],
+        "unit": {
+          "symbol": "mm/m2",
+          "label": "mm/m2",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "solarpanel",
+        "current_value": "9377",
+        "at": "03/13/2014 18:08:28",
+        "max_value": "9989.0",
+        "min_value": "0.0",
+        "tags": [
+          "battery solar panel 8V 5.2W"
+        ],
+        "unit": {
+          "symbol": "mV",
+          "label": "mV",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temperature1",
+        "current_value": "17.67",
+        "at": "03/13/2014 18:08:07",
+        "max_value": "3276.7",
+        "min_value": "0.0",
+        "tags": [
+          "dht22 temperature"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "ºC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temperature2",
+        "current_value": "14.91",
+        "at": "09/23/2013 22:31:14",
+        "max_value": "190.06",
+        "min_value": "0.0",
+        "tags": [
+          "bmp085 temperature"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "ºC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "wind",
+        "current_value": " 0.0",
+        "at": "03/13/2014 18:08:12",
+        "max_value": "32.9",
+        "min_value": "0.0",
+        "tags": [
+          "wind"
+        ],
+        "unit": {
+          "symbol": "km/h",
+          "label": "km/h",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "windmax",
+        "current_value": " 0.0",
+        "at": "03/13/2014 18:08:15",
+        "max_value": "75.0",
+        "min_value": "0.0",
+        "tags": [
+          "wind gust"
+        ],
+        "unit": {
+          "symbol": "km/h",
+          "label": "km/h",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Els Hostalets d'en Bas",
+      "domain": 0,
+      "lat": "42.1020335106616",
+      "lon": "2.44932889938354",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/1583420415\" >Weather Station (Hostalets)</a>",
+    "URLMostrar": "https://xively.com/feeds/1583420415"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\1583420415.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,68 @@
+{
+  "Conceptos": [
+    "accuracy"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "124295",
+    "title": "Raspberry Pi Temperature",
+    "Private": false,
+    "tags": [
+      "pi",
+      "raspberry",
+      "temperature"
+    ],
+    "description": "This data is being acquired with Raspberry pi connected to DS18S20 temperature sensor with measurement accuracy of 0.5C",
+    "feed": "https://api.xively.com/v2/feeds/124295.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/21/2014 13:52:44",
+    "created": "04/10/2013 05:35:45",
+    "creator": "https://xively.com/users/paracha3",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "TempC",
+        "current_value": "29.812",
+        "at": "03/21/2014 13:52:44",
+        "max_value": "33.812",
+        "min_value": "-1.25",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "TempF",
+        "current_value": "85.66159999999999",
+        "at": "03/21/2014 13:52:44",
+        "max_value": "92.8616",
+        "min_value": "29.75",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "F",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Jeddah,Saudi Arabia",
+      "domain": 0,
+      "lat": "21.5509736313815",
+      "lon": "39.1567325592041",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/124295\" >Raspberry Pi Temperature</a>",
+    "URLMostrar": "https://xively.com/feeds/124295"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\124295.json",
+  "DocumentJSON": null
+}

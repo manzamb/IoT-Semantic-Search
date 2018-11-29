@@ -1,0 +1,244 @@
+{
+  "Conceptos": [
+    "surface"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "82014",
+    "title": "001012",
+    "Private": false,
+    "tags": [
+      "depth",
+      "humidity",
+      "level",
+      "ski",
+      "SmartyPlanet",
+      "SmartySnow",
+      "snow",
+      "temperature"
+    ],
+    "description": "This is a prototipe remote sensors station with snow depht, snow surface temperature, humidity and air temperature. It logs the data every 15' and sends every hour through GPRS.",
+    "feed": "https://api.xively.com/v2/feeds/82014.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "06/18/2013 06:43:33",
+    "created": "10/24/2012 07:37:12",
+    "creator": "https://xively.com/users/arantec",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "A00",
+        "current_value": "380.2",
+        "at": "04/29/2013 17:00:00",
+        "max_value": "380.2",
+        "min_value": "365.6",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "A01",
+        "current_value": "32.45",
+        "at": "04/29/2013 17:00:00",
+        "max_value": "33.28",
+        "min_value": "32.29",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "A02",
+        "current_value": "93.86",
+        "at": "04/29/2013 17:00:00",
+        "max_value": "93.86",
+        "min_value": "69.66",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "A03",
+        "current_value": "2.125",
+        "at": "04/29/2013 17:00:00",
+        "max_value": "6.625",
+        "min_value": "2.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "battery",
+        "current_value": "7.59",
+        "at": "06/18/2013 06:30:00",
+        "max_value": "7.75",
+        "min_value": "7.45",
+        "tags": [
+          "battery solar charge"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": "V",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "humidity",
+        "current_value": "100",
+        "at": "06/18/2013 06:30:00",
+        "max_value": "100.0",
+        "min_value": "14.18",
+        "tags": [
+          "hum",
+          "humidity"
+        ],
+        "unit": {
+          "symbol": "%HR",
+          "label": "%HR",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "IRtemperature",
+        "current_value": "44.70",
+        "at": "03/11/2013 16:00:00",
+        "max_value": "44.7",
+        "min_value": "44.7",
+        "tags": [
+          "Infrared surface temperature"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "ºC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "P01",
+        "current_value": "00001232",
+        "at": "04/29/2013 17:00:00",
+        "max_value": "1232.0",
+        "min_value": "1199.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "raingauge",
+        "current_value": "00003376",
+        "at": "06/18/2013 06:30:00",
+        "max_value": "3376.0",
+        "min_value": "802.0",
+        "tags": [
+          "rain"
+        ],
+        "unit": {
+          "symbol": "x0.2 l/m2",
+          "label": "x0.2 mm",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "riverlevel",
+        "current_value": "34.13",
+        "at": "06/18/2013 06:15:00",
+        "max_value": "760.0",
+        "min_value": "0.0",
+        "tags": [
+          "river level water ultrasonic"
+        ],
+        "unit": {
+          "symbol": "cm",
+          "label": "cm",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "snowdist",
+        "current_value": "26.01",
+        "at": "03/11/2013 16:00:00",
+        "max_value": "26.01",
+        "min_value": "26.01",
+        "tags": [
+          "snow distance"
+        ],
+        "unit": {
+          "symbol": "cm",
+          "label": "cm",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temperature",
+        "current_value": "7.500",
+        "at": "06/18/2013 06:30:00",
+        "max_value": "29.12",
+        "min_value": "-1.43",
+        "tags": [
+          "temp"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "ºC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "waterIRtemperature",
+        "current_value": "34.60",
+        "at": "06/18/2013 06:15:00",
+        "max_value": "60.0",
+        "min_value": "0.0",
+        "tags": [
+          "water infrared temperautre"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "ºC",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Vielha",
+      "domain": 0,
+      "lat": "42.7369264816927",
+      "lon": "0.76904296875",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/82014\" >001012</a>",
+    "URLMostrar": "https://xively.com/feeds/82014"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\82014.json",
+  "DocumentJSON": null
+}

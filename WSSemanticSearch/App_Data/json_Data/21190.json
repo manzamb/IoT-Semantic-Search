@@ -1,0 +1,57 @@
+{
+  "Conceptos": [
+    "tensiometer"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "21190",
+    "title": "potensiometer test",
+    "Private": false,
+    "tags": [
+      "arduino"
+    ],
+    "description": "simple arduino test with potensiometer.",
+    "feed": "https://api.xively.com/v2/feeds/21190.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/22/2011 21:58:42",
+    "created": "03/21/2011 14:32:21",
+    "creator": "https://xively.com/users/coyne",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "470.0",
+        "at": "03/22/2011 21:58:42",
+        "max_value": "900.0",
+        "min_value": "93.0",
+        "tags": [
+          "LDR",
+          "light dependent resistor",
+          "light level",
+          "light sensor"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "V",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "kusttorget",
+      "domain": 0,
+      "lat": "57.2315029914789",
+      "lon": "12.83203125",
+      "ele": "10",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/21190\" >potensiometer test</a>",
+    "URLMostrar": "https://xively.com/feeds/21190"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\21190.json",
+  "DocumentJSON": null
+}

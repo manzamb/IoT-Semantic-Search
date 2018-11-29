@@ -1,0 +1,95 @@
+{
+  "Conceptos": [
+    "latency"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "118664",
+    "title": "Zürich",
+    "Private": false,
+    "tags": [
+      "helligkeit",
+      "outdoors",
+      "temperatur",
+      "weather"
+    ],
+    "description": "Raspberry Pi + D-Link DIR-600",
+    "feed": "https://api.xively.com/v2/feeds/118664.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "06/13/2013 11:16:38",
+    "created": "03/11/2013 21:43:09",
+    "creator": "https://xively.com/users/japeq",
+    "version": null,
+    "website": "http://japeq.iki.fi/",
+    "datastreams": [
+      {
+        "id": "exp",
+        "current_value": "124",
+        "at": "05/21/2013 06:54:04",
+        "max_value": "255.0",
+        "min_value": "0.0",
+        "tags": [
+          "brightness",
+          "exposure",
+          "helligkeit",
+          "outdoors"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "lat",
+        "current_value": "0.510377",
+        "at": "05/21/2013 06:54:04",
+        "max_value": "3.874989",
+        "min_value": "0.378646",
+        "tags": [
+          "latency",
+          "youtube"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "s",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temp",
+        "current_value": "27.937",
+        "at": "06/13/2013 11:16:38",
+        "max_value": "45.5",
+        "min_value": "0.062",
+        "tags": [
+          "outdoors",
+          "temperatur",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Zürich, Switzerland",
+      "domain": 0,
+      "lat": "47.3602809067161",
+      "lon": "8.52324485778809",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/118664\" >Zürich</a>",
+    "URLMostrar": "https://xively.com/feeds/118664"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\118664.json",
+  "DocumentJSON": null
+}

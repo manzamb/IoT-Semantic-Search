@@ -1,0 +1,139 @@
+{
+  "Conceptos": [
+    "laser"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "19432",
+    "title": "Rovio",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "electricity",
+      "energy",
+      "home automation",
+      "meter",
+      "power"
+    ],
+    "description": "This Feed is to monitor my robotic tank.\r\nMy Tank contains the following sensors & devices:\r\n\r\n1X Voltage Divider\r\n1X Solenoid Valve (CO2)\r\n2X Servo's\r\n2X LDR's\r\n2X Sharp IR Distance Sensors\r\n2X Motor Controllers\r\n\r\n\r\nSolenoid to triger my CO2 air turret attached to my robotic tank.\r\nThe servo's are used to pan & tilt my CO2 turret with a laser & webcam attached to it.\r\nThe LDR's are used to autonomously drive my tank to the brightest light source to charge via a solar panel when the battery level drops below a preset value.\r\nThe Sharp IR Distance Sensors are used to Autonomously navigate and avoid obstacles.\r\nThe motor Controllers are used for the main navigation (propulsion)of my robotic tank.\r\nThe voltage divider is used to determine the battery voltage of my robotic tank, in this case two 12VDC SLA batteries, and then to triger the tank to drive autonomously to the brightest light source via LDR values, and avoid obstacled along the way via Sharp IR Distance sensors.",
+    "feed": "https://api.xively.com/v2/feeds/19432.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "06/15/2011 08:31:04",
+    "created": "02/22/2011 08:21:04",
+    "creator": "https://xively.com/users/rovio",
+    "version": null,
+    "website": "http://www.pachube.com/feeds/19432",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "d=0101010101&a=011012013014",
+        "at": "02/25/2011 11:53:29",
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "Voltage Divider"
+        ],
+        "unit": {
+          "symbol": "Volts",
+          "label": "0",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "d=1000000000&a=033000033000",
+        "at": "02/23/2011 06:35:59",
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "LDR 1"
+        ],
+        "unit": {
+          "symbol": "Lux",
+          "label": "0",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "d=0011111111&a=002003044021",
+        "at": "02/22/2011 13:06:32",
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "LDR 2"
+        ],
+        "unit": {
+          "symbol": "Lux",
+          "label": "0",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": null,
+        "at": null,
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "Sharp IR Distance Sensor 1"
+        ],
+        "unit": {
+          "symbol": "Distance",
+          "label": "0",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": null,
+        "at": null,
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "Sharp IR Distance Sensor 2"
+        ],
+        "unit": {
+          "symbol": "Distance",
+          "label": "0",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": null,
+        "at": null,
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "Thermometer"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "0",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Port Elizabeth",
+      "domain": 0,
+      "lat": "-33.9643543113341",
+      "lon": "25.6153750419617",
+      "ele": "110",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/19432\" >Rovio</a>",
+    "URLMostrar": "https://xively.com/feeds/19432"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\19432.json",
+  "DocumentJSON": null
+}

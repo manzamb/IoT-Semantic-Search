@@ -1,0 +1,292 @@
+{
+  "Conceptos": [
+    "moisture"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "48256",
+    "title": "Green Swamp ESP Array ",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/48256.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/11/2014 12:02:08",
+    "created": "02/14/2012 19:00:05",
+    "creator": "https://xively.com/users/ralphwella",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "batv",
+        "current_value": "12.4",
+        "at": "03/11/2014 12:02:07",
+        "max_value": "14.6",
+        "min_value": "-99.0",
+        "tags": [
+          "battery voltage"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "volts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "counter3",
+        "current_value": "000.000",
+        "at": "03/11/2014 12:02:07",
+        "max_value": "0.0",
+        "min_value": "-66.0",
+        "tags": [
+          "Evapotranspiration"
+        ],
+        "unit": {
+          "symbol": "inches",
+          "label": "inches",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "counter4",
+        "current_value": "000.000",
+        "at": "03/11/2014 12:02:07",
+        "max_value": "0.0",
+        "min_value": "-66.0",
+        "tags": [
+          "count"
+        ],
+        "unit": {
+          "symbol": "c4",
+          "label": "integer",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "fmoist",
+        "current_value": "17.62",
+        "at": "03/11/2014 12:02:07",
+        "max_value": "64.84",
+        "min_value": "-99.0",
+        "tags": [
+          "fuel moisture"
+        ],
+        "unit": {
+          "symbol": "fuel m %",
+          "label": "% moisture",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "ftemp",
+        "current_value": "2.62",
+        "at": "03/11/2014 12:02:07",
+        "max_value": "32.18",
+        "min_value": "-88.88",
+        "tags": [
+          "fuel temperature"
+        ],
+        "unit": {
+          "symbol": "fuel temp C",
+          "label": "degrees -c ",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "id",
+        "current_value": "14",
+        "at": "03/11/2014 12:02:07",
+        "max_value": "14.0",
+        "min_value": "-77.0",
+        "tags": [
+          "ID"
+        ],
+        "unit": {
+          "symbol": "ID",
+          "label": "integer",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "inttemp",
+        "current_value": "5",
+        "at": "03/11/2014 12:02:07",
+        "max_value": "38.0",
+        "min_value": "-9.0",
+        "tags": [
+          "internal temp"
+        ],
+        "unit": {
+          "symbol": "internal  temp C",
+          "label": "degrees-c",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "light1",
+        "current_value": "-89",
+        "at": "03/11/2014 12:02:07",
+        "max_value": "1869477595.0",
+        "min_value": "-99.0",
+        "tags": [
+          "lightning activity"
+        ],
+        "unit": {
+          "symbol": "count",
+          "label": "integer ",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "mcsq",
+        "current_value": "10",
+        "at": "03/11/2014 12:02:07",
+        "max_value": "14.0",
+        "min_value": "1.0",
+        "tags": [
+          "signal strength"
+        ],
+        "unit": {
+          "symbol": "csq",
+          "label": "number",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "mdmv",
+        "current_value": "376",
+        "at": "03/11/2014 12:02:07",
+        "max_value": "377.0",
+        "min_value": "375.0",
+        "tags": [
+          "modem voltage"
+        ],
+        "unit": {
+          "symbol": "v",
+          "label": "volts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "precip1",
+        "current_value": "023.429",
+        "at": "03/11/2014 12:02:07",
+        "max_value": "155.747",
+        "min_value": "-66.0",
+        "tags": [
+          "rainfall"
+        ],
+        "unit": {
+          "symbol": "in",
+          "label": "inches",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "precip2",
+        "current_value": "-00.350",
+        "at": "03/11/2014 12:02:07",
+        "max_value": "267.716",
+        "min_value": "-66.0",
+        "tags": [
+          "Rainfall"
+        ],
+        "unit": {
+          "symbol": "in ",
+          "label": "inches",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "shumid",
+        "current_value": "0.0000",
+        "at": "03/11/2014 12:02:07",
+        "max_value": "0.6578",
+        "min_value": "-99.0",
+        "tags": [
+          "Soil humidity"
+        ],
+        "unit": {
+          "symbol": "sh",
+          "label": "period-msec",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "smoist",
+        "current_value": "439.38",
+        "at": "03/11/2014 12:02:07",
+        "max_value": "442.98",
+        "min_value": "-99.0",
+        "tags": [
+          "Soil Moisture"
+        ],
+        "unit": {
+          "symbol": "Soil m % ",
+          "label": "% moisture",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "stemp",
+        "current_value": "8.43",
+        "at": "03/11/2014 12:02:07",
+        "max_value": "29.93",
+        "min_value": "-88.88",
+        "tags": [
+          "Soil Temperature"
+        ],
+        "unit": {
+          "symbol": "Soil temp C",
+          "label": "degrees-c ",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "welld",
+        "current_value": "-009.4",
+        "at": "03/11/2014 12:02:07",
+        "max_value": "251.4",
+        "min_value": "-99.0",
+        "tags": [
+          "Water Table Depth"
+        ],
+        "unit": {
+          "symbol": "in",
+          "label": "inches",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Green Swamp, Brunswick County, North Carolina",
+      "domain": 0,
+      "lat": "34.1385910909701",
+      "lon": "-78.3131968975067",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/48256\" >Green Swamp ESP Array </a>",
+    "URLMostrar": "https://xively.com/feeds/48256"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\48256.json",
+  "DocumentJSON": null
+}

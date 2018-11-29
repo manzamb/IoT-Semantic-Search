@@ -1,0 +1,100 @@
+{
+  "Conceptos": [
+    "lead"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "52010",
+    "title": "Bedroom Environmentals",
+    "Private": false,
+    "tags": null,
+    "description": "Three pressure sensors and a DSL 502T are used to determine whether or not I'm in bed.\r\nA value of 0 means I'm not in bed. The higher the value, the more pressure sensors I'm activating. As I move around in the night I am likely to trigger various inputs, leading to the spikes and dips in the graph.\r\nThe values update every 3 minutes, so a quick trip to the bathroom is unlikely to register.",
+    "feed": "https://api.xively.com/v2/feeds/52010.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "07/27/2012 06:13:40",
+    "created": "03/15/2012 12:27:24",
+    "creator": "https://xively.com/users/madleech",
+    "version": null,
+    "website": "http://www.michael.net.nz/",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "900",
+        "at": "07/20/2012 09:12:18",
+        "max_value": "15486.0",
+        "min_value": "0.0",
+        "tags": [
+          "bed0"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "183",
+        "at": "07/10/2012 07:52:37",
+        "max_value": "4564.0",
+        "min_value": "0.0",
+        "tags": [
+          "bed1"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "175",
+        "at": "07/14/2012 02:31:29",
+        "max_value": "2728.0",
+        "min_value": "-361.0",
+        "tags": [
+          "bed2"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "21.749",
+        "at": "07/27/2012 06:13:40",
+        "max_value": "29.962",
+        "min_value": "0.0",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Christchurch, New Zealand",
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/52010\" >Bedroom Environmentals</a>",
+    "URLMostrar": "https://xively.com/feeds/52010"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\52010.json",
+  "DocumentJSON": null
+}

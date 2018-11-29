@@ -1,0 +1,82 @@
+{
+  "Conceptos": [
+    "medio ambiente"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "55887",
+    "title": "REMADE - CEF INCRA08",
+    "Private": false,
+    "tags": null,
+    "description": "REDE ESTAÇÕES METEOROLÓGICAS AUTOMÁTICAS DIDÁTICAS EXPERIMENTAIS.\r\nEste projeto consiste em uma rede de estações meteorológicas automáticas instaladas em escolas públicas do Distrito Federal, visando o monitoramento de alguns fatores climáticos locais, os quais serão utilizados de modo interdisciplinar. \r\nA REMADE - CEF INCRA08 está situada na BR DCAG BR 070 Quadra 04 Lote S/N INCRA 08, Brazlândia-DF e envolvendo alunos do Ensino Médio, do 1º ao 3º ano.\r\n",
+    "feed": "https://api.xively.com/v2/feeds/55887.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "05/06/2013 22:55:20",
+    "created": "04/17/2012 00:33:53",
+    "creator": "https://xively.com/users/ivanildo",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Pressao",
+        "current_value": "2.00",
+        "at": "05/06/2013 22:55:20",
+        "max_value": "2.0",
+        "min_value": "2.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperatura",
+        "current_value": "24.60",
+        "at": "05/06/2013 22:55:20",
+        "max_value": "43.0",
+        "min_value": "0.0",
+        "tags": [
+          "Temperatura Ambiente"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Umidade",
+        "current_value": "47.20",
+        "at": "05/06/2013 22:55:20",
+        "max_value": "99.9",
+        "min_value": "19.0",
+        "tags": [
+          "Umidade Relativa"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "CEF INCRA08 BRAZLÂNDIA ",
+      "domain": 0,
+      "lat": "-15.7439307930777",
+      "lon": "-48.1700478494167",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/55887\" >REMADE - CEF INCRA08</a>",
+    "URLMostrar": "https://xively.com/feeds/55887"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\55887.json",
+  "DocumentJSON": null
+}

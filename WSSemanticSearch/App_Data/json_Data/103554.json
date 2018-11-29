@@ -1,0 +1,118 @@
+{
+  "Conceptos": [
+    "system"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "103554",
+    "title": "Nestcam server statistics",
+    "Private": false,
+    "tags": [
+      "nestcam;raspberry pi;load;system load;server statistics;network traffic"
+    ],
+    "description": "Raspberry Pi webserver/webcam combo. Periodical load data. ",
+    "feed": "https://api.xively.com/v2/feeds/103554.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:10:13",
+    "created": "02/09/2013 14:53:48",
+    "creator": "https://xively.com/users/ybr",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "0.27",
+        "at": "03/21/2014 14:10:13",
+        "max_value": "1.95",
+        "min_value": "0.01",
+        "tags": [
+          "5 min. avg. load"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "44.4",
+        "at": "03/21/2014 14:10:13",
+        "max_value": "85.0",
+        "min_value": "-1051533.4",
+        "tags": [
+          "CPU temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "193.6",
+        "at": "03/21/2014 14:10:13",
+        "max_value": "57662.9",
+        "min_value": "0.0",
+        "tags": [
+          "5 min. δ bytes received"
+        ],
+        "unit": {
+          "symbol": "kB",
+          "label": "kB",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "8.72",
+        "at": "03/21/2014 14:10:13",
+        "max_value": "445.43",
+        "min_value": "-4290.26",
+        "tags": [
+          "5 min. δ bytes sent"
+        ],
+        "unit": {
+          "symbol": "MB",
+          "label": "MB",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "40",
+        "at": "03/21/2014 14:10:13",
+        "max_value": "84.0",
+        "min_value": "18.0",
+        "tags": [
+          "disk usage /"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "52.0305283247702",
+      "lon": "4.34371948242188",
+      "ele": "2",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/103554\" >Nestcam server statistics</a>",
+    "URLMostrar": "https://xively.com/feeds/103554"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\103554.json",
+  "DocumentJSON": null
+}

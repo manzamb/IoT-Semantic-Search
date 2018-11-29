@@ -1,0 +1,72 @@
+{
+  "Conceptos": [
+    "precision"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "61691",
+    "title": "ArduinoTropical",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "barometer",
+      "Temperature"
+    ],
+    "description": "High precision barometer ",
+    "feed": "https://api.xively.com/v2/feeds/61691.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "01/29/2013 20:06:31",
+    "created": "05/31/2012 03:06:40",
+    "creator": "https://xively.com/users/privet",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "sensor1",
+        "current_value": "27.51",
+        "at": "01/29/2013 20:06:30",
+        "max_value": "27.97",
+        "min_value": "23.98",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "degré",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "sensor2",
+        "current_value": "1012.64",
+        "at": "01/29/2013 20:06:30",
+        "max_value": "1017.9",
+        "min_value": "1012.57",
+        "tags": [
+          "High Precision Barometre"
+        ],
+        "unit": {
+          "symbol": "mb",
+          "label": "milliBar",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Guadeloupe",
+      "domain": 0,
+      "lat": "16.3152216312105",
+      "lon": "-61.6890668791341",
+      "ele": "50",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/61691\" >ArduinoTropical</a>",
+    "URLMostrar": "https://xively.com/feeds/61691"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\61691.json",
+  "DocumentJSON": null
+}

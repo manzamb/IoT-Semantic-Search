@@ -1,0 +1,68 @@
+{
+  "Conceptos": [
+    "temperature"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "7409",
+    "title": "MB Power Use",
+    "Private": false,
+    "tags": null,
+    "description": "Power Use",
+    "feed": "https://api.xively.com/v2/feeds/7409.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/19/2014 10:11:38",
+    "created": "05/17/2010 14:19:09",
+    "creator": "https://xively.com/users/mbarwell",
+    "version": null,
+    "website": "http://www.merewether.com",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "2192",
+        "at": "03/19/2014 10:11:37",
+        "max_value": "80630.0",
+        "min_value": "0.0",
+        "tags": [
+          "Power Usage"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "26.7",
+        "at": "03/19/2014 10:11:38",
+        "max_value": "39.4",
+        "min_value": "12.5",
+        "tags": [
+          "Indoor Temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Pell",
+      "domain": 0,
+      "lat": "-32.9455720536049",
+      "lon": "151.755560158635",
+      "ele": "55",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/7409\" >MB Power Use</a>",
+    "URLMostrar": "https://xively.com/feeds/7409"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\7409.json",
+  "DocumentJSON": null
+}

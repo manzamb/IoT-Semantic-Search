@@ -1,0 +1,54 @@
+{
+  "Conceptos": [
+    "physical agent"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "122905",
+    "title": "test arduino feed",
+    "Private": false,
+    "tags": [
+      "arduino"
+    ],
+    "description": "taking analog data from pin 2",
+    "feed": "https://api.xively.com/v2/feeds/122905.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "04/12/2013 10:25:04",
+    "created": "04/05/2013 16:44:46",
+    "creator": "https://xively.com/users/immad",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "sensor",
+        "current_value": "400",
+        "at": "04/12/2013 10:27:13",
+        "max_value": "5090.0",
+        "min_value": "160.0",
+        "tags": [
+          "project name:USERAGENT"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "PRESSURE",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/122905\" >test arduino feed</a>",
+    "URLMostrar": "https://xively.com/feeds/122905"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\122905.json",
+  "DocumentJSON": null
+}

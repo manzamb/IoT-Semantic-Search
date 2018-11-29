@@ -1,0 +1,66 @@
+{
+  "Conceptos": [
+    "sensing"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "1134831932",
+    "title": "Environment Sensor & Automation Array",
+    "Private": false,
+    "tags": [
+      "environment sensor"
+    ],
+    "description": "An Arduino based environment sensor.\n\nCurrently only sensing temperature.  Will probably add ambient light sensing as well. ",
+    "feed": "https://api.xively.com/v2/feeds/1134831932.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "01/08/2014 09:28:28",
+    "created": "06/12/2013 09:57:07",
+    "creator": "https://xively.com/users/sybyabraham",
+    "version": null,
+    "website": "https://www.facebook.com/sybyabraham",
+    "datastreams": [
+      {
+        "id": "Airconditioner",
+        "current_value": "1",
+        "at": "01/08/2014 09:28:28",
+        "max_value": "1.0",
+        "min_value": "-1.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperature",
+        "current_value": "26.80",
+        "at": "06/27/2013 09:15:18",
+        "max_value": "156.8",
+        "min_value": "21.9",
+        "tags": null,
+        "unit": {
+          "symbol": "C",
+          "label": "Centigrade",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Syby's Room",
+      "domain": 0,
+      "lat": "24.2072204927766",
+      "lon": "55.7232785224915",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/1134831932\" >Environment Sensor & Automation Array</a>",
+    "URLMostrar": "https://xively.com/feeds/1134831932"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\1134831932.json",
+  "DocumentJSON": null
+}

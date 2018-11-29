@@ -1,0 +1,129 @@
+{
+  "Conceptos": [
+    "longitud"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "121686",
+    "title": "MyGPS",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "test"
+    ],
+    "description": "Track my gps data",
+    "feed": "https://api.xively.com/v2/feeds/121686.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/31/2013 18:34:20",
+    "created": "03/29/2013 22:39:55",
+    "creator": "https://xively.com/users/ianbrickcosm",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "latitudeId",
+        "current_value": "-26.2288",
+        "at": "03/31/2013 18:34:20",
+        "max_value": "-26.228795",
+        "min_value": "-26.2288",
+        "tags": null,
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "latitudeID",
+        "current_value": null,
+        "at": null,
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "latitude"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "longitudeId",
+        "current_value": "28.436301667",
+        "at": "03/31/2013 18:34:20",
+        "max_value": "28.436301667",
+        "min_value": "28.436295",
+        "tags": null,
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "longitudeID",
+        "current_value": null,
+        "at": null,
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "longitude"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "timeId",
+        "current_value": "03/31/2013 18:32:48",
+        "at": "03/31/2013 18:34:20",
+        "max_value": "2013.0",
+        "min_value": "2013.0",
+        "tags": null,
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "timeID",
+        "current_value": null,
+        "at": null,
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "time"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/121686\" >MyGPS</a>",
+    "URLMostrar": "https://xively.com/feeds/121686"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\121686.json",
+  "DocumentJSON": null
+}

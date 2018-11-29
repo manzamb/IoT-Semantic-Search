@@ -1,0 +1,152 @@
+{
+  "Conceptos": [
+    "temperature"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "15424",
+    "title": "Datalog installation chauffage PAC + fuel",
+    "Private": false,
+    "tags": [
+      "chauffage",
+      "Fuel",
+      "PAC"
+    ],
+    "description": "Datalog du circuit chauffage d'une maison individuelle ancienne (250m2 / près de Toulouse - France) . Initialement ce chauffage se faisait par une chaudière fuel. Une pompe à chaleur (Airmat CRI 150-140 1-TD) a été installée et mise en route depuis le 20/11/12. La chaudière fuel est conservée pour l'eau chaude sanitaire et en relève de la PAC. L'objectif de ces enregistrements est de comparer les performances de ces 2 moyens de chauffage et de mesurer, d'optimiser le régime de fonctionnment de la PAC et de mesurer les économies réalisées. \r\nPoints de mesure :\r\n- température extérieure\r\n- température retour eau circuit chauffage\r\n- température eau chaudière\r\n- température départ eau circuit chauffage \r\n- température intérieure\r\n- témoin bruleur (0 = bruleur ON)\r\n- temoin pompe circulation (0 = ON)\r\n\r\n\r\n",
+    "feed": "https://api.xively.com/v2/feeds/15424.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:09:14",
+    "created": "01/23/2011 13:37:02",
+    "creator": "https://xively.com/users/ddejean",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "+17.0",
+        "at": "03/21/2014 14:09:14",
+        "max_value": "26.9",
+        "min_value": "-2.7",
+        "tags": [
+          "Temp extérieure"
+        ],
+        "unit": {
+          "symbol": "Text °C",
+          "label": "degC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "+17.6",
+        "at": "03/21/2014 14:09:14",
+        "max_value": "48.9",
+        "min_value": "0.0",
+        "tags": [
+          "Temp retour eau"
+        ],
+        "unit": {
+          "symbol": "Tret °C",
+          "label": "degC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "+26.3",
+        "at": "03/21/2014 14:09:14",
+        "max_value": "255.9",
+        "min_value": "-99.1",
+        "tags": [
+          "Temp eau PAC"
+        ],
+        "unit": {
+          "symbol": "Tpac °C",
+          "label": "degC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "+19.1",
+        "at": "03/21/2014 14:09:14",
+        "max_value": "255.9",
+        "min_value": "-32.0",
+        "tags": [
+          "Temp départ eau"
+        ],
+        "unit": {
+          "symbol": "Tdep °C",
+          "label": "degC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "+18.2",
+        "at": "03/21/2014 14:09:14",
+        "max_value": "26.3",
+        "min_value": "0.0",
+        "tags": [
+          "Temp intérieure"
+        ],
+        "unit": {
+          "symbol": "Tint °C",
+          "label": "degC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "1",
+        "at": "03/21/2014 14:09:14",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "Témoin bruleur chaudiere fuel"
+        ],
+        "unit": {
+          "symbol": "Fuel 0=ON",
+          "label": "logique",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "1",
+        "at": "03/21/2014 14:09:14",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "Témoin circulateur"
+        ],
+        "unit": {
+          "symbol": "Circ 0=ON",
+          "label": "logique",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Labastide St Sernin / France",
+      "domain": 0,
+      "lat": "43.7377397447867",
+      "lon": "1.47542953491211",
+      "ele": "150",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/15424\" >Datalog installation chauffage PAC + fuel</a>",
+    "URLMostrar": "https://xively.com/feeds/15424"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\15424.json",
+  "DocumentJSON": null
+}

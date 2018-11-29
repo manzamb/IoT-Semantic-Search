@@ -1,0 +1,73 @@
+{
+  "Conceptos": [
+    "description"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "40359",
+    "title": "Temperature & Light Sensor",
+    "Private": false,
+    "tags": [
+      "Arduino",
+      "Photo Resistors",
+      "temperature",
+      "TMP36"
+    ],
+    "description": "Enter a description of the Feed",
+    "feed": "https://api.xively.com/v2/feeds/40359.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "09/05/2012 22:10:57",
+    "created": "11/24/2011 11:32:45",
+    "creator": "https://xively.com/users/nick1020",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "22.75",
+        "at": "09/05/2012 22:10:57",
+        "max_value": "58.0",
+        "min_value": "-19.73",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "596.0",
+        "at": "09/05/2012 22:10:57",
+        "max_value": "865.0",
+        "min_value": "-106.0",
+        "tags": [
+          "light"
+        ],
+        "unit": {
+          "symbol": "Lv",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "University of York, UK",
+      "domain": 0,
+      "lat": "53.9194988470327",
+      "lon": "-1.08685791492462",
+      "ele": "Metres",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/40359\" >Temperature & Light Sensor</a>",
+    "URLMostrar": "https://xively.com/feeds/40359"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\40359.json",
+  "DocumentJSON": null
+}

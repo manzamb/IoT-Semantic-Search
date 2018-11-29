@@ -1,0 +1,94 @@
+{
+  "Conceptos": [
+    "thermistor"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "102948",
+    "title": "Temperatures",
+    "Private": false,
+    "tags": [
+      "Raspberry Pi",
+      "Temperature",
+      "XRF"
+    ],
+    "description": "XRF wireless RF radio with thermistor on Raspberry Pi",
+    "feed": "https://api.xively.com/v2/feeds/102948.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "07/30/2013 07:19:03",
+    "created": "02/06/2013 13:59:24",
+    "creator": "https://xively.com/users/si77",
+    "version": null,
+    "website": "http://swelldesigns.co.uk",
+    "datastreams": [
+      {
+        "id": "Bathroom",
+        "current_value": "19.41",
+        "at": "07/30/2013 06:39:25",
+        "max_value": "24.42",
+        "min_value": "9.756",
+        "tags": [
+          "Raspberry Pi",
+          "Temperature",
+          "XRF"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "LivingRoom",
+        "current_value": "19.18",
+        "at": "07/30/2013 07:19:03",
+        "max_value": "23.41",
+        "min_value": "10.42",
+        "tags": [
+          "Raspberry Pi",
+          "Temperature",
+          "XRF"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Outside",
+        "current_value": "16.68",
+        "at": "07/29/2013 17:51:54",
+        "max_value": "24.51",
+        "min_value": "1.027",
+        "tags": [
+          "Raspberry Pi",
+          "Temperature",
+          "XRF"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Stirling, UK",
+      "domain": 0,
+      "lat": "56.0213051609417",
+      "lon": "-3.90327930450439",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/102948\" >Temperatures</a>",
+    "URLMostrar": "https://xively.com/feeds/102948"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\102948.json",
+  "DocumentJSON": null
+}

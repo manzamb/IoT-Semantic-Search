@@ -1,0 +1,138 @@
+{
+  "Conceptos": [
+    "carbon monoxide"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "75842",
+    "title": "AQE v1.4 - unit 16",
+    "Private": false,
+    "tags": [
+      "air quality egg",
+      "munster egg"
+    ],
+    "description": "Air Quality Egg",
+    "feed": "https://api.xively.com/v2/feeds/75842.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "04/14/2013 17:41:22",
+    "created": "09/15/2012 09:11:50",
+    "creator": "https://xively.com/users/sensemakers",
+    "version": null,
+    "website": "http://airqualityegg.com",
+    "datastreams": [
+      {
+        "id": "button",
+        "current_value": "0",
+        "at": "04/14/2013 17:41:21",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "user interface"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "presses",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "CO",
+        "current_value": "85037.00",
+        "at": "04/14/2013 17:41:21",
+        "max_value": "553714.0",
+        "min_value": "29251.0",
+        "tags": [
+          "carbon monoxide",
+          "CO"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "ppm",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "humidity",
+        "current_value": "40.00",
+        "at": "04/14/2013 17:41:21",
+        "max_value": "69.2",
+        "min_value": "20.4",
+        "tags": [
+          "relative humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "rH",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "NO2",
+        "current_value": "23400.00",
+        "at": "04/14/2013 17:41:21",
+        "max_value": "1124200.0",
+        "min_value": "0.0",
+        "tags": [
+          "nitrogen dioxide",
+          "NO2"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "ppm",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "O3",
+        "current_value": "0.00",
+        "at": "04/14/2013 17:41:21",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "O3",
+          "ozone"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "ppm",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temperature",
+        "current_value": "26.10",
+        "at": "04/14/2013 17:41:21",
+        "max_value": "26.6",
+        "min_value": "13.9",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "º",
+          "label": "celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "51.9469631271077",
+      "lon": "7.591552734375",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/75842\" >AQE v1.4 - unit 16</a>",
+    "URLMostrar": "https://xively.com/feeds/75842"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\75842.json",
+  "DocumentJSON": null
+}

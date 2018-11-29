@@ -1,0 +1,87 @@
+{
+  "Conceptos": [
+    "humedad"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "10799",
+    "title": "Temperatura::A Louzana",
+    "Private": false,
+    "tags": [
+      "humidity",
+      "temperature"
+    ],
+    "description": "Temperatura, humedad relativa y tensión de batería.\r\nSensor temperatura: Sensirion SHT75\r\nSensor humedad: Sensirion SHT75",
+    "feed": "https://api.xively.com/v2/feeds/10799.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/19/2013 15:47:13",
+    "created": "10/13/2010 12:00:44",
+    "creator": "https://xively.com/users/javier",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "25.8",
+        "at": "11/09/2012 15:31:47",
+        "max_value": "25.8",
+        "min_value": "25.8",
+        "tags": [
+          "temperatura"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "57.0",
+        "at": "11/09/2012 15:31:47",
+        "max_value": "57.0",
+        "min_value": "57.0",
+        "tags": [
+          "humedad relativa"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "0",
+        "at": "11/09/2012 15:31:47",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "voltaje batería"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": "V",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Santa Cristina de Leirado",
+      "domain": 0,
+      "lat": "42.1410845703207",
+      "lon": "-8.44600796699524",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/10799\" >Temperatura::A Louzana</a>",
+    "URLMostrar": "https://xively.com/feeds/10799"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\10799.json",
+  "DocumentJSON": null
+}

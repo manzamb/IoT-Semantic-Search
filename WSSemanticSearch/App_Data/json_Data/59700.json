@@ -1,0 +1,134 @@
+{
+  "Conceptos": [
+    "co2"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "59700",
+    "title": "DEKIST OFFICE",
+    "Private": false,
+    "tags": [
+      "SOHO"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/59700.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:06:18",
+    "created": "05/15/2012 03:19:57",
+    "creator": "https://xively.com/users/dekist",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "CO2",
+        "current_value": "373.49",
+        "at": "03/21/2014 14:06:18",
+        "max_value": "4980.44",
+        "min_value": "224.25",
+        "tags": [
+          "CO2"
+        ],
+        "unit": {
+          "symbol": "ppm",
+          "label": "ppm",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "office-humidity",
+        "current_value": "33.92",
+        "at": "03/21/2014 14:06:18",
+        "max_value": "80.68",
+        "min_value": "19.57",
+        "tags": [
+          "사무실 습도"
+        ],
+        "unit": {
+          "symbol": "%RH",
+          "label": "%RH",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "office-temp",
+        "current_value": "20.09",
+        "at": "03/21/2014 14:06:18",
+        "max_value": "36.26",
+        "min_value": "9.8",
+        "tags": [
+          "사무실 온도"
+        ],
+        "unit": {
+          "symbol": "'C",
+          "label": "'C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "outside-humid",
+        "current_value": "34.13",
+        "at": "03/21/2014 14:06:18",
+        "max_value": "104.99",
+        "min_value": "16.19",
+        "tags": [
+          "외부습도"
+        ],
+        "unit": {
+          "symbol": "%RH",
+          "label": "%RH",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "outside-temp",
+        "current_value": "19.40",
+        "at": "03/21/2014 14:06:18",
+        "max_value": "50.7",
+        "min_value": "-7.16",
+        "tags": [
+          "외부 온도"
+        ],
+        "unit": {
+          "symbol": "'C",
+          "label": "'C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "ROOM_POWER",
+        "current_value": "282.90",
+        "at": "03/21/2014 14:06:18",
+        "max_value": "4140.17",
+        "min_value": "-2801.05",
+        "tags": [
+          "전력(POWER)"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "W",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "dekist",
+      "domain": 0,
+      "lat": "37.2347019716682",
+      "lon": "127.139282226562",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/59700\" >DEKIST OFFICE</a>",
+    "URLMostrar": "https://xively.com/feeds/59700"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\59700.json",
+  "DocumentJSON": null
+}

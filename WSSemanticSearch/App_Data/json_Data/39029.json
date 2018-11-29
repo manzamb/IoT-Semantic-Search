@@ -1,0 +1,178 @@
+{
+  "Conceptos": [
+    "environment"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "39029",
+    "title": "Home Environmentals",
+    "Private": false,
+    "tags": [
+      "home",
+      "issaquah",
+      "WA"
+    ],
+    "description": "Environmental factors collected by various means from around my house. Currently, a Zigbee thermostat is collecting the internal temperature data on the second floor. Soon hopefully I will have the 1-wire weather station collecting the outside temperature, wind speed and wind direction. ",
+    "feed": "https://api.xively.com/v2/feeds/39029.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "12/26/2013 03:39:44",
+    "created": "11/08/2011 21:26:09",
+    "creator": "https://xively.com/users/hickey",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "heating_active",
+        "current_value": "0",
+        "at": "12/26/2013 02:56:11",
+        "max_value": "30.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "internal_temp_attic",
+        "current_value": null,
+        "at": null,
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "Degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "internal_temp_garage",
+        "current_value": null,
+        "at": null,
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "Degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "internal_temp_l1",
+        "current_value": null,
+        "at": null,
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "Degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "internal_temp_l2",
+        "current_value": "54",
+        "at": "12/26/2013 03:39:44",
+        "max_value": "65.0",
+        "min_value": "49.0",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "Degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "outside_temp",
+        "current_value": null,
+        "at": null,
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "Degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "water_heater_temp",
+        "current_value": null,
+        "at": null,
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "Degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "wind_direction",
+        "current_value": null,
+        "at": null,
+        "max_value": null,
+        "min_value": null,
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "Degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "wind_speed",
+        "current_value": null,
+        "at": null,
+        "max_value": null,
+        "min_value": null,
+        "tags": null,
+        "unit": {
+          "symbol": "MPH",
+          "label": "MPH",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Gerard's House, Issaquah, WA",
+      "domain": 0,
+      "lat": "47.531685",
+      "lon": "-122.049652",
+      "ele": "300",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/39029\" >Home Environmentals</a>",
+    "URLMostrar": "https://xively.com/feeds/39029"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\39029.json",
+  "DocumentJSON": null
+}

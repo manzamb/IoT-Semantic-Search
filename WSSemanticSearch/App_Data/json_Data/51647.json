@@ -1,0 +1,53 @@
+{
+  "Conceptos": [
+    "person"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "51647",
+    "title": "Zippy",
+    "Private": false,
+    "tags": [
+      "presence detector",
+      "Ultrasound"
+    ],
+    "description": "This stream measures the distance between the computer monitor and the person (or chair) that is in front of it.",
+    "feed": "https://api.xively.com/v2/feeds/51647.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/18/2012 18:00:57",
+    "created": "03/11/2012 20:33:23",
+    "creator": "https://xively.com/users/flg8r96",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "sensor1",
+        "current_value": "21",
+        "at": "03/18/2012 18:00:57",
+        "max_value": "146.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "Inches",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "San Diego",
+      "domain": 0,
+      "lat": "32.7413787954475",
+      "lon": "-117.118231902437",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/51647\" >Zippy</a>",
+    "URLMostrar": "https://xively.com/feeds/51647"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\51647.json",
+  "DocumentJSON": null
+}

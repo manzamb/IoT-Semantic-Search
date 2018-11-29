@@ -1,0 +1,62 @@
+{
+  "Conceptos": [
+    "mp10"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "94545",
+    "title": "RPi TMP102",
+    "Private": false,
+    "tags": [
+      "i2c",
+      "Linux",
+      "Raspberry Pi",
+      "RPi",
+      "Temperature",
+      "TMP102"
+    ],
+    "description": "Indoor temperature using Raspberry Pi (V2) and TMP102 i2c module. Be sure to use Bus 1 on newer RPi units (i2cdetect -y 1)",
+    "feed": "https://api.xively.com/v2/feeds/94545.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "01/07/2013 00:30:02",
+    "created": "12/23/2012 23:36:29",
+    "creator": "https://xively.com/users/chorlton2080",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Temperature",
+        "current_value": "17.25 ",
+        "at": "01/07/2013 00:30:01",
+        "max_value": "24.0",
+        "min_value": "16.38",
+        "tags": [
+          "Raspberry Pi",
+          "RPi",
+          "Temperature",
+          "TMP102"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "53.4779124264378",
+      "lon": "-2.2686767578125",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/94545\" >RPi TMP102</a>",
+    "URLMostrar": "https://xively.com/feeds/94545"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\94545.json",
+  "DocumentJSON": null
+}

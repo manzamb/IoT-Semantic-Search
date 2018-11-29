@@ -1,0 +1,68 @@
+{
+  "Conceptos": [
+    "sensor output"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "97108",
+    "title": "Radiation detector",
+    "Private": false,
+    "tags": [
+      "cosmic rays",
+      "radiation",
+      "sensor:type=radiation"
+    ],
+    "description": "RM-60 Geiger counter readings. (Previously: Experimental data-logging of Aware C-box output by Geiger Bot iPad app. Two Geigers are stacked vertically to pick up downward propagating muons.)",
+    "feed": "https://api.xively.com/v2/feeds/97108.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/19/2014 15:25:01",
+    "created": "01/11/2013 01:54:23",
+    "creator": "https://xively.com/users/gmusser",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "1",
+        "current_value": "17",
+        "at": "03/19/2014 15:25:01",
+        "max_value": "3857.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "RawCPM",
+          "label": "raw counts per minute before offset",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "0.16",
+        "at": "03/19/2014 15:25:01",
+        "max_value": "0.31",
+        "min_value": "0.01",
+        "tags": null,
+        "unit": {
+          "symbol": "µSv/h",
+          "label": "microsieverts per hour",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Glen Ridge, NJ",
+      "domain": 0,
+      "lat": "40.8059120742623",
+      "lon": "-74.2069950699806",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/97108\" >Radiation detector</a>",
+    "URLMostrar": "https://xively.com/feeds/97108"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\97108.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,72 @@
+{
+  "Conceptos": [
+    "time interval"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "36965",
+    "title": "SBM-20 Geiger Tube TEST",
+    "Private": false,
+    "tags": [
+      "mbed"
+    ],
+    "description": "mbed + OrangeBoard + SBM-20\r\nInterval time 10 minutes",
+    "feed": "https://api.xively.com/v2/feeds/36965.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:10:49",
+    "created": "10/06/2011 09:36:31",
+    "creator": "https://xively.com/users/hidebozu",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "14.500000",
+        "at": "03/21/2014 14:10:48",
+        "max_value": "1000.0",
+        "min_value": "0.0",
+        "tags": [
+          "sensor:model=SBM-20",
+          "sensor:type=radiation"
+        ],
+        "unit": {
+          "symbol": "cpm",
+          "label": "counts/minute",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "0.080375",
+        "at": "03/21/2014 14:10:49",
+        "max_value": "71.318428",
+        "min_value": "0.0",
+        "tags": [
+          "sensor:model=SBM-20",
+          "sensor:type=radiation"
+        ],
+        "unit": {
+          "symbol": "μSv/h",
+          "label": "microSieverts/Hour",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "yokohama",
+      "domain": 0,
+      "lat": "35.3271705809212",
+      "lon": "139.635715484619",
+      "ele": "20",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/36965\" >SBM-20 Geiger Tube TEST</a>",
+    "URLMostrar": "https://xively.com/feeds/36965"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\36965.json",
+  "DocumentJSON": null
+}

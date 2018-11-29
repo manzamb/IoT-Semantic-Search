@@ -1,0 +1,85 @@
+{
+  "Conceptos": [
+    "pst"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "90532",
+    "title": "Upstairs",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "wifi shield"
+    ],
+    "description": "Running on an Arduino UNO R3 with an Arduino WiFi Shield\n\nSensor is:  \n-DHT22 (http://adafruit.com/products/385) for temperature and humidity \n\nUpdated every 3 minutes\n\nJune 28, 2013:\nUpdated code to use Xively's library and to feed RSSI",
+    "feed": "https://api.xively.com/v2/feeds/90532.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "06/29/2013 02:17:52",
+    "created": "12/07/2012 02:31:13",
+    "creator": "https://xively.com/users/ytouchette",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "rH",
+        "current_value": "57.50",
+        "at": "06/29/2013 02:17:48",
+        "max_value": "76.0",
+        "min_value": "32.6",
+        "tags": [
+          "Humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "rH",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "RSSI",
+        "current_value": "-60",
+        "at": "06/29/2013 02:17:48",
+        "max_value": "0.0",
+        "min_value": "-65.0",
+        "tags": null,
+        "unit": {
+          "symbol": "dbm",
+          "label": "dbm",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temp",
+        "current_value": "24.70",
+        "at": "06/29/2013 02:17:48",
+        "max_value": "24.7",
+        "min_value": "9.8",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "45.5545506994076",
+      "lon": "-73.5710835456848",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/90532\" >Upstairs</a>",
+    "URLMostrar": "https://xively.com/feeds/90532"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\90532.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,128 @@
+{
+  "Conceptos": [
+    "wind"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "67925",
+    "title": "Weather Station, Morumbi Sao Paulo/SP",
+    "Private": false,
+    "tags": [
+      "brasil",
+      "brazil",
+      "humidity",
+      "morumbi",
+      "pressure",
+      "station",
+      "temperature",
+      "weather",
+      "wind"
+    ],
+    "description": "A Weather Station on Morumbi, Sao Paulo/SP",
+    "feed": "https://api.xively.com/v2/feeds/67925.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:07:02",
+    "created": "07/17/2012 00:31:34",
+    "creator": "https://xively.com/users/trunet",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "battery_voltage",
+        "current_value": "4.12",
+        "at": "03/21/2014 14:07:02",
+        "max_value": "4.16",
+        "min_value": "2.56",
+        "tags": [
+          "battery",
+          "voltage"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": "v",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "humidity",
+        "current_value": "52.20",
+        "at": "03/21/2014 14:07:02",
+        "max_value": "99.9",
+        "min_value": "-99.5",
+        "tags": [
+          "humidity"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "pressure",
+        "current_value": "1016.60",
+        "at": "03/21/2014 14:07:02",
+        "max_value": "1030.27",
+        "min_value": "774.99",
+        "tags": [
+          "pressure"
+        ],
+        "unit": {
+          "symbol": "hPa",
+          "label": "hPa",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "solar_voltage",
+        "current_value": "6.55",
+        "at": "03/21/2014 14:07:02",
+        "max_value": "6.55",
+        "min_value": "0.0",
+        "tags": [
+          "solar",
+          "voltage"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": "v",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temperature",
+        "current_value": "30.30",
+        "at": "03/21/2014 14:07:02",
+        "max_value": "50.7",
+        "min_value": "-99.5",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Morumbi, São Paulo/SP, Brazil",
+      "domain": 0,
+      "lat": "-23.6365533142975",
+      "lon": "-46.7382216453552",
+      "ele": "781 meters",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/67925\" >Weather Station, Morumbi Sao Paulo/SP</a>",
+    "URLMostrar": "https://xively.com/feeds/67925"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\67925.json",
+  "DocumentJSON": null
+}

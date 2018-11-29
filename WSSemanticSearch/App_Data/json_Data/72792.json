@@ -1,0 +1,230 @@
+{
+  "Conceptos": [
+    "temperatura"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "72792",
+    "title": "Temperaturas Estanque ",
+    "Private": false,
+    "tags": [
+      "temperature"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/72792.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:14:58",
+    "created": "08/27/2012 15:21:59",
+    "creator": "https://xively.com/users/spir",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Diferencial_compresor",
+        "current_value": "-0.1",
+        "at": "03/21/2014 14:14:13",
+        "max_value": "65.1",
+        "min_value": "-71.3",
+        "tags": [
+          "Temp"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "ºC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Diferencial_panel",
+        "current_value": "1.6",
+        "at": "03/21/2014 14:14:13",
+        "max_value": "64.6",
+        "min_value": "-65.4",
+        "tags": [
+          "Temp"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "ºC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Diferencial_radiacion_solar",
+        "current_value": "17.9",
+        "at": "03/21/2014 14:14:13",
+        "max_value": "41.8",
+        "min_value": "-70.9",
+        "tags": [
+          "Temp"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "ºC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Diferencial_temp_bomba",
+        "current_value": "-3.9",
+        "at": "03/21/2014 14:14:28",
+        "max_value": "9223372036854780000.0",
+        "min_value": "-45.7",
+        "tags": [
+          "Temp"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "ºC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temp_bomba",
+        "current_value": "16.9",
+        "at": "03/21/2014 14:14:38",
+        "max_value": "40.9",
+        "min_value": "-43.0",
+        "tags": [
+          "temp"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "ºC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temp_compresor_aire",
+        "current_value": "20.8",
+        "at": "03/21/2014 14:14:57",
+        "max_value": "56.4",
+        "min_value": "-43.0",
+        "tags": [
+          "Temp"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "ºC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temp_entrada_panel",
+        "current_value": "16.6",
+        "at": "03/21/2014 14:14:38",
+        "max_value": "41.7",
+        "min_value": "-43.0",
+        "tags": [
+          "temp"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "ºC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temp_exterior",
+        "current_value": "18.3",
+        "at": "03/21/2014 14:14:57",
+        "max_value": "39.6",
+        "min_value": "-43.0",
+        "tags": [
+          "Temp"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "ºC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temp_radiacion_solar",
+        "current_value": "35.6",
+        "at": "03/21/2014 14:14:57",
+        "max_value": "63.3",
+        "min_value": "-43.0",
+        "tags": [
+          "Temp"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "ºC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temp_sala",
+        "current_value": "20.8",
+        "at": "03/21/2014 14:14:38",
+        "max_value": "9223372036854780000.0",
+        "min_value": "-63.5",
+        "tags": [
+          "Temp"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "ºC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temp_salida_panel",
+        "current_value": "18.1",
+        "at": "03/21/2014 14:14:38",
+        "max_value": "40.4",
+        "min_value": "-43.0",
+        "tags": [
+          "Temp"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "ºC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temp_suelo_sala",
+        "current_value": "10.9",
+        "at": "03/21/2014 14:14:57",
+        "max_value": "46.2",
+        "min_value": "-43.0",
+        "tags": [
+          "Temp"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "ºC",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "estanque",
+      "domain": 0,
+      "lat": "40.8678662948583",
+      "lon": "-4.38071250915527",
+      "ele": "980",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/72792\" >Temperaturas Estanque </a>",
+    "URLMostrar": "https://xively.com/feeds/72792"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\72792.json",
+  "DocumentJSON": null
+}

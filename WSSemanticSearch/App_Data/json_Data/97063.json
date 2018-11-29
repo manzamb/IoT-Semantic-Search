@@ -1,0 +1,109 @@
+{
+  "Conceptos": [
+    "moisture"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "97063",
+    "title": "Escape Artist's Growerbot",
+    "Private": false,
+    "tags": [
+      "gardening",
+      "growerbot",
+      "plants",
+      "window farming"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/97063.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "07/28/2013 04:58:51",
+    "created": "01/10/2013 20:57:28",
+    "creator": "https://xively.com/users/escapedartist",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "humidity",
+        "current_value": "NAN",
+        "at": "07/28/2013 04:58:51",
+        "max_value": "99.9",
+        "min_value": "0.0",
+        "tags": [
+          "growerbot",
+          "humidity"
+        ],
+        "unit": {
+          "symbol": "%rh",
+          "label": "Relative Humidity Percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "light",
+        "current_value": "58310",
+        "at": "07/28/2013 04:58:51",
+        "max_value": "58310.0",
+        "min_value": "0.0",
+        "tags": [
+          "growerbot",
+          "light"
+        ],
+        "unit": {
+          "symbol": "lx",
+          "label": "lux",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "moisture",
+        "current_value": "103",
+        "at": "07/28/2013 04:58:51",
+        "max_value": "1022.0",
+        "min_value": "0.0",
+        "tags": [
+          "growerbot",
+          "moisture"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temperature",
+        "current_value": "0.00",
+        "at": "07/28/2013 04:58:51",
+        "max_value": "124.5",
+        "min_value": "-55.0",
+        "tags": [
+          "growerbot",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "ºc",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Toronto, ON",
+      "domain": 0,
+      "lat": "43.6490920529878",
+      "lon": "-79.454391002655",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/97063\" >Escape Artist's Growerbot</a>",
+    "URLMostrar": "https://xively.com/feeds/97063"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\97063.json",
+  "DocumentJSON": null
+}

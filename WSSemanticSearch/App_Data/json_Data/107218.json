@@ -1,0 +1,89 @@
+{
+  "Conceptos": [
+    "parameter"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "107218",
+    "title": "UML Brixham - Solar Irradiation, Temp & Rainfall",
+    "Private": false,
+    "tags": [
+      "Rain",
+      "Solar Irradiation Monitor",
+      "Temp",
+      "Vantage Pro II"
+    ],
+    "description": "Just three parameters from the Vantage Pro Weather Station via the Weather Display Software",
+    "feed": "https://api.xively.com/v2/feeds/107218.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/14/2014 19:18:10",
+    "created": "02/27/2013 12:17:36",
+    "creator": "https://xively.com/users/daveh",
+    "version": null,
+    "website": "http://www.uptonmanor.eclipse.co.uk",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "0",
+        "at": "03/14/2014 19:18:10",
+        "max_value": "1267.0",
+        "min_value": "0.0",
+        "tags": [
+          "Solar Irradiation"
+        ],
+        "unit": {
+          "symbol": "w/m2",
+          "label": "Solar",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "7.6",
+        "at": "03/14/2014 19:18:10",
+        "max_value": "29.3",
+        "min_value": "0.4",
+        "tags": [
+          "Air Temperature"
+        ],
+        "unit": {
+          "symbol": "deg C",
+          "label": "Temp",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "0.0",
+        "at": "03/14/2014 19:18:10",
+        "max_value": "17.8",
+        "min_value": "0.0",
+        "tags": [
+          "Rainfall"
+        ],
+        "unit": {
+          "symbol": "mm/min",
+          "label": "Rain",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Brixham, Devon, UK",
+      "domain": 0,
+      "lat": "50.383831",
+      "lon": "-3.51988434791565",
+      "ele": "70",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/107218\" >UML Brixham - Solar Irradiation, Temp & Rainfall</a>",
+    "URLMostrar": "https://xively.com/feeds/107218"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\107218.json",
+  "DocumentJSON": null
+}

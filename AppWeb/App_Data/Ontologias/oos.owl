@@ -1,0 +1,938 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY kos "http://localhost/kos#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY ssn "http://purl.oclc.org/NET/ssnx/ssn#" >
+    <!ENTITY daml "http://www.daml.org/2001/03/daml+oil#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY DUL "http://www.loa-cnr.it/ontologies/DUL.owl#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY oos "http://semanticsearchiot.net/sswot/Ontologies/oos.owl#" >
+    <!ENTITY restfulgrounding "http://www.knoesis.org/research/srl/standards/sa-rest#" >
+    <!ENTITY Service "http://www.ai.sri.com/daml/services/owl-s/1.2/Service.owl#" >
+    <!ENTITY Grounding "http://www.ai.sri.com/daml/services/owl-s/1.2/Grounding.owl#" >
+]>
+
+
+<rdf:RDF xmlns="http://localhost/default#"
+     xml:base="http://localhost/default"
+     xmlns:Service="http://www.ai.sri.com/daml/services/owl-s/1.2/Service.owl#"
+     xmlns:DUL="http://www.loa-cnr.it/ontologies/DUL.owl#"
+     xmlns:ssn="http://purl.oclc.org/NET/ssnx/ssn#"
+     xmlns:restfulgrounding="http://www.knoesis.org/research/srl/standards/sa-rest#"
+     xmlns:daml="http://www.daml.org/2001/03/daml+oil#"
+     xmlns:kos="http://localhost/kos#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:Grounding="http://www.ai.sri.com/daml/services/owl-s/1.2/Grounding.owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:oos="http://semanticsearchiot.net/sswot/Ontologies/oos.owl#">
+    <owl:Ontology rdf:about="http://semanticsearchiot.net/sswot/Ontologies/oos.owl">
+        <oos:contributor rdf:datatype="&xsd;string"></oos:contributor>
+        <oos:priorVersion rdf:datatype="&xsd;string"></oos:priorVersion>
+        <oos:license rdf:datatype="&xsd;string">
+Copyright (c) 2013-2015 Miguel Angel Niño Zambrano
+
+Licensed under the Apache License, Version 2.0 (the &quot;License&quot;);
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an &quot;AS IS&quot; BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License         </oos:license>
+        <oos:modiffied rdf:datatype="&xsd;string">1.0.0</oos:modiffied>
+        <oos:modiffied rdf:datatype="&xsd;string">2015-09-25</oos:modiffied>
+        <oos:creator rdf:datatype="&xsd;string">Miguel Angel Niño Zambrano (manzamb@unicauca.edu.co, manzamb@hotmail.com)</oos:creator>
+        <oos:descrption rdf:datatype="&xsd;string">Semantic Interaction in WoT</oos:descrption>
+        <oos:title rdf:datatype="&xsd;string">Semantic Object Ontology</oos:title>
+        <oos:descrption rdf:datatype="&xsd;string">The ontology semantic object (OOS) defines the essential features for semantic interaction of objects in the WoT based on Semantic Web technologies. The OOS is able to deal with semantic interoperability problems that can describe:
+
+• What characteristics does an object?
+• What are the services provided by the object?
+• In which contexts can be used in order?
+• What has relationships with other objects of the WoT?
+• What are your operating restrictions?
+• What are their states and how they generate an interaction with other objects?
+So, you can have the information necessary to generate processes of interaction that link various sensors.</oos:descrption>
+        <oos:preferredNamespaceUri rdf:datatype="&xsd;string">http://SemanticSearciot.net/Ontologies/oos.owl</oos:preferredNamespaceUri>
+        <oos:preferredNamespacePrefix rdf:datatype="&xsd;string">oos</oos:preferredNamespacePrefix>
+        <owl:versionIRI rdf:resource="http://semanticsearchiot.net/sswot/Ontologies/oos.owl/1.0.0"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://semanticsearchiot.net/sswot/Ontologies/oos.owl#contributor -->
+
+    <owl:AnnotationProperty rdf:about="&oos;contributor"/>
+    
+
+
+    <!-- http://semanticsearchiot.net/sswot/Ontologies/oos.owl#creator -->
+
+    <owl:AnnotationProperty rdf:about="&oos;creator"/>
+    
+
+
+    <!-- http://semanticsearchiot.net/sswot/Ontologies/oos.owl#descrption -->
+
+    <owl:AnnotationProperty rdf:about="&oos;descrption"/>
+    
+
+
+    <!-- http://semanticsearchiot.net/sswot/Ontologies/oos.owl#license -->
+
+    <owl:AnnotationProperty rdf:about="&oos;license"/>
+    
+
+
+    <!-- http://semanticsearchiot.net/sswot/Ontologies/oos.owl#modiffied -->
+
+    <owl:AnnotationProperty rdf:about="&oos;modiffied"/>
+    
+
+
+    <!-- http://semanticsearchiot.net/sswot/Ontologies/oos.owl#preferredNamespacePrefix -->
+
+    <owl:AnnotationProperty rdf:about="&oos;preferredNamespacePrefix"/>
+    
+
+
+    <!-- http://semanticsearchiot.net/sswot/Ontologies/oos.owl#preferredNamespaceUri -->
+
+    <owl:AnnotationProperty rdf:about="&oos;preferredNamespaceUri"/>
+    
+
+
+    <!-- http://semanticsearchiot.net/sswot/Ontologies/oos.owl#primaryTopic -->
+
+    <owl:AnnotationProperty rdf:about="&oos;primaryTopic"/>
+    
+
+
+    <!-- http://semanticsearchiot.net/sswot/Ontologies/oos.owl#priorVersion -->
+
+    <owl:AnnotationProperty rdf:about="&oos;priorVersion"/>
+    
+
+
+    <!-- http://semanticsearchiot.net/sswot/Ontologies/oos.owl#title -->
+
+    <owl:AnnotationProperty rdf:about="&oos;title"/>
+    
+
+
+    <!-- http://semanticsearchiot.net/sswot/Ontologies/oos.owl#versioninfo -->
+
+    <owl:AnnotationProperty rdf:about="&oos;versioninfo"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://localhost/default#CalculadosCon -->
+
+    <owl:ObjectProperty rdf:about="http://localhost/default#CalculadosCon"/>
+    
+
+
+    <!-- http://localhost/default#Definen -->
+
+    <owl:ObjectProperty rdf:about="http://localhost/default#Definen"/>
+    
+
+
+    <!-- http://localhost/default#DescribedBy -->
+
+    <owl:ObjectProperty rdf:about="http://localhost/default#DescribedBy">
+        <rdfs:range rdf:resource="http://localhost/default#ObjectType"/>
+        <rdfs:domain rdf:resource="http://localhost/default#Objeto"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://localhost/default#EnvíaDatosA -->
+
+    <owl:ObjectProperty rdf:about="http://localhost/default#EnvíaDatosA"/>
+    
+
+
+    <!-- http://localhost/default#EsEjecutadaCon -->
+
+    <owl:ObjectProperty rdf:about="http://localhost/default#EsEjecutadaCon"/>
+    
+
+
+    <!-- http://localhost/default#EsMedidaCon -->
+
+    <owl:ObjectProperty rdf:about="http://localhost/default#EsMedidaCon"/>
+    
+
+
+    <!-- http://localhost/default#EstaRelacionadaA -->
+
+    <owl:ObjectProperty rdf:about="http://localhost/default#EstaRelacionadaA"/>
+    
+
+
+    <!-- http://localhost/default#EstaRelacionadaCon -->
+
+    <owl:ObjectProperty rdf:about="http://localhost/default#EstaRelacionadaCon"/>
+    
+
+
+    <!-- http://localhost/default#EvaluadaCon -->
+
+    <owl:ObjectProperty rdf:about="http://localhost/default#EvaluadaCon"/>
+    
+
+
+    <!-- http://localhost/default#IdentificadoPor -->
+
+    <owl:ObjectProperty rdf:about="http://localhost/default#IdentificadoPor"/>
+    
+
+
+    <!-- http://localhost/default#IniciaCon -->
+
+    <owl:ObjectProperty rdf:about="http://localhost/default#IniciaCon"/>
+    
+
+
+    <!-- http://localhost/default#MedidaPor -->
+
+    <owl:ObjectProperty rdf:about="http://localhost/default#MedidaPor"/>
+    
+
+
+    <!-- http://localhost/default#Propone -->
+
+    <owl:ObjectProperty rdf:about="http://localhost/default#Propone"/>
+    
+
+
+    <!-- http://localhost/default#ProvocaUn -->
+
+    <owl:ObjectProperty rdf:about="http://localhost/default#ProvocaUn"/>
+    
+
+
+    <!-- http://localhost/default#PublicadasCon -->
+
+    <owl:ObjectProperty rdf:about="http://localhost/default#PublicadasCon"/>
+    
+
+
+    <!-- http://localhost/default#RecibeDatosDe -->
+
+    <owl:ObjectProperty rdf:about="http://localhost/default#RecibeDatosDe"/>
+    
+
+
+    <!-- http://localhost/default#Tiene -->
+
+    <owl:ObjectProperty rdf:about="http://localhost/default#Tiene"/>
+    
+
+
+    <!-- http://localhost/default#Verifica -->
+
+    <owl:ObjectProperty rdf:about="http://localhost/default#Verifica"/>
+    
+
+
+    <!-- http://localhost/default#hasIdde -->
+
+    <owl:ObjectProperty rdf:about="http://localhost/default#hasIdde">
+        <rdfs:range rdf:resource="http://localhost/default#device_serial"/>
+        <rdfs:domain rdf:resource="&ssn;Device"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://localhost/default#Accion -->
+
+    <owl:Class rdf:about="http://localhost/default#Accion">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://localhost/default#EsEjecutadaCon"/>
+                <owl:someValuesFrom rdf:resource="http://localhost/default#Enviar"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/default#Calidad -->
+
+    <owl:Class rdf:about="http://localhost/default#Calidad">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://localhost/default#Propone"/>
+                <owl:allValuesFrom rdf:resource="http://localhost/default#Objetivos"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/default#Condicion -->
+
+    <owl:Class rdf:about="http://localhost/default#Condicion">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://localhost/default#EstaRelacionadaCon"/>
+                <owl:allValuesFrom rdf:resource="http://localhost/default#Accion"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/default#Conocimientos -->
+
+    <owl:Class rdf:about="http://localhost/default#Conocimientos">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://localhost/default#Definen"/>
+                <owl:someValuesFrom rdf:resource="http://localhost/default#Estados"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/default#Contexto -->
+
+    <owl:Class rdf:about="http://localhost/default#Contexto">
+        <rdfs:subClassOf rdf:resource="http://localhost/default#Conocimientos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/default#Dinamicas -->
+
+    <owl:Class rdf:about="http://localhost/default#Dinamicas">
+        <rdfs:subClassOf rdf:resource="http://localhost/default#Interacciones"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://localhost/default#IniciaCon"/>
+                <owl:allValuesFrom rdf:resource="http://localhost/default#Evento"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/default#Enviar -->
+
+    <owl:Class rdf:about="http://localhost/default#Enviar">
+        <rdfs:subClassOf rdf:resource="http://localhost/default#Metodos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/default#EnviarEstado() -->
+
+    <owl:Class rdf:about="http://localhost/default#EnviarEstado()"/>
+    
+
+
+    <!-- http://localhost/default#Estado -->
+
+    <owl:Class rdf:about="http://localhost/default#Estado">
+        <rdfs:subClassOf rdf:resource="http://localhost/default#Propiedades"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://localhost/default#PublicadasCon"/>
+                <owl:allValuesFrom rdf:resource="http://localhost/default#EnviarEstado()"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/default#Estados -->
+
+    <owl:Class rdf:about="http://localhost/default#Estados"/>
+    
+
+
+    <!-- http://localhost/default#Estructurales -->
+
+    <owl:Class rdf:about="http://localhost/default#Estructurales">
+        <rdfs:subClassOf rdf:resource="http://localhost/default#Interacciones"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://localhost/default#EnvíaDatosA"/>
+                <owl:someValuesFrom rdf:resource="http://localhost/default#OSDestino"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://localhost/default#RecibeDatosDe"/>
+                <owl:someValuesFrom rdf:resource="http://localhost/default#OSOrigen"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/default#Evento -->
+
+    <owl:Class rdf:about="http://localhost/default#Evento">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://localhost/default#Verifica"/>
+                <owl:allValuesFrom rdf:resource="http://localhost/default#Condicion"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/default#Externos -->
+
+    <owl:Class rdf:about="http://localhost/default#Externos">
+        <rdfs:subClassOf rdf:resource="http://localhost/default#Metodos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/default#Identificador() -->
+
+    <owl:Class rdf:about="http://localhost/default#Identificador()"/>
+    
+
+
+    <!-- http://localhost/default#Indicadores -->
+
+    <owl:Class rdf:about="http://localhost/default#Indicadores">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://localhost/default#CalculadosCon"/>
+                <owl:someValuesFrom rdf:resource="http://localhost/default#variable"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://localhost/default#EvaluadaCon"/>
+                <owl:allValuesFrom rdf:resource="http://localhost/default#Metas"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/default#Interacciones -->
+
+    <owl:Class rdf:about="http://localhost/default#Interacciones"/>
+    
+
+
+    <!-- http://localhost/default#Internos -->
+
+    <owl:Class rdf:about="http://localhost/default#Internos">
+        <rdfs:subClassOf rdf:resource="http://localhost/default#Metodos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/default#Metas -->
+
+    <owl:Class rdf:about="http://localhost/default#Metas"/>
+    
+
+
+    <!-- http://localhost/default#Metodos -->
+
+    <owl:Class rdf:about="http://localhost/default#Metodos"/>
+    
+
+
+    <!-- http://localhost/default#OSDestino -->
+
+    <owl:Class rdf:about="http://localhost/default#OSDestino">
+        <rdfs:subClassOf rdf:resource="http://localhost/default#Objeto%20Semantico"/>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/default#OSOrigen -->
+
+    <owl:Class rdf:about="http://localhost/default#OSOrigen">
+        <rdfs:subClassOf rdf:resource="http://localhost/default#Objeto%20Semantico"/>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/default#ObjectType -->
+
+    <owl:Class rdf:about="http://localhost/default#ObjectType"/>
+    
+
+
+    <!-- http://localhost/default#Objetivos -->
+
+    <owl:Class rdf:about="http://localhost/default#Objetivos">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://localhost/default#MedidaPor"/>
+                <owl:allValuesFrom rdf:resource="http://localhost/default#Indicadores"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/default#Objeto -->
+
+    <owl:Class rdf:about="http://localhost/default#Objeto">
+        <rdfs:subClassOf rdf:resource="http://localhost/default#Propiedades"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://localhost/default#IdentificadoPor"/>
+                <owl:allValuesFrom rdf:resource="http://localhost/default#Identificador()"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/default#Objeto%20Semantico -->
+
+    <owl:Class rdf:about="http://localhost/default#Objeto%20Semantico"/>
+    
+
+
+    <!-- http://localhost/default#Propiedades -->
+
+    <owl:Class rdf:about="http://localhost/default#Propiedades"/>
+    
+
+
+    <!-- http://localhost/default#Rango%20Tiempo -->
+
+    <owl:Class rdf:about="http://localhost/default#Rango%20Tiempo"/>
+    
+
+
+    <!-- http://localhost/default#Recibir -->
+
+    <owl:Class rdf:about="http://localhost/default#Recibir">
+        <rdfs:subClassOf rdf:resource="http://localhost/default#Metodos"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://localhost/default#ProvocaUn"/>
+                <owl:someValuesFrom rdf:resource="http://localhost/default#Evento"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/default#Servicio -->
+
+    <owl:Class rdf:about="http://localhost/default#Servicio">
+        <rdfs:subClassOf rdf:resource="http://localhost/default#Conocimientos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/default#Symbol -->
+
+    <owl:Class rdf:about="http://localhost/default#Symbol"/>
+    
+
+
+    <!-- http://localhost/default#Tiempo%20Mayor -->
+
+    <owl:Class rdf:about="http://localhost/default#Tiempo%20Mayor"/>
+    
+
+
+    <!-- http://localhost/default#Tiempo%20Menor -->
+
+    <owl:Class rdf:about="http://localhost/default#Tiempo%20Menor"/>
+    
+
+
+    <!-- http://localhost/default#Unidades -->
+
+    <owl:Class rdf:about="http://localhost/default#Unidades"/>
+    
+
+
+    <!-- http://localhost/default#Usuario -->
+
+    <owl:Class rdf:about="http://localhost/default#Usuario">
+        <rdfs:subClassOf rdf:resource="http://localhost/default#Conocimientos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/default#Valor%20Maximo -->
+
+    <owl:Class rdf:about="http://localhost/default#Valor%20Maximo"/>
+    
+
+
+    <!-- http://localhost/default#Valor%20Minimo -->
+
+    <owl:Class rdf:about="http://localhost/default#Valor%20Minimo"/>
+    
+
+
+    <!-- http://localhost/default#Valor%20Referencia -->
+
+    <owl:Class rdf:about="http://localhost/default#Valor%20Referencia"/>
+    
+
+
+    <!-- http://localhost/default#at -->
+
+    <owl:Class rdf:about="http://localhost/default#at"/>
+    
+
+
+    <!-- http://localhost/default#created -->
+
+    <owl:Class rdf:about="http://localhost/default#created"/>
+    
+
+
+    <!-- http://localhost/default#creator -->
+
+    <owl:Class rdf:about="http://localhost/default#creator"/>
+    
+
+
+    <!-- http://localhost/default#current_value -->
+
+    <owl:Class rdf:about="http://localhost/default#current_value"/>
+    
+
+
+    <!-- http://localhost/default#datastream_id -->
+
+    <owl:Class rdf:about="http://localhost/default#datastream_id"/>
+    
+
+
+    <!-- http://localhost/default#datastreams -->
+
+    <owl:Class rdf:about="http://localhost/default#datastreams"/>
+    
+
+
+    <!-- http://localhost/default#description -->
+
+    <owl:Class rdf:about="http://localhost/default#description"/>
+    
+
+
+    <!-- http://localhost/default#device_serial -->
+
+    <owl:Class rdf:about="http://localhost/default#device_serial"/>
+    
+
+
+    <!-- http://localhost/default#domain -->
+
+    <owl:Class rdf:about="http://localhost/default#domain"/>
+    
+
+
+    <!-- http://localhost/default#ele -->
+
+    <owl:Class rdf:about="http://localhost/default#ele"/>
+    
+
+
+    <!-- http://localhost/default#email -->
+
+    <owl:Class rdf:about="http://localhost/default#email"/>
+    
+
+
+    <!-- http://localhost/default#feed -->
+
+    <owl:Class rdf:about="http://localhost/default#feed"/>
+    
+
+
+    <!-- http://localhost/default#id -->
+
+    <owl:Class rdf:about="http://localhost/default#id"/>
+    
+
+
+    <!-- http://localhost/default#label -->
+
+    <owl:Class rdf:about="http://localhost/default#label"/>
+    
+
+
+    <!-- http://localhost/default#lat -->
+
+    <owl:Class rdf:about="http://localhost/default#lat"/>
+    
+
+
+    <!-- http://localhost/default#location -->
+
+    <owl:Class rdf:about="http://localhost/default#location"/>
+    
+
+
+    <!-- http://localhost/default#lon -->
+
+    <owl:Class rdf:about="http://localhost/default#lon"/>
+    
+
+
+    <!-- http://localhost/default#max_value -->
+
+    <owl:Class rdf:about="http://localhost/default#max_value"/>
+    
+
+
+    <!-- http://localhost/default#min_value -->
+
+    <owl:Class rdf:about="http://localhost/default#min_value"/>
+    
+
+
+    <!-- http://localhost/default#name -->
+
+    <owl:Class rdf:about="http://localhost/default#name"/>
+    
+
+
+    <!-- http://localhost/default#private -->
+
+    <owl:Class rdf:about="http://localhost/default#private"/>
+    
+
+
+    <!-- http://localhost/default#status -->
+
+    <owl:Class rdf:about="http://localhost/default#status"/>
+    
+
+
+    <!-- http://localhost/default#tags -->
+
+    <owl:Class rdf:about="http://localhost/default#tags"/>
+    
+
+
+    <!-- http://localhost/default#title -->
+
+    <owl:Class rdf:about="http://localhost/default#title"/>
+    
+
+
+    <!-- http://localhost/default#updated -->
+
+    <owl:Class rdf:about="http://localhost/default#updated"/>
+    
+
+
+    <!-- http://localhost/default#variable -->
+
+    <owl:Class rdf:about="http://localhost/default#variable">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://localhost/default#Tiene"/>
+                <owl:allValuesFrom rdf:resource="http://localhost/default#Unidades"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://localhost/default#EstaRelacionadaA"/>
+                <owl:someValuesFrom rdf:resource="http://localhost/default#variable"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://localhost/default#EsMedidaCon"/>
+                <owl:allValuesFrom rdf:resource="http://localhost/default#Recibir"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/default#version -->
+
+    <owl:Class rdf:about="http://localhost/default#version"/>
+    
+
+
+    <!-- http://localhost/default#website -->
+
+    <owl:Class rdf:about="http://localhost/default#website"/>
+    
+
+
+    <!-- http://localhost/kos#Unit -->
+
+    <owl:Class rdf:about="&kos;Unit">
+        <rdfs:subClassOf rdf:resource="http://localhost/default#Unidades"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.oclc.org/NET/ssnx/ssn#Device -->
+
+    <owl:Class rdf:about="&ssn;Device"/>
+    
+
+
+    <!-- http://purl.oclc.org/NET/ssnx/ssn#Sensor -->
+
+    <owl:Class rdf:about="&ssn;Sensor"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://localhost/default#EnviarComando() -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/default#EnviarComando()">
+        <rdf:type rdf:resource="http://localhost/default#Enviar"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/default#EnviarDatos() -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/default#EnviarDatos()">
+        <rdf:type rdf:resource="http://localhost/default#Enviar"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/default#EnviarEstado() -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/default#EnviarEstado()">
+        <rdf:type rdf:resource="http://localhost/default#Enviar"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/default#EnviarInformacion() -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/default#EnviarInformacion()">
+        <rdf:type rdf:resource="http://localhost/default#Enviar"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/default#Identificador() -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/default#Identificador()">
+        <rdf:type rdf:resource="http://localhost/default#Enviar"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/default#PhysicalObject -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/default#PhysicalObject">
+        <rdf:type rdf:resource="http://localhost/default#ObjectType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/default#RecibirComando() -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/default#RecibirComando()">
+        <rdf:type rdf:resource="http://localhost/default#Recibir"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/default#RecibirDatos() -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/default#RecibirDatos()">
+        <rdf:type rdf:resource="http://localhost/default#Recibir"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/default#RecibirEstado() -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/default#RecibirEstado()">
+        <rdf:type rdf:resource="http://localhost/default#Recibir"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/default#RecibirInformación() -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/default#RecibirInformación()">
+        <rdf:type rdf:resource="http://localhost/default#Recibir"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/default#VirtualObject -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/default#VirtualObject">
+        <rdf:type rdf:resource="http://localhost/default#ObjectType"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+

@@ -1,0 +1,440 @@
+{
+  "Conceptos": [
+    "project"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "2136996888",
+    "title": "Zsozsi Home Project",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "home control",
+      "mega256"
+    ],
+    "description": "Zsozsi Home Project for home automation",
+    "feed": "https://api.xively.com/v2/feeds/2136996888.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:14:46",
+    "created": "06/02/2013 15:45:15",
+    "creator": "https://xively.com/users/zsozsi",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Sensor01",
+        "current_value": "23.20",
+        "at": "03/21/2014 14:14:45",
+        "max_value": "50.0",
+        "min_value": "-99.0",
+        "tags": [
+          "Gyerekszoba"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Sensor02",
+        "current_value": "23.37",
+        "at": "03/21/2014 14:14:45",
+        "max_value": "50.0",
+        "min_value": "-99.99",
+        "tags": [
+          "Nappali"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Sensor03",
+        "current_value": "23.56",
+        "at": "03/21/2014 14:14:45",
+        "max_value": "50.0",
+        "min_value": "0.0",
+        "tags": [
+          "Hálószoba"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Sensor04",
+        "current_value": "23.44",
+        "at": "03/21/2014 14:14:45",
+        "max_value": "50.0",
+        "min_value": "-99.0",
+        "tags": [
+          "Fürdöszoba"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Sensor05",
+        "current_value": "23.50",
+        "at": "03/21/2014 14:14:45",
+        "max_value": "50.0",
+        "min_value": "0.0",
+        "tags": [
+          "Emelet"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Sensor06",
+        "current_value": "23.37",
+        "at": "03/21/2014 14:14:45",
+        "max_value": "50.0",
+        "min_value": "0.0",
+        "tags": [
+          "Emelet"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Sensor07",
+        "current_value": "23.50",
+        "at": "03/21/2014 14:14:45",
+        "max_value": "50.0",
+        "min_value": "0.0",
+        "tags": [
+          "Tusoló"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Sensor08",
+        "current_value": "-99.00",
+        "at": "03/21/2014 14:14:45",
+        "max_value": "50.0",
+        "min_value": "-99.0",
+        "tags": [
+          "Külsö T1"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Sensor09",
+        "current_value": "-99.00",
+        "at": "03/21/2014 14:14:45",
+        "max_value": "50.0",
+        "min_value": "-99.0",
+        "tags": [
+          "Külsö T2"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Sensor10",
+        "current_value": "25.44",
+        "at": "03/21/2014 14:14:45",
+        "max_value": "50.0",
+        "min_value": "0.0",
+        "tags": [
+          "Külsö W1"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Sensor11",
+        "current_value": "25.00",
+        "at": "03/21/2014 14:14:45",
+        "max_value": "50.0",
+        "min_value": "-99.0",
+        "tags": [
+          "Külsö W2"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Sensor12",
+        "current_value": "26.37",
+        "at": "03/21/2014 14:14:45",
+        "max_value": "50.0",
+        "min_value": "-99.0",
+        "tags": [
+          "Külsö W3"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Sensor13",
+        "current_value": "26.00",
+        "at": "03/21/2014 14:14:45",
+        "max_value": "50.0",
+        "min_value": "-99.0",
+        "tags": [
+          "Külsö W4"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Sensor14",
+        "current_value": "26.19",
+        "at": "03/21/2014 14:14:45",
+        "max_value": "50.0",
+        "min_value": "-99.0",
+        "tags": [
+          "Külsö W5"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Sensor15",
+        "current_value": "24.75",
+        "at": "03/21/2014 14:14:45",
+        "max_value": "50.0",
+        "min_value": "0.0",
+        "tags": [
+          "Külsö W6"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Sensor16",
+        "current_value": "24.19",
+        "at": "03/21/2014 14:14:45",
+        "max_value": "50.0",
+        "min_value": "0.0",
+        "tags": [
+          "Külsö W7"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Sensor17",
+        "current_value": "26.75",
+        "at": "03/21/2014 14:14:45",
+        "max_value": "50.0",
+        "min_value": "0.0",
+        "tags": [
+          "Külsö W8"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Sensor18",
+        "current_value": "25.31",
+        "at": "03/21/2014 14:14:45",
+        "max_value": "50.0",
+        "min_value": "0.0",
+        "tags": [
+          "Külsö W9"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Sensor19",
+        "current_value": "25.06",
+        "at": "03/21/2014 14:14:45",
+        "max_value": "50.0",
+        "min_value": "0.0",
+        "tags": [
+          "Riasztó"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Sensor20",
+        "current_value": "23.50",
+        "at": "03/21/2014 14:14:45",
+        "max_value": "50.0",
+        "min_value": "0.0",
+        "tags": [
+          "Rendszer"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Sensor21",
+        "current_value": "23.44",
+        "at": "03/21/2014 14:14:45",
+        "max_value": "50.0",
+        "min_value": "0.0",
+        "tags": [
+          "Kazán"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Sensor22",
+        "current_value": "23.34",
+        "at": "03/21/2014 14:14:45",
+        "max_value": "50.0",
+        "min_value": "0.0",
+        "tags": [
+          "Kazán Víz"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Sensor23",
+        "current_value": "23.53",
+        "at": "03/21/2014 14:14:45",
+        "max_value": "50.0",
+        "min_value": "0.0",
+        "tags": [
+          "Kazán Fütés"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Sensor98",
+        "current_value": "2.58",
+        "at": "03/21/2014 14:14:45",
+        "max_value": "35.1",
+        "min_value": "0.0",
+        "tags": [
+          "Feltöltési idö"
+        ],
+        "unit": {
+          "symbol": "sec",
+          "label": "second",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Sensor99",
+        "current_value": "1",
+        "at": "03/21/2014 14:14:45",
+        "max_value": "5.0",
+        "min_value": "0.0",
+        "tags": [
+          "Arduino TICK"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Home",
+      "domain": 0,
+      "lat": "47.497912",
+      "lon": "19.0402349999999",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/2136996888\" >Zsozsi Home Project</a>",
+    "URLMostrar": "https://xively.com/feeds/2136996888"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\2136996888.json",
+  "DocumentJSON": null
+}

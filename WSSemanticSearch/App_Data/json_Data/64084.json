@@ -1,0 +1,58 @@
+{
+  "Conceptos": [
+    "temperature"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "64084",
+    "title": "Testeen",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "id=sensor1",
+      "Symbol=C",
+      "Tags=Temperature",
+      "Units=C"
+    ],
+    "description": "Meten van de temperatuur in mijn studeerkamer",
+    "feed": "https://api.xively.com/v2/feeds/64084.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:09:41",
+    "created": "06/18/2012 19:15:05",
+    "creator": "https://xively.com/users/rmelio",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "sensor1",
+        "current_value": "17.1",
+        "at": "03/21/2014 14:09:41",
+        "max_value": "445.2",
+        "min_value": "10.7",
+        "tags": [
+          "Temperatuur"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Ovezande",
+      "domain": 0,
+      "lat": "51.4310561798085",
+      "lon": "3.82255554199219",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/64084\" >Testeen</a>",
+    "URLMostrar": "https://xively.com/feeds/64084"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\64084.json",
+  "DocumentJSON": null
+}

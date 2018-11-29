@@ -1,0 +1,112 @@
+{
+  "Conceptos": [
+    "man"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "719446867",
+    "title": "Geiger Kit to Xively",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "DIY Geiger",
+      "Geiger counter",
+      "radiation",
+      "SBM-20"
+    ],
+    "description": "Serial output from Geiger Kit (w/SI-180G) sent to a second MCU that builds the proper protocol and interfaces to a WIZnet Ethernet board. Output of CPM, uSv and Vcc is picked up and displayed here.\n\nClick Channels for a graph. Note that time on graphs is GMT and you must manually refresh the page, unless logged into Xively.",
+    "feed": "https://api.xively.com/v2/feeds/719446867.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:13:17",
+    "created": "06/01/2013 23:48:52",
+    "creator": "https://xively.com/users/brohogan",
+    "version": null,
+    "website": "https://sites.google.com/site/diygeigercounter/networkkit",
+    "datastreams": [
+      {
+        "id": "CPM",
+        "current_value": "72",
+        "at": "03/21/2014 14:13:17",
+        "max_value": "8072.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "CPM",
+          "label": "CPM",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Dose",
+        "current_value": "0.02",
+        "at": "03/21/2014 14:13:17",
+        "max_value": "136.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "mR",
+          "label": "mR",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "MaxCPM",
+        "current_value": "84",
+        "at": "03/21/2014 14:13:17",
+        "max_value": "12846.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "CPM",
+          "label": "CPM",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "SparkCore_Count",
+        "current_value": "123",
+        "at": "02/20/2014 04:04:10",
+        "max_value": "2617.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Vcc",
+        "current_value": "5",
+        "at": "03/21/2014 14:13:17",
+        "max_value": "5600.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "V",
+          "label": "Volts",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Denver, CO",
+      "domain": 0,
+      "lat": "39.737567",
+      "lon": "-104.9847179",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/719446867\" >Geiger Kit to Xively</a>",
+    "URLMostrar": "https://xively.com/feeds/719446867"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\719446867.json",
+  "DocumentJSON": null
+}

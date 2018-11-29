@@ -1,0 +1,88 @@
+{
+  "Conceptos": [
+    "process"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "67652",
+    "title": "Golden",
+    "Private": false,
+    "tags": [
+      "1-Wire",
+      "Arduino",
+      "Processing"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/67652.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "06/18/2013 20:15:18",
+    "created": "07/14/2012 02:03:18",
+    "creator": "https://xively.com/users/ebenson",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "1",
+        "current_value": "80.71",
+        "at": "06/18/2013 20:15:18",
+        "max_value": "96.37",
+        "min_value": "67.73",
+        "tags": [
+          "Basement 1-Wire"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "°F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "1017.44",
+        "at": "06/18/2013 20:15:18",
+        "max_value": "1040.63",
+        "min_value": "996.75",
+        "tags": [
+          "Basement LM34"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "mbar",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "3.52",
+        "at": "06/18/2013 20:15:18",
+        "max_value": "75.2",
+        "min_value": "0.0",
+        "tags": [
+          "Basement Photoresistor"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "39.7461340744566",
+      "lon": "-105.213618278503",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/67652\" >Golden</a>",
+    "URLMostrar": "https://xively.com/feeds/67652"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\67652.json",
+  "DocumentJSON": null
+}

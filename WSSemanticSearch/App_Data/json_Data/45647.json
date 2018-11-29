@@ -1,0 +1,54 @@
+{
+  "Conceptos": [
+    "description"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "45647",
+    "title": "My PC",
+    "Private": false,
+    "tags": [
+      "Comma-separated descriptive keywords for this Feed"
+    ],
+    "description": "Enter a description of the Feed",
+    "feed": "https://api.xively.com/v2/feeds/45647.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "08/01/2012 11:37:35",
+    "created": "01/24/2012 15:06:34",
+    "creator": "https://xively.com/users/caivola",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "CpuLoad",
+        "current_value": "0",
+        "at": "08/01/2012 11:37:35",
+        "max_value": "48.0",
+        "min_value": "0.0",
+        "tags": [
+          "TEST"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "Perc",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Ozzano dell'emilia",
+      "domain": 1,
+      "lat": null,
+      "lon": null,
+      "ele": "Metres",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/45647\" >My PC</a>",
+    "URLMostrar": "https://xively.com/feeds/45647"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\45647.json",
+  "DocumentJSON": null
+}

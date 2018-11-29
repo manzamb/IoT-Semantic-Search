@@ -1,0 +1,72 @@
+{
+  "Conceptos": [
+    "radioactivity"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "29059",
+    "title": "SETAGAYA-KU, TOKYO,JAPAN",
+    "Private": false,
+    "tags": [
+      "SEN-10742",
+      "sensor:model=lnd-712",
+      "sensor:type=radiation"
+    ],
+    "description": "私達は有用微生物群による放射能除去実験を行っています。\r\nWe are experimenting radioactivity removed by the Effective Microorganisms.\r\nSparkFunのガイガーカウンター（SEN-10742）で測定しています。\r\nWe measured the radiation with the SparkFun Electronics Geiger Counter SEN-10742.\r\n\r\n\r\nα線は計測していません。\r\nThe Alpha radiation has been blocked.\r\n計測機器は精密に検査・調整されたものではないので、ここに表示される値は正確なものではありません。\r\nMeasuring equipment is not adjusted precisely.\r\n\r\n\r\n",
+    "feed": "https://api.xively.com/v2/feeds/29059.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "05/02/2012 00:53:38",
+    "created": "06/30/2011 12:36:55",
+    "creator": "https://xively.com/users/cinq",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "151.000",
+        "at": "07/13/2011 13:15:17",
+        "max_value": "5011.4",
+        "min_value": "-23902.0",
+        "tags": [
+          "sensor:model=lnd-712"
+        ],
+        "unit": {
+          "symbol": "cpm",
+          "label": "counts/minute",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "1.258",
+        "at": "07/13/2011 13:15:17",
+        "max_value": "41.745",
+        "min_value": "0.0",
+        "tags": [
+          "sensor:model=lnd-712"
+        ],
+        "unit": {
+          "symbol": "uSv/hr",
+          "label": "microsieverts/hour",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "FUNABASHI",
+      "domain": 0,
+      "lat": "35.6569301175132",
+      "lon": "139.623012542725",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/29059\" >SETAGAYA-KU, TOKYO,JAPAN</a>",
+    "URLMostrar": "https://xively.com/feeds/29059"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\29059.json",
+  "DocumentJSON": null
+}

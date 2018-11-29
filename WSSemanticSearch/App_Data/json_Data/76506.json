@@ -1,0 +1,164 @@
+{
+  "Conceptos": [
+    "temperatura"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "76506",
+    "title": "p-osta",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/76506.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/21/2014 09:33:24",
+    "created": "09/19/2012 16:33:06",
+    "creator": "https://xively.com/users/valts",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "cont1",
+        "current_value": "0",
+        "at": "03/21/2014 09:33:24",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "degšanas automāta kļūda"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "cont2",
+        "current_value": "0",
+        "at": "03/21/2014 09:33:24",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "drošības t ierobežotāja kļūda"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "sensor0",
+        "current_value": "18",
+        "at": "03/21/2014 09:33:24",
+        "max_value": "79.0",
+        "min_value": "-10.0",
+        "tags": [
+          "loks A (turpgaita)"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "dg C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "sensor1",
+        "current_value": "12",
+        "at": "03/21/2014 09:33:24",
+        "max_value": "78.0",
+        "min_value": "0.0",
+        "tags": [
+          "loks B (turpgaita)"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "deg C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "sensor2",
+        "current_value": "8",
+        "at": "03/21/2014 09:33:24",
+        "max_value": "72.0",
+        "min_value": "-1.0",
+        "tags": [
+          "loks C (turpgaita)"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "deg C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "sensor3",
+        "current_value": "16",
+        "at": "03/21/2014 09:33:24",
+        "max_value": "51.0",
+        "min_value": "0.0",
+        "tags": [
+          "pirts grīda (atpakaļgaita)"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "deg C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "sensor4",
+        "current_value": "12",
+        "at": "03/21/2014 09:33:24",
+        "max_value": "74.0",
+        "min_value": "-7.0",
+        "tags": [
+          "karstā ūdens sagatavošana"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "deg C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "sensor5",
+        "current_value": "8",
+        "at": "03/21/2014 09:33:24",
+        "max_value": "30.0",
+        "min_value": "-18.0",
+        "tags": [
+          "āra temperatūra"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "deg C",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "56.8906282321268",
+      "lon": "21.1861038208008",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/76506\" >p-osta</a>",
+    "URLMostrar": "https://xively.com/feeds/76506"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\76506.json",
+  "DocumentJSON": null
+}

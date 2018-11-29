@@ -1,0 +1,57 @@
+{
+  "Conceptos": [
+    "event"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "106483",
+    "title": "Events",
+    "Private": false,
+    "tags": [
+      "home automation",
+      "linux",
+      "sensor",
+      "XRF"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/106483.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "02/23/2013 21:55:48",
+    "created": "02/23/2013 18:44:50",
+    "creator": "https://xively.com/users/pat_pending",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "0.0",
+        "at": "03/29/2013 08:39:30",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "garage door"
+        ],
+        "unit": {
+          "symbol": "1/0",
+          "label": "open/closed",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/106483\" >Events</a>",
+    "URLMostrar": "https://xively.com/feeds/106483"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\106483.json",
+  "DocumentJSON": null
+}

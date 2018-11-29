@@ -1,0 +1,52 @@
+{
+  "Conceptos": [
+    "pst"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "55192",
+    "title": "T1",
+    "Private": false,
+    "tags": null,
+    "description": "Een eerste test opstelling om de arduino-pachube combinatie te testen.\r\nTest 1: Temperatuur sensor (MCP90701) gekoppeld aan een arduino.",
+    "feed": "https://api.xively.com/v2/feeds/55192.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "04/17/2012 09:34:32",
+    "created": "04/09/2012 14:50:25",
+    "creator": "https://xively.com/users/vantoegevoegdewaarde",
+    "version": null,
+    "website": "http://vantoegevoegdewaarde.nl",
+    "datastreams": [
+      {
+        "id": "sensor1",
+        "current_value": "19.5",
+        "at": "04/17/2012 09:34:32",
+        "max_value": "235.0",
+        "min_value": "15.0",
+        "tags": [
+          "Temperatuur"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Werkkamer, Old Hickoryplein, Maastricht",
+      "domain": 0,
+      "lat": "50.8552947121926",
+      "lon": "5.70864200592041",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/55192\" >T1</a>",
+    "URLMostrar": "https://xively.com/feeds/55192"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\55192.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,200 @@
+{
+  "Conceptos": [
+    "process"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "40984",
+    "title": "Amazon EC2 server monitoring",
+    "Private": false,
+    "tags": [
+      "amazon",
+      "ec2",
+      "server"
+    ],
+    "description": "This page shows the detailed monitoring results for a micro instance running in the US East zone of Amazon EC2. \r\nPachube polls a php script every 15 minutes. You can download it here:\r\nhttp://www.reseau.org/dl/pachube_stats.php.txt\r\n",
+    "feed": "https://api.xively.com/v2/feeds/40984.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/21/2014 00:13:37",
+    "created": "12/02/2011 17:07:15",
+    "creator": "https://xively.com/users/rigou",
+    "version": null,
+    "website": "http://www.predator-usb.com/",
+    "datastreams": [
+      {
+        "id": "apacc",
+        "current_value": "952275",
+        "at": "03/21/2014 00:13:37",
+        "max_value": "2761916.0",
+        "min_value": "1.0",
+        "tags": [
+          "Apache Accesses"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Acc",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "apaccpm",
+        "current_value": "10.600000",
+        "at": "03/21/2014 00:13:37",
+        "max_value": "600.0",
+        "min_value": "0.0",
+        "tags": [
+          "Apache Accesses/min"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Acc/m",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "apaproc",
+        "current_value": "10",
+        "at": "03/21/2014 00:13:37",
+        "max_value": "150.0",
+        "min_value": "5.0",
+        "tags": [
+          "Apache Processes"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Processes",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "cpu15",
+        "current_value": "0",
+        "at": "03/21/2014 00:13:37",
+        "max_value": "1057.0",
+        "min_value": "0.0",
+        "tags": [
+          "CpuLoad 15'"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "x100",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "dflinux",
+        "current_value": "2831968",
+        "at": "03/21/2014 00:13:37",
+        "max_value": "3070756.0",
+        "min_value": "2498196.0",
+        "tags": [
+          "/ disk free"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "KB",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "dfmysql",
+        "current_value": "433887",
+        "at": "03/21/2014 00:13:37",
+        "max_value": "433914.0",
+        "min_value": "433887.0",
+        "tags": [
+          "mysql disk free"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "KB",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "dfwww",
+        "current_value": "366262",
+        "at": "03/21/2014 00:13:37",
+        "max_value": "426343.0",
+        "min_value": "264725.0",
+        "tags": [
+          "www disk free"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "KB",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "netinbps",
+        "current_value": "1166",
+        "at": "03/21/2014 00:13:37",
+        "max_value": "812949.0",
+        "min_value": "0.0",
+        "tags": [
+          "Network RX"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Bytes/s",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "netoutbps",
+        "current_value": "2586",
+        "at": "03/21/2014 00:13:37",
+        "max_value": "2220098.0",
+        "min_value": "0.0",
+        "tags": [
+          "Network TX"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Bytes/s",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "rampc",
+        "current_value": "74",
+        "at": "03/21/2014 00:13:37",
+        "max_value": "98.0",
+        "min_value": "25.0",
+        "tags": [
+          "RAM %"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Amazon EC2 USA East (N. Virginia)",
+      "domain": 1,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/40984\" >Amazon EC2 server monitoring</a>",
+    "URLMostrar": "https://xively.com/feeds/40984"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\40984.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,74 @@
+{
+  "Conceptos": [
+    "action"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "39667",
+    "title": "Netherlands House",
+    "Private": false,
+    "tags": [
+      "Delft",
+      "Netherlands",
+      "relative humidity",
+      "temperature",
+      "TUDELFT"
+    ],
+    "description": "Those are the readings of my house in Delft,  Netherlands!\r\nWinter is coming and I would like to take control of the temperature as now I have to pay for the gas. \r\nMy Room is quite cold and humid so I decided to take actions and I decided to go my way,  digital 10101000111101010...\r\nFirst, data is collected from a temperature and Humidity sensor, a DHT11 using an Arduino UNO board.\r\nThe code is almost the example code provided for the sensor, as it works perfect.\r\nI picked up the  Pachube_in_out code and added some modification to include my sensor readings. \r\nThe Ethernet shield is later used to feed Pachube at intervals of 1minute or so.\r\n\r\n\r\nWhy do I do this? Because its really fun and I dont like cold!\r\n\r\n=p \r\n\r\n",
+    "feed": "https://api.xively.com/v2/feeds/39667.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "11/24/2011 22:11:38",
+    "created": "11/15/2011 23:39:51",
+    "creator": "https://xively.com/users/jguerrer",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "rel_humidity",
+        "current_value": "64",
+        "at": "11/24/2011 22:10:37",
+        "max_value": "71.0",
+        "min_value": "56.0",
+        "tags": [
+          "relh"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "relative",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temp",
+        "current_value": "19",
+        "at": "11/24/2011 22:10:37",
+        "max_value": "28.0",
+        "min_value": "15.0",
+        "tags": [
+          "temp"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Delft, Netherlands",
+      "domain": 0,
+      "lat": "52.0125704749411",
+      "lon": "4.36792373657227",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/39667\" >Netherlands House</a>",
+    "URLMostrar": "https://xively.com/feeds/39667"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\39667.json",
+  "DocumentJSON": null
+}

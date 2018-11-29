@@ -1,0 +1,82 @@
+{
+  "Conceptos": [
+    "sensing"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "62917",
+    "title": "Longmont LND-712 Radiation Monitor",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "Boulder",
+      "Colorado",
+      "geiger",
+      "geiger counter",
+      "Longmont",
+      "microsieverts",
+      "radiation",
+      "sensor: model = lnd-712",
+      "sensor:type=radiation",
+      "USA"
+    ],
+    "description": "** TEST FEED **\r\n\r\nThe LND-712 is a directional tube, only sensing on the plate at one end. Thus unless something is right in front of it, the CPM is greatly reduced.",
+    "feed": "https://api.xively.com/v2/feeds/62917.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "01/27/2013 16:14:12",
+    "created": "06/08/2012 23:30:49",
+    "creator": "https://xively.com/users/nv0n",
+    "version": null,
+    "website": "http://radmon.stan4d.net/",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "18.000",
+        "at": "01/27/2013 16:14:12",
+        "max_value": "36.0",
+        "min_value": "3.0",
+        "tags": [
+          "sensor: model = lnd-712",
+          "sensor:type=radiation"
+        ],
+        "unit": {
+          "symbol": "CPM",
+          "label": "Counts Per Minute",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "0.218",
+        "at": "01/27/2013 16:14:12",
+        "max_value": "0.435",
+        "min_value": "0.036",
+        "tags": [
+          "sensor: model = lnd-712",
+          "sensor:type=radiation"
+        ],
+        "unit": {
+          "symbol": "µSv/h",
+          "label": "\tmicrosieverts / hour",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Longmont",
+      "domain": 0,
+      "lat": "40.1938561326543",
+      "lon": "-105.066804885864",
+      "ele": "1529",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/62917\" >Longmont LND-712 Radiation Monitor</a>",
+    "URLMostrar": "https://xively.com/feeds/62917"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\62917.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,72 @@
+{
+  "Conceptos": [
+    "role"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "58817",
+    "title": "myRoom",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "controled len",
+      "temp"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/58817.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "05/30/2012 14:30:50",
+    "created": "05/10/2012 03:19:57",
+    "creator": "https://xively.com/users/leduino",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "28.000000",
+        "at": "05/30/2012 14:30:50",
+        "max_value": "229.98047",
+        "min_value": "0.0",
+        "tags": [
+          "TempOnMouse"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "28.000000",
+        "at": "05/30/2012 14:30:50",
+        "max_value": "29.0",
+        "min_value": "0.0",
+        "tags": [
+          "TempInAir"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "bit",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "22.4603331137932",
+      "lon": "113.908691480756",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/58817\" >myRoom</a>",
+    "URLMostrar": "https://xively.com/feeds/58817"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\58817.json",
+  "DocumentJSON": null
+}

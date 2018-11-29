@@ -1,0 +1,362 @@
+{
+  "Conceptos": [
+    "physical object"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "25348",
+    "title": "IPV6 Smart objects demo",
+    "Private": false,
+    "tags": [
+      "IPV6",
+      "PLC",
+      "RF",
+      "Sensor network",
+      "WPC"
+    ],
+    "description": "Pachube repository of RPL/IPV6/6Lowpan smart objects for demonstration purpose.",
+    "feed": "https://api.xively.com/v2/feeds/25348.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "05/25/2011 11:38:18",
+    "created": "05/19/2011 09:00:40",
+    "creator": "https://xively.com/users/wattecopremium",
+    "version": null,
+    "website": "http://www.watteco.com",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "0",
+        "at": "05/25/2011 11:38:18",
+        "max_value": "30.0",
+        "min_value": "0.0",
+        "tags": [
+          "Din rail 1-Power"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watt",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "0",
+        "at": "05/25/2011 11:38:18",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "Din rail 1-Switch state"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "On/Off",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "255",
+        "at": "05/25/2011 11:38:18",
+        "max_value": "255.0",
+        "min_value": "0.0",
+        "tags": [
+          "Din rail 1-Level state"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Level",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "0",
+        "at": "05/25/2011 11:38:18",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "Din rail 1-Switch request"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "On/Off",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "255",
+        "at": "05/25/2011 11:38:18",
+        "max_value": "255.0",
+        "min_value": "0.0",
+        "tags": [
+          "Din rail 1-Level request"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Level",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "0",
+        "at": "05/19/2011 15:45:35",
+        "max_value": "1500.0",
+        "min_value": "0.0",
+        "tags": [
+          "Din rail 2-Power"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watt",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "0",
+        "at": "05/19/2011 15:45:35",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "Din rail 2-Switch state"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "On/Off",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "7",
+        "current_value": "255",
+        "at": "05/19/2011 15:45:35",
+        "max_value": "255.0",
+        "min_value": "255.0",
+        "tags": [
+          "Din rail 2-Level state"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Level",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "8",
+        "current_value": "0",
+        "at": "05/19/2011 16:01:16",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "Din rail 2-Switch request"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "On/Off",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "9",
+        "current_value": "255",
+        "at": "05/19/2011 15:45:35",
+        "max_value": "255.0",
+        "min_value": "255.0",
+        "tags": [
+          "Din rail 2-Level request"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Level",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "10",
+        "current_value": "0",
+        "at": "05/19/2011 15:45:35",
+        "max_value": "2000.0",
+        "min_value": "0.0",
+        "tags": [
+          "Din rail 3-Power"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watt",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "11",
+        "current_value": "0",
+        "at": "05/19/2011 15:45:35",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "Din rail 3-Switch state"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "On/Off",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "12",
+        "current_value": "255",
+        "at": "05/19/2011 15:45:35",
+        "max_value": "255.0",
+        "min_value": "255.0",
+        "tags": [
+          "Din rail 3-Level state"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Level",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "13",
+        "current_value": "0",
+        "at": "05/19/2011 16:01:16",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "Din rail 3-Switch request"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "On/Off",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "14",
+        "current_value": "255",
+        "at": "05/19/2011 15:45:35",
+        "max_value": "255.0",
+        "min_value": "255.0",
+        "tags": [
+          "Din rail 3-Level request"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Level",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "15",
+        "current_value": "20",
+        "at": "05/19/2011 15:45:35",
+        "max_value": "39.0",
+        "min_value": "0.0",
+        "tags": [
+          "Smart Plug 1-Power"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watt",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "16",
+        "current_value": "1",
+        "at": "05/19/2011 15:45:35",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "Smart Plug 1-Switch state"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "On/Off",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "17",
+        "current_value": "128",
+        "at": "05/19/2011 15:45:35",
+        "max_value": "255.0",
+        "min_value": "0.0",
+        "tags": [
+          "Smart Plug 1-Level state"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Level",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "18",
+        "current_value": "1",
+        "at": "05/19/2011 16:01:16",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "Smart Plug 1-Switch request"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "On/Off",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "19",
+        "current_value": "128",
+        "at": "05/19/2011 16:01:16",
+        "max_value": "255.0",
+        "min_value": "0.0",
+        "tags": [
+          "Smart Plug 1-Level request"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Level",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Watteco",
+      "domain": 0,
+      "lat": "43.1346030444523",
+      "lon": "6.0310435295105",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/25348\" >IPV6 Smart objects demo</a>",
+    "URLMostrar": "https://xively.com/feeds/25348"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\25348.json",
+  "DocumentJSON": null
+}

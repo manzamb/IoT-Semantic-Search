@@ -1,0 +1,212 @@
+{
+  "Conceptos": [
+    "frequency"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "9511",
+    "title": "Home Power Monitor",
+    "Private": false,
+    "tags": null,
+    "description": "Home energy consumption and other parameters around the house. ",
+    "feed": "https://api.xively.com/v2/feeds/9511.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/21/2014 01:47:48",
+    "created": "08/15/2010 02:55:00",
+    "creator": "https://xively.com/users/draythomp",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "2929.75",
+        "at": "03/21/2014 14:08:45",
+        "max_value": "19995.82",
+        "min_value": "0.0",
+        "tags": [
+          "Real Power"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "2958.52",
+        "at": "03/21/2014 14:08:45",
+        "max_value": "20076.82",
+        "min_value": "0.0",
+        "tags": [
+          "Apparent Power"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "0.99",
+        "at": "03/21/2014 14:08:45",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "Power Factor"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "Percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "24.02",
+        "at": "03/21/2014 14:08:45",
+        "max_value": "9041.98",
+        "min_value": "0.0",
+        "tags": [
+          "Irms"
+        ],
+        "unit": {
+          "symbol": "A",
+          "label": "Amps",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "123.13",
+        "at": "03/21/2014 14:08:45",
+        "max_value": "10655.25",
+        "min_value": "0.0",
+        "tags": [
+          "Vrms"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": "Volts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "59.99",
+        "at": "03/21/2014 14:08:45",
+        "max_value": "8388.27",
+        "min_value": "0.0",
+        "tags": [
+          "Frequency"
+        ],
+        "unit": {
+          "symbol": "Hz",
+          "label": "Hertz",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "74.0",
+        "at": "03/21/2014 14:08:45",
+        "max_value": "11215.0",
+        "min_value": "-20.5",
+        "tags": [
+          "Inside Temp"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Deg F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "7",
+        "current_value": "47",
+        "at": "03/21/2014 14:08:45",
+        "max_value": "9720.0",
+        "min_value": "15.0",
+        "tags": [
+          "Outside Temp"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Deg F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "8",
+        "current_value": "2",
+        "at": "03/21/2014 14:08:45",
+        "max_value": "2.0",
+        "min_value": "0.0",
+        "tags": [
+          "Pool Motor"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "O-L-H",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "9",
+        "current_value": "65",
+        "at": "03/21/2014 14:08:45",
+        "max_value": "12592.0",
+        "min_value": "0.0",
+        "tags": [
+          "Pool Temp"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Deg F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "10",
+        "current_value": "1",
+        "at": "03/21/2014 14:08:45",
+        "max_value": "1370.0",
+        "min_value": "0.0",
+        "tags": [
+          "Appliance Power usage"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Thompson House",
+      "domain": 0,
+      "lat": "33.9015527765687",
+      "lon": "-112.039175033569",
+      "ele": "305",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/9511\" >Home Power Monitor</a>",
+    "URLMostrar": "https://xively.com/feeds/9511"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\9511.json",
+  "DocumentJSON": null
+}

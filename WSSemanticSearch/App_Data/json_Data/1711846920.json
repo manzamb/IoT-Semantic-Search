@@ -1,0 +1,114 @@
+{
+  "Conceptos": [
+    "moisture"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "1711846920",
+    "title": "Greenhouse Monitor",
+    "Private": false,
+    "tags": [
+      "Greenhouse Temperature Moisture Light"
+    ],
+    "description": "Device that logs the internal conditions of a greenhouse, then activates heating or cooling methods as needed.",
+    "feed": "https://api.xively.com/v2/feeds/1711846920.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:06:38",
+    "created": "05/20/2013 21:27:36",
+    "creator": "https://xively.com/users/vidar",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Cooler_Active",
+        "current_value": "1",
+        "at": "03/21/2014 14:06:38",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "Boolean",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Heater_Active",
+        "current_value": "0",
+        "at": "03/21/2014 14:06:38",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "Boolean",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Light_Level",
+        "current_value": "98",
+        "at": "03/21/2014 14:06:38",
+        "max_value": "99.0",
+        "min_value": "0.0",
+        "tags": [
+          "Light"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "Percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Soil_Moisture",
+        "current_value": "89",
+        "at": "03/21/2014 14:06:38",
+        "max_value": "93.0",
+        "min_value": "5.0",
+        "tags": [
+          "Soil_Moisture"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "Percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperature",
+        "current_value": "83",
+        "at": "03/21/2014 14:06:38",
+        "max_value": "144.0",
+        "min_value": "28.0",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "*F",
+          "label": "degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Greenhouse",
+      "domain": 0,
+      "lat": "41.9251109483514",
+      "lon": "-88.7789297103882",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/1711846920\" >Greenhouse Monitor</a>",
+    "URLMostrar": "https://xively.com/feeds/1711846920"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\1711846920.json",
+  "DocumentJSON": null
+}

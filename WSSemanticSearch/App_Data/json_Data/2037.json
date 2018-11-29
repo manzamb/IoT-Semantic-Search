@@ -1,0 +1,100 @@
+{
+  "Conceptos": [
+    "area"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "2037",
+    "title": "Water Temperature",
+    "Private": false,
+    "tags": null,
+    "description": "Water Tank Temperature Profile\r\n\r\nDerived from a xAP connector for the Quasar K3145 Temperature Logger\r\n\r\nApparantly the correct temperature for domestic hot water is 60 Deg, less for care homes and more more industrial or Food Preparation areas.",
+    "feed": "https://api.xively.com/v2/feeds/2037.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "01/30/2014 22:55:21",
+    "created": "05/22/2009 19:01:53",
+    "creator": "https://xively.com/users/turner228",
+    "version": null,
+    "website": "http://www.netcompsys.co.uk",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "53.4",
+        "at": "01/30/2014 22:55:21",
+        "max_value": "100.0",
+        "min_value": "-5.0",
+        "tags": [
+          "Hot1,Hot Water Tank Top"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "0.0",
+        "at": "01/30/2014 22:55:21",
+        "max_value": "100.0",
+        "min_value": "-5.0",
+        "tags": [
+          "Hot2,Hot Water Tank Middle"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "38.6",
+        "at": "01/30/2014 22:55:21",
+        "max_value": "100.0",
+        "min_value": "-5.0",
+        "tags": [
+          "Hot3,Hot Water Tank Bottom"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "11.1",
+        "at": "01/30/2014 22:55:21",
+        "max_value": "100.0",
+        "min_value": "-5.0",
+        "tags": [
+          "Loft,Loft"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Grimsby",
+      "domain": 0,
+      "lat": "53.5115815555249",
+      "lon": "-0.0629138946533203",
+      "ele": "0",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/2037\" >Water Temperature</a>",
+    "URLMostrar": "https://xively.com/feeds/2037"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\2037.json",
+  "DocumentJSON": null
+}

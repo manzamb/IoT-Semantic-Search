@@ -1,0 +1,149 @@
+{
+  "Conceptos": [
+    "air quality"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "61142",
+    "title": "Indoor Air Quality",
+    "Private": false,
+    "tags": [
+      "air",
+      "aqm",
+      "arduino",
+      "co2",
+      "quality",
+      "temperature"
+    ],
+    "description": "Indoor air quality test system. Uses low cost COTS sensors connected to an Arduino. Currently undergoing a major design change to make all sensors wireless. ",
+    "feed": "https://api.xively.com/v2/feeds/61142.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:08:49",
+    "created": "05/26/2012 15:39:18",
+    "creator": "https://xively.com/users/tbitson",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Batery_Volts",
+        "current_value": "8.72",
+        "at": "02/15/2014 18:35:58",
+        "max_value": "8.72",
+        "min_value": "8.72",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Battery_Volts",
+        "current_value": "10.0",
+        "at": "03/20/2014 22:07:46",
+        "max_value": "928.0",
+        "min_value": "0.0",
+        "tags": [
+          "Solar Battery Charge"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Volts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Btery_Volts",
+        "current_value": "10.98",
+        "at": "03/04/2014 18:01:39",
+        "max_value": "10.98",
+        "min_value": "10.98",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "eenode_Temp",
+        "current_value": "76.21",
+        "at": "03/19/2014 04:30:43",
+        "max_value": "76.21",
+        "min_value": "76.21",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Half__Micron",
+        "current_value": "300",
+        "at": "03/21/2014 13:56:40",
+        "max_value": "17285.0",
+        "min_value": "0.0",
+        "tags": [
+          "Laser Particle Counter"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Particles per .1 cubic meter",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Jeenode_Temp",
+        "current_value": "73.96",
+        "at": "03/21/2014 14:08:49",
+        "max_value": "83.52",
+        "min_value": "0.0",
+        "tags": [
+          "Remote Temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "DegsF",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Two_Micron",
+        "current_value": "46",
+        "at": "03/21/2014 13:56:40",
+        "max_value": "6850.0",
+        "min_value": "0.0",
+        "tags": [
+          "Laser Particle Counter"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Particles per .1 cubic meter",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Tucson, AZ",
+      "domain": 0,
+      "lat": "32.4097480216441",
+      "lon": "-110.99573135376",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/61142\" >Indoor Air Quality</a>",
+    "URLMostrar": "https://xively.com/feeds/61142"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\61142.json",
+  "DocumentJSON": null
+}

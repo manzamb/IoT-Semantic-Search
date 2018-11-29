@@ -1,0 +1,242 @@
+{
+  "Conceptos": [
+    "frequency"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "71296",
+    "title": "RaspberryPi",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/71296.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:09:15",
+    "created": "08/16/2012 20:13:11",
+    "creator": "https://xively.com/users/gsgeschke",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "82178",
+        "at": "03/21/2014 14:08:49",
+        "max_value": "2615421.0",
+        "min_value": "44.0",
+        "tags": [
+          "uptime"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "secs",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "237048",
+        "at": "03/21/2014 14:08:55",
+        "max_value": "237868.0",
+        "min_value": "236808.0",
+        "tags": [
+          "memory",
+          "total"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "kB",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "16732",
+        "at": "03/21/2014 14:08:55",
+        "max_value": "151872.0",
+        "min_value": "8160.0",
+        "tags": [
+          "available",
+          "free",
+          "memory"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "kB",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "102396",
+        "at": "03/21/2014 14:09:01",
+        "max_value": "102396.0",
+        "min_value": "102396.0",
+        "tags": [
+          "swap",
+          "total"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "kB",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "102396",
+        "at": "03/21/2014 14:09:02",
+        "max_value": "102396.0",
+        "min_value": "100368.0",
+        "tags": [
+          "available",
+          "free",
+          "swap"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "kB",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "0.22",
+        "at": "03/21/2014 14:09:12",
+        "max_value": "5.56",
+        "min_value": "0.0",
+        "tags": [
+          "1 minute",
+          "loadavg",
+          "threads"
+        ],
+        "unit": {
+          "symbol": "threads",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "0.14",
+        "at": "03/21/2014 14:09:13",
+        "max_value": "4.59",
+        "min_value": "0.01",
+        "tags": [
+          "5 minute",
+          "loadavg",
+          "threads"
+        ],
+        "unit": {
+          "symbol": "threads",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "7",
+        "current_value": "0.14",
+        "at": "03/21/2014 14:09:13",
+        "max_value": "3.36",
+        "min_value": "0.05",
+        "tags": [
+          "15 minute",
+          "loadavg",
+          "threads"
+        ],
+        "unit": {
+          "symbol": "threads",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "8",
+        "current_value": "1",
+        "at": "03/21/2014 14:09:14",
+        "max_value": "15.0",
+        "min_value": "1.0",
+        "tags": [
+          "running threads"
+        ],
+        "unit": {
+          "symbol": "threads",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "9",
+        "current_value": "226",
+        "at": "03/21/2014 14:09:15",
+        "max_value": "275.0",
+        "min_value": "127.0",
+        "tags": [
+          "total threads"
+        ],
+        "unit": {
+          "symbol": "threads",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "10",
+        "current_value": "45.5",
+        "at": "03/21/2014 14:08:38",
+        "max_value": "85.0",
+        "min_value": "0.0",
+        "tags": [
+          "CPU",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "degC",
+          "label": "degC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "11",
+        "current_value": "700",
+        "at": "03/21/2014 14:08:44",
+        "max_value": "700.0",
+        "min_value": "700.0",
+        "tags": [
+          "CPU",
+          "frequency"
+        ],
+        "unit": {
+          "symbol": "MHz",
+          "label": "MHz",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/71296\" >RaspberryPi</a>",
+    "URLMostrar": "https://xively.com/feeds/71296"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\71296.json",
+  "DocumentJSON": null
+}

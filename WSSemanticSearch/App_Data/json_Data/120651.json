@@ -1,0 +1,163 @@
+{
+  "Conceptos": [
+    "wind"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "120651",
+    "title": "DESY Weather Station",
+    "Private": false,
+    "tags": [
+      "germany",
+      "hamburg",
+      "temperature",
+      "weather",
+      "wind"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/120651.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:05:01",
+    "created": "03/23/2013 20:51:29",
+    "creator": "https://xively.com/users/audioeric",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "HUMIDITY",
+        "current_value": "93.4",
+        "at": "03/21/2014 14:05:01",
+        "max_value": "110.6",
+        "min_value": "0.0",
+        "tags": [
+          "Hamburg",
+          "Luftfeuchte"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "HUMIDY",
+        "current_value": "50.7",
+        "at": "02/27/2014 14:34:37",
+        "max_value": "50.7",
+        "min_value": "50.7",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "PRESSURE",
+        "current_value": "1001.1",
+        "at": "03/21/2014 14:05:01",
+        "max_value": "1034.4",
+        "min_value": "0.0",
+        "tags": [
+          "Hamburg",
+          "Luftdruck"
+        ],
+        "unit": {
+          "symbol": "hPa",
+          "label": "hPa",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "TEMPERATURE",
+        "current_value": "6.5",
+        "at": "03/21/2014 14:05:01",
+        "max_value": "35.8",
+        "min_value": "-12.3",
+        "tags": [
+          "Hamburg",
+          "Temperatur"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "WINDDIRECTION",
+        "current_value": "328",
+        "at": "03/21/2014 14:05:01",
+        "max_value": "360.0",
+        "min_value": "0.0",
+        "tags": [
+          "Hamburg",
+          "Wind",
+          "Windrichtung"
+        ],
+        "unit": {
+          "symbol": "Degree",
+          "label": "Degree",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "WINDGUSTS",
+        "current_value": "2.5",
+        "at": "03/21/2014 14:05:01",
+        "max_value": "28.0",
+        "min_value": "0.0",
+        "tags": [
+          "Böen",
+          "Hamburg",
+          "Wind",
+          "Windböen",
+          "Windgeschwindigkeit"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "m/s",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "WINDSPEED",
+        "current_value": "2.0",
+        "at": "03/21/2014 14:05:01",
+        "max_value": "17.7",
+        "min_value": "0.0",
+        "tags": [
+          "Hamburg",
+          "Wind",
+          "Windgeschwindigkeit"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "m/s",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Deutsches Elektronen-Synchrotron",
+      "domain": 0,
+      "lat": "53.577079125487",
+      "lon": "9.87730443477631",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/120651\" >DESY Weather Station</a>",
+    "URLMostrar": "https://xively.com/feeds/120651"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\120651.json",
+  "DocumentJSON": null
+}

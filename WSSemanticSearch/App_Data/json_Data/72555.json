@@ -1,0 +1,74 @@
+{
+  "Conceptos": [
+    "temperature"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "72555",
+    "title": "CurrentCost Meter",
+    "Private": false,
+    "tags": [
+      "currentcost",
+      "meter",
+      "power",
+      "temperature"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/72555.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "12/31/2013 16:45:07",
+    "created": "08/25/2012 12:50:05",
+    "creator": "https://xively.com/users/cotdp",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Power",
+        "current_value": "1340",
+        "at": "12/31/2013 16:45:07",
+        "max_value": "10456.0",
+        "min_value": "553.0",
+        "tags": [
+          "energy",
+          "power"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "W",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temp",
+        "current_value": "24.4",
+        "at": "12/31/2013 16:45:07",
+        "max_value": "27.7",
+        "min_value": "17.8",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "London",
+      "domain": 0,
+      "lat": "51.4950647301437",
+      "lon": "-0.1318359375",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/72555\" >CurrentCost Meter</a>",
+    "URLMostrar": "https://xively.com/feeds/72555"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\72555.json",
+  "DocumentJSON": null
+}

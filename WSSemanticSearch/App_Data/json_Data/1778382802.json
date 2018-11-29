@@ -1,0 +1,73 @@
+{
+  "Conceptos": [
+    "mercury"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "1778382802",
+    "title": "Eric's Temp Shield ",
+    "Private": false,
+    "tags": [
+      "Eric",
+      "Eric Mercado",
+      "Temp Shield"
+    ],
+    "description": "Prototype weather shield for the Arduino ",
+    "feed": "https://api.xively.com/v2/feeds/1778382802.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "11/26/2013 02:36:45",
+    "created": "08/07/2013 19:18:54",
+    "creator": "https://xively.com/users/eric1180",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Pressure",
+        "current_value": "29.46",
+        "at": "11/26/2013 02:36:45",
+        "max_value": "67.1",
+        "min_value": "28.95",
+        "tags": [
+          "Barometric",
+          "Hg",
+          "Mercury",
+          "Pressure"
+        ],
+        "unit": {
+          "symbol": "Hg",
+          "label": "Inches Mercury ",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperature",
+        "current_value": "36.83",
+        "at": "11/26/2013 02:36:45",
+        "max_value": "365.52",
+        "min_value": "31.72",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Home",
+      "domain": 0,
+      "lat": "33.2148547",
+      "lon": "-97.1445535",
+      "ele": "800",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/1778382802\" >Eric's Temp Shield </a>",
+    "URLMostrar": "https://xively.com/feeds/1778382802"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\1778382802.json",
+  "DocumentJSON": null
+}

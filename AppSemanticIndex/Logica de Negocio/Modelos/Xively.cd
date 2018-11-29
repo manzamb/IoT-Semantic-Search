@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AppSemanticIndex.ApiKey">
+    <Position X="10" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABCAAAAAAAAAAAQAAABAACAAARAAAAA=</HashCode>
+      <FileName>Logica de acceso a datos\Xively\Modelo\Apikey.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppSemanticIndex.Permission">
+    <Position X="2.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAACAAAAAAAAAAQAgAAAAAAAAEAAgAAAA=</HashCode>
+      <FileName>Logica de acceso a datos\Xively\Modelo\Permission.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppSemanticIndex.Resource">
+    <Position X="8" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAACAABAAAAAAAAAAAAQAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Logica de acceso a datos\Xively\Modelo\Resource.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppSemanticIndex.Unit">
+    <Position X="7.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAABAAAAAAAAAAAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>Logica de acceso a datos\Xively\Modelo\Unit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppSemanticIndex.Datapoint">
+    <Position X="7.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAgAAAAAAAAAA=</HashCode>
+      <FileName>Logica de acceso a datos\Xively\Modelo\Datapoint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppSemanticIndex.Datastream">
+    <Position X="5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAgAAAAAAAAABAAAAAAAAAAgABAQAQAAgA=</HashCode>
+      <FileName>Logica de acceso a datos\Xively\Modelo\Datastream.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="unit" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="datapoints" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="AppSemanticIndex.Location">
+    <Position X="5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAAACCAAQAAAEABAAAAAAAAAACAA=</HashCode>
+      <FileName>Logica de acceso a datos\Xively\Modelo\Location.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppSemanticIndex.Trigger">
+    <Position X="10" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAGAQAAAAAAAhAAAAAQAEAAAAQpAAAAAAAAAAAAEwA=</HashCode>
+      <FileName>Logica de acceso a datos\Xively\Modelo\Trigger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppSemanticIndex.Feed">
+    <Position X="2.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAACAAQAAAAAAAIIAAEAACFAAQAQAAAABAAEAAAgI=</HashCode>
+      <FileName>Logica de acceso a datos\Xively\Modelo\Feed.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="location" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="datastreams" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Enum Name="AppSemanticIndex.AccessMethod">
+    <Position X="0.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAAAQQAAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Logica de acceso a datos\Xively\Enumeraciones\AccessMethod.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="AppSemanticIndex.IFCClassification">
+    <Position X="0.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAACAABAAACAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Logica de acceso a datos\Xively\Enumeraciones\IFCClassification.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="AppSemanticIndex.Exposure">
+    <Position X="0.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Logica de acceso a datos\Xively\Enumeraciones\Exposure.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="AppSemanticIndex.Disposition">
+    <Position X="0.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Logica de acceso a datos\Xively\Enumeraciones\Disposition.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="AppSemanticIndex.Domain">
+    <Position X="0.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Logica de acceso a datos\Xively\Enumeraciones\Domain.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="AppSemanticIndex.TriggerType">
+    <Position X="0.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAEAAAAAAAAAAAAAAAAAAABAAAAAABCIAAAAAAAA=</HashCode>
+      <FileName>Logica de acceso a datos\Xively\Enumeraciones\TriggerType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="AppSemanticIndex.Status">
+    <Position X="0.5" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>Logica de acceso a datos\Xively\Enumeraciones\Status.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

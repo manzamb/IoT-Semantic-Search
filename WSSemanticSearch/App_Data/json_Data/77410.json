@@ -1,0 +1,72 @@
+{
+  "Conceptos": [
+    "humedad"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "77410",
+    "title": "lectura_sensor",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "Humedad",
+      "Temperatura"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/77410.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/31/2013 15:26:07",
+    "created": "09/25/2012 17:25:46",
+    "creator": "https://xively.com/users/leo831",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "27.86",
+        "at": "03/31/2013 15:26:07",
+        "max_value": "34.73",
+        "min_value": "15.14",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "69.84",
+        "at": "03/31/2013 15:26:07",
+        "max_value": "81.56",
+        "min_value": "33.9",
+        "tags": [
+          "RelativeHumidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "Hum_rela.",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "4.59175686084584",
+      "lon": "-74.058837890625",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/77410\" >lectura_sensor</a>",
+    "URLMostrar": "https://xively.com/feeds/77410"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\77410.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,236 @@
+{
+  "Conceptos": [
+    "mp10"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "36010",
+    "title": "Stalker Solar Test Rig",
+    "Private": false,
+    "tags": [
+      "bmp085",
+      "hih4030",
+      "seeeduino",
+      "solar",
+      "stalker",
+      "temt6000",
+      "tmp102",
+      "xrf"
+    ],
+    "description": "Solar powered Seeeduino Stalker, transmitting data with an XRF module.\r\n\r\nSensors:\r\nTMP102\r\nBMP085\r\nHIH4030\r\nTEMT6000",
+    "feed": "https://api.xively.com/v2/feeds/36010.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "11/13/2011 10:33:41",
+    "created": "09/21/2011 20:59:03",
+    "creator": "https://xively.com/users/markab",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "1",
+        "current_value": "4.30",
+        "at": "11/13/2011 10:33:41",
+        "max_value": "4.31",
+        "min_value": "0.0",
+        "tags": [
+          "Battery",
+          "Volts"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": "Volts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "0",
+        "at": "11/13/2011 10:33:41",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "Charger Status",
+          "Sleeping"
+        ],
+        "unit": {
+          "symbol": "CH Sleeping",
+          "label": "Yes/No",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "0",
+        "at": "11/13/2011 10:33:41",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "Charger Status",
+          "Complete"
+        ],
+        "unit": {
+          "symbol": "CH Complete",
+          "label": "Yes/No",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "1",
+        "at": "11/13/2011 10:33:41",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "Charger Status",
+          "On Charge"
+        ],
+        "unit": {
+          "symbol": "CH On Charge",
+          "label": "Yes/No",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "0",
+        "at": "11/13/2011 10:33:41",
+        "max_value": "6000.0",
+        "min_value": "0.0",
+        "tags": [
+          "Charger Status",
+          "No Battery"
+        ],
+        "unit": {
+          "symbol": "CH No Battery",
+          "label": "Yes/No",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "18.25",
+        "at": "11/13/2011 10:33:41",
+        "max_value": "18085.0",
+        "min_value": "0.0",
+        "tags": [
+          "Celcius",
+          "Temperature",
+          "TMP102"
+        ],
+        "unit": {
+          "symbol": "ºc",
+          "label": "Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "7",
+        "current_value": "993.55",
+        "at": "11/13/2011 10:33:41",
+        "max_value": "10126000.0",
+        "min_value": "0.0",
+        "tags": [
+          "BMP085",
+          "Millibar",
+          "Pressure"
+        ],
+        "unit": {
+          "symbol": "mb",
+          "label": "Millibar",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "8",
+        "current_value": "19.00",
+        "at": "11/13/2011 10:33:41",
+        "max_value": "46.5",
+        "min_value": "0.0",
+        "tags": [
+          "BMP085",
+          "Celcius",
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "ºc",
+          "label": "Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "9",
+        "current_value": "74.81",
+        "at": "11/13/2011 10:33:41",
+        "max_value": "120.37",
+        "min_value": "0.0",
+        "tags": [
+          "HIH4030",
+          "Relative Humidity"
+        ],
+        "unit": {
+          "symbol": "RH%",
+          "label": "Relative Humidity",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "10",
+        "current_value": "13.78",
+        "at": "11/13/2011 10:33:41",
+        "max_value": "80.0",
+        "min_value": "-0.65",
+        "tags": [
+          "Dew Point",
+          "HIH4030",
+          "TMP102"
+        ],
+        "unit": {
+          "symbol": "ºc",
+          "label": "Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "11",
+        "current_value": "538",
+        "at": "11/13/2011 10:33:41",
+        "max_value": "1009.0",
+        "min_value": "0.0",
+        "tags": [
+          "Light",
+          "TEMT6000"
+        ],
+        "unit": {
+          "symbol": "?",
+          "label": "Light",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Kesgrave, Ipswich, UK",
+      "domain": 0,
+      "lat": "52.0566071780562",
+      "lon": "1.25630378723145",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/36010\" >Stalker Solar Test Rig</a>",
+    "URLMostrar": "https://xively.com/feeds/36010"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\36010.json",
+  "DocumentJSON": null
+}

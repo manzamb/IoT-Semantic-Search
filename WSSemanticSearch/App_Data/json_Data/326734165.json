@@ -1,0 +1,337 @@
+{
+  "Conceptos": [
+    "humidity"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "326734165",
+    "title": "Sensor values - Huize Kortekaas home of kaaLabs",
+    "Private": false,
+    "tags": [
+      "humidity",
+      "kaalabs",
+      "lightlevel",
+      "movement",
+      "temperature"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/326734165.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:07:05",
+    "created": "09/04/2013 06:22:38",
+    "creator": "https://xively.com/users/kaalabs",
+    "version": null,
+    "website": "http://kaalabs.remcokortekaas.nl",
+    "datastreams": [
+      {
+        "id": "Beweging",
+        "current_value": "0",
+        "at": "03/21/2014 14:06:39",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "badkamer",
+          "beweging"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "AANUIT",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "emeter_actueelverbruik",
+        "current_value": "550",
+        "at": "03/21/2014 14:07:05",
+        "max_value": "10070.0",
+        "min_value": "0.0",
+        "tags": [
+          "actueelverbruik",
+          "energie"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "W",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Lichtsterkte",
+        "current_value": "11",
+        "at": "03/21/2014 14:06:38",
+        "max_value": "243.0",
+        "min_value": "0.0",
+        "tags": [
+          "badkamer",
+          "lichtsterkte"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Luchtvochtigheid",
+        "current_value": "55",
+        "at": "03/21/2014 14:06:41",
+        "max_value": "125.0",
+        "min_value": "0.0",
+        "tags": [
+          "badkamer",
+          "luchtvochtigheid"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "Procent",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "slaapkameranouk_beweging",
+        "current_value": "1",
+        "at": "01/05/2014 12:02:45",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "anouk",
+          "beweging"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "AANUIT",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "slaapkameranouk_lichtsterkte",
+        "current_value": "206",
+        "at": "01/05/2014 12:02:43",
+        "max_value": "242.0",
+        "min_value": "0.0",
+        "tags": [
+          "anouk",
+          "lichtsterkte"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "slaapkameranouk_temperatuur",
+        "current_value": "17.3",
+        "at": "01/05/2014 12:02:42",
+        "max_value": "25.1",
+        "min_value": "13.2",
+        "tags": [
+          "anouk",
+          "temperatuur"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "slaapkamerbram_beweging",
+        "current_value": "1",
+        "at": "12/02/2013 09:38:12",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "beweging",
+          "bram",
+          "slaapkamer"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "AANUIT",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "slaapkamerbram_lichtsterkte",
+        "current_value": "86",
+        "at": "12/02/2013 09:38:11",
+        "max_value": "245.0",
+        "min_value": "0.0",
+        "tags": [
+          "bram",
+          "lichtsterkte",
+          "slaapkamer"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "slaapkamerbram_temperatuur",
+        "current_value": "20.4",
+        "at": "12/02/2013 09:38:09",
+        "max_value": "99.9",
+        "min_value": "0.0",
+        "tags": [
+          "bram",
+          "slaapkamer",
+          "temperatuur"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "slaapkamerouders_beweging",
+        "current_value": "0",
+        "at": "01/30/2014 13:11:37",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "beweging",
+          "ouders"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "AANUIT",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "slaapkamerouders_lichtsterkte",
+        "current_value": "2",
+        "at": "01/30/2014 13:11:40",
+        "max_value": "246.0",
+        "min_value": "0.0",
+        "tags": [
+          "lichtsterkte",
+          "ouders"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "slaapkamerouders_temperatuur",
+        "current_value": "15.5",
+        "at": "01/30/2014 13:11:35",
+        "max_value": "89.9",
+        "min_value": "0.0",
+        "tags": [
+          "ouders",
+          "temperatuur"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "slaapkamerstijn_beweging",
+        "current_value": "0",
+        "at": "03/09/2014 05:29:57",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "beweging",
+          "slaapkamer",
+          "stijn"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "AANUIT",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "slaapkamerstijn_lichtsterkte",
+        "current_value": "1",
+        "at": "03/09/2014 05:29:56",
+        "max_value": "255.0",
+        "min_value": "0.0",
+        "tags": [
+          "lichtsterkte",
+          "slaapkamer",
+          "stijn"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "slaapkamerstijn_temperatuur",
+        "current_value": "19",
+        "at": "03/09/2014 05:29:55",
+        "max_value": "25.9",
+        "min_value": "0.0",
+        "tags": [
+          "slaapkamer",
+          "stijn",
+          "temperatuur"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperatuur",
+        "current_value": "21",
+        "at": "03/21/2014 14:06:37",
+        "max_value": "32.0",
+        "min_value": "0.0",
+        "tags": [
+          "badkamer",
+          "temperatuur"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Badkamer",
+      "domain": 0,
+      "lat": "52.3585868",
+      "lon": "5.18803219999995",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/326734165\" >Sensor values - Huize Kortekaas home of kaaLabs</a>",
+    "URLMostrar": "https://xively.com/feeds/326734165"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\326734165.json",
+  "DocumentJSON": null
+}

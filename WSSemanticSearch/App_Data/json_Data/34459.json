@@ -1,0 +1,106 @@
+{
+  "Conceptos": [
+    "man"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "34459",
+    "title": "Kaiburr",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "temperature",
+      "xbee"
+    ],
+    "description": "The following is a feed that reads the temperature off of an Xbee Series 2 radio configured to be an end device in AT mode that sleeps (currently for 30 seconds) while transmitting the temperature and supply voltage (Vin) from 2 AA batteries when it is awake.  Knowing Vin is important since the Xbee runs on voltages between 2.6v and 3.6v.  As Vin approaches 2.6, a trigger sends out an email to let me know that I need to change the batteries soon.\r\n\r\nAn Xbee Series 2 radio configured to be a coordinator in API mode reads this data and then sends it to Pachube regularly while also taking direct requests via an attached Ethernet shield (http://kaiburr.digitalgod.org:8009).\r\n\r\nI recently made a more permanent perfboard version of the circuit after successfully testing it on a breadboard: http://www.flickr.com/photos/simon_lemonkey/sets/72157627457433263/",
+    "feed": "https://api.xively.com/v2/feeds/34459.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:13:18",
+    "created": "08/17/2011 17:52:03",
+    "creator": "https://xively.com/users/lemonkey",
+    "version": null,
+    "website": "http://twitter.com/lemonkey",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "2.95",
+        "at": "03/21/2014 14:13:17",
+        "max_value": "54.31",
+        "min_value": "0.0",
+        "tags": [
+          "Vcc"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "V",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "72.62",
+        "at": "03/21/2014 14:13:17",
+        "max_value": "195.1",
+        "min_value": "0.0",
+        "tags": [
+          "Indoor",
+          "TempF"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "22.56",
+        "at": "03/21/2014 14:13:17",
+        "max_value": "90.62",
+        "min_value": "0.0",
+        "tags": [
+          "Indoor",
+          "TempC"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "0",
+        "at": "03/21/2014 14:13:17",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "PachubeErrors"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "#",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "San Francisco",
+      "domain": 0,
+      "lat": "37.769629187677",
+      "lon": "-122.448806762695",
+      "ele": "27.73",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/34459\" >Kaiburr</a>",
+    "URLMostrar": "https://xively.com/feeds/34459"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\34459.json",
+  "DocumentJSON": null
+}

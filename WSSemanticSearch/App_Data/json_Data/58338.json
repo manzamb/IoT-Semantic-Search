@@ -1,0 +1,131 @@
+{
+  "Conceptos": [
+    "noise pollution"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "58338",
+    "title": "Pollux'NZ City -- CKAB -- Feydeau",
+    "Private": false,
+    "tags": [
+      "CO",
+      "dust",
+      "NO2",
+      "noise",
+      "pollution",
+      "pollux",
+      "polluxnzcity",
+      "temperature"
+    ],
+    "description": "Measures from the Pollux'NZ City project's prototypes.",
+    "feed": "https://api.xively.com/v2/feeds/58338.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "08/29/2012 07:41:10",
+    "created": "05/05/2012 18:32:44",
+    "creator": "https://xively.com/users/hd",
+    "version": null,
+    "website": "http://polluxnzcity.net/",
+    "datastreams": [
+      {
+        "id": "CO",
+        "current_value": "0",
+        "at": "08/29/2012 07:41:10",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "carbon monoxyde",
+          "project:name=pollux"
+        ],
+        "unit": {
+          "symbol": "ppm",
+          "label": "particle per meter cube",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Dust",
+        "current_value": "0",
+        "at": "08/29/2012 07:41:10",
+        "max_value": "0.47301",
+        "min_value": "0.0",
+        "tags": [
+          "micro particles",
+          "project:name=pollux"
+        ],
+        "unit": {
+          "symbol": "ppm",
+          "label": "particle per meter cube",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "NO2",
+        "current_value": "0",
+        "at": "08/29/2012 07:41:10",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "nitrogen dioxyde",
+          "project:name=pollux"
+        ],
+        "unit": {
+          "symbol": "ppm",
+          "label": "particle per meter cube",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Noise_Level",
+        "current_value": "65",
+        "at": "08/29/2012 07:41:10",
+        "max_value": "90.0",
+        "min_value": "55.0",
+        "tags": [
+          "project:name=pollux",
+          "sound pressure level"
+        ],
+        "unit": {
+          "symbol": "dB",
+          "label": "SPL decibels",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperature",
+        "current_value": "25.311",
+        "at": "08/29/2012 07:41:10",
+        "max_value": "51.0458",
+        "min_value": "15.364",
+        "tags": [
+          "celcius",
+          "project:name=pollux",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "degree celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "CKAB",
+      "domain": 0,
+      "lat": "48.8706573",
+      "lon": "2.34130660000005",
+      "ele": "1",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/58338\" >Pollux'NZ City -- CKAB -- Feydeau</a>",
+    "URLMostrar": "https://xively.com/feeds/58338"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\58338.json",
+  "DocumentJSON": null
+}

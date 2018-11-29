@@ -1,0 +1,110 @@
+{
+  "Conceptos": [
+    "temperatura"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "92656",
+    "title": "JHERRAEZ",
+    "Private": false,
+    "tags": [
+      "domotics",
+      "home automation",
+      "jherraez",
+      "loxone",
+      "smart metering"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/92656.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:14:08",
+    "created": "12/17/2012 18:12:43",
+    "creator": "https://xively.com/users/jherraez",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Consumo",
+        "current_value": "0.68",
+        "at": "03/21/2014 11:47:45",
+        "max_value": "16.2",
+        "min_value": "0.01",
+        "tags": [
+          "Consumo",
+          "Energía"
+        ],
+        "unit": {
+          "symbol": "kWh",
+          "label": "kWh",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Tdormitorio",
+        "current_value": "16.7",
+        "at": "03/21/2014 11:47:46",
+        "max_value": "70.0",
+        "min_value": "-30.0",
+        "tags": [
+          "Dormitorio",
+          "Temperatura"
+        ],
+        "unit": {
+          "symbol": "º C",
+          "label": "º",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Texterior",
+        "current_value": "15.0",
+        "at": "03/21/2014 11:47:45",
+        "max_value": "39.0",
+        "min_value": "-100.0",
+        "tags": [
+          "Exterior",
+          "Temperatura"
+        ],
+        "unit": {
+          "symbol": "º C",
+          "label": "º",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Tsalon",
+        "current_value": "21.3",
+        "at": "03/21/2014 14:14:08",
+        "max_value": "70.0",
+        "min_value": "-30.0",
+        "tags": [
+          "Salon",
+          "Temperatura"
+        ],
+        "unit": {
+          "symbol": "º C",
+          "label": "º",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Madrid",
+      "domain": 0,
+      "lat": "40.3598163826744",
+      "lon": "-3.59178364276886",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/92656\" >JHERRAEZ</a>",
+    "URLMostrar": "https://xively.com/feeds/92656"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\92656.json",
+  "DocumentJSON": null
+}

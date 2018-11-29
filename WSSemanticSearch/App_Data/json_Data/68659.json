@@ -1,0 +1,109 @@
+{
+  "Conceptos": [
+    "viento"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "68659",
+    "title": "Churriana de la Vega",
+    "Private": false,
+    "tags": [
+      "dirección viento",
+      "velocidad"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/68659.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:15:10",
+    "created": "07/23/2012 15:29:28",
+    "creator": "https://xively.com/users/eduardoa",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Humedad",
+        "current_value": "33",
+        "at": "03/21/2014 14:14:45",
+        "max_value": "98.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "%RH",
+          "label": "Relative Humidity",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Presion",
+        "current_value": "1018.67",
+        "at": "03/21/2014 14:13:30",
+        "max_value": "1030.73",
+        "min_value": "991.74",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperatura",
+        "current_value": "21.3",
+        "at": "03/21/2014 14:14:45",
+        "max_value": "55.5",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "viDireccion",
+        "current_value": "22.5",
+        "at": "03/21/2014 14:15:10",
+        "max_value": "337.5",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "viVelKMH",
+        "current_value": "7.2",
+        "at": "03/21/2014 14:15:10",
+        "max_value": "507.6",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Churriana de la vega",
+      "domain": 0,
+      "lat": "37.144524175654",
+      "lon": "-3.64591598510742",
+      "ele": "655",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/68659\" >Churriana de la Vega</a>",
+    "URLMostrar": "https://xively.com/feeds/68659"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\68659.json",
+  "DocumentJSON": null
+}

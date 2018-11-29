@@ -1,0 +1,232 @@
+{
+  "Conceptos": [
+    "right"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "54957",
+    "title": "My HAH Livebox Sensors",
+    "Private": false,
+    "tags": [
+      "currentcost",
+      "DS18b20",
+      "HAH",
+      "livebox"
+    ],
+    "description": "Currently this shows my HomeAutomationHub (www.homeautomationhub.com) internal and immediate external public sensors. Its on my workbench currently (9/4/12) but will soon go in the attic above my heating system.\r\n12/04/12 - its now in the attic above my heating system, waiting to be 'plumbed-in', also I'll be rearranging the sensors to be more useful/put them in their right place.",
+    "feed": "https://api.xively.com/v2/feeds/54957.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "07/22/2013 15:49:47",
+    "created": "04/06/2012 17:34:54",
+    "creator": "https://xively.com/users/lightbulb",
+    "version": null,
+    "website": "http://www.nohost.local/",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "31.60",
+        "at": "06/01/2013 18:07:44",
+        "max_value": "42.9",
+        "min_value": "9.8",
+        "tags": [
+          "livebox-temp"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "9",
+        "current_value": "0",
+        "at": "05/20/2013 11:55:57",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "W",
+          "label": "watt",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "12",
+        "current_value": "0.0",
+        "at": "07/22/2013 15:49:46",
+        "max_value": "650.49",
+        "min_value": "0.0",
+        "tags": [
+          "hah-htank-top"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "13",
+        "current_value": "0.0",
+        "at": "07/22/2013 15:49:47",
+        "max_value": "652.55",
+        "min_value": "0.0",
+        "tags": [
+          "hah-htank-bot"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "14",
+        "current_value": "0.0",
+        "at": "07/22/2013 15:49:46",
+        "max_value": "655.18",
+        "min_value": "0.0",
+        "tags": [
+          "hah-htank-htap"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "15",
+        "current_value": "894",
+        "at": "07/22/2013 15:49:46",
+        "max_value": "1023.0",
+        "min_value": "107.0",
+        "tags": [
+          "leak",
+          "loft tank water leak sensor"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "ADC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "16",
+        "current_value": "2.396",
+        "at": "07/22/2013 15:49:46",
+        "max_value": "3.966",
+        "min_value": "2.322",
+        "tags": [
+          "loftnode battery"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": "V",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "0_temp",
+        "current_value": "24.0",
+        "at": "05/26/2013 10:45:28",
+        "max_value": "29.9",
+        "min_value": "20.4",
+        "tags": [
+          "EnviR inbuilt temp"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1_iam1",
+        "current_value": "00000",
+        "at": "05/26/2013 10:45:09",
+        "max_value": "16384.0",
+        "min_value": "0.0",
+        "tags": [
+          "fridge"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "watt",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2_iam2",
+        "current_value": "00000",
+        "at": "05/26/2013 10:45:07",
+        "max_value": "18503.0",
+        "min_value": "0.0",
+        "tags": [
+          "washer/dryer"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "watt",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3_iam3",
+        "current_value": "00000",
+        "at": "05/26/2013 10:45:26",
+        "max_value": "2336.0",
+        "min_value": "0.0",
+        "tags": [
+          "dishwasher"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "watt",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "0_aggregate",
+        "current_value": "00327",
+        "at": "05/26/2013 10:45:45",
+        "max_value": "8730.0",
+        "min_value": "0.0",
+        "tags": [
+          "wholehouse"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "watt",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Links, UK",
+      "domain": 0,
+      "lat": "52.6963610782745",
+      "lon": "-0.340576171875",
+      "ele": "Metres",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/54957\" >My HAH Livebox Sensors</a>",
+    "URLMostrar": "https://xively.com/feeds/54957"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\54957.json",
+  "DocumentJSON": null
+}

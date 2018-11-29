@@ -1,0 +1,55 @@
+{
+  "Conceptos": [
+    "amount"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "52549",
+    "title": "Slouch levels",
+    "Private": false,
+    "tags": [
+      "flex sensor",
+      "slouch"
+    ],
+    "description": "this feed determines when and the amount i slouch",
+    "feed": "https://api.xively.com/v2/feeds/52549.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/21/2012 21:19:10",
+    "created": "03/19/2012 07:06:40",
+    "creator": "https://xively.com/users/emupiggie",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": null,
+        "at": null,
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "flex sensor"
+        ],
+        "unit": {
+          "symbol": "flex level",
+          "label": "LFDR",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "La Jolla ",
+      "domain": 0,
+      "lat": "32.7041111444074",
+      "lon": "-117.125244140625",
+      "ele": "Metres",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/52549\" >Slouch levels</a>",
+    "URLMostrar": "https://xively.com/feeds/52549"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\52549.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,71 @@
+{
+  "Conceptos": [
+    "amount"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "35483",
+    "title": "handrail light test feed",
+    "Private": false,
+    "tags": [
+      "ARCH1391"
+    ],
+    "description": "data of amount of lights detected by light sensor",
+    "feed": "https://api.xively.com/v2/feeds/35483.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "10/22/2011 08:27:43",
+    "created": "09/11/2011 07:09:47",
+    "creator": "https://xively.com/users/3335386",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "0.0",
+        "at": "10/22/2011 08:27:43",
+        "max_value": "95045.0",
+        "min_value": "0.0",
+        "tags": [
+          "analogRead0",
+          "lightSensor"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "10013.0",
+        "at": "09/12/2011 05:29:17",
+        "max_value": "192086.0",
+        "min_value": "10005.0",
+        "tags": [
+          "timer"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "unsw, sydney, NSW, australia",
+      "domain": 0,
+      "lat": "-33.916369",
+      "lon": "151.23019",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/35483\" >handrail light test feed</a>",
+    "URLMostrar": "https://xively.com/feeds/35483"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\35483.json",
+  "DocumentJSON": null
+}

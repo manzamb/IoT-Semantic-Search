@@ -1,0 +1,55 @@
+{
+  "Conceptos": [
+    "sensor input"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "29348",
+    "title": "iPhone sensor",
+    "Private": false,
+    "tags": [
+      "iPhone",
+      "sensor"
+    ],
+    "description": "Testing Pachube using iPhone various sensors data as input",
+    "feed": "https://api.xively.com/v2/feeds/29348.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "07/05/2011 13:07:59",
+    "created": "07/05/2011 13:05:14",
+    "creator": "https://xively.com/users/rdmobile",
+    "version": null,
+    "website": "http://www.rdmobile.fr",
+    "datastreams": [
+      {
+        "id": "1001",
+        "current_value": null,
+        "at": "07/05/2011 13:07:59",
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "iPhone-proximity"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "RDM HeadQuarters",
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 1
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/29348\" >iPhone sensor</a>",
+    "URLMostrar": "https://xively.com/feeds/29348"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\29348.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,70 @@
+{
+  "Conceptos": [
+    "sensor output"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "25232",
+    "title": "Counter test",
+    "Private": false,
+    "tags": null,
+    "description": "09/23/2012 updated --- Electric Circuit is renewed and only SBM-20 is reused from Chaney's Kit.\r\n----- replaced on 9/23/2012 -------------------\r\nAttach Optical Coupler to Geiger Counter(Chaney Kit:C6979mod) and count output with Arduino. \r\n-----------------------------------\r\nData is directly fed by Arduino with Ethernet Shield.\r\n\r\n1. Conversion ratio(cpm->uSv/h) in this feed is 0.0057\r\n2. CPM value is averaged for every 5 minutes.\r\n\r\n**This is practically feed and reference purpose only. It may stop intermittently.**",
+    "feed": "https://api.xively.com/v2/feeds/25232.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "12/12/2013 08:13:48",
+    "created": "05/16/2011 14:24:53",
+    "creator": "https://xively.com/users/mametaro999",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "21.600",
+        "at": "12/12/2013 08:13:48",
+        "max_value": "34.4",
+        "min_value": "1.2",
+        "tags": [
+          "sensor:model=SBM-20",
+          "sensor:type=radiation"
+        ],
+        "unit": {
+          "symbol": "cpm",
+          "label": "count per minute",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "0.123",
+        "at": "12/12/2013 08:13:48",
+        "max_value": "0.196",
+        "min_value": "0.007",
+        "tags": [
+          "sensor:model=SBM-20",
+          "sensor:type=radiation"
+        ],
+        "unit": {
+          "symbol": "uSv/h",
+          "label": "micro sievelts per hour",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "35.6897531529962",
+      "lon": "139.38127040863",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/25232\" >Counter test</a>",
+    "URLMostrar": "https://xively.com/feeds/25232"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\25232.json",
+  "DocumentJSON": null
+}

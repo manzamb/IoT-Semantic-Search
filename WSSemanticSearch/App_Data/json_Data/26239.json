@@ -1,0 +1,88 @@
+{
+  "Conceptos": [
+    "parameter"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "26239",
+    "title": "internet",
+    "Private": false,
+    "tags": [
+      "adsl",
+      "netgear",
+      "router"
+    ],
+    "description": "The graphs show various parameters from my netgear router",
+    "feed": "https://api.xively.com/v2/feeds/26239.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:05:26",
+    "created": "06/06/2011 12:28:06",
+    "creator": "https://xively.com/users/kdriver",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "1",
+        "current_value": "289.13",
+        "at": "03/21/2014 14:05:25",
+        "max_value": "338.16",
+        "min_value": "2.37",
+        "tags": [
+          "dl_speed"
+        ],
+        "unit": {
+          "symbol": "kBs",
+          "label": "kBytes/s",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "4704",
+        "at": "03/21/2014 14:05:25",
+        "max_value": "5088.0",
+        "min_value": "928.0",
+        "tags": [
+          "cxn_speed"
+        ],
+        "unit": {
+          "symbol": "kbs",
+          "label": "kBits/s",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "5.1",
+        "at": "03/21/2014 14:05:25",
+        "max_value": "28.1",
+        "min_value": "1.7",
+        "tags": [
+          "snr"
+        ],
+        "unit": {
+          "symbol": "dB",
+          "label": "SNR Margin",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Holt",
+      "domain": 0,
+      "lat": "50.8356762349686",
+      "lon": "-1.95762634277344",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/26239\" >internet</a>",
+    "URLMostrar": "https://xively.com/feeds/26239"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\26239.json",
+  "DocumentJSON": null
+}

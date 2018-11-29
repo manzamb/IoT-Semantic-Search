@@ -1,0 +1,103 @@
+{
+  "Conceptos": [
+    "cromo"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "118311",
+    "title": "UTM LEDAR SENSOR DATA",
+    "Private": false,
+    "tags": [
+      "CO2",
+      "Humidity",
+      "PAR Light",
+      "Temperature"
+    ],
+    "description": "Our Lab Sensor Data",
+    "feed": "https://api.xively.com/v2/feeds/118311.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "05/21/2013 03:55:49",
+    "created": "03/09/2013 11:23:28",
+    "creator": "https://xively.com/users/ahnizar7710",
+    "version": null,
+    "website": "http://www.utm.ic.com.my",
+    "datastreams": [
+      {
+        "id": "sensor1",
+        "current_value": "24.09",
+        "at": "05/21/2013 03:55:45",
+        "max_value": "27.6",
+        "min_value": "6.57",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Degree",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "sensor2",
+        "current_value": "65.11",
+        "at": "05/21/2013 03:55:45",
+        "max_value": "73.02",
+        "min_value": "0.0",
+        "tags": [
+          "Humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "RH",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "sensor3",
+        "current_value": "0.00",
+        "at": "05/21/2013 03:55:45",
+        "max_value": "152.13",
+        "min_value": "0.0",
+        "tags": [
+          "PAR Light"
+        ],
+        "unit": {
+          "symbol": "uMol",
+          "label": "Micromol",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "sensr1",
+        "current_value": "26.82",
+        "at": "04/10/2013 07:59:31",
+        "max_value": "26.82",
+        "min_value": "25.48",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "UTM Jalan Semarak",
+      "domain": 0,
+      "lat": "3.173767865736",
+      "lon": "101.721382141113",
+      "ele": "200",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/118311\" >UTM LEDAR SENSOR DATA</a>",
+    "URLMostrar": "https://xively.com/feeds/118311"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\118311.json",
+  "DocumentJSON": null
+}

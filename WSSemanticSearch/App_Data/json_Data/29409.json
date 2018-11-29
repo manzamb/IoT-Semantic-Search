@@ -1,0 +1,100 @@
+{
+  "Conceptos": [
+    "humedad"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "29409",
+    "title": "Muel-Caseta",
+    "Private": false,
+    "tags": [
+      "%",
+      "Celsius",
+      "humedad",
+      "humidity",
+      "temperatura",
+      "temperature",
+      "weather",
+      "ºC"
+    ],
+    "description": "Datos meteorológicos de la caseta de Muel. Obtenidos con un arduino UNO con una tarjeta Ethernet y dos sensores: Un AM2301 (DHT22) de Humedad relativa y Temperatura y un DS18B20 de temperatura.",
+    "feed": "https://api.xively.com/v2/feeds/29409.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:07:00",
+    "created": "07/06/2011 14:34:46",
+    "creator": "https://xively.com/users/jfelipe",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "DHT22Ext_HR",
+        "current_value": "43.80",
+        "at": "03/21/2014 14:07:00",
+        "max_value": "99.9",
+        "min_value": "0.0",
+        "tags": [
+          "AM2301",
+          "DHT22",
+          "Humedad relativa"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "DHT22Ext_T",
+        "current_value": "21.10",
+        "at": "03/21/2014 14:07:00",
+        "max_value": "36.8",
+        "min_value": "-5.9",
+        "tags": [
+          "AM2301",
+          "Celsius",
+          "DHT22",
+          "Temperatura"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "ºC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "DS18B20_EXT1",
+        "current_value": "21.00",
+        "at": "03/21/2014 14:07:00",
+        "max_value": "42.75",
+        "min_value": "-127.0",
+        "tags": [
+          "Celsius",
+          "DS18B20",
+          "Temperatura"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "ºC",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Muel",
+      "domain": 0,
+      "lat": "41.4648455835283",
+      "lon": "-1.08094364404678",
+      "ele": "424",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/29409\" >Muel-Caseta</a>",
+    "URLMostrar": "https://xively.com/feeds/29409"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\29409.json",
+  "DocumentJSON": null
+}

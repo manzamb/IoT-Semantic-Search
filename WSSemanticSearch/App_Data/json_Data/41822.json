@@ -1,0 +1,104 @@
+{
+  "Conceptos": [
+    "pst"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "41822",
+    "title": "Capstone Team-5: Sensors",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/41822.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "12/16/2011 00:53:47",
+    "created": "12/12/2011 23:34:00",
+    "creator": "https://xively.com/users/cliff",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "66.80469",
+        "at": "12/16/2011 00:53:47",
+        "max_value": "836.0",
+        "min_value": "-58.0",
+        "tags": [
+          "analogRead0",
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "L",
+          "label": "Lumens",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "479.0",
+        "at": "12/16/2011 00:53:47",
+        "max_value": "25862.0",
+        "min_value": "-65128.0",
+        "tags": [
+          "analogRead1",
+          "Light Sensor"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "26.397911",
+        "at": "12/16/2011 00:53:47",
+        "max_value": "934.0",
+        "min_value": "0.0",
+        "tags": [
+          "analogRead2",
+          "Humidity"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "31.298151",
+        "at": "12/16/2011 00:53:47",
+        "max_value": "336.0",
+        "min_value": "-148.81061",
+        "tags": [
+          "analogRead3",
+          "Dewpoint"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "UW-Milwaukee",
+      "domain": 0,
+      "lat": "43.0758629933146",
+      "lon": "-87.8855717182159",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/41822\" >Capstone Team-5: Sensors</a>",
+    "URLMostrar": "https://xively.com/feeds/41822"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\41822.json",
+  "DocumentJSON": null
+}

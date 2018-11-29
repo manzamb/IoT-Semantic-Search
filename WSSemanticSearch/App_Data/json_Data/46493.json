@@ -1,0 +1,121 @@
+{
+  "Conceptos": [
+    "condition"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "46493",
+    "title": "Staggers Log of Environmental Crimes ",
+    "Private": false,
+    "tags": [
+      "CurrentCost",
+      "feed-in",
+      "PV",
+      "Solar"
+    ],
+    "description": "Staggers Household Energy Thing - a couple of CurrentCost CT's, an ENVIr and a crappy linux box that is also employed to extract ads from TV shows. Watch 1.5kW of north facing solar panels get laughed at by 3kW of airconditioner. Yeah!",
+    "feed": "https://api.xively.com/v2/feeds/46493.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "07/05/2012 09:21:53",
+    "created": "01/31/2012 13:16:15",
+    "creator": "https://xively.com/users/paulstaugaitis",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "1",
+        "current_value": "00785",
+        "at": "07/05/2012 09:21:53",
+        "max_value": "9991.0",
+        "min_value": "276.0",
+        "tags": [
+          "GrossUsage"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "00016",
+        "at": "07/05/2012 09:21:53",
+        "max_value": "1854.0",
+        "min_value": "0.0",
+        "tags": [
+          "GrossSolarGen"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "769",
+        "at": "07/05/2012 09:21:53",
+        "max_value": "9968.0",
+        "min_value": "0.0",
+        "tags": [
+          "NetImport"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "0",
+        "at": "07/05/2012 09:21:53",
+        "max_value": "1323.0",
+        "min_value": "0.0",
+        "tags": [
+          "NetExport"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "19.9",
+        "at": "07/05/2012 09:21:53",
+        "max_value": "27.4",
+        "min_value": "14.0",
+        "tags": [
+          "IndoorTemp"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Melbourne Australia",
+      "domain": 0,
+      "lat": "-38.272688535981",
+      "lon": "144.140625",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/46493\" >Staggers Log of Environmental Crimes </a>",
+    "URLMostrar": "https://xively.com/feeds/46493"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\46493.json",
+  "DocumentJSON": null
+}

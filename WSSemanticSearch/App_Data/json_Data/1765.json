@@ -1,0 +1,146 @@
+{
+  "Conceptos": [
+    "frequency"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "1765",
+    "title": " Arduino Uno Annex power measurement",
+    "Private": false,
+    "tags": null,
+    "description": "Power measurement using open monitoring software working on measuring frequency with reasonable tolerance ( to cope with generator). To follow...\r\n\r\nA. Baker 28 Feb 2012 code running V1.4c_CAB",
+    "feed": "https://api.xively.com/v2/feeds/1765.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "06/05/2013 18:39:01",
+    "created": "04/19/2009 21:37:51",
+    "creator": "https://xively.com/users/bakera01",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "246",
+        "at": "06/05/2013 18:39:00",
+        "max_value": "305.0",
+        "min_value": "190.0",
+        "tags": [
+          "Voltage"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": "V",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "0.330610",
+        "at": "06/05/2013 18:39:00",
+        "max_value": "78.766113",
+        "min_value": "0.106146",
+        "tags": [
+          "Current"
+        ],
+        "unit": {
+          "symbol": "A",
+          "label": "A",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "37",
+        "at": "06/05/2013 18:39:00",
+        "max_value": "14988.0",
+        "min_value": "-6.0",
+        "tags": [
+          "Power"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "W",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "0.459800",
+        "at": "06/05/2013 18:39:00",
+        "max_value": "1.008136",
+        "min_value": "-0.173724",
+        "tags": [
+          "Power factor"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "18",
+        "at": "06/05/2013 18:39:00",
+        "max_value": "19.0",
+        "min_value": "3.0",
+        "tags": [
+          "Temp DS18B20"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Centigrade",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "5",
+        "at": "06/05/2013 18:39:00",
+        "max_value": "25.0",
+        "min_value": "0.0",
+        "tags": [
+          "Temp LM35"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Centigrade",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "0",
+        "at": "10/22/2012 05:59:00",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Southampton",
+      "domain": 0,
+      "lat": "50.8930722482616",
+      "lon": "-1.39766693115234",
+      "ele": "10m",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/1765\" > Arduino Uno Annex power measurement</a>",
+    "URLMostrar": "https://xively.com/feeds/1765"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\1765.json",
+  "DocumentJSON": null
+}

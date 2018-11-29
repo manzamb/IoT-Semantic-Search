@@ -1,0 +1,162 @@
+{
+  "Conceptos": [
+    "temperature"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "78524",
+    "title": "Temperaturer",
+    "Private": false,
+    "tags": null,
+    "description": "Temperature monitoring of my home",
+    "feed": "https://api.xively.com/v2/feeds/78524.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "01/19/2014 20:17:51",
+    "created": "10/02/2012 20:31:00",
+    "creator": "https://xively.com/users/stela",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "basement",
+        "current_value": "19",
+        "at": "01/19/2014 20:17:51",
+        "max_value": "25.3125",
+        "min_value": "-17.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "cold1",
+        "current_value": "8.6875",
+        "at": "01/19/2014 20:17:51",
+        "max_value": "116.75",
+        "min_value": "-126.938",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "cold2",
+        "current_value": "3.75",
+        "at": "01/19/2014 20:17:51",
+        "max_value": "42.8125",
+        "min_value": "-75.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "hot1",
+        "current_value": "34.125",
+        "at": "01/19/2014 20:17:51",
+        "max_value": "54.1875",
+        "min_value": "19.875",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "hot2",
+        "current_value": "37.125",
+        "at": "01/19/2014 20:17:51",
+        "max_value": "47.625",
+        "min_value": "20.125",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "hot3",
+        "current_value": "33.875",
+        "at": "01/19/2014 20:17:51",
+        "max_value": "54.6875",
+        "min_value": "19.875",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "in",
+        "current_value": "20.875",
+        "at": "01/19/2014 20:17:51",
+        "max_value": "25.8125",
+        "min_value": "16.625",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "out",
+        "current_value": "16",
+        "at": "01/19/2014 20:17:51",
+        "max_value": "34.4375",
+        "min_value": "-18.375",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "raspi",
+        "current_value": "43.3",
+        "at": "01/19/2014 20:17:51",
+        "max_value": "50.3",
+        "min_value": "36.3",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Home",
+      "domain": 0,
+      "lat": "59.282624921979",
+      "lon": "18.0380058288574",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/78524\" >Temperaturer</a>",
+    "URLMostrar": "https://xively.com/feeds/78524"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\78524.json",
+  "DocumentJSON": null
+}

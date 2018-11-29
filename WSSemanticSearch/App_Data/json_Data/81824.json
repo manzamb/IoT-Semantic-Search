@@ -1,0 +1,121 @@
+{
+  "Conceptos": [
+    "observation"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "81824",
+    "title": "LSGG - Geneve-Cointrin, Switzerland",
+    "Private": false,
+    "tags": [
+      "LSGG",
+      "METAR",
+      "Switzerland",
+      "weather report"
+    ],
+    "description": "LSGG - Geneve-Cointrin, Switzerland\n\n\nThis feed is unofficial and may be stopped by any reason at any time. Use it at your own risk. No guarantee of validity.\n\nData retrieved from http://weather.noaa.gov/pub/data/observations/metar/decoded/\n\nOfficial data are published by Meteo Suisse on the following link http://www.meteosuisse.admin.ch/web/de/services/aviatik/metar_taf_schweiz.html\n",
+    "feed": "https://api.xively.com/v2/feeds/81824.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/21/2014 13:50:00",
+    "created": "10/23/2012 12:52:36",
+    "creator": "https://xively.com/users/jpmieville",
+    "version": null,
+    "website": "http://www.example.com/",
+    "datastreams": [
+      {
+        "id": "humidity",
+        "current_value": "39",
+        "at": "03/21/2014 13:50:00",
+        "max_value": "100.0",
+        "min_value": "0.0",
+        "tags": [
+          "humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "Relative Humidity",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "pressure",
+        "current_value": "1014.9",
+        "at": "03/21/2014 13:50:00",
+        "max_value": "1040.0",
+        "min_value": "0.0",
+        "tags": [
+          "pressure"
+        ],
+        "unit": {
+          "symbol": "hPa",
+          "label": "Pascal",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temp",
+        "current_value": "19",
+        "at": "03/21/2014 13:50:00",
+        "max_value": "34.0",
+        "min_value": "-9.0",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "windDirection",
+        "current_value": "230",
+        "at": "03/21/2014 13:50:00",
+        "max_value": "360.0",
+        "min_value": "0.0",
+        "tags": [
+          "Wind direction"
+        ],
+        "unit": {
+          "symbol": "degree",
+          "label": "angle",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "windSpeed",
+        "current_value": "6.7",
+        "at": "03/21/2014 13:50:00",
+        "max_value": "13.9",
+        "min_value": "0.0",
+        "tags": [
+          "Wind speed"
+        ],
+        "unit": {
+          "symbol": "m/s",
+          "label": "metre per second",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "LSGG",
+      "domain": 0,
+      "lat": "46.25",
+      "lon": "6.13333333333333",
+      "ele": "416",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/81824\" >LSGG - Geneve-Cointrin, Switzerland</a>",
+    "URLMostrar": "https://xively.com/feeds/81824"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\81824.json",
+  "DocumentJSON": null
+}

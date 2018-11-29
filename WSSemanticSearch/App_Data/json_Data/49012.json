@@ -1,0 +1,138 @@
+{
+  "Conceptos": [
+    "man"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "49012",
+    "title": "Private Geiger counter",
+    "Private": false,
+    "tags": null,
+    "description": "※2012年8月25日8：30～11：00頃のピークは機械的なエラー＆調整です\r\n\r\n2012/5/19PMより町田市内2箇所で計測としました\r\nSbM20は鶴川地区でLND712はそこより南方向6Km地点です\r\nSbM20とLND712同じ場所で4ヶ月運用し、ほぼ同じような数値になることを確認後移設しました\r\n>>ID0,ID1 Outdoor1meter\r\nTsurukawa Tokyo\r\nsensor SbM-20 GM+seeedstudioBord+ArduinoEatherPoE\r\nID0=cpm  5min GeigerCounter-1\r\nID1=µSv/hr 5min GeigerCounter-1\r\n\r\n>>ID2,ID3,ID4,ID5 Outdoor1meter\r\nMachida Tokyo\r\nsensor LND712StrawberryLinuxGMbord+ArduinoUNO+SparkFunEathernetbord\r\nID2=cpm 5min GeigerCounter-2 \r\nID3=µSv/hr 5min GeigerCounter-2 \r\nID4=TEMP 5min Thermometer\r\nID5=BARO 5min Manometer",
+    "feed": "https://api.xively.com/v2/feeds/49012.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:09:31",
+    "created": "02/19/2012 04:30:43",
+    "creator": "https://xively.com/users/privategeigercountersouthtokyo",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "23.000",
+        "at": "03/21/2014 14:09:23",
+        "max_value": "28.2",
+        "min_value": "0.0",
+        "tags": [
+          "sensor:model=SBM_20",
+          "sensor:type=radiation"
+        ],
+        "unit": {
+          "symbol": "cpm",
+          "label": "countsPerMinute",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "0.131",
+        "at": "03/21/2014 14:09:23",
+        "max_value": "0.161",
+        "min_value": "0.0",
+        "tags": [
+          "sensor:model=SBM_20",
+          "sensor:type=radiation"
+        ],
+        "unit": {
+          "symbol": "µSv/h",
+          "label": "microSievertPerHour",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "12.600",
+        "at": "03/21/2014 14:09:30",
+        "max_value": "20.2",
+        "min_value": "0.0",
+        "tags": [
+          "sensor:model=LND-712",
+          "sensor:type=radiation"
+        ],
+        "unit": {
+          "symbol": "cpm",
+          "label": "countsPerMinute",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "0.105",
+        "at": "03/21/2014 14:09:30",
+        "max_value": "0.168",
+        "min_value": "0.0",
+        "tags": [
+          "sensor:model=LND-712",
+          "sensor:type=radiation"
+        ],
+        "unit": {
+          "symbol": "µSv/h",
+          "label": "microSievertPerHour",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "3.537",
+        "at": "03/21/2014 14:09:30",
+        "max_value": "38.537",
+        "min_value": "-7.0",
+        "tags": [
+          "sensor:model=S-8120C",
+          "sensor:type=Thermometer"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "temp",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "1012.852",
+        "at": "03/21/2014 14:09:30",
+        "max_value": "1046.273",
+        "min_value": "949.431",
+        "tags": [
+          "sensor:model=MPL115A2",
+          "sensor:type=Barometer"
+        ],
+        "unit": {
+          "symbol": "hPa",
+          "label": "hPa",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 1,
+      "lat": "35.5948042773455",
+      "lon": "139.458013772964",
+      "ele": "75merters",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/49012\" >Private Geiger counter</a>",
+    "URLMostrar": "https://xively.com/feeds/49012"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\49012.json",
+  "DocumentJSON": null
+}

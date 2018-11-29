@@ -1,0 +1,89 @@
+{
+  "Conceptos": [
+    "temperatura"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "64804",
+    "title": "Temperatura",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "home",
+      "temperature",
+      "thermometer"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/64804.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:15:02",
+    "created": "06/25/2012 16:44:55",
+    "creator": "https://xively.com/users/giuss",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "1016.64",
+        "at": "03/21/2014 14:15:02",
+        "max_value": "2808.0",
+        "min_value": "36.0",
+        "tags": [
+          "Pressione"
+        ],
+        "unit": {
+          "symbol": "hPa",
+          "label": "hPa",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "22.73",
+        "at": "03/21/2014 14:15:02",
+        "max_value": "212.79",
+        "min_value": "16.55",
+        "tags": [
+          "Int temp"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "20.75",
+        "at": "03/21/2014 14:15:02",
+        "max_value": "40.5",
+        "min_value": "4.31",
+        "tags": [
+          "Ext temp"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/64804\" >Temperatura</a>",
+    "URLMostrar": "https://xively.com/feeds/64804"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\64804.json",
+  "DocumentJSON": null
+}

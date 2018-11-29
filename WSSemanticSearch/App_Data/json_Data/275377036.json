@@ -1,0 +1,64 @@
+{
+  "Conceptos": [
+    "moisture"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "275377036",
+    "title": "Soil Moisture ",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/275377036.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "10/17/2013 22:01:28",
+    "created": "09/24/2013 22:49:32",
+    "creator": "https://xively.com/users/cangeceiro",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "soil_moisture",
+        "current_value": "39.0",
+        "at": "10/17/2013 22:01:28",
+        "max_value": "1023.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "%",
+          "label": "Percentage",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temp_f",
+        "current_value": "75.0",
+        "at": "10/17/2013 22:01:26",
+        "max_value": "85.0",
+        "min_value": "59.0",
+        "tags": null,
+        "unit": {
+          "symbol": "F",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/275377036\" >Soil Moisture </a>",
+    "URLMostrar": "https://xively.com/feeds/275377036"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\275377036.json",
+  "DocumentJSON": null
+}

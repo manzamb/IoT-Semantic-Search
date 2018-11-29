@@ -1,0 +1,81 @@
+{
+  "Conceptos": [
+    "thermistor"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "16129",
+    "title": "Arduino Environment",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "LDR",
+      "uno"
+    ],
+    "description": "Simple light dependant resistor with 10k resistor to balance on an Arduino Uno.  Code uses most basic Firmata library running on the Arduino with a hacked Pachube runcode to enable manual feed.\r\n\r\nAdditionally I have added a thermistor to the set inline with a 10k resistor.  I have used a linearising algorhytm but I am not happy with it yet.  I'll porbably do some fixed temperature samples and curve fit with regression to give a better equation for my rig.\r\n\r\nUprate baud rate on Firmdata to 115200 to get real results from analog input.  56700 gives random data.",
+    "feed": "https://api.xively.com/v2/feeds/16129.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/12/2011 18:04:41",
+    "created": "02/01/2011 16:36:23",
+    "creator": "https://xively.com/users/jocks",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "38.0",
+        "at": "03/12/2011 18:04:41",
+        "max_value": "707.0",
+        "min_value": "0.0",
+        "tags": [
+          "LDR",
+          "light dependent resistor",
+          "light level",
+          "light sensor"
+        ],
+        "unit": {
+          "symbol": "Lux",
+          "label": "lux",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "1.0295043",
+        "at": "03/12/2011 18:04:41",
+        "max_value": "9.343209",
+        "min_value": "-0.28286004",
+        "tags": [
+          "arduino",
+          "processing",
+          "temperature",
+          "temperature depenent resistor",
+          "temperature sensor",
+          "Thermistor",
+          "thermistor"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Centigrade",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Jock's House",
+      "domain": 0,
+      "lat": "56.031644390709",
+      "lon": "-3.35943460464478",
+      "ele": "130",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/16129\" >Arduino Environment</a>",
+    "URLMostrar": "https://xively.com/feeds/16129"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\16129.json",
+  "DocumentJSON": null
+}

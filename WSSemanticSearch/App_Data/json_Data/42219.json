@@ -1,0 +1,52 @@
+{
+  "Conceptos": [
+    "project"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "42219",
+    "title": "Sump Pump Monitor",
+    "Private": false,
+    "tags": null,
+    "description": "Arduino Uno is connected to an Wifly shield.  I am using an MPX5010 pressure sensor connected to a tube into sump pit . The project also has 2 seven segment displays showing the water height. The project is monitoring my sump pit so that I can check on the water height from Hubcape.  I get a Prowl notification when the water level exceeds 12\".  I set up a trigger that sends me an SMS from my Twilio account when the water level is high. Flooding is a concern to me because I have a high water table.",
+    "feed": "https://api.xively.com/v2/feeds/42219.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:13:54",
+    "created": "12/19/2011 01:51:04",
+    "creator": "https://xively.com/users/falconeddy",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "0",
+        "at": "03/21/2014 14:13:53",
+        "max_value": "60.0",
+        "min_value": "-1.0",
+        "tags": [
+          "Water Depth"
+        ],
+        "unit": {
+          "symbol": "\"",
+          "label": "Inches",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Deer Park, Illinois ",
+      "domain": 0,
+      "lat": "42.1556084663572",
+      "lon": "-88.0859508849708",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/42219\" >Sump Pump Monitor</a>",
+    "URLMostrar": "https://xively.com/feeds/42219"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\42219.json",
+  "DocumentJSON": null
+}

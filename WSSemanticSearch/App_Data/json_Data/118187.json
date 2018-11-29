@@ -1,0 +1,136 @@
+{
+  "Conceptos": [
+    "co2"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "118187",
+    "title": "NanoSense_Office",
+    "Private": false,
+    "tags": [
+      "air quality"
+    ],
+    "description": "E4000 air quality probe + P4000 particles probe",
+    "feed": "https://api.xively.com/v2/feeds/118187.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:13:39",
+    "created": "03/08/2013 13:55:35",
+    "creator": "https://xively.com/users/nanosense_office",
+    "version": null,
+    "website": "http://www.nano-sense.com",
+    "datastreams": [
+      {
+        "id": "NS-CO2",
+        "current_value": "420",
+        "at": "03/21/2014 14:13:39",
+        "max_value": "2140.0",
+        "min_value": "320.0",
+        "tags": null,
+        "unit": {
+          "symbol": "ppm",
+          "label": "ppm",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "NS-HUM",
+        "current_value": "30",
+        "at": "03/21/2014 14:13:39",
+        "max_value": "46.0",
+        "min_value": "10.0",
+        "tags": null,
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "NS-PM1",
+        "current_value": "11",
+        "at": "03/21/2014 14:13:39",
+        "max_value": "354.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "µg/m³",
+          "label": "µg/m³",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "NS-PM10",
+        "current_value": "12",
+        "at": "03/21/2014 14:13:39",
+        "max_value": "409.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "µg/m³",
+          "label": "µg/m³",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "NS-PM2_5",
+        "current_value": "12",
+        "at": "03/21/2014 14:13:39",
+        "max_value": "401.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "µg/m³",
+          "label": "µg/m³",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "NS-TMP",
+        "current_value": "26",
+        "at": "03/21/2014 14:13:39",
+        "max_value": "32.8",
+        "min_value": "21.0",
+        "tags": null,
+        "unit": {
+          "symbol": "°C",
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "NS-VOC",
+        "current_value": "380",
+        "at": "03/21/2014 14:13:33",
+        "max_value": "3600.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "ppb",
+          "label": "ppb",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "NanoSense",
+      "domain": 0,
+      "lat": "48.8313058759842",
+      "lon": "2.23245620727539",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/118187\" >NanoSense_Office</a>",
+    "URLMostrar": "https://xively.com/feeds/118187"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\118187.json",
+  "DocumentJSON": null
+}

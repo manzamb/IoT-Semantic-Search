@@ -1,0 +1,117 @@
+{
+  "Conceptos": [
+    "sensor output"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "100112",
+    "title": "VMC",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "VMC"
+    ],
+    "description": "Temperature Mesurement of an controlled mechanical ventilation.\r\nSensors are Dallas DA18B20 and an Arduino with Ethernet Shield send datas over the Network directly every minutes.\r\nSensors are at one meter of the input and output of the ventilation.",
+    "feed": "https://api.xively.com/v2/feeds/100112.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "02/05/2013 20:11:57",
+    "created": "01/24/2013 13:46:45",
+    "creator": "https://xively.com/users/tornjoha",
+    "version": null,
+    "website": "http://www.pirlouit.ch",
+    "datastreams": [
+      {
+        "id": "06E313E40044",
+        "current_value": "12.81",
+        "at": "02/05/2013 20:11:57",
+        "max_value": "15.06",
+        "min_value": "8.75",
+        "tags": [
+          "External extract"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "086F83D40095",
+        "current_value": "18.69",
+        "at": "02/05/2013 20:11:57",
+        "max_value": "20.19",
+        "min_value": "15.94",
+        "tags": [
+          "Internal pulse"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "0B52C3E400E8",
+        "current_value": "8.94",
+        "at": "02/05/2013 20:11:57",
+        "max_value": "11.81",
+        "min_value": "4.25",
+        "tags": [
+          "External pulse"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "0E1F53D4003F",
+        "current_value": "20.81",
+        "at": "02/05/2013 20:11:57",
+        "max_value": "21.06",
+        "min_value": "18.0",
+        "tags": [
+          "Internal extract"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "efficiency",
+        "current_value": "82",
+        "at": "02/05/2013 20:11:57",
+        "max_value": "121.0",
+        "min_value": "59.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Vernayaz, Switzerland",
+      "domain": 0,
+      "lat": "46.1363558290072",
+      "lon": "7.04153895378113",
+      "ele": "465",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/100112\" >VMC</a>",
+    "URLMostrar": "https://xively.com/feeds/100112"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\100112.json",
+  "DocumentJSON": null
+}

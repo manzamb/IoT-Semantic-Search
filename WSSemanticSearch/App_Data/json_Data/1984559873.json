@@ -1,0 +1,148 @@
+{
+  "Conceptos": [
+    "solar radiation"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "1984559873",
+    "title": "GCU_Weather_Station",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/1984559873.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "06/20/2013 08:49:09",
+    "created": "06/20/2013 08:37:49",
+    "creator": "https://xively.com/users/safrid10",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "AT",
+        "current_value": "12.66",
+        "at": "06/20/2013 08:45:48",
+        "max_value": "12.66",
+        "min_value": "12.66",
+        "tags": [
+          "Air Temperature"
+        ],
+        "unit": {
+          "symbol": "deg C",
+          "label": "degree celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "ES",
+        "current_value": "0.1382",
+        "at": "06/20/2013 08:48:26",
+        "max_value": "0.1382",
+        "min_value": "0.1382",
+        "tags": [
+          "Solar Irradiation"
+        ],
+        "unit": {
+          "symbol": "kW/m2",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "RG1",
+        "current_value": "0.0",
+        "at": "06/20/2013 08:39:38",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "Rain"
+        ],
+        "unit": {
+          "symbol": "mm",
+          "label": "millimeter",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "RH",
+        "current_value": "72.70",
+        "at": "06/20/2013 08:47:00",
+        "max_value": "72.7",
+        "min_value": "72.7",
+        "tags": [
+          "Humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "ST",
+        "current_value": "-10.00",
+        "at": "06/20/2013 08:49:09",
+        "max_value": "-10.0",
+        "min_value": "-10.0",
+        "tags": [
+          "Soil Temperature"
+        ],
+        "unit": {
+          "symbol": "deg C",
+          "label": "degree celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "WD",
+        "current_value": "468.9",
+        "at": "06/20/2013 08:42:21",
+        "max_value": "468.9",
+        "min_value": "468.9",
+        "tags": [
+          "Wind Direction"
+        ],
+        "unit": {
+          "symbol": "deg",
+          "label": "degree",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "WS",
+        "current_value": "1.80",
+        "at": "06/20/2013 08:41:09",
+        "max_value": "1.8",
+        "min_value": "1.8",
+        "tags": [
+          "Wind Speed"
+        ],
+        "unit": {
+          "symbol": "m/s",
+          "label": "meter per second",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/1984559873\" >GCU_Weather_Station</a>",
+    "URLMostrar": "https://xively.com/feeds/1984559873"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\1984559873.json",
+  "DocumentJSON": null
+}

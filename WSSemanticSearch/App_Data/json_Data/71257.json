@@ -1,0 +1,232 @@
+{
+  "Conceptos": [
+    "system"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "71257",
+    "title": "Home Automation",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "Indoor and Outdoor Temp and humidity!"
+    ],
+    "description": "Part of my Home Automation System, still work under progress!",
+    "feed": "https://api.xively.com/v2/feeds/71257.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:13:41",
+    "created": "08/16/2012 13:18:32",
+    "creator": "https://xively.com/users/ckeijzer",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Ampera",
+        "current_value": "0",
+        "at": "03/21/2014 14:13:41",
+        "max_value": "29400.0",
+        "min_value": "0.0",
+        "tags": [
+          "Electric Vehicle",
+          "Opel Ampera"
+        ],
+        "unit": {
+          "symbol": "Watt",
+          "label": "W",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "IGas",
+        "current_value": "0.00",
+        "at": "03/21/2014 14:13:41",
+        "max_value": "4.8",
+        "min_value": "0.0",
+        "tags": [
+          "Current Gas Usage"
+        ],
+        "unit": {
+          "symbol": "m2/h",
+          "label": "m2",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "iWater",
+        "current_value": "0.00",
+        "at": "03/21/2014 14:13:41",
+        "max_value": "1092.0",
+        "min_value": "0.0",
+        "tags": [
+          "Drinkwater consumption"
+        ],
+        "unit": {
+          "symbol": "l/m",
+          "label": "liter",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "KostenAmpera",
+        "current_value": "2.12",
+        "at": "03/21/2014 14:13:41",
+        "max_value": "9.16",
+        "min_value": "0.0",
+        "tags": [
+          "Charging cost per day (EV)"
+        ],
+        "unit": {
+          "symbol": "€",
+          "label": "Euro",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "KostenOverige",
+        "current_value": "2.13",
+        "at": "03/21/2014 14:13:41",
+        "max_value": "12.18",
+        "min_value": "0.0",
+        "tags": [
+          "Electricity cost per day"
+        ],
+        "unit": {
+          "symbol": "€",
+          "label": "Euro",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "LDR1",
+        "current_value": "401",
+        "at": "03/21/2014 14:13:41",
+        "max_value": "677.0",
+        "min_value": "0.0",
+        "tags": [
+          "Light Intensity (0-530)"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "MaandGas",
+        "current_value": "26.39",
+        "at": "03/21/2014 14:13:41",
+        "max_value": "289.38",
+        "min_value": "0.0",
+        "tags": [
+          "Gas cost per month"
+        ],
+        "unit": {
+          "symbol": "€",
+          "label": "Euro",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "MaandOverige",
+        "current_value": "83.57",
+        "at": "03/21/2014 14:13:41",
+        "max_value": "244.13",
+        "min_value": "0.0",
+        "tags": [
+          "Electricity cost per month"
+        ],
+        "unit": {
+          "symbol": "€",
+          "label": "Euro",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "oHumidity",
+        "current_value": "37",
+        "at": "03/21/2014 14:13:41",
+        "max_value": "255.0",
+        "min_value": "18.0",
+        "tags": [
+          "Outdoor Humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "oTemp",
+        "current_value": "10.19",
+        "at": "03/21/2014 14:13:41",
+        "max_value": "49.13",
+        "min_value": "-127.0",
+        "tags": [
+          "Outdoor Temp"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Graden Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Overige",
+        "current_value": "840",
+        "at": "03/21/2014 14:13:41",
+        "max_value": "12840.0",
+        "min_value": "-11520.0",
+        "tags": [
+          "Electricity consumption Home"
+        ],
+        "unit": {
+          "symbol": "Watt",
+          "label": "W",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Totaal",
+        "current_value": "840",
+        "at": "03/21/2014 14:13:41",
+        "max_value": "19080.0",
+        "min_value": "0.0",
+        "tags": [
+          "Electricity consumption Totaal"
+        ],
+        "unit": {
+          "symbol": "Watt",
+          "label": "W",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Thuis",
+      "domain": 0,
+      "lat": "51.7159646452318",
+      "lon": "4.15620088577271",
+      "ele": "-2",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/71257\" >Home Automation</a>",
+    "URLMostrar": "https://xively.com/feeds/71257"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\71257.json",
+  "DocumentJSON": null
+}

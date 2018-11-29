@@ -1,0 +1,152 @@
+{
+  "Conceptos": [
+    "temperature"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "91035",
+    "title": "Temperature",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "Temp",
+      "Temperature"
+    ],
+    "description": "This data is from a series of temp sensors that I've placed around my home",
+    "feed": "https://api.xively.com/v2/feeds/91035.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:09:21",
+    "created": "12/09/2012 01:15:26",
+    "creator": "https://xively.com/users/tampapoet",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Office",
+        "current_value": "-133.2",
+        "at": "03/21/2014 14:09:20",
+        "max_value": "588.1",
+        "min_value": "-459.6",
+        "tags": [
+          "Office Temp"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "Fahrenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Outdoor",
+        "current_value": "73.8",
+        "at": "03/21/2014 14:09:20",
+        "max_value": "166.5",
+        "min_value": "0.0",
+        "tags": [
+          "Outdoor Temp"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "Fahrenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Outdoor_Internet",
+        "current_value": "0",
+        "at": "03/21/2014 14:09:20",
+        "max_value": "84.0",
+        "min_value": "0.0",
+        "tags": [
+          "Outdoor Temp Internet"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "Fahrenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "PowerMeter",
+        "current_value": "82.4",
+        "at": "03/21/2014 14:09:20",
+        "max_value": "125.6",
+        "min_value": "-149.8",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "Fahrenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "TempSensorAnalog",
+        "current_value": "77.00",
+        "at": "03/21/2014 14:09:20",
+        "max_value": "85.5",
+        "min_value": "58.2",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "Fahrenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "TempSensorDigital",
+        "current_value": "74.90",
+        "at": "03/21/2014 14:09:20",
+        "max_value": "84.6",
+        "min_value": "28.1",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "Fahrenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Thermostat",
+        "current_value": "0.0",
+        "at": "03/21/2014 14:09:20",
+        "max_value": "79.5",
+        "min_value": "0.0",
+        "tags": [
+          "Thermostat"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "Fahrenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Home",
+      "domain": 0,
+      "lat": "27.7889725974949",
+      "lon": "-82.3081970214844",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/91035\" >Temperature</a>",
+    "URLMostrar": "https://xively.com/feeds/91035"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\91035.json",
+  "DocumentJSON": null
+}

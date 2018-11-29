@@ -1,0 +1,164 @@
+{
+  "Conceptos": [
+    "sensor output"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "1509",
+    "title": "Solar panel array power output, etc.",
+    "Private": false,
+    "tags": null,
+    "description": "Experimenting with Solar Panels, Sensors, Arduino, Phidgets, MacOsx, Linux, Processing, Pachube, etc.",
+    "feed": "https://api.xively.com/v2/feeds/1509.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "09/02/2010 01:44:39",
+    "created": "03/06/2009 16:53:15",
+    "creator": "https://xively.com/users/gpz450",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "5",
+        "at": "09/02/2010 01:44:39",
+        "max_value": "95.0",
+        "min_value": "0.0",
+        "tags": [
+          "solar panel array 1"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": " Watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "0",
+        "at": "09/02/2010 01:44:39",
+        "max_value": "40.0",
+        "min_value": "0.0",
+        "tags": [
+          "unused"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "13.7",
+        "at": "09/02/2010 01:44:39",
+        "max_value": "15.0",
+        "min_value": "0.0",
+        "tags": [
+          "battery 1"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": " Volts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "13.9",
+        "at": "09/02/2010 01:44:39",
+        "max_value": "15.0",
+        "min_value": "0.0",
+        "tags": [
+          "battery 2"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": " Volts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "0",
+        "at": "09/02/2010 01:44:39",
+        "max_value": "780.0",
+        "min_value": "0.0",
+        "tags": [
+          "sunshine"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": " %",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "32.8",
+        "at": "09/02/2010 01:44:39",
+        "max_value": "40.0",
+        "min_value": "0.0",
+        "tags": [
+          "outside temp."
+        ],
+        "unit": {
+          "symbol": null,
+          "label": " Degrees C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "58",
+        "at": "09/02/2010 01:44:39",
+        "max_value": "100.0",
+        "min_value": "0.0",
+        "tags": [
+          "humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": " %",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "7",
+        "current_value": "50",
+        "at": "09/02/2010 01:44:39",
+        "max_value": "1000.0",
+        "min_value": "0.0",
+        "tags": [
+          "light intensity"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Lux",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "La Prairie, Quebec, Canada",
+      "domain": 0,
+      "lat": "45.4103215117917",
+      "lon": "-73.4632587432861",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/1509\" >Solar panel array power output, etc.</a>",
+    "URLMostrar": "https://xively.com/feeds/1509"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\1509.json",
+  "DocumentJSON": null
+}

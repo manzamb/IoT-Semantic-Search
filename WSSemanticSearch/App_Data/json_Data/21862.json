@@ -1,0 +1,68 @@
+{
+  "Conceptos": [
+    "sensor output"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "21862",
+    "title": "CO tests",
+    "Private": false,
+    "tags": null,
+    "description": "testing out sensor output with Pachube feed",
+    "feed": "https://api.xively.com/v2/feeds/21862.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "04/19/2011 04:35:40",
+    "created": "04/02/2011 00:51:20",
+    "creator": "https://xively.com/users/shahi271",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "580.0",
+        "at": "04/07/2011 19:54:28",
+        "max_value": "580.0",
+        "min_value": "580.0",
+        "tags": [
+          "CO"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "vOut",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "730.0",
+        "at": "04/19/2011 04:35:40",
+        "max_value": "730.0",
+        "min_value": "53.0",
+        "tags": [
+          "CO1"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "West New York, NJ",
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/21862\" >CO tests</a>",
+    "URLMostrar": "https://xively.com/feeds/21862"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\21862.json",
+  "DocumentJSON": null
+}

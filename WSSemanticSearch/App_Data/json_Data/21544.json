@@ -1,0 +1,157 @@
+{
+  "Conceptos": [
+    "biological"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "21544",
+    "title": "Kilpisjärvi Biological Station - Weather Tunnel",
+    "Private": false,
+    "tags": [
+      "air quality",
+      "carbon dioxide",
+      "carbon monoxide",
+      "humidity",
+      "light",
+      "noise",
+      "temperature",
+      "weather tunnel"
+    ],
+    "description": "This is the Weather Tunnel node located at the Kilpisjärvi Biological Station in Finland set up by the Finnish Bioart Society http://bioartsociety.fi",
+    "feed": "https://api.xively.com/v2/feeds/21544.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "09/10/2013 22:29:18",
+    "created": "03/28/2011 06:38:34",
+    "creator": "https://xively.com/users/weathertunnel",
+    "version": null,
+    "website": "http://tasml.parsons.edu",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "7",
+        "at": "09/10/2013 22:29:18",
+        "max_value": "250.0",
+        "min_value": "-5.0",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "°",
+          "label": "degrees celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "6",
+        "at": "09/10/2013 22:29:18",
+        "max_value": "382.0",
+        "min_value": "0.0",
+        "tags": [
+          "light"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "relative val",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "742",
+        "at": "09/10/2013 22:29:18",
+        "max_value": "890.0",
+        "min_value": "249.0",
+        "tags": [
+          "humidity"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "relative val",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "288",
+        "at": "09/10/2013 22:29:18",
+        "max_value": "439.0",
+        "min_value": "19.0",
+        "tags": [
+          "noise"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "relative val",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "890",
+        "at": "09/10/2013 22:29:18",
+        "max_value": "968.0",
+        "min_value": "510.0",
+        "tags": [
+          "carbon dioxide"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "relative val",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "126",
+        "at": "09/10/2013 22:29:18",
+        "max_value": "397.0",
+        "min_value": "0.0",
+        "tags": [
+          "carbon monoxide"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "relative val",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "54",
+        "at": "09/10/2013 22:29:18",
+        "max_value": "614.0",
+        "min_value": "1.0",
+        "tags": [
+          "air quality"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "relatiave val",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Kilpisjärvi Biological Station",
+      "domain": 0,
+      "lat": "69.0434345794954",
+      "lon": "20.8022956848145",
+      "ele": "483",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/21544\" >Kilpisjärvi Biological Station - Weather Tunnel</a>",
+    "URLMostrar": "https://xively.com/feeds/21544"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\21544.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,70 @@
+{
+  "Conceptos": [
+    "temperatura"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "11279",
+    "title": "Estacion meteorologica - Miguelitic",
+    "Private": false,
+    "tags": [
+      "temperatura presión atmosférica"
+    ],
+    "description": "Estación meteorológica.",
+    "feed": "https://api.xively.com/v2/feeds/11279.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "01/11/2014 17:57:26",
+    "created": "10/22/2010 20:54:22",
+    "creator": "https://xively.com/users/miguelitic",
+    "version": null,
+    "website": "http://www.miguelitic.com",
+    "datastreams": [
+      {
+        "id": "01",
+        "current_value": "+10.9",
+        "at": "01/11/2014 17:57:26",
+        "max_value": "12778153644107600000000.0",
+        "min_value": "-9999.0",
+        "tags": [
+          "Temperatura"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "Grados",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "02",
+        "current_value": "920",
+        "at": "01/11/2014 17:57:26",
+        "max_value": "1001.0",
+        "min_value": "902.0",
+        "tags": [
+          "Presión"
+        ],
+        "unit": {
+          "symbol": "hPa",
+          "label": "milibar",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Huércal-overa Almería Spain",
+      "domain": 0,
+      "lat": "37.4084525878418",
+      "lon": "-1.92991375923157",
+      "ele": "306 m",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/11279\" >Estacion meteorologica - Miguelitic</a>",
+    "URLMostrar": "https://xively.com/feeds/11279"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\11279.json",
+  "DocumentJSON": null
+}

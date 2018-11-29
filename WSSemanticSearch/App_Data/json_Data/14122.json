@@ -1,0 +1,72 @@
+{
+  "Conceptos": [
+    "parameter"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "14122",
+    "title": "Temperatur Carlow",
+    "Private": false,
+    "tags": [
+      "carlow",
+      "temperatur",
+      "wetter"
+    ],
+    "description": "Temperaturen und andere Wetterparameter im PLZ-Bereich 19217",
+    "feed": "https://api.xively.com/v2/feeds/14122.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "01/05/2011 12:21:55",
+    "created": "12/22/2010 15:54:45",
+    "creator": "https://xively.com/users/xtara",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "20.000",
+        "at": "01/05/2011 12:21:55",
+        "max_value": "20.0",
+        "min_value": "-5.93",
+        "tags": [
+          "Temperatur aussen 1 (Garten 1)"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": null,
+        "at": null,
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "Temperatur innen 1 (AZ)"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "http://www.google.com/mapfiles/markerA.png",
+      "domain": 0,
+      "lat": "53.7328454696616",
+      "lon": "10.7844543457031",
+      "ele": "43",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/14122\" >Temperatur Carlow</a>",
+    "URLMostrar": "https://xively.com/feeds/14122"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\14122.json",
+  "DocumentJSON": null
+}

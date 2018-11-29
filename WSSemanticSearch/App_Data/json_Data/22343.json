@@ -1,0 +1,278 @@
+{
+  "Conceptos": [
+    "moisture"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "22343",
+    "title": "JGCHouse",
+    "Private": false,
+    "tags": [
+      "Semi-detached private house home monitoring"
+    ],
+    "description": "Main house feed for Pachube Hackathon\r\nXino Basic for Atmel with three Dallas sensors connected monitoring my hot water tank, Xino Basic for Atmel with XRF monitoring a hanging basket. Sending the message (aProtocol of course) via XRF to a hub (Xino Basic for Atmel, more sensors, CC Envi link and ENC28J60 based ethernet shield and XRF) which then places the readings up on Pachube. I also have a version of the hub using a Nanode. I swop between them when updating code. (Update I now program the Nanode wirelessly with the XRF)\r\nXRF serial radio transceiver and Xino Basic for Atmel information here\r\nhttp://www.ciseco.co.uk/content/?page_id=1646\r\nNanode information here\r\nhttp://www.nanode.eu/\r\n",
+    "feed": "https://api.xively.com/v2/feeds/22343.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:06:50",
+    "created": "04/08/2011 16:23:04",
+    "creator": "https://xively.com/users/johncfeed",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "023925",
+        "at": "03/21/2014 14:06:49",
+        "max_value": "32767.0",
+        "min_value": "-32768.0",
+        "tags": [
+          "Message Count"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "-00001",
+        "at": "03/21/2014 14:06:49",
+        "max_value": "13233.0",
+        "min_value": "-256.0",
+        "tags": [
+          "House Electricity"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watt",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "26.30",
+        "at": "03/21/2014 14:06:49",
+        "max_value": "216.0",
+        "min_value": "-127.0",
+        "tags": [
+          "Inside Temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "10.50",
+        "at": "03/21/2014 14:06:49",
+        "max_value": "85.0",
+        "min_value": "-127.0",
+        "tags": [
+          "Outside temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "-00001",
+        "at": "03/21/2014 14:06:49",
+        "max_value": "32767.0",
+        "min_value": "-32768.0",
+        "tags": [
+          "Gas pulse count"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Count",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "0.000",
+        "at": "03/21/2014 14:06:49",
+        "max_value": "4.803",
+        "min_value": "0.0",
+        "tags": [
+          "Airing cupboard monitor battery voltage"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": "Volts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "0.000",
+        "at": "03/21/2014 14:06:49",
+        "max_value": "2012.0",
+        "min_value": "0.0",
+        "tags": [
+          "HW Cylinder temp top"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "7",
+        "current_value": "0.000",
+        "at": "03/21/2014 14:06:49",
+        "max_value": "43.1",
+        "min_value": "0.0",
+        "tags": [
+          "HW Cylinder temp at thermostat"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "8",
+        "current_value": "0.000",
+        "at": "03/21/2014 14:06:49",
+        "max_value": "35.1",
+        "min_value": "0.0",
+        "tags": [
+          "Airing cupboard air temp"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "9",
+        "current_value": "0.000",
+        "at": "03/21/2014 14:06:49",
+        "max_value": "5.49",
+        "min_value": "0.0",
+        "tags": [
+          "Moisture sensor voltage"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": "Volts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "10",
+        "current_value": "0.0000",
+        "at": "03/21/2014 14:06:49",
+        "max_value": "5777772.0",
+        "min_value": "0.0",
+        "tags": [
+          "Soil Moisture value"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "0=low",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "11",
+        "current_value": "2.050",
+        "at": "03/21/2014 14:06:49",
+        "max_value": "3.1",
+        "min_value": "0.0",
+        "tags": [
+          "Shed monitor"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": "Volts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "12",
+        "current_value": "12.82",
+        "at": "03/21/2014 14:06:49",
+        "max_value": "96.7",
+        "min_value": "-30.0",
+        "tags": [
+          "Shed Monitor"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "13",
+        "current_value": "0.000",
+        "at": "03/21/2014 14:06:49",
+        "max_value": "3.57",
+        "min_value": "0.0",
+        "tags": [
+          "Bedroom A"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": "Volts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "14",
+        "current_value": "0.000",
+        "at": "03/21/2014 14:06:49",
+        "max_value": "28.62",
+        "min_value": "0.0",
+        "tags": [
+          "Bedroom A"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Nottingham",
+      "domain": 0,
+      "lat": "52.9476035600065",
+      "lon": "-1.20265960693359",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/22343\" >JGCHouse</a>",
+    "URLMostrar": "https://xively.com/feeds/22343"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\22343.json",
+  "DocumentJSON": null
+}

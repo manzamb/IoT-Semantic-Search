@@ -1,0 +1,119 @@
+{
+  "Conceptos": [
+    "area"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "47043",
+    "title": "Austin Apartment Indoor Temperature, Austin, TX",
+    "Private": false,
+    "tags": [
+      "a/c",
+      "air",
+      "apartment",
+      "Austin",
+      "crappy",
+      "heat",
+      "hvac",
+      "indoor",
+      "relative humidity",
+      "temperature"
+    ],
+    "description": "Lately my wife and I have been having issues with the air conditioner in our apartment.  Some days it won't blow cold, others the heat won't work.  After christmas we returned from visiting family to learn that the heater (while turned off) decided to switch itself on and stay on.  It was 104 degrees indoors in our apartment.  Being an engineer and fed up with the comfort of our own home, I built some Arduino temperature reporters to report the temperature to pachube (now Cosm).  I plan on adding a third and fourth unit in the living room and office, respectively, to monitor the temperature differential between the all of these areas (often 10 degrees or more).",
+    "feed": "https://api.xively.com/v2/feeds/47043.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "07/30/2012 04:15:23",
+    "created": "02/05/2012 22:04:12",
+    "creator": "https://xively.com/users/lars",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "77.18",
+        "at": "07/30/2012 04:15:23",
+        "max_value": "84.56",
+        "min_value": "66.38",
+        "tags": [
+          "(F)",
+          "Master_Bedroom",
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "°F",
+          "label": "Fahrenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "46.1",
+        "at": "07/30/2012 04:15:23",
+        "max_value": "63.2",
+        "min_value": "30.4",
+        "tags": [
+          "Humidity",
+          "Master_Bedroom",
+          "Relative"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "55.94",
+        "at": "07/30/2012 04:15:16",
+        "max_value": "97.88",
+        "min_value": "39.74",
+        "tags": [
+          "(F)",
+          "HVAC_Exhaust",
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "°F",
+          "label": "Fahrenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "92.2",
+        "at": "07/30/2012 04:15:16",
+        "max_value": "99.9",
+        "min_value": "17.5",
+        "tags": [
+          "Humidity",
+          "HVAC_Exhaust",
+          "Relative"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "30.4160002000635",
+      "lon": "-97.7510261535645",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/47043\" >Austin Apartment Indoor Temperature, Austin, TX</a>",
+    "URLMostrar": "https://xively.com/feeds/47043"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\47043.json",
+  "DocumentJSON": null
+}

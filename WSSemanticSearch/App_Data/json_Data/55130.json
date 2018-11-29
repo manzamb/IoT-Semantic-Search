@@ -1,0 +1,68 @@
+{
+  "Conceptos": [
+    "condition"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "55130",
+    "title": "RC Field Conditions",
+    "Private": false,
+    "tags": [
+      "Wind"
+    ],
+    "description": "RC Plane field",
+    "feed": "https://api.xively.com/v2/feeds/55130.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "06/09/2012 15:47:20",
+    "created": "04/09/2012 00:41:22",
+    "creator": "https://xively.com/users/sirchas",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "1",
+        "current_value": "wnd",
+        "at": "06/09/2012 15:47:20",
+        "max_value": "1.0",
+        "min_value": "1.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "WND",
+        "current_value": "2",
+        "at": "06/09/2012 15:47:20",
+        "max_value": "369.0",
+        "min_value": "0.0",
+        "tags": [
+          "Wind"
+        ],
+        "unit": {
+          "symbol": "WND1",
+          "label": "MPH",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Pownal, VT",
+      "domain": 0,
+      "lat": "42.7553316335238",
+      "lon": "-73.2352066040039",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/55130\" >RC Field Conditions</a>",
+    "URLMostrar": "https://xively.com/feeds/55130"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\55130.json",
+  "DocumentJSON": null
+}

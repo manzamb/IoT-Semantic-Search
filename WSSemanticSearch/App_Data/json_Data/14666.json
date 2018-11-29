@@ -1,0 +1,136 @@
+{
+  "Conceptos": [
+    "pst"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "14666",
+    "title": "Arduino -- Cabin",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "jeenode",
+      "temperature"
+    ],
+    "description": "Arduino Uno and JeeNode setup measuring temperatures currently.",
+    "feed": "https://api.xively.com/v2/feeds/14666.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:10:25",
+    "created": "01/08/2011 07:25:41",
+    "creator": "https://xively.com/users/seigel",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "20.31",
+        "at": "03/21/2014 14:10:03",
+        "max_value": "28.69",
+        "min_value": "9.56",
+        "tags": [
+          "temperature upstairs"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "18.50",
+        "at": "03/21/2014 14:10:03",
+        "max_value": "25.75",
+        "min_value": "8.44",
+        "tags": [
+          "temperature downstairs"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "-3.14999999999998",
+        "at": "03/21/2014 14:10:04",
+        "max_value": "32.0",
+        "min_value": "-38.0",
+        "tags": [
+          "temperature outside"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "-2.0",
+        "at": "03/21/2014 14:10:04",
+        "max_value": "124.2",
+        "min_value": "-27.5",
+        "tags": [
+          "temperature, outside, actual, carport"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "-2.0",
+        "at": "03/21/2014 14:10:25",
+        "max_value": "37.0",
+        "min_value": "-27.5",
+        "tags": [
+          "cabin.outside.temp"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "0",
+        "at": "03/21/2014 14:10:25",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "cabin.outside.lobat"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Cabin",
+      "domain": 0,
+      "lat": "50.4996158906784",
+      "lon": "-116.03141784668",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/14666\" >Arduino -- Cabin</a>",
+    "URLMostrar": "https://xively.com/feeds/14666"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\14666.json",
+  "DocumentJSON": null
+}

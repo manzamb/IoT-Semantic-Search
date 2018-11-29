@@ -1,0 +1,72 @@
+{
+  "Conceptos": [
+    "condition"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "20148",
+    "title": "Conditions at home",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "humidity",
+      "temperature"
+    ],
+    "description": "Temperature and humidity, taken with an Arduino and a DHT22 sensor. ",
+    "feed": "https://api.xively.com/v2/feeds/20148.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "05/05/2013 22:45:45",
+    "created": "03/12/2011 02:14:47",
+    "creator": "https://xively.com/users/bjepson",
+    "version": null,
+    "website": "https://github.com/bjepson/DHT22-Pachube-Feed",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "69",
+        "at": "05/05/2013 22:45:45",
+        "max_value": "25460.0",
+        "min_value": "32.0",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "°",
+          "label": "F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "39",
+        "at": "05/05/2013 22:45:45",
+        "max_value": "28174.0",
+        "min_value": "0.0",
+        "tags": [
+          "humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Kingston, RI",
+      "domain": 0,
+      "lat": "41.4722839665213",
+      "lon": "-71.5260171890259",
+      "ele": "60m",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/20148\" >Conditions at home</a>",
+    "URLMostrar": "https://xively.com/feeds/20148"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\20148.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,171 @@
+{
+  "Conceptos": [
+    "atmospheric pressure"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "70086",
+    "title": "Vini's Home - Protótipo para captura de dados ambientais utilizando a plataforma Arduino",
+    "Private": false,
+    "tags": [
+      "AM2301",
+      "arduino",
+      "BH1750",
+      "BMP085",
+      "dht21",
+      "humidity",
+      "luminosity",
+      "nRF24L01",
+      "pressure",
+      "solar charger",
+      "temperature"
+    ],
+    "description": "Arduino Mega 1280 com sensores: AM2301, BMP085 e BH1750, transmitindo dados por wifi utilizando nRF24L01, e alimentado por célula solar.",
+    "feed": "https://api.xively.com/v2/feeds/70086.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "10/22/2013 23:46:44",
+    "created": "08/05/2012 03:48:37",
+    "creator": "https://xively.com/users/vinisuguimoto",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "bateria",
+        "current_value": "1633",
+        "at": "10/22/2013 23:46:44",
+        "max_value": "4871.0",
+        "min_value": "0.0",
+        "tags": [
+          "bateria",
+          "battery"
+        ],
+        "unit": {
+          "symbol": "mV",
+          "label": "milivolt",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "luminos",
+        "current_value": "0",
+        "at": "10/22/2013 23:46:44",
+        "max_value": "4294837170.0",
+        "min_value": "0.0",
+        "tags": [
+          "BH1750",
+          "luminosidade"
+        ],
+        "unit": {
+          "symbol": "lux",
+          "label": "lux",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "orvalho",
+        "current_value": "19.22",
+        "at": "10/22/2013 23:46:44",
+        "max_value": "140.92",
+        "min_value": "-15.02",
+        "tags": [
+          "dew point",
+          "ponto de orvalho"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "grau centigrados",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "pressao",
+        "current_value": "1010.99",
+        "at": "10/22/2013 23:46:44",
+        "max_value": "1021.48",
+        "min_value": "0.0",
+        "tags": [
+          "atmospheric pressure",
+          "BMP085",
+          "pressao atmosferica"
+        ],
+        "unit": {
+          "symbol": "hPa",
+          "label": "hectoPascal",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temper1",
+        "current_value": "25.20",
+        "at": "10/22/2013 23:46:44",
+        "max_value": "44.6",
+        "min_value": "-34.7",
+        "tags": [
+          "BMP085",
+          "temperatura",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "graus centigrados",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temper2",
+        "current_value": "25.80",
+        "at": "10/22/2013 23:46:44",
+        "max_value": "43.6",
+        "min_value": "0.0",
+        "tags": [
+          "AM2301",
+          "temperatura",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "graus centigrados",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "umidade",
+        "current_value": "67.10",
+        "at": "10/22/2013 23:46:44",
+        "max_value": "7884.8",
+        "min_value": "0.0",
+        "tags": [
+          "AM2301",
+          "humidity",
+          "umidade"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "UR%",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "nova andradina",
+      "domain": 0,
+      "lat": "-22.2477825856062",
+      "lon": "-53.3481287956238",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/70086\" >Vini's Home - Protótipo para captura de dados ambientais utilizando a plataforma Arduino</a>",
+    "URLMostrar": "https://xively.com/feeds/70086"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\70086.json",
+  "DocumentJSON": null
+}

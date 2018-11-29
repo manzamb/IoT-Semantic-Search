@@ -1,0 +1,132 @@
+{
+  "Conceptos": [
+    "parametro"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "1808617893",
+    "title": "Fraidias Acuario test",
+    "Private": false,
+    "tags": null,
+    "description": "Monitorizar parametros acuario en tiempo real",
+    "feed": "https://api.xively.com/v2/feeds/1808617893.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "02/25/2014 19:16:09",
+    "created": "12/03/2013 20:52:52",
+    "creator": "https://xively.com/users/fraidias",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Leds_Azules",
+        "current_value": "0",
+        "at": "02/25/2014 19:16:09",
+        "max_value": "100.0",
+        "min_value": "0.0",
+        "tags": [
+          "Grafica Canal led azul"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Leds_AzulesRoyal",
+        "current_value": "0",
+        "at": "02/25/2014 19:16:09",
+        "max_value": "100.0",
+        "min_value": "0.0",
+        "tags": [
+          "Grafica Canal led azul Real"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Leds_Blancos",
+        "current_value": "0",
+        "at": "02/25/2014 19:16:09",
+        "max_value": "100.0",
+        "min_value": "0.0",
+        "tags": [
+          "Grafica Canal led blancos"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Leds_Luna",
+        "current_value": "73",
+        "at": "02/25/2014 19:16:09",
+        "max_value": "100.0",
+        "min_value": "0.0",
+        "tags": [
+          "Grafica Canal led Luna"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Leds_Rojos",
+        "current_value": "0",
+        "at": "02/25/2014 19:16:09",
+        "max_value": "100.0",
+        "min_value": "0.0",
+        "tags": [
+          "Grafica Canal led Rojo"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Ventilacion_Pantalla_Leds",
+        "current_value": "0",
+        "at": "02/25/2014 19:16:09",
+        "max_value": "100.0",
+        "min_value": "0.0",
+        "tags": [
+          "Grafica % Velocidad Ventiladores"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "LLEIDA",
+      "domain": 0,
+      "lat": "41.626889",
+      "lon": "0.640260000000012",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/1808617893\" >Fraidias Acuario test</a>",
+    "URLMostrar": "https://xively.com/feeds/1808617893"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\1808617893.json",
+  "DocumentJSON": null
+}

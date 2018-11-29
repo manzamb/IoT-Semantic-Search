@@ -1,0 +1,98 @@
+{
+  "Conceptos": [
+    "solar radiation"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "55815",
+    "title": "Otter Pond Weather Data",
+    "Private": false,
+    "tags": [
+      "Temperature"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/55815.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:14:08",
+    "created": "04/16/2012 16:42:08",
+    "creator": "https://xively.com/users/mcallb",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Basement_Humidity",
+        "current_value": "     48.7487",
+        "at": "03/21/2014 14:14:08",
+        "max_value": "89.1264",
+        "min_value": "0.0",
+        "tags": [
+          "humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "relative humidity",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Basement_Temperature",
+        "current_value": "     45.8375",
+        "at": "03/21/2014 14:14:08",
+        "max_value": "69.8",
+        "min_value": "0.0",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "(F)",
+          "label": "degree Fahrenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Basement_Visibility",
+        "current_value": "  -0.0002441",
+        "at": "03/21/2014 14:14:08",
+        "max_value": "1.0",
+        "min_value": "-0.0007323",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "Solar Radiation",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Garage_Temperature",
+        "current_value": "NA",
+        "at": "01/08/2013 18:02:54",
+        "max_value": "74.075",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "°F",
+          "label": "degree Farenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Cove Point",
+      "domain": 0,
+      "lat": "43.4337814970251",
+      "lon": "-72.0571106672287",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/55815\" >Otter Pond Weather Data</a>",
+    "URLMostrar": "https://xively.com/feeds/55815"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\55815.json",
+  "DocumentJSON": null
+}

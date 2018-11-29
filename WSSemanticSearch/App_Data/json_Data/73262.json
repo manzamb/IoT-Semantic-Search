@@ -1,0 +1,110 @@
+{
+  "Conceptos": [
+    "humedad"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "73262",
+    "title": "sensor_exterior",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "humedad",
+      "temperatura"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/73262.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:07:02",
+    "created": "08/31/2012 18:14:29",
+    "creator": "https://xively.com/users/elorenzo",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "HumedadDHT",
+        "current_value": "70.00",
+        "at": "03/21/2014 14:07:02",
+        "max_value": "95.0",
+        "min_value": "37.0",
+        "tags": null,
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "PresionBMP",
+        "current_value": "98966.00",
+        "at": "03/21/2014 14:07:02",
+        "max_value": "164292.0",
+        "min_value": "69675.0",
+        "tags": null,
+        "unit": {
+          "symbol": "Pa",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "PuntoRocioDHT",
+        "current_value": "5.75",
+        "at": "03/21/2014 14:07:02",
+        "max_value": "19.1",
+        "min_value": "-4.92",
+        "tags": null,
+        "unit": {
+          "symbol": "ºC",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "TemperaturaBMP",
+        "current_value": "13.44",
+        "at": "03/21/2014 14:07:02",
+        "max_value": "45.98",
+        "min_value": "2.57",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "TemperaturaDHT",
+        "current_value": "11.00",
+        "at": "03/21/2014 14:07:02",
+        "max_value": "25.0",
+        "min_value": "1.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Santa Eulalia",
+      "domain": 0,
+      "lat": "43.2807045859309",
+      "lon": "-5.88300704956055",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/73262\" >sensor_exterior</a>",
+    "URLMostrar": "https://xively.com/feeds/73262"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\73262.json",
+  "DocumentJSON": null
+}

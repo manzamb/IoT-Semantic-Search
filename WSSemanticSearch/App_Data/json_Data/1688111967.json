@@ -1,0 +1,93 @@
+{
+  "Conceptos": [
+    "person"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "1688111967",
+    "title": "woodland park zoo",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/1688111967.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "05/22/2013 04:14:08",
+    "created": "05/22/2013 04:06:10",
+    "creator": "https://xively.com/users/anandoka",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Occupancy",
+        "current_value": "11",
+        "at": "06/27/2013 18:27:27",
+        "max_value": "200.0",
+        "min_value": "0.0",
+        "tags": [
+          "humans",
+          "occupied",
+          "people",
+          "persons"
+        ],
+        "unit": {
+          "symbol": "persons",
+          "label": "persons",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Parking",
+        "current_value": "22",
+        "at": "06/27/2013 18:27:27",
+        "max_value": "112.0",
+        "min_value": "0.0",
+        "tags": [
+          "bus",
+          "car",
+          "parking",
+          "valet"
+        ],
+        "unit": {
+          "symbol": "spaces",
+          "label": "spaces",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "SpecialExhibits",
+        "current_value": null,
+        "at": "05/22/2013 04:11:32",
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "animals",
+          "exhibit",
+          "seasonal",
+          "special"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "47.6717269",
+      "lon": "-122.3513931",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/1688111967\" >woodland park zoo</a>",
+    "URLMostrar": "https://xively.com/feeds/1688111967"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\1688111967.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,91 @@
+{
+  "Conceptos": [
+    "wind"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "58984",
+    "title": "MeteoStation KZS",
+    "Private": false,
+    "tags": [
+      "Humidity",
+      "Pressure",
+      "Radiation",
+      "Temperature",
+      "Wind angle",
+      "Wind speed"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/58984.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:07:04",
+    "created": "05/11/2012 10:30:58",
+    "creator": "https://xively.com/users/krezalis",
+    "version": null,
+    "website": "http://meteo.prs.net.ua/",
+    "datastreams": [
+      {
+        "id": "Temp1",
+        "current_value": "16.75",
+        "at": "03/21/2014 14:07:04",
+        "max_value": "1200.06",
+        "min_value": "-1939.69",
+        "tags": [
+          "tech temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "T",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperature",
+        "current_value": "20.25",
+        "at": "03/21/2014 14:07:04",
+        "max_value": "1200.0",
+        "min_value": "-1950.62",
+        "tags": [
+          "air temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "T",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Volume",
+        "current_value": "0",
+        "at": "03/21/2014 14:07:04",
+        "max_value": "237.6",
+        "min_value": "0.0",
+        "tags": [
+          "volume"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "V",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Lviv",
+      "domain": 0,
+      "lat": "49.8449430452908",
+      "lon": "24.0286552906036",
+      "ele": "311",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/58984\" >MeteoStation KZS</a>",
+    "URLMostrar": "https://xively.com/feeds/58984"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\58984.json",
+  "DocumentJSON": null
+}

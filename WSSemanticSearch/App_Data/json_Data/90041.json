@@ -1,0 +1,267 @@
+{
+  "Conceptos": [
+    "no2"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "90041",
+    "title": "Heizduino2012",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "Hannover",
+      "Hannover Kirchrode",
+      "Heizung Steuerung",
+      "Heizungssteuerung"
+    ],
+    "description": "Work in progress; zur Zeit im \"produktiven\" Einsatz - im Keller :-) Die Heizungsperiode hat begonnen. \r\n\r\nProblem der Schwankungen der Sensoren ist behoben :-) (Kondensatoren eingebaut), Abstürze bei Relaisschaltungen ebenfalls (CAT7-Kabel für die Datenleitung zum LCD-Display und Keypad an der Strecke, die von der 230V-Stromversorgung für die Pumpe) \r\n\r\nDatentransport zu COSM klappt nun auch super. Letzten Code gibt es bei \r\nhttp://heizduino.blogspot.de/",
+    "feed": "https://api.xively.com/v2/feeds/90041.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:11:50",
+    "created": "12/05/2012 12:02:22",
+    "creator": "https://xively.com/users/heizduino",
+    "version": null,
+    "website": "http://heizduino.blogspot.de/",
+    "datastreams": [
+      {
+        "id": "manuell",
+        "current_value": "0",
+        "at": "03/21/2014 14:11:50",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "0 fuer automatik",
+          "1 fuer manuell"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "relais0",
+        "current_value": "0",
+        "at": "03/21/2014 14:11:50",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "Zusatzumwälzpumpe"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "relais1",
+        "current_value": "0",
+        "at": "03/21/2014 14:11:50",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "Auffuellen eines Boilers"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "relais2",
+        "current_value": "0",
+        "at": "03/21/2014 14:11:50",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "Befüllung des kleinen Boilers"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "relais3",
+        "current_value": "0",
+        "at": "03/21/2014 14:11:50",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "Befüllung des großen Boilers"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "relais4",
+        "current_value": "0",
+        "at": "03/21/2014 14:11:50",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "Umwaelzung zwischen den Boilern"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "relais6",
+        "current_value": "0",
+        "at": "03/21/2014 14:11:50",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "WW-Quelle kleiner Boiler"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "relais7",
+        "current_value": "1",
+        "at": "03/21/2014 14:11:50",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "WW-Quelle großer Boiler"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "sensor0",
+        "current_value": "37.16",
+        "at": "03/21/2014 14:11:50",
+        "max_value": "99.0",
+        "min_value": "0.0",
+        "tags": [
+          "300l-Boiler oben"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "sensor1",
+        "current_value": "27.63",
+        "at": "03/21/2014 14:11:50",
+        "max_value": "99.0",
+        "min_value": "0.0",
+        "tags": [
+          "300l-Boiler unten"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "sensor2",
+        "current_value": "41.44",
+        "at": "03/21/2014 14:11:50",
+        "max_value": "99.0",
+        "min_value": "0.0",
+        "tags": [
+          "500l-Boiler oben"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "sensor3",
+        "current_value": "37.06",
+        "at": "03/21/2014 14:11:50",
+        "max_value": "99.0",
+        "min_value": "0.0",
+        "tags": [
+          "500l-Boiler unten"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "sensor4",
+        "current_value": "20.00",
+        "at": "03/21/2014 14:11:50",
+        "max_value": "99.0",
+        "min_value": "0.0",
+        "tags": [
+          "Vorlauf"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "sensor5",
+        "current_value": "19.54",
+        "at": "03/21/2014 14:11:50",
+        "max_value": "99.0",
+        "min_value": "0.0",
+        "tags": [
+          "Ruecklauf"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Hannover Kirchrode",
+      "domain": 0,
+      "lat": "52.359405194633",
+      "lon": "9.8146963054736",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/90041\" >Heizduino2012</a>",
+    "URLMostrar": "https://xively.com/feeds/90041"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\90041.json",
+  "DocumentJSON": null
+}

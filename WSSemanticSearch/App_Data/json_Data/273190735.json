@@ -1,0 +1,78 @@
+{
+  "Conceptos": [
+    "project"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "273190735",
+    "title": "ArduDash",
+    "Private": false,
+    "tags": null,
+    "description": "Ardudash interface for thermostat project",
+    "feed": "https://api.xively.com/v2/feeds/273190735.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "01/10/2014 19:19:57",
+    "created": "11/26/2013 04:49:47",
+    "creator": "https://xively.com/users/rsangole",
+    "version": null,
+    "website": "http://www.youtube.com/watch?v=z1s1mtyi8uU",
+    "datastreams": [
+      {
+        "id": "Humidity",
+        "current_value": "0",
+        "at": "01/10/2014 19:19:50",
+        "max_value": "46.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "TCommand",
+        "current_value": "20",
+        "at": "01/10/2014 19:19:50",
+        "max_value": "21.0",
+        "min_value": "-17.0",
+        "tags": null,
+        "unit": {
+          "symbol": "deg C",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperature",
+        "current_value": "0",
+        "at": "01/10/2014 19:19:50",
+        "max_value": "30.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "deg C",
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Home",
+      "domain": 0,
+      "lat": "39.2014404",
+      "lon": "-85.9213796",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/273190735\" >ArduDash</a>",
+    "URLMostrar": "https://xively.com/feeds/273190735"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\273190735.json",
+  "DocumentJSON": null
+}

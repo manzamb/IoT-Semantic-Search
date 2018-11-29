@@ -1,0 +1,156 @@
+{
+  "Conceptos": [
+    "air quality"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "26438",
+    "title": "Mejiro Weather Station",
+    "Private": false,
+    "tags": [
+      "Ambient",
+      "Dust",
+      "Humidity",
+      "Mejiro",
+      "Pressure",
+      "Temperature",
+      "Tokyo"
+    ],
+    "description": "Powered by a Freakduino Chibi 900Mhz board.\r\n\r\nSensors used:\r\n - Temperature/Humidity: DHT22\r\n - Pressure: BMP085\r\n - Gaz: MQ5\r\n - Dust: PPD42NS\r\n - Carbon Monoxide: MQ-7\r\n\r\nFutur sensors:\r\n - MQ-135 NOx sensor\r\n - TP-401A Indoor Air Quality",
+    "feed": "https://api.xively.com/v2/feeds/26438.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:09:13",
+    "created": "06/11/2011 04:52:37",
+    "creator": "https://xively.com/users/lbergeret",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "23.8",
+        "at": "03/21/2014 14:09:13",
+        "max_value": "37.6",
+        "min_value": "16.0",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "46.2",
+        "at": "03/21/2014 14:09:13",
+        "max_value": "67.2",
+        "min_value": "19.8",
+        "tags": [
+          "Humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "1005.54",
+        "at": "03/21/2014 14:09:13",
+        "max_value": "1026.65",
+        "min_value": "971.56",
+        "tags": [
+          "Pressure"
+        ],
+        "unit": {
+          "symbol": "hPa",
+          "label": "hPa",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "1.1",
+        "at": "03/21/2014 14:09:13",
+        "max_value": "2.6",
+        "min_value": "0.3",
+        "tags": [
+          "Gaz"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": "0-5",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "0.090",
+        "at": "03/21/2014 14:09:13",
+        "max_value": "79.754",
+        "min_value": "0.002",
+        "tags": [
+          "Particle count"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "particules/mL",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "0.048",
+        "at": "03/21/2014 14:09:13",
+        "max_value": "22.63",
+        "min_value": "0.0",
+        "tags": [
+          "Ratio"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "low pulse occupancy ratio",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "0.5",
+        "at": "03/21/2014 14:07:41",
+        "max_value": "1.2",
+        "min_value": "0.1",
+        "tags": [
+          "CO"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": "0-5",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Mejiro",
+      "domain": 0,
+      "lat": "35.7212909816595",
+      "lon": "139.703178405762",
+      "ele": "33.89",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/26438\" >Mejiro Weather Station</a>",
+    "URLMostrar": "https://xively.com/feeds/26438"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\26438.json",
+  "DocumentJSON": null
+}

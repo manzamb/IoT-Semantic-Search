@@ -1,0 +1,120 @@
+{
+  "Conceptos": [
+    "mercury"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "46550",
+    "title": "Netduino test",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/46550.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "02/05/2012 22:41:44",
+    "created": "02/01/2012 00:41:53",
+    "creator": "https://xively.com/users/clemmece",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Battery",
+        "current_value": "0.00",
+        "at": "02/05/2012 22:41:44",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "V",
+          "label": "SI Derived",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Dewpoint",
+        "current_value": "41.0",
+        "at": "02/05/2012 22:41:44",
+        "max_value": "48.7",
+        "min_value": "36.9",
+        "tags": null,
+        "unit": {
+          "symbol": "F",
+          "label": "Degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Humidity",
+        "current_value": "35",
+        "at": "02/05/2012 22:41:44",
+        "max_value": "47.0",
+        "min_value": "33.0",
+        "tags": null,
+        "unit": {
+          "symbol": "%",
+          "label": "Percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Light",
+        "current_value": "0.1",
+        "at": "02/05/2012 22:41:44",
+        "max_value": "5.2",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "%",
+          "label": "Percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Pressure",
+        "current_value": "34.737",
+        "at": "02/05/2012 22:41:44",
+        "max_value": "34.739",
+        "min_value": "34.55",
+        "tags": null,
+        "unit": {
+          "symbol": "mmHg",
+          "label": "Millimeters of Mercury",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperature",
+        "current_value": "69.7",
+        "at": "02/05/2012 22:41:44",
+        "max_value": "71.0",
+        "min_value": "65.1",
+        "tags": null,
+        "unit": {
+          "symbol": "F",
+          "label": "Degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "37.7854085882982",
+      "lon": "-79.4399153592981",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/46550\" >Netduino test</a>",
+    "URLMostrar": "https://xively.com/feeds/46550"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\46550.json",
+  "DocumentJSON": null
+}

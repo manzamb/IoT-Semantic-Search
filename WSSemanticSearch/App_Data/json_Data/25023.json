@@ -1,0 +1,107 @@
+{
+  "Conceptos": [
+    "radioactivity"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "25023",
+    "title": "Radioactivity density of water at Kashima water source, Fukushima",
+    "Private": false,
+    "tags": [
+      "device:type=virtual",
+      "sensor:type=radiation"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/25023.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "07/14/2011 13:06:43",
+    "created": "05/10/2011 16:27:00",
+    "creator": "https://xively.com/users/kaku60",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "cs-134",
+        "current_value": "0.0",
+        "at": "07/14/2011 13:06:42",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "sensor:env=water",
+          "sensor:type=cs-134"
+        ],
+        "unit": {
+          "symbol": "Bq/kg",
+          "label": "becquerel per kilogram",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "cs-137",
+        "current_value": "0.0",
+        "at": "07/14/2011 13:06:42",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "sensor:env=water",
+          "sensor:type=cs-137"
+        ],
+        "unit": {
+          "symbol": "Bq/kg",
+          "label": "becquerel per kilogram",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "i-131",
+        "current_value": "0.0",
+        "at": "07/14/2011 13:06:42",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "sensor:env=water",
+          "sensor:type=i-131"
+        ],
+        "unit": {
+          "symbol": "Bq/kg",
+          "label": "becquerel per kilogram",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "i-132",
+        "current_value": "0.0",
+        "at": "07/14/2011 13:06:43",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "sensor:env=water",
+          "sensor:type=i-132"
+        ],
+        "unit": {
+          "symbol": "Bq/kg",
+          "label": "becquerel per kilogram",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Minamisoma, Fukushima, Japan",
+      "domain": 0,
+      "lat": "37.7068436932689",
+      "lon": "140.953216552734",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/25023\" >Radioactivity density of water at Kashima water source, Fukushima</a>",
+    "URLMostrar": "https://xively.com/feeds/25023"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\25023.json",
+  "DocumentJSON": null
+}

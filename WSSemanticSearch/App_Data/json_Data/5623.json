@@ -1,0 +1,186 @@
+{
+  "Conceptos": [
+    "thermistor"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "5623",
+    "title": "Current Cost in London House",
+    "Private": false,
+    "tags": [
+      "ciseco",
+      "currentcost"
+    ],
+    "description": "Current Cost Envi with a single current clamp on the house main power feed. Data collected and pushed to pachube by a NSLU2 running Debian and python.",
+    "feed": "https://api.xively.com/v2/feeds/5623.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:09:45",
+    "created": "02/12/2010 20:23:38",
+    "creator": "https://xively.com/users/ninebladed",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "23.7",
+        "at": "03/21/2014 14:09:45",
+        "max_value": "29.3",
+        "min_value": "14.9",
+        "tags": [
+          "celsius",
+          "degrees",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "540.3",
+        "at": "03/21/2014 14:09:45",
+        "max_value": "8166.5",
+        "min_value": "40.0",
+        "tags": [
+          "electricity",
+          "power",
+          "watts"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watt",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "lounge_batt",
+        "current_value": "2.77",
+        "at": "03/21/2014 13:21:21",
+        "max_value": "2.83",
+        "min_value": "2.68",
+        "tags": [
+          "Button cell",
+          "Ciseco",
+          "Thermistor",
+          "XRF"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": "Volt",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "lounge_temp",
+        "current_value": "20.77",
+        "at": "03/21/2014 14:06:18",
+        "max_value": "26.04",
+        "min_value": "16.14",
+        "tags": [
+          "Ciseco",
+          "Thermistor",
+          "XRF"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "shed_batt",
+        "current_value": "2.53",
+        "at": "03/21/2014 14:06:54",
+        "max_value": "2.72",
+        "min_value": "2.41",
+        "tags": [
+          "Button cell",
+          "Ciseco",
+          "Thermistor",
+          "XRF"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": "Volt",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "shed_temp",
+        "current_value": "11.08",
+        "at": "03/21/2014 14:06:54",
+        "max_value": "16.64",
+        "min_value": "0.021",
+        "tags": [
+          "Ciseco",
+          "Thermistor",
+          "XRF"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "spareroom_batt",
+        "current_value": "2.74",
+        "at": "03/21/2014 14:06:39",
+        "max_value": "2.96",
+        "min_value": "2.63",
+        "tags": [
+          "Button cell",
+          "Ciseco",
+          "Thermistor",
+          "XRF"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": "Volt",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "spareroom_temp",
+        "current_value": "22.18",
+        "at": "03/21/2014 14:06:38",
+        "max_value": "30.14",
+        "min_value": "17.05",
+        "tags": [
+          "Ciseco",
+          "Thermistor",
+          "XRF"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Southfields, London, UK",
+      "domain": 0,
+      "lat": "51.4454485457842",
+      "lon": "-0.205693244934082",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/5623\" >Current Cost in London House</a>",
+    "URLMostrar": "https://xively.com/feeds/5623"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\5623.json",
+  "DocumentJSON": null
+}

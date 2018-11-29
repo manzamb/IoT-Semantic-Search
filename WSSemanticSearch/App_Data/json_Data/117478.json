@@ -1,0 +1,132 @@
+{
+  "Conceptos": [
+    "deployment"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "117478",
+    "title": "sensornode0",
+    "Private": false,
+    "tags": null,
+    "description": "Test feed for autonomous self powered sensor which sends data updates via SMS.  For deployment in remore locations. Twitter is used as an SMS gateway and also to post events from the COSM feed.\r\n\r\nLinked Twitter: @sensornode0",
+    "feed": "https://api.xively.com/v2/feeds/117478.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "05/30/2013 16:36:02",
+    "created": "03/05/2013 19:47:32",
+    "creator": "https://xively.com/users/areid",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "0.075195",
+        "at": "05/30/2013 16:36:02",
+        "max_value": "1.999939",
+        "min_value": "0.0354",
+        "tags": [
+          "Max x-acceleration"
+        ],
+        "unit": {
+          "symbol": "g",
+          "label": "g",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "0.215820",
+        "at": "05/30/2013 16:36:02",
+        "max_value": "1.999939",
+        "min_value": "0.0",
+        "tags": [
+          "Max y-acceleration (max)"
+        ],
+        "unit": {
+          "symbol": "g",
+          "label": "g",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "0.202168",
+        "at": "05/30/2013 16:36:02",
+        "max_value": "0.979939",
+        "min_value": "0.011006",
+        "tags": [
+          "Max z-acceleration relative to gravity"
+        ],
+        "unit": {
+          "symbol": "g (relative)",
+          "label": "g",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "25.62",
+        "at": "05/30/2013 16:36:02",
+        "max_value": "65.53",
+        "min_value": "-40.01",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "deg C",
+          "label": "deg C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "52.30",
+        "at": "05/30/2013 16:36:02",
+        "max_value": "57.61",
+        "min_value": "-4.69",
+        "tags": [
+          "Relative humidity"
+        ],
+        "unit": {
+          "symbol": "% H",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "3.86",
+        "at": "05/30/2013 16:36:02",
+        "max_value": "4.84",
+        "min_value": "1.63",
+        "tags": [
+          "Battery Voltage"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": "V",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Pasadena",
+      "domain": 0,
+      "lat": "34.1381293260577",
+      "lon": "-118.124184608459",
+      "ele": "236",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/117478\" >sensornode0</a>",
+    "URLMostrar": "https://xively.com/feeds/117478"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\117478.json",
+  "DocumentJSON": null
+}

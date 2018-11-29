@@ -1,0 +1,84 @@
+{
+  "Conceptos": [
+    "parametro"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "43207",
+    "title": "Meritve parametrov",
+    "Private": false,
+    "tags": null,
+    "description": "Temperatura, Vlažnost, Osvetlitev",
+    "feed": "https://api.xively.com/v2/feeds/43207.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "12/06/2013 21:19:01",
+    "created": "01/02/2012 18:53:53",
+    "creator": "https://xively.com/users/cipesokram",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "24.610001",
+        "at": "12/06/2013 21:19:01",
+        "max_value": "1002.0",
+        "min_value": "-42.560001",
+        "tags": [
+          "Temperatura"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "29.547729",
+        "at": "12/06/2013 21:19:01",
+        "max_value": "93.187134",
+        "min_value": "-13.861288",
+        "tags": [
+          "Vlažnost"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "228",
+        "at": "12/06/2013 21:19:01",
+        "max_value": "1023.0",
+        "min_value": "0.0",
+        "tags": [
+          "Osvetlitev"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Lx",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Ljubljana",
+      "domain": 0,
+      "lat": "45.9129441273739",
+      "lon": "14.501953125",
+      "ele": "301",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/43207\" >Meritve parametrov</a>",
+    "URLMostrar": "https://xively.com/feeds/43207"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\43207.json",
+  "DocumentJSON": null
+}

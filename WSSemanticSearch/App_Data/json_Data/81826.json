@@ -1,0 +1,121 @@
+{
+  "Conceptos": [
+    "observation"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "81826",
+    "title": "LFSB - Bale-Mulhouse, France",
+    "Private": false,
+    "tags": [
+      "LFSB",
+      "METAR",
+      "Switzerland",
+      "weather report"
+    ],
+    "description": "LFSB - Bale-Mulhouse, France\n\n\nThis feed is unofficial and may be stopped by any reason at any time. Use it at your own risk. No guarantee of validity.\n\nData retrieved from http://weather.noaa.gov/pub/data/observations/metar/decoded/\n\nOfficial data are published by Meteo Suisse on the following link http://www.meteosuisse.admin.ch/web/de/services/aviatik/metar_taf_schweiz.html\n",
+    "feed": "https://api.xively.com/v2/feeds/81826.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/21/2014 13:30:00",
+    "created": "10/23/2012 13:09:13",
+    "creator": "https://xively.com/users/jpmieville",
+    "version": null,
+    "website": "http://www.example.com/",
+    "datastreams": [
+      {
+        "id": "humidity",
+        "current_value": "32",
+        "at": "03/21/2014 13:30:00",
+        "max_value": "100.0",
+        "min_value": "18.0",
+        "tags": [
+          "humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "Relative Humidity",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "pressure",
+        "current_value": "1012.9",
+        "at": "03/21/2014 13:30:00",
+        "max_value": "1038.9",
+        "min_value": "989.8",
+        "tags": [
+          "pressure"
+        ],
+        "unit": {
+          "symbol": "hPa",
+          "label": "Pascal",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temp",
+        "current_value": "21",
+        "at": "03/21/2014 13:30:00",
+        "max_value": "38.0",
+        "min_value": "-15.0",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "windDirection",
+        "current_value": "290",
+        "at": "03/21/2014 13:30:00",
+        "max_value": "360.0",
+        "min_value": "0.0",
+        "tags": [
+          "Wind direction"
+        ],
+        "unit": {
+          "symbol": "degree",
+          "label": "angle",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "windSpeed",
+        "current_value": "7.2",
+        "at": "03/21/2014 13:30:00",
+        "max_value": "14.3",
+        "min_value": "0.0",
+        "tags": [
+          "Wind speed"
+        ],
+        "unit": {
+          "symbol": "m/s",
+          "label": "metre per second",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "LFSB",
+      "domain": 0,
+      "lat": "47.6",
+      "lon": "7.51666666666667",
+      "ele": "271",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/81826\" >LFSB - Bale-Mulhouse, France</a>",
+    "URLMostrar": "https://xively.com/feeds/81826"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\81826.json",
+  "DocumentJSON": null
+}

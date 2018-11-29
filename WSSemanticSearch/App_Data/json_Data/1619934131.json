@@ -1,0 +1,100 @@
+{
+  "Conceptos": [
+    "sensor output"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "1619934131",
+    "title": "SHT15",
+    "Private": false,
+    "tags": null,
+    "description": "Output from a SHT15 temperature and humidty sensor. Readings of temperature (both C and F) and relative humidity are taken every so often. This sensor is ideal to calculate the current dewpoint and from this we can calculate the (Canadian) humidex scale which provides an \"effective\" temperature as experienced by humans by allowing for the \"warming\" effect of higher humidity.",
+    "feed": "https://api.xively.com/v2/feeds/1619934131.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/01/2014 16:29:13",
+    "created": "07/22/2013 15:49:42",
+    "creator": "https://xively.com/users/ccspk",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Humidex_Calculated",
+        "current_value": "19.22",
+        "at": "03/01/2014 16:29:12",
+        "max_value": "41.42",
+        "min_value": "15.18",
+        "tags": [
+          "humidex"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Relative_Humidity",
+        "current_value": "53.24",
+        "at": "03/01/2014 16:29:12",
+        "max_value": "94.95",
+        "min_value": "38.27",
+        "tags": [
+          "humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperature_C",
+        "current_value": "18.53",
+        "at": "03/01/2014 16:29:12",
+        "max_value": "29.41",
+        "min_value": "14.08",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperature_F",
+        "current_value": "65.44",
+        "at": "03/01/2014 16:29:12",
+        "max_value": "84.97",
+        "min_value": "57.42",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "Fahrenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "51.7599344152668",
+      "lon": "-0.0118231773376465",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/1619934131\" >SHT15</a>",
+    "URLMostrar": "https://xively.com/feeds/1619934131"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\1619934131.json",
+  "DocumentJSON": null
+}

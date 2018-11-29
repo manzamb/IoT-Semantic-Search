@@ -1,0 +1,138 @@
+{
+  "Conceptos": [
+    "progetto"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "83989",
+    "title": "Hot Earth - sistema di telecontrollo e acquisizione telemetria siti di ricerca - P.O. F.E.S.R. 2007-2013 Sicilia",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "h2s",
+      "pressione",
+      "temperatura",
+      "umidita"
+    ],
+    "description": "Monitoring dati ambientali progetto di ricerca HOT EARTH",
+    "feed": "https://api.xively.com/v2/feeds/83989.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "11/25/2012 18:21:39",
+    "created": "11/05/2012 13:59:57",
+    "creator": "https://xively.com/users/luigi68",
+    "version": null,
+    "website": "http://www.medianetonline.net",
+    "datastreams": [
+      {
+        "id": "83989",
+        "current_value": "12.00",
+        "at": "11/25/2012 18:21:39",
+        "max_value": "15.87",
+        "min_value": "0.0",
+        "tags": [
+          "Tensione Accumulatori"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "V",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Current1",
+        "current_value": "2.25",
+        "at": "11/25/2012 18:21:39",
+        "max_value": "3.16",
+        "min_value": "-0.39",
+        "tags": [
+          "Corrente ricarica"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "A",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Current2",
+        "current_value": "-0.16",
+        "at": "11/25/2012 18:21:39",
+        "max_value": "1.79",
+        "min_value": "-1.14",
+        "tags": [
+          "Corrente utilizzatori"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "A",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Poten1",
+        "current_value": "27.00",
+        "at": "11/25/2012 18:21:39",
+        "max_value": "44.54",
+        "min_value": "-4.91",
+        "tags": [
+          "Potenza immessa Batterie"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "W",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Poten2",
+        "current_value": "-1.95",
+        "at": "11/25/2012 18:21:39",
+        "max_value": "26.09",
+        "min_value": "-16.36",
+        "tags": [
+          "Potenza assorbita Utilizzatori"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "W",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Volt1",
+        "current_value": "12.27",
+        "at": "11/25/2012 18:21:39",
+        "max_value": "15.86",
+        "min_value": "0.0",
+        "tags": [
+          "Tensione Generatore"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "V",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Caltagirone",
+      "domain": 0,
+      "lat": "37.19984",
+      "lon": "14.51062",
+      "ele": "550",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/83989\" >Hot Earth - sistema di telecontrollo e acquisizione telemetria siti di ricerca - P.O. F.E.S.R. 2007-2013 Sicilia</a>",
+    "URLMostrar": "https://xively.com/feeds/83989"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\83989.json",
+  "DocumentJSON": null
+}

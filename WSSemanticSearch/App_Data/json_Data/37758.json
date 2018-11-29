@@ -1,0 +1,124 @@
+{
+  "Conceptos": [
+    "goal"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "37758",
+    "title": "Solar Mote Experiment",
+    "Private": false,
+    "tags": [
+      "academic",
+      "solar",
+      "wireless sensor network"
+    ],
+    "description": "This is a feed from a solar power experiment by the Network and Systems Optimization Laboratory (NSOL) at New Mexico State University. Each datastream is from a sensor node equipped with a small solar panel and 4x AA NiMH batteries. The nodes are sending large amounts of data (1.5kB) at different intervals. The goal of the experiment is to see how well the batteries recharge under the different duty cycles - V1: 30 seconds, V2: 1 min, V4: 5 min, V6: 10 min. All nodes transmit their battery level once a minute. \r\n\r\n[Update 1-21-2012] V1: offline, V2: 30 seconds, V4: 30 seconds, V6: 10 min. The solar panel for V2 will be covered once the batteries are fully charged to see how long it lasts. ",
+    "feed": "https://api.xively.com/v2/feeds/37758.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "01/30/2012 23:10:36",
+    "created": "10/20/2011 04:58:49",
+    "creator": "https://xively.com/users/shiftycow",
+    "version": null,
+    "website": "http://nsol.nmsu.edu",
+    "datastreams": [
+      {
+        "id": "V1",
+        "current_value": "5.00488758553275",
+        "at": "11/13/2011 00:45:34",
+        "max_value": "472.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "volts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "V2",
+        "current_value": "5.80645161290323",
+        "at": "01/30/2012 23:10:36",
+        "max_value": "243.685239491691",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "volts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "V4",
+        "current_value": "5.85532746823069",
+        "at": "01/30/2012 22:51:28",
+        "max_value": "512.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "volts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "V6",
+        "current_value": "5.09286412512219",
+        "at": "01/30/2012 23:09:37",
+        "max_value": "243.685239491691",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "volts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "V-86",
+        "current_value": "5.13196480938416",
+        "at": "01/29/2012 10:34:06",
+        "max_value": "5.13196480938416",
+        "min_value": "5.13196480938416",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "V97",
+        "current_value": "5.00488758553275",
+        "at": "01/29/2012 07:00:20",
+        "max_value": "6.12903225806452",
+        "min_value": "5.00488758553275",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Las Cruces, NM",
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/37758\" >Solar Mote Experiment</a>",
+    "URLMostrar": "https://xively.com/feeds/37758"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\37758.json",
+  "DocumentJSON": null
+}

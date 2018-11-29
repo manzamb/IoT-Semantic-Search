@@ -1,0 +1,283 @@
+{
+  "Conceptos": [
+    "mercury"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "83263",
+    "title": "Weathertop - Our House Weather",
+    "Private": false,
+    "tags": [
+      "monitor",
+      "pressure",
+      "rain",
+      "sensor",
+      "temperature",
+      "weather"
+    ],
+    "description": "Weather data from a home Ambient Weather WS-2080 station.",
+    "feed": "https://api.xively.com/v2/feeds/83263.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:00:33",
+    "created": "10/31/2012 05:46:56",
+    "creator": "https://xively.com/users/gdevic",
+    "version": null,
+    "website": "http://www.weather.devic.us",
+    "datastreams": [
+      {
+        "id": "a.temp",
+        "current_value": "57.4",
+        "at": "03/21/2014 14:00:31",
+        "max_value": "100.0",
+        "min_value": "32.0",
+        "tags": [
+          "Outside Temp"
+        ],
+        "unit": {
+          "symbol": "°F",
+          "label": "Fahrenheits",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "b.wchill",
+        "current_value": "57.4",
+        "at": "03/21/2014 14:00:31",
+        "max_value": "100.0",
+        "min_value": "32.0",
+        "tags": [
+          "Wind Chill"
+        ],
+        "unit": {
+          "symbol": "°F",
+          "label": "Fahrenheits",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "c.dew",
+        "current_value": "54.2",
+        "at": "03/21/2014 14:00:31",
+        "max_value": "100.0",
+        "min_value": "32.0",
+        "tags": [
+          "Dew Point"
+        ],
+        "unit": {
+          "symbol": "°F",
+          "label": "Fahrenheits",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "d.intemp",
+        "current_value": "73.6",
+        "at": "03/21/2014 14:00:31",
+        "max_value": "100.0",
+        "min_value": "50.0",
+        "tags": [
+          "Inside Temp"
+        ],
+        "unit": {
+          "symbol": "°F",
+          "label": "Fahrenheits",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "e.hum",
+        "current_value": "89",
+        "at": "03/21/2014 14:00:31",
+        "max_value": "100.0",
+        "min_value": "0.0",
+        "tags": [
+          "Outside Humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "f.inhum",
+        "current_value": "46",
+        "at": "03/21/2014 14:00:31",
+        "max_value": "100.0",
+        "min_value": "0.0",
+        "tags": [
+          "Inside Humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "g.press",
+        "current_value": "29.97",
+        "at": "03/21/2014 14:00:31",
+        "max_value": "31.0",
+        "min_value": "29.0",
+        "tags": [
+          "Barometric Pressure"
+        ],
+        "unit": {
+          "symbol": "inHg",
+          "label": "Inch of mercury",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "h.wspeed",
+        "current_value": "1.8",
+        "at": "03/21/2014 14:00:31",
+        "max_value": "20.0",
+        "min_value": "0.0",
+        "tags": [
+          "Wind Speed"
+        ],
+        "unit": {
+          "symbol": "mph",
+          "label": "Miles per hour",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "i.wgust",
+        "current_value": "6.0",
+        "at": "03/21/2014 14:00:31",
+        "max_value": "20.0",
+        "min_value": "0.0",
+        "tags": [
+          "Wind Gust"
+        ],
+        "unit": {
+          "symbol": "mph",
+          "label": "Miles per hour",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "j.bearing",
+        "current_value": "90",
+        "at": "03/21/2014 14:00:31",
+        "max_value": "360.0",
+        "min_value": "0.0",
+        "tags": [
+          "Wind Bearing"
+        ],
+        "unit": {
+          "symbol": "deg",
+          "label": "degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "k.rrate",
+        "current_value": "0.00",
+        "at": "03/21/2014 14:00:31",
+        "max_value": "2.0",
+        "min_value": "0.0",
+        "tags": [
+          "Rain Rate"
+        ],
+        "unit": {
+          "symbol": "in/hr",
+          "label": "inches per hour",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "l.rhour",
+        "current_value": "0.00",
+        "at": "03/21/2014 14:00:31",
+        "max_value": "5.0",
+        "min_value": "0.0",
+        "tags": [
+          "Rain Last Hr"
+        ],
+        "unit": {
+          "symbol": "in",
+          "label": "inches",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "m.rfall",
+        "current_value": "0.00",
+        "at": "03/21/2014 14:00:31",
+        "max_value": "5.0",
+        "min_value": "0.0",
+        "tags": [
+          "Rain Total"
+        ],
+        "unit": {
+          "symbol": "in/day",
+          "label": "inches per day",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "n.cloudbasevalue",
+        "current_value": "728",
+        "at": "03/21/2014 14:00:31",
+        "max_value": "1000.0",
+        "min_value": "0.0",
+        "tags": [
+          "Cloud Base"
+        ],
+        "unit": {
+          "symbol": "ft",
+          "label": "feet",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "o.isdaylight",
+        "current_value": "1",
+        "at": "03/21/2014 14:00:31",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "Daylight"
+        ],
+        "unit": {
+          "symbol": ":-)",
+          "label": "sun",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Weathertop Home",
+      "domain": 0,
+      "lat": "30.419",
+      "lon": "-97.764",
+      "ele": "281",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/83263\" >Weathertop - Our House Weather</a>",
+    "URLMostrar": "https://xively.com/feeds/83263"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\83263.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,170 @@
+{
+  "Conceptos": [
+    "moisture"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "7641",
+    "title": "Enowireless (Vineyard Soil Mosture and Temperature)",
+    "Private": false,
+    "tags": null,
+    "description": "A wireless network connected to moisture sensors positioned underground at several depths and joined to a weather monitoring station in the Argiolas Vineyard (Serdiana - Sardinia). The data collected by the system, after being processed and interpreted, allows to detect when the vineyard needs to be irrigated and how much water it needs to keep the appropriate values of the soil moisture.",
+    "feed": "https://api.xively.com/v2/feeds/7641.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/21/2014 05:03:48",
+    "created": "05/28/2010 09:30:38",
+    "creator": "https://xively.com/users/geoweb",
+    "version": null,
+    "website": "http://opensource.crs4.it/enowireless/doku.php?id=:en:home",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "10.89191",
+        "at": "03/21/2014 05:03:47",
+        "max_value": "28.73478",
+        "min_value": "2.03648",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "0.00870",
+        "at": "03/21/2014 05:03:47",
+        "max_value": "1.67826",
+        "min_value": "0.0",
+        "tags": [
+          "Rain"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "mm",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "0.25896",
+        "at": "03/21/2014 05:03:47",
+        "max_value": "0.28609",
+        "min_value": "0.21187",
+        "tags": [
+          "High Station",
+          "Soil Mosture (row -40cm)"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "m³/m³",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "0.16343",
+        "at": "03/21/2014 05:03:47",
+        "max_value": "0.27917",
+        "min_value": "0.157",
+        "tags": [
+          "High Station",
+          "Soil Mosture (inter-row  -40cm)"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "m³/m³",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "-0.40000",
+        "at": "03/21/2014 05:03:47",
+        "max_value": "-0.26657",
+        "min_value": "-0.4",
+        "tags": [
+          "Central Station",
+          "Soil Mosture (row  -40cm)"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "m³/m³",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "0.24239",
+        "at": "03/21/2014 05:03:47",
+        "max_value": "0.35326",
+        "min_value": "0.186",
+        "tags": [
+          "Central Station",
+          "Soil Mosture (inter-row  -40cm)"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "m³/m³",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "-0.40000",
+        "at": "03/21/2014 05:03:47",
+        "max_value": "2.2987",
+        "min_value": "-0.4",
+        "tags": [
+          "Low Station",
+          "Soil Mosture  (row -40cm)"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "m³/m³",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "7",
+        "current_value": "-0.39465",
+        "at": "03/21/2014 05:03:47",
+        "max_value": "0.27242",
+        "min_value": "-0.39887",
+        "tags": [
+          "Low Station",
+          "Soil Mosture (inter-row  -40cm)"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "m³/m³",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Serdiana",
+      "domain": 0,
+      "lat": "39.3603825284226",
+      "lon": "9.12448883056641",
+      "ele": "171",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/7641\" >Enowireless (Vineyard Soil Mosture and Temperature)</a>",
+    "URLMostrar": "https://xively.com/feeds/7641"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\7641.json",
+  "DocumentJSON": null
+}

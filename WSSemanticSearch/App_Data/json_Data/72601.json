@@ -1,0 +1,120 @@
+{
+  "Conceptos": [
+    "temperature"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "72601",
+    "title": "Solar Generation",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "Ethernet",
+      "Shield"
+    ],
+    "description": "Solar Generation",
+    "feed": "https://api.xively.com/v2/feeds/72601.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/21/2014 06:40:19",
+    "created": "08/25/2012 16:09:36",
+    "creator": "https://xively.com/users/aam54",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "8.5",
+        "at": "11/13/2013 17:55:54",
+        "max_value": "35.8",
+        "min_value": "-3.9",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Heater",
+        "current_value": "0.00",
+        "at": "03/21/2014 06:40:19",
+        "max_value": "1500.0",
+        "min_value": "0.0",
+        "tags": [
+          "Emersion Heater"
+        ],
+        "unit": {
+          "symbol": "Watts",
+          "label": "W",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Mains",
+        "current_value": "388.00",
+        "at": "03/21/2014 06:40:19",
+        "max_value": "10351.0",
+        "min_value": "0.0",
+        "tags": [
+          "House Consumption"
+        ],
+        "unit": {
+          "symbol": "Watts",
+          "label": "W",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Solar",
+        "current_value": "31.00",
+        "at": "03/21/2014 06:40:19",
+        "max_value": "2604.0",
+        "min_value": "0.0",
+        "tags": [
+          "Solar Generation"
+        ],
+        "unit": {
+          "symbol": "Watts",
+          "label": "W",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Voltage",
+        "current_value": "235.00",
+        "at": "03/21/2014 06:40:19",
+        "max_value": "263.0",
+        "min_value": "0.0",
+        "tags": [
+          "Mains Voltage"
+        ],
+        "unit": {
+          "symbol": "Volts",
+          "label": "V",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Home",
+      "domain": 0,
+      "lat": "53.5435397415607",
+      "lon": "-2.74080991744995",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/72601\" >Solar Generation</a>",
+    "URLMostrar": "https://xively.com/feeds/72601"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\72601.json",
+  "DocumentJSON": null
+}

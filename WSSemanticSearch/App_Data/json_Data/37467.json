@@ -1,0 +1,62 @@
+{
+  "Conceptos": [
+    "physical body"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "37467",
+    "title": "HyperPublic test feed",
+    "Private": false,
+    "tags": [
+      "Delft",
+      "Hyperbody",
+      "Hyperpublic",
+      "intensity",
+      "Light",
+      "Lux",
+      "Test"
+    ],
+    "description": "Collecting light intensity at the De Vries van Heystplantsoen in Delft, The Netherlands.",
+    "feed": "https://api.xively.com/v2/feeds/37467.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "10/16/2011 10:51:00",
+    "created": "10/16/2011 10:03:09",
+    "creator": "https://xively.com/users/koenkegel",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Light_Intensity",
+        "current_value": null,
+        "at": null,
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "intensity",
+          "light",
+          "lux"
+        ],
+        "unit": {
+          "symbol": "lx",
+          "label": "Lux",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Delft, de vries van Heystplantsoen",
+      "domain": 0,
+      "lat": "52.0065212820561",
+      "lon": "4.37017679214478",
+      "ele": "-3",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/37467\" >HyperPublic test feed</a>",
+    "URLMostrar": "https://xively.com/feeds/37467"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\37467.json",
+  "DocumentJSON": null
+}

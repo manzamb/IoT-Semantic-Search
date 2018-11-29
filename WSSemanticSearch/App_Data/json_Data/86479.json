@@ -1,0 +1,57 @@
+{
+  "Conceptos": [
+    "collection"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "86479",
+    "title": "Arduino Uno ",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "Data Collection",
+      "school project",
+      "Temperature data"
+    ],
+    "description": "This Will collect data from a temperature sensor and send it to cosm.",
+    "feed": "https://api.xively.com/v2/feeds/86479.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "12/14/2012 17:44:57",
+    "created": "11/16/2012 02:07:08",
+    "creator": "https://xively.com/users/nbergmann28",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "sensor1",
+        "current_value": "25",
+        "at": "12/14/2012 17:44:57",
+        "max_value": "26.0",
+        "min_value": "2.0",
+        "tags": [
+          "Temperature in Summerland"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Kelowna",
+      "domain": 0,
+      "lat": "49.8733977031892",
+      "lon": "-119.476318359375",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/86479\" >Arduino Uno </a>",
+    "URLMostrar": "https://xively.com/feeds/86479"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\86479.json",
+  "DocumentJSON": null
+}

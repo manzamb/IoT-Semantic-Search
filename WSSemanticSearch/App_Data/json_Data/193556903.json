@@ -1,0 +1,92 @@
+{
+  "Conceptos": [
+    "physical"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "193556903",
+    "title": "Ardu_Wheater",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/193556903.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "01/06/2014 04:48:31",
+    "created": "10/28/2013 03:21:51",
+    "creator": "https://xively.com/users/willian",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Temperature_Celsius",
+        "current_value": "1.83",
+        "at": "01/06/2014 04:48:31",
+        "max_value": "9.16",
+        "min_value": "-20.17",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temp_High",
+        "current_value": "17.00",
+        "at": "01/06/2014 04:48:31",
+        "max_value": "17.0",
+        "min_value": "17.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temp_Low",
+        "current_value": "-21.00",
+        "at": "01/06/2014 04:48:31",
+        "max_value": "-10.0",
+        "min_value": "-21.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temp_Raw",
+        "current_value": "1.63",
+        "at": "01/06/2014 04:48:31",
+        "max_value": "25.12",
+        "min_value": "-20.69",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Toronto, ON, Canada",
+      "domain": 0,
+      "lat": "43.6708147512351",
+      "lon": "-79.373476050293",
+      "ele": "6th floor",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/193556903\" >Ardu_Wheater</a>",
+    "URLMostrar": "https://xively.com/feeds/193556903"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\193556903.json",
+  "DocumentJSON": null
+}

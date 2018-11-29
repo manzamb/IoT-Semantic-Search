@@ -1,0 +1,90 @@
+{
+  "Conceptos": [
+    "color"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "5330",
+    "title": "Currentcost feed",
+    "Private": false,
+    "tags": null,
+    "description": "residential energy usage Colorado, USA\r\n",
+    "feed": "https://api.xively.com/v2/feeds/5330.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "06/08/2010 14:20:53",
+    "created": "01/30/2010 03:08:31",
+    "creator": "https://xively.com/users/girya",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "69.0",
+        "at": null,
+        "max_value": "69.0",
+        "min_value": "60.8",
+        "tags": [
+          "degrees",
+          "fahrenheit",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "Fahrenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "218.0",
+        "at": null,
+        "max_value": "3803.0",
+        "min_value": "141.0",
+        "tags": [
+          "electricity",
+          "power",
+          "watts"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "433.0",
+        "at": null,
+        "max_value": "3555.0",
+        "min_value": "425.0",
+        "tags": [
+          "electricity",
+          "power",
+          "watts"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Colorado",
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": "2286",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/5330\" >Currentcost feed</a>",
+    "URLMostrar": "https://xively.com/feeds/5330"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\5330.json",
+  "DocumentJSON": null
+}

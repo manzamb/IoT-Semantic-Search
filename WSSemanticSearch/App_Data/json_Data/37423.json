@@ -1,0 +1,138 @@
+{
+  "Conceptos": [
+    "environment"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "37423",
+    "title": "Office Environment",
+    "Private": false,
+    "tags": [
+      "AM2302",
+      "DHT22",
+      "ENC28J60",
+      "EtherShield",
+      "seeeduino"
+    ],
+    "description": "Inside and outside temperature, humidity and light levels ",
+    "feed": "https://api.xively.com/v2/feeds/37423.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:09:54",
+    "created": "10/15/2011 16:07:52",
+    "creator": "https://xively.com/users/peteh59",
+    "version": null,
+    "website": "http://sensors.petevideo.com",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "65.83",
+        "at": "03/21/2014 14:10:23",
+        "max_value": "128.12",
+        "min_value": "28.58",
+        "tags": [
+          "Outside Temp"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "97.40",
+        "at": "03/21/2014 14:10:23",
+        "max_value": "99.9",
+        "min_value": "0.0",
+        "tags": [
+          "Outside Rel Humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "90",
+        "at": "03/21/2014 14:10:23",
+        "max_value": "97.0",
+        "min_value": "0.0",
+        "tags": [
+          "Sunlight Level"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "75.74",
+        "at": "03/21/2014 14:10:23",
+        "max_value": "87.8",
+        "min_value": "32.0",
+        "tags": [
+          "Inside Temp"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "44.40",
+        "at": "03/21/2014 14:10:23",
+        "max_value": "59.9",
+        "min_value": "0.0",
+        "tags": [
+          "Inside Rel Humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "0",
+        "at": "03/21/2014 14:10:23",
+        "max_value": "47.0",
+        "min_value": "0.0",
+        "tags": [
+          "Inside Light Level"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Henning Home",
+      "domain": 0,
+      "lat": "30.028714687931",
+      "lon": "-95.6137561798096",
+      "ele": "169 feet",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/37423\" >Office Environment</a>",
+    "URLMostrar": "https://xively.com/feeds/37423"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\37423.json",
+  "DocumentJSON": null
+}

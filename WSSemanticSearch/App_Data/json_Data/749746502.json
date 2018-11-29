@@ -1,0 +1,123 @@
+{
+  "Conceptos": [
+    "humedad"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "749746502",
+    "title": "Unauthorized",
+    "Private": false,
+    "tags": [
+      "domotica",
+      "humedad",
+      "temperatura"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/749746502.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "11/22/2013 16:35:21",
+    "created": "05/27/2013 12:37:35",
+    "creator": "https://xively.com/users/joab83",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Humedad",
+        "current_value": "40.00",
+        "at": "09/13/2013 17:09:26",
+        "max_value": "86.0",
+        "min_value": "34.0",
+        "tags": [
+          "humedad"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "Porcentaje",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Led1",
+        "current_value": "1",
+        "at": "11/22/2013 16:35:21",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "led",
+          "luz"
+        ],
+        "unit": {
+          "symbol": "bit",
+          "label": "Bit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Led2",
+        "current_value": "0",
+        "at": "10/11/2013 13:50:04",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "led",
+          "luz"
+        ],
+        "unit": {
+          "symbol": "bit",
+          "label": "Bit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Led3",
+        "current_value": "0",
+        "at": "10/11/2013 13:50:04",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "led",
+          "luz"
+        ],
+        "unit": {
+          "symbol": "bit",
+          "label": "Bit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperatura",
+        "current_value": "23.00",
+        "at": "09/13/2013 17:09:26",
+        "max_value": "33.0",
+        "min_value": "15.0",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "-32.9451572912764",
+      "lon": "-60.6352615356445",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/749746502\" >Unauthorized</a>",
+    "URLMostrar": "https://xively.com/feeds/749746502"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\749746502.json",
+  "DocumentJSON": null
+}

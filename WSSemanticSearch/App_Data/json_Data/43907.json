@@ -1,0 +1,70 @@
+{
+  "Conceptos": [
+    "mp10"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "43907",
+    "title": "Office Temperature Monitor",
+    "Private": false,
+    "tags": [
+      "TMP102"
+    ],
+    "description": "Temps at \r\nTemp Sensor 1\r\nTemp Sensor 2\r\nusing two TMP102 temp sensors connected to an Etherten arduino - with data pushed to COSM via ethernet\r\n\r\n0x48 reads about 0.3deg C higher than 0x49\r\n",
+    "feed": "https://api.xively.com/v2/feeds/43907.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:12:17",
+    "created": "01/10/2012 01:27:12",
+    "creator": "https://xively.com/users/mbatchelor",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "25.00",
+        "at": "03/21/2014 14:12:17",
+        "max_value": "32.06",
+        "min_value": "-0.06",
+        "tags": [
+          "0x48"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "25.50",
+        "at": "03/21/2014 14:12:17",
+        "max_value": "34.31",
+        "min_value": "-0.06",
+        "tags": [
+          "0x49"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Spring Hill",
+      "domain": 0,
+      "lat": "-27.4645006161315",
+      "lon": "153.025453090668",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/43907\" >Office Temperature Monitor</a>",
+    "URLMostrar": "https://xively.com/feeds/43907"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\43907.json",
+  "DocumentJSON": null
+}

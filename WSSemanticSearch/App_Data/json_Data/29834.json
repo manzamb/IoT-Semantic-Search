@@ -1,0 +1,90 @@
+{
+  "Conceptos": [
+    "sensing"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "29834",
+    "title": "Radiation sensing by Curi in Japan",
+    "Private": false,
+    "tags": [
+      "sensor:model=lnd-712",
+      "sensor:type=radiation"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/29834.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "09/09/2011 06:05:08",
+    "created": "07/14/2011 08:37:21",
+    "creator": "https://xively.com/users/curi",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "0.0",
+        "at": "09/09/2011 06:05:08",
+        "max_value": "1000.0",
+        "min_value": "0.0",
+        "tags": [
+          "sensor:model=lnd-712",
+          "sensor:type=radiation"
+        ],
+        "unit": {
+          "symbol": "cpm",
+          "label": "counts/minute",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "0.0",
+        "at": "09/09/2011 06:05:08",
+        "max_value": "10.0",
+        "min_value": "0.0",
+        "tags": [
+          "sensor:model=lnd-712",
+          "sensor:type=radiation"
+        ],
+        "unit": {
+          "symbol": "µSv/h",
+          "label": "microsieverts/hour",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": null,
+        "at": "07/14/2011 08:37:21",
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "sensor:model=lnd-712",
+          "sensor:type=radiation"
+        ],
+        "unit": {
+          "symbol": "nGy/h",
+          "label": "nanogray/hour",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "35.3117633659648",
+      "lon": "139.564819335938",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 1
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/29834\" >Radiation sensing by Curi in Japan</a>",
+    "URLMostrar": "https://xively.com/feeds/29834"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\29834.json",
+  "DocumentJSON": null
+}

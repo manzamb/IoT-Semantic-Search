@@ -1,0 +1,218 @@
+{
+  "Conceptos": [
+    "system"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "90031",
+    "title": "Sanntid: Kjøretøy informasjon",
+    "Private": false,
+    "tags": [
+      "bus",
+      "gprs",
+      "gps",
+      "odometer",
+      "public transport",
+      "real time passenger information",
+      "rtpi",
+      "vehicle"
+    ],
+    "description": "Technical system status information regarding the Real-time Passenger Information system in Rogaland, Norway.",
+    "feed": "https://api.xively.com/v2/feeds/90031.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:13:50",
+    "created": "12/05/2012 09:47:03",
+    "creator": "https://xively.com/users/kolumbus",
+    "version": null,
+    "website": "http://next.kolumbus.no",
+    "datastreams": [
+      {
+        "id": "DataRequest_Duration",
+        "current_value": "0.66",
+        "at": "03/21/2014 14:13:50",
+        "max_value": "295.06",
+        "min_value": "0.14",
+        "tags": null,
+        "unit": {
+          "symbol": "seconds",
+          "label": "seconds",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "DataRequest_Error",
+        "current_value": "0",
+        "at": "03/21/2014 14:13:50",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "yes/no",
+          "label": "boolean",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "DataStaleness_Average",
+        "current_value": "19.66",
+        "at": "03/21/2014 14:13:50",
+        "max_value": "9408414.06",
+        "min_value": "0.0",
+        "tags": [
+          "gprs",
+          "staleness",
+          "vehicle"
+        ],
+        "unit": {
+          "symbol": "seconds",
+          "label": "seconds",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "DataStaleness_Minimum",
+        "current_value": "1.36",
+        "at": "03/21/2014 14:13:50",
+        "max_value": "17926.36",
+        "min_value": "0.0",
+        "tags": [
+          "gprs",
+          "staleness",
+          "vehicle"
+        ],
+        "unit": {
+          "symbol": "seconds",
+          "label": "seconds",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Vehicles_Status_Monitored",
+        "current_value": "264",
+        "at": "03/21/2014 14:13:50",
+        "max_value": "331.0",
+        "min_value": "0.0",
+        "tags": [
+          "gprs",
+          "vehicle"
+        ],
+        "unit": {
+          "symbol": "vehicles",
+          "label": "vehicles",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Vehicles_Status_Participating",
+        "current_value": "365",
+        "at": "03/21/2014 14:13:50",
+        "max_value": "416.0",
+        "min_value": "0.0",
+        "tags": [
+          "vehicle"
+        ],
+        "unit": {
+          "symbol": "vehicles",
+          "label": "vehicles",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Vehicles_StatusPercent_WithService",
+        "current_value": "63.64",
+        "at": "03/21/2014 14:13:50",
+        "max_value": "100.0",
+        "min_value": "0.0",
+        "tags": [
+          "gprs",
+          "gps",
+          "odometer",
+          "vehicle"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Vehicles_StatusPercent_WithTarget",
+        "current_value": "44.32",
+        "at": "03/21/2014 14:13:50",
+        "max_value": "100.0",
+        "min_value": "0.0",
+        "tags": [
+          "gprs",
+          "gps",
+          "odometer",
+          "vehicle"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Vehicles_Status_WithService",
+        "current_value": "168",
+        "at": "03/21/2014 14:13:50",
+        "max_value": "199.0",
+        "min_value": "0.0",
+        "tags": [
+          "gprs",
+          "gps",
+          "odometer",
+          "vehicle"
+        ],
+        "unit": {
+          "symbol": "vehicles",
+          "label": "vehicles",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Vehicles_Status_WithTarget",
+        "current_value": "117",
+        "at": "03/21/2014 14:13:50",
+        "max_value": "136.0",
+        "min_value": "0.0",
+        "tags": [
+          "gprs",
+          "gps",
+          "odometer",
+          "vehicle"
+        ],
+        "unit": {
+          "symbol": "vehicles",
+          "label": "vehicles",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Rogaland, Norway",
+      "domain": 0,
+      "lat": "58.9666823261509",
+      "lon": "5.73380380868912",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 1
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/90031\" >Sanntid: Kjøretøy informasjon</a>",
+    "URLMostrar": "https://xively.com/feeds/90031"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\90031.json",
+  "DocumentJSON": null
+}

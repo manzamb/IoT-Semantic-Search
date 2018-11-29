@@ -1,0 +1,89 @@
+{
+  "Conceptos": [
+    "right"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "4795",
+    "title": "埼玉 越谷 環境データ（2Fダイニング横）",
+    "Private": false,
+    "tags": [
+      "Archiduino",
+      "Architecture",
+      "Arduino",
+      "Monitoring"
+    ],
+    "description": "埼玉 越谷 環境データ（2Fダイニング横）",
+    "feed": "https://api.xively.com/v2/feeds/4795.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/04/2014 19:02:21",
+    "created": "01/16/2010 16:36:54",
+    "creator": "https://xively.com/users/entasan",
+    "version": null,
+    "website": "http://entasan.dyndns.org/",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "0.00",
+        "at": "03/05/2014 04:02:01",
+        "max_value": "923.0",
+        "min_value": "0.0",
+        "tags": [
+          "Brightness"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "[lx]",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "23.72",
+        "at": "03/05/2014 04:02:01",
+        "max_value": "40.39",
+        "min_value": "12.24",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "['C]",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "52.79",
+        "at": "03/05/2014 04:02:01",
+        "max_value": "88.95",
+        "min_value": "13.99",
+        "tags": [
+          "Humidity"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "[%RH]",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Japan Saitama Koshigaya",
+      "domain": 0,
+      "lat": "35.896688",
+      "lon": "139.787791",
+      "ele": "3",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/4795\" >埼玉 越谷 環境データ（2Fダイニング横）</a>",
+    "URLMostrar": "https://xively.com/feeds/4795"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\4795.json",
+  "DocumentJSON": null
+}

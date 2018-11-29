@@ -1,0 +1,76 @@
+{
+  "Conceptos": [
+    "person"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "96101",
+    "title": "orx57-florange outdoor",
+    "Private": false,
+    "tags": [
+      "air quality",
+      "netatmo",
+      "weather"
+    ],
+    "description": "Measures of a personal weather station (Netatmo).",
+    "feed": "https://api.xively.com/v2/feeds/96101.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 13:59:24",
+    "created": "01/04/2013 21:10:23",
+    "creator": "https://xively.com/users/orx57",
+    "version": null,
+    "website": "http://wiki.raggi.fr/meteo/netatmo",
+    "datastreams": [
+      {
+        "id": "Humidity",
+        "current_value": "65",
+        "at": "03/21/2014 13:59:24",
+        "max_value": "98.0",
+        "min_value": "32.0",
+        "tags": [
+          "humidity",
+          "netatmo",
+          "weather"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "Percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperature",
+        "current_value": "13.6",
+        "at": "03/21/2014 13:59:24",
+        "max_value": "34.3",
+        "min_value": "-6.9",
+        "tags": [
+          "netatmo",
+          "temperature",
+          "weather"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Florange, 57, France",
+      "domain": 0,
+      "lat": "49.322437",
+      "lon": "6.11193900000001",
+      "ele": "172",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/96101\" >orx57-florange outdoor</a>",
+    "URLMostrar": "https://xively.com/feeds/96101"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\96101.json",
+  "DocumentJSON": null
+}

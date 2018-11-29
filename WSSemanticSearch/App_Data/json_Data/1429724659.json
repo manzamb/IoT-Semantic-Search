@@ -1,0 +1,246 @@
+{
+  "Conceptos": [
+    "physical"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "1429724659",
+    "title": "Meteo stanice Chodov",
+    "Private": false,
+    "tags": [
+      "Weather Station-Chodov"
+    ],
+    "description": "Arduino Mega,Ethernet Shield,Anemometer,DHT22,BMP085,\nData zasilana kazdych 15 sekund",
+    "feed": "https://api.xively.com/v2/feeds/1429724659.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:15:35",
+    "created": "05/16/2013 19:37:45",
+    "creator": "https://xively.com/users/beneosawe",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "AVGtemp",
+        "current_value": "nan",
+        "at": "03/21/2014 14:15:35",
+        "max_value": "7.69",
+        "min_value": "0.0",
+        "tags": [
+          "Průměrná teplota"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsia",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "AVGwind",
+        "current_value": "6.56",
+        "at": "03/21/2014 14:15:35",
+        "max_value": "20.63",
+        "min_value": "0.0",
+        "tags": [
+          "Průměrná rychlost větru"
+        ],
+        "unit": {
+          "symbol": "m/s",
+          "label": "metrů za sekundu",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Cloud",
+        "current_value": "7196.22",
+        "at": "03/21/2014 14:15:35",
+        "max_value": "602982.87",
+        "min_value": "0.0",
+        "tags": [
+          "Mraková základna v daném místě"
+        ],
+        "unit": {
+          "symbol": "Metr",
+          "label": "Metr",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "DewPoint",
+        "current_value": "-21.18",
+        "at": "03/21/2014 14:15:35",
+        "max_value": "9.81",
+        "min_value": "-49.43",
+        "tags": [
+          "Rosný bod"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsia",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Humidity",
+        "current_value": "4.50",
+        "at": "03/21/2014 14:15:35",
+        "max_value": "100.0",
+        "min_value": "0.0",
+        "tags": [
+          "Venkovní vlhkost"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "procenta",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "LDR",
+        "current_value": "51961.00",
+        "at": "03/21/2014 14:15:35",
+        "max_value": "54612.0",
+        "min_value": "0.0",
+        "tags": [
+          "Intenzita venkovního světla"
+        ],
+        "unit": {
+          "symbol": "Lux",
+          "label": "Lux",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "TempMAX",
+        "current_value": "24.00",
+        "at": "03/21/2014 14:15:35",
+        "max_value": "24.0",
+        "min_value": "0.0",
+        "tags": [
+          "Maximální dosažená teplota"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsia",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "TempOut",
+        "current_value": "21.20",
+        "at": "03/21/2014 14:15:35",
+        "max_value": "24.1",
+        "min_value": "-0.8",
+        "tags": [
+          "Venkovní teplota"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsia",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Tlak",
+        "current_value": "1007.03",
+        "at": "03/21/2014 14:15:35",
+        "max_value": "2037.05",
+        "min_value": "2.46",
+        "tags": [
+          "Barometrický tlak"
+        ],
+        "unit": {
+          "symbol": "hPa",
+          "label": "hPa",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Wind",
+        "current_value": "8.80",
+        "at": "03/21/2014 14:15:35",
+        "max_value": "103.14",
+        "min_value": "0.0",
+        "tags": [
+          "Rychlost větru"
+        ],
+        "unit": {
+          "symbol": "m/s",
+          "label": "metrů za sekundu",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "WindChill",
+        "current_value": "11.12",
+        "at": "03/21/2014 14:15:35",
+        "max_value": "24.88",
+        "min_value": "-39.47",
+        "tags": [
+          "Pociťovaná teplota"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsia",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "WindMAX",
+        "current_value": "17.00",
+        "at": "03/21/2014 14:15:35",
+        "max_value": "103.0",
+        "min_value": "0.0",
+        "tags": [
+          "Maximální dosažená rychlost větru"
+        ],
+        "unit": {
+          "symbol": "m/s",
+          "label": "metrů za sekundu ",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "ZVRP",
+        "current_value": "11111.00",
+        "at": "03/21/2014 14:15:35",
+        "max_value": "11111.0",
+        "min_value": "1.0",
+        "tags": [
+          "koncová vyrovnávací pamět"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "50.2355949485822",
+      "lon": "12.7454710006714",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/1429724659\" >Meteo stanice Chodov</a>",
+    "URLMostrar": "https://xively.com/feeds/1429724659"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\1429724659.json",
+  "DocumentJSON": null
+}

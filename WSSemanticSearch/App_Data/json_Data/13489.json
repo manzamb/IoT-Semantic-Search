@@ -1,0 +1,150 @@
+{
+  "Conceptos": [
+    "description"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "13489",
+    "title": "evrepass_charge_events",
+    "Private": false,
+    "tags": [
+      "test"
+    ],
+    "description": "testing description",
+    "feed": "https://api.xively.com/v2/feeds/13489.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "06/02/2011 07:38:18",
+    "created": "12/08/2010 05:09:05",
+    "creator": "https://xively.com/users/evrepass",
+    "version": null,
+    "website": "http://www.pachube.com",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "sal",
+        "at": "06/02/2011 07:38:18",
+        "max_value": "9788126515165.0",
+        "min_value": "1122.0",
+        "tags": [
+          "customer_id"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "veh012",
+        "at": "06/02/2011 07:38:18",
+        "max_value": "22222222.0",
+        "min_value": "22.0",
+        "tags": [
+          "evrePass_vehicle_id"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "0837654825174",
+        "at": "06/02/2011 07:38:18",
+        "max_value": "102030405060708000.0",
+        "min_value": "1306.0",
+        "tags": [
+          "charge_spot_id"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "12.909224",
+        "at": "06/02/2011 07:38:18",
+        "max_value": "39.91703855",
+        "min_value": "12.904208",
+        "tags": [
+          "latitude"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "77.648895",
+        "at": "06/02/2011 07:38:18",
+        "max_value": "77.651283",
+        "min_value": "-86.160485",
+        "tags": [
+          "longitude"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "927.0259399",
+        "at": "06/02/2011 07:38:18",
+        "max_value": "928.2399292",
+        "min_value": "-5002.7587891",
+        "tags": [
+          "altitude"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "06/02/2011 07:38:04",
+        "at": "06/02/2011 07:38:18",
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "timestamp"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "12.909224",
+      "lon": "77.648895",
+      "ele": "0.000000",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/13489\" >evrepass_charge_events</a>",
+    "URLMostrar": "https://xively.com/feeds/13489"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\13489.json",
+  "DocumentJSON": null
+}

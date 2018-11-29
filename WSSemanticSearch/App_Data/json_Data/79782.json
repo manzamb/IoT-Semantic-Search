@@ -1,0 +1,68 @@
+{
+  "Conceptos": [
+    "physical"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "79782",
+    "title": "Lab - 0.10A",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/79782.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:15:45",
+    "created": "10/11/2012 10:25:15",
+    "creator": "https://xively.com/users/icmab",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "79786",
+        "current_value": "22",
+        "at": "03/21/2014 14:15:44",
+        "max_value": "1716.0",
+        "min_value": "-528.0",
+        "tags": [
+          "Temp. Ambient"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "ºC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "79787",
+        "current_value": "22",
+        "at": "03/21/2014 14:15:45",
+        "max_value": "1716.0",
+        "min_value": "-528.0",
+        "tags": [
+          "Humitat relativa"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/79782\" >Lab - 0.10A</a>",
+    "URLMostrar": "https://xively.com/feeds/79782"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\79782.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,80 @@
+{
+  "Conceptos": [
+    "environment"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "35814",
+    "title": "簡易γ線量モニタリングポスト(千葉市花見川区)",
+    "Private": false,
+    "tags": [
+      "cpm",
+      "Geiger",
+      "japan",
+      "Mark2",
+      "nSv/h",
+      "radiation",
+      "SBM-20",
+      "γ線",
+      "モニタリングポスト",
+      "千葉市",
+      "花見川区"
+    ],
+    "description": "設置環境:海抜18m地上高4.5m、壁:厚23cmALC、窓:防音サッシ 屋内窓際\r\n※　屋外は現在値に20nSv/h以上加算した値になります\r\n※　2011年3月15日以前は屋外で0.06μSv/h+-0.02μSv/h相当でした。(元データはR/h,Gy/h)\r\n※　現在の値と2011年3月15日以前との差は放射性降下堆積物と浮遊物由来\r\n検出部:アルミ管で遮蔽したSBM-20型GM管　(Mark2キット使用)\r\nInstallation environment: Above sea level [ of 18 m ], and 4.5 m of ground quantities Indoor installation   (the outdoors is added 25 nSv/h or more.) Wall: Thickness 23cmALC(autoclaved lightweight aerated concrete), window:sound isolation sash \r\nMarch 15 or before   Outdoors : 0.06 uSv/h +-0.02uSv/h\r\nPrimary detecting element: Aluminum pipe cover SBM-20 \r\n",
+    "feed": "https://api.xively.com/v2/feeds/35814.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:03:44",
+    "created": "09/17/2011 13:51:24",
+    "creator": "https://xively.com/users/jcc120102geiger",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "73.383018",
+        "at": "03/21/2014 14:03:43",
+        "max_value": "95.100254",
+        "min_value": "53.250168",
+        "tags": [
+          "1時間移動平均"
+        ],
+        "unit": {
+          "symbol": "nSv/h",
+          "label": "nSv/h",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "13.597781",
+        "at": "03/21/2014 14:03:44",
+        "max_value": "16.4",
+        "min_value": "11.0",
+        "tags": [
+          "1時間移動平均"
+        ],
+        "unit": {
+          "symbol": "cpm",
+          "label": "cpm",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Chiba-City Japan",
+      "domain": 1,
+      "lat": "35.6719400949271",
+      "lon": "140.048904418945",
+      "ele": "22.5m",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/35814\" >簡易γ線量モニタリングポスト(千葉市花見川区)</a>",
+    "URLMostrar": "https://xively.com/feeds/35814"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\35814.json",
+  "DocumentJSON": null
+}

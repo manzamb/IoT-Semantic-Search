@@ -1,0 +1,74 @@
+{
+  "Conceptos": [
+    "man"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "3986",
+    "title": "CurrentCost meter",
+    "Private": false,
+    "tags": [
+      "currentcost"
+    ],
+    "description": "The CurrentCost meter in my town house in Sandymount, Ireland.",
+    "feed": "https://api.xively.com/v2/feeds/3986.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:10:09",
+    "created": "12/19/2009 22:39:07",
+    "creator": "https://xively.com/users/normanr",
+    "version": null,
+    "website": "http://norman.rasmussen.co.za/",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "18.7",
+        "at": "03/21/2014 14:10:08",
+        "max_value": "26.9",
+        "min_value": "16.0",
+        "tags": [
+          "celsius",
+          "degrees",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "217",
+        "at": "03/21/2014 14:10:08",
+        "max_value": "16732.0",
+        "min_value": "0.0",
+        "tags": [
+          "electricity",
+          "power",
+          "watts"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Sandymount, Ireland",
+      "domain": 0,
+      "lat": "53.3206611089233",
+      "lon": "-6.20780244469643",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/3986\" >CurrentCost meter</a>",
+    "URLMostrar": "https://xively.com/feeds/3986"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\3986.json",
+  "DocumentJSON": null
+}

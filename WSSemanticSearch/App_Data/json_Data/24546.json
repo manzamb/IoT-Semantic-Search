@@ -1,0 +1,98 @@
+{
+  "Conceptos": [
+    "method"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "24546",
+    "title": "Square Methodist Church, Dunstable, Energy Usage",
+    "Private": false,
+    "tags": [
+      "Church",
+      "Electricity",
+      "Temperature",
+      "Vestry"
+    ],
+    "description": "Temperature in the Ministers Vestry,\r\nHalls Electricity Usage,\r\nChurch Electricity Usage.",
+    "feed": "https://api.xively.com/v2/feeds/24546.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:14:57",
+    "created": "05/02/2011 17:35:22",
+    "creator": "https://xively.com/users/davidfrith",
+    "version": null,
+    "website": "http://www.squaremethodist.org",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "14.0",
+        "at": "03/21/2014 14:14:56",
+        "max_value": "26.2",
+        "min_value": "11.4",
+        "tags": [
+          "_Vestry",
+          "celsius",
+          "degrees",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "942.0",
+        "at": "03/21/2014 14:14:56",
+        "max_value": "65808.0",
+        "min_value": "0.0",
+        "tags": [
+          "_Halls",
+          "electricity",
+          "power",
+          "watts"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "364.0",
+        "at": "03/21/2014 14:14:56",
+        "max_value": "13295.0",
+        "min_value": "0.0",
+        "tags": [
+          "_Church",
+          "electricity",
+          "power",
+          "watts"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Dunstable",
+      "domain": 0,
+      "lat": "51.8849422002748",
+      "lon": "-0.520879626274109",
+      "ele": "100",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/24546\" >Square Methodist Church, Dunstable, Energy Usage</a>",
+    "URLMostrar": "https://xively.com/feeds/24546"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\24546.json",
+  "DocumentJSON": null
+}

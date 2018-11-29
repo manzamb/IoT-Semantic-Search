@@ -1,0 +1,139 @@
+{
+  "Conceptos": [
+    "process"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "49900",
+    "title": "218 Climate Monitoring",
+    "Private": false,
+    "tags": [
+      "Arduino",
+      "Climate",
+      "Hamilton",
+      "Herkimer",
+      "Mark",
+      "Mark Taylor",
+      "Taylor",
+      "temperature"
+    ],
+    "description": "Interior and Exterior climate monitoring of 218. This will eventually be expanded to include energy consumption and solar power testing.",
+    "feed": "https://api.xively.com/v2/feeds/49900.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "05/28/2013 00:25:49",
+    "created": "02/27/2012 18:48:49",
+    "creator": "https://xively.com/users/marquistaylor",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "1",
+        "current_value": "18.000000",
+        "at": "05/28/2013 00:25:47",
+        "max_value": "85.0",
+        "min_value": "-127.0",
+        "tags": [
+          "Outside Air"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Cel",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "17.250000",
+        "at": "05/28/2013 00:25:47",
+        "max_value": "85.0",
+        "min_value": "-127.0",
+        "tags": [
+          "Basement"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Cel",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "19.750000",
+        "at": "05/28/2013 00:25:47",
+        "max_value": "85.0",
+        "min_value": "0.0",
+        "tags": [
+          "Furnace"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Cel",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": null,
+        "at": "09/26/2012 19:37:57",
+        "max_value": null,
+        "min_value": null,
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "10",
+        "current_value": "4.6",
+        "at": "04/16/2013 17:04:02",
+        "max_value": "100.0",
+        "min_value": "0.0",
+        "tags": [
+          "Processor Usage"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "Percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "13",
+        "current_value": "0",
+        "at": "05/28/2013 00:25:47",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "FurnaceState"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Binary",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/49900\" >218 Climate Monitoring</a>",
+    "URLMostrar": "https://xively.com/feeds/49900"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\49900.json",
+  "DocumentJSON": null
+}

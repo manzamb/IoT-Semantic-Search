@@ -1,0 +1,152 @@
+{
+  "Conceptos": [
+    "temperatura"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "49624",
+    "title": "LA LUZ  W260",
+    "Private": false,
+    "tags": [
+      "AC",
+      "Puerta",
+      "Temperatura"
+    ],
+    "description": "DITECnet10\r\n10.100.10.20",
+    "feed": "https://api.xively.com/v2/feeds/49624.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:10:46",
+    "created": "02/24/2012 17:55:45",
+    "creator": "https://xively.com/users/tvcable_watching",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "AC",
+        "current_value": "1",
+        "at": "03/21/2014 14:10:46",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "Alimentación AC"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "0=FALLA / 1=OK",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "PT1",
+        "current_value": "1",
+        "at": "03/21/2014 14:10:46",
+        "max_value": "1.6",
+        "min_value": "0.0",
+        "tags": [
+          "Puerta 1"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "0=ABIERTA / 1=CERRADA",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "PT2",
+        "current_value": "0",
+        "at": "03/21/2014 14:10:46",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "Puerta 2"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "0=ABIERTA / 1=CERRADA",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "PWR",
+        "current_value": "12.564153669",
+        "at": "03/21/2014 14:10:46",
+        "max_value": "17.76237869",
+        "min_value": "11.555396077",
+        "tags": [
+          "Alimentación DITECnet"
+        ],
+        "unit": {
+          "symbol": "VDC",
+          "label": "Voltios",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "T1",
+        "current_value": "21.5625",
+        "at": "03/21/2014 14:10:46",
+        "max_value": "30.4375",
+        "min_value": "-99.0",
+        "tags": [
+          "Temperatura ambiente"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "° Centigrados",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "TVS",
+        "current_value": "1",
+        "at": "03/21/2014 14:10:46",
+        "max_value": "1.0",
+        "min_value": "1.0",
+        "tags": [
+          "Supresor de picos de alto voltaje"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "0=FALLA / 1=OK",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "TVSS",
+        "current_value": "1",
+        "at": "09/24/2013 21:33:23",
+        "max_value": "1.0",
+        "min_value": "1.0",
+        "tags": [
+          "Supresor de picos de alto voltaje"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "0=FALLA / 1=OK",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Quito",
+      "domain": 0,
+      "lat": "-0.790990498154006",
+      "lon": "-78.486328125",
+      "ele": "2600",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/49624\" >LA LUZ  W260</a>",
+    "URLMostrar": "https://xively.com/feeds/49624"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\49624.json",
+  "DocumentJSON": null
+}

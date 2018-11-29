@@ -1,0 +1,132 @@
+{
+  "Conceptos": [
+    "wind"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "9805",
+    "title": "Weather Station in Morciano di Leuca, Italy",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/9805.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/07/2014 17:24:01",
+    "created": "09/01/2010 14:17:05",
+    "creator": "https://xively.com/users/pietroblu",
+    "version": null,
+    "website": "http://www.wunderground.com/weatherstation/WXDailyHistory.asp?ID=IPUGLIAM2",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "10.5",
+        "at": "03/07/2014 17:24:01",
+        "max_value": "44.9",
+        "min_value": "-21.1",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "87",
+        "at": "03/07/2014 17:24:01",
+        "max_value": "99.0",
+        "min_value": "10.0",
+        "tags": [
+          "relative humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "percentage",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "7.0",
+        "at": "03/07/2014 17:24:01",
+        "max_value": "100.0",
+        "min_value": "0.0",
+        "tags": [
+          "wind speed"
+        ],
+        "unit": {
+          "symbol": "mph",
+          "label": "mph",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "1017.2",
+        "at": "03/07/2014 17:24:01",
+        "max_value": "1036.5",
+        "min_value": "982.6",
+        "tags": [
+          "atmospheric pressure"
+        ],
+        "unit": {
+          "symbol": "mb",
+          "label": "millibar",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "1.1 cm",
+        "at": "03/07/2014 17:24:01",
+        "max_value": "7.8",
+        "min_value": "0.0",
+        "tags": [
+          "daily rain"
+        ],
+        "unit": {
+          "symbol": "cm",
+          "label": "cm",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "0.0",
+        "at": "03/07/2014 17:24:01",
+        "max_value": "4.2",
+        "min_value": "0.0",
+        "tags": [
+          "1h rain"
+        ],
+        "unit": {
+          "symbol": "cm",
+          "label": "cm",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Morciano di Leuca",
+      "domain": 0,
+      "lat": "39.8476897505847",
+      "lon": "18.3108186721802",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/9805\" >Weather Station in Morciano di Leuca, Italy</a>",
+    "URLMostrar": "https://xively.com/feeds/9805"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\9805.json",
+  "DocumentJSON": null
+}

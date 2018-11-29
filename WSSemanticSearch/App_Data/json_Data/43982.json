@@ -1,0 +1,228 @@
+{
+  "Conceptos": [
+    "precipitation"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "43982",
+    "title": "Exterieur",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/43982.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:10:09",
+    "created": "01/11/2012 06:05:06",
+    "creator": "https://xively.com/users/jburdy",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "53",
+        "at": "05/13/2012 09:30:04",
+        "max_value": "53.0",
+        "min_value": "53.0",
+        "tags": [
+          "Orientation du vent"
+        ],
+        "unit": {
+          "symbol": "°",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "11.3",
+        "at": "03/21/2014 14:10:04",
+        "max_value": "69.2",
+        "min_value": "0.0",
+        "tags": [
+          "Vitesse du vent"
+        ],
+        "unit": {
+          "symbol": "km/h",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "20.9",
+        "at": "03/21/2014 14:10:04",
+        "max_value": "61.2",
+        "min_value": "0.0",
+        "tags": [
+          "Vitesse du vent moyenne"
+        ],
+        "unit": {
+          "symbol": "km/h 10min",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "18.3",
+        "at": "03/21/2014 14:10:05",
+        "max_value": "42.2",
+        "min_value": "-7.2",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "15.3",
+        "at": "03/21/2014 14:10:01",
+        "max_value": "33.4",
+        "min_value": "-13.5",
+        "tags": [
+          "Temperature ressentie"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "43",
+        "at": "03/21/2014 14:10:06",
+        "max_value": "99.0",
+        "min_value": "28.0",
+        "tags": [
+          "Humidité relative"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "4.9",
+        "at": "03/21/2014 14:10:02",
+        "max_value": "21.2",
+        "min_value": "-12.8",
+        "tags": [
+          "Point de rosée"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "7",
+        "current_value": "1014.5",
+        "at": "03/21/2014 14:10:06",
+        "max_value": "1043.3",
+        "min_value": "992.2",
+        "tags": [
+          "Pression atmosphérique"
+        ],
+        "unit": {
+          "symbol": "hPa",
+          "label": "QFF",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "8",
+        "current_value": "1.6",
+        "at": "03/21/2014 14:10:07",
+        "max_value": "9.2",
+        "min_value": "0.0",
+        "tags": [
+          "Index UV"
+        ],
+        "unit": {
+          "symbol": "sur 16",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "9",
+        "current_value": "260",
+        "at": "03/21/2014 14:10:08",
+        "max_value": "1294.0",
+        "min_value": "0.0",
+        "tags": [
+          "Rayonnement solaire"
+        ],
+        "unit": {
+          "symbol": "W/m²",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "10",
+        "current_value": "0.0",
+        "at": "03/21/2014 14:10:08",
+        "max_value": "42.8",
+        "min_value": "0.0",
+        "tags": [
+          "Precipitations"
+        ],
+        "unit": {
+          "symbol": "mm",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "11",
+        "current_value": "2.49",
+        "at": "03/21/2014 14:10:09",
+        "max_value": "6.63",
+        "min_value": "0.0",
+        "tags": [
+          "Evapotranspiration"
+        ],
+        "unit": {
+          "symbol": "mm",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "46.7990282823048",
+      "lon": "6.60922050476074",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/43982\" >Exterieur</a>",
+    "URLMostrar": "https://xively.com/feeds/43982"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\43982.json",
+  "DocumentJSON": null
+}

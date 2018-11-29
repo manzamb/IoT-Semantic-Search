@@ -1,0 +1,100 @@
+{
+  "Conceptos": [
+    "condition"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "14762",
+    "title": "Plant Monitoring",
+    "Private": false,
+    "tags": null,
+    "description": "Condition of plant-LAB",
+    "feed": "https://api.xively.com/v2/feeds/14762.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "02/25/2014 18:50:04",
+    "created": "01/11/2011 12:47:08",
+    "creator": "https://xively.com/users/iot2020",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "45",
+        "at": "02/25/2014 18:50:02",
+        "max_value": "99.0",
+        "min_value": "0.0",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "℃",
+          "label": "Degrees celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "32",
+        "at": "02/25/2014 18:50:02",
+        "max_value": "99.0",
+        "min_value": "0.0",
+        "tags": [
+          "Humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "Percentage",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "292",
+        "at": "02/25/2014 18:50:02",
+        "max_value": "997.0",
+        "min_value": "1.0",
+        "tags": [
+          "Light"
+        ],
+        "unit": {
+          "symbol": "Lux",
+          "label": "Lux",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "49",
+        "at": "02/25/2014 18:50:02",
+        "max_value": "99.0",
+        "min_value": "0.0",
+        "tags": [
+          "Moisture"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "Percentage",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "3.00792714243577",
+      "lon": "101.716618537903",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/14762\" >Plant Monitoring</a>",
+    "URLMostrar": "https://xively.com/feeds/14762"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\14762.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,202 @@
+{
+  "Conceptos": [
+    "thermistor"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "104664",
+    "title": "Test",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "photoresistor",
+      "thermistor"
+    ],
+    "description": "Just a test, I've hooked up a photoresistor and termistor NTC640-12K to my arduino uno and checking what it does :-) ... as well I've added some OneWire temp sensors that are meassuring the same temperature as the termistor so I could eventually calibrate the termisthor later :-)",
+    "feed": "https://api.xively.com/v2/feeds/104664.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "05/21/2013 21:00:18",
+    "created": "02/14/2013 22:04:25",
+    "creator": "https://xively.com/users/pez",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "28453bb401000040",
+        "current_value": "22.750",
+        "at": "05/21/2013 21:00:18",
+        "max_value": "85.0",
+        "min_value": "-127.0",
+        "tags": [
+          "DS18B20"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "284a81b401000096",
+        "current_value": "22.625",
+        "at": "05/21/2013 21:00:18",
+        "max_value": "85.0",
+        "min_value": "-127.0",
+        "tags": [
+          "DS18B20"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "28ab3fb401000065",
+        "current_value": "14.250",
+        "at": "05/21/2013 21:00:18",
+        "max_value": "85.0",
+        "min_value": "-127.0",
+        "tags": [
+          "DS18B20",
+          "Outside"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "28c36bb40100008d",
+        "current_value": "85.000",
+        "at": "05/21/2013 21:00:18",
+        "max_value": "85.0",
+        "min_value": "-127.0",
+        "tags": [
+          "Boiler",
+          "DS18B20"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "light_lux",
+        "current_value": "1.997",
+        "at": "05/21/2013 21:00:18",
+        "max_value": "104.227",
+        "min_value": "0.0",
+        "tags": [
+          "photoresistor",
+          "VT90N1"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "lux",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "light_raw",
+        "current_value": "1.080",
+        "at": "05/21/2013 21:00:18",
+        "max_value": "4.336",
+        "min_value": "0.0",
+        "tags": [
+          "photoresistor",
+          "VT90N1"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "V",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temp_raw",
+        "current_value": "0.992",
+        "at": "05/21/2013 21:00:18",
+        "max_value": "3.065",
+        "min_value": "0.504",
+        "tags": [
+          "NTC640-12K",
+          "thermistor"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "V",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temp_resistance",
+        "current_value": "57360.156",
+        "at": "05/21/2013 21:00:18",
+        "max_value": "126838.44",
+        "min_value": "8968.453",
+        "tags": [
+          "NTC640-12K",
+          "thermistor"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Ω",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "uptime",
+        "current_value": "76892534",
+        "at": "05/21/2013 21:00:18",
+        "max_value": "3438146437.0",
+        "min_value": "1495.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "ms",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "VCC",
+        "current_value": "5.001",
+        "at": "05/21/2013 21:00:18",
+        "max_value": "5.001",
+        "min_value": "4.262",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "V",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Světice",
+      "domain": 0,
+      "lat": "49.9704536533433",
+      "lon": "14.6593236923218",
+      "ele": "383",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/104664\" >Test</a>",
+    "URLMostrar": "https://xively.com/feeds/104664"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\104664.json",
+  "DocumentJSON": null
+}

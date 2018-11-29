@@ -1,0 +1,71 @@
+{
+  "Conceptos": [
+    "plan"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "104638",
+    "title": "CostMeter",
+    "Private": false,
+    "tags": [
+      "Current Cost Classic",
+      "RaspberryPI"
+    ],
+    "description": "Cost Current Meter upload from Raspberry PI",
+    "feed": "https://api.xively.com/v2/feeds/104638.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "11/17/2013 16:26:18",
+    "created": "02/14/2013 18:43:36",
+    "creator": "https://xively.com/users/cristaki",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "405.6",
+        "at": "11/17/2013 16:26:15",
+        "max_value": "6384.5",
+        "min_value": "141.4",
+        "tags": [
+          "Watts"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "W",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "13.2",
+        "at": "11/17/2013 16:26:15",
+        "max_value": "38.1",
+        "min_value": "1.1",
+        "tags": [
+          "Temp"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "DawleyPowerPlant",
+      "domain": 0,
+      "lat": "52.657726",
+      "lon": "-2.45747700000004",
+      "ele": "143",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/104638\" >CostMeter</a>",
+    "URLMostrar": "https://xively.com/feeds/104638"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\104638.json",
+  "DocumentJSON": null
+}

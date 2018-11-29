@@ -1,0 +1,150 @@
+{
+  "Conceptos": [
+    "system"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "120884",
+    "title": "Raspberry Pi Data Collector",
+    "Private": false,
+    "tags": [
+      "Raspberry Pi cpu snmp gpio temperature TMP36 MCP32008 ADC"
+    ],
+    "description": "Raspberry Pi data collector: CPU temperature by SNMP, RPi system usage stats, room temperature using GPIO (with TMP36 temperature sensor and MCP32008 ADC converter module)",
+    "feed": "https://api.xively.com/v2/feeds/120884.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:13:07",
+    "created": "03/25/2013 10:21:58",
+    "creator": "https://xively.com/users/coulterpb",
+    "version": null,
+    "website": "http://-",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "19.9",
+        "at": "03/21/2014 14:13:07",
+        "max_value": "610.3",
+        "min_value": "-44.8",
+        "tags": [
+          "Room Temp (°C)"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "67.8",
+        "at": "03/21/2014 14:13:07",
+        "max_value": "1130.5",
+        "min_value": "-48.7",
+        "tags": [
+          "Room Temp (°F)"
+        ],
+        "unit": {
+          "symbol": "°F",
+          "label": "Fahrenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "44.4",
+        "at": "03/21/2014 14:13:07",
+        "max_value": "50.3",
+        "min_value": "26.6",
+        "tags": [
+          "CPU Temp (°C)"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "111.9",
+        "at": "03/21/2014 14:13:07",
+        "max_value": "122.5",
+        "min_value": "79.9",
+        "tags": [
+          "CPU Temp (°F)"
+        ],
+        "unit": {
+          "symbol": "°F",
+          "label": "Fahrenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "0.30",
+        "at": "03/21/2014 14:13:07",
+        "max_value": "12.79",
+        "min_value": "0.0",
+        "tags": [
+          "load average (1Min)"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "0.30",
+        "at": "03/21/2014 14:13:07",
+        "max_value": "8.69",
+        "min_value": "0.0",
+        "tags": [
+          "load average (5Min)"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "0.32",
+        "at": "03/21/2014 14:13:07",
+        "max_value": "5.25",
+        "min_value": "0.01",
+        "tags": [
+          "load average (15Min)"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Woking",
+      "domain": 0,
+      "lat": "51.3031452591991",
+      "lon": "-0.5548095703125",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/120884\" >Raspberry Pi Data Collector</a>",
+    "URLMostrar": "https://xively.com/feeds/120884"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\120884.json",
+  "DocumentJSON": null
+}

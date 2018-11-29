@@ -1,0 +1,52 @@
+{
+  "Conceptos": [
+    "sensor input"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "1372",
+    "title": "MacBook Temp Test",
+    "Private": false,
+    "tags": null,
+    "description": "Feed to test data input from mac sensors",
+    "feed": "https://api.xively.com/v2/feeds/1372.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "08/31/2011 08:14:11",
+    "created": "02/03/2009 16:56:34",
+    "creator": "https://xively.com/users/mikethebee",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "54",
+        "at": "08/31/2011 08:14:11",
+        "max_value": "81.0",
+        "min_value": "-1.52588e-05",
+        "tags": [
+          "date"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "52,0",
+      "domain": 0,
+      "lat": "52.1250576548512",
+      "lon": "-0.29388427734375",
+      "ele": "500",
+      "exposure": 0,
+      "disposition": 1
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/1372\" >MacBook Temp Test</a>",
+    "URLMostrar": "https://xively.com/feeds/1372"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\1372.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,83 @@
+{
+  "Conceptos": [
+    "humedad"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "128607",
+    "title": "Sensores de humedad",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "Temperatura GPRS"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/128607.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "06/15/2013 13:14:51",
+    "created": "05/01/2013 09:24:10",
+    "creator": "https://xively.com/users/icaro",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "info_message",
+        "current_value": "a message to upload",
+        "at": "06/15/2013 13:14:51",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "sensor_reading1",
+        "current_value": "13.00",
+        "at": "06/15/2013 13:14:51",
+        "max_value": "253.0",
+        "min_value": "0.0",
+        "tags": [
+          "Sensor1"
+        ],
+        "unit": {
+          "symbol": "Cb",
+          "label": "Centibares",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "sensor_reading2",
+        "current_value": "13.00",
+        "at": "06/15/2013 13:14:51",
+        "max_value": "236.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "38.3834914037674",
+      "lon": "-0.763893127441406",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/128607\" >Sensores de humedad</a>",
+    "URLMostrar": "https://xively.com/feeds/128607"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\128607.json",
+  "DocumentJSON": null
+}

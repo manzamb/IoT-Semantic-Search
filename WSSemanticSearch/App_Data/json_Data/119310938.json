@@ -1,0 +1,149 @@
+{
+  "Conceptos": [
+    "precision"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "119310938",
+    "title": "arduino uno ethernet",
+    "Private": false,
+    "tags": [
+      "beehive",
+      "ruche"
+    ],
+    "description": "Acquisition RF du poids de nos ruches située à 100m de l'habitation principale. La précision de la balance est de 1 grammes (+-10 abeilles) ce qui permet de détecter leur sorties le matin et leur rentrées le soir. La balance et les modules RF sont gérés par 3 Arduinos. ",
+    "feed": "https://api.xively.com/v2/feeds/119310938.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "01/31/2014 06:32:35",
+    "created": "08/25/2013 17:17:10",
+    "creator": "https://xively.com/users/dgoosse",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "B1",
+        "current_value": "39.10",
+        "at": "01/31/2014 06:32:34",
+        "max_value": "44.35",
+        "min_value": "-22.82",
+        "tags": [
+          "Balance Ruche BOIS"
+        ],
+        "unit": {
+          "symbol": "Kg",
+          "label": "Kilograms",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "B2",
+        "current_value": "28.41",
+        "at": "01/31/2014 06:32:34",
+        "max_value": "104.58",
+        "min_value": "-4.92",
+        "tags": [
+          "Balance Ruche NICOT2"
+        ],
+        "unit": {
+          "symbol": "Kg",
+          "label": "Kilograms",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "H1",
+        "current_value": "99.90",
+        "at": "01/31/2014 06:32:34",
+        "max_value": "99.9",
+        "min_value": "41.1",
+        "tags": [
+          "Humidité ambiante DHT22"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "Percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "P1",
+        "current_value": "95999",
+        "at": "01/31/2014 06:32:34",
+        "max_value": "147392.0",
+        "min_value": "236.0",
+        "tags": [
+          "Pression atmospheriqe"
+        ],
+        "unit": {
+          "symbol": "Pa",
+          "label": "Pascal",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "T1",
+        "current_value": "-4.10",
+        "at": "01/31/2014 06:32:34",
+        "max_value": "24.3",
+        "min_value": "-198.0",
+        "tags": [
+          "Temperature BMP180"
+        ],
+        "unit": {
+          "symbol": "*C",
+          "label": "Centigrade",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "T2",
+        "current_value": "-4.49",
+        "at": "01/31/2014 06:32:34",
+        "max_value": "22.79",
+        "min_value": "-5.09",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "T3",
+        "current_value": "-4.80",
+        "at": "01/31/2014 06:32:34",
+        "max_value": "24.0",
+        "min_value": "-5.1",
+        "tags": [
+          "Temperature DHT22"
+        ],
+        "unit": {
+          "symbol": "*C",
+          "label": "Centigrade",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "longlier, belgium",
+      "domain": 0,
+      "lat": "49.8622301",
+      "lon": "5.47314259999996",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/119310938\" >arduino uno ethernet</a>",
+    "URLMostrar": "https://xively.com/feeds/119310938"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\119310938.json",
+  "DocumentJSON": null
+}

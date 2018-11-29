@@ -1,0 +1,106 @@
+{
+  "Conceptos": [
+    "thermocouple"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "29433",
+    "title": "ZR02",
+    "Private": false,
+    "tags": [
+      "Arduino",
+      "Network",
+      "Sensor",
+      "Wireless",
+      "XBee"
+    ],
+    "description": "Arduino/XBee sensor network, feed from thermocouples on wood stove.",
+    "feed": "https://api.xively.com/v2/feeds/29433.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "06/18/2012 16:35:15",
+    "created": "07/07/2011 00:58:07",
+    "creator": "https://xively.com/users/jchristensen",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "105714",
+        "at": "06/18/2012 16:35:15",
+        "max_value": "139686.0",
+        "min_value": "0.0",
+        "tags": [
+          "Uptime"
+        ],
+        "unit": {
+          "symbol": "hr*100",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "71",
+        "at": "06/18/2012 16:35:15",
+        "max_value": "652.0",
+        "min_value": "32.0",
+        "tags": [
+          "Temperature1"
+        ],
+        "unit": {
+          "symbol": "°F",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "n/a",
+        "at": "06/18/2012 16:35:15",
+        "max_value": "976.0",
+        "min_value": "0.0",
+        "tags": [
+          "Temperature2"
+        ],
+        "unit": {
+          "symbol": "°F",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "-59",
+        "at": "06/18/2012 16:35:15",
+        "max_value": "-31.0",
+        "min_value": "-95.0",
+        "tags": [
+          "Received Signal Strength"
+        ],
+        "unit": {
+          "symbol": "dBm",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "48439",
+      "domain": 0,
+      "lat": "42.9272684764166",
+      "lon": "-83.6303329467773",
+      "ele": "254",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/29433\" >ZR02</a>",
+    "URLMostrar": "https://xively.com/feeds/29433"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\29433.json",
+  "DocumentJSON": null
+}

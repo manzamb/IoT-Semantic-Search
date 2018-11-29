@@ -1,0 +1,208 @@
+{
+  "Conceptos": [
+    "environment"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "12504",
+    "title": "Mikes House",
+    "Private": false,
+    "tags": [
+      "1-wire",
+      "Electric",
+      "Energy",
+      "Environment",
+      "HVAC",
+      "kw",
+      "Mango",
+      "Power",
+      "TED",
+      "Temperature",
+      "The Energy Detective"
+    ],
+    "description": "Data from \"The Energy Detective (TED 1000)\" collected by Mango M2M. Data from Dallas/Maxim 1-wire Microlan collected by Mango M2M. Mango pushes the data to Pachube using the data publisher.",
+    "feed": "https://api.xively.com/v2/feeds/12504.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:10:09",
+    "created": "11/10/2010 03:36:54",
+    "creator": "https://xively.com/users/mikeshouse",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "10",
+        "current_value": "1.32",
+        "at": "01/04/2014 18:46:35",
+        "max_value": "15.46",
+        "min_value": "0.32",
+        "tags": [
+          "TED - kw Now"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "kw",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "20",
+        "current_value": "8.0",
+        "at": "01/04/2014 18:46:35",
+        "max_value": "55.3",
+        "min_value": "0.0",
+        "tags": [
+          "TED - kwh Today"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "kwh",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "30",
+        "current_value": "1181.0",
+        "at": "01/04/2014 18:46:35",
+        "max_value": "1181.0",
+        "min_value": "1014.0",
+        "tags": [
+          "TED - kwh MTD"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "kwh",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "50",
+        "current_value": null,
+        "at": null,
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "Reserved 1"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "60",
+        "current_value": null,
+        "at": null,
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "Reserved 2"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "70",
+        "current_value": null,
+        "at": null,
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "Reserved 3"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "80",
+        "current_value": null,
+        "at": null,
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "Reserved 4"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "90",
+        "current_value": null,
+        "at": null,
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "Reserved 5"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "100",
+        "current_value": "54.3875",
+        "at": "03/21/2014 14:10:09",
+        "max_value": "106.475",
+        "min_value": "9.95",
+        "tags": [
+          "Outdoor Temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Deg F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "40",
+        "current_value": "0.0",
+        "at": "03/21/2014 14:10:09",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "Z1 Compressor Status"
+        ],
+        "unit": {
+          "symbol": "1/0",
+          "label": "On/Off",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Chesapeake, Virginia USA",
+      "domain": 0,
+      "lat": "36.7236817689817",
+      "lon": "-76.1863231658936",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/12504\" >Mikes House</a>",
+    "URLMostrar": "https://xively.com/feeds/12504"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\12504.json",
+  "DocumentJSON": null
+}

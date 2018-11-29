@@ -1,0 +1,129 @@
+{
+  "Conceptos": [
+    "longitud"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "128280",
+    "title": "PATIENT_PROJECT_DEMO",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "ARDUINO",
+      "DISTANCE FROM HOME",
+      "LATITUDE",
+      "LONGITUDE",
+      "PATIENT MONITORING SYSTEM",
+      "SIM908",
+      "SMS ALERT TWITTER ALERT"
+    ],
+    "description": "PATIENT MONITORING SYSTEM,LATITUDE,LONGITUDE,HEARTBEAT,RESPIRATON RATE ,BODY TEMPERATURE",
+    "feed": "https://api.xively.com/v2/feeds/128280.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "04/30/2013 07:13:34",
+    "created": "04/29/2013 17:07:16",
+    "creator": "https://xively.com/users/gowthamhuliyar",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "BODYTEMPERATURE",
+        "current_value": "97",
+        "at": "04/30/2013 07:13:34",
+        "max_value": "97.0",
+        "min_value": "97.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "DISTANCE_FROM_HOME",
+        "current_value": "5.7",
+        "at": "04/30/2013 07:13:34",
+        "max_value": "5.7",
+        "min_value": "5.7",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "HEARTBEAT",
+        "current_value": "72",
+        "at": "04/30/2013 07:13:34",
+        "max_value": "72.0",
+        "min_value": "72.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "LATITUDE",
+        "current_value": "17.5656",
+        "at": "04/30/2013 07:13:34",
+        "max_value": "17.5656",
+        "min_value": "17.5656",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "LONGITUDE",
+        "current_value": "56.5666",
+        "at": "04/30/2013 07:13:34",
+        "max_value": "56.5666",
+        "min_value": "56.5666",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "RESPIRATION_RATE",
+        "current_value": "13",
+        "at": "04/30/2013 07:13:34",
+        "max_value": "13.0",
+        "min_value": "13.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "12.8974891837559",
+      "lon": "77.607421875",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 1
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/128280\" >PATIENT_PROJECT_DEMO</a>",
+    "URLMostrar": "https://xively.com/feeds/128280"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\128280.json",
+  "DocumentJSON": null
+}

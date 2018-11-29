@@ -1,0 +1,228 @@
+{
+  "Conceptos": [
+    "sensing"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "10739",
+    "title": "DemoRaven",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/10739.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "09/06/2011 15:40:26",
+    "created": "10/11/2010 15:09:31",
+    "creator": "https://xively.com/users/mvial",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "light1_lc",
+        "current_value": "78",
+        "at": "09/06/2011 15:40:26",
+        "max_value": "88.0",
+        "min_value": "0.0",
+        "tags": [
+          "light1 LevelControl"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "light2_lc",
+        "current_value": "0",
+        "at": "01/04/2011 11:11:05",
+        "max_value": "85.0",
+        "min_value": "0.0",
+        "tags": [
+          "light2 LevelControl"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "light3_lc",
+        "current_value": "0",
+        "at": "01/04/2011 11:11:09",
+        "max_value": "81.0",
+        "min_value": "0.0",
+        "tags": [
+          "light3 LevelControl"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "light4_lc",
+        "current_value": "0",
+        "at": "01/04/2011 11:08:59",
+        "max_value": "78.0",
+        "min_value": "0.0",
+        "tags": [
+          "light4 LevelControl"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "sensor1_ill",
+        "current_value": "65",
+        "at": "09/06/2011 15:37:48",
+        "max_value": "100.0",
+        "min_value": "0.0",
+        "tags": [
+          "sensor1 IlluminanceMeasurement"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "sensor1_occ",
+        "current_value": "1",
+        "at": "09/06/2011 15:37:48",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "sensor1 OccupancySensing"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "light1_tmp",
+        "current_value": "29",
+        "at": "09/06/2011 15:40:26",
+        "max_value": "31.0",
+        "min_value": "21.0",
+        "tags": [
+          "light1 Temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "light2_tmp",
+        "current_value": "26",
+        "at": "01/04/2011 11:11:05",
+        "max_value": "31.0",
+        "min_value": "21.0",
+        "tags": [
+          "light2 Temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "light3_tmp",
+        "current_value": "26",
+        "at": "01/04/2011 11:11:09",
+        "max_value": "27.0",
+        "min_value": "22.0",
+        "tags": [
+          "light3 Temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "light4_tmp",
+        "current_value": "26",
+        "at": "01/04/2011 11:08:59",
+        "max_value": "27.0",
+        "min_value": "0.0",
+        "tags": [
+          "light4 Temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "sensor1_tmp",
+        "current_value": "29",
+        "at": "09/06/2011 15:37:48",
+        "max_value": "30.0",
+        "min_value": "21.0",
+        "tags": [
+          "sensor1 Temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "roomcontroller1_tmp",
+        "current_value": "29",
+        "at": "09/06/2011 15:39:32",
+        "max_value": "30.0",
+        "min_value": "21.0",
+        "tags": [
+          "roomcontroller1 Temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Grenoble",
+      "domain": 0,
+      "lat": "45.2039679195838",
+      "lon": "5.71011453866959",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/10739\" >DemoRaven</a>",
+    "URLMostrar": "https://xively.com/feeds/10739"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\10739.json",
+  "DocumentJSON": null
+}

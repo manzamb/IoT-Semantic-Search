@@ -1,0 +1,87 @@
+{
+  "Conceptos": [
+    "person"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "90143",
+    "title": "CC128 feed",
+    "Private": false,
+    "tags": [
+      "energy cc128"
+    ],
+    "description": "CC128 energy monitor",
+    "feed": "https://api.xively.com/v2/feeds/90143.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:09:37",
+    "created": "12/06/2012 01:40:06",
+    "creator": "https://xively.com/users/anobleperson",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "ch1",
+        "current_value": "00311",
+        "at": "03/21/2014 14:09:37",
+        "max_value": "7737.0",
+        "min_value": "0.0",
+        "tags": [
+          "energy"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "ch3",
+        "current_value": "00529",
+        "at": "03/21/2014 14:09:37",
+        "max_value": "9101.0",
+        "min_value": "0.0",
+        "tags": [
+          "energy",
+          "hydroheat"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temperature",
+        "current_value": "16.9",
+        "at": "03/21/2014 14:09:37",
+        "max_value": "25.4",
+        "min_value": "10.4",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "degressC",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Hobart",
+      "domain": 0,
+      "lat": "-42.8799895177148",
+      "lon": "147.32666015625",
+      "ele": "200",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/90143\" >CC128 feed</a>",
+    "URLMostrar": "https://xively.com/feeds/90143"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\90143.json",
+  "DocumentJSON": null
+}

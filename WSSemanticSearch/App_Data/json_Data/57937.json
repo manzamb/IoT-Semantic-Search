@@ -1,0 +1,90 @@
+{
+  "Conceptos": [
+    "configuration"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "57937",
+    "title": "Air Quality",
+    "Private": false,
+    "tags": [
+      "Air",
+      "AQE",
+      "CO",
+      "Hum",
+      "Temp"
+    ],
+    "description": "Air Quality with Nanode board.\r\n\r\nAir quality with MQ-7 sensor\r\nTemp, Humidity with DHT11/22\r\n\r\n1. Test series: Indoor, DHT11, Configuration\r\n\r\n2. Test Series: Indoor, DHT22 ",
+    "feed": "https://api.xively.com/v2/feeds/57937.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "05/09/2012 18:46:11",
+    "created": "05/02/2012 11:39:59",
+    "creator": "https://xively.com/users/arduinopraxis",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "67.0",
+        "at": "05/09/2012 18:46:11",
+        "max_value": "256.0",
+        "min_value": "0.0",
+        "tags": [
+          "CO"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Value",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "22.5",
+        "at": "05/09/2012 18:46:11",
+        "max_value": "25.4",
+        "min_value": "20.0",
+        "tags": [
+          "Temp"
+        ],
+        "unit": {
+          "symbol": "Grad C",
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "54.9",
+        "at": "05/09/2012 18:46:11",
+        "max_value": "55.6",
+        "min_value": "34.0",
+        "tags": [
+          "Humidity"
+        ],
+        "unit": {
+          "symbol": "RH",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Schaffhausen",
+      "domain": 0,
+      "lat": "47.7241981203856",
+      "lon": "8.66194725036621",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/57937\" >Air Quality</a>",
+    "URLMostrar": "https://xively.com/feeds/57937"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\57937.json",
+  "DocumentJSON": null
+}

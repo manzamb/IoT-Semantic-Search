@@ -1,0 +1,89 @@
+{
+  "Conceptos": [
+    "right"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "20390",
+    "title": "埼玉 越谷 環境データ（階段室）",
+    "Private": false,
+    "tags": [
+      "Archiduino",
+      "Architecture",
+      "Arduino",
+      "Monitoring"
+    ],
+    "description": "埼玉 越谷 環境データ（階段室）",
+    "feed": "https://api.xively.com/v2/feeds/20390.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/20/2014 10:26:34",
+    "created": "03/18/2011 09:26:30",
+    "creator": "https://xively.com/users/entasan",
+    "version": null,
+    "website": "http://entasan.dyndns.org/",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "4.00",
+        "at": "03/20/2014 19:26:08",
+        "max_value": "913.0",
+        "min_value": "0.0",
+        "tags": [
+          "Brightness"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "[lx]",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "17.95",
+        "at": "03/20/2014 19:26:08",
+        "max_value": "50.0",
+        "min_value": "11.36",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "['C]",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "48.58",
+        "at": "03/20/2014 19:26:08",
+        "max_value": "81.89",
+        "min_value": "24.94",
+        "tags": [
+          "Humidity"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "[%RH]",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Japan Saitama Koshigaya",
+      "domain": 0,
+      "lat": "35.896688",
+      "lon": "139.787791",
+      "ele": "1",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/20390\" >埼玉 越谷 環境データ（階段室）</a>",
+    "URLMostrar": "https://xively.com/feeds/20390"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\20390.json",
+  "DocumentJSON": null
+}

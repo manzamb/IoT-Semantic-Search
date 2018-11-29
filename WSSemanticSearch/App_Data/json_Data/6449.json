@@ -1,0 +1,485 @@
+{
+  "Conceptos": [
+    "wind"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "6449",
+    "title": "weather",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/6449.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:05:08",
+    "created": "03/24/2010 02:26:08",
+    "creator": "https://xively.com/users/pantonvich",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "185.000",
+        "at": "03/21/2014 14:00:07",
+        "max_value": "449.5",
+        "min_value": "-93.0",
+        "tags": [
+          "soil temp - ea"
+        ],
+        "unit": {
+          "symbol": "°F",
+          "label": "°F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "51.350",
+        "at": "03/21/2014 14:00:07",
+        "max_value": "448.6",
+        "min_value": "-99.706",
+        "tags": [
+          "pond temp - fd"
+        ],
+        "unit": {
+          "symbol": "°F",
+          "label": "°F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "64.4",
+        "at": "03/21/2014 14:05:06",
+        "max_value": "153.9",
+        "min_value": "-21.1",
+        "tags": [
+          "indoor temp"
+        ],
+        "unit": {
+          "symbol": "°F",
+          "label": "°F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "49",
+        "at": "03/21/2014 14:05:06",
+        "max_value": "165.0",
+        "min_value": "33.0",
+        "tags": [
+          "indoor humidity"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "55.6",
+        "at": "03/21/2014 14:05:06",
+        "max_value": "178.0",
+        "min_value": "7.0",
+        "tags": [
+          "outdoor temp"
+        ],
+        "unit": {
+          "symbol": "°F",
+          "label": "°F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "40.0",
+        "at": "03/21/2014 14:05:06",
+        "max_value": "178.0",
+        "min_value": "-3.5",
+        "tags": [
+          "dewpoint"
+        ],
+        "unit": {
+          "symbol": "°F",
+          "label": "°F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "56",
+        "at": "03/21/2014 14:05:06",
+        "max_value": "337.5",
+        "min_value": "0.0",
+        "tags": [
+          "outdoor humidity"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "7",
+        "current_value": "0.0",
+        "at": "03/21/2014 14:05:06",
+        "max_value": "114.5",
+        "min_value": "0.0",
+        "tags": [
+          "wind speed"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "mph",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "8",
+        "current_value": "112.5",
+        "at": "03/21/2014 14:05:06",
+        "max_value": "337.5",
+        "min_value": "0.0",
+        "tags": [
+          "wind direction"
+        ],
+        "unit": {
+          "symbol": "°",
+          "label": "°",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "9",
+        "current_value": "0.00",
+        "at": "03/21/2014 14:05:06",
+        "max_value": "114.08",
+        "min_value": "0.0",
+        "tags": [
+          "wind gust"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "mph",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "10",
+        "current_value": "0.00",
+        "at": "03/21/2014 14:05:06",
+        "max_value": "3.02",
+        "min_value": "0.0",
+        "tags": [
+          "rain 1 hour"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "in",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "11",
+        "current_value": "0.00",
+        "at": "03/21/2014 14:05:06",
+        "max_value": "3.26",
+        "min_value": "0.0",
+        "tags": [
+          "rain 24 hours"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "in",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "12",
+        "current_value": "1021.300",
+        "at": "03/21/2014 14:05:06",
+        "max_value": "2033.2",
+        "min_value": "829.0",
+        "tags": [
+          "relative pressure"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "hPa",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "13",
+        "current_value": "953",
+        "at": "03/21/2014 14:05:07",
+        "max_value": "8804.0",
+        "min_value": "63.4",
+        "tags": [
+          "wetness - R0"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "14",
+        "current_value": "1696",
+        "at": "03/21/2014 14:05:07",
+        "max_value": "967295.0",
+        "min_value": "0.0",
+        "tags": [
+          "lightness - P0",
+          "PA"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "15",
+        "current_value": "57.524",
+        "at": "03/21/2014 14:05:07",
+        "max_value": "91.508",
+        "min_value": "31.9",
+        "tags": [
+          "basement - a5"
+        ],
+        "unit": {
+          "symbol": "°F",
+          "label": "°F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "16",
+        "current_value": "88.016",
+        "at": "03/21/2014 14:05:07",
+        "max_value": "185.0",
+        "min_value": "32.0",
+        "tags": [
+          "hvac out - 98"
+        ],
+        "unit": {
+          "symbol": "°F",
+          "label": "°F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "17",
+        "current_value": "62.024",
+        "at": "03/21/2014 14:05:07",
+        "max_value": "492.674",
+        "min_value": "-80.914",
+        "tags": [
+          "hvac return - e4"
+        ],
+        "unit": {
+          "symbol": "°F",
+          "label": "°F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "18",
+        "current_value": "46.958",
+        "at": "03/21/2014 14:05:07",
+        "max_value": "185.0",
+        "min_value": "22.008",
+        "tags": [
+          "attic - 6a"
+        ],
+        "unit": {
+          "symbol": "°F",
+          "label": "°F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "19",
+        "current_value": "178",
+        "at": "03/21/2014 14:05:07",
+        "max_value": "18624.0",
+        "min_value": "0.0",
+        "tags": [
+          "5 Min Watts - K5"
+        ],
+        "unit": {
+          "symbol": "w",
+          "label": "w",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "20",
+        "current_value": "0",
+        "at": "03/21/2014 14:05:07",
+        "max_value": "2666.0",
+        "min_value": "0.0",
+        "tags": [
+          "Gas - G5"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "pulse",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "21",
+        "current_value": "1533192",
+        "at": "03/21/2014 14:05:07",
+        "max_value": "8411822.0",
+        "min_value": "1.0",
+        "tags": [
+          "Total Watts - K0"
+        ],
+        "unit": {
+          "symbol": "w",
+          "label": "w",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "22",
+        "current_value": "2617",
+        "at": "03/21/2014 14:05:07",
+        "max_value": "39866.0",
+        "min_value": "0.0",
+        "tags": [
+          "Total Gas - G0"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "pulse",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "23",
+        "current_value": "0",
+        "at": "01/22/2014 17:35:09",
+        "max_value": "41877504.0",
+        "min_value": "0.0",
+        "tags": [
+          "Lightning - tl"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "strikes",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "24",
+        "current_value": "0",
+        "at": "01/22/2014 17:35:09",
+        "max_value": "357454.0",
+        "min_value": "0.0",
+        "tags": [
+          "Lightning - t6"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "strikes",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "25",
+        "current_value": "1627",
+        "at": "01/22/2014 17:35:09",
+        "max_value": "5731.0",
+        "min_value": "0.0",
+        "tags": [
+          "- Cf"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "count",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "26",
+        "current_value": "1271",
+        "at": "03/21/2014 14:05:07",
+        "max_value": "40225.0",
+        "min_value": "0.0",
+        "tags": [
+          "Water - H0"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "pulse",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "27",
+        "current_value": "0",
+        "at": "03/21/2014 14:05:07",
+        "max_value": "9203.0",
+        "min_value": "0.0",
+        "tags": [
+          "Total Water - H5"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "pulse",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/6449\" >weather</a>",
+    "URLMostrar": "https://xively.com/feeds/6449"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\6449.json",
+  "DocumentJSON": null
+}

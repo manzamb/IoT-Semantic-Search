@@ -1,0 +1,121 @@
+{
+  "Conceptos": [
+    "humedad"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "118635",
+    "title": "MyWeatherDog",
+    "Private": false,
+    "tags": [
+      "Control",
+      "humidity",
+      "presure",
+      "temperature"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/118635.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/12/2013 17:52:33",
+    "created": "03/11/2013 17:38:23",
+    "creator": "https://xively.com/users/kolduis",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Humedad",
+        "current_value": "28.15",
+        "at": "03/13/2013 18:31:09",
+        "max_value": "39.38",
+        "min_value": "25.65",
+        "tags": [
+          "Humedad relativa SHT21"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Iluminancia",
+        "current_value": "25",
+        "at": "03/13/2013 18:31:08",
+        "max_value": "59.0",
+        "min_value": "0.0",
+        "tags": [
+          "Luz ambiental"
+        ],
+        "unit": {
+          "symbol": "lx",
+          "label": "Lux",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Presion",
+        "current_value": "100029",
+        "at": "03/13/2013 18:31:11",
+        "max_value": "100029.0",
+        "min_value": "99421.0",
+        "tags": [
+          "Presion atmosferica BMP085"
+        ],
+        "unit": {
+          "symbol": "Pa",
+          "label": "Pascales",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperatura1",
+        "current_value": "28.65",
+        "at": "03/13/2013 18:31:10",
+        "max_value": "32.14",
+        "min_value": "22.6",
+        "tags": [
+          "Temperatura SHT21"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Grados cent&iacute;grados",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperatura2",
+        "current_value": "27",
+        "at": "03/13/2013 18:31:12",
+        "max_value": "29.0",
+        "min_value": "22.1",
+        "tags": [
+          "Temperatura BMP085"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Grados cent&iacute;grados",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "38.3425271297471",
+      "lon": "-0.497453212738037",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/118635\" >MyWeatherDog</a>",
+    "URLMostrar": "https://xively.com/feeds/118635"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\118635.json",
+  "DocumentJSON": null
+}

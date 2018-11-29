@@ -1,0 +1,228 @@
+{
+  "Conceptos": [
+    "temperature"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "25574",
+    "title": "Home Monitoring",
+    "Private": false,
+    "tags": [
+      "BMP085"
+    ],
+    "description": "Project consists of four parts: Mega2560 connected to internet with BMP085 measuring interior temperature and barometric pressure, remote Stalker v2.0 with DS18B20 sensor for outside temperature, remote Arduino FIO measuring electricity data by counting flashes of LED on powermeter and, finaly, another Arduino mini with XBee reading two watermeters. Data from all three external nodes are transmitted via XBee wireless connection.",
+    "feed": "https://api.xively.com/v2/feeds/25574.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:09:30",
+    "created": "05/22/2011 09:34:18",
+    "creator": "https://xively.com/users/synekvl",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "24.6",
+        "at": "03/21/2014 14:09:30",
+        "max_value": "32.0",
+        "min_value": "20.1",
+        "tags": [
+          "Inside Temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "1009.7",
+        "at": "03/21/2014 14:09:30",
+        "max_value": "1980.1",
+        "min_value": "992.2",
+        "tags": [
+          "Pressure on MSL"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "hPa",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "-47",
+        "at": "03/21/2014 14:09:30",
+        "max_value": "27698.0",
+        "min_value": "-507.0",
+        "tags": [
+          "Pressure Gradient"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Pa/Hr",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "23.1",
+        "at": "03/21/2014 14:09:30",
+        "max_value": "39.8",
+        "min_value": "-11.2",
+        "tags": [
+          "Outside Temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "418",
+        "at": "03/21/2014 14:09:30",
+        "max_value": "420.0",
+        "min_value": "391.0",
+        "tags": [
+          "Accu Voltage"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "mV (*10)",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "0",
+        "at": "03/21/2014 14:09:30",
+        "max_value": "1.0",
+        "min_value": "-1.0",
+        "tags": [
+          "Charge Status"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "192",
+        "at": "03/21/2014 14:09:30",
+        "max_value": "10560.0",
+        "min_value": "0.0",
+        "tags": [
+          "Electricity"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "W",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "7",
+        "current_value": "6254.4227",
+        "at": "03/21/2014 14:09:30",
+        "max_value": "6254.4227",
+        "min_value": "0.0",
+        "tags": [
+          "Consumption"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "kWh",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "8",
+        "current_value": "6810",
+        "at": "03/21/2014 14:09:30",
+        "max_value": "6810.0",
+        "min_value": "4574.0",
+        "tags": [
+          "Hot Water"
+        ],
+        "unit": {
+          "symbol": "ltrs",
+          "label": "ltrs",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "9",
+        "current_value": "7981",
+        "at": "03/21/2014 14:09:30",
+        "max_value": "7981.0",
+        "min_value": "5217.0",
+        "tags": [
+          "Cold Water"
+        ],
+        "unit": {
+          "symbol": "ltrs",
+          "label": "ltrs",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "10",
+        "current_value": "428296510",
+        "at": "03/21/2014 14:09:30",
+        "max_value": "1712993803.0",
+        "min_value": "0.0",
+        "tags": [
+          "lastConnectionTime"
+        ],
+        "unit": {
+          "symbol": "ms",
+          "label": "ms",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "11",
+        "current_value": "29453",
+        "at": "03/21/2014 14:09:30",
+        "max_value": "30168.0",
+        "min_value": "28090.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Prague, Czech Republic",
+      "domain": 0,
+      "lat": "50.107203354221",
+      "lon": "14.4875764846802",
+      "ele": "210",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/25574\" >Home Monitoring</a>",
+    "URLMostrar": "https://xively.com/feeds/25574"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\25574.json",
+  "DocumentJSON": null
+}

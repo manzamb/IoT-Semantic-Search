@@ -1,0 +1,116 @@
+{
+  "Conceptos": [
+    "moisture"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "2055328755",
+    "title": "Arduino Plant",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/2055328755.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "08/31/2013 12:20:03",
+    "created": "06/29/2013 12:40:33",
+    "creator": "https://xively.com/users/tedsardplant",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Humidity",
+        "current_value": "65",
+        "at": "08/31/2013 12:20:03",
+        "max_value": "255.0",
+        "min_value": "0.0",
+        "tags": [
+          "Arduino",
+          "Humidity",
+          "Plant"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Moisture",
+        "current_value": "489",
+        "at": "08/31/2013 12:20:03",
+        "max_value": "712.0",
+        "min_value": "0.0",
+        "tags": [
+          "Moisture"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Mst",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "MovingAvg",
+        "current_value": "486",
+        "at": "08/31/2013 12:20:03",
+        "max_value": "659.0",
+        "min_value": "82.0",
+        "tags": null,
+        "unit": {
+          "symbol": "Mst",
+          "label": "Moisture",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temp",
+        "current_value": "73.40",
+        "at": "08/31/2013 12:20:03",
+        "max_value": "603.0",
+        "min_value": "0.0",
+        "tags": [
+          "arduino",
+          "plant",
+          "temp"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "Degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Watered",
+        "current_value": "0",
+        "at": "08/31/2013 12:20:03",
+        "max_value": "603.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "T/F",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Home",
+      "domain": 0,
+      "lat": "38.9325322819474",
+      "lon": "-77.1824102413086",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/2055328755\" >Arduino Plant</a>",
+    "URLMostrar": "https://xively.com/feeds/2055328755"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\2055328755.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,197 @@
+{
+  "Conceptos": [
+    "plan"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "124894",
+    "title": "Crump Production Company",
+    "Private": false,
+    "tags": [
+      "Crump Production Company",
+      "gas",
+      "Indiana",
+      "oil",
+      "production",
+      "Tank 876123987",
+      "tank level"
+    ],
+    "description": "Oil Production information for\r\nCrump Production Company\r\n31 Braeburn\r\nBarrington, IL 60010\r\n\r\nMore Info",
+    "feed": "https://api.xively.com/v2/feeds/124894.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "09/29/2013 21:38:10",
+    "created": "04/13/2013 16:19:10",
+    "creator": "https://xively.com/users/fbraswell",
+    "version": null,
+    "website": "http://pumpers-friend.com",
+    "datastreams": [
+      {
+        "id": "ADCval",
+        "current_value": "10546.000",
+        "at": "09/29/2013 21:38:10",
+        "max_value": "65407.0",
+        "min_value": "16.0",
+        "tags": [
+          "adc",
+          "raw ADC value",
+          "tank",
+          "Tank 876123987"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Barrels",
+        "current_value": "1.813",
+        "at": "09/29/2013 21:38:10",
+        "max_value": "1924.714",
+        "min_value": "-339.978",
+        "tags": [
+          "barrels",
+          "tank",
+          "Tank 876123987"
+        ],
+        "unit": {
+          "symbol": "bbl",
+          "label": "bbl",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "ImpVolts",
+        "current_value": "3.263",
+        "at": "09/29/2013 21:38:10",
+        "max_value": "52.239",
+        "min_value": "2.639",
+        "tags": [
+          "imp",
+          "tank",
+          "Tank 876123987",
+          "voltage"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": "Volts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Level",
+        "current_value": "17.204",
+        "at": "09/29/2013 21:38:10",
+        "max_value": "1732.242",
+        "min_value": "-305.98",
+        "tags": [
+          "inches",
+          "level",
+          "oil",
+          "tank",
+          "Tank 876123987"
+        ],
+        "unit": {
+          "symbol": "in",
+          "label": "Inches",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Pressure",
+        "current_value": "0.574",
+        "at": "09/29/2013 21:32:33",
+        "max_value": "2.925",
+        "min_value": "0.001",
+        "tags": [
+          "pressure",
+          "psi",
+          "tank",
+          "Tank 876123987"
+        ],
+        "unit": {
+          "symbol": "psi",
+          "label": "PSI",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Signal_Strength",
+        "current_value": "-54.000",
+        "at": "09/29/2013 21:38:10",
+        "max_value": "-5.0",
+        "min_value": "-93.0",
+        "tags": [
+          "RSSI",
+          "signal",
+          "tank",
+          "Tank 876123987"
+        ],
+        "unit": {
+          "symbol": "db",
+          "label": "db",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperature",
+        "current_value": "79.785",
+        "at": "09/29/2013 21:38:10",
+        "max_value": "179.722",
+        "min_value": "-58.0",
+        "tags": [
+          "degrees",
+          "Fahrenheit",
+          "tank",
+          "Tank 876123987",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "Degrees F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Volts",
+        "current_value": "0.523",
+        "at": "09/29/2013 21:38:10",
+        "max_value": "3.25",
+        "min_value": "0.001",
+        "tags": [
+          "electronics",
+          "tank",
+          "Tank 876123987",
+          "voltage"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": "Volts",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Upland, IN",
+      "domain": 0,
+      "lat": "42.187972",
+      "lon": "-88.229356",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/124894\" >Crump Production Company</a>",
+    "URLMostrar": "https://xively.com/feeds/124894"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\124894.json",
+  "DocumentJSON": null
+}

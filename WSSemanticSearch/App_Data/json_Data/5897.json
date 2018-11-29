@@ -1,0 +1,84 @@
+{
+  "Conceptos": [
+    "unit of measure"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "5897",
+    "title": "1st in Berlin (Home Sweet Home)",
+    "Private": false,
+    "tags": null,
+    "description": "collected information at my home place\r\n\r\noutside temperature measured\r\non my balcony using an HMS100T temperature sensor\r\n\r\ninside temperature measured using an FHT80b sensor\r\n\r\nlight is measured using a temperature sensor unit but having the NTC exchanged by a LDR\r\n\r\nall sensors are kind of based on the FS20 system\r\n\r\nFHEM software is collecting and posting the data using an busware.de CC1101-USB-Lite device on an ALIX3C.3 mainboard",
+    "feed": "https://api.xively.com/v2/feeds/5897.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "04/02/2012 08:54:04",
+    "created": "02/23/2010 20:19:11",
+    "creator": "https://xively.com/users/indiana1977",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "14",
+        "at": "04/02/2012 08:54:04",
+        "max_value": "41.4",
+        "min_value": "-16.5",
+        "tags": [
+          "outside temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "22",
+        "at": "04/02/2012 08:51:04",
+        "max_value": "32.5",
+        "min_value": "0.0",
+        "tags": [
+          "inside temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "1323",
+        "at": "04/02/2012 08:51:19",
+        "max_value": "1441.0",
+        "min_value": "96.0",
+        "tags": [
+          "light"
+        ],
+        "unit": {
+          "symbol": "na",
+          "label": "none",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Home Sweet Home",
+      "domain": 0,
+      "lat": "52.5239308083374",
+      "lon": "13.1985524296761",
+      "ele": "15",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/5897\" >1st in Berlin (Home Sweet Home)</a>",
+    "URLMostrar": "https://xively.com/feeds/5897"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\5897.json",
+  "DocumentJSON": null
+}

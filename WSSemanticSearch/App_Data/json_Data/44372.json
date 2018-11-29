@@ -1,0 +1,146 @@
+{
+  "Conceptos": [
+    "temperatura"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "44372",
+    "title": "Temperature",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/44372.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:14:54",
+    "created": "01/16/2012 09:59:40",
+    "creator": "https://xively.com/users/aleardu",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "P",
+        "current_value": "1016",
+        "at": "03/21/2014 14:14:54",
+        "max_value": "1035.0",
+        "min_value": "985.0",
+        "tags": [
+          "Pressione Atmosferica"
+        ],
+        "unit": {
+          "symbol": "hPa",
+          "label": "hPa",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "RH",
+        "current_value": "31",
+        "at": "03/21/2014 14:14:54",
+        "max_value": "80.0",
+        "min_value": "0.0",
+        "tags": [
+          "Umidità interna"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "RHext",
+        "current_value": "39.20",
+        "at": "03/21/2014 14:14:54",
+        "max_value": "313103120000.0",
+        "min_value": "-1.0029982e+29",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "T1",
+        "current_value": "21.77",
+        "at": "03/21/2014 14:14:54",
+        "max_value": "32.1",
+        "min_value": "13.4",
+        "tags": [
+          "Temperatura interna"
+        ],
+        "unit": {
+          "symbol": "C°",
+          "label": "C°",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Text",
+        "current_value": "23.40",
+        "at": "03/21/2014 14:14:54",
+        "max_value": "14294331000000.0",
+        "min_value": "-2147483648.0",
+        "tags": [
+          "Temp ext"
+        ],
+        "unit": {
+          "symbol": "C°",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "VAC",
+        "current_value": "221.13",
+        "at": "11/16/2013 17:59:39",
+        "max_value": "342.65",
+        "min_value": "12.65",
+        "tags": [
+          "Tensione casa"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": "V",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "W",
+        "current_value": "344",
+        "at": "03/21/2014 14:14:54",
+        "max_value": "65483.0",
+        "min_value": "-251.26",
+        "tags": [
+          "Consumo casa"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "W",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/44372\" >Temperature</a>",
+    "URLMostrar": "https://xively.com/feeds/44372"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\44372.json",
+  "DocumentJSON": null
+}

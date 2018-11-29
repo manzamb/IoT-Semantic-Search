@@ -1,0 +1,213 @@
+{
+  "Conceptos": [
+    "process"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "1539",
+    "title": "Paul's House",
+    "Private": false,
+    "tags": null,
+    "description": "Home energy monitor based on Arduino with pulse output meters. This prototype is not a pretty sight and uses a web server (always on anyway) to do some of the processing so the Arduino can focus on its prime job of tracking the sensors. The next version (when time allows) will avoid an intermediate server.",
+    "feed": "https://api.xively.com/v2/feeds/1539.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:01:15",
+    "created": "03/16/2009 13:56:08",
+    "creator": "https://xively.com/users/paul_tanner",
+    "version": null,
+    "website": "http://www.e-ssociation.net/blog",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "-7.98",
+        "at": "03/21/2014 14:01:14",
+        "max_value": "30.0",
+        "min_value": "-7.98",
+        "tags": [
+          "Temperature Internal"
+        ],
+        "unit": {
+          "symbol": "degC",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "0.00",
+        "at": "03/21/2014 14:01:14",
+        "max_value": "25.0",
+        "min_value": "0.0",
+        "tags": [
+          "Electricity"
+        ],
+        "unit": {
+          "symbol": "kW",
+          "label": "Kilowatts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "0.00",
+        "at": "03/21/2014 14:01:14",
+        "max_value": "25.0",
+        "min_value": "0.0",
+        "tags": [
+          "Gas"
+        ],
+        "unit": {
+          "symbol": "kW",
+          "label": "Kilowatts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "19.87",
+        "at": "03/21/2014 14:01:14",
+        "max_value": "30.0",
+        "min_value": "0.0",
+        "tags": [
+          "Temperature External"
+        ],
+        "unit": {
+          "symbol": "degC",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "alarm",
+        "current_value": "0",
+        "at": "03/29/2012 08:20:46",
+        "max_value": "30.0",
+        "min_value": "0.0",
+        "tags": [
+          "Alarm"
+        ],
+        "unit": {
+          "symbol": "boolean",
+          "label": "On/Off",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "carbon",
+        "current_value": "0",
+        "at": "03/29/2012 08:20:46",
+        "max_value": "12372.37",
+        "min_value": "-0.56",
+        "tags": [
+          "Carbon Footprint"
+        ],
+        "unit": {
+          "symbol": "kg/h",
+          "label": "Kilograms/ Hr",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "cost",
+        "current_value": "0",
+        "at": "03/29/2012 08:20:46",
+        "max_value": "1962689.83",
+        "min_value": "-80.88",
+        "tags": [
+          "Total Cost"
+        ],
+        "unit": {
+          "symbol": "GBd/h",
+          "label": "pence/ Hr",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "energy",
+        "current_value": "0",
+        "at": "03/29/2012 08:20:46",
+        "max_value": "530801.48",
+        "min_value": "-20.19",
+        "tags": [
+          "Total Power"
+        ],
+        "unit": {
+          "symbol": "kW",
+          "label": "Kilowatts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "gas_used",
+        "current_value": null,
+        "at": null,
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "energy",
+          "gas"
+        ],
+        "unit": {
+          "symbol": "kWh",
+          "label": "Kilowatt hours",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "level",
+        "current_value": null,
+        "at": "07/16/2011 13:44:03",
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "level"
+        ],
+        "unit": {
+          "symbol": "kW",
+          "label": "number",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "require",
+        "current_value": "0",
+        "at": "09/26/2011 16:33:24",
+        "max_value": "255.0",
+        "min_value": "0.0",
+        "tags": [
+          "on/off"
+        ],
+        "unit": {
+          "symbol": "boolean",
+          "label": "On/Off",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "51.6246243237323",
+      "lon": "-0.555152893066406",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/1539\" >Paul's House</a>",
+    "URLMostrar": "https://xively.com/feeds/1539"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\1539.json",
+  "DocumentJSON": null
+}

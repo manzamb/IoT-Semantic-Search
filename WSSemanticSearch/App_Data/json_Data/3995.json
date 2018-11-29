@@ -1,0 +1,260 @@
+{
+  "Conceptos": [
+    "community"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "3995",
+    "title": "Lab. Aire-Walqa",
+    "Private": false,
+    "tags": null,
+    "description": "Weather station located at Walqa - Huesca - Spain. This adquisition system uses pachulib c library to upload the datastreams. \r\n\r\nFor more information about this library:http://community.pachube.com/tutorials/c\r\n\r\nFeel free to play with this code:\r\nhttp://sourceforge.net/projects/pachulib/\r\n\r\n\r\nThe system is solar powered.",
+    "feed": "https://api.xively.com/v2/feeds/3995.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "11/17/2010 11:09:22",
+    "created": "12/21/2009 10:51:52",
+    "creator": "https://xively.com/users/min0n",
+    "version": null,
+    "website": "http://sourceforge.net/projects/pachulib/",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "13.56",
+        "at": "11/17/2010 11:09:22",
+        "max_value": "13.58",
+        "min_value": "0.0",
+        "tags": [
+          "batt_volt"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": "volts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "0.239",
+        "at": "11/17/2010 11:09:22",
+        "max_value": "339.9755",
+        "min_value": "-0.701",
+        "tags": [
+          "vel_vert"
+        ],
+        "unit": {
+          "symbol": "m/s",
+          "label": "speed",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "44.44",
+        "at": "11/17/2010 11:09:22",
+        "max_value": "9111.0",
+        "min_value": "-123.3",
+        "tags": [
+          "rad_neta"
+        ],
+        "unit": {
+          "symbol": "W/m^2",
+          "label": "W/m^2",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "82.5",
+        "at": "11/17/2010 11:09:22",
+        "max_value": "955.9421",
+        "min_value": "-0.049",
+        "tags": [
+          "rad_sol"
+        ],
+        "unit": {
+          "symbol": "W/m^2",
+          "label": "w/m^2",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "7.387",
+        "at": "11/17/2010 11:09:22",
+        "max_value": "2010.0",
+        "min_value": "0.0",
+        "tags": [
+          "temp"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "5.33",
+        "at": "11/17/2010 11:09:22",
+        "max_value": "350.0663",
+        "min_value": "0.0",
+        "tags": [
+          "vel_ultras"
+        ],
+        "unit": {
+          "symbol": "m/s",
+          "label": "speed",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "249.5",
+        "at": "11/17/2010 11:09:22",
+        "max_value": "2010.0",
+        "min_value": "0.193",
+        "tags": [
+          "dir_ultras"
+        ],
+        "unit": {
+          "symbol": "º",
+          "label": "angle",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "7",
+        "current_value": "3.883",
+        "at": "11/17/2010 11:09:22",
+        "max_value": "283.0",
+        "min_value": "-30.11",
+        "tags": [
+          "elevac"
+        ],
+        "unit": {
+          "symbol": "º",
+          "label": "angle",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "8",
+        "current_value": "283.6",
+        "at": "11/17/2010 11:09:22",
+        "max_value": "301.4",
+        "min_value": "0.125",
+        "tags": [
+          "temp_sonic"
+        ],
+        "unit": {
+          "symbol": "K",
+          "label": "Kelvin",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "9",
+        "current_value": "4.48",
+        "at": "11/17/2010 11:09:22",
+        "max_value": "302.8",
+        "min_value": "0.104",
+        "tags": [
+          "vel_princ"
+        ],
+        "unit": {
+          "symbol": "m/s",
+          "label": "speed",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "10",
+        "current_value": "4.437",
+        "at": "11/17/2010 11:09:22",
+        "max_value": "956.0",
+        "min_value": "0.185",
+        "tags": [
+          "vel_apoyo"
+        ],
+        "unit": {
+          "symbol": "m/s",
+          "label": "speed",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "11",
+        "current_value": "225.8",
+        "at": "11/17/2010 11:09:22",
+        "max_value": "956.0",
+        "min_value": "0.28",
+        "tags": [
+          "dir_1"
+        ],
+        "unit": {
+          "symbol": "º",
+          "label": "angle",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "12",
+        "current_value": "957",
+        "at": "11/17/2010 11:09:22",
+        "max_value": "971.0",
+        "min_value": "0.03",
+        "tags": [
+          "Pressure"
+        ],
+        "unit": {
+          "symbol": "mBar",
+          "label": "mBar",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "13",
+        "current_value": "245.6",
+        "at": "11/17/2010 11:09:22",
+        "max_value": "245.6",
+        "min_value": "79.11999",
+        "tags": [
+          "dir_2"
+        ],
+        "unit": {
+          "symbol": "º",
+          "label": "angle",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Walqa - Lab. Aire",
+      "domain": 0,
+      "lat": "42.1060553155155",
+      "lon": "-0.45992374420166",
+      "ele": "470",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/3995\" >Lab. Aire-Walqa</a>",
+    "URLMostrar": "https://xively.com/feeds/3995"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\3995.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,116 @@
+{
+  "Conceptos": [
+    "physical object"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "41654",
+    "title": "Temp Sensors",
+    "Private": false,
+    "tags": null,
+    "description": "5 DS18S20 sensors placed around various heat-generating objects",
+    "feed": "https://api.xively.com/v2/feeds/41654.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "11/22/2012 23:22:13",
+    "created": "12/11/2011 02:45:17",
+    "creator": "https://xively.com/users/deez2009",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "1",
+        "current_value": "-1000.00-1000.00-1000.00-1000.00-1000.00",
+        "at": "11/22/2012 23:22:13",
+        "max_value": "534.0",
+        "min_value": "0.0",
+        "tags": [
+          "PC Front In"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "Fahrenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "-1000.00-1000.00-1000.00-1000.00",
+        "at": "11/22/2012 23:22:13",
+        "max_value": "241.0",
+        "min_value": "0.0",
+        "tags": [
+          "PC PS Out"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "Fahrenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "-1000.00-1000.00-1000.00",
+        "at": "11/22/2012 23:22:13",
+        "max_value": "185.0",
+        "min_value": "61.59",
+        "tags": [
+          "CFL Light"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "Fahrenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "-1000.00-1000.00",
+        "at": "11/22/2012 23:22:13",
+        "max_value": "185.0",
+        "min_value": "29.75",
+        "tags": [
+          "Right Mon"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "Fahrenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "-1000.00",
+        "at": "11/22/2012 23:22:13",
+        "max_value": "185.0",
+        "min_value": "-1000.0",
+        "tags": [
+          "Left Mon"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "Fahrenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/41654\" >Temp Sensors</a>",
+    "URLMostrar": "https://xively.com/feeds/41654"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\41654.json",
+  "DocumentJSON": null
+}

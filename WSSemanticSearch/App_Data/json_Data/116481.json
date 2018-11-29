@@ -1,0 +1,86 @@
+{
+  "Conceptos": [
+    "humedad"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "116481",
+    "title": "Sensor de Silos",
+    "Private": false,
+    "tags": [
+      "volumen de granos"
+    ],
+    "description": "Medidor de silos (TEST)",
+    "feed": "https://api.xively.com/v2/feeds/116481.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "04/27/2013 05:23:46",
+    "created": "03/03/2013 09:34:26",
+    "creator": "https://xively.com/users/javigf",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "hum",
+        "current_value": "46",
+        "at": "04/27/2013 05:23:46",
+        "max_value": "56.0",
+        "min_value": "34.0",
+        "tags": [
+          "humedad"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "silo",
+        "current_value": "77",
+        "at": "04/27/2013 05:23:46",
+        "max_value": "159.0",
+        "min_value": "0.0",
+        "tags": [
+          "volumen"
+        ],
+        "unit": {
+          "symbol": "cm",
+          "label": "cm",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temp",
+        "current_value": "28",
+        "at": "04/27/2013 05:23:46",
+        "max_value": "28.0",
+        "min_value": "18.0",
+        "tags": [
+          "temperatura"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "grados",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "25 de Mayo",
+      "domain": 0,
+      "lat": "-35.4327744048896",
+      "lon": "-60.1752948760986",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/116481\" >Sensor de Silos</a>",
+    "URLMostrar": "https://xively.com/feeds/116481"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\116481.json",
+  "DocumentJSON": null
+}

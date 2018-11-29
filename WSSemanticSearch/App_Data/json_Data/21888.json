@@ -1,0 +1,56 @@
+{
+  "Conceptos": [
+    "sensor data sheet"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "21888",
+    "title": "Shirakawa city",
+    "Private": false,
+    "tags": [
+      "sensor:type=radiation"
+    ],
+    "description": "Original: http://www.pref.fukushima.jp/j/index.htm\r\n\r\nSource data: https://spreadsheets0.google.com/ccc?key=tSc4EaYnOD5AD8fW3yHugKg&authkey=CNar_6sP\r\n\r\nIt's unofficial and may be stopped by any reason. Use it at your own risk. Data will belong to original site.",
+    "feed": "https://api.xively.com/v2/feeds/21888.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "04/04/2011 07:29:39",
+    "created": "04/03/2011 06:14:29",
+    "creator": "https://xively.com/users/kotobuki",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "0.69",
+        "at": "04/08/2011 08:00:00",
+        "max_value": "0.76",
+        "min_value": "0.65",
+        "tags": [
+          "Radiation dose rate",
+          "sensor:usual_max=0.05",
+          "sensor:usual_min=0.04"
+        ],
+        "unit": {
+          "symbol": "µSv/h",
+          "label": "microsieverts/hour",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Shirakawa city, Fukushima, Japan",
+      "domain": 0,
+      "lat": "37.1311714078244",
+      "lon": "140.198979377747",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/21888\" >Shirakawa city</a>",
+    "URLMostrar": "https://xively.com/feeds/21888"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\21888.json",
+  "DocumentJSON": null
+}

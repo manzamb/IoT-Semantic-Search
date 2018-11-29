@@ -1,0 +1,100 @@
+{
+  "Conceptos": [
+    "platform"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "3344",
+    "title": "Current Cost Data Yoda's Experiment",
+    "Private": false,
+    "tags": null,
+    "description": "Power and Temperature Realtime Data & CPU/MEM data acquisition\r\nJava application multiplatform that monitors the power consumption of electricity in relation to the server  activity.",
+    "feed": "https://api.xively.com/v2/feeds/3344.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "10/02/2012 11:34:27",
+    "created": "11/30/2009 23:57:15",
+    "creator": "https://xively.com/users/yoda",
+    "version": null,
+    "website": "http://yodadev.altervista.org/blog/",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "18.1",
+        "at": "01/12/2013 03:49:19",
+        "max_value": "30.8",
+        "min_value": "0.0",
+        "tags": [
+          "celsius"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "350.0",
+        "at": "01/12/2013 03:40:10",
+        "max_value": "2138.0",
+        "min_value": "0.0",
+        "tags": [
+          "electricity"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "4.7",
+        "at": "01/11/2013 23:50:08",
+        "max_value": "100.0",
+        "min_value": "0.0",
+        "tags": [
+          "cpu"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "Percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "77.4",
+        "at": "01/11/2013 23:50:17",
+        "max_value": "100.0",
+        "min_value": "0.0",
+        "tags": [
+          "mem"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "Percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Rome",
+      "domain": 0,
+      "lat": "41.7742562265134",
+      "lon": "12.3559391498566",
+      "ele": "0.0",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/3344\" >Current Cost Data Yoda's Experiment</a>",
+    "URLMostrar": "https://xively.com/feeds/3344"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\3344.json",
+  "DocumentJSON": null
+}

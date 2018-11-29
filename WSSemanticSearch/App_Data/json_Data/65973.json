@@ -1,0 +1,87 @@
+{
+  "Conceptos": [
+    "carbon monoxide"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "65973",
+    "title": "Lab conditions for Tweepmachine",
+    "Private": false,
+    "tags": [
+      "homelab",
+      "version 1.0.1"
+    ],
+    "description": "working conditions in my lab",
+    "feed": "https://api.xively.com/v2/feeds/65973.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "07/06/2012 19:12:23",
+    "created": "07/03/2012 20:12:28",
+    "creator": "https://xively.com/users/tweepmachine",
+    "version": null,
+    "website": "http://www.donkersct.nl",
+    "datastreams": [
+      {
+        "id": "CO",
+        "current_value": "723.0",
+        "at": "07/06/2012 19:12:23",
+        "max_value": "826.7",
+        "min_value": "357.2",
+        "tags": [
+          "Carbon Monoxide"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "L",
+        "current_value": "645",
+        "at": "07/06/2012 19:12:23",
+        "max_value": "776.0",
+        "min_value": "7.0",
+        "tags": [
+          "Lab lighting"
+        ],
+        "unit": {
+          "symbol": "lumen",
+          "label": "lumen",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "T",
+        "current_value": "21.8",
+        "at": "07/06/2012 19:12:23",
+        "max_value": "27.1",
+        "min_value": "11.2",
+        "tags": [
+          "Lab temperature"
+        ],
+        "unit": {
+          "symbol": "oC",
+          "label": "degrees Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Gemert",
+      "domain": 0,
+      "lat": "51.5537537793973",
+      "lon": "5.68242073059082",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/65973\" >Lab conditions for Tweepmachine</a>",
+    "URLMostrar": "https://xively.com/feeds/65973"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\65973.json",
+  "DocumentJSON": null
+}

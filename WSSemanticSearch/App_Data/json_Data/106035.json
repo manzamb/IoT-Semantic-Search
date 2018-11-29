@@ -1,0 +1,81 @@
+{
+  "Conceptos": [
+    "condition"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "106035",
+    "title": "Data Logging of a Room ",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "Environment Conditions"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/106035.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "07/07/2013 21:41:13",
+    "created": "02/21/2013 13:38:33",
+    "creator": "https://xively.com/users/johann",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Humidity_in_percent",
+        "current_value": "44.00",
+        "at": "07/07/2013 21:41:13",
+        "max_value": "72.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Light_in_lux",
+        "current_value": "0.00",
+        "at": "07/07/2013 21:41:13",
+        "max_value": "496.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperature_in_degrees_Celsius",
+        "current_value": "30.00",
+        "at": "07/07/2013 21:41:13",
+        "max_value": "32.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Malta",
+      "domain": 0,
+      "lat": "35.8964900870152",
+      "lon": "14.4625997543335",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/106035\" >Data Logging of a Room </a>",
+    "URLMostrar": "https://xively.com/feeds/106035"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\106035.json",
+  "DocumentJSON": null
+}

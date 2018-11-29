@@ -1,0 +1,85 @@
+{
+  "Conceptos": [
+    "project"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "1405920754",
+    "title": "Wovyn-RPi-Node-RED",
+    "Private": false,
+    "tags": [
+      "indoor",
+      "node-red",
+      "raspberry pi",
+      "temp",
+      "temperature",
+      "wovyn"
+    ],
+    "description": "A Wovyn Sensor Project experiment written using Node-RED, running on a Raspberry Pi.",
+    "feed": "https://api.xively.com/v2/feeds/1405920754.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:10:07",
+    "created": "10/19/2013 20:36:10",
+    "creator": "https://xively.com/users/wovyn",
+    "version": null,
+    "website": "http://www.Wovyn.com",
+    "datastreams": [
+      {
+        "id": "Basement_TemperatureC",
+        "current_value": "19.625",
+        "at": "03/21/2014 14:10:07",
+        "max_value": "26.0",
+        "min_value": "-2030.5",
+        "tags": [
+          "indoor",
+          "node-red",
+          "raspberry pi",
+          "temp",
+          "temperature",
+          "wovyn"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Basement_TemperatureF",
+        "current_value": "67.325",
+        "at": "03/21/2014 14:10:07",
+        "max_value": "78.8",
+        "min_value": "-3622.9",
+        "tags": [
+          "indoor",
+          "node-red",
+          "raspberry pi",
+          "temp",
+          "temperature",
+          "wovyn"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Wovyn R&D Center",
+      "domain": 0,
+      "lat": "40.4594997550055",
+      "lon": "-111.460261791945",
+      "ele": "1712.976",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/1405920754\" >Wovyn-RPi-Node-RED</a>",
+    "URLMostrar": "https://xively.com/feeds/1405920754"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\1405920754.json",
+  "DocumentJSON": null
+}

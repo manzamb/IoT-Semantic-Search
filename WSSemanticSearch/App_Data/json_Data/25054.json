@@ -1,0 +1,90 @@
+{
+  "Conceptos": [
+    "thermistor"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "25054",
+    "title": "Geiger Counter - Temperature - Oradea - Romania",
+    "Private": false,
+    "tags": [
+      "geiger counter"
+    ],
+    "description": "This is my homemade Geiger Counter natural background radiation measurements (outdoor). Using a SBM20-1 GM tube (Gamma sensitivity 29 cps/mR/h for Ra226), with 0.3mm lead shield for energy compensation.\r\n\r\nCPS to CPM conversion: 29 x 60 = 1740 CPM\r\n\r\nApplying the absorbtion constant (8.77):\r\n1740 / 8.77 = 198.4 cpm/uSv/h\r\n\r\navgCPM / 198.4 = uSv/h\r\n\r\nor\r\n\r\n1 cpm = 1 / 198.4 = 0.00504\r\n\r\navgCPM * 0.00504 = uSv/h\r\n\r\nTest only!\r\n\r\nArduino + Ethernet shield\r\n\r\nThanks for conversion information to radiohobbystore.com",
+    "feed": "https://api.xively.com/v2/feeds/25054.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:05:55",
+    "created": "05/11/2011 16:06:53",
+    "creator": "https://xively.com/users/cyberelectronics",
+    "version": null,
+    "website": "http://www.cyberelectronics.org",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "24",
+        "at": "03/21/2014 14:05:55",
+        "max_value": "1045.0",
+        "min_value": "3.0",
+        "tags": [
+          "sensor:model=SBM-20",
+          "sensor:type=radiation"
+        ],
+        "unit": {
+          "symbol": "CPM",
+          "label": "counts/minute",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "0.12",
+        "at": "03/21/2014 14:05:55",
+        "max_value": "5.28",
+        "min_value": "0.02",
+        "tags": [
+          "Gamma Dose Rate"
+        ],
+        "unit": {
+          "symbol": "uSv/h",
+          "label": "microSievert/hour",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "23.74",
+        "at": "03/21/2014 14:05:55",
+        "max_value": "38.5",
+        "min_value": "-9.96",
+        "tags": [
+          "NTC",
+          "Outdoor",
+          "Temperature",
+          "Thermistor"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Romania, Oradea",
+      "domain": 0,
+      "lat": "47.1047186241995",
+      "lon": "21.928539276123",
+      "ele": "144",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/25054\" >Geiger Counter - Temperature - Oradea - Romania</a>",
+    "URLMostrar": "https://xively.com/feeds/25054"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\25054.json",
+  "DocumentJSON": null
+}

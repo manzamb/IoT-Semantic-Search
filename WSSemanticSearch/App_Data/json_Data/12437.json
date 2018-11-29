@@ -1,0 +1,73 @@
+{
+  "Conceptos": [
+    "sensing"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "12437",
+    "title": "TASProxyFeed",
+    "Private": false,
+    "tags": [
+      "temp"
+    ],
+    "description": "Integration of TAS server with Patchube.",
+    "feed": "https://api.xively.com/v2/feeds/12437.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "12/09/2010 13:55:35",
+    "created": "11/08/2010 13:26:56",
+    "creator": "https://xively.com/users/mihai",
+    "version": null,
+    "website": "https://sites.google.com/site/tag4sensing/",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "27.0",
+        "at": "12/09/2010 13:55:35",
+        "max_value": "27.0",
+        "min_value": "27.0",
+        "tags": [
+          "null",
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "3.09",
+        "at": "12/09/2010 13:55:35",
+        "max_value": "3.1",
+        "min_value": "3.09",
+        "tags": [
+          "Baterry Voltage",
+          "Battery Voltage",
+          "null"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": "V",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Cluj-Napoca",
+      "domain": 1,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 1
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/12437\" >TASProxyFeed</a>",
+    "URLMostrar": "https://xively.com/feeds/12437"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\12437.json",
+  "DocumentJSON": null
+}

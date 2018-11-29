@@ -1,0 +1,75 @@
+{
+  "Conceptos": [
+    "physical object"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "24921",
+    "title": "Environment Feed from Ogaki",
+    "Private": false,
+    "tags": [
+      "sensor:model=j306beta",
+      "sensor:object=air",
+      "sensor:type=beta_gamma",
+      "sensor:type=radiation",
+      "source:name=fugahoge",
+      "source:type=citizen"
+    ],
+    "description": "Updated every 1 minute, provided by Shigeru Kobayashi. The sensor is North Optic's J306β with Geiger Counter Twig by Seeed Studio. The conversion coefficient from cpm to µSv/h is 0.00168.",
+    "feed": "https://api.xively.com/v2/feeds/24921.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "05/29/2011 12:48:30",
+    "created": "05/09/2011 00:44:09",
+    "creator": "https://xively.com/users/kotobuki",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "75.000",
+        "at": "05/29/2011 12:48:30",
+        "max_value": "133.0",
+        "min_value": "47.0",
+        "tags": [
+          "radiation sensor"
+        ],
+        "unit": {
+          "symbol": "cpm",
+          "label": "cpm",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "0.126",
+        "at": "05/29/2011 12:48:30",
+        "max_value": "0.223",
+        "min_value": "0.079",
+        "tags": [
+          "radiation sensor"
+        ],
+        "unit": {
+          "symbol": "µSv/h",
+          "label": "microsieverts/hour",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "IAMAS, Ogaki city, Gifu, Japan",
+      "domain": 0,
+      "lat": "35.385656230196",
+      "lon": "136.62121295929",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/24921\" >Environment Feed from Ogaki</a>",
+    "URLMostrar": "https://xively.com/feeds/24921"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\24921.json",
+  "DocumentJSON": null
+}

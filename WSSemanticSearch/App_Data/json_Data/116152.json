@@ -1,0 +1,183 @@
+{
+  "Conceptos": [
+    "system"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "116152",
+    "title": "MNK2",
+    "Private": false,
+    "tags": [
+      "ping",
+      "rtt"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/116152.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:10:26",
+    "created": "03/01/2013 11:55:07",
+    "creator": "https://xively.com/users/9dof",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "extStore",
+        "current_value": "86016",
+        "at": "03/21/2014 05:11:02",
+        "max_value": "122880.0",
+        "min_value": "47104.0",
+        "tags": [
+          "external storage"
+        ],
+        "unit": {
+          "symbol": "MB",
+          "label": "MB",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "pktloss",
+        "current_value": "100",
+        "at": "03/21/2014 14:10:26",
+        "max_value": "100.0",
+        "min_value": "0.0",
+        "tags": [
+          "packet loss"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "rtt",
+        "current_value": "165.715",
+        "at": "03/21/2014 05:10:35",
+        "max_value": "11845.489",
+        "min_value": "55.584",
+        "tags": [
+          "rtt"
+        ],
+        "unit": {
+          "symbol": "ms",
+          "label": "ms",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "sysStore",
+        "current_value": "4812.8",
+        "at": "03/21/2014 05:11:02",
+        "max_value": "4915.2",
+        "min_value": "4710.4",
+        "tags": [
+          "system storage"
+        ],
+        "unit": {
+          "symbol": "MB",
+          "label": "MB",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "t1",
+        "current_value": "52.31",
+        "at": "03/21/2014 05:10:01",
+        "max_value": "61.31",
+        "min_value": "23.81",
+        "tags": [
+          "system temp"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "t2",
+        "current_value": "43.06",
+        "at": "03/21/2014 05:10:08",
+        "max_value": "50.63",
+        "min_value": "18.0",
+        "tags": [
+          "external temp"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "t3",
+        "current_value": "36.75",
+        "at": "03/21/2014 05:11:27",
+        "max_value": "43.44",
+        "min_value": "19.0",
+        "tags": [
+          "camera_top temp"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "t4",
+        "current_value": "37.44",
+        "at": "03/21/2014 05:11:44",
+        "max_value": "42.44",
+        "min_value": "18.94",
+        "tags": [
+          "camera_back temp"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "t5",
+        "current_value": "36.56",
+        "at": "03/21/2014 05:11:45",
+        "max_value": "46.56",
+        "min_value": "18.37",
+        "tags": [
+          "camera_front temp"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/116152\" >MNK2</a>",
+    "URLMostrar": "https://xively.com/feeds/116152"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\116152.json",
+  "DocumentJSON": null
+}

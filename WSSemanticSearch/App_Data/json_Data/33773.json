@@ -1,0 +1,170 @@
+{
+  "Conceptos": [
+    "moisture"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "33773",
+    "title": "The Experior Micro Technologies' SCIO Feed",
+    "Private": false,
+    "tags": [
+      "Controller",
+      "Network",
+      "SCIO",
+      "Sensor",
+      "ZigBee"
+    ],
+    "description": "The Experior Micro Technologies' lab environment feeding from an SCIO ZigBee multi-purpose wireless sensing and control module to an ZigBee-to-Ethernet controller bridge. A wide variety of sensors can be attached to SCIO modules, enabling a multitude of possibilities for remote sensing, data-acquisition and remote control.",
+    "feed": "https://api.xively.com/v2/feeds/33773.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "06/13/2013 16:07:06",
+    "created": "08/03/2011 19:16:32",
+    "creator": "https://xively.com/users/jim_thorpe",
+    "version": null,
+    "website": "http://www.experiormicrotech.com/",
+    "datastreams": [
+      {
+        "id": "1",
+        "current_value": "20.2",
+        "at": "06/13/2013 16:07:06",
+        "max_value": "40.5",
+        "min_value": "0.0",
+        "tags": [
+          "Power Supply"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": "Volts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "25.6",
+        "at": "06/13/2013 16:07:06",
+        "max_value": "27.7",
+        "min_value": "0.0",
+        "tags": [
+          "Battery Level"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": "Volts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "33.6",
+        "at": "06/13/2013 16:07:06",
+        "max_value": "158.6",
+        "min_value": "8.5",
+        "tags": [
+          "Battery Temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Deg C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "-99.4",
+        "at": "06/13/2013 16:07:06",
+        "max_value": "100.1",
+        "min_value": "-101.3",
+        "tags": [
+          "Moisture Level"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "0.0",
+        "at": "06/13/2013 16:07:06",
+        "max_value": "4736.0",
+        "min_value": "0.0",
+        "tags": [
+          "Wind Speed"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "a.u.",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "0.",
+        "at": "06/13/2013 16:07:06",
+        "max_value": "8.0",
+        "min_value": "0.0",
+        "tags": [
+          "Window Position"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "a.u.",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "7",
+        "current_value": "4.2",
+        "at": "03/25/2013 06:09:25",
+        "max_value": "7.0",
+        "min_value": "3.3",
+        "tags": [
+          "Handset Battery"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": "Volts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "8",
+        "current_value": "24.3",
+        "at": "03/25/2013 06:09:25",
+        "max_value": "34.2",
+        "min_value": "13.6",
+        "tags": [
+          "Handset Temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Deg C",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "The Experior Micro Technologies' Development Lab",
+      "domain": 0,
+      "lat": "52.7643145",
+      "lon": "-1.22764299999994",
+      "ele": "0.0",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/33773\" >The Experior Micro Technologies' SCIO Feed</a>",
+    "URLMostrar": "https://xively.com/feeds/33773"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\33773.json",
+  "DocumentJSON": null
+}

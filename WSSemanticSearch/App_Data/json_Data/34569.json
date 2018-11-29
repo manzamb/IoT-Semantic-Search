@@ -1,0 +1,81 @@
+{
+  "Conceptos": [
+    "platform"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "34569",
+    "title": "Demo lock",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "lock"
+    ],
+    "description": "EQ-3 keymatic/homematic control based on the Arduino platform",
+    "feed": "https://api.xively.com/v2/feeds/34569.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "08/14/2013 08:23:49",
+    "created": "08/21/2011 13:12:37",
+    "creator": "https://xively.com/users/videocent",
+    "version": null,
+    "website": "http://www.videocent.com",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "4",
+        "at": "08/14/2013 08:23:49",
+        "max_value": "4.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "command",
+          "label": "commands",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "1468",
+        "at": "12/02/2011 13:12:31",
+        "max_value": "32759.0",
+        "min_value": "-32748.0",
+        "tags": null,
+        "unit": {
+          "symbol": "random data to avoid caching",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "1921680.16",
+        "at": "12/02/2011 13:12:31",
+        "max_value": "1921681.52",
+        "min_value": "1921680.12",
+        "tags": null,
+        "unit": {
+          "symbol": "Local IP",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "office",
+      "domain": 0,
+      "lat": "55.7122686430622",
+      "lon": "13.2147932052612",
+      "ele": "23.0",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/34569\" >Demo lock</a>",
+    "URLMostrar": "https://xively.com/feeds/34569"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\34569.json",
+  "DocumentJSON": null
+}

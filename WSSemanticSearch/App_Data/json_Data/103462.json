@@ -1,0 +1,128 @@
+{
+  "Conceptos": [
+    "co2"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "103462",
+    "title": "Environnement Interieur",
+    "Private": false,
+    "tags": [
+      "From Netatmo"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/103462.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:12:10",
+    "created": "02/08/2013 21:48:48",
+    "creator": "https://xively.com/users/bnguyen",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Bruit",
+        "current_value": "37",
+        "at": "03/21/2014 14:12:08",
+        "max_value": "76.0",
+        "min_value": "36.0",
+        "tags": [
+          "Bruit Salon"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "CO2",
+        "current_value": "413",
+        "at": "03/21/2014 14:12:09",
+        "max_value": "1241.0",
+        "min_value": "313.0",
+        "tags": [
+          "Concentration CO2"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "HumidInt",
+        "current_value": "53",
+        "at": "03/21/2014 14:12:09",
+        "max_value": "78.0",
+        "min_value": "0.0",
+        "tags": [
+          "Humidite Interieure"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "HumiditeSdB",
+        "current_value": "52",
+        "at": "03/21/2014 14:10:58",
+        "max_value": "94.0",
+        "min_value": "35.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "TempInterieure",
+        "current_value": "19.8",
+        "at": "03/21/2014 14:12:10",
+        "max_value": "27.7",
+        "min_value": "14.9",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "TempSdB",
+        "current_value": "18.8",
+        "at": "03/21/2014 14:10:57",
+        "max_value": "26.2",
+        "min_value": "14.8",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/103462\" >Environnement Interieur</a>",
+    "URLMostrar": "https://xively.com/feeds/103462"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\103462.json",
+  "DocumentJSON": null
+}

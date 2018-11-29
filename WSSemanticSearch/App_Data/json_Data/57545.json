@@ -1,0 +1,86 @@
+{
+  "Conceptos": [
+    "project"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "57545",
+    "title": "Solar Monitor",
+    "Private": false,
+    "tags": [
+      "solar PV"
+    ],
+    "description": "Solar PV energy monitoring",
+    "feed": "https://api.xively.com/v2/feeds/57545.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:14:01",
+    "created": "04/30/2012 10:12:53",
+    "creator": "https://xively.com/users/davebe",
+    "version": null,
+    "website": "http://www.rotwang.co.uk/projects/meter.html",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "2280",
+        "at": "03/21/2014 14:14:01",
+        "max_value": "16551472760.0",
+        "min_value": "-4137867943.0",
+        "tags": [
+          "solar PV"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "11.293",
+        "at": "03/21/2014 14:14:01",
+        "max_value": "68965.174",
+        "min_value": "0.001",
+        "tags": [
+          "solar daily"
+        ],
+        "unit": {
+          "symbol": "kWh",
+          "label": "kWh",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "6047.308",
+        "at": "03/21/2014 14:14:01",
+        "max_value": "70481.517",
+        "min_value": "951.659",
+        "tags": [
+          "solar total"
+        ],
+        "unit": {
+          "symbol": "kWh",
+          "label": "kWh",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Plymouth",
+      "domain": 0,
+      "lat": "50.3681859579261",
+      "lon": "-4.13313388824463",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/57545\" >Solar Monitor</a>",
+    "URLMostrar": "https://xively.com/feeds/57545"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\57545.json",
+  "DocumentJSON": null
+}

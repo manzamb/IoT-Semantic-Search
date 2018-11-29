@@ -1,0 +1,118 @@
+{
+  "Conceptos": [
+    "temperatura"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "104103",
+    "title": "Meteo Gorizia",
+    "Private": false,
+    "tags": [
+      "meteo"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/104103.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/17/2014 13:56:22",
+    "created": "02/12/2013 12:32:28",
+    "creator": "https://xively.com/users/sgermini",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "19.1",
+        "at": "03/17/2014 13:56:22",
+        "max_value": "37.3",
+        "min_value": "-2.4",
+        "tags": [
+          "temperatura"
+        ],
+        "unit": {
+          "symbol": "°",
+          "label": "C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "1016.1",
+        "at": "03/17/2014 13:56:22",
+        "max_value": "1036.5",
+        "min_value": "986.0",
+        "tags": [
+          "pressione"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "mb",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "48",
+        "at": "03/17/2014 13:56:22",
+        "max_value": "97.0",
+        "min_value": "17.0",
+        "tags": [
+          "umidità relativa"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "4.7",
+        "at": "03/17/2014 13:56:22",
+        "max_value": "29.3",
+        "min_value": "0.0",
+        "tags": [
+          "vento"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "mph",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "0.0",
+        "at": "03/17/2014 13:56:22",
+        "max_value": "3.4",
+        "min_value": "0.0",
+        "tags": [
+          "precipitazioni"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "mm/h",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "45.928238",
+      "lon": "13.615438",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/104103\" >Meteo Gorizia</a>",
+    "URLMostrar": "https://xively.com/feeds/104103"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\104103.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,120 @@
+{
+  "Conceptos": [
+    "unit of measure"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "46000",
+    "title": "AC Compressor Temperatures",
+    "Private": false,
+    "tags": null,
+    "description": "Temperature measured in the compressor compartment of the datacentre A/C units",
+    "feed": "https://api.xively.com/v2/feeds/46000.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "11/05/2012 19:44:18",
+    "created": "01/27/2012 05:14:10",
+    "creator": "https://xively.com/users/rw950431",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Outside",
+        "current_value": "15.5",
+        "at": "11/05/2012 19:44:18",
+        "max_value": "39.9",
+        "min_value": "2.2",
+        "tags": null,
+        "unit": {
+          "symbol": "Amb",
+          "label": "Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Reheat",
+        "current_value": "        11.5",
+        "at": "11/05/2012 19:44:18",
+        "max_value": "24.8125",
+        "min_value": "8.25",
+        "tags": null,
+        "unit": {
+          "symbol": "Reheat",
+          "label": "Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Room",
+        "current_value": "     19.5625",
+        "at": "11/05/2012 19:44:18",
+        "max_value": "24.25",
+        "min_value": "16.375",
+        "tags": null,
+        "unit": {
+          "symbol": "Rm",
+          "label": "Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Unit1",
+        "current_value": "      17.625",
+        "at": "11/05/2012 19:44:18",
+        "max_value": "48.0625",
+        "min_value": "14.625",
+        "tags": null,
+        "unit": {
+          "symbol": "U1",
+          "label": "Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Unit2",
+        "current_value": "       37.25",
+        "at": "11/05/2012 19:44:18",
+        "max_value": "56.5625",
+        "min_value": "16.125",
+        "tags": null,
+        "unit": {
+          "symbol": "U2",
+          "label": "Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Unit3",
+        "current_value": "     25.9375",
+        "at": "11/05/2012 19:44:18",
+        "max_value": "53.8125",
+        "min_value": "15.0",
+        "tags": null,
+        "unit": {
+          "symbol": "U3",
+          "label": "Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Adelaide,South Australia",
+      "domain": 0,
+      "lat": "-35.1019340572461",
+      "lon": "138.69140625",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/46000\" >AC Compressor Temperatures</a>",
+    "URLMostrar": "https://xively.com/feeds/46000"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\46000.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,113 @@
+{
+  "Conceptos": [
+    "design"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "1693757499",
+    "title": "HiveSenseV1",
+    "Private": false,
+    "tags": [
+      ".net",
+      "bee",
+      "gadgeteer",
+      "hive",
+      "monitor",
+      "sense"
+    ],
+    "description": ".NET Gadgeteer sensor data from the UCL CS lab. Aim is to design a monitoring device for use in bee hives, so that bee keepers can be better informed about the hive health and activity.",
+    "feed": "https://api.xively.com/v2/feeds/1693757499.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "07/18/2013 14:41:03",
+    "created": "06/13/2013 15:07:26",
+    "creator": "https://xively.com/users/blrucl",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "AmbientTemp",
+        "current_value": "33",
+        "at": "07/25/2013 09:14:23",
+        "max_value": "2013.0",
+        "min_value": "-159.0",
+        "tags": null,
+        "unit": {
+          "symbol": "C",
+          "label": "degrees centigrade",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Humidity",
+        "current_value": "47",
+        "at": "07/25/2013 09:14:23",
+        "max_value": "67.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "IsMoving",
+        "current_value": "0",
+        "at": "07/25/2013 09:14:23",
+        "max_value": "21.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": "boolean",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Light",
+        "current_value": "37",
+        "at": "07/25/2013 09:14:23",
+        "max_value": "85.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperature",
+        "current_value": "24.7",
+        "at": "07/25/2013 09:14:23",
+        "max_value": "42.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "C",
+          "label": "degrees centigrade",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "UCL CS lab",
+      "domain": 0,
+      "lat": "51.5231069",
+      "lon": "-0.132553300000041",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/1693757499\" >HiveSenseV1</a>",
+    "URLMostrar": "https://xively.com/feeds/1693757499"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\1693757499.json",
+  "DocumentJSON": null
+}

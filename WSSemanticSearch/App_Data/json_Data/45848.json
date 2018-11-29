@@ -1,0 +1,142 @@
+{
+  "Conceptos": [
+    "area"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "45848",
+    "title": "Temperature, Humidity, Light, Pressure",
+    "Private": false,
+    "tags": [
+      "Humidity",
+      "Light",
+      "Pressure",
+      "Temperature"
+    ],
+    "description": "Data from a set of indoor and outdoor sensors in a shaded area on a building wall located in Berlin.\n\nThe indoor relative humidity, indoor and outdoor temperature sensor are calibrated (+/- 0.5C) DHT22 devices, the light intensity is measured by the voltage of a solar cell with nominal Voc=0.62 volts. Pressure and is measured through a BMP085 sensor and normalized to average sea level pressure.",
+    "feed": "https://api.xively.com/v2/feeds/45848.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:07:57",
+    "created": "01/25/2012 22:19:03",
+    "creator": "https://xively.com/users/bitflops",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "0.19",
+        "at": "03/21/2014 14:07:56",
+        "max_value": "264.0",
+        "min_value": "0.0",
+        "tags": [
+          "Light intensity"
+        ],
+        "unit": {
+          "symbol": "[V]",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "40.40",
+        "at": "03/21/2014 14:07:56",
+        "max_value": "999999.0",
+        "min_value": "0.0",
+        "tags": [
+          "Humidity",
+          "Relative humidity"
+        ],
+        "unit": {
+          "symbol": "[RH%]",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "19.30",
+        "at": "03/21/2014 14:07:56",
+        "max_value": "70.0",
+        "min_value": "-8.9",
+        "tags": [
+          "Temperature",
+          "Temperature indoor"
+        ],
+        "unit": {
+          "symbol": "[Cº]",
+          "label": "Deg. Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "22.00",
+        "at": "03/21/2014 14:07:56",
+        "max_value": "49.11",
+        "min_value": "0.0",
+        "tags": [
+          "Temperature",
+          "Temperature outdoor"
+        ],
+        "unit": {
+          "symbol": "[Cº]",
+          "label": "Deg. Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "1003.01",
+        "at": "03/21/2014 14:07:56",
+        "max_value": "101802.0",
+        "min_value": "0.0",
+        "tags": [
+          "barometric",
+          "hPa",
+          "Pressure"
+        ],
+        "unit": {
+          "symbol": "[hPa]",
+          "label": "hectopascal",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Count",
+        "current_value": "41",
+        "at": "03/21/2014 14:07:56",
+        "max_value": "41.0",
+        "min_value": "0.0",
+        "tags": [
+          "time running"
+        ],
+        "unit": {
+          "symbol": "h",
+          "label": "hours",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Berlin Kreuzberg",
+      "domain": 0,
+      "lat": "52.4949282559702",
+      "lon": "13.4342622756958",
+      "ele": "55m",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/45848\" >Temperature, Humidity, Light, Pressure</a>",
+    "URLMostrar": "https://xively.com/feeds/45848"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\45848.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,56 @@
+{
+  "Conceptos": [
+    "physical object"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "25079",
+    "title": "Radiation dose at Hiraba, Omaezaki",
+    "Private": false,
+    "tags": [
+      "device:type=virtual",
+      "sensor:object=air",
+      "sensor:type=radiation"
+    ],
+    "description": "Feed the data retrieved from http://www.hoshasen.pref.shizuoka.jp/. This feed is unofficial and may be stopped by any reason at any time. Use it at your own risk. No guarantee of validity.",
+    "feed": "https://api.xively.com/v2/feeds/25079.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "07/14/2011 13:36:53",
+    "created": "05/12/2011 08:18:36",
+    "creator": "https://xively.com/users/kaku60",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "radiation",
+        "current_value": "0.041",
+        "at": "07/14/2011 13:36:53",
+        "max_value": "0.063",
+        "min_value": "0.038",
+        "tags": [
+          "radiation sensor"
+        ],
+        "unit": {
+          "symbol": "µGy/h",
+          "label": "microgray per hour",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Omaezaki, Shizuoka, Japan",
+      "domain": 0,
+      "lat": "34.6200358439306",
+      "lon": "138.160157203674",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/25079\" >Radiation dose at Hiraba, Omaezaki</a>",
+    "URLMostrar": "https://xively.com/feeds/25079"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\25079.json",
+  "DocumentJSON": null
+}

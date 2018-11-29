@@ -1,0 +1,70 @@
+{
+  "Conceptos": [
+    "plan"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "28895",
+    "title": "My Geiger Bot Feed",
+    "Private": false,
+    "tags": [
+      "sensor:model=SBM-20",
+      "sensor:type=radiation"
+    ],
+    "description": "試験中,TEST.",
+    "feed": "https://api.xively.com/v2/feeds/28895.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "07/31/2013 14:33:02",
+    "created": "06/27/2011 15:50:21",
+    "creator": "https://xively.com/users/msplan",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "1",
+        "current_value": "0.23",
+        "at": "07/31/2013 14:33:02",
+        "max_value": "94.25",
+        "min_value": "0.0",
+        "tags": [
+          "sensor:model=SBM20",
+          "sensor:type=radiation"
+        ],
+        "unit": {
+          "symbol": "µSv/h",
+          "label": "microsieverts per hour",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "30",
+        "at": "07/31/2013 14:33:02",
+        "max_value": "15269.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "CPM",
+          "label": "counts per minute",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "iwaki,fukushima,japan",
+      "domain": 0,
+      "lat": "37.081651",
+      "lon": "140.940201",
+      "ele": "15.0",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/28895\" >My Geiger Bot Feed</a>",
+    "URLMostrar": "https://xively.com/feeds/28895"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\28895.json",
+  "DocumentJSON": null
+}

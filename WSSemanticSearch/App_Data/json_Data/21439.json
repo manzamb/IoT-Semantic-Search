@@ -1,0 +1,71 @@
+{
+  "Conceptos": [
+    "radioactivity"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "21439",
+    "title": "Radioactivity of water [Tokyo]",
+    "Private": false,
+    "tags": [
+      "sensor:env=water",
+      "sensor:type=radiation"
+    ],
+    "description": "Radioactivity in water via  http://atmc.jp/water/\r\nUpdated once in a day.",
+    "feed": "https://api.xively.com/v2/feeds/21439.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "01/21/2013 01:33:55",
+    "created": "03/25/2011 11:07:22",
+    "creator": "https://xively.com/users/kaoru622",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "0",
+        "at": "09/26/2012 01:35:47",
+        "max_value": "37.0",
+        "min_value": "0.0",
+        "tags": [
+          "Iodine 131"
+        ],
+        "unit": {
+          "symbol": "Bq/kg",
+          "label": "Unit of each plot radioactivity",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "0",
+        "at": "09/26/2012 01:35:47",
+        "max_value": "2.4",
+        "min_value": "0.0",
+        "tags": [
+          "Cesium 137"
+        ],
+        "unit": {
+          "symbol": "Bq/kg",
+          "label": "Unit of each plot radioactivity",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Shinjuku,Tokyo,JAPAN",
+      "domain": 0,
+      "lat": "35.6906942411452",
+      "lon": "139.700260162354",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/21439\" >Radioactivity of water [Tokyo]</a>",
+    "URLMostrar": "https://xively.com/feeds/21439"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\21439.json",
+  "DocumentJSON": null
+}

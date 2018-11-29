@@ -1,0 +1,158 @@
+{
+  "Conceptos": [
+    "surface"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "80564",
+    "title": "001007",
+    "Private": false,
+    "tags": [
+      "depth",
+      "humidity",
+      "level",
+      "river",
+      "ski",
+      "SmartyPlanet",
+      "SmartyRiver",
+      "snow",
+      "temperature"
+    ],
+    "description": "This is a remote sensors station prototipe with river level, water surface temperature, rain gauge, humidity and air temperature sensors. It logs the data every 15' and sends every hour through GPRS.",
+    "feed": "https://api.xively.com/v2/feeds/80564.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "01/27/2014 11:36:02",
+    "created": "10/16/2012 11:53:48",
+    "creator": "https://xively.com/users/arantec",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "A04",
+        "current_value": "-0.06",
+        "at": "11/06/2013 11:30:00",
+        "max_value": "0.0",
+        "min_value": "-0.06",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "battery",
+        "current_value": "7.70",
+        "at": "01/27/2014 11:30:00",
+        "max_value": "7.88",
+        "min_value": "5.86",
+        "tags": [
+          "battery"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": "V",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "humidity",
+        "current_value": "94.48",
+        "at": "01/27/2014 11:30:00",
+        "max_value": "100.0",
+        "min_value": "15.13",
+        "tags": [
+          "humidity"
+        ],
+        "unit": {
+          "symbol": "%HR",
+          "label": "%HR",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "raingauge",
+        "current_value": "00000386",
+        "at": "11/06/2013 11:30:00",
+        "max_value": "386.0",
+        "min_value": "386.0",
+        "tags": [
+          "rain gauge l/m2 mm"
+        ],
+        "unit": {
+          "symbol": "pulse= l/m2",
+          "label": "pulse= l/m2",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "riverlevel",
+        "current_value": "653.5",
+        "at": "01/27/2014 11:30:00",
+        "max_value": "899.5",
+        "min_value": "0.0",
+        "tags": [
+          "depth",
+          "level",
+          "river"
+        ],
+        "unit": {
+          "symbol": "cm",
+          "label": "cm",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temperature",
+        "current_value": "4.375",
+        "at": "01/27/2014 11:30:00",
+        "max_value": "50.0",
+        "min_value": "-8.0",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "ºC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "waterIRtemperature",
+        "current_value": "37.67",
+        "at": "11/06/2013 11:30:00",
+        "max_value": "60.0",
+        "min_value": "0.0",
+        "tags": [
+          "water temperature"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "ºC",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Vielha",
+      "domain": 0,
+      "lat": "42.7204076189948",
+      "lon": "0.844190418720245",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/80564\" >001007</a>",
+    "URLMostrar": "https://xively.com/feeds/80564"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\80564.json",
+  "DocumentJSON": null
+}

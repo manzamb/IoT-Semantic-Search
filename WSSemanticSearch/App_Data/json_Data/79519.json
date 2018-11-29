@@ -1,0 +1,83 @@
+{
+  "Conceptos": [
+    "temperature"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "79519",
+    "title": "Shed Values",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "humidity",
+      "light",
+      "temperature"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/79519.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/13/2014 11:01:50",
+    "created": "10/09/2012 23:11:53",
+    "creator": "https://xively.com/users/jswikert13",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Humidity",
+        "current_value": "26.4",
+        "at": "03/13/2014 11:01:50",
+        "max_value": "75.8",
+        "min_value": "-9.1",
+        "tags": null,
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Light",
+        "current_value": "662.1",
+        "at": "03/13/2014 11:01:50",
+        "max_value": "988.3",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperature",
+        "current_value": "23.5",
+        "at": "03/13/2014 11:01:50",
+        "max_value": "63.2",
+        "min_value": "8.6",
+        "tags": null,
+        "unit": {
+          "symbol": "°C",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/79519\" >Shed Values</a>",
+    "URLMostrar": "https://xively.com/feeds/79519"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\79519.json",
+  "DocumentJSON": null
+}

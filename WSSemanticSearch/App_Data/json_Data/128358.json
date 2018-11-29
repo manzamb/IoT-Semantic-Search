@@ -1,0 +1,222 @@
+{
+  "Conceptos": [
+    "humidity"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "128358",
+    "title": "Azer!",
+    "Private": false,
+    "tags": [
+      "Cost",
+      "Demand",
+      "Export",
+      "Humidity",
+      "Import",
+      "Power",
+      "RAVEn",
+      "Temperature",
+      "Watts"
+    ],
+    "description": "Power readings from iCredit 500 using RAVEn USB\nTemperature/Humidity from La Crosse WS-2306 using Cumulus\nUploaded using Python script\n",
+    "feed": "https://api.xively.com/v2/feeds/128358.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:07:06",
+    "created": "04/30/2013 05:00:23",
+    "creator": "https://xively.com/users/azer",
+    "version": null,
+    "website": "http://www.azer.com.au",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "488",
+        "at": "03/21/2014 14:07:03",
+        "max_value": "8122.0",
+        "min_value": "-1183.0",
+        "tags": [
+          "Demand"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "W",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "15341.6",
+        "at": "03/21/2014 14:06:53",
+        "max_value": "15341.6",
+        "min_value": "9781.5",
+        "tags": [
+          "Total Import"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "kWh",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "327.0",
+        "at": "03/21/2014 14:06:53",
+        "max_value": "327.0",
+        "min_value": "13.5",
+        "tags": [
+          "Total Export"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "kWh",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "488",
+        "at": "03/21/2014 14:07:03",
+        "max_value": "8122.0",
+        "min_value": "0.01",
+        "tags": [
+          "Current Import"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "W",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "0.01",
+        "at": "03/21/2014 14:07:03",
+        "max_value": "1183.0",
+        "min_value": "0.001",
+        "tags": [
+          "Current Export"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "W",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "21.3",
+        "at": "03/21/2014 14:07:05",
+        "max_value": "56.0",
+        "min_value": "0.3",
+        "tags": [
+          "Inside Temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "57",
+        "at": "03/21/2014 14:07:05",
+        "max_value": "74.0",
+        "min_value": "35.0",
+        "tags": [
+          "Inside Humidity"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "7",
+        "current_value": "13.8",
+        "at": "03/21/2014 14:07:05",
+        "max_value": "46.4",
+        "min_value": "0.7",
+        "tags": [
+          "Outside Temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "8",
+        "current_value": "7.5",
+        "at": "03/21/2014 14:07:05",
+        "max_value": "42.6",
+        "min_value": "-40.3",
+        "tags": [
+          "Inside/Outside Temperature Difference"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "9",
+        "current_value": "0.1",
+        "at": "03/21/2014 14:07:03",
+        "max_value": "169.0",
+        "min_value": "-4.0",
+        "tags": [
+          "Cost"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "$/hour",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "10",
+        "current_value": "3.54",
+        "at": "03/21/2014 14:07:03",
+        "max_value": "4239.0",
+        "min_value": "1.0",
+        "tags": [
+          "Cost"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "$/day",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Langwarrin, Victoria (Australia)",
+      "domain": 0,
+      "lat": "-38.1636721",
+      "lon": "145.1850779",
+      "ele": "89",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/128358\" >Azer!</a>",
+    "URLMostrar": "https://xively.com/feeds/128358"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\128358.json",
+  "DocumentJSON": null
+}

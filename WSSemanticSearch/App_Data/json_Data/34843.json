@@ -1,0 +1,171 @@
+{
+  "Conceptos": [
+    "event"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "34843",
+    "title": "Solar Power Manager",
+    "Private": false,
+    "tags": [
+      "Arduino",
+      "DS18B20",
+      "Energy",
+      "Nanode",
+      "openenergymonitor",
+      "Solar"
+    ],
+    "description": "'Arduino' power monitor data uploaded to Pachube via a Nanode. \r\n'a first step into the internet of things'\r\nThe 'Acc' data is accumulated data that is reset every 24hrs at around midnight.\r\nThe 'Acc Heater Power' shows how much 'surplus' solar power each day is diverted to an immersion heater, instead of flowing back to the grid. This makes good use of this energy and also reduces my gas bill!\r\nThe Arduino controls this by calculating (Solar Power Generated) less (Home Power Usage) and if the result is sufficient to power the immersion heater, then a relay activates the heater. This activates at 2 different power levels.\r\nThe latest addition is a DS18B20 temperature sensor, which monitors the outdoor temperature. It will be interesting to note solar panel power output at low temperatures, where they reputedly operate most efficiently due to improved conductivity.\r\nAlso, temperature alerts will be tweeted when the outdoor temperature falls below 0 deg C temperatures.\r\nThe default 'PUT' rate is every 20 seconds, although during periods of low activity, the send rate slows proportionally, down to a maximum of every 14 minutes (to prevent the feed being frozen).\r\nMonitor software courtesy www.openenergymonitor.org\r\nHardware from http://nanode.eu/ ",
+    "feed": "https://api.xively.com/v2/feeds/34843.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/08/2013 12:14:18",
+    "created": "08/27/2011 18:42:34",
+    "creator": "https://xively.com/users/rossoreed",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "sd1",
+        "current_value": "0",
+        "at": "03/08/2013 12:14:18",
+        "max_value": "2615.0",
+        "min_value": "0.0",
+        "tags": [
+          "Solar Generated Power"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "sd2",
+        "current_value": "2615",
+        "at": "03/08/2013 12:14:18",
+        "max_value": "6064.0",
+        "min_value": "92.0",
+        "tags": [
+          "Home Power Usage"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "sd3",
+        "current_value": "0.021",
+        "at": "03/08/2013 12:14:18",
+        "max_value": "12.938",
+        "min_value": "0.0",
+        "tags": [
+          "Acc Solar Power (24hrs reset)"
+        ],
+        "unit": {
+          "symbol": "kWh",
+          "label": "kWh",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "sd4",
+        "current_value": "3.134",
+        "at": "03/08/2013 12:14:18",
+        "max_value": "23.659",
+        "min_value": "0.0",
+        "tags": [
+          "Acc Home Power (24hr reset)"
+        ],
+        "unit": {
+          "symbol": "kWh",
+          "label": "kWh",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "sd5",
+        "current_value": "0.000",
+        "at": "03/08/2013 12:14:18",
+        "max_value": "5.843",
+        "min_value": "0.0",
+        "tags": [
+          "Acc Heater Power (24hr Reset)"
+        ],
+        "unit": {
+          "symbol": "kWh",
+          "label": "kWh",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "sd6",
+        "current_value": "0",
+        "at": "03/08/2013 12:14:18",
+        "max_value": "1090.0",
+        "min_value": "0.0",
+        "tags": [
+          "Heater Power"
+        ],
+        "unit": {
+          "symbol": "Wh",
+          "label": "Watt Hour",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "sd7",
+        "current_value": "242",
+        "at": "03/08/2013 12:14:18",
+        "max_value": "248.0",
+        "min_value": "233.0",
+        "tags": [
+          "Grid Voltage"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": "Volts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "sd8",
+        "current_value": "5.78",
+        "at": "03/08/2013 12:14:18",
+        "max_value": "12.63",
+        "min_value": "-3.55",
+        "tags": [
+          "Outside Temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "deg Centigrade",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "South Yorkshire",
+      "domain": 0,
+      "lat": "53.4752560750121",
+      "lon": "-1.04957199306227",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/34843\" >Solar Power Manager</a>",
+    "URLMostrar": "https://xively.com/feeds/34843"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\34843.json",
+  "DocumentJSON": null
+}

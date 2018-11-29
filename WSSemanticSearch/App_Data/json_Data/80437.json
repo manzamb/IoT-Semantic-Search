@@ -1,0 +1,90 @@
+{
+  "Conceptos": [
+    "humidity"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "80437",
+    "title": "Vetadalen",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "weather station"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/80437.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:07:03",
+    "created": "10/15/2012 14:39:19",
+    "creator": "https://xively.com/users/netadmin",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "fuktighet",
+        "current_value": "45.6",
+        "at": "03/21/2014 14:07:03",
+        "max_value": "71.2",
+        "min_value": "25.7",
+        "tags": [
+          "humidity",
+          "indoor"
+        ],
+        "unit": {
+          "symbol": "% rH",
+          "label": "Percentage",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "innetemp",
+        "current_value": "14.2",
+        "at": "03/21/2014 14:07:03",
+        "max_value": "31.7",
+        "min_value": "-1.2",
+        "tags": [
+          "indoor",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "utetemp",
+        "current_value": "7.9",
+        "at": "03/21/2014 14:07:03",
+        "max_value": "32.3",
+        "min_value": "-8.5",
+        "tags": [
+          "outdoor",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celcius",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/80437\" >Vetadalen</a>",
+    "URLMostrar": "https://xively.com/feeds/80437"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\80437.json",
+  "DocumentJSON": null
+}

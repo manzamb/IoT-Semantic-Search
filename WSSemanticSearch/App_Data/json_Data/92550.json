@@ -1,0 +1,272 @@
+{
+  "Conceptos": [
+    "co2"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "92550",
+    "title": "Loxone - Fehr",
+    "Private": false,
+    "tags": [
+      "Loxone"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/92550.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "11/12/2013 20:19:37",
+    "created": "12/17/2012 09:19:49",
+    "creator": "https://xively.com/users/retofehr",
+    "version": null,
+    "website": "http://www.regiowetter.ch",
+    "datastreams": [
+      {
+        "id": "aussenfeuchte",
+        "current_value": "97.90",
+        "at": "11/11/2013 21:09:39",
+        "max_value": "98.7",
+        "min_value": "0.0",
+        "tags": [
+          "Feuchtigkeit Aussen"
+        ],
+        "unit": {
+          "symbol": "rH%",
+          "label": "rH%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "aussenhelligkeit",
+        "current_value": "100.0",
+        "at": "11/12/2013 20:16:43",
+        "max_value": "99900.0",
+        "min_value": "0.0",
+        "tags": [
+          "Helligkeit Aussen"
+        ],
+        "unit": {
+          "symbol": "Lux",
+          "label": "Lux",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "aussentemp",
+        "current_value": "-1.10",
+        "at": "11/12/2013 20:08:37",
+        "max_value": "39.9",
+        "min_value": "-13.7",
+        "tags": [
+          "Temperatur Aussen"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "co2_wohnzimmer",
+        "current_value": "836",
+        "at": "11/12/2013 20:19:37",
+        "max_value": "1128.0",
+        "min_value": "90.0",
+        "tags": [
+          "Wohnzimmer CO2"
+        ],
+        "unit": {
+          "symbol": "CO2",
+          "label": "CO2",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "feucht_wohnzimmer",
+        "current_value": "46.20",
+        "at": "11/12/2013 20:19:36",
+        "max_value": "62.2",
+        "min_value": "14.1",
+        "tags": [
+          "Wohnzimmer Feuchte"
+        ],
+        "unit": {
+          "symbol": "rH",
+          "label": "rH",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Leistung_GWA",
+        "current_value": "0.000",
+        "at": "09/13/2013 07:17:46",
+        "max_value": "2190.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "W",
+          "label": "Watt",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Leistung_pool",
+        "current_value": "120.0",
+        "at": "10/02/2013 16:23:58",
+        "max_value": "7080.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "W",
+          "label": "Watt",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Leistung_WA",
+        "current_value": "0.000",
+        "at": "09/13/2013 16:55:51",
+        "max_value": "2910.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "W",
+          "label": "Watt",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "power1",
+        "current_value": "540.0",
+        "at": "10/02/2013 16:23:57",
+        "max_value": "13860.0",
+        "min_value": "0.0",
+        "tags": [
+          "power1"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watt",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Stromverbrauch_ht",
+        "current_value": "0.085",
+        "at": "10/02/2013 16:22:01",
+        "max_value": "1213.0",
+        "min_value": "0.031",
+        "tags": [
+          "Stromverbrauch Hochtarif"
+        ],
+        "unit": {
+          "symbol": "kW/h",
+          "label": "kW/h",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Stromverbrauch_nt",
+        "current_value": "0.061",
+        "at": "09/13/2013 22:10:48",
+        "max_value": "2586.0",
+        "min_value": "0.037",
+        "tags": [
+          "Stromverbrauch Hochtarif"
+        ],
+        "unit": {
+          "symbol": "kW/h",
+          "label": "kW/h",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temp_Büro",
+        "current_value": "21.60",
+        "at": "11/12/2013 19:24:37",
+        "max_value": "27.1",
+        "min_value": "18.0",
+        "tags": [
+          "Büro Temperatur"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temp_Schlafzimmer",
+        "current_value": "22.60",
+        "at": "11/12/2013 19:24:37",
+        "max_value": "28.9",
+        "min_value": "19.3",
+        "tags": [
+          "Schlafzimmer Temperatur"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temp_wohnzimmer",
+        "current_value": "23.00",
+        "at": "11/12/2013 20:09:37",
+        "max_value": "27.2",
+        "min_value": "2.8",
+        "tags": [
+          "Wohnzimmer Temperatur"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "°C",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "wind",
+        "current_value": "0.500",
+        "at": "11/12/2013 12:49:25",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "Wind"
+        ],
+        "unit": {
+          "symbol": "km/h",
+          "label": "km/h",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Fehraltorf",
+      "domain": 0,
+      "lat": "47.3905577900824",
+      "lon": "8.74762773513794",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/92550\" >Loxone - Fehr</a>",
+    "URLMostrar": "https://xively.com/feeds/92550"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\92550.json",
+  "DocumentJSON": null
+}

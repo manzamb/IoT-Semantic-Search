@@ -1,0 +1,172 @@
+{
+  "Conceptos": [
+    "project"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "1618142822",
+    "title": "BUCL Weather Station Network",
+    "Private": false,
+    "tags": [
+      "BUCL",
+      "L1V3",
+      "observations:height=3m",
+      "observations:logger=CampbellScientific_CR800_or_CR1000",
+      "observations:sensor=Vaisala_WXT520",
+      "observations:solar=Skye_Instruments_SKS1110",
+      "project:id=distance_iot"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/1618142822.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:14:28",
+    "created": "10/17/2013 13:41:28",
+    "creator": "https://xively.com/users/iostp",
+    "version": null,
+    "website": "http://www.bucl.org.uk",
+    "datastreams": [
+      {
+        "id": "Air_Pressure",
+        "current_value": "1003.7",
+        "at": "03/21/2014 14:14:26",
+        "max_value": "1041.4",
+        "min_value": "469.5",
+        "tags": [
+          "Air Pressure"
+        ],
+        "unit": {
+          "symbol": "hPa",
+          "label": "hectopascal",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Air_Temperature",
+        "current_value": "8.8",
+        "at": "03/21/2014 14:14:26",
+        "max_value": "16.1",
+        "min_value": "-263.3",
+        "tags": [
+          "Air Temperature"
+        ],
+        "unit": {
+          "symbol": "Cel",
+          "label": "degrees Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Rainfall_Total",
+        "current_value": "4.9",
+        "at": "03/21/2014 14:14:28",
+        "max_value": "14.7",
+        "min_value": "-3996.0",
+        "tags": [
+          "Rainfall Total"
+        ],
+        "unit": {
+          "symbol": "mm",
+          "label": "millimeters",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Relative_Humidity",
+        "current_value": "53.0",
+        "at": "03/21/2014 14:14:26",
+        "max_value": "95.3",
+        "min_value": "-205.0",
+        "tags": [
+          "Relative Humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "percent Relative Humidity",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Solar_Radiation",
+        "current_value": "462.5",
+        "at": "03/21/2014 14:14:26",
+        "max_value": "664.5",
+        "min_value": "-221.6",
+        "tags": [
+          "Solar Radiation"
+        ],
+        "unit": {
+          "symbol": "W/m^2",
+          "label": "Watts per square metre",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Wind_Direction",
+        "current_value": "152",
+        "at": "03/21/2014 14:14:28",
+        "max_value": "360.0",
+        "min_value": "0.0",
+        "tags": [
+          "Wind Direction"
+        ],
+        "unit": {
+          "symbol": "Deg",
+          "label": "Degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Wind_Gust",
+        "current_value": "6.8",
+        "at": "03/21/2014 14:14:28",
+        "max_value": "16.8",
+        "min_value": "-999.0",
+        "tags": [
+          "Wind Gust"
+        ],
+        "unit": {
+          "symbol": "m/s",
+          "label": "meters per second",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Wind_Speed",
+        "current_value": "0.1",
+        "at": "03/21/2014 14:14:28",
+        "max_value": "266.4",
+        "min_value": "0.0",
+        "tags": [
+          "Wind Speed"
+        ],
+        "unit": {
+          "symbol": "m/s",
+          "label": "meters per second",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Rednal W011",
+      "domain": 0,
+      "lat": "52.391",
+      "lon": "-2.001",
+      "ele": "190",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/1618142822\" >BUCL Weather Station Network</a>",
+    "URLMostrar": "https://xively.com/feeds/1618142822"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\1618142822.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,71 @@
+{
+  "Conceptos": [
+    "radioactivity"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "22312",
+    "title": "Radioactivity of water [Chiba]",
+    "Private": false,
+    "tags": [
+      "sensor:env=water",
+      "sensor:type=radiation"
+    ],
+    "description": "Radioactivity in water via  http://atmc.jp/water/\r\nUpdated once in a day.",
+    "feed": "https://api.xively.com/v2/feeds/22312.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "01/21/2013 01:35:10",
+    "created": "04/07/2011 23:17:52",
+    "creator": "https://xively.com/users/kaoru622",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "0",
+        "at": "11/17/2012 01:35:54",
+        "max_value": "0.35",
+        "min_value": "0.0",
+        "tags": [
+          "Iodine 131"
+        ],
+        "unit": {
+          "symbol": "Bq/kg",
+          "label": "Unit of each plot radioactivity",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "0",
+        "at": "11/17/2012 01:35:54",
+        "max_value": "3.6",
+        "min_value": "0.0",
+        "tags": [
+          "Cesium 137"
+        ],
+        "unit": {
+          "symbol": "Bq/kg",
+          "label": "Unit of each plot radioactivity",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Ichihara, Chiba, JAPAN",
+      "domain": 1,
+      "lat": "35.4978885669654",
+      "lon": "140.115723609924",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/22312\" >Radioactivity of water [Chiba]</a>",
+    "URLMostrar": "https://xively.com/feeds/22312"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\22312.json",
+  "DocumentJSON": null
+}

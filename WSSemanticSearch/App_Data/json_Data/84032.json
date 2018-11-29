@@ -1,0 +1,74 @@
+{
+  "Conceptos": [
+    "azione"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "84032",
+    "title": "Ruben Current Cost",
+    "Private": false,
+    "tags": [
+      "energy"
+    ],
+    "description": "Misurazione dei consumi della corrente tramite Current Cost",
+    "feed": "https://api.xively.com/v2/feeds/84032.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "10/06/2013 23:00:08",
+    "created": "11/05/2012 18:06:25",
+    "creator": "https://xively.com/users/bssrbn00",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "16.4",
+        "at": "10/06/2013 23:00:08",
+        "max_value": "32.5",
+        "min_value": "0.0",
+        "tags": [
+          "celsius",
+          "degrees",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "370.0",
+        "at": "10/06/2013 23:00:08",
+        "max_value": "5063.0",
+        "min_value": "0.0",
+        "tags": [
+          "electricity",
+          "power",
+          "watts"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Mirano",
+      "domain": 0,
+      "lat": "45.4917639936543",
+      "lon": "12.1162033081055",
+      "ele": "9",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/84032\" >Ruben Current Cost</a>",
+    "URLMostrar": "https://xively.com/feeds/84032"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\84032.json",
+  "DocumentJSON": null
+}

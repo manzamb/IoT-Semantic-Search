@@ -1,0 +1,92 @@
+{
+  "Conceptos": [
+    "temperature"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "873114501",
+    "title": "Brzenski Class Temp",
+    "Private": false,
+    "tags": [
+      "air",
+      "arduino",
+      "class",
+      "CPMA",
+      "education",
+      "temp"
+    ],
+    "description": "Old temp data. Used for new sensor testing",
+    "feed": "https://api.xively.com/v2/feeds/873114501.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:09:00",
+    "created": "05/14/2013 04:04:15",
+    "creator": "https://xively.com/users/jbrzensk",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "GarageDoor",
+        "current_value": "80.00",
+        "at": "03/21/2014 14:09:00",
+        "max_value": "199.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "cm",
+          "label": "centimeters",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Humidity",
+        "current_value": "39.60",
+        "at": "05/24/2013 23:14:24",
+        "max_value": "64.6",
+        "min_value": "37.9",
+        "tags": [
+          "humid",
+          "humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperature",
+        "current_value": "77.54",
+        "at": "05/24/2013 23:14:24",
+        "max_value": "88.16",
+        "min_value": "71.6",
+        "tags": [
+          "class room",
+          "room",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Creative Performing Media Arts Middle School",
+      "domain": 0,
+      "lat": "32.8371749398812",
+      "lon": "-117.183378338814",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/873114501\" >Brzenski Class Temp</a>",
+    "URLMostrar": "https://xively.com/feeds/873114501"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\873114501.json",
+  "DocumentJSON": null
+}

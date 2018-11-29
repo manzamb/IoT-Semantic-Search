@@ -1,0 +1,100 @@
+{
+  "Conceptos": [
+    "physical"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "2106223637",
+    "title": "Moscow",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/2106223637.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:15:51",
+    "created": "12/07/2013 11:32:21",
+    "creator": "https://xively.com/users/utya",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Pressure",
+        "current_value": "1",
+        "at": "03/21/2014 14:15:51",
+        "max_value": "778.0",
+        "min_value": "1.0",
+        "tags": [
+          "Атмосферное давление"
+        ],
+        "unit": {
+          "symbol": "мм",
+          "label": "мм",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "TemperatureIN",
+        "current_value": "26.75",
+        "at": "03/21/2014 14:15:51",
+        "max_value": "36.75",
+        "min_value": "-127.0",
+        "tags": [
+          "Температура в комнате"
+        ],
+        "unit": {
+          "symbol": "°С",
+          "label": "градусы",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "TemperatureOUT",
+        "current_value": "6.25",
+        "at": "03/21/2014 14:15:51",
+        "max_value": "19.5",
+        "min_value": "-127.0",
+        "tags": [
+          "Температура на улице"
+        ],
+        "unit": {
+          "symbol": "°С",
+          "label": "градусы",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "TempIN",
+        "current_value": "27.50",
+        "at": "01/09/2014 17:14:04",
+        "max_value": "31.5",
+        "min_value": "0.0",
+        "tags": [
+          "блуждающий датчик"
+        ],
+        "unit": {
+          "symbol": "°С",
+          "label": "градусы",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Moscow",
+      "domain": 0,
+      "lat": "55.7072396443301",
+      "lon": "37.748122215271",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/2106223637\" >Moscow</a>",
+    "URLMostrar": "https://xively.com/feeds/2106223637"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\2106223637.json",
+  "DocumentJSON": null
+}

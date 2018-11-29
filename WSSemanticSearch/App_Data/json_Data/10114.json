@@ -1,0 +1,56 @@
+{
+  "Conceptos": [
+    "surface"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "10114",
+    "title": "Beacon water temperature",
+    "Private": false,
+    "tags": [
+      "temperature",
+      "water"
+    ],
+    "description": "We have an autonomous water profiler, and are uploading the surface water temperature here.",
+    "feed": "https://api.xively.com/v2/feeds/10114.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "04/13/2011 20:02:50",
+    "created": "09/16/2010 18:20:36",
+    "creator": "https://xively.com/users/russnelson",
+    "version": null,
+    "website": "http://www.bire.org",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "7.5744",
+        "at": "04/13/2011 20:02:50",
+        "max_value": "23.3711",
+        "min_value": "7.2342",
+        "tags": [
+          "temperature",
+          "water"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Degrees C",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Denning's Point",
+      "domain": 0,
+      "lat": "41.4948285145027",
+      "lon": "-73.9877271652222",
+      "ele": "0",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/10114\" >Beacon water temperature</a>",
+    "URLMostrar": "https://xively.com/feeds/10114"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\10114.json",
+  "DocumentJSON": null
+}

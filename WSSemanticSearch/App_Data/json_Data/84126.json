@@ -1,0 +1,84 @@
+{
+  "Conceptos": [
+    "event"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "84126",
+    "title": "LDR_SERVO_DHT22",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "event",
+      "humidity",
+      "indoors",
+      "temperature"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/84126.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "11/10/2012 16:31:21",
+    "created": "11/06/2012 10:22:41",
+    "creator": "https://xively.com/users/saraeoo",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "angulo",
+        "current_value": "100",
+        "at": "11/10/2012 16:31:21",
+        "max_value": "100.0",
+        "min_value": "100.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "humedad",
+        "current_value": "36.30",
+        "at": "11/10/2012 16:31:21",
+        "max_value": "37.7",
+        "min_value": "36.3",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temperatura",
+        "current_value": "26.30",
+        "at": "11/10/2012 16:31:21",
+        "max_value": "26.3",
+        "min_value": "26.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/84126\" >LDR_SERVO_DHT22</a>",
+    "URLMostrar": "https://xively.com/feeds/84126"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\84126.json",
+  "DocumentJSON": null
+}

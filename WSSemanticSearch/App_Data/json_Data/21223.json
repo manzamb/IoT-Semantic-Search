@@ -1,0 +1,58 @@
+{
+  "Conceptos": [
+    "radioactivity"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "21223",
+    "title": "Radioactivity level at Tokyo",
+    "Private": false,
+    "tags": [
+      "japan",
+      "radiation",
+      "sensor:type=radiation",
+      "shinjuku",
+      "tokyo"
+    ],
+    "description": "Radioactivity level provided from http://ftp.jaist.ac.jp/pub/emergency/monitoring.tokyo-eiken.go.jp/monitoring/\r\n\r\nBeing updated every hour.",
+    "feed": "https://api.xively.com/v2/feeds/21223.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "12/31/2011 23:55:03",
+    "created": "03/22/2011 12:41:47",
+    "creator": "https://xively.com/users/sumannoh",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "1",
+        "current_value": "0.0531",
+        "at": "12/31/2011 23:55:03",
+        "max_value": "0.153",
+        "min_value": "0.0",
+        "tags": [
+          "radiation"
+        ],
+        "unit": {
+          "symbol": "μGy/h",
+          "label": "microgray per hour",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "35.7027879782511",
+      "lon": "139.698586463928",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/21223\" >Radioactivity level at Tokyo</a>",
+    "URLMostrar": "https://xively.com/feeds/21223"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\21223.json",
+  "DocumentJSON": null
+}

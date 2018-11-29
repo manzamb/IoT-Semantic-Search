@@ -1,0 +1,250 @@
+{
+  "Conceptos": [
+    "process"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "6611",
+    "title": "My Home",
+    "Private": false,
+    "tags": null,
+    "description": "Temperatures as described, in Fahrenheit. Temperatures obtained from DS18B20 sensors connected to an Arduino and uploaded via Processing. Sensors are at power outlet height, about 16\" off the ground. Humidity sensor calibration may be off from reality, but should be accurate relative to itself. Humidity sensor is about 50' from our shower but will still show an increase in humidity after the shower is used. Sharp changes in humidity are usually caused by HVAC use, or open windows. HVAC vent temperature is a DS18B20 probe stuck a couple inches into the roof \"return\" vent.",
+    "feed": "https://api.xively.com/v2/feeds/6611.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "11/03/2013 12:17:45",
+    "created": "04/01/2010 19:01:18",
+    "creator": "https://xively.com/users/scottadams",
+    "version": null,
+    "website": "http://arduinomation.blogspot.com/",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "67.76",
+        "at": "11/03/2013 12:17:44",
+        "max_value": "84.7",
+        "min_value": "-162.35",
+        "tags": [
+          "DS18B20",
+          "living room",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "°F",
+          "label": "Degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "11",
+        "current_value": "42.88",
+        "at": "07/31/2012 13:52:07",
+        "max_value": "66.83",
+        "min_value": "22.22",
+        "tags": [
+          "east office",
+          "HIH-4030",
+          "humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "Percentage",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "68.99",
+        "at": "11/03/2013 12:17:44",
+        "max_value": "79.53",
+        "min_value": "-175.85",
+        "tags": [
+          "DS18B20",
+          "north bedroom",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "°F",
+          "label": "Degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "69.31",
+        "at": "11/03/2013 12:17:44",
+        "max_value": "81.06",
+        "min_value": "62.72",
+        "tags": [
+          "DS18B20",
+          "master closet",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "°F",
+          "label": "Degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": null,
+        "at": "07/31/2012 13:52:07",
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "east dining room",
+          "reserved/unused"
+        ],
+        "unit": {
+          "symbol": "°F",
+          "label": "Degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "69.40",
+        "at": "11/03/2013 12:17:44",
+        "max_value": "80.55",
+        "min_value": "-172.36",
+        "tags": [
+          "DS18B20",
+          "temperature",
+          "west bedroom"
+        ],
+        "unit": {
+          "symbol": "°F",
+          "label": "Degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "75.19",
+        "at": "07/31/2012 13:52:07",
+        "max_value": "80.39",
+        "min_value": "62.28",
+        "tags": [
+          "DS18B20",
+          "east office",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "°F",
+          "label": "Degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "67.53",
+        "at": "11/03/2013 12:17:44",
+        "max_value": "82.37",
+        "min_value": "-179.33",
+        "tags": [
+          "DS18B20",
+          "south bedroom",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "°F",
+          "label": "Degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "7",
+        "current_value": "69.57",
+        "at": "11/03/2013 12:17:44",
+        "max_value": "137.51",
+        "min_value": "-262.72",
+        "tags": [
+          "DS18B20",
+          "garage",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "°F",
+          "label": "Degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "8",
+        "current_value": "51.78",
+        "at": "11/03/2013 12:17:44",
+        "max_value": "128.52",
+        "min_value": "35.54",
+        "tags": [
+          "attic",
+          "DS18B20",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "°F",
+          "label": "Degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "9",
+        "current_value": "76.51",
+        "at": "07/31/2012 13:52:07",
+        "max_value": "99.94",
+        "min_value": "52.8",
+        "tags": [
+          "DS18B20",
+          "HVAC vent",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "°F",
+          "label": "Degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "10",
+        "current_value": null,
+        "at": "07/31/2012 13:52:07",
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "hot water tank",
+          "reserved/unused"
+        ],
+        "unit": {
+          "symbol": "°F",
+          "label": "Degrees",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Roseville, CA",
+      "domain": 0,
+      "lat": "38.7951021421645",
+      "lon": "-121.281595230103",
+      "ele": "50",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/6611\" >My Home</a>",
+    "URLMostrar": "https://xively.com/feeds/6611"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\6611.json",
+  "DocumentJSON": null
+}

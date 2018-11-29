@@ -1,0 +1,89 @@
+{
+  "Conceptos": [
+    "moisture"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "87764",
+    "title": "Remote Watering System",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "data",
+      "energy",
+      "moist"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/87764.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "11/04/2013 11:59:54",
+    "created": "11/23/2012 05:48:21",
+    "creator": "https://xively.com/users/chaiyeow",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "humidity",
+        "current_value": "38.00",
+        "at": "11/04/2013 11:59:53",
+        "max_value": "63.0",
+        "min_value": "0.0",
+        "tags": [
+          "humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "unit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "moisture",
+        "current_value": "703.00",
+        "at": "11/04/2013 11:59:53",
+        "max_value": "1023.0",
+        "min_value": "0.0",
+        "tags": [
+          "moisture"
+        ],
+        "unit": {
+          "symbol": "unit",
+          "label": "unit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temperature",
+        "current_value": "24.00",
+        "at": "11/04/2013 11:59:53",
+        "max_value": "29.0",
+        "min_value": "0.0",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "choa chu kang",
+      "domain": 0,
+      "lat": "1.4634820656618",
+      "lon": "103.818107843379",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/87764\" >Remote Watering System</a>",
+    "URLMostrar": "https://xively.com/feeds/87764"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\87764.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,116 @@
+{
+  "Conceptos": [
+    "humedad"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "80689",
+    "title": "Despacho",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/80689.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "04/08/2013 13:28:36",
+    "created": "10/17/2012 11:03:13",
+    "creator": "https://xively.com/users/doraess",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "Bateria",
+        "current_value": "0.42",
+        "at": "04/08/2013 13:28:35",
+        "max_value": "1.34",
+        "min_value": "0.41",
+        "tags": [
+          "bateria"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": "V",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Humedad",
+        "current_value": "26",
+        "at": "04/08/2013 13:28:35",
+        "max_value": "50.0",
+        "min_value": "-1.0",
+        "tags": [
+          "humedad"
+        ],
+        "unit": {
+          "symbol": "%RH",
+          "label": "Relative Humidity",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Luz",
+        "current_value": "0",
+        "at": "04/08/2013 13:28:35",
+        "max_value": "310.0",
+        "min_value": "0.0",
+        "tags": [
+          "luz"
+        ],
+        "unit": {
+          "symbol": "lux",
+          "label": "lux",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperatura",
+        "current_value": "19",
+        "at": "04/08/2013 13:28:35",
+        "max_value": "25.0",
+        "min_value": "-1.0",
+        "tags": [
+          "temperatura"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "VCC",
+        "current_value": "3.22",
+        "at": "04/08/2013 13:28:35",
+        "max_value": "3.36",
+        "min_value": "3.2",
+        "tags": [
+          "vcc"
+        ],
+        "unit": {
+          "symbol": "V",
+          "label": "V",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Las Rozas",
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/80689\" >Despacho</a>",
+    "URLMostrar": "https://xively.com/feeds/80689"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\80689.json",
+  "DocumentJSON": null
+}

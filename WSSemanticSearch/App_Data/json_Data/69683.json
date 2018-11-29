@@ -1,0 +1,72 @@
+{
+  "Conceptos": [
+    "condition"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "69683",
+    "title": "r",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "d",
+      "dr"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/69683.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "09/20/2012 13:47:22",
+    "created": "07/31/2012 22:22:03",
+    "creator": "https://xively.com/users/frieden51",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "AirHeat",
+        "current_value": "0",
+        "at": "09/20/2012 13:47:22",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "KH Airconditioning"
+        ],
+        "unit": {
+          "symbol": "binary",
+          "label": "1=on, 0=off",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temp",
+        "current_value": "73.23",
+        "at": "08/15/2012 21:35:01",
+        "max_value": "536.0",
+        "min_value": "-58.0",
+        "tags": [
+          "KH Temperature"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "Fahrenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "120 th Street, Manhattan",
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/69683\" >r</a>",
+    "URLMostrar": "https://xively.com/feeds/69683"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\69683.json",
+  "DocumentJSON": null
+}

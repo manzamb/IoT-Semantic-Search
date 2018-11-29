@@ -1,0 +1,50 @@
+{
+  "Conceptos": [
+    "sensor output"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "4705",
+    "title": "erskine hd temperature",
+    "Private": false,
+    "tags": null,
+    "description": "Output of a hard drive temperature sensor - really just a test.\r\n\r\nData is sent to sent to pachube via the mosquitto mqtt broker.",
+    "feed": "https://api.xively.com/v2/feeds/4705.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "05/29/2011 23:15:01",
+    "created": "01/15/2010 09:34:35",
+    "creator": "https://xively.com/users/ralight",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "49",
+        "at": "05/29/2011 23:15:01",
+        "max_value": "54.0",
+        "min_value": "24.0",
+        "tags": null,
+        "unit": {
+          "symbol": "C",
+          "label": "Temperature",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "52.899273037454",
+      "lon": "-1.3397741317749",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/4705\" >erskine hd temperature</a>",
+    "URLMostrar": "https://xively.com/feeds/4705"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\4705.json",
+  "DocumentJSON": null
+}

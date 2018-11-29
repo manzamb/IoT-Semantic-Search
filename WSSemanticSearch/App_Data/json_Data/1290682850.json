@@ -1,0 +1,64 @@
+{
+  "Conceptos": [
+    "process"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "1290682850",
+    "title": "Kevin's Raspberry Pi",
+    "Private": false,
+    "tags": null,
+    "description": "My Raspberry Pi is pushing data from its internal temperature sensor on the processor and data from an outside sensor (TI TMP75) to Xively.",
+    "feed": "https://api.xively.com/v2/feeds/1290682850.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "08/27/2013 17:08:02",
+    "created": "08/03/2013 19:00:08",
+    "creator": "https://xively.com/users/kevincroissant",
+    "version": null,
+    "website": "http://croissantfamily.no-ip.org/",
+    "datastreams": [
+      {
+        "id": "CPU_Temperature",
+        "current_value": "48.7",
+        "at": "08/27/2013 17:08:02",
+        "max_value": "62.1",
+        "min_value": "32.0",
+        "tags": null,
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Outside_Temperature",
+        "current_value": "50",
+        "at": "08/25/2013 16:35:02",
+        "max_value": "63.0",
+        "min_value": "9.5",
+        "tags": null,
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/1290682850\" >Kevin's Raspberry Pi</a>",
+    "URLMostrar": "https://xively.com/feeds/1290682850"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\1290682850.json",
+  "DocumentJSON": null
+}

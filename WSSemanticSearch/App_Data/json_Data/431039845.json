@@ -1,0 +1,132 @@
+{
+  "Conceptos": [
+    "air quality"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "431039845",
+    "title": "Indoor Environment",
+    "Private": false,
+    "tags": [
+      "air quality",
+      "airquality",
+      "arduino",
+      "humidity",
+      "indoor air quality",
+      "oregon scientific",
+      "particulate matter",
+      "pm10",
+      "pm2.5",
+      "reaDIYmate",
+      "temperature"
+    ],
+    "description": "A reaDIYmate (Arduino) connected to sensors that measure humidity, temperature and particulate matter. The outdoor values are read wirelessly by decoding the 433 MHz signal from an Oregon Scientific sensor.",
+    "feed": "https://api.xively.com/v2/feeds/431039845.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:07:39",
+    "created": "05/20/2013 17:34:34",
+    "creator": "https://xively.com/users/claes",
+    "version": null,
+    "website": "http://www.mijnlucht.be",
+    "datastreams": [
+      {
+        "id": "humidity",
+        "current_value": "52.10",
+        "at": "03/21/2014 14:07:38",
+        "max_value": "99.9",
+        "min_value": "28.6",
+        "tags": [
+          "air quality",
+          "relative humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "humidityOutdoors",
+        "current_value": "58.00",
+        "at": "03/21/2014 13:56:28",
+        "max_value": "142.0",
+        "min_value": "0.0",
+        "tags": [
+          "outdoor relative humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "particles",
+        "current_value": "1980243.10",
+        "at": "03/21/2014 14:07:35",
+        "max_value": "132057900.0",
+        "min_value": "620.0",
+        "tags": [
+          "air quality",
+          "dust",
+          "particles",
+          "particulate matter"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "particles per cubic meter air",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temperature",
+        "current_value": "22.10",
+        "at": "03/21/2014 14:07:39",
+        "max_value": "31.8",
+        "min_value": "11.5",
+        "tags": [
+          "air quality"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "degrees Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temperatureOutdoors",
+        "current_value": "11.50",
+        "at": "03/21/2014 13:56:27",
+        "max_value": "134.2",
+        "min_value": "-140.2",
+        "tags": [
+          "outdoor temperature"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "degrees Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Zurenborg",
+      "domain": 0,
+      "lat": "51.2070984895633",
+      "lon": "4.43019390106201",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/431039845\" >Indoor Environment</a>",
+    "URLMostrar": "https://xively.com/feeds/431039845"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\431039845.json",
+  "DocumentJSON": null
+}

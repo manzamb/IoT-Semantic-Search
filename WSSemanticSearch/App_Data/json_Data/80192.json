@@ -1,0 +1,116 @@
+{
+  "Conceptos": [
+    "humedad"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "80192",
+    "title": "ardujaime",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "humedad",
+      "temperatura"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/80192.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "04/25/2013 05:13:41",
+    "created": "10/13/2012 15:45:56",
+    "creator": "https://xively.com/users/jmallen",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "humedad",
+        "current_value": "72",
+        "at": "04/25/2013 05:13:40",
+        "max_value": "77.0",
+        "min_value": "0.0",
+        "tags": [
+          "humedad"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "humedad_ambiente",
+        "current_value": "73",
+        "at": "04/25/2013 05:13:40",
+        "max_value": "95.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "luz",
+        "current_value": "24",
+        "at": "04/25/2013 05:13:40",
+        "max_value": "146.0",
+        "min_value": "0.0",
+        "tags": [
+          "luz"
+        ],
+        "unit": {
+          "symbol": "lux",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "riego",
+        "current_value": "0",
+        "at": "04/25/2013 05:13:40",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": "IO",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temperatura",
+        "current_value": "60",
+        "at": "04/25/2013 05:13:40",
+        "max_value": "60.0",
+        "min_value": "0.0",
+        "tags": [
+          "temperatura"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": "39.9698025552354",
+      "lon": "-0.261075496673584",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/80192\" >ardujaime</a>",
+    "URLMostrar": "https://xively.com/feeds/80192"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\80192.json",
+  "DocumentJSON": null
+}

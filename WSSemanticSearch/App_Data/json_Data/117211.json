@@ -1,0 +1,102 @@
+{
+  "Conceptos": [
+    "event type"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "117211",
+    "title": "iXively System Info (LALI-MBP)",
+    "Private": false,
+    "tags": [
+      "app:author=lebreeze",
+      "app:name=iXively",
+      "app:version=1.2",
+      "os:type=osx",
+      "os:version=10.8.4"
+    ],
+    "description": "Intel(R) Core(TM)2 Duo CPU     P8600  @ 2.40GHz\r\n\r\nhttps://github.com/levent/iXively",
+    "feed": "https://api.xively.com/v2/feeds/117211.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "09/04/2013 15:24:14",
+    "created": "03/05/2013 09:31:50",
+    "creator": "https://xively.com/users/lebreeze",
+    "version": null,
+    "website": "https://github.com/levent/iXively",
+    "datastreams": [
+      {
+        "id": "cpu_0",
+        "current_value": "47.75",
+        "at": "09/04/2013 15:24:14",
+        "max_value": "100.0",
+        "min_value": "0.7",
+        "tags": [
+          "cpu"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "Percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "cpu_1",
+        "current_value": "48.50",
+        "at": "09/04/2013 15:24:14",
+        "max_value": "100.0",
+        "min_value": "1.9",
+        "tags": [
+          "cpu"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "Percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "cpu_count",
+        "current_value": "2",
+        "at": "09/04/2013 15:24:14",
+        "max_value": "2.0",
+        "min_value": "2.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "total_memory",
+        "current_value": "4096",
+        "at": "09/04/2013 15:24:14",
+        "max_value": "4096.0",
+        "min_value": "4096.0",
+        "tags": null,
+        "unit": {
+          "symbol": "(MB)",
+          "label": "Megabytes",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/117211\" >iXively System Info (LALI-MBP)</a>",
+    "URLMostrar": "https://xively.com/feeds/117211"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\117211.json",
+  "DocumentJSON": null
+}

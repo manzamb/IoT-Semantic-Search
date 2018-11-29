@@ -1,0 +1,68 @@
+{
+  "Conceptos": [
+    "agent"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "21435",
+    "title": "new post",
+    "Private": false,
+    "tags": [
+      "virtual"
+    ],
+    "description": "A virtual feed to test the manual feed type.",
+    "feed": "https://api.xively.com/v2/feeds/21435.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "04/06/2011 10:15:03",
+    "created": "03/25/2011 09:40:33",
+    "creator": "https://xively.com/users/agent009",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "1",
+        "current_value": "1",
+        "at": "04/06/2011 10:14:21",
+        "max_value": "50.0",
+        "min_value": "1.0",
+        "tags": [
+          "hour"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "Hour",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "11",
+        "at": "04/06/2011 10:14:21",
+        "max_value": "15.0",
+        "min_value": "11.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Bradford",
+      "domain": 1,
+      "lat": "53.7903592288902",
+      "lon": "-1.76742553710938",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/21435\" >new post</a>",
+    "URLMostrar": "https://xively.com/feeds/21435"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\21435.json",
+  "DocumentJSON": null
+}

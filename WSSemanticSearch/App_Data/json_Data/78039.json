@@ -1,0 +1,83 @@
+{
+  "Conceptos": [
+    "sensing"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "78039",
+    "title": "doorReader",
+    "Private": false,
+    "tags": [
+      "closed",
+      "door",
+      "doorStatus",
+      "open"
+    ],
+    "description": "logging the state of a door in an interval of 10sec.\r\n\r\na boarduino connected to an LDR is sensing the amount of light behind that door. if this door is opened, the LDR will be exposed to light and therefor state that the door has been opened.\r\n\r\nbeside logging to cosm, the sensor also triggers a push notifications to connected ios devices using prowl.",
+    "feed": "https://api.xively.com/v2/feeds/78039.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "12/17/2012 02:46:50",
+    "created": "09/30/2012 14:16:56",
+    "creator": "https://xively.com/users/k_os",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "doorIsOpen",
+        "current_value": "0",
+        "at": "12/17/2012 02:46:49",
+        "max_value": "825.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "doorReaderEnabled",
+        "current_value": "1",
+        "at": "12/17/2012 02:46:49",
+        "max_value": "1.0",
+        "min_value": "1.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "doorSensorValue",
+        "current_value": "0",
+        "at": "12/17/2012 02:46:49",
+        "max_value": "831.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/78039\" >doorReader</a>",
+    "URLMostrar": "https://xively.com/feeds/78039"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\78039.json",
+  "DocumentJSON": null
+}

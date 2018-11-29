@@ -1,0 +1,71 @@
+{
+  "Conceptos": [
+    "radioactivity"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "22313",
+    "title": "Radioactivity of water [Niigata]",
+    "Private": false,
+    "tags": [
+      "sensor:env=water",
+      "sensor:type=radiation"
+    ],
+    "description": "Radioactivity in water via  http://atmc.jp/water/\r\nUpdated once in a day.",
+    "feed": "https://api.xively.com/v2/feeds/22313.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "01/21/2013 09:37:01",
+    "created": "04/07/2011 23:26:02",
+    "creator": "https://xively.com/users/kaoru622",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "0",
+        "at": "11/10/2012 01:37:38",
+        "max_value": "0.58",
+        "min_value": "0.0",
+        "tags": [
+          "Iodine 131"
+        ],
+        "unit": {
+          "symbol": "Bq/kg",
+          "label": "Unit of each plot radioactivity",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "0",
+        "at": "11/10/2012 01:37:38",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": [
+          "Cesium 137"
+        ],
+        "unit": {
+          "symbol": "Bq/kg",
+          "label": "Unit of each plot radioactivity",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Niigata,Niigata,Japan",
+      "domain": 1,
+      "lat": "37.9160343397596",
+      "lon": "139.036445617676",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/22313\" >Radioactivity of water [Niigata]</a>",
+    "URLMostrar": "https://xively.com/feeds/22313"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\22313.json",
+  "DocumentJSON": null
+}

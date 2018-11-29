@@ -1,0 +1,91 @@
+{
+  "Conceptos": [
+    "qualitã"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "2031411537",
+    "title": "Iprel Progetti Quality Sensor",
+    "Private": false,
+    "tags": null,
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/2031411537.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/21/2014 07:41:20",
+    "created": "06/28/2013 12:33:02",
+    "creator": "https://xively.com/users/marcoramilli",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "AirQuality",
+        "current_value": "673.68",
+        "at": "03/21/2014 07:41:20",
+        "max_value": "945.28",
+        "min_value": "0.0",
+        "tags": [
+          "aria",
+          "gas",
+          "qualita aria"
+        ],
+        "unit": {
+          "symbol": "Hg",
+          "label": "HidrogenGas",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Light",
+        "current_value": "720.44",
+        "at": "03/21/2014 07:41:20",
+        "max_value": "747.05",
+        "min_value": "-300.0",
+        "tags": [
+          "Light",
+          "luminosity",
+          "Sun"
+        ],
+        "unit": {
+          "symbol": "L",
+          "label": "lux",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "Temperature",
+        "current_value": "25.36",
+        "at": "03/21/2014 07:41:20",
+        "max_value": "36.05",
+        "min_value": "0.0",
+        "tags": [
+          "cool",
+          "Heat",
+          "Temp",
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Laboratories",
+      "domain": 0,
+      "lat": "44.3731866",
+      "lon": "11.7210696",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/2031411537\" >Iprel Progetti Quality Sensor</a>",
+    "URLMostrar": "https://xively.com/feeds/2031411537"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\2031411537.json",
+  "DocumentJSON": null
+}

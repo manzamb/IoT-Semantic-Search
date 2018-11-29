@@ -1,0 +1,164 @@
+{
+  "Conceptos": [
+    "project"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "33623",
+    "title": "ARDUINOGSM Project",
+    "Private": false,
+    "tags": null,
+    "description": "Autonomous Solar Powered Arduino Seeeduino Stalker weather station whith GSM GPRS SIM900 shield.",
+    "feed": "https://api.xively.com/v2/feeds/33623.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/21/2014 13:49:44",
+    "created": "08/01/2011 13:21:44",
+    "creator": "https://xively.com/users/sorrow53",
+    "version": null,
+    "website": "http://sites.google.com/site/arduinogsm",
+    "datastreams": [
+      {
+        "id": "H",
+        "current_value": "69",
+        "at": "03/21/2014 13:49:44",
+        "max_value": "425.0",
+        "min_value": "0.0",
+        "tags": [
+          "humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "P",
+        "current_value": "98178",
+        "at": "03/21/2014 13:49:44",
+        "max_value": "111223.0",
+        "min_value": "0.0",
+        "tags": [
+          "pressure"
+        ],
+        "unit": {
+          "symbol": "P",
+          "label": "Pa",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "R",
+        "current_value": "0",
+        "at": "03/21/2014 13:49:44",
+        "max_value": "5516.0",
+        "min_value": "0.0",
+        "tags": [
+          "radiation cpm"
+        ],
+        "unit": {
+          "symbol": "R",
+          "label": "CPM",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "T1",
+        "current_value": "6.0",
+        "at": "03/21/2014 13:49:44",
+        "max_value": "275.0",
+        "min_value": "-17.3",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celcious",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "T2",
+        "current_value": "5.8",
+        "at": "03/21/2014 13:49:44",
+        "max_value": "140.0",
+        "min_value": "-25.1",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celcious",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "T3",
+        "current_value": "4.9",
+        "at": "03/21/2014 13:49:44",
+        "max_value": "290.0",
+        "min_value": "-42.5",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "C",
+          "label": "Celcious",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "V1",
+        "current_value": "19.3",
+        "at": "03/21/2014 13:49:44",
+        "max_value": "21.0",
+        "min_value": "0.0",
+        "tags": [
+          "voltage"
+        ],
+        "unit": {
+          "symbol": "U",
+          "label": "Volt",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "V2",
+        "current_value": "5.88",
+        "at": "03/21/2014 13:49:44",
+        "max_value": "13.0",
+        "min_value": "0.0",
+        "tags": [
+          "voltage"
+        ],
+        "unit": {
+          "symbol": "U",
+          "label": "Volt",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Головково",
+      "domain": 0,
+      "lat": "56.1997752483971",
+      "lon": "36.9022715091705",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/33623\" >ARDUINOGSM Project</a>",
+    "URLMostrar": "https://xively.com/feeds/33623"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\33623.json",
+  "DocumentJSON": null
+}

@@ -1,0 +1,187 @@
+{
+  "Conceptos": [
+    "temperatura"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "88707",
+    "title": "HM_house",
+    "Private": false,
+    "tags": [
+      "Arduino Ethernet",
+      "Energy power",
+      "Humidity",
+      "Temperature",
+      "Water flow",
+      "Water pressure"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/88707.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:15:10",
+    "created": "11/27/2012 12:14:13",
+    "creator": "https://xively.com/users/hydromates",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "sensor1",
+        "current_value": "17",
+        "at": "03/21/2014 14:15:10",
+        "max_value": "33.0",
+        "min_value": "8.0",
+        "tags": [
+          "Temperatura"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Gradi",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "sensor2",
+        "current_value": "38",
+        "at": "03/21/2014 14:15:10",
+        "max_value": "41.0",
+        "min_value": "31.0",
+        "tags": [
+          "Umidità"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "sensor3",
+        "current_value": "4.75",
+        "at": "03/21/2014 14:15:10",
+        "max_value": "4.94",
+        "min_value": "0.49",
+        "tags": [
+          "Pressione"
+        ],
+        "unit": {
+          "symbol": "Bar",
+          "label": "Bar",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "sensor4",
+        "current_value": "0",
+        "at": "03/21/2014 14:15:10",
+        "max_value": "70.0",
+        "min_value": "0.0",
+        "tags": [
+          "Volume"
+        ],
+        "unit": {
+          "symbol": "l",
+          "label": "Litri",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "sensor5",
+        "current_value": "17.90",
+        "at": "03/21/2014 14:15:10",
+        "max_value": "31.43",
+        "min_value": "0.0",
+        "tags": [
+          "Volume cumulato"
+        ],
+        "unit": {
+          "symbol": "mc",
+          "label": "mc",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "sensor6",
+        "current_value": "87",
+        "at": "03/21/2014 14:10:13",
+        "max_value": "2715.0",
+        "min_value": "53.0",
+        "tags": [
+          "Potenza ZC"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watt",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "sensor7",
+        "current_value": "276.86",
+        "at": "03/21/2014 14:10:13",
+        "max_value": "338.58",
+        "min_value": "0.0",
+        "tags": [
+          "Energia ZC"
+        ],
+        "unit": {
+          "symbol": "kWh",
+          "label": "kWh",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "sensor8",
+        "current_value": "258",
+        "at": "03/21/2014 14:10:13",
+        "max_value": "3166.0",
+        "min_value": "17.0",
+        "tags": [
+          "Potenza App1"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watt",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "sensor9",
+        "current_value": "356.74",
+        "at": "03/21/2014 14:10:13",
+        "max_value": "570.61",
+        "min_value": "0.0",
+        "tags": [
+          "Energia App1"
+        ],
+        "unit": {
+          "symbol": "kWh",
+          "label": "kWh",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Fumane",
+      "domain": 0,
+      "lat": "45.5444670646367",
+      "lon": "10.8824998140335",
+      "ele": "200",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/88707\" >HM_house</a>",
+    "URLMostrar": "https://xively.com/feeds/88707"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\88707.json",
+  "DocumentJSON": null
+}

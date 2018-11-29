@@ -1,0 +1,62 @@
+{
+  "Conceptos": [
+    "theory"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "129619",
+    "title": "Town of Chatham, VA (Real Time Water Supply PSI)",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "Chatham",
+      "H20",
+      "Pressure",
+      "PSI",
+      "Real Time",
+      "VA",
+      "Virginia",
+      "Water"
+    ],
+    "description": "Real time water supply line pressure sensor.\r\n\r\nThe numbers for PSI are relative and until calibrated to actual PSI values, should be considered only for a visual reference of pressure.\r\n\r\nA Graphed PSI value of 300 is approx. a physical equivalence of 35 PSI and 350 is approx 50 PSI.\r\n\r\nUpdated every 30 seconds (approximately)\r\n\r\nAs you can see from looking back at the data, the Town of Chatham does indeed increase water pressure in the mornings between 8am and 1pm.\r\n\r\nThe water pressure gradually drops overnight, down to around 25 PSI, then at 6am (5:57 their time) it bumps it back up to the 30 PSI ballpark.\r\n\r\nAt 8:15am, they turn the pressure up to 50+PSI and keep it there until about 1pm or so.\r\n\r\nNot sure what the theory is in cranking the water pressure up after the majority of the people in Chatham have gone to work.\r\n\r\nIt would seem logical that they would want to do it around 5am, so the water pressure would be higher for people in the mornings when demand is higher, but then again, this IS Chatham and logic doesn't work here.",
+    "feed": "https://api.xively.com/v2/feeds/129619.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "05/14/2013 11:03:34",
+    "created": "05/05/2013 12:35:32",
+    "creator": "https://xively.com/users/rvaughan",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "h20-psi",
+        "current_value": "303",
+        "at": "05/14/2013 11:03:34",
+        "max_value": "374.0",
+        "min_value": "262.0",
+        "tags": [
+          "Supply Water Pressure Reading"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "PSI",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Chatham, VA",
+      "domain": 0,
+      "lat": "36.8343810581986",
+      "lon": "-79.3968629837036",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/129619\" >Town of Chatham, VA (Real Time Water Supply PSI)</a>",
+    "URLMostrar": "https://xively.com/feeds/129619"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\129619.json",
+  "DocumentJSON": null
+}

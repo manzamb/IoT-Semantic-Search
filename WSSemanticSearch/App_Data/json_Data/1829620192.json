@@ -1,0 +1,81 @@
+{
+  "Conceptos": [
+    "temperatura"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "1829620192",
+    "title": "Temperatura w Siewierzu / Temperature in Siewierz, PL",
+    "Private": false,
+    "tags": [
+      "current",
+      "poland",
+      "siewierz",
+      "temperature"
+    ],
+    "description": "Temp station in Siewierz, POLAND\nupdated every 5 minutes",
+    "feed": "https://api.xively.com/v2/feeds/1829620192.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/14/2014 03:08:04",
+    "created": "05/21/2013 13:01:41",
+    "creator": "https://xively.com/users/spyke",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "humidity",
+        "current_value": "35.00",
+        "at": "03/14/2014 03:08:03",
+        "max_value": "9367545.0",
+        "min_value": "32.0",
+        "tags": [
+          "humi",
+          "humidity",
+          "inside",
+          "poland",
+          "siewierz"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temp",
+        "current_value": "-0.56",
+        "at": "03/14/2014 03:08:03",
+        "max_value": "85.0",
+        "min_value": "-14.69",
+        "tags": [
+          "current",
+          "outside",
+          "poland",
+          "siewierz",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Outside / inside temperature ",
+      "domain": 0,
+      "lat": "50.4669945001806",
+      "lon": "19.229900072461",
+      "ele": "10",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/1829620192\" >Temperatura w Siewierzu / Temperature in Siewierz, PL</a>",
+    "URLMostrar": "https://xively.com/feeds/1829620192"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\1829620192.json",
+  "DocumentJSON": null
+}

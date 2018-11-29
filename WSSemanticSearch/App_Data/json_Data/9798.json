@@ -1,0 +1,132 @@
+{
+  "Conceptos": [
+    "atmospheric pressure"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "9798",
+    "title": "Weather Station in Bari, Italy",
+    "Private": false,
+    "tags": null,
+    "description": "Courtesy of Weather Underground http://www.wunderground.com",
+    "feed": "https://api.xively.com/v2/feeds/9798.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/03/2014 07:31:02",
+    "created": "09/01/2010 11:27:11",
+    "creator": "https://xively.com/users/pietroblu",
+    "version": null,
+    "website": "http://www.wunderground.com/weatherstation/WXDailyHistory.asp?ID=IBABARI4",
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "12.8",
+        "at": "03/03/2014 07:31:02",
+        "max_value": "37.1",
+        "min_value": "0.1",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "57",
+        "at": "03/03/2014 07:31:02",
+        "max_value": "100.0",
+        "min_value": "20.0",
+        "tags": [
+          "relative humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "percentage",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "6.9",
+        "at": "03/03/2014 07:31:02",
+        "max_value": "31.0",
+        "min_value": "0.0",
+        "tags": [
+          "wind speed"
+        ],
+        "unit": {
+          "symbol": "mph",
+          "label": "miles per hour",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "996.8",
+        "at": "03/03/2014 07:31:02",
+        "max_value": "1050.0",
+        "min_value": "924.0",
+        "tags": [
+          "atmospheric pressure"
+        ],
+        "unit": {
+          "symbol": "mb",
+          "label": "millibar",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "0.0 cm",
+        "at": "03/03/2014 07:31:02",
+        "max_value": "4.9",
+        "min_value": "0.0",
+        "tags": [
+          "daily rain"
+        ],
+        "unit": {
+          "symbol": "cm",
+          "label": "cm",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "0.0",
+        "at": "03/03/2014 07:31:02",
+        "max_value": "1.9",
+        "min_value": "0.0",
+        "tags": [
+          "1h rain"
+        ],
+        "unit": {
+          "symbol": "cm",
+          "label": "cm",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Bari, Via G. Gentile",
+      "domain": 0,
+      "lat": "41.114965949752",
+      "lon": "16.8936467170715",
+      "ele": "5",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/9798\" >Weather Station in Bari, Italy</a>",
+    "URLMostrar": "https://xively.com/feeds/9798"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\9798.json",
+  "DocumentJSON": null
+}

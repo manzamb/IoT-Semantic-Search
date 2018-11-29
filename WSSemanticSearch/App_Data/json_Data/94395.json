@@ -1,0 +1,141 @@
+{
+  "Conceptos": [
+    "co2"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "94395",
+    "title": "CO2 measurements",
+    "Private": false,
+    "tags": [
+      "co2",
+      "electric imp",
+      "k30",
+      "moscow"
+    ],
+    "description": "interfacing K30 CO2 sensor using electric imp development board.",
+    "feed": "https://api.xively.com/v2/feeds/94395.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "12/17/2013 21:09:49",
+    "created": "12/22/2012 10:24:37",
+    "creator": "https://xively.com/users/ati",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "co2",
+        "current_value": "450",
+        "at": "12/17/2013 21:09:48",
+        "max_value": "1310.0",
+        "min_value": "279.0",
+        "tags": [
+          "co2",
+          "imp",
+          "k30"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "ppm",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "co2.2",
+        "current_value": "1281",
+        "at": "12/05/2013 07:26:35",
+        "max_value": "3917.0",
+        "min_value": "369.0",
+        "tags": [
+          "co2",
+          "imp",
+          "k30"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "ppm",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "humidity",
+        "current_value": "14.152",
+        "at": "12/17/2013 21:09:49",
+        "max_value": "99.936",
+        "min_value": "0.0",
+        "tags": [
+          "relative humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "humidity.2",
+        "current_value": "31.452",
+        "at": "12/05/2013 07:26:35",
+        "max_value": "73.291",
+        "min_value": "5.417",
+        "tags": [
+          "relative humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temperature",
+        "current_value": "31.547",
+        "at": "12/17/2013 21:09:49",
+        "max_value": "124.977",
+        "min_value": "25.022",
+        "tags": [
+          "indoor temperature"
+        ],
+        "unit": {
+          "symbol": "℃",
+          "label": "degree",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temperature.2",
+        "current_value": "24.408",
+        "at": "12/05/2013 07:26:35",
+        "max_value": "32.846",
+        "min_value": "16.09",
+        "tags": [
+          "indoor temperature"
+        ],
+        "unit": {
+          "symbol": "℃",
+          "label": "degree",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Moscow",
+      "domain": 0,
+      "lat": "55.7580317682373",
+      "lon": "37.6171875",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/94395\" >CO2 measurements</a>",
+    "URLMostrar": "https://xively.com/feeds/94395"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\94395.json",
+  "DocumentJSON": null
+}

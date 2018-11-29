@@ -1,0 +1,69 @@
+{
+  "Conceptos": [
+    "temperatura"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "104849",
+    "title": "Temperatura",
+    "Private": false,
+    "tags": [
+      "temperatura",
+      "temperature"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/104849.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:13:10",
+    "created": "02/16/2013 04:02:40",
+    "creator": "https://xively.com/users/luisr320",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "1",
+        "current_value": "17.83",
+        "at": "03/21/2014 14:13:09",
+        "max_value": "28.0",
+        "min_value": "0.0",
+        "tags": [
+          "Cozinha"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "ºC",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "0",
+        "at": "02/16/2013 19:25:16",
+        "max_value": "0.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Quinta da Moura",
+      "domain": 0,
+      "lat": "38.7160294163333",
+      "lon": "-9.28147852420807",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/104849\" >Temperatura</a>",
+    "URLMostrar": "https://xively.com/feeds/104849"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\104849.json",
+  "DocumentJSON": null
+}

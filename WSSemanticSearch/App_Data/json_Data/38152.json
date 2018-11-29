@@ -1,0 +1,116 @@
+{
+  "Conceptos": [
+    "system"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "38152",
+    "title": "CBW01",
+    "Private": false,
+    "tags": null,
+    "description": "Live temperature.\r\n\r\nCurrently there are four temperature sensors connected to this feed. The last 24 hours of temperature readings (in F) for each sensor are displayed on charts below. \r\n\r\nYou can change how much or how little data is displayed on each chart by clicking 1M or 1H to view the last 1 month or 1 hour respectively. \r\n (Note: If you are not logged in, the time on the bottom axis of each chart is display in UK time. If you would like to see it in MST, create an account and change your profile settings to MST)\r\n\r\nChart 4 represents a count of the failed attempts to send this website date. It is for debugging purposes and if all goes well this will be replaced with a fifth temperature sensor. \r\n\r\nPlease contact Theron with any question.\r\n\r\nUPDATE: 12/17/12, system was moved back to the cabin. ",
+    "feed": "https://api.xively.com/v2/feeds/38152.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:13:46",
+    "created": "10/26/2011 02:47:47",
+    "creator": "https://xively.com/users/cbworks",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "58.87",
+        "at": "03/21/2014 14:13:46",
+        "max_value": "101.96",
+        "min_value": "31.33",
+        "tags": [
+          "Electronics"
+        ],
+        "unit": {
+          "symbol": "Temp",
+          "label": "F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "39.30",
+        "at": "03/21/2014 14:13:46",
+        "max_value": "18634.0",
+        "min_value": "-6.0",
+        "tags": [
+          "Under the Deck"
+        ],
+        "unit": {
+          "symbol": "Temp",
+          "label": "F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "48.07",
+        "at": "03/21/2014 14:13:46",
+        "max_value": "18668.0",
+        "min_value": "-2.0",
+        "tags": [
+          "Bathroom"
+        ],
+        "unit": {
+          "symbol": "Temp",
+          "label": "F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "51.56",
+        "at": "03/21/2014 14:13:46",
+        "max_value": "18668.0",
+        "min_value": "1.0",
+        "tags": [
+          "Water Tank"
+        ],
+        "unit": {
+          "symbol": "Temp",
+          "label": "F",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "1588",
+        "at": "03/21/2014 14:13:46",
+        "max_value": "18671.0",
+        "min_value": "0.0",
+        "tags": [
+          "Count"
+        ],
+        "unit": {
+          "symbol": "count",
+          "label": "count",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Denver, CO",
+      "domain": 1,
+      "lat": "39.7325379843818",
+      "lon": "-104.977111816406",
+      "ele": "10000",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/38152\" >CBW01</a>",
+    "URLMostrar": "https://xively.com/feeds/38152"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\38152.json",
+  "DocumentJSON": null
+}

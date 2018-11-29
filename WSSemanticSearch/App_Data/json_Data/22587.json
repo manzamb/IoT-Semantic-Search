@@ -1,0 +1,155 @@
+{
+  "Conceptos": [
+    "carbon monoxide"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "22587",
+    "title": "Univ of New S. Wales - Weather Tunnel",
+    "Private": false,
+    "tags": [
+      "air quality",
+      "carbon dioxide",
+      "carbon monoxide",
+      "humidity",
+      "light",
+      "temperature"
+    ],
+    "description": "weather tunnel node in Perth, Australia\r\nsensor unit info: http://bit.ly/uIGCEg\r\nhttp://citizensensor.cc",
+    "feed": "https://api.xively.com/v2/feeds/22587.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "05/10/2012 10:48:53",
+    "created": "04/13/2011 16:41:40",
+    "creator": "https://xively.com/users/weathertunnel",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "13",
+        "at": "05/10/2012 10:48:53",
+        "max_value": "50.0",
+        "min_value": "6.0",
+        "tags": [
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "°",
+          "label": "degrees celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "6",
+        "at": "05/10/2012 10:48:53",
+        "max_value": "1023.0",
+        "min_value": "0.0",
+        "tags": [
+          "light"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "relative val",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "616",
+        "at": "05/10/2012 10:48:53",
+        "max_value": "787.0",
+        "min_value": "191.0",
+        "tags": [
+          "humidity"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "relative val",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "144",
+        "at": "05/10/2012 10:48:53",
+        "max_value": "329.0",
+        "min_value": "7.0",
+        "tags": [
+          "noise"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "relative val",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "990",
+        "at": "05/10/2012 10:48:53",
+        "max_value": "1000.0",
+        "min_value": "686.0",
+        "tags": [
+          "carbon dioxide"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "relative val",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "13",
+        "at": "05/10/2012 10:48:53",
+        "max_value": "177.0",
+        "min_value": "0.0",
+        "tags": [
+          "carbon monoxide"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "relative val",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "277",
+        "at": "05/10/2012 10:48:53",
+        "max_value": "504.0",
+        "min_value": "161.0",
+        "tags": [
+          "air quality"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "relative val",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Perth, Australia",
+      "domain": 0,
+      "lat": "-31.9381784855911",
+      "lon": "115.850830078125",
+      "ele": null,
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/22587\" >Univ of New S. Wales - Weather Tunnel</a>",
+    "URLMostrar": "https://xively.com/feeds/22587"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\22587.json",
+  "DocumentJSON": null
+}

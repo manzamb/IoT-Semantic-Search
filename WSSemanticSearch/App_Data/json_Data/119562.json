@@ -1,0 +1,55 @@
+{
+  "Conceptos": [
+    "so2"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "119562",
+    "title": "prueba",
+    "Private": false,
+    "tags": [
+      "arduino",
+      "temperatura"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/119562.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/18/2013 01:43:40",
+    "created": "03/17/2013 23:51:31",
+    "creator": "https://xively.com/users/juancorso2",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "sensor_reading",
+        "current_value": "26.50",
+        "at": "03/18/2013 01:43:40",
+        "max_value": "26.75",
+        "min_value": "0.0",
+        "tags": [
+          "temp"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "Grados Centigrados",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": null,
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/119562\" >prueba</a>",
+    "URLMostrar": "https://xively.com/feeds/119562"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\119562.json",
+  "DocumentJSON": null
+}

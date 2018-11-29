@@ -1,0 +1,105 @@
+{
+  "Conceptos": [
+    "atmospheric pressure"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "124643",
+    "title": "Home sensor",
+    "Private": false,
+    "tags": [
+      "Atmospheric pressure",
+      "Humidity",
+      "illuminance",
+      "Temperature"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/124643.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "06/02/2013 08:27:00",
+    "created": "04/12/2013 07:55:18",
+    "creator": "https://xively.com/users/shingo2891",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "atoms",
+        "current_value": null,
+        "at": null,
+        "max_value": null,
+        "min_value": null,
+        "tags": [
+          "Atoms"
+        ],
+        "unit": {
+          "symbol": "hPa",
+          "label": "hPa",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "hum",
+        "current_value": "33.4",
+        "at": "06/02/2013 08:27:00",
+        "max_value": "71.2",
+        "min_value": "17.1",
+        "tags": [
+          "Humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "Percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "ill",
+        "current_value": "220",
+        "at": "06/02/2013 08:27:00",
+        "max_value": "495.0",
+        "min_value": "0.0",
+        "tags": [
+          "illuminance"
+        ],
+        "unit": {
+          "symbol": "?",
+          "label": "?",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "temp",
+        "current_value": "31.5",
+        "at": "06/02/2013 08:27:00",
+        "max_value": "33.9",
+        "min_value": "21.3",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "℃",
+          "label": "Degree Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Tokyo",
+      "domain": 0,
+      "lat": "35.6876204144551",
+      "lon": "139.669468402863",
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/124643\" >Home sensor</a>",
+    "URLMostrar": "https://xively.com/feeds/124643"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\124643.json",
+  "DocumentJSON": null
+}

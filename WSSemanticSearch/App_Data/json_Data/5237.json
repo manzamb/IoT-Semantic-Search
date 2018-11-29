@@ -1,0 +1,108 @@
+{
+  "Conceptos": [
+    "environment"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "5237",
+    "title": "Indoor Environmental Statistics",
+    "Private": false,
+    "tags": [
+      "Arduino",
+      "DS18B20",
+      "light level",
+      "MPX4115AP",
+      "pressure",
+      "temperature",
+      "VT935G"
+    ],
+    "description": "Arduino Duemilanove measuring:\r\nTemperature: Maxim Integrated Products - DS18B20+\r\nLight Level: Excelitas Tech - VT935G\r\nPressure: Freescale Semiconductor - MPX4115AP\r\nRelative Humidity: Honeywell HIH-4030",
+    "feed": "https://api.xively.com/v2/feeds/5237.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:07:28",
+    "created": "01/26/2010 17:11:27",
+    "creator": "https://xively.com/users/h0dges",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "21.06",
+        "at": "03/21/2014 14:07:28",
+        "max_value": "127.9",
+        "min_value": "-127.0",
+        "tags": [
+          "Temperature"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "Celsius",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "39",
+        "at": "03/21/2014 14:07:28",
+        "max_value": "955.0",
+        "min_value": "0.0",
+        "tags": [
+          "Light Level"
+        ],
+        "unit": {
+          "symbol": "mV",
+          "label": "Millivolt",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "999.9",
+        "at": "03/21/2014 14:07:28",
+        "max_value": "1039.6",
+        "min_value": "1.0",
+        "tags": [
+          "Barometric Pressure"
+        ],
+        "unit": {
+          "symbol": "mbar",
+          "label": "Millibar",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "36.1",
+        "at": "03/21/2014 14:07:28",
+        "max_value": "71.4",
+        "min_value": "0.0",
+        "tags": [
+          "Relative Humidity"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "Percent",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Sheffield",
+      "domain": 0,
+      "lat": "53.3781676653575",
+      "lon": "-1.46434027701616",
+      "ele": "126.5",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/5237\" >Indoor Environmental Statistics</a>",
+    "URLMostrar": "https://xively.com/feeds/5237"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\5237.json",
+  "DocumentJSON": null
+}

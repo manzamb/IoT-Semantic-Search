@@ -1,0 +1,118 @@
+{
+  "Conceptos": [
+    "temperatura"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "49630",
+    "title": "CUMBAYÁ W266",
+    "Private": false,
+    "tags": [
+      "AC",
+      "Puerta",
+      "Temperatura"
+    ],
+    "description": "DITECnet16\r\n10.100.10.26 ",
+    "feed": "https://api.xively.com/v2/feeds/49630.json",
+    "auto_feed_url": null,
+    "status": 1,
+    "updated": "03/21/2014 14:12:43",
+    "created": "02/24/2012 18:01:01",
+    "creator": "https://xively.com/users/tvcable_watching",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "AC",
+        "current_value": "1",
+        "at": "03/21/2014 14:12:43",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": [
+          "Alimentación AC"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "0=FALLA / 1=OK",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "PT1",
+        "current_value": "1",
+        "at": "03/21/2014 14:12:43",
+        "max_value": "1.759883",
+        "min_value": "0.0",
+        "tags": [
+          "Puerta 1"
+        ],
+        "unit": {
+          "symbol": null,
+          "label": "0=ABIERTA / 1=CERRADA",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "PT2",
+        "current_value": "0",
+        "at": "03/21/2014 14:12:43",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "tags": null,
+        "unit": {
+          "symbol": null,
+          "label": null,
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "PWR",
+        "current_value": "12.162339208",
+        "at": "03/21/2014 14:12:43",
+        "max_value": "12.264713286",
+        "min_value": "9.837942121",
+        "tags": [
+          "Alimentación DITECnet"
+        ],
+        "unit": {
+          "symbol": "VDC",
+          "label": "Voltios",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "T1",
+        "current_value": "19.875",
+        "at": "03/21/2014 14:12:43",
+        "max_value": "29.3125",
+        "min_value": "18.0625",
+        "tags": [
+          "Temperatura ambiente"
+        ],
+        "unit": {
+          "symbol": "°C",
+          "label": "° Centigrados",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Quito",
+      "domain": 0,
+      "lat": "-0.205435312688781",
+      "lon": "-78.4244012832642",
+      "ele": "2800",
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/49630\" >CUMBAYÁ W266</a>",
+    "URLMostrar": "https://xively.com/feeds/49630"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\49630.json",
+  "DocumentJSON": null
+}

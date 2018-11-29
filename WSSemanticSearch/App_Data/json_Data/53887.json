@@ -1,0 +1,94 @@
+{
+  "Conceptos": [
+    "flúor"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "53887",
+    "title": "Farm costs",
+    "Private": false,
+    "tags": [
+      "barn",
+      "farm",
+      "stable"
+    ],
+    "description": "Tracking of farm electricity use within total residence use. Current Cost EnviR monitor connected to subpanel for barn, and a second monitor connected to the main panel for entire farm including residence. Geothermal open loop heating of renovated 1890's era house, two wells, one for house and one for barn, riding arena using T5 fluorescent lighting, ~14 100Wx2 security floodlights, minimal winter heating in barn. The usual big energy users inside residence (TV, computers, stove, etc) ",
+    "feed": "https://api.xively.com/v2/feeds/53887.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/31/2012 04:24:10",
+    "created": "03/30/2012 00:58:56",
+    "creator": "https://xively.com/users/skrutor",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "68.7",
+        "at": "03/31/2012 02:19:20",
+        "max_value": "69.2",
+        "min_value": "65.6",
+        "tags": [
+          "degrees",
+          "fahrenheit",
+          "temperature"
+        ],
+        "unit": {
+          "symbol": "F",
+          "label": "Fahrenheit",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "0.0",
+        "at": "03/31/2012 02:19:20",
+        "max_value": "1593.0",
+        "min_value": "0.0",
+        "tags": [
+          "electricity",
+          "power",
+          "watts"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "123.0",
+        "at": "03/31/2012 02:19:20",
+        "max_value": "1661.0",
+        "min_value": "112.0",
+        "tags": [
+          "electricity",
+          "power",
+          "watts"
+        ],
+        "unit": {
+          "symbol": "W",
+          "label": "Watts",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "Ottawa, ON",
+      "domain": 0,
+      "lat": null,
+      "lon": null,
+      "ele": null,
+      "exposure": 0,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/53887\" >Farm costs</a>",
+    "URLMostrar": "https://xively.com/feeds/53887"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\53887.json",
+  "DocumentJSON": null
+}

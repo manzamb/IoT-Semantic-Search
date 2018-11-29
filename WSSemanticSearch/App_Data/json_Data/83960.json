@@ -1,0 +1,187 @@
+{
+  "Conceptos": [
+    "humedad"
+  ],
+  "lugares": null,
+  "feed": {
+    "id": "83960",
+    "title": "Meteo_A_Rua",
+    "Private": false,
+    "tags": [
+      "meteo",
+      "Meteorología",
+      "pressure",
+      "rain",
+      "temperature",
+      "wind"
+    ],
+    "description": null,
+    "feed": "https://api.xively.com/v2/feeds/83960.json",
+    "auto_feed_url": null,
+    "status": 0,
+    "updated": "03/16/2014 02:36:21",
+    "created": "11/05/2012 11:20:01",
+    "creator": "https://xively.com/users/malone",
+    "version": null,
+    "website": null,
+    "datastreams": [
+      {
+        "id": "0",
+        "current_value": "11.6",
+        "at": "03/16/2014 02:36:21",
+        "max_value": "43.7",
+        "min_value": "-5.6",
+        "tags": [
+          "Tª exterior"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "grados",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "1",
+        "current_value": "11.0",
+        "at": "03/16/2014 02:36:21",
+        "max_value": "45.6",
+        "min_value": "-29.2",
+        "tags": [
+          "Tª ext. aparente"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "grados",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "2",
+        "current_value": "15.9",
+        "at": "03/16/2014 02:36:21",
+        "max_value": "30.4",
+        "min_value": "0.0",
+        "tags": [
+          "Tª interior"
+        ],
+        "unit": {
+          "symbol": "ºC",
+          "label": "grados",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "3",
+        "current_value": "76",
+        "at": "03/16/2014 02:36:21",
+        "max_value": "99.0",
+        "min_value": "0.0",
+        "tags": [
+          "Humedad exterior"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "4",
+        "current_value": "43",
+        "at": "03/16/2014 02:36:21",
+        "max_value": "60.0",
+        "min_value": "0.0",
+        "tags": [
+          "Humedad interior"
+        ],
+        "unit": {
+          "symbol": "%",
+          "label": "%",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "5",
+        "current_value": "1025.6",
+        "at": "03/16/2014 02:36:21",
+        "max_value": "1034.2",
+        "min_value": "0.0",
+        "tags": [
+          "Presión atmosférica"
+        ],
+        "unit": {
+          "symbol": "mb",
+          "label": "milibares",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "6",
+        "current_value": "0.0",
+        "at": "03/16/2014 02:36:21",
+        "max_value": "936.0",
+        "min_value": "0.0",
+        "tags": [
+          "Precipitaciones"
+        ],
+        "unit": {
+          "symbol": "L/m2",
+          "label": "litros por metro cuadrado",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "7",
+        "current_value": "0.0",
+        "at": "03/16/2014 02:36:21",
+        "max_value": "174.0",
+        "min_value": "0.0",
+        "tags": [
+          "Viento"
+        ],
+        "unit": {
+          "symbol": "Km/h",
+          "label": "Kilómetros por hora",
+          "unitType": 0
+        },
+        "datapoints": null
+      },
+      {
+        "id": "8",
+        "current_value": "45",
+        "at": "03/16/2014 02:36:21",
+        "max_value": "360.0",
+        "min_value": "0.0",
+        "tags": [
+          "Dirección del viento"
+        ],
+        "unit": {
+          "symbol": "º",
+          "label": "grados Norte",
+          "unitType": 0
+        },
+        "datapoints": null
+      }
+    ],
+    "location": {
+      "name": "A Rúa de Valdeorras",
+      "domain": 0,
+      "lat": "42.3955337869864",
+      "lon": "-7.10002183914185",
+      "ele": "320",
+      "exposure": 1,
+      "disposition": 0
+    },
+    "TitleHTML": "<a style=\"color: #336600; font-size:110%;\"  href=\"https://xively.com/feeds/83960\" >Meteo_A_Rua</a>",
+    "URLMostrar": "https://xively.com/feeds/83960"
+  },
+  "pathfeed": "C:\\Users\\manzamb\\Dropbox\\Subproyectos\\IndiceSemanticoIoT\\BuscadorSemanticoIoT\\BuscadorSemantico\\WSSemanticSearch\\App_Data\\Json_Data\\83960.json",
+  "DocumentJSON": null
+}
