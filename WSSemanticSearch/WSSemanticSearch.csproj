@@ -136,17 +136,17 @@
     <Content Include="SemanticIndex\_4y9k.tvd" />
     <Content Include="SemanticIndex\_4y9k.tvf" />
     <Content Include="SemanticIndex\_4y9k.tvx" />
-    <None Include="Web References\srvExpansionConsulta\ExpancionConsulta.disco" />
     <Content Include="SemanticIndex\segments.gen" />
+    <None Include="Web References\srvExpansionConsulta\ExpancionConsulta.disco" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
     <Content Include="WSSemanticSearch.asmx" />
     <None Include="Web References\srvExpansionConsulta\ExpancionConsulta.wsdl" />
-    <None Include="Web References\srvExpansionConsulta\Reference.map">
+    <Content Include="Web References\srvExpansionConsulta\Reference.map">
       <Generator>MSDiscoCodeGenerator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
-    </None>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Code\Extenciones.cs" />
@@ -185,6 +185,9 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
     <WebReferenceUrl Include="http://localhost:18290/ExpancionConsulta.asmx">
       <UrlBehavior>Dynamic</UrlBehavior>
       <RelPath>Web References\srvExpansionConsulta\</RelPath>
@@ -196,9 +199,6 @@
       <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
       <CachedSettingsPropName>WSSemanticSearch_srvExpansionConsulta_ExpancionConsulta</CachedSettingsPropName>
     </WebReferenceUrl>
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="App_Data\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
