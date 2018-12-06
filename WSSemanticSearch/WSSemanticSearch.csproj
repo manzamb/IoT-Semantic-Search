@@ -179,19 +179,19 @@
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
     <ProjectReference Include="..\AppSemanticIndex\AppSemanticIndex.csproj">
       <Project>{14706f02-40f4-40dd-a6cc-5573aceae9b9}</Project>
       <Name>AppSemanticIndex</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App_Data\" />
-  </ItemGroup>
-  <ItemGroup>
-    <WebReferenceUrl Include="http://localhost:18290/ExpancionConsulta.asmx">
+    <WebReferenceUrl Include="http://www.semanticsearchiot.net/sswot/WebServiceExpansionConsulta/ExpancionConsulta.asmx">
       <UrlBehavior>Dynamic</UrlBehavior>
       <RelPath>Web References\srvExpansionConsulta\</RelPath>
-      <UpdateFromURL>http://localhost:18290/ExpancionConsulta.asmx</UpdateFromURL>
+      <UpdateFromURL>http://www.semanticsearchiot.net/sswot/WebServiceExpansionConsulta/ExpancionConsulta.asmx</UpdateFromURL>
       <ServiceLocationURL>
       </ServiceLocationURL>
       <CachedDynamicPropName>

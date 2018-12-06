@@ -1345,10 +1345,10 @@
   </wsdl:binding>
   <wsdl:service name="WSSemanticSearch">
     <wsdl:port name="WSSemanticSearchSoap" binding="tns:WSSemanticSearchSoap">
-      <soap:address location="http://localhost:17864/WSSemanticSearch.asmx" />
+      <soap:address location="http://www.semanticsearchiot.net/sswot/WSSemanticSearch/WSSemanticSearch.asmx" />
     </wsdl:port>
     <wsdl:port name="WSSemanticSearchSoap12" binding="tns:WSSemanticSearchSoap12">
-      <soap12:address location="http://localhost:17864/WSSemanticSearch.asmx" />
+      <soap12:address location="http://www.semanticsearchiot.net/sswot/WSSemanticSearch/WSSemanticSearch.asmx" />
     </wsdl:port>
   </wsdl:service>
 </wsdl:definitions>

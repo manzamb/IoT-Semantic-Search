@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <discovery xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.xmlsoap.org/disco/">
-  <contractRef ref="http://localhost:18290/ExpancionConsulta.asmx?wsdl" docRef="http://localhost:18290/ExpancionConsulta.asmx" xmlns="http://schemas.xmlsoap.org/disco/scl/" />
-  <soap address="http://localhost:18290/ExpancionConsulta.asmx" xmlns:q1="http://tempuri.org/" binding="q1:ExpancionConsultaSoap" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
-  <soap address="http://localhost:18290/ExpancionConsulta.asmx" xmlns:q2="http://tempuri.org/" binding="q2:ExpancionConsultaSoap12" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
+  <contractRef ref="http://www.semanticsearchiot.net/sswot/WebServiceExpansionConsulta/ExpancionConsulta.asmx?wsdl" docRef="http://www.semanticsearchiot.net/sswot/WebServiceExpansionConsulta/ExpancionConsulta.asmx" xmlns="http://schemas.xmlsoap.org/disco/scl/" />
+  <soap address="http://www.semanticsearchiot.net/sswot/WebServiceExpansionConsulta/ExpancionConsulta.asmx" xmlns:q1="http://tempuri.org/" binding="q1:ExpancionConsultaSoap" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
+  <soap address="http://www.semanticsearchiot.net/sswot/WebServiceExpansionConsulta/ExpancionConsulta.asmx" xmlns:q2="http://tempuri.org/" binding="q2:ExpancionConsultaSoap12" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
 </discovery>

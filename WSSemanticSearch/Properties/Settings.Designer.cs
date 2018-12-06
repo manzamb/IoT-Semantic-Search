@@ -26,7 +26,8 @@ namespace WSSemanticSearch.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.WebServiceUrl)]
-        [global::System.Configuration.DefaultSettingValueAttribute("http://localhost:18290/ExpancionConsulta.asmx")]
+        [global::System.Configuration.DefaultSettingValueAttribute("http://www.semanticsearchiot.net/sswot/WebServiceExpansionConsulta/ExpancionConsu" +
+            "lta.asmx")]
         public string WSSemanticSearch_srvExpansionConsulta_ExpancionConsulta {
             get {
                 return ((string)(this["WSSemanticSearch_srvExpansionConsulta_ExpancionConsulta"]));

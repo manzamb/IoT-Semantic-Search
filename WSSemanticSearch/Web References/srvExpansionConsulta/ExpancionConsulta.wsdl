@@ -144,10 +144,10 @@
   </wsdl:binding>
   <wsdl:service name="ExpancionConsulta">
     <wsdl:port name="ExpancionConsultaSoap" binding="tns:ExpancionConsultaSoap">
-      <soap:address location="http://localhost:18290/ExpancionConsulta.asmx" />
+      <soap:address location="http://www.semanticsearchiot.net/sswot/WebServiceExpansionConsulta/ExpancionConsulta.asmx" />
     </wsdl:port>
     <wsdl:port name="ExpancionConsultaSoap12" binding="tns:ExpancionConsultaSoap12">
-      <soap12:address location="http://localhost:18290/ExpancionConsulta.asmx" />
+      <soap12:address location="http://www.semanticsearchiot.net/sswot/WebServiceExpansionConsulta/ExpancionConsulta.asmx" />
     </wsdl:port>
   </wsdl:service>
 </wsdl:definitions>

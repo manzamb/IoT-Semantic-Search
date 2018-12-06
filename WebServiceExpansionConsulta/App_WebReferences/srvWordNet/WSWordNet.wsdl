@@ -103,10 +103,10 @@
   </wsdl:binding>
   <wsdl:service name="WebServiceWordNet">
     <wsdl:port name="WebServiceWordNetSoap" binding="tns:WebServiceWordNetSoap">
-      <soap:address location="http://localhost:3333/WSWordNet.asmx" />
+      <soap:address location="http://www.semanticsearchiot.net/sswot/WsWordNet/WSWordNet.asmx" />
     </wsdl:port>
     <wsdl:port name="WebServiceWordNetSoap12" binding="tns:WebServiceWordNetSoap12">
-      <soap12:address location="http://localhost:3333/WSWordNet.asmx" />
+      <soap12:address location="http://www.semanticsearchiot.net/sswot/WsWordNet/WSWordNet.asmx" />
     </wsdl:port>
   </wsdl:service>
 </wsdl:definitions>
