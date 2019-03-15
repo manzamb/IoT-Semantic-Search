@@ -9,6 +9,12 @@ using WSWordNet.DataAccess;
 
 namespace WSWordNet
 {
+
+    //Syn.WordNet.WordNetEngine wordNetEngine = new Syn.WordNet.WordNetEngine();
+    //Syn.WordNet.PartOfSpeech pos = new Syn.WordNet.PartOfSpeech();
+    //Syn.WordNet.SynSet ss = new Syn.WordNet.SynSet(pos, 0, wordNetEngine);
+    //Console.WriteLine("words form wordnet" + ss.Words);
+
     /// <summary>
     /// Summary description for Service1
     /// </summary>
@@ -32,7 +38,7 @@ namespace WSWordNet
         }
 
         [WebMethod]
-        public string getSynonym(string concept)
+        public string GetSynonym(string concept)
         {
             string conceptSynonym = "";
             string Synonym = "";
