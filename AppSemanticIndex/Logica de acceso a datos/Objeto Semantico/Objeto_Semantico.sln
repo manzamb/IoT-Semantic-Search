@@ -1,5 +1,7 @@
-Microsoft Visual Studio Solution File, Format Version 9.00
-# Visual Studio 2005
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.106
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Objeto_Semantico", "Objeto_Semantico.csproj", "{1ABBAD83-F537-459C-A35E-2E01103F8350}"
 EndProject
 Global
@@ -7,9 +9,7 @@ Global
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
-	GlobalSection(ProjectDependencies) = postSolution
-	EndGlobalSection
-	GlobalSection(ProjectConfiguration) = postSolution
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{1ABBAD83-F537-459C-A35E-2E01103F8350}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1ABBAD83-F537-459C-A35E-2E01103F8350}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1ABBAD83-F537-459C-A35E-2E01103F8350}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -17,5 +17,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {128D9D6E-AD6D-418F-8F9F-A31BA2F2F688}
 	EndGlobalSection
 EndGlobal

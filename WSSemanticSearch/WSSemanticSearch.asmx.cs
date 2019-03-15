@@ -14,6 +14,8 @@ using System.Web.Script.Services;
 using System.Xml.Serialization;
 using WSSemanticSearch.srvExpansionConsulta;
 using System.Globalization;
+using Newtonsoft.Json.Linq;
+using Newtonsoft.Json;
 
 namespace WSSemanticSearch
 {
@@ -628,6 +630,22 @@ namespace WSSemanticSearch
             //Retornar el json
             return xtemp;
         }
+
+        //Este método devuelve en formato json los Metadatos del Sensor desde Xively
+        [WebMethod]
+        public string RetornarJsonSensorLocal(string IdSensor)
+        {
+            //Crea el Objeto que guarda todo el conocimiento del negocio
+            semanticIndexManager = new SemanticIndexManager();
+
+            //Obtener el JSON de la BDD
+            //string xtemp = semanticIndexManager.ObtenerJsonFeed(ConfigurationManager.AppSettings["APIkey"], IdSensor);
+            FeedXively xftemp = semanticIndexManager.ObtenerJSONFeedBDD(IdSensor);
+            string xtemp = JsonConvert.SerializeObject(xftemp);
+            //Retornar el json
+            return xtemp;
+        }
+
 
         //Este método obtiene información de los datos que mide el sensor.
         //Se retorna todo el feed con los datapoints
