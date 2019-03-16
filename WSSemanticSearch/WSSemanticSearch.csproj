@@ -148,10 +148,10 @@
     </Content>
     <Content Include="WSSemanticSearch.asmx" />
     <None Include="Web References\srvExpansionConsulta\ExpancionConsulta.wsdl" />
-    <Content Include="Web References\srvExpansionConsulta\Reference.map">
+    <None Include="Web References\srvExpansionConsulta\Reference.map">
       <Generator>MSDiscoCodeGenerator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
-    </Content>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Code\Extenciones.cs" />
