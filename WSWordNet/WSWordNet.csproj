@@ -79,17 +79,10 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="bin\IKVM.OpenJDK.ClassLibrary.dll" />
-    <Content Include="bin\IKVM.Runtime.dll" />
-    <Content Include="bin\jaws-bin.dll" />
-    <Content Include="bin\WSWordNet.dll" />
-    <Content Include="bin\WSWordNet.pdb" />
     <Content Include="WSWordNet.asmx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DataAccess\Concept.cs" />
-    <Compile Include="Logic\WordNetManager.cs" />
     <Compile Include="WSWordNet.asmx.cs">
       <DependentUpon>WSWordNet.asmx</DependentUpon>
       <SubType>Component</SubType>
@@ -100,26 +93,27 @@
     <Folder Include="App_Data\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="bin\dict\adj.exc" />
-    <Content Include="bin\dict\adv.exc" />
-    <Content Include="bin\dict\cntlist" />
-    <Content Include="bin\dict\cntlist.rev" />
-    <Content Include="bin\dict\data.adj" />
-    <Content Include="bin\dict\data.adv" />
-    <Content Include="bin\dict\data.noun" />
-    <Content Include="bin\dict\data.verb" />
-    <Content Include="bin\dict\frames.vrb" />
-    <Content Include="bin\dict\index.adj" />
-    <Content Include="bin\dict\index.adv" />
-    <Content Include="bin\dict\index.noun" />
-    <Content Include="bin\dict\index.sense" />
-    <Content Include="bin\dict\index.verb" />
-    <Content Include="bin\dict\log.grind.2.1" />
-    <Content Include="bin\dict\noun.exc" />
-    <Content Include="bin\dict\sentidx.vrb" />
-    <Content Include="bin\dict\sents.vrb" />
-    <Content Include="bin\dict\verb.exc" />
-    <Content Include="bin\dict\verb.Framestext" />
+    <Content Include="bin\WordNet\adj.exc" />
+    <Content Include="bin\WordNet\adv.exc" />
+    <Content Include="bin\WordNet\cntlist" />
+    <Content Include="bin\WordNet\cntlist.rev" />
+    <Content Include="bin\WordNet\data.adj" />
+    <Content Include="bin\WordNet\data.adv" />
+    <Content Include="bin\WordNet\data.noun" />
+    <Content Include="bin\WordNet\data.verb" />
+    <Content Include="bin\WordNet\frames.vrb" />
+    <Content Include="bin\WordNet\index.adj" />
+    <Content Include="bin\WordNet\index.adv" />
+    <Content Include="bin\WordNet\index.noun" />
+    <Content Include="bin\WordNet\index.sense" />
+    <Content Include="bin\WordNet\index.verb" />
+    <Content Include="bin\WordNet\log.grind.2.1" />
+    <Content Include="bin\WordNet\noun.exc" />
+    <Content Include="bin\WordNet\sentidx.vrb" />
+    <Content Include="bin\WordNet\sents.vrb" />
+    <Content Include="bin\WordNet\verb.exc" />
+    <Content Include="bin\WordNet\verb.Framestext" />
+    <Content Include="libman.json" />
     <None Include="packages.config" />
     <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
     <None Include="Properties\PublishProfiles\semanticsearchiot.net - Web Deploy.pubxml" />
