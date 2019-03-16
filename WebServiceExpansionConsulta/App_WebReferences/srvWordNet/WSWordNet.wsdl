@@ -2,76 +2,38 @@
 <wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
   <wsdl:types>
     <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
-      <s:element name="GetConceptsOfQuery">
-        <s:complexType>
-          <s:sequence>
-            <s:element minOccurs="0" maxOccurs="1" name="query" type="s:string" />
-          </s:sequence>
-        </s:complexType>
-      </s:element>
-      <s:element name="GetConceptsOfQueryResponse">
-        <s:complexType>
-          <s:sequence>
-            <s:element minOccurs="0" maxOccurs="1" name="GetConceptsOfQueryResult" type="tns:ArrayOfString" />
-          </s:sequence>
-        </s:complexType>
-      </s:element>
-      <s:complexType name="ArrayOfString">
-        <s:sequence>
-          <s:element minOccurs="0" maxOccurs="unbounded" name="string" nillable="true" type="s:string" />
-        </s:sequence>
-      </s:complexType>
-      <s:element name="getSynonym">
+      <s:element name="GetSynonym">
         <s:complexType>
           <s:sequence>
             <s:element minOccurs="0" maxOccurs="1" name="concept" type="s:string" />
           </s:sequence>
         </s:complexType>
       </s:element>
-      <s:element name="getSynonymResponse">
+      <s:element name="GetSynonymResponse">
         <s:complexType>
           <s:sequence>
-            <s:element minOccurs="0" maxOccurs="1" name="getSynonymResult" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="GetSynonymResult" type="s:string" />
           </s:sequence>
         </s:complexType>
       </s:element>
     </s:schema>
   </wsdl:types>
-  <wsdl:message name="GetConceptsOfQuerySoapIn">
-    <wsdl:part name="parameters" element="tns:GetConceptsOfQuery" />
+  <wsdl:message name="GetSynonymSoapIn">
+    <wsdl:part name="parameters" element="tns:GetSynonym" />
   </wsdl:message>
-  <wsdl:message name="GetConceptsOfQuerySoapOut">
-    <wsdl:part name="parameters" element="tns:GetConceptsOfQueryResponse" />
-  </wsdl:message>
-  <wsdl:message name="getSynonymSoapIn">
-    <wsdl:part name="parameters" element="tns:getSynonym" />
-  </wsdl:message>
-  <wsdl:message name="getSynonymSoapOut">
-    <wsdl:part name="parameters" element="tns:getSynonymResponse" />
+  <wsdl:message name="GetSynonymSoapOut">
+    <wsdl:part name="parameters" element="tns:GetSynonymResponse" />
   </wsdl:message>
   <wsdl:portType name="WebServiceWordNetSoap">
-    <wsdl:operation name="GetConceptsOfQuery">
-      <wsdl:input message="tns:GetConceptsOfQuerySoapIn" />
-      <wsdl:output message="tns:GetConceptsOfQuerySoapOut" />
-    </wsdl:operation>
-    <wsdl:operation name="getSynonym">
-      <wsdl:input message="tns:getSynonymSoapIn" />
-      <wsdl:output message="tns:getSynonymSoapOut" />
+    <wsdl:operation name="GetSynonym">
+      <wsdl:input message="tns:GetSynonymSoapIn" />
+      <wsdl:output message="tns:GetSynonymSoapOut" />
     </wsdl:operation>
   </wsdl:portType>
   <wsdl:binding name="WebServiceWordNetSoap" type="tns:WebServiceWordNetSoap">
     <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
-    <wsdl:operation name="GetConceptsOfQuery">
-      <soap:operation soapAction="http://tempuri.org/GetConceptsOfQuery" style="document" />
-      <wsdl:input>
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output>
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
-    <wsdl:operation name="getSynonym">
-      <soap:operation soapAction="http://tempuri.org/getSynonym" style="document" />
+    <wsdl:operation name="GetSynonym">
+      <soap:operation soapAction="http://tempuri.org/GetSynonym" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
       </wsdl:input>
@@ -82,17 +44,8 @@
   </wsdl:binding>
   <wsdl:binding name="WebServiceWordNetSoap12" type="tns:WebServiceWordNetSoap">
     <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
-    <wsdl:operation name="GetConceptsOfQuery">
-      <soap12:operation soapAction="http://tempuri.org/GetConceptsOfQuery" style="document" />
-      <wsdl:input>
-        <soap12:body use="literal" />
-      </wsdl:input>
-      <wsdl:output>
-        <soap12:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
-    <wsdl:operation name="getSynonym">
-      <soap12:operation soapAction="http://tempuri.org/getSynonym" style="document" />
+    <wsdl:operation name="GetSynonym">
+      <soap12:operation soapAction="http://tempuri.org/GetSynonym" style="document" />
       <wsdl:input>
         <soap12:body use="literal" />
       </wsdl:input>

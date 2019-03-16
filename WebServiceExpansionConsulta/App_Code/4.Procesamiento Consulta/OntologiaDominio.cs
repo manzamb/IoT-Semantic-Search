@@ -550,7 +550,7 @@ namespace ModeloSemantico_PU.ProcesamientoConsulta
                             //libreria IKVM.OpenJDK.ClassLibrary, jaws-bin
 
                             srvWordNet.WebServiceWordNet sinonimos = new srvWordNet.WebServiceWordNet();
-                            string sinonimo = sinonimos.getSynonym(concepto);
+                            string sinonimo = sinonimos.GetSynonym(concepto);
                             if (sinonimo != " ")
                                 this._conceptSynonym += " + " + sinonimo;
                         }
